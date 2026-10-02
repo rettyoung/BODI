@@ -25,6 +25,7 @@ agency's own docket system.
 
 | Source | What it gives | Process | Depth | Notes |
 |---|---|---|---|---|
+| Governors' newsrooms (TX, VA, GA, AZ, PA, OH, LA, NC) and PUCT news | Executive orders and directives — no docket exists for these | C | Full text | Added after the Aug 2026 Texas audit directive was missed. Keyword-filtered. |
 | FERC eLibrary (JSON API) | Every filing in watched dockets + keyword search across all filings | C | Full text | 15 watched dockets incl. EL25-49, EL26-67…72, RM26-4, AD24-11. Downloads via `DownloadP8File`. |
 | FERC news & Commission meeting pages | Orders, Commission actions, press | C | Full text | Page watcher. |
 | Federal Register API | Rules, notices, executive orders from FERC, DOE, EPA, NRC, EOP | C | Full text | Term filter (large load, data center, 202(c), co-location…). |
@@ -34,30 +35,30 @@ agency's own docket system.
 
 ### 1b. Market operators (all eight tracked as first-class entities)
 
-| RTO | Source | Process | Depth |
-|---|---|---|---|
-| PJM | Inside Lines RSS; FERC dockets (EL25-49, EL26-67, ER26-*) | C | Full text |
-| MISO | Media center (rendered); FERC dockets (EL26-70) | C | Full text |
-| SPP | Newsroom; FERC (EL26-68) | C | Full text |
-| ERCOT | Market notices; news releases; PUCT dockets (NPRR/PGRR approvals) | C | Full text |
-| CAISO | News releases (rendered); FERC (EL26-71) | C | Full text |
-| NYISO | Press releases; FERC (EL26-69) | C | Full text |
-| ISO-NE | Press releases; FERC (EL26-72) | C | Full text |
-| Western Power Pool / WRAP | News | C | Full text |
+| RTO | Source | Process | Depth | Notes |
+|---|---|---|---|---|
+| PJM | FERC dockets (EL25-49, EL26-67, ER26-*); Inside Lines RSS | C | Full text | Inside Lines now serves a CAPTCHA to automated clients — recorded, not bypassed; PJM content arrives via FERC and RTO Insider. |
+| MISO | Media center (rendered); FERC dockets (EL26-70) | C | Full text | |
+| SPP | Newsroom; FERC (EL26-68) | C | Full text | |
+| ERCOT | Market notices; news releases; PUCT dockets (NPRR/PGRR approvals) | C | Full text | |
+| CAISO | News releases (rendered); FERC (EL26-71) | C | Full text | |
+| NYISO | Press releases; FERC (EL26-69) | C | Full text | |
+| ISO-NE | Press releases; FERC (EL26-72) | C | Full text | |
+| Western Power Pool / WRAP | News | C | Full text | |
 
 ### 1c. State commissions — 18 jurisdictions
 
 | Jur. | Primary system | Process | Depth | Status / method |
 |---|---|---|---|---|
-| AZ | ACC eDocket JSON API (`efiling.azcc.gov/api/edocket`) | C, S | Full text | Search API works; document list route via Claude's reader (S) until the API route is confirmed. |
+| AZ | ACC eDocket JSON API (`efiling.azcc.gov/api/edocket`) | C, S | Full text | Docket search and full filing lists work (verified 2026-10-02); consumer-comment letters skipped. PDFs from `images.edocket.azcc.gov` (incomplete TLS chain completed via AIA; verification stays on). |
 | GA | GA PSC docket facts + document download API | C | Full text | |
 | TX | PUCT Interchange filing lists + `/Documents/*.PDF` | C | Full text (OCR on scanned filings) | TX figures from OCR stay *Reported* until re-read. |
 | LA | LPSC Valence portal (DocketSearch, Docket_Documents, RecentOrders) | C | Full text | Ligature-corrupted text is summarized, never quoted. |
 | MO | PSC EFIS (case search → filing display) | C | Full text | |
-| NM | PRC e360 case API (CaseX envelope) | C | Full text where documents resolve | Document endpoint being confirmed. |
+| NM | PRC e360 case API (CaseX envelope) | C, M | Case metadata (C); documents via manual pass | Case search works; the public-document endpoint returns empty with the documented envelope — being repaired from probe data. |
 | KS | KCC meeting minutes PDFs + kcc.ks.gov documents | C | Full text | Evergy ESAs under the LLPS tariff are never docketed — investor disclosure covers them. |
-| OK | OCC Laserfiche WebLink (case documents); GRDA board agendas/minutes | C | Full text | WebLink recovered 2026-10-02. GRDA has no commission docket; board pages are the record. |
-| AL | PSC public-access RSS (documents, hearings) | C | Full text | |
+| OK | OCC Laserfiche WebLink (case documents); GRDA board agendas/minutes | C | Full text | WebLink recovered 2026-10-02; each hit confirmed against the PUD cause number on page 1. GRDA has no commission docket; board pages are the record. |
+| AL | PSC public-access RSS (documents, hearings) | C, S | Full text | The PSC's RSS endpoints returned HTTP 500 (server fault) on 2026-10-02; Claude's reader covers the docket pages until they recover. |
 | PA | PUC docket pages | S | Full text | GitHub runners are refused at TLS; Claude's web reader works. |
 | VA | SCC docket search (Breeze API) | M + S fallback | Full text (M) | robots.txt admits named search engines only. Cloud fallback: utility/intervenor copies, FERC/SEC attachments, search. Allowlist letter drafted. |
 | NC | NCUC (`starw1`) | M + S fallback | Full text (M) | Cloudflare challenge. Fallback: NCUC main-site PDFs (C, mirror), NCUC subscription mail (S). Allowlist letter drafted. |
@@ -72,8 +73,15 @@ agency's own docket system.
 
 | Source | Issuers | Process | Depth | Notes |
 |---|---|---|---|---|
-| Events-and-presentations pages (rendered; PDF links harvested, never guessed) | AEP, Southern, Duke, Dominion, Entergy, Evergy, Exelon, Ameren, PPL, Pinnacle West, Xcel, OGE, Oncor, Fortis (for TEP), BHE (for NV Energy), TXNM | C | Full text | Full pass in earnings windows; quarter-over-quarter deltas against `pipeline_baselines_for_delta`. |
+| Events-and-presentations pages (rendered; PDF links harvested, never guessed) | AEP, Duke, Dominion, Entergy, Ameren, PPL, Pinnacle West, Xcel, Fortis (for TEP), TXNM | C | Full text | Full pass in earnings windows; quarter-over-quarter deltas against `pipeline_baselines_for_delta`. |
+| Same, where the IR page refuses automated clients | Southern (Incapsula), Evergy, Exelon, OGE, Oncor (robots.txt), BHE (CAPTCHA) | C (EDGAR exhibits) + S | Full text | Decks taken from 8-K exhibits, or found by search on the permitted q4cdn PDF host. The refusing pages are never fetched. |
 | EDGAR 8-K Item 2.02 / 7.01 | same + market participants | C | Full text | Earnings trigger; the deck itself comes from the IR page. |
+
+### 1d-bis. Party watch
+
+Any filing in a watched docket **by** Microsoft, Google, Amazon/AWS, Meta, Oracle, OpenAI, CoreWeave, the Data Center
+Coalition, major data-center developers, IPPs (Constellation, Vistra, NRG, Talen), industrial-customer groups or the
+main intervenors is tagged by the collector and treated as material by the Sweep (`parties` in the watchlist).
 
 ### 1e. News and licensed mail (discovery and cross-check — never sole basis for *Verified*)
 
@@ -120,4 +128,5 @@ Ranked by value to the deliverable per unit of effort. **Effort**: S = config ch
 | 15 | **Earnings call transcripts** | Management commentary on large-load pipeline not in decks | Licensed (CapIQ) or company-posted | S–M | Use CapIQ transcripts if the licence covers it. |
 | 16 | **S&P RRA / Halcyon / Energy Strategies / DELTa dataset** | Pre-structured docket tracking across all states | Licensed | S once licensed | Evaluate as a cross-check, not a replacement for primary filings. |
 | 17 | **LBNL / Grid Strategies large-load and queue studies** | Benchmarks for the narrative | Public PDFs | S | Annual watch. |
-| 18 | **FERC Form 1 / EQR** | Utility financial and wholesale contract data (special contracts, PPAs) | Public | L | Defer; low weekly value. |
+| 18 | **Colorado and Oregon** (Xcel Colorado 26AL-0137E; PacifiCorp UE 463) | Two of the most active large-load tariff proceedings outside the current 18 jurisdictions; the DCC Bi-Weekly already covers both | Both commissions' e-filing systems — reachability not yet probed | M | Scope decision first; then probe and add as collector or manual states. |
+| 19 | **FERC Form 1 / EQR** | Utility financial and wholesale contract data (special contracts, PPAs) | Public | L | Defer; low weekly value. |
