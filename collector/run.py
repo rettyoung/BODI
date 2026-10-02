@@ -34,6 +34,7 @@ MAX_DOCS = int(os.environ.get("MAX_DOCS", "160"))
 MAX_BYTES = 60 * 1024 * 1024
 ADAPTER_BUDGET_S = int(os.environ.get("ADAPTER_BUDGET_S", "420"))
 BUDGETS = {"ir_decks": 1200, "watch_pages": 900, "edgar": 900, "ferc": 600, "la_lpsc": 600, "mo_efis": 600}
+RUN_DEADLINE_S = int(os.environ.get("RUN_DEADLINE_S", str(70 * 60)))   # the job is killed at 90 min; stop well before
 BASELINE_SOURCES = {"watch_pages", "rss", "ir_decks", "mirrors"}   # undated lists: first sight = baseline
 
 
@@ -163,9 +164,25 @@ def main(only=None):
     kws = cfg.get("keywords", [])
     docs_budget = MAX_DOCS
     signal.signal(signal.SIGALRM, _alarm)
+    run_t0 = time.time()
+    # rotate the starting adapter each run so a slow source never starves the same ones behind it
+    names = [n for n in A.ADAPTERS if not only or n in only]
+    k = state["runs"] % len(names) if names else 0
+    order = names[k:] + names[:k]
 
-    for name, fn in A.ADAPTERS.items():
-        if only and name not in only:
+    def checkpoint():
+        state["last_run"] = now_utc()
+        health["finished"] = now_utc()
+        save_json(STATE, state)
+        save_json(os.path.join(DATA, "health", f"{today()}.json"), health)
+        save_json(os.path.join(DATA, "health", "latest.json"), health)
+
+    for name in order:
+        fn = A.ADAPTERS[name]
+        left = RUN_DEADLINE_S - (time.time() - run_t0)
+        if left < 60:
+            health["sources"][name] = {"status": "SKIPPED_RUN_DEADLINE", "note": "run deadline reached; first in line next run"}
+            print(name, "SKIPPED (run deadline)", flush=True)
             continue
         sst = state["sources"].setdefault(name, {"consecutive_failures": 0})
         cf = sst.get("consecutive_failures", 0)
@@ -181,7 +198,7 @@ def main(only=None):
         t0 = time.time()
         rec = {"since": ctx.since}
         print(f"{name}: since {ctx.since}", flush=True)
-        signal.alarm(BUDGETS.get(name, ADAPTER_BUDGET_S))
+        signal.alarm(int(max(30, min(BUDGETS.get(name, ADAPTER_BUDGET_S), left - 30))))
         try:
             items = fn(ctx) or []
             signal.alarm(0)
@@ -237,17 +254,15 @@ def main(only=None):
         rec["seconds"] = round(time.time() - t0, 1)
         rec["consecutive_failures"] = sst.get("consecutive_failures", 0)
         health["sources"][name] = rec
+        checkpoint()
         print(f"  -> {rec.get('status')} found={rec.get('found')} new={rec.get('new')} kept={rec.get('kept')} {rec.get('error', '')}", flush=True)
 
     # prune seen ids older than 400 days
     cutoff = (dt.date.today() - dt.timedelta(days=400)).isoformat()
     state["seen"] = {k: v for k, v in state["seen"].items() if v >= cutoff}
-    state["last_run"] = now_utc()
-    health["finished"] = now_utc()
     health["http_hosts"] = {h: {"robots": str(s.robots_status), "note": s.robots_note} for h, s in http.hosts.items()}
-    save_json(STATE, state)
-    save_json(os.path.join(DATA, "health", f"{today()}.json"), health)
-    save_json(os.path.join(DATA, "health", "latest.json"), health)
+    health["seconds"] = round(time.time() - run_t0)
+    checkpoint()
     bad = [k for k, v in health["sources"].items() if v.get("status") not in ("ok",)]
     print("DONE new_items", health["new_items"], "docs", health["docs_fetched"], "problem sources:", bad)
 

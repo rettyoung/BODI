@@ -57,9 +57,20 @@ jobs:
           python - <<'EOF'
           import json, subprocess
           h = json.load(open("data/health/latest.json"))
-          bad = {k: v for k, v in h["sources"].items() if v.get("status") != "ok" and v.get("consecutive_failures", 0) >= 2}
+          bad = {k: v for k, v in h["sources"].items()
+                 if v.get("status") not in ("ok", "SKIPPED_RUN_DEADLINE") and v.get("consecutive_failures", 0) >= 2}
+          title = "Collector health: sources failing on consecutive runs"
+          found = subprocess.run(["gh", "issue", "list", "--state", "open", "--search", f"in:title {title}", "--json", "number,title"],
+                                 capture_output=True, text=True).stdout
+          num = next((i["number"] for i in json.loads(found or "[]") if i["title"] == title), None)
           if bad:
-              body = "\n".join(f"- **{k}**: {v.get('status')} ({v.get('consecutive_failures')} runs) {v.get('error','')}" for k, v in bad.items())
-              subprocess.run(["gh", "issue", "create", "--title", f"Collector: {len(bad)} source(s) failing — {h['run_id']}",
-                              "--body", body + "\n\nThe Monday Sweep reads this and proposes a fix by pull request."], check=False)
+              body = (f"Run {h['run_id']}\n\n" + "\n".join(
+                  f"- **{k}**: {v.get('status')} ({v.get('consecutive_failures')} runs) {v.get('error','')}" for k, v in bad.items())
+                  + "\n\nUpdated each night. The Monday Sweep reads this and proposes a fix by pull request.")
+              if num:
+                  subprocess.run(["gh", "issue", "edit", str(num), "--body", body], check=False)
+              else:
+                  subprocess.run(["gh", "issue", "create", "--title", title, "--body", body], check=False)
+          elif num:
+              subprocess.run(["gh", "issue", "close", str(num), "--comment", f"All sources healthy as of {h['run_id']}."], check=False)
           EOF
