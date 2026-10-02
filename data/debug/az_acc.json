@@ -1,122 +1,8 @@
 {
  "adapter": "az_acc",
  "since": "2026-06-01",
- "items": 332,
+ "items": 243,
  "sample": [
-  {
-   "id": "AZ:470115",
-   "jur": "AZ",
-   "source": "az_acc",
-   "kind": "filing",
-   "docket": "E-01345A-25-0105",
-   "title": "Consumer Comments/Letters - Miscellaneous",
-   "filed": "2026-10-02",
-   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
-   "entity": "Abhay Padgaonkar",
-   "fetch": [
-    {
-     "url": "https://images.edocket.azcc.gov/docketpdf/E000054758.pdf"
-    }
-   ],
-   "meta": {
-    "docketID": 29551
-   }
-  },
-  {
-   "id": "AZ:470101",
-   "jur": "AZ",
-   "source": "az_acc",
-   "kind": "filing",
-   "docket": "E-01345A-25-0105",
-   "title": "Consumer Comments - In Support",
-   "filed": "2026-10-02",
-   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
-   "entity": "Terri Kimble ",
-   "fetch": [
-    {
-     "url": "https://images.edocket.azcc.gov/docketpdf/E000054751.pdf"
-    }
-   ],
-   "meta": {
-    "docketID": 29551
-   }
-  },
-  {
-   "id": "AZ:470013",
-   "jur": "AZ",
-   "source": "az_acc",
-   "kind": "filing",
-   "docket": "E-01345A-25-0105",
-   "title": "Consumer Comments - In Opposition",
-   "filed": "2026-10-01",
-   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
-   "entity": "Various Consumers ",
-   "fetch": [
-    {
-     "url": "https://images.edocket.azcc.gov/docketpdf/E000054703.pdf"
-    }
-   ],
-   "meta": {
-    "docketID": 29551
-   }
-  },
-  {
-   "id": "AZ:469908",
-   "jur": "AZ",
-   "source": "az_acc",
-   "kind": "filing",
-   "docket": "E-01345A-25-0105",
-   "title": "Consumer Comments - In Opposition",
-   "filed": "2026-09-29",
-   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
-   "entity": "Various Consumers ",
-   "fetch": [
-    {
-     "url": "https://images.edocket.azcc.gov/docketpdf/E000054651.pdf"
-    }
-   ],
-   "meta": {
-    "docketID": 29551
-   }
-  },
-  {
-   "id": "AZ:469883",
-   "jur": "AZ",
-   "source": "az_acc",
-   "kind": "filing",
-   "docket": "E-01345A-25-0105",
-   "title": "Consumer Comments - In Opposition",
-   "filed": "2026-09-29",
-   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
-   "entity": "Garrett Corral and Sherry L. Ratner ",
-   "fetch": [
-    {
-     "url": "https://images.edocket.azcc.gov/docketpdf/E000054630.pdf"
-    }
-   ],
-   "meta": {
-    "docketID": 29551
-   }
-  },
-  {
-   "id": "AZ:469821",
-   "jur": "AZ",
-   "source": "az_acc",
-   "kind": "filing",
-   "docket": "E-01345A-25-0105",
-   "title": "Consumer Comments - In Opposition",
-   "filed": "2026-09-25",
-   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
-   "entity": "Kelly Galindo",
-   "fetch": [
-    {
-     "url": "https://images.edocket.azcc.gov/docketpdf/E000054599.pdf"
-    }
-   ],
-   "meta": {
-    "docketID": 29551
-   }
-  },
   {
    "id": "AZ:469707",
    "jur": "AZ",
@@ -137,18 +23,132 @@
    }
   },
   {
-   "id": "AZ:469679",
+   "id": "AZ:469242",
    "jur": "AZ",
    "source": "az_acc",
    "kind": "filing",
    "docket": "E-01345A-25-0105",
-   "title": "Consumer Comments - In Opposition",
-   "filed": "2026-09-23",
+   "title": "Brief",
+   "filed": "2026-09-11",
    "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
-   "entity": "Eddie Flores",
+   "entity": "Autumn T. Johnson, Atty. ",
    "fetch": [
     {
-     "url": "https://images.edocket.azcc.gov/docketpdf/E000054532.pdf"
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054306.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:469232",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Brief",
+   "filed": "2026-09-11",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Kurt J. Boehm, Atty.",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054296.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:469230",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Brief",
+   "filed": "2026-09-11",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Patrick J. Black, Atty.",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054294.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:469229",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Brief",
+   "filed": "2026-09-11",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Jeffrey S. Allmon, Atty.",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054293.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:469228",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Utilities Division Brief",
+   "filed": "2026-09-11",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Maureen A. Scott, Senior Associate General Counsel and Chief of Litigation & Appeals",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054292.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:469227",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Brief",
+   "filed": "2026-09-11",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Kartik Raj, Atty. ",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054291.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:469226",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Brief",
+   "filed": "2026-09-11",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Court S. Rich, Atty",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054290.pdf"
     }
    ],
    "meta": {

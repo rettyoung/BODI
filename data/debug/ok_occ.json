@@ -1,260 +1,61 @@
 {
  "adapter": "ok_occ",
  "since": "2026-06-01",
- "items": 197,
- "sample": [
-  {
-   "id": "OK:20572318",
-   "jur": "OK",
-   "source": "ok_occ",
-   "kind": "filing",
-   "docket": "PUD2026-000031",
-   "title": "755282",
-   "filed": null,
-   "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=20572318&dbid=0&repo=OCC",
-   "fetch": [
-    {
-     "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=20572318&dbid=0&repo=OCC"
-    }
-   ],
-   "meta": {
-    "raw": {
-     "name": "755282",
-     "entryId": 20572318,
-     "type": -2,
-     "shortcutTargetId": 0,
-     "targetType": -2,
-     "pathToImage": "~/images/batch-icon.gif",
-     "iconClass": "DocumentBrowserNameImage",
-     "extension": "",
-     "multiValueFields": null,
-     "isEdoc": false,
-     "entryProperties": "10 pages ",
-     "contexthits": []
-    }
-   }
-  },
-  {
-   "id": "OK:20913763",
-   "jur": "OK",
-   "source": "ok_occ",
-   "kind": "filing",
-   "docket": "PUD2026-000031",
-   "title": "757943",
-   "filed": null,
-   "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=20913763&dbid=0&repo=OCC",
-   "fetch": [
-    {
-     "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=20913763&dbid=0&repo=OCC"
-    }
-   ],
-   "meta": {
-    "raw": {
-     "name": "757943",
-     "entryId": 20913763,
-     "type": -2,
-     "shortcutTargetId": 0,
-     "targetType": -2,
-     "pathToImage": "~/images/batch-icon.gif",
-     "iconClass": "DocumentBrowserNameImage",
-     "extension": "",
-     "multiValueFields": null,
-     "isEdoc": false,
-     "entryProperties": "12 pages ",
-     "contexthits": []
-    }
-   }
-  },
-  {
-   "id": "OK:20871792",
-   "jur": "OK",
-   "source": "ok_occ",
-   "kind": "filing",
-   "docket": "PUD2026-000031",
-   "title": "757971",
-   "filed": null,
-   "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=20871792&dbid=0&repo=OCC",
-   "fetch": [
-    {
-     "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=20871792&dbid=0&repo=OCC"
-    }
-   ],
-   "meta": {
-    "raw": {
-     "name": "757971",
-     "entryId": 20871792,
-     "type": -2,
-     "shortcutTargetId": 0,
-     "targetType": -2,
-     "pathToImage": "~/images/batch-icon.gif",
-     "iconClass": "DocumentBrowserNameImage",
-     "extension": "",
-     "multiValueFields": null,
-     "isEdoc": false,
-     "entryProperties": "4 pages ",
-     "contexthits": []
-    }
-   }
-  },
-  {
-   "id": "OK:20943652",
-   "jur": "OK",
-   "source": "ok_occ",
-   "kind": "filing",
-   "docket": "PUD2026-000031",
-   "title": "758157",
-   "filed": null,
-   "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=20943652&dbid=0&repo=OCC",
-   "fetch": [
-    {
-     "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=20943652&dbid=0&repo=OCC"
-    }
-   ],
-   "meta": {
-    "raw": {
-     "name": "758157",
-     "entryId": 20943652,
-     "type": -2,
-     "shortcutTargetId": 0,
-     "targetType": -2,
-     "pathToImage": "~/images/batch-icon.gif",
-     "iconClass": "DocumentBrowserNameImage",
-     "extension": "",
-     "multiValueFields": null,
-     "isEdoc": false,
-     "entryProperties": "5 pages ",
-     "contexthits": []
-    }
-   }
-  },
-  {
-   "id": "OK:20939280",
-   "jur": "OK",
-   "source": "ok_occ",
-   "kind": "filing",
-   "docket": "PUD2026-000031",
-   "title": "758316",
-   "filed": null,
-   "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=20939280&dbid=0&repo=OCC",
-   "fetch": [
-    {
-     "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=20939280&dbid=0&repo=OCC"
-    }
-   ],
-   "meta": {
-    "raw": {
-     "name": "758316",
-     "entryId": 20939280,
-     "type": -2,
-     "shortcutTargetId": 0,
-     "targetType": -2,
-     "pathToImage": "~/images/batch-icon.gif",
-     "iconClass": "DocumentBrowserNameImage",
-     "extension": "",
-     "multiValueFields": null,
-     "isEdoc": false,
-     "entryProperties": "5 pages ",
-     "contexthits": []
-    }
-   }
-  },
-  {
-   "id": "OK:20939303",
-   "jur": "OK",
-   "source": "ok_occ",
-   "kind": "filing",
-   "docket": "PUD2026-000031",
-   "title": "758317",
-   "filed": null,
-   "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=20939303&dbid=0&repo=OCC",
-   "fetch": [
-    {
-     "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=20939303&dbid=0&repo=OCC"
-    }
-   ],
-   "meta": {
-    "raw": {
-     "name": "758317",
-     "entryId": 20939303,
-     "type": -2,
-     "shortcutTargetId": 0,
-     "targetType": -2,
-     "pathToImage": "~/images/batch-icon.gif",
-     "iconClass": "DocumentBrowserNameImage",
-     "extension": "",
-     "multiValueFields": null,
-     "isEdoc": false,
-     "entryProperties": "6 pages ",
-     "contexthits": []
-    }
-   }
-  },
-  {
-   "id": "OK:20939308",
-   "jur": "OK",
-   "source": "ok_occ",
-   "kind": "filing",
-   "docket": "PUD2026-000031",
-   "title": "758318",
-   "filed": null,
-   "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=20939308&dbid=0&repo=OCC",
-   "fetch": [
-    {
-     "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=20939308&dbid=0&repo=OCC"
-    }
-   ],
-   "meta": {
-    "raw": {
-     "name": "758318",
-     "entryId": 20939308,
-     "type": -2,
-     "shortcutTargetId": 0,
-     "targetType": -2,
-     "pathToImage": "~/images/batch-icon.gif",
-     "iconClass": "DocumentBrowserNameImage",
-     "extension": "",
-     "multiValueFields": null,
-     "isEdoc": false,
-     "entryProperties": "4 pages ",
-     "contexthits": []
-    }
-   }
-  },
-  {
-   "id": "OK:20939316",
-   "jur": "OK",
-   "source": "ok_occ",
-   "kind": "filing",
-   "docket": "PUD2026-000031",
-   "title": "758319",
-   "filed": null,
-   "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=20939316&dbid=0&repo=OCC",
-   "fetch": [
-    {
-     "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=20939316&dbid=0&repo=OCC"
-    }
-   ],
-   "meta": {
-    "raw": {
-     "name": "758319",
-     "entryId": 20939316,
-     "type": -2,
-     "shortcutTargetId": 0,
-     "targetType": -2,
-     "pathToImage": "~/images/batch-icon.gif",
-     "iconClass": "DocumentBrowserNameImage",
-     "extension": "",
-     "multiValueFields": null,
-     "isEdoc": false,
-     "entryProperties": "4 pages ",
-     "contexthits": []
-    }
-   }
-  }
- ],
+ "items": 0,
+ "sample": [],
  "notes": [
   "ok PUD2026-000031: hitCount 167 after 5 variants",
-  "ok PUD2026-000046: hitCount 97 after 5 variants"
+  "ok text 21347448: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21347415: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21347067: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21330509: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21319880: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21317734: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21310595: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21308655: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21302093: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21300387: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299522: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299516: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299400: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299398: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299397: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299378: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299342: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299341: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299339: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299337: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299331: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299328: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299323: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299322: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21299318: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok PUD2026-000046: hitCount 97 after 5 variants",
+  "ok text 21384465: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21383680: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21383678: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21383386: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21379868: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21362576: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21362552: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21362467: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21362465: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21362458: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21362455: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21354473: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21354331: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21354315: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21354312: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21354172: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21354164: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21353967: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21351151: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21332545: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21321323: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21311681: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21310653: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21216943: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+  "ok text 21205773: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
  ],
  "sub": {},
  "exchanges": [
@@ -273,8 +74,8 @@
    "req": "{\"repoName\": \"OCC\", \"searchFormID\": \"ImagedCaseDocumentsfiledafter3212022\", \"queryValues\": {\"ImagedCaseDocumentsfiledafter3212022_Input0\": [\"PUD2026-000031\"]}}",
    "status": 200,
    "ctype": "application/json; charset=utf-8",
-   "len": 182,
-   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"PUD2026-000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"F8m1kMRjEvnLp9rM82Ci\"}"
+   "len": 190,
+   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"PUD2026-000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"WiTJuxeo+pLQ0N4xdcDMroTUMkCy\"}"
   },
   {
    "method": "POST",
@@ -282,8 +83,8 @@
    "req": "{\"repoName\": \"OCC\", \"searchSyn\": \"({[]:[ECF Case Number]=\\\"PUD2026-000031\\\"} & ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial & Legislative\\\\ECF\\\"}) & {LF:templateid=52})\", \"searchUuid\": \"\", \"sortColumn\": \"\", \"startIdx\": 0, \"endIdx\": 100, \"getNewListing\": true, \"sortOrder\": 2, \"displayInGridView\": false}",
    "status": 200,
    "ctype": "application/json; charset=utf-8",
-   "len": 3228,
-   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"PUD2026-000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[],\"failed\":false,\"errMsg\":null,\"entryPropsDisplay\":2,\"contextHitDisplay\":2,\"metadataDisplay\":0,\"userSelectedFieldsDisplay\":2,\"thumbnailsDisplay\":2,\"showUserPropertiesAsList\":false,\"showMetadataAsList\":false,\"showEmptyUserProperties\":false,\"sortColumns\":[{\"localizedName\":\"Name\",\"name\":\"Name\"},{\"localizedName\":\"Relevance\",\"name\":\"RelevanceRanking\"},{\"localizedName\":\"Date created\",\"name\":\"CreationDate\"},{\"localizedName\":\"Date modified\",\"name\":\"LastModified\"}],\"sortAscending\":true,\"hitCount\":0,\"propertiesOrder\":[\"E\",\"U\",\"C\",\"T\",\"M\"],\"openIfOneResult\":false,\"showColumnPicker\":false,\"displayRelevanceColumn\":false,\"searchUUID\":\"01d2a650-6743-477d-a918-fa22f8d705de\"}, \"__breach\": \"S1zgpxAYqOBnMRh5zJqoyn0SoK\"}"
+   "len": 3229,
+   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"PUD2026-000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[],\"failed\":false,\"errMsg\":null,\"entryPropsDisplay\":2,\"contextHitDisplay\":2,\"metadataDisplay\":0,\"userSelectedFieldsDisplay\":2,\"thumbnailsDisplay\":2,\"showUserPropertiesAsList\":false,\"showMetadataAsList\":false,\"showEmptyUserProperties\":false,\"sortColumns\":[{\"localizedName\":\"Name\",\"name\":\"Name\"},{\"localizedName\":\"Relevance\",\"name\":\"RelevanceRanking\"},{\"localizedName\":\"Date created\",\"name\":\"CreationDate\"},{\"localizedName\":\"Date modified\",\"name\":\"LastModified\"}],\"sortAscending\":true,\"hitCount\":0,\"propertiesOrder\":[\"E\",\"U\",\"C\",\"T\",\"M\"],\"openIfOneResult\":false,\"showColumnPicker\":false,\"displayRelevanceColumn\":false,\"searchUUID\":\"f3dcce3f-62b2-4de6-9622-b5587cf7a768\"}, \"__breach\": \"yOQmqUxI6AGOeytPQ+Zevpzbnf/\"}"
   },
   {
    "method": "POST",
@@ -291,8 +92,8 @@
    "req": "{\"repoName\": \"OCC\", \"searchFormID\": \"ImagedCaseDocumentsfiledafter3212022\", \"queryValues\": {\"ImagedCaseDocumentsfiledafter3212022_Input0\": [\"PUD 2026-000031\"]}}",
    "status": 200,
    "ctype": "application/json; charset=utf-8",
-   "len": 180,
-   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"PUD 2026-000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"lY6x4/joysGCAgYMB\"}"
+   "len": 193,
+   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"PUD 2026-000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"GCh1LrhIh0HSehQS6eYFQEu4qXmYss\"}"
   },
   {
    "method": "POST",
@@ -300,8 +101,8 @@
    "req": "{\"repoName\": \"OCC\", \"searchSyn\": \"({[]:[ECF Case Number]=\\\"PUD 2026-000031\\\"} & ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial & Legislative\\\\ECF\\\"}) & {LF:templateid=52})\", \"searchUuid\": \"\", \"sortColumn\": \"\", \"startIdx\": 0, \"endIdx\": 100, \"getNewListing\": true, \"sortOrder\": 2, \"displayInGridView\": false}",
    "status": 200,
    "ctype": "application/json; charset=utf-8",
-   "len": 3221,
-   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"PUD 2026-000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[],\"failed\":false,\"errMsg\":null,\"entryPropsDisplay\":2,\"contextHitDisplay\":2,\"metadataDisplay\":0,\"userSelectedFieldsDisplay\":2,\"thumbnailsDisplay\":2,\"showUserPropertiesAsList\":false,\"showMetadataAsList\":false,\"showEmptyUserProperties\":false,\"sortColumns\":[{\"localizedName\":\"Name\",\"name\":\"Name\"},{\"localizedName\":\"Relevance\",\"name\":\"RelevanceRanking\"},{\"localizedName\":\"Date created\",\"name\":\"CreationDate\"},{\"localizedName\":\"Date modified\",\"name\":\"LastModified\"}],\"sortAscending\":true,\"hitCount\":0,\"propertiesOrder\":[\"E\",\"U\",\"C\",\"T\",\"M\"],\"openIfOneResult\":false,\"showColumnPicker\":false,\"displayRelevanceColumn\":false,\"searchUUID\":\"1728afc2-8b73-4353-86a8-75228a768def\"}, \"__breach\": \"C7bLWSCZJW8vAg95jb\"}"
+   "len": 3232,
+   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"PUD 2026-000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[],\"failed\":false,\"errMsg\":null,\"entryPropsDisplay\":2,\"contextHitDisplay\":2,\"metadataDisplay\":0,\"userSelectedFieldsDisplay\":2,\"thumbnailsDisplay\":2,\"showUserPropertiesAsList\":false,\"showMetadataAsList\":false,\"showEmptyUserProperties\":false,\"sortColumns\":[{\"localizedName\":\"Name\",\"name\":\"Name\"},{\"localizedName\":\"Relevance\",\"name\":\"RelevanceRanking\"},{\"localizedName\":\"Date created\",\"name\":\"CreationDate\"},{\"localizedName\":\"Date modified\",\"name\":\"LastModified\"}],\"sortAscending\":true,\"hitCount\":0,\"propertiesOrder\":[\"E\",\"U\",\"C\",\"T\",\"M\"],\"openIfOneResult\":false,\"showColumnPicker\":false,\"displayRelevanceColumn\":false,\"searchUUID\":\"4e5696e0-cfd1-45c2-84de-ee1b48318866\"}, \"__breach\": \"0ncSs7TmqfOV/2+yEJZl+cwq0IbbH\"}"
   },
   {
    "method": "POST",
@@ -309,8 +110,8 @@
    "req": "{\"repoName\": \"OCC\", \"searchFormID\": \"ImagedCaseDocumentsfiledafter3212022\", \"queryValues\": {\"ImagedCaseDocumentsfiledafter3212022_Input0\": [\"PUD2026000031\"]}}",
    "status": 200,
    "ctype": "application/json; charset=utf-8",
-   "len": 180,
-   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"PUD2026000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"uZOxAa/BC9HlrQcJzg5\"}"
+   "len": 192,
+   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"PUD2026000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"ZCcyX0Kt9ADMD9fe8qUVwdUMrmBaJuc\"}"
   },
   {
    "method": "POST",
@@ -318,8 +119,8 @@
    "req": "{\"repoName\": \"OCC\", \"searchSyn\": \"({[]:[ECF Case Number]=\\\"PUD2026000031\\\"} & ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial & Legislative\\\\ECF\\\"}) & {LF:templateid=52})\", \"searchUuid\": \"\", \"sortColumn\": \"\", \"startIdx\": 0, \"endIdx\": 100, \"getNewListing\": true, \"sortOrder\": 2, \"displayInGridView\": false}",
    "status": 200,
    "ctype": "application/json; charset=utf-8",
-   "len": 3229,
-   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"PUD2026000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[],\"failed\":false,\"errMsg\":null,\"entryPropsDisplay\":2,\"contextHitDisplay\":2,\"metadataDisplay\":0,\"userSelectedFieldsDisplay\":2,\"thumbnailsDisplay\":2,\"showUserPropertiesAsList\":false,\"showMetadataAsList\":false,\"showEmptyUserProperties\":false,\"sortColumns\":[{\"localizedName\":\"Name\",\"name\":\"Name\"},{\"localizedName\":\"Relevance\",\"name\":\"RelevanceRanking\"},{\"localizedName\":\"Date created\",\"name\":\"CreationDate\"},{\"localizedName\":\"Date modified\",\"name\":\"LastModified\"}],\"sortAscending\":true,\"hitCount\":0,\"propertiesOrder\":[\"E\",\"U\",\"C\",\"T\",\"M\"],\"openIfOneResult\":false,\"showColumnPicker\":false,\"displayRelevanceColumn\":false,\"searchUUID\":\"73c9e21f-cad9-4810-95a9-e74cccb0521b\"}, \"__breach\": \"pkw0n2WH30f3nsEE4gCcyq7wvr05\"}"
+   "len": 3218,
+   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"PUD2026000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[],\"failed\":false,\"errMsg\":null,\"entryPropsDisplay\":2,\"contextHitDisplay\":2,\"metadataDisplay\":0,\"userSelectedFieldsDisplay\":2,\"thumbnailsDisplay\":2,\"showUserPropertiesAsList\":false,\"showMetadataAsList\":false,\"showEmptyUserProperties\":false,\"sortColumns\":[{\"localizedName\":\"Name\",\"name\":\"Name\"},{\"localizedName\":\"Relevance\",\"name\":\"RelevanceRanking\"},{\"localizedName\":\"Date created\",\"name\":\"CreationDate\"},{\"localizedName\":\"Date modified\",\"name\":\"LastModified\"}],\"sortAscending\":true,\"hitCount\":0,\"propertiesOrder\":[\"E\",\"U\",\"C\",\"T\",\"M\"],\"openIfOneResult\":false,\"showColumnPicker\":false,\"displayRelevanceColumn\":false,\"searchUUID\":\"c8e2f614-919d-42e2-b974-12858df96231\"}, \"__breach\": \"C83+islExVpZ2TY5z\"}"
   },
   {
    "method": "POST",
@@ -327,8 +128,8 @@
    "req": "{\"repoName\": \"OCC\", \"searchFormID\": \"ImagedCaseDocumentsfiledafter3212022\", \"queryValues\": {\"ImagedCaseDocumentsfiledafter3212022_Input0\": [\"PUD 2026000031\"]}}",
    "status": 200,
    "ctype": "application/json; charset=utf-8",
-   "len": 180,
-   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"PUD 2026000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"5yKGFCcjuhOeyC1atM\"}"
+   "len": 179,
+   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"PUD 2026000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"qi2jIsSi2MgBhXphD\"}"
   },
   {
    "method": "POST",
@@ -336,8 +137,8 @@
    "req": "{\"repoName\": \"OCC\", \"searchSyn\": \"({[]:[ECF Case Number]=\\\"PUD 2026000031\\\"} & ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial & Legislative\\\\ECF\\\"}) & {LF:templateid=52})\", \"searchUuid\": \"\", \"sortColumn\": \"\", \"startIdx\": 0, \"endIdx\": 100, \"getNewListing\": true, \"sortOrder\": 2, \"displayInGridView\": false}",
    "status": 200,
    "ctype": "application/json; charset=utf-8",
-   "len": 3224,
-   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"PUD 2026000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[],\"failed\":false,\"errMsg\":null,\"entryPropsDisplay\":2,\"contextHitDisplay\":2,\"metadataDisplay\":0,\"userSelectedFieldsDisplay\":2,\"thumbnailsDisplay\":2,\"showUserPropertiesAsList\":false,\"showMetadataAsList\":false,\"showEmptyUserProperties\":false,\"sortColumns\":[{\"localizedName\":\"Name\",\"name\":\"Name\"},{\"localizedName\":\"Relevance\",\"name\":\"RelevanceRanking\"},{\"localizedName\":\"Date created\",\"name\":\"CreationDate\"},{\"localizedName\":\"Date modified\",\"name\":\"LastModified\"}],\"sortAscending\":true,\"hitCount\":0,\"propertiesOrder\":[\"E\",\"U\",\"C\",\"T\",\"M\"],\"openIfOneResult\":false,\"showColumnPicker\":false,\"displayRelevanceColumn\":false,\"searchUUID\":\"1f52af06-288d-4226-954d-23326ebea0bf\"}, \"__breach\": \"R2Mrj0c9Kgl/FAlMTrxt/w\"}"
+   "len": 3231,
+   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"PUD 2026000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[],\"failed\":false,\"errMsg\":null,\"entryPropsDisplay\":2,\"contextHitDisplay\":2,\"metadataDisplay\":0,\"userSelectedFieldsDisplay\":2,\"thumbnailsDisplay\":2,\"showUserPropertiesAsList\":false,\"showMetadataAsList\":false,\"showEmptyUserProperties\":false,\"sortColumns\":[{\"localizedName\":\"Name\",\"name\":\"Name\"},{\"localizedName\":\"Relevance\",\"name\":\"RelevanceRanking\"},{\"localizedName\":\"Date created\",\"name\":\"CreationDate\"},{\"localizedName\":\"Date modified\",\"name\":\"LastModified\"}],\"sortAscending\":true,\"hitCount\":0,\"propertiesOrder\":[\"E\",\"U\",\"C\",\"T\",\"M\"],\"openIfOneResult\":false,\"showColumnPicker\":false,\"displayRelevanceColumn\":false,\"searchUUID\":\"1615bfa2-2e8e-4a02-9c37-bae4a40e8231\"}, \"__breach\": \"KsHVAuBuhdUdryxqY+hCiosfCJoec\"}"
   },
   {
    "method": "POST",
@@ -345,8 +146,8 @@
    "req": "{\"repoName\": \"OCC\", \"searchFormID\": \"ImagedCaseDocumentsfiledafter3212022\", \"queryValues\": {\"ImagedCaseDocumentsfiledafter3212022_Input0\": [\"2026-000031\"]}}",
    "status": 200,
    "ctype": "application/json; charset=utf-8",
-   "len": 182,
-   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"2026-000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"gUDSJBVOYZ6tmRlR5oTUv4u\"}"
+   "len": 175,
+   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"2026-000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"4NlaDhc1QJrwVTmR\"}"
   },
   {
    "method": "POST",
@@ -354,101 +155,634 @@
    "req": "{\"repoName\": \"OCC\", \"searchSyn\": \"({[]:[ECF Case Number]=\\\"2026-000031\\\"} & ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial & Legislative\\\\ECF\\\"}) & {LF:templateid=52})\", \"searchUuid\": \"\", \"sortColumn\": \"\", \"startIdx\": 0, \"endIdx\": 100, \"getNewListing\": true, \"sortOrder\": 2, \"displayInGridView\": false}",
    "status": 200,
    "ctype": "application/json; charset=utf-8",
-   "len": 144342,
+   "len": 144351,
    "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"2026-000031\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[{\"name\":\"755282\",\"entryId\":20572318,\"type\":-2,\"shortcutTargetId\":0,\"targetType\":-2,\"pathToImage\":\"~/images/batch-icon.gif\",\"iconClass\":\"DocumentBrowserNameImage\",\"extension\":\"\",\"multiValueFields\":null,\"isEdoc\":false,\"entryProperties\":\"10 pages \",\"contexthits\":[],\"metadata\":[{\"name\":\"Applicant\",\"values\":[\"WFD OIL CORPORATION\"],\"isMvfg\":false},{\"name\":\"Case Number\",\"values\":[\"CD2026-000031\"],\"isMvfg\":false},{\"name\":\"County\",\"values\":[\"Okmulgee\"],\"isMvfg\":false},{\"name\":\"Date Received\",\"values\":[\"2/3/2026\"],\"isMvfg\":false},{\"name\":\"Delib. Comments\",\"values\":[\"None\"],\"isMvfg\":false},{\"name\":\"Delib. Decision\",\"values\":[\"Approved\"],\"isMvfg\":false},{\"name\":\"Delib. Reviewer\",\"values\":[\"Michael Porter\"],\"isMvfg\":false},{\"name\":\"ECF Case Number\",\"values\":[\"2026-000031\"],\"isMvfg\":false},{\"name\":\"ECF Case Type\",\"values\":[\"Conservation Docket\"],\"isMvfg\":false},{\"name\":\"ECF Confidential\",\"values\":[\"Non-Confidential\"],\"isMvfg\":false},{\"name\":\"ECF Division\",\"values\":[\"OG\"],\"isMvfg\":false},{\"name\":\"ECF Docket Date\",\"values\":[\"2/12/2026\"],\"isMvfg\":false},{\"name\":\"ECF Document Type\",\"values\":[\"Final Order\"],\"isMvfg\":false},{\"name\":\"ECF Order Flattened\",\"values\":[\"Processed\"],\"isMvfg\":false},{\"name\":\"ECF Order Id\",\"values\":[\"36432\"],\"isMvfg\":false},{\"name\":\"ECF Order Number\",\"values\":[\"755282\"],\"isMvfg\":false},{\"name\":\"ECF Pending Order Status\",\"values\":[\"Completed\"],\"isMvfg\":false},{\"name\":\"ECF Relief Types\",\"values\":[\"Pooling\"],\"isMvfg\":false},{\"name\":\"Entry ID\",\"values\":[\"20572318\"],\"isMvfg\":false},{\"name\":\"Hearing Date\",\"values\":[\"1/27/2026\"],\"isMvfg\":false},{\"name\":\"Optional Procedure?\",\"values\":[\"No\"],\"isMvfg\":false},{\"name\":\"Order Status\",\"values\":[\"Finalized\"],\"isMvfg\":false},{\"name\":\"Order Title\",\"values\":[\"ORDER OF THE COMMISSION\"],\"isMvfg\":false},{\"name\":\"Order Type\",\"values\":[\"Final\"],\"isMvfg\":false},{\"name\":\"Range\",\"values\":[\"11E\"],\"isMvfg\":false},{\"name\":\"Region\",\"values\":[\"OKC\"],\"isMvfg\":false},{\"name\":\"Relief Type\",\"values\":[\"Pooling\"],\"isMvfg\":false},{\"name\":\"Section\",\"values\":[\"7\"],\"isMvfg\":false},{\"name\":\"Signing Agenda Date\",\"values\":[\"2/12/2026\"],\"isMvfg\":false},{\"name\":\"Township\",\"values\":[\"14N\"],\"isMvfg\":false},{\"name\":\"Version\",\"values\":[\"New\"],\"isMvfg\":false}],\"thumbnailPageCount\":5,\"mediaMimeType\":null,\"mediaHandlerUrl\":null,\"tags\":[],\"data\":[\"755282\",\"\",\"\",\"\",\"\",\"Okmulgee\",\"\",\"\",\"\",\"\",\"1\",\"2/3/2026 9:14:38 PM\",\"Document\",\"20572318\",\"\",\"-2\",\"ECF Document\",\"2/12/2026 9:35:10 PM\",\"\"]},{\"name\":\"757943\",\"entryId\":20913763,\"type\":-2,\"shortcutTargetId\":0,\"targetType\":-2,\"pathToImage\":\"~/images/batch-icon.gif\",\"iconClass\":\"DocumentBrowserNameImage\",\"extension\":\"\",\"multiValueFields\":null,\"isEdoc\":false,\"entryProperties\":\"12 pages \",\"contexthits\":[],\"metadata\":[{\"name\":\"Administrative or Judicial?\",\"values\":[\"Judicial\"],\"isMvfg\":false},{\"name\":\"Case Number\",\"values\":[\"PUD2026-000031\"],\"isMvfg\":false},{\"name\":\"ECF Case Number\",\"values\":[\"2026-000031\"],\"isMvfg\":false},{\"name\":\"ECF Case Type\",\"values\":[\"Public Utility Docket\"],\"isMvfg\":false},{\"name\":\"ECF Confidential\",\"values\":[\"Non-Confidential\"],\"isMvfg\":false},{\"name\":\"ECF Division\",\"values\":[\"PUD\"],\"isMvfg\":false},{\"name\":\"ECF Docket Date\",\"values\":[\"5/27/2026\"],\"isMvfg\":false},{\"name\":\"ECF Document Type\",\"values\":[\"Other Motion Order\"],\"isMvfg\":false},{\"name\":\"ECF Order Flattened\",\"values\":[\"Processed\"],\"isMvfg\":false},{\"name\":\"ECF Order Id\",\"values\":[\"39162\"],\"isMvfg\":false},{\"name\":\"ECF Order Number\",\"values\":[\"757943\"],\"isMvfg\":false},{\"name\":\"ECF Pending Order Status\""
   },
   {
    "method": "POST",
-   "url": "https://public.occ.ok.gov/WebLink/CustomSearchService.aspx/GetSearchQuery",
-   "req": "{\"repoName\": \"OCC\", \"searchFormID\": \"ImagedCaseDocumentsfiledafter3212022\", \"queryValues\": {\"ImagedCaseDocumentsfiledafter3212022_Input0\": [\"PUD2026-000046\"]}}",
-   "status": 200,
-   "ctype": "application/json; charset=utf-8",
-   "len": 183,
-   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"PUD2026-000046\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"4eC+TFGhlwxYp5CE5D3Xl\"}"
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21347448, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
   },
   {
    "method": "POST",
-   "url": "https://public.occ.ok.gov/WebLink/SearchService.aspx/GetSearchListing",
-   "req": "{\"repoName\": \"OCC\", \"searchSyn\": \"({[]:[ECF Case Number]=\\\"PUD2026-000046\\\"} & ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial & Legislative\\\\ECF\\\"}) & {LF:templateid=52})\", \"searchUuid\": \"\", \"sortColumn\": \"\", \"startIdx\": 0, \"endIdx\": 100, \"getNewListing\": true, \"sortOrder\": 2, \"displayInGridView\": false}",
-   "status": 200,
-   "ctype": "application/json; charset=utf-8",
-   "len": 3229,
-   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"PUD2026-000046\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[],\"failed\":false,\"errMsg\":null,\"entryPropsDisplay\":2,\"contextHitDisplay\":2,\"metadataDisplay\":0,\"userSelectedFieldsDisplay\":2,\"thumbnailsDisplay\":2,\"showUserPropertiesAsList\":false,\"showMetadataAsList\":false,\"showEmptyUserProperties\":false,\"sortColumns\":[{\"localizedName\":\"Name\",\"name\":\"Name\"},{\"localizedName\":\"Relevance\",\"name\":\"RelevanceRanking\"},{\"localizedName\":\"Date created\",\"name\":\"CreationDate\"},{\"localizedName\":\"Date modified\",\"name\":\"LastModified\"}],\"sortAscending\":true,\"hitCount\":0,\"propertiesOrder\":[\"E\",\"U\",\"C\",\"T\",\"M\"],\"openIfOneResult\":false,\"showColumnPicker\":false,\"displayRelevanceColumn\":false,\"searchUUID\":\"76ee254c-7980-4687-ac0e-a35da4d708f9\"}, \"__breach\": \"z+IllEz5yYkR9pw1l1LL38uzGqF\"}"
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21347448, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
   },
   {
    "method": "POST",
-   "url": "https://public.occ.ok.gov/WebLink/CustomSearchService.aspx/GetSearchQuery",
-   "req": "{\"repoName\": \"OCC\", \"searchFormID\": \"ImagedCaseDocumentsfiledafter3212022\", \"queryValues\": {\"ImagedCaseDocumentsfiledafter3212022_Input0\": [\"PUD 2026-000046\"]}}",
-   "status": 200,
-   "ctype": "application/json; charset=utf-8",
-   "len": 184,
-   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"PUD 2026-000046\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"mf7tX2wJaa0o0mUKCVWcg\"}"
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21347448, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
   },
   {
    "method": "POST",
-   "url": "https://public.occ.ok.gov/WebLink/SearchService.aspx/GetSearchListing",
-   "req": "{\"repoName\": \"OCC\", \"searchSyn\": \"({[]:[ECF Case Number]=\\\"PUD 2026-000046\\\"} & ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial & Legislative\\\\ECF\\\"}) & {LF:templateid=52})\", \"searchUuid\": \"\", \"sortColumn\": \"\", \"startIdx\": 0, \"endIdx\": 100, \"getNewListing\": true, \"sortOrder\": 2, \"displayInGridView\": false}",
-   "status": 200,
-   "ctype": "application/json; charset=utf-8",
-   "len": 3227,
-   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"PUD 2026-000046\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[],\"failed\":false,\"errMsg\":null,\"entryPropsDisplay\":2,\"contextHitDisplay\":2,\"metadataDisplay\":0,\"userSelectedFieldsDisplay\":2,\"thumbnailsDisplay\":2,\"showUserPropertiesAsList\":false,\"showMetadataAsList\":false,\"showEmptyUserProperties\":false,\"sortColumns\":[{\"localizedName\":\"Name\",\"name\":\"Name\"},{\"localizedName\":\"Relevance\",\"name\":\"RelevanceRanking\"},{\"localizedName\":\"Date created\",\"name\":\"CreationDate\"},{\"localizedName\":\"Date modified\",\"name\":\"LastModified\"}],\"sortAscending\":true,\"hitCount\":0,\"propertiesOrder\":[\"E\",\"U\",\"C\",\"T\",\"M\"],\"openIfOneResult\":false,\"showColumnPicker\":false,\"displayRelevanceColumn\":false,\"searchUUID\":\"2763330a-d988-4117-b3ba-3207c3b136ee\"}, \"__breach\": \"BBJBAO/BUDuWRIfv+7Rn9WsS\"}"
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21347415, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
   },
   {
    "method": "POST",
-   "url": "https://public.occ.ok.gov/WebLink/CustomSearchService.aspx/GetSearchQuery",
-   "req": "{\"repoName\": \"OCC\", \"searchFormID\": \"ImagedCaseDocumentsfiledafter3212022\", \"queryValues\": {\"ImagedCaseDocumentsfiledafter3212022_Input0\": [\"PUD2026000046\"]}}",
-   "status": 200,
-   "ctype": "application/json; charset=utf-8",
-   "len": 182,
-   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"PUD2026000046\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"CtW/IiMknavakV/f+EGwD\"}"
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21347415, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
   },
   {
    "method": "POST",
-   "url": "https://public.occ.ok.gov/WebLink/SearchService.aspx/GetSearchListing",
-   "req": "{\"repoName\": \"OCC\", \"searchSyn\": \"({[]:[ECF Case Number]=\\\"PUD2026000046\\\"} & ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial & Legislative\\\\ECF\\\"}) & {LF:templateid=52})\", \"searchUuid\": \"\", \"sortColumn\": \"\", \"startIdx\": 0, \"endIdx\": 100, \"getNewListing\": true, \"sortOrder\": 2, \"displayInGridView\": false}",
-   "status": 200,
-   "ctype": "application/json; charset=utf-8",
-   "len": 3223,
-   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"PUD2026000046\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[],\"failed\":false,\"errMsg\":null,\"entryPropsDisplay\":2,\"contextHitDisplay\":2,\"metadataDisplay\":0,\"userSelectedFieldsDisplay\":2,\"thumbnailsDisplay\":2,\"showUserPropertiesAsList\":false,\"showMetadataAsList\":false,\"showEmptyUserProperties\":false,\"sortColumns\":[{\"localizedName\":\"Name\",\"name\":\"Name\"},{\"localizedName\":\"Relevance\",\"name\":\"RelevanceRanking\"},{\"localizedName\":\"Date created\",\"name\":\"CreationDate\"},{\"localizedName\":\"Date modified\",\"name\":\"LastModified\"}],\"sortAscending\":true,\"hitCount\":0,\"propertiesOrder\":[\"E\",\"U\",\"C\",\"T\",\"M\"],\"openIfOneResult\":false,\"showColumnPicker\":false,\"displayRelevanceColumn\":false,\"searchUUID\":\"2a82ead0-d8aa-4700-a56c-f9fa41605843\"}, \"__breach\": \"SoPletl8oThKM2mNjX/4+L\"}"
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21347415, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
   },
   {
    "method": "POST",
-   "url": "https://public.occ.ok.gov/WebLink/CustomSearchService.aspx/GetSearchQuery",
-   "req": "{\"repoName\": \"OCC\", \"searchFormID\": \"ImagedCaseDocumentsfiledafter3212022\", \"queryValues\": {\"ImagedCaseDocumentsfiledafter3212022_Input0\": [\"PUD 2026000046\"]}}",
-   "status": 200,
-   "ctype": "application/json; charset=utf-8",
-   "len": 179,
-   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"PUD 2026000046\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"SJQh8m22UX0OL1R38\"}"
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21347067, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
   },
   {
    "method": "POST",
-   "url": "https://public.occ.ok.gov/WebLink/SearchService.aspx/GetSearchListing",
-   "req": "{\"repoName\": \"OCC\", \"searchSyn\": \"({[]:[ECF Case Number]=\\\"PUD 2026000046\\\"} & ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial & Legislative\\\\ECF\\\"}) & {LF:templateid=52})\", \"searchUuid\": \"\", \"sortColumn\": \"\", \"startIdx\": 0, \"endIdx\": 100, \"getNewListing\": true, \"sortOrder\": 2, \"displayInGridView\": false}",
-   "status": 200,
-   "ctype": "application/json; charset=utf-8",
-   "len": 3230,
-   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"PUD 2026000046\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[],\"failed\":false,\"errMsg\":null,\"entryPropsDisplay\":2,\"contextHitDisplay\":2,\"metadataDisplay\":0,\"userSelectedFieldsDisplay\":2,\"thumbnailsDisplay\":2,\"showUserPropertiesAsList\":false,\"showMetadataAsList\":false,\"showEmptyUserProperties\":false,\"sortColumns\":[{\"localizedName\":\"Name\",\"name\":\"Name\"},{\"localizedName\":\"Relevance\",\"name\":\"RelevanceRanking\"},{\"localizedName\":\"Date created\",\"name\":\"CreationDate\"},{\"localizedName\":\"Date modified\",\"name\":\"LastModified\"}],\"sortAscending\":true,\"hitCount\":0,\"propertiesOrder\":[\"E\",\"U\",\"C\",\"T\",\"M\"],\"openIfOneResult\":false,\"showColumnPicker\":false,\"displayRelevanceColumn\":false,\"searchUUID\":\"e2cda030-e312-46ec-9f9f-05654b3b6c8a\"}, \"__breach\": \"2Mtzw0UKhDQEh4HHosyHlb+rHZQe\"}"
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21347067, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
   },
   {
    "method": "POST",
-   "url": "https://public.occ.ok.gov/WebLink/CustomSearchService.aspx/GetSearchQuery",
-   "req": "{\"repoName\": \"OCC\", \"searchFormID\": \"ImagedCaseDocumentsfiledafter3212022\", \"queryValues\": {\"ImagedCaseDocumentsfiledafter3212022_Input0\": [\"2026-000046\"]}}",
-   "status": 200,
-   "ctype": "application/json; charset=utf-8",
-   "len": 184,
-   "body": "{\"data\":\"({[]:[ECF Case Number]=\\\"2026-000046\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\", \"__breach\": \"0Y62AJ8ltkXZFGiPyQlSByk8r\"}"
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21347067, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
   },
   {
    "method": "POST",
-   "url": "https://public.occ.ok.gov/WebLink/SearchService.aspx/GetSearchListing",
-   "req": "{\"repoName\": \"OCC\", \"searchSyn\": \"({[]:[ECF Case Number]=\\\"2026-000046\\\"} & ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial & Legislative\\\\ECF\\\"}) & {LF:templateid=52})\", \"searchUuid\": \"\", \"sortColumn\": \"\", \"startIdx\": 0, \"endIdx\": 100, \"getNewListing\": true, \"sortOrder\": 2, \"displayInGridView\": false}",
-   "status": 200,
-   "ctype": "application/json; charset=utf-8",
-   "len": 138102,
-   "body": "{\"data\":{\"command\":\"({[]:[ECF Case Number]=\\\"2026-000046\\\"} \\u0026 ({LF:LOOKIN=\\\"\\\\AJLS\\\\Judicial \\u0026 Legislative\\\\ECF\\\"}) \\u0026 {LF:templateid=52})\",\"columns\":[{\"displayName\":\"Name\",\"name\":\"Name\",\"type\":2,\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Form Number\",\"name\":\"f_Form Number\",\"type\":\"Form Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"API Number\",\"name\":\"f_API Number\",\"type\":\"API Number\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Well Name\",\"name\":\"f_Well Name\",\"type\":\"Well Name\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Location\",\"name\":\"f_Location\",\"type\":\"Location\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"County\",\"name\":\"f_County\",\"type\":\"County\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Effective Date\",\"name\":\"f_Effective Date\",\"type\":\"Effective Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Scan Date\",\"name\":\"f_Scan Date\",\"type\":\"Scan Date\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"DocID\",\"name\":\"f_DocID\",\"type\":\"DocID\",\"isNumeric\":false,\"hidden\":false,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relevance\",\"name\":\"RelevanceRanking\",\"type\":93,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Flags\",\"name\":\"Flags\",\"type\":7,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date created\",\"name\":\"CreationDate\",\"type\":8,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Entry type\",\"name\":\"EntryType\",\"type\":39,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"ID\",\"name\":\"Id\",\"type\":1,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Shortcut target\",\"name\":\"LinkTo\",\"type\":6,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Relationship type\",\"name\":\"LinkType\",\"type\":15,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Template name\",\"name\":\"TemplateName\",\"type\":4,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Date modified\",\"name\":\"LastModified\",\"type\":9,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0},{\"displayName\":\"Extension\",\"name\":\"Extension\",\"type\":13,\"isNumeric\":false,\"hidden\":true,\"multiValue\":false,\"width\":0}],\"results\":[{\"name\":\"755610\",\"entryId\":20619003,\"type\":-2,\"shortcutTargetId\":0,\"targetType\":-2,\"pathToImage\":\"~/images/batch-icon.gif\",\"iconClass\":\"DocumentBrowserNameImage\",\"extension\":\"\",\"multiValueFields\":null,\"isEdoc\":false,\"entryProperties\":\"3 pages \",\"contexthits\":[],\"metadata\":[{\"name\":\"Applicant\",\"values\":[\"MEWBOURNE OIL COMPANY\"],\"isMvfg\":false},{\"name\":\"Case Number\",\"values\":[\"CD2026-000046\"],\"isMvfg\":false},{\"name\":\"County\",\"values\":[\"Custer, Custer, Custer\"],\"isMvfg\":false},{\"name\":\"Date Received\",\"values\":[\"2/19/2026\"],\"isMvfg\":false},{\"name\":\"ECF Case Number\",\"values\":[\"2026-000046\"],\"isMvfg\":false},{\"name\":\"ECF Case Type\",\"values\":[\"Conservation Docket\"],\"isMvfg\":false},{\"name\":\"ECF Confidential\",\"values\":[\"Non-Confidential\"],\"isMvfg\":false},{\"name\":\"ECF Division\",\"values\":[\"OG\"],\"isMvfg\":false},{\"name\":\"ECF Docket Date\",\"values\":[\"2/27/2026\"],\"isMvfg\":false},{\"name\":\"ECF Document Type\",\"values\":[\"Other Motion Order\"],\"isMvfg\":false},{\"name\":\"ECF Order Flattened\",\"values\":[\"Processed\"],\"isMvfg\":false},{\"name\":\"ECF Order Id\",\"values\":[\"36798\"],\"isMvfg\":false},{\"name\":\"ECF Order Number\",\"values\":[\"755610\"],\"isMvfg\":false},{\"name\":\"ECF Pending Order Status\",\"values\":[\"Completed\"],\"isMvfg\":false},{\"name\":\"ECF Relief Types\",\"values\":[\"Location Exception\"],\"isMvfg\":false},{\"name\":\"Entry ID\",\"values\":[\"20619003\"],\"isMvfg\":false},{\"name\":\"Hearing Date\",\"values\":[\"2/9/2026\"],\"isMvfg\":false},{\"name\":\"Optional Procedure?\",\"values\":[\"No\"],\"isMvfg\":false},{\"name\":\"Order Status\",\"values\":[\"Finalized\"],\"isMvfg\":false},{\"name\":\"Order Title\",\"values\":[\"ORDER OF THE COMMISSION GRANTING MOTION TO SET ON PROTEST DOCKET\"],\"isMvfg\":false},{\"name\":\"Order Type\",\"values\":[\"Motion\"],\"isMvfg\":false},{\"name\":\"Range\",\"values\":[\"20W, 20W, 20W\"],\"isMvfg\":false},{\"name\":\"Region\",\"values\":[\"OKC\"],\"isMvfg\":false},{\"name\":\"Relief Type\",\"values\":[\"Location Exception\"],\"isMvfg\":false},{\"name\":\"Section\",\"values\":[\"12, 13, 24\"],\"isMvfg\":false},{\"name\":\"Signing Agenda Date\",\"values\":[\"2/27/2026\"],\"isMvfg\":false},{\"name\":\"Township\",\"values\":[\"15N, 15N, 15N\"],\"isMvfg\":false},{\"name\":\"Version\",\"values\":[\"New\"],\"isMvfg\":false}],\"thumbnailPageCount\":3,\"mediaMimeType\":null,\"mediaHandlerUrl\":null,\"tags\":[],\"data\":[\"755610\",\"\",\"\",\"\",\"\",\"Custer\",\"\",\"\",\"\",\"\",\"1\",\"2/19/2026 6:52:07 PM\",\"Document\",\"20619003\",\"\",\"-2\",\"ECF Document\",\"2/27/2026 8:19:26 PM\",\"\"]},{\"name\":\"757275\",\"entryId\":20836241,\"type\":-2,\"shortcutTargetId\":0,\"targetType\":-2,\"pathToImage\":\"~/images/batch-icon.gif\",\"iconClass\":\"DocumentBrowserNameImage\",\"extension\":\"\",\"multiValueFields\":null,\"isEdoc\":false,\"entryProperties\":\"6 pages \",\"contexthits\":[],\"metadata\":[{\"name\":\"Case Number\",\"values\":[\"EN2026-000046\"],\"isMvfg\":false},{\"name\":\"ECF Case Number\",\"values\":[\"2026-000046\"],\"isMvfg\":false},{\"name\":\"ECF Case Type\",\"values\":[\"Enforcement Docket\"],\"isMvfg\":false},{\"name\":\"ECF Confidential\",\"values\":[\"Non-Confidential\"],\"isMvfg\":false},{\"name\":\"ECF Division\",\"values\":[\"PST\"],\"isMvfg\":false},{\"name\":\"ECF Docket Date\",\"values\":[\"5/4/2026\"],\"isMvfg\":false},{\"name\":\"ECF Document Type\",\"values\":[\"Final Order\"],\"isMvfg\":false},{\"name\":\"ECF Order Flattened\",\"values\":[\"Processed\"],\"isMvfg\":false},{\"name\":\"ECF Order Id\",\"values\":[\"38435\"],\"isMvfg\":false},{\"name\":\"ECF Order Number\",\"values\":[\"757275\"],\"isMvfg\":false},{\"name\":\"ECF Pending Order Status\",\"values\":[\"Completed\"],\"isMvfg\":false},{\"name\":\"ECF Relief Types\",\"values\":[\"Penalty Assessment\"],\"isMvfg\":false},{\"name\":\"EN PST Relief Requested\",\"values\":[\"Penalty A"
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21330509, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21330509, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21330509, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21319880, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21319880, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21319880, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21317734, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21317734, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21317734, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21310595, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21310595, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21310595, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21308655, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21308655, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21308655, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21302093, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21302093, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21302093, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21300387, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21300387, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21300387, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299522, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299522, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299522, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299516, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299516, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299516, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299400, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299400, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299400, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299398, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299398, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299398, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299397, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299397, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299397, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299378, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299378, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299378, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299342, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299342, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299342, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299341, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299341, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299341, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299339, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299339, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299339, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299337, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299337, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299337, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299331, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299331, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299331, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299328, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299328, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299328, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299323, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299323, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/DocumentService.aspx/GetTextHtmlForPage",
+   "req": "{\"repoName\": \"OCC\", \"documentId\": 21299323, \"pageNum\": 1, \"showAnn\": true, \"searchUuid\": \"\"}",
+   "status": 500,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 83,
+   "body": "Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown."
   }
  ],
  "adapter_state": {
-  "case_format": "2026-000031"
+  "case_format": "2026-000031",
+  "rejected": [],
+  "accepted": {}
  }
 }
