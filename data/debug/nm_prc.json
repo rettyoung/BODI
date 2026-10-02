@@ -1,0 +1,224 @@
+{
+ "adapter": "nm_prc",
+ "since": "2026-06-01",
+ "items": 62,
+ "sample": [
+  {
+   "id": "NMDKT:26-0000175",
+   "jur": "NM",
+   "source": "nm_prc",
+   "kind": "keyword_hit",
+   "docket": "26-0000175",
+   "title": "SOUTHWESTERN PUBLIC SERVICE COMPANY’S ADVICE NOTICE NO. 344",
+   "filed": "2026-10-01",
+   "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+   "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+   "fetch": [],
+   "meta": {
+    "new_docket": true,
+    "category": "Advice Notice (Rates, Rules, and Forms)",
+    "type": "Company Compliance Filings"
+   }
+  },
+  {
+   "id": "NMDKT:26-0000174",
+   "jur": "NM",
+   "source": "nm_prc",
+   "kind": "keyword_hit",
+   "docket": "26-0000174",
+   "title": "IN THE MATTER OF PETITION FOR A  \t\t\t\t\nSTAKEHOLDER WORKING GROUP ON TARIFFED\t\t\nON-BILL REPAYMENT (TOBR) PROGRAM DESIGN \t\t\nAND IMPLEMENTATION\n",
+   "filed": "2026-10-01",
+   "entity": "PROSPERITY WORKS",
+   "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+   "fetch": [],
+   "meta": {
+    "new_docket": true,
+    "category": "Petition (General)",
+    "type": "Utility"
+   }
+  },
+  {
+   "id": "NMDKT:26-0000173",
+   "jur": "NM",
+   "source": "nm_prc",
+   "kind": "keyword_hit",
+   "docket": "26-0000173",
+   "title": "SOUTHWESTERN PUBLIC SERVICE COMPANY’S FILING OF ADVICE NOTICE NO. 343",
+   "filed": "2026-10-01",
+   "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+   "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+   "fetch": [],
+   "meta": {
+    "new_docket": true,
+    "category": "Advice Notice (Rates, Rules, and Forms)",
+    "type": "Company Compliance Filings"
+   }
+  },
+  {
+   "id": "NMDKT:26-0000172",
+   "jur": "NM",
+   "source": "nm_prc",
+   "kind": "keyword_hit",
+   "docket": "26-0000172",
+   "title": "IN THE MATTER OF PUBLIC SERVICE COMPANY OF NEW MEXICO'S 2026 DISTRIBUTION SYSTEM PLAN",
+   "filed": "2026-10-01",
+   "entity": "PUBLIC SERVICE COMPANY OF NEW MEXICO",
+   "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+   "fetch": [],
+   "meta": {
+    "new_docket": true,
+    "category": "Compliance",
+    "type": "Utility"
+   }
+  },
+  {
+   "id": "NMDKT:26-0000171",
+   "jur": "NM",
+   "source": "nm_prc",
+   "kind": "keyword_hit",
+   "docket": "26-0000171",
+   "title": "IN THE MATTER OF THE REQUEST OF NEW MEXICO GAS COMPANY, INC. FOR APPROVAL OF ADVICE NOTICE NO. 114",
+   "filed": "2026-09-30",
+   "entity": "NEW MEXICO GAS COMPANY, INC.",
+   "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+   "fetch": [],
+   "meta": {
+    "new_docket": true,
+    "category": "Advice Notice (Rates, Rules, and Forms)",
+    "type": "Company Compliance Filings"
+   }
+  },
+  {
+   "id": "NMDKT:26-0000170",
+   "jur": "NM",
+   "source": "nm_prc",
+   "kind": "keyword_hit",
+   "docket": "26-0000170",
+   "title": "IN THE MATTER OF QWEST CORPORATION D/B/A CENTURYLINK QC'S DISCONTINUANCE OF TELECOMMUNICATION SERVICES AT SELECT LOCATIONS WITHIN FORT WINGATE WIRE CENTER",
+   "filed": "2026-09-24",
+   "entity": "QWEST CORPORATIO DBA CENTURYLINK QC",
+   "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+   "fetch": [],
+   "meta": {
+    "new_docket": true,
+    "category": "Notifications",
+    "type": "Telecommunications"
+   }
+  },
+  {
+   "id": "NMDKT:26-0000169",
+   "jur": "NM",
+   "source": "nm_prc",
+   "kind": "keyword_hit",
+   "docket": "26-0000169",
+   "title": "IN THE MATTER OF THE FORMAL COMPLAINT OF CLAIRE KERVEN AGAINST PUBLIC SERVICE COMPANY OF NEW MEXICO.",
+   "filed": "2026-09-23",
+   "entity": "PUBLIC SERVICE COMPANY OF NEW MEXICO",
+   "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+   "fetch": [],
+   "meta": {
+    "new_docket": true,
+    "category": "Formal Complaint",
+    "type": "Utility"
+   }
+  },
+  {
+   "id": "NMDKT:26-0000168",
+   "jur": "NM",
+   "source": "nm_prc",
+   "kind": "keyword_hit",
+   "docket": "26-0000168",
+   "title": "IN THE MATTER OF THE REQUEST OF NEW MEXICO GAS COMPANY, INC. FOR APPROVAL OF ADVICE NOTICE NO. 113 ",
+   "filed": "2026-09-11",
+   "entity": "NEW MEXICO GAS COMPANY, INC.",
+   "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+   "fetch": [],
+   "meta": {
+    "new_docket": true,
+    "category": "Advice Notice (Rates, Rules, and Forms)",
+    "type": "Company Compliance Filings"
+   }
+  }
+ ],
+ "notes": [
+  "nm 25-00079-UT: 0 documents in window",
+  "nm 25-00082-UT: 0 documents in window",
+  "nm 26-0000062: 0 documents in window"
+ ],
+ "sub": {},
+ "exchanges": [
+  {
+   "method": "GET",
+   "url": "https://e360.prc.nm.gov/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html",
+   "len": 42334,
+   "body": "<!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>New Mexico Public Regulation Commission</title>\n  <base href=\"/portal/public/\">\n  <!-- <base href=\"/\" /> -->\n  <meta name=\"description\" content=\"New Mexico Public Regulation Commission\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n  <style>@charset \"UTF-8\";@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@-webkit-keyframes formio-spin{from{-webkit-transform:rotate(0)}to{-webkit-transform:rotate(360deg)}}@-webkit-keyframes formio-dialog-fadeout{0%{opacity:1}100%{opacity:0}}@-webkit-keyframes formio-dialog-fadein{0%{opacity:0}100%{opacity:1}}@-webkit-keyframes formio-dialog-flyin{0%{opacity:0;-webkit-transform:translateY(-40px);transform:translateY(-40px)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}@-webkit-keyframes formio-dialog-flyout{0%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}100%{opacity:0;-webkit-transform:translateY(-40px);transform:translateY(-40px)}}</style><link rel=\"stylesheet\" href=\"assets/styles/formio.full.min.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"assets/styles/formio.full.min.css\"></noscript>\n  <style>@-webkit-keyframes fpFadeInDown{from{opacity:0;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}to{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}</style><link rel=\"stylesheet\" href=\"assets/styles/flatpickr.min.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"assets/styles/flatpickr.min.css\"></noscript>\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">\n  <style type=\"text/css\">@font-face{font-family:'Montserrat';font-style:italic;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRxC7m0dR9pBOi.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Montserrat';font-style:italic;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRzS7m0dR9pBOi.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Montserrat';font-style:italic;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRxi7m0dR9pBOi.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Montserrat';font-style:italic;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRxy7m0dR9pBOi.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Montserrat';font-style:italic;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Montserrat';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Montserrat';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Montserrat';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Montserrat';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Montserrat';font-style:normal;font-weight:100 900;font-display:swap;src:url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Playfair Display';font-style:italic;font-weight:400 900;font-display:swap;src:url(https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnohkk7yRZrPJ-M.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Playfair Display';font-style:italic;font-weight:400 900;font-display:swap;src:url(https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojUk7yRZrPJ-M.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0"
+  },
+  {
+   "method": "POST",
+   "url": "https://e360.prc.nm.gov/core/api/apiflow/v1/prc/nm/intake/casedetails/getAll",
+   "req": "{'data': {}, 'origin': '', 'origin_key': 'CaseX', 'queryParams': [], 'gridInput': {'params': {'parameters': {'docketNumber': '25-00079-UT', 'caseType': [''], 'caseCategory': [], 'caseCategories': '', 'other': '', 'caseCaption': '', 'status': [], 'statuses': '', 'partyName': '', 'primaryPartyCompany': [''], 'primaryPartyCompanies': '', 'caseFiledDateFrom': '', 'caseFiledDateTo': '', 'confirmationId': '', 'cancel': False, 'reset': False, 'submit': True, 'searchTerm': ''}}, 'persistPrevParams': False}, 'parameters': {'docketNumber': '25-00079-UT', 'caseType': [''], 'caseCategory': [], 'caseCategories': '', 'other': '', 'caseCaption': '', 'status': [], 'statuses': '', 'partyName': '', 'primaryPartyCompany': [''], 'primaryPartyCompanies': '', 'caseFiledDateFrom': '', 'caseFiledDateTo': '', 'confirmationId': '', 'cancel': False, 'reset': False, 'submit': True, 'searchTerm': ''}, 'pageNo': 1, 'pageSize': 100, 'sortBy': {}}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 699,
+   "body": "{\"statusCode\":200,\"message\":\"success\",\"messageCode\":null,\"totalItemCount\":1,\"pageNo\":1,\"pageSize\":100,\"items\":[{\"casedocketnumber\":\"25-00079-UT\",\"confirmationnumber\":null,\"casedatacaption\":\"IN THE MATTER OF SOUTHWESTERN PUBLIC SERVICE COMPANY’S APPLICATION FOR: (1) REVISION OF ITS RETAIL RATES UNDER ADVICE NOTICE 341; AND (2) OTHER ASSOCIATED RELIEF\",\"dockettype\":\"Utility\",\"docketcategory\":\"Rate Case\",\"filingdate\":\"2025-11-20T14:00:00\",\"createdby\":\"Melanie Sandoval\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"SOUTHWESTERN PUBLIC SERVICE COMPANY\",\"id\":\"bb5d610b-e248-4e04-b00c-909586059c8e\",\"typecode\":\"UTILITY\",\"companypartyid\":\"a3c3bcbb-aca3-4217-9489-46a87c1d0b8c\",\"fieldchanges\":{}}]}"
+  },
+  {
+   "method": "POST",
+   "url": "https://e360.prc.nm.gov/core/api/apiflow/v1/prc/nm/intake/casepublicdocument/getAll",
+   "req": "{'data': {}, 'origin': '', 'origin_key': 'CaseX', 'queryParams': ['caseId'], 'gridInput': {'params': {'parameters': {'caseId': 'bb5d610b-e248-4e04-b00c-909586059c8e'}}, 'persistPrevParams': False}, 'parameters': {'caseId': 'bb5d610b-e248-4e04-b00c-909586059c8e'}, 'pageNo': 1, 'pageSize': 200, 'sortBy': {}}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 113,
+   "body": "{\"statusCode\":200,\"message\":\"success\",\"messageCode\":null,\"totalItemCount\":0,\"pageNo\":1,\"pageSize\":200,\"items\":[]}"
+  },
+  {
+   "method": "POST",
+   "url": "https://e360.prc.nm.gov/core/api/apiflow/v1/prc/nm/intake/casedetails/getAll",
+   "req": "{'data': {}, 'origin': '', 'origin_key': 'CaseX', 'queryParams': [], 'gridInput': {'params': {'parameters': {'docketNumber': '25-00082-UT', 'caseType': [''], 'caseCategory': [], 'caseCategories': '', 'other': '', 'caseCaption': '', 'status': [], 'statuses': '', 'partyName': '', 'primaryPartyCompany': [''], 'primaryPartyCompanies': '', 'caseFiledDateFrom': '', 'caseFiledDateTo': '', 'confirmationId': '', 'cancel': False, 'reset': False, 'submit': True, 'searchTerm': ''}}, 'persistPrevParams': False}, 'parameters': {'docketNumber': '25-00082-UT', 'caseType': [''], 'caseCategory': [], 'caseCategories': '', 'other': '', 'caseCaption': '', 'status': [], 'statuses': '', 'partyName': '', 'primaryPartyCompany': [''], 'primaryPartyCompanies': '', 'caseFiledDateFrom': '', 'caseFiledDateTo': '', 'confirmationId': '', 'cancel': False, 'reset': False, 'submit': True, 'searchTerm': ''}, 'pageNo': 1, 'pageSize': 100, 'sortBy': {}}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 661,
+   "body": "{\"statusCode\":200,\"message\":\"success\",\"messageCode\":null,\"totalItemCount\":1,\"pageNo\":1,\"pageSize\":100,\"items\":[{\"casedocketnumber\":\"25-00082-UT\",\"confirmationnumber\":null,\"casedatacaption\":\"IN THE MATTER OF THE APPLICATION OF EL PASO ELECTRIC COMPANY FOR REVISION OF ITS RETAIL ELECTRIC RATES PURSUANT TO ADVICE NOTICE NO. 317\",\"dockettype\":\"Utility\",\"docketcategory\":\"Rate Case\",\"filingdate\":\"2025-12-04T14:00:00\",\"createdby\":\"Melanie Sandoval\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"EL PASO ELECTRIC COMPANY\",\"id\":\"2416437c-f57b-4ad5-a058-17abb202963a\",\"typecode\":\"UTILITY\",\"companypartyid\":\"a52036ab-2d4b-48d4-90c2-e74de423afb5\",\"fieldchanges\":{}}]}"
+  },
+  {
+   "method": "POST",
+   "url": "https://e360.prc.nm.gov/core/api/apiflow/v1/prc/nm/intake/casepublicdocument/getAll",
+   "req": "{'data': {}, 'origin': '', 'origin_key': 'CaseX', 'queryParams': ['caseId'], 'gridInput': {'params': {'parameters': {'caseId': '2416437c-f57b-4ad5-a058-17abb202963a'}}, 'persistPrevParams': False}, 'parameters': {'caseId': '2416437c-f57b-4ad5-a058-17abb202963a'}, 'pageNo': 1, 'pageSize': 200, 'sortBy': {}}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 113,
+   "body": "{\"statusCode\":200,\"message\":\"success\",\"messageCode\":null,\"totalItemCount\":0,\"pageNo\":1,\"pageSize\":200,\"items\":[]}"
+  },
+  {
+   "method": "POST",
+   "url": "https://e360.prc.nm.gov/core/api/apiflow/v1/prc/nm/intake/casedetails/getAll",
+   "req": "{'data': {}, 'origin': '', 'origin_key': 'CaseX', 'queryParams': [], 'gridInput': {'params': {'parameters': {'docketNumber': '26-0000062', 'caseType': [''], 'caseCategory': [], 'caseCategories': '', 'other': '', 'caseCaption': '', 'status': [], 'statuses': '', 'partyName': '', 'primaryPartyCompany': [''], 'primaryPartyCompanies': '', 'caseFiledDateFrom': '', 'caseFiledDateTo': '', 'confirmationId': '', 'cancel': False, 'reset': False, 'submit': True, 'searchTerm': ''}}, 'persistPrevParams': False}, 'parameters': {'docketNumber': '26-0000062', 'caseType': [''], 'caseCategory': [], 'caseCategories': '', 'other': '', 'caseCaption': '', 'status': [], 'statuses': '', 'partyName': '', 'primaryPartyCompany': [''], 'primaryPartyCompanies': '', 'caseFiledDateFrom': '', 'caseFiledDateTo': '', 'confirmationId': '', 'cancel': False, 'reset': False, 'submit': True, 'searchTerm': ''}, 'pageNo': 1, 'pageSize': 100, 'sortBy': {}}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 684,
+   "body": "{\"statusCode\":200,\"message\":\"success\",\"messageCode\":null,\"totalItemCount\":1,\"pageNo\":1,\"pageSize\":100,\"items\":[{\"casedocketnumber\":\"26-0000062\",\"confirmationnumber\":\"CSE-CNF-0000106-26\",\"casedatacaption\":\"IN THE MATTER OF EL PASO\\nELECTRIC COMPANY’S ADVICE NOTICE NO. 317 \",\"dockettype\":\"Company Compliance Filings\",\"docketcategory\":\"Advice Notice (Rates, Rules, and Forms)\",\"filingdate\":\"2026-03-27T17:13:02.001174\",\"createdby\":\"Jeffrey Wechsler\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"EL PASO ELECTRIC COMPANY\",\"id\":\"8eea84cb-d4f0-4bc0-b329-c3707130261d\",\"typecode\":\"COMPANY_COMPLIANCE_FILINGS\",\"companypartyid\":\"a52036ab-2d4b-48d4-90c2-e74de423afb5\",\"fieldchanges\":{}}]}"
+  },
+  {
+   "method": "POST",
+   "url": "https://e360.prc.nm.gov/core/api/apiflow/v1/prc/nm/intake/casepublicdocument/getAll",
+   "req": "{'data': {}, 'origin': '', 'origin_key': 'CaseX', 'queryParams': ['caseId'], 'gridInput': {'params': {'parameters': {'caseId': '8eea84cb-d4f0-4bc0-b329-c3707130261d'}}, 'persistPrevParams': False}, 'parameters': {'caseId': '8eea84cb-d4f0-4bc0-b329-c3707130261d'}, 'pageNo': 1, 'pageSize': 200, 'sortBy': {}}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 113,
+   "body": "{\"statusCode\":200,\"message\":\"success\",\"messageCode\":null,\"totalItemCount\":0,\"pageNo\":1,\"pageSize\":200,\"items\":[]}"
+  },
+  {
+   "method": "POST",
+   "url": "https://e360.prc.nm.gov/core/api/apiflow/v1/prc/nm/intake/casedetails/getAll",
+   "req": "{'data': {}, 'origin': '', 'origin_key': 'CaseX', 'queryParams': [], 'gridInput': {'params': {'parameters': {'docketNumber': '', 'caseType': [''], 'caseCategory': [], 'caseCategories': '', 'other': '', 'caseCaption': '', 'status': [], 'statuses': '', 'partyName': '', 'primaryPartyCompany': [''], 'primaryPartyCompanies': '', 'caseFiledDateFrom': '2026-06-01', 'caseFiledDateTo': '2026-10-02', 'confirmationId': '', 'cancel': False, 'reset': False, 'submit': True, 'searchTerm': ''}}, 'persistPrevParams': False}, 'parameters': {'docketNumber': '', 'caseType': [''], 'caseCategory': [], 'caseCategories': '', 'other': '', 'caseCaption': '', 'status': [], 'statuses': '', 'partyName': '', 'primaryPartyCompany': [''], 'primaryPartyCompanies': '', 'caseFiledDateFrom': '2026-06-01', 'caseFiledDateTo': '2026-10-02', 'confirmationId': '', 'cancel': False, 'reset': False, 'submit': True, 'searchTerm': ''}, 'pageNo': 1, 'pageSize': 100, 'sortBy': {}}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 37194,
+   "body": "{\"statusCode\":200,\"message\":\"success\",\"messageCode\":null,\"totalItemCount\":62,\"pageNo\":1,\"pageSize\":100,\"items\":[{\"casedocketnumber\":\"26-0000175\",\"confirmationnumber\":\"CSE-CNF-0000308-26\",\"casedatacaption\":\"SOUTHWESTERN PUBLIC SERVICE COMPANY’S ADVICE NOTICE NO. 344\",\"dockettype\":\"Company Compliance Filings\",\"docketcategory\":\"Advice Notice (Rates, Rules, and Forms)\",\"filingdate\":\"2026-10-01T21:42:00.51007\",\"createdby\":\"Amy Hayes\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"SOUTHWESTERN PUBLIC SERVICE COMPANY\",\"id\":\"80056ca4-d989-4681-92c9-aabdae56e0f4\",\"typecode\":\"COMPANY_COMPLIANCE_FILINGS\",\"companypartyid\":\"a3c3bcbb-aca3-4217-9489-46a87c1d0b8c\",\"fieldchanges\":{}},{\"casedocketnumber\":\"26-0000174\",\"confirmationnumber\":\"CSE-CNF-0000307-26\",\"casedatacaption\":\"IN THE MATTER OF PETITION FOR A  \\t\\t\\t\\t\\nSTAKEHOLDER WORKING GROUP ON TARIFFED\\t\\t\\nON-BILL REPAYMENT (TOBR) PROGRAM DESIGN \\t\\t\\nAND IMPLEMENTATION\\n\",\"dockettype\":\"Utility\",\"docketcategory\":\"Petition (General)\",\"filingdate\":\"2026-10-01T21:38:10.831143\",\"createdby\":\"Cara Lynch\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"PROSPERITY WORKS\",\"id\":\"4e2146e0-8033-4187-8a46-e8aa27331a1c\",\"typecode\":\"UTILITY\",\"companypartyid\":\"9fb5a393-7538-4a45-9876-46740ca4cea9\",\"fieldchanges\":{}},{\"casedocketnumber\":\"26-0000173\",\"confirmationnumber\":\"CSE-CNF-0000306-26\",\"casedatacaption\":\"SOUTHWESTERN PUBLIC SERVICE COMPANY’S FILING OF ADVICE NOTICE NO. 343\",\"dockettype\":\"Company Compliance Filings\",\"docketcategory\":\"Advice Notice (Rates, Rules, and Forms)\",\"filingdate\":\"2026-10-01T21:34:45.61051\",\"createdby\":\"Amy Hayes\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"SOUTHWESTERN PUBLIC SERVICE COMPANY\",\"id\":\"1f1b62d3-fb77-47f7-bd6b-9371b3259a6b\",\"typecode\":\"COMPANY_COMPLIANCE_FILINGS\",\"companypartyid\":\"a3c3bcbb-aca3-4217-9489-46a87c1d0b8c\",\"fieldchanges\":{}},{\"casedocketnumber\":\"26-0000172\",\"confirmationnumber\":\"CSE-CNF-0000305-26\",\"casedatacaption\":\"IN THE MATTER OF PUBLIC SERVICE COMPANY OF NEW MEXICO'S 2026 DISTRIBUTION SYSTEM PLAN\",\"dockettype\":\"Utility\",\"docketcategory\":\"Compliance\",\"filingdate\":\"2026-10-01T20:47:17.500765\",\"createdby\":\"Latoya Ferguson\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"PUBLIC SERVICE COMPANY OF NEW MEXICO\",\"id\":\"6cc2ad0e-b3f5-4955-adcc-a0081b287acc\",\"typecode\":\"UTILITY\",\"companypartyid\":\"4bc37f26-a269-4c21-bb48-8c23fc5fc7a0\",\"fieldchanges\":{}},{\"casedocketnumber\":\"26-0000171\",\"confirmationnumber\":\"CSE-CNF-0000303-26\",\"casedatacaption\":\"IN THE MATTER OF THE REQUEST OF NEW MEXICO GAS COMPANY, INC. FOR APPROVAL OF ADVICE NOTICE NO. 114\",\"dockettype\":\"Company Compliance Filings\",\"docketcategory\":\"Advice Notice (Rates, Rules, and Forms)\",\"filingdate\":\"2026-09-30T14:58:56.121848\",\"createdby\":\"Lisa Trujillo\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"NEW MEXICO GAS COMPANY, INC.\",\"id\":\"9b9b9e63-94b2-4962-9fef-eb50fded3f7a\",\"typecode\":\"COMPANY_COMPLIANCE_FILINGS\",\"companypartyid\":\"33d34c10-2e1b-4a2d-a2e0-170903252be0\",\"fieldchanges\":{}},{\"casedocketnumber\":\"26-0000170\",\"confirmationnumber\":\"CSE-CNF-0000298-26\",\"casedatacaption\":\"IN THE MATTER OF QWEST CORPORATION D/B/A CENTURYLINK QC'S DISCONTINUANCE OF TELECOMMUNICATION SERVICES AT SELECT LOCATIONS WITHIN FORT WINGATE WIRE CENTER\",\"dockettype\":\"Telecommunications\",\"docketcategory\":\"Notifications\",\"filingdate\":\"2026-09-24T19:30:53.254593\",\"createdby\":\"Kari Olson\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"QWEST CORPORATIO DBA CENTURYLINK QC\",\"id\":\"36e8e5cc-4e30-4014-bd66-0fb0079672a6\",\"typecode\":\"TELECOM\",\"companypartyid\":\"3972d8a8-8276-4e48-994a-8814f1370c1b\",\"fieldchanges\":{}},{\"casedocketnumber\":\"26-0000169\",\"confirmationnumber\":\"CSE-CNF-0000296-26\",\"casedatacaption\":\"IN THE MATTER OF THE FORMAL COMPLAINT OF CLAIRE KERVEN AGAINST PUBLIC SERVICE COMPANY OF NEW MEXICO.\",\"dockettype\":\"Utility\",\"docketcategory\":\"Formal Complaint\",\"filingdate\":\"2026-09-23T19:52:09.313219\",\"createdby\":\"Claire Kerven\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"PUBLIC SERVICE COMPANY OF NEW MEXICO\",\"id\":\"4decbcc3-f0c5-4a64-ade1-a46a0c81ce7a\",\"typecode\":\"UTILITY\",\"companypartyid\":\"4bc37f26-a269-4c21-bb48-8c23fc5fc7a0\",\"fieldchanges\":{}},{\"casedocketnumber\":\"26-0000168\",\"confirmationnumber\":\"CSE-CNF-0000293-26\",\"casedatacaption\":\"IN THE MATTER OF THE REQUEST OF NEW MEXICO GAS COMPANY, INC. FOR APPROVAL OF ADVICE NOTICE NO. 113 \",\"dockettype\":\"Company Compliance Filings\",\"docketcategory\":\"Advice Notice (Rates, Rules, and Forms)\",\"filingdate\":\"2026-09-11T21:47:56.803929\",\"createdby\":\"Lisa Trujillo\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"NEW MEXICO GAS COMPANY, INC.\",\"id\":\"8217e18d-928c-468e-8b07-a46c1946cc39\",\"typecode\":\"COMPANY_COMPLIANCE_FILINGS\",\"companypartyid\":\"33d34c10-2e1b-4a2d-a2e0-170903252be0\",\"fieldchanges\":{}},{\"casedocketnumber\":\"26-0000167\",\"confirmationnumber\":\"CSE-CNF-0000291-26\",\"casedatacaption\":\"IN THE MATTER OF EPCOR WATER NEW MEXICO INC. CLOVIS DISTRICT ADVICE NOTICE NUMBER 42\",\"dockettype\":\"Company Compliance Filings\",\"docketcategory\":\"Advice Notice (Rates, Rules, and Forms)\",\"filingdate\":\"2026-08-31T22:34:35.895302\",\"createdby\":\"Jeffrey Wechsler\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"EPCOR WATER NEW MEXICO, INC.\",\"id\":\"0a1d6063-447b-4e53-a4fa-b98eafc26a87\",\"typecode\":\"COMPANY_COMPLIANCE_FILINGS\",\"companypartyid\":\"e0fb0ce2-40df-4bc6-90bf-f626307b911d\",\"fieldchanges\":{}},{\"casedocketnumber\":\"26-0000166\",\"confirmationnumber\":\"CSE-CNF-0000290-26\",\"casedatacaption\":\"IN THE MATTER OF PUBLIC SERVICE COMPANY OF NEW MEXICO'S ADVICE NOTICE NO. 665 SEVENTH REVISED RATE NO. 33B LARGE SERVICE FOR STATION POWER (TIME-OF-UES)\",\"dockettype\":\"Company Compliance Filings\",\"docketcategory\":\"Advice Notice (Rates, Rules, and Forms)\",\"filingdate\":\"2026-08-31T20:20:11.03569\",\"createdby\":\"Anne Haskins\",\"casedatastatus\":\"Active\",\"caseprimarycompany\":\"PUBLIC SERVICE COMPANY OF NEW MEXICO\",\"id\":\"f6a3d0ee-f72d-4f42-ac4b-3b7218c63092\",\"typecode\":\"COMPANY_COMPLIANCE_FILINGS\",\"companypartyid\":\"4bc37f26-a269-4c21-bb48-8c23fc5fc7a0\",\"fieldchanges\":{}},{\"casedocketnumb"
+  }
+ ],
+ "adapter_state": {}
+}

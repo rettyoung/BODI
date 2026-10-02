@@ -1,0 +1,220 @@
+{
+ "adapter": "az_acc",
+ "since": "2026-06-01",
+ "items": 332,
+ "sample": [
+  {
+   "id": "AZ:470115",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Consumer Comments/Letters - Miscellaneous",
+   "filed": "2026-10-02",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Abhay Padgaonkar",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054758.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:470101",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Consumer Comments - In Support",
+   "filed": "2026-10-02",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Terri Kimble ",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054751.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:470013",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Consumer Comments - In Opposition",
+   "filed": "2026-10-01",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Various Consumers ",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054703.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:469908",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Consumer Comments - In Opposition",
+   "filed": "2026-09-29",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Various Consumers ",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054651.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:469883",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Consumer Comments - In Opposition",
+   "filed": "2026-09-29",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Garrett Corral and Sherry L. Ratner ",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054630.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:469821",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Consumer Comments - In Opposition",
+   "filed": "2026-09-25",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Kelly Galindo",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054599.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:469707",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Miscellaneous Comments",
+   "filed": "2026-09-23",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Joanne Keene, City Manager",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054555.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  },
+  {
+   "id": "AZ:469679",
+   "jur": "AZ",
+   "source": "az_acc",
+   "kind": "filing",
+   "docket": "E-01345A-25-0105",
+   "title": "Consumer Comments - In Opposition",
+   "filed": "2026-09-23",
+   "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "entity": "Eddie Flores",
+   "fetch": [
+    {
+     "url": "https://images.edocket.azcc.gov/docketpdf/E000054532.pdf"
+    }
+   ],
+   "meta": {
+    "docketID": 29551
+   }
+  }
+ ],
+ "notes": [],
+ "sub": {},
+ "exchanges": [
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 2017,
+   "body": "<!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"utf-8\">\n  <title>ACC Portal</title>\n  <base href=\"/\">\n\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n  <script src=\"https://www.google.com/recaptcha/api.js?render=explicit&amp;onload=initRecaptcha\" async=\"\" defer></script>\n  <!-- Google tag (gtag.js) - Google Analytics -->\n  <script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-GMRK6KPVXX\"></script>\n  <script>\n    if (document.location.hostname.search(\"efiling.azcc.gov\") !== -1) {\n      window['GoogleAnalyticsObject'] = 'ga';\n      window['ga'] = window['ga'] || function () {\n        (window['ga'].q = window['ga'].q || []).push(arguments)\n      }\n\n      window.dataLayer = window.dataLayer || [];\n      function gtag() { dataLayer.push(arguments); }\n      gtag('js', new Date());\n\n      gtag('config', 'G-GMRK6KPVXX');\n    }\n\n  </script>\n<style>@@ -1,776+0,0 @@ .ui-grid{clear:both;padding:0;margin:0}@charset \"UTF-8\";:root{--layer-0:#3f3f3f;--layer-1:#323232;--layer-2:#4c4c4c;--text-color:#dedede;--text-color-secondary:#888888;--primary-color:#1f7ed0;--primary-color-text:#ffffff}*{box-sizing:border-box}body ::-webkit-input-placeholder{color:#9b9b9b}body :-moz-placeholder{color:#9b9b9b}body ::-moz-placeholder{color:#9b9b9b}body :-ms-input-placeholder{color:#9b9b9b}body{font-family:Roboto,Trebuchet MS,Arial,Helvetica,sans-serif}body{font-family:Roboto,Trebuchet MS,Arial,Helvetica,sans-serif;height:100%;margin:0;padding:0}html,body{margin:0;padding:0;height:100%}</style><link rel=\"stylesheet\" href=\"styles.2e422f3adf3ab630.css\" media=\"print\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles.2e422f3adf3ab630.css\"></noscript></head>\n\n<body>\n\n  <app-root></app-root>\n<script src=\"runtime.f21f49b8155e45f8.js\" type=\"module\"></script><script src=\"polyfills.6db0a7536911643f.js\" type=\"module\"></script><script src=\"main.97feb26bb49b783c.js\" type=\"module\"></script>\n\n</body></html>"
+  },
+  {
+   "method": "POST",
+   "url": "https://efiling.azcc.gov/api/edocket/searchByDocketDetailRequest",
+   "req": "{'companyID': None, 'docketID': None, 'yearMatter': None, 'docketTypeID': None, 'documentID': None, 'caseTypeID': None, 'docketStatusID': None, 'docketNumber': 'E-01345A-25-0105', 'searchAsString': None, 'descriptionContains': None, 'docketDateSearchFrom': None, 'docketDateSearchTo': None, 'currentPageIndex': 0, 'rowsPerPage': 500, 'rowsToSkip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 1406,
+   "body": "{\"searchResult\":[{\"docketID\":29551,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01345A-25-0105\",\"companyName\":\"Arizona Public Service Company\",\"filedDate\":\"2025-05-15T00:00:00\",\"caseTypeID\":17,\"caseType\":\"Rates\",\"description\":\"In the matter of the application of Arizona Public Service Company for a hearing to determine the fair value of thе utility property of the company for ratemaking purposes, to fix a just and reasonable rate of return thereon, and to approve rate schedules designed to develop such return.\",\"previous\":null,\"entityID\":16,\"statusID\":null}],\"caseTypes\":[{\"$id\":\"1\",\"caseTypeID\":17,\"abrev\":\"R\",\"descr\":\"Rates\",\"inactive\":null,\"requireCCN\":null,\"requireSufficiency\":true,\"isInterconnection\":null,\"division\":\"Rule\",\"dockets\":[]}],\"allDocketTypes\":[{\"$id\":\"2\",\"id\":1228,\"value\":\"Electric\"}],\"searchRequest\":{\"docketID\":null,\"linkedToDocketID\":null,\"companyID\":null,\"entityName\":null,\"docketTypeID\":null,\"documentID\":null,\"caseTypeID\":null,\"docketStatusID\":null,\"docketNumber\":\"E-01345A-25-0105\",\"docketDateSearchFrom\":null,\"docketDateSearchTo\":null,\"descriptionContains\":null,\"searchAsString\":false,\"eventID\":null,\"previous\":null,\"yearMatter\":null,\"approvedQC\":null,\"timeFrameID\":0,\"currentPageIndex\":0,\"rowsPerPage\":500,\"sortField\":null,\"sortDescending\":true,\"rowsToSkip\":0},\"totalRowCount\":1,\"recordsFound\":true,\"currentPageIndex\":0,\"rowsPerPage\":500,\"totalPages\":1}"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api/edocket/docket/29551",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 2232491,
+   "body": "{\"docketID\":29551,\"docketNumber\":\"E-01345A-25-0105\",\"company\":{\"id\":16,\"number\":\"01345\",\"name\":\"Arizona Public Service Company\",\"dbaName\":\"\",\"department\":null,\"isSecurity\":false,\"entityNameID\":16},\"docketType\":{\"$id\":\"1\",\"codeID\":1228,\"codeTypeID\":61,\"value\":\"Electric\",\"shortValue\":\"E\",\"inactive\":null,\"createdByUserID\":1,\"createdOnDateTime\":\"2017-11-28T18:09:29.827\",\"modifiedByUserID\":1,\"modifiedOnDateTime\":\"2017-11-28T18:09:29.827\"},\"docketStatus\":{\"$id\":\"2\",\"id\":1217,\"value\":\"Open\"},\"filedDate\":\"2025-05-15T00:00:00\",\"caseType\":{\"$id\":\"3\",\"caseTypeID\":17,\"abrev\":\"R\",\"descr\":\"Rates\",\"inactive\":null,\"requireCCN\":null,\"requireSufficiency\":true,\"isInterconnection\":null,\"division\":\"Rule\",\"dockets\":[{\"$id\":\"4\",\"docketID\":29551,\"entityNameID\":16,\"legalNumberID\":16,\"docketTypeID\":1228,\"caseTypeID\":17,\"docketDesc\":\"In the matter of the application of Arizona Public Service Company for a hearing to determine the fair value of thе utility property of the company for ratemaking purposes, to fix a just and reasonable rate of return thereon, and to approve rate schedules designed to develop such return.\",\"specialInstructions\":null,\"matterYear\":2025,\"matterNum\":105,\"matterStartDate\":\"2025-05-15T00:00:00\",\"matterEndDate\":null,\"lineSitingNum\":null,\"timeFrameID\":1,\"approvedQC\":true,\"pubDate\":\"2025-05-15T00:00:00\",\"createdOnDateTime\":\"2025-05-15T16:30:57.717\",\"createdByUserID\":2675,\"modifiedOnDateTime\":\"2025-06-13T16:07:34.157\",\"modifiedByUserID\":893,\"departmentID\":1137,\"exParte\":true,\"linkedDockets\":[],\"linkedDockets1\":[],\"entityName\":{\"$id\":\"5\",\"entityNameID\":16,\"entityID\":16,\"typeID\":235,\"name\":\"Arizona Public Service Company\",\"createdByUserID\":1,\"modifiedByUserID\":1107,\"createdOnDateTime\":\"2015-07-15T17:08:52.783\",\"modifiedOnDateTime\":\"2021-05-20T06:49:23.957\",\"approvedQC\":null,\"dockets\":[{\"$ref\":\"4\"}],\"vw_EntityNameNumber\":[],\"complianceActionCompanies\":[],\"complaints\":[],\"entity\":null,\"eDocketDocuments\":[],\"eFilingTempDocuments\":[],\"eFilingTempDockets\":[],\"annualReports\":[],\"arDocumentMetaDatas\":[]},\"legalNumber\":{\"$id\":\"6\",\"legalNumberID\":16,\"entityID\":16,\"typeID\":410,\"number\":\"01345\",\"createdByUserID\":1,\"modifiedByUserID\":1,\"createdOnDateTime\":\"2015-07-15T17:08:52.8\",\"modifiedOnDateTime\":\"2015-07-15T17:08:52.8\",\"inactive\":false,\"dockets\":[{\"$ref\":\"4\"}],\"complianceActionCompanies\":[],\"entity\":null,\"eDocketDocuments\":[],\"eFilingTempDocuments\":[]},\"docketAuthorizations\":[],\"docketDecisions\":[],\"docketDocketStatuses\":[],\"docketDocumentIndexes\":[],\"docketDocumentIndexHeaders\":[],\"microfilms\":[],\"postalBatches\":[],\"subscriptions\":[],\"events\":[{\"$id\":\"7\",\"eventID\":45955,\"locationID\":1279,\"subject\":\"Rates\",\"startDateTime\":\"2026-01-20T13:00:00\",\"endDateTime\":\"2026-01-20T16:00:18\",\"eventTypeID\":4,\"public\":true,\"updateReasonID\":null,\"timeClockTime\":null,\"completedDateTime\":null,\"agendaLink\":null,\"approvedQC\":true,\"createdOnDateTime\":\"2025-07-15T11:53:36.25\",\"createdByUserID\":5399,\"modifiedOnDateTime\":\"2025-07-15T11:53:36.25\",\"modifiedByUserID\":5399,\"cityID\":2137,\"administrativeLawJudgeID\":3383,\"documentID\":null,\"telephonicNumberID\":2754,\"eventGenericNotes\":[],\"subscriptions\":[],\"dockets\":[{\"$ref\":\"4\"}],\"eventType\":{\"$id\":\"8\",\"eventTypeId\":4,\"eventType1\":\"Public Comment\",\"permanent\":1,\"public\":1,\"qc\":true,\"eventCutoff\":1,\"documentCodeID\":null,\"documentSubcodeID\":null,\"sequence\":null,\"sort\":6,\"createdByUserID\":3110,\"createdOnDateTime\":\"2006-04-27T14:12:00\",\"modifiedByUserID\":1,\"modifiedOnDateTime\":\"2017-11-28T18:12:18.71\",\"events\":[{\"$ref\":\"7\"},{\"$id\":\"9\",\"eventID\":45957,\"locationID\":1279,\"subject\":\"Rates\",\"startDateTime\":\"2026-02-18T10:00:00\",\"endDateTime\":\"2026-02-18T13:00:35\",\"eventTypeID\":4,\"public\":true,\"updateReasonID\":null,\"timeClockTime\":null,\"completedDateTime\":null,\"agendaLink\":null,\"approvedQC\":true,\"createdOnDateTime\":\"2025-07-15T11:55:54.9566667\",\"createdByUserID\":5399,\"modifiedOnDateTime\":\"2025-07-15T11:55:54.9566667\",\"modifiedByUserID\":5399,\"cityID\":2137,\"administrativeLawJudgeID\":3383,\"documentID\":null,\"telephonicNumberID\":2754,\"eventGenericNotes\":[],\"subscriptions\":[],\"dockets\":[{\"$ref\":\"4\"}],\"eventType\":{\"$ref\":\"8\"},\"document\":null,\"agenda\":[]},{\"$id\":\"10\",\"eventID\":45981,\"locationID\":1279,\"subject\":\"Rates\",\"startDateTime\":\"2026-05-18T10:00:00\",\"endDateTime\":\"2026-05-18T13:00:25\",\"eventTypeID\":4,\"public\":true,\"updateReasonID\":null,\"timeClockTime\":null,\"completedDateTime\":null,\"agendaLink\":null,\"approvedQC\":true,\"createdOnDateTime\":\"2025-07-22T11:40:57.3566667\",\"createdByUserID\":2675,\"modifiedOnDateTime\":\"2025-07-22T13:06:22.0066667\",\"modifiedByUserID\":893,\"cityID\":2137,\"administrativeLawJudgeID\":3383,\"documentID\":null,\"telephonicNumberID\":2754,\"eventGenericNotes\":[],\"subscriptions\":[],\"dockets\":[{\"$ref\":\"4\"}],\"eventType\":{\"$ref\":\"8\"},\"document\":null,\"agenda\":[]}],\"eventCategoryEventTypes\":[],\"timeFrames\":[]},\"document\":null,\"agenda\":[]},{\"$id\":\"11\",\"eventID\":45956,\"locationID\":2138,\"subject\":\"Rates\",\"startDateTime\":\"2026-01-26T18:00:00\",\"endDateTime\":\"2026-01-26T20:30:30\",\"eventTypeID\":98,\"public\":true,\"updateReasonID\":null,\"timeClockTime\":null,\"completedDateTime\":null,\"agendaLink\":null,\"approvedQC\":true,\"createdOnDateTime\":\"2025-07-15T11:55:00.3\",\"createdByUserID\":5399,\"modifiedOnDateTime\":\"2026-01-13T10:06:13.3066667\",\"modifiedByUserID\":1232,\"cityID\":2137,\"administrativeLawJudgeID\":3383,\"documentID\":null,\"telephonicNumberID\":2754,\"eventGenericNotes\":[],\"subscriptions\":[],\"dockets\":[{\"$ref\":\"4\"}],\"eventType\":{\"$id\":\"12\",\"eventTypeId\":98,\"eventType1\":\"Telephonic Public Comment\",\"permanent\":1,\"public\":1,\"qc\":true,\"eventCutoff\":1,\"documentCodeID\":null,\"documentSubcodeID\":null,\"sequence\":null,\"sort\":97,\"createdByUserID\":1125,\"createdOnDateTime\":\"2020-05-15T15:25:51.53\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2020-09-18T14:38:17.7033333\",\"events\":[{\"$ref\":\"11\"},{\"$id\":\"13\",\"eventID\":45958,\"locationID\":2138,\"subject\":\"Rates\",\"startDateTime\":\"2026-02-18T18:00:00\",\"endDateTime\":\"2026-02-18T20:30:32\",\"eventTypeID\":98,\"public\":true,\"updateReasonID\":null,\"timeClockTime\":null,\"completedDateTime\":n"
+  },
+  {
+   "method": "POST",
+   "url": "https://efiling.azcc.gov/api/edocket/searchByDocketDetailRequest",
+   "req": "{'companyID': None, 'docketID': None, 'yearMatter': None, 'docketTypeID': None, 'documentID': None, 'caseTypeID': None, 'docketStatusID': None, 'docketNumber': 'E-01773A-26-0123', 'searchAsString': None, 'descriptionContains': None, 'docketDateSearchFrom': None, 'docketDateSearchTo': None, 'currentPageIndex': 0, 'rowsPerPage': 500, 'rowsToSkip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 1556,
+   "body": "{\"searchResult\":[{\"docketID\":29858,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01773A-26-0123\",\"companyName\":\"Arizona Electric Power Cooperative, Inc. (AEPCO)\",\"filedDate\":\"2026-04-16T00:00:00\",\"caseTypeID\":45,\"caseType\":\"Joint Application\",\"description\":\"In the matter of the joint application for a streamlined process for multiparty agreements for electric service to large-load customers submitted by Arizona Electric Power Cooperative, Inc., Duncan Valley Electric Cooperative, Inc., Graham County Electric Cooperative, Inc. Mohave Electric Cooperative, Inc. Sulphur Springs Valley Electric Cooperative, Inc., and Trico Electric Cooperative, Inc.\\n\",\"previous\":null,\"entityID\":150,\"statusID\":null}],\"caseTypes\":[{\"$id\":\"1\",\"caseTypeID\":45,\"abrev\":\"JO\",\"descr\":\"Joint Application\",\"inactive\":null,\"requireCCN\":null,\"requireSufficiency\":null,\"isInterconnection\":true,\"division\":null,\"dockets\":[]}],\"allDocketTypes\":[{\"$id\":\"2\",\"id\":1228,\"value\":\"Electric\"}],\"searchRequest\":{\"docketID\":null,\"linkedToDocketID\":null,\"companyID\":null,\"entityName\":null,\"docketTypeID\":null,\"documentID\":null,\"caseTypeID\":null,\"docketStatusID\":null,\"docketNumber\":\"E-01773A-26-0123\",\"docketDateSearchFrom\":null,\"docketDateSearchTo\":null,\"descriptionContains\":null,\"searchAsString\":false,\"eventID\":null,\"previous\":null,\"yearMatter\":null,\"approvedQC\":null,\"timeFrameID\":0,\"currentPageIndex\":0,\"rowsPerPage\":500,\"sortField\":null,\"sortDescending\":true,\"rowsToSkip\":0},\"totalRowCount\":1,\"recordsFound\":true,\"currentPageIndex\":0,\"rowsPerPage\":500,\"totalPages\":1}"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api/edocket/docket/29858",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 75705,
+   "body": "{\"docketID\":29858,\"docketNumber\":\"E-01773A-26-0123\",\"company\":{\"id\":150,\"number\":\"01773\",\"name\":\"Arizona Electric Power Cooperative, Inc. (AEPCO)\",\"dbaName\":\"\",\"department\":null,\"isSecurity\":false,\"entityNameID\":150},\"docketType\":{\"$id\":\"1\",\"codeID\":1228,\"codeTypeID\":61,\"value\":\"Electric\",\"shortValue\":\"E\",\"inactive\":null,\"createdByUserID\":1,\"createdOnDateTime\":\"2017-11-28T18:09:29.827\",\"modifiedByUserID\":1,\"modifiedOnDateTime\":\"2017-11-28T18:09:29.827\"},\"docketStatus\":{\"$id\":\"2\",\"id\":1213,\"value\":\"Compliance Due\"},\"filedDate\":\"2026-04-16T00:00:00\",\"caseType\":{\"$id\":\"3\",\"caseTypeID\":45,\"abrev\":\"JO\",\"descr\":\"Joint Application\",\"inactive\":null,\"requireCCN\":null,\"requireSufficiency\":null,\"isInterconnection\":true,\"division\":null,\"dockets\":[{\"$id\":\"4\",\"docketID\":29858,\"entityNameID\":150,\"legalNumberID\":150,\"docketTypeID\":1228,\"caseTypeID\":45,\"docketDesc\":\"In the matter of the joint application for a streamlined process for multiparty agreements for electric service to large-load customers submitted by Arizona Electric Power Cooperative, Inc., Duncan Valley Electric Cooperative, Inc., Graham County Electric Cooperative, Inc. Mohave Electric Cooperative, Inc. Sulphur Springs Valley Electric Cooperative, Inc., and Trico Electric Cooperative, Inc.\\n\",\"specialInstructions\":\"There is 6 companies involved with this case. \",\"matterYear\":2026,\"matterNum\":123,\"matterStartDate\":\"2026-04-16T00:00:00\",\"matterEndDate\":null,\"lineSitingNum\":null,\"timeFrameID\":1,\"approvedQC\":true,\"pubDate\":\"2026-04-17T08:24:54.4\",\"createdOnDateTime\":\"2026-04-17T08:24:54.4\",\"createdByUserID\":2675,\"modifiedOnDateTime\":\"2026-08-28T15:12:57.623\",\"modifiedByUserID\":5399,\"departmentID\":1137,\"exParte\":false,\"linkedDockets\":[],\"linkedDockets1\":[],\"entityName\":{\"$id\":\"5\",\"entityNameID\":150,\"entityID\":150,\"typeID\":235,\"name\":\"Arizona Electric Power Cooperative, Inc. (AEPCO)\",\"createdByUserID\":1,\"modifiedByUserID\":1125,\"createdOnDateTime\":\"2015-07-15T17:08:52.783\",\"modifiedOnDateTime\":\"2021-02-05T18:44:35.607\",\"approvedQC\":null,\"dockets\":[{\"$ref\":\"4\"}],\"vw_EntityNameNumber\":[],\"complianceActionCompanies\":[],\"complaints\":[],\"entity\":null,\"eDocketDocuments\":[],\"eFilingTempDocuments\":[],\"eFilingTempDockets\":[],\"annualReports\":[],\"arDocumentMetaDatas\":[]},\"legalNumber\":{\"$id\":\"6\",\"legalNumberID\":150,\"entityID\":150,\"typeID\":410,\"number\":\"01773\",\"createdByUserID\":1,\"modifiedByUserID\":1,\"createdOnDateTime\":\"2015-07-15T17:08:52.8\",\"modifiedOnDateTime\":\"2015-07-15T17:08:52.8\",\"inactive\":false,\"dockets\":[{\"$ref\":\"4\"}],\"complianceActionCompanies\":[],\"entity\":null,\"eDocketDocuments\":[],\"eFilingTempDocuments\":[]},\"docketAuthorizations\":[],\"docketDecisions\":[{\"$id\":\"7\",\"docketDecisionID\":31979,\"docketID\":29858,\"decisionID\":313540,\"decisionSubCodeID\":483,\"decision\":{\"$id\":\"8\",\"decisionID\":313540,\"decisionNum\":82128,\"decisionDate\":\"2026-08-27T07:00:00\",\"approvedQC\":false,\"createdOnDateTime\":\"2026-08-28T22:11:58.2966667\",\"createdByUserID\":5399,\"modifiedOnDateTime\":\"2026-08-28T22:11:58.2966667\",\"modifiedByUserID\":5399,\"documentID\":468636,\"docketDecisions\":[{\"$ref\":\"7\"}],\"document\":{\"$id\":\"9\",\"documentID\":468636,\"docPath\":null,\"docName\":null,\"createdByUserID\":5399,\"modifiedByUserID\":5399,\"createdOnDateTime\":\"2026-08-28T15:11:58.2966667\",\"modifiedOnDateTime\":\"2026-08-28T15:11:58.2966667\",\"complaintDocuments\":[],\"complianceActionDocuments\":[],\"complianceDocuments\":[],\"decisions\":[{\"$ref\":\"8\"}],\"docketDocumentIndexes\":[],\"complianceActionCompanies\":[],\"dockets\":[{\"$ref\":\"4\"}],\"relatedDocumentDecisions\":[],\"eDocketDocument\":{\"$id\":\"10\",\"documentID\":468636,\"legalNumberID\":null,\"entityNameID\":null,\"documentBarCode\":\"0000217295\",\"documentFilingDate\":\"2026-08-27T00:00:00\",\"documentDesc\":\"\",\"documentSubCodeID\":483,\"microfilmRollNum\":null,\"microFilm\":\"\",\"microfilmTranscript\":\"\",\"filedBy\":\"ACC (#82128)\",\"filedFor\":\"\",\"statusID\":1418,\"statusDate\":\"2026-08-28T15:11:58.3533333\",\"rejectionReason\":null,\"approvedQC\":true,\"sentToServiceList\":\"2026-08-28T15:15:00.95\",\"createdByUserID\":5399,\"createdOnDateTime\":\"2026-08-28T15:11:58.2966667\",\"modifiedByUserID\":5399,\"modiefiedOnDateTime\":\"2026-08-28T15:11:58.2966667\",\"sentToCourtesyeMail\":\"2026-08-28T15:25:01.4266667\",\"document\":{\"$ref\":\"9\"},\"entityName\":null,\"legalNumber\":null,\"eFilingTempDocument\":null,\"vw_eDocketDocumentCode\":null},\"excludePendingComplianceRelatedDocument\":null,\"events\":[],\"agendaDocuments\":[],\"arVerificationDocuments\":[]},\"relatedDocumentDecisions\":[],\"eFilingTempDocuments\":[],\"authorizations\":[],\"agendaItems\":[],\"agendaItemDecisions\":[]},\"docket\":{\"$ref\":\"4\"}}],\"docketDocketStatuses\":[],\"docketDocumentIndexes\":[],\"docketDocumentIndexHeaders\":[],\"microfilms\":[],\"postalBatches\":[],\"subscriptions\":[],\"events\":[{\"$id\":\"11\",\"eventID\":46065,\"locationID\":1279,\"subject\":\"AZCC REVISED 8-12-2026 Open Meeting Notice & Agenda\",\"startDateTime\":\"2026-08-12T09:00:00\",\"endDateTime\":null,\"eventTypeID\":6,\"public\":true,\"updateReasonID\":null,\"timeClockTime\":null,\"completedDateTime\":null,\"agendaLink\":null,\"approvedQC\":true,\"createdOnDateTime\":\"2025-08-21T11:27:06.4366667\",\"createdByUserID\":893,\"modifiedOnDateTime\":\"2026-08-07T15:50:13.82\",\"modifiedByUserID\":973,\"cityID\":2137,\"administrativeLawJudgeID\":null,\"documentID\":467730,\"telephonicNumberID\":2754,\"eventGenericNotes\":[],\"subscriptions\":[],\"dockets\":[{\"$ref\":\"4\"}],\"eventType\":{\"$id\":\"12\",\"eventTypeId\":6,\"eventType1\":\"Open Meeting\",\"permanent\":1,\"public\":1,\"qc\":true,\"eventCutoff\":1,\"documentCodeID\":null,\"documentSubcodeID\":null,\"sequence\":10,\"sort\":1,\"createdByUserID\":893,\"createdOnDateTime\":\"2014-10-10T14:54:00\",\"modifiedByUserID\":1,\"modifiedOnDateTime\":\"2017-11-28T18:12:18.71\",\"events\":[{\"$ref\":\"11\"}],\"eventCategoryEventTypes\":[],\"timeFrames\":[]},\"document\":null,\"agenda\":[]}],\"vw_DocketNumber\":{\"$id\":\"13\",\"docketID\":29858,\"docketNumber\":\"E-01773A-26-0123\",\"docket\":{\"$ref\":\"4\"}},\"vw_LinkedDockets1\":[],\"vw_LinkedDockets2\":[],\"vw_DocketStatusCurrent\":{\"$id\":\"14\",\"docketID\":29858,\"statusID\":1213,\"docketStatusDate\":\"2026-08-28T22:12:57.623\",\"docketStatus\":\"D\",\"docketStatusDescri"
+  },
+  {
+   "method": "POST",
+   "url": "https://efiling.azcc.gov/api/edocket/searchByDocketDetailRequest",
+   "req": "{'companyID': None, 'docketID': None, 'yearMatter': None, 'docketTypeID': 1228, 'documentID': None, 'caseTypeID': None, 'docketStatusID': None, 'docketNumber': None, 'searchAsString': None, 'descriptionContains': None, 'docketDateSearchFrom': '2026-06-01', 'docketDateSearchTo': '2026-10-02', 'currentPageIndex': 0, 'rowsPerPage': 500, 'rowsToSkip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 8170,
+   "body": "{\"searchResult\":[{\"docketID\":30163,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01025A-26-0418\",\"companyName\":\"Ajo Improvement Company\",\"filedDate\":\"2026-09-30T00:00:00\",\"caseTypeID\":19,\"caseType\":\"Tariff\",\"description\":\"In the matter of the application of Ajo Improvement Company for approval of a Curtailment Tariff.\",\"previous\":null,\"entityID\":299,\"statusID\":null},{\"docketID\":30165,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01049A-26-0420\",\"companyName\":\"Morenci Water and Electric Company\",\"filedDate\":\"2026-09-30T00:00:00\",\"caseTypeID\":19,\"caseType\":\"Tariff\",\"description\":\"In the matter of the application of Morenci Water and Electric Company for approval of a Cross-Connection Backflow Prevention Tariff.\",\"previous\":null,\"entityID\":224,\"statusID\":null},{\"docketID\":30146,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01345A-26-0401\",\"companyName\":\"Arizona Public Service Company\",\"filedDate\":\"2026-09-04T00:00:00\",\"caseTypeID\":12,\"caseType\":\"Misc\",\"description\":\"In the matter of the application of Arizona Public Service Company for approval to refund uncommitted surcharge funds collected through the renewable energy adjustment charge. \",\"previous\":null,\"entityID\":16,\"statusID\":null},{\"docketID\":30088,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01787A-26-0345\",\"companyName\":\"Navopache Electric Cooperative, Inc.\",\"filedDate\":\"2026-08-04T00:00:00\",\"caseTypeID\":19,\"caseType\":\"Tariff\",\"description\":\"In the matter of the application of Navopache Electric Cooperative, Inc. for approval of the Annual Average Avoided\\nCost/Net Metering Tariff Filing. \",\"previous\":null,\"entityID\":407,\"statusID\":null},{\"docketID\":30079,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-04204A-26-0336\",\"companyName\":\"UNS Electric, Inc.\",\"filedDate\":\"2026-07-31T00:00:00\",\"caseTypeID\":12,\"caseType\":\"Misc\",\"description\":\"In the matter of the application of  UNS Electric, Inc. to include third-party storage contract costs in purchased power and fuel adjustment clause. \",\"previous\":null,\"entityID\":3919,\"statusID\":null},{\"docketID\":30080,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01345A-26-0337\",\"companyName\":\"Arizona Public Service Company\",\"filedDate\":\"2026-07-31T00:00:00\",\"caseTypeID\":17,\"caseType\":\"Rates\",\"description\":\"In the matter of the application of Arizona Public Service Company for approval to reset the lost fixed cost recovery mechanism in accordance with the approved plan of administration.\",\"previous\":null,\"entityID\":16,\"statusID\":null},{\"docketID\":30082,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01345A-26-0339\",\"companyName\":\"Arizona Public Service Company\",\"filedDate\":\"2026-07-31T00:00:00\",\"caseTypeID\":5,\"caseType\":\"Financing\",\"description\":\"In the matter of the application of Arizona Public Service Company for an order or orders authorizing it to issue, incur, and amend evidences of long-term indebtedness as defined herein and short-term indebtedness, to execute new security instruments to secure any such indebtedness, maintain recurring equity infusion authorization, and for declaratory order concerning variable interest entities. \",\"previous\":null,\"entityID\":16,\"statusID\":null},{\"docketID\":30045,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01750A-26-0302\",\"companyName\":\"Mohave Electric Cooperative, Inc.\",\"filedDate\":\"2026-07-22T00:00:00\",\"caseTypeID\":19,\"caseType\":\"Tariff\",\"description\":\"In the matter of the application of Mohave Electric Cooperative, Inc. for approval of an updated avoided cost rate for its net metering tariff. \",\"previous\":null,\"entityID\":388,\"statusID\":null},{\"docketID\":30022,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01025A-26-0279\",\"companyName\":\"Ajo Improvement Company\",\"filedDate\":\"2026-07-17T00:00:00\",\"caseTypeID\":19,\"caseType\":\"Tariff\",\"description\":\"In the matter of Ajo Improvement Company to revise Net Metering Avoided Cost Rate.\",\"previous\":null,\"entityID\":299,\"statusID\":null},{\"docketID\":30017,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01891A-26-0274\",\"companyName\":\"Garkane Energy Cooperative, Inc.\",\"filedDate\":\"2026-07-10T00:00:00\",\"caseTypeID\":12,\"caseType\":\"Misc\",\"description\":\"In the matter of the application of Garkane Energy Cooperative, Inc. for a determination of the fair value of its property and an order setting just and reasonable rates.\\n\",\"previous\":null,\"entityID\":1999,\"statusID\":null},{\"docketID\":30012,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01575A-26-0270\",\"companyName\":\"Sulphur Springs Valley Electric Cooperative, Inc.\",\"filedDate\":\"2026-07-07T00:00:00\",\"caseTypeID\":19,\"caseType\":\"Tariff\",\"description\":\"In the matter of the application of Sulphur Springs Valley Electric Cooperative, Inc. 2026 Net Metering Tariff with the updated avoided cost.\",\"previous\":null,\"entityID\":108,\"statusID\":null},{\"docketID\":30011,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01049A-26-0269\",\"companyName\":\"Morenci Water and Electric Company\",\"filedDate\":\"2026-07-06T00:00:00\",\"caseTypeID\":19,\"caseType\":\"Tariff\",\"description\":\"In the matter of the Morenci Water and Electric Company to revise net metering avoided cost rate.\\n\",\"previous\":null,\"entityID\":224,\"statusID\":null},{\"docketID\":30006,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01345A-26-0264\",\"companyName\":\"Arizona Public Service Company\",\"filedDate\":\"2026-07-01T00:00:00\",\"caseTypeID\":12,\"caseType\":\"Misc\",\"description\":\"In the matter of the application of  Arizona Public Service Company for approval of its 2027 Renewable Energy Standard Implementation Plan for Reset of Renewable Energy Adjuster. \",\"previous\":null,\"entityID\":16,\"statusID\":null},{\"docketID\":29989,\"docketTypeID\":1228,\"docketType\":\"Electric\",\"docketNumber\":\"E-01787A-26-0248\",\"companyName\":\"Navopache Electric Cooperative, Inc.\",\"filedDate\":\"2026-06-19T00:00:00\",\"caseTypeID\":19,\"caseType\":\"Tariff\",\"description\":\"In the matter of the applica"
+  }
+ ],
+ "adapter_state": {
+  "az_docs_route": "docket/{did}"
+ }
+}
