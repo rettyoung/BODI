@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import time
 import re
 from urllib.parse import urljoin, quote
 
@@ -458,8 +459,11 @@ def ok_occ(ctx):
             rec = res if isinstance(res, dict) else dict(zip(cols, res))
             recs.append(rec)
         recs.sort(key=lambda r: -(r.get("entryId") or 0))
-        checked = 0
+        checked, t_case = 0, time.time()
         for rec in recs[:60]:
+            if time.time() - t_case > 150:
+                ctx.log(f"ok {case}: confirmation time box reached; rest next night")
+                break
             eid = rec.get("entryId") or rec.get("Id") or rec.get("id")
             if not eid or str(eid) in rejected:
                 continue
@@ -468,8 +472,9 @@ def ok_occ(ctx):
                     break     # the rest next night
                 checked += 1
                 try:
-                    t = http.post(base + "DocumentService.aspx/GetTextHtmlForPage", headers=hdr, data=json.dumps({
-                        "repoName": "OCC", "documentId": eid, "pageNum": 1, "showAnn": True, "searchUuid": ""})).json()
+                    t = http.post(base + "DocumentService.aspx/GetTextHtmlForPage", headers=hdr, retries=0, timeout=20,
+                                  data=json.dumps({"repoName": "OCC", "documentId": eid, "pageNum": 1,
+                                                   "showAnn": True, "searchUuid": ""})).json()
                     page1 = re.sub(r"<[^>]+>", " ", json.dumps(t))
                 except Blocked:
                     raise
