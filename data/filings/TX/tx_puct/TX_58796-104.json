@@ -1,0 +1,22 @@
+{
+ "id": "TX:58796-104",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "9/15/2026 | SOUTHWESTERN ELECTRIC POWER COMPANY | PL | Joint Motion to Remand Proceeding",
+ "filed": "2026-09-15",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=104",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "104"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

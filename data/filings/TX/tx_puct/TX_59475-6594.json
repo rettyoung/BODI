@@ -1,0 +1,22 @@
+{
+ "id": "TX:59475-6594",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/21/2026 | Kevin Kennedy and John Burrow | LTRS | LETTER CALLING ON GOVERNOR ABBOTT TO ORDER AN INDEPENDENT TECHNICAL INVESTIGATION AND FORENSIC AUDIT OF ERCOT’S 2024 PERMIAN BASIN RELIABILITY PLAN MODELING",
+ "filed": "2026-09-21",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6594",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6594"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

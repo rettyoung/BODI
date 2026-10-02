@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260917-5297",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3650",
+ "title": "(doc-less) Motion to Intervene of Citizens Utility Board of Michigan under ER26-3650.",
+ "filed": "2026-09-17",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260917-5297",
+ "entity": "Citizens Utility Board of Michigan",
+ "fetch": [
+  {
+   "ferc_file": "2E74EA9C-5645-C6FA-9E4B-A0B0E0B00000",
+   "name": "1791832_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-17"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "large load"
+ ],
+ "documents": []
+}

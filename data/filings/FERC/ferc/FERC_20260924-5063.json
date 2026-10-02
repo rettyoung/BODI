@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260924-5063",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Motion to Intervene of Center for Biological Diversity under P-15424.",
+ "filed": "2026-09-24",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260924-5063",
+ "entity": "Center for Biological Diversity",
+ "fetch": [
+  {
+   "ferc_file": "CC5CDD7C-F910-C6F7-9136-A0D41C400000",
+   "name": "2026-09-24 Intervention Maine Data Center (FERC).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-24"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

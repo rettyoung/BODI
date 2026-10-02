@@ -1,0 +1,55 @@
+{
+ "id": "FERC:20260918-5393",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PF26-11",
+ "title": "Cook Inlet LNG, LLC submits Preliminary Draft Resource Report 13 re the Cook Inlet LNG Project under PF26-11.",
+ "filed": "2026-09-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260918-5393",
+ "entity": "Cook Inlet LNG, LLC",
+ "fetch": [
+  {
+   "ferc_file": "7D595B6B-5917-CD0B-B993-A0B638D00000",
+   "name": "CILNG_Prelim Draft RR13 Appendix List A3_Priv.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "AEE78684-70CD-CB45-8000-A0B638D00001",
+   "name": "CILNG_Prelim Draft RR13 Appendix List C_Priv.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "65E22711-0C44-CDEF-88C7-A0B638E00000",
+   "name": "CILNG_Prelim Draft RR13 Appendix List D1_Priv.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "BDEAABEC-C1A8-C4CB-922C-A0B638E00000",
+   "name": "CILNG_Prelim Draft RR13 Appendix List F_Priv.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process"
+   },
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process Progress Report"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-09-18"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "documents": []
+}

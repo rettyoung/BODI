@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260923-5150",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PF26-18",
+ "title": "Commonwealth LNG Expansion, LLC submits request to initiate Pre-Filing Review for the Commonwealth LNG Expansion Project under PF26-18.",
+ "filed": "2026-09-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260923-5150",
+ "entity": "Commonwealth LNG Expansion, LLC",
+ "fetch": [
+  {
+   "ferc_file": "F561F1DD-603B-CFD5-9143-A0D362000000",
+   "name": "2026-09-23 CWLNG Expansion Pre-File Request - Public.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-09-23"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "documents": []
+}

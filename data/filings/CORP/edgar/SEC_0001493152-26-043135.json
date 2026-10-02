@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001493152-26-043135",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "HEALTHY CHOICE WELLNESS CORP.  (HCWC)  (CIK 0001948864) 8-K — full-text hit \"data center\" \"electric service agreement\"",
+ "filed": "2026-09-17",
+ "url": "https://www.sec.gov/Archives/edgar/data/1948864/000149315226043135/",
+ "entity": "HEALTHY CHOICE WELLNESS CORP.  (HCWC)  (CIK 0001948864)",
+ "fetch": [],
+ "meta": {
+  "query": "\"data center\" \"electric service agreement\"",
+  "form": "8-K"
+ },
+ "collected_at": "2026-10-02T23:16:49Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "documents": []
+}

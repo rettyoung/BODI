@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261001-5005",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-1",
+ "title": "Wolverine Power Supply Cooperative, Inc. submits tariff filing per 35.13(a)(2)(iii: Request for Change in Rates to Distribution Cooperative Member-Owners to be effective 1/1/2027 under ER27-1 Filing Type : 10",
+ "filed": "2026-10-01",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261001-5005",
+ "entity": "Wolverine Power Supply Cooperative, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "35B18727-E60A-C643-9192-A0F734F00000",
+   "name": "2026 Member Rate Filing Transmittal Letter.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "AF6B2488-910F-C8A8-9AE2-A0F734F00000",
+   "name": "Rate Schedule No. 4 v 5.0.0-Clean.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "C902CF0F-F4D4-CD44-A2F4-A0F734F00000",
+   "name": "Rate Schedule No. 4 v 5.0.0-Redline.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "3ED4CBF8-EED1-C49B-A9A8-A0F734F00000",
+   "name": "Resolution 2026-10.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-10-01"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "large load"
+ ],
+ "documents": []
+}

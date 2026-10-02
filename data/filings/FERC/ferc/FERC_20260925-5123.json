@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20260925-5123",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2105",
+ "title": "Pacific Gas and Electric Company submits updated Probable Maximum Flood Study re the Lake Almanor Dam, et al. of the Upper North Fork Feather River Hydroelectric Project under P-2105.",
+ "filed": "2026-09-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260925-5123",
+ "entity": "Pacific Gas and Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "F16963C0-F6C0-C229-9171-A0D9B3B00000",
+   "name": "PGE20260925_2105_UNFFR_Updated_PMF_Enc1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "5BB55602-A578-C8DF-9BAF-A0D9B3B00000",
+   "name": "PGE20260925_2105_UNFFR_Updated_PMF_Enc2.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Dam Safety Compliance Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-25"
+ },
+ "collected_at": "2026-10-02T23:13:43Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'F16963C0-F6C0-C229-9171-A0D9B3B00000', 'name': 'PGE20260925_2105_UNFFR_Updated_PMF_Enc1.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '5BB55602-A578-C8DF-9BAF-A0D9B3B00000', 'name': 'PGE20260925_2105_UNFFR_Updated_PMF_Enc2.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

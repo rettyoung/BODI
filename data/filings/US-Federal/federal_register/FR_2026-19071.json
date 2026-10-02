@@ -1,0 +1,28 @@
+{
+ "id": "FR:2026-19071",
+ "jur": "US-Federal",
+ "source": "federal_register",
+ "kind": "rule",
+ "docket": "EPA-HQ-OAR-2025-0124,FRL-12674-02-OAR",
+ "title": "Partial Repeal of the Carbon Pollution Standards for Fossil Fuel-Fired Electric Generating Units",
+ "filed": "2026-09-17",
+ "url": "https://www.federalregister.gov/documents/2026/09/17/2026-19071/partial-repeal-of-the-carbon-pollution-standards-for-fossil-fuel-fired-electric-generating-units",
+ "entity": "environmental-protection-agency",
+ "fetch": [
+  {
+   "url": "https://www.federalregister.gov/documents/full_text/text/2026/09/17/2026-19071.txt"
+  }
+ ],
+ "meta": {
+  "type": "Rule",
+  "action": "Final rule.",
+  "abstract": "In this final rule, the U.S. Environmental Protection Agency (EPA) is repealing most provisions of the 2024 Carbon Pollution Standards for greenhouse gas (GHG) emissions from fossil fuel-fired electric generating units (EGUs) based on a reevaluation of the best system of emission reduction for the relevant subcategories. Specifically, the EPA is repealing the emission guidelines for existing fossil fuel-fired steam generating units, the carbon capture and sequestration/storage (CCS)-based standards for coal-fired steam generating units undertaking a large modification, and the CCS-based standards for new base load stationary combustion turbines (i.e., Phase 2 standards). In a separate action published concurrently with this final rule, the EPA is issuing a supplemental proposal soliciting comment on additional reasons to rescind all GHG emission requirements for fossil fuel-fired EGUs to effectuate the best reading of Clean Air Act (CAA) section 111 and ensure consistency with applicable principles of administrative law beyond those reasons on which the EPA solicited comment in the June 2025 notice of proposed rulemaking.",
+  "comments_close_on": null,
+  "effective_on": "2026-11-16",
+  "term": "grid reliability"
+ },
+ "collected_at": "2026-10-02T23:14:46Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260918-3015",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP18-513,CP26-82,CP26-87",
+ "title": "Draft Environmental Impact Statement for Corpus Christi Liquefaction Stage IV, LLC's et al. CCL Stage 4 Project et al. under CP26-82 et al. ",
+ "filed": "2026-09-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260918-3015",
+ "entity": "OFFICE OF ENERGY PROJECTS",
+ "fetch": [
+  {
+   "ferc_file": "55E1E122-421A-CDAF-9C67-A0B4CA400000",
+   "name": "CCL Stage 4 and CCPL Expansion Draft EIS.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "FERC Report/Study",
+    "documentType": "Environmental Assessment (EA) and Environmental Impact Statement (EIS)"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-18"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260917-5328",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-581",
+ "title": "Natural Gas Pipeline Company of America LLC submits Abbreviated Application for a Certificate of Public Convenience and Necessity to construct, etc. a new compressor station, etc. located in Texas re the Amarillo Project under CP26-581.",
+ "filed": "2026-09-17",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260917-5328",
+ "entity": "Natural Gas Pipeline Company of America LLC",
+ "fetch": [
+  {
+   "ferc_file": "2A1B0929-C78D-CD77-9D9F-A0B117900000",
+   "name": "AMEX NGPL Transmittal Final.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "BCA2D483-7786-CD8B-A511-A0B117900000",
+   "name": "AMEX NGPL - Application Final.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "182D301B-A025-C487-AD62-A0B117900000",
+   "name": "AMEX NGPL Form of Notice.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "8F9A505A-0534-C5EF-B70A-A0B117900000",
+   "name": "Exhibit F NGPL AMEX.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Certificate of Public Convenience and Necessity"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-17"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "certificate of public convenience",
+  "data center"
+ ],
+ "documents": []
+}

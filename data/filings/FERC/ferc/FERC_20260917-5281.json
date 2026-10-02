@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260917-5281",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3650",
+ "title": "(doc-less) Motion to Intervene of Iowa Office of Consumer Advocate under ER26-3650.",
+ "filed": "2026-09-17",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260917-5281",
+ "entity": "Iowa Office of Consumer Advocate; Iowa Office of Consumer Advocate",
+ "fetch": [
+  {
+   "ferc_file": "4038204B-2C69-C8DF-A7EA-A0B0C6700000",
+   "name": "1791818_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-17"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "large load"
+ ],
+ "documents": []
+}

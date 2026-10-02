@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260925-5136",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Elizabeth Ferrara in Docket(s)/Project(s) P-15423-000\nSubmission Date: 9/25/2026\n",
+ "filed": "2026-09-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260925-5136",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "C4161F8A-169C-C015-9D9D-A0D9DAE00000",
+   "name": "151370.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-25"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260928-5007",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Anne Lebo in Docket(s)/Project(s) P-15423-000\nSubmission Date: 9/26/2026\n",
+ "filed": "2026-09-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260928-5007",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "551BC742-65CC-CDFA-9CE1-A0DE76A00000",
+   "name": "151387.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-26"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

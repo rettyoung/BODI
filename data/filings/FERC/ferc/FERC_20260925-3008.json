@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260925-3008",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP24-75,CP25-505,CP25-506",
+ "title": "Final Environmental Impact Statement re Sabine Pass Liquefaction, LLC's et al. Sabine Pass Stage 5 Expansion Project under CP24-75 et al. ",
+ "filed": "2026-09-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260925-3008",
+ "entity": "OFFICE OF ENERGY PROJECTS",
+ "fetch": [
+  {
+   "ferc_file": "CE603EFA-671E-CC69-9D18-A0D889900000",
+   "name": "CP24-75-001etc FEIS.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "FERC Report/Study",
+    "documentType": "Environmental Assessment (EA) and Environmental Impact Statement (EIS)"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-25"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

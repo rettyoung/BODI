@@ -1,0 +1,30 @@
+{
+ "id": "FR:2026-18868",
+ "jur": "FERC",
+ "source": "federal_register",
+ "kind": "notice",
+ "docket": "RD26-9-000",
+ "title": "North American Electric Reliability Corporation; Order Approving Reliability Standard CIP-014-4",
+ "filed": "2026-09-15",
+ "url": "https://www.federalregister.gov/documents/2026/09/15/2026-18868/north-american-electric-reliability-corporation-order-approving-reliability-standard-cip-014-4",
+ "entity": "energy-department, federal-energy-regulatory-commission",
+ "fetch": [
+  {
+   "url": "https://www.federalregister.gov/documents/full_text/text/2026/09/15/2026-18868.txt"
+  }
+ ],
+ "meta": {
+  "type": "Notice",
+  "action": "Revisions to Existing Collections of Information in FERC- 725U (CIP-014).",
+  "abstract": null,
+  "comments_close_on": null,
+  "effective_on": null,
+  "term": "interconnection"
+ },
+ "collected_at": "2026-10-02T23:14:46Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "interconnection"
+ ],
+ "documents": []
+}

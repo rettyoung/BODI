@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20260918-5169",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3650",
+ "title": "(doc-less) Motion to Intervene of Indiana Office of Utility Consumer Counselor under ER26-3650.",
+ "filed": "2026-09-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260918-5169",
+ "entity": "Indiana Office of Utility Consumer Counselor",
+ "fetch": [
+  {
+   "ferc_file": "5135A9E9-1DE2-C895-9CD6-A0B538700000",
+   "name": "1791963_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-18"
+ },
+ "collected_at": "2026-10-02T23:11:26Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "transmission service"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791963_Interv.txt",
+   "bytes": 3902,
+   "sha256": "c5ec613bdc768954f7e0ab5b68b0ebdfd56bc809330331789441fbb337bc61fe",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Indiana Office of Utility Consumer Counselor under ER26-3650-000.\r\n\r\nSubmission Date:        9/18/2026 11:43:15 AM\r\n\r\nFiled Date:             9/18/2026 11:43:15 AM\r\n\r\nDockets\r\n-------\r\nER26-3650-000        Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-08-28_Interconnection Reliability Requirements for Large Loads submitted on 8/28/2026 4:41:03 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nIndiana Office of Utility Consumer Counselor ailer@oucc.in.gov                        sjones1@oucc.in.gov                     \r\n\r\nBasis for Intervening:\r\nThe Indiana Office of Utility Consumer Counselor (“IN OUCC”) is an agency of the State of Indiana with the statutory responsibility, pursuant to Indiana Code 8-1-1.1-9.1, to represent all Indiana ratepayers in state and federal proceedings.  On August 28, 2026, the Midcontinent Independent Transmission Operator, Inc., (“MISO”) filed proposed amendments to its Open Access Transmission and Ancillary Services Tariff (the “Tariff”) to establish certain Interconnection Reliability Requirements for Large Loads (the “IRR Proposal”).  MISO asserts that the IRR Proposal is responsive to several of the concerns raised by the Commission in the Order Instituting Proceeding Under Section 206 of the Federal Power Act in Docket No. EL26-70-000 in that in the IRR Proposal, MISO is offering visibility, ramp rate, and disturbance ride-through requirements applicable to Large Loads (which MISO defines as loads greater than 50 MW) and Computational Loads (which MISO defines to include loads greater than 25 MW)  (collectively referred to herein as Large Loads), along with transition provisions to minimize disruption to commercial arrangements.  MISO notes that in order to support the integration of these new loads into the MISO system, the IRR Proposal establishes a reliability-based framework for Large Loads that complements existing MISO planning, interconnection, and operational processes. MISO asserts that the framework is designed to improve visibility into Large Load characteristics and behavior, support reliable planning and operational decision-making, and establish scalable and technically justified expectations proportional to demonstrated reliability risk.  The proposed framework focuses on four categories of reliability requirements (visibility requirements, Phasor Measurement Unit requirements, ramp requirements, and ride-through requirements) that will be applicable to Large Loads.  These requirements, as proposed, will apply to MISO Transmission Customers providing Transmission Service to the Large Load since, as MISO notes, the Transmission Customer is the entity that has a direct relationship with MISO and is the entity that will be charged with ensuring their large load customers comply with MISO’s proposed requirements.  Indiana, like much of the country, is experiencing significant growth in large and computational load.  As a result, the growth in large loads and the solutions adopted to address this, including the subject IRR Proposal, may have a significant impact on all rate payers in MISO, including those in Indiana.  Given the IN OUCC's status as an entity with the statutory responsibility under state law to represent Indiana's ratepayers who may be impacted by the outcome of this proceeding, the IN OUCC’s participation in this proceeding is uniquely in the public interest.  Accordingly, pursuant to Rule 214 of the Commission’s Rules of Practice and Procedure, the IN OUCC's motion to intervene should be granted."
+  }
+ ]
+}

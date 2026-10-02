@@ -1,0 +1,22 @@
+{
+ "id": "TX:59142-73",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "9/21/2026 | ERCOT | LTRS | ERCOT UPDATE – BATCH ZERO ELIGIBILITY VERIFICATION AND STATE AND COMMUNITY IMPACT RFI PROCESS",
+ "filed": "2026-09-21",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=73",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "73"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

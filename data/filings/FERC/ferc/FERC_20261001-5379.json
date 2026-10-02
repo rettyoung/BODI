@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20261001-5379",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3525",
+ "title": "Motion for Leave to Answer and Limited Answer of PJM Interconnection, L.L.C. to the Protest and Comments of the Towering Concerns, LLC re the 08/14/2026 filing ER26-3525.",
+ "filed": "2026-10-01",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261001-5379",
+ "entity": "PJM Interconnection, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "2C9197C8-682D-C59F-88CB-A0F93E200000",
+   "name": "PJM Answer_ER26-3525.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-01"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center",
+  "interconnection"
+ ],
+ "documents": []
+}

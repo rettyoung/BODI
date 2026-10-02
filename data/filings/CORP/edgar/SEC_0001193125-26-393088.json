@@ -1,0 +1,29 @@
+{
+ "id": "SEC:0001193125-26-393088",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Evergy 8-K 8-K items 8.01,9.01",
+ "filed": "2026-09-16",
+ "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526393088/",
+ "entity": "Evergy",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526393088/d504888d8k.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "cik": "0001711269",
+  "market_participant": false
+ },
+ "collected_at": "2026-10-02T23:16:49Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

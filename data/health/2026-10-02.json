@@ -1,0 +1,525 @@
+{
+ "run_id": "2026-10-02-2305",
+ "started": "2026-10-02T23:05:17Z",
+ "sources": {
+  "ferc": {
+   "since": "2026-09-15",
+   "found": 199,
+   "new": 199,
+   "baseline": false,
+   "kept": 199,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 542.0,
+   "consecutive_failures": 0
+  },
+  "federal_register": {
+   "since": "2026-09-15",
+   "found": 21,
+   "new": 21,
+   "baseline": false,
+   "kept": 21,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 27.0,
+   "consecutive_failures": 0
+  },
+  "edgar": {
+   "since": "2026-09-15",
+   "found": 17,
+   "new": 17,
+   "baseline": false,
+   "kept": 17,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 122.9,
+   "consecutive_failures": 0
+  },
+  "tx_puct": {
+   "since": "2026-09-15",
+   "found": 65,
+   "new": 65,
+   "baseline": false,
+   "kept": 65,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 24.1,
+   "consecutive_failures": 0
+  },
+  "az_acc": {
+   "since": "2026-09-15",
+   "status": "ACCESS_REGRESSION",
+   "error": "block page (captcha) at https://efiling.azcc.gov/api/edocket/GetDocketDocuments/29551",
+   "subsources": {},
+   "seconds": 6.1,
+   "consecutive_failures": 1
+  },
+  "ga_psc": {
+   "since": "2026-09-15",
+   "found": 10,
+   "new": 10,
+   "baseline": false,
+   "kept": 10,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 6.7,
+   "consecutive_failures": 0
+  },
+  "la_lpsc": {
+   "since": "2026-09-15",
+   "found": 9,
+   "new": 9,
+   "baseline": false,
+   "kept": 9,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "la: U-37921 not found"
+   ],
+   "seconds": 26.8,
+   "consecutive_failures": 0
+  },
+  "ok_occ": {
+   "since": "2026-09-15",
+   "found": 0,
+   "new": 0,
+   "baseline": false,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 12.2,
+   "consecutive_failures": 0
+  },
+  "ks_kcc": {
+   "since": "2026-09-15",
+   "found": 6,
+   "new": 6,
+   "baseline": false,
+   "kept": 6,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 3.1,
+   "consecutive_failures": 0
+  },
+  "nm_prc": {
+   "since": "2026-09-15",
+   "found": 7,
+   "new": 7,
+   "baseline": false,
+   "kept": 7,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "nm 25-00079-UT: 0 documents in window",
+    "nm 25-00082-UT: 0 documents in window",
+    "nm 26-0000062: 0 documents in window"
+   ],
+   "seconds": 36.3,
+   "consecutive_failures": 0
+  },
+  "mo_efis": {
+   "since": "2026-09-15",
+   "found": 0,
+   "new": 0,
+   "baseline": false,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "mo: case id not resolved for ER-2026-0143",
+    "mo: case id not resolved for ER-2026-0291",
+    "mo: case id not resolved for ET-2025-0184"
+   ],
+   "seconds": 21.5,
+   "consecutive_failures": 0
+  },
+  "al_psc": {
+   "since": "2026-09-15",
+   "found": 0,
+   "new": 0,
+   "baseline": false,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 36.4,
+   "consecutive_failures": 0
+  },
+  "watch_pages": {
+   "since": "2026-09-15",
+   "found": 184,
+   "new": 184,
+   "baseline": true,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "grda_board": {
+     "status": "ok",
+     "note": "21 links"
+    },
+    "ks_minutes": {
+     "status": "ok",
+     "note": "0 links"
+    },
+    "la_news": {
+     "status": "ok",
+     "note": "11 links"
+    },
+    "ferc_news": {
+     "status": "ok",
+     "note": "24 links"
+    },
+    "nerc_news": {
+     "status": "ok",
+     "note": "1 links"
+    },
+    "caiso_news": {
+     "status": "ok",
+     "note": "49 links"
+    },
+    "ercot_notices": {
+     "status": "ok",
+     "note": "0 links"
+    },
+    "ercot_news": {
+     "status": "ok",
+     "note": "17 links"
+    },
+    "spp_news": {
+     "status": "ok",
+     "note": "9 links"
+    },
+    "nyiso_press": {
+     "status": "ok",
+     "note": "0 links"
+    },
+    "isone_press": {
+     "status": "ok",
+     "note": "28 links"
+    },
+    "miso_news": {
+     "status": "ok",
+     "note": "18 links"
+    },
+    "wpp_news": {
+     "status": "ok",
+     "note": "6 links"
+    }
+   },
+   "notes": [],
+   "seconds": 75.2,
+   "consecutive_failures": 0
+  },
+  "rss": {
+   "since": "2026-09-15",
+   "found": 62,
+   "new": 62,
+   "baseline": true,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "pjm_insidelines": {
+     "status": "error",
+     "note": "Blocked('block page (captcha) at https://insidelines.pjm.com/feed/')"
+    },
+    "utilitydive": {
+     "status": "ok",
+     "note": "10 entries"
+    },
+    "rtoinsider": {
+     "status": "ok",
+     "note": "10 entries"
+    },
+    "canary": {
+     "status": "ok",
+     "note": "100 entries"
+    }
+   },
+   "notes": [],
+   "seconds": 12.3,
+   "consecutive_failures": 0
+  },
+  "ir_decks": {
+   "since": "2026-09-15",
+   "found": 235,
+   "new": 235,
+   "baseline": true,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "ir:AEP": {
+     "status": "ok",
+     "note": "15 pdf links"
+    },
+    "ir:Southern": {
+     "status": "blocked",
+     "note": "block page (incapsula) at https://investor.southerncompany.com/events-and-presentations/default.aspx"
+    },
+    "ir:Duke": {
+     "status": "ok",
+     "note": "0 pdf links"
+    },
+    "ir:Dominion": {
+     "status": "ok",
+     "note": "2 pdf links"
+    },
+    "ir:Entergy": {
+     "status": "ok",
+     "note": "0 pdf links"
+    },
+    "ir:Evergy": {
+     "status": "blocked",
+     "note": "robots.txt disallows https://investors.evergy.com/events-and-presentations"
+    },
+    "ir:Exelon": {
+     "status": "blocked",
+     "note": "robots.txt disallows https://investors.exeloncorp.com/events-and-presentations"
+    },
+    "ir:Ameren": {
+     "status": "ok",
+     "note": "11 pdf links"
+    },
+    "ir:PPL": {
+     "status": "ok",
+     "note": "0 pdf links"
+    },
+    "ir:Pinnacle West": {
+     "status": "ok",
+     "note": "3 pdf links"
+    },
+    "ir:Xcel": {
+     "status": "ok",
+     "note": "15 pdf links"
+    },
+    "ir:OGE Energy": {
+     "status": "blocked",
+     "note": "robots.txt disallows https://investor.oge.com/events-and-presentations/default.aspx"
+    },
+    "ir:Oncor": {
+     "status": "blocked",
+     "note": "robots.txt disallows https://investor.oncor.com/news-events/events-and-presentations/default.aspx"
+    },
+    "ir:Fortis": {
+     "status": "ok",
+     "note": "10 pdf links"
+    },
+    "ir:BHE": {
+     "status": "blocked",
+     "note": "block page (captcha) at https://www.brkenergy.com/investors"
+    },
+    "ir:TXNM Energy": {
+     "status": "ok",
+     "note": "179 pdf links"
+    }
+   },
+   "notes": [],
+   "seconds": 186.9,
+   "consecutive_failures": 0
+  },
+  "mirrors": {
+   "since": "2026-09-15",
+   "found": 0,
+   "new": 0,
+   "baseline": true,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 0.0,
+   "consecutive_failures": 0
+  }
+ },
+ "docs_fetched": 160,
+ "new_items": 334,
+ "user_agent": "BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)",
+ "finished": "2026-10-02T23:24:17Z",
+ "http_hosts": {
+  "https://elibrary.ferc.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.federalregister.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.sec.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://data.sec.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://efts.sec.gov": {
+   "robots": "403",
+   "note": ""
+  },
+  "https://interchange.puc.texas.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://efiling.azcc.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  },
+  "https://psc.ga.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://lpscpubvalence.lpsc.louisiana.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  },
+  "https://public.occ.ok.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.kcc.ks.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://e360.prc.nm.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  },
+  "https://www.efis.psc.mo.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  },
+  "https://www.pscpublicaccess.alabama.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.grda.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://lpsc.louisiana.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.ferc.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.nerc.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.caiso.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.ercot.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.spp.org": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.nyiso.com": {
+   "robots": "202",
+   "note": ""
+  },
+  "https://www.iso-ne.com": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.misoenergy.org": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.westernpowerpool.org": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://insidelines.pjm.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.utilitydive.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.rtoinsider.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.canarymedia.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.aep.com": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://investor.southerncompany.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://investors.duke-energy.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://investors.dominionenergy.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.entergy.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://investors.evergy.com": {
+   "robots": "error",
+   "note": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='investors.evergy.com', port=443): Read timed out. (read timeout=30)\"))"
+  },
+  "https://investors.exeloncorp.com": {
+   "robots": "error",
+   "note": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='investors.exeloncorp.com', port=443): Read timed out. (read timeout=30)\"))"
+  },
+  "https://amereninvestors.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://investors.pplweb.com": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.pinnaclewest.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://investors.xcelenergy.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://investor.oge.com": {
+   "robots": "error",
+   "note": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'investor.oge.com\\', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutionError(\"HTTPSConnection(host=\\'investor.oge."
+  },
+  "https://investor.oncor.com": {
+   "robots": "error",
+   "note": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'investor.oncor.com\\', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutionError(\"HTTPSConnection(host=\\'investor.on"
+  },
+  "https://www.fortisinc.com": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.brkenergy.com": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.txnmenergy.com": {
+   "robots": "200",
+   "note": ""
+  }
+ }
+}

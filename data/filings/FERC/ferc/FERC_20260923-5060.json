@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260923-5060",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3380",
+ "title": "Motion for Leave to Answer and Limited Answer of FirstEnergy Service Company to the Motion for Leave to Answer and Answer of PJM Interconnection, L.L.C. filed on 09/10/2026 under ER26-3380.",
+ "filed": "2026-09-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260923-5060",
+ "entity": "FirstEnergy Service Company; FirstEnergy Service Company",
+ "fetch": [
+  {
+   "ferc_file": "F0FCEF75-1AA1-CB4F-A64C-A0CF0B400000",
+   "name": "RBP FE Answer 9.23.26.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-23"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "interconnection",
+  "large load"
+ ],
+ "documents": []
+}

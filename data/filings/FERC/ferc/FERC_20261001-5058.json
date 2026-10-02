@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20261001-5058",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PF26-5",
+ "title": "Great Basin Gas Transmission Company submits Draft Resource Reports 1 – 13 re the proposed Great Basin 2028 Expansion Project under PF26-5.",
+ "filed": "2026-10-01",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261001-5058",
+ "entity": "Great Basin Gas Transmission Company",
+ "fetch": [
+  {
+   "ferc_file": "CC5F97DB-99BD-CBEA-9FEC-A0F798D00000",
+   "name": "Transmittal Letter.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "C8BEE580-C565-CF40-A56E-A0F798D00000",
+   "name": "Vol I - Resource Report 1- Project Description-September Draft.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "E0112CD1-D9C4-CAB3-8BA6-A0F798E00000",
+   "name": "Vol I - Resource Report No.  1 - Project Description - Appendix 1.D - September Draft.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "120C75BF-377F-C16A-93D5-A0F798E00000",
+   "name": "Vol II-Resource Report 1 -Appendix 1.G-1-Stakeholderlist-Sept2026.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process Progress Report"
+   },
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-30"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

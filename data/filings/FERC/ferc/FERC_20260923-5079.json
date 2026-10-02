@@ -1,0 +1,55 @@
+{
+ "id": "FERC:20260923-5079",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PF26-9",
+ "title": "Transwestern Pipeline Company, LLC submits draft Resource Reports 4, 6, and 7, and Appendix 1G of draft Resource Report 1 re the Desert Southwest Expansion Project under PF26-9.",
+ "filed": "2026-09-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260923-5079",
+ "entity": "Transwestern Pipeline Company, LLC",
+ "fetch": [
+  {
+   "ferc_file": "17E6CF95-1059-CD30-93F0-A0CF37300000",
+   "name": "Public-DSW Transmittal Letter_DRRs 1, 4, 6 and 7_09_23_26.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "633A4C7A-635A-C34A-9832-A0CF37300000",
+   "name": "PUBLIC_DSW_Draft RR1-App1G_ECRP_20260923.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "E2310C27-74B8-C53F-A159-A0CF37300000",
+   "name": "PUBLIC_DSW_Draft RR4-App4A_4B_4D_20260923.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "1E65BB22-9437-CAF8-AB3E-A0CF37300000",
+   "name": "6.1-PUBLIC_DSW_Draft RR6-App6A_6D_20260923.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process"
+   },
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process Progress Report"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-09-23"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "documents": []
+}

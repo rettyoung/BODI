@@ -1,0 +1,39 @@
+{
+ "id": "FERC:20260915-5024",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Motion to Intervene and Protest of the Alaska Commercial Fisheries Conservation Alliance in response to the Notice of Preliminary Permit Application Accepted for Filing etc. re the DeepGreen Project under P-15423.",
+ "filed": "2026-09-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260915-5024",
+ "entity": "Alaska Commercial Fisheries Conservation Alliance",
+ "fetch": [
+  {
+   "ferc_file": "631CA546-D784-C400-9D48-A0A4FDA00000",
+   "name": "ACFCA_FERC_Motion_To_Intervene.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-14"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

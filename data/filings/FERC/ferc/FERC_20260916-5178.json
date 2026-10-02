@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260916-5178",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3650",
+ "title": "(doc-less) Motion to Intervene of DTE Electric Company under ER26-3650.",
+ "filed": "2026-09-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260916-5178",
+ "entity": "DTE Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "F311BC8B-ECCC-C9BA-9004-A0ABC3200000",
+   "name": "1791642_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-16"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "large load"
+ ],
+ "documents": []
+}

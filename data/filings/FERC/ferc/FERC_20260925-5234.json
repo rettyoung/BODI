@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260925-5234",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-179",
+ "title": "Application for Authorization Under Section 203 of the Federal Power Act of Switched On, LLC under EC26-179.",
+ "filed": "2026-09-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260925-5234",
+ "entity": "Switched On, LLC",
+ "fetch": [
+  {
+   "ferc_file": "E6DD5A82-0D2A-C7AD-8B60-A0ED5A200000",
+   "name": "PUBLIC_Switched On LLC - FERC FPA Section 203 Application (9.25.2026).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Disposition of Facilities Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-25"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

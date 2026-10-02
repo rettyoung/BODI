@@ -1,0 +1,55 @@
+{
+ "id": "FERC:20260915-5145",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3380",
+ "title": "Motion for Leave to Answer and Answer of PPL Electric Utilities Corporation to the 09/10/2026 Motion for Leave to Answer and Answer of PJM Interconnection, L.L.C. under ER26-3380.",
+ "filed": "2026-09-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260915-5145",
+ "entity": "PPL Electric Utilities Corporation",
+ "fetch": [
+  {
+   "ferc_file": "75006192-F176-CA68-9CAF-A0A6B3600000",
+   "name": "Answer of PPL Electric - ER26-3380 - 9.15.2026.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-15"
+ },
+ "collected_at": "2026-10-02T23:08:03Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "ESA",
+  "collateral",
+  "interconnection",
+  "large load"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Answer of PPL Electric - ER26-3380 - 9.15.2026.pdf",
+   "bytes": 182181,
+   "sha256": "437882bcc71754e314141ebcf99e0a1f41aa1608c8bf15993501c4e1f9327ed1",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 5,
+   "truncated": false,
+   "text": "                             UNITED STATES OF AMERICA\n                                    BEFORE THE\n                      FEDERAL ENERGY REGULATORY COMMISSION\n\n                                                     )\n    PJM Interconnection, L.L.C.                      )            Docket No. ER26-3380-000\n                                                     )\n\n\n                    MOTION FOR LEAVE TO ANSWER AND ANSWER OF\n                       PPL ELECTRIC UTILITIES CORPORATION\n\n\n           Pursuant to Rules 212 and 213 of the Federal Energy Regulatory Commission’s\n\n(“Commission”) Rules of Practice and Procedure, 1 PPL Electric Utilities Corporation (“PPL\n\nElectric”) submits this answer (“Answer”) to the September 10, 2026 Motion for Leave to\n\nAnswer and Answer of PJM Interconnection, L.L.C. (“PJM”) in the above-captioned\n\nproceeding. 2 PPL Electric files this Answer for the sole purpose of correcting a factual\n\nmischaracterization of its Rate Schedule LP-6 that appears on page 92 of PJM’s Answer.\n\n\nI.         MOTION FOR LEAVE TO ANSWER\n\n           While an answer to an answer or protest is not a matter of right under the Commission’s\n\nregulations, 3 the Commission routinely permits such answers when the answer provides useful\n\nand relevant information that will assist the Commission in its decision-making process, 4\n\n\n1\n    18 C.F.R. §§ 385.212, 385.213.\n2\n PJM Interconnection, L.L.C., Motion for Leave to Answer and Answer of PJM Interconnection, L.L.C.,\nDocket No. ER26-3380-000 (Sept. 10, 2026) (“PJM’s Answer”).\n3\n    18 C.F.R. § 385.213(a)(2).\n4\n See, e.g., Pioneer Transmission, LLC v. N. Ind. Pub. Serv. Co. and Midwest Indep. Transmission Sys. Op.,\nInc., 140 FERC ¶ 61,057, at P 94 (2012); Sw. Power Pool, Inc., 131 FERC ¶ 61,252, at P 19 (2010), reh’g\ndenied, 137 FERC ¶ 61,075 (2011) (accepting answers that “provided information that assisted us in our\ndecision-making process”); Duke Energy Ky., Inc., 122 FERC ¶ 61,182, at P 25 (2008) (accepting answers to a\n\fcorrects factual inaccuracies and clarifies the issues, 5 provides information helpful to the\n\ndisposition of an issue, 6 or permits the issues to be narrowed. 7 This Answer will assist the\n\nCommission in its decision-making process, corrects factual inaccuracies and clarifies the\n\nissues, and provides information helpful to the disposition of an issue. Accordingly, PPL\n\nElectric respectfully requests that the Commission grant leave and accept this Answer.\n\n\nII.        ANSWER\n\n           A.       PJM’s Characterization of PPL Electric’s Rate Schedule LP-6 is\n                    Inaccurate and its use as Support for the Proposed LSE RBP Credit\n                    Requirement is Misplaced.\n\n           PJM’s Answer cites to the Pennsylvania Public Utility Commission’s approval of PPL\n\nElectric’s Rate Schedule LP-6 as support for PJM’s position that its proposed Load Serving\n\nEntity (“LSE”) Reliability Backstop Procurement (“RBP”) credit requirements are reasonable,\n\nand as evidence that LSEs in PJM are already requiring security from large loads to cover the\n\ncosts to serve those large loads. 8 While PPL Electric understands PJM’s intent in citing\n\nexamples of large load security practices, Rate Schedule LP-6 is not an appropriate\n\ncomparison, or an accurate example of such requirements being applied in this context.\n\n           To clarify, Rate Schedule LP-6 governs infrastructure investment and minimum load\n\ncommitments associated with the delivery of retail electric service that PPL Electric provides\n\n\n\n\nprotest that “provided information that assisted us in our decision-making process”); Tallgrass Transmission,\nLLC, 125 FERC ¶ 61,248, at P 26 (2008), reh’g denied, 150 FERC ¶ 61,224 (2015); PJM Interconnection,\nL.L.C., 120 FERC ¶ 61,083, at P 23 (2007) (answer to protests permitted when it provides information to assist\nthe Commission in its decision-making process); Entergy Servs. Inc., 126 FERC ¶ 61,227, at P. 76 (2009).\n5\n    See, e.g., PJM Interconnection, L.L.C., 84 FERC ¶ 61,224, at 62,078 (1998).\n6\n    See, e.g., CNG Transmission Corp., 89 FERC ¶ 61,100, at 61,287, n.11 (1999).\n7\n    See, e.g., New Energy Ventures, Inc. v. S. Cal. Edison Co., 82 FERC ¶ 61,335, at 62,323, n.1 (1998).\n8\n    See PJM’s Answer at 92.\n\n\n\n                                                         2\n\fin its capacity as an Electric Distribution Company (“EDC”) in Pennsylvania, not in its role as\n\nan LSE in Pennsylvania (a restructured state). Accordingly, Rate Schedule LP-6 does not\n\ncontain provisions that govern wholesale capacity procurement and generation supply to large\n\nloads, nor does it relate to the buyer-side credit obligations that PJM’s RBP proposal would\n\nimpose on LSEs to cover the cost of capacity secured through the RBP.\n\n       While it is true that PPL Electric is a designated LSE within PJM as a signatory to the\n\nReliability Assurance Agreement Among Load Serving Entities in the PJM Region (“RAA”), 9\n\nand that PPL Electric is a provider of last resort under Pennsylvania’s Electricity Generation\n\nCustomer Choice and Competition Act, 66 Pa.C.S.A. § 2801, et seq, PPL Electric does not\n\ncurrently serve as the LSE of record for any large load customers taking retail service pursuant\n\nto Rate Schedule LP-6, nor does it anticipate that large load customers will seek to use provider\n\nof last resort service to meet their capacity needs. Rate Schedule LP-6 does not relate to PPL\n\nElectric’s role or obligations as an LSE and does not address the security or collateral that may\n\nbe required to be posted to satisfy RBP credit obligations that could be assigned to PPL Electric\n\nin its distinct capacity as an LSE within PJM. Accordingly, PJM’s specific reliance on Rate\n\nSchedule LP-6 for this proposition is misplaced and inaccurate and requires correction in the\n\nrecord of this proceeding.\n\n\n\n\n9\n   The RAA is currently located under PJM’s “Intra-PJM Tariffs” eTariff title, available here:\nhttps://etariff.ferc.gov/TariffBrowser.aspx?tid=1731.\n\n\n\n                                               3\n\fIII.   CONCLUSION\n\n       In accordance with the foregoing, PPL Electric respectfully requests that the\n\nCommission grant leave and accept this Answer into the record of this proceeding.\n\n\n                                                   Respectfully submitted,\n\n Steven Nadel                                      /s/ Thomas DeVita\n Senior Counsel                                    Kimberly B. Frank\n PPL Services Corporation                          Thomas S. DeVita\n 645 Hamilton Street, Suite 601                    Stuart B. Robbins\n Allentown, PA 18101                               K&L Gates LLP\n Tel: 610.774.4102                                 1601 K Street, N.W.\n SMNadel@pplweb.com                                Washington, DC 20006\n                                                   Tel: 202.778.9064\n                                                   kimberly.frank@klgates.com\n                                                   thomas.devita@klgates.com\n                                                   stuart.robbins@klgates.com\n\n\n\n\nSeptember 15, 2026\n\n\n\n\n                                             4\n\f                             CERTIFICATE OF SERVICE\n\n\n       I hereby certify that I have this day of September 15, 2026 served the foregoing\n\ndocument upon each person designated on the official service list compiled by the Secretary\n\nin this proceeding.\n\n\n\n                                                    Respectfully submitted,\n\n                                                    /s/ Stuart Robbins\n                                                    Stuart B. Robbins\n                                                    K&L Gates LLP\n                                                    1601 K Street, N.W.\n                                                    Washington, DC 20006\n                                                    Tel: 202.778.9064\n                                                    stuart.robbins@klgates.com\n\nSeptember 15, 2026\n\f"
+  }
+ ]
+}

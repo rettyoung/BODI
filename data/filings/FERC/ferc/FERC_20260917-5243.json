@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260917-5243",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-99",
+ "title": "Motion for Leave to Answer and Answer of Advantage Capital Renewables, LLC to PJM Interconnection, L.L.C.'s 09/08/2026 Answer in response to Complaint under EL26-99.",
+ "filed": "2026-09-17",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260917-5243",
+ "entity": "Advantage Capital Renewables, LLC; Advantage Capital Renewables, LLC; Advantage Capital Renewables, LLC",
+ "fetch": [
+  {
+   "ferc_file": "C784D9B1-ADF4-C750-AE28-A0B097B00000",
+   "name": "Advantage Capital Renewables' Answer to PJM Answer (9.17.26).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-17"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center",
+  "interconnection"
+ ],
+ "documents": []
+}

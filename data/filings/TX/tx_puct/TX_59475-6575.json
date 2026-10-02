@@ -1,0 +1,22 @@
+{
+ "id": "TX:59475-6575",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/18/2026 | Judy Graci | PL | Support of the request made by Kevin Kennedy and John Burrow in Item No. 6571, filed September 17, 2026, requesting an independent technical investigation of the modeling underlying ERCOT's 2024 PBRP.",
+ "filed": "2026-09-18",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6575",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6575"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

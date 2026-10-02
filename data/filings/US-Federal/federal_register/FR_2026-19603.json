@@ -1,0 +1,31 @@
+{
+ "id": "FR:2026-19603",
+ "jur": "US-Federal",
+ "source": "federal_register",
+ "kind": "notice",
+ "docket": "Docket No. 50-289,EAXX-429-00-000-1773009788,NRC-2026-0397",
+ "title": "Constellation Energy Generation, LLC; Christopher M. Crane Clean Energy Center; Environmental Assessment and Finding of No Significant Impact",
+ "filed": "2026-09-25",
+ "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19603/constellation-energy-generation-llc-christopher-m-crane-clean-energy-center-environmental-assessment",
+ "entity": "nuclear-regulatory-commission",
+ "fetch": [
+  {
+   "url": "https://www.federalregister.gov/documents/full_text/text/2026/09/25/2026-19603.txt"
+  }
+ ],
+ "meta": {
+  "type": "Notice",
+  "action": "Notice; issuance.",
+  "abstract": "The U.S. Nuclear Regulatory Commission (NRC), as the lead agency, and the U.S. Department of Energy (DOE) Office of Energy Dominance Financing (EDF), as a cooperating agency, are issuing an environmental assessment (EA) and finding of no significant impact (FONSI) evaluating the reasonably foreseeable environmental effects from proposed Federal actions related to reauthorizing power operations at the Christopher M. Crane Clean Energy Center (CCEC). Specifically, the NRC is considering issuance of an exemption and three license amendments, which were requested by Constellation Energy Generation, LLC (CEG) to support the potential reauthorization of power operations at the CCEC. The DOE EDF's proposed action is a decision on providing Federal financial assistance (a loan guarantee) for refueling and resumption of power operations at the CCEC.",
+  "comments_close_on": null,
+  "effective_on": null,
+  "term": "interconnection"
+ },
+ "collected_at": "2026-10-02T23:14:46Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "interconnection",
+  "nuclear"
+ ],
+ "documents": []
+}

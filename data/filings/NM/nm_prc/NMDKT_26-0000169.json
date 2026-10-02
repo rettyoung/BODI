@@ -1,0 +1,21 @@
+{
+ "id": "NMDKT:26-0000169",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "keyword_hit",
+ "docket": "26-0000169",
+ "title": "IN THE MATTER OF THE FORMAL COMPLAINT OF CLAIRE KERVEN AGAINST PUBLIC SERVICE COMPANY OF NEW MEXICO.",
+ "filed": "2026-09-23",
+ "entity": "PUBLIC SERVICE COMPANY OF NEW MEXICO",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+ "fetch": [],
+ "meta": {
+  "new_docket": true,
+  "category": "Formal Complaint",
+  "type": "Utility"
+ },
+ "collected_at": "2026-10-02T23:18:44Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

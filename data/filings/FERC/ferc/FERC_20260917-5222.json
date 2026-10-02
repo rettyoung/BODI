@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260917-5222",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "(doc-less) Motion to Intervene of Gary S. Fronheiser under P-15424.",
+ "filed": "2026-09-17",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260917-5222",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "27713102-22ED-CC47-9DFD-A0B06A900000",
+   "name": "1791748_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-17"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

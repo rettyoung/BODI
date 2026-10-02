@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20260930-5218",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-112",
+ "title": "Complaint of Moraga Storage, LLC, et al. v. ISO New England Inc. under EL26-112.",
+ "filed": "2026-09-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260930-5218",
+ "entity": "Moraga Storage, LLC; Moraga Storage, LLC; River Mill Storage, LLC; Hecate Energy Medway Energy Center LLC; Brough Storage, LLC; Partridge Storage, LLC; Partridge Storage, LLC; Brough Storage, LLC; River Mill Storage, LLC; Hecate Energy Medway Energy Center LLC",
+ "fetch": [
+  {
+   "ferc_file": "497C94B8-9E07-C804-9ADB-A0F403900001",
+   "name": "Transmittal Letter - Project Companies' Complaint.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "F7F04516-1D7C-C1F6-88B1-A0F403A00000",
+   "name": "ISO-NE Project Company Complaint - FINAL.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "7BF69EE6-3D2D-C84B-9232-A0F403A00000",
+   "name": "Attachment A - Affidavit of David Riester.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "DF1E21FC-B675-C197-98BC-A0F403A00000",
+   "name": "Attachment B - Concentric Affidavit - PUBLIC.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Complaints"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-30"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

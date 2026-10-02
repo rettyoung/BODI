@@ -1,0 +1,45 @@
+{
+ "id": "FERC:20260928-5026",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-80",
+ "title": "Comments of Michael Gan re the Environmental Assessment for the Green Chile Project under CP26-80.",
+ "filed": "2026-09-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260928-5026",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "A3D0E3A6-E3A3-CC0B-84B9-A0E7F9B00000",
+   "name": "01_Green_Chile_Project_Filing_Cover_Sheet_CP26-80-000.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "F6D17AB4-34FC-C416-8D90-A0E7F9B00000",
+   "name": "02_Green_Chile_Project_Comments_on_EA_CP26-80-000.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "726E2DBD-804E-C16E-94F7-A0E7F9B00000",
+   "name": "03_Green_Chile_Project_Selected_Legal_Agency_and_Technical_References.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-25"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

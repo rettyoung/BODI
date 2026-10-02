@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260923-5115",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-534",
+ "title": "Northern Natural Gas Company submits response to FERC's 09/03/2026 environmental information request re the application for the Permian Basin Expansion Project under CP26-534.",
+ "filed": "2026-09-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260923-5115",
+ "entity": "Northern Natural Gas Company",
+ "fetch": [
+  {
+   "ferc_file": "CD8A99C4-E195-C254-9C31-A0CFAF600000",
+   "name": "2026_09_23_resp_Sep3_DR1_33.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-23"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260921-5237",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comments of the Alaska Commercial Fisheries Conservation Alliance re the Preliminary Permit Application of DeepGreen Western Passage SPV, LLC re the DeepGreen Project under P-15424.",
+ "filed": "2026-09-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260921-5237",
+ "entity": "Alaska Commercial Fisheries Conservation Alliance",
+ "fetch": [
+  {
+   "ferc_file": "E5DE8BA5-B389-C6E8-90BD-A0C568900000",
+   "name": "ACFCA FERC Maine.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-21"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

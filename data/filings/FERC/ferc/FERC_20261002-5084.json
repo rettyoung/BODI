@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261002-5084",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PF26-15",
+ "title": "Northwest Pipeline LLC submits Draft Resource Reports No. 1 and Summary of Alternatives re the Silver Spur Project under PF26-15.",
+ "filed": "2026-10-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261002-5084",
+ "entity": "Northwest Pipeline LLC",
+ "fetch": [
+  {
+   "ferc_file": "EA383160-1BB9-C8AE-9F29-A0FD7A400000",
+   "name": "PUB_01_NWP_SSP_RR01&SumofAlts_Transmittal Ltr.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "AAFABB60-37B4-CF72-A75D-A0FD7A400000",
+   "name": "PUB_02_NWP_SSP_RR01_100226.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "5DA799D8-F98F-C6F6-8BD5-A0FD7A500000",
+   "name": "PUB_03_NWP_SSP_SummaryofAlts_100226.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process"
+   },
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process Progress Report"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-10-02"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "documents": []
+}

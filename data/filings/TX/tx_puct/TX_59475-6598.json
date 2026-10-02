@@ -1,0 +1,22 @@
+{
+ "id": "TX:59475-6598",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/22/2026 | Scott J Brown | LTRS | SUPPORT OF THE KENNEDY-BURROW REQUEST FOR AN INDEPENDENT INVESTIGATION AND FORENSIC AUDIT",
+ "filed": "2026-09-22",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6598",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6598"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

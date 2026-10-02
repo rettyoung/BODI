@@ -1,0 +1,56 @@
+{
+ "id": "FERC:20260928-5040",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-106",
+ "title": "Motion for Leave to Answer and Answer of RWE Americas, LLC to PJM Interconnection, L.L.C.'s 09/24/2026 Response to the 09/04/2026 Complaint under EL26-106.",
+ "filed": "2026-09-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260928-5040",
+ "entity": "RWE Americas, LLC; RWE Americas, LLC",
+ "fetch": [
+  {
+   "ferc_file": "E51BCF39-E64F-CB57-9AB1-A0E855400000",
+   "name": "RWE Mtn for Leave to Answer and Answer (9.28.26).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "4B06E067-DC73-CAF5-A0E0-A0E855400000",
+   "name": "Attachment V.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "F249C4A3-438F-CDED-A8CB-A0E855400000",
+   "name": "Attachment W.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "F62B46BF-512F-C56E-B2C9-A0E855400000",
+   "name": "Attachment X.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-09-28"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection"
+ ],
+ "documents": []
+}

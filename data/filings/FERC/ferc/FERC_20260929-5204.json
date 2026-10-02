@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260929-5204",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER10-2437",
+ "title": "Supplement to 04/30/2026 Notice of Change in Status of Arizona Public Service Company under ER10-2437.",
+ "filed": "2026-09-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260929-5204",
+ "entity": "Arizona Public Service Company",
+ "fetch": [
+  {
+   "ferc_file": "040241FD-DF0B-C61A-9A5A-A0F7B1500000",
+   "name": "Attachment C_CUI-PRIV Wkp RPB-Indicative Screens_APS_Q12026.xlsx",
+   "type": "XLSX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-29"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": [
+  {
+   "url": "{'ferc_file': '040241FD-DF0B-C61A-9A5A-A0F7B1500000', 'name': 'Attachment C_CUI-PRIV Wkp RPB-Indicative Screens_APS_Q12026.xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

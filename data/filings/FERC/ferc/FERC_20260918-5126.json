@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260918-5126",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3650",
+ "title": "(doc-less) Motion to Intervene of Office of the Illinois Attorney General under ER26-3650.",
+ "filed": "2026-09-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260918-5126",
+ "entity": "Office of the Illinois Attorney General",
+ "fetch": [
+  {
+   "ferc_file": "C70A5E67-8057-C6C0-93F5-A0B4DF500000",
+   "name": "1791920_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-18"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "large load"
+ ],
+ "documents": []
+}

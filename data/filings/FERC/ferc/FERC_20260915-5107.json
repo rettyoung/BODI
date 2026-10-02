@@ -1,0 +1,46 @@
+{
+ "id": "FERC:20260915-5107",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "Iowa Office of Consumer Advocate submits request to update the official service list under EL26-70.",
+ "filed": "2026-09-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260915-5107",
+ "entity": "Iowa Office of Consumer Advocate",
+ "fetch": [
+  {
+   "ferc_file": "7DEC944C-EE50-CC31-96B9-A0A638600000",
+   "name": "Iowa OCA EL26-70 Service List Update.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-09-15"
+ },
+ "collected_at": "2026-10-02T23:06:36Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Iowa OCA EL26-70 Service List Update.docx",
+   "bytes": 161320,
+   "sha256": "f41b63db3baba91ab24e7d73f55b567fbac88bd68bde6264377a72259aac5600",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\n\n\n\tSeptember 15, 2026\n\n\nVIA E-FILING\n\nHonorable Debbie-Anne A. Reese Secretary\nFederal Energy Regulatory Commission\n888 First Street, N.E.\nWashington, D.C. 20426\n\nRe:\tIowa Office of Consumer Advocate’s Request to Update Service List, Docket No. EL26-70-000\n\nDear Secretary Reese:\n\nPursuant to Rule 2010(c)(2) of the Federal Energy Regulatory Commission’s Rules of Practice and Procedure, the Iowa Office of the Consumer Advocate respectfully submits this update to add the following individuals to the official service list in Docket No. EL26-70-000. \n\nADD\n\tHeather L. Palmer\nAttorney\nOffice of Consumer Advocate of Iowa\t\n1375 East Court Avenue\t\t\t\nDes Moines, IA 50319-0063\t\t\t\n(515) 725-7217 \t\t\t\t\nheather.palmer@oca.iowa.gov \n\nPlease contact me at your convenience should you have any questions regarding this submission.\t\n\nRespectfully,\n\n/s/ Heather L. Palmer\nHeather L. Palmer\n\nAttorney for the Iowa Office of Consumer Advocate\n\nCERTIFICATE OF SERVICE\nI hereby certify that I have this day served the foregoing document upon each person designated on the official service list compiled by the Secretary in this proceeding.\nDated at this 15th day of September, 2026.\n\n/s/ Heather L. Palmer\nHeather L. Palmer\nAttorney\nOffice of Consumer Advocate of Iowa\t\n1375 East Court Avenue\t\t\t\nDes Moines, IA 50319-0063\t\t\t\n(515) 725-7217 \nheather.palmer@oca.iowa.gov\n\n\n\n\n\n"
+  }
+ ]
+}

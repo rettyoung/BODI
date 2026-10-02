@@ -1,0 +1,22 @@
+{
+ "id": "TX:59142-74",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "9/25/2026 | Douglas Lindemann | PC | Request for Audit for Project Raptor",
+ "filed": "2026-09-25",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=74",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "74"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

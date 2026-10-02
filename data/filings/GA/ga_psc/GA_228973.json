@@ -1,0 +1,20 @@
+{
+ "id": "GA:228973",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "56002",
+ "title": "DKT 56002 STF-NU1-2",
+ "filed": "2026-09-29",
+ "entity": "Georgia Power Company",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=228973",
+ "fetch": [
+  {
+   "ga_document": 228973
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:26Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

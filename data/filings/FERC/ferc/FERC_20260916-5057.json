@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20260916-5057",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3685",
+ "title": "(doc-less) Motion to Intervene of American Electric Power Service Corporation under ER26-3685.",
+ "filed": "2026-09-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260916-5057",
+ "entity": "American Electric Power Service Corporation",
+ "fetch": [
+  {
+   "ferc_file": "46AB51AB-9D38-C785-9CE4-A0AAB6D00000",
+   "name": "1791513_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-16"
+ },
+ "collected_at": "2026-10-02T23:12:41Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "ESA",
+  "curtailment",
+  "large load"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791513_Interv.txt",
+   "bytes": 2638,
+   "sha256": "7184115c7bd7658f84ea5a8f661de515f81b86dfe79f7634ef47e6a28f4065af",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of American Electric Power Service Corporation under ER26-3685-000.\r\n\r\nSubmission Date:        9/16/2026 10:51:41 AM\r\n\r\nFiled Date:             9/16/2026 10:51:41 AM\r\n\r\nDockets\r\n-------\r\nER26-3685-000        Southwest Power Pool, Inc. submits tariff filing per 35.13(a)(2)(iii): Revisions to Clarify the Conditional High Impact Large Load Policy submitted on 9/2/2026 12:26:56 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nAmerican Electric Power Service Corporation tmastrogiacomo@aep.com                   clbumgarner@aep.com                     \r\nAmerican Electric Power Service Corporation                                          kbdaley@aep.com                         \r\nAmerican Electric Power Service Corporation                                          lturner@aep.com                         \r\n\r\nBasis for Intervening:\r\nPursuant to Rules 212 and 214 of the Federal Energy Regulatory Commission’s (“Commission”) Rules of Practice and Procedure, 18 C.F.R. § 385.212, 214, American Electric Power Service Corporation, on behalf of its affiliates, Public Service Company of Oklahoma, Southwestern Electric Power Company, AEP Oklahoma Transmission Company, Inc., and AEP Southwestern Transmission Company, Inc. (collectively, “AEP Companies”) and AEP Energy Partners, Inc., respectfully move to intervene in this proceeding.\r\n\r\nAmerican Electric Power Company, Inc. is a multistate electric utility holding company system providing electric service at retail and wholesale.  AEP Companies are transmission owners and members of the Southwest Power Pool, Inc. (“SPP”) serving customers in Oklahoma, Louisiana, Arkansas, and East Texas.  AEP Energy Partners, Inc., is a member of and market participant in SPP.\r\n\r\nOn September 2, 2026, SPP submitted revisions to Attachment AE, to its Tariff to clarify commitment, deployment, and curtailment related to a Conditional High Impact Large Load.\r\n\r\nAs transmission owners, transmission customers, and market participants within SPP, AEP Companies and AEP Energy Partners, Inc. would be directly affected by any decision in this docket.  Therefore, AEP Companies and AEP Energy Partners, Inc. have interests in this proceeding that cannot adequately be represented by any other party and respectfully requests that the Commission grant this motion to intervene. \r\n"
+  }
+ ]
+}

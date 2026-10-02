@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20260928-5065",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PF25-8",
+ "title": "LED Enterprises, LLC submits draft Resource Report Nos. 1-10 and 12 re the Yuma Pipeline Project under PF25-8.",
+ "filed": "2026-09-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260928-5065",
+ "entity": "LED Enterprises, LLC",
+ "fetch": [
+  {
+   "ferc_file": "652CD6AC-EE76-CAF1-912A-A0E8D3400000",
+   "name": "Cover Letter - RR Drafts.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "FA524870-F3EA-C233-99CB-A0E8D3400000",
+   "name": "YumaPipeline_RR9_App9A_through_9E.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "54834BB3-BE0C-CB96-A156-A0E8D3400000",
+   "name": "YumaPipeline_RR10.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "EAEE27E1-5525-C72F-AA0B-A0E8D3400000",
+   "name": "YumaPipeline_RR10_App10A_through_10B.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process"
+   },
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process Progress Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-28"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260929-5124",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Motion to Intervene of the City of Eastport, Maine under P-15424.",
+ "filed": "2026-09-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260929-5124",
+ "entity": "City of Eastport, Maine",
+ "fetch": [
+  {
+   "ferc_file": "85D1E5C7-E2F8-C85F-9D9E-A0EEBCC00000",
+   "name": "City of Eastport Motion to Intervene with attached Exhibit - P15424-000.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-29"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

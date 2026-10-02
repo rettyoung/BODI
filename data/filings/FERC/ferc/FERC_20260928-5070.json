@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20260928-5070",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-547",
+ "title": "Gulf South Pipeline Company, LLC submits Minor Workspace/Alignment Updates and Environmental Correspondence re the application for the Texas Gateway Pipeline Project under CP26-547.",
+ "filed": "2026-09-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260928-5070",
+ "entity": "Gulf South Pipeline Company, LLC",
+ "fetch": [
+  {
+   "ferc_file": "F03A6E0F-970D-C3BD-A374-A0E8E2900000",
+   "name": "01_Transmittal _Gateway_9-28 Supplemental Filing.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "B499BDB5-82D4-C734-A880-A0E8E2900000",
+   "name": "02_Supplemental Filing Narrative_09.24.2026 (1).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "92AC18C9-8837-C274-B08B-A0E8E2900000",
+   "name": "03_Resource Report 1 Documents_1 of 8.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "E38B6559-37A4-CD16-878A-A0E8E3100000",
+   "name": "04_Resource Report 1 Documents_2 of 8.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Certificate of Public Convenience and Necessity"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-09-28"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "certificate of public convenience",
+  "co-located",
+  "co-location"
+ ],
+ "documents": []
+}

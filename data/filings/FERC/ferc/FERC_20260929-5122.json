@@ -1,0 +1,45 @@
+{
+ "id": "FERC:20260929-5122",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-98",
+ "title": "PJM Interconnection, L.L.C. submits Answer and Motion to Dismiss Pennsylvania Public Utility Commission’s Complaint under EL26-98. ",
+ "filed": "2026-09-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260929-5122",
+ "entity": "PJM Interconnection, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "44C82774-8203-CBCF-9056-A0EEB5900000",
+   "name": "EL26-98 20260929 Answer of PJM Interconnection_ L.L.C. to PA PUC Complaint.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "45F3E4CE-C59A-C3BF-9838-A0EEB5900000",
+   "name": "EL26-98 20260929 PA PUC v. PJM Testimony of Timothy Horger.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Response to Complaint"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-29"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center",
+  "interconnection"
+ ],
+ "documents": []
+}

@@ -1,0 +1,22 @@
+{
+ "id": "TX:58481-218",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "9/18/2026 | PUC OPDM | PRJ | ORDER ADOPTING NEW 16 TAC §25.194",
+ "filed": "2026-09-18",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=218",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "218"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

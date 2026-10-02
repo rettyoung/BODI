@@ -1,0 +1,22 @@
+{
+ "id": "TX:59475-6586",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/19/2026 | 59475, Item 6571 | PC | Public Comment Supporting Independent Audit Request — Docket 59475, Item 6571",
+ "filed": "2026-09-19",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6586",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6586"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

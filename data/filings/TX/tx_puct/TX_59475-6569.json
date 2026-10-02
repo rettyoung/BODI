@@ -1,0 +1,22 @@
+{
+ "id": "TX:59475-6569",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/15/2026 | SOAH | PL | SOAH ORDER NO. 34- NOTICE TO THE PARTIES",
+ "filed": "2026-09-15",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6569",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6569"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

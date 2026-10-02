@@ -1,0 +1,28 @@
+{
+ "id": "FR:2026-18988",
+ "jur": "FERC",
+ "source": "federal_register",
+ "kind": "notice",
+ "docket": "Project No. 14787-004",
+ "title": "Black Canyon Hydro, LLC; Notice of Intent To Prepare a Supplemental Environmental Impact Statement for the Seminoe Pumped Storage Project, Schedule for Environmental Review, and Request For Comments",
+ "filed": "2026-09-16",
+ "url": "https://www.federalregister.gov/documents/2026/09/16/2026-18988/black-canyon-hydro-llc-notice-of-intent-to-prepare-a-supplemental-environmental-impact-statement-for",
+ "entity": "energy-department, federal-energy-regulatory-commission",
+ "fetch": [
+  {
+   "url": "https://www.federalregister.gov/documents/full_text/text/2026/09/16/2026-18988.txt"
+  }
+ ],
+ "meta": {
+  "type": "Notice",
+  "action": null,
+  "abstract": null,
+  "comments_close_on": null,
+  "effective_on": null,
+  "term": "grid reliability"
+ },
+ "collected_at": "2026-10-02T23:14:46Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

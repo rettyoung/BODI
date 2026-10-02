@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20260916-5153",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3685",
+ "title": "(doc-less) Motion to Intervene of Oklahoma Gas and Electric Company under ER26-3685.",
+ "filed": "2026-09-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260916-5153",
+ "entity": "Oklahoma Gas and Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "E3E7941E-9A8D-CDCE-9FF8-A0AB97900000",
+   "name": "1791616_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-16"
+ },
+ "collected_at": "2026-10-02T23:13:14Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "ESA",
+  "large load"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791616_Interv.txt",
+   "bytes": 2036,
+   "sha256": "d6bf0d77b94e455d47df49e3ea418f90f521b14ba0204cf4cf335e688c09f059",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Oklahoma Gas and Electric Company under ER26-3685-000.\r\n\r\nSubmission Date:        9/16/2026 2:57:46 PM\r\n\r\nFiled Date:             9/16/2026 2:57:46 PM\r\n\r\nDockets\r\n-------\r\nER26-3685-000        Southwest Power Pool, Inc. submits tariff filing per 35.13(a)(2)(iii): Revisions to Clarify the Conditional High Impact Large Load Policy submitted on 9/2/2026 12:26:56 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nOklahoma Gas and Electric Company        sultemwh@oge.com                         snodgrcc@oge.com                        \r\n\r\nBasis for Intervening:\r\nPursuant to Rules 212 and 214 of the Federal Energy Regulatory Commission’s (“Commission”) Rules of Practice and Procedure, 18 C.F.R. § 385.212, 214, Oklahoma Gas & Electric Company (“OG&E”) respectfully moves to intervene in the above captioned proceeding.\r\n\r\nOG&E is a multistate electric utility providing electric service at retail and wholesale in Oklahoma and Arkansas.  OG&E is a transmission, generation, and distribution owning member of the Southwest Power Pool, Inc. (“SPP”) serving customers in Oklahoma and Arkansas.\r\n\r\nPursuant to the requirements of the Commission and the SPP Open Access Transmission Tariff (“SPP Tariff”), OG&E has ceded functional control of its transmission facilities to SPP.  Further, OG&E is a transmission customer under the SPP Tariff and participates in the markets administered by SPP.\r\n\r\nAs transmission owner, transmission customer, and market participant within SPP, OG&E would be directly affected by any decision in this docket. Therefore OG&E has an interest in this proceeding that cannot adequately be represented by any other party, and the Commission should grant this motion to intervene. \r\n"
+  }
+ ]
+}

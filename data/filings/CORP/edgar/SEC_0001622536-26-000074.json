@@ -1,0 +1,34 @@
+{
+ "id": "SEC:0001622536-26-000074",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Talen 8-K 8-K items 5.02,7.01,8.01,9.01",
+ "filed": "2026-09-29",
+ "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/",
+ "entity": "Talen",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/tln-20260925.htm"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/a20260929pressreleasecapac.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "5.02",
+   "7.01",
+   "8.01",
+   "9.01"
+  ],
+  "cik": "0001622536",
+  "market_participant": true
+ },
+ "collected_at": "2026-10-02T23:16:49Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

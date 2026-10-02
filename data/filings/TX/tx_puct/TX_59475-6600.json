@@ -1,0 +1,22 @@
+{
+ "id": "TX:59475-6600",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/23/2026 | Clare Nelson | COM | The 765kV STEP has no protection from Geomagnetically Induced Current (GIC) harmonics per SB 6. Author is Don Brown, co-founder Secure the Texas Grid. This gives Abbott a graceful way to pause 765kV projects on purely technical issues alone, no politics.",
+ "filed": "2026-09-23",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6600",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6600"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

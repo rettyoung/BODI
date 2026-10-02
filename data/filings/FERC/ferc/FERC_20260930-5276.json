@@ -1,0 +1,67 @@
+{
+ "id": "FERC:20260930-5276",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-181",
+ "title": "Joint Application for Authorization Under Section 203 of the Federal Power Act of Rhode Island State Energy Center, LP, et al. under EC26-181.",
+ "filed": "2026-09-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260930-5276",
+ "entity": "Rhode Island State Energy Center, LP; Rhode Island State Energy Center, LP; Constellation Energy Generation, LLC; Constellation Energy Generation, LLC; Constellation Energy Generation, LLC; Constellation Energy Generation, LLC; Rhode Island State Energy Center, LP",
+ "fetch": [
+  {
+   "ferc_file": "F847F502-7796-CD35-802C-A0F836F00001",
+   "name": "CUIPRIV Newton Exhibit I.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "7CED87D7-7246-C94F-89DE-A0F837000000",
+   "name": "Technical Appendix Methods to Calculate Concentration.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "519B2578-3E07-C67F-9236-A0F837000000",
+   "name": "0. master run do files.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "8ACA7A93-D8E4-C413-9BA1-A0F837000000",
+   "name": "1. setup.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Disposition of Facilities Filing"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-30"
+ },
+ "collected_at": "2026-10-02T23:12:34Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "large load"
+ ],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'F847F502-7796-CD35-802C-A0F836F00001', 'name': 'CUIPRIV Newton Exhibit I.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '7CED87D7-7246-C94F-89DE-A0F837000000', 'name': 'Technical Appendix Methods to Calculate Concentration.docx', 'type': 'DOCX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '519B2578-3E07-C67F-9236-A0F837000000', 'name': '0. master run do files.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '8ACA7A93-D8E4-C413-9BA1-A0F837000000', 'name': '1. setup.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20260929-5085",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-27",
+ "title": "Plaquemines Expansion, LLC et al. submit revised Appendices to Resource Report No. 13 as supplemental information to the 11/17/2025 Application for a Certificate of Public Convenience and Necessity for the Plaquemines Expansion Project under CP26-27.",
+ "filed": "2026-09-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260929-5085",
+ "entity": "Plaquemines Expansion, LLC; Plaquemines Expansion, LLC; Venture Global Plaquemines LNG, LLC; Venture Global Plaquemines LNG, LLC",
+ "fetch": [
+  {
+   "ferc_file": "871A2C2B-F7DA-C196-B35B-A0EE59B00000",
+   "name": "Resource Report 13 Supplement Revision Table (CEII).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "03F7173A-CEBA-C113-865D-A0EE59C00000",
+   "name": "13.J.4 Geotechnical Investigation Part II (CEII).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "1D740A78-7CBA-C218-8C93-A0EE59C00000",
+   "name": "13.J.4 Geotechnical Investigation Part I (CEII).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "5FA9B9EF-F94D-CA2C-8A1E-A0EE59D00000",
+   "name": "13.I.1 Earthquakes (CEII).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Certificate of Public Convenience and Necessity"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-29"
+ },
+ "collected_at": "2026-10-02T23:07:35Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "certificate of public convenience",
+  "large load"
+ ],
+ "documents": [
+  {
+   "url": "{'ferc_file': '871A2C2B-F7DA-C196-B35B-A0EE59B00000', 'name': 'Resource Report 13 Supplement Revision Table (CEII).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '03F7173A-CEBA-C113-865D-A0EE59C00000', 'name': '13.J.4 Geotechnical Investigation Part II (CEII).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '1D740A78-7CBA-C218-8C93-A0EE59C00000', 'name': '13.J.4 Geotechnical Investigation Part I (CEII).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '5FA9B9EF-F94D-CA2C-8A1E-A0EE59D00000', 'name': '13.I.1 Earthquakes (CEII).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

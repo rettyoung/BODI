@@ -1,0 +1,22 @@
+{
+ "id": "TX:58000-68",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "10/1/2026 | Dawn James | COM | VOIDED - SEE ITEM 69",
+ "filed": "2026-10-01",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=68",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "68"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

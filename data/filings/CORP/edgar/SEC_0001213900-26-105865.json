@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001213900-26-105865",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "AIB Data Centers Inc.  (AIB)  (CIK 0002070542) 8-K — full-text hit \"data center\" \"electric service agreement\"",
+ "filed": "2026-10-01",
+ "url": "https://www.sec.gov/Archives/edgar/data/2070542/000121390026105865/",
+ "entity": "AIB Data Centers Inc.  (AIB)  (CIK 0002070542)",
+ "fetch": [],
+ "meta": {
+  "query": "\"data center\" \"electric service agreement\"",
+  "form": "8-K"
+ },
+ "collected_at": "2026-10-02T23:16:49Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "documents": []
+}

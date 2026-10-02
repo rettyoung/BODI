@@ -1,0 +1,44 @@
+{
+ "id": "FERC:20260925-5151",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2310",
+ "title": "Pacific Gas and Electric Company submits summary and conclusion of efforts to address Recommendation 3 and FERC's 09/01/2022 Comment 1 on the 2017 Focused Spillway Assessment Report, etc. re the Drum-Spaulding Hydroelectric Project under P-2310.",
+ "filed": "2026-09-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260925-5151",
+ "entity": "Pacific Gas and Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "7591ED2D-2625-C639-B04C-A0DA02400000",
+   "name": "PGE20260925_2310_RuckerLake_STID_Enc1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "B6D86CD2-D42F-CFF5-BA7B-A0DA02400000",
+   "name": "PGE20260925_2310_RuckerLake_STID_Enc2.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Dam Safety Compliance Report"
+   },
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-25"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

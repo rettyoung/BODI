@@ -1,0 +1,22 @@
+{
+ "id": "SEC:0000936340-26-000159",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "DTE ENERGY CO  (DTB, DTE, DTG, DTK, DTW)  (CIK 0000936340), DTE Electric Co  (CIK 0000028385) 8-K — full-text hit \"large load\" tariff",
+ "filed": "2026-09-28",
+ "url": "https://www.sec.gov/Archives/edgar/data/936340/000093634026000159/",
+ "entity": "DTE ENERGY CO  (DTB, DTE, DTG, DTK, DTW)  (CIK 0000936340), DTE Electric Co  (CIK 0000028385)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "8-K"
+ },
+ "collected_at": "2026-10-02T23:16:49Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "large load"
+ ],
+ "documents": []
+}

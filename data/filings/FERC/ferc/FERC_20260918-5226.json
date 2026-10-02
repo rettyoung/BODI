@@ -1,0 +1,46 @@
+{
+ "id": "FERC:20260918-5226",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3797",
+ "title": "San Gabriel Project I LLC submits tariff filing per 35.12: Co-Tenancy and Shared Facilities Agreement and Request for Waivers to be effective 11/18/2026 under ER26-3797 Filing Type : 395",
+ "filed": "2026-09-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260918-5226",
+ "entity": "San Gabriel Project I LLC",
+ "fetch": [
+  {
+   "ferc_file": "C2D28FA4-5A8D-CDAD-9E9E-A0B578900000",
+   "name": "San Gabriel SFA Transmittal Letter (Filing Version).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "9AF15A46-3B1A-C88E-A49B-A0B578900000",
+   "name": "San Gabriel SFA.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "CF146E9D-F643-CC0D-AF71-A0B578900000",
+   "name": "FERC GENERATED TARIFF FILING.PDF",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-09-18"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "documents": []
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FERC:20261002-5006",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-2793,ER26-2795,ER26-2802,ER26-2809,ER26-2812,ER26-2813,ER26-2818,ER26-2821",
+ "title": "Motion for Leave to Answer and Answer of CREPC 1920 Ad Hoc Committee o/b/o NorthernGrid Relevant State Entities in response to the 08/28/2026 Answer et al. filed by NorthernGrid Enrolled Parties under ER26-2793 et al.",
+ "filed": "2026-10-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261002-5006",
+ "entity": "CREPC 1920 Ad Hoc Committee",
+ "fetch": [
+  {
+   "ferc_file": "0815F94C-52EC-CA74-B9FC-A0FC95B00000",
+   "name": "RSEs Motion for Leave to Answer and Answer to NorthernGrid 1920 Filing.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-10-01"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "large load"
+ ],
+ "documents": []
+}

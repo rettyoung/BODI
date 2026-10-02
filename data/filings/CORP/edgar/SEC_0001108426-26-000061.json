@@ -1,0 +1,28 @@
+{
+ "id": "SEC:0001108426-26-000061",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "TXNM Energy 8-K 8-K items 8.01",
+ "filed": "2026-09-30",
+ "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000061/",
+ "entity": "TXNM Energy",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000061/pnm-20260930.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01"
+  ],
+  "cik": "0001108426",
+  "market_participant": false
+ },
+ "collected_at": "2026-10-02T23:16:49Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

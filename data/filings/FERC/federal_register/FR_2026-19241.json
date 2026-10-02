@@ -1,0 +1,30 @@
+{
+ "id": "FR:2026-19241",
+ "jur": "FERC",
+ "source": "federal_register",
+ "kind": "notice",
+ "docket": "Project No. 1869-066",
+ "title": "NorthWestern Energy; Notice of Application Accepted for Filing, Soliciting Motions To Intervene and Protests, Ready for Environmental Analysis, and Soliciting Comments, Recommendations, Preliminary Terms and Conditions, and Preliminary Fishway Prescriptions",
+ "filed": "2026-09-21",
+ "url": "https://www.federalregister.gov/documents/2026/09/21/2026-19241/northwestern-energy-notice-of-application-accepted-for-filing-soliciting-motions-to-intervene-and",
+ "entity": "energy-department, federal-energy-regulatory-commission",
+ "fetch": [
+  {
+   "url": "https://www.federalregister.gov/documents/full_text/text/2026/09/21/2026-19241.txt"
+  }
+ ],
+ "meta": {
+  "type": "Notice",
+  "action": null,
+  "abstract": null,
+  "comments_close_on": null,
+  "effective_on": null,
+  "term": "interconnection"
+ },
+ "collected_at": "2026-10-02T23:14:46Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "interconnection"
+ ],
+ "documents": []
+}

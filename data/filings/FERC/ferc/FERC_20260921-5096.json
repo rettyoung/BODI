@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260921-5096",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP13-499,CP18-5",
+ "title": "Comments of Allegra Schecter urging FERC to choose the No Action Alternative re the Constitution Pipeline under CP13-499, et al.",
+ "filed": "2026-09-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260921-5096",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "3FC7E825-354F-C2E7-9CEA-A0C420A00000",
+   "name": "2026 EA Comment NO Acrion Alternative.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-19"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

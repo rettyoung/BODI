@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20261002-5135",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP16-454,CP24-70",
+ "title": "Rio Grande LNG, LLC, et. al. submit compliance documentation associated with Condition No. 144, as set forth in the Order re the Rio Grande LNG Project under CP16-454 et al.\t",
+ "filed": "2026-10-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261002-5135",
+ "entity": "Rio Grande LNG, LLC; Rio Grande LNG Train 4, LLC; Rio Grande LNG Train 5, LLC",
+ "fetch": [
+  {
+   "ferc_file": "F3C762B4-4EF7-C1D9-B1FC-A0FE06200000",
+   "name": "Condition 144 Compliance - Narrative (CUI-PRIV).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Certificate of Compliance Report"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-10-02"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "documents": []
+}

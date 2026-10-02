@@ -1,0 +1,45 @@
+{
+ "id": "FERC:20260930-5186",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3610",
+ "title": "Cheyenne Power Hub, LLC submits tariff filing per 35.17(b): Response to Deficiency Letter ER26-3610- to be effective 1/1/2027 under ER26-3610 Filing Type : 170",
+ "filed": "2026-09-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260930-5186",
+ "entity": "Cheyenne Power Hub, LLC",
+ "fetch": [
+  {
+   "ferc_file": "12D434AD-7FC8-C5F7-9E0E-A0F3C3300000",
+   "name": "PUBLIC Cheyenne Power Hub Response to Deficiency Letter.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "799FD097-4A4D-CA6C-A657-A0F3C3300000",
+   "name": "Clean Tariff.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "C15F35A3-CAEE-C73F-AE06-A0F3C3300000",
+   "name": "FERC GENERATED TARIFF FILING.PDF",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-30"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

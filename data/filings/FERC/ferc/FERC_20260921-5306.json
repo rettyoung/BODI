@@ -1,0 +1,56 @@
+{
+ "id": "FERC:20260921-5306",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3265",
+ "title": "Motion for Leave to Reply and Reply of  American Transmission Company LLC to the Answers filed by Microsoft Corporation et al. re the 07/24/2026 tariff filing under ER26-3265.",
+ "filed": "2026-09-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260921-5306",
+ "entity": "American Transmission Company LLC (ATC)",
+ "fetch": [
+  {
+   "ferc_file": "F7E94E12-DF24-C263-9EE8-A0C8CFF00000",
+   "name": "ReplytoProtestsandCommentsER26-3265.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-21"
+ },
+ "collected_at": "2026-10-02T23:12:08Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "cost allocation",
+  "data center",
+  "interconnection",
+  "large load",
+  "large-load"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "ReplytoProtestsandCommentsER26-3265.pdf",
+   "bytes": 153311,
+   "sha256": "49b2fa6369059fed81d54307cec942a5ca0aee476ceb919275cbbedc39b7c990",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 5,
+   "truncated": false,
+   "text": "                             UNITED STATES OF AMERICA\n                                    BEFORE THE\n                      FEDERAL ENERGY REGULATORY COMMISSION\n\n\nAmerican Transmission Company LLC                                     Docket No. ER26-3265-000\n\n\n                       MOTION FOR LEAVE TO REPLY AND REPLY OF\n                        AMERICAN TRANSMISSION COMPANY LLC\n\n          Pursuant to Sections 212 and 213 of the Commission’s Rules of Practice and Procedure, 1\n\nAmerican Transmission Company LLC (ATC) by its corporate manager, ATC Management Inc.\n\n(collectively, ATC) hereby files this Motion for Leave to Reply and Reply to the Answers filed\n\nby Microsoft Corporation (Microsoft), Data Center Coalition (DCC). 2 On July 24, 2026, ATC\n\nfiled four executed Amended Large Load Project Commitment Agreements (Amended LLPCAs)\n\nand an executed Minimum Transmission Charge Agreement (MTCA) between ATC and\n\nWisconsin Electric Power Company (WEPCo) related to WEPCo’s service to Microsoft. As\n\ndiscussed below, ATC’s filing is just and reasonable and should be accepted by the Commission\n\nwithout a hearing or settlement proceedings with an effective date of July 1, 2026.\n\nI.        REPLY\n\n          ATC has worked collaboratively with WEPCo and Microsoft to develop a project\n\ndescription and accelerated schedule that is responsive to Microsoft’s needs. 3 Since ATC’s initial\n\nfiling, ATC has addressed Microsoft’s concerns by agreeing to revise the Early Termination Fee\n\n\n1\n    18 C.F.R. § 385.212-213 (2026).\n2\n Motion for Leave to Answer and Answer of Microsoft Corporation (Microsoft Answer) filed on Sept.\n14, 2026), Motion of for Leave to Answer and Answer of the Data Center Coalition (DCC Answer) (filed\non Sept. 18, 2026, but incorrectly dated Aug. 18, 2026).\n3\n Protest and Motion for Hearing and Settlement Judge Procedures of Microsoft Corporation, (Microsoft\nProtest) at 1 (“Microsoft appreciates the ongoing collaboration of ATC and Wisconsin Electric Power\nCompany, dba We Energies (“WEPCo”), as they continue working with Microsoft to effectuate service\nnecessary to power Microsoft’s datacenter campus in Racine County, Wisconsin.”).\n\fand clarify the Security requirements. Hearing and settlement proceedings would serve no\n\napparent purpose other than potentially preventing proper cost allocation that protects other\n\nratepayers from paying for upgrades to ATC’s system caused by Microsoft’s load.\n\n       Despite the parties’ disagreements, the Commission has a sufficient record to decide this\n\nmatter. ATC’s disagreement with certain characterizations advanced by Microsoft and other\n\nintervenors does not create a genuine issue of material fact requiring a hearing. Indeed, the table\n\non pages 3–4 of Microsoft’s protest confirms that its purported factual disputes are legal or\n\npolicy questions that can be resolved on the pleadings. For example, no hearing or settlement\n\nprocedures are needed to determine that the LLPCAs and the MTCA are bilateral service\n\nagreements binding only WEPCo, rather than generally applicable rate schedules. Under\n\nMicrosoft’s reasoning, every generator interconnection pre-agreement—including FCAs, FSAs,\n\nand EPC agreements—would constitute a rate schedule. Moreover, most of the alleged factual\n\ndisputes merely concern the operation of the MISO Tariff. 4 Although protests routinely identify\n\ndisagreements in Section 205 proceedings, it is well established that “mere conjecture does not\n\ncreate a genuine issue of material fact warranting a hearing.” 5 Any factual dispute presented\n\nhere—although none appears to exist—can be resolved on the written record. ATC’s proposed\n\n\n\n\n4\n  E.g., ATC’s statement that “Like any other Network Customer, ATC will charge WEPCO for Network\nService based on its load ratio share for as long as WEPCo uses that service, regardless of the\ndepreciation level of any particular transmission facilities.”\n5\n Interstate Power & Light Co., 127 FERC 61,043 at P 44, n. 49 (2009) (finding that a protestor has a\nburden to do more than make mere unsubstantiated allegations to warrant a hearing); Tenneco Oil Co. 25\nFERC ¶ 61,234 (1983); Tilden Mining Co.L.C., v. Midcontinent Indep. System Op., Inc., 153 FERC\n61,248 at P 22 (2015).\n\n                                                  2\n\fapproach follows the Transmission Security Agreement framework the Commission has already\n\naccepted in other proceedings without a hearing. 6\n\n          Finally, ATC is currently incurring costs to construct and operate the transmission\n\nfacilities needed to provide the capacity requested for Microsoft’s service. Non-large-load\n\ncustomers are bearing costs that otherwise would be allocated to WEPCo, and hearing and\n\nsettlement proceedings would prolong that burden.\n\nII.       MOTION FOR LEAVE TO REPLY\n\n          ATC respectfully requests leave to submit this Reply. The Commission’s Rules of\n\nPractice and Procedure prohibit answers to protests unless otherwise authorized. 7 The\n\nCommission regularly allows answers for good cause shown, such as when the answers help\n\nensure a more accurate and complete record, clarify the issues, or provide useful and relevant\n\ninformation that will assist the Commission in its deliberative process. 8 ATC’s Answer will\n\nclarify the record, correct misinformation and ensure a more accurate and complete record.\n\nBecause this information will assist the Commission in its decision-making, ATC respectfully\n\nrequests that the Commission accept this Answer for good cause shown.\n\n\n\n\n6\n See e.g., PECO Energy Co., 195 FERC 61,074 (2026); Commonwealth Edison Co., 194 FERC 1,183\n(2026); see also Midcontinent Indep. Sys. Operator. Inc., et al., 195 FERC ¶ 61,212 at P 83 (2026) (Order\nInstituting Proceeding Under Section 206 of the Federal Power Act) (Show Cause Order).\n7\n    18 C.F.R. § 385.213(a)(2).\n8\n  See, e.g., Midcontinent Indep. Sys. Operator, Inc., 191 FERC ¶ 61,131 at P 24 (2025) (accepting answers\nto answers “because they have provided information that assisted us in our decision-making process”);\nTexas Eastern Transmission, LP, 122 FERC ¶ 61,205 at P 8 (2008) (accepting answer that completed the\nrecord); California Indep. Operator Corp., 105 FERC ¶ 61,284 at P 10 (2003) (accepting MISO’s answer\nthat clarified the issues).\n\n                                                    3\n\fIV.      CONCLUSION\n\n         For the foregoing reasons, ATC respectfully requests that the Commission grant leave to\n\nReply, accept this Reply, deny the requests for hearing and settlement judge procedures, and\n\naccept the Amended LLPCAs and the MTCA as just and reasonable, effective July 1, 2026.\n\n                                     Respectfully submitted,\n\n\n\n                                                            /s/ Linda Walsh\n      Ellen Nowak, Vice President, State                    Linda Walsh\n          and Federal Affairs                               Husch Blackwell LLP\n      Stephanie Nietzel, Senior Counsel                     1801 Pennsylvania Ave., NW\n      ATC Management Inc., corporate manager of             Suite 1000\n      American Transmission Company LLC                     Washington, DC 20006\n      P.O. Box 47                                           Tel: (202) 378-2308\n      Waukesha WI 53187-0047                                linda.walsh@huschblackwell.com\n      Tel: (262) 506-6170\n      sneitzel@atcllc.com\n\n\nDated: September 21, 2026\n\n\n\n\n                                                 4\n\f                                 CERTIFICATE OF SERVICE\n\n\n\n       Pursuant to Rule 2010 of the Federal Energy Regulatory Commission’s Rules of Practice\n\nand Procedure, 18 C.F.R. § 385.2010, I certify that I served the foregoing document upon each\n\nperson designated on the official service list compiled by the Secretary in this proceeding.\n\n\n\n       Dated at Washington, D.C. this 21st day of September 2026.\n\n\n\n\n                                              /s/ Emily Starobin\n\n                                              Emily Starobin\n                                              Husch Blackwell LLP\n                                              1801 Pennsylvania Ave. NW, Suite 1000\n                                              Washington, D.C. 20006\n                                              Tel: (202) 378-5784\n                                              emily.starobin@huschblackwell.com\n\n\n\n\n                                                 5\n\f"
+  }
+ ]
+}

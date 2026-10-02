@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260923-5132",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-549",
+ "title": "Comments of RESTORE on the scoping process and environmental issues re the Franklin Farms Project under CP26-549.",
+ "filed": "2026-09-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260923-5132",
+ "entity": "RESTORE",
+ "fetch": [
+  {
+   "ferc_file": "6B5B1C67-9E2F-CBD4-9E6A-A0CFF8200000",
+   "name": "RESTOREfilingFERCETCTigerPipelineFranklinFarmsRichlandScoping.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-23"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

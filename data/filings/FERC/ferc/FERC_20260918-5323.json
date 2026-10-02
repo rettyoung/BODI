@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260918-5323",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3650",
+ "title": "Protest of Mississippi Public Service Commission et al. re Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
+ "filed": "2026-09-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260918-5323",
+ "entity": "Arkansas Public Service Commission; Mississippi Public Service Commission",
+ "fetch": [
+  {
+   "ferc_file": "4725550E-2F31-CD86-99CB-A0B5E2B00000",
+   "name": "ER26-3650 MISO South Protest of MISO Large Load Reliability Requirements.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-18"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "large load"
+ ],
+ "documents": []
+}

@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260918-5122",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15353",
+ "title": "Hybrid Renewables LLC submits Draft License Application for the Oologah Lake Dam Hydroelectric Project under P-15353.",
+ "filed": "2026-09-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260918-5122",
+ "entity": "Hybrid Renewables LLC",
+ "fetch": [
+  {
+   "ferc_file": "6B61EE1D-B6DC-C0F2-9A27-A0B4DB100000",
+   "name": "PRIV-P-15353-002-DLA-Volume-III-09-16-2026.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "License/Relicense Application"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-17"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

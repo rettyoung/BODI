@@ -1,0 +1,22 @@
+{
+ "id": "TX:59475-6582",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/18/2026 | Aaron Edward Howton | PL | Aaron Edward Howton's Pleading for independent investigation and forensic audit of PBRP in support of Kevin Kennedy and John Burrows",
+ "filed": "2026-09-18",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6582",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6582"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

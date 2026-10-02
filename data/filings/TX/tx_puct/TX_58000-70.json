@@ -1,0 +1,24 @@
+{
+ "id": "TX:58000-70",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "10/1/2026 | TEXAS ENERGY BUYERS ALLIANCE | COM | TEBA and JPI Response Comments on Minimum Billing Demand Study",
+ "filed": "2026-10-01",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=70",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "70"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "minimum bill"
+ ],
+ "documents": []
+}

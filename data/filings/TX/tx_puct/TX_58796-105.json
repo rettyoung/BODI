@@ -1,0 +1,22 @@
+{
+ "id": "TX:58796-105",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "9/24/2026 | OPUC | PL | OPUC'S NOTICE OF CHANGE OF COUNSEL",
+ "filed": "2026-09-24",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=105",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "105"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

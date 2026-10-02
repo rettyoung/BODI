@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260928-5186",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "QF26-1442",
+ "title": "Form 556 of DUO001, LLC under QF26-1442.",
+ "filed": "2026-09-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260928-5186",
+ "entity": "DUO001, LLC",
+ "fetch": [
+  {
+   "ferc_file": "A2E9EC8B-C44E-CE9E-84F9-A0ED18700000",
+   "name": "Form 556 - DUO001, LLC (Non-Public).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "F56E4860-5898-CF29-8C2E-A0ED18700000",
+   "name": "Figure 3 - DUO001, LLC (Non-Public).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Qualifying Facility Application or PURPA Energy Utility Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-28"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

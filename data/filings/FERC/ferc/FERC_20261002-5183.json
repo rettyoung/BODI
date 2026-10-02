@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20261002-5183",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2110",
+ "title": "Consolidated Water Power Company submits updated 2026 Supporting Technical Information Document re the Stevens Point Hydroelectric Project under P-2110.",
+ "filed": "2026-10-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261002-5183",
+ "entity": "Consolidated Water Power Company",
+ "fetch": [
+  {
+   "ferc_file": "6C82B62F-3E9C-C36A-850D-A0FE5CB00000",
+   "name": "Stevens Point STID_2026.09.30 Compressed.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-02"
+ },
+ "collected_at": "2026-10-02T23:08:08Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "large load"
+ ],
+ "documents": [
+  {
+   "url": "{'ferc_file': '6C82B62F-3E9C-C36A-850D-A0FE5CB00000', 'name': 'Stevens Point STID_2026.09.30 Compressed.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "id": "TX:58481-219",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "9/18/2026 | RULES & PROJECTS | PRJ | Texas Register Acknowledgement of Receipt - Effective 10.08.2026",
+ "filed": "2026-09-18",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=219",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "219"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

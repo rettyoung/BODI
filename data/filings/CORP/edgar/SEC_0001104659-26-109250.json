@@ -1,0 +1,32 @@
+{
+ "id": "SEC:0001104659-26-109250",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Fortis 6-K FORM 6-K items",
+ "filed": "2026-09-21",
+ "url": "https://www.sec.gov/Archives/edgar/data/1666175/000110465926109250/",
+ "entity": "Fortis",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1666175/000110465926109250/tm2624871d2_6k.htm"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1666175/000110465926109250/tm2624871d2_ex99-1.htm"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1666175/000110465926109250/tm2624871d2_ex99-2.htm"
+  }
+ ],
+ "meta": {
+  "form": "6-K",
+  "items": [],
+  "cik": "0001666175",
+  "market_participant": false
+ },
+ "collected_at": "2026-10-02T23:16:49Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

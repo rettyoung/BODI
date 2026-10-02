@@ -1,0 +1,44 @@
+{
+ "id": "FERC:20260918-5352",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-2987",
+ "title": "Request for Leave to Answer and Answer of New York Independent System Operator, Inc. in response to Comments and Protests re  06/29/2026 Order 1920 compliance filing under ER26-2987.",
+ "filed": "2026-09-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260918-5352",
+ "entity": "New York Independent System Operator, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "ECAF0FC1-9361-C424-9ED9-A0B605200000",
+   "name": "20260918_NYISOAnswer_Order1920_cos.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "DA4B7EE8-8693-CB2C-A451-A0B605200000",
+   "name": "Att I Timeframes of NYISO LTTPP & Order 1920 Timeframes.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-18"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "large load"
+ ],
+ "documents": []
+}

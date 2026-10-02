@@ -1,0 +1,71 @@
+{
+ "id": "FERC:20260924-5011",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3713",
+ "title": "Comments of Just Transition Northwest Indiana re Foundry Works Solar Energy LLC's 09/03/2026 Request for Prospective Tariff Waiver, et al. under ER26-3713.",
+ "filed": "2026-09-24",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260924-5011",
+ "entity": "Just Transition Northwest Indiana",
+ "fetch": [
+  {
+   "ferc_file": "4CE187E2-D2A2-C385-9E99-A0D363000000",
+   "name": "JTNWI_KW Cover Letter for FERC Docket No. ER26-3713-000 .pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "891F1350-F4F1-CA96-A45C-A0D363000000",
+   "name": "JTNWI_KW Public Comment for FERC Docket No. ER26-3713-000 .pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-23"
+ },
+ "collected_at": "2026-10-02T23:13:08Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "battery storage",
+  "co-located",
+  "data center",
+  "interconnection",
+  "large load",
+  "large-load",
+  "queue"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "JTNWI_KW Cover Letter for FERC Docket No. ER26-3713-000 .pdf",
+   "bytes": 116089,
+   "sha256": "ceead9b2f8fa86c55959b926bdd0ac0d53ce76f104e2d7e3b626fe0d3f351157",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "TO: Secretary, Federal Energy Regulatory Commission\nRE: Foundry Works Solar Energy LLC — Tariff Waiver Request\nDOCKET: ER26-3713-000\nACCESSION: 20260903-5248\n\nSUBMITTED BY:\nJust Transition Northwest Indiana\nAshley Williams, Executive Director\nPO Box 8847, Michigan City, IN 46361\nashley@jtnwi.org\n\nCO-SIGNER:\nKristen Woodward\n4941 E. 165th Ave, Hebron, IN 46341\nkristen.n.woodward@gmail.com\n\nDATE: September 23, 2026\n\nPlease see the attached comments.\n\n\n\n\n                                           1\n\f"
+  },
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "JTNWI_KW Public Comment for FERC Docket No. ER26-3713-000 .pdf",
+   "bytes": 158473,
+   "sha256": "3e814e24650f08c124ae97a73a3909897017670e821cc9227db9dc3b1ee344be",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "Just Transition Northwest Indiana (JTNWI) and the undersigned residents of Eagle Creek\nTownship, Lake County, Indiana — Kristen Woodward — respectfully submit this comment on\nFoundry Works Solar Energy LLC's September 3, 2026 request to waive MISO tariff provisions\nand extend the Generator Interconnection Agreement commercial operation date from\nDecember 15, 2027 to December 15, 2028.\n\nJTNWI supports responsible battery storage when lawfully permitted. Ms. Woodward has\nparticipated in and monitored local proceedings on energy and land-use approvals in the SR 2\nand Clay Street corridor. We write together to supply local land-use and interconnection facts\nthat appear absent or understated in the waiver filing so that the Commission may evaluate\nreadiness on a complete record. That support does not extend to endorsing this waiver request;\nwe offer local facts for the Commission's consideration.\n\nFor context only: MISO Queue J1058 entered in 2018 as a solar interconnection request.\nFoundry later replaced that request with battery storage while retaining the queue position. In\nAES Indiana's IURC Cause No. 46394 (Monrovia Project), public utility testimony describes the\nFoundry resource as a 200 MW battery acquired to serve large-load customer requirements,\nincluding the Monrovia data center portfolio — not as a co-located solar facility. We cite this so\nthe Commission does not treat the waiver as concerning generic grid-greening storage\nunrelated to the resource's stated commercial purpose. Our comment addresses process and\nreadiness, not the merits of data center load growth.\n\nI. Local land-use status the filing omits or understates\n\nFoundry's project connects to the grid through a gen-tie to NIPSCO's Dinwiddie substation at\nState Road 2 (E. 181st Avenue) and Clay Street, Eagle Creek Township, Lake County, Indiana.\nThe battery itself is proposed on approximately 40 acres north of SR 2 on the east side of Clay\nStreet (Lake County Case 26-SE-06, Foundry Works Energy Storage LLC).\n\nAs of September 16, 2026, local approvals were not complete:\n\n   1.​ Battery Special Exception (26-SE-06). The Lake County Planning Commission heard\n       Case 26-SE-06 on September 16, 2026. The matter was continued (deferred) to October\n       21, 2026 — it was not approved.\n\n   2.​ Dinwiddie Substation Special Exception (26-SS-15). The Lake County Plan\n       Commission held a study session only on September 16, 2026, for NIPSCO's\n       high-voltage substation at SR 2 and Clay Street. As of September 21, 2026, county staff\n       indicated NIPSCO had not filed the Special Exception application. Under county\n       scheduling practice (applications due the 10th of the prior month for the next agenda),\n\n\n\n\n                                                 1\n\f       the earliest likely hearing is November 2026 if an application is filed by October 10,\n       2026.\n\n   3.​ Interconnection dependency. Foundry's ability to meet an extended commercial\n       operation date depends on lawful completion of both the on-site battery land-use\n       approvals and resolution of local land-use authorization for the Dinwiddie substation\n       interconnection point. The September 3 filing describes NIPSCO as not opposing the\n       waiver but does not disclose that the substation's local Special Exception track had not\n       been initiated as of late September 2026.\n\n   4.​ Enforcement context. Residents have reported county stop-work action related to\n       substation construction in 2026, and county counsel acknowledged resident factual\n       statements about sequencing of substation construction relative to local approvals at a\n       July 2026 meeting. We ask the Commission to treat local land-use authorization for the\n       interconnection point as unsettled unless and until NIPSCO completes the Special\n       Exception process.\n\nII. Inconsistencies between the waiver filing and subsequent local events\n\nFoundry's September 3 filing states it was preparing the battery Special Exception and\nanticipated local permitting completion in the fourth quarter of 2026. On September 16, 2026 —\nthirteen days after the filing — the Plan Commission deferred Case 26-SE-06 without forwarding\nit to the Board of Zoning Appeals, with further consideration scheduled for October 21, 2026.\nThat subsequent development calls into question the permitting timeline presented in the waiver\nrequest and whether the project's current local approval status is consistent with the\ndevelopment schedule on which the requested waiver is based.\n\nFoundry attributes the delay to circumstances outside its control. The record also shows MISO\nQueue J1058 entered in 2018 as a solar resource; no solar project was constructed in the\nensuing years; Foundry requested replacement with battery storage in late 2025; and Lake\nCounty Council approved a Conditional Development rezone for the battery site on June 9,\n2026 — substantially later than queue entry. These facts bear on whether forces outside\nFoundry's control necessitate the requested extension.\n\nThe waiver request targets commercial operation by December 15, 2028. In AES Indiana's\nIURC Cause No. 46394 (Monrovia Project), AES witness testimony filed April 22, 2026\ndescribes the Foundry resource with a May 31, 2028 commercial operation target and notes\nFoundry was seeking federal flexibility toward 2029. The Commission should have a consistent\npicture of schedule expectations across proceedings.\n\nIII. Shared infrastructure at Dinwiddie\n\n\n\n\n                                                2\n\fPublic interconnection materials indicate other generation and storage projects are planned to\ninterconnect at the Dinwiddie 345-kV bus, including separate battery storage in MISO queue\nJ2215, with documented NIPSCO construction scheduling issues. We ask the Commission to\nconsider whether shared substation construction sequencing affects the realism of a December\n15, 2028 commercial operation date for J1058.\n\nIV. Questions for the Commission\n\nWe respectfully ask the Commission to evaluate:\n\n   1.​ Whether Foundry has established that a one-year extension is necessitated by\n       circumstances outside its control, given J1058's 2018 queue history, the 2025\n       technology change, and 2026 local approval timelines;\n\n   2.​ Whether December 15, 2028 is realistic given the October 21, 2026 continuation of the\n       battery Special Exception and the unfiled Dinwiddie substation Special Exception as of\n       late September 2026;\n\n   3.​ Whether granting waiver relief before resolution of local land-use authorization at the\n       battery site and gen-tie substation accurately reflects project readiness; and\n\n   4.​ Whether shared Dinwiddie infrastructure dependencies identified in related\n       interconnection queues affect the schedule Foundry presents.\n\nWe request that the Commission weigh the waiver request only after considering these local\npermitting and interconnection facts.\n\nRespectfully submitted,\n\nAshley Williams​\nExecutive Director​\nJust Transition Northwest Indiana​\nPO Box 8847​\nMichigan City, Indiana 46361​\nashley@jtnwi.org\n\nKristen Woodward​\n4941 E. 165th Ave\nEagle Creek Township\nHebron, Indiana 46341​\nkristen.n.woodward@gmail.com\n\n\n\n\n                                                3\n\f"
+  }
+ ]
+}

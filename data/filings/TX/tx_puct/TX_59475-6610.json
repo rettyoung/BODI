@@ -1,0 +1,24 @@
+{
+ "id": "TX:59475-6610",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/30/2026 | ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICES CORPORATION | PL | APPLICANTS' RESPONSE TO KEVIN KENNEDY'S APPEAL OF SOAH ORDER NO. 35",
+ "filed": "2026-09-30",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6610",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6610"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "transmission service"
+ ],
+ "documents": []
+}

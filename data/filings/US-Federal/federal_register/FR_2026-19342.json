@@ -1,0 +1,30 @@
+{
+ "id": "FR:2026-19342",
+ "jur": "US-Federal",
+ "source": "federal_register",
+ "kind": "notice",
+ "docket": "",
+ "title": "Notice of Interim Approval of the Rate Schedule for Jim Woodruff Project",
+ "filed": "2026-09-22",
+ "url": "https://www.federalregister.gov/documents/2026/09/22/2026-19342/notice-of-interim-approval-of-the-rate-schedule-for-jim-woodruff-project",
+ "entity": "energy-department, southeastern-power-administration",
+ "fetch": [
+  {
+   "url": "https://www.federalregister.gov/documents/full_text/text/2026/09/22/2026-19342.txt"
+  }
+ ],
+ "meta": {
+  "type": "Notice",
+  "action": "Notice of interim approval.",
+  "abstract": "The Administrator for the Southeastern Power Administration (Southeastern or SEPA) has confirmed and approved, on an interim basis, rate schedule JW-1-M for the sale of power from the Jim Woodruff Project. The rate schedule is approved on an interim basis through September 30, 2031, and is subject to confirmation and approval by the Federal Energy Regulatory Commission (FERC) on a final basis.",
+  "comments_close_on": null,
+  "effective_on": "2026-10-01",
+  "term": "interconnection"
+ },
+ "collected_at": "2026-10-02T23:14:46Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "interconnection"
+ ],
+ "documents": []
+}

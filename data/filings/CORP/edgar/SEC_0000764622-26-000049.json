@@ -1,0 +1,29 @@
+{
+ "id": "SEC:0000764622-26-000049",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Pinnacle West 8-K 8-K items 7.01,9.01",
+ "filed": "2026-09-30",
+ "url": "https://www.sec.gov/Archives/edgar/data/764622/000076462226000049/",
+ "entity": "Pinnacle West",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/764622/000076462226000049/pnw-20260930.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "7.01",
+   "9.01"
+  ],
+  "cik": "0000764622",
+  "market_participant": false
+ },
+ "collected_at": "2026-10-02T23:16:49Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

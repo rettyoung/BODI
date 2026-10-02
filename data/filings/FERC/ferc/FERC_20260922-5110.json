@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260922-5110",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3380",
+ "title": "Motion for Leave to Answer and Answer of Indicated PJM Transmission Owners to the Motion for Leave to Answer and Answer of PJM Interconnection, L.L.C. filed on 09/10/2026 under ER26-3380.",
+ "filed": "2026-09-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260922-5110",
+ "entity": "Mid-Atlantic Interstate Transmission, LLC; Keystone Appalachian Transmission Company; Keystone Appalachian Transmission Company; Jersey Central Power & Light; Jersey Central Power & Light; Duquesne Light Company; Monongahela Power Company; American Transmission Systems, Inc.; American Transmission S",
+ "fetch": [
+  {
+   "ferc_file": "E9BE3130-727D-C9AA-A5AA-A0CAB4B00000",
+   "name": "Motion for Leave to Answer and Answer.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-22"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "interconnection",
+  "large load"
+ ],
+ "documents": []
+}

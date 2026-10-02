@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260921-5309",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-536",
+ "title": "Texas Gas Transmission, LLC submits response to FERC's 09/15/2026 environmental information request re the application for the Dearborn County Lateral Project under CP26-536.",
+ "filed": "2026-09-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260921-5309",
+ "entity": "Texas Gas Transmission, LLC",
+ "fetch": [
+  {
+   "ferc_file": "9B1AD0A8-51EE-C95D-935F-A0C8D7000000",
+   "name": "01_Dearborn Data Response Transmittal.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "45D399A7-AC04-C82F-997F-A0C8D7000000",
+   "name": "02_Responses to 9.10.26 Data Request.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "470D0670-0A50-CB63-A2CB-A0C8D7000000",
+   "name": "03_Attachment 1 Response to Comments.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "71B10C85-372D-C414-A88E-A0C8D7000000",
+   "name": "04_Attachment 2 Mapping Exhibits.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-09-21"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "documents": []
+}

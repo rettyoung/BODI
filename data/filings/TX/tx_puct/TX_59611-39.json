@@ -1,0 +1,22 @@
+{
+ "id": "TX:59611-39",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "9/23/2026 | OPUC | PL | OFFICE OF PUBLIC UTILITY COUNSEL'S NOTICE OF CHANGE OF COUNSEL",
+ "filed": "2026-09-23",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=39",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "39"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

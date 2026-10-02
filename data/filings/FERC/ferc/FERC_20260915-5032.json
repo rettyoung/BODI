@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20260915-5032",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3650",
+ "title": "(doc-less) Motion to Intervene of Association of Businesses Advocating Tariff Equity under ER26-3650.",
+ "filed": "2026-09-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260915-5032",
+ "entity": "Association of Businesses Advocating Tariff Equity; Association of Businesses Advocating Tariff Equity",
+ "fetch": [
+  {
+   "ferc_file": "0EA4FBB9-3FC4-C776-A4A7-A0A507A00000",
+   "name": "1791234_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-14"
+ },
+ "collected_at": "2026-10-02T23:12:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "interconnection",
+  "large load"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791234_Interv.txt",
+   "bytes": 3254,
+   "sha256": "0dd118f6d4296639796f131adeab9b5c5f2883d6c0ed0b3b75eeec09dc126976",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Association of Businesses Advocating Tariff Equity under ER26-3650-000.\r\n\r\nSubmission Date:        9/14/2026 9:35:00 PM\r\n\r\nFiled Date:             9/15/2026 8:30:00 AM\r\n\r\nDockets\r\n-------\r\nER26-3650-000        Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-08-28_Interconnection Reliability Requirements for Large Loads submitted on 8/28/2026 4:41:03 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nAssociation of Businesses Advocating Tariff Equity bholwerda@clarkhill.com                                                          \r\nAssociation of Businesses Advocating Tariff Equity mpattwell@clarkhill.com                                                          \r\n\r\nBasis for Intervening:\r\nPursuant to Rules 212 and 214, 18 C.F.R. §§ 385.212 and 385.214 (2024) of the Federal Energy Regulatory Commission’s (“Commission”) rules of practice and procedure, the Association of Businesses Advocating Tariff Equity (“ABATE”) moves for timely intervention in this proceeding. ABATE is an association of large industrial end-users who are located in and do business in Michigan and the wider Midcontinent Independent System Operator, Inc. (“MISO”) footprint.\r\n\r\nABATE’s members purchase substantial quantities of electricity and natural gas and, in Michigan alone, their combined gas and electric bills are approximately $1.4 billion per year. ABATE’s members are therefore interested in achieving increased economic efficiencies in the electric industry that will lower retail costs and allow ABATE’s members to more effectively compete in the worldwide economy. \r\n\r\nOn August 28, 2026, MISO submitted a Federal Power Action Section 205 rate filing proposing revisions to its Tariff in response to the Commission’s Order Instituting Proceeding Under Section 206 of the Federal Power Act. Among other requests, MISO proposes hourly, and in some cases, 5-minute load forecasts to be provided on a day-ahead and real-time basis by all Large Load additions (that would be greater than 25 MW). This proposal would impose a substantial continuous operational, analytical, and costly burden for Large Loads to provide without clear evidence that it will improve the risks of inaccuracies within MISO’s Reliability Assessment Commitment, Look Ahead Commitment, or real time Security Constrained Economic Dispatch processes when compared to MISO’s current method of forecasting existing non-computational loads for these processes.\r\n\r\nABATE’s members are therefore affected by the outcome of this case as it could affect rates. ABATE’s members have a significant and unique interest in this proceeding that cannot be protected by any other party. ABATE’s participation in this docket is in the public interest, and good cause exists for the motion. ABATE respectfully requests that the Commission grant ABATE’s motion to intervene and grant it full rights as a party.\r\n"
+  }
+ ]
+}

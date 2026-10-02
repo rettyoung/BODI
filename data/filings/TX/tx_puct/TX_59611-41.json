@@ -1,0 +1,22 @@
+{
+ "id": "TX:59611-41",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "9/25/2026 | EL PASO ELECTRIC COMPANY | RFI | EPE's Responses to TIEC 1st RFI",
+ "filed": "2026-09-25",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=41",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "41"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

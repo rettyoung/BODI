@@ -1,0 +1,39 @@
+{
+ "id": "FERC:20260915-5031",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3257",
+ "title": "Motion for Leave to Answer and Answer of Commonwealth Edison Company re the 07/24/2026 tariff filing under ER26-3257.",
+ "filed": "2026-09-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260915-5031",
+ "entity": "Commonwealth Edison Company",
+ "fetch": [
+  {
+   "ferc_file": "E511F516-FF8F-CC70-919B-A0A507500000",
+   "name": "2026-09-14 - ComEd Mot for Leave - Answer.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-14"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20260923-5137",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2310",
+ "title": "Pacific Gas and Electric Company submits Supporting Technical Information Document, summary and conclusion of efforts to address recommendations from the 1st Part 12D Inspection et al. of the Lower Peak Lake Dam of the Drum-Spaulding Project under P-2310.",
+ "filed": "2026-09-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260923-5137",
+ "entity": "Pacific Gas and Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "428A8247-7DEF-CF1D-B2E1-A0D003500000",
+   "name": "PGE20260923_2310_LowerPkSTIDP12_R1_13&14C2_Enc1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "AB0E11DD-0E54-C289-BBCC-A0D003500000",
+   "name": "PGE20260923_2310_LowerPkSTIDP12_R1_13&14C2_Enc2.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-23"
+ },
+ "collected_at": "2026-10-02T23:14:01Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": [
+  {
+   "url": "{'ferc_file': '428A8247-7DEF-CF1D-B2E1-A0D003500000', 'name': 'PGE20260923_2310_LowerPkSTIDP12_R1_13&14C2_Enc1.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'AB0E11DD-0E54-C289-BBCC-A0D003500000', 'name': 'PGE20260923_2310_LowerPkSTIDP12_R1_13&14C2_Enc2.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

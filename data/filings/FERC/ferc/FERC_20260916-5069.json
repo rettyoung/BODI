@@ -1,0 +1,35 @@
+{
+ "id": "FERC:20260916-5069",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3650",
+ "title": "(doc-less) Motion to Intervene of the Council of the City of New Orleans under ER26-3650.",
+ "filed": "2026-09-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260916-5069",
+ "entity": "Council of the City New Orleans",
+ "fetch": [
+  {
+   "ferc_file": "CC398BF0-154D-C2DE-9F22-A0AADB100000",
+   "name": "1791534_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-16"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "large load"
+ ],
+ "documents": []
+}

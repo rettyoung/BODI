@@ -1,0 +1,19 @@
+{
+ "id": "KS:minutes:20260924",
+ "jur": "KS",
+ "source": "ks_kcc",
+ "kind": "minutes",
+ "docket": null,
+ "title": "KCC Commission business meeting minutes 2026-09-24",
+ "filed": "2026-09-24",
+ "url": "https://www.kcc.ks.gov/commission_meetings_files/minutes_20260924.pdf",
+ "fetch": [
+  {
+   "url": "https://www.kcc.ks.gov/commission_meetings_files/minutes_20260924.pdf"
+  }
+ ],
+ "collected_at": "2026-10-02T23:18:08Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [],
+ "documents": []
+}

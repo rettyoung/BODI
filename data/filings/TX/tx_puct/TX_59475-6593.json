@@ -1,0 +1,24 @@
+{
+ "id": "TX:59475-6593",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/21/2026 | ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICES CORPORATION | PL | APPLICANTS’ DIRECTORY OF EVIDENCE OF PRELIMINARY ORDER ISSUE NOS. 11 AND 13",
+ "filed": "2026-09-21",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6593",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6593"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:17:13Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "transmission service"
+ ],
+ "documents": []
+}

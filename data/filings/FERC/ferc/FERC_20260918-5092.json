@@ -1,0 +1,55 @@
+{
+ "id": "FERC:20260918-5092",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3685",
+ "title": "Motion to Intervene and Comments of Southwest Power Pool Market Monitoring Unit in Support of Southwest Power Pool, Inc.'s 09/02/2026 revisions to its Open Access Transmission Tariff under ER26-3685.",
+ "filed": "2026-09-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260918-5092",
+ "entity": "Southwest Power Pool Market Monitoring Unit",
+ "fetch": [
+  {
+   "ferc_file": "F5ECCD7B-88FD-CAAE-8624-A0B4B9300000",
+   "name": "MMU Comments ER26-3685.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-18"
+ },
+ "collected_at": "2026-10-02T23:10:39Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "ESA",
+  "curtailment",
+  "demand response",
+  "large load"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "MMU Comments ER26-3685.pdf",
+   "bytes": 147866,
+   "sha256": "fe90570802af1c02331632f9378a7429034759b2e8127de56042080a59147186",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 5,
+   "truncated": false,
+   "text": "                     UNITED STATES OF AMERICA\n                            BEFORE THE\n              FEDERAL ENERGY REGULATORY COMMISSION\n\n\nSouthwest Power Pool, Inc.                                      Docket No. ER26-3685-000\n\n\n    MOTION TO INTERVENE AND COMMENTS OF THE SOUTHWEST\n            POWER POOL MARKET MONITORING UNIT\n       The Market Monitoring Unit (Market Monitor) of the Southwest Power Pool (SPP)\n\nrespectfully moves to intervene1 and submits these comments in support of SPP’s proposed\n\nrevisions to its Open Access Transmission Tariff (Tariff) filed on September 2, 2026, and\n\ntitled “Submission of Tariff Revisions to Clarify the Conditional High Impact Large Load\n\nPolicy” (Filing).2 The Market Monitor views these proposed Tariff revisions, in\n\nconjunction with other related changes SPP has made to various governing documents, as\n\nimportant for helping to better clarify the sequencing of curtailing Conditional High Impact\n\nLarge Loads (CHILLs).\n\n\n1\n  The Market Monitor moves to intervene pursuant to Rules 212 and 214 of the Federal Energy\nRegulatory Commission’s (FERC or Commission) Rules of Practice and Procedure (18 C.F.R. §§\n385.212, 385.214), and in fulfillment of its responsibilities under Commission Order No. 719\n(Wholesale Competition in Regions with Organized Electric Markets, Order No. 719, FERC\nStats. & Regs. ¶ 31,281, at P 354 (2008) (Order No. 719), order on reh’g, Order No. 719-A,\nFERC Stats. & Regs. ¶ 31,292, order on reh’g, Order No. 719-B, 129 FERC ¶ 61,252 (2009))\nand Attachment AG of the SPP Tariff (Southwest Power Pool, Inc., FERC Electric Tariff, Sixth\nRevised Volume No. 1, Attachment AG, § 6.2 (SPP Tariff)). As SPP’s independent market\nmonitor, the Market Monitor is required under the provisions of the SPP Tariff to monitor and\nevaluate the efficiency and competitiveness of SPP’s markets and services. The Market Monitor\nhas a direct and substantial interest in the outcome of this proceeding that cannot be adequately\nrepresented by any other entity. The Market Monitor’s intervention and participation in this\nproceeding is in the public interest. For these reasons, the Market Monitor respectfully requests\nthat it be permitted to intervene in this proceeding with full rights as a party.\n2\n  Southwest Power Pool, Inc., Submission of Tariff Revisions to Clarify the Conditional High\nImpact Large Load Policy, Docket No. ER26-3685-000 (September 2, 2026) (Filing).\n\f       During the stakeholder process for the Conditional High Impact Large Load Service\n\n(CHILLS) proposal3, the MMU made several recommendations to improve and further\n\nspecify the processes and requirements around the curtailment of CHILLs.4 Among these\n\nrecommendations were that SPP should 1) clarify and document the sequencing of CHILL\n\ncurtailments in relation to reliability commitments and deployment of reliability registered\n\ndemand response programs and 2) create clear expectations for how quickly CHILLs must\n\nbe able to curtail when instructed.\n\n       The Filing provides straightforward, clarifying changes to the parts of the Tariff that\n\noutline CHILL curtailments/reductions in the Day-Ahead Market and Reliability Unit\n\nCommitment (RUC) processes. For example, as described in the Filing, in Section 5.2.2(3)\n\nof Attachment AE of the Tariff, the Day-Ahead RUC process will initially check the\n\neligibility of CHILLs and recommend CHILL curtailments. It will then proceed through\n\nthe remainder of the Day-Ahead RUC execution steps, and if it encounters insufficient\n\ncapacity to meet system load and operating reserves, then CHILLs that had passed the\n\ninitial check (e.g., CHILLs with paired generation) may potentially still be curtailed. In\n\naddition to these relatively minor Tariff revisions, SPP has also updated its Emergency\n\n\n\n\n3\n  Southwest Power Pool, Inc., Revisions to Add Conditional High Impact Large Load Service,\nDocket No. ER26-1323-000 (February 10, 2026)\n4\n  See Comments of the Southwest Power Pool Marketing Monitoring Unit, Docket No. ER26-\n1323-000, (March 3, 2026) and SPP MMU Comments on Revision Request 720, dated\nDecember 30, 2025, available at https://www.spp.org/Documents/74783/RR720.zip\n\fOperating Plan and Operating Criteria to further specify where the curtailment of CHILLs\n\nfits within the order of operations taken to address reliability issues.5\n\n       As part of the Revision Request6 that contains the proposed Tariff changes presented\n\nin this Filing, SPP is also modifying its Integrated Marketplace Protocols to include some\n\nadditional clarity on how quickly CHILLs must curtail when instructed.7 We are supportive\n\nof these efforts to better define the rules and steps involved in curtailing CHILLs.\n\n       As CHILLs begin to connect to the SPP system, we anticipate that there will be\n\nconsiderable operational experience and knowledge gained on how best to effectively\n\nmanage these new, non-firm, large loads. In turn, further modifications and refinements to\n\nthe processes used to curtail CHILLs may be warranted in the future. The Market Monitor\n\nappreciates the opportunity to offer comments on the proposed changes in this Filing and\n\nrecommends that the Commission approve the requested Tariff revisions.\n\n\n\n\n5\n  See SPP BA Emergency Operating Plan and available at https://spp.org/spp-documents-\nfilings/?id=34055. RC: Operating Criteria available at https://spp.org/spp-documents-\nfilings/?id=462930\n6\n  Revision Request 767 CHILL Clarifications available at\nhttps://www.spp.org/Documents/76570/RR767.zip\n7\n  These Protocols changes include a requirement to progressively reduce withdrawals in order to\nreach the instructed curtailment target within 15 minutes or as otherwise directed.\n\f                            Respectfully submitted,\n\n                            /s/John Luallen\n                            John Luallen,\n                              Senior Manager,\n                              Market Monitoring Unit\n                            Michael Redlinger,\n                              Senior Market Monitor,\n                              Market Monitoring Unit\n                            Southwest Power Pool, Inc.\n                            201 Worthen Drive\n                            Little Rock, AR 72223\n                            Phone: 501-688-1655\n                            jluallen@spp.org\n                            mredlinger@spp.org\n\nDated: September 18, 2026\n\f                           CERTIFICATE OF SERVICE\n\n       Pursuant to Rule 2010, 18 C.F.R. § 385.2010, I hereby certify that this day the\n\nforegoing document was served via email upon each person designated on the official service\n\nlist compiled by the Secretary in this proceeding.\n\n\nDated at Little Rock, AR on this 18th day of September 2026.\n\n                              /s/ Michael Redlinger\n\f"
+  }
+ ]
+}

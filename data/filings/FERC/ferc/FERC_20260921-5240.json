@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260921-5240",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP13-499,CP13-502",
+ "title": "Comments of Catskill Mountainkeeper, et al. on the Environmental Assessment re the Constitution Pipeline Project, et al. under CP13-499, et al. ",
+ "filed": "2026-09-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260921-5240",
+ "entity": "Maya K. van Rossum, the Delaware Riverkeeper; Sierra Club; Waterkeeper Alliance; Natural Resources Defense Council; Catskill Mountainkeeper; Clean Air Council; Delaware-Otsego Audubon Society; Delaware Riverkeeper Network; Food & Water Watch; Riverkeeper, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "9E69CE7B-A15D-CA37-9A7D-A0C57A000001",
+   "name": "2026.09.21 EA Comments.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "4EA26BDB-39DA-CEB5-8827-A0C57A100000",
+   "name": "Ex 1. Heatley EA Report.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-21"
+ },
+ "collected_at": "2026-10-02T23:14:19Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "data center"
+ ],
+ "documents": []
+}

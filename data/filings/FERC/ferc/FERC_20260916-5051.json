@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260916-5051",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3650",
+ "title": "(doc-less) Motion to Intervene of American Electric Power Service Corporation under ER26-3650.",
+ "filed": "2026-09-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260916-5051",
+ "entity": "American Electric Power Service Corporation",
+ "fetch": [
+  {
+   "ferc_file": "90F20D96-5F87-C190-9E4A-A0AA9AA00000",
+   "name": "1791503_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-16"
+ },
+ "collected_at": "2026-10-02T23:12:47Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "ESA",
+  "interconnection",
+  "large load",
+  "large-load"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791503_Interv.txt",
+   "bytes": 2384,
+   "sha256": "7e2f79a64f383bfd51db59acdaebc7c41d13d0f86fb1490b0ab30a6f38a46b54",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of American Electric Power Service Corporation under ER26-3650-000.\r\n\r\nSubmission Date:        9/16/2026 10:21:03 AM\r\n\r\nFiled Date:             9/16/2026 10:21:03 AM\r\n\r\nDockets\r\n-------\r\nER26-3650-000        Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-08-28_Interconnection Reliability Requirements for Large Loads submitted on 8/28/2026 4:41:03 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nAmerican Electric Power Service Corporation clbumgarner@aep.com                      tmastrogiacomo@aep.com                  \r\nAmerican Electric Power Service Corporation                                          jcstewart@aep.com                       \r\nAmerican Electric Power Service Corporation                                          lturner@aep.com                         \r\n\r\nBasis for Intervening:\r\nPursuant to Rules 212 and 214 of the Commission’s Rules of Practice and Procedure, 18 C.F.R. §§ 385.212, 214, American Electric Power Service Corporation (“AEPSC”), on behalf of its affiliate AEP Indiana Michigan Transmission Company, Inc., moves to intervene in this proceeding.\r\n\r\nAmerican Electric Power Company, Inc. is a multi-state electric utility holding company system providing electric service at retail and wholesale. AEP Indiana Michigan Transmission Company, Inc. is a Midcontinent Independent System Operator, Inc. (“MISO”) transmission owner and member. \r\n\r\nOn August 28, 2026, MISO filed tariff revisions to establish Interconnection Reliability Requirements for Large Loads. The revisions address matters identified by the Commission in Docket No. EL26-70-000, including large-load visibility, ramp rates, disturbance ride-through, and transmission provisions designed to minimize disruptions to existing commercial arrangements.\r\n\r\nAs a MISO transmission owner and member, AEP Indiana Michigan Transmission Company, Inc. has an interest in this proceeding that cannot adequately be represented by any other party. Therefore, AEP requests that the Commission grant this motion to intervene.\r\n"
+  }
+ ]
+}

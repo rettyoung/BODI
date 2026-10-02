@@ -1,0 +1,53 @@
+{
+ "id": "FERC:20260915-5111",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3515",
+ "title": "Comments of the Industrial Energy Consumers of America in response to PJM Interconnection, L.L.C.’s proposal to Establish Interim Resources Adequacy, et al. under ER26-3515.",
+ "filed": "2026-09-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260915-5111",
+ "entity": "Industrial Energy Consumers of America",
+ "fetch": [
+  {
+   "ferc_file": "F34F1CDE-A7AA-CB35-9F6B-A0A64E200000",
+   "name": "09.15.26_FERC PJM Docket ER26-3515-000.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-15"
+ },
+ "collected_at": "2026-10-02T23:08:06Z",
+ "run_id": "2026-10-02-2305",
+ "keywords": [
+  "curtailment",
+  "interconnection",
+  "large load",
+  "large-load",
+  "ratepayer protection",
+  "resource adequacy"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "09.15.26_FERC PJM Docket ER26-3515-000.pdf",
+   "bytes": 122804,
+   "sha256": "8e750ec84ff110e4165b72465c5ebcdd135640ae77e4300174c94b720a122ff8",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                          UNITED STATES OF AMERICA\n                   FEDERAL ENERGY REGULATORY COMMISSION\n\nPJM Interconnection, L.L.C.                                          Docket No. ER26-3515-000\n\n                                COMMENTS OF\n                THE INDUSTRIAL ENERGY CONSUMERS OF AMERICA\n\n        The Industrial Energy Consumers of America (IECA) respectfully submits these\n\nComments in response to the Proposal of PJM Interconnection, L.L.C. to Establish Interim\n\nResource Adequacy Service and A Large Load Registry to Address System Reliability (“IRAS\n\nFiling”), which was filed at the Federal Energy Regulatory Commission (“FERC” or\n\n“Commission”) in the above- referenced docket.\n\n        The Industrial Energy Consumers of America (IECA) is a nonpartisan association of\n\nleading manufacturing companies with $1.3 trillion in annual sales, over 12,000 facilities\n\nnationwide, and with more than 1.9 million employees. Many of these companies are located\n\nwithin PJM. One hundred percent of IECA members are manufacturing companies whose\n\ncompetitiveness is largely determined by the cost and reliability of natural gas and electricity.\n\nIECA’s sole mission is to reduce and avoid energy costs and increase energy reliability through\n\nadvocacy in Congress and regulatory agencies, such as the Federal Energy Regulatory\n\nCommission (FERC). IECA membership represents a diverse set of industries including\n\nchemicals, plastics, steel, iron ore, aluminum, national defense industries, paper, food\n\nprocessing, fertilizer, insulation, glass, industrial gases, pharmaceutical, consumer goods,\n\nbuilding products, automotive, independent oil refining, and cement.\n\n        IECA supports the recommendations provided by PJMICC.\n\n   I.      Existing large loads should be excluded from the Large Load Registry. The\n\nregistry’s purpose is to track new large loads driving new system costs, not existing\n\fcustomers already integrated into the grid and reflected in historical forecasts. If existing\n\nloads are included for informational purposes, they must be clearly exempted from all\n\nIRAS operational obligations — including curtailment, BYONC requirements, and RPM\n\nauction adjustments — and any collected data must be subject to robust confidentiality\n\nprotections.\n\n   II.     Ordinary load fluctuations should not subject existing customers to IRAS.\n\nPJM’s definition of “new” vs. “existing” Large Load must distinguish between genuine\n\nnew load growth and normal operational variation at existing facilities. The baseline\n\nmeasurement should not confuse normal business operational fluctuations as being new\n\nload growth associated with business expansions, triggering IRAS for customers that have\n\neffectively been operating as existing Large Loads.\n\n   III.    Incremental expansions should trigger IRAS obligations only for the net new\n\nMW above 50 MW. As a threshold matter, it must be noted that very little evidence has\n\nbeen presented that 50 MW is an appropriate bright-line trigger for the obligations set forth\n\nby PJM’s instant filing. Many of the new computational loads are significantly in excess\n\nof 50 MW, whereas 50 MW is not unusual for an industrial or institutional facility. When\n\nan existing Large Load facility expands, only load growth over 50 MW from the baseline\n\nshould be subject to IRAS. (That is, a 50 MW facility should not be subjected to IRAS\n\nuntil it expands beyond 100 MW.) PJM should adopt bright-line, easy-to-implement\n\ngrandfathering rules for pre-expansion load, clear methodologies for measuring\n\nincremental growth, and anti-gaming provisions, while avoiding a framework that chills\n\nlegitimate phased and planned development.\n\n   IV.     IRAS participants should not receive compensation that shifts costs to other\n\fratepayers. Compensating new large loads for IRAS curtailment — and recovering those\n\ncosts broadly through retail rates — directly contradicts the Ratepayer Protection Pledge’s\n\ncommitment that new computational loads will not increase electricity costs for other\n\nconsumers. If any compensation is provided, it should be funded by the new large-load\n\ncustomer base itself; States must retain full discretion to set the rate at zero without risking a\n\nviolation of the filed rate doctrine.\n\n    V.       PJM’s “peak load” measurement in the New Large Load definition should\n\nalign with FERC-approved retail BTMG rules. Load netted against on-site generation\n\nunder BTMG should be measured in a similar manner for IRAS purposes, providing\n\ncertainty to retail customers who have invested in resource adequacy through retail BTMG.\n\nSincerely,\n\nPaul N. Cicio\n\nPaul N. Cicio\nPresident & CEO\nIndustrial Energy Consumers of America\n1050 Connecticut Ave, NW, Suite 500\nWashington, DC 20036\n(C) 703-216-7402\nwww.ieca-us.org\npcicio@ieca-us.org\n\n\nSeptember 15, 2026\n\f"
+  }
+ ]
+}
