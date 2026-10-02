@@ -1,17 +1,8 @@
 {
  "python": "out/py/Grid_Docket_Tracker_MASTER.xlsx",
  "exceljs": "out/exceljs.xlsx",
- "diffs": 10,
+ "diffs": 1,
  "first": [
-  "Tracker col C width 16.0 vs 13.0",
-  "Tracker col P width 9.0 vs 13.0",
-  "Tracker col R width 11.0 vs 13.0",
-  "Tracker col S width 11.0 vs 13.0",
-  "Tracker col T width 11.0 vs 13.0",
-  "Tracker col U width 11.0 vs 13.0",
-  "Tracker col V width 11.0 vs 13.0",
-  "Tracker col W width 11.0 vs 13.0",
-  "Tracker col X width 11.0 vs 13.0",
-  "Tracker col Y width 11.0 vs 13.0"
+  "Tracker col P width 9.0 vs None"
  ]
 }
