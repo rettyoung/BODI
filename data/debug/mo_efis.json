@@ -1,13 +1,154 @@
 {
  "adapter": "mo_efis",
  "since": "2026-06-01",
- "items": 0,
- "sample": [],
- "notes": [
-  "mo: case id not resolved for ER-2026-0143",
-  "mo: case id not resolved for ER-2026-0291",
-  "mo: case id not resolved for ET-2025-0184"
+ "items": 600,
+ "sample": [
+  {
+   "id": "MODKT:EO-2027-0104",
+   "jur": "MO",
+   "source": "mo_efis",
+   "kind": "keyword_hit",
+   "docket": "EO-2027-0104",
+   "title": "New Missouri PSC case EO-2027-0104",
+   "filed": null,
+   "url": "https://www.efis.psc.mo.gov/Case/Display/109668",
+   "fetch": [
+    {
+     "url": "https://www.efis.psc.mo.gov/Case/Display/109668"
+    }
+   ],
+   "meta": {
+    "new_docket": true
+   }
+  },
+  {
+   "id": "MODKT:ER-2027-0103",
+   "jur": "MO",
+   "source": "mo_efis",
+   "kind": "keyword_hit",
+   "docket": "ER-2027-0103",
+   "title": "New Missouri PSC case ER-2027-0103",
+   "filed": null,
+   "url": "https://www.efis.psc.mo.gov/Case/Display/109667",
+   "fetch": [
+    {
+     "url": "https://www.efis.psc.mo.gov/Case/Display/109667"
+    }
+   ],
+   "meta": {
+    "new_docket": true
+   }
+  },
+  {
+   "id": "MODKT:ET-2027-0102",
+   "jur": "MO",
+   "source": "mo_efis",
+   "kind": "keyword_hit",
+   "docket": "ET-2027-0102",
+   "title": "New Missouri PSC case ET-2027-0102",
+   "filed": null,
+   "url": "https://www.efis.psc.mo.gov/Case/Display/109618",
+   "fetch": [
+    {
+     "url": "https://www.efis.psc.mo.gov/Case/Display/109618"
+    }
+   ],
+   "meta": {
+    "new_docket": true
+   }
+  },
+  {
+   "id": "MODKT:EF-2027-0101",
+   "jur": "MO",
+   "source": "mo_efis",
+   "kind": "keyword_hit",
+   "docket": "EF-2027-0101",
+   "title": "New Missouri PSC case EF-2027-0101",
+   "filed": null,
+   "url": "https://www.efis.psc.mo.gov/Case/Display/109605",
+   "fetch": [
+    {
+     "url": "https://www.efis.psc.mo.gov/Case/Display/109605"
+    }
+   ],
+   "meta": {
+    "new_docket": true
+   }
+  },
+  {
+   "id": "MODKT:EO-2027-0098",
+   "jur": "MO",
+   "source": "mo_efis",
+   "kind": "keyword_hit",
+   "docket": "EO-2027-0098",
+   "title": "New Missouri PSC case EO-2027-0098",
+   "filed": null,
+   "url": "https://www.efis.psc.mo.gov/Case/Display/109559",
+   "fetch": [
+    {
+     "url": "https://www.efis.psc.mo.gov/Case/Display/109559"
+    }
+   ],
+   "meta": {
+    "new_docket": true
+   }
+  },
+  {
+   "id": "MODKT:ER-2027-0097",
+   "jur": "MO",
+   "source": "mo_efis",
+   "kind": "keyword_hit",
+   "docket": "ER-2027-0097",
+   "title": "New Missouri PSC case ER-2027-0097",
+   "filed": null,
+   "url": "https://www.efis.psc.mo.gov/Case/Display/109544",
+   "fetch": [
+    {
+     "url": "https://www.efis.psc.mo.gov/Case/Display/109544"
+    }
+   ],
+   "meta": {
+    "new_docket": true
+   }
+  },
+  {
+   "id": "MODKT:EC-2027-0094",
+   "jur": "MO",
+   "source": "mo_efis",
+   "kind": "keyword_hit",
+   "docket": "EC-2027-0094",
+   "title": "New Missouri PSC case EC-2027-0094",
+   "filed": null,
+   "url": "https://www.efis.psc.mo.gov/Case/Display/109332",
+   "fetch": [
+    {
+     "url": "https://www.efis.psc.mo.gov/Case/Display/109332"
+    }
+   ],
+   "meta": {
+    "new_docket": true
+   }
+  },
+  {
+   "id": "MODKT:EO-2027-0091",
+   "jur": "MO",
+   "source": "mo_efis",
+   "kind": "keyword_hit",
+   "docket": "EO-2027-0091",
+   "title": "New Missouri PSC case EO-2027-0091",
+   "filed": null,
+   "url": "https://www.efis.psc.mo.gov/Case/Display/109045",
+   "fetch": [
+    {
+     "url": "https://www.efis.psc.mo.gov/Case/Display/109045"
+    }
+   ],
+   "meta": {
+    "new_docket": true
+   }
+  }
  ],
+ "notes": [],
  "sub": {},
  "exchanges": [
   {
@@ -16,7 +157,7 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html; charset=utf-8",
-   "len": 14037,
+   "len": 14035,
    "body": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en-us\">\r\n<head>\r\n     <!-- Google tag (gtag.js) -->\r\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-46J2XXVYYV\"></script>\r\n    <script>\r\n      window.dataLayer = window.dataLayer || [];\r\n      function gtag(){dataLayer.push(arguments);}\r\n      gtag('js', new Date());\r\n\r\n      gtag('config', 'G-46J2XXVYYV');\r\n    </script>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n    <title>Not Found - EFIS</title>\r\n\r\n    \r\n    \r\n        <script src=\"/js/header.min.js?v=U84xGJ1wE0cwyMzUB9KYFgpK18qIqvKgQR8sPzCWmBA\"></script>\r\n        <link rel=\"stylesheet\" href=\"/css/site.min.css?v=lpBUcOHN-tdMtB4Ao0XwdcfXxJvMSkgTLeTtDTLNAIE\" />\r\n    \r\n</head>\r\n<body>\r\n    <a href=\"#mainContentLanding\" class=\"sr-only sr-only-focusable\">Skip to main content</a>\r\n    <div class=\"container-fluid d-print-none fullHeader mainMenuText\" role=\"navigation\" aria-label=\"top menu\">\r\n        <div class=\"row header m-0\" role=\"banner\">\r\n            <div class=\"col-12 col-md-7 offset-lg-1 col-lg-6 offset-xl-3 col-xl-5 text-center\" title=\"banner\">\r\n                <a class=\"banner textBanner\" aria-label=\"banner\" href=\"/\"></a>\r\n            </div>\r\n            <div class=\"py-1 py-md-0 col-12 col-md-5 col-xl-4 text-md-right\">\r\n                <div>\r\n                    \r\n\r\n    <div class=\"pt-2\">\r\n        <a class=\"pr-3\" href=\"/Account/Register\"><i class=\"fas fa-user-plus mr-1\" aria-hidden=\"true\"></i>Register</a>\r\n        <a class=\"pr-3\" href=\"/Account/Login\"><i class=\"fas fa-sign-in-alt mr-1\" aria-hidden=\"true\"></i>Log in</a>\r\n    </div>\r\n\r\n                </div>\r\n                <div class=\"pt-2\">\r\n                    <a class=\"pr-3\" target=\"_blank\" href=\"https://psc.mo.gov/EFISHelp/\">Help Directory</a>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <nav class=\"menuNavbar navbar navbar-expand-md navbar-dark d-flex d-print-none\" role=\"navigation\" aria-label=\"primary\">\r\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navMainMenuItems\" aria-controls=\"navMainMenuItems\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n            <span class=\"navbar-toggler-icon\"></span>\r\n        </button>\r\n        <div class=\"collapse navbar-collapse\" id=\"navMainMenuItems\">\r\n            <ul class=\"navbar-nav mx-auto justify-content-center w-100\">\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divRegistrationDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Company & User<br aria-hidden=\"true\">&nbsp;Management\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divRegistrationDropdown\">\r\n                                <a class=\"dropdown-item\" title=\"Company Search\" href=\"/Company/NewSearch\">\r\n                                    Company Search\r\n                                </a>\r\n                        </div>\r\n                    </li>\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divAgendaMenuDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Agenda &amp; Public<br aria-hidden=\"true\" />&nbsp;Meetings\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divAgendaMenuDropdown\">                        \r\n                                <a class=\"dropdown-item\" title=\"Agenda Search\" href=\"/Agenda/NewSearch\">\r\n                                    Agenda Search\r\n                                </a>\r\n                                <div class=\"dropdown-divider\"></div>\r\n                                <a class=\"dropdown-item\" title=\"Public Meeting Search\" href=\"/PublicMeeting/NewSearch\">\r\n                                    Public Meeting Search\r\n                                </a>\r\n                        </div>\r\n                    </li>\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divCaseMenuDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Case<br aria-hidden=\"true\">&nbsp;e-Filings & Search\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divCaseMenuDropdown\">                           \r\n                                <a class=\"dropdown-item\" title=\"Existing Case e-Filing &amp; Search\" href=\"/Case/NewSearch\">\r\n                                    Existing Case e-Filing &amp; Search\r\n                                </a>\r\n                                    <div class=\"dropdown-divider\"></div>\r\n                                    <a title=\"Service List Search\" class=\"dropdown-item\" href=\"/ServiceList/NewSearch\">\r\n                                        Service List Search\r\n                                    </a>\r\n                                    <a title=\"Service List Print\" class=\"dropdown-item\" href=\"/ServiceList/Print\">\r\n                                        Service List Print\r\n                                    </a>\r\n                                    <div class=\"dropdown-divider\"></div>\r\n                                <a title=\"Calendar Search\" class=\"dropdown-item\" href=\"/Calendar/NewSearch\">\r\n                                    Calendar Search\r\n                                </a>\r\n                                    <div class=\"dropdown-divider\"></div>\r\n                                <a title=\"Small Company Rate Increase Search\" class=\"dropdown-item\" href=\"/SmallCom"
   },
   {
@@ -25,29 +166,240 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html; charset=utf-8",
-   "len": 107715,
+   "len": 107716,
    "body": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en-us\">\r\n<head>\r\n     <!-- Google tag (gtag.js) -->\r\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-46J2XXVYYV\"></script>\r\n    <script>\r\n      window.dataLayer = window.dataLayer || [];\r\n      function gtag(){dataLayer.push(arguments);}\r\n      gtag('js', new Date());\r\n\r\n      gtag('config', 'G-46J2XXVYYV');\r\n    </script>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n    <title>Existing Case e-Filing &amp; Search - EFIS</title>\r\n\r\n    \r\n    \r\n        <script src=\"/js/header.min.js?v=U84xGJ1wE0cwyMzUB9KYFgpK18qIqvKgQR8sPzCWmBA\"></script>\r\n        <link rel=\"stylesheet\" href=\"/css/site.min.css?v=lpBUcOHN-tdMtB4Ao0XwdcfXxJvMSkgTLeTtDTLNAIE\" />\r\n    \r\n</head>\r\n<body>\r\n    <a href=\"#mainContentLanding\" class=\"sr-only sr-only-focusable\">Skip to main content</a>\r\n    <div class=\"container-fluid d-print-none fullHeader mainMenuText\" role=\"navigation\" aria-label=\"top menu\">\r\n        <div class=\"row header m-0\" role=\"banner\">\r\n            <div class=\"col-12 col-md-7 offset-lg-1 col-lg-6 offset-xl-3 col-xl-5 text-center\" title=\"banner\">\r\n                <a class=\"banner textBanner\" aria-label=\"banner\" href=\"/\"></a>\r\n            </div>\r\n            <div class=\"py-1 py-md-0 col-12 col-md-5 col-xl-4 text-md-right\">\r\n                <div>\r\n                    \r\n\r\n    <div class=\"pt-2\">\r\n        <a class=\"pr-3\" href=\"/Account/Register\"><i class=\"fas fa-user-plus mr-1\" aria-hidden=\"true\"></i>Register</a>\r\n        <a class=\"pr-3\" href=\"/Account/Login\"><i class=\"fas fa-sign-in-alt mr-1\" aria-hidden=\"true\"></i>Log in</a>\r\n    </div>\r\n\r\n                </div>\r\n                <div class=\"pt-2\">\r\n                    <a class=\"pr-3\" target=\"_blank\" href=\"https://psc.mo.gov/EFISHelp/\">Help Directory</a>\r\n                </div>\r\n            </div>\r\n                <div class=\"pt-2 col-12 breadcrumbText\">\r\n                    <a href=\"/\">Home</a>\r\n                    /\r\n                        <a href=\"/Case\">Existing Case e-Filing &amp; Search</a>\r\n                </div>\r\n        </div>\r\n    </div>\r\n    <nav class=\"menuNavbar navbar navbar-expand-md navbar-dark d-flex d-print-none\" role=\"navigation\" aria-label=\"primary\">\r\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navMainMenuItems\" aria-controls=\"navMainMenuItems\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n            <span class=\"navbar-toggler-icon\"></span>\r\n        </button>\r\n        <div class=\"collapse navbar-collapse\" id=\"navMainMenuItems\">\r\n            <ul class=\"navbar-nav mx-auto justify-content-center w-100\">\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divRegistrationDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Company & User<br aria-hidden=\"true\">&nbsp;Management\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divRegistrationDropdown\">\r\n                                <a class=\"dropdown-item\" title=\"Company Search\" href=\"/Company/NewSearch\">\r\n                                    Company Search\r\n                                </a>\r\n                        </div>\r\n                    </li>\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divAgendaMenuDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Agenda &amp; Public<br aria-hidden=\"true\" />&nbsp;Meetings\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divAgendaMenuDropdown\">                        \r\n                                <a class=\"dropdown-item\" title=\"Agenda Search\" href=\"/Agenda/NewSearch\">\r\n                                    Agenda Search\r\n                                </a>\r\n                                <div class=\"dropdown-divider\"></div>\r\n                                <a class=\"dropdown-item\" title=\"Public Meeting Search\" href=\"/PublicMeeting/NewSearch\">\r\n                                    Public Meeting Search\r\n                                </a>\r\n                        </div>\r\n                    </li>\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divCaseMenuDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Case<br aria-hidden=\"true\">&nbsp;e-Filings & Search\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divCaseMenuDropdown\">                           \r\n                                <a class=\"dropdown-item\" title=\"Existing Case e-Filing &amp; Search\" href=\"/Case/NewSearch\">\r\n                                    Existing Case e-Filing &amp; Search\r\n                                </a>\r\n                                    <div class=\"dropdown-divider\"></div>\r\n                                    <a title=\"Service List Search\" class=\"dropdown-item\" href=\"/ServiceList/NewSearch\">\r\n                                        Service List Search\r\n                                    </a>\r\n                                    <a title=\"Service List Print\" class=\"dropdown-item\" href=\"/ServiceList/Print\">\r\n                                        Service List Print\r\n                                    </a>\r\n                                    <div class=\"dropdown-divider\"></div>\r\n                                <a title=\"Calendar Search\" class=\"dropdown-item\" href=\"/Calendar/NewSearch\">\r\n                          "
   },
   {
    "method": "POST",
    "url": "https://www.efis.psc.mo.gov/Case",
-   "req": "{'FromDateFiled': '2026-06-01', 'ToDateFiled': '', 'SubmissionNumber': '', 'RelatedSubmissionNumber': '', 'CaseMasterStatusId': '', 'IncludeOnlyActiveCases': 'false', 'CompanyDetailId': '', 'CompanyName': '', 'IncludeInactive': 'false', 'IsSingleItemSearch': 'false', 'IsSubjectCompaniesOnly': 'false', 'IncludeOnlySessionOrders': 'false', 'Description': '', 'IsIndividualFilingSearch': 'false', 'GridResultOptions.SelectedResultLimit': '500', 'GridResultOptions.SortBy': 'DateTimeFiled', 'GridResultOptions.SortDirection': 'DESC', '__RequestVerificationToken': 'CfDJ8DksyRcqWe1FtNcr3A1XoenVx_pVpbZ9SsoEaIFzNnnYLrIdP0meZ2R_RLCRB3rMH37vLxEMfk9PFeSQj95PU-FI57IBqervDl-Kt_eWcoTSTgvHqPeQoWkT_ipSJFulausgxWv74GBiwDn47gT5m78'}",
+   "req": "{'FromDateFiled': '2026-06-01', 'ToDateFiled': '', 'SubmissionNumber': '', 'RelatedSubmissionNumber': '', 'CaseMasterStatusId': '', 'IncludeOnlyActiveCases': 'false', 'CompanyDetailId': '', 'CompanyName': '', 'IncludeInactive': 'false', 'IsSingleItemSearch': 'false', 'IsSubjectCompaniesOnly': 'false', 'IncludeOnlySessionOrders': 'false', 'Description': '', 'IsIndividualFilingSearch': 'false', 'GridResultOptions.SelectedResultLimit': '500', 'GridResultOptions.SortBy': 'DateTimeFiled', 'GridResultOptions.SortDirection': 'DESC', '__RequestVerificationToken': 'CfDJ8DksyRcqWe1FtNcr3A1XoeknmKgjJTnp-4dmVefoai2pJ1AK74ZaD4WxyEtzrUCVQlCREj_yjCTW3-bDIw8zIAkXlfJwregJ3CNN0ypYqqj0VNcM__t0vT2-pX_6PHpxj0i3szLfoz-dFkkceR619ZI'}",
    "status": 200,
    "ctype": "application/json; charset=utf-8",
    "len": 7585184,
    "body": "{\"isValid\":true,\"searchGridResultContent\":\"\\r\\n    \\u003Ctable class=\\u0022tableSearchGridTwoRow tableCollapse stickyHeader\\u0022\\u003E\\r\\n        \\u003Cthead\\u003E\\r\\n            \\u003Ctr\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022 class=\\u0022columnMinWidth\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022SubmissionNumber\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Case No.\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022CaseTypeName\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Type of Case\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022FullUtilityTypeName\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Utility Type\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022DateTimeFiled\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Date Filed\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    Subject Companies\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    Related Submission No.\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022CaseMasterStatusName\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Status\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n            \\u003C/tr\\u003E\\r\\n        \\u003C/thead\\u003E\\r\\n        \\u003Ctbody\\u003E\\r\\n                \\u003Ctr\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Case No.\\u0022\\u003E\\r\\n                        \\r\\n    \\u003Cspan class=\\u0022spanSubmissionMaster\\u0022 data-code=\\u0022CASE\\u0022\\u003E\\r\\n            \\u003Ca href=\\u0022https://www.efis.psc.mo.gov/Case/Display/109668\\u0022 target=\\u0022_self\\u0022\\u003EEO-2027-0104\\u003C/a\\u003E\\r\\n    \\u003C/span\\u003E\\r\\n\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Type of Case\\u0022\\u003E\\r\\n                        Other\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Utility Type\\u0022\\u003E\\r\\n                        Electric\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Date Filed\\u0022\\u003E\\r\\n                        10/1/2026\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Subject Companies\\u0022\\u003E\\r\\n                            \\u003Cul class=\\u0022plainUnorderedList\\u0022\\u003E\\r\\n                                    \\u003Cli\\u003E\\r\\n                                        \\r\\n        \\u003Ca title=\\u0022View\\u0022 target=\\u0022_self\\u0022 href=\\u0022/Company/Display/1348?isDetailId=true\\u0022\\u003EEmpire District Electric Company, The (Electric) (Investor)\\u003C/a\\u003E\\r\\n\\r\\n                                    \\u003C/li\\u003E\\r\\n                                    \\u003Cli\\u003E\\r\\n                                        \\r\\n        \\u003Ca title=\\u0022View\\u0022 target=\\u0022_self\\u0022 href=\\u0022/Company/Display/6667?isDetailId=true\\u0022\\u003ELiberty (Empire) (Electric) (Investor)\\u003C/a\\u003E\\r\\n\\r\\n                                    \\u003C/li\\u003E\\r\\n                            \\u003C/ul\\u003E\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Related Submission No.\\u0022 class=\\u0022\\u0022\\u003E\\r\\n                        \\u003Cul class=\\u0022plainUnorderedList\\u0022\\u003E\\r\\n                                    \\u003Cli\\u003E\\r\\n                                        \\r\\n    \\u003Cspan class=\\u0022spanSubmissionMaster\\u0022 data-code=\\u0022CASE\\u0022\\u003E\\r\\n            \\u003Ca href=\\u0022https://www.efis.psc.mo.gov/Case/Display/109667\\u0022 target=\\u0022_self\\u0022\\u003EER-2027-0103\\u003C/a\\u003E\\r\\n    \\u003C/span\\u003E\\r\\n\\r\\n                                    \\u003C/li\\u003E\\r\\n                                    \\u003Cli\\u003E\\r\\n                                        \\r\\n    \\u003Cspan class=\\u0022spanSubmissionMaster\\u0022 data-code=\\u0022TARIFF\\u0022\\u003E\\r\\n            \\u003Ca href=\\u0022https://www.efis.psc.mo.gov/Tariff/Display/109666\\u0022 target=\\u0022_self\\u0022\\u003EJE-2027-0046\\u003C/a\\u003E\\r\\n    \\u003C/span\\u003E\\r\\n\\r\\n                                    \\u003C/li\\u003E\\r\\n           "
   },
   {
-   "method": "POST",
-   "url": "https://www.efis.psc.mo.gov/Case",
-   "req": "{'FromDateFiled': '2025-01-01', 'ToDateFiled': '', 'SubmissionNumber': '', 'RelatedSubmissionNumber': '', 'CaseMasterStatusId': '', 'IncludeOnlyActiveCases': 'false', 'CompanyDetailId': '', 'CompanyName': '', 'IncludeInactive': 'false', 'IsSingleItemSearch': 'false', 'IsSubjectCompaniesOnly': 'false', 'IncludeOnlySessionOrders': 'false', 'Description': '', 'IsIndividualFilingSearch': 'false', 'GridResultOptions.SelectedResultLimit': '500', 'GridResultOptions.SortBy': 'DateTimeFiled', 'GridResultOptions.SortDirection': 'DESC', '__RequestVerificationToken': 'CfDJ8DksyRcqWe1FtNcr3A1XoenVx_pVpbZ9SsoEaIFzNnnYLrIdP0meZ2R_RLCRB3rMH37vLxEMfk9PFeSQj95PU-FI57IBqervDl-Kt_eWcoTSTgvHqPeQoWkT_ipSJFulausgxWv74GBiwDn47gT5m78'}",
+   "method": "GET",
+   "url": "https://www.efis.psc.mo.gov/Case/Display/102282",
+   "req": "None",
    "status": 200,
-   "ctype": "application/json; charset=utf-8",
-   "len": 13763862,
-   "body": "{\"isValid\":true,\"searchGridResultContent\":\"\\r\\n    \\u003Ctable class=\\u0022tableSearchGridTwoRow tableCollapse stickyHeader\\u0022\\u003E\\r\\n        \\u003Cthead\\u003E\\r\\n            \\u003Ctr\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022 class=\\u0022columnMinWidth\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022SubmissionNumber\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Case No.\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022CaseTypeName\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Type of Case\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022FullUtilityTypeName\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Utility Type\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022DateTimeFiled\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Date Filed\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    Subject Companies\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    Related Submission No.\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022CaseMasterStatusName\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Status\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n            \\u003C/tr\\u003E\\r\\n        \\u003C/thead\\u003E\\r\\n        \\u003Ctbody\\u003E\\r\\n                \\u003Ctr\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Case No.\\u0022\\u003E\\r\\n                        \\r\\n    \\u003Cspan class=\\u0022spanSubmissionMaster\\u0022 data-code=\\u0022CASE\\u0022\\u003E\\r\\n            \\u003Ca href=\\u0022https://www.efis.psc.mo.gov/Case/Display/109668\\u0022 target=\\u0022_self\\u0022\\u003EEO-2027-0104\\u003C/a\\u003E\\r\\n    \\u003C/span\\u003E\\r\\n\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Type of Case\\u0022\\u003E\\r\\n                        Other\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Utility Type\\u0022\\u003E\\r\\n                        Electric\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Date Filed\\u0022\\u003E\\r\\n                        10/1/2026\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Subject Companies\\u0022\\u003E\\r\\n                            \\u003Cul class=\\u0022plainUnorderedList\\u0022\\u003E\\r\\n                                    \\u003Cli\\u003E\\r\\n                                        \\r\\n        \\u003Ca title=\\u0022View\\u0022 target=\\u0022_self\\u0022 href=\\u0022/Company/Display/1348?isDetailId=true\\u0022\\u003EEmpire District Electric Company, The (Electric) (Investor)\\u003C/a\\u003E\\r\\n\\r\\n                                    \\u003C/li\\u003E\\r\\n                                    \\u003Cli\\u003E\\r\\n                                        \\r\\n        \\u003Ca title=\\u0022View\\u0022 target=\\u0022_self\\u0022 href=\\u0022/Company/Display/6667?isDetailId=true\\u0022\\u003ELiberty (Empire) (Electric) (Investor)\\u003C/a\\u003E\\r\\n\\r\\n                                    \\u003C/li\\u003E\\r\\n                            \\u003C/ul\\u003E\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Related Submission No.\\u0022 class=\\u0022\\u0022\\u003E\\r\\n                        \\u003Cul class=\\u0022plainUnorderedList\\u0022\\u003E\\r\\n                                    \\u003Cli\\u003E\\r\\n                                        \\r\\n    \\u003Cspan class=\\u0022spanSubmissionMaster\\u0022 data-code=\\u0022CASE\\u0022\\u003E\\r\\n            \\u003Ca href=\\u0022https://www.efis.psc.mo.gov/Case/Display/109667\\u0022 target=\\u0022_self\\u0022\\u003EER-2027-0103\\u003C/a\\u003E\\r\\n    \\u003C/span\\u003E\\r\\n\\r\\n                                    \\u003C/li\\u003E\\r\\n                                    \\u003Cli\\u003E\\r\\n                                        \\r\\n    \\u003Cspan class=\\u0022spanSubmissionMaster\\u0022 data-code=\\u0022TARIFF\\u0022\\u003E\\r\\n            \\u003Ca href=\\u0022https://www.efis.psc.mo.gov/Tariff/Display/109666\\u0022 target=\\u0022_self\\u0022\\u003EJE-2027-0046\\u003C/a\\u003E\\r\\n    \\u003C/span\\u003E\\r\\n\\r\\n                                    \\u003C/li\\u003E\\r\\n           "
+   "ctype": "text/html; charset=utf-8",
+   "len": 1124684,
+   "body": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en-us\">\r\n<head>\r\n     <!-- Google tag (gtag.js) -->\r\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-46J2XXVYYV\"></script>\r\n    <script>\r\n      window.dataLayer = window.dataLayer || [];\r\n      function gtag(){dataLayer.push(arguments);}\r\n      gtag('js', new Date());\r\n\r\n      gtag('config', 'G-46J2XXVYYV');\r\n    </script>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n    <title>Docket Sheet - ER-2026-0143 - EFIS</title>\r\n\r\n    \r\n    \r\n        <script src=\"/js/header.min.js?v=U84xGJ1wE0cwyMzUB9KYFgpK18qIqvKgQR8sPzCWmBA\"></script>\r\n        <link rel=\"stylesheet\" href=\"/css/site.min.css?v=lpBUcOHN-tdMtB4Ao0XwdcfXxJvMSkgTLeTtDTLNAIE\" />\r\n    \r\n</head>\r\n<body>\r\n    <a href=\"#mainContentLanding\" class=\"sr-only sr-only-focusable\">Skip to main content</a>\r\n    <div class=\"container-fluid d-print-none fullHeader mainMenuText\" role=\"navigation\" aria-label=\"top menu\">\r\n        <div class=\"row header m-0\" role=\"banner\">\r\n            <div class=\"col-12 col-md-7 offset-lg-1 col-lg-6 offset-xl-3 col-xl-5 text-center\" title=\"banner\">\r\n                <a class=\"banner textBanner\" aria-label=\"banner\" href=\"/\"></a>\r\n            </div>\r\n            <div class=\"py-1 py-md-0 col-12 col-md-5 col-xl-4 text-md-right\">\r\n                <div>\r\n                    \r\n\r\n    <div class=\"pt-2\">\r\n        <a class=\"pr-3\" href=\"/Account/Register\"><i class=\"fas fa-user-plus mr-1\" aria-hidden=\"true\"></i>Register</a>\r\n        <a class=\"pr-3\" href=\"/Account/Login\"><i class=\"fas fa-sign-in-alt mr-1\" aria-hidden=\"true\"></i>Log in</a>\r\n    </div>\r\n\r\n                </div>\r\n                <div class=\"pt-2\">\r\n                    <a class=\"pr-3\" target=\"_blank\" href=\"https://psc.mo.gov/EFISHelp/\">Help Directory</a>\r\n                </div>\r\n            </div>\r\n                <div class=\"pt-2 col-12 breadcrumbText\">\r\n                    <a href=\"/\">Home</a>\r\n                    /\r\n                        <a href=\"/Case\">Existing Case e-Filing &amp; Search</a>\r\n                            /\r\n                        <a href=\"/Case/Display/102282\">Docket Sheet - ER-2026-0143</a>\r\n                </div>\r\n        </div>\r\n    </div>\r\n    <nav class=\"menuNavbar navbar navbar-expand-md navbar-dark d-flex d-print-none\" role=\"navigation\" aria-label=\"primary\">\r\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navMainMenuItems\" aria-controls=\"navMainMenuItems\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n            <span class=\"navbar-toggler-icon\"></span>\r\n        </button>\r\n        <div class=\"collapse navbar-collapse\" id=\"navMainMenuItems\">\r\n            <ul class=\"navbar-nav mx-auto justify-content-center w-100\">\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divRegistrationDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Company & User<br aria-hidden=\"true\">&nbsp;Management\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divRegistrationDropdown\">\r\n                                <a class=\"dropdown-item\" title=\"Company Search\" href=\"/Company/NewSearch\">\r\n                                    Company Search\r\n                                </a>\r\n                        </div>\r\n                    </li>\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divAgendaMenuDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Agenda &amp; Public<br aria-hidden=\"true\" />&nbsp;Meetings\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divAgendaMenuDropdown\">                        \r\n                                <a class=\"dropdown-item\" title=\"Agenda Search\" href=\"/Agenda/NewSearch\">\r\n                                    Agenda Search\r\n                                </a>\r\n                                <div class=\"dropdown-divider\"></div>\r\n                                <a class=\"dropdown-item\" title=\"Public Meeting Search\" href=\"/PublicMeeting/NewSearch\">\r\n                                    Public Meeting Search\r\n                                </a>\r\n                        </div>\r\n                    </li>\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divCaseMenuDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Case<br aria-hidden=\"true\">&nbsp;e-Filings & Search\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divCaseMenuDropdown\">                           \r\n                                <a class=\"dropdown-item\" title=\"Existing Case e-Filing &amp; Search\" href=\"/Case/NewSearch\">\r\n                                    Existing Case e-Filing &amp; Search\r\n                                </a>\r\n                                    <div class=\"dropdown-divider\"></div>\r\n                                    <a title=\"Service List Search\" class=\"dropdown-item\" href=\"/ServiceList/NewSearch\">\r\n                                        Service List Search\r\n                                    </a>\r\n                                    <a title=\"Service List Print\" class=\"dropdown-item\" href=\"/ServiceList/Print\">\r\n                                        Service List Print\r\n                                    </a>\r\n                                    <div class=\"dropdown-divider\"></div>\r\n                         "
+  },
+  {
+   "method": "GET",
+   "url": "https://www.efis.psc.mo.gov/Case/Display/105725",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 252907,
+   "body": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en-us\">\r\n<head>\r\n     <!-- Google tag (gtag.js) -->\r\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-46J2XXVYYV\"></script>\r\n    <script>\r\n      window.dataLayer = window.dataLayer || [];\r\n      function gtag(){dataLayer.push(arguments);}\r\n      gtag('js', new Date());\r\n\r\n      gtag('config', 'G-46J2XXVYYV');\r\n    </script>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n    <title>Docket Sheet - ER-2026-0291 - EFIS</title>\r\n\r\n    \r\n    \r\n        <script src=\"/js/header.min.js?v=U84xGJ1wE0cwyMzUB9KYFgpK18qIqvKgQR8sPzCWmBA\"></script>\r\n        <link rel=\"stylesheet\" href=\"/css/site.min.css?v=lpBUcOHN-tdMtB4Ao0XwdcfXxJvMSkgTLeTtDTLNAIE\" />\r\n    \r\n</head>\r\n<body>\r\n    <a href=\"#mainContentLanding\" class=\"sr-only sr-only-focusable\">Skip to main content</a>\r\n    <div class=\"container-fluid d-print-none fullHeader mainMenuText\" role=\"navigation\" aria-label=\"top menu\">\r\n        <div class=\"row header m-0\" role=\"banner\">\r\n            <div class=\"col-12 col-md-7 offset-lg-1 col-lg-6 offset-xl-3 col-xl-5 text-center\" title=\"banner\">\r\n                <a class=\"banner textBanner\" aria-label=\"banner\" href=\"/\"></a>\r\n            </div>\r\n            <div class=\"py-1 py-md-0 col-12 col-md-5 col-xl-4 text-md-right\">\r\n                <div>\r\n                    \r\n\r\n    <div class=\"pt-2\">\r\n        <a class=\"pr-3\" href=\"/Account/Register\"><i class=\"fas fa-user-plus mr-1\" aria-hidden=\"true\"></i>Register</a>\r\n        <a class=\"pr-3\" href=\"/Account/Login\"><i class=\"fas fa-sign-in-alt mr-1\" aria-hidden=\"true\"></i>Log in</a>\r\n    </div>\r\n\r\n                </div>\r\n                <div class=\"pt-2\">\r\n                    <a class=\"pr-3\" target=\"_blank\" href=\"https://psc.mo.gov/EFISHelp/\">Help Directory</a>\r\n                </div>\r\n            </div>\r\n                <div class=\"pt-2 col-12 breadcrumbText\">\r\n                    <a href=\"/\">Home</a>\r\n                    /\r\n                        <a href=\"/Case\">Existing Case e-Filing &amp; Search</a>\r\n                            /\r\n                        <a href=\"/Case/Display/102282\">Docket Sheet - ER-2026-0143</a>\r\n                            /\r\n                        <a href=\"/Case/Display/105725\">Docket Sheet - ER-2026-0291</a>\r\n                </div>\r\n        </div>\r\n    </div>\r\n    <nav class=\"menuNavbar navbar navbar-expand-md navbar-dark d-flex d-print-none\" role=\"navigation\" aria-label=\"primary\">\r\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navMainMenuItems\" aria-controls=\"navMainMenuItems\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n            <span class=\"navbar-toggler-icon\"></span>\r\n        </button>\r\n        <div class=\"collapse navbar-collapse\" id=\"navMainMenuItems\">\r\n            <ul class=\"navbar-nav mx-auto justify-content-center w-100\">\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divRegistrationDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Company & User<br aria-hidden=\"true\">&nbsp;Management\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divRegistrationDropdown\">\r\n                                <a class=\"dropdown-item\" title=\"Company Search\" href=\"/Company/NewSearch\">\r\n                                    Company Search\r\n                                </a>\r\n                        </div>\r\n                    </li>\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divAgendaMenuDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Agenda &amp; Public<br aria-hidden=\"true\" />&nbsp;Meetings\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divAgendaMenuDropdown\">                        \r\n                                <a class=\"dropdown-item\" title=\"Agenda Search\" href=\"/Agenda/NewSearch\">\r\n                                    Agenda Search\r\n                                </a>\r\n                                <div class=\"dropdown-divider\"></div>\r\n                                <a class=\"dropdown-item\" title=\"Public Meeting Search\" href=\"/PublicMeeting/NewSearch\">\r\n                                    Public Meeting Search\r\n                                </a>\r\n                        </div>\r\n                    </li>\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divCaseMenuDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Case<br aria-hidden=\"true\">&nbsp;e-Filings & Search\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divCaseMenuDropdown\">                           \r\n                                <a class=\"dropdown-item\" title=\"Existing Case e-Filing &amp; Search\" href=\"/Case/NewSearch\">\r\n                                    Existing Case e-Filing &amp; Search\r\n                                </a>\r\n                                    <div class=\"dropdown-divider\"></div>\r\n                                    <a title=\"Service List Search\" class=\"dropdown-item\" href=\"/ServiceList/NewSearch\">\r\n                                        Service List Search\r\n                                    </a>\r\n                                    <a title=\"Service List Print\" class=\"dropdown-item\" href=\"/ServiceList/Print\">\r\n                                        Service List Print\r\n                      "
+  },
+  {
+   "method": "GET",
+   "url": "https://www.efis.psc.mo.gov/Case/Display/91941",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 817255,
+   "body": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en-us\">\r\n<head>\r\n     <!-- Google tag (gtag.js) -->\r\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-46J2XXVYYV\"></script>\r\n    <script>\r\n      window.dataLayer = window.dataLayer || [];\r\n      function gtag(){dataLayer.push(arguments);}\r\n      gtag('js', new Date());\r\n\r\n      gtag('config', 'G-46J2XXVYYV');\r\n    </script>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n    <title>Docket Sheet - ET-2025-0184 - EFIS</title>\r\n\r\n    \r\n    \r\n        <script src=\"/js/header.min.js?v=U84xGJ1wE0cwyMzUB9KYFgpK18qIqvKgQR8sPzCWmBA\"></script>\r\n        <link rel=\"stylesheet\" href=\"/css/site.min.css?v=lpBUcOHN-tdMtB4Ao0XwdcfXxJvMSkgTLeTtDTLNAIE\" />\r\n    \r\n</head>\r\n<body>\r\n    <a href=\"#mainContentLanding\" class=\"sr-only sr-only-focusable\">Skip to main content</a>\r\n    <div class=\"container-fluid d-print-none fullHeader mainMenuText\" role=\"navigation\" aria-label=\"top menu\">\r\n        <div class=\"row header m-0\" role=\"banner\">\r\n            <div class=\"col-12 col-md-7 offset-lg-1 col-lg-6 offset-xl-3 col-xl-5 text-center\" title=\"banner\">\r\n                <a class=\"banner textBanner\" aria-label=\"banner\" href=\"/\"></a>\r\n            </div>\r\n            <div class=\"py-1 py-md-0 col-12 col-md-5 col-xl-4 text-md-right\">\r\n                <div>\r\n                    \r\n\r\n    <div class=\"pt-2\">\r\n        <a class=\"pr-3\" href=\"/Account/Register\"><i class=\"fas fa-user-plus mr-1\" aria-hidden=\"true\"></i>Register</a>\r\n        <a class=\"pr-3\" href=\"/Account/Login\"><i class=\"fas fa-sign-in-alt mr-1\" aria-hidden=\"true\"></i>Log in</a>\r\n    </div>\r\n\r\n                </div>\r\n                <div class=\"pt-2\">\r\n                    <a class=\"pr-3\" target=\"_blank\" href=\"https://psc.mo.gov/EFISHelp/\">Help Directory</a>\r\n                </div>\r\n            </div>\r\n                <div class=\"pt-2 col-12 breadcrumbText\">\r\n                    <a href=\"/\">Home</a>\r\n                    /\r\n                        <a href=\"/Case/Display/102282\">Docket Sheet - ER-2026-0143</a>\r\n                            /\r\n                        <a href=\"/Case/Display/105725\">Docket Sheet - ER-2026-0291</a>\r\n                            /\r\n                        <a href=\"/Case/Display/91941\">Docket Sheet - ET-2025-0184</a>\r\n                </div>\r\n        </div>\r\n    </div>\r\n    <nav class=\"menuNavbar navbar navbar-expand-md navbar-dark d-flex d-print-none\" role=\"navigation\" aria-label=\"primary\">\r\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navMainMenuItems\" aria-controls=\"navMainMenuItems\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n            <span class=\"navbar-toggler-icon\"></span>\r\n        </button>\r\n        <div class=\"collapse navbar-collapse\" id=\"navMainMenuItems\">\r\n            <ul class=\"navbar-nav mx-auto justify-content-center w-100\">\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divRegistrationDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Company & User<br aria-hidden=\"true\">&nbsp;Management\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divRegistrationDropdown\">\r\n                                <a class=\"dropdown-item\" title=\"Company Search\" href=\"/Company/NewSearch\">\r\n                                    Company Search\r\n                                </a>\r\n                        </div>\r\n                    </li>\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divAgendaMenuDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Agenda &amp; Public<br aria-hidden=\"true\" />&nbsp;Meetings\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divAgendaMenuDropdown\">                        \r\n                                <a class=\"dropdown-item\" title=\"Agenda Search\" href=\"/Agenda/NewSearch\">\r\n                                    Agenda Search\r\n                                </a>\r\n                                <div class=\"dropdown-divider\"></div>\r\n                                <a class=\"dropdown-item\" title=\"Public Meeting Search\" href=\"/PublicMeeting/NewSearch\">\r\n                                    Public Meeting Search\r\n                                </a>\r\n                        </div>\r\n                    </li>\r\n                    <li class=\"nav-item dropdown navCol m-0\">\r\n                        <a class=\"nav-link dropdown-toggle whitetxt\" style=\"padding: 1px\" href=\"#\" id=\"divCaseMenuDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                            Case<br aria-hidden=\"true\">&nbsp;e-Filings & Search\r\n                        </a>\r\n                        <div class=\"dropdown-menu w-100\" aria-labelledby=\"divCaseMenuDropdown\">                           \r\n                                <a class=\"dropdown-item\" title=\"Existing Case e-Filing &amp; Search\" href=\"/Case/NewSearch\">\r\n                                    Existing Case e-Filing &amp; Search\r\n                                </a>\r\n                                    <div class=\"dropdown-divider\"></div>\r\n                                    <a title=\"Service List Search\" class=\"dropdown-item\" href=\"/ServiceList/NewSearch\">\r\n                                        Service List Search\r\n                                    </a>\r\n                                    <a title=\"Service List Print\" class=\"dropdown-item\" href=\"/ServiceList/Print\">\r\n                                        Service List Print\r\n                "
   }
  ],
  "adapter_state": {
-  "case_ids": {}
+  "case_ids": {
+   "EO-2027-0104": "109668",
+   "ER-2027-0103": "109667",
+   "ET-2027-0102": "109618",
+   "EF-2027-0101": "109605",
+   "EO-2027-0098": "109559",
+   "ER-2027-0097": "109544",
+   "EC-2027-0094": "109332",
+   "EO-2027-0091": "109045",
+   "EC-2027-0086": "108665",
+   "EX-2027-0085": "108641",
+   "EO-2027-0078": "108455",
+   "ER-2027-0077": "108453",
+   "EO-2027-0076": "108452",
+   "EC-2027-0070": "108385",
+   "EC-2027-0058": "108278",
+   "EC-2027-0069": "108384",
+   "EC-2027-0068": "108381",
+   "EC-2027-0067": "108352",
+   "EC-2027-0065": "108350",
+   "EC-2027-0064": "108338",
+   "EO-2027-0061": "108299",
+   "EX-2027-0060": "108288",
+   "EC-2024-0015": "10046",
+   "EC-2026-0350": "106385",
+   "EC-2027-0056": "108232",
+   "EO-2027-0057": "108240",
+   "EC-2027-0044": "107989",
+   "EC-2027-0042": "107928",
+   "EO-2027-0033": "107791",
+   "EA-2022-0234": "9787",
+   "ER-2027-0032": "107768",
+   "EO-2027-0031": "107764",
+   "EO-2027-0028": "107719",
+   "ER-2027-0027": "107714",
+   "EC-2027-0021": "107595",
+   "EC-2027-0020": "107364",
+   "EA-2027-0010": "107140",
+   "EA-2027-0009": "107139",
+   "EA-2027-0008": "107138",
+   "EO-2027-0004": "106876",
+   "EO-2027-0002": "106856",
+   "EO-2027-0001": "106855",
+   "EO-2026-0376": "106843",
+   "ER-2026-0375": "106839",
+   "EO-2026-0374": "106834",
+   "EO-2026-0367": "106641",
+   "EO-2026-0362": "106515",
+   "EO-2026-0358": "106454",
+   "EC-2026-0357": "106447",
+   "EC-2026-0354": "106413",
+   "EC-2026-0349": "106379",
+   "EO-2026-0347": "106355",
+   "EO-2026-0346": "106351",
+   "EO-2026-0345": "106348",
+   "EA-2026-0344": "106339",
+   "EA-2026-0343": "106338",
+   "EC-2026-0341": "106327",
+   "EC-2026-0333": "106192",
+   "EC-2026-0315": "106098",
+   "EC-2026-0312": "105946",
+   "EC-2026-0309": "105898",
+   "EO-2026-0306": "105885",
+   "EO-2026-0299": "105818",
+   "EO-2026-0298": "105807",
+   "EO-2026-0296": "105801",
+   "ER-2026-0291": "105725",
+   "EC-2026-0279": "105552",
+   "EO-2026-0283": "105592",
+   "EO-2026-0327": "106157",
+   "EO-2026-0277": "105464",
+   "EO-2026-0276": "105454",
+   "EO-2026-0275": "105447",
+   "EO-2026-0274": "105444",
+   "EO-2026-0273": "105441",
+   "EO-2026-0272": "105440",
+   "EO-2026-0261": "104736",
+   "ER-2026-0260": "104735",
+   "EO-2026-0256": "104676",
+   "EA-2026-0253": "104598",
+   "EC-2026-0240": "103964",
+   "EO-2026-0239": "103939",
+   "EO-2002-1119": "10242",
+   "EO-2026-0230": "103847",
+   "EA-2026-0226": "103738",
+   "EC-2026-0218": "103687",
+   "EO-2026-0213": "103633",
+   "EO-2026-0212": "103632",
+   "EO-2026-0208": "103545",
+   "EF-2026-0206": "103434",
+   "EC-2026-0200": "103251",
+   "EO-2026-0189": "102971",
+   "EO-2026-0188": "102970",
+   "ET-2026-0184": "102769",
+   "EA-2026-0183": "102764",
+   "EX-2026-0171": "102629",
+   "EC-2026-0156": "102453",
+   "EA-2026-0155": "102420",
+   "EA-2026-0154": "102419",
+   "EC-2026-0153": "102416",
+   "EC-2026-0151": "102383",
+   "ER-2026-0143": "102282",
+   "EC-2026-0131": "102042",
+   "EO-2026-0129": "101962",
+   "EO-2026-0101": "101509",
+   "EC-2026-0095": "101360",
+   "EW-2026-0091": "101336",
+   "EO-2026-0070": "101103",
+   "EF-2026-0068": "100976",
+   "EE-2026-0065": "100959",
+   "EC-2026-0064": "100947",
+   "EA-2026-0058": "100845",
+   "EC-2026-0048": "100660",
+   "EO-2026-0038": "100251",
+   "EO-2026-0037": "100250",
+   "EO-2026-0036": "100249",
+   "EO-2026-0035": "100248",
+   "EO-2026-0031": "100104",
+   "EA-2025-0075": "90004",
+   "EA-2026-0018": "99285",
+   "EO-2026-0006": "99119",
+   "EO-2026-0005": "99118",
+   "EO-2026-0003": "99107",
+   "EO-2026-0002": "99103",
+   "EA-2025-0299": "97077",
+   "EA-2025-0238": "93905",
+   "EO-2025-0235": "93875",
+   "EO-2025-0228": "93593",
+   "ET-2025-0184": "91941",
+   "EO-2025-0154": "91385",
+   "EO-2025-0123": "90655",
+   "EA-2025-0087": "90142",
+   "EE-2025-0084": "90103",
+   "EO-2025-0079": "90017",
+   "EO-2021-0331": "10970",
+   "EO-2025-0077": "90014",
+   "EO-2024-0020": "11137",
+   "EE-2024-0335": "87397",
+   "ER-2024-0319": "87208",
+   "EA-2024-0302": "86962",
+   "EO-2024-0297": "86918",
+   "EA-2024-0292": "86510",
+   "EO-2024-0280": "86183",
+   "ER-2024-0261": "85589",
+   "EO-2024-0249": "85265",
+   "EA-2024-0237": "84947",
+   "EA-2019-0010": "9765",
+   "EA-2024-0212": "84159",
+   "ER-2024-0189": "83704",
+   "EF-2024-0021": "10206",
+   "EC-2024-0062": "82364",
+   "EC-2024-0063": "82365",
+   "EC-2024-0064": "82366",
+   "EC-2024-0065": "82367",
+   "EO-2023-0448": "11135",
+   "EO-2023-0370": "11121",
+   "EO-2023-0369": "11120",
+   "EW-2026-0204": "103294",
+   "EA-2023-0286": "9795",
+   "EW-2023-0199": "11615",
+   "EO-2023-0136": "11093",
+   "EO-2023-0105": "11087",
+   "EF-2022-0103": "10200",
+   "EO-2022-0040": "11005",
+   "EO-2022-0193": "11025",
+   "EO-2023-0294": "11108",
+   "EO-2024-0045": "11144",
+   "ER-2021-0312": "11376",
+   "EW-2021-0267": "11614",
+   "EW-2021-0104": "11612",
+   "EW-2021-0077": "11611",
+   "EA-2020-0371": "9774",
+   "ET-2020-0022": "11512",
+   "EO-2020-0284": "10902",
+   "EA-2020-0160": "9773",
+   "EW-2019-0229": "11603",
+   "ET-2019-0149": "11508",
+   "EO-2019-0047": "10827",
+   "EO-2018-0211": "10787",
+   "EO-2019-0045": "10825",
+   "EO-2019-0046": "10826",
+   "ET-2019-0029": "11504",
+   "EO-2019-0044": "10824",
+   "ER-2021-0240": "11374",
+   "ER-2022-0337": "11398",
+   "ET-2018-0132": "11501",
+   "EA-2016-0207": "9755",
+   "EO-2015-0055": "10633",
+   "EO-2015-0240": "10649",
+   "EO-2015-0241": "10650",
+   "ER-2016-0179": "11260",
+   "EW-2013-0519": "11589",
+   "EO-2012-0269": "10496"
+  }
  }
 }
