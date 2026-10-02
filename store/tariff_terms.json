@@ -1,0 +1,146 @@
+{
+  "schema": "grid-docket-tariff-terms-v1",
+  "generated": "2026-09-18",
+  "_doc": "Structured large-load tariff terms, one row per tariff or schedule. These figures previously existed only inside prose in the Takeaway column, which made the single most decision-useful comparison in the tracker — what a developer actually signs up to in each territory — impossible to render. A null means the term was NOT stated in what was read, never that it does not exist. Do not fill a null by inference from a neighbouring tariff.",
+  "fields": {
+    "threshold_mw": "Minimum demand at which the schedule applies or becomes mandatory.",
+    "load_factor_pct": "Minimum monthly load factor required for eligibility, where the schedule imposes one.",
+    "term_years": "Initial contract term. See term_note for whether a ramp period is included.",
+    "ramp_years": "Maximum ramp period, where stated separately.",
+    "min_take_pct": "Minimum billing demand as a percentage of contract or contracted demand — the take-or-pay floor.",
+    "collateral": "Security the customer must post.",
+    "notice_months": "Notice required to terminate or materially reduce contracted capacity.",
+    "exit_fee": "Whether an exit or termination charge applies.",
+    "status": "Where the tariff stands as of 2026-09-18."
+  },
+  "data": [
+    {
+      "utility": "EPE", "jurisdiction": "NM",
+      "tariff": "Rate No. 50 — High Load Factor Power Service",
+      "docket": "26-0000062 (Advice Notice No. 317)",
+      "threshold_mw": 30, "load_factor_pct": 85,
+      "term_years": 20, "ramp_years": 4, "min_take_pct": 80,
+      "collateral": "Credit security unless the offtaker or guarantor holds two of three A-/A3 ratings",
+      "notice_months": null, "exit_fee": null,
+      "term_note": "20-year minimum initial term on a Commission-filed ESA. Transmission-voltage service into a dedicated substation. 80% billing demand floor plus an 80% summer ratchet.",
+      "status": "Suspended 2026-04-24, extended 2026-08-28; reconsideration motion filed 2026-09-08",
+      "conf": "Verified", "event": "E-20260918-143"
+    },
+    {
+      "utility": "Evergy", "jurisdiction": "KS",
+      "tariff": "Large Load Power Service (LLPS)",
+      "docket": "25-EKME-315-TAR",
+      "threshold_mw": 75, "load_factor_pct": null,
+      "term_years": 12, "ramp_years": 5, "min_take_pct": 80,
+      "collateral": "Up to two years of minimum bills",
+      "notice_months": 36, "exit_fee": true,
+      "term_note": "12-year base term plus a ramp of up to 5 years, so 12-17 years in total. Base demand rates set 50% above the standard Industrial and Large Power rate; all-in bills run 8-10% above it. A Bring Your Own Generation path preserves the SB-98 sales-tax exemption.",
+      "status": "Approved 2025-11-06; docket still shown Open",
+      "conf": "Verified", "event": "E-20260918-126"
+    },
+    {
+      "utility": "Ameren", "jurisdiction": "MO",
+      "tariff": "Large Load Rate Plan",
+      "docket": "ET-2025-0184",
+      "threshold_mw": 75, "load_factor_pct": null,
+      "term_years": 12, "ramp_years": null, "min_take_pct": 80,
+      "collateral": "Two years of minimum monthly bills",
+      "notice_months": 24, "exit_fee": true,
+      "term_note": "12-year term after ramp. Base rate approximately $0.062/kWh. 65% customer share of earnings above the allowed ROE.",
+      "status": "Approved by the Missouri PSC 2025-11-24",
+      "conf": "Verified", "event": "E-20260918-135"
+    },
+    {
+      "utility": "ApCo", "jurisdiction": "VA",
+      "tariff": "Schedule L.P.S. — large load special terms and conditions",
+      "docket": "PUR-2025-00057",
+      "threshold_mw": 100, "load_factor_pct": null,
+      "term_years": 14, "ramp_years": 4, "min_take_pct": 80,
+      "collateral": "Cash collateral accruing interest; no freely negotiated alternative permitted",
+      "notice_months": 42, "exit_fee": true,
+      "term_note": "Applies at 100 MW at a single site or 150 MW aggregated, for load added after 1 July 2025. 14-year initial term INCLUSIVE of a ramp of up to four years. 42 months' notice to terminate or cut capacity by more than 20%. Exit fee carries a defined mitigation and dispute-resolution path. A separate large-load rate class was expressly found not to be required.",
+      "status": "Final order 2026-06-01; under appeal by the Retail Energy Advancement League",
+      "conf": "Verified", "event": "E-20260918-145"
+    },
+    {
+      "utility": "Dominion", "jurisdiction": "VA",
+      "tariff": "Rate Schedule GS-5",
+      "docket": "PUR-2025-00058",
+      "threshold_mw": 25, "load_factor_pct": null,
+      "term_years": 14, "ramp_years": null, "min_take_pct": 85,
+      "collateral": null,
+      "notice_months": null, "exit_fee": null,
+      "term_note": "85% of contracted transmission and distribution demand, 60% of generation demand. Takes effect 2027-01-01. Six customers elected under 2026 Va. Acts ch. 1124 to remain on GS-4. Cost allocation was settled separately in Rider T1, PUR-2026-00056. The compliance filing is due at least 45 days before the effective date and rates should not be modelled before it lands.",
+      "status": "Approved; effective 2027-01-01; compliance filing outstanding",
+      "conf": "Reported", "event": "E-20260918-149"
+    },
+    {
+      "utility": "NOVEC", "jurisdiction": "VA",
+      "tariff": "Schedules LP-1, DPS, HV-1 and HV-2 — revised terms and conditions",
+      "docket": "PUR-2026-00114",
+      "threshold_mw": null, "load_factor_pct": null,
+      "term_years": null, "ramp_years": null, "min_take_pct": null,
+      "collateral": null,
+      "notice_months": null, "exit_fee": null,
+      "term_note": "NOVEC states the revisions are aimed at insulating other members from large-load costs and proposes no change to the rates themselves. The specific terms were not read. Live on an interim basis from 2026-09-01 and modifiable at hearing, so anything signed before April 2027 is signed against provisional terms.",
+      "status": "In effect on an interim basis from 2026-09-01; hearing 2027-04-21",
+      "conf": "Verified", "event": "E-20260918-150"
+    },
+    {
+      "utility": "APS", "jurisdiction": "AZ",
+      "tariff": "Rate Schedule XHLF — Extra High Load Factor",
+      "docket": "E-01345A-25-0105",
+      "threshold_mw": null, "load_factor_pct": null,
+      "term_years": null, "ramp_years": null, "min_take_pct": null,
+      "collateral": null,
+      "notice_months": null, "exit_fee": null,
+      "term_note": "MANDATORY, plus an executed Load Commitment Agreement, for large high-load-factor customers beginning service after 1 January 2024 and not covered by the June 2025 resource plan. APS argues existing Service Schedule 1 already lets it impose these terms without separate Commission pre-approval, so they are effectively non-negotiable. The MW threshold and minimum-take percentage were NOT established — exhibit APS-54 needs a direct read to close this.",
+      "status": "Hearings concluded June 2026; reply briefs 2026-09-11; awaiting a Recommended Opinion and Order",
+      "conf": "Verified", "event": "E-20260918-141"
+    },
+    {
+      "utility": "Evergy", "jurisdiction": "KS",
+      "tariff": "Panasonic special contract (outside the LLPS tariff)",
+      "docket": "26-EKCE-110-CON",
+      "threshold_mw": null, "load_factor_pct": null,
+      "term_years": 10, "ramp_years": null, "min_take_pct": null,
+      "collateral": "Significant; amount not stated",
+      "notice_months": null, "exit_fee": null,
+      "term_note": "The comparison point for anything negotiated outside the standard tariff. Minimum-bill provisions the Utilities Director called the most robust he had reviewed. Discounts confined strictly to base rates — nothing off the fuel, property-tax or transmission delivery riders.",
+      "status": "Approved 2026-02-26",
+      "conf": "Verified", "event": "E-20260918-127"
+    },
+    {
+      "utility": "Entergy", "jurisdiction": "LA",
+      "tariff": "Company contracting standard (not a filed tariff)",
+      "docket": null,
+      "threshold_mw": null, "load_factor_pct": null,
+      "term_years": 15, "ramp_years": null, "min_take_pct": null,
+      "collateral": "Robust credit terms; contributions in aid of construction during heavy investment",
+      "notice_months": null, "exit_fee": true,
+      "term_note": "Stated as 15-20 year terms with minimum bills and an early termination fee to recoup unrecovered costs. This is Entergy's described contracting practice from its 2026 Investor Day, NOT a filed tariff, and the terms are therefore indicative rather than binding on the Commission.",
+      "status": "Company practice as disclosed 2026-06-09",
+      "conf": "Verified", "event": "E-20260918-137"
+    },
+    {
+      "utility": "Duke", "jurisdiction": "NC",
+      "tariff": "Customer Protection Plus (framework; tariff filing pending)",
+      "docket": "E-7 Sub 1329 context",
+      "threshold_mw": null, "load_factor_pct": null,
+      "term_years": null, "ramp_years": null, "min_take_pct": null,
+      "collateral": "Collateral required; amount not stated",
+      "notice_months": null, "exit_fee": true,
+      "term_note": "Duke discloses the mechanism categories — minimum billing, termination damages and collateral — but no numbers. The formal North Carolina tariff filing is due 2026-09-30 and should replace this row with real figures.",
+      "status": "Framework announced; formal filing due 2026-09-30",
+      "conf": "Verified", "event": "E-20260918-006"
+    }
+  ],
+  "convergence_note": "Across the six tariffs with a stated threshold and term, the cluster is tight: threshold 25-100 MW, term 10-20 years, minimum take 80-85%, collateral around two years of minimum bills, notice 24-42 months. Treat a DEVIATION from this cluster as the newsworthy thing, not the cluster itself. The legislative template moving through the states tracks it closely at 50-150 MW, 75-85% minimum take and 10-15 year terms.",
+  "known_gaps": [
+    "APS XHLF — threshold and minimum take not established; read exhibit APS-54 in E-01345A-25-0105.",
+    "NOVEC — the revised terms themselves were not read, only the order docketing them.",
+    "Duke NC — no numbers until the 2026-09-30 filing.",
+    "OG&E — a tariff reported as 'Extra Large Power & Light' is unconfirmed while the Oklahoma portal returns HTTP 500. Deliberately absent from this table rather than entered on report.",
+    "Georgia Power, Alabama Power, AEP Ohio, ComEd, PPL, SWEPCO, Oncor — large-load tariffs exist or are in progress but their terms have not been extracted into this table."
+  ]
+}

@@ -1,34 +1,34 @@
 {
  "schema": "grid-docket-rows-manifest-v1",
  "mirror_of": "OneDrive /GridDocket/rows.json",
- "note": "Repo mirror of the immutable row-store parts. rows_p1-p4 were reconstructed from Grid_Docket_Tracker_MASTER.xlsx (the 2026-09-18 baseline rendering); later parts are written by the Sweep to OneDrive and here in the same run, byte-identical. OneDrive is the system of record.",
+ "note": "Repo mirror of the immutable row-store parts in OneDrive /GridDocket/. rows_p1-p4 (the 2026-09-18 baseline) were reconstructed on 2026-10-02 from Grid_Docket_Tracker_MASTER.xlsx plus the final console data, and verified against the OneDrive parts (row order, part boundaries, 11 field spot-checks). Later parts are written by the Sweep to OneDrive and here in the same run, byte-identical. OneDrive is the system of record; each run checks this mirror against the OneDrive manifest.",
  "parts": [
   {
    "file": "rows_p1.json",
    "rows": 58,
-   "bytes": 41813,
-   "sha256": "c62dc2a0b1b7d5b1af3fea9e256731511b6ed3038cb0f755b7d3a29ac0988b40",
+   "bytes": 40331,
+   "sha256": "f2501b9fa9f0dccde9640bb9623b4f204de8a89d6516275c49408325aa20bd3c",
    "carries_columns": true
   },
   {
    "file": "rows_p2.json",
    "rows": 58,
-   "bytes": 42689,
-   "sha256": "d78f27584e42e520c3de40d2459ee505fd906d8cb48ad6fa7f1afefa41db89da",
+   "bytes": 41078,
+   "sha256": "6f04754b73498b74c3c81ddfc3e4fed51223eea303c25054e26b41131d71fc23",
    "carries_columns": false
   },
   {
    "file": "rows_p3.json",
    "rows": 58,
-   "bytes": 43669,
-   "sha256": "9970b2cfb6db5ee6b9913b838963d2642fc83da6947ca62d5a06b23fe2f08bba",
+   "bytes": 42484,
+   "sha256": "c2092b2a1bb7f3154f63cc3dccdec361c4c7b2367aeb2bb185d9621a312e2749",
    "carries_columns": false
   },
   {
    "file": "rows_p4.json",
    "rows": 55,
-   "bytes": 41646,
-   "sha256": "c0f9bf40d2df34dc8b7a8073f768e1524a214a518be010a20d1a4694df30c85f",
+   "bytes": 40847,
+   "sha256": "2d6da9422f0065ce47b48dc0240bc6fe4e4c20e05e1842b9e342f129aead4f91",
    "carries_columns": false
   }
  ],

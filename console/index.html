@@ -1,0 +1,594 @@
+<title>Grid Docket Console</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ink:#16181c;--ink-2:#3d424b;--ink-3:#6b7280;
+  --ground:#faf8f5;--surface:#fff;--surface-2:#f3f0eb;
+  --rule:#e0dbd2;--rule-2:#cdc6b9;
+  --accent:#a8491b;--accent-soft:#f5e7de;
+  --ok:#2f6b46;--ok-soft:#e3f0e8;
+  --warn:#8a6414;--warn-soft:#f8eed6;
+  --bad:#9a2f2f;--bad-soft:#f6e2e0;
+  --viol:#4527a0;--viol-soft:#ede7f6;
+  --h0:#f3f0eb;--h1:#E6F1FB;--h2:#B5D4F4;--h3:#85B7EB;--h4:#378ADD;--h5:#185FA5;
+  --hd:#042C53;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  --body:'Public Sans',system-ui,sans-serif;--display:'Newsreader',Georgia,serif;
+}
+:root:not([data-theme="light"]){@media (prefers-color-scheme:dark){
+  --ink:#eceae6;--ink-2:#b9b4ab;--ink-3:#8b857b;
+  --ground:#14151a;--surface:#1c1e24;--surface-2:#23262e;
+  --rule:#333740;--rule-2:#454a55;
+  --accent:#e8834f;--accent-soft:#3a2418;
+  --ok:#7fc79b;--ok-soft:#1b2d22;--warn:#e0b45c;--warn-soft:#2e2615;
+  --bad:#e08c86;--bad-soft:#2f1d1c;--viol:#b39ddb;--viol-soft:#241a3d;
+  --h0:#23262e;
+}}
+:root[data-theme="dark"]{
+  --ink:#eceae6;--ink-2:#b9b4ab;--ink-3:#8b857b;
+  --ground:#14151a;--surface:#1c1e24;--surface-2:#23262e;
+  --rule:#333740;--rule-2:#454a55;
+  --accent:#e8834f;--accent-soft:#3a2418;
+  --ok:#7fc79b;--ok-soft:#1b2d22;--warn:#e0b45c;--warn-soft:#2e2615;
+  --bad:#e08c86;--bad-soft:#2f1d1c;--viol:#b39ddb;--viol-soft:#241a3d;
+  --h0:#23262e;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:0 80px}
+@media(min-width:640px){.wrap{padding-inline:20px}}
+h1{font-family:var(--display);font-size:clamp(1.8rem,4.5vw,2.7rem);font-weight:600;letter-spacing:-.015em;margin:0;line-height:1.15}
+h2{font-family:var(--display);font-size:1.32rem;font-weight:600;margin:0}
+p{margin:0 0 .8rem;max-width:72ch}
+a{color:var(--accent)}
+header{border-bottom:2px solid var(--ink);padding-block:40px 18px;margin-bottom:24px}
+.eyebrow{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 .8rem}
+.meta{font-family:var(--mono);font-size:.71rem;color:var(--ink-3);margin-top:1rem;display:flex;gap:1.3rem;flex-wrap:wrap}
+section{margin-bottom:38px;scroll-margin-top:12px}
+.sec-head{display:flex;align-items:baseline;gap:.8rem;border-bottom:1px solid var(--rule-2);padding-bottom:.45rem;margin-bottom:1.1rem;flex-wrap:wrap}
+.sec-num{font-family:var(--mono);font-size:.73rem;color:var(--accent);flex:none}
+.sec-note{font-family:var(--mono);font-size:.7rem;color:var(--ink-3);margin-left:auto}
+.status{border-radius:5px;padding:.85rem 1.05rem;border-left:3px solid var(--warn);background:var(--warn-soft)}
+.status .lbl{font-family:var(--mono);font-size:.69rem;letter-spacing:.1em;text-transform:uppercase;color:var(--warn);font-weight:500;display:block;margin-bottom:.3rem}
+.status ul{margin:.4rem 0 0;padding-left:1.1rem;font-size:.87rem}
+.status li{margin-bottom:.3rem}
+.status.green{border-left-color:var(--ok);background:var(--ok-soft)}.status.green .lbl{color:var(--ok)}
+.status.red{border-left-color:var(--bad);background:var(--bad-soft)}.status.red .lbl{color:var(--bad)}
+.dlrow{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-top:.9rem}
+.dllbl{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.dlmsg{font-family:var(--mono);font-size:.7rem;color:var(--ink-3)}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:5px;padding:1.1rem}
+.caveat{background:var(--warn-soft);border-left:3px solid var(--warn);padding:.7rem .9rem;border-radius:0 4px 4px 0;font-size:.84rem;margin-top:1rem;max-width:none}
+/* timeline */
+.tl-axis{position:relative;height:74px;margin:.2rem 0 .4rem}
+.tl-mo{position:absolute;top:52px;font-family:var(--mono);font-size:.64rem;color:var(--ink-3);transform:translateX(-50%);white-space:nowrap}
+.tl-gl{position:absolute;top:0;height:48px;width:1px;background:var(--rule)}
+.tl-base{position:absolute;top:48px;left:0;right:0;height:1px;background:var(--rule-2)}
+.tl-dot{position:absolute;width:9px;height:9px;border-radius:50%;transform:translate(-50%,-50%);cursor:pointer;border:1.5px solid var(--surface)}
+.tl-dot.h{background:var(--bad)}.tl-dot.m{background:var(--warn)}
+.tl-now{position:absolute;top:0;height:48px;width:2px;background:var(--accent)}
+.tl-now span{position:absolute;top:-14px;left:3px;font-family:var(--mono);font-size:.6rem;color:var(--accent);white-space:nowrap}
+.mgrp{margin-top:1rem}
+.mgrp h3{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:.9rem 0 .35rem;font-weight:500}
+.mrow{display:grid;grid-template-columns:62px 1fr auto;gap:.6rem;padding:.4rem .2rem;border-bottom:1px solid var(--rule);align-items:baseline;cursor:pointer}
+.mrow:hover{background:var(--surface-2)}
+.mrow.hot{background:var(--bad-soft)}
+.md{font-family:var(--mono);font-size:.74rem;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.mw{font-size:.86rem;line-height:1.35}
+.mw em{font-style:normal;font-family:var(--mono);font-size:.7rem;color:var(--ink-3);display:block}
+.mn{font-family:var(--mono);font-size:.69rem;color:var(--ink-3);white-space:nowrap}
+/* small multiples */
+.sm{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:10px}
+.smt{background:var(--surface);border:1px solid var(--rule);border-radius:5px;padding:.7rem .8rem}
+.smt .nm{font-size:.85rem;font-weight:600}
+.smt .ms{font-family:var(--mono);font-size:.62rem;color:var(--ink-3);text-transform:uppercase;letter-spacing:.05em}
+.smt .vv{display:flex;align-items:baseline;gap:.4rem;margin-top:.15rem}
+.smt .big{font-family:var(--display);font-size:1.5rem;font-weight:600;font-variant-numeric:tabular-nums}
+.smt .dl{font-family:var(--mono);font-size:.7rem}
+.up{color:var(--ok)}.dn{color:var(--bad)}.fl{color:var(--ink-3)}
+.spark{margin-top:.35rem}
+.ladder{display:grid;grid-template-columns:70px 1fr;gap:.6rem;align-items:center;margin-bottom:.35rem}
+.ladder .lp{font-family:var(--mono);font-size:.7rem;color:var(--ink-2);text-align:right}
+.lbar{display:flex;height:22px;border-radius:2px;overflow:hidden;gap:2px}
+.lseg{display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:.64rem;min-width:2px}
+.s1{background:#B5D4F4;color:#042C53}.s2{background:#378ADD;color:#fff}.s3{background:#185FA5;color:#fff}
+/* heatmap */
+.hm{border-collapse:separate;border-spacing:2px;table-layout:fixed;width:100%;min-width:600px;font-size:12px}
+.hm th{font-weight:400;color:var(--ink-3);font-size:11px;padding-bottom:4px;text-align:center}
+.hm th:first-child{text-align:left}
+.hm td{text-align:center;padding:5px 0;border-radius:3px}
+.hm td.j{text-align:left;color:var(--ink);font-weight:600;padding-right:4px}
+.hm td.t{color:var(--ink-3)}
+/* tariff matrix */
+.tm{border-collapse:collapse;width:100%;min-width:820px;font-size:.83rem}
+.tm th{text-align:left;font-family:var(--mono);font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding:.5rem .6rem;border-bottom:1px solid var(--rule-2);background:var(--surface-2);white-space:nowrap}
+.tm td{padding:.55rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
+.tm .nul{color:var(--ink-3)}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+/* console */
+.ctrl{background:var(--surface);border:1px solid var(--rule);border-radius:5px;padding:.9rem 1rem;margin-bottom:1rem}
+.srch{width:100%;padding:.55rem .7rem;font-family:var(--body);font-size:.92rem;border:1px solid var(--rule-2);border-radius:4px;background:var(--ground);color:var(--ink);margin-bottom:.8rem}
+.srch:focus{outline:2px solid var(--accent);outline-offset:1px}
+.fgrp{margin-bottom:.6rem}
+.fgrp:last-child{margin-bottom:0}
+.fttl{font-family:var(--mono);font-size:.65rem;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin-bottom:.32rem;display:flex;align-items:baseline;gap:.5rem}
+.fttl button{font-family:var(--mono);font-size:.62rem;background:none;border:none;color:var(--accent);cursor:pointer;padding:0;text-decoration:underline}
+.chips{display:flex;gap:.3rem;flex-wrap:wrap}
+.chips.collapsed{max-height:26px;overflow:hidden}
+.chip{font-family:var(--mono);font-size:.7rem;padding:.22em .55em;border-radius:3px;border:1px solid var(--rule-2);background:var(--ground);color:var(--ink-2);cursor:pointer;user-select:none}
+.chip:hover{border-color:var(--accent)}
+.chip[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.chip .n{opacity:.55;margin-left:.3em}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:.6rem;margin-bottom:.6rem;flex-wrap:wrap}
+.count{font-family:var(--mono);font-size:.76rem;color:var(--ink-3)}
+.btn{font-family:var(--mono);font-size:.7rem;padding:.3em .7em;border-radius:3px;border:1px solid var(--rule-2);background:var(--surface);color:var(--ink-2);cursor:pointer}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.tblwrap{overflow-x:auto;border:1px solid var(--rule);border-radius:5px;background:var(--surface)}
+table.main{border-collapse:collapse;width:100%;font-size:.855rem;min-width:860px}
+.main th{text-align:left;font-family:var(--mono);font-size:.65rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding:.55rem .7rem;border-bottom:1px solid var(--rule-2);background:var(--surface-2);white-space:nowrap;cursor:pointer;user-select:none;position:sticky;top:0;z-index:2}
+.main th:hover{color:var(--accent)}
+.main th .ar{opacity:.35;font-size:.8em}
+.main th.on .ar{opacity:1;color:var(--accent)}
+.main td{padding:.55rem .7rem;border-bottom:1px solid var(--rule);vertical-align:top}
+tr.r{cursor:pointer}
+tr.r:hover td{background:var(--surface-2)}
+tr.r.sup td{opacity:.5}
+tr.hit td{box-shadow:inset 3px 0 0 var(--accent)}
+tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
+.det-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.8rem;margin-bottom:.7rem}
+.det-k{font-family:var(--mono);font-size:.64rem;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);display:block}
+.det-v{font-size:.85rem}
+.sw-txt{font-size:.89rem;color:var(--ink-2);margin:0 0 .6rem;max-width:none}
+.dt{font-family:var(--mono);font-size:.78rem;white-space:nowrap;font-variant-numeric:tabular-nums}
+.eid{font-family:var(--mono);font-size:.68rem;color:var(--ink-3);white-space:nowrap}
+.hl{font-weight:600;line-height:1.35;min-width:260px}
+.ent{display:flex;flex-wrap:wrap;gap:.2rem;min-width:130px}
+.pill{display:inline-block;font-family:var(--mono);font-size:.63rem;padding:.14em .42em;border-radius:3px;border:1px solid;white-space:nowrap}
+.e-pill{background:var(--surface-2);color:var(--ink-2);border-color:var(--rule-2)}
+.m-h{background:var(--bad-soft);color:var(--bad);border-color:currentColor;font-weight:600}
+.m-m{background:var(--warn-soft);color:var(--warn);border-color:currentColor}
+.c-v{background:var(--ok-soft);color:var(--ok);border-color:currentColor}
+.c-r{background:var(--warn-soft);color:var(--warn);border-color:currentColor}
+.c-u{background:var(--bad-soft);color:var(--bad);border-color:currentColor}
+.lv{background:var(--viol-soft);color:var(--viol);border-color:currentColor;margin-right:.2rem;margin-bottom:.2rem}
+.flag{background:var(--accent-soft);color:var(--accent);border-color:currentColor;margin-left:.3rem}
+.empty{padding:2.2rem 1rem;text-align:center;color:var(--ink-3);font-size:.9rem}
+.foot{border-top:2px solid var(--ink);padding-top:1rem;font-family:var(--mono);font-size:.73rem;color:var(--ink-3);line-height:1.7}
+.loading{padding:2.4rem 1rem;text-align:center;color:var(--ink-3);font-family:var(--mono);font-size:.8rem}
+.scroll{overflow-x:auto}
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Blue Owl Digital Infrastructure</p>
+  <h1>Grid Docket Console</h1>
+  <div class="meta"><span id="hdrdate">—</span><span>25 UTILITIES · 8 RTOs · 18 JURISDICTIONS</span><span id="hdrcount">—</span></div>
+  <div class="dlrow" id="dlrow" hidden><span class="dllbl">Downloads</span><button class="btn" type="button" id="dl-xlsx">Excel tracker (.xlsx)</button><button class="btn" type="button" id="dl-docx" hidden>Weekly narrative (.docx)</button><span class="dlmsg" id="dlmsg" role="status"></span></div>
+</header>
+
+<section id="s-status">
+  <div class="sec-head"><span class="sec-num">01</span><h2>Status check</h2><span class="sec-note" id="st-note">—</span></div>
+  <div class="status" id="st-box">
+    <span class="lbl" id="st-lbl">Loading status…</span>
+    <ul id="st-list"></ul>
+  </div>
+</section>
+
+<section id="s-time">
+  <div class="sec-head"><span class="sec-num">02</span><h2>Decision calendar</h2><span class="sec-note" id="tl-note">—</span></div>
+  <div class="card">
+    <div class="tl-axis" id="tl"></div>
+    <div class="bar" style="margin:0">
+      <span class="count" id="tl-count"></span>
+      <span><button class="btn" id="tl-all">Show everything</button></span>
+    </div>
+  </div>
+  <div class="mgrp" id="mlist"></div>
+</section>
+
+<section id="s-conv">
+  <div class="sec-head"><span class="sec-num">03</span><h2>Conversion</h2><span class="sec-note">signed capacity by issuer, GW</span></div>
+  <div class="sm" id="sm"></div>
+  <div class="card" style="margin-top:12px">
+    <div style="font-size:.85rem;font-weight:600;margin-bottom:.1rem">Dominion contracted-capacity ladder</div>
+    <div style="font-family:var(--mono);font-size:.66rem;color:var(--ink-3);margin-bottom:.7rem">the one series published on a consistent basis across all three stages</div>
+    <div id="ladder"></div>
+  </div>
+  <p class="caveat"><b>Definitions are not standardised across companies.</b> "Signed ESA", "committed", "contracted" and "advanced stage" mean different things in each deck, and pipeline denominators differ in both stage and horizon. Read across issuers as indicative of relative conversion discipline, never like-for-like. Exelon changed methodology at Q2 2026 and is not comparable to its own earlier figures. Entergy never states an absolute signed figure and is therefore absent. Every point is drawn live from the metrics table — nothing here is hand-maintained.</p>
+</section>
+
+<section id="s-tariff">
+  <div class="sec-head"><span class="sec-num">04</span><h2>Tariff terms</h2><span class="sec-note">what a large load actually signs up to</span></div>
+  <div class="tblwrap"><table class="tm"><thead><tr>
+    <th>Utility</th><th>Tariff</th><th>Threshold</th><th>Term</th><th>Min take</th><th>Notice</th><th>Collateral</th><th>Status</th>
+  </tr></thead><tbody id="tmb"><tr><td colspan="8"><div class="loading">Loading…</div></td></tr></tbody></table></div>
+  <p class="caveat" id="tm-note"></p>
+</section>
+
+<section id="s-heat">
+  <div class="sec-head"><span class="sec-num">05</span><h2>Where the pressure is</h2><span class="sec-note">events touching each lever, by jurisdiction</span></div>
+  <div class="card">
+    <div class="scroll"><table class="hm"><thead><tr id="hmh"></tr></thead><tbody id="hmb"></tbody></table></div>
+    <div style="display:flex;align-items:center;gap:10px;margin-top:12px;font-size:.76rem;color:var(--ink-3);flex-wrap:wrap">
+      <span>fewer</span>
+      <span style="display:flex;gap:3px">
+        <i style="display:block;width:22px;height:13px;border-radius:3px;background:var(--h0)"></i>
+        <i style="display:block;width:22px;height:13px;border-radius:3px;background:var(--h1)"></i>
+        <i style="display:block;width:22px;height:13px;border-radius:3px;background:var(--h2)"></i>
+        <i style="display:block;width:22px;height:13px;border-radius:3px;background:var(--h3)"></i>
+        <i style="display:block;width:22px;height:13px;border-radius:3px;background:var(--h4)"></i>
+        <i style="display:block;width:22px;height:13px;border-radius:3px;background:var(--h5)"></i>
+      </span>
+      <span>more</span>
+      <span style="margin-left:auto">click a cell to filter the console below</span>
+    </div>
+  </div>
+</section>
+
+<section id="s-console">
+  <div class="sec-head"><span class="sec-num">06</span><h2>Console</h2><span class="sec-note">click any row to expand</span></div>
+
+  <div class="ctrl">
+    <input class="srch" id="q" type="search" placeholder="Search headline, entity, docket, takeaway…" aria-label="Search">
+    <div class="fgrp"><div class="fttl">Materiality</div><div class="chips" id="f-mat"></div></div>
+    <div class="fgrp"><div class="fttl">Subject</div><div class="chips" id="f-sub"></div></div>
+    <div class="fgrp"><div class="fttl">Jurisdiction</div><div class="chips" id="f-jur"></div></div>
+    <div class="fgrp"><div class="fttl">Entity <button type="button" data-exp="f-ent">show all</button></div><div class="chips collapsed" id="f-ent"></div></div>
+    <div class="fgrp"><div class="fttl">Instrument <button type="button" data-exp="f-ins">show all</button></div><div class="chips collapsed" id="f-ins"></div></div>
+    <div class="fgrp"><div class="fttl">Lever</div><div class="chips" id="f-lev"></div></div>
+    <div class="fgrp"><div class="fttl">Confidence</div><div class="chips" id="f-con"></div></div>
+  </div>
+
+  <div class="bar">
+    <span class="count" id="cnt"></span>
+    <span style="display:flex;gap:.4rem;flex-wrap:wrap">
+      <button class="btn" id="csv" hidden>Export CSV</button>
+      <button class="btn" id="clr">Clear filters</button>
+    </span>
+  </div>
+
+  <div class="tblwrap">
+    <table class="main">
+      <thead><tr>
+        <th data-k="date">Date <span class="ar">▾</span></th>
+        <th data-k="id">Event <span class="ar">▾</span></th>
+        <th data-k="_ent">Entities <span class="ar">▾</span></th>
+        <th data-k="subject">Subject <span class="ar">▾</span></th>
+        <th data-k="instrument">Instrument <span class="ar">▾</span></th>
+        <th data-k="headline">Headline <span class="ar">▾</span></th>
+        <th data-k="mat">Mat. <span class="ar">▾</span></th>
+        <th data-k="conf">Conf. <span class="ar">▾</span></th>
+      </tr></thead>
+      <tbody id="tb"><tr><td colspan="8"><div class="loading">Loading baseline…</div></td></tr></tbody>
+    </table>
+  </div>
+</section>
+
+<div class="foot" id="foot">25 utilities · 8 RTOs · 18 jurisdictions · schema 3.5</div>
+</div>
+
+<script>
+let TODAY=new Date().toISOString().slice(0,10);
+const LEVORDER=["Upfront Costs","Rates","Term","Speed","Curtailment","Deliverability","Supply/Demand","Market Participation"];
+const LEVSHORT={"Upfront Costs":"Upfront","Rates":"Rates","Term":"Term","Speed":"Speed","Curtailment":"Curtail","Deliverability":"Deliver","Supply/Demand":"Supply","Market Participation":"Mkt part"};
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const dayN=d=>Math.round((new Date(d+"T00:00:00")-new Date(TODAY+"T00:00:00"))/864e5);
+const fmtD=d=>{const p=d.split("-");return (+p[2])+" "+MON[+p[1]-1]+(p[0]!=="2026"?" "+p[0].slice(2):"");};
+const fmtM=k=>{const p=k.split("-");return MON[+p[1]-1]+" "+p[0];};
+
+let EV=[],NROWS=0,MET=null,TAR=null;
+const F={mat:new Set(),sub:new Set(),jur:new Set(),ent:new Set(),ins:new Set(),lev:new Set(),con:new Set()};
+let sortK='date',sortD=-1,open=new Set(),tlAll=false;
+const MP={"High / near-term":'m-h',"Medium / long-term":'m-m'};
+const CP={Verified:'c-v',Reported:'c-r',Unverified:'c-u'};
+
+/* ---------- decision calendar, derived from the events themselves ---------- */
+function milestones(){
+  return EV.filter(e=>e.nd&&e.nd>TODAY)
+           .map(e=>({d:e.nd,what:e.nm||e.headline,who:e.ents.map(t=>t[0]).join(', '),
+                     jur:[...new Set(e.ents.map(t=>t[1]))].join('/'),id:e.id,mat:e.mat,doc:e.document}))
+           .sort((a,b)=>a.d<b.d?-1:a.d>b.d?1:0);
+}
+function timeline(){
+  const all=milestones(); const lim=tlAll?all:all.filter(m=>dayN(m.d)<=120);
+  const el=document.getElementById('tl');
+  if(!lim.length){el.innerHTML='<div class="loading">No dated milestones ahead.</div>';return;}
+  const t0=Math.min(0,dayN(lim[0].d)), t1=dayN(lim[lim.length-1].d);
+  const span=Math.max(t1-t0,1), pos=d=>((dayN(d)-t0)/span)*96+2;
+  let marks='',seen=new Set();
+  lim.forEach(m=>{const k=m.d.slice(0,7); if(!seen.has(k)){seen.add(k);
+    marks+=`<div class="tl-gl" style="left:${pos(k+'-01')}%"></div><div class="tl-mo" style="left:${pos(k+'-01')}%">${fmtM(k)}</div>`;}});
+  const byd={}; let dots='';
+  lim.forEach(m=>{byd[m.d]=(byd[m.d]||0)+1;
+    const stack=byd[m.d]-1, y=40-stack*11;
+    dots+=`<div class="tl-dot ${m.mat.startsWith('High')?'h':'m'}" style="left:${pos(m.d)}%;top:${y}px" data-go="${m.id}" title="${esc(fmtD(m.d)+' · '+m.what)}"></div>`;});
+  el.innerHTML=`<div class="tl-base"></div>${marks}<div class="tl-now" style="left:${pos(TODAY)}%"><span>today</span></div>${dots}`;
+  document.getElementById('tl-count').textContent=`${lim.length} of ${all.length} dated milestones`;
+  document.getElementById('tl-note').textContent=tlAll?'all open items':'next 120 days';
+  document.getElementById('tl-all').textContent=tlAll?'Next 120 days':'Show everything';
+  let html='',cur='';
+  lim.forEach(m=>{const k=m.d.slice(0,7);
+    if(k!==cur){cur=k;html+=`<h3>${fmtM(k)}</h3>`;}
+    const n=dayN(m.d);
+    html+=`<div class="mrow${n<=30?' hot':''}" data-go="${m.id}">
+      <div class="md">${fmtD(m.d)}</div>
+      <div class="mw">${esc(m.what)}<em>${esc(m.who)} · ${esc(m.jur)}</em></div>
+      <div class="mn">${n} d</div></div>`;});
+  document.getElementById('mlist').innerHTML=html;
+}
+
+/* ---------- conversion, drawn live from metrics.json ---------- */
+function spark(pts,w,h){
+  if(pts.length<2)return '';
+  const vs=pts.map(p=>p.v),mn=Math.min(...vs),mx=Math.max(...vs),r=(mx-mn)||1;
+  const x=i=>i/(pts.length-1)*(w-6)+3, y=v=>h-3-((v-mn)/r)*(h-6);
+  const d=pts.map((p,i)=>`${i?'L':'M'}${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join(' ');
+  return `<svg class="spark" width="100%" height="${h}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" role="img" aria-label="trend">
+    <path d="${d}" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="${x(pts.length-1).toFixed(1)}" cy="${y(vs[vs.length-1]).toFixed(1)}" r="2.6" fill="var(--accent)"/></svg>`;
+}
+function conversion(){
+  if(!MET)return;
+  const pick=['esa_gw','contracted_gw','committed_gw'];
+  const by={};
+  MET.data.filter(m=>m.value!=null&&pick.includes(m.measure)).forEach(m=>{
+    (by[m.issuer]=by[m.issuer]||{meas:m.measure,pts:[]}).pts.push({p:m.period,v:m.value});});
+  const tiles=Object.entries(by).map(([iss,o])=>{
+    o.pts.sort((a,b)=>a.p<b.p?-1:1);
+    const last=o.pts[o.pts.length-1],prev=o.pts.length>1?o.pts[o.pts.length-2]:null;
+    const dv=prev?+(last.v-prev.v).toFixed(2):null;
+    const cls=dv===null?'fl':dv>0.05?'up':dv<-0.05?'dn':'fl';
+    const dtxt=dv===null?'first point':(dv>0?'+':'')+dv+' GW';
+    return {iss,o,last,dv,cls,dtxt,sz:last.v};
+  }).sort((a,b)=>b.sz-a.sz);
+  document.getElementById('sm').innerHTML=tiles.map(t=>`<div class="smt">
+    <div class="nm">${esc(t.iss)}</div>
+    <div class="ms">${t.o.meas.replace('_gw','').replace('_',' ')} · ${esc(t.last.p)}</div>
+    <div class="vv"><span class="big">${t.last.v}</span><span class="dl ${t.cls}">${t.dtxt}</span></div>
+    ${spark(t.o.pts,120,26)}</div>`).join('');
+  const per={};
+  MET.data.filter(m=>m.issuer==='Dominion'&&m.value!=null).forEach(m=>{
+    (per[m.period]=per[m.period]||{})[m.measure]=m.value;});
+  const keys=Object.keys(per).sort();
+  const mx=Math.max(...keys.map(k=>(per[k].seloa_gw||0)+(per[k].cloa_gw||0)+(per[k].esa_gw||0)));
+  document.getElementById('ladder').innerHTML=keys.map(k=>{
+    const p=per[k],tot=(p.seloa_gw||0)+(p.cloa_gw||0)+(p.esa_gw||0);
+    const seg=(v,c,l)=>v?`<div class="lseg ${c}" style="flex:${v}">${v>=4?l+' '+v:''}</div>`:'';
+    return `<div class="ladder"><div class="lp">${esc(k)}</div>
+      <div class="lbar" style="width:${(tot/mx*100).toFixed(1)}%">
+      ${seg(p.seloa_gw,'s1','SELOA')}${seg(p.cloa_gw,'s2','CLOA')}${seg(p.esa_gw,'s3','ESA')}</div></div>`;
+  }).join('')+`<div style="display:flex;gap:1rem;font-family:var(--mono);font-size:.66rem;color:var(--ink-3);margin-top:.6rem;padding-top:.6rem;border-top:1px solid var(--rule);flex-wrap:wrap">
+    <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#B5D4F4;margin-right:4px"></i>SELOA engineering</span>
+    <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#378ADD;margin-right:4px"></i>CLOA construction</span>
+    <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#185FA5;margin-right:4px"></i>ESA signed</span></div>`;
+}
+
+/* ---------- tariff matrix ---------- */
+function tariffs(){
+  if(!TAR)return;
+  const nul='<span class="nul">—</span>';
+  document.getElementById('tmb').innerHTML=TAR.data.map(t=>{
+    const term=t.term_years?(t.term_years+' yr'+(t.ramp_years?' +'+t.ramp_years+' ramp':'')):nul;
+    return `<tr>
+      <td><b>${esc(t.utility)}</b><br><span class="eid">${esc(t.jurisdiction)}</span></td>
+      <td>${esc(t.tariff)}${t.docket?`<br><span class="eid">${esc(t.docket)}</span>`:''}</td>
+      <td class="num">${t.threshold_mw?t.threshold_mw+' MW'+(t.load_factor_pct?`<br><span class="eid">${t.load_factor_pct}% LF</span>`:''):nul}</td>
+      <td class="num">${term}</td>
+      <td class="num">${t.min_take_pct?t.min_take_pct+'%':nul}</td>
+      <td class="num">${t.notice_months?t.notice_months+' mo':nul}</td>
+      <td>${t.collateral?esc(t.collateral):nul}</td>
+      <td>${esc(t.status)}<br><span class="pill ${CP[t.conf]}">${esc(t.conf)}</span></td></tr>`;
+  }).join('');
+  document.getElementById('tm-note').innerHTML=
+    `<b>A dash means the term was not stated in what was read, never that it does not exist.</b> ${esc(TAR.convergence_note)}`;
+}
+
+/* ---------- lever heatmap, derived from the events ---------- */
+function heatmap(){
+  const cell={},jt={};
+  EV.forEach(e=>{[...new Set(e.ents.map(t=>t[1]))].forEach(j=>{
+    jt[j]=(jt[j]||0)+1;
+    e.levers.forEach(l=>{cell[j+'|'+l]=(cell[j+'|'+l]||0)+1;});});});
+  const js=Object.keys(jt).sort((a,b)=>jt[b]-jt[a]);
+  const mx=Math.max(...Object.values(cell));
+  const step=v=>v===0?'var(--h0)':v<=mx*.12?'var(--h1)':v<=mx*.28?'var(--h2)':v<=mx*.5?'var(--h3)':v<=mx*.75?'var(--h4)':'var(--h5)';
+  const ink=v=>v>mx*.5?'#fff':'var(--hd)';
+  document.getElementById('hmh').innerHTML='<th style="width:52px">Juris</th>'+
+    LEVORDER.map(l=>`<th>${LEVSHORT[l]}</th>`).join('')+'<th style="width:40px">All</th>';
+  document.getElementById('hmb').innerHTML=js.map(j=>{
+    const tds=LEVORDER.map(l=>{const v=cell[j+'|'+l]||0;
+      return `<td style="background:${step(v)};color:${v?ink(v):'var(--ink-3)'};cursor:pointer" data-j="${j}" data-l="${esc(l)}">${v||''}</td>`;}).join('');
+    return `<tr><td class="j">${j}</td>${tds}<td class="t">${jt[j]}</td></tr>`;}).join('');
+}
+document.getElementById('hmb').onclick=e=>{
+  const td=e.target.closest('td[data-j]'); if(!td)return;
+  Object.values(F).forEach(s=>s.clear());
+  F.jur.add(td.dataset.j); F.lev.add(td.dataset.l);
+  syncChips(); render();
+  document.getElementById('s-console').scrollIntoView({behavior:'smooth'});
+};
+
+/* ---------- facets + table ---------- */
+function tally(get){const m=new Map();EV.forEach(e=>get(e).forEach(v=>m.set(v,(m.get(v)||0)+1)));
+  return [...m.entries()].sort((a,b)=>b[1]-a[1]||String(a[0]).localeCompare(String(b[0])));}
+function chips(id,key,pairs){
+  const el=document.getElementById(id);
+  el.innerHTML=pairs.map(([v,n])=>`<button class="chip" type="button" data-k="${key}" data-v="${esc(v)}" aria-pressed="false">${esc(v)}<span class="n">${n}</span></button>`).join('');
+  el.onclick=e=>{const b=e.target.closest('.chip');if(!b)return;const v=b.dataset.v;
+    F[key].has(v)?F[key].delete(v):F[key].add(v);syncChips();render();};
+}
+function syncChips(){document.querySelectorAll('.chip[data-k]').forEach(c=>
+  c.setAttribute('aria-pressed',F[c.dataset.k].has(c.dataset.v)?'true':'false'));}
+function match(e){
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  if(q){const hay=(e.headline+' '+e.takeaway+' '+e.document+' '+e.subject+' '+e.id+' '+
+    e.ents.map(t=>t[0]+' '+t[1]).join(' ')+' '+(e.status||'')+' '+(e.nm||'')).toLowerCase();
+    if(!hay.includes(q))return false;}
+  if(F.mat.size&&!F.mat.has(e.mat))return false;
+  if(F.sub.size&&!F.sub.has(e.subject))return false;
+  if(F.ins.size&&!F.ins.has(e.instrument))return false;
+  if(F.con.size&&!F.con.has(e.conf))return false;
+  if(F.jur.size&&!e.ents.some(t=>F.jur.has(t[1])))return false;
+  if(F.ent.size&&!e.ents.some(t=>F.ent.has(t[0])))return false;
+  if(F.lev.size&&![...F.lev].some(l=>e.levers.includes(l)))return false;
+  return true;
+}
+let LAST=[];
+function render(){
+  const list=EV.filter(match).sort((a,b)=>{
+    if(sortK==='mat'){const o={"High / near-term":0,"Medium / long-term":1};return (o[a.mat]-o[b.mat])*sortD;}
+    const gv=r=>sortK==='_ent'?r.ents.map(t=>t[0]).join(','):(r[sortK]||'');
+    const x=gv(a).toString().toLowerCase(),y=gv(b).toString().toLowerCase();
+    return x<y?-1*sortD:x>y?1*sortD:(a.id<b.id?1:-1);});
+  LAST=list;
+  const tb=document.getElementById('tb');
+  tb.innerHTML=!list.length?`<tr><td colspan="8"><div class="empty">No events match these filters.</div></td></tr>`:
+   list.map(e=>{
+    const det=open.has(e.id)?`<tr class="det"><td colspan="8">
+      <p class="sw-txt">${esc(e.takeaway)}</p>
+      <div class="det-g">
+        <div><span class="det-k">Document</span><span class="det-v">${esc(e.document)}</span></div>
+        <div><span class="det-k">Venue</span><span class="det-v">${esc(e.venue)}</span></div>
+        <div><span class="det-k">Status</span><span class="det-v">${esc(e.status)}</span></div>
+        <div><span class="det-k">Next milestone</span><span class="det-v">${esc(e.nm||'—')}${e.nd?' · '+e.nd:''}</span></div>
+        <div><span class="det-k">Under appeal</span><span class="det-v">${esc(e.appeal)}</span></div>
+        <div><span class="det-k">Superseded</span><span class="det-v">${esc(e.sup)}</span></div>
+        <div><span class="det-k">Entity rows</span><span class="det-v">${e.ents.map(t=>esc(t[0]+' · '+t[1])).join('<br>')}</span></div>
+        <div><span class="det-k">Levers</span><span class="det-v">${e.levers.length?e.levers.map(l=>`<span class="pill lv">${esc(l)}</span>`).join(''):'—'}</span></div>
+      </div>
+      <a href="${esc(e.url)}" target="_blank" rel="noopener">Open source document →</a></td></tr>`:'';
+    return `<tr class="r${e.sup==='Yes'?' sup':''}" id="row-${e.id}" data-id="${e.id}">
+      <td class="dt">${e.date}</td>
+      <td class="eid">${e.id.replace('E-20260918-','B-')}${e.ents.length>1?`<span class="pill flag">×${e.ents.length}</span>`:''}</td>
+      <td><div class="ent">${e.ents.map(t=>`<span class="pill e-pill">${esc(t[0])} · ${esc(t[1])}</span>`).join('')}</div></td>
+      <td>${esc(e.subject)}</td><td>${esc(e.instrument)}</td>
+      <td class="hl">${esc(e.headline)}${e.appeal==='Yes'?'<span class="pill flag">appeal</span>':''}${e.sup==='Yes'?'<span class="pill flag">superseded</span>':''}</td>
+      <td><span class="pill ${MP[e.mat]}">${e.mat.split(' / ')[0]}</span></td>
+      <td><span class="pill ${CP[e.conf]}">${esc(e.conf)}</span></td></tr>${det}`;}).join('');
+  const sr=list.reduce((a,e)=>a+e.ents.length,0);
+  document.getElementById('cnt').textContent=`${list.length} of ${EV.length} events · ${sr} of ${NROWS} entity rows`;
+  document.querySelectorAll('.main th').forEach(t=>t.classList.toggle('on',t.dataset.k===sortK));
+}
+function goTo(id){
+  open.add(id); render();
+  const el=document.getElementById('row-'+id);
+  if(el){el.scrollIntoView({behavior:'smooth',block:'center'});
+    document.querySelectorAll('tr.hit').forEach(r=>r.classList.remove('hit'));
+    el.classList.add('hit');}
+}
+document.addEventListener('click',e=>{
+  const g=e.target.closest('[data-go]'); if(g){goTo(g.dataset.go);}
+});
+document.getElementById('tb').onclick=e=>{
+  const tr=e.target.closest('tr.r'); if(!tr||e.target.tagName==='A')return;
+  const id=tr.dataset.id; open.has(id)?open.delete(id):open.add(id); render();};
+document.querySelectorAll('.main th').forEach(t=>t.onclick=()=>{
+  const k=t.dataset.k;
+  if(sortK===k)sortD*=-1; else{sortK=k;sortD=(k==='date'||k==='mat')?-1:1;}
+  render();});
+document.getElementById('q').oninput=render;
+document.getElementById('clr').onclick=()=>{
+  Object.values(F).forEach(s=>s.clear());syncChips();
+  document.getElementById('q').value='';render();};
+document.getElementById('tl-all').onclick=()=>{tlAll=!tlAll;timeline();};
+document.querySelectorAll('[data-exp]').forEach(b=>b.onclick=()=>{
+  const el=document.getElementById(b.dataset.exp);
+  b.textContent=el.classList.toggle('collapsed')?'show all':'show fewer';});
+function buildCSV(){
+  const H=["Date","Event ID","Utility","Jurisdiction","Subject","Venue","Instrument","Document",
+    "Headline","Takeaway","Status","Next Milestone","Next Date","Materiality","Confidence",
+    "Appeal","Superseded",...LEVORDER,"Source URL"];
+  const q=s=>'"'+String(s==null?'':s).replace(/"/g,'""')+'"';
+  const lines=[H.map(q).join(',')];
+  LAST.forEach(e=>e.ents.forEach(t=>lines.push([e.date,e.id,t[0],t[1],e.subject,e.venue,e.instrument,
+    e.document,e.headline,e.takeaway,e.status,e.nm,e.nd,e.mat,e.conf,e.appeal,e.sup,
+    ...LEVORDER.map(l=>e.levers.includes(l)?1:''),e.url].map(q).join(',')));
+  return lines.join('\n');
+}
+/* The viewer only ever receives a file through the downloads capability —
+   a blob href silently does nothing here. Hide the button unless it resolves. */
+(async()=>{
+  let dl=null;
+  try{ dl = window.claude && claude.use ? await claude.use("downloads") : null; }catch(_){ dl=null; }
+  const btn=document.getElementById('csv');
+  if(!dl||!btn)return;
+  btn.hidden=false;
+  btn.onclick=async()=>{
+    const was=btn.textContent; btn.textContent='Saving…'; btn.disabled=true;
+    try{
+      await dl.save({filename:'grid_docket_filtered.csv', data:buildCSV()});
+      btn.textContent='Saved';
+    }catch(err){
+      btn.textContent = err && err.code==='cancelled' ? was : 'Save failed';
+    }finally{
+      btn.disabled=false;
+      setTimeout(()=>{btn.textContent=was;},2200);
+    }
+  };
+})();
+
+function statusBox(st){
+  const box=document.getElementById('st-box');
+  if(!st){document.getElementById('st-lbl').textContent='No status published with this data.';return;}
+  box.classList.remove('green','red');
+  if(st.level==='green'||st.level==='red')box.classList.add(st.level);
+  document.getElementById('st-note').textContent=st.level||'';
+  document.getElementById('st-lbl').textContent=st.label||'';
+  document.getElementById('st-list').innerHTML=(st.items||[]).map(i=>`<li><b>${esc(i.b||'')}</b> ${esc(i.t||'')}</li>`).join('');
+}
+/* Workbook and narrative are offered through the downloads capability; a plain link would be inert here. */
+async function downloads(files){
+  let dl=null;
+  try{ dl = window.claude && claude.use ? await claude.use("downloads") : null; }catch(_){ dl=null; }
+  if(!dl||!files)return;
+  const row=document.getElementById('dlrow'), msg=document.getElementById('dlmsg');
+  const wire=(id,f)=>{
+    const b=document.getElementById(id); if(!f){b.hidden=true;return;}
+    b.hidden=false;
+    b.onclick=async()=>{
+      msg.textContent='Preparing '+f.name+'…'; b.disabled=true;
+      try{
+        const blob=await fetch(f.path).then(r=>{if(!r.ok)throw new Error('not found');return r.blob();});
+        await dl.save({filename:f.name, data:blob});
+        msg.textContent='Saved '+f.name;
+      }catch(err){
+        msg.textContent = err && err.code==='declined' ? '' : 'Could not save '+f.name+(err&&err.message?' ('+err.message+')':'');
+      }finally{b.disabled=false;}
+    };
+  };
+  wire('dl-xlsx',files.xlsx); wire('dl-docx',files.docx);
+  row.hidden=!(files.xlsx||files.docx);
+}
+
+Promise.all([
+  fetch('data.json').then(r=>r.json()),
+  fetch('metrics.json').then(r=>r.json()).catch(()=>null),
+  fetch('tariff_terms.json').then(r=>r.json()).catch(()=>null),
+  fetch('status.json').then(r=>r.json()).catch(()=>null)
+]).then(([d,m,t,st])=>{
+  EV=d.data;NROWS=d.rows;MET=m;TAR=t;
+  if(d.asof)TODAY=d.asof;
+  const p=TODAY.split('-');document.getElementById('hdrdate').textContent=(+p[2])+' '+['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'][+p[1]-1]+' '+p[0];
+  statusBox(st);downloads(d.files);
+  document.getElementById('hdrcount').textContent=`${d.events} EVENTS · ${d.rows} ROWS`;
+  chips('f-mat','mat',tally(e=>[e.mat]));
+  chips('f-sub','sub',tally(e=>[e.subject]));
+  chips('f-jur','jur',tally(e=>[...new Set(e.ents.map(x=>x[1]))]));
+  chips('f-ent','ent',tally(e=>[...new Set(e.ents.map(x=>x[0]))]));
+  chips('f-ins','ins',tally(e=>[e.instrument]));
+  const lt=tally(e=>e.levers);lt.sort((a,b)=>LEVORDER.indexOf(a[0])-LEVORDER.indexOf(b[0]));
+  chips('f-lev','lev',lt);
+  chips('f-con','con',tally(e=>[e.conf]));
+  const ver=EV.filter(e=>e.conf==='Verified').length;
+  const np=MET?MET.data.filter(x=>x.value!=null).length:0;
+  document.getElementById('foot').innerHTML=
+    `${d.events} events · ${d.rows} entity rows · 33 entities · 18 jurisdictions · ${ver} verified at source<br>`+
+    `${np} structured metric points · ${TAR?TAR.data.length:0} tariffs · ${milestones().length} dated forward milestones — all four views above are computed from these files, not hand-maintained.<br>`+
+    `Data through ${fmtD(TODAY)} ${TODAY.slice(0,4)}. Baseline loaded 18 September 2026, covering 7 November 2025 onward; later events carry their discovery date in the Event ID. Event IDs shown as B-nnn are baseline, not observed in flight. Faded rows are superseded and retained for audit. Schema 3.5.`;
+  timeline();conversion();tariffs();heatmap();render();
+}).catch(e=>{
+  document.getElementById('tb').innerHTML=
+    `<tr><td colspan="8"><div class="empty">Could not load the dataset.<br><small>${esc(e.message)}</small></div></td></tr>`;});
+</script>

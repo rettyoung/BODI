@@ -1,0 +1,427 @@
+{
+ "schema": "grid-docket-metrics-v1",
+ "generated": "2026-09-18",
+ "_doc": "Quantitative series extracted from primary disclosure. ONE ROW PER (issuer, period, measure). This table exists because these figures previously lived only inside prose in the Headline and Takeaway columns, which meant the conversion chart had to be hand-maintained and went stale. Every point carries the event it came from and the confidence of that reading. NEVER add a derived or interpolated point: if a deck does not state a figure, it does not belong here. A missing quarter is information.",
+ "period_convention": "Calendar quarter of the reporting period, not the publication date. 'as_of' is the date the issuer stated the figure applies to, where the deck gives one.",
+ "measures": {
+  "esa_gw": "Capacity under an executed energy service agreement, or the issuer's nearest equivalent to a signed contract.",
+  "contracted_gw": "Issuer's own 'contracted' or 'signed' aggregate where it does not map cleanly to esa_gw.",
+  "cloa_gw": "Dominion only. Construction letter of authorisation — customer reimburses all spent costs if it walks.",
+  "seloa_gw": "Dominion only. Substation engineering letter of authorisation — the earliest stage.",
+  "late_stage_gw": "Advanced or late-stage pipeline short of a signed agreement.",
+  "prospective_gw": "Total prospective or opportunity pipeline, widest definition the issuer publishes.",
+  "construction_agreement_gw": "Construction agreements with developers. Read the note — for Ameren this is INCLUSIVE of executed ESAs.",
+  "committed_gw": "APS only. Committed load.",
+  "queue_gw": "Interconnection or load queue volume.",
+  "under_construction_gw": "Capacity physically under construction."
+ },
+ "WARNING_not_comparable": "Definitions differ by issuer and are NOT like-for-like. Dominion is the only issuer publishing all three stages on a consistent basis. Exelon changed methodology at Q2 2026 and its figures are not comparable to earlier ones. Entergy never states an absolute signed figure at all and is therefore absent from the esa_gw series.",
+ "data": [
+  {
+   "issuer": "AEP",
+   "period": "2025Q4",
+   "measure": "contracted_gw",
+   "value": 56,
+   "conf": "Verified",
+   "event": "E-20260918-034"
+  },
+  {
+   "issuer": "AEP",
+   "period": "2026Q1",
+   "measure": "contracted_gw",
+   "value": 63,
+   "conf": "Verified",
+   "event": "E-20260918-021"
+  },
+  {
+   "issuer": "AEP",
+   "period": "2026Q2",
+   "measure": "contracted_gw",
+   "value": 69,
+   "conf": "Verified",
+   "event": "E-20260918-011"
+  },
+  {
+   "issuer": "Duke",
+   "period": "2025Q4",
+   "measure": "esa_gw",
+   "value": 4.5,
+   "conf": "Verified",
+   "event": "E-20260918-132",
+   "note": "Read at source. The LEVEL was already correct in the baseline; what was wrong was the Q1 2026 step, stated elsewhere as +2.7 GW, which implied a 4.9 GW base here. Against 4.5 the real step is +3.1 GW. Deck states NO late-stage figure."
+  },
+  {
+   "issuer": "Duke",
+   "period": "2026Q1",
+   "measure": "esa_gw",
+   "value": 7.6,
+   "conf": "Verified",
+   "event": "E-20260918-023"
+  },
+  {
+   "issuer": "Duke",
+   "period": "2026Q2",
+   "measure": "esa_gw",
+   "value": 7.8,
+   "conf": "Verified",
+   "event": "E-20260918-005"
+  },
+  {
+   "issuer": "Duke",
+   "period": "2026Q2",
+   "measure": "late_stage_gw",
+   "value": 15.4,
+   "conf": "Verified",
+   "event": "E-20260918-005"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2023Q3",
+   "measure": "seloa_gw",
+   "value": 8.7,
+   "conf": "Verified",
+   "event": "E-20260918-133",
+   "as_of": "2023-07-31"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2023Q3",
+   "measure": "cloa_gw",
+   "value": 2.0,
+   "conf": "Verified",
+   "event": "E-20260918-133",
+   "as_of": "2023-07-31"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2023Q3",
+   "measure": "esa_gw",
+   "value": 5.8,
+   "conf": "Verified",
+   "event": "E-20260918-133",
+   "as_of": "2023-07-31"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2025Q3",
+   "measure": "seloa_gw",
+   "value": 28.2,
+   "conf": "Verified",
+   "event": "E-20260918-133",
+   "as_of": "2025-09-30"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2025Q3",
+   "measure": "cloa_gw",
+   "value": 9.0,
+   "conf": "Verified",
+   "event": "E-20260918-133",
+   "as_of": "2025-09-30"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2025Q3",
+   "measure": "esa_gw",
+   "value": 9.8,
+   "conf": "Verified",
+   "event": "E-20260918-133",
+   "as_of": "2025-09-30"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2025Q4",
+   "measure": "seloa_gw",
+   "value": 27.4,
+   "conf": "Verified",
+   "event": "E-20260918-133",
+   "as_of": "2025-12-31"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2025Q4",
+   "measure": "cloa_gw",
+   "value": 11.0,
+   "conf": "Verified",
+   "event": "E-20260918-133",
+   "as_of": "2025-12-31"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2025Q4",
+   "measure": "esa_gw",
+   "value": 10.2,
+   "conf": "Verified",
+   "event": "E-20260918-133",
+   "as_of": "2025-12-31"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2026Q1",
+   "measure": "seloa_gw",
+   "value": 29.5,
+   "conf": "Verified",
+   "event": "E-20260918-134",
+   "as_of": "2026-03-31"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2026Q1",
+   "measure": "cloa_gw",
+   "value": 11.1,
+   "conf": "Verified",
+   "event": "E-20260918-134",
+   "as_of": "2026-03-31"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2026Q1",
+   "measure": "esa_gw",
+   "value": 10.4,
+   "conf": "Verified",
+   "event": "E-20260918-134",
+   "as_of": "2026-03-31"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2026Q2",
+   "measure": "seloa_gw",
+   "value": 32.4,
+   "conf": "Verified",
+   "event": "E-20260918-010",
+   "as_of": "2026-07-31"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2026Q2",
+   "measure": "cloa_gw",
+   "value": 9.4,
+   "conf": "Verified",
+   "event": "E-20260918-010",
+   "as_of": "2026-07-31"
+  },
+  {
+   "issuer": "Dominion",
+   "period": "2026Q2",
+   "measure": "esa_gw",
+   "value": 12.0,
+   "conf": "Verified",
+   "event": "E-20260918-010",
+   "as_of": "2026-07-31"
+  },
+  {
+   "issuer": "Ameren",
+   "period": "2025Q4",
+   "measure": "esa_gw",
+   "value": 2.2,
+   "conf": "Verified",
+   "event": "E-20260918-135",
+   "note": "Executed February 2026, reported on the Q4 2025 call."
+  },
+  {
+   "issuer": "Ameren",
+   "period": "2025Q4",
+   "measure": "construction_agreement_gw",
+   "value": 3.4,
+   "conf": "Verified",
+   "event": "E-20260918-135",
+   "note": "Missouri total, INCLUSIVE of executed ESAs. The without-ESA figure is NOT stated and must never be derived as the residual."
+  },
+  {
+   "issuer": "Ameren",
+   "period": "2026Q1",
+   "measure": "esa_gw",
+   "value": 2.2,
+   "conf": "Verified",
+   "event": "E-20260918-136",
+   "note": "Flat quarter. Zero net conversion."
+  },
+  {
+   "issuer": "Ameren",
+   "period": "2026Q1",
+   "measure": "construction_agreement_gw",
+   "value": 3.4,
+   "conf": "Verified",
+   "event": "E-20260918-136"
+  },
+  {
+   "issuer": "Ameren",
+   "period": "2026Q2",
+   "measure": "esa_gw",
+   "value": 2.8,
+   "conf": "Verified",
+   "event": "E-20260918-008"
+  },
+  {
+   "issuer": "PPL",
+   "period": "2025Q3",
+   "measure": "late_stage_gw",
+   "value": 20.5,
+   "conf": "Verified",
+   "event": "E-20260918-031"
+  },
+  {
+   "issuer": "PPL",
+   "period": "2025Q4",
+   "measure": "late_stage_gw",
+   "value": 25.2,
+   "conf": "Verified",
+   "event": "E-20260918-031"
+  },
+  {
+   "issuer": "PPL",
+   "period": "2026Q1",
+   "measure": "late_stage_gw",
+   "value": 28.3,
+   "conf": "Verified",
+   "event": "E-20260918-018"
+  },
+  {
+   "issuer": "PPL",
+   "period": "2026Q2",
+   "measure": "late_stage_gw",
+   "value": 31.8,
+   "conf": "Verified",
+   "event": "E-20260918-002"
+  },
+  {
+   "issuer": "PPL",
+   "period": "2026Q2",
+   "measure": "esa_gw",
+   "value": 11.0,
+   "conf": "Verified",
+   "event": "E-20260918-002",
+   "note": "Stated as 'over 11 GW'."
+  },
+  {
+   "issuer": "PPL",
+   "period": "2026Q2",
+   "measure": "under_construction_gw",
+   "value": 6.5,
+   "conf": "Verified",
+   "event": "E-20260918-002",
+   "note": "Stated as 'over 6.5 GW'."
+  },
+  {
+   "issuer": "Southern",
+   "period": "2026Q2",
+   "measure": "contracted_gw",
+   "value": 17,
+   "conf": "Verified",
+   "event": "E-20260918-012",
+   "note": "31 projects; Georgia Power holds 12.5 GW; 27 of 31 have broken ground."
+  },
+  {
+   "issuer": "Southern",
+   "period": "2026Q2",
+   "measure": "prospective_gw",
+   "value": 75,
+   "conf": "Verified",
+   "event": "E-20260918-012",
+   "note": "Stated as '75+ GW'."
+  },
+  {
+   "issuer": "Exelon",
+   "period": "2026Q2",
+   "measure": "contracted_gw",
+   "value": 11,
+   "conf": "Verified",
+   "event": "E-20260918-014",
+   "note": "Advanced or TSA-backed, ~$1bn collateral. ComEd holds ~9 GW. METHODOLOGY CHANGED this quarter — not comparable to the prior ~18-19 GW single figure."
+  },
+  {
+   "issuer": "APS",
+   "period": "2026Q2",
+   "measure": "committed_gw",
+   "value": 4.5,
+   "conf": "Verified",
+   "event": "E-20260918-007",
+   "note": "Flat across multiple quarters."
+  },
+  {
+   "issuer": "Oncor",
+   "period": "2026Q1",
+   "measure": "late_stage_gw",
+   "value": 38,
+   "conf": "Verified",
+   "event": "E-20260918-028",
+   "note": "RTP-qualifying."
+  },
+  {
+   "issuer": "Oncor",
+   "period": "2026Q1",
+   "measure": "queue_gw",
+   "value": 226,
+   "conf": "Verified",
+   "event": "E-20260918-028"
+  },
+  {
+   "issuer": "Entergy",
+   "period": "2026Q2",
+   "measure": "prospective_gw",
+   "value": 17,
+   "conf": "Verified",
+   "event": "E-20260918-137",
+   "note": "Top of a 10-17 GW range ABOVE base case, of which 7-12 GW is data centres. Entergy states NO absolute signed-ESA figure in any period — only an ESA backlog up ~85% since the 2024 Investor Day. Do not infer one."
+  },
+  {
+   "issuer": "Evergy",
+   "period": "2026Q1",
+   "measure": "late_stage_gw",
+   "value": 1.5,
+   "conf": "Verified",
+   "event": "E-20260918-019",
+   "note": "Top of a stated 1.0-1.5 GW Tier 1 expansion range."
+  },
+  {
+   "issuer": "Evergy",
+   "period": "2026Q2",
+   "measure": "late_stage_gw",
+   "value": 2.5,
+   "conf": "Verified",
+   "event": "E-20260918-003",
+   "note": "Top of a stated 2.0-2.5 GW Tier 1 expansion range."
+  },
+  {
+   "issuer": "Duke",
+   "period": "2025Q3",
+   "measure": "esa_gw",
+   "value": null,
+   "conf": null,
+   "event": "E-20260918-132",
+   "note": "Deck states a +1.5 GW change into Q4, implying 3.0 GW. DERIVED, not read — held null deliberately."
+  }
+ ],
+ "known_absent": [
+  {
+   "issuer": "Duke",
+   "period": "2025Q4",
+   "measure": "late_stage_gw",
+   "why": "Deck gives qualitative pipeline language only. Do not carry back the Q2 2026 figure of 15.4."
+  },
+  {
+   "issuer": "Duke",
+   "period": "2025Q3",
+   "measure": "esa_gw",
+   "why": "The Q4 deck states a +1.5 GW change, which implies 3.0. That is DERIVED, not read, and is therefore excluded."
+  },
+  {
+   "issuer": "Ameren",
+   "period": "any",
+   "measure": "construction_agreement_without_esa_gw",
+   "why": "Never stated. The 3.4 GW total is inclusive. The 1.2 GW residual is arithmetic, not disclosure."
+  },
+  {
+   "issuer": "Entergy",
+   "period": "any",
+   "measure": "esa_gw",
+   "why": "Never stated in absolute terms in any period."
+  },
+  {
+   "issuer": "TXNM / PNM",
+   "period": "any",
+   "measure": "any",
+   "why": "No investor materials published since 2025-05-19 pending the Blackstone acquisition."
+  }
+ ]
+}
