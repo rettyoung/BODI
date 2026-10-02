@@ -1,0 +1,29 @@
+{
+ "id": "grda_board",
+ "url": "https://www.grda.com/leadership/board-meeting-agenda-minutes/",
+ "at": "2026-10-02T22:51:10Z",
+ "result": "error",
+ "error": "TimeoutError('Page.goto: Timeout 60000ms exceeded.\\nCall log:\\n  - navigating to \"https://www.grda.com/leadership/board-meeting-agenda-minutes/\", waiting until \"networkidle\"\\n')",
+ "xhr": [
+  {
+   "method": "POST",
+   "url": "https://www.facebook.com/platform/plugin/page/logging/",
+   "status": 200,
+   "ctype": "application/x-javascript; charset=utf-8",
+   "req_headers": {
+    "content-type": "application/x-www-form-urlencoded"
+   },
+   "post_data": "event_name=page_plugin.tab.configured&page_id=122342551147207&tab=timeline&data[refererURL]=https%3A%2F%2Fgrda.com%2F&data[embed_request_path]=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpage.php%3Fhref%3Dhttps%253A%252F%252Fwww.facebook.com%252Fgrandriverdamauthority%252F%26tabs%3Dtimeline%26width%3D340%26height%3D500%26small_header%3Dtrue%26adapt_container_width%3Dtrue%26hide_cover%3Dtrue%26show_facepile%3Dfalse%26appId%3D471904396351989&__user=0&__a=1&__req=2&__hs=20728.BP%3Aplugin_default_pkg.2.0...0&dpr=1&__ccg=EXCELLENT&__rev=1049155021&__s=%3A%3Atghs24&__hsi=7692206846746102829&__dyn=7wKxa13wt8K2Wmh0Sw8W5U4e1Fx-ewpU3WwvE3vx609vCwjE0AC1xwEw7Bx61vw5zw78w5Uw64w8W1uw2oE17U2ZwrU1Xo1UU1JE&lsd=TTYOX38A1P8aC63DxsBuTm&jazoest=21729&__sp=1",
+   "body": ""
+  },
+  {
+   "method": "GET",
+   "url": "https://rum-collector-2.pingdom.net/img/beacon.gif?id=65fdb5eedaab420012000872&sAW=1280&sAH=720&bIW=1280&bIH=720&pD=24&dPR=1&or=landscape-primary&nT=0&rC=0&nS=0&cS=95&cE=103&dLE=95&dLS=93&fS=93&hS=96&rE=-1&rS=-1&reS=103&resS=126&resE=128&uEE=-1&uES=-1&dL=132&dI=765&dCLES=771&dCLEE=807&dC=1131&lES=1131&lEE=1133&s=nt&title=Board%20Meeting%20%2F%20Agenda%20Minutes%20-%20GRDA&path=https%3A%2F%2Fgrda.com%2Fleadership%2Fboard-meeting-agenda-minutes%2F&ref=&sId=79yb8ler&sST=1790981472&sIS=1&rV=0&v=1.4.",
+   "status": 200,
+   "ctype": "",
+   "req_headers": {},
+   "post_data": "",
+   "body": ""
+  }
+ ]
+}

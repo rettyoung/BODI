@@ -1,0 +1,91 @@
+{
+ "id": "ok_weblink",
+ "url": "https://public.occ.ok.gov/WebLink/",
+ "at": "2026-10-02T22:50:51Z",
+ "status": 200,
+ "blocked": null,
+ "final_url": "https://public.occ.ok.gov/WebLink/Welcome.aspx?dbid=0&repo=OCC&cr=1",
+ "title": "Welcome to Laserfiche WebLink",
+ "text_excerpt": "|Help|About|Sign Out Welcome to the Corporation Commission Public Portal Welcome to the Corporation Commission Public Portal Imaged Case Documents filed after 3/21/2022 Imaged Case Documents filed prior to 3/21/2022 All Imaged MCC Case Documents PUD Tariffs Search Transportation Document Search Transportation Archive Document Search Corporation Commission Open Meeting Act Exempt Event Compliance Forms Powered by Laserfiche",
+ "links": [
+  [
+   "javascript:void(0)",
+   "Help"
+  ],
+  [
+   "javascript:void(0)",
+   "About"
+  ],
+  [
+   "javascript:void(0)",
+   "Sign Out"
+  ],
+  [
+   "https://public.occ.ok.gov/WebLink/CustomSearch.aspx?SearchName=ImagedCaseDocumentsfiledafter3212022&dbid=0&repo=OCC",
+   "Imaged Case Documents filed after 3/21/2022"
+  ],
+  [
+   "https://public.occ.ok.gov/WebLink/CustomSearch.aspx?SearchName=ImagedCaseDocumentsfiledpriorto3212022&dbid=0&repo=OCC",
+   "Imaged Case Documents filed prior to 3/21/2022"
+  ],
+  [
+   "https://public.occ.ok.gov/WebLink/CustomSearch.aspx?SearchName=AllImagedMCCCaseDocuments&dbid=0&repo=OCC",
+   "All Imaged MCC Case Documents"
+  ],
+  [
+   "https://public.occ.ok.gov/WebLink/CustomSearch.aspx?SearchName=PUDTariffsSearchForm&dbid=0&repo=OCC",
+   "PUD Tariffs Search"
+  ],
+  [
+   "https://public.occ.ok.gov/WebLink/CustomSearch.aspx?SearchName=Transportation&dbid=0&repo=OCC",
+   "Transportation Document Search"
+  ],
+  [
+   "https://public.occ.ok.gov/WebLink/CustomSearch.aspx?SearchName=TransportationArchiveDocumentSearch&dbid=0&repo=OCC",
+   "Transportation Archive Document Search"
+  ],
+  [
+   "https://public.occ.ok.gov/WebLink/CustomSearch.aspx?SearchName=CorporationCommissionOpenMeetingActExemptEventComplianceForms&dbid=0&repo=OCC",
+   "Corporation Commission Open Meeting Act Exempt Event Compliance Forms"
+  ]
+ ],
+ "result": "ok",
+ "xhr": [
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/SharedService.aspx/GetWelcomePageInfo",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json"
+   },
+   "post_data": "{\"repoName\":\"OCC\"}",
+   "body": "{\"data\":{\"title\":\"Welcome to the Corporation Commission Public Portal\",\"text\":\"Welcome to the Corporation Commission Public Portal\",\"hideSearchBox\":true,\"bookmarks\":[{\"bookmarkType\":\"SEARCH_FORM\",\"typeKey\":null,\"link\":\"ImagedCaseDocumentsfiledafter3212022\",\"display\":\"Imaged Case Documents filed after 3/21/2022\",\"text\":\"Imaged Case Documents filed after 3/21/2022\"},{\"bookmarkType\":\"SEARCH_FORM\",\"typeKey\":null,\"link\":\"ImagedCaseDocumentsfiledpriorto3212022\",\"display\":\"Imaged Case Documents filed prior to 3/21/2022\",\"text\":\"Imaged Case Documents filed prior to 3/21/2022\"},{\"bookmarkType\":\"SEARCH_FORM\",\"typeKey\":null,\"link\":\"AllImagedMCCCaseDocuments\",\"display\":\"All Imaged MCC Case Documents\",\"text\":\"All Imaged MCC Case Documents\"},{\"bookmarkType\":\"SEARCH_FORM\",\"typeKey\":null,\"link\":\"PUDTariffsSearchForm\",\"display\":\"PUD - Tariffs Search Form\",\"text\":\"PUD Tariffs Search \"},{\"bookmarkType\":\"SEARCH_FORM\",\"typeKey\":null,\"link\":\"Transportation\",\"display\":\"Transportation\",\"text\":\"Transportation Document Search\"},{\"bookmarkType\":\"SEARCH_FORM\",\"typeKey\":null,\"link\":\"TransportationArchiveDocumentSearch\",\"display\":\"Transportation Archive Document Search\",\"text\":\"Transportation Archive Document Search\"},{\"bookmarkType\":\"SEARCH_FORM\",\"typeKey\":null,\"link\":\"CorporationCommissionOpenMeetingActExemptEventComplianceForms\",\"display\":\"Corporation Commission Open Meeting Act Exempt Event Compliance Forms\",\"text\":\"Corporation Commission Open Meeting Act Exempt Event Compliance Forms\"}],\"searchOptions\":\"DFAN\",\"displaySearchResultsGrid\":false,\"logoSrc\":null,\"bannerSrc\":null}, \"__breach\": \"zTrJXmRITBh8X38O\"}"
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/SharedService.aspx/SetTimeZoneOffset",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json"
+   },
+   "post_data": "{\"repoName\":\"OCC\",\"timeZoneName\":\"UTC\",\"currentTimeZoneOffset\":0}",
+   "body": "{\"data\":true, \"__breach\": \"z99m3c052QOwb6Sqdi\"}"
+  },
+  {
+   "method": "POST",
+   "url": "https://public.occ.ok.gov/WebLink/JavascriptStrings.aspx/GetAllStrings",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json"
+   },
+   "post_data": "{}",
+   "body": "{\"data\":{\"ADVANCED\":\"Advanced\",\"BANNER_BACKGROUND\":\"Banner background\",\"BCC_PROMPT\":\"BCC\",\"BLANK\":\"Blank\",\"BROWSE_HELP_TARGET\":\"Help/Public Portal.htm#HTML/Browse_View.htm\",\"CANT_FIND_HANDLER\":\"Unable to find event handler\",\"CANT_GET_TYPE_FOR_TYPE_NAME_PROMPT_EXCEPTION\":\"Unable to make instance of type\",\"CANT_MAKE_OBJECT_FOR_PROMPT_EXCEPTION\":\"Unable to make control for the xml tag\",\"CC_PROMPT\":\"CC\",\"CHANGE\":\"Change\",\"COLOR\":\"Color\",\"COLUMN_TYPE_RELEVANCE_RANKING\":\"Relevance\",\"COMMA_SPACE_SEPARATOR\":\", \",\"CONFIGURE_COLUMN_DISPLAY\":\"Configure Column Display\",\"COPY_LINK\":\"Copy the link below to share this entry\",\"COULDNT_FIND_TEXT_OR_IMAGE_FORMATTER\":\"Couldn\\u0027t find text or image for page {0}\",\"CUSTOM_CSS_PROMPT\":\"Custom CSS\",\"CUSTOMIZATION\":\"Customization\",\"DATE_FORMAT\":\"MDY\",\"DATE_PICKER\":\"Date picker\",\"DATE_RANGE_AFTER_FORMAT\":\"after {0}\",\"DATE_RANGE_BEFORE_FORMAT\":\"before {0}\",\"DATE_RANGE_BETWEEN_FORMAT\":\"{0}-{1}\",\"DEFAULT_WELCOME_TEXT\":\"The gateway to our Laserfiche document center\",\"DEFAULT_WELCOME_TITLE\":\"Welcome to Laserfiche WebLink\",\"DEMONSTRATION_LICENSE\":\"Demonstration License\",\"DESERIALIZATION_ERROR\":\"The provided value was not in the expected format\",\"DISPLAY_ANNOTATIONS_PROMPT\":\"Display annotations:\",\"DOCVIEW_HELP_TARGET\":\"Help/WebLink.htm#HTML/Document_View.htm\",\"DOWNLOAD_SELECTED\":\"Download Selected Entries\",\"EDOC_CONTEXT_HIT_FORMAT\":\"{0} hits in the electronic document. Hits not shown.\",\"ERR_CONFIGURE_PUBLIC_USER\":\"You must provide the WebLink user access to the repository. For more information, see \\\"Configuring Access to Public Portal\\\" in the Help files.\",\"ERR_LOGIN_INVALID_OBJECT_NAME\":\"Invalid user name. WebLink is configured to prompt for repository credentials.\",\"ERROR_EMAIL_TOO_LARGE\":\"Error: Email too large\",\"ERROR_IMAGE_ACCESS\":\"access.gif\",\"ERROR_IMAGE_MISC\":\"miscError.gif\",\"ERROR_NOT_AN_EMAIL\":\"Error: Not an email\",\"ERROR_RETRIEVING_REPOSITORY_INFO\":\"Error retrieving information about repository \\u0027{0}\\u0027\",\"ERROR_THUMBNAIL\":\"thumbNotAvailable.gif\",\"FIT_HEIGHT\":\"Fit height\",\"FIT_WIDTH\":\"Fit width\",\"FIT_WINDOW\":\"Fit window\",\"FOLDER_FEED\":\"Folder feed\",\"FOLDER_PATH\":\"Folder path\",\"GO_TO\":\"Go to\",\"GRAYSCALE_INVERT\":\"Black \\u0026 white (inverted)\",\"GRAYSCALE_RECTANGLE\":\"Black \\u0026 white (rectangle)\",\"GRAYSCALE_SHADED\":\"Black \\u0026 white (shaded)\",\"GROUP_NUMBER\":\"Group {0}:\",\"HELP_TARGET_BROWSE\":\"Folder_Browser.htm\",\"HELP_TARGET_CUSTOMSEARCH\":\"Customized_Searches.htm\",\"HELP_TARGET_DOCVIEW\":\"Document_Viewer.htm\",\"HELP_TARGET_MOBILEDOCVIEW\":\"Viewing_WebLink_on_a_Mobile_Device.htm\",\"HELP_TARGET_MYWEBLINK\":\"Modifying_Your_Personal_Preferences.htm\",\"HELP_TARGET_SEARCH\":\"Search_Types.htm\",\"HELP_TARGET_WELCOME\":\"Welcome_Page.htm\",\"HIDE_CONTEXT_HITS\":\"Hide context hits\",\"INDEX_COOKIE_WARNING\":\"Cookies are not enabled for this website.  Cookies must be enabled in order to sign in to WebLink.\",\"INFORMATIONAL_TAG\":\"Informational tag\",\"INVALID_CONNECTION\":\"Invalid connection\",\"LEFT_PANE_BACKGROUND\":\"Left pane background\",\"LICENSE_EXPIRES_PROMPT\":\"License expires\",\"LINK_NUMBER_PROMPT\":\"Link number\",\"LOCAL_HELP_PATH\":\"./Help/EN/\",\"LOG_IN_TO_FORMATTER\":\"Log in to {0}\",\"LOGIN_BACKGROUND\":\"Login background\",\"LOGON_AS_DIFFERENT_USER\":\"Change User\",\"MAIN_LOGO\":\"Main logo\",\"MULTIPLE_ENTRIES\":\"Multiple entries selected\",\"MYWEBLINK_HELP_TARGET\":\"Help/WebLink.htm#HTML/Assigning_Columns_to_the_Browse_View.htm\",\"NO_ENTRY_SELECTED\":\"No entry selected.\",\"NO_ITEMS_CONTEXT_MENU\":\"No actions available for the selected entries\",\"NO_PAGE_ANNOTATIONS\":\"There are no annotations on this page.\",\"NO_PREVIEW\":\"No preview available\",\"OFF\":\"OFF\",\"ON\":\"ON\",\"PREVIEW\":\"Preview\",\"PUBLIC_PORTAL_UNSUPPORTED\":\"This repository does not support the Public Portal feature.\",\"READ_DOC_SHORTCUTS\":\"Press Alt + R to read the document text or Alt + P to download or print.\",\"REMOTE_HELP_PATH\":\"https://doc.laserfiche.com/WebLink/welcome.htm\",\"RESET_ZOOM\":\"Reset zoom\",\"RETURN_TO_FOLDER\":\"Return to folder\",\"SEARCH_BAR_PROMPT\":\"Search in WebLink\",\"SEAR"
+  }
+ ]
+}
