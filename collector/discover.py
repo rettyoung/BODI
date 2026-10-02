@@ -9,20 +9,16 @@ import json, os, re, sys, time
 from common import Http, UA, DATA, save_json, now_utc, looks_blocked
 
 TARGETS = [
-    {"id": "ferc_docketsheet", "url": "https://elibrary.ferc.gov/eLibrary/docketsheet?docket_number=EL25-49&sub_docket=All"},
-    {"id": "ferc_search", "url": "https://elibrary.ferc.gov/eLibrary/search", "search": "EL25-49", "hint": "docket"},
-    {"id": "az_edocket", "url": "https://edocket.azcc.gov/", "search": "E-01345A-25-0105", "hint": "docket"},
-    {"id": "nm_e360", "url": "https://e360.prc.nm.gov/", "search": "25-00079-UT", "hint": "docket|case"},
-    {"id": "la_portal", "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocketSearch", "search": "U-37882", "hint": "docket"},
-    {"id": "la_docaccess", "url": "https://lpsc.louisiana.gov/"},
-    {"id": "ga_docket", "url": "https://psc.ga.gov/search/facts-docket/?docketId=56002"},
-    {"id": "mo_efis", "url": "https://www.efis.psc.mo.gov/", "search": "ER-2026-0143", "hint": "case|search"},
-    {"id": "al_root", "url": "https://pscpublicaccess.alabama.gov/"},
-    {"id": "al_psc", "url": "https://psc.alabama.gov/"},
-    {"id": "tx_interchange", "url": "https://interchange.puc.texas.gov/search/filings/?UtilityType=A&ControlNumber=58481"},
-    {"id": "ks_kcc", "url": "https://kcc.ks.gov/"},
-    {"id": "ok_weblink", "url": "https://public.occ.ok.gov/WebLink/"},
-    {"id": "nv_dktinfo", "url": "https://pucweb1.state.nv.us/PUC2/DktInfo.aspx"},
+    {"id": "ferc_filelist", "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261001-5390"},
+    {"id": "az_docs", "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551", "click": "Docket Documents"},
+    {"id": "ga_document", "url": "https://psc.ga.gov/search/facts-document/?documentId=228981"},
+    {"id": "tx_documents", "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=1"},
+    {"id": "la_webportal", "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/lpsc-web-portal", "search": "U-37882", "hint": "docket|search"},
+    {"id": "mo_casesearch", "url": "https://www.efis.psc.mo.gov/Case/NewSearch", "search": "ER-2026-0143", "hint": "case"},
+    {"id": "al_searches", "url": "https://www.pscpublicaccess.alabama.gov/pscpublicaccess/page/psc-searches/portal.aspx", "search": "33709", "hint": "docket|search"},
+    {"id": "nm_advsearch", "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-AdvancedSearch", "search": "25-00079-UT", "hint": "docket|case"},
+    {"id": "ks_minutes", "url": "https://www.kcc.ks.gov/commission-activity/meeting-minutes"},
+    {"id": "ok_casedocs", "url": "https://public.occ.ok.gov/WebLink/CustomSearch.aspx?SearchName=ImagedCaseDocumentsfiledafter3212022&dbid=0&repo=OCC", "search": "PUD2026-000031", "hint": "case|number"},
     {"id": "grda_board", "url": "https://www.grda.com/leadership/board-meeting-agenda-minutes/"},
 ]
 
@@ -98,8 +94,19 @@ def main(only=None):
                               "post_data": (resp.request.post_data or "")[:3000], "body": body})
             page.on("response", on_resp)
             try:
-                resp = page.goto(t["url"], wait_until="networkidle", timeout=60000)
-                page.wait_for_timeout(2500)
+                resp = page.goto(t["url"], wait_until="domcontentloaded", timeout=60000)
+                try:
+                    page.wait_for_load_state("networkidle", timeout=20000)
+                except Exception:
+                    pass
+                page.wait_for_timeout(4000)
+                if t.get("click"):
+                    try:
+                        page.get_by_text(t["click"], exact=False).first.click(timeout=15000)
+                        page.wait_for_timeout(6000)
+                        rec["click_note"] = "clicked " + t["click"]
+                    except Exception as e:
+                        rec["click_note"] = "click failed: " + repr(e)[:200]
                 rec["status"] = resp.status if resp else None
                 if t.get("search"):
                     rec["search_note"] = heuristic_search(page, t["search"], t.get("hint", "search"))
