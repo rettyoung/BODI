@@ -9,6 +9,10 @@ on:
         description: 'Space-separated adapter names (blank = all)'
         required: false
         default: ''
+      backfill_since:
+        description: 'YYYY-MM-DD: one-off history pull into data/backfill/ (blank = normal nightly run)'
+        required: false
+        default: ''
   push:
     paths:
       - 'collector/run.py'
@@ -40,6 +44,8 @@ jobs:
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
           OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+          BACKFILL_SINCE: ${{ github.event.inputs.backfill_since }}
+          MAX_DOCS: ${{ github.event.inputs.backfill_since && '450' || '160' }}
         run: python run.py ${{ github.event.inputs.sources }}
       - name: Commit
         if: always()
@@ -53,9 +59,13 @@ jobs:
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
+          BF: ${{ github.event.inputs.backfill_since }}
         run: |
           python - <<'EOF'
           import json, subprocess
+          import os
+          if os.environ.get("BF"):
+              raise SystemExit(0)
           h = json.load(open("data/health/latest.json"))
           bad = {k: v for k, v in h["sources"].items()
                  if v.get("status") not in ("ok", "SKIPPED_RUN_DEADLINE") and v.get("consecutive_failures", 0) >= 2}

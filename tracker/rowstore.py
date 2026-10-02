@@ -23,15 +23,52 @@ def part_sha(path):
         return hashlib.sha256(f.read()).hexdigest()
 
 
-def load(store=STORE):
-    """Return (columns, rows) concatenated in manifest order."""
+# Parts are immutable. A later part changes an earlier event only through overlays, applied
+# at load in manifest order, so history stays auditable and no part is ever rewritten:
+#   "supersedes": [{"old_event_id", "new_event_id", "reason"}]   -> Superseded = "Yes" on every old row
+#   "overlays":   [{"event_id", "column", "value", "reason"}]    -> only the columns below
+OVERLAY_COLUMNS = ("Status", "Next Milestone", "Next Date", "Appeal", "Superseded")
+
+
+def apply_overlays(rows, part):
+    ix = {c: i for i, c in enumerate(COLUMNS)}
+    probs = []
+    ids = {r[1] for r in rows}
+    for s in part.get("supersedes") or []:
+        if s.get("old_event_id") not in ids:
+            probs.append(f"supersedes unknown event {s.get('old_event_id')}")
+        for r in rows:
+            if r[1] == s.get("old_event_id"):
+                r[ix["Superseded"]] = "Yes"
+    for o in part.get("overlays") or []:
+        if o.get("column") not in OVERLAY_COLUMNS:
+            probs.append(f"overlay on non-overlayable column {o.get('column')!r}")
+            continue
+        if o.get("event_id") not in ids:
+            probs.append(f"overlay on unknown event {o.get('event_id')}")
+        for r in rows:
+            if r[1] == o.get("event_id"):
+                r[ix[o["column"]]] = o.get("value") or ""
+    return probs
+
+
+def load(store=STORE, extra_part=None, problems=None):
+    """Return (columns, rows) concatenated in manifest order, overlays applied.
+    extra_part: a part dict not yet in the manifest (to validate before committing)."""
     man = json.load(open(os.path.join(store, "rows.json")))
     rows, columns = [], None
-    for p in man["parts"]:
-        d = json.load(open(os.path.join(store, p["file"])))
+    parts = [json.load(open(os.path.join(store, p["file"]))) for p in man["parts"]]
+    if extra_part:
+        parts.append(extra_part)
+    for d in parts:
         if d.get("columns"):
+            if columns and d["columns"] != columns:
+                raise ValueError("column order differs between parts")
             columns = d["columns"]
-        rows.extend(d["data"])
+        rows.extend([list(r) for r in d["data"]])
+        pr = apply_overlays(rows, d)
+        if problems is not None:
+            problems.extend(pr)
     columns = columns or man.get("columns") or COLUMNS
     if columns != COLUMNS:
         raise ValueError(f"column order differs from schema: {columns}")
@@ -58,7 +95,14 @@ def validate(rows):
         for lv in LEVERS:
             if r[ix[lv]] not in (1, None, ""):
                 probs.append(f"row {n}: lever {lv} = {r[ix[lv]]!r} (must be 1 or blank)")
-    # adjacency of exploded events after sort
+    # one Event ID = one date (otherwise its rows would not stay adjacent after sorting)
+    dates = {}
+    for r in rows:
+        if len(r) == 26:
+            dates.setdefault(r[1], set()).add(r[0])
+    for eid, ds in dates.items():
+        if len(ds) > 1:
+            probs.append(f"{eid}: rows carry different dates {sorted(ds)} — exploded rows must share one date")
     return probs
 
 
@@ -86,3 +130,25 @@ def events(rows):
             out.append(e)
         by[eid]["ents"].append([r[2], r[3]])
     return out
+
+
+if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser(description="Validate the row store, optionally with a new part not yet committed.")
+    ap.add_argument("--store", default=STORE)
+    ap.add_argument("--part", help="path to a new rows_pN.json to validate together with the store")
+    a = ap.parse_args()
+    extra = json.load(open(a.part)) if a.part else None
+    probs = []
+    _, rows = load(a.store, extra_part=extra, problems=probs)
+    probs += validate(rows)
+    if extra:
+        old = set()
+        for p in json.load(open(os.path.join(a.store, "rows.json")))["parts"]:
+            old |= {r[1] for r in json.load(open(os.path.join(a.store, p["file"])))["data"]}
+        clash = sorted({r[1] for r in extra["data"]} & old)
+        if clash:
+            probs.append(f"new part reuses existing Event IDs: {clash[:10]}")
+    ev = len({r[1] for r in rows})
+    print(json.dumps({"rows": len(rows), "events": ev, "problems": probs[:50], "n_problems": len(probs)}, indent=1))
+    raise SystemExit(1 if probs else 0)

@@ -35,6 +35,10 @@ MAX_BYTES = 60 * 1024 * 1024
 ADAPTER_BUDGET_S = int(os.environ.get("ADAPTER_BUDGET_S", "420"))
 BUDGETS = {"ir_decks": 1200, "watch_pages": 900, "edgar": 900, "ferc": 600, "la_lpsc": 600, "mo_efis": 600}
 RUN_DEADLINE_S = int(os.environ.get("RUN_DEADLINE_S", str(70 * 60)))   # the job is killed at 90 min; stop well before
+BACKFILL_SINCE = os.environ.get("BACKFILL_SINCE") or None   # one-off history pull: candidates go to data/backfill/
+PRIORITY = re.compile(r"order|tariff|rate schedule|settlement|stipulation|brief|testimony|compliance|agreement|contract|"
+                      r"application|petition|complaint|protest|comments|report|notice of hearing|rule|directive|"
+                      r"large load|data cent", re.I)
 BASELINE_SOURCES = {"watch_pages", "rss", "ir_decks", "mirrors"}   # undated lists: first sight = baseline
 
 
@@ -157,9 +161,9 @@ def main(only=None):
     http = Http(delay=float(os.environ.get("DELAY_S", "3")))
     http.session.headers["User-Agent"] = cfg.get("user_agent") or http.session.headers["User-Agent"]
     run_id = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d-%H%M")
-    health = {"run_id": run_id, "started": now_utc(), "sources": {}, "docs_fetched": 0, "new_items": 0,
+    health = {"backfill_since": BACKFILL_SINCE, "run_id": run_id, "started": now_utc(), "sources": {}, "docs_fetched": 0, "new_items": 0,
               "user_agent": http.session.headers["User-Agent"]}
-    cand_path = os.path.join(DATA, "candidates", f"{today()}.jsonl")
+    cand_path = os.path.join(DATA, "backfill" if BACKFILL_SINCE else "candidates", f"{today()}.jsonl")
     os.makedirs(os.path.dirname(cand_path), exist_ok=True)
     kws = cfg.get("keywords", [])
     parties = cfg.get("parties", [])
@@ -167,7 +171,7 @@ def main(only=None):
     signal.signal(signal.SIGALRM, _alarm)
     run_t0 = time.time()
     # rotate the starting adapter each run so a slow source never starves the same ones behind it
-    names = [n for n in A.ADAPTERS if not only or n in only]
+    names = [n for n in A.ADAPTERS if (not only or n in only) and not (BACKFILL_SINCE and n in BASELINE_SOURCES)]
     k = state["runs"] % len(names) if names else 0
     order = names[k:] + names[:k]
 
@@ -175,6 +179,9 @@ def main(only=None):
         state["last_run"] = now_utc()
         health["finished"] = now_utc()
         save_json(STATE, state)
+        if BACKFILL_SINCE:   # never masquerade as the nightly health record
+            save_json(os.path.join(DATA, "backfill", f"health_{run_id}.json"), health)
+            return
         save_json(os.path.join(DATA, "health", f"{today()}.json"), health)
         save_json(os.path.join(DATA, "health", "latest.json"), health)
 
@@ -196,6 +203,8 @@ def main(only=None):
         ctx.state = sst.setdefault("data", {})
         last_ok = sst.get("last_ok")
         ctx.since = (dt.date.fromisoformat(last_ok) - dt.timedelta(days=OVERLAP_DAYS)).isoformat() if last_ok else DEFAULT_SINCE
+        if BACKFILL_SINCE:
+            ctx.since = BACKFILL_SINCE
         t0 = time.time()
         rec = {"since": ctx.since}
         print(f"{name}: since {ctx.since}", flush=True)
@@ -224,7 +233,8 @@ def main(only=None):
                 if is_baseline(it):
                     continue
                 docs = []
-                if docs_budget > 0 and it.get("fetch"):
+                worth = not BACKFILL_SINCE or PRIORITY.search(it.get("title") or "") or it.get("kind") in ("deck", "8-K", "10-Q", "10-K")
+                if docs_budget > 0 and it.get("fetch") and worth:
                     docs = fetch_docs(http, it, ctx)
                     docs_budget -= len(docs)
                     health["docs_fetched"] += len(docs)
@@ -251,7 +261,7 @@ def main(only=None):
                     state["baselined"].append(name)
             rec.update(kept=kept, status="ok", subsources=ctx.sub, notes=ctx.notes[-20:])
             health["new_items"] += kept
-            sst.update(consecutive_failures=0, last_ok=today(), last_error=None)
+            sst.update(consecutive_failures=0, last_error=None, **({} if BACKFILL_SINCE else {"last_ok": today()}))
         except Blocked as e:
             signal.alarm(0)
             rec.update(status="ACCESS_REGRESSION", error=str(e)[:300], subsources=ctx.sub)
