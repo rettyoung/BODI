@@ -1,9 +1,12 @@
 {
  "id": "mo_casesearch",
  "url": "https://www.efis.psc.mo.gov/Case/NewSearch",
- "at": "2026-10-02T22:55:11Z",
+ "at": "2026-10-02T23:00:45Z",
+ "step_notes": [
+  "no match; inputs=FromDateFiled FromDateFiled From; ToDateFiled ToDateFiled To; IncludeOnlyActiveCases IncludeOnlyActiveCases; IncludeOnlyActiveCases; OriginalModelNameHTMLName OriginalModelNameHTMLName; OriginalModelValueHTMLName OriginalModelValueHTMLName; OriginalModelCodeHTMLName OriginalModelCodeHTMLName; TypeOfModel TypeOfModel; CompanyDetailId CompanyDetailId; IncludeInactive IncludeInactive; IncludeInactive; IsSingleItemSearch IsSingleItemSearch; IsSingleItemSearch; IsSubjectCompaniesOnly IsSubjectCompaniesOnly; IsSubjectCompaniesOnly; OriginalModelNameHTMLName OriginalModelNameHTMLName; OriginalModelValueHTMLName OriginalModelValueHTMLName; OriginalModelCodeHTMLName OriginalModelCodeHTMLName; TypeOfModel TypeOfModel; InterconnectingCompanyDetailId InterconnectingCompanyDetailI; InterconnectingIncludeInactive InterconnectingIncludeInactiv; InterconnectingIncludeInactive; InterconnectingIsSingleItemSearch InterconnectingIsSingleIte; InterconnectingIsSingleItemSearch; OriginalModelNameHTMLName OriginalModelNameHTMLName; OriginalModelValueHTMLName OriginalModelValueHTMLName; OriginalModelCodeHTMLName OriginalModelCodeHTMLName; TypeOfModel TypeOfModel; IncludeOnlySessionOrders IncludeOnlySessionOrders; IncludeOnlySessionOrders",
+  "pressed Enter"
+ ],
  "status": 200,
- "search_note": "filled From",
  "blocked": null,
  "final_url": "https://www.efis.psc.mo.gov/Case",
  "title": "Existing Case e-Filing & Search - EFIS",
@@ -134,6 +137,154 @@
    "Clear"
   ],
   [
+   "https://www.efis.psc.mo.gov/Case/Display/109668",
+   "EO-2027-0104"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/1348?isDetailId=true",
+   "Empire District Electric Company, The (Electric) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/6667?isDetailId=true",
+   "Liberty (Empire) (Electric) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/Display/109667",
+   "ER-2027-0103"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Tariff/Display/109666",
+   "JE-2027-0046"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/Display/109667",
+   "ER-2027-0103"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/1348?isDetailId=true",
+   "Empire District Electric Company, The (Electric) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/6667?isDetailId=true",
+   "Liberty (Empire) (Electric) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/Display/109668",
+   "EO-2027-0104"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Tariff/Display/109666",
+   "JE-2027-0046"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/Display/109618",
+   "ET-2027-0102"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/6532?isDetailId=true",
+   "Evergy Missouri West (Electric) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/6531?isDetailId=true",
+   "Evergy Missouri West, Inc. (Electric) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Tariff/Display/109617",
+   "JE-2027-0044"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/Display/109605",
+   "EF-2027-0101"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/4104?isDetailId=true",
+   "Ameren Missouri (Electric) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/264?isDetailId=true",
+   "Union Electric Company (Electric) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/Display/109597",
+   "GR-2027-0100"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/6670?isDetailId=true",
+   "Liberty (MNG) (Gas) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/5391?isDetailId=true",
+   "Liberty Utilities (Midstates Natural Gas) Corp. (Gas) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/Display/109589",
+   "GR-2027-0099"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/2700?isDetailId=true",
+   "Empire District Gas Company, The (Gas) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/6668?isDetailId=true",
+   "Liberty (Empire) (Gas) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/Display/109559",
+   "EO-2027-0098"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/4104?isDetailId=true",
+   "Ameren Missouri (Electric) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/264?isDetailId=true",
+   "Union Electric Company (Electric) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/Display/109544",
+   "ER-2027-0097"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/4104?isDetailId=true",
+   "Ameren Missouri (Electric) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/264?isDetailId=true",
+   "Union Electric Company (Electric) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Tariff/Display/109546",
+   "JE-2027-0042"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/Display/109497",
+   "GT-2027-0096"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/4105?isDetailId=true",
+   "Ameren Missouri (Gas) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/266?isDetailId=true",
+   "Union Electric Company (Gas) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Tariff/Display/109502",
+   "JG-2027-0040"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/Display/109495",
+   "GR-2027-0095"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/4105?isDetailId=true",
+   "Ameren Missouri (Gas) (Investor)"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/Display/266?isDetailId=true",
+   "Union Electric Company (Gas) (Investor)"
+  ],
+  [
    "https://www.efis.psc.mo.gov/Home/Contact",
    "Contact Us"
   ],
@@ -180,148 +331,23 @@
   [
    "https://www.facebook.com/Missouri-Public-Service-Commission-100274236051607",
    ""
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "27"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "28"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "29"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "30"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "1"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "2"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "3"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "4"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "5"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "6"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "7"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "8"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "9"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "10"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "11"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "12"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "13"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "14"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "15"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "16"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "17"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "18"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "19"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "20"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "21"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "22"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "23"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "24"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "25"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "26"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "27"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "28"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "29"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "30"
-  ],
-  [
-   "https://www.efis.psc.mo.gov/Case#",
-   "31"
   ]
  ],
  "result": "ok",
- "xhr": []
+ "xhr": [
+  {
+   "method": "POST",
+   "url": "https://www.efis.psc.mo.gov/Case",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "x-requested-with": "XMLHttpRequest",
+    "accept": "*/*",
+    "content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+   },
+   "post_data": "FromDateFiled=&ToDateFiled=&SubmissionNumber=&RelatedSubmissionNumber=&CaseMasterStatusId=&IncludeOnlyActiveCases=false&OriginalModelNameHTMLName=UtilityTypeList%5B0%5D.Name&OriginalModelValueHTMLName=UtilityTypeList%5B0%5D.Id&OriginalModelCodeHTMLName=UtilityTypeList%5B0%5D.Code&TypeOfModel=CodeModel&CompanyDetailId=&CompanyName=&IncludeInactive=false&IsSingleItemSearch=false&IsSubjectCompaniesOnly=false&OriginalModelNameHTMLName=CaseTypeList%5B0%5D.Name&OriginalModelValueHTMLName=CaseTypeList%5B0%5D.Id&OriginalModelCodeHTMLName=CaseTypeList%5B0%5D.Code&TypeOfModel=CodeModel&InterconnectingCompanyDetailId=&InterconnectingCompanyName=&InterconnectingIncludeInactive=false&InterconnectingIsSingleItemSearch=false&OriginalModelNameHTMLName=FilingTypeList%5B0%5D.Name&OriginalModelValueHTMLName=FilingTypeList%5B0%5D.Id&OriginalModelCodeHTMLName=FilingTypeList%5B0%5D.Code&TypeOfModel=CodeModel&IncludeOnlySessionOrders=false&FromEffectiveDate=&ToEffectiveDate=&TestimonyIssueId=&TestimonySubIssueId=&TestimonySubIssue2Id=&Description=&IsIndividualFilingSearch=false&GridResultOptions.SelectedResultLimit=10&GridResultOptions.SortBy=DateTimeFiled&GridResultOptions.SortDirection=DESC&__RequestVerificationToken=CfDJ8DksyRcqWe1FtNcr3A1XoekuS5DV1NTlqwQfSehRoJya4SBIR8G35zmixOjekZqXCzJY3a87HWE_igSDB2xpDhefVP_ftOiKfZXLz2qYXfq1ztPIQ6SDJf_0jVsHn4oJOoGEYhnipoevDGoqgAHA0EE",
+   "body": "{\"isValid\":true,\"searchGridResultContent\":\"\\r\\n    \\u003Ctable class=\\u0022tableSearchGridTwoRow tableCollapse stickyHeader\\u0022\\u003E\\r\\n        \\u003Cthead\\u003E\\r\\n            \\u003Ctr\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022 class=\\u0022columnMinWidth\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022SubmissionNumber\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Case No.\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022CaseTypeName\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Type of Case\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022FullUtilityTypeName\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Utility Type\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022DateTimeFiled\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Date Filed\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    Subject Companies\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    Related Submission No.\\r\\n                \\u003C/th\\u003E\\r\\n                \\u003Cth scope=\\u0022col\\u0022\\u003E\\r\\n                    \\u003Cbutton type=\\u0022button\\u0022 class=\\u0022btn btn-link noPadding btnSortByColumn text-left\\u0022 data-sort-column-name=\\u0022CaseMasterStatusName\\u0022\\r\\n                    onclick=\\u0022sortCaseTable(this)\\u0022\\u003E\\r\\n                        Status\\r\\n                        \\u003Cspan class=\\u0022spanSortArrow\\u0022\\u003E\\u003C/span\\u003E\\r\\n                    \\u003C/button\\u003E\\r\\n                \\u003C/th\\u003E\\r\\n            \\u003C/tr\\u003E\\r\\n        \\u003C/thead\\u003E\\r\\n        \\u003Ctbody\\u003E\\r\\n                \\u003Ctr\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Case No.\\u0022\\u003E\\r\\n                        \\r\\n    \\u003Cspan class=\\u0022spanSubmissionMaster\\u0022 data-code=\\u0022CASE\\u0022\\u003E\\r\\n            \\u003Ca href=\\u0022https://www.efis.psc.mo.gov/Case/Display/109668\\u0022 target=\\u0022_self\\u0022\\u003EEO-2027-0104\\u003C/a\\u003E\\r\\n    \\u003C/span\\u003E\\r\\n\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Type of Case\\u0022\\u003E\\r\\n                        Other\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Utility Type\\u0022\\u003E\\r\\n                        Electric\\r\\n                    \\u003C/td\\u003E\\r\\n                    \\u003Ctd data-label=\\u0022Date Filed\\u0022\\u003E\\r\\n                        10/1/2026\\r\\n             "
+  }
+ ],
+ "downloads": []
 }
