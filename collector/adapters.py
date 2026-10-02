@@ -370,15 +370,17 @@ def la_lpsc(ctx):
             ctx.log(f"la: {num} not found")
             continue
         mid = hits[0]["MatterId"]
-        html = ctx.render(f"{base}DocketDetails?docketId={mid}")
-        for did, label in re.findall(r'DocumentDetails\?documentId=(\d+)"[^>]*>(.*?)</a>', html, re.S):
-            seg = html[html.find(f"documentId={did}"):][:1200]
-            filed = next((_d(x) for x in re.findall(r"\d{1,2}/\d{1,2}/\d{4}", seg)), None)
+        docs = http.post(base + "Docket_Documents", data={"sort": "", "page": 1, "pageSize": 100, "group": "",
+                         "filter": "", "docketId": mid}).json().get("Data", [])
+        for doc in docs:
+            filed = _d(doc.get("DateFiled"))
             if not _after(filed, ctx.since):
                 continue
-            items.append({"id": f"LA:doc:{did}", "jur": "LA", "source": "la_lpsc", "kind": "filing", "docket": num,
-                          "title": re.sub(r"<[^>]+>|\s+", " ", label).strip()[:300], "filed": filed,
-                          "url": f"{base}DocumentDetails?documentId={did}", "fetch": [{"la_document": did}]})
+            did = doc.get("DocumentId")
+            items.append({"id": f"LA:doc:{did}", "jur": "LA", "source": "la_lpsc", "kind": (doc.get("DocumentType") or "filing").lower(),
+                          "docket": num, "title": doc.get("Description"), "filed": filed, "entity": doc.get("FiledBy"),
+                          "url": f"{base}DocumentDetails?documentId={did}", "fetch": [{"la_document": did}],
+                          "meta": {"matterId": mid}})
     r = http.post(base + "RecentOrders", data={"sort": "OrderDate-desc", "page": 1, "pageSize": 100, "group": "", "filter": ""})
     for o in r.json().get("Data", []):
         num = o.get("DocumentNumber") or ""

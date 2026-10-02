@@ -154,4 +154,9 @@ ir_pages:
 
 # Cloud fallback for manual-route states: public copies on permitted hosts. Filled from research;
 # each is robots-checked at fetch time.
-mirrors: []
+mirrors:
+  - {id: sc_psc_publications, jur: SC, owner: "Public Service Commission of South Carolina (main site)", url: "https://www.psc.sc.gov/latest-publications", link: "\\.pdf", mirror_of: "DMS docket documents (notices, orders, PINs)"}
+  - {id: sc_ors_electric, jur: SC, owner: "SC Office of Regulatory Staff", url: "https://ors.sc.gov/index.php/consumers/electric-natural-gas/electric", link: "\\.pdf"}
+  - {id: oh_occ_filings, jur: OH, owner: "Ohio Consumers' Counsel", url: "https://occ.ohio.gov/filings", link: "\\.pdf|filings/", mirror_of: "PUCO DIS filings by OCC"}
+  - {id: nc_ncuc_main, jur: NC, owner: "NC Utilities Commission (main site)", url: "https://www.ncuc.gov/", link: "\\.pdf"}
+  - {id: il_cub, jur: IL, owner: "Citizens Utility Board", url: "https://www.citizensutilityboard.org/blog/category/cub-battles/", link: "\\.pdf|citizensutilityboard.org/blog/20"}
