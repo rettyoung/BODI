@@ -479,19 +479,27 @@ def ok_occ(ctx):
                 except Blocked:
                     raise
                 except Exception as e:
-                    ctx.log(f"ok text {eid}: {e!r}")
-                    continue
-                if not cause_rx.search(page1):
+                    # page-text service unavailable for this entry: keep the newest few unconfirmed; the
+                    # downloaded PDF's own text lets the Sweep confirm or discard them
+                    ctx.log(f"ok text {eid}: {e!r}"[:200])
+                    if sum(1 for v in accepted.values() if v == "UNCONFIRMED") < 8:
+                        accepted[str(eid)] = "UNCONFIRMED"
+                    else:
+                        continue
+                    page1 = None
+                if page1 is not None and not cause_rx.search(page1):
                     rejected.add(str(eid))
                     continue
-                accepted[str(eid)] = re.sub(r"\s+", " ", page1)[:300]
+                if page1 is not None:
+                    accepted[str(eid)] = re.sub(r"\s+", " ", page1)[:300]
             name = rec.get("name") or rec.get("Name")
             items.append({"id": f"OK:{eid}", "jur": "OK", "source": "ok_occ", "kind": "filing", "docket": case,
                           "title": f"OCC {case} document {name} ({(rec.get('entryProperties') or '').strip()}): {accepted[str(eid)][:160]}",
                           "filed": None,
                           "url": f"{base}DocView.aspx?id={eid}&dbid=0&repo=OCC",
                           "fetch": [{"url": f"{base}ElectronicFile.aspx?docid={eid}&dbid=0&repo=OCC"}],
-                          "meta": {"entryId": eid, "pages": rec.get("entryProperties")}})
+                          "meta": {"entryId": eid, "pages": rec.get("entryProperties"),
+                                   "case_match": "unconfirmed" if accepted[str(eid)] == "UNCONFIRMED" else "page1"}})
         ctx.state["rejected"] = sorted(rejected)[-5000:]
         if not lst:
             ctx.log(f"ok: empty listing for {case}")

@@ -54,7 +54,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           git commit -q -m "collect $(date -u +%FT%TZ)" || exit 0
-          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 10; done
+          # during a rebase "-X theirs" keeps THIS run's version of a conflicting data file (it is the newer one)
+          for i in 1 2 3 4; do
+            if git pull --rebase -X theirs -q && git push -q; then echo pushed; exit 0; fi
+            git rebase --abort 2>/dev/null || true; sleep 15
+          done
+          echo "::error::could not push collected data"; exit 1
       - name: Open an issue when a source fails twice running
         if: always()
         env:
@@ -70,9 +75,12 @@ jobs:
           bad = {k: v for k, v in h["sources"].items()
                  if v.get("status") not in ("ok", "SKIPPED_RUN_DEADLINE") and v.get("consecutive_failures", 0) >= 2}
           title = "Collector health: sources failing on consecutive runs"
-          found = subprocess.run(["gh", "issue", "list", "--state", "open", "--search", f"in:title {title}", "--json", "number,title"],
-                                 capture_output=True, text=True).stdout
-          num = next((i["number"] for i in json.loads(found or "[]") if i["title"] == title), None)
+          repo = os.environ["GITHUB_REPOSITORY"]
+          r = subprocess.run(["gh", "api", f"repos/{repo}/issues?state=open&per_page=100"], capture_output=True, text=True)
+          try:
+              num = next((i["number"] for i in json.loads(r.stdout or "[]") if i.get("title") == title), None)
+          except Exception:
+              print("issue lookup failed:", r.stderr[:300]); num = None
           if bad:
               body = (f"Run {h['run_id']}\n\n" + "\n".join(
                   f"- **{k}**: {v.get('status')} ({v.get('consecutive_failures')} runs) {v.get('error','')}" for k, v in bad.items())
