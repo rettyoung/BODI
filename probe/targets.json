@@ -1,6 +1,8 @@
 [
   {"id": "ferc-elib-filelist", "jur": "FERC", "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261001-5390", "js": true, "note": "accession from eSubscription email; capture XHR API"},
   {"id": "ferc-elib-search", "jur": "FERC", "url": "https://elibrary.ferc.gov/eLibrary/search", "js": true},
+  {"id": "ferc-api-filelist", "jur": "FERC", "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/GetFileListFromP8/20261001-5390", "js": false, "note": "API discovered in round 1; tests access without a browser"},
+  {"id": "az-efiling-api", "jur": "AZ", "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=eFiling%20Filing%20Status", "js": false, "note": "API discovered in round 1"},
   {"id": "fedreg-api", "jur": "FED", "url": "https://www.federalregister.gov/api/v1/documents.json?conditions[agencies][]=federal-energy-regulatory-commission&per_page=3", "js": false},
   {"id": "sec-efts", "jur": "SEC", "url": "https://efts.sec.gov/LATEST/search-index?q=%22data%20center%22&forms=8-K&dateRange=custom&startdt=2026-09-01&enddt=2026-10-02", "js": false},
   {"id": "sec-submissions-dominion", "jur": "SEC", "url": "https://data.sec.gov/submissions/CIK0000715957.json", "js": false},

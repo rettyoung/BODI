@@ -24,6 +24,7 @@ BLOCK_MARKERS = [
     "request rejected", "access denied", "the requested url was rejected",
     "attention required", "captcha", "cf-chl", "incapsula", "are you a robot",
     "bot detection", "enable javascript and cookies to continue", "web page blocked",
+    "not a robot", "no robots or crawlers",
 ]
 
 session = requests.Session()
@@ -48,19 +49,29 @@ def robots_for(url):
     try:
         r = session.get(info["robots_url"], timeout=30)
         info["status"] = r.status_code
-        info["excerpt"] = r.text[:600] if r.ok else ""
+        # Decode with utf-8-sig so a leading byte-order mark cannot hide the first rule.
+        body = r.content.decode("utf-8-sig", errors="replace").lstrip("﻿")
+        info["excerpt"] = body[:600] if r.ok else ""
         rp = robotparser.RobotFileParser()
-        if r.status_code == 200:
-            rp.parse(r.text.splitlines())
-        elif r.status_code in (401, 403):
-            rp.disallow_all = True      # stdlib convention
+        # RFC 9309 §2.3.1: 2xx -> parse; 4xx ("unavailable") -> no restrictions;
+        # 5xx or network failure ("unreachable") -> assume complete disallow.
+        if 200 <= r.status_code < 300:
+            if "<html" in body[:500].lower():
+                rp.disallow_all = True  # WAF block page served in place of robots.txt
+                info["note"] = "robots.txt returned an HTML block page; treated as disallow"
+            else:
+                rp.parse(body.splitlines())
+        elif 400 <= r.status_code < 500:
+            rp.allow_all = True
         else:
-            rp.allow_all = True         # 404 etc. = no restrictions
+            rp.disallow_all = True
         info["parser"] = rp
     except Exception as e:
         info["status"] = "error"
         info["error"] = repr(e)[:300]
-        info["parser"] = None
+        rp = robotparser.RobotFileParser()
+        rp.disallow_all = True          # unreachable -> complete disallow (RFC 9309)
+        info["parser"] = rp
     robots_cache[host] = info
     return info
 
