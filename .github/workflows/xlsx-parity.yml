@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     paths: ["console/**", "tracker/**", "store/**", "tests/**", ".github/workflows/xlsx-parity.yml"]
-concurrency: { group: repo-writer, cancel-in-progress: false }
+concurrency: { group: xlsx-parity, cancel-in-progress: true }
 permissions: { contents: write }
 jobs:
   parity:
