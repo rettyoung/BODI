@@ -514,7 +514,7 @@ function buildCSV(){
   const lines=[H.map(q).join(',')];
   LAST.forEach(e=>e.ents.forEach(t=>lines.push([e.date,e.id,t[0],t[1],e.subject,e.venue,e.instrument,
     e.document,e.headline,e.takeaway,e.status,e.nm,e.nd,e.mat,e.conf,e.appeal,e.sup,
-    ...LEVORDER.map(l=>e.levers.includes(l)?1:''),e.url].map(q).join(',')));
+    ...LEVORDER.map(l=>e.levers.includes(l)?1:''),e.url].map(q).join(','))));
   return lines.join('\n');
 }
 /* The viewer only ever receives a file through the downloads capability —
@@ -622,13 +622,13 @@ Promise.all([
   fetch('data.json').then(r=>r.json()),
   fetch('metrics.json').then(r=>r.json()).catch(()=>null),
   fetch('tariff_terms.json').then(r=>r.json()).catch(()=>null),
-  fetch('status.json').then(r=>r.json()).catch(()=>null),
-  fetch('narrative.md').then(r=>r.ok?r.text():null).catch(()=>null)
-]).then(([d,m,t,st,nar])=>{
+  fetch('status.json').then(r=>r.json()).catch(()=>null)
+]).then(([d,m,t,st])=>{
   EV=d.data;NROWS=d.rows;MET=m;TAR=t;
   if(d.asof)TODAY=d.asof;
   const p=TODAY.split('-');document.getElementById('hdrdate').textContent=(+p[2])+' '+['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'][+p[1]-1]+' '+p[0];
-  statusBox(st);downloads(d);narrative(nar,TODAY);
+  statusBox(st);downloads(d);
+  if(d.files&&d.files.md)fetch(d.files.md.path).then(r=>r.ok?r.text():null).then(md=>narrative(md,TODAY)).catch(()=>{});
   document.getElementById('hdrcount').textContent=`${d.events} EVENTS · ${d.rows} ROWS`;
   chips('f-mat','mat',tally(e=>[e.mat]));
   chips('f-sub','sub',tally(e=>[e.subject]));
