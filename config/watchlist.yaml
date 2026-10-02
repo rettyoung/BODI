@@ -1,0 +1,157 @@
+# Grid Docket watchlist — the single place to add or drop coverage.
+# The nightly collector reads this; the Monday Sweep reads it to classify.
+# Edit freely: a docket added here is collected the next night.
+#
+# route per jurisdiction:
+#   collector  - GitHub Actions adapter reads primary filings in full (cloud)
+#   webfetch   - the Sweep reads primary filings with Claude's web reader (cloud)
+#   manual     - the agency refuses automated access; primary filings come from the
+#                manual pass on Rett's computer, plus cloud fallbacks (mirrors, mail, search)
+
+user_agent: "BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)"
+
+keywords: [large load, large-load, data center, data centre, hyperscale, colocation, co-location,
+  co-located, behind-the-meter, interconnection, load interconnection, queue, capacity auction,
+  resource adequacy, minimum bill, minimum demand, contract demand, exit fee, collateral,
+  ESA, electric service agreement, energy service agreement, special contract, economic development rate,
+  crypto, bitcoin, mining load, transmission service, network upgrade, CIAC, contribution in aid,
+  CPCN, certificate of public convenience, IRP, integrated resource plan, RFP, gas turbine,
+  combined cycle, nuclear, SMR, uprate, battery storage, curtailment, flexible load, demand response,
+  ratepayer protection, cost allocation, cost shift]
+
+jurisdictions:
+  FERC: {route: collector, adapter: ferc}
+  AZ:   {route: collector, adapter: az_acc}
+  GA:   {route: collector, adapter: ga_psc}
+  TX:   {route: collector, adapter: tx_puct}
+  LA:   {route: collector, adapter: la_lpsc}
+  MO:   {route: collector, adapter: mo_efis}
+  NM:   {route: collector, adapter: nm_prc}
+  KS:   {route: collector, adapter: ks_kcc, note: "minutes PDFs + kcc-connect; Evergy ESAs are never docketed"}
+  OK:   {route: collector, adapter: ok_occ, note: "GRDA board pages + OCC WebLink"}
+  AL:   {route: collector, adapter: al_psc}
+  PA:   {route: webfetch, note: "puc.pa.gov refuses GitHub runners at TLS; Claude's reader works (v1 verified)"}
+  NV:   {route: manual, note: "puc.nv.gov robots.txt disallows all bots; pucweb1 holds pre-Oct-2023 dockets only; no text layer"}
+  VA:   {route: manual, note: "SCC robots.txt admits named search engines only"}
+  NC:   {route: manual, note: "NCUC behind a Cloudflare challenge"}
+  SC:   {route: manual, note: "DMS robots.txt disallows all bots"}
+  IL:   {route: manual, note: "ICC robots.txt disallows all bots; CAPTCHA wall"}
+  OH:   {route: manual, note: "PUCO DIS firewall rejects automated clients"}
+  WV:   {route: manual, note: "PSC returns 403 to automated clients"}
+
+# Dockets watched by number. Add new ones as they appear (the Sweep proposes additions).
+dockets:
+  FERC: [EL25-49, EL26-67, EL26-68, EL26-69, EL26-70, EL26-71, EL26-72, RM26-4, AD24-11, EL25-20,
+         ER26-1323, ER26-1731, ER26-247, EL26-36, EL26-38]
+  AZ:   [E-01345A-25-0105, E-01773A-26-0123]
+  GA:   ["55378", "56002"]
+  TX:   ["58481", "58777", "58796", "59475", "59611", "59142", "58000", "58482"]
+  NM:   [25-00079-UT, 25-00082-UT, 26-0000062]
+  LA:   [U-37882, U-37921, U-37425]
+  MO:   [ER-2026-0143, ER-2026-0291, ET-2025-0184]
+  KS:   [25-EKME-315-TAR, 26-EKCE-110-CON, 27-EKCE-0149-PRE, 26-EKCE-148-STG]
+  AL:   ["33709"]
+  OK:   [PUD2026-000031, PUD2026-000046]
+  PA:   [M-2025-3054271, R-2025-3057164]
+  NV:   ["20-08014"]
+  VA:   [PUR-2025-00057, PUR-2025-00058, PUR-2026-00011, PUR-2026-00044, PUR-2026-00056, PUR-2026-00114, PUR-2026-00131]
+  SC:   [2026-138-E, 2026-186-EG]
+  NC:   [E-7 Sub 1329]
+  IL:   [25-0677, 25-0679, 26-0364]
+  OH:   [24-0508, 25-0392]
+  WV:   [24-0854, 25-0637-E-CN, 26-0075-E-CN, 24-0611-E-T-PW]
+
+# Filing names differ from tracked names. Query portals with these; record which matched.
+entities:
+  Dominion:      {aliases: ["Virginia Electric and Power Company", "Dominion Energy Virginia", "Dominion Energy South Carolina"], ticker: D, juris: [VA, SC, NC]}
+  ApCo:          {aliases: ["Appalachian Power Company", "Wheeling Power Company"], parent: AEP, juris: [VA, WV]}
+  NOVEC:         {aliases: ["Northern Virginia Electric Cooperative"], juris: [VA]}
+  Duke:          {aliases: ["Duke Energy Carolinas, LLC", "Duke Energy Progress, LLC"], ticker: DUK, juris: [NC, SC]}
+  AEP Ohio:      {aliases: ["Ohio Power Company"], parent: AEP, juris: [OH]}
+  AEP Texas:     {aliases: ["AEP Texas Inc."], parent: AEP, juris: [TX]}
+  SWEPCO:        {aliases: ["Southwestern Electric Power Company"], parent: AEP, juris: [TX, LA]}
+  PSO:           {aliases: ["Public Service Company of Oklahoma"], parent: AEP, juris: [OK]}
+  Entergy:       {aliases: ["Entergy Louisiana, LLC", "Entergy Texas, Inc."], ticker: ETR, juris: [LA, TX]}
+  Evergy:        {aliases: ["Evergy Kansas Central, Inc.", "Evergy Metro, Inc.", "Evergy Missouri West, Inc.", "Westar Energy"], ticker: EVRG, juris: [KS, MO]}
+  Ameren:        {aliases: ["Union Electric Company", "Ameren Missouri", "Ameren Illinois Company"], ticker: AEE, juris: [MO, IL]}
+  ComEd:         {aliases: ["Commonwealth Edison Company"], parent: Exelon, juris: [IL]}
+  PPL:           {aliases: ["PPL Electric Utilities Corporation"], ticker: PPL, juris: [PA]}
+  Georgia Power: {aliases: ["Georgia Power Company"], parent: Southern, juris: [GA]}
+  Alabama Power: {aliases: ["Alabama Power Company"], parent: Southern, juris: [AL]}
+  APS:           {aliases: ["Arizona Public Service Company"], parent: Pinnacle West, juris: [AZ]}
+  TEP:           {aliases: ["Tucson Electric Power Company"], parent: Fortis, juris: [AZ]}
+  AEPCO:         {aliases: ["Arizona Electric Power Cooperative"], juris: [AZ]}
+  EPE:           {aliases: ["El Paso Electric Company"], juris: [TX, NM]}
+  PNM:           {aliases: ["Public Service Company of New Mexico", "PNM Resources", "TXNM Energy"], ticker: TXNM, juris: [NM]}
+  SPS:           {aliases: ["Southwestern Public Service Company"], parent: Xcel, juris: [TX, NM]}
+  Oncor:         {aliases: ["Oncor Electric Delivery Company LLC"], cik: "0001193311", juris: [TX]}
+  OG&E:          {aliases: ["OKLAHOMA GAS AND ELECTRIC COMPANY", "Oklahoma Gas and Electric Company"], ticker: OGE, juris: [OK]}
+  GRDA:          {aliases: ["Grand River Dam Authority"], juris: [OK]}
+  NV Energy:     {aliases: ["Nevada Power Company", "Sierra Pacific Power Company"], cik: "0000071180", juris: [NV]}
+  NextEra Transmission: {aliases: ["NextEra Energy Transmission"], juris: [WV, VA]}
+
+rtos: [PJM, MISO, SPP, ERCOT, CAISO, NYISO, ISO-NE, Western Power Pool / WRAP]
+
+# EDGAR. Tickers resolve to CIKs at run time via sec.gov/files/company_tickers.json; explicit CIKs win.
+edgar:
+  forms: [8-K, 10-Q, 10-K, 40-F, 6-K]
+  eight_k_items: ["2.02", "7.01", "8.01", "1.01", "2.01"]
+  utilities: {AEP: AEP, Southern: SO, Duke: DUK, Dominion: D, Entergy: ETR, Evergy: EVRG, Exelon: EXC,
+              Ameren: AEE, PPL: PPL, Pinnacle West: PNW, Xcel: XEL, OGE Energy: OGE, TXNM Energy: "0001108426",
+              Oncor: "0001193311", Fortis: "0001666175", Nevada Power: "0000071180", NiSource: NI, FirstEnergy: FE}
+  market_participants: {Constellation: CEG, Vistra: VST, NRG: NRG, Talen: TLN, NextEra: NEE, Microsoft: MSFT,
+                        Alphabet: GOOGL, Amazon: AMZN, Meta: META, Oracle: ORCL, Digital Realty: DLR, Equinix: EQIX,
+                        CoreWeave: CRWV, Applied Digital: APLD, IREN: IREN, Core Scientific: CORZ, GE Vernova: GEV}
+  full_text_queries: ['"large load" tariff', '"data center" "electric service agreement"', '"co-location" FERC']
+
+federal_register:
+  agencies: [federal-energy-regulatory-commission, energy-department, environmental-protection-agency,
+             nuclear-regulatory-commission, executive-office-of-the-president]
+  terms: ["large load", "data center", "co-location", "colocation", "resource adequacy", "interconnection",
+          "202(c)", "artificial intelligence infrastructure", "grid reliability"]
+
+# Page watchers: list pages whose new links become candidates. render=true uses headless Chromium.
+# verify=true means the URL is seeded from knowledge and is checked on first run; failures show in health.
+watch_pages:
+  - {id: grda_board,   jur: OK,   url: "https://www.grda.com/leadership/board-meeting-agenda-minutes/", link: "agenda|minutes|board", render: true}
+  - {id: ks_minutes,   jur: KS,   url: "https://www.kcc.ks.gov/commission-activity/meeting-minutes", link: "\\.pdf"}
+  - {id: la_news,      jur: LA,   url: "https://lpsc.louisiana.gov/", link: "\\.pdf|DocumentDetails"}
+  - {id: ferc_news,    jur: FERC, url: "https://www.ferc.gov/news-events/news", link: "/news-events/news/", verify: true}
+  - {id: nerc_news,    jur: US-Federal, url: "https://www.nerc.com/news/Pages/default.aspx", link: "news|\\.pdf", verify: true}
+  - {id: caiso_news,   jur: FERC, rto: CAISO, url: "https://www.caiso.com/about/news/news-releases/", link: "news|\\.pdf", render: true}
+  - {id: ercot_notices, jur: TX, rto: ERCOT, url: "https://www.ercot.com/services/comm/mkt_notices", link: "mkt_notices|\\.pdf|\\.docx", verify: true}
+  - {id: ercot_news,   jur: TX,   rto: ERCOT, url: "https://www.ercot.com/news/releases", link: "/news/", verify: true}
+  - {id: spp_news,     jur: FERC, rto: SPP, url: "https://www.spp.org/newsroom/", link: "newsroom|\\.pdf", verify: true}
+  - {id: nyiso_press,  jur: FERC, rto: NYISO, url: "https://www.nyiso.com/press-releases", link: "press|\\.pdf", verify: true}
+  - {id: isone_press,  jur: FERC, rto: ISO-NE, url: "https://www.iso-ne.com/about/news-media/press-releases", link: "press|news", verify: true}
+  - {id: miso_news,    jur: FERC, rto: MISO, url: "https://www.misoenergy.org/meet-miso/media-center/", link: "media-center|\\.pdf", verify: true, render: true}
+  - {id: wpp_news,     jur: FERC, rto: Western Power Pool / WRAP, url: "https://www.westernpowerpool.org/news", link: "news", verify: true}
+
+rss:
+  - {id: pjm_insidelines, rto: PJM, url: "https://insidelines.pjm.com/feed/"}
+  - {id: utilitydive,  url: "https://www.utilitydive.com/feeds/news/"}
+  - {id: rtoinsider,   url: "https://www.rtoinsider.com/feed/", note: "cross-check only (~10 items)"}
+  - {id: canary,       url: "https://www.canarymedia.com/feed"}
+
+# Investor events-and-presentations pages (rendered; PDF links harvested, never guessed).
+ir_pages:
+  - {issuer: AEP,           url: "https://www.aep.com/investors/events", verify: true}
+  - {issuer: Southern,      url: "https://investor.southerncompany.com/events-and-presentations/default.aspx", verify: true}
+  - {issuer: Duke,          url: "https://investors.duke-energy.com/news-events/events-and-presentations/default.aspx", verify: true}
+  - {issuer: Dominion,      url: "https://investors.dominionenergy.com/news-and-events/events-and-presentations/default.aspx", verify: true}
+  - {issuer: Entergy,       url: "https://www.entergy.com/investors/events/", verify: true}
+  - {issuer: Evergy,        url: "https://investors.evergy.com/events-and-presentations", verify: true}
+  - {issuer: Exelon,        url: "https://investors.exeloncorp.com/events-and-presentations", verify: true}
+  - {issuer: Ameren,        url: "https://amereninvestors.com/news-and-events/events-and-presentations/default.aspx", verify: true}
+  - {issuer: PPL,           url: "https://investors.pplweb.com/events-and-presentations", verify: true}
+  - {issuer: Pinnacle West, url: "https://www.pinnaclewest.com/investors/events-and-presentations/default.aspx", verify: true}
+  - {issuer: Xcel,          url: "https://investors.xcelenergy.com/news-events/events-and-presentations/default.aspx", verify: true}
+  - {issuer: OGE Energy,    url: "https://investor.oge.com/events-and-presentations/default.aspx", verify: true}
+  - {issuer: Oncor,         url: "https://investor.oncor.com/news-events/events-and-presentations/default.aspx", verify: true}
+  - {issuer: Fortis,        url: "https://www.fortisinc.com/investors/events-and-presentations", verify: true}
+  - {issuer: BHE,           url: "https://www.brkenergy.com/investors", verify: true}
+  - {issuer: TXNM Energy,   url: "https://www.txnmenergy.com/investors/events-and-presentations", verify: true}
+
+# Cloud fallback for manual-route states: public copies on permitted hosts. Filled from research;
+# each is robots-checked at fetch time.
+mirrors: []

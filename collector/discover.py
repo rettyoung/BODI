@@ -9,17 +9,17 @@ import json, os, re, sys, time
 from common import Http, UA, DATA, save_json, now_utc, looks_blocked
 
 TARGETS = [
-    {"id": "ferc_filelist", "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261001-5390"},
-    {"id": "az_docs", "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551", "click": "Docket Documents"},
-    {"id": "ga_document", "url": "https://psc.ga.gov/search/facts-document/?documentId=228981"},
-    {"id": "tx_documents", "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=1"},
-    {"id": "la_webportal", "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/lpsc-web-portal", "search": "U-37882", "hint": "docket|search"},
-    {"id": "mo_casesearch", "url": "https://www.efis.psc.mo.gov/Case/NewSearch", "search": "ER-2026-0143", "hint": "case"},
-    {"id": "al_searches", "url": "https://www.pscpublicaccess.alabama.gov/pscpublicaccess/page/psc-searches/portal.aspx", "search": "33709", "hint": "docket|search"},
-    {"id": "nm_advsearch", "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-AdvancedSearch", "search": "25-00079-UT", "hint": "docket|case"},
-    {"id": "ks_minutes", "url": "https://www.kcc.ks.gov/commission-activity/meeting-minutes"},
-    {"id": "ok_casedocs", "url": "https://public.occ.ok.gov/WebLink/CustomSearch.aspx?SearchName=ImagedCaseDocumentsfiledafter3212022&dbid=0&repo=OCC", "search": "PUD2026-000031", "hint": "case|number"},
-    {"id": "grda_board", "url": "https://www.grda.com/leadership/board-meeting-agenda-minutes/"},
+    {"id": "ferc_download", "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261001-5390",
+     "steps": [{"click": "a[href*='download'], a[title*='Download'], a[aria-label*='ownload'], i.fa-download, .fa-file-pdf, a[href*='filedownload']"}]},
+    {"id": "ferc_filedownload", "url": "https://elibrary.ferc.gov/eLibrary/filedownload?fileid=7C898DAD-BB3D-CBE0-9E07-A0FC83C00000"},
+    {"id": "az_docs", "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+     "steps": [{"click": "text=Docket Documents"}, {"wait": 6000}]},
+    {"id": "nm_advsearch", "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-AdvancedSearch",
+     "steps": [{"wait": 6000}, {"fill": ["input[name='data[docketNumber]']", "25-00079-UT"]}, {"click": "button:has-text('Search')"}, {"wait": 8000}]},
+    {"id": "la_docketsearch", "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/lpsc-web-portal",
+     "steps": [{"click": "text=Search for Dockets"}, {"wait": 4000}, {"fill_hint": ["docket|number", "U-37882"]}, {"press": "Enter"}, {"wait": 6000}]},
+    {"id": "mo_casesearch", "url": "https://www.efis.psc.mo.gov/Case/NewSearch",
+     "steps": [{"fill_hint": ["casenumber|case number|caseno|CaseNumber", "ER-2026-0143"]}, {"press": "Enter"}, {"wait": 6000}]},
 ]
 
 
@@ -50,6 +50,48 @@ def heuristic_search(page, text, hint):
         pass
     page.wait_for_timeout(4000)
     return "filled " + (best.get_attribute("placeholder") or best.get_attribute("name") or best.get_attribute("id") or "?")
+
+
+def run_steps(page, steps):
+    notes = []
+    for st in steps:
+        try:
+            if "click" in st:
+                page.locator(st["click"]).first.click(timeout=15000, force=True)
+                notes.append("clicked " + st["click"][:60])
+            elif "fill" in st:
+                page.locator(st["fill"][0]).first.fill(st["fill"][1], timeout=15000)
+                notes.append("filled " + st["fill"][0])
+            elif "fill_hint" in st:
+                notes.append(heuristic_fill(page, st["fill_hint"][1], st["fill_hint"][0]))
+            elif "press" in st:
+                page.keyboard.press(st["press"])
+                notes.append("pressed " + st["press"])
+            elif "wait" in st:
+                page.wait_for_timeout(st["wait"])
+        except Exception as e:
+            notes.append("FAILED " + str(st)[:80] + ": " + repr(e)[:160])
+    try:
+        page.wait_for_load_state("networkidle", timeout=15000)
+    except Exception:
+        pass
+    return notes
+
+
+def heuristic_fill(page, text, hint):
+    rx = re.compile(hint, re.I)
+    for el in page.query_selector_all("input:not([type=hidden]):not([type=checkbox]):not([type=radio])"):
+        try:
+            attrs = " ".join(filter(None, [el.get_attribute(a) for a in ("placeholder", "aria-label", "name", "id", "title")]))
+            if el.is_visible() and rx.search(attrs):
+                el.fill(text)
+                el.focus()
+                return "filled " + attrs[:80]
+        except Exception:
+            continue
+    names = [(" ".join(filter(None, [el.get_attribute(a) for a in ("name", "id", "placeholder")])))[:60]
+             for el in page.query_selector_all("input")][:30]
+    return "no match; inputs=" + "; ".join(names)
 
 
 def main(only=None):
@@ -93,6 +135,9 @@ def main(only=None):
                                               if k.lower() in ("content-type", "accept", "x-requested-with", "authorization")},
                               "post_data": (resp.request.post_data or "")[:3000], "body": body})
             page.on("response", on_resp)
+            downloads = []
+            page.on("download", lambda d, downloads=downloads: downloads.append({"url": d.url, "name": d.suggested_filename}))
+            page.on("popup", lambda p2, downloads=downloads: downloads.append({"popup": p2.url}))
             try:
                 resp = page.goto(t["url"], wait_until="domcontentloaded", timeout=60000)
                 try:
@@ -100,6 +145,8 @@ def main(only=None):
                 except Exception:
                     pass
                 page.wait_for_timeout(4000)
+                if t.get("steps"):
+                    rec["step_notes"] = run_steps(page, t["steps"])
                 if t.get("click"):
                     try:
                         page.get_by_text(t["click"], exact=False).first.click(timeout=15000)
@@ -121,6 +168,7 @@ def main(only=None):
             except Exception as e:
                 rec.update(result="error", error=repr(e)[:400])
             rec["xhr"] = calls[:80]
+            rec["downloads"] = downloads
             ctx.close()
             save_json(os.path.join(out_dir, t["id"] + ".json"), rec)
             print(t["id"], rec.get("result"), rec.get("status"), len(calls), "xhr", len(rec.get("links", [])), "links", flush=True)
