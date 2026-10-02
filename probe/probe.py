@@ -56,9 +56,13 @@ def robots_for(url):
         # RFC 9309 §2.3.1: 2xx -> parse; 4xx ("unavailable") -> no restrictions;
         # 5xx or network failure ("unreachable") -> assume complete disallow.
         if 200 <= r.status_code < 300:
-            if "<html" in body[:500].lower():
-                rp.disallow_all = True  # WAF block page served in place of robots.txt
-                info["note"] = "robots.txt returned an HTML block page; treated as disallow"
+            head = body[:3000].lower()
+            if "<html" in head and any(m in head for m in BLOCK_MARKERS[:3]):
+                rp.disallow_all = True  # firewall block page served in place of robots.txt
+                info["note"] = "robots.txt returned a firewall block page; treated as disallow"
+            elif "<html" in head:
+                rp.allow_all = True     # app returns its HTML shell for any path: no robots.txt exists
+                info["note"] = "no robots.txt (host returns its HTML app shell); no rules apply"
             else:
                 rp.parse(body.splitlines())
         elif 400 <= r.status_code < 500:
