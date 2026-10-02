@@ -28,6 +28,19 @@ def style(c):
     }
 
 
+def widths(ws):
+    """Column widths by letter. <col min max> spans group adjacent equal widths, so expand them."""
+    from openpyxl.utils import get_column_letter
+    out = {}
+    for dim in ws.column_dimensions.values():
+        if dim.width is None:
+            continue
+        for i in range((dim.min or 0), (dim.max or 0) + 1):
+            if i:
+                out[get_column_letter(i)] = round(dim.width, 2)
+    return out
+
+
 def val(c):
     v = c.value
     if isinstance(v, str) and v.startswith("="):
@@ -56,10 +69,10 @@ def main():
                 for k in sa:
                     if sa[k] != sb[k]:
                         diffs.append(f"{name}!{ca.coordinate} {k} {sa[k]} vs {sb[k]}")
-        for col, dim in wa.column_dimensions.items():
-            wb_w = wb.column_dimensions[col].width
-            if dim.width and abs((dim.width or 0) - (wb_w or 0)) > 0.01:
-                diffs.append(f"{name} col {col} width {dim.width} vs {wb_w}")
+        xa, xb = widths(wa), widths(wb)
+        for col in sorted(set(xa) | set(xb)):
+            if xa.get(col) != xb.get(col):
+                diffs.append(f"{name} col {col} width {xa.get(col)} vs {xb.get(col)}")
         if name == "Tracker":
             if wa.freeze_panes != wb.freeze_panes:
                 diffs.append(f"freeze {wa.freeze_panes} vs {wb.freeze_panes}")
