@@ -69,6 +69,40 @@ def looks_blocked(text: str) -> Optional[str]:
     return None
 
 
+def aia_bundle(host: str, port: int = 443) -> str:
+    """Complete a server's incomplete certificate chain the way browsers do (AIA fetching).
+
+    Reads the leaf certificate (trusting nothing), downloads the issuing intermediate from the
+    leaf's Authority Information Access URL, and returns a CA file = the normal trust store plus
+    that intermediate. Verification stays fully on: the chain must still end at a trusted root
+    and the hostname must still match. Never disable TLS verification instead.
+    """
+    import ssl
+    import certifi
+    from cryptography import x509
+    from cryptography.hazmat.primitives import serialization
+    from cryptography.x509.oid import AuthorityInformationAccessOID, ExtensionOID
+    leaf = x509.load_pem_x509_certificate(ssl.get_server_certificate((host, port), timeout=30).encode())
+    aia = leaf.extensions.get_extension_for_oid(ExtensionOID.AUTHORITY_INFORMATION_ACCESS).value
+    urls = [d.access_location.value for d in aia if d.access_method == AuthorityInformationAccessOID.CA_ISSUERS]
+    if not urls:
+        raise RuntimeError(f"no AIA issuer URL on {host}")
+    raw = requests.get(urls[0], timeout=30, headers={"User-Agent": UA}).content
+    try:
+        inter = x509.load_der_x509_certificate(raw)
+    except ValueError:
+        inter = x509.load_pem_x509_certificate(raw)
+    path = os.path.join(tempfile.gettempdir(), f"ca_{slug(host)}.pem")
+    with open(path, "wb") as f:
+        f.write(open(certifi.where(), "rb").read() + b"\n" + inter.public_bytes(serialization.Encoding.PEM))
+    return path
+
+
+def _chain_incomplete(e: Exception) -> bool:
+    t = str(e).lower()
+    return "unable to get local issuer certificate" in t or "certificate verify failed: unable to get" in t
+
+
 class Blocked(Exception):
     """The host refused us (robots, firewall, challenge, 401/403/402/429)."""
 
@@ -79,6 +113,7 @@ class HostState:
     robots: Optional[robotparser.RobotFileParser] = None
     robots_status: object = None
     robots_note: str = ""
+    ca_bundle: Optional[str] = None   # trust store + the server's missing intermediate (AIA), when needed
 
 
 @dataclass
@@ -116,7 +151,13 @@ class Http:
         rp = robotparser.RobotFileParser()
         self._wait(hs)
         try:
-            r = self.session.get(rurl, timeout=30)
+            try:
+                r = self.session.get(rurl, timeout=30, verify=hs.ca_bundle or True)
+            except requests.exceptions.SSLError as e:
+                if not _chain_incomplete(e):
+                    raise
+                hs.ca_bundle = aia_bundle(p.hostname, p.port or 443)
+                r = self.session.get(rurl, timeout=30, verify=hs.ca_bundle)
             hs.robots_status = r.status_code
             body = r.content.decode("utf-8-sig", errors="replace").lstrip("﻿")
             head = body[:3000].lower()
@@ -155,7 +196,19 @@ class Http:
         for attempt in range(retries + 1):
             self._wait(hs)
             try:
-                r = self.session.request(method, url, **kw)
+                r = self.session.request(method, url, verify=hs.ca_bundle or True, **kw)
+            except requests.exceptions.SSLError as e:
+                if _chain_incomplete(e) and not hs.ca_bundle:
+                    p = urlparse(url)
+                    try:
+                        hs.ca_bundle = aia_bundle(p.hostname, p.port or 443)
+                        self.log.append({"url": url, "result": "tls_chain_completed_via_aia"})
+                        continue
+                    except Exception as e2:
+                        last_exc = e2
+                        break
+                last_exc = e
+                break
             except requests.RequestException as e:
                 last_exc = e
                 time.sleep(4 * (attempt + 1))

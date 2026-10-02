@@ -224,21 +224,31 @@ def az_acc(ctx):
             continue
         did = res[0]["docketID"]
         docs = None
-        for route in (f"GetDocketDocuments/{did}", f"docketDocuments/{did}", f"docket/{did}/documents"):
+        # docket/{id} is the documented route (returns documents with imageNumber). The others are
+        # guesses; an unknown route returns the SPA shell, which can carry a CAPTCHA widget, so a
+        # "block page" on a guessed route means "no such route", not a refusal.
+        routes = ["docket/{did}", "GetDocketDocuments/{did}", "docketDocuments/{did}", "docket/{did}/documents"]
+        j = None
+        pref = ctx.state.get("az_docs_route")
+        if pref in routes:
+            routes.remove(pref); routes.insert(0, pref)
+        for route in routes:
             try:
-                r = http.get(api + route, retries=0)
-                j = r.json()
-                docs = j if isinstance(j, list) else j.get("documents") or j.get("docketDocuments")
-                if docs:
-                    ctx.state["az_docs_route"] = route.split("/")[0]
-                    break
+                j = http.get(api + route.format(did=did), retries=0).json()
             except Blocked:
-                raise
+                if route == "docket/{did}":
+                    raise
+                continue
             except Exception:
                 continue
+            docs = j if isinstance(j, list) else (j.get("documents") or j.get("docketDocuments")
+                                                  or (j.get("data") or {}).get("documents") if isinstance(j, dict) else None)
+            if docs:
+                ctx.state["az_docs_route"] = route
+                break
         if not docs:
-            j = http.get(api + f"docket/{did}").json()
-            docs = j.get("documents") or j.get("docketDocuments") or []
+            ctx.log(f"az: no document list for {d} (docketID {did}); keys seen: {list(j)[:12] if isinstance(j, dict) else type(j).__name__}")
+            ctx.record(f"AZ {d}", "error", "document list route not resolved")
         for doc in docs or []:
             filed = _d(doc.get("docketDate") or doc.get("filedDate") or doc.get("documentDate"))
             if not _after(filed, ctx.since):
