@@ -1,8 +1,6 @@
 {
  "python": "out/py/Grid_Docket_Tracker_MASTER.xlsx",
  "exceljs": "out/exceljs.xlsx",
- "diffs": 1,
- "first": [
-  "Tracker col P width 9.0 vs None"
- ]
+ "diffs": 0,
+ "first": []
 }
