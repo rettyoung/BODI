@@ -1,0 +1,327 @@
+{
+ "id": "mo_casesearch",
+ "url": "https://www.efis.psc.mo.gov/Case/NewSearch",
+ "at": "2026-10-02T22:55:11Z",
+ "status": 200,
+ "search_note": "filled From",
+ "blocked": null,
+ "final_url": "https://www.efis.psc.mo.gov/Case",
+ "title": "Existing Case e-Filing & Search - EFIS",
+ "text_excerpt": "Skip to main content Register Log in Help Directory Home / Existing Case e-Filing & Search Company & User Management Agenda & Public Meetings Case e-Filings & Search Utility Compliance e-Filings & Search Consumer Resources Reports & Misc. Resources Existing Case e-Filing & Search Search Criteria Help \"Parent\" and \"Doing Business As\" companies will also be included when searching on a company. Date Filed Case No. Related Submission No. Status (Select) Closed/Archived Open Reopened Include only open or reopened cases: Utility Type (Select) Electric Gas Manufactured Housing Other Sewer Steam/Heat Telephone Telephone - CLEC Telephone - ILEC Telephone - IVoIP Telephone - IXC Telephone - Payphone Telephone - STS Telephone - Wireless/Cellular Video Water Company Include companies closed in EFIS: Search on single company: Search Subject Companies only: Type of Case (Select) Accounting Authority Order Alternative Regulation Application for Certificate Application for Expanded Local Calling Area Plans Application for IVoIP Application for Video Service Change of Supplier Complaint Discontinuance of Certificate of Service, Registration, or ETC Designation ETC Designation Request FAC FAC True-Up Finance Infrastructure Replacement Surcharge (ISRS) Interconnection Agreement Management Audit Mediation & Arbitration MEEIA Merger, Sale, or Transfer Name Change Other PGA/ACA Rate Case (Large) Rate Case (Small) Rate Design Rulemaking Safety Securitization Staff Complaint Tariff - Formal Territorial Agreement Variance, Waiver or Extension from Commission Rule Water and Sewer Infrastructure Rate Adjustment (WSIRA) Working Group Certificate of Convenience and Necessity (CCN) (Closed) Other (Closed) Type of Filing (Select) Accounting Schedule Answer to Complaint Application Application to Intervene Brief Carrier of Last Resort Obligation Relief Comments Conclusions of Law Decision Electric Utility Inspection Compliance Plans 20 CSR 4240-23.020(3) Entry of Appearance Ex Parte Notice Exhibit Extra Record Notice Financing Report After a Commission Order Formal Complaint Hearing Exhibit Incident Report Integrated Resource Planning Joint Motion Mandate Memorandum Motion Non-Disclosure Agreement Notice Notice of Communication Notice of Intended Case Filing Opinion Order Other Post-Hearing Exhibit Procedure Schedule Proposed Findings of Fact Proposed Procedural Schedule Reliability Indices Report 20 CSR 4240-23.010(2) Renewable Energy Standard Report and Plan Request Response Response to Order Rulemaking Scheduled Vegetation Management 20 CSR 4240-23.030(6)(C) Small Company Rate Increase Request Small Company Rate Increase Request(Application) Staff Recommendation Staff Report Statement of Issues Statement of Position Status Report Stipulation and Agreement Suggestions in Support of Stipulation & Agreement Tariff Testimony Transcripts Vegetation Management Standards Revisions 20 CSR 4240-23.030(4)(C) Response to Filing (Closed) Title of Filing Individual Filing Search Search ",
+ "links": [
+  [
+   "https://www.efis.psc.mo.gov/Case#mainContentLanding",
+   "Skip to main content"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/",
+   ""
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Account/Register",
+   "Register"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Account/Login",
+   "Log in"
+  ],
+  [
+   "https://psc.mo.gov/EFISHelp/",
+   "Help Directory"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/",
+   "Home"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case",
+   "Existing Case e-Filing & Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "Company & User\n Management"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Company/NewSearch",
+   "Company Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "Agenda & Public\n Meetings"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Agenda/NewSearch",
+   "Agenda Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/PublicMeeting/NewSearch",
+   "Public Meeting Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "Case\n e-Filings & Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/NewSearch",
+   "Existing Case e-Filing & Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/ServiceList/NewSearch",
+   "Service List Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/ServiceList/Print",
+   "Service List Print"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Calendar/NewSearch",
+   "Calendar Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/SmallCompanyRateIncrease/NewSearch",
+   "Small Company Rate Increase Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "Utility Compliance\n e-Filings & Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Tariff/NewSearch",
+   "Tariff Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/NonCase/NewSearch",
+   "Existing Non-Case e-Filing & Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/InformalInterconnection/NewSearch",
+   "Informal Interconnection Agreement Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "Consumer Resources"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Inquiry/EmailForm",
+   "Complaint/Inquiry Form"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/PublicComment/NewSearch",
+   "Comments Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/PublicComment/EmailForm",
+   "Comment Form"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "Reports & Misc. Resources"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/NewVideoFranchiseSearch",
+   "Video Franchise Search"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Report/ReportListing",
+   "Report Listing"
+  ],
+  [
+   "https://psc.mo.gov/EFISHelp/Case",
+   "Help"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case/NewSearch",
+   "Clear"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Home/Contact",
+   "Contact Us"
+  ],
+  [
+   "https://psc.mo.gov/",
+   "Public Service Commission Homepage"
+  ],
+  [
+   "https://revisor.mo.gov/main/Home.aspx",
+   "Missouri Statutes"
+  ],
+  [
+   "https://dci.mo.gov/",
+   "MO Department of Commerce and Insurance"
+  ],
+  [
+   "https://opc.mo.gov/",
+   "Office of the Public Counsel"
+  ],
+  [
+   "https://www.naruc.org/",
+   "National Association of Regulatory Utility Commissioners (NARUC)"
+  ],
+  [
+   "https://www.energy.gov/",
+   "U.S. Department of Energy"
+  ],
+  [
+   "https://mo.gov/accessibility/",
+   "Accessibility"
+  ],
+  [
+   "https://psc.mo.gov/General/Get_Email_Updates",
+   ""
+  ],
+  [
+   "https://twitter.com/#!/MissouriPSC",
+   ""
+  ],
+  [
+   "https://www.youtube.com/MissouriPSC",
+   ""
+  ],
+  [
+   "https://www.facebook.com/Missouri-Public-Service-Commission-100274236051607",
+   ""
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "27"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "28"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "29"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "30"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "1"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "2"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "3"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "4"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "5"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "6"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "7"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "8"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "9"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "10"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "11"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "12"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "13"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "14"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "15"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "16"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "17"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "18"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "19"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "20"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "21"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "22"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "23"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "24"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "25"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "26"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "27"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "28"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "29"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "30"
+  ],
+  [
+   "https://www.efis.psc.mo.gov/Case#",
+   "31"
+  ]
+ ],
+ "result": "ok",
+ "xhr": []
+}
