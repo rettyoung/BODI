@@ -1,0 +1,37 @@
+name: xlsx-parity
+# The console builds the Excel tracker in the browser (console/tracker_xlsx.js, ExcelJS);
+# the Brief also commits a Python build (tracker/build_tracker.py). This job proves they match.
+on:
+  workflow_dispatch:
+  push:
+    paths: ["console/**", "tracker/**", "store/**", "tests/**", ".github/workflows/xlsx-parity.yml"]
+concurrency: { group: repo-writer, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  parity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq pandoc >/dev/null
+      - run: pip install -q openpyxl python-docx
+      - run: npm install --no-save --silent exceljs@4.4.0
+      - name: Build both workbooks
+        run: |
+          mkdir -p out
+          python tracker/build_console.py out/pkg --asof "$(date -u +%F)" --deliverables out/py
+          node tests/xlsx_build.js out/pkg/data.json out/exceljs.xlsx
+      - name: Compare
+        run: |
+          mkdir -p data/tests
+          python tests/xlsx_parity.py out/py/Grid_Docket_Tracker_MASTER.xlsx out/exceljs.xlsx data/tests/xlsx_parity.json
+      - name: Record result
+        if: always()
+        run: |
+          git config user.name "grid-docket-bot"; git config user.email "grid-docket-bot@users.noreply.github.com"
+          git add data/tests/xlsx_parity.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -qm "xlsx parity $(date -u +%FT%TZ)" && git pull -q --rebase && git push -q)

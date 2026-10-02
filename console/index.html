@@ -156,6 +156,11 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
 .foot{border-top:2px solid var(--ink);padding-top:1rem;font-family:var(--mono);font-size:.73rem;color:var(--ink-3);line-height:1.7}
 .loading{padding:2.4rem 1rem;text-align:center;color:var(--ink-3);font-family:var(--mono);font-size:.8rem}
 .scroll{overflow-x:auto}
+.narr{font-size:.92rem;line-height:1.6;max-width:72ch}
+.narr h3{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin:1.1rem 0 .35rem}
+.narr h3:first-child{margin-top:0}
+.narr p{margin:.35rem 0}.narr ul{margin:.3rem 0;padding-left:1.15rem}.narr li{margin:.25rem 0}
+.narr a{color:var(--accent)}
 </style>
 
 <div class="wrap">
@@ -164,7 +169,7 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
   <p class="eyebrow">Blue Owl Digital Infrastructure</p>
   <h1>Grid Docket Console</h1>
   <div class="meta"><span id="hdrdate">—</span><span>25 UTILITIES · 8 RTOs · 18 JURISDICTIONS</span><span id="hdrcount">—</span></div>
-  <div class="dlrow" id="dlrow" hidden><span class="dllbl">Downloads</span><button class="btn" type="button" id="dl-xlsx">Excel tracker (.xlsx)</button><button class="btn" type="button" id="dl-docx" hidden>Weekly narrative (.docx)</button><span class="dlmsg" id="dlmsg" role="status"></span></div>
+  <div class="dlrow" id="dlrow" hidden><span class="dllbl">Downloads</span><button class="btn" type="button" id="dl-xlsx" hidden>Excel tracker (.xlsx)</button><button class="btn" type="button" id="dl-pdf" hidden>Weekly narrative (.pdf)</button><button class="btn" type="button" id="dl-md" hidden>Narrative (.md)</button><span class="dlmsg" id="dlmsg" role="status"></span></div>
 </header>
 
 <section id="s-status">
@@ -175,8 +180,13 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
   </div>
 </section>
 
+<section id="s-week" hidden>
+  <div class="sec-head"><span class="sec-num">02</span><h2>This week</h2><span class="sec-note" id="wk-note">—</span></div>
+  <article class="card narr" id="wk"></article>
+</section>
+
 <section id="s-time">
-  <div class="sec-head"><span class="sec-num">02</span><h2>Decision calendar</h2><span class="sec-note" id="tl-note">—</span></div>
+  <div class="sec-head"><span class="sec-num">03</span><h2>Decision calendar</h2><span class="sec-note" id="tl-note">—</span></div>
   <div class="card">
     <div class="tl-axis" id="tl"></div>
     <div class="bar" style="margin:0">
@@ -188,7 +198,7 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
 </section>
 
 <section id="s-conv">
-  <div class="sec-head"><span class="sec-num">03</span><h2>Conversion</h2><span class="sec-note">signed capacity by issuer, GW</span></div>
+  <div class="sec-head"><span class="sec-num">04</span><h2>Conversion</h2><span class="sec-note">signed capacity by issuer, GW</span></div>
   <div class="sm" id="sm"></div>
   <div class="card" style="margin-top:12px">
     <div style="font-size:.85rem;font-weight:600;margin-bottom:.1rem">Dominion contracted-capacity ladder</div>
@@ -199,7 +209,7 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
 </section>
 
 <section id="s-tariff">
-  <div class="sec-head"><span class="sec-num">04</span><h2>Tariff terms</h2><span class="sec-note">what a large load actually signs up to</span></div>
+  <div class="sec-head"><span class="sec-num">05</span><h2>Tariff terms</h2><span class="sec-note">what a large load actually signs up to</span></div>
   <div class="tblwrap"><table class="tm"><thead><tr>
     <th>Utility</th><th>Tariff</th><th>Threshold</th><th>Term</th><th>Min take</th><th>Notice</th><th>Collateral</th><th>Status</th>
   </tr></thead><tbody id="tmb"><tr><td colspan="8"><div class="loading">Loading…</div></td></tr></tbody></table></div>
@@ -207,7 +217,7 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
 </section>
 
 <section id="s-heat">
-  <div class="sec-head"><span class="sec-num">05</span><h2>Where the pressure is</h2><span class="sec-note">events touching each lever, by jurisdiction</span></div>
+  <div class="sec-head"><span class="sec-num">06</span><h2>Where the pressure is</h2><span class="sec-note">events touching each lever, by jurisdiction</span></div>
   <div class="card">
     <div class="scroll"><table class="hm"><thead><tr id="hmh"></tr></thead><tbody id="hmb"></tbody></table></div>
     <div style="display:flex;align-items:center;gap:10px;margin-top:12px;font-size:.76rem;color:var(--ink-3);flex-wrap:wrap">
@@ -227,7 +237,7 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
 </section>
 
 <section id="s-console">
-  <div class="sec-head"><span class="sec-num">06</span><h2>Console</h2><span class="sec-note">click any row to expand</span></div>
+  <div class="sec-head"><span class="sec-num">07</span><h2>Console</h2><span class="sec-note">click any row to expand</span></div>
 
   <div class="ctrl">
     <input class="srch" id="q" type="search" placeholder="Search headline, entity, docket, takeaway…" aria-label="Search">
@@ -538,40 +548,87 @@ function statusBox(st){
   document.getElementById('st-lbl').textContent=st.label||'';
   document.getElementById('st-list').innerHTML=(st.items||[]).map(i=>`<li><b>${esc(i.b||'')}</b> ${esc(i.t||'')}</li>`).join('');
 }
-/* Workbook and narrative are offered through the downloads capability; a plain link would be inert here. */
-async function downloads(files){
+/* Every file reaches the viewer through the downloads capability; a plain link would be inert here.
+   The workbook is built in this page from the full row table (tracker_xlsx.js, a port of
+   tracker/build_tracker.py whose output CI checks cell for cell against the Python build). */
+/*@@TRACKER_XLSX@@*/
+function loadScript(src){return new Promise((ok,no)=>{const t=document.createElement('script');t.src=src;t.onload=ok;t.onerror=()=>no(new Error('load failed'));document.head.appendChild(t);});}
+let _xl=null;
+function excelJS(){
+  if(window.ExcelJS)return Promise.resolve(window.ExcelJS);
+  if(!_xl)_xl=loadScript('https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.4.0/exceljs.min.js')
+    .catch(()=>loadScript('https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js'))
+    .then(()=>{if(!window.ExcelJS)throw new Error('workbook library unavailable');return window.ExcelJS;})
+    .catch(e=>{_xl=null;throw e;});
+  return _xl;
+}
+async function downloads(d){
   let dl=null;
   try{ dl = window.claude && claude.use ? await claude.use("downloads") : null; }catch(_){ dl=null; }
-  if(!dl||!files)return;
-  const row=document.getElementById('dlrow'), msg=document.getElementById('dlmsg');
-  const wire=(id,f)=>{
-    const b=document.getElementById(id); if(!f){b.hidden=true;return;}
+  if(!dl)return;
+  const files=d.files||{}, row=document.getElementById('dlrow'), msg=document.getElementById('dlmsg');
+  const wire=(id,name,make)=>{
+    const b=document.getElementById(id); if(!make){b.hidden=true;return false;}
     b.hidden=false;
     b.onclick=async()=>{
-      msg.textContent='Preparing '+f.name+'…'; b.disabled=true;
+      msg.textContent='Preparing '+name+'…'; b.disabled=true;
       try{
-        const blob=await fetch(f.path).then(r=>{if(!r.ok)throw new Error('not found');return r.blob();});
-        await dl.save({filename:f.name, data:blob});
-        msg.textContent='Saved '+f.name;
+        await dl.save({filename:name, data:await make()});
+        msg.textContent='Saved '+name;
       }catch(err){
-        msg.textContent = err && err.code==='declined' ? '' : 'Could not save '+f.name+(err&&err.message?' ('+err.message+')':'');
+        const c=err&&err.code;
+        msg.textContent = c==='declined' ? '' : c==='rate_limited' ? 'Another save is open — try again in a moment.'
+          : 'Could not save '+name+(err&&err.message?' ('+err.message+')':'');
       }finally{b.disabled=false;}
     };
+    return true;
   };
-  wire('dl-xlsx',files.xlsx); wire('dl-docx',files.docx);
-  row.hidden=!(files.xlsx||files.docx);
+  const fetchBlob=p=>()=>fetch(p).then(r=>{if(!r.ok)throw new Error('not found');return r.blob();});
+  const xname='Grid_Docket_Tracker_MASTER_'+(d.asof||TODAY)+'.xlsx';
+  const any=[
+    wire('dl-xlsx',xname,d.table&&window.GridDocketXlsx?async()=>{
+      const wb=GridDocketXlsx.build(await excelJS(),d.table,d.asof);
+      return new Blob([await wb.xlsx.writeBuffer()]);
+    }:null),
+    wire('dl-pdf',files.pdf&&files.pdf.name,files.pdf?fetchBlob(files.pdf.path):null),
+    wire('dl-md',files.md&&files.md.name,files.md?fetchBlob(files.md.path):null)
+  ].some(Boolean);
+  row.hidden=!any;
+}
+/* Minimal markdown for the weekly narrative: ### headings, paragraphs, - bullets, **bold**, [text](url). */
+function mdInline(t){
+  return esc(t).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')
+    .replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,(m,a,u)=>`<a href="${u}" target="_blank" rel="noopener">${a}</a>`);
+}
+function narrative(md,asof){
+  if(!md)return;
+  const out=[];let list=false;
+  md.split(/\n/).forEach(line=>{
+    const l=line.trim();
+    if(/^- /.test(l)){if(!list){out.push('<ul>');list=true;}out.push('<li>'+mdInline(l.slice(2))+'</li>');return;}
+    if(list){out.push('</ul>');list=false;}
+    if(!l)return;
+    if(/^#{1,2} /.test(l))return;           /* the title line is the section head */
+    if(/^#{3,} /.test(l)){out.push('<h3>'+mdInline(l.replace(/^#+ /,''))+'</h3>');return;}
+    out.push('<p>'+mdInline(l)+'</p>');
+  });
+  if(list)out.push('</ul>');
+  document.getElementById('wk').innerHTML=out.join('');
+  document.getElementById('wk-note').textContent='week to '+fmtD(asof);
+  document.getElementById('s-week').hidden=false;
 }
 
 Promise.all([
   fetch('data.json').then(r=>r.json()),
   fetch('metrics.json').then(r=>r.json()).catch(()=>null),
   fetch('tariff_terms.json').then(r=>r.json()).catch(()=>null),
-  fetch('status.json').then(r=>r.json()).catch(()=>null)
-]).then(([d,m,t,st])=>{
+  fetch('status.json').then(r=>r.json()).catch(()=>null),
+  fetch('narrative.md').then(r=>r.ok?r.text():null).catch(()=>null)
+]).then(([d,m,t,st,nar])=>{
   EV=d.data;NROWS=d.rows;MET=m;TAR=t;
   if(d.asof)TODAY=d.asof;
   const p=TODAY.split('-');document.getElementById('hdrdate').textContent=(+p[2])+' '+['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'][+p[1]-1]+' '+p[0];
-  statusBox(st);downloads(d.files);
+  statusBox(st);downloads(d);narrative(nar,TODAY);
   document.getElementById('hdrcount').textContent=`${d.events} EVENTS · ${d.rows} ROWS`;
   chips('f-mat','mat',tally(e=>[e.mat]));
   chips('f-sub','sub',tally(e=>[e.subject]));
