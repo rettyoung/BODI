@@ -445,18 +445,49 @@ def ok_occ(ctx):
                 break
         ctx.log(f"ok {case}: hitCount {lst.get('hitCount')} after {len(variants)} variants")
         cols = [c.get("name") for c in lst.get("columns", [])]
+        # The bare number ("2026-000031") also matches other OCC case types (oil & gas causes), and the
+        # listing carries no case metadata. So read page 1's text layer of each hit (cheap) and keep it only
+        # if it names this PUD cause. Rejections are remembered so they are checked once.
+        rejected = set(ctx.state.setdefault("rejected", []))
+        accepted = ctx.state.setdefault("accepted", {})
+        pfx, num = re.match(r"([A-Z]+)\s*(\d{4}-?\d+)", case).groups() if re.match(r"([A-Z]+)\s*(\d{4}-?\d+)", case) else (case, case)
+        y_, n_ = num.split("-") if "-" in num else (num[:4], num[4:])
+        cause_rx = re.compile(rf"{pfx}\s*{y_}\s*-?\s*0*{int(n_)}\b", re.I)
+        recs = []
         for res in lst.get("results", []) or lst.get("rows", []) or []:
             rec = res if isinstance(res, dict) else dict(zip(cols, res))
+            recs.append(rec)
+        recs.sort(key=lambda r: -(r.get("entryId") or 0))
+        checked = 0
+        for rec in recs[:60]:
             eid = rec.get("entryId") or rec.get("Id") or rec.get("id")
-            name = rec.get("name") or rec.get("Name")
-            filed = _d(rec.get("f_Scan Date") or rec.get("CreationDate") or rec.get("LastModified"))
-            if not _after(filed, ctx.since) and filed is not None:
+            if not eid or str(eid) in rejected:
                 continue
+            if str(eid) not in accepted:
+                if checked >= 25:
+                    break     # the rest next night
+                checked += 1
+                try:
+                    t = http.post(base + "DocumentService.aspx/GetTextHtmlForPage", headers=hdr, data=json.dumps({
+                        "repoName": "OCC", "documentId": eid, "pageNum": 1, "showAnn": True, "searchUuid": ""})).json()
+                    page1 = re.sub(r"<[^>]+>", " ", json.dumps(t))
+                except Blocked:
+                    raise
+                except Exception as e:
+                    ctx.log(f"ok text {eid}: {e!r}")
+                    continue
+                if not cause_rx.search(page1):
+                    rejected.add(str(eid))
+                    continue
+                accepted[str(eid)] = re.sub(r"\s+", " ", page1)[:300]
+            name = rec.get("name") or rec.get("Name")
             items.append({"id": f"OK:{eid}", "jur": "OK", "source": "ok_occ", "kind": "filing", "docket": case,
-                          "title": name, "filed": filed,
+                          "title": f"OCC {case} document {name} ({(rec.get('entryProperties') or '').strip()}): {accepted[str(eid)][:160]}",
+                          "filed": None,
                           "url": f"{base}DocView.aspx?id={eid}&dbid=0&repo=OCC",
-                          "fetch": [{"url": f"{base}ElectronicFile.aspx?docid={eid}&dbid=0&repo=OCC"}] if eid else [],
-                          "meta": {"raw": {k: rec.get(k) for k in list(rec)[:12]}}})
+                          "fetch": [{"url": f"{base}ElectronicFile.aspx?docid={eid}&dbid=0&repo=OCC"}],
+                          "meta": {"entryId": eid, "pages": rec.get("entryProperties")}})
+        ctx.state["rejected"] = sorted(rejected)[-5000:]
         if not lst:
             ctx.log(f"ok: empty listing for {case}")
     return items

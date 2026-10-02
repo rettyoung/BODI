@@ -1,5 +1,5 @@
 GRID DOCKET SWEEP v3 — weekly classification run. Blue Owl Digital Infrastructure.
-Runs unattended Monday morning in the cloud. It turns everything collected since the last sweep into tracker rows. It does NOT publish and does NOT email; the Brief does that two hours later.
+Runs unattended Monday morning in the cloud. It turns everything collected since the last sweep into tracker rows. It does NOT publish and does NOT email; the Brief does that three hours later.
 
 WHAT FEEDS THIS RUN
   A. The nightly collector (GitHub Actions, repo rettyoung/BODI) has already downloaded and text-extracted primary filings from FERC, AZ, GA, TX, LA, MO, NM, KS, OK, AL, EDGAR, the Federal Register, RTO/NERC/governor pages, RSS and investor decks. Results: data/candidates/<date>.jsonl (one line per new item), data/filings/<jur>/<source>/<id>.json (metadata + full document text), data/health/<date>.json.

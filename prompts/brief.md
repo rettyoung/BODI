@@ -1,5 +1,5 @@
 GRID DOCKET WEEKLY BRIEF v3. Blue Owl Digital Infrastructure.
-Runs unattended each Monday, two hours after the Sweep. Synthesises, publishes and delivers. It does NOT collect and does NOT write the row store.
+Runs unattended each Monday, three hours after the Sweep. Synthesises, publishes and delivers. It does NOT collect and does NOT write the row store.
 
 DELIVERABLES, in order of importance
   1. The Excel master tracker (Grid_Docket_Tracker_MASTER.xlsx) — the primary deliverable. Built by tracker/build_tracker.py from the full row store, committed to the repo at deliverables/, and downloadable from the console (the page builds the identical workbook in the browser; CI proves the two builds match cell for cell).
