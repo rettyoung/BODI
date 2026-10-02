@@ -1,0 +1,1164 @@
+{
+  "run_utc": "20261002T215141Z",
+  "runner_ip": "20.106.23.87",
+  "user_agent": "GridDocketResearchBot/0.1 (+https://github.com/rettyoung/bodi)",
+  "results": [
+    {
+      "id": "ferc-elib-filelist",
+      "jur": "FERC",
+      "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261001-5390",
+      "js": true,
+      "note": "accession from eSubscription email; capture XHR API",
+      "robots": {
+        "robots_url": "https://elibrary.ferc.gov/robots.txt",
+        "status": 404,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261001-5390",
+        "content_type": "text/html",
+        "bytes": 22464,
+        "server": "cloudflare",
+        "title": "eLibrary",
+        "visible_chars": 8,
+        "excerpt": "eLibrary",
+        "verdict": "ok"
+      },
+      "verdict": "ok",
+      "render": {
+        "status": 200,
+        "title": "eLibrary | File List",
+        "rendered_chars": 1409,
+        "excerpt": "eLibrary Skip to main content eLibrary Federal Energy Regulatory Commission ACCESSIBILITY TIPSFERC.GOVHELP Subscribe to a Docket Email Result Print Page Note: Icons and links to zip, view or download files will be disabled if you do not have the required permission to perform these actions. Privileged, Protected and CEII files are available to FERC personnel after login. Contact the helpdesk to request access to offline files such as microfilm and microfiche documentation at 202-502-6652 or toll",
+        "verdict": "ok",
+        "xhr_calls": [
+          {
+            "method": "GET",
+            "url": "https://elibrary.ferc.gov/eLibrary/assets/config/app-settings.json",
+            "status": 200,
+            "ctype": "application/json",
+            "post_data": ""
+          },
+          {
+            "method": "GET",
+            "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/Login",
+            "status": 401,
+            "ctype": "",
+            "post_data": ""
+          },
+          {
+            "method": "POST",
+            "url": "https://elibrary.ferc.gov/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7708196705746048:1790975123:b45HqC2zvITyceGehjmbElWIWKzWxdNW5WZj1fhrd0o/a446e7d949816058",
+            "status": 200,
+            "ctype": "text/plain; charset=UTF-8",
+            "post_data": "1tZgDUaPRN9t1NqRXVdFO+5Emylr9qu085o3G22n6ranGouAeP$ht8FgkTqjWxdLvXnw5pcu4KkFWa01Ygq500+CRb2vAgSDTThTGlhXVsiGjS0-XUGhX2p2q90Riidk2+J3oCoKdsMDZ+2XGBeWCZ6BgUsgWtL6S583PFo33KOAMp3CFPEaSsA+jOc0dCAY$mTLmr3nXGNxrLAnGqC4d+3lmLcfCht-id3troO0hA+3DZw54GKBXgiOUyEo6fomX6N8sdNnrrqW3WLBSiw1fLr8EYo3sb$spGgEhY+60sPR"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je69u2v9131934939za200zd9131934939xf1&_p=1790977647801&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=924372311.1790977648&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.",
+            "status": 204,
+            "ctype": "text/plain",
+            "post_data": ""
+          },
+          {
+            "method": "POST",
+            "url": "https://browser-intake-ddog-gov.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.28.0%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Aelibrary-websearch&dd-api-key=pubf6c30b2482a98640532213fe68c287c5&dd-evp-origin-version=5.28.0&dd-evp-origin=browser&dd-request-id=5aaf30b3-95f7-4f12-8219-28dc3f11b0d4&b",
+            "status": 202,
+            "ctype": "application/json",
+            "post_data": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":20},\"discarded\":false},\"application\":{\"id\":\"52f6cc3e-3b73-4b1d-9668-05c32c17bf38\"},\"date\":1790977647504,\"service\":\"elibrary-websearch\",\"source\":\"browser\",\"session\":{\"id\":\"57f57f8c-e18f-4bbc-8"
+          },
+          {
+            "method": "GET",
+            "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/GetFileListFromP8/20261001-5390",
+            "status": 200,
+            "ctype": "application/json; charset=utf-8",
+            "post_data": ""
+          },
+          {
+            "method": "POST",
+            "url": "https://browser-intake-ddog-gov.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.28.0%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Aelibrary-websearch&dd-api-key=pubf6c30b2482a98640532213fe68c287c5&dd-evp-origin-version=5.28.0&dd-evp-origin=browser&dd-request-id=c94f58d0-7d81-4b2e-a6dc-bbd37b3fa35f&b",
+            "status": 202,
+            "ctype": "application/json",
+            "post_data": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":20},\"discarded\":false},\"application\":{\"id\":\"52f6cc3e-3b73-4b1d-9668-05c32c17bf38\"},\"date\":1790977647801,\"service\":\"elibrary-websearch\",\"source\":\"browser\",\"session\":{\"id\":\"57f57f8c-e18f-4bbc-8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ferc-elib-search",
+      "jur": "FERC",
+      "url": "https://elibrary.ferc.gov/eLibrary/search",
+      "js": true,
+      "robots": {
+        "robots_url": "https://elibrary.ferc.gov/robots.txt",
+        "status": 404,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://elibrary.ferc.gov/eLibrary/search",
+        "content_type": "text/html",
+        "bytes": 22464,
+        "server": "cloudflare",
+        "title": "eLibrary",
+        "visible_chars": 8,
+        "excerpt": "eLibrary",
+        "verdict": "ok"
+      },
+      "verdict": "ok",
+      "render": {
+        "status": 200,
+        "title": "eLibrary | General search",
+        "rendered_chars": 1023,
+        "excerpt": "eLibrary Skip to main content eLibrary Federal Energy Regulatory Commission ACCESSIBILITY TIPSFERC.GOVHELP General Search Page Search eLibrary * Indicates a required field. General Search Docket Search New Docket Only What\u2019s New in eLibraryvideocaminfo_outline Search Tips Search on a Reference Number (Docket, Accession, Ferc Cite, etc.) Docket (e.g. ER11 , ER11-4046 , ER11-4040-0201 ) Enter Docket Number Sub-Dockets (eg. 001, 002) help_outline Docket Pre-fixes Select Date Range (required) Filed ",
+        "verdict": "ok",
+        "xhr_calls": [
+          {
+            "method": "GET",
+            "url": "https://elibrary.ferc.gov/eLibrary/assets/config/app-settings.json",
+            "status": 200,
+            "ctype": "application/json",
+            "post_data": ""
+          },
+          {
+            "method": "GET",
+            "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/Login",
+            "status": 401,
+            "ctype": "",
+            "post_data": ""
+          },
+          {
+            "method": "POST",
+            "url": "https://elibrary.ferc.gov/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7708196705746048:1790975123:b45HqC2zvITyceGehjmbElWIWKzWxdNW5WZj1fhrd0o/a446e8060d3ae266",
+            "status": 200,
+            "ctype": "text/plain; charset=UTF-8",
+            "post_data": "1tZgDUaPRN9t1NqRXVdFO+5fI0lr9qu085o3G22n6ranGouAeP$ht8FgkTqjWxdLvXnw5pcu4KkFWa01Ygq500+CRb2vAgSDTThTGlhXVsiGjS0-XUGhX2p2q90Riidk2+J3oCoKdsMDZ+2XGBeWCZ6BgUsgWtL6S583PFo33KOAMp3CFPEaSsA+jOc0dCAY$mTLmr3nXGNxrLAnGqC4d+3lmLcfCht-id3troO0hA+3DZw54GKBXgiOUyEo6fomX6N8sdNnrrqW3WLBSiw1fLr8EYo3sb$spGgEhY+60sPR"
+          },
+          {
+            "method": "GET",
+            "url": "https://elibrary.ferc.gov/eLibrary/assets/data/config.json",
+            "status": 200,
+            "ctype": "text/html",
+            "post_data": ""
+          },
+          {
+            "method": "POST",
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je69u2h1v9131934939za200zd9131934939xf1&_p=1790977654835&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1567299275.1790977655&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.",
+            "status": 204,
+            "ctype": "text/plain",
+            "post_data": ""
+          },
+          {
+            "method": "GET",
+            "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/Search/GetClassTypes",
+            "status": 200,
+            "ctype": "application/json; charset=utf-8",
+            "post_data": ""
+          },
+          {
+            "method": "POST",
+            "url": "https://browser-intake-ddog-gov.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.28.0%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Aelibrary-websearch&dd-api-key=pubf6c30b2482a98640532213fe68c287c5&dd-evp-origin-version=5.28.0&dd-evp-origin=browser&dd-request-id=5c228c23-5063-42c8-aae6-558d91a3909a&b",
+            "status": 202,
+            "ctype": "application/json",
+            "post_data": "{\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":20},\"discarded\":false},\"application\":{\"id\":\"52f6cc3e-3b73-4b1d-9668-05c32c17bf38\"},\"date\":1790977654675,\"service\":\"elibrary-websearch\",\"source\":\"browser\",\"session\":{\"id\":\"87aef214-c332-4f8b-8"
+          },
+          {
+            "method": "POST",
+            "url": "https://browser-intake-ddog-gov.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.28.0%2Capi%3Axhr%2Cenv%3Aprod%2Cservice%3Aelibrary-websearch&dd-api-key=pubf6c30b2482a98640532213fe68c287c5&dd-evp-origin-version=5.28.0&dd-evp-origin=browser&dd-request-id=4c986f4a-72b1-4337-bdda-ae5c5053e5bb&bat",
+            "status": 202,
+            "ctype": "application/json",
+            "post_data": "{\"_dd\":{\"format_version\":2,\"drift\":-1,\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":20}},\"application\":{\"id\":\"52f6cc3e-3b73-4b1d-9668-05c32c17bf38\"},\"date\":1790977655479,\"service\":\"elibrary-websearch\",\"source\":\"browser\",\"session\":{\"id\":\"87aef214-c332-4f8b-8b53-b123feaef6b4\""
+          },
+          {
+            "method": "POST",
+            "url": "https://browser-intake-ddog-gov.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.28.0%2Capi%3Afetch%2Cenv%3Aprod%2Cservice%3Aelibrary-websearch&dd-api-key=pubf6c30b2482a98640532213fe68c287c5&dd-evp-origin-version=5.28.0&dd-evp-origin=browser&dd-request-id=75524a9b-a5a6-40f4-a02f-d410f137de0a&b",
+            "status": 202,
+            "ctype": "application/json",
+            "post_data": "{\"_dd\":{\"format_version\":2,\"drift\":-1,\"configuration\":{\"session_sample_rate\":100,\"session_replay_sample_rate\":20},\"discarded\":false},\"application\":{\"id\":\"52f6cc3e-3b73-4b1d-9668-05c32c17bf38\"},\"date\":1790977655121,\"service\":\"elibrary-websearch\",\"source\":\"browser\",\"session\":{\"id\":\"87aef214-c332-4f8b-"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fedreg-api",
+      "jur": "FED",
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions[agencies][]=federal-energy-regulatory-commission&per_page=3",
+      "js": false,
+      "robots": {
+        "robots_url": "https://www.federalregister.gov/robots.txt",
+        "status": 200,
+        "excerpt": "  Sitemap: https://www.federalregister.gov/sitemaps/sitemap.xml.gz\n\n  User-Agent: *\n  Disallow: /documents/current\n  Disallow: /documents/email-a-friend\n\n  Disallow: /articles/search\n  Disallow: /documents/search\n  Disallow: /public-inspection/search\n  Disallow: /regulations/search\n\n  Disallow: /my/\n  Disallow: /auth/\n"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=federal-energy-regulatory-commission&per_page=3",
+        "content_type": "application/json; charset=utf-8",
+        "bytes": 4239,
+        "server": "",
+        "title": "",
+        "visible_chars": 4239,
+        "excerpt": "{\"description\":\"Documents from Federal Energy Regulatory Commission\",\"count\":10000,\"total_pages\":50,\"next_page_url\":\"https://www.federalregister.gov/api/v1/documents?conditions%5Bagencies%5D%5B%5D=federal-energy-regulatory-commission&format=json&page=2&per_page=3&search_after_cursor=WzE3OTA4OTkyMDAwMDAsIjIwMjYtMjAyMzgiXQ\",\"results\":[{\"title\":\"Green Mountain Power Company; Notice of Intent To File ",
+        "verdict": "ok"
+      },
+      "verdict": "ok"
+    },
+    {
+      "id": "sec-efts",
+      "jur": "SEC",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22data%20center%22&forms=8-K&dateRange=custom&startdt=2026-09-01&enddt=2026-10-02",
+      "js": false,
+      "robots": {
+        "robots_url": "https://efts.sec.gov/robots.txt",
+        "status": 403,
+        "excerpt": ""
+      },
+      "robots_allows": false,
+      "verdict": "robots_disallow"
+    },
+    {
+      "id": "sec-submissions-dominion",
+      "jur": "SEC",
+      "url": "https://data.sec.gov/submissions/CIK0000715957.json",
+      "js": false,
+      "robots": {
+        "robots_url": "https://data.sec.gov/robots.txt",
+        "status": 403,
+        "excerpt": ""
+      },
+      "robots_allows": false,
+      "verdict": "robots_disallow"
+    },
+    {
+      "id": "pa-home",
+      "jur": "PA",
+      "url": "https://www.puc.pa.gov/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://www.puc.pa.gov/robots.txt",
+        "status": 500,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": "error",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='www.puc.pa.gov', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))\"))",
+        "verdict": "network_error"
+      },
+      "verdict": "network_error"
+    },
+    {
+      "id": "pa-docsearch",
+      "jur": "PA",
+      "url": "https://www.puc.pa.gov/search/document-search/",
+      "js": true,
+      "robots": {
+        "robots_url": "https://www.puc.pa.gov/robots.txt",
+        "status": 500,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": "error",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='www.puc.pa.gov', port=443): Max retries exceeded with url: /search/document-search/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))\"))",
+        "verdict": "network_error"
+      },
+      "verdict": "network_error"
+    },
+    {
+      "id": "al-portal",
+      "jur": "AL",
+      "url": "https://pscpublicaccess.alabama.gov/pscpublicaccess/",
+      "js": true,
+      "robots": {
+        "robots_url": "https://pscpublicaccess.alabama.gov/robots.txt",
+        "status": 404,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 404,
+        "final_url": "https://pscpublicaccess.alabama.gov/pscpublicaccess/",
+        "content_type": "text/html",
+        "bytes": 1245,
+        "server": "Microsoft-IIS/10.0",
+        "title": "404 - File or directory not found.",
+        "visible_chars": 193,
+        "excerpt": "404 - File or directory not found. Server Error 404 - File or directory not found. The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+        "verdict": "http_404"
+      },
+      "verdict": "http_404",
+      "render": {
+        "status": 404,
+        "title": "404 - File or directory not found.",
+        "rendered_chars": 158,
+        "excerpt": "Server Error 404 - File or directory not found. The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+        "verdict": "http_404",
+        "xhr_calls": []
+      }
+    },
+    {
+      "id": "la-portal",
+      "jur": "LA",
+      "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/",
+      "js": true,
+      "robots": {
+        "robots_url": "https://lpscpubvalence.lpsc.louisiana.gov/robots.txt",
+        "status": 200,
+        "excerpt": "<html>\r\n<head>\r\n    <meta name=\"robots\" content=\"noindex\">\r\n<meta http-equiv=\"refresh\" content=\"0; url=https://lpsc.louisiana.gov/Commissioners\" />\r\n<meta charset=\"utf-8\" />\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n<meta name=\"format-detection\" content=\"telephone=no\">\r\n<title>Error404</title>\r\n    \r\n\r\n<link rel=\"stylesheet\" href=\"/Content/bootstrap.min.css\" />\r\n<link rel=\"stylesheet\" href=\"/Content/font-awesome.min.css\" />\r\n<link rel=\"stylesheet\" href=\"https://bgrins.github.io/spectrum/spectrum.css\" />\r\n<link href=\"/Content/Kendo/2023.1.117/kendo.common.min.css\""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 21531,
+        "server": "cloudflare",
+        "title": "Error404",
+        "visible_chars": 1335,
+        "excerpt": "Error404 Skip to main content Louisiana Public Service Commission &nbsp; &nbsp; Home About LPSC About Us Commissioners Organizational Chart Job Openings Map and Directions Contact Information General Rules and Regulations Rules of Practice and Procedure 2013 Strategic Plan Consumer Info Filing a Complaint News and Information FAQs Consumer Billing Links Utility Outage Links Utility Outage Maps Mot",
+        "verdict": "ok"
+      },
+      "verdict": "ok",
+      "render": {
+        "status": 200,
+        "title": "LPSC - Commissioners",
+        "rendered_chars": 968,
+        "excerpt": "Skip to main content Home About Consumer Information Regulatory Information Document Access Calendar Energy Efficiency Contact Disclaimer LPSC District Map Some parishes are divided according to precincts. Refer to Act 2 of the 2022 First Extraordinary Session To find your Public Service Commission district: Secretary of State Voter Portal <--Click this link Enter your zip code and physical address and click 'Submit' Click 'Voter Registration' Click 'What Voting Districts do I live in?' Your Pub",
+        "verdict": "ok",
+        "xhr_calls": [
+          {
+            "method": "POST",
+            "url": "https://lpscpubvalence.lpsc.louisiana.gov/cdn-cgi/rum?",
+            "status": 204,
+            "ctype": "text/plain",
+            "post_data": "{\"startTime\":1790977683401,\"pageloadId\":\"ce02b7e2-d5b2-4834-9b90-1eaefb3f6ff0\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.9.1\",\"timings\":2},\"memory\":{\"totalJSHeapSize\":23100000,\"usedJSHeapSize\":18200000,\"js"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ga-home",
+      "jur": "GA",
+      "url": "https://psc.ga.gov/",
+      "js": true,
+      "robots": {
+        "robots_url": "https://psc.ga.gov/robots.txt",
+        "status": 404,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://psc.ga.gov/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 58013,
+        "server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33",
+        "title": "Home | Georgia Public Service Commission",
+        "visible_chars": 10999,
+        "excerpt": "Home | Georgia Public Service Commission STATE OF GEORGIA Public Service Commission Jason Shaw, Chairman --> Commissioners Lauren \u201cBubba\u201d McDonald, Vice Chairman Peter Hubbard Dr. Alicia M. Johnson Stan Wise Login Sitemap Advanced Search Advanced Search > --> --> Advanced Search --> Menu The PSC Meet the Commission Jason Shaw Lauren &ldquo;Bubba&rdquo; McDonald Peter Hubbard Dr. Alicia M. Johnson ",
+        "verdict": "ok"
+      },
+      "verdict": "ok",
+      "render": {
+        "status": 200,
+        "title": "Home | Georgia Public Service Commission",
+        "rendered_chars": 8323,
+        "excerpt": "STATE OF GEORGIA Public Service Commission Jason Shaw, Chairman COMMISSIONERS Lauren \u201cBubba\u201d McDonald, Vice Chairman Peter Hubbard Dr. Alicia M. Johnson Stan Wise Login Sitemap Advanced Search The PSC Consumer Corner Telecom Electric Natural Gas Facilities Protection Newsroom Careers Contact Us Information on Data Centers Georgia residents concerned about the recent growth of data centers and how data centers could affect electric bills are encouraged to review rules passed by the Georgia Public",
+        "verdict": "ok",
+        "xhr_calls": [
+          {
+            "method": "GET",
+            "url": "https://googleads.g.doubleclick.net/pagead/id",
+            "status": 302,
+            "ctype": "text/html; charset=ISO-8859-1",
+            "post_data": ""
+          },
+          {
+            "method": "GET",
+            "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+            "status": 200,
+            "ctype": "application/json; charset=ISO-8859-1",
+            "post_data": ""
+          },
+          {
+            "method": "POST",
+            "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=208615455&t=pageview&_s=1&dl=https%3A%2F%2Fpsc.ga.gov%2F&ul=en-us&dt=Home%20%7C%20Georgia%20Public%20Service%20Commission&sr=1280x720&vp=1280x720&_u=YEBAAEABAAAAACAAI~&jid=1294609358&gjid=1368562796&cid=1268310160.1790977696&tid=UA-9329300-5&_",
+            "status": 200,
+            "ctype": "text/plain",
+            "post_data": ""
+          },
+          {
+            "method": "POST",
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-643Z2LG3GP&gtm=45je69u2v9116053676z89116048131za20gzb9116048131zd9116048131xf1&_p=1790977695201&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1268310160.1790977696&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7C",
+            "status": 204,
+            "ctype": "text/plain",
+            "post_data": ""
+          },
+          {
+            "method": "POST",
+            "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+            "status": 200,
+            "ctype": "application/json+protobuf; charset=UTF-8",
+            "post_data": "[\"O43z0dpjhgX20SCx4KAo\",\"$ihU5FXFRAAYj1BXHA9TezZa_YMFOgzWnAEABEArZ1DctnwTLBqtDTjRhIbR6rfxJjfVI28oS_3HJkT2B9-YBgfghnaWGtb6YwBoYB7VqXKYavPF4D2rF2RVhngAAAL7OAAAADPQBB-IAVmDK-uYWtUezWIMWoTz6dqPmJMt7raXixgkAMxWZbzK9ae4tz8hj7gRoEiOHRX73Xm4ydl1ejm0RmTkO3YLeO4B0OI75wzWUa_VMQuSkGQko9AjXaF9qBQSrTioxW4fDuJwsrl"
+          },
+          {
+            "method": "POST",
+            "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+            "status": 200,
+            "ctype": "application/json; charset=UTF-8",
+            "post_data": "{\"context\":{\"client\":{\"hl\":\"en\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261002.01.00\",\"configInfo\":{\"appInstallData\":\"CJ_NgNYGEMn2gBMQyvuAExD36NIcEKOOgRMQwY_QHBC9tq4FENyt0hwQuOTOHBDa984cEIeszhwQrom4IhCwirgiEMHUqBcQn8-AExDM364FEN68zhwQ8N7RHBDggoATEIHNzhwQmY2xBRD2q7AFEL6E0RwQ-MSAExDS2tIcEPza0hw"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ga-services",
+      "jur": "GA",
+      "url": "https://services.psc.ga.gov/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://services.psc.ga.gov/robots.txt",
+        "status": 404,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 404,
+        "final_url": "https://services.psc.ga.gov/",
+        "content_type": "",
+        "bytes": 0,
+        "server": "Kestrel",
+        "title": "",
+        "visible_chars": 0,
+        "excerpt": "",
+        "verdict": "http_404"
+      },
+      "verdict": "http_404"
+    },
+    {
+      "id": "ks-home",
+      "jur": "KS",
+      "url": "https://kcc.ks.gov/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://kcc.ks.gov/robots.txt",
+        "status": 404,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://www.kcc.ks.gov/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 65188,
+        "server": "Apache/2.4.63 (Red Hat Enterprise Linux) OpenSSL/3.2.2",
+        "title": "Kansas Corporation Commission",
+        "visible_chars": 1701,
+        "excerpt": "Kansas Corporation Commission &nbsp; Home | About Us The Commission's Role Meet the Commissioners Jurisdiction Employment Opportunities | Commission Activity Meeting Calendar Meeting Notice and Minutes Recent Orders Docket Filings News Releases 2026 2025 2024 2023 2022 Reports to the Legislature 2026 2025 2024 2023 2022 Presentations and Legislative Testimony 2026 2025 2024 2023 2022 | Records &am",
+        "verdict": "ok"
+      },
+      "verdict": "ok"
+    },
+    {
+      "id": "ks-estar",
+      "jur": "KS",
+      "url": "https://estar.kcc.ks.gov/estar/portal/kcc/page/docket-docs/PSC/default.aspx",
+      "js": true,
+      "robots": {
+        "robots_url": "https://estar.kcc.ks.gov/robots.txt",
+        "status": "error",
+        "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='estar.kcc.ks.gov', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPSConnection(host='estar.kcc.ks.gov', port=443) at 0x7f2651e81850>, 'Connection to estar.kcc.ks.gov timed out. (connect timeout=30)'))\")"
+      },
+      "robots_allows": null,
+      "get": {
+        "status": "error",
+        "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='estar.kcc.ks.gov', port=443): Max retries exceeded with url: /estar/portal/kcc/page/docket-docs/PSC/default.aspx (Caused by ConnectTimeoutError(<HTTPSConnection(host='estar.kcc.ks.gov', port=443) at 0x7f2651d2fdd0>, 'Connection to estar.kcc.ks.",
+        "verdict": "network_error"
+      },
+      "verdict": "network_error"
+    },
+    {
+      "id": "az-edocket",
+      "jur": "AZ",
+      "url": "https://edocket.azcc.gov/",
+      "js": true,
+      "robots": {
+        "robots_url": "https://edocket.azcc.gov/robots.txt",
+        "status": 200,
+        "excerpt": "<!DOCTYPE html><html lang=\"en\"><head><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">\n   <script>\n      __Zone_enable_cross_context_check = true;\n   </script>\n   <meta charset=\"utf-8\">\n   <title>eDocket | Arizona Corporation Commission</title>\n   <base href=\"/\">\n\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n   <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n   <style type=\"text/css\">@font-face{font-family:'Poppins';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2) fo"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://edocket.azcc.gov/",
+        "content_type": "text/html",
+        "bytes": 5891,
+        "server": "",
+        "title": "eDocket | Arizona Corporation Commission",
+        "visible_chars": 40,
+        "excerpt": "eDocket | Arizona Corporation Commission",
+        "verdict": "ok"
+      },
+      "verdict": "ok",
+      "render": {
+        "status": 200,
+        "title": "eDocket | Arizona Corporation Commission",
+        "rendered_chars": 786,
+        "excerpt": "ACC eDocket | Search | Calendar | eFiling | Reports | FAQs Home Notice: Many historical hearing documents are now available for viewing on-line with the assistance of the National Archives\u2019 National Historical Publications and Records Commission. Reminder: Confidential Material will not be accepted by Docket Control. Search Search for regulated utilities, securities, safety, and rule making cases and their documents. Calendar Find and view ACC Open Meetings, hearings, and other events. eFiling E",
+        "verdict": "ok",
+        "xhr_calls": [
+          {
+            "method": "POST",
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SY3MG4LTRR&gtm=45je69u2v877768209za200zd877768209xf1&_p=1790977787175&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=978918878.1790977787&frm=0&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChrom",
+            "status": 204,
+            "ctype": "text/plain",
+            "post_data": ""
+          },
+          {
+            "method": "GET",
+            "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=eFiling%20Filing%20Status",
+            "status": 200,
+            "ctype": "application/json; charset=utf-8",
+            "post_data": ""
+          },
+          {
+            "method": "GET",
+            "url": "https://efiling.azcc.gov/api/getCurrentOutageNotificationsByApplicationName?applicationName=eDocket",
+            "status": 200,
+            "ctype": "application/json; charset=utf-8",
+            "post_data": ""
+          },
+          {
+            "method": "GET",
+            "url": "https://efiling.azcc.gov/api/getCurrentOutageNotificationsByApplicationName?applicationName=eDocket",
+            "status": 200,
+            "ctype": "application/json; charset=utf-8",
+            "post_data": ""
+          },
+          {
+            "method": "GET",
+            "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=eFiling%20Filing%20Status",
+            "status": 200,
+            "ctype": "application/json; charset=utf-8",
+            "post_data": ""
+          },
+          {
+            "method": "GET",
+            "url": "https://efiling.azcc.gov/api/getCurrentOutageNotificationsByApplicationName?applicationName=eDocket",
+            "status": 200,
+            "ctype": "application/json; charset=utf-8",
+            "post_data": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "az-images",
+      "jur": "AZ",
+      "url": "https://images.edocket.azcc.gov/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://images.edocket.azcc.gov/robots.txt",
+        "status": "error",
+        "error": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for \\'images.ed"
+      },
+      "robots_allows": null,
+      "get": {
+        "status": "error",
+        "error": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for \\'images.edocket.azcc",
+        "verdict": "network_error"
+      },
+      "verdict": "network_error"
+    },
+    {
+      "id": "tx-interchange",
+      "jur": "TX",
+      "url": "https://interchange.puc.texas.gov/search/filings/?UtilityType=A&ControlNumber=58481",
+      "js": true,
+      "note": "large-load interconnection rulemaking",
+      "robots": {
+        "robots_url": "https://interchange.puc.texas.gov/robots.txt",
+        "status": 404,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://interchange.puc.texas.gov/search/filings/?UtilityType=A&ControlNumber=58481",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 135503,
+        "server": "cloudflare",
+        "title": "Interchange - Filings",
+        "visible_chars": 25971,
+        "excerpt": "Interchange - Filings Skip to main content Public Utility Commission of Texas Interchange Filing Search Public Utility Commission of Texas This page requires JavaScript to be enabled. Either your browser does not support JavaScript or you have disabled it. Please enable it or use a browser that can support it. Filings for 58481 Filing Search Daily Filing Search Learn More Filing Notification Syste",
+        "verdict": "ok"
+      },
+      "verdict": "ok",
+      "render": {
+        "status": 200,
+        "title": "Interchange - Filings",
+        "rendered_chars": 24977,
+        "excerpt": "Skip to main content Public Utility Commission of Texas Interchange Filing Search Filings for 58481 Filing Search Daily Filing Search Learn More Filing Notification System PUC Interchange Filer Case Style RULEMAKING TO IMPLEMENT LARGE LOAD INTERCONNECTION STANDARDS UNDER PURA 37.0561 219 filing(s). \u00ab\u00ab \u00ab 1 \u00bb \u00bb\u00bb Export to Excel Item \u25b2 sorted ascending File Stamp Party Item Type Filing Description 1 7/31/2025 PUC RULES & PROJECTS PRJ Request for Control Number 2 9/12/2025 PUC RULES & PROJECTS PRJ S",
+        "verdict": "ok",
+        "xhr_calls": []
+      }
+    },
+    {
+      "id": "mo-efis",
+      "jur": "MO",
+      "url": "https://www.efis.psc.mo.gov/",
+      "js": true,
+      "robots": {
+        "robots_url": "https://www.efis.psc.mo.gov/robots.txt",
+        "status": 200,
+        "excerpt": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en-us\">\r\n<head>\r\n     <!-- Google tag (gtag.js) -->\r\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-46J2XXVYYV\"></script>\r\n    <script>\r\n      window.dataLayer = window.dataLayer || [];\r\n      function gtag(){dataLayer.push(arguments);}\r\n      gtag('js', new Date());\r\n\r\n      gtag('config', 'G-46J2XXVYYV');\r\n    </script>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n    <title>Not Found - EFIS</title>\r\n\r\n    \r"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://www.efis.psc.mo.gov/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 15420,
+        "server": "Microsoft-IIS/10.0",
+        "title": "Home Page - EFIS",
+        "visible_chars": 1841,
+        "excerpt": "Home Page - EFIS Skip to main content Register Log in Help Directory Company & User &nbsp;Management Company Search Agenda &amp; Public &nbsp;Meetings Agenda Search Public Meeting Search Case &nbsp;e-Filings & Search Existing Case e-Filing &amp; Search Service List Search Service List Print Calendar Search Small Company Rate Increase Search Utility Compliance &nbsp;e-Filings & Search Tariff Search",
+        "verdict": "block_page"
+      },
+      "verdict": "ok",
+      "render": {
+        "status": 200,
+        "title": "Home Page - EFIS",
+        "rendered_chars": 1364,
+        "excerpt": "Skip to main content Register Log in Help Directory Company & User Management Agenda & Public Meetings Case e-Filings & Search Utility Compliance e-Filings & Search Consumer Resources Reports & Misc. Resources Welcome to EFIS. Please refer to the Help Directory for instructions on how to use this website. Website Accessibility Statement The Missouri Public Service Commission is committed to ensuring that its services are accessible to all members of the public. As part of this commitment, the Mo",
+        "verdict": "ok",
+        "xhr_calls": [
+          {
+            "method": "POST",
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-46J2XXVYYV&gtm=45je69u2v9123466821za200zd9123466821xf1&_p=1790977810441&gcd=13l3l3l3l1l1&npa=0&dma=0&_geo=1&_rdi=1&cid=639250052.1790977811&frm=0&ngs=1&pscdl=noapi&rcb=19&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~1203",
+            "status": 204,
+            "ctype": "text/plain",
+            "post_data": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "nm-prc",
+      "jur": "NM",
+      "url": "https://www.prc.nm.gov/",
+      "js": true,
+      "robots": {
+        "robots_url": "https://www.prc.nm.gov/robots.txt",
+        "status": 200,
+        "excerpt": "# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.prc.nm.gov/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://www.prc.nm.gov/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 394175,
+        "server": "Apache",
+        "title": "Home - NM PRC",
+        "visible_chars": 4076,
+        "excerpt": "Home - NM PRC About Us FAQs Administrative Services Contact Us Finance and Budget Information Technology Previous Open Meeting Agendas and Minutes Public Information Request Rate Increase Protest Forms Records Management Get Involved File an Informal Complaint Nominating Committee CLE 2026 Home Divisions Utilities Accounting Economics Engineering Telecommunications Utilities and Telecommunications",
+        "verdict": "ok"
+      },
+      "verdict": "ok",
+      "render": {
+        "status": 200,
+        "title": "Home - NM PRC",
+        "rendered_chars": 1569,
+        "excerpt": "We use cookies to optimize our website and our service. Accept Skip To Content About Us Get Involved File an Informal Complaint Nominating Committee CLE 2026 English Home Divisions Meetings and Hearings Public Comment Case Updates Public Information Hub PRCe360 New Mexico Public Regulation Commission We serve New Mexico by ensuring safe operations and reliable utility services at fair, just, and reasonable rates consistent with the State\u2019s legal, economic, environmental, and social policies. Lat",
+        "verdict": "ok",
+        "xhr_calls": [
+          {
+            "method": "GET",
+            "url": "https://www.prc.nm.gov/wp-json/complianz/v1/banner?lang=en&locale=en_US&token=kgfxt",
+            "status": 200,
+            "ctype": "application/json; charset=UTF-8",
+            "post_data": ""
+          },
+          {
+            "method": "POST",
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-GYZEEECK78&gtm=45je69u2v872815967za200zd872815967xf1&_p=1790977820669&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1177780057.1790977821&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChro",
+            "status": 204,
+            "ctype": "text/plain",
+            "post_data": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "nc-ncuc-portal",
+      "jur": "NC",
+      "url": "https://starw1.ncuc.gov/NCUC/page/Dockets/portal.aspx",
+      "js": true,
+      "robots": {
+        "robots_url": "https://starw1.ncuc.gov/robots.txt",
+        "status": 403,
+        "excerpt": ""
+      },
+      "robots_allows": false,
+      "verdict": "robots_disallow"
+    },
+    {
+      "id": "nc-ncuc-home",
+      "jur": "NC",
+      "url": "https://www.ncuc.gov/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://www.ncuc.gov/robots.txt",
+        "status": 404,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://www.ncuc.gov/",
+        "content_type": "text/html",
+        "bytes": 36937,
+        "server": "Microsoft-IIS/10.0",
+        "title": "North Carolina Utilities Commission",
+        "visible_chars": 4980,
+        "excerpt": "North Carolina Utilities Commission --> --> &nbsp; North Carolina Utilities Commission Upcoming Events --> Event Streams Login Login Form Remember me Login Toggle navigation NCUC.gov Consumer Information Information Consumer Information Complaint Information Public Staff Information Tools/Tips Submit a Statement of Position How to Give Testimony Regulated Company Lists Reports NCUC Reports Carbon ",
+        "verdict": "ok"
+      },
+      "verdict": "ok"
+    },
+    {
+      "id": "va-scc-home",
+      "jur": "VA",
+      "url": "https://www.scc.virginia.gov/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://www.scc.virginia.gov/robots.txt",
+        "status": 200,
+        "excerpt": "User-agent: Terminalfour Nutch Spider\nCrawl-delay: 0.5\nDisallow: /BFI-Complaint-Response\nDisallow: /Browsers\nDisallow: /CIS-Support-Resp\nDisallow: /Clerks-Form-Resp\nDisallow: /eSCC-Unavailable\nDisallow: /iRecruitment-Unavailable\nDisallow: /Mobile-Privacy\nDisallow: /News-Subscribe-Resp\nDisallow: /notfound\nDisallow: /Public-Witness-Confirmation\nDisallow: /SHOP\nDisallow: /Utility-Complaint-Resp\nDisallow: /Utility-Contact-Resp\n\nUser-Agent: googlebot\nAllow: /\n\nUser-Agent: googlebot-image\nAllow: /\n\nUser-Agent: duckduckbot\nAllow: /\n\nUser-Agent: bingbot\nAllow: /\n\nUser-Agent: SiteimproveBot\nAllow: /\n\nU"
+      },
+      "robots_allows": false,
+      "verdict": "robots_disallow"
+    },
+    {
+      "id": "va-scc-docketsearch",
+      "jur": "VA",
+      "url": "https://www.scc.virginia.gov/docketsearch",
+      "js": true,
+      "robots": {
+        "robots_url": "https://www.scc.virginia.gov/robots.txt",
+        "status": 200,
+        "excerpt": "User-agent: Terminalfour Nutch Spider\nCrawl-delay: 0.5\nDisallow: /BFI-Complaint-Response\nDisallow: /Browsers\nDisallow: /CIS-Support-Resp\nDisallow: /Clerks-Form-Resp\nDisallow: /eSCC-Unavailable\nDisallow: /iRecruitment-Unavailable\nDisallow: /Mobile-Privacy\nDisallow: /News-Subscribe-Resp\nDisallow: /notfound\nDisallow: /Public-Witness-Confirmation\nDisallow: /SHOP\nDisallow: /Utility-Complaint-Resp\nDisallow: /Utility-Contact-Resp\n\nUser-Agent: googlebot\nAllow: /\n\nUser-Agent: googlebot-image\nAllow: /\n\nUser-Agent: duckduckbot\nAllow: /\n\nUser-Agent: bingbot\nAllow: /\n\nUser-Agent: SiteimproveBot\nAllow: /\n\nU"
+      },
+      "robots_allows": false,
+      "verdict": "robots_disallow"
+    },
+    {
+      "id": "sc-dms",
+      "jur": "SC",
+      "url": "https://dms.psc.sc.gov/",
+      "js": true,
+      "robots": {
+        "robots_url": "https://dms.psc.sc.gov/robots.txt",
+        "status": 200,
+        "excerpt": "User-agent: Googlebot\r\nAllow: /\r\nCrawl-delay: 20\r\n\r\nUser-agent: Slurp\r\nAllow: /\r\nCrawl-delay: 20\r\n\r\nUser-agent: bingbot\r\nAllow: /\r\nCrawl-delay: 20\r\n\r\nUser-agent: msnbot\r\nAllow: /\r\nCrawl-delay: 20\r\n\r\nUser-agent: BingPreview\r\nAllow: /\r\nCrawl-delay: 20\r\n\r\nUser-agent: *\r\nDisallow: /"
+      },
+      "robots_allows": false,
+      "verdict": "robots_disallow"
+    },
+    {
+      "id": "sc-psc-home",
+      "jur": "SC",
+      "url": "https://psc.sc.gov/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://psc.sc.gov/robots.txt",
+        "status": 200,
+        "excerpt": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nA"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://psc.sc.gov/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 112931,
+        "server": "nginx",
+        "title": "Home | Public Service Commission",
+        "visible_chars": 3098,
+        "excerpt": "Home | Public Service Commission Skip to main content Online Services Agency Listing Cybersecurity Tips Quick Links Commission Calendar Forms Commissioner Travel Calendar Search eTariff DMS Allowable Ex Parte FOIA Notices Publications Public Service Commission South Carolina Search Search Menu Main navigation About Us Contact Us Agency Transparency Business Hours Commissioners Employment History L",
+        "verdict": "ok"
+      },
+      "verdict": "ok"
+    },
+    {
+      "id": "il-icc-docket",
+      "jur": "IL",
+      "url": "https://www.icc.illinois.gov/docket/P2026-0364/documents",
+      "js": true,
+      "note": "ComEd large load investigation 26-0364",
+      "robots": {
+        "robots_url": "https://www.icc.illinois.gov/robots.txt",
+        "status": 200,
+        "excerpt": "\u00ef\u00bb\u00bfUser-agent: *\r\nDisallow: /\r\n\r\nUser-agent: Elastic-Crawler\r\nAllow: /\r\nDisallow: /test/\r\nCrawl-delay: 60\r\n\r\nUser-agent: Elastic\r\nAllow: /\r\nDisallow: /test/\r\nCrawl-delay: 60\r\n\r\nUser-agent:SiteimproveBot-Crawler\r\nAllow: /\r\nDisallow: /test/\r\nCrawl-delay: 10\r\n\r\nUser-agent:SiteimproveBot\r\nAllow: /\r\nDisallow: /test/\r\nCrawl-delay: 10"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://icc.illinois.gov/docket/P2026-0364/documents",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 23297,
+        "server": "Microsoft-IIS/10.0",
+        "title": "Documents for 26-0364",
+        "visible_chars": 2033,
+        "excerpt": "Documents for 26-0364 Consumers Toggle Dropdown File a Complaint Make a Public Comment Electric Choice Natural Gas Choice Financial Assistance Programs Consumer Education Energy Efficiency and Conservation Public Utilities Toggle Dropdown Chief Clerk&#39;s Office One-Call Education and Enforcement Pipeline Safety Program Alternative Gas Suppliers (AGS) Alternative Retail Electric Suppliers Electri",
+        "verdict": "block_page"
+      },
+      "verdict": "ok",
+      "render": {
+        "status": 200,
+        "title": "Documents for 26-0364",
+        "rendered_chars": 839,
+        "excerpt": "Consumers Toggle Dropdown Public Utilities Toggle Dropdown Transportation Toggle Dropdown News Toggle Dropdown About Toggle Dropdown Listen Live Go Home Docket Browse Documents for 26-0364 Please, no robots or crawlers beyond this point. To continue, check the \"I'm not a robot\" box, select the requested images, and click the Submit button. Submit Full docket number: P2026-0364 Footer Office Locations Leland Building 527 East Capitol Avenue, Springfield, IL 62701 Michael A. Bilandic Building 160 ",
+        "verdict": "ok",
+        "xhr_calls": [
+          {
+            "method": "GET",
+            "url": "https://cdn.weglot.us/projects-settings/2e318679a802513049c1f9951692e01b4.json",
+            "status": 200,
+            "ctype": "application/json",
+            "post_data": ""
+          },
+          {
+            "method": "POST",
+            "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1460039013&t=pageview&_s=1&dl=https%3A%2F%2Ficc.illinois.gov%2Fdocket%2FP2026-0364%2Fdocuments&ul=en-us&dt=Documents%20for%2026-0364&sr=1280x720&vp=1280x720&_u=IEBAAEABAAAAACAAI~&jid=185556785&gjid=124607371&cid=371963682.1790977837&tid=UA-363",
+            "status": 200,
+            "ctype": "text/plain",
+            "post_data": ""
+          },
+          {
+            "method": "POST",
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9RST29GB39&gtm=45je69u2v879791694za200zd879791694xf1&_p=1790977837215&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=371963682.1790977837&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%",
+            "status": 204,
+            "ctype": "text/plain",
+            "post_data": ""
+          },
+          {
+            "method": "GET",
+            "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=36CF020D5D9EE7D70A495ECF%40AdobeOrg&d_nsid=0&ts=1790977837491",
+            "status": 302,
+            "ctype": "",
+            "post_data": ""
+          },
+          {
+            "method": "GET",
+            "url": "https://dpm.demdex.net/id/rd?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=36CF020D5D9EE7D70A495ECF%40AdobeOrg&d_nsid=0&ts=1790977837491",
+            "status": 200,
+            "ctype": "application/json;charset=utf-8",
+            "post_data": ""
+          },
+          {
+            "method": "GET",
+            "url": "https://smetrics.illinois.gov/id?d_visid_ver=5.5.0&d_fieldgroup=A&mcorgid=36CF020D5D9EE7D70A495ECF%40AdobeOrg&mid=58535657374070095798297206861477144344&ts=1790977837741",
+            "status": 200,
+            "ctype": "application/x-javascript;charset=utf-8",
+            "post_data": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "il-icc-home",
+      "jur": "IL",
+      "url": "https://www.icc.illinois.gov/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://www.icc.illinois.gov/robots.txt",
+        "status": 200,
+        "excerpt": "\u00ef\u00bb\u00bfUser-agent: *\r\nDisallow: /\r\n\r\nUser-agent: Elastic-Crawler\r\nAllow: /\r\nDisallow: /test/\r\nCrawl-delay: 60\r\n\r\nUser-agent: Elastic\r\nAllow: /\r\nDisallow: /test/\r\nCrawl-delay: 60\r\n\r\nUser-agent:SiteimproveBot-Crawler\r\nAllow: /\r\nDisallow: /test/\r\nCrawl-delay: 10\r\n\r\nUser-agent:SiteimproveBot\r\nAllow: /\r\nDisallow: /test/\r\nCrawl-delay: 10"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://icc.illinois.gov/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 36398,
+        "server": "Microsoft-IIS/10.0",
+        "title": "Illinois Commerce Commission",
+        "visible_chars": 3749,
+        "excerpt": "Illinois Commerce Commission Consumers Toggle Dropdown File a Complaint Make a Public Comment Electric Choice Natural Gas Choice Financial Assistance Programs Consumer Education Energy Efficiency and Conservation Public Utilities Toggle Dropdown Chief Clerk&#39;s Office One-Call Education and Enforcement Pipeline Safety Program Alternative Gas Suppliers (AGS) Alternative Retail Electric Suppliers ",
+        "verdict": "ok"
+      },
+      "verdict": "ok"
+    },
+    {
+      "id": "oh-dis",
+      "jur": "OH",
+      "url": "https://dis.puc.state.oh.us/",
+      "js": true,
+      "robots": {
+        "robots_url": "https://dis.puc.state.oh.us/robots.txt",
+        "status": 200,
+        "excerpt": "<html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: <9281071327590933180><br><br><a href='javascript:history.back();'>[Go Back]</body></html>"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://dis.puc.state.oh.us/",
+        "content_type": "text/html",
+        "bytes": 244,
+        "server": "",
+        "title": "Request Rejected",
+        "visible_chars": 118,
+        "excerpt": "Request Rejected The requested URL was rejected. Please consult with your administrator. Your support ID is: [Go Back]",
+        "verdict": "block_page"
+      },
+      "verdict": "block_page",
+      "render": {
+        "status": 200,
+        "title": "Request Rejected",
+        "rendered_chars": 125,
+        "excerpt": "The requested URL was rejected. Please consult with your administrator. Your support ID is: <9281071327590933420> [Go Back]",
+        "verdict": "block_page",
+        "xhr_calls": []
+      }
+    },
+    {
+      "id": "oh-puco-home",
+      "jur": "OH",
+      "url": "https://puco.ohio.gov/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://puco.ohio.gov/robots.txt",
+        "status": 404,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 404,
+        "final_url": "https://puco.ohio.gov/",
+        "content_type": "text/html",
+        "bytes": 5290,
+        "server": "AmazonS3",
+        "title": "404 Error Page",
+        "visible_chars": 111,
+        "excerpt": "404 Error Page 404 Page not found The link you followed may be outdated or the page may have moved. Return Home",
+        "verdict": "http_404"
+      },
+      "verdict": "http_404"
+    },
+    {
+      "id": "wv-psc-home",
+      "jur": "WV",
+      "url": "https://www.psc.state.wv.us/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://www.psc.state.wv.us/robots.txt",
+        "status": 403,
+        "excerpt": ""
+      },
+      "robots_allows": false,
+      "verdict": "robots_disallow"
+    },
+    {
+      "id": "nv-puc-dockets",
+      "jur": "NV",
+      "url": "https://pucweb1.state.nv.us/PUC2/DktInfo.aspx",
+      "js": true,
+      "robots": {
+        "robots_url": "https://pucweb1.state.nv.us/robots.txt",
+        "status": 404,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://pucweb1.state.nv.us/PUC2/DktInfo.aspx?AspxAutoDetectCookieSupport=1",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 10414189,
+        "server": "Microsoft-IIS/7.5",
+        "title": "Public Utilities Commission of Nevada Docket Information",
+        "visible_chars": 2124051,
+        "excerpt": "Public Utilities Commission of Nevada Docket Information &nbsp; Return &nbsp; Please note that this site only contains \"Docket Number\" (\"Dkt No.\"), \"Date Filed\", and \"Description\" for dockets filed before October of 2023. Clicking \"View\" for some documents may show a blank page. For those documents, please navigate to our new site, change the \"Search Type\" to \"PUC - Public Search - Dockets\" and se",
+        "verdict": "ok"
+      },
+      "verdict": "ok",
+      "render": {
+        "status": 200,
+        "title": "Public Utilities Commission of Nevada Docket Information",
+        "rendered_chars": 199992,
+        "excerpt": " Return Please note that this site only contains \"Docket Number\" (\"Dkt No.\"), \"Date Filed\", and \"Description\" for dockets filed before October of 2023. Clicking \"View\" for some documents may show a blank page. For those documents, please navigate to our new site, change the \"Search Type\" to \"PUC - Public Search - Dockets\" and search for the docket number. PUCN - Document Search Search by Docket Number Dockets By Company All Dockets Annual Reports Electric Dockets Gas Dockets Incident Report Dock",
+        "verdict": "ok",
+        "xhr_calls": []
+      }
+    },
+    {
+      "id": "nv-puc-home",
+      "jur": "NV",
+      "url": "https://puc.nv.gov/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://puc.nv.gov/robots.txt",
+        "status": 200,
+        "excerpt": "User-agent: *\nDisallow: /\n\nUser-agent: Screaming Frog SEO Spider\nAllow: /\n\nUser-agent: SiteimproveBot\nAllow: /\n\nUser-agent: SiteimproveBot-Crawler\nAllow: /"
+      },
+      "robots_allows": false,
+      "verdict": "robots_disallow"
+    },
+    {
+      "id": "ok-occ-home",
+      "jur": "OK",
+      "url": "https://oklahoma.gov/occ.html",
+      "js": false,
+      "robots": {
+        "robots_url": "https://oklahoma.gov/robots.txt",
+        "status": 200,
+        "excerpt": "User-agent: *\n\nAllow: /\nSitemap:https://oklahoma.gov/sitemap.xml"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://oklahoma.gov/occ.html",
+        "content_type": "text/html;charset=utf-8",
+        "bytes": 156603,
+        "server": "Apache",
+        "title": "Oklahoma Corporation Commission (185)",
+        "visible_chars": 7005,
+        "excerpt": "Oklahoma Corporation Commission (185) Skip to main content State Agencies --> --> About Commissioners Contact Us History Jobs with OCC Conducting Business Open Records Requests Agency Reports News News Releases OCCurrences Newsletter Complaints Closed Cotton Gin Crude Oil &amp; Natural Gas Gasoline &amp; Diesel Household Goods Carriers Motor Carrier Nonconsensual Tow Rate Complaint Form Pipeline P",
+        "verdict": "ok"
+      },
+      "verdict": "ok"
+    },
+    {
+      "id": "ok-occ-imaging",
+      "jur": "OK",
+      "url": "https://imaging.occ.ok.gov/",
+      "js": true,
+      "robots": {
+        "robots_url": "https://imaging.occ.ok.gov/robots.txt",
+        "status": 404,
+        "excerpt": ""
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 404,
+        "final_url": "https://imaging.occ.ok.gov/",
+        "content_type": "text/html; charset=us-ascii",
+        "bytes": 315,
+        "server": "Microsoft-HTTPAPI/2.0",
+        "title": "Not Found",
+        "visible_chars": 72,
+        "excerpt": "Not Found Not Found HTTP Error 404. The requested resource is not found.",
+        "verdict": "http_404"
+      },
+      "verdict": "http_404",
+      "render": {
+        "status": 404,
+        "title": "Not Found",
+        "rendered_chars": 63,
+        "excerpt": "Not Found HTTP Error 404. The requested resource is not found.",
+        "verdict": "http_404",
+        "xhr_calls": []
+      }
+    },
+    {
+      "id": "ok-grda-board",
+      "jur": "OK",
+      "url": "https://www.grda.com/leadership/board-meeting-agenda-minutes/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://www.grda.com/robots.txt",
+        "status": 200,
+        "excerpt": "User-agent: *\r\nDisallow: /wp-admin/\r\nAllow: /wp-admin/admin-ajax.php\r\n\r\nSitemap: https://grda.com/sitemap.xml\r\nSitemap: https://grda.com/sitemap.rss\n"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://grda.com/leadership/board-meeting-agenda-minutes/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 101850,
+        "server": "cloudflare",
+        "title": "Board Meeting / Agenda Minutes - GRDA",
+        "visible_chars": 3756,
+        "excerpt": "Board Meeting / Agenda Minutes - GRDA Skip to content Quick Links Contact Leadership Illinois River Lake Levels Careers Our Mission About Leadership Resources FAQ\u2019s Lake Permitting Doing Business With GRDA Financial Reports Recreation Rules &#038; Maps Boat Safety Lake Levels Flood Control Habitable Structures Use of GRDA Right of Ways CCR Rule Compliance Data Important Documents Shoreline Managem",
+        "verdict": "ok"
+      },
+      "verdict": "ok"
+    },
+    {
+      "id": "pjm-home",
+      "jur": "RTO-PJM",
+      "url": "https://www.pjm.com/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://www.pjm.com/robots.txt",
+        "status": 200,
+        "excerpt": "User-agent: *\r\nDisallow: /xsl/\r\nDisallow: /temp/\r\nDisallow: /sitecore\r\nDisallow: /Sitecore\r\nDisallow: /App_Data/\r\nDisallow: /App_config/\r\nDisallow: /App_Browsers/\r\nDisallow: /sitecore_files/\r\nDisallow: /Calendar Events/\r\nDisallow: /Calendar-Events/\r\nDisallow: /sitecore modules/\r\nDisallow: /PJMWebToolsAdmin/\r\n\r\nSitemap: https://www.pjm.com/sitemap.xml"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://www.pjm.com/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 174239,
+        "server": "",
+        "title": "PJM Website",
+        "visible_chars": 20692,
+        "excerpt": "PJM Website It looks like you&#39;re using an outdated browser which PJM no longer supports. For the best experience, please upgrade to a modern browser. \" onclick=\"javascript:location.href='http://www.pjm.com/markets-and-operations/etools/system-requirements.aspx'\"/> &nbsp; or &nbsp; It looks like you have JavaScript disabled. For the best experience, please enable JavaScript. \" onclick=\"javascri",
+        "verdict": "ok"
+      },
+      "verdict": "ok"
+    },
+    {
+      "id": "ercot-home",
+      "jur": "RTO-ERCOT",
+      "url": "https://www.ercot.com/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://www.ercot.com/robots.txt",
+        "status": 200,
+        "excerpt": "# Disallowing the following for all agents\nUser-agent: *\nDisallow: /content/contours/\nDisallow: /static-assets/data/help/\nDisallow: /static-assets/css\nDisallow: /static-assets/scripts\nDisallow: /static-assets/js\nDisallow: /misapp\nDisallow: /remote-assets/\nDisallow: /content/wcm\nDisallow: /content/css\nDisallow: /content/news\nDisallow: /content/mkrules\nDisallow: /content/meetings\nDisallow: /content/gridinfo\nDisallow: /content/committees\nDisallow: /content/services\nDisallow: /content/mkinfo\nDisallow: /committeeslboardlsnpc\nDisallow: /widgets\nDisallow: /meetings\nDisallow: /tmaps\nDisallow: /AboutER"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://www.ercot.com/",
+        "content_type": "text/html;charset=UTF-8",
+        "bytes": 135210,
+        "server": "Apache",
+        "title": "Electric Reliability Council of Texas",
+        "visible_chars": 7999,
+        "excerpt": "Electric Reliability Council of Texas MIS LOG IN About ERCOT About ERCOT Company Profile Vision and Mission Community Involvement Governance Board of Directors Executive Team Membership Ethics Financial Information HB 4492 Securitization Subchapter M Default Balance Securitization Subchapter N Uplift Balance Securitization Legal Policies and Notices Proposed Brazos and ERCOT Bankruptcy Settlement ",
+        "verdict": "ok"
+      },
+      "verdict": "ok"
+    },
+    {
+      "id": "nerc-home",
+      "jur": "FED-NERC",
+      "url": "https://www.nerc.com/",
+      "js": false,
+      "robots": {
+        "robots_url": "https://www.nerc.com/robots.txt",
+        "status": 200,
+        "excerpt": "User-agent: *\nDisallow: /episerver/\nDisallow: /ui/\nDisallow: /utils/"
+      },
+      "robots_allows": true,
+      "get": {
+        "status": 200,
+        "final_url": "https://www.nerc.com/",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 64874,
+        "server": "cloudflare",
+        "title": "North American Electric Reliability Corp | Home",
+        "visible_chars": 439,
+        "excerpt": "North American Electric Reliability Corp | Home Washington Office 1401 H Street NW Suite 410 Washington, DC 20005 202-400-3000 Who We Are Careers Newsroom Contact Us Account Log-In/Register Our Work Standards Programs Initiatives Applications Follow us on: twitter youtube linkedin Copyright \u00a9 2026 North American Electric Reliability Corporation. All rights reserved. Privacy Policy Terms of Use Gro",
+        "verdict": "ok"
+      },
+      "verdict": "ok"
+    }
+  ]
+}
