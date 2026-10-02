@@ -254,6 +254,9 @@ def az_acc(ctx):
             if not _after(filed, ctx.since):
                 continue
             img = doc.get("imageNumber") or doc.get("barcode")
+            ttl = doc.get("description") or doc.get("documentDescription") or ""
+            if re.match(r"\s*consumer comment", ttl, re.I):
+                continue   # public comment letters: hundreds per rate case, never a tracker event
             items.append({"id": f"AZ:{doc.get('documentID') or img}", "jur": "AZ", "source": "az_acc", "kind": "filing",
                           "docket": d, "title": doc.get("description") or doc.get("documentDescription"),
                           "filed": filed, "url": f"https://edocket.azcc.gov/search/docket-search/item-detail/{did}",
@@ -417,15 +420,30 @@ def ok_occ(ctx):
     base = "https://public.occ.ok.gov/WebLink/"
     hdr = {"Content-Type": "application/json; charset=UTF-8"}
     form = "ImagedCaseDocumentsfiledafter3212022"
-    for case in ctx.cfg["dockets"].get("OK", []):
+    def listing(value):
         q = http.post(base + "CustomSearchService.aspx/GetSearchQuery", headers=hdr, data=json.dumps({
             "repoName": "OCC", "searchFormID": form,
-            "queryValues": {f"{form}_Input0": [case]}})).json().get("data")
+            "queryValues": {f"{form}_Input0": [value]}})).json().get("data")
         if not q:
-            continue
-        lst = http.post(base + "SearchService.aspx/GetSearchListing", headers=hdr, data=json.dumps({
+            return {}
+        return http.post(base + "SearchService.aspx/GetSearchListing", headers=hdr, data=json.dumps({
             "repoName": "OCC", "searchSyn": q, "searchUuid": "", "sortColumn": "", "startIdx": 0, "endIdx": 100,
-            "getNewListing": True, "sortOrder": 2, "displayInGridView": False})).json().get("data", {})
+            "getNewListing": True, "sortOrder": 2, "displayInGridView": False})).json().get("data", {}) or {}
+
+    for case in ctx.cfg["dockets"].get("OK", []):
+        # the ECF case-number field format is unconfirmed: try the forms the OCC uses, keep the first with hits
+        m_ = re.match(r"([A-Z]+)\s*(\d{4})-?0*(\d+)", case)
+        variants = [case]
+        if m_:
+            p_, y_, n_ = m_.groups()
+            variants += [f"{p_} {y_}-{int(n_):06d}", f"{p_}{y_}{int(n_):06d}", f"{p_} {y_}{int(n_):06d}", f"{y_}-{int(n_):06d}"]
+        lst = {}
+        for v in dict.fromkeys(variants):
+            lst = listing(v)
+            if lst.get("hitCount"):
+                ctx.state.setdefault("case_format", v.replace(case, "<case>"))
+                break
+        ctx.log(f"ok {case}: hitCount {lst.get('hitCount')} after {len(variants)} variants")
         cols = [c.get("name") for c in lst.get("columns", [])]
         for res in lst.get("results", []) or lst.get("rows", []) or []:
             rec = res if isinstance(res, dict) else dict(zip(cols, res))
@@ -544,13 +562,21 @@ def mo_efis(ctx):
                 "GridResultOptions.SortDirection": "DESC", "__RequestVerificationToken": m.group(1)}
         j = http.post(base + "Case", data=form, headers={"X-Requested-With": "XMLHttpRequest"}).json()
         html = j.get("searchGridResultContent", "")
-        return re.findall(r'href="/Case/Display/(\d+)"[^>]*>\s*([A-Z]{2}-\d{4}-\d{4})', html), html
+        # pair each case number with the nearest Case/Display link (markup varies; don't rely on one pattern)
+        links = [(lm.start(), lm.group(1)) for lm in re.finditer(r"Case/Display/(\d+)", html)]
+        out, seen_n = [], set()
+        for nm_ in re.finditer(r"\b([A-Z]{2}-\d{4}-\d{4})\b", html):
+            if nm_.group(1) in seen_n or not links:
+                continue
+            pos, cid = min(links, key=lambda L: abs(L[0] - nm_.start()))
+            if abs(pos - nm_.start()) < 2500:
+                out.append((cid, nm_.group(1)))
+                seen_n.add(nm_.group(1))
+        return out, html
 
     watched = set(ctx.cfg["dockets"].get("MO", []))
     ids = ctx.state.setdefault("case_ids", {})
     new, _ = search(ctx.since)
-    for cid, num in dict((n, c) for c, n in new).items():
-        pass
     for cid, num in new:
         if num.startswith(("E", "EA", "EO", "ER", "ET", "EF", "EE", "EC")):
             ids.setdefault(num, cid)
