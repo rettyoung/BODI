@@ -9,17 +9,9 @@ import json, os, re, sys, time
 from common import Http, UA, DATA, save_json, now_utc, looks_blocked
 
 TARGETS = [
-    {"id": "ferc_download", "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261001-5390",
-     "steps": [{"click": "a[href*='download'], a[title*='Download'], a[aria-label*='ownload'], i.fa-download, .fa-file-pdf, a[href*='filedownload']"}]},
-    {"id": "ferc_filedownload", "url": "https://elibrary.ferc.gov/eLibrary/filedownload?fileid=7C898DAD-BB3D-CBE0-9E07-A0FC83C00000"},
-    {"id": "az_docs", "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
-     "steps": [{"click": "text=Docket Documents"}, {"wait": 6000}]},
-    {"id": "nm_advsearch", "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-AdvancedSearch",
-     "steps": [{"wait": 6000}, {"fill": ["input[name='data[docketNumber]']", "25-00079-UT"]}, {"click": "button:has-text('Search')"}, {"wait": 8000}]},
-    {"id": "la_docketsearch", "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/lpsc-web-portal",
-     "steps": [{"click": "text=Search for Dockets"}, {"wait": 4000}, {"fill_hint": ["docket|number", "U-37882"]}, {"press": "Enter"}, {"wait": 6000}]},
-    {"id": "mo_casesearch", "url": "https://www.efis.psc.mo.gov/Case/NewSearch",
-     "steps": [{"fill_hint": ["casenumber|case number|caseno|CaseNumber", "ER-2026-0143"]}, {"press": "Enter"}, {"wait": 6000}]},
+    {"id": "az_bundle", "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551", "scan_js": r"api/edocket/[A-Za-z/{}$.]+|edocket/[A-Za-z]+Document[A-Za-z]*"},
+    {"id": "nm_bundle", "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home", "scan_js": r"apiflow/v1/prc/nm/[A-Za-z/_]+"},
+    {"id": "la_docket", "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocketDetails?docketId=32728"},
 ]
 
 
@@ -157,6 +149,16 @@ def main(only=None):
                 rec["status"] = resp.status if resp else None
                 if t.get("search"):
                     rec["search_note"] = heuristic_search(page, t["search"], t.get("hint", "search"))
+                if t.get("scan_js"):
+                    srcs = page.eval_on_selector_all("script[src]", "els => els.map(e => e.src)")
+                    found = set()
+                    for src in srcs[:12]:
+                        try:
+                            js = page.request.get(src).text()
+                            found.update(re.findall(t["scan_js"], js))
+                        except Exception as e:
+                            found.add("ERR " + src + " " + repr(e)[:80])
+                    rec["js_endpoints"] = sorted(found)[:300]
                 txt = page.inner_text("body")[:200000]
                 rec["blocked"] = looks_blocked(txt)
                 rec["final_url"] = page.url
