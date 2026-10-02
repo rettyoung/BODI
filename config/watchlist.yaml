@@ -45,7 +45,7 @@ dockets:
          ER26-1323, ER26-1731, ER26-247, EL26-36, EL26-38]
   AZ:   [E-01345A-25-0105, E-01773A-26-0123]
   GA:   ["55378", "56002"]
-  TX:   ["58481", "58777", "58796", "59475", "59611", "59142", "58000", "58482"]
+  TX:   ["58481", "58777", "58796", "59475", "59611", "59142", "58000", "58482", "58317"]   # 58317 = ERCOT Batch Zero good-cause exception / pause
   NM:   [25-00079-UT, 25-00082-UT, 26-0000062]
   LA:   [U-37882, U-37921, U-37425]
   MO:   [ER-2026-0143, ER-2026-0291, ET-2025-0184]
@@ -90,6 +90,14 @@ entities:
   NV Energy:     {aliases: ["Nevada Power Company", "Sierra Pacific Power Company"], cik: "0000071180", juris: [NV]}
   NextEra Transmission: {aliases: ["NextEra Energy Transmission"], juris: [WV, VA]}
 
+# Party watch: a filing BY any of these in a watched docket is material by default (customer and
+# intervenor briefs carry the terms utilities later concede). The collector tags matches as party_hits.
+parties: [Microsoft, Google, Alphabet, Amazon, "Amazon Data Services", AWS, Meta, Oracle, OpenAI, CoreWeave,
+  "Data Center Coalition", "Digital Realty", Equinix, QTS, "STACK Infrastructure", Vantage, "Aligned Data Centers",
+  "CyrusOne", "Compass Datacenters", Crusoe, "Applied Digital", Constellation, Vistra, NRG, Talen,
+  "Retail Energy Advancement League", "Clean Energy Buyers Association", "Walmart", "Texas Industrial Energy Consumers",
+  "Southern Environmental Law Center", "Sierra Club", "Appalachian Voices", "Office of Public Utility Counsel"]
+
 rtos: [PJM, MISO, SPP, ERCOT, CAISO, NYISO, ISO-NE, Western Power Pool / WRAP]
 
 # EDGAR. Tickers resolve to CIKs at run time via sec.gov/files/company_tickers.json; explicit CIKs win.
@@ -126,6 +134,17 @@ watch_pages:
   - {id: isone_press,  jur: FERC, rto: ISO-NE, url: "https://www.iso-ne.com/about/news-media/press-releases", link: "press|news", verify: true}
   - {id: miso_news,    jur: FERC, rto: MISO, url: "https://www.misoenergy.org/meet-miso/media-center/", link: "media-center|\\.pdf", verify: true, render: true}
   - {id: wpp_news,     jur: FERC, rto: Western Power Pool / WRAP, url: "https://www.westernpowerpool.org/news", link: "news", verify: true}
+
+  # Executive actions have no docket (the Aug 2026 Texas audit directive was missed for exactly this reason).
+  - {id: gov_tx, jur: TX, url: "https://gov.texas.gov/news", link: "/news/post/", verify: true}
+  - {id: gov_va, jur: VA, url: "https://www.governor.virginia.gov/newsroom/news-releases/", link: "news-releases/", verify: true}
+  - {id: gov_ga, jur: GA, url: "https://gov.georgia.gov/press-releases", link: "press-releases/", verify: true}
+  - {id: gov_az, jur: AZ, url: "https://azgovernor.gov/office-arizona-governor/news", link: "/news/", verify: true}
+  - {id: gov_pa, jur: PA, url: "https://www.pa.gov/governor/newsroom", link: "newsroom", verify: true}
+  - {id: gov_oh, jur: OH, url: "https://governor.ohio.gov/media/news-and-media", link: "news-and-media/", verify: true}
+  - {id: gov_la, jur: LA, url: "https://gov.louisiana.gov/news/", link: "/news/", verify: true}
+  - {id: gov_nc, jur: NC, url: "https://governor.nc.gov/news/press-releases", link: "press-releases/", verify: true}
+  - {id: puct_news, jur: TX, url: "https://www.puc.texas.gov/agency/resources/pubs/news/", link: "\\.pdf|news", verify: true}
 
 rss:
   - {id: pjm_insidelines, rto: PJM, url: "https://insidelines.pjm.com/feed/"}

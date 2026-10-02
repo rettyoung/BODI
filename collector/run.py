@@ -162,6 +162,7 @@ def main(only=None):
     cand_path = os.path.join(DATA, "candidates", f"{today()}.jsonl")
     os.makedirs(os.path.dirname(cand_path), exist_ok=True)
     kws = cfg.get("keywords", [])
+    parties = cfg.get("parties", [])
     docs_budget = MAX_DOCS
     signal.signal(signal.SIGALRM, _alarm)
     run_t0 = time.time()
@@ -202,13 +203,25 @@ def main(only=None):
         try:
             items = fn(ctx) or []
             signal.alarm(0)
-            baseline = name in BASELINE_SOURCES and name not in state["baselined"]
+            # Undated lists (pages, feeds, decks, mirrors): the first time a list is seen, its existing
+            # links are the baseline, not news. Tracked per list, so adding a page later never floods.
+            bkeys = set(state.setdefault("baselined_keys", []))
+            migrated = state.setdefault("bkey_migrated", [])
+            if name in BASELINE_SOURCES and name in state["baselined"] and name not in migrated:
+                # source baselined before per-list keys existed: its current lists are already baselined
+                bkeys |= {(it.get("meta") or {}).get("bkey") for it in items} - {None}
+                migrated.append(name)
+
+            def is_baseline(it):
+                return name in BASELINE_SOURCES and (it.get("meta") or {}).get("bkey", name) not in bkeys
             new = [it for it in items if it["id"] not in state["seen"]]
-            rec.update(found=len(items), new=len(new), baseline=baseline)
+            nb = sum(1 for it in new if is_baseline(it))
+            rec.update(found=len(items), new=len(new), baselined_now=nb)
+            baseline = False
             kept = 0
             for it in new:
                 state["seen"][it["id"]] = today()
-                if baseline:
+                if is_baseline(it):
                     continue
                 docs = []
                 if docs_budget > 0 and it.get("fetch"):
@@ -216,22 +229,26 @@ def main(only=None):
                     docs_budget -= len(docs)
                     health["docs_fetched"] += len(docs)
                 hits = keyword_hit(it, docs, kws)
+                phits = keyword_hit(it, docs[:1], parties) if parties else []
                 if (it.get("meta") or {}).get("keyword_filter") and not hits:
                     continue  # news/mirror link with nothing on-beat
                 kept += 1
                 fpath = os.path.join("data", "filings", slug(it.get("jur") or "NA", 12), slug(name, 30),
                                      slug(it["id"], 120) + ".json")
                 save_json(os.path.join(ROOT, fpath), {**it, "collected_at": now_utc(), "run_id": run_id,
-                                                      "keywords": hits, "documents": docs})
+                                                      "keywords": hits, "party_hits": phits, "documents": docs})
                 line = {k: it.get(k) for k in ("id", "jur", "source", "kind", "docket", "title", "filed", "url", "entity")}
-                line.update(filing=fpath, keywords=hits, run_id=run_id,
+                line.update(filing=fpath, keywords=hits, party_hits=phits, run_id=run_id,
                             docs=[{"url": d.get("url"), "quality": d.get("quality"), "ocr": d.get("ocr"),
                                    "chars": len(d.get("text") or ""), "error": d.get("error")} for d in docs],
                             meta={k: v for k, v in (it.get("meta") or {}).items() if k not in ("raw",)})
                 with open(cand_path, "a") as f:
                     f.write(json.dumps(line, ensure_ascii=False, default=str) + "\n")
-            if baseline:
-                state["baselined"].append(name)
+            if name in BASELINE_SOURCES:
+                seen_keys = {(it.get("meta") or {}).get("bkey", name) for it in items}
+                state["baselined_keys"] = sorted(bkeys | seen_keys)
+                if name not in state["baselined"]:
+                    state["baselined"].append(name)
             rec.update(kept=kept, status="ok", subsources=ctx.sub, notes=ctx.notes[-20:])
             health["new_items"] += kept
             sst.update(consecutive_failures=0, last_ok=today(), last_error=None)

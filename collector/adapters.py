@@ -601,7 +601,7 @@ def watch_pages(ctx):
             n += 1
             items.append({"id": f"PAGE:{p['id']}:{u}", "jur": p.get("jur"), "source": f"page:{p['id']}", "kind": "news",
                           "docket": None, "title": text[:300], "filed": None, "url": u,
-                          "fetch": [{"url": u}], "meta": {"rto": p.get("rto"), "page": p["url"], "keyword_filter": p.get("jur") not in ("OK", "KS")}})
+                          "fetch": [{"url": u}], "meta": {"bkey": "page:" + p["id"], "rto": p.get("rto"), "page": p["url"], "keyword_filter": p.get("jur") not in ("OK", "KS")}})
         ctx.record(p["id"], "ok", f"{n} links")
     return items
 
@@ -623,7 +623,7 @@ def rss(ctx):
                 continue
             items.append({"id": f"RSS:{f['id']}:{e.get('id') or e.get('link')}", "jur": None, "source": f"rss:{f['id']}",
                           "kind": "news", "docket": None, "title": e.get("title"), "filed": filed, "url": e.get("link"),
-                          "fetch": [], "meta": {"rto": f.get("rto"), "summary": re.sub(r"<[^>]+>", " ", e.get("summary") or "")[:800],
+                          "fetch": [], "meta": {"bkey": "rss:" + f["id"], "rto": f.get("rto"), "summary": re.sub(r"<[^>]+>", " ", e.get("summary") or "")[:800],
                                                 "keyword_filter": True}})
         ctx.record(f["id"], "ok", f"{len(feed.entries)} entries")
     return items
@@ -646,7 +646,7 @@ def ir_decks(ctx):
         for u in sorted(pdfs):
             items.append({"id": f"IR:{u.split('?')[0]}", "jur": "CORP", "source": "ir_decks", "kind": "deck",
                           "docket": None, "title": f"{p['issuer']} — {u.rsplit('/', 1)[-1]}", "filed": None, "url": u,
-                          "entity": p["issuer"], "fetch": [{"url": u}], "meta": {"issuer": p["issuer"]}})
+                          "entity": p["issuer"], "fetch": [{"url": u}], "meta": {"bkey": "ir:" + p["issuer"], "issuer": p["issuer"]}})
         ctx.record("ir:" + p["issuer"], "ok", f"{len(pdfs)} pdf links")
     return items
 
@@ -669,7 +669,7 @@ def mirrors(ctx):
             items.append({"id": f"MIRROR:{u}", "jur": m["jur"], "source": "mirror:" + m["id"], "kind": "filing",
                           "docket": None, "title": re.sub(r"<[^>]+>|\s+", " ", label).strip()[:300], "filed": None,
                           "url": u, "entity": m.get("owner"), "fetch": [{"url": u}],
-                          "meta": {"mirror_of": m.get("mirror_of"), "keyword_filter": True}})
+                          "meta": {"bkey": "mirror:" + m["id"], "mirror_of": m.get("mirror_of"), "keyword_filter": True}})
         ctx.record("mirror:" + m["id"], "ok", f"{n} links")
     return items
 
