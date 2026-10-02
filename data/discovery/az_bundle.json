@@ -1,0 +1,839 @@
+{
+ "id": "az_bundle",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+ "at": "2026-10-02T23:03:56Z",
+ "status": 200,
+ "js_endpoints": [],
+ "blocked": null,
+ "final_url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+ "title": "eDocket | Arizona Corporation Commission",
+ "text_excerpt": "ACC eDocket | Search | Calendar | eFiling | Reports | FAQs HomeSearchDocket SearchDocket Details Docket Details E-01345A-25-0105 Docket Documents Decisions and Votes Case Schedule Staff Assigned Service List Linked Dockets Docket Number E-01345A-25-0105 Ex Parte Invoked Company Name Arizona Public Service Company DBA Name Docket Type Electric Case Type Rates Docket Status Open Filed Date 05/15/2025 Description In the matter of the application of Arizona Public Service Company for a hearing to determine the fair value of thе utility property of the company for ratemaking purposes, to fix a just and reasonable rate of return thereon, and to approve rate schedules designed to develop such return. Year Matter 25-0105 Special Instructions Disclaimer | Privacy Policy | Contact Us",
+ "links": [
+  [
+   "https://azcc.gov/",
+   ""
+  ],
+  [
+   "https://azcc.gov/",
+   "ACC"
+  ],
+  [
+   "https://edocket.azcc.gov/",
+   "eDocket"
+  ],
+  [
+   "https://edocket.azcc.gov/search",
+   "Search"
+  ],
+  [
+   "https://edocket.azcc.gov/calendar",
+   "Calendar"
+  ],
+  [
+   "https://edocket.azcc.gov/report",
+   "Reports"
+  ],
+  [
+   "https://azcc.gov/hearing/faqs",
+   "FAQs"
+  ],
+  [
+   "https://azcc.gov/",
+   ""
+  ],
+  [
+   "https://azcc.gov/",
+   "ACC"
+  ],
+  [
+   "https://edocket.azcc.gov/",
+   "eDocket"
+  ],
+  [
+   "https://edocket.azcc.gov/search",
+   "Search"
+  ],
+  [
+   "https://edocket.azcc.gov/calendar",
+   "Calendar"
+  ],
+  [
+   "https://edocket.azcc.gov/report",
+   "Reports"
+  ],
+  [
+   "https://azcc.gov/hearing/faqs",
+   "FAQs"
+  ],
+  [
+   "https://edocket.azcc.gov/",
+   "Home"
+  ],
+  [
+   "https://edocket.azcc.gov/search",
+   "Search"
+  ],
+  [
+   "https://edocket.azcc.gov/search/docket-search",
+   "Docket Search"
+  ],
+  [
+   "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+   "Docket Details"
+  ],
+  [
+   "https://azcc.gov/meet-the-commissioners/ex-parte-rule-and-faqs",
+   "Ex Parte Invoked"
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/470101",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054751.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/470013",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054703.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469908",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054651.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469883",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054630.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469821",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054599.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469707",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054555.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469679",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054532.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469641",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054500.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469586",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054474.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469532",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054448.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469465",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054420.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469413",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054387.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469323",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054348.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469305",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054335.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469280",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054314.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469242",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054306.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469232",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054296.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469230",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054294.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469229",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054293.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469228",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054292.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469227",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054291.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469226",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054290.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469225",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054289.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469222",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054287.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469220",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054285.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469217",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054282.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469202",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054279.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469199",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054278.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469193",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054275.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/document-search/item-detail/469192",
+   ""
+  ],
+  [
+   "https://docket.images.azcc.gov/E000054274.pdf?i=1790982239099",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46584",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46583",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46582",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46581",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46006",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46005",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46004",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46610",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46003",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46002",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46001",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46609",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/46000",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45998",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45997",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45999",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45996",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45995",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45994",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45993",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45992",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45991",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45990",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45989",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45988",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45987",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45986",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45985",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45984",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/search/event-detail-search/item-detail/45983",
+   ""
+  ],
+  [
+   "https://edocket.azcc.gov/home/disclaimer",
+   "Disclaimer"
+  ],
+  [
+   "https://azcc.gov/privacy-policy",
+   "Privacy Policy"
+  ],
+  [
+   "https://azcc.gov/contact",
+   "Contact Us"
+  ]
+ ],
+ "result": "ok",
+ "xhr": [
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=eFiling%20Filing%20Status",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1416,\"codeTypeID\":72,\"value\":\"Pending\",\"shortValue\":\"Pending\",\"inactive\":false,\"createdByUserID\":1082,\"createdOnDateTime\":\"2018-03-22T13:47:16\",\"modifiedByUserID\":1082,\"modifiedOnDateTime\":\"2018-03-22T13:48:48.037\",\"subCode\":[],\"codeType\":null},{\"codeID\":1417,\"codeTypeID\":72,\"value\":\"Rejected\",\"shortValue\":\"Rejected\",\"inactive\":false,\"createdByUserID\":1082,\"createdOnDateTime\":\"2018-03-22T13:48:01\",\"modifiedByUserID\":1082,\"modifiedOnDateTime\":\"2018-03-22T13:48:14.91\",\"subCode\":[],\"codeType\":null},{\"codeID\":1418,\"codeTypeID\":72,\"value\":\"Docketed\",\"shortValue\":\"Docketed\",\"inactive\":false,\"createdByUserID\":1082,\"createdOnDateTime\":\"2018-03-22T13:48:19\",\"modifiedByUserID\":1082,\"modifiedOnDateTime\":\"2018-03-22T13:48:38.083\",\"subCode\":[],\"codeType\":null},{\"codeID\":2161,\"codeTypeID\":72,\"value\":\"Rejected - Confidential\",\"shortValue\":\"Rejected - Confidential\",\"inactive\":false,\"createdByUserID\":4756,\"createdOnDateTime\":\"2020-09-02T08:46:10.65\",\"modifiedByUserID\":4756,\"modifiedOnDateTime\":\"2020-09-02T08:46:10.65\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api/getCurrentOutageNotificationsByApplicationName?applicationName=eDocket",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=eFiling%20Filing%20Status",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1416,\"codeTypeID\":72,\"value\":\"Pending\",\"shortValue\":\"Pending\",\"inactive\":false,\"createdByUserID\":1082,\"createdOnDateTime\":\"2018-03-22T13:47:16\",\"modifiedByUserID\":1082,\"modifiedOnDateTime\":\"2018-03-22T13:48:48.037\",\"subCode\":[],\"codeType\":null},{\"codeID\":1417,\"codeTypeID\":72,\"value\":\"Rejected\",\"shortValue\":\"Rejected\",\"inactive\":false,\"createdByUserID\":1082,\"createdOnDateTime\":\"2018-03-22T13:48:01\",\"modifiedByUserID\":1082,\"modifiedOnDateTime\":\"2018-03-22T13:48:14.91\",\"subCode\":[],\"codeType\":null},{\"codeID\":1418,\"codeTypeID\":72,\"value\":\"Docketed\",\"shortValue\":\"Docketed\",\"inactive\":false,\"createdByUserID\":1082,\"createdOnDateTime\":\"2018-03-22T13:48:19\",\"modifiedByUserID\":1082,\"modifiedOnDateTime\":\"2018-03-22T13:48:38.083\",\"subCode\":[],\"codeType\":null},{\"codeID\":2161,\"codeTypeID\":72,\"value\":\"Rejected - Confidential\",\"shortValue\":\"Rejected - Confidential\",\"inactive\":false,\"createdByUserID\":4756,\"createdOnDateTime\":\"2020-09-02T08:46:10.65\",\"modifiedByUserID\":4756,\"modifiedOnDateTime\":\"2020-09-02T08:46:10.65\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api/getCurrentOutageNotificationsByApplicationName?applicationName=eDocket",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api/edocket/GetDocketVotes/29551",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api/edocket/docket/29551",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "{\"docketID\":29551,\"docketNumber\":\"E-01345A-25-0105\",\"company\":{\"id\":16,\"number\":\"01345\",\"name\":\"Arizona Public Service Company\",\"dbaName\":\"\",\"department\":null,\"isSecurity\":false,\"entityNameID\":16},\"docketType\":{\"$id\":\"1\",\"codeID\":1228,\"codeTypeID\":61,\"value\":\"Electric\",\"shortValue\":\"E\",\"inactive\":null,\"createdByUserID\":1,\"createdOnDateTime\":\"2017-11-28T18:09:29.827\",\"modifiedByUserID\":1,\"modifiedOnDateTime\":\"2017-11-28T18:09:29.827\"},\"docketStatus\":{\"$id\":\"2\",\"id\":1217,\"value\":\"Open\"},\"filedDate\":\"2025-05-15T00:00:00\",\"caseType\":{\"$id\":\"3\",\"caseTypeID\":17,\"abrev\":\"R\",\"descr\":\"Rates\",\"inactive\":null,\"requireCCN\":null,\"requireSufficiency\":true,\"isInterconnection\":null,\"division\":\"Rule\",\"dockets\":[{\"$id\":\"4\",\"docketID\":29551,\"entityNameID\":16,\"legalNumberID\":16,\"docketTypeID\":1228,\"caseTypeID\":17,\"docketDesc\":\"In the matter of the application of Arizona Public Service Company for a hearing to determine the fair value of thе utility property of the company for ratemaking purposes, to fix a just and reasonable rate of return thereon, and to approve rate schedules designed to develop such return.\",\"specialInstructions\":null,\"matterYear\":2025,\"matterNum\":105,\"matterStartDate\":\"2025-05-15T00:00:00\",\"matterEndDate\":null,\"lineSitingNum\":null,\"timeFrameID\":1,\"approvedQC\":true,\"pubDate\":\"2025-05-15T00:00:00\",\"createdOnDateTime\":\"2025-05-15T16:30:57.717\",\"createdByUserID\":2675,\"modifiedOnDateTime\":\"2025-06-13T16:07:34.157\",\"modifiedByUserID\":893,\"departmentID\":1137,\"exParte\":true,\"linkedDockets\":[],\"linkedDockets1\":[],\"entityName\":{\"$id\":\"5\",\"entityNameID\":16,\"entityID\":16,\"typeID\":235,\"name\":\"Arizona Public Service Company\",\"createdByUserID\":1,\"modifiedByUserID\":1107,\"createdOnDateTime\":\"2015-07-15T17:08:52.783\",\"modifiedOnDateTime\":\"2021-05-20T06:49:23.957\",\"approvedQC\":null,\"dockets\":[{\"$ref\":\"4\"}],\"vw_EntityNameNumber\":[],\"complianceActionCompanies\":[],\"complaints\":[],\"entity\":null,\"eDocketDocuments\":[],\"eFilingTempDocuments\":[],\"eFilingTempDockets\":[],\"annualReports\":[],\"arDocumentMetaDatas\":[]},\"legalNumber\":{\"$id\":\"6\",\"legalNumberID\":16,\"entityID\":16,\"typeID\":410,\"number\":\"01345\",\"createdByUserID\":1,\"modifiedByUserID\":1,\"createdOnDateTime\":\"2015-07-15T17:08:52.8\",\"modifiedOnDateTime\":\"2015-07-15T17:08:52.8\",\"inactive\":false,\"dockets\":[{\"$ref\":\"4\"}],\"complianceActionCompanies\":[],\"entity\":null,\"eDocketDocuments\":[],\"eFilingTempDocuments\":[]},\"docketAuthorizations\":[],\"docketDecisions\":[],\"docketDocketStatuses\":[],\"docketDocumentIndexes\":[],\"docketDocumentIndexHeaders\":[],\"microfilms\":[],\"postalBatches\":[],\"subscriptions\":[],\"events\":[{\"$id\":\"7\",\"eventID\":45955,\"locationID\":1279,\"subject\":\"Rates\",\"startDateTime\":\"2026-01-20T13:00:00\",\"endDateTime\":\"2026-01-20T16:00:18\",\"eventTypeID\":4,\"public\":true,\"updateReasonID\":null,\"timeClockTime\":null,\"completedDateTime\":null,\"agendaLink\":null,\"approvedQC\":true,\"createdOnDateTime\":\"2025-07-15T11:53:36.25\",\"createdByUserID\":5399,\"modifiedOnDateTime\":\"2025-07-15T11:53:36.25\",\"modifiedByUserID\":5399,\"cityID\":2137,\"administrativeLawJudgeID\":3383,\"documentID\":null,\"telephonicNumberID\":2754,\"eventGenericNotes\":[],\"subscriptions\":[],\"dockets\":[{\"$ref\":\"4\"}],\"eventType\":{\"$id\":\"8\",\"eventTypeId\":4,\"eventType1\":\"Public Comment\",\"permanent\":1,\"public\":1,\"qc\":true,\"eventCutoff\":1,\"documentCodeID\":null,\"documentSubcodeID\":null,\"sequence\":null,\"sort\":6,\"createdByUserID\":3110,\"createdOnDateTime\":\"2006-04-27T14:12:00\",\"modifiedByUserID\":1,\"modifiedOnDateTime\":\"2017-11-28T18:12:18.71\",\"events\":[{\"$ref\":\"7\"},{\"$id\":\"9\",\"eventID\":45957,\"locationID\":1279,\"subject\":\"Rates\",\"startDateTime\":\"2026-02-18T10:00:00\",\"endDateTime\":\"2026-02-18T13:00:35\",\"eventTypeID\":4,\"public\":true,\"updateReasonID\":null,\"timeClockTime\":null,\"completedDateTime\":null,\"agendaLink\":null,\"approvedQC\":true,\"createdOnDateTime\":\"2025-07-15T11:55:54.9566667\",\"createdByUserID\":5399,\"modifiedOnDateTime\":\"2025-07-15T11:55:54.9566667\",\"modifiedByUserID\":5399,\"cityID\":2137,\"administrativeLawJudgeID\":3383,\"documentID\":null,\"telephonicNumberID\":2754,\"even"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  },
+  {
+   "method": "GET",
+   "url": "https://efiling.azcc.gov/api//CodesByCodeTypeName?codeTypeName=Service%20List%20Party%20Role",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "req_headers": {
+    "accept": "application/json, text/plain, */*"
+   },
+   "post_data": "",
+   "body": "[{\"codeID\":1459,\"codeTypeID\":75,\"value\":\"Applicant\",\"shortValue\":\"10\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:25:28\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:27:32.237\",\"subCode\":[],\"codeType\":null},{\"codeID\":1460,\"codeTypeID\":75,\"value\":\"Complainant\",\"shortValue\":\"20\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:27:50\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:23:45.657\",\"subCode\":[],\"codeType\":null},{\"codeID\":1461,\"codeTypeID\":75,\"value\":\"Interested Non-party\",\"shortValue\":\"30\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:03\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:24:21.423\",\"subCode\":[],\"codeType\":null},{\"codeID\":1462,\"codeTypeID\":75,\"value\":\"Intervenor\",\"shortValue\":\"40\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:19\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2019-02-11T09:45:30.71\",\"subCode\":[],\"codeType\":null},{\"codeID\":1463,\"codeTypeID\":75,\"value\":\"Respondent\",\"shortValue\":\"50\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:29\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:53.693\",\"subCode\":[],\"codeType\":null},{\"codeID\":1464,\"codeTypeID\":75,\"value\":\"Intervener\",\"shortValue\":\"60\",\"inactive\":true,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:40\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-14T13:25:31.1\",\"subCode\":[],\"codeType\":null},{\"codeID\":1465,\"codeTypeID\":75,\"value\":\"Staff\",\"shortValue\":\"70\",\"inactive\":false,\"createdByUserID\":1125,\"createdOnDateTime\":\"2018-11-13T08:28:51\",\"modifiedByUserID\":1125,\"modifiedOnDateTime\":\"2018-11-13T08:28:57.683\",\"subCode\":[],\"codeType\":null}]"
+  }
+ ],
+ "downloads": []
+}
