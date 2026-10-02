@@ -62,7 +62,8 @@
       const cc = row.getCell(15);
       if (CONF_FILL[cc.value]) cc.fill = fill(CONF_FILL[cc.value]);
     });
-    WIDTHS.forEach((w, i) => { ws.getColumn(i + 1).width = w; });
+    // ExcelJS treats width 9 as "default" and omits it; 9.001 is written and renders identically.
+    WIDTHS.forEach((w, i) => { ws.getColumn(i + 1).width = w === 9 ? 9.001 : w; });
     ws.autoFilter = `A1:Z${n}`;
 
     const s = wb.addWorksheet("Summary");
