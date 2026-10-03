@@ -95,13 +95,32 @@ main intervenors is tagged by the collector and treated as material by the Sweep
 | NCUC subscription mail | S | Only cloud discovery route for Duke NC. |
 | Web search (Claude) | S | Leads and refutations for manual-route states; never *Verified* on a snippet. |
 
-### 1f. Keyed public data (wired; activate by adding the free key as a repo secret)
+### 1f. Keyed public data (adapters built 2 Oct; each runs once its free key is added as a repo secret)
 
 | Source | Secret | Use |
 |---|---|---|
 | EIA Open Data v2 (Form 860M planned additions/retirements) | `EIA_API_KEY` | Cross-check utility commission claims; only public window into GRDA, NOVEC, AEPCO. |
 | congress.gov API | `CONGRESS_API_KEY` | Federal bills on data centers, permitting, grid reliability. |
 | Open States API | `OPENSTATES_API_KEY` | State bills in all 18 jurisdictions (NV and TX legislate in odd years only). |
+
+| CourtListener | `COURTLISTENER_TOKEN` (optional) | Opinions on large-load / tariff / co-location matters run keyless; the token adds federal docket (RECAP) search. |
+
+### 1g. Added 2 October 2026 (second wave; first nightly run verifies each)
+
+| Source | What it gives | Process |
+|---|---|---|
+| MISO and SPP interconnection queues | Monthly snapshot; new projects ≥100 MW and MW totals by tracked state | C |
+| ERCOT load / board pages | Large-load interconnection updates, monthly operational overview | C |
+| Capacity markets: PJM RPM, MISO PRA, NYISO ICAP, ISO-NE FCM, SPP resource adequacy | Auction results and planning parameters | C |
+| Appellate courts: Virginia Supreme Court and Court of Appeals, Pennsylvania Commonwealth Court; CourtListener searches | Appeals of commission orders (e.g. Rider T1) | C |
+| Governors' newsrooms / executive orders: AL, IL, KS, MO, NM, NV, OK, SC, WV (adds to TX, VA, GA, AZ, PA, OH, LA, NC) | Executive actions with no docket | C |
+| County and city agendas via Legistar (Prince William, Loudoun, Fairfax, Henrico, Maricopa, Phoenix, Mesa, Columbus, Fulton, Atlanta, San Antonio, Fort Worth, Kansas City, Tulsa, Reno) | Rezonings, special exceptions, moratoria for data centers | C |
+| Utility IRP / RFP pages: Dominion, Duke Carolinas, Georgia Power, APS, Entergy RFPs, Evergy, Xcel/SPS | Supply additions and procurement before they reach a docket | C |
+| DOE newsroom, 202(c) orders, Loan Programs Office; NRC news; Federal Register terms for restarts, uprates, SMRs, loan guarantees | Federal financing, emergency orders, nuclear supply | C |
+
+**Not yet possible:** PJM and ERCOT queue files (both require a registered key — PJM Planning API, ERCOT MIS);
+commission e-docket systems in VA, SC and IL (consent received verbally, but the sites' robots.txt still refuses
+automated clients — see §2 row 1); OH, NC and WV (technical blocks).
 
 ---
 
