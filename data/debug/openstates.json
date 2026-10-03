@@ -1,0 +1,15 @@
+{
+ "adapter": "openstates",
+ "since": "2026-06-01",
+ "items": 0,
+ "sample": [],
+ "notes": [],
+ "sub": {
+  "openstates": {
+   "status": "no_key",
+   "note": "add repo secret OPENSTATES_API_KEY to enable"
+  }
+ },
+ "exchanges": [],
+ "adapter_state": {}
+}

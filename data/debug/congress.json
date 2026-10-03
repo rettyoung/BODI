@@ -1,0 +1,15 @@
+{
+ "adapter": "congress",
+ "since": "2026-06-01",
+ "items": 0,
+ "sample": [],
+ "notes": [],
+ "sub": {
+  "congress": {
+   "status": "no_key",
+   "note": "add repo secret CONGRESS_API_KEY to enable"
+  }
+ },
+ "exchanges": [],
+ "adapter_state": {}
+}
