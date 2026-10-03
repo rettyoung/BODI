@@ -8,6 +8,11 @@ state changes it calls for, or record it REFUTED with the reason. Add the item i
 ---
 
 ## C-01 — Texas: Governor's data-center audit directive and the ERCOT Batch Zero pause (missed)
+**Partly done 2026-10-03 (degraded run, from licensed mail and a law-firm note):** E-20261003-002 (TCEQ permit
+halt), -011 (community impact RFI), -012 (verification RFI), -013 (directive + delay notice), -014 (provisional
+classifications), all Reported. Remaining: read the primary documents (PUCT 58317 filings in data/filings/TX/,
+ERCOT notices) and, where confirmed, re-record as Verified with a `supersedes` entry for the Reported row;
+overlay the stale baseline Batch Zero row (still undone). Do not create duplicates of the rows above.
 Claims to verify:
 - 2026-08-03: Gov. Abbott directed the PUCT and ERCOT to verify and audit data centers in the large-load
   interconnection process. (Venue Executive, Instrument Directive, Jurisdiction TX; rows for ERCOT and for
