@@ -1,15 +1,19 @@
-# Grid Docket — consolidated project context
+# Grid Docket — context document
 
-**As of Friday 2 October 2026, 17:00 PT. For Rett Young, Blue Owl Digital Infrastructure (BODI).**
-This replaces three earlier extracts: `GRID_DOCKET_HANDOFF.md`, `claude/session-handoff-2026-10-02.md` and
-`claude/session-extract-2026-10-02-tracker-gaps.md`. Where those disagreed, this document states which view
-won and why.
+**Weekly large-load and generation regulatory tracker for Blue Owl Digital Infrastructure (BODI).**
+Owner: Rett Young (rett.young@blueowl.com). Rewritten 3 October 2026; supersedes all earlier handoff, session and
+context files.
 
-**Precedence when sources disagree:** the live OneDrive files (`/GridDocket/state.json`, the row store) win
-over this document; this document wins over anything older. The three other project docs still hold useful
-detail: `claude/architecture-v3.md` (how v3 runs), `claude/sources-v3.md` (full source lists),
-`claude/reachability-findings-2026-10-02.md` (runner probe). `claude/cloud-native-architecture.md` and
-`claude/implementation-scope-v2.md` are superseded for run design; their access findings still apply.
+This is the single reference for anyone (person or Claude session) picking up the project: what it is, the
+rules Rett has set, where everything lives, how it runs, the state of the data, how each source is reached,
+what's still open, and the lessons that cost time. Sections 5, 13, 14 and 15 are decisions and verified facts —
+change them only on new evidence. When this document and the repo disagree on mechanics, the repo's
+`prompts/sweep.md` and `prompts/brief.md` are what actually runs.
+
+**Contents:** 1 What this is · 2 Standing constraints · 3 Where everything lives · 4 Architecture · 5 Schema ·
+6 Current data · 7 Coverage history and catch-up · 8 Access by source · 9 API keys · 10 Refused sources and
+alternatives · 11 ERCOT · 12 Manual pass · 13 Registry corrections · 14 Structural findings · 15 Benchmarks and
+milestones · 16 Verification record · 17 Sources · 18 Outstanding actions · 19 Process lessons · 20 Change log
 
 ---
 
@@ -58,8 +62,9 @@ actions; earnings and investor presentations; major customer and market-particip
 - **Never create an account, enter a credential, or defeat a CAPTCHA or bot-check.** Never route around a
   robots.txt refusal. Record `ACCESS_REGRESSION` and move on. In the manual pass, Rett solves any CAPTCHA
   himself.
-- **Never take credentials in conversation.** Keys live as GitHub repo secrets (or are typed by Rett into
-  the place they belong). Never store secrets in an artifact database.
+- **Never take credentials in conversation.** API keys are added by Rett as GitHub repo secrets (Settings →
+  Secrets and variables → Actions); they stay secret even though the repo is public. Never store secrets in an
+  artifact database or in the repo.
 - **Licensed sources** (NPM, CapIQ, RTO Insider, DCC Bi-Weekly): facts may be extracted and cited; their
   sentences are never reproduced. Investor decks are public company disclosures and may be quoted.
 - **Polling commission portals is approved** — recorded as accepted risk by Rett, 2026-09-17. The ToS review
@@ -71,6 +76,8 @@ actions; earnings and investor presentations; major customer and market-particip
 - **Best-in-class professional deliverable.** The console must be a real tool. Rett's correction on an early
   version — "what is the point of the internet dashboard? I thought it was meant to be an interactive tool" —
   is the standard.
+- **The repo is public (Rett's decision, 3 Oct 2026)** so the scheduled tasks can read it without credentials.
+  Nothing secret may ever be committed to it; collected material is public filings plus code and the watch list.
 
 ---
 
@@ -81,149 +88,146 @@ actions; earnings and investor presentations; major customer and market-particip
 ```
 driveId       b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmmeISO
 /GridDocket/  01MLUCMYJFKKTYR6ENBFDZOOAQQOLD5QNX
-  manual/     01MLUCMYLTL2DGJ4AHFBB2OJSZMLMPBRJU   (created 2026-10-02)
-  runs/       01MLUCMYNQE5VMUQYLERCIPHUAB5IL4B4E   (created 2026-10-02)
-  briefs/     01MLUCMYPB3OSQIZONA5FLUGQHMAZGKC3U   (created 2026-10-02)
+  manual/     01MLUCMYLTL2DGJ4AHFBB2OJSZMLMPBRJU   manual-pass drops
+  runs/       01MLUCMYNQE5VMUQYLERCIPHUAB5IL4B4E   one record per Sweep run
+  briefs/     01MLUCMYPB3OSQIZONA5FLUGQHMAZGKC3U   one record per Brief run
 webUrl        https://blueowlcap-my.sharepoint.com/personal/rett_young_blueowl_com/Documents/GridDocket
 ```
 
 | File | What it is |
 |---|---|
-| `state.json` | **Read first.** `last_successful_sweep` (2026-09-18), `last_brief_date` (null), registry corrections, structural findings, access methods, explicit negatives, remaining gaps, watch signals, standing facts, pipeline baselines, milestone calendar. The Sweep owns it; the Brief changes only `last_brief_date`. |
-| `rows.json` | **A manifest, not rows.** Lists the part files in order. |
-| `rows_p1..p4.json` | The 229 baseline rows (58/58/58/55). Each row is a 26-element positional array; column names appear once, in `rows_p1.columns`. |
+| `state.json` | **Read first.** Window (`last_successful_sweep`), `last_brief_date`, registry corrections, structural findings, access methods, explicit negatives, remaining gaps, watch signals, standing facts, pipeline baselines, milestone calendar, `manual_ingested`, `corrections_done`, `backfill_cursor`. The Sweep owns it; the Brief changes only `last_brief_date`. |
+| `rows.json` | **A manifest, not rows** (v2). Lists the part files in order: `rows_p1..p5`. |
+| `rows_p1..p4.json` | The 229 baseline rows (58/58/58/55). 26-element positional arrays; column names once, in `rows_p1.columns`. |
+| `rows_p5.json` | First v3 part (3 Oct, degraded run): 19 events / 24 rows plus 2 overlays on `E-20260918-098`. |
 | `seen_index.json` | Dedupe index, time-bounded at 180 days. |
-| `metrics.json` | Structured pipeline series (43 points, 11 issuers) — drives the conversion charts. **This OneDrive copy (11,385 bytes) is authoritative.** |
+| `metrics.json` | Pipeline series (43 points, 11 issuers) — drives the conversion charts. This OneDrive copy is authoritative. |
 | `tariff_terms.json` | Structured tariff terms (10 tariffs) — drives the comparison matrix. |
-| `backfill_state.json` | The original backfill queue. **Stale** — still says phases 2–3 pending (see §7). Corrected by the Sweep (corrections item C-05). |
+| `backfill_state.json` | The original v1 backfill queue. Stale; corrected by corrections item C-05. |
+| `sweep_lock.json` | Single-writer lock. |
+| `manual_queue.json` | What the next manual pass should read (written by each Sweep). |
+| `runs/2026-10-03-0019.json`, `briefs/2026-10-03.json` | Records of the 3 Oct verification runs. |
 | `README.md` | Folder guide. |
-| `sweep_lock.json` | (created by the v3 Sweep) single-writer lock. |
-| `manual_queue.json` | (created by the v3 Sweep) what the next manual pass should read. |
 
-**Why parts:** a single Graph write is capped at 1,048,576 bytes. Each Sweep writes a **new** part
-(`rows_p5.json`, then p6…) and appends it to the manifest. It never rewrites an existing part.
+**Why parts:** a single Graph write is capped at 1,048,576 bytes. Each Sweep writes a **new** part (`rows_p6.json`
+next) and appends it to the manifest. It never rewrites an existing part.
 
-### GitHub — `rettyoung/BODI` (private)
+### GitHub — `rettyoung/BODI` (**public** since 3 Oct 2026)
+
+Public so the scheduled tasks can clone it with no credentials. Nothing secret is ever committed; API keys live
+in repo secrets, which stay private on a public repo.
 
 | Path | What it is |
 |---|---|
-| `collector/` | Nightly collector: `common.py` (HTTP layer, robots, extraction, AIA chain completion), `adapters.py` (per-source adapters), `run.py` (orchestrator, budgets, checkpoints, backfill mode), `discover.py` and `probe_adapter.py` (repair tools) |
-| `config/watchlist.yaml` | **The single place to add or drop coverage**: keywords, jurisdictions and routes, watched dockets, entity aliases, party watch list, EDGAR issuers, Federal Register terms, watch pages, RSS, IR pages, mirrors |
+| `collector/` | `common.py` (HTTP, robots, extraction, AIA chain completion), `adapters.py` (commission, watch-page, RSS, IR, mirror, FERC, Federal Register, EDGAR adapters), `adapters2.py` (EIA, congress.gov, Open States, CourtListener, MISO/SPP queues, Legistar), `run.py` (orchestrator, budgets, checkpoints, baselining, backfill), `discover.py`, `probe_adapter.py` |
+| `config/watchlist.yaml` | **The single place to add or drop coverage**: 56 keywords, jurisdictions and routes, watched dockets, entity aliases, party watch list, EDGAR issuers, Federal Register terms, 49+ watch pages, RSS, IR pages, mirrors, queues, Legistar clients, court and Open States queries |
 | `data/` | Collector output: `candidates/<date>.jsonl`, `filings/<jur>/<source>/<id>.json` (full text), `health/`, `state/`, `backfill/`, `debug/`, `tests/` |
-| `store/` | Mirror of the OneDrive row-store parts (verified against OneDrive each run) |
+| `store/` | Repo mirror of the row-store parts (**behind**: lacks `rows_p5`; scheduled runs no longer write it — OneDrive is authoritative) |
 | `tracker/` | `vocab.py`, `rowstore.py` (load, overlays, validation CLI), `build_tracker.py` (canonical Excel), `build_console.py` (console package), `narrative.py` (PDF/DOCX) |
 | `console/` | `index.html` (console page), `tracker_xlsx.js` (in-browser Excel builder) |
-| `prompts/` | `sweep.md`, `brief.md` (reference copies of the scheduled-task prompts), `corrections_queue.md` |
+| `prompts/` | `sweep.md`, `brief.md` (**the live instructions** — the scheduled tasks read these at run time), `trigger_sweep.txt`, `trigger_brief.txt` (the bootstrap prompts loaded into the tasks), `corrections_queue.md` |
 | `manual/SKILL.md` | Copy of the manual-pass skill |
-| `deliverables/` | Weekly Excel master and narrative, committed by the Brief |
-| `SOURCES.md`, `docs/` | Source lists; architecture note; this document |
-| `.github/workflows/` | `collect.yml` (nightly), `xlsx-parity.yml`, `adapter-probe.yml`, `discover.yml`, `probe.yml` |
+| `deliverables/` | Weekly Excel master and narrative when built from a session that can push (scheduled runs cannot) |
+| `SOURCES.md`, `docs/` | Source lists, architecture note, this document |
+| `.github/workflows/` | `collect.yml` (nightly + backfill dispatch), `xlsx-parity.yml`, `adapter-probe.yml`, `discover.yml`, `probe.yml` |
 
 ### Console
 
-Published Artifact **https://claude.ai/artifact/JJ8FYdvfZ2WPg6r4UpFXbW** (version 6, published 2026-10-02).
-Private to Rett until shared. Declares the `downloads` capability (lets readers save the Excel, the narrative
-PDF and a filtered CSV). Supporting files: `data.json` (events + the full 26-column row table), `metrics.json`,
-`tariff_terms.json`, `status.json`, and weekly `narrative.md` plus the narrative PDF. Republish to the same
-URL; never pass `icon` or `capabilities` (they carry forward).
+Published artifact **https://claude.ai/artifact/JJ8FYdvfZ2WPg6r4UpFXbW** — **version 7** (3 Oct 2026). Private to
+Rett until shared. Declares the `downloads` capability so a reader can save the Excel tracker (built in the
+page), the narrative PDF and the narrative markdown. Supporting files: `data.json` (events + full 26-column
+table), `metrics.json`, `tariff_terms.json`, `status.json`, `narrative.md`, narrative PDF. Republished to the
+same URL by each Brief; `icon` and `capabilities` carry forward and are never re-passed.
 
-Older artifacts from v1: protocol spec `https://claude.ai/artifact/Sqwj1xLtBTRPS9skXjbzKe`; tracker config DB
-`https://claude.ai/artifact/68T91ssmaVqRQWQfbjw9TT`. Not used by v3.
+Older v1 artifacts (protocol spec `Sqwj1xLtBTRPS9skXjbzKe`; config DB `68T91ssmaVqRQWQfbjw9TT`) are not used.
 
 ### Scheduled tasks (cloud)
 
 | Task | ID | Schedule | State |
 |---|---|---|---|
-| Utility Tracker Sweep (v3) | `trig_01DA4N9G8Qv1zeggHuN9eQ3g` | Mon 04:55 PT (`CRON_TZ=America/Los_Angeles 55 4 * * 1`) | Enabled, auto-approve, M365 + Box attached. First v3 run 2026-10-05. |
-| Weekly Utility Tracker — Brief (v3) | `trig_01X19jgn9aMSPL5ov1TQ7bvj` | Mon 07:54 PT (`CRON_TZ=America/Los_Angeles 54 7 * * 1`) | Enabled, auto-approve, M365 + Box attached. First v3 run 2026-10-05. |
-| Current Events Digest (unrelated) | `trig_01Q57Hm8Enb4TFRrhTZRbpc7` | weekdays 07:28 PT | Enabled; not part of this project |
+| Utility Tracker Sweep | `trig_01DA4N9G8Qv1zeggHuN9eQ3g` | Mon 04:55 PT (`CRON_TZ=America/Los_Angeles 55 4 * * 1`) | Enabled, auto-approve, M365 + Box. Next run 2026-10-05. |
+| Weekly Utility Tracker (Brief) | `trig_01X19jgn9aMSPL5ov1TQ7bvj` | Mon 07:54 PT (`CRON_TZ=America/Los_Angeles 54 7 * * 1`) | Enabled, auto-approve, M365 + Box. Next run 2026-10-05. |
+| Current Events Digest (unrelated) | `trig_01Q57Hm8Enb4TFRrhTZRbpc7` | weekdays 07:28 PT | Not part of this project |
 
-Both tracker tasks were the paused v1/v2 tasks, **updated in place** (history kept) with the v3 prompts.
+Each task's prompt is a **compact bootstrap** (`prompts/trigger_*.txt`): the invariants that must hold whatever
+the repo says (OneDrive IDs, read-only mail, one email to Rett, no credentials/CAPTCHAs), then "clone the public
+repo and follow `prompts/sweep.md` / `brief.md`", then a degraded fallback if the clone fails. So **changing
+`prompts/*.md` in the repo changes next Monday's behaviour** without touching the tasks.
 
-**Possible local duplicates.** One earlier extract says desktop-local copies (`utility-tracker-sweep`
-Mon 05:11 and `weekly-utility-brief` Mon 08:00, prompts at `C:\Users\ryoung\Claude\Scheduled\<taskId>\SKILL.md`)
-were enabled; another found both tracker tasks disabled. Local desktop tasks are not visible from the cloud.
-**If they exist, disable them**: the v3 lock and conflict-fail write prevent double rows, but a local Brief
-would still send a second email.
+**Possible desktop-local duplicates** (`utility-tracker-sweep` Mon 05:11, `weekly-utility-brief` Mon 08:00) may
+still exist on Rett's computer; they are invisible from the cloud. If present, disable them — the lock prevents
+double rows, but a local Brief would send a second email.
 
 ### Collector (GitHub Actions)
 
-Nightly at **06:17 UTC** (~23:17 PT). Writes only to the repo. Never classifies, never writes the row store.
+Nightly at **06:17 UTC** (~23:17 PT). Writes only to the repo's `data/`. Never classifies, never writes the row
+store. Manual dispatch accepts `backfill_since` (docket history from a date).
 
 ---
 
 ## 4. Architecture v3 (current)
 
 ```
-Nightly  GitHub Actions collector ──► repo data/ (candidates + full-text filings + health)
-Mon 4:55 Sweep (Claude, cloud)    ──► reads collector data + Outlook (read-only) + manual drops + web reader
-                                      ──► NEW immutable part in OneDrive (+ mirror in repo store/)
-Mon 7:54 Brief (Claude, cloud)    ──► Excel + narrative to repo deliverables/ ──► console republished ──► email
-Any time Manual pass (desktop app) ──► OneDrive /GridDocket/manual/ only ──► picked up by the next Sweep
+Nightly    GitHub Actions collector ──► public repo data/ (candidates + full-text filings + health + backfill)
+Mon 04:55  Sweep (Claude, cloud)    ──► git clone (read-only) + OneDrive store + Outlook (read-only)
+                                        + manual drops + WebFetch routes
+                                    ──► NEW immutable part in OneDrive + run record (+ repair proposals)
+Mon 07:54  Brief (Claude, cloud)    ──► Excel + narrative built in the session ──► console republished
+                                    ──► email to Rett ──► brief record
+Any time   Manual pass (desktop app, Rett present) ──► OneDrive /GridDocket/manual/ ──► next Sweep ingests
 ```
 
 **Design rules:**
-- **Single writer.** Only the Sweep writes the row store. It takes `sweep_lock.json` (stops if another run
-  holds a lock under 3 hours old, or a run record already exists for today) and uploads each new part with
+- **Scheduled runs never push to the repo.** Scheduled sessions have no `add_repo` tool; they `git clone --depth 1`
+  the public repo, read collector data, prompts, watch list, corrections queue and validator, and build from a
+  local `store_live/` copy downloaded from OneDrive.
+- **Single writer.** Only the Sweep writes the row store. It takes `sweep_lock.json` (stops if another run holds
+  a lock under 3 hours old, or a run record already exists for today) and uploads each new part with
   conflict-fail.
-- **Commit order:** new part → manifest → seen index → metrics/tariffs → run record → `state.json` last. A
-  run that dies repeats its window safely (identity + seen index + `manual_ingested` make it idempotent).
-- **Immutable parts with overlays.** A later change to an earlier event travels inside the new part:
-  `supersedes` [{old_event_id, new_event_id, reason}] marks all old rows Superseded = Yes; `overlays`
-  [{event_id, column, value, reason}] may change only Status, Next Milestone, Next Date, Appeal, Superseded.
-  `tracker/rowstore.py` applies them at load. Substantive change = a new event.
-- **Validation before any write:** `python tracker/rowstore.py --part <file>` checks vocabulary, 26 cells,
-  Event ID format and reuse, one date per event, overlay targets.
-- **Manual-pass integration:** the Sweep ingests a manual run only when its manifest `manual_<run_id>.json`
-  exists with `"complete": true` and the run_id is not in `state.manual_ingested`. Partial or abandoned runs
-  are invisible. Each Sweep writes `manual_queue.json` for the next pass.
-- **Mirror check:** each run verifies repo `store/` against the OneDrive manifest; OneDrive wins.
-- **Collector repair:** for a source failing 2+ consecutive nights, the Sweep may open a pull request with a
-  fix (REST API; never merges, never pushes collector changes to main). Fixes that would need to defeat a
+- **Commit order:** new part → manifest → seen index → metrics/tariffs → run record → `state.json` last. A run
+  that dies repeats its window safely (identity + seen index + `manual_ingested` make it idempotent).
+- **Immutable parts with overlays.** `supersedes` [{old_event_id, new_event_id, reason}] marks all old rows
+  Superseded = Yes; `overlays` [{event_id, column, value, reason}] may change only Status, Next Milestone, Next
+  Date, Appeal, Superseded. `tracker/rowstore.py` applies them at load. A substantive change is a new event.
+- **Validation before any write:** `python tracker/rowstore.py --store store_live --part <file>` checks
+  vocabulary, 26 cells, Event ID format and reuse, one date per event, overlay targets.
+- **Manual-pass integration:** ingested only when `manual_<run_id>.json` exists with `"complete": true` and the
+  run_id is not in `state.manual_ingested`. Partial or abandoned runs are invisible.
+- **Collector repair:** for a source failing 2+ consecutive nights, the Sweep writes a **repair proposal** (diagnosis
+  + patch) into its run record and the report; a session with push access applies it. Fixes that would defeat a
   block, ignore robots.txt or use a credential are not fixes.
-- **Excel parity:** `build_tracker.py` (canonical, Python) and `console/tracker_xlsx.js` (ExcelJS, in the
-  console) build the same workbook; CI compares them cell by cell — values, formulas, fonts, fills, borders,
-  alignment, widths, heights, freeze panes, autofilter. **0 differences** on 2026-10-02.
+- **Excel parity:** `build_tracker.py` (canonical) and `console/tracker_xlsx.js` (ExcelJS, in the console) build the
+  same workbook; CI compares them cell by cell. **0 differences.**
 
-### The Sweep (v3 prompt; reference copy `prompts/sweep.md`)
+### The Sweep (`prompts/sweep.md`)
 
-Steps: preflight and lock → attach repo (`add_repo rettyoung/BODI`, push) → load state and store, verify
-mirror → health (consecutive failures, SUSPECT_ZERO after checking explicit negatives and renamed entities)
-→ collector candidates (metadata triage; **party watch**; read up to **25 documents × 40,000 characters**;
-backlog the rest) → mail (FERC/ERCOT folders; RTO Insider, NPM, CapIQ, NCUC, DCC Bi-Weekly; **newsletter
-canary**: any newsletter event with no row is either sourced and added or recorded `CANARY_MISS`) → manual
-drops → web reader routes (PA; AZ PDFs; fallbacks for manual-route states, else `DEFERRED_NEEDS_MANUAL`) →
-grain/identity/supersession/dedupe → classify → corrections queue (up to 6 items/run) → commit → collector
-repair → run record and three-paragraph report. Target 30 minutes. Degraded mode (mail + manual + web only)
-if the repo can't be attached.
+Preflight and lock → clone repo → load state and store into `store_live/` → health (consecutive failures,
+SUSPECT_ZERO after checking explicit negatives) → collector candidates (metadata triage; party watch; read up to
+**25 documents × 40,000 characters**; backlog the rest) → mail (FERC/ERCOT folders; RTO Insider, NPM, CapIQ,
+NCUC, DCC Bi-Weekly; **newsletter canary**: every newsletter event either gets a row or is recorded
+`CANARY_MISS`) → manual drops → WebFetch routes (6.1 PA; 6.2 AZ PDFs; 6.3 manual-route fallbacks; 6.4 ERCOT
+notices, large-load and planning pages; 6.5 PJM; 6.6 runner-refused pages that open to WebFetch) →
+grain/identity/supersession/dedupe → classify → corrections queue (up to 6 items/run) and backfill (10 docs/run)
+→ commit → repair proposals → run record and three-paragraph report. Target 30 minutes. Degraded mode (mail +
+manual + web only) if the clone fails.
 
-### The Brief (v3 prompt; reference copy `prompts/brief.md`)
+### The Brief (`prompts/brief.md`)
 
-Setup and mirror check → preconditions (freshness: >3 days stale = short `[No sweep]` failure notice only;
-zero new events and green = three-line "nothing moved" brief) → status check (GREEN/AMBER/RED; RED at the
-top) → **30-day milestones, never omitted** (URGENT inside 7 days; past-dated without outcome = "outcome
-needed") → synthesis by Subject with cross-source synthesis → `narrative.md` (700–1,200 words) → build
-(`build_console.py … --deliverables deliverables/<date>`; copy master to `deliverables/`) → commit → publish
-console → email → record `/GridDocket/briefs/<date>.json`, update only `state.last_brief_date`.
+Setup (clone; download store) → preconditions (>3 days stale = short `[No sweep]` notice only; zero new events
+and green = three-line "nothing moved") → STATUS CHECK (GREEN/AMBER/RED) → **30-day milestones, never omitted**
+(URGENT inside 7 days; past-dated without outcome = "outcome needed") → synthesis by Subject → `narrative.md`
+(700–1,200 words) → build into `out/deliverables/` → publish console → email → `/GridDocket/briefs/<date>.json`;
+update only `state.last_brief_date`. **REPO-LESS PATH** if the clone fails: build from OneDrive alone.
 
-**Email:** subject `Grid Docket — <D Mon> · <N> high-impact · <three shortest descriptors>` (prefix `[Status] `
-when RED, `[No sweep] ` for the failure notice). HTML, 400 words target, 600 ceiling. Sections: STATUS CHECK
-(amber/red only) · UPCOMING MILESTONES (always) · THIS WEEK (3–5 high items) · ALSO MOVING (≤6 medium) · LINKS
-(console; repo deliverables) · one-line footer. Fewer than three high items never licenses promoting medium
-ones.
+**Email:** subject `Grid Docket — <D Mon> · <N> high-impact · <three shortest descriptors>` (prefix `[Status] ` when
+RED, `[No sweep] ` for the failure notice). HTML, 400-word target, 600 ceiling. Sections: STATUS CHECK (amber/red
+only) · UPCOMING MILESTONES (always) · THIS WEEK (3–5 high items) · ALSO MOVING (≤6 medium) · LINKS (console
+only) · one-line footer. Fewer than three high items never licenses promoting medium ones.
 
-**Excel delivery mechanics:** the workbook cannot be served as an artifact file, and binary files can't
-round-trip through the Graph text/base64 tool path (~4 tokens per base64 character; a 71 KB workbook ≈ 385k
-tokens, silently truncated). So the console builds it in the browser from the full row table, and the Brief
-commits the canonical Python build to the repo. The workbook is a rendering; the JSON is the source of truth.
-
-### Manual pass (skill `grid-docket-manual-pass`, saved by Rett 2026-10-02)
-
-Run in the Claude desktop app whenever wanted. Reads `manual_queue.json`, uses the built-in browser (or Claude
-in Chrome) on the watched dockets of VA, NC, SC, IL, OH, WV, NV plus specific requests (e.g. Arizona PDFs the
-cloud can't open). Extracts text (agency text layer first — WV `ViewText.cfm`; then PDF text via pdf.js; OCR
-only if no text layer, flagged `"ocr": true`). Saves one file per state as it goes, then the manifest last.
-Never writes the row store. Rett solves any CAPTCHA; otherwise the state is skipped as `blocked_captcha`.
+**Excel delivery mechanics:** binaries can't round-trip through the Graph text/base64 tool path (a 71 KB
+workbook ≈ 385k tokens, silently truncated), and artifacts can't serve .xlsx as a static file. So the console
+builds the workbook in the browser from the full row table and offers it through the `downloads` capability.
+The JSON is the source of truth; the workbook is a rendering.
 
 ---
 
@@ -263,7 +267,8 @@ Term | Speed | Curtailment | Deliverability | Supply/Demand | Market Participati
     paywalled, OCR, or a re-read figure from a corrupt source) · **Unverified** (extraction failed — event row
     only, no numbers). Nothing is Verified on OCR alone or on a search snippet.
 - **Document** is descriptive and contains "Docket" when it is one.
-- **Never delete a row.** Supersede by adding a row and flagging the old (now via overlays, §4).
+- **Never delete a row.** Supersede by adding a row and flagging the old (via `supersedes` / `overlays`, §4).
+- **Appeal and Superseded** hold "Yes" or "No".
 - **Workbook formatting:** Tracker sheet Arial 9; header bold white on `1F3243`, height 34; data rows height
   76, every cell centred and middle-aligned, wrap on; thin `D9D9D9` borders; alternating band `F7F5F1` per
   Event ID (first block unbanded); Materiality by font (High `9A2F2F` bold, Medium `8A6414`); Confidence by
@@ -283,129 +288,224 @@ Term | Speed | Curtailment | Deliverability | Supply/Demand | Market Participati
 
 ---
 
-## 6. Current state of the data
+## 6. Current state of the data (3 Oct 2026)
 
-**Baseline v2, loaded 2026-09-18: 161 events / 229 rows**, 2025-11-07 to 2026-09-18, 18 jurisdictions,
-33 entities. Confidence 185 Verified / 42 Reported / 2 Unverified. Materiality 149 High / 80 Medium.
-On appeal: 4 rows. **Superseded: 3 rows across 2 events** (E-20260918-035 ×2 Duke NC+SC; E-20260918-110 APS)
-— `state.json` says 1, which is stale; the Sweep recomputes flags from the data each run.
+**Store: 180 events / 253 rows** across `rows_p1..p5`.
 
-**Nothing has been collected into the row store since 2026-09-18.** The Mondays of 21 and 28 September passed
-in silence because the tasks were disabled. The first v3 Sweep (5 October) covers 18 Sept onward.
-
-**Repo mirror:** `store/rows_p1..p4` were reconstructed on 2026-10-02 from the master workbook plus the final
-console data (14 cells refreshed from the console) and verified against OneDrive (part boundaries: p1 ends
-E-015 SPS TX; p2 starts E-015 SPS NM; p3 starts E-079 TEP AZ; p4 starts E-120 ComEd; 11 field spot-checks).
-
----
-
-## 7. Coverage history and known gaps (the honest backfill picture)
-
-- **Phase 1 (investor disclosure), done 2026-09-18:** 39 events / 71 rows, 16 issuers, Q4 2025–Q2 2026.
-  Dominion Q4/Q1 and Ameren Q4/Q1 filenames unresolved (data recovered from later decks); EEI Nov 2025 only
-  Oncor; Entergy 2026 Investor Day deck not located.
-- **Phases 2–3 (federal/RTO and state dockets)** were done as a single pass on 2026-09-18, then a **gap-closing
-  second pass covered only VA, AZ, NM, SC, GRDA, KS and WV**. TX, ERCOT and the remaining states had one pass.
-  **Docket activity was never enumerated filing-by-filing anywhere** — collection followed known docket
-  numbers and documents. `backfill_state.json` was never updated and still says phases 2–3 are pending.
-- **Two confirmed misses (found 2026-10-02 by a diagnostic session):**
-  1. **Texas — Governor's audit directive and ERCOT Batch Zero pause.** 2026-08-03 Gov. Abbott directed PUCT
-     and ERCOT to verify/audit data centers in the large-load interconnection process. 2026-08-10 ERCOT filed a
-     good-cause exception in **PUCT Project 58317** pausing Batch Zero classification and studies; no data
-     center or crypto load energized until verification completes; PUCT took it up 2026-08-20.
-     2026-09-03 conditional classifications to TDSPs; 2026-09-09 Batch Zero Verification RFI; 2026-09-14
-     Community Impact RFI (computational loads ≥25 MW not yet energized), **due 2026-10-12, 5 pm CT**. Two
-     workstreams: Batch Zero audit (≥75 MW) and community-impact audit (≥25 MW). Reported 2026-09-23 (Sidley,
-     headline only): the governor's environmental-permitting freeze extends the pause to all Texas data
-     centers pending a statewide audit. Related PUCT projects 58481 (16 TAC §25.194 large-load rule; adoption
-     expected at the 2026-09-18 open meeting), 59142 (ERCOT batch study), 58000 (4CP→12CP), 58482 (large-load
-     demand-reduction service). **Baseline row for Batch Zero is wrong** ("Effective 2026-07-11", next
-     "Batch 1 applications open 2027-06-30"). TX has zero rows dated August 2026.
-  2. **Arizona — Microsoft's Closing Brief in the APS rate case.** ACC image **E000054018**, docket
-     **E-01345A-25-0105**, docketed **2026-08-27**, 50 pp. (brief pp. 1–24; exhibits MSFT-6, -7, -9, -16).
-     Asks: AG-XHLF rider expanding AG-X (capped at 200 MW) to all uncommitted large load with third-party
-     generation and WRAP resource adequacy; tri-party PPAs under XHLF revisions; reject or cap the formula
-     rate (FRAM) at 3–4%/inflation with bring-your-own-generation; reject "class pays for growth" and annual
-     cost-of-service reallocation; reject the XHLF applicability change; Load Commitment Agreement stakeholder
-     review (challenges minimum demand at 80% of full buildout from day one, and minimum energy charges);
-     CIAC/AIAC for generation only at customer election; large-load queue reform; Fair Value Return increment
-     (~$121.8M) to zero; AED-4CP instead of A&P. On the record (MSFT-15): **APS has not committed to serve
-     any new large load since 2024-01-01.** KJZZ 2026-09-02: Microsoft opposes APS's ~45% data-center
-     increase; APS reports ~4,000 MW committed to data centers and a 9,100+ MW peak in early Aug 2026.
-  - **Why they were missed:** collection followed docket numbers (58317 and ERCOT notices weren't watched; a
-    governor's directive has no docket; "Abbott" appears nowhere in the data); the backfill never read the
-    inbox (RTO Insider 9/15, CapIQ 9/14–15, NPM 9/15 all carried it); the tracker is keyed by utility, so
-    customer/intervenor filings had no slot; ACC docket listing needed the eDocket POST API, which v1 cloud
-    runs couldn't call.
-- **v3 remedies now in place:** collector enumerates full docket activity (AZ verified), watches PUCT 58317,
-  governors' newsrooms (TX, VA, GA, AZ, PA, OH, LA, NC) and PUCT news, tags filings by **watched parties**
-  (Microsoft, Google, Amazon/AWS, Meta, Oracle, OpenAI, CoreWeave, Data Center Coalition, developers, IPPs,
-  industrial and intervenor groups); the Sweep runs a **newsletter canary**; the **corrections queue**
-  (`prompts/corrections_queue.md`) has the Sweep verify and write both misses; a **one-off docket-activity
-  backfill from 2025-11-07** for the 10 collector states was dispatched on 2026-10-02 (`data/backfill/`,
-  processed ~10 documents per Sweep until exhausted); manual-route states get history via the manual pass.
-
-**Corrections queue (verified at source by the Sweep before writing; up to 6 per run):**
-C-01 Texas directive / Batch Zero pause and overlay of the stale Batch Zero row · C-02 Microsoft APS brief ·
-C-03 Arizona XHLF eligibility (≥5,000 kW, ≥92% load factor in 9 of prior 12 months; 15,000 kW for
-econ-dev/sustainability features; 50 MW/customer/yr and 500 MW aggregate caps; A.C.C. No. 6067 Rev. 3, eff.
-2024-03-08, Decision 79293) — closes the XHLF gap; exhibit APS-54 no longer needed · C-04 Louisiana U-37882
-milestone (see §9) · C-05 store housekeeping (flags; truthful `backfill_state.json`) · C-06 Texas text quality
-(see §8) · C-07 docket-activity backfill (ongoing).
+- **Baseline v2 (loaded 2026-09-18): 161 events / 229 rows**, 2025-11-07 to 2026-09-18, 18 jurisdictions, 33
+  entities. Confidence 185 Verified / 42 Reported / 2 Unverified. Materiality 149 High / 80 Medium. On appeal: 4
+  rows. Superseded: 3 rows across 2 events (E-20260918-035 ×2 Duke NC+SC; E-20260918-110 APS).
+- **`rows_p5` (3 Oct, degraded Sweep): 19 events / 24 rows, all Reported**, plus 2 overlays on E-20260918-098.
+  Contents include PUCT adoption of 16 TAC §25.194 (Project 58481); the Governor's TCEQ permit halt
+  (E-20261003-002); the ERCOT Batch Zero audit sequence (E-20261003-011 community-impact RFI, -012 verification
+  RFI, -013 directive and delay notice, -014 provisional classifications); five FERC §206 rehearing dismissals;
+  the PJM backstop order; a Senate permitting proposal; PUCT 58000 and 58482; ICC 26-0364 and the Illinois Joint
+  IRP; two PA model-tariff reconsideration orders.
+- **Gap:** the Mondays of 21 and 28 September passed silently (tasks were disabled). The 3 Oct run covered the
+  window from mail and the web; the first full run (5 Oct) adds collector material and upgrades the Reported
+  Texas rows to Verified where the primary documents confirm them (C-01).
+- **Repo mirror `store/`** lacks `rows_p5` and is no longer maintained by scheduled runs. OneDrive wins.
 
 ---
 
-## 8. How to reach each source (access findings)
+## 7. Coverage history, catch-up and corrections
 
-**Collector conduct (non-negotiable):** honest UA `BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)`;
-robots.txt per RFC 9309 (2xx parse; 4xx no rules; 5xx/unreachable = disallow; firewall page served as
-robots.txt = disallow; HTML app shell = no robots file; strip BOM); ≥3 s between requests per host; fetch only
-watched items; block pages recorded as BLOCKED, never parsed; no CAPTCHA solving, stealth, IP rotation,
-logins or third-party proxies; **never disable TLS verification** — incomplete chains are completed via the
-leaf's AIA intermediate, with verification still on.
+**How the baseline was built (and why it missed things):**
+- Phase 1 (investor disclosure), 2026-09-18: 39 events / 71 rows, 16 issuers, Q4 2025–Q2 2026.
+- Phases 2–3 (federal/RTO and state dockets) were one pass on 2026-09-18, with a gap-closing second pass only for
+  VA, AZ, NM, SC, GRDA, KS and WV. **Docket activity was never enumerated filing by filing** — collection
+  followed known docket numbers.
+- Two confirmed misses: **Texas** (the 2026-08-03 Governor's audit directive and the 2026-08-10 ERCOT Batch Zero
+  pause in PUCT Project 58317, then the September RFIs) and **Arizona** (Microsoft's 2026-08-27 closing brief in
+  the APS rate case, image E000054018, docket E-01345A-25-0105). Causes: no docket for a directive; 58317 and
+  ERCOT notices unwatched; the inbox never read in the backfill; customer/intervenor filings had no slot; ACC
+  listing needed an API v1 couldn't call.
 
-| Jur./source | Route | Working method and status (2026-10-02) |
+**v3 remedies:** full docket-activity enumeration per watched docket; PUCT 58317 watched; governors' newsrooms
+(TX, VA, GA, AZ, PA, OH, LA, NC, AL, IL, MO, NM, NV, OK, SC, WV); **party watch** (Microsoft, Google, Amazon/AWS,
+Meta, Oracle, OpenAI, CoreWeave, Data Center Coalition, developers, IPPs, industrial and intervenor groups);
+newsletter canary; corrections queue.
+
+**Catch-up mechanisms (will the next run see everything since the backfill? — yes, by these routes):**
+1. **Window:** the Sweep reads from `last_successful_sweep`, so 5 Oct covers everything after the 3 Oct run, and
+   collector candidates from 18 Sept onward are still unprocessed and in scope.
+2. **Docket-history backfill** (`data/backfill/<date>.jsonl`): full docket activity since 2025-11-07 for the
+   collector states. The first attempt lost its data to a silent push failure; re-dispatched 3 Oct (run
+   37152584736, in progress at writing). Processed 10 documents per Sweep, newest and party filings first.
+3. **Baseline-links file** (`data/backfill/baseline_links_2026-10-03.jsonl`, 304 links): links that were already
+   on watched pages when the collector first saw them (and were silently baselined). The Sweep triages by title
+   and treats on-beat ones as candidates.
+4. **Corrections queue** (`prompts/corrections_queue.md`, verified at source before writing, ≤6 per run):
+   C-01 Texas directive / Batch Zero (partly done 3 Oct as Reported; upgrade and overlay the stale baseline row) ·
+   C-02 Microsoft APS brief · C-03 Arizona XHLF eligibility · C-04 Louisiana U-37882 milestone · C-05 store
+   housekeeping · C-06 Texas text quality · C-07 backfill (ongoing until exhausted).
+5. **Manual pass** for the states the cloud can't read (§12).
+
+---
+
+## 8. How each source is reached (access findings, 3 Oct 2026)
+
+**Collector conduct (non-negotiable):** honest UA `BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)`; robots.txt
+per RFC 9309 (2xx parse; 4xx no rules; 5xx/unreachable = disallow; a firewall page served as robots.txt =
+disallow; HTML app shell = no robots file; strip BOM); ≥3 s between requests per host; fetch only watched items;
+block pages recorded as BLOCKED, never parsed; no CAPTCHA solving, stealth, IP rotation, logins or third-party
+proxies; **never disable TLS verification** — incomplete chains completed via the leaf's AIA intermediate with
+verification on. Run deadline 70 min; per-source budgets (watch pages 1,500 s, queues 900, Open States 600,
+Legistar 600).
+
+**Routes:** C = collector (GitHub Actions) · W = Sweep's WebFetch · M = mail (read-only) · P = manual pass.
+
+| Source | Route | Working method and status |
 |---|---|---|
-| FERC | collector | eLibrary JSON API: `POST elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch` (date + docket searches), downloads via `File/DownloadP8File`, docket sheets via `Docket/GetSingleDocketSheet`. Works (199 items first run). |
-| Federal Register | collector | API, agency + term filters. Works. |
-| SEC EDGAR | collector | Declared UA opens it (Akamai 403'd an undeclared tool). Works. Forms 8-K (2.02, 7.01, 8.01, 1.01, 2.01), 10-Q, 10-K, 40-F, 6-K. CIKs: Fortis 0001666175 (40-F), TXNM 0001108426, Oncor 0001193311, Nevada Power 0000071180. Quarterly 8-Ks from Duke, AEP, Southern, Entergy carry the release only; Pinnacle West, Dominion attach decks. |
-| AZ | collector | `POST efiling.azcc.gov/api/edocket/searchByDocketDetailRequest` with **exactly** the documented fields (extras silently return nothing); `GET /api/edocket/docket/{docketID}` returns the full document list with imageNumber (2.2 MB JSON for the APS case). PDFs at `images.edocket.azcc.gov/docketpdf/{img}.pdf` (incomplete TLS chain → AIA). `docket.images.azcc.gov` is robots-disallowed — never use it. Consumer-comment letters skipped. **Working** (243 filings since June in test). |
-| GA | collector | `psc.ga.gov/search/service-facts-docket/?docketId=…`; documents via `services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/{doc}/{file}`. Works. |
-| TX | collector | Interchange filing lists; `interchange.puc.texas.gov/Documents/{ctrl}_{item}_{id}.PDF/ZIP`. ~1 in 3 files returned 402 through WebFetch; spreadsheets sit in ZIPs (collector handles). **Text quality:** a later session found a clean text layer except the letterhead seal, contradicting v1's "all OCR, capped at Reported" — judge per document by the collector's quality flag (C-06 confirms). Works (65 items). |
-| LA | collector | Valence portal: `POST …/portal/PSC/DocketSearch` → MatterId; `Docket_Documents`; `RecentOrders`; `ViewFile?fileId=`. Ligature-corrupted text: summarize, never quote. Works (U-37921 not found by number). |
-| MO | collector | EFIS: anti-forgery token from `Case/NewSearch`, `POST /Case`; case numbers paired with nearest `Case/Display/{id}`; filings via `Case/FilingDisplay/{id}`. **Fixed 2026-10-02** (600 cases in test). |
-| NM | collector + manual | e360: `POST /core/api/apiflow/v1/prc/nm/intake/casedetails/getAll` with the CaseX envelope works. Documents via `casepublicdocument/getAll` (queryParams ['caseId']) **returns empty** with the recorded envelope — open; then `downloadToken` → `previewDocument` (1-hour TTL). Old `edocket` retired. |
-| KS | collector | Commission meeting-minutes PDFs at `kcc.ks.gov/commission_meetings_files/minutes_YYYYMMDD.pdf` (cheap, citable). `kcc-connect` is Salesforce with shadow DOM; detail pages need the 15-char Salesforce id, not the docket number; old `estar` dead. |
-| OK | collector | OCC Laserfiche WebLink (`public.occ.ok.gov`) **recovered 2026-10-02** after HTTP 500s from 18 Sept. Search form `ImagedCaseDocumentsfiledafter3212022`; the case-number field matches the bare number (`2026-000031`), which also hits other OCC case types, and the listing carries no metadata. The page-text service (`DocumentService.aspx/GetTextHtmlForPage`) returned `ObjectNotFoundException` for these entries, so the collector now keeps the 8 newest hits unconfirmed and the Sweep confirms from the PDF text. Applicant field is exact-match in CAPS (`OKLAHOMA GAS AND ELECTRIC COMPANY`); electric tariffs file under Document Type "Application". Never `ecf.public.occ.ok.gov`. |
-| GRDA (OK) | collector | No commission docket. Monthly board agendas/minutes at `grda.com/leadership/board-meeting-agenda-minutes/`. |
-| AL | collector + web | PSC RSS endpoints returned **HTTP 500 (server fault)** on 2026-10-02; docket pages are server-rendered and readable by WebFetch (`pscpublicaccess.alabama.gov/pscpublicaccess/ViewFile.aspx?Id=<GUID>`; Act 610 docket 33709). |
-| PA | Sweep web reader | GitHub runners get a TLS failure and a 5xx robots.txt; Claude's WebFetch works (`puc.pa.gov/docket/<n>`, `puc.pa.gov/pcdocs/<id>.pdf`). Large-load docket M-2025-3054271. |
-| VA | manual (+fallbacks) | SCC robots.txt admits only named search engines. Browser method: Durandal/Breeze SPA — `GET /DocketSearchAPI/breeze/CASES_ESTABDATE/GetCasesEstDate?$filter=startswith(Case_Number,'PUR-2026')`; documents `/DocketSearchAPI/breeze/CaseDetails/GetDocuments?$filter=MATTER_NO eq N`; PDFs `/docketsearch/DOCS/<FileName>`; `Home/Document/12/<id>` 404s; pdf.js loads only after unsetting `window.define`. |
-| WV | manual (+fallbacks) | PSC returns 403 to automated clients. Browser: **http:// not https**, `/scripts/WebDocket/` not `/WebDocket/`; in-page fetch of `viewCaseForWebList.cfm`, `tblCaseActivitiesList.cfm`, `ViewText.cfm` (same-site referrer) — the Commission's own OCR text layer, the best document source in the set. |
-| SC | manual (+fallbacks) | DMS `Disallow: /`. Browser: `dms.psc.sc.gov/Web/Dockets/Detail/<internal id>` (2026-138-E = 119719; 2026-186-EG = 119767). Cloud fallback: PSC latest publications, ORS electric page. |
-| IL | manual (+fallbacks) | ICC `Disallow: /` + CAPTCHA. Browser: BROWSE route `POST …/browse/docket_detail.asp` with `no=<docket>&go=Go`; never Search.aspx. Fallback: CUB. (A probe BOM bug once fetched one ICC page despite the disallow; fixed and disclosed.) |
-| OH | manual (+fallbacks) | PUCO DIS firewall rejects automated clients, even on robots.txt (F5 "Request Rejected" served as 200 — parsers guard against it). Fallback: Ohio Consumers' Counsel filings. |
-| NC | manual (+fallbacks) | NCUC `starw1` behind a Cloudflare challenge. Documents open via `ViewFile.aspx` once a GUID is known; WebSearch restricted to `starw1.ncuc.gov` harvests GUIDs (lags days–weeks); NCUC subscription mail if already arriving. NCUC main-site PDFs as fallback. |
-| NV | manual | `puc.nv.gov` disallows all bots; `pucweb1.state.nv.us` holds pre-Oct-2023 dockets; no text layer on any document; metadata-only ceiling. |
-| RTOs | collector | Watch pages for CAISO, ERCOT (market notices, news), SPP, NYISO, ISO-NE, MISO, WPP; NERC news; FERC news. **PJM Inside Lines RSS now serves a CAPTCHA** — PJM content comes via FERC dockets and RTO Insider. |
-| Investor decks | collector | Events-and-presentations pages rendered and PDF links harvested (never guessed; filenames change between quarters; `sNN.q4cdn.com` CDN is not bot-protected; patterns `/doc_financials/<year>/<q>/<file>.pdf`, `/doc_presentations/<year>/<Mon>/<DD>/`). Working for 10 of 16. **Blocked:** Southern (Incapsula), Evergy, Exelon, OGE, Oncor (robots.txt), BHE (CAPTCHA) → decks from EDGAR exhibits or search for the q4cdn PDF; the refusing pages are never fetched. Traps: Ameren is amereninvestors.com; Pinnacle West is www.pinnaclewest.com; PPL not on Q4; Evergy/Exelon decks are GUIDs; TEP has no deck (use Fortis); NV Energy none (use BHE, twice yearly). |
-| Mail | Sweep | Folders "FERC", "ERCOT"; senders `today@rtoinsider.com`, `alerts@newprojectmedia.com`, `alerts@capitaliq.spglobal.com`, NCUC; DCC Bi-Weekly State Regulatory Update (PDF attachment forwarded by hadams@bealeinfra.com to BODIpower@blueowl.com; read via `read_resource`). RTO Insider RSS holds ~10 items / ~7 hours — cross-check only, never a primary source. Internal deal threads (Crusoe, STACK, Beale, Bobcat, etc.) are confidential and **never** sources. |
-| Keyed data | collector (wired) | EIA v2, congress.gov, Open States — activate by adding free keys as repo secrets `EIA_API_KEY`, `CONGRESS_API_KEY`, `OPENSTATES_API_KEY`. LegiScan blocks by IP. CapIQ API is POST-only with token auth (a collector could call it); state docket content lives in S&P RRA, a separate entitlement. |
+| FERC | C | eLibrary JSON API (`POST elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch`; `File/DownloadP8File`; `Docket/GetSingleDocketSheet`). Working. |
+| Federal Register | C | API with agency + term filters. Working. |
+| SEC EDGAR | C | Declared UA opens it. 8-K (2.02, 7.01, 8.01, 1.01, 2.01), 10-Q, 10-K, 40-F, 6-K. CIKs: Fortis 0001666175, TXNM 0001108426, Oncor 0001193311, Nevada Power 0000071180. Working. |
+| TX PUCT | C | Interchange filing lists; `interchange.puc.texas.gov/Documents/{ctrl}_{item}_{id}.PDF/ZIP`; watches 58317, 58481, 59142, 58000, 58482. Working. (WebFetch gets 402 on ~1 in 3 files; the collector doesn't.) |
+| AZ ACC | C (+W) | `POST efiling.azcc.gov/api/edocket/searchByDocketDetailRequest` (exactly the documented fields) and `GET /api/edocket/docket/{id}`; PDFs at `images.edocket.azcc.gov/docketpdf/{img}.pdf` (AIA chain). Never `docket.images.azcc.gov` (robots). Working. |
+| GA PSC | C | `psc.ga.gov/search/service-facts-docket/?docketId=…`; documents via `services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/…`. Working. |
+| LA LPSC | C | Valence portal (`DocketSearch` → MatterId; `Docket_Documents`; `RecentOrders`; `ViewFile`). Ligature-corrupted text: summarize, never quote. Working (U-37921 not found by number). |
+| MO PSC | C | EFIS with anti-forgery token; `Case/Display/{id}`, `Case/FilingDisplay/{id}`. Working (one case id, ET-2025-0184, unresolved). |
+| NM PRC | C + P | e360 case details API works; the documents endpoint returns empty — documents via manual pass. |
+| KS KCC | C | Commission minutes PDFs; `kcc-connect` is Salesforce (15-char id). Working. |
+| OK OCC | C | Laserfiche WebLink search; 8 newest hits kept unconfirmed (page-text service errors); the Sweep confirms from PDF text. Never `ecf.public.occ.ok.gov`. |
+| GRDA | C | Board agendas/minutes. Working. |
+| AL PSC | C + W | RSS returns HTTP 500 (server fault); docket pages readable by WebFetch (`ViewFile.aspx?Id=<GUID>`; Act 610 docket 33709). |
+| PA PUC | W | Runners get a TLS failure and 5xx robots; WebFetch works (`puc.pa.gov/docket/<n>`, `/pcdocs/<id>.pdf`). |
+| VA, SC, IL, OH, NC, WV, NV | P (+W fallbacks) | Refuse automated access — see §10. |
+| RTOs | C + W + M | CAISO, SPP, NYISO, ISO-NE, MISO, WPP pages; ERCOT news and **notice archive** (C); ERCOT large-load, planning and board pages (W); PJM newsroom (W). See §11 for ERCOT. |
+| Capacity markets | C | PJM RPM (119 links), MISO PRA, ISO-NE FCM, SPP RA working; NYISO ICAP page returns 0 links. |
+| Queues | C | MISO `misoenergy.org/api/giqueue/getprojects`; SPP `opsportal.spp.org/Studies/GenerateActiveCSV` (CSV preamble handled). Working. PJM and ERCOT need keys (§9). |
+| Legistar | C | 8 clients: pwcgov, maricopa, phoenix, mesa, columbus, sanantonio, fortworthgov, kansascity. Working. |
+| Governors | C (+W) | AL, IL, MO, NM, NV, OK, SC, WV, TX, VA, GA, PA, OH, LA, NC working in C; KS via W; AZ refuses both. |
+| Courts | C | Virginia Supreme Court and Court of Appeals pages; PA Commonwealth Court (0 links); CourtListener (token recommended). |
+| IRP / RFP pages | C (+W) | Dominion, Georgia Power, APS, Entergy RFPs, Evergy, Xcel/SPS working; Duke via W. |
+| DOE / NRC | C | DOE news, 202(c), LPO working; NRC news 0 links. |
+| Investor decks | C | Events pages rendered, PDF links harvested (never guessed). 10 of 16 working; 6 refuse (§10). |
+| Mail | M | Folders "FERC", "ERCOT"; senders `today@rtoinsider.com`, `alerts@newprojectmedia.com`, `alerts@capitaliq.spglobal.com`, NCUC; DCC Bi-Weekly PDF (forwarded to BODIpower@blueowl.com). Internal deal threads are confidential and never sources. |
+| Keyed data | C | EIA, congress.gov, Open States wired and waiting for keys; CourtListener works keyless but rate-limited (§9). |
 
-**General browser techniques (manual pass):** navigate the tab to the PDF and inject pdf.js (the document
-response usually has no CSP); `window.open` interception to capture JS-driven document URLs (KS, NV, OK);
-in-browser OCR via pdf.js → Tesseract.js (prose ~93%, numerals ~85% — never write an OCR number as fact).
+**Manual-pass browser methods:** VA SCC Breeze API (`/DocketSearchAPI/breeze/…`; PDFs `/docketsearch/DOCS/<FileName>`);
+WV `http://` + `/scripts/WebDocket/` + `ViewText.cfm` (the Commission's own text layer); SC
+`dms.psc.sc.gov/Web/Dockets/Detail/<internal id>` (2026-138-E = 119719; 2026-186-EG = 119767); IL BROWSE route
+`POST …/browse/docket_detail.asp` (never Search.aspx); NC `ViewFile.aspx` by GUID; pdf.js injection for PDFs;
+`window.open` interception for JS-driven links; OCR via Tesseract.js only when no text layer (never write an OCR
+number as fact).
 
-**Entity aliases are mandatory** (querying the tracked short name returns nothing): Dominion = Virginia
-Electric and Power Company; AEP Ohio = Ohio Power Company; PPL = PPL Electric Utilities Corporation; Evergy =
-Evergy Kansas Central, Inc. / Evergy Metro, Inc. / Evergy Missouri West; Duke SC = Duke Energy Carolinas, LLC /
-Duke Energy Progress, LLC; Ameren = Union Electric Company; ComEd = Commonwealth Edison Company; PNM = Public
-Service Company of New Mexico / TXNM Energy; full list in `config/watchlist.yaml`. Renamed filers: Westar →
-Evergy; PNM Resources → TXNM.
+**Entity aliases are mandatory:** Dominion = Virginia Electric and Power Company; AEP Ohio = Ohio Power Company;
+PPL = PPL Electric Utilities Corporation; Evergy = Evergy Kansas Central / Evergy Metro / Evergy Missouri West;
+Duke = Duke Energy Carolinas / Duke Energy Progress; Ameren = Union Electric Company; ComEd = Commonwealth Edison
+Company; PNM = Public Service Company of New Mexico / TXNM Energy. Full list in `config/watchlist.yaml`.
 
 ---
 
-## 9. Registry corrections — facts that were wrong (do not resurrect)
+## 9. API keys
+
+None are entered in conversation. Rett creates each account himself and adds the key at **GitHub → rettyoung/BODI
+→ Settings → Secrets and variables → Actions → New repository secret**. Secrets stay private on a public repo
+and are masked in logs.
+
+**Wired now — the adapter switches on the night the secret appears:**
+
+| Secret name | Where to get it | Cost | What it adds |
+|---|---|---|---|
+| `EIA_API_KEY` | eia.gov/opendata/register.php | Free | EIA-860M operating-generator capacity by state (large additions and retirements in tracked states) |
+| `CONGRESS_API_KEY` | api.congress.gov/sign-up | Free | Federal bills and actions on data centers, permitting, transmission |
+| `OPENSTATES_API_KEY` | open.pluralpolicy.com (account → API key) | Free | State bills matching data-center / large-load queries in the tracked states (replaces LegiScan, which blocks by IP) |
+| `COURTLISTENER_TOKEN` | courtlistener.com (free account → API token) | Free | Removes keyless rate limiting (HTTP 429) on appellate and federal court searches |
+
+**Recommended — would need an adapter built once the credentials exist (can't be tested without them):**
+
+| Secret name(s) | Where | What it adds |
+|---|---|---|
+| `ERCOT_API_USERNAME`, `ERCOT_API_PASSWORD`, `ERCOT_API_SUBSCRIPTION_KEY` | apiexplorer.ercot.com (free ERCOT account + Public API subscription) | Report archives by EMIL id (planning reports, load forecasts, large-load data products) without scraping |
+| `PJM_API_KEY` | apiportal.pjm.com (free PJM account, Data Miner subscription) | PJM queue and capacity data feeds; replaces the CAPTCHA-blocked Inside Lines route for data |
+| `REGULATIONS_GOV_API_KEY` (optional) | api.data.gov/signup | Federal docket comments (DOE, EPA) |
+| CapIQ (optional, licensed) | Blue Owl's S&P entitlement | Already arriving as mail; an API call would add structure. S&P RRA (state docket content) is a separate entitlement |
+
+**Not needed:** SEC EDGAR (UA only), Federal Register, FERC eLibrary, MISO and SPP queues, Legistar, GitHub (the
+workflow uses its built-in token), Microsoft 365 and Box (connectors attached to the scheduled tasks).
+
+---
+
+## 10. Sources that refuse automated access, and the alternatives
+
+"Refuse" means the owner's robots.txt, a bot wall, CAPTCHA or firewall turns away the collector. None of these is
+bypassed. The six commissions gave verbal consent but said they cannot change their systems; a robots override
+on verbal consent was refused by this environment's safety controls and is **not to be pursued again by any
+route**.
+
+| Source | How it refuses | Alternatives in place | Further options |
+|---|---|---|---|
+| **VA SCC** docket search | robots.txt admits only named search engines | Manual pass (Breeze API in the browser); Dominion/ApCo/NOVEC disclosures on EDGAR; DCC Bi-Weekly; RTO Insider and NPM mail | Written request that SCC add a robots allowance for the UA; S&P RRA |
+| **SC PSC** DMS | `Disallow: /` | Manual pass; PSC latest publications and ORS electric page (C); Duke/Dominion EDGAR | As VA |
+| **IL ICC** e-Docket | `Disallow: /` + CAPTCHA | Manual pass (Rett solves any CAPTCHA); ComEd/Exelon EDGAR; IPA site for IRP; mail | As VA |
+| **OH PUCO** DIS | F5 firewall (even on robots.txt) | Manual pass; Ohio Consumers' Counsel filings (C); AEP Ohio EDGAR; Columbus Legistar | Agency allowlist (technical change they declined) |
+| **NC NCUC** `starw1` | Cloudflare challenge | Manual pass; WebSearch `site:starw1.ncuc.gov` harvests GUIDs that open via `ViewFile.aspx`; NCUC mail; NCUC main-site PDFs; Duke EDGAR | As OH |
+| **WV PSC** | HTTP 403 to automated clients | Manual pass (`ViewText.cfm`); ApCo/AEP EDGAR; WV governor page (C) | As OH |
+| **NV PUCN** | robots disallows all; no text layer | Manual pass (metadata ceiling); NV Energy/BHE disclosures on EDGAR (Nevada Power 10-Q/10-K) | S&P RRA |
+| PA PUC | Runners blocked (TLS + 5xx robots) | **WebFetch works** — Sweep route 6.1 | — |
+| AZ `docket.images.azcc.gov` | robots | Use `images.edocket.azcc.gov` (works) | — |
+| IR pages: Southern | Incapsula | EDGAR 8-K exhibits; WebSearch for the deck PDF on its CDN | — |
+| IR pages: Evergy, Exelon, OGE, Oncor | robots | EDGAR 8-K/10-Q; WebSearch for the q4cdn/GUID PDF (the refusing page itself is never fetched) | — |
+| IR pages: BHE | CAPTCHA | Nevada Power / PacifiCorp filings on EDGAR (twice-yearly BHE decks) | — |
+| PJM Inside Lines | CAPTCHA on the RSS | FERC dockets (C); RTO Insider mail; **PJM newsroom via WebFetch** (6.6) | PJM API key (§9) |
+| ERCOT rendered pages from runners | Incapsula | Notice archive works from runners; large-load, planning and board pages via WebFetch; `/files/docs/` from both; ERCOT mail folder | ERCOT Public API (§9) |
+| Arizona governor | 403 (collector and WebFetch) | Mail; ACC dockets; news | — |
+| Kansas governor | 403 to runners | **WebFetch works** (6.6) | — |
+| Duke Carolinas IRP page | 403 to runners | **WebFetch works** (6.6); NCUC via manual pass; Duke EDGAR | — |
+| IL Citizens Utility Board | 403 | Manual pass for ICC | — |
+
+**Faults and limits, not refusals:** AL PSC RSS (HTTP 500 — docket pages via WebFetch); CourtListener keyless
+(429 — add token); PUCT Interchange via WebFetch (402 on some files — collector unaffected); LegiScan (blocks by
+IP — Open States instead); NM documents endpoint (empty — manual pass); OK page-text service (errors — Sweep
+reads the PDF).
+
+---
+
+## 11. ERCOT — is there a reliable route to all notices and planning pages?
+
+**Yes, for notices and published documents; partly, for data products.**
+
+- **Market notices:** the public archive `https://www.ercot.com/services/comm/mkt_notices/archives` (three years,
+  newest first) is read nightly by the collector (watch page `ercot_notice_archive`, 23 notice links on the
+  2 Oct probe; links `mkt_notices/M-…`) **and** by the Sweep via WebFetch (step 6.4). Keywords include Batch Zero,
+  NPRR, PGRR, verification RFI, community impact, load forecast, firm load shed and emergency, so notice titles
+  pass the filter. The old notices URL 404s. The ERCOT mail folder is the cross-check.
+- **Large-load and planning pages:** `services/rq/large-load-integration` (Batch Zero, verification RFIs, forms,
+  each with a dated `/files/docs/YYYY/MM/DD/` path) and `gridinfo/planning` (RTP, LTSA, constraints report, GRRA)
+  refuse the runners but open to WebFetch — verified 3 Oct and now in Sweep step 6.4. The board page and monthly
+  operational overview are in step 6.6.
+- **Documents:** everything under `ercot.com/files/docs/` opens to both the collector and WebFetch. Board and TAC
+  materials not linked from those pages: WebSearch `site:ercot.com/files/docs` by topic and month.
+- **Data products** (`mp/data-products/…`, e.g. RTP `PG7-048-M`, GRRA `PG7-226-M`) are JS-rendered lists. The
+  reliable route is the **ERCOT Public API** (§9), which lists report archives by EMIL id. Until it is added,
+  the Sweep relies on the planning page's direct links.
+- **Texas context outside ERCOT:** PUCT 58317 and related projects (collector); governor and PUCT news pages.
+
+---
+
+## 12. The manual pass — how to run it
+
+**When:** whenever Rett wants — before a Monday for fuller coverage of VA, NC, SC, IL, OH, WV, NV, or when a
+run record lists documents the cloud couldn't open. Every run is independent and safe to repeat or abandon.
+
+**How:**
+1. Open the **Claude desktop app** on the work computer (the pass uses the app's built-in browser, or Claude in
+   Chrome if that's unavailable).
+2. Start a new task and type **`/grid-docket-manual-pass`** (or "run the Grid Docket manual pass").
+3. Stay nearby. If a portal shows a CAPTCHA or bot check, Claude stops and asks Rett to complete it in the browser
+   pane; otherwise that state is skipped as `blocked_captcha`.
+4. Claude reads `manual_queue.json`, visits only the watched dockets and requested documents, extracts text
+   (agency text layer first, then PDF text, OCR only as a last resort and flagged), saves one file per state to
+   `/GridDocket/manual/`, and writes `manual_<run_id>.json` with `"complete": true` last.
+5. Nothing else to do: the next Sweep ingests completed runs automatically and records them in
+   `state.manual_ingested`. The pass never writes the row store.
+
+Skill copy in the repo at `manual/SKILL.md`; the saved skill on Rett's account is authoritative.
+
+---
+
+## 13. Registry corrections — facts that were wrong (do not resurrect)
 
 | Claim | Reality |
 |---|---|
@@ -430,7 +530,7 @@ Directive" of 2025-12-17; claims ~$2.67bn of benefits to other ELL customers.
 
 ---
 
-## 10. Structural findings, explicit negatives, watch signals
+## 14. Structural findings, explicit negatives, watch signals
 
 **Structural findings (change what to look for):**
 - **Kansas ESAs are never docketed.** Evergy executes large-load ESAs under the approved LLPS tariff with no
@@ -458,7 +558,7 @@ agendas (immaterial).
 
 ---
 
-## 11. Benchmarks and standing facts
+## 15. Benchmarks, standing facts and milestones
 
 **Conversion series (verified at source; the brief reports quarter-over-quarter deltas, not levels):**
 
@@ -511,14 +611,16 @@ minimum take, 10–15 year terms, exit fees, collateral, cost-shift bars; West V
 
 | Date | Item | Note |
 |---|---|---|
-| 2026-09-30 | Duke NC large-load tariff filing due; Ameren Missouri triennial IRP (~3 GW requested) | past — outcome needed |
+| 2026-09-30 | Duke NC large-load tariff filing due; Ameren Missouri triennial IRP (~3 GW requested); OG&E reported hearing (unconfirmed) | past — outcome needed |
 | 2026-10-01 | Alabama Act 610 effective (review at 150 MW+); MISO BPM-032 v1.0 due | past — outcome needed |
-| 2026-10-12 | ERCOT Community Impact RFI responses due (5 pm CT) | add once C-01 verifies |
+| 2026-10-08 | Illinois Joint IRP workshop comments due | recorded 3 Oct |
+| 2026-10-12 | ERCOT State and Community Impact RFI responses due (5 pm CT) | recorded 3 Oct (Reported) |
 | 2026-10-14 | GRDA board (Google LGS-Industrial schedule; WP-SS rider) | |
 | 2026-10-20 | ApCo Virginia rate case hearing, PUR-2026-00044 | |
 | 2026-10-26 | SC large-load workshop 2026-138-E (26–27 Oct); WV MARL 500 kV hearing 26-0075-E-CN (to 2 Nov) | |
 | 2026-10-31 | WRAP Forward Showing deadline (first binding season, Summer 2027) | |
 | 2026-11-12 | FERC §206 abeyance ends — PJM, NYISO, MISO, CAISO, ISO-NE | |
+| 2026-11-16 | Illinois Joint IRP issued (ICC/IPA) | recorded 3 Oct |
 | 2026-11-17 | Dominion GS-5 compliance filing due | |
 | 2026-11-20 | FERC §206 abeyance ends — SPP | |
 | 2026-11-30 | OG&E Extra Large Power & Light hearing | reported; docket and name unverified |
@@ -536,137 +638,127 @@ minimum take, 10–15 year terms, exit fees, collateral, cost-shift bars; West V
 
 ---
 
-## 12. What happened on 2 October 2026 (this session)
+## 16. Verification record
 
-1. **Reachability probe** from GitHub Actions: open hosts confirmed; six commissions closed by their owners
-   (VA, SC, IL, OH, NC, WV); PA open only to Claude's reader; EDGAR opened by the declared UA.
-2. **Decisions by Rett:** use the work email in the UA; pursue (1) agency allowlist letters and (2) automatic
-   fallback to permitted-host copies; Excel tracker is the primary deliverable with a narrative alongside; set
-   up a second, manual process for gaps; web fetching always permitted.
-3. **Built the v3 system** described in §4: collector (15 adapters plus governor/party watching, health,
-   circuit breakers, 70-minute run deadline with rotating start and per-source checkpoints, per-list
-   baselining, backfill mode, AIA chain completion); row-store overlays and validation; exact Excel replica in
-   Python and in the browser with CI parity; narrative PDF/DOCX; console v6 (in-page Excel download, narrative
-   section, status) — also fixed a script error that had stopped the earlier console from loading; Sweep and
-   Brief v3 prompts; corrections queue; manual-pass skill (saved); `SOURCES.md`.
-4. **Allowlist drafts** created in Outlook (not sent): VA `sccinfo@scc.virginia.gov`; NC
-   `clerkhelpdesk@ncuc.gov`; SC `contact@psc.sc.gov`; IL `ICC.FOIARequests@Illinois.gov` (asks to route to the
-   Chief Clerk); OH (no address — PUCO web form or 614-466-6843); WV (no address — Executive Secretary form or
-   304-340-0426).
-5. **First collector run:** 334 new items, 160 documents extracted, ~20 minutes. Afterwards fixed Arizona,
-   Missouri, Oklahoma (partly), TLS chains; added PUCT 58317, party watch, governor and PUCT news pages.
-6. **Scheduled** the Sweep and Brief (§3) and **dispatched** the docket-activity backfill.
+**2 October 2026 (build day):**
+- Reachability probe from GitHub Actions: open hosts confirmed; six commissions closed by their owners (VA, SC,
+  IL, OH, NC, WV); PA open only to WebFetch; EDGAR opened by the declared UA.
+- Built v3: collector (15 adapters plus governor/party watching, health, circuit breakers, 70-minute deadline,
+  rotating start, checkpoints, per-list baselining, backfill mode, AIA completion); overlays and validation;
+  Excel in Python and in the browser with CI parity (0 differences); narrative PDF/DOCX; console; Sweep and
+  Brief prompts; corrections queue; manual-pass skill (saved by Rett); `SOURCES.md`.
+- First collector run: 334 new items, 160 documents extracted, ~20 minutes. Fixed AZ, MO, OK (partly), TLS
+  chains; added PUCT 58317, party watch, governor and PUCT news pages.
+- Allowlist drafts created in Outlook (not sent): VA `sccinfo@scc.virginia.gov`; NC `clerkhelpdesk@ncuc.gov`;
+  SC `contact@psc.sc.gov`; IL `ICC.FOIARequests@Illinois.gov`; OH (PUCO web form or 614-466-6843); WV (Executive
+  Secretary form or 304-340-0426).
 
-**Status at 17:00 PT:**
-- Excel parity: passing (0 differences).
-- A collector run at ~16:24 PT finished but its data push failed silently; the health-issue step also
-  failed. Both steps rewritten (rebase keeps the newer data file; push failure now fails the job; issue lookup
-  via REST). The fixes take effect from the next run.
-- A collector run started ~16:39 PT on the older commit step; the backfill run is queued behind it.
-- Oklahoma: confirmation via page text failed; now keeps 8 newest hits unconfirmed for the Sweep to check.
-- Open source issues: NM documents endpoint; AL RSS (server 500); PJM Inside Lines CAPTCHA; six blocked IR
-  pages (covered by EDGAR/q4cdn).
+**2–3 October (verification runs):**
+- **Sweep fired off-schedule (run 2026-10-03-0019): worked, degraded.** The repo was private then and scheduled
+  sessions can't attach it; OneDrive read/write, read-only mail, DCC Bi-Weekly, PA web reader and the manual-folder
+  check all worked. Wrote `rows_p5` (§6).
+- **Brief fired off-schedule: worked via the repo-less path.** Email sent (`[Status] Grid Docket — 3 Oct · 9
+  high-impact …`, RED because of the repo regression); console v7 published with narrative and PDF;
+  `briefs/2026-10-03.json` written.
+- **Fix:** Rett made the repo public; both prompts now clone it read-only and build from `store_live/`; the task
+  prompts were replaced with compact bootstraps and the crons re-set explicitly.
+- Second-wave sources probed and working: MISO/SPP queues, 8 Legistar clients, capacity pages, VA appellate
+  courts, 8 more governors, 6 of 7 IRP/RFP pages, DOE pages, ERCOT notice archive (23 links).
+- 3 Oct: WebFetch confirmed for ERCOT large-load, planning and board pages, PJM newsroom, Kansas governor and Duke
+  IRP; added to Sweep steps 6.4 and 6.6. Arizona governor refuses both routes.
 
----
-
-## 13. Sources
-
-Full lists in `claude/sources-v3.md` (repo `SOURCES.md`).
-
-**In scope:** FERC eLibrary, FERC news, Federal Register, NERC; SEC EDGAR for 18 utility issuers (AEP,
-Southern, Duke, Dominion, Entergy, Evergy, Exelon, Ameren, PPL, Pinnacle West, Xcel, OGE, TXNM, Oncor, Fortis,
-Nevada Power, NiSource, FirstEnergy) and 17 market participants (Constellation, Vistra, NRG, Talen, NextEra,
-Microsoft, Alphabet, Amazon, Meta, Oracle, Digital Realty, Equinix, CoreWeave, Applied Digital, IREN, Core
-Scientific, GE Vernova); all 8 RTOs; all 18 state commissions (routes in §8); 16 IR pages; governors'
-newsrooms; party watch; Utility Dive, Canary Media, RTO Insider and PJM Inside Lines feeds; licensed mail.
-
-**Candidates, ranked:** (1) agency allowlisting for the six closed states; (2) free EIA, congress.gov and
-Open States keys (already wired); (3) RTO interconnection queue files; (4) ERCOT large-load interconnection
-status report; (5) capacity auction results and parameters; (6) CourtListener/PACER; (7) state appellate
-courts; (8) governor EO pages for the remaining states; (9) county zoning/planning agendas; (10) direct
-state bill trackers; (11) utility IRP/RFP portals; (12) DOE GDO/LPO and 202(c) orders; (13) NRC ADAMS for
-restarts/uprates/SMRs; (14) hyperscaler newsrooms; (15) earnings call transcripts; (16) S&P RRA / Halcyon /
-Energy Strategies / DELTa as cross-checks; (17) LBNL / Grid Strategies studies; (18) Colorado and Oregon;
-(19) FERC Form 1 / EQR (defer).
+**Not yet verified end to end:** a scheduled Sweep reading collector data through the public clone — first test
+**Monday 5 Oct, 04:55 PT**. The docket-history backfill rerun was still running at writing.
 
 ---
 
-## 14. Outstanding actions
+## 17. Sources
+
+Full lists in the repo's `SOURCES.md` (project copy `claude/sources-v3.md`).
+
+**In scope and working:** FERC eLibrary, FERC news, Federal Register, NERC; SEC EDGAR for 18 utility issuers
+(AEP, Southern, Duke, Dominion, Entergy, Evergy, Exelon, Ameren, PPL, Pinnacle West, Xcel, OGE, TXNM, Oncor,
+Fortis, Nevada Power, NiSource, FirstEnergy) and 17 market participants (Constellation, Vistra, NRG, Talen,
+NextEra, Microsoft, Alphabet, Amazon, Meta, Oracle, Digital Realty, Equinix, CoreWeave, Applied Digital, IREN,
+Core Scientific, GE Vernova); all 8 RTOs; 10 state commissions by collector or WebFetch (TX, AZ, GA, LA, MO, NM,
+KS, OK, AL, PA, plus GRDA) and 7 by manual pass (VA, SC, IL, OH, NC, WV, NV); 10 of 16 IR pages (the rest via
+EDGAR); governors' newsrooms in 16 states (Arizona refuses); party watch; MISO and SPP queues; capacity markets; Legistar agendas
+(8 counties/cities); Virginia appellate courts; utility IRP/RFP pages; DOE; Utility Dive, Canary Media, RTO
+Insider feeds; licensed mail (RTO Insider, NPM, CapIQ, DCC Bi-Weekly).
+
+**Waiting on keys:** EIA, congress.gov, Open States, CourtListener (full rate).
+
+**Candidates still open, ranked:** (1) ERCOT Public API and PJM API (§9); (2) state appellate courts beyond
+Virginia; (3) county planning agendas outside Legistar (Loudoun, Fairfax, Henrico, Fulton, Atlanta, Tulsa, Reno
+were not confirmed Legistar clients); (4) NRC ADAMS for restarts/uprates/SMRs; (5) hyperscaler newsrooms;
+(6) earnings call transcripts (CapIQ); (7) S&P RRA / Halcyon / Energy Strategies as cross-checks; (8) LBNL / Grid
+Strategies studies; (9) Colorado and Oregon (scope decision); (10) FERC Form 1 / EQR (defer).
+
+---
+
+## 18. Outstanding actions and open decisions
 
 **Rett:**
-1. Disable any desktop-local copies of the old tracker tasks.
-2. Send the six allowlist drafts (OH and WV through their web forms).
-3. Optional: add the EIA, congress.gov and Open States keys as repo secrets.
-4. Optional: run the manual pass before Monday 5 October so the first report covers the blocked states.
+1. Add the four free keys as repo secrets (§9). Consider ERCOT and PJM accounts; once their secrets exist, a
+   session with push access builds those adapters.
+2. Disable any desktop-local copies of the old tracker tasks.
+3. Optional: send the allowlist drafts (OH and WV through their web forms). Verbal consent is on record, but
+   only a **written change by the agency** (a robots.txt allowance or firewall rule for the UA) would let the
+   collector in — the agencies said they can't make technical changes, so the manual pass remains the route.
+4. Optional: run the manual pass before Monday 5 Oct.
 
-**Decisions still open:** Colorado and Oregon in scope?; recipients after burn-in (only Rett now; possibly
-BODIpower@blueowl.com later); whether a personal GitHub repo is acceptable under Blue Owl policy long-term (an
-Azure Container Apps job is the fallback, which needs IT); a Blue Owl branding template for the narrative;
-send mode stays auto-send unless changed.
+**Open decisions:** Colorado (Xcel 26AL-0137E) and Oregon (PacifiCorp UE 463) in scope?; recipients after burn-in
+(only Rett now; possibly BODIpower@blueowl.com); whether a personal public GitHub repo is acceptable under Blue
+Owl policy long term (fallback: Azure Container Apps job, needs IT); Blue Owl branding for the narrative; send mode
+stays auto-send unless changed.
 
-**Next session should first:** check the Monday 5 October Sweep run record (`/GridDocket/runs/`) and Brief
-record (`/GridDocket/briefs/`); confirm the backfill completed (`data/backfill/`); read the collector health
-issue on GitHub; confirm both scheduled tasks are still enabled (a disabled task emits no failure notice).
+**Next session should first:** read the 5 Oct Sweep run record (`/GridDocket/runs/`) and Brief record
+(`/GridDocket/briefs/`); confirm the Sweep read collector data (not degraded); apply any repair proposals; confirm
+the backfill run finished and its file landed in `data/backfill/`; check the collector health issue on GitHub;
+confirm both scheduled tasks are still enabled.
 
 ---
 
-## 15. Process lessons (do not repeat)
+## 19. Process lessons (do not repeat)
 
 - **Test every access method in the exact runtime it will run in.** v1 validated methods in a session with a
-  browser; the scheduled task ran without one, deferred every source, and wrote nothing.
-- **Connectors attach per scheduled task**; confirm M365 is attached (both v3 tasks have M365 and Box).
-- **Cron is UTC unless `CRON_TZ` is set.** Both v3 tasks use `CRON_TZ=America/Los_Angeles`.
-- **A disabled task emits no failure notice** — two Mondays passed silently. Verify tasks are enabled after
-  any change.
-- **Never set `last_successful_sweep` to the baseline date without intent** — v1's first run had a
-  zero-length window.
-- **Subagent budgets overran on 6 of 8 attempts** (worst 205 calls against 60). Scope narrowly (≤3
-  jurisdictions), set hard call budgets, hand back partial results.
-- **Dedupe on specific document URL, not just docket number**; a shared search-landing URL is not a duplicate
-  signal.
+  browser; the scheduled task had none and wrote nothing. v3's first scheduled run then found that scheduled
+  sessions can't attach a private repo — fixed by making it public.
+- **Scheduled sessions differ from interactive ones:** no `add_repo`, so no push; treat the repo as read-only
+  there and put repair proposals in the run record.
+- **Updating a task's prompt can alter its schedule** — re-set the cron explicitly and verify `next_run_at`.
+- **Cron is UTC unless `CRON_TZ` is set.** Both tasks use `CRON_TZ=America/Los_Angeles`.
+- **A disabled task emits no failure notice** — two Mondays passed silently. Verify tasks are enabled after any
+  change.
+- **Connectors attach per scheduled task**; both tasks have M365 and Box.
+- **Pushes from Actions can fail silently** — the first rerun and first backfill lost their data. The push step
+  now rebases with `-X theirs` and fails the job loudly.
+- **Workflow concurrency:** one pending run per group; a new push replaces a queued run. Use `[skip ci]` when
+  pushing while a dispatched run is queued; parity has its own group.
+- **First-run baselining hides history:** links already on a page at first sight were marked seen. Now
+  re-listed into `baseline_links_<date>.jsonl` for triage.
+- **Never set `last_successful_sweep` to the baseline date without intent** (v1's zero-length window).
+- **Robots and consent:** verbal consent does not change what robots.txt says. An override was refused by the
+  environment's safety controls; don't re-attempt by any route.
+- **A robots.txt BOM can hide `Disallow: /`** — decode with utf-8-sig. Distinguish firewall pages from app shells.
+- **Runner-refused is not WebFetch-refused** — PA, ERCOT pages, KS governor and Duke IRP open to WebFetch. Test
+  both before declaring a source closed.
+- **Subagent budgets overran on 6 of 8 attempts** — scope narrowly, set hard call budgets.
+- **Dedupe on specific document URL**, not docket number; a shared search-landing URL is not a duplicate signal.
 - **Check arithmetic between a stated level and a stated change** (the Duke +2.7/+3.1 error).
-- **Binary files can't round-trip through the Graph text/base64 path**; artifacts can't serve .xlsx/.docx —
-  build the workbook in the browser and commit the canonical copy to the repo.
+- **Binary files can't round-trip through the Graph text/base64 path**; build the workbook in the browser.
 - **LibreOffice recalc times out on styled workbooks** — verify formulas on a stripped copy.
-- **ExcelJS treats column width 9 as default and omits it** (write 9.001); `<col>` spans group equal widths
-  (expand before comparing).
-- **From Claude sessions:** GitHub GraphQL is unavailable (use `gh api` REST); GitHub Actions log downloads
-  are blocked (have jobs commit diagnostics to `data/debug/`); the workspace shell can't reach most target
-  hosts or npm (test in Actions).
-- **Workflow concurrency:** one pending run per group — a new push replaces a queued run. Use `[skip ci]` when
-  pushing collector changes while a dispatched run (e.g. a backfill) is queued.
-- **A robots.txt BOM can hide `Disallow: /`** — decode with utf-8-sig. Distinguish firewall block pages from
-  app shells when a site serves HTML as robots.txt.
-- **Claude-side failures worth remembering:** turns closed silently without answering; a scheduled task bound
-  to a local folder while its own rule said "nothing local"; a dashboard that was a prettier email; a console
-  shipped with a script syntax error. Check the page loads after every publish.
+- **ExcelJS omits column width 9** (write 9.001); `<col>` spans group equal widths (expand before comparing).
+- **From Claude sessions:** GitHub GraphQL unavailable (use `gh api` REST); Actions log downloads blocked (jobs
+  commit diagnostics to `data/debug/`); the workspace shell can't reach most target hosts (test in Actions).
+- **Check the console loads after every publish** (a syntax error once stopped it rendering).
 
 ---
 
-## 16. Update — 2 October 2026, ~18:10 PT (verification runs)
+## 20. Change log
 
-- **Sweep fired off-schedule (run 2026-10-03-0019): worked, but DEGRADED.** Scheduled sessions do not get the
-  `add_repo` tool and cannot clone the private repo, so collector candidates, health, watchlist, corrections
-  queue and validator were unreachable. OneDrive read/write, read-only mail, DCC Bi-Weekly, PA web reader and
-  the manual-folder check all worked. Wrote `rows_p5.json`: **19 events / 24 rows** (all Reported), incl. PUCT
-  adoption of 16 TAC 25.194 (58481), the Governor's TCEQ permit halt, the full ERCOT Batch Zero audit sequence
-  (closes the Texas CANARY_MISS), five FERC §206 rehearing dismissals, the PJM backstop order, a Senate
-  permitting proposal, PUCT 58000 and 58482, ICC 26-0364 and Joint IRP, two PA model-tariff reconsideration
-  orders. Store now **180 events / 253 rows**. Repo `store/` mirror is behind (rows_p5) until a full run repairs it.
-- **Brief fired off-schedule: worked via the new repo-less path.** Email sent ("[Status] Grid Docket — 3 Oct ·
-  9 high-impact …", RED because of the repo regression); console republished as **version 7** with narrative and
-  PDF (pandoc + wkhtmltopdf); `briefs/2026-10-03.json` written. No Python workbook commit (repo unreachable); the
-  console's in-browser Excel download covers it.
-- **Blocking issue for full operation:** the scheduled tasks need read access to the repo. Options: make the repo
-  public (or publish a public data-only mirror), or attach the repo to the tasks if the app offers it. Prompts
-  now use a pre-cloned repo if present and fall back cleanly otherwise.
-- **Second-wave sources added and probed:** MISO and SPP queues (working), Legistar agendas (8 clients working),
-  capacity-auction pages (PJM, MISO, ISO-NE, SPP working), Virginia appellate courts, governors (AL, IL, MO, NM,
-  NV, OK, SC, WV working; AZ, KS refuse), IRP/RFP pages (6 of 7; Duke refuses), DOE pages; EIA, congress.gov,
-  Open States and CourtListener adapters await their free keys/token. ERCOT notices and planning pages are behind
-  Incapsula (covered by ERCOT news, PUCT news and the ERCOT mail folder).
-- **Verbal agency consent (all six):** none could change their systems. Robots-only blocks (VA, SC, IL) remain
-  honoured — a change to let the collector override robots.txt on verbal consent was refused by this
-  environment's safety controls; technical blocks (OH, NC, WV) are unchanged. The manual pass stays the route.
-- **Catch-up:** one-time re-listing of page/feed links the first collector run had silently baselined; docket
-  history backfill from 2025-11-07 running in Actions; both reach the tracker once the Sweep can read the repo.
+| Date | Change |
+|---|---|
+| 2026-09-17/18 | v1/v2 built; baseline 161 events / 229 rows loaded; tasks later found disabled |
+| 2026-10-02 | v3 built (collector, overlays, Excel parity, console v6, prompts, manual skill); first collector run; backfill dispatched |
+| 2026-10-03 | Off-schedule verification runs (degraded Sweep → `rows_p5`; Brief → console v7 + email); repo made public; prompts clone read-only; compact task bootstraps; second-wave sources; ERCOT archive; WebFetch fallback pages; backfill re-dispatched; this document rewritten |
