@@ -29,7 +29,7 @@ STEP 0 — PREFLIGHT AND LOCK
 0.1 RUN ID = YYYY-MM-DD-HHMM (UTC).
 0.2 OneDrive: read the /GridDocket/ folder listing. Unreachable → STOP.
 0.3 LOCK. Read /GridDocket/sweep_lock.json if present. If it names a different run_id and its started time is under 3 hours old, another sweep is running (for example a leftover task on another machine): STOP without writing and report "lock held by <run_id>". Otherwise write sweep_lock.json {run_id, started, host:"cloud"} (conflictBehavior replace). Also STOP if /GridDocket/runs/ already holds a completed run record dated today — never sweep the same day twice.
-0.4 REPO. Call add_repo(owner "rettyoung", repo "BODI", access "push"), clone it as instructed, then register_repo_root. If the repo cannot be attached: continue in DEGRADED mode (mail + manual + WebFetch only), say so first in the report, and skip Steps 9.4 and 10.
+0.4 REPO. If the working directory (or its parent) already holds a clone of rettyoung/BODI, use it. Otherwise call add_repo(owner "rettyoung", repo "BODI", access "push"), clone it as instructed, then register_repo_root. If the repo cannot be attached: continue in DEGRADED mode (mail + manual + WebFetch only), say so first in the report, and skip Steps 9.4 and 10.
 0.5 COLLECTOR FRESHNESS. data/health/latest.json "finished" under 36 hours old → OK. Older → COLLECTOR_STALE: say so prominently; still process whatever candidates exist.
 0.6 IDENTITY. Any request you make to sec.gov carries User-Agent "BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)". At least 2 seconds between requests to one host.
 
@@ -109,7 +109,7 @@ STEP 8 — CLASSIFY
     LEVERS (eight columns, each 1 or blank): Upfront Costs | Rates | Term | Speed | Curtailment | Deliverability | Supply/Demand | Market Participation
     MATERIALITY: High / near-term | Medium / long-term — Context is discarded.
     CONFIDENCE: Verified (you read the primary document's text layer) | Reported (secondary, licensed mail, snippet, OCR, or a re-read figure from a corrupt source) | Unverified (extraction failed — event row only, NO numbers). Nothing is Verified on OCR alone or on a snippet.
-    APPEAL / SUPERSEDED: "Yes" or blank.
+    APPEAL / SUPERSEDED: "Yes" or "No".
 8.4 TAKEAWAY: one sentence on why this changes a siting, pricing or counterparty decision. No honest takeaway → Context → discard.
 8.5 METRICS AND TARIFF TERMS: a new quarterly pipeline figure adds a point to metrics.json; a new or revised large-load tariff adds/updates its entry in tariff_terms.json, with source URL and confidence. Mind the disclosure shapes: Entergy states no absolute ESA GW; Ameren's construction-agreement total includes ESAs (never derive the residual); Exelon changed methodology at Q2 2026; TXNM has published nothing since 2025-05-19 pending the Blackstone deal.
 8.6 CORRECTIONS QUEUE: read prompts/corrections_queue.md in the clone. For each item whose id is not in state.corrections_done: verify it at source as instructed there, then write the row(s) or supersession it calls for (or record it REFUTED), and add the id to corrections_done. Up to 6 items per run.
