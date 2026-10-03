@@ -88,7 +88,8 @@ def urlprobe(cfg, listfile):
         if not line or line.startswith("#"):
             continue
         render = line.startswith("R|")
-        url = line[2:] if render else line
+        keep = line.startswith("B|")
+        url = line[2:] if (render or keep) else line
         o = {"url": url, "render": render}
         try:
             hs = http._robots(url)
@@ -110,6 +111,8 @@ def urlprobe(cfg, listfile):
                 o.update(status=r.status_code, ctype=r.headers.get("content-type"), final_url=r.url)
             o["len"] = len(body)
             o["head"] = body[:1500]
+            if keep:
+                o["body"] = body[:40000]
             links = re.findall(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>', body, re.S | re.I)
             o["n_links"] = len(links)
             o["links"] = [[urljoin(url, h.replace("&amp;", "&")), re.sub(r"<[^>]+>|\s+", " ", t).strip()[:120]] for h, t in links][:250]
