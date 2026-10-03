@@ -119,17 +119,17 @@ in repo secrets, which stay private on a public repo.
 
 | Path | What it is |
 |---|---|
-| `collector/` | `common.py` (HTTP, robots, extraction, AIA chain completion), `adapters.py` (commission, watch-page, RSS, IR, mirror, FERC, Federal Register, EDGAR adapters), `adapters2.py` (EIA, congress.gov, Open States, CourtListener, MISO/SPP queues, Legistar), `run.py` (orchestrator, budgets, checkpoints, baselining, backfill), `discover.py`, `probe_adapter.py` |
+| `collector/` | `common.py` (HTTP, robots, extraction, AIA chain completion), `adapters.py` (commission, watch-page, RSS, IR, mirror, FERC, Federal Register, EDGAR adapters), `adapters2.py` (EIA, congress.gov, Open States, CourtListener, MISO/SPP queues, Legistar), `run.py` (orchestrator, budgets, checkpoints, baselining, backfill), `backfill_text.py` (nightly enrichment of the docket-history backfill), `discover.py` and `probe_adapter.py` (repair tools) |
 | `config/watchlist.yaml` | **The single place to add or drop coverage**: 56 keywords, jurisdictions and routes, watched dockets, entity aliases, party watch list, EDGAR issuers, Federal Register terms, 49+ watch pages, RSS, IR pages, mirrors, queues, Legistar clients, court and Open States queries |
 | `data/` | Collector output: `candidates/<date>.jsonl`, `filings/<jur>/<source>/<id>.json` (full text), `health/`, `state/`, `backfill/`, `debug/`, `tests/` |
-| `store/` | Repo mirror of the row-store parts (**behind**: lacks `rows_p5`; scheduled runs no longer write it — OneDrive is authoritative) |
+| `store/` | Frozen copy of the 2026-09-18 baseline (`rows_p1..p4`) for tests and CI. Not a mirror: scheduled runs download the live store from OneDrive into `store_live/` |
 | `tracker/` | `vocab.py`, `rowstore.py` (load, overlays, validation CLI), `build_tracker.py` (canonical Excel), `build_console.py` (console package), `narrative.py` (PDF/DOCX) |
 | `console/` | `index.html` (console page), `tracker_xlsx.js` (in-browser Excel builder) |
 | `prompts/` | `sweep.md`, `brief.md` (**the live instructions** — the scheduled tasks read these at run time), `trigger_sweep.txt`, `trigger_brief.txt` (the bootstrap prompts loaded into the tasks), `corrections_queue.md` |
 | `manual/SKILL.md` | Copy of the manual-pass skill |
 | `deliverables/` | Weekly Excel master and narrative when built from a session that can push (scheduled runs cannot) |
-| `SOURCES.md`, `docs/` | Source lists, architecture note, this document |
-| `.github/workflows/` | `collect.yml` (nightly + backfill dispatch), `xlsx-parity.yml`, `adapter-probe.yml`, `discover.yml`, `probe.yml` |
+| `SOURCES.md`, `docs/` | Source lists; this document (`.md` and `.docx`) |
+| `.github/workflows/` | `collect.yml` (nightly + backfill dispatch), `xlsx-parity.yml`, `adapter-probe.yml`, `discover.yml` |
 
 ### Console
 
@@ -139,20 +139,33 @@ page), the narrative PDF and the narrative markdown. Supporting files: `data.jso
 table), `metrics.json`, `tariff_terms.json`, `status.json`, `narrative.md`, narrative PDF. Republished to the
 same URL by each Brief; `icon` and `capabilities` carry forward and are never re-passed.
 
-Older v1 artifacts (protocol spec `Sqwj1xLtBTRPS9skXjbzKe`; config DB `68T91ssmaVqRQWQfbjw9TT`) are not used.
+The four v1 artifacts (Grid Docket Protocol, Docket Watch Live, Docket Facet Schema, Grid Docket Watch) were deleted on 3 Oct 2026.
 
-### Scheduled tasks (cloud)
+### Scheduled tasks
 
 | Task | ID | Schedule | State |
 |---|---|---|---|
 | Utility Tracker Sweep | `trig_01DA4N9G8Qv1zeggHuN9eQ3g` | Mon 04:55 PT (`CRON_TZ=America/Los_Angeles 55 4 * * 1`) | Enabled, auto-approve, M365 + Box. Next run 2026-10-05. |
 | Weekly Utility Tracker (Brief) | `trig_01X19jgn9aMSPL5ov1TQ7bvj` | Mon 07:54 PT (`CRON_TZ=America/Los_Angeles 54 7 * * 1`) | Enabled, auto-approve, M365 + Box. Next run 2026-10-05. |
+| Grid Docket manual pass (reminder) | `trig_015r1jt1qtx7CEYiyehWzSV2` | Fri 14:51 PT (`CRON_TZ=America/Los_Angeles 51 14 * * 5`) | Runs **on Rett's computer** (desktop app must be open). Push notification; asks "Run now / Skip this week" and does nothing without "Run now". First fires 2026-10-09. |
 | Current Events Digest (unrelated) | `trig_01Q57Hm8Enb4TFRrhTZRbpc7` | weekdays 07:28 PT | Not part of this project |
 
 Each task's prompt is a **compact bootstrap** (`prompts/trigger_*.txt`): the invariants that must hold whatever
 the repo says (OneDrive IDs, read-only mail, one email to Rett, no credentials/CAPTCHAs), then "clone the public
 repo and follow `prompts/sweep.md` / `brief.md`", then a degraded fallback if the clone fails. So **changing
 `prompts/*.md` in the repo changes next Monday's behaviour** without touching the tasks.
+
+**Model.** Each task stores its own model, set from the session that created or last updated it — all three run
+**`claude-opus-5-5`**. It changes only when Rett asks (any session can update it with the scheduled-task tools, or
+Rett can change it in the task's settings). A cheaper model (Sonnet 5.5) for the Brief is a reasonable cost
+option; the Sweep's classification and verification work benefits most from Opus.
+
+**Why two cloud tasks, not one.** (1) The Brief is the watchdog: if the Sweep crashes, hangs or never fires, the
+Brief still runs and sends the `[No sweep]` failure notice — one combined task would fail silently, the failure
+that already cost two Mondays. (2) Single writer: the Sweep alone writes the store; the Brief only reads, so a
+rendering or email problem can never damage data. (3) Context and time: the Sweep reads up to 25 long
+documents; a separate Brief starts fresh with room for synthesis. The cost is one extra clone and store
+download (a minute or two). Recommendation: keep two.
 
 **Possible desktop-local duplicates** (`utility-tracker-sweep` Mon 05:11, `weekly-utility-brief` Mon 08:00) may
 still exist on Rett's computer; they are invisible from the cloud. If present, disable them — the lock prevents
@@ -161,7 +174,10 @@ double rows, but a local Brief would send a second email.
 ### Collector (GitHub Actions)
 
 Nightly at **06:17 UTC** (~23:17 PT). Writes only to the repo's `data/`. Never classifies, never writes the row
-store. Manual dispatch accepts `backfill_since` (docket history from a date).
+store. Manual dispatch accepts `backfill_since` (docket history from a date). Spare time at the end of each night
+(up to the 70-minute deadline, ~150 documents) goes to **backfill enrichment**: fetching and extracting the
+documents behind the docket-history backfill, tiered (1 commission-issued, 2 watched party — matched on the
+cover page, 3 briefs/testimony/applications/tariffs, 4 other) into `data/backfill/enriched.jsonl`.
 
 ---
 
@@ -178,6 +194,9 @@ Any time   Manual pass (desktop app, Rett present) ──► OneDrive /GridDocke
 ```
 
 **Design rules:**
+- **Two cursors.** `state.last_successful_sweep` bounds mail, manual drops and WebFetch; `state.collector_cursor`
+  (default 2026-09-18) bounds collector candidates, so a degraded run that read no collector data never skips
+  them. (Found 3 Oct: the degraded run had advanced the window past the first 506 candidates.)
 - **Scheduled runs never push to the repo.** Scheduled sessions have no `add_repo` tool; they `git clone --depth 1`
   the public repo, read collector data, prompts, watch list, corrections queue and validator, and build from a
   local `store_live/` copy downloaded from OneDrive.
@@ -207,7 +226,7 @@ SUSPECT_ZERO after checking explicit negatives) → collector candidates (metada
 NCUC, DCC Bi-Weekly; **newsletter canary**: every newsletter event either gets a row or is recorded
 `CANARY_MISS`) → manual drops → WebFetch routes (6.1 PA; 6.2 AZ PDFs; 6.3 manual-route fallbacks; 6.4 ERCOT
 notices, large-load and planning pages; 6.5 PJM; 6.6 runner-refused pages that open to WebFetch) →
-grain/identity/supersession/dedupe → classify → corrections queue (up to 6 items/run) and backfill (10 docs/run)
+grain/identity/supersession/dedupe → classify → corrections queue (up to 6 items/run) and enriched backfill (15 items/run, tiers 1–2 first)
 → commit → repair proposals → run record and three-paragraph report. Target 30 minutes. Degraded mode (mail +
 manual + web only) if the clone fails.
 
@@ -304,7 +323,8 @@ Term | Speed | Curtailment | Deliverability | Supply/Demand | Market Participati
 - **Gap:** the Mondays of 21 and 28 September passed silently (tasks were disabled). The 3 Oct run covered the
   window from mail and the web; the first full run (5 Oct) adds collector material and upgrades the Reported
   Texas rows to Verified where the primary documents confirm them (C-01).
-- **Repo mirror `store/`** lacks `rows_p5` and is no longer maintained by scheduled runs. OneDrive wins.
+- **Flags recounted 3 Oct:** superseded 3 rows (2 events), on appeal 4 rows; `state.json` and `rows.json` still carry
+  older values until the Sweep applies C-05. The repo's `store/` is a frozen baseline copy, not a mirror.
 
 ---
 
@@ -327,11 +347,15 @@ Meta, Oracle, OpenAI, CoreWeave, Data Center Coalition, developers, IPPs, indust
 newsletter canary; corrections queue.
 
 **Catch-up mechanisms (will the next run see everything since the backfill? — yes, by these routes):**
-1. **Window:** the Sweep reads from `last_successful_sweep`, so 5 Oct covers everything after the 3 Oct run, and
-   collector candidates from 18 Sept onward are still unprocessed and in scope.
-2. **Docket-history backfill** (`data/backfill/<date>.jsonl`): full docket activity since 2025-11-07 for the
-   collector states. The first attempt lost its data to a silent push failure; re-dispatched 3 Oct (run
-   37152584736, in progress at writing). Processed 10 documents per Sweep, newest and party filings first.
+1. **Window and cursor:** mail, manual drops and web routes are read from `last_successful_sweep` (3 Oct); collector
+   candidates are read from `collector_cursor` (default 18 Sept), so the 506 candidates of 2 and 3 Oct that the
+   degraded run never saw are in scope for 5 Oct. (Before this fix they would have been skipped.)
+2. **Docket-history backfill:** completed 3 Oct — **5,210 filings** since 2025-11-07 (TX 2,583, FERC 1,019, MO 773,
+   AZ 571, LA 135, NM 93, GA 27, KS 9), but its document budget ran out after FERC and Louisiana, so most items were
+   metadata only — and party briefs are often filed under an attorney's name (the Microsoft brief reads "Albert H.
+   Acken, Atty."). Fix: the collector now enriches ~1,800 substantive items with document text over the next
+   ~2 weeks of nightly runs, matching watched parties on the cover page, into `data/backfill/enriched.jsonl`; the
+   Sweep processes 15 per run, tiers 1–2 first (C-07).
 3. **Baseline-links file** (`data/backfill/baseline_links_2026-10-03.jsonl`, 304 links): links that were already
    on watched pages when the collector first saw them (and were silently baselined). The Sweep triages by title
    and treats on-beat ones as candidates.
@@ -360,8 +384,8 @@ Legistar 600).
 | FERC | C | eLibrary JSON API (`POST elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch`; `File/DownloadP8File`; `Docket/GetSingleDocketSheet`). Working. |
 | Federal Register | C | API with agency + term filters. Working. |
 | SEC EDGAR | C | Declared UA opens it. 8-K (2.02, 7.01, 8.01, 1.01, 2.01), 10-Q, 10-K, 40-F, 6-K. CIKs: Fortis 0001666175, TXNM 0001108426, Oncor 0001193311, Nevada Power 0000071180. Working. |
-| TX PUCT | C | Interchange filing lists; `interchange.puc.texas.gov/Documents/{ctrl}_{item}_{id}.PDF/ZIP`; watches 58317, 58481, 59142, 58000, 58482. Working. (WebFetch gets 402 on ~1 in 3 files; the collector doesn't.) |
-| AZ ACC | C (+W) | `POST efiling.azcc.gov/api/edocket/searchByDocketDetailRequest` (exactly the documented fields) and `GET /api/edocket/docket/{id}`; PDFs at `images.edocket.azcc.gov/docketpdf/{img}.pdf` (AIA chain). Never `docket.images.azcc.gov` (robots). Working. |
+| TX PUCT | C | Interchange filing lists; documents `interchange.puc.texas.gov/Documents/{ctrl}_{item}_{id}.PDF/ZIP`; watches 58317, 58481, 59142, 58000, 58482. **Document links were silently missed until 3 Oct** (the site switched to absolute links); fixed, and the nightly enrichment back-fills text for the candidates and backfill items that lacked it. (WebFetch gets 402 on ~1 in 3 files; the collector doesn't.) |
+| AZ ACC | C (listings) + P (documents) | `POST efiling.azcc.gov/api/edocket/searchByDocketDetailRequest` (exactly the documented fields) and `GET /api/edocket/docket/{id}` list every filing. **Documents: not reachable from the cloud since at least 3 Oct** — `images.edocket.azcc.gov` presents a certificate for another hostname (collector and WebFetch both refuse; never work around a certificate error), and `docket.images.azcc.gov` is robots-disallowed. The Sweep queues the AZ documents it needs for the manual pass (item-detail URL `edocket.azcc.gov/search/document-search/item-detail/<id>`). |
 | GA PSC | C | `psc.ga.gov/search/service-facts-docket/?docketId=…`; documents via `services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/…`. Working. |
 | LA LPSC | C | Valence portal (`DocketSearch` → MatterId; `Docket_Documents`; `RecentOrders`; `ViewFile`). Ligature-corrupted text: summarize, never quote. Working (U-37921 not found by number). |
 | MO PSC | C | EFIS with anti-forgery token; `Case/Display/{id}`, `Case/FilingDisplay/{id}`. Working (one case id, ET-2025-0184, unresolved). |
@@ -444,7 +468,7 @@ route**.
 | **WV PSC** | HTTP 403 to automated clients | Manual pass (`ViewText.cfm`); ApCo/AEP EDGAR; WV governor page (C) | As OH |
 | **NV PUCN** | robots disallows all; no text layer | Manual pass (metadata ceiling); NV Energy/BHE disclosures on EDGAR (Nevada Power 10-Q/10-K) | S&P RRA |
 | PA PUC | Runners blocked (TLS + 5xx robots) | **WebFetch works** — Sweep route 6.1 | — |
-| AZ `docket.images.azcc.gov` | robots | Use `images.edocket.azcc.gov` (works) | — |
+| AZ document hosts | `docket.images.azcc.gov` robots; `images.edocket.azcc.gov` certificate hostname mismatch | Listings by the collector; documents via the manual pass (queued by the Sweep) | Recheck weekly — if the ACC fixes its certificate, the collector reads them again automatically |
 | IR pages: Southern | Incapsula | EDGAR 8-K exhibits; WebSearch for the deck PDF on its CDN | — |
 | IR pages: Evergy, Exelon, OGE, Oncor | robots | EDGAR 8-K/10-Q; WebSearch for the q4cdn/GUID PDF (the refusing page itself is never fetched) | — |
 | IR pages: BHE | CAPTCHA | Nevada Power / PacifiCorp filings on EDGAR (twice-yearly BHE decks) | — |
@@ -486,22 +510,26 @@ reads the PDF).
 
 ## 12. The manual pass — how to run it
 
-**When:** whenever Rett wants — before a Monday for fuller coverage of VA, NC, SC, IL, OH, WV, NV, or when a
-run record lists documents the cloud couldn't open. Every run is independent and safe to repeat or abandon.
+**Friday reminder (set up 3 Oct).** Every Friday at 2:51 pm PT a scheduled task fires **on Rett's computer**
+(the Claude desktop app must be open and the computer awake) and sends a push notification. It asks "Run now" or
+"Skip this week" — one click. It does nothing without "Run now", because the pass relies on Rett being present
+(CAPTCHAs are his to solve, and the browsing is his). If the computer is off, that week's pass is simply missed;
+the Brief names any blocked state that has gone more than 14 days without a manual drop.
 
-**How:**
-1. Open the **Claude desktop app** on the work computer (the pass uses the app's built-in browser, or Claude in
-   Chrome if that's unavailable).
-2. Start a new task and type **`/grid-docket-manual-pass`** (or "run the Grid Docket manual pass").
-3. Stay nearby. If a portal shows a CAPTCHA or bot check, Claude stops and asks Rett to complete it in the browser
-   pane; otherwise that state is skipped as `blocked_captcha`.
-4. Claude reads `manual_queue.json`, visits only the watched dockets and requested documents, extracts text
-   (agency text layer first, then PDF text, OCR only as a last resort and flagged), saves one file per state to
-   `/GridDocket/manual/`, and writes `manual_<run_id>.json` with `"complete": true` last.
-5. Nothing else to do: the next Sweep ingests completed runs automatically and records them in
-   `state.manual_ingested`. The pass never writes the row store.
+**Any other time:** open the desktop app, start a task and type **`/grid-docket-manual-pass`**.
 
-Skill copy in the repo at `manual/SKILL.md`; the saved skill on Rett's account is authoritative.
+**It catches up by itself.** The pass reads `manual_queue.json` (written by each Sweep: watched dockets, the
+newest document already held, requests, new-case terms, extra pages) and the records of every earlier complete
+manual run in `/GridDocket/manual/`. For each docket it reads everything filed since the later of those two dates,
+so skipping weeks loses nothing. Since 3 Oct it also **searches each portal for new cases** opened since the last
+run (large-load tariffs, data-center contracts, generation certificates, cost-allocation cases, watched parties)
+— the one thing the cloud fallbacks can never see — and reads extra pages the cloud can't (Arizona governor; IR
+events pages in earnings season).
+
+**What happens:** one file per state saved as it goes, then a manifest with `"complete": true`; the next Sweep
+ingests it automatically (`state.manual_ingested`) and adds any new cases to the watch list. The pass never
+writes the row store. Skill copy at `manual/SKILL.md`; the saved skill on Rett's account is authoritative
+(updated 3 Oct).
 
 ---
 
@@ -667,8 +695,20 @@ minimum take, 10–15 year terms, exit fees, collateral, cost-shift bars; West V
 - 3 Oct: WebFetch confirmed for ERCOT large-load, planning and board pages, PJM newsroom, Kansas governor and Duke
   IRP; added to Sweep steps 6.4 and 6.6. Arizona governor refuses both routes.
 
+**3 October, afternoon — full review:**
+- Found and fixed: the degraded run had advanced the Sweep window past all 506 collector candidates (now a separate
+  `collector_cursor`); Texas document links had been silently missed since the first run (site moved to absolute
+  links — fixed, text being back-filled); Arizona PDFs are unreachable from the cloud (certificate hostname
+  mismatch — routed to the manual pass); the backfill had text for only 357 of 5,210 filings (now nightly enrichment); the manual
+  pass never looked for new cases and restarted from fixed dates (now catches up from its last run and searches
+  for new cases); stale state entries and gaps queued for the Sweep (C-05); EIA and congress.gov running on the
+  public DEMO_KEY.
+- Removed: v1 reachability probe and its workflow, discovery outputs, the superseded architecture note, four
+  obsolete project docs and the duplicate context copy, four v1 artifacts.
+- Added: the Friday manual-pass reminder task.
+
 **Not yet verified end to end:** a scheduled Sweep reading collector data through the public clone — first test
-**Monday 5 Oct, 04:55 PT**. The docket-history backfill rerun was still running at writing.
+**Monday 5 Oct, 04:55 PT**.
 
 ---
 
@@ -696,23 +736,40 @@ Strategies studies; (9) FERC Form 1 / EQR (defer).
 
 ---
 
-## 18. Outstanding actions and open decisions
+## 18. Outstanding actions, gaps and open decisions
 
-**Rett:**
-1. Add the remaining API keys as repo secrets (§9). Consider ERCOT and PJM accounts; once their secrets exist, a
-   session with push access builds those adapters.
-2. Disable any desktop-local copies of the old tracker tasks.
-3. Optional: run the manual pass before Monday 5 Oct.
+**Nothing else is required from Rett for the system to run.** Optional or recurring:
+1. **Fridays:** keep the desktop app open around 2:51 pm PT and click "Run now" (or run `/grid-docket-manual-pass`
+   whenever convenient).
+2. **Keys (optional):** `OPENSTATES_API_KEY` (state bills — the only wired source still off),
+   `COURTLISTENER_TOKEN` (full court-search rate). Consider ERCOT Public API and PJM API accounts; a session
+   with push access builds those adapters once the secrets exist.
+3. **Check once:** disable any desktop-local copies of the old tracker tasks (`utility-tracker-sweep`,
+   `weekly-utility-brief`) if they still exist — a local Brief would send a second email.
+4. **Optional decisions:** recipients after burn-in (only Rett now; possibly BODIpower@blueowl.com); whether a
+   personal public GitHub repo is acceptable under Blue Owl policy long term (fallback: an Azure job, needs IT);
+   Blue Owl branding for the narrative; Sonnet instead of Opus for the Brief to save cost; whether to license
+   S&P RRA (the only fully cloud route to the seven blocked commissions).
 
-**Open decisions:** recipients after burn-in
-(only Rett now; possibly BODIpower@blueowl.com); whether a personal public GitHub repo is acceptable under Blue
-Owl policy long term (fallback: Azure Container Apps job, needs IT); Blue Owl branding for the narrative; send mode
-stays auto-send unless changed.
+**Remaining gaps and how they are filled:**
+
+| Gap | Filled by |
+|---|---|
+| Seven blocked commissions (VA, SC, IL, OH, NC, WV, NV) | Manual pass weekly (dockets + new cases), cloud fallbacks between passes; S&P RRA if licensed |
+| Nevada document content (no text layer) | Metadata only; OCR (Reported at best); RRA |
+| Docket history before 3 Oct for collector states | Nightly enrichment (~2 weeks) + Sweep C-07 |
+| Arizona documents (ACC PDF host certificate mismatch) | Manual pass requests queued by the Sweep; automatic again if the certificate is fixed |
+| Arizona governor, IR pages for Southern/Evergy/Exelon/OGE/Oncor/BHE | EDGAR exhibits and deck search; manual pass extra pages |
+| New Mexico documents endpoint (empty) | Manual pass; repair when the endpoint is diagnosed |
+| ERCOT data products, PJM data | ERCOT Public API / PJM API (accounts needed) |
+| State bills | Open States key |
+| Counties outside Legistar, appellate courts beyond Virginia, three empty watch pages (NYISO capacity, NRC news, PA Commonwealth Court) | Build work, no access barrier |
+| Never published (Kansas ESAs, GRDA terms, Entergy absolute GW, confidential filings) | Company disclosure only, or recorded as known unknowns |
 
 **Next session should first:** read the 5 Oct Sweep run record (`/GridDocket/runs/`) and Brief record
-(`/GridDocket/briefs/`); confirm the Sweep read collector data (not degraded); apply any repair proposals; confirm
-the backfill run finished and its file landed in `data/backfill/`; check the collector health issue on GitHub;
-confirm both scheduled tasks are still enabled.
+(`/GridDocket/briefs/`); confirm the Sweep ran FULL (not degraded) and read the 2–3 Oct candidates; apply any
+repair proposals; check `data/health/latest.json` → `backfill_text` progress; confirm all three scheduled tasks
+are enabled.
 
 ---
 
@@ -749,6 +806,15 @@ confirm both scheduled tasks are still enabled.
 - **From Claude sessions:** GitHub GraphQL unavailable (use `gh api` REST); Actions log downloads blocked (jobs
   commit diagnostics to `data/debug/`); the workspace shell can't reach most target hosts (test in Actions).
 - **Check the console loads after every publish** (a syntax error once stopped it rendering).
+- **Never let one cursor serve two inputs.** A degraded run that read only mail advanced the shared window and
+  would have skipped every collector candidate; each input now has its own cursor.
+- **A shared document budget starves whoever runs last.** The backfill spent its whole budget on FERC and
+  Louisiana; spare-time enrichment with a tiered queue replaced it.
+- **Party filings hide behind attorneys' names.** Match watched parties on the document's cover page, not only the
+  filer field.
+- **"Working" means text extracted, not items listed.** Texas and Arizona listed filings for days with no document
+  text behind them; health now has to be read per document, and enrichment retries failures.
+- **The manual pass depends on Rett being present.** The Friday task asks first and never browses unattended.
 
 ---
 
@@ -758,4 +824,5 @@ confirm both scheduled tasks are still enabled.
 |---|---|
 | 2026-09-17/18 | v1/v2 built; baseline 161 events / 229 rows loaded; tasks later found disabled |
 | 2026-10-02 | v3 built (collector, overlays, Excel parity, console v6, prompts, manual skill); first collector run; backfill dispatched |
+| 2026-10-03 (pm) | Full review: collector cursor fix, nightly backfill enrichment, manual pass catch-up and new-case discovery, Friday reminder task, DEMO_KEY for EIA/congress.gov, cleanup of obsolete files, docs and artifacts |
 | 2026-10-03 | Colorado and Oregon ruled out of scope for now. Off-schedule verification runs (degraded Sweep → `rows_p5`; Brief → console v7 + email); repo made public; prompts clone read-only; compact task bootstraps; second-wave sources; ERCOT archive; WebFetch fallback pages; backfill re-dispatched; this document rewritten |

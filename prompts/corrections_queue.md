@@ -33,9 +33,10 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
 ## C-02 — Arizona: Microsoft's closing brief in the APS rate case (missed)
 - ACC image **E000054018**, docket **E-01345A-25-0105**, docketed **2026-08-27**, Microsoft's Closing Brief
   (50 pp.; exhibits MSFT-6, -7, -9, -16). It is backfill item AZ:468560 (filed under "Albert H. Acken, Atty.");
-  its text lands in data/filings/AZ/az_acc/AZ_468560.json once the nightly enrichment reaches it. If the PDF did not extract, WebFetch
-  https://images.edocket.azcc.gov/docketpdf/E000054018.pdf; if that is refused, add it to manual_queue
-  requests and leave this item open.
+  its text lands in data/filings/AZ/az_acc/AZ_468560.json once the nightly enrichment reaches it. Arizona PDFs cannot be opened from the cloud at present (certificate
+  hostname mismatch on images.edocket.azcc.gov), so if the file has no text, add it to manual_queue requests
+  (https://edocket.azcc.gov/search/document-search/item-detail/468560) and leave this item open until a manual
+  drop carries the text.
 - What to capture (verify each point in the brief): AG-XHLF rider expanding AG-X (capped at 200 MW) to all
   uncommitted large load, with third-party generation service providers and WRAP resource adequacy;
   tri-party PPAs under XHLF revisions; opposition to the formula rate (FRAM) or a 3–4%/inflation cap; opposition

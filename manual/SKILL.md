@@ -1,6 +1,6 @@
 ---
 name: grid-docket-manual-pass
-description: Run the Grid Docket manual pass on this computer — read new filings and new cases from the commissions that refuse automated access (VA, NC, SC, IL, OH, WV, NV) and any documents the cloud could not open, then drop them in OneDrive for the Monday Sweep. Use when Rett asks to run the manual pass, the docket pass, or /grid-docket-manual-pass, or when the Friday reminder fires.
+description: Run the Grid Docket manual pass on this computer: read new filings and new cases from the commissions that block automation (VA, NC, SC, IL, OH, WV, NV) plus Arizona documents the cloud cannot open, catching up from the last run, and drop them in OneDrive for the Monday Sweep.
 ---
 
 # Grid Docket — manual pass
@@ -50,8 +50,9 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
      For new-case discovery, the since-date per state is the latest `finished` date of an earlier complete run
      that covered that state. With no earlier run and no queue date, use 2026-09-15. This is what makes the
      pass pick up everything since the last run, however many weeks were skipped.
-   - Skip queue requests the cloud can already read (PUCT documents, Pennsylvania, Oklahoma); for Arizona
-     PDFs use `https://images.edocket.azcc.gov/docketpdf/<image>.pdf`, never `docket.images.azcc.gov`.
+   - Skip queue requests the cloud can already read (PUCT documents, Pennsylvania, Oklahoma). Arizona documents
+     are queued because the cloud cannot open the ACC's PDF host: open the request's item-detail page on
+     `edocket.azcc.gov` and use the document link that page itself presents.
    - Read `state.json` → `ACCESS_METHOD_FINDINGS` for each portal's working method.
 2. **Open the browser.** Use the built-in browser pane (read its skill first). If it is unavailable, use
    Claude in Chrome. Tell Rett which states you will cover, the since-dates, and roughly how long it will take.
