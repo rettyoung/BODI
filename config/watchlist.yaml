@@ -128,7 +128,6 @@ watch_pages:
   - {id: ferc_news,    jur: FERC, url: "https://www.ferc.gov/news-events/news", link: "/news-events/news/", verify: true}
   - {id: nerc_news,    jur: US-Federal, url: "https://www.nerc.com/news/Pages/default.aspx", link: "news|\\.pdf", verify: true}
   - {id: caiso_news,   jur: FERC, rto: CAISO, url: "https://www.caiso.com/about/news/news-releases/", link: "news|\\.pdf", render: true}
-  - {id: ercot_notices, jur: TX, rto: ERCOT, url: "https://www.ercot.com/services/comm/mkt_notices", link: "mkt_notices|\\.pdf|\\.docx", verify: true, render: true}
   - {id: ercot_news,   jur: TX,   rto: ERCOT, url: "https://www.ercot.com/news/releases", link: "/news/", verify: true}
   - {id: spp_news,     jur: FERC, rto: SPP, url: "https://www.spp.org/newsroom/", link: "newsroom|\\.pdf", verify: true}
   - {id: nyiso_press,  jur: FERC, rto: NYISO, url: "https://www.nyiso.com/press-releases", link: "press|\\.pdf", verify: true, render: true}
@@ -147,9 +146,8 @@ watch_pages:
   - {id: gov_nc, jur: NC, url: "https://governor.nc.gov/news/press-releases", link: "press-releases/", verify: true}
   - {id: puct_news, jur: TX, url: "https://www.puc.texas.gov/agency/resources/pubs/news/", link: "\\.pdf|news", verify: true}
 
-  # ---- Recommendation 4: ERCOT large-load interconnection reporting (monthly overview and board updates)
-  - {id: ercot_load, jur: TX, rto: ERCOT, url: "https://www.ercot.com/gridinfo/load", link: "\\.pdf|\\.xlsx", title_filter: "large load|operational overview|interconnection", verify: true, render: true}
-  - {id: ercot_board, jur: TX, rto: ERCOT, url: "https://www.ercot.com/committees/board", link: "\\.pdf|meeting", title_filter: "large load|interconnection|grid analysis|batch", verify: true, render: true}
+  # ---- Recommendation 4: ERCOT's notices and planning pages sit behind Incapsula for automated clients (checked
+  # 2026-10-02); ERCOT large-load updates arrive via ERCOT news releases, PUCT news, the ERCOT mail folder and RTO Insider.
   # ---- Recommendation 5: capacity auction results and planning parameters
   - {id: pjm_rpm, jur: FERC, rto: PJM, url: "https://www.pjm.com/markets-and-operations/rpm", link: "\\.pdf|\\.ashx|\\.xlsx", title_filter: "auction|results|planning parameters|BRA", verify: true}
   - {id: miso_pra, jur: FERC, rto: MISO, url: "https://www.misoenergy.org/planning/resource-adequacy/", link: "\\.pdf|auction|PRA", title_filter: "auction|PRA|results", verify: true}
