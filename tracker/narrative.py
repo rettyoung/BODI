@@ -64,14 +64,26 @@ def to_pdf(md_path, pdf_path, asof):
             pg.pdf(path=pdf_path, format="Letter", print_background=True, prefer_css_page_size=True)
             b.close()
         return "chromium"
-    except Exception as e:  # fall back to LibreOffice
+    except Exception as e:
+        err = repr(e)[:120]
+    # fallback 1: wkhtmltopdf on the same styled HTML
+    if shutil.which("wkhtmltopdf"):
+        tmp = tempfile.mkdtemp()
+        h = os.path.join(tmp, "n.html")
+        open(h, "w", encoding="utf-8").write(doc)
+        r = subprocess.run(["wkhtmltopdf", "--quiet", "--page-size", "Letter", "--enable-local-file-access", h, pdf_path],
+                           capture_output=True, timeout=180)
+        if r.returncode == 0 and os.path.exists(pdf_path):
+            return f"wkhtmltopdf (chromium failed: {err})"
+    # fallback 2: LibreOffice from the docx
+    if True:
         tmp = tempfile.mkdtemp()
         d = os.path.join(tmp, "narrative.docx")
         to_docx(md_path, d)
         subprocess.run(["soffice", "--headless", "--convert-to", "pdf", "--outdir", tmp, d], check=True,
                        capture_output=True, timeout=180)
         shutil.move(os.path.join(tmp, "narrative.pdf"), pdf_path)
-        return f"libreoffice (chromium failed: {e!r:.120})"
+        return f"libreoffice (chromium failed: {err})"
 
 
 def to_docx(md_path, out_path):
