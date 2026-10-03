@@ -1,0 +1,58 @@
+# Wave-3 source candidates (3 Oct 2026). R| = render with headless Chromium.
+# --- courts
+https://search.txcourts.gov/DocketSrch.aspx?coa=coa03
+https://search.txcourts.gov/Docket.aspx?coa=coa15&FullDate=10/02/2026
+https://www.txcourts.gov/3rdcoa/
+https://www.txcourts.gov/15thcoa/
+https://www.txcourts.gov/supreme/orders-opinions/2026/
+https://www.pacourts.us/Rss/Opinions/Commonwealth/
+https://www.supremecourt.ohio.gov/ROD/docs/?source=0
+https://www.courtswv.gov/appellate-courts/supreme-court-of-appeals/opinions
+https://www.courtlistener.com/api/rest/v4/search/?type=o&court=texapp%20tex&q=%22Public%20Utility%20Commission%22
+# --- counties
+https://www.loudoun.gov/index.aspx?NID=3426
+https://lfportal.loudoun.gov/LFPortalinternet/0/fol/98907/Row1.aspx
+https://loudoun.granicus.com/ViewPublisher.php?view_id=77
+https://www.loudoun.gov/RSSFeed.aspx?ModID=65
+https://www.fairfaxcounty.gov/boardofsupervisors/2026-board-meetings
+https://www.fairfaxcounty.gov/planningcommission/
+https://henrico.gov/manager/supervisors-agenda-o-gram
+https://www.fultoncountyga.gov/Commissioners/Agenda-Minutes
+https://atlantacityga.iqm2.com/Services/RSS.aspx?Feed=Calendar
+https://www.tulsacouncil.org/
+https://www.cityoftulsa.org/apps/TulsaCouncilArchive
+https://www.tulsaplanning.org/
+https://reno.primegov.com/public/portal
+https://washoelife.washoecounty.gov/washoe-county/board-of-county-commissioners/commission-agenda/feed/
+https://www.storeycounty.org/RSSFeed.aspx?ModID=65
+# --- NRC
+https://www.nrc.gov/public-involve/rss?feed=news
+https://adams.nrc.gov/wba/
+https://adams-api.nrc.gov/aps/api/search
+# --- FERC Form 1 / EQR
+https://ecollection.ferc.gov/api/rssfeed
+https://s3.us-west-2.amazonaws.com/pudl.catalyst.coop?list-type=2&prefix=nightly/&delimiter=/
+https://s3.us-west-2.amazonaws.com/pudl.catalyst.coop?list-type=2&prefix=ferceqr/&delimiter=/
+# --- hyperscalers
+https://blogs.microsoft.com/on-the-issues/feed/
+https://news.microsoft.com/source/feed/
+https://blog.google/rss/
+https://blog.google/outreach-initiatives/sustainability/rss/
+https://www.aboutamazon.com/news/rss
+https://about.fb.com/news/feed/
+https://datacenters.atmeta.com/feed/
+https://www.oracle.com/news/
+R|https://www.oracle.com/news/
+# --- studies
+https://emp.lbl.gov/queues
+https://emp.lbl.gov/publications
+https://eta.lbl.gov/publications/2024-united-states-data-center-energy
+https://gridstrategiesllc.com/feed/
+# --- NYISO capacity
+R|https://www.nyiso.com/installed-capacity-market
+https://icap.nyiso.com/ui/public/auctions
+# --- ERCOT large-load
+https://www.ercot.com/misapp/servlets/IceDocListJsonWS?reportTypeId=13101
+https://www.ercot.com/committees/tac/llwg
+https://www.ercot.com/services/rq/large-load-integration
+https://api.ercot.com/api/public-reports

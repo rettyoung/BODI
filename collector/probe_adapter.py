@@ -74,9 +74,61 @@ def nmdoc(http, case_id):
     return out
 
 
+def urlprobe(cfg, listfile):
+    """Probe candidate source URLs from the runner: robots verdict, status, block markers, links.
+    listfile lines: [R|]<url>   (R| = render with headless Chromium). Blank lines and # comments ignored."""
+    import re
+    from urllib.parse import urljoin
+    http = Http(delay=2)
+    http.session.headers["User-Agent"] = cfg["user_agent"]
+    ctx = Ctx(cfg, {"seen": {}, "sources": {}}, http)
+    out = []
+    for line in open(os.path.join(ROOT, listfile)):
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        render = line.startswith("R|")
+        url = line[2:] if render else line
+        o = {"url": url, "render": render}
+        try:
+            hs = http._robots(url)
+            o["robots_status"], o["robots_note"] = hs.robots_status, hs.robots_note
+            o["allowed"] = hs.robots.can_fetch(http.session.headers["User-Agent"], url)
+            try:
+                o["crawl_delay"] = hs.robots.crawl_delay(http.session.headers["User-Agent"])
+            except Exception:
+                pass
+            if not o["allowed"]:
+                out.append(o)
+                continue
+            if render:
+                body = ctx.render(url)
+                o.update(status="rendered", ctype="text/html")
+            else:
+                r = http.get(url, retries=0, timeout=60)
+                body = r.text if not r.content[:4] == b"%PDF" else "<pdf>"
+                o.update(status=r.status_code, ctype=r.headers.get("content-type"), final_url=r.url)
+            o["len"] = len(body)
+            o["head"] = body[:1500]
+            links = re.findall(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>', body, re.S | re.I)
+            o["n_links"] = len(links)
+            o["links"] = [[urljoin(url, h.replace("&amp;", "&")), re.sub(r"<[^>]+>|\s+", " ", t).strip()[:120]] for h, t in links][:250]
+            if "<rss" in body[:500] or "<feed" in body[:500]:
+                o["feed_items"] = re.findall(r"<title>(.*?)</title>", body, re.S)[:15]
+        except Exception as e:
+            o["error"] = repr(e)[:500]
+        out.append(o)
+        print(url, o.get("allowed"), o.get("status"), o.get("len"), o.get("n_links"), o.get("error", ""), flush=True)
+    ctx.close()
+    save_json(os.path.join(DATA, "debug", "urlprobe_" + os.path.basename(listfile).rsplit(".", 1)[0] + ".json"), out)
+
+
 def main(names):
     cfg = yaml.safe_load(open(os.path.join(ROOT, "config", "watchlist.yaml")))
     for name in names:
+        if name.startswith("urls:"):
+            urlprobe(cfg, name[5:])
+            continue
         if name.startswith("nmdoc:"):
             http = Http(delay=2)
             http.session.headers["User-Agent"] = cfg["user_agent"]
