@@ -255,7 +255,10 @@ def main(only=None):
                     docs_budget -= len(docs)
                     health["docs_fetched"] += len(docs)
                 hits = keyword_hit(it, docs, kws)
-                phits = keyword_hit(it, docs[:1], parties) if parties else []
+                # whole-word party match on title, filer and the first document's cover page
+                from backfill_text import _hits as _party_hits
+                phits = _party_hits(f"{it.get('title') or ''} {it.get('entity') or ''} "
+                                    f"{(docs[0].get('text') or '')[:3000] if docs else ''}", parties) if parties else []
                 if (it.get("meta") or {}).get("keyword_filter") and not hits:
                     continue  # news/mirror link with nothing on-beat
                 kept += 1

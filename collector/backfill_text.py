@@ -29,8 +29,9 @@ OUT = os.path.join(DATA, "backfill", "enriched.jsonl")
 
 
 def _hits(text, terms):
-    t = (text or "").lower()
-    return sorted({p for p in terms if p.lower() in t})
+    """Whole-word, case-insensitive matches (so "AWS" does not match "Dawson's")."""
+    t = text or ""
+    return sorted({p for p in terms if re.search(r"(?<![A-Za-z0-9])" + re.escape(p) + r"(?![A-Za-z0-9])", t, re.I)})
 
 
 RESPONSIVE = re.compile(r"comments? (on|to|of)|repl(y|ies) to|exceptions to|response to|responses to|motion|"

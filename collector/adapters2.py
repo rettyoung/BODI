@@ -64,6 +64,16 @@ def _hit(text, kws):
 
 # =========================================================================== EIA (key)
 def eia(ctx):
+    try:
+        return _eia(ctx)
+    except Exception as e:
+        if "429" in str(e) and not os.environ.get("EIA_API_KEY"):
+            ctx.record("eia", "rate_limited", "public DEMO_KEY rate limit (shared runner IP); a repo secret EIA_API_KEY avoids it")
+            return []
+        raise
+
+
+def _eia(ctx):
     """EIA-860M planned capacity by state and technology; reports the change since the last snapshot."""
     # Falls back to api.data.gov's public DEMO_KEY (published for anonymous use; low rate limit).
     key = os.environ.get("EIA_API_KEY") or "DEMO_KEY"
