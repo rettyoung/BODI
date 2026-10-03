@@ -99,7 +99,7 @@ main intervenors is tagged by the collector and treated as material by the Sweep
 
 | Source | Secret | Use |
 |---|---|---|
-| EIA Open Data v2 (Form 860M planned additions/retirements) | `EIA_API_KEY` (optional — runs on DEMO_KEY) | Cross-check utility commission claims; only public window into GRDA, NOVEC, AEPCO. |
+| EIA Open Data v2 (Form 860M planned additions/retirements) | `EIA_API_KEY` (recommended — the public DEMO_KEY is often rate-limited on shared runners) | Cross-check utility commission claims; only public window into GRDA, NOVEC, AEPCO. |
 | congress.gov API | `CONGRESS_API_KEY` (optional — runs on DEMO_KEY) | Federal bills on data centers, permitting, grid reliability. |
 | Open States API | `OPENSTATES_API_KEY` | State bills in all 18 jurisdictions (NV and TX legislate in odd years only). |
 

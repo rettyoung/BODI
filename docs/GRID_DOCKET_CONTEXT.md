@@ -428,11 +428,11 @@ Claude cannot enter keys itself, so Rett creates each account and adds the key a
 → Settings → Secrets and variables → Actions → New repository secret**. Secrets stay private on a public repo
 and are masked in logs.
 
-**Wired now.** EIA and congress.gov already run nightly on api.data.gov's public `DEMO_KEY` (verified 3 Oct; low rate limit, enough for one nightly query) — their own keys are optional. Open States needs its key; CourtListener runs keyless but rate-limited:
+**Wired now.** congress.gov runs nightly on api.data.gov's public `DEMO_KEY` (verified 3 Oct); EIA accepts it too but is often rate-limited on GitHub's shared runners, so an `EIA_API_KEY` is recommended. Open States needs its key; CourtListener runs keyless but rate-limited:
 
 | Secret name | Where to get it | Cost | What it adds |
 |---|---|---|---|
-| `EIA_API_KEY` (optional) | eia.gov/opendata/register.php | Free | EIA-860M operating-generator capacity by state (large additions and retirements in tracked states) |
+| `EIA_API_KEY` (recommended) | eia.gov/opendata/register.php | Free | EIA-860M operating-generator capacity by state (large additions and retirements in tracked states) |
 | `CONGRESS_API_KEY` (optional) | api.congress.gov/sign-up | Free | Federal bills and actions on data centers, permitting, transmission |
 | `OPENSTATES_API_KEY` | open.pluralpolicy.com (account → API key) | Free | State bills matching data-center / large-load queries in the tracked states (replaces LegiScan, which blocks by IP) |
 | `COURTLISTENER_TOKEN` | courtlistener.com (free account → API token) | Free | Removes keyless rate limiting (HTTP 429) on appellate and federal court searches |
@@ -706,6 +706,11 @@ minimum take, 10–15 year terms, exit fees, collateral, cost-shift bars; West V
 - Removed: v1 reachability probe and its workflow, discovery outputs, the superseded architecture note, four
   obsolete project docs and the duplicate context copy, four v1 artifacts.
 - Added: the Friday manual-pass reminder task.
+- Verified in two extra collector runs the same afternoon: Texas documents extracting again (80 PUCT filings with
+  text after the first fixed run); 217 current candidates back-filled with text ahead of Monday; 125 backfill
+  items enriched (tiers 1–2: commission-issued and watched-party filings) with ~1,880 queued; party matching made
+  whole-word after "AWS" matched "Dawson's"; EIA's public DEMO_KEY is rate-limited on shared runners (congress.gov
+  works) — an `EIA_API_KEY` secret would avoid it.
 
 **Not yet verified end to end:** a scheduled Sweep reading collector data through the public clone — first test
 **Monday 5 Oct, 04:55 PT**.
@@ -742,7 +747,8 @@ Strategies studies; (9) FERC Form 1 / EQR (defer).
 1. **Fridays:** keep the desktop app open around 2:51 pm PT and click "Run now" (or run `/grid-docket-manual-pass`
    whenever convenient).
 2. **Keys (optional):** `OPENSTATES_API_KEY` (state bills — the only wired source still off),
-   `COURTLISTENER_TOKEN` (full court-search rate). Consider ERCOT Public API and PJM API accounts; a session
+   `EIA_API_KEY` (the public demo key is often rate-limited on GitHub's shared runners), `COURTLISTENER_TOKEN`
+   (full court-search rate). Consider ERCOT Public API and PJM API accounts; a session
    with push access builds those adapters once the secrets exist.
 3. **Check once:** disable any desktop-local copies of the old tracker tasks (`utility-tracker-sweep`,
    `weekly-utility-brief`) if they still exist — a local Brief would send a second email.
