@@ -42,9 +42,48 @@ def tls(host):
     return out
 
 
+def nmdoc(http, case_id):
+    """Try envelope variants for the NM e360 public-documents list; report item counts."""
+    api = "https://e360.prc.nm.gov/core/api/apiflow/v1/prc/nm/intake/"
+    def env(params=None, qp=None, data=None, key="CaseX"):
+        params = params if params is not None else {"caseId": case_id}
+        return {"data": data or {}, "origin": "", "origin_key": key, "queryParams": qp if qp is not None else ["caseId"],
+                "gridInput": {"params": {"parameters": params}, "persistPrevParams": False}, "parameters": params,
+                "pageNo": 1, "pageSize": 50, "sortBy": {}}
+    variants = {
+        "current": ("casepublicdocument/getAll", env()),
+        "qp_values": ("casepublicdocument/getAll", env(qp=[case_id])),
+        "lower_caseid": ("casepublicdocument/getAll", env(params={"caseid": case_id}, qp=["caseid"])),
+        "data_caseId": ("casepublicdocument/getAll", env(data={"caseId": case_id})),
+        "key_doc": ("casepublicdocument/getAll", env(key="CasePublicDocumentX")),
+        "key_doc2": ("casepublicdocument/getAll", env(key="PublicDocumentX")),
+        "casedocument": ("casedocument/getAll", env()),
+        "publicdocument": ("publicdocument/getAll", env()),
+        "casepublicdocuments": ("casepublicdocuments/getAll", env()),
+        "docket_number": ("casepublicdocument/getAll", env(params={"caseId": case_id, "docketNumber": ""})),
+    }
+    out = {}
+    for name, (path, body) in variants.items():
+        try:
+            r = http.post(api + path, json=body, headers={"Content-Type": "application/json"})
+            j = r.json() if "json" in (r.headers.get("content-type") or "") else {}
+            out[name] = {"status": r.status_code, "total": j.get("totalItemCount"), "first": str((j.get("items") or [None])[0])[:600],
+                         "msg": j.get("message")}
+        except Exception as e:
+            out[name] = {"error": repr(e)[:300]}
+    return out
+
+
 def main(names):
     cfg = yaml.safe_load(open(os.path.join(ROOT, "config", "watchlist.yaml")))
     for name in names:
+        if name.startswith("nmdoc:"):
+            http = Http(delay=2)
+            http.session.headers["User-Agent"] = cfg["user_agent"]
+            o = nmdoc(http, name[6:])
+            save_json(os.path.join(DATA, "debug", "nmdoc.json"), o)
+            print(json.dumps(o)[:3000], flush=True)
+            continue
         if name.startswith("tls:"):
             o = tls(name[4:])
             save_json(os.path.join(DATA, "debug", "tls_" + name[4:].replace(".", "_") + ".json"), o)
