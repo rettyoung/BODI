@@ -1,0 +1,38 @@
+{
+ "id": "OK:21330509",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000031",
+ "title": "OCC PUD2026-000031 document PUD2026-000031_150_Notice_Transcript_Completion_September_9_2026_Reporter_Tamara_Richards_comp (0 pages - 139 KB): UNCONFIRMED",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21330509&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21330509&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21330509,
+  "pages": "0 pages - 139 KB ",
+  "case_match": "unconfirmed"
+ },
+ "collected_at": "2026-10-03T06:39:16Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21330509&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 142125,
+   "sha256": "6493900d290783e719fb7b3ba09656837f7e9278b3df1db756a2254c086c3e82",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "CASE PUD 2026-000031 ENTRY NO. 150 FILED IN OCC COURT CLERK'S OFFICE ON 09/10/2026 - PAGE 1 OF 1\n\n\n             1                BEFORE THE CORPORATION COMMISSION\n\n             2                       OF THE STATE OF OKLAHOMA\n\n             3\n\n             4 IN THE MATTER OF THE APPLICATION OF     )\n               OKLAHOMA GAS AND ELECTRIC COMPANY       )\n             5 FOR COMMISSION APPROVAL OF ELECTRIC     ) CASE NO PUD\n               SERVICE AGREEMENTS AND PREAPPROVAL OF ) 2026-000031\n             6 CAPACITY PURCHASE AGREEMENTS PURSUANT )\n               TO 17 O.S. § 286(C)                     )\n             7 ***************************************\n\n             8\n\n             9        ~     N OTICE OF COM PLET ION ~\n           10\n                                    TRANSCRIPT OF PROCEEDINGS\n           11\n                          HAD ON THE 9TH DAY OF SEPTEMBER, 2026,\n           12\n                             BEFORE THE HONORABLE SHAWNAE ROBEY\n           13\n                                 ADMINISTRATIVE LAW JUDGE; AND\n           14\n                       J. TODD HIETT, KIM DAVID, AND BRIAN BINGMAN\n           15\n                                    CORPORATION COMMISSIONERS\n           16\n                          FOR THE OKLAHOMA CORPORATION COMMISSION\n           17\n\n           18\n\n           19\n\n           20\n\n           21\n\n           22\n\n           23\n\n           24 OFFICIAL REPORTER:\n\n           25 TAMARA L. RICHARDS, CSR, RPR, RMR\n                   OKLAHOMA CORPORATION COMMISSION ~ OFFICIAL TRANSCRIPT\n\f"
+  }
+ ]
+}

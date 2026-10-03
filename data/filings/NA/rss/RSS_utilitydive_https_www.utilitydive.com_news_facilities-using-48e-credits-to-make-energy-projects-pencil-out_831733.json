@@ -1,0 +1,24 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/facilities-using-48e-credits-to-make-energy-projects-pencil-out/831733/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Facilities are using 48E investment tax credits to make energy projects pencil out",
+ "filed": "2026-09-30",
+ "url": "https://www.utilitydive.com/news/facilities-using-48e-credits-to-make-energy-projects-pencil-out/831733/",
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      Most commonly, building operators are using the tax credit to install battery storage systems that can leverage lower-cost electricity rates, says an executive with tax-credit consulting firm Alliant. ",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T06:45:32Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [
+  "battery storage"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,24 @@
+{
+ "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210260",
+ "jur": null,
+ "source": "rss:pjm_insidelines",
+ "kind": "news",
+ "docket": null,
+ "title": "Over 600 Projects Enter Phase I of PJM’s New Interconnection Process",
+ "filed": "2026-09-30",
+ "url": "https://insidelines.pjm.com/over-600-projects-enter-phase-1-of-pjms-new-interconnection-process/",
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:pjm_insidelines",
+  "rto": "PJM",
+  "summary": " The first phase of PJM’s new interconnection process started Sept. 28, with 617 projects capable of generating nearly 169 GW of electricity remaining in the study Cycle. This marks the first group of proposed generation resources to be processed under a new approach designed to reduce speculative projects, improve predictability and increase the overall pace [&#8230;]",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T06:45:32Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

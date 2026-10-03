@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/green-steel/mesabi-metallics-steel-mill-iowa",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Mesabi Metallics to build a $15B lower-carbon steel mill in Iowa",
+ "filed": "2026-09-29",
+ "url": "https://www.canarymedia.com/articles/green-steel/mesabi-metallics-steel-mill-iowa",
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "The company behind America’s first new iron ore mine in 50 years has unveiled plans for a massive, $15 billion steel plant in southeast Iowa, bringing the firm closer to realizing its ambitious vision for low-carbon steelmaking.  Mesabi Metallics , which is owned by India’s Essar Group, announced the project on…",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T06:45:32Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [
+  "Meta"
+ ],
+ "documents": []
+}

@@ -1,0 +1,38 @@
+{
+ "id": "OK:21317734",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000031",
+ "title": "OCC PUD2026-000031 document PUD2026-000031_148_Public_Comment_filed_on_behalf_of_DEAK_KRYSTAL (0 pages - 236 KB): UNCONFIRMED",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21317734&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21317734&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21317734,
+  "pages": "0 pages - 236 KB ",
+  "case_match": "unconfirmed"
+ },
+ "collected_at": "2026-10-03T06:39:22Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21317734&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 241549,
+   "sha256": "0f7762bd1a08ff51bedfaa02774edf090b8bb1a7e32fc27f37acb111c591f38d",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "CASE PUD 2026-000031 ENTRY NO. 148 FILED IN OCC COURT CLERK'S OFFICE ON 09/08/2026 - PAGE 1 OF 2\n\n\n\n\n           BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n          IN THE MATTER OF THE APPLICATION OF                 )\n          OKLAHOMA GAS AND ELECTRIC COMPANY                   ) Case No. PUD2026-000031\n          FOR COMMISSION APPROVAL OF ELECTRIC                 )\n          SERVICE AGREEMENTS AND PREAPPROVAL                  )\n          OF CAPACITY PURCHASE AGREEMENTS                     )\n          PURSUANT 17 O.S. § 286(C)                           )\n\n\n\n\n                                          PUBLIC COMMENT\n                                           September 8, 2026\n\fCASE PUD 2026-000031 ENTRY NO. 148 FILED IN OCC COURT CLERK'S OFFICE ON 09/08/2026 - PAGE 2 OF 2\n\n\n\n\n         ---------- Forwarded message ---------\n         From: krystal deak <krystal.deak@gmail.com>\n         Date: Wed, Aug 26, 2026, 11:09 AM\n         Subject: ATTENTION: NOTICE OF HEARING Case No. PUD2026-000031\n         To: <PUDenergy@occ.ok.gov>\n\n\n         To Whom it May Concern,\n\n         I have a way to allocate funds back to energy and gas companies and also small and large\n         companies to lower the cost of the CPA agreements. I have been seeing the large influx of\n         complaints with consumers in the past two weeks especially PSO consumers in the Lawton\n         area. I also read the email I was sent for the next meeting which mostly deals with OG&E:\n           \"For the CPAs, which provide system-wide capacity for all customers, OG&E estimates\n         impacts to begin in 2027 with an average monthly impact for 2027- 2031 of: $0.13- $0.46 to the\n         average Residential customer, $0.18- $0.60 to the average General Service customer, $2.81-\n         $9.95 to the average Power & Light customer, and $170- $510 to the average Large Power &\n         Light customer.\"\n         I can offset these cost by current lost money and gain it back with AEP, OG&E, ONG and all\n         other companies with a tax credit. Again, businesses that qualify can also apply for this as\n         well.\n         For example: If a company that has 2,000 employees, they would get back $53.33 per qualified\n         employee.\n\n         Monthly Savings:      Yearly Tax Savings:\n           $106,660 x 12 =      $1,279,920\n\n         I know it may not be a huge, but it's a good chunk that can help many of these companies or it\n         can go towards infrastructure or helping customers who are currently struggling to pay their\n         extremely high bills I keep reading about. The money is there and it cost nothing to get it\n         because its currently paid out monthly to the government but now being directed back into the\n         budget. I'm happy to set up a call or meet at the meeting.\n\n         Krystal Deak\n         Vertical Consulting\n         580-512-3631/ 405-261-4422\n\f"
+  }
+ ]
+}

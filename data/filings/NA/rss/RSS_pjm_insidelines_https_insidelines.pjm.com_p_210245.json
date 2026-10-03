@@ -1,0 +1,24 @@
+{
+ "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210245",
+ "jur": null,
+ "source": "rss:pjm_insidelines",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM Membership Elects Janet Dietrich to Board of Managers",
+ "filed": "2026-09-24",
+ "url": "https://insidelines.pjm.com/pjm-membership-elects-janet-dietrich-to-board-of-managers/",
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:pjm_insidelines",
+  "rto": "PJM",
+  "summary": " PJM Interconnection announced today that its Members have elected Janet Dietrich to the PJM Board of Managers. The process for electing Board members is set forth in the FERC-approved PJM Operating Agreement. It is controlled by an eight-person Nominating Committee that recommends candidates to be voted on by the PJM membership. The Nominating Committee is [&#8230;]",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T06:45:32Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

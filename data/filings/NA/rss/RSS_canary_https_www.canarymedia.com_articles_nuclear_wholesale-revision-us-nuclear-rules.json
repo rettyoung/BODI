@@ -1,0 +1,25 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/nuclear/wholesale-revision-us-nuclear-rules",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "A ‘wholesale revision’ of US nuclear rules is on the table",
+ "filed": "2026-09-30",
+ "url": "https://www.canarymedia.com/articles/nuclear/wholesale-revision-us-nuclear-rules",
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "The top U.S. nuclear regulator wants to make it easier to build and operate nuclear power plants in this country — without compromising public health or safety.  That’s the TL;DR of a proposed rule that would reduce reporting requirements for nonemergency events, eliminate the expiration date for standard design…",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T06:45:32Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [
+  "ESA",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

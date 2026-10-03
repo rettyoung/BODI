@@ -1,0 +1,25 @@
+{
+ "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210254",
+ "jur": null,
+ "source": "rss:pjm_insidelines",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM Kicks Off Annual Process of Vetting Large Load Requests",
+ "filed": "2026-09-29",
+ "url": "https://insidelines.pjm.com/pjm-kicks-off-annual-process-of-vetting-large-load-requests/",
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:pjm_insidelines",
+  "rto": "PJM",
+  "summary": " PJM has begun its annual review of proposed Large Load adjustments to determine the impact to PJM’s 2027 Long-Term Load Forecast, using updated guidelines designed to better account for how likely proposed projects are to materialize. The review comes as electricity demand is growing rapidly across the PJM region, driven largely by data centers and [&#8230;]",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T06:45:32Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

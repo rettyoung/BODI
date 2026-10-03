@@ -1,0 +1,24 @@
+{
+ "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210238",
+ "jur": null,
+ "source": "rss:pjm_insidelines",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM Operations Update – Sept. 17, 2026",
+ "filed": "2026-09-17",
+ "url": "https://insidelines.pjm.com/pjm-operations-update-sept-17-2026/",
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:pjm_insidelines",
+  "rto": "PJM",
+  "summary": " PJM called on demand response resources across different portions of its footprint to maintain reliable system operations through unusually warm September weather and necessary outages for both generation resources and transmission. PJM activated its&#160;Pre-Emergency Demand Response&#160;and Emergency Demand Response customers across different portions of the PJM footprint the afternoon of Sept. 17 to increase reserves [&#8230;]",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T06:45:32Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [
+  "demand response"
+ ],
+ "party_hits": [],
+ "documents": []
+}

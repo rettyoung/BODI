@@ -1,0 +1,24 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/solar/ohio-biggest-solar-project-gets-permit",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Ohio’s biggest solar project finally gets permit after long legal limbo",
+ "filed": "2026-09-21",
+ "url": "https://www.canarymedia.com/articles/solar/ohio-biggest-solar-project-gets-permit",
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "Ohio’s largest solar and battery project can finally move forward after years of slogging through legal and regulatory challenges.  The Ohio Power Siting Board on Thursday approved a permit for Oak Run Solar, which will combine 800 megawatts of solar with 300 MW of battery storage. The Madison County development will…",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T06:45:32Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [
+  "battery storage"
+ ],
+ "party_hits": [],
+ "documents": []
+}

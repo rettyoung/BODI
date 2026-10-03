@@ -1,0 +1,40 @@
+{
+ "id": "OK:21308655",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000031",
+ "title": "OCC PUD2026-000031 document PUD2026-000031_146_Customer_Notice_Affidavit_filed_on_behalf_of_OKLAHOMA_GAS_AND_ELECTRIC_COMP (0 pages - 202 KB): UNCONFIRMED",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21308655&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21308655&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21308655,
+  "pages": "0 pages - 202 KB ",
+  "case_match": "unconfirmed"
+ },
+ "collected_at": "2026-10-03T06:39:28Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [],
+ "party_hits": [
+  "Google"
+ ],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21308655&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 207182,
+   "sha256": "83b971e19b4d457dab0a4b9cd0834d4cbef807e87fc0f99ee3a87dd3216a9718",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "CASE PUD 2026-000031 ENTRY NO. 146 FILED IN OCC COURT CLERK'S OFFICE ON 09/03/2026 - PAGE 1 OF 3\n\fCASE PUD 2026-000031 ENTRY NO. 146 FILED IN OCC COURT CLERK'S OFFICE ON 09/03/2026 - PAGE 2 OF 3\n\n\n\n\n                                              CERTIFICATE OF SERVICE\n\n                  I hereby certify that on the 3rd day ofSeptember 2026, a true and correct copy of the\n           foregoing was electronically served via the Electronic Case FilingSystem to those on the Official\n           Electronic Case FilingService List, and via electronic mail to the following persons:\n\n            Oklahoma Corporation Commission                 Oklahoma Attorney General\n            Fairo Mitchell                                  Brice Betchan\n            NatashaScott                                    Michael Velez\n            MikeS. Ryan                                     Ashley Youngblood\n            E.J. Thomas                                     brice.betchan@oag.ok.gov\n            fairo.mitchell@occ.ok.gov                       Michael.velez@oag.ok.gov\n            natasha.scott@occ.ok.gov                        ashley.youngblood@oag.ok.gov\n            Michael.ryan@occ.ok.gov                         Utility.regulation@oag.ok.gov\n            ej.thomas@occ.ok.gov\n            pudenergy@occ.ok.gov\n\n            GoogleLL C                                      Oklahoma Industrial Energy Consumers·\n            James A. Roth                                   Thomas P.Schroedter\n            NilesStuck                                      Eric C. Money\n            Lindsey Pever                                   tschroedter@hallestill.com\n            Cole Peters                                     emoney@hallestill.com\n            jim@anewenergylaw.com\n            niles@anewenergylaw.com                         Oklahoma Sustainability Network\n            lindsey@anewenergylaw.com                       Adam J.Singer\n            cole@anewenergylaw.com                          asinger@derryberrylaw.com\n\n\n\n\n           Oklahoma Gas and Electric Company's Customer Notice Affidavit                    Page 2 of2\n           Case No. PUD2026-000031\n\fCASE PUD 2026-000031 ENTRY NO. 146 FILED IN OCC COURT CLERK'S OFFICE ON 09/03/2026 - PAGE 3 OF 3\n\f"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "OK:21310595",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000031",
+ "title": "OCC PUD2026-000031 document PUD2026-000031_147_Notice_of_Withdrawal_filed_on_behalf_of_OKLAHOMA_ATTORNEY_GENERAL (0 pages - 138 KB): UNCONFIRMED",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21310595&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21310595&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21310595,
+  "pages": "0 pages - 138 KB ",
+  "case_match": "unconfirmed"
+ },
+ "collected_at": "2026-10-03T06:39:25Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21310595&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 141675,
+   "sha256": "3b598ad65a858127976d2734a8805d04acfe3851b45f5b5ee1e682aaef436692",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "CASE PUD 2026-000031 ENTRY NO. 147 FILED IN OCC COURT CLERK'S OFFICE ON 09/04/2026 - PAGE 1 OF 3\n\n\n           BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n      IN THE MATTER OF THE APPLICATION                  )\n      OF OKLAHOMA GAS AND ELECTRIC                      )\n      COMPANY FOR COMMISSION APPROVAL                   )\n      OF ELECTRIC SERVICE AGREEMENTS                    )   CASE NO. PUD2026-000031\n      AND PREAPPROVAL OF CAPACITY                       )\n      PURCHASE AGREEMENTS PURSUANT TO                   )\n      17 O.S. § 286(C)                                  )\n\n\n\n\n                              NOTICE OF WITHDRAWAL OF COUNSEL\n\n                COMES NOW Michael L. Velez, and hereby submits this Notice of Withdrawal as\n\n         counsel for the Attorney General (“AG”). The AG will continue to be represented by its other\n\n         counsel of record.\n\n\n\n                                                            Respectfully submitted,\n\n                                                            s/ Michael L. Velez\n                                                            Michael L. Velez, OBA No. 19963\n                                                            Assistant General Counsel\n                                                            UTILITY REGULATION UNIT\n                                                            OKLAHOMA ATTORNEY GENERAL\n                                                            313 NE 21st Street\n                                                            Oklahoma City, Oklahoma 73105\n                                                            Telephone (405) 521-3921\n                                                            E-mail: Michael.Velez@oag.ok.gov\n\fCASE PUD 2026-000031 ENTRY NO. 147 FILED IN OCC COURT CLERK'S OFFICE ON 09/04/2026 - PAGE 2 OF 3\n                                          CERTIFICATE OF SERVICE\n\n                This is to certify that on the 4th day of September, 2026, a true and correct copy of the\n         above and foregoing was emailed, addressed to:\n\n         Fairo Mitchell\n         Director, Public Utility Division\n         OKLAHOMA CORP. COMM’N\n         Jim Thorpe Building\n         2101 N. Lincoln. Blvd.\n         Oklahoma City, OK 73105\n         pudenergy@occ.ok.gov\n\n         Natasha Scott\n         Mike Ryan\n         Kyle Vazquez\n         E.J. Thomas\n         Deputy General Counsel\n         OKLAHOMA CORP. COMM’N\n         Jim Thorpe Building\n         2101 N. Lincoln. Blvd.\n         Oklahoma City, OK 73105\n         natasha.scott@occ.ok.gov\n         michael.ryan@occ.ok.gov\n         kyle.vazquez@occ.ok.gov\n         ej.thomas@occ.ok.gov\n\n         A. Chase Snodgrass\n         OKLAHOMA GAS & ELECTRIC CO.\n         321 N. Harvey Ave., M/C 300\n         Oklahoma City, OK 73102\n         snodgrcc@oge.com\n         reginfor@oge.com\n\n         Deborah R. Thompson\n         Kenneth A. Tillotson\n         THOMPSON TILLOTSON PLLC\n         P.O. Box 54632\n         Oklahoma City, OK 73154\n         deborah@ttfirm.com\n         keneth@ttfirm.com\n\n         Jack P. Fite\n         9520 N. May Ave., Ste. 211\n         Oklahoma City, OK 73120\n         jfite@wegflaw.com\n\fCASE PUD 2026-000031 ENTRY NO. 147 FILED IN OCC COURT CLERK'S OFFICE ON 09/04/2026 - PAGE 3 OF 3\n         Thomas P. Schroedter\n         Eric C. Money\n         HALL, ESTILL, HARDWICK, GABLE,\n           GOLDEN & NELSON, P.C.\n         521 East 2nd St., Ste. 1200\n         Tulsa, OK 73102\n         tschroedter@hallestill.com\n         emoney@hallestill.com\n\n         James A. Roth\n         Lindsey Pever\n         Cole Peters\n         Niles Stuck\n         A NEW ENERGY, LLC\n         312 NW 13th St.\n         Oklahoma City, OK 73103\n         jim@anewenergylaw.com\n         lindsey@anewenergylaw.com\n         cole@anewenergylaw.com\n         niles@anewenergylaw.com\n\n         Adam J. Singer\n         DERRYBERRY & NAIFEH, LLP\n         4800 N. Lincoln Blvd.\n         Oklahoma City, OK 73105\n         asinger@derryberrylaw.com\n\n\n                                                        s/ Michael L. Velez\n                                                        Assistant General Counsel\n\f"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/pjm-delays-backstop-procurement-ferc-data-center/831751/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC chair slams PJM ‘mess’ as country’s largest grid operator delays power auction",
+ "filed": "2026-09-30",
+ "url": "https://www.utilitydive.com/news/pjm-delays-backstop-procurement-ferc-data-center/831751/",
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      PJM had planned to accept offers for backstop power supplies from Sept. 30 through Oct. 21 after falling short of its reserve margin targets. But FERC only partially approved its plan, zeroing in on cost allocation concerns. ",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T06:45:32Z",
+ "run_id": "2026-10-03-0634",
+ "keywords": [
+  "cost allocation"
+ ],
+ "party_hits": [],
+ "documents": []
+}
