@@ -239,22 +239,16 @@ court_queries:
   - '"Retail Energy Advancement League"'
   - 'Constellation AND PJM AND (colocation OR "co-location")'
 
-# ---- Recommendation 8: county and city agendas (Legistar Web API). Clients unconfirmed until the
-# first run; health shows which respond. Add others by client name.
+# ---- Recommendation 8: county and city agendas (Legistar Web API). Verified 2026-10-02. Loudoun, Fairfax,
+# Henrico, Fulton, Atlanta, Tulsa and Reno are not on Legistar's API (checked); Loudoun/Fairfax/Henrico
+# agendas would need their own (Granicus/BoardDocs) pages.
 legistar_filter: "data ?cent|hyperscale|server farm|large load|data processing"
 legistar:
   - {client: pwcgov, name: "Prince William County, VA", jur: VA}
-  - {client: loudoun, name: "Loudoun County, VA", jur: VA}
-  - {client: fairfaxcounty, name: "Fairfax County, VA", jur: VA}
-  - {client: henrico, name: "Henrico County, VA", jur: VA}
   - {client: maricopa, name: "Maricopa County, AZ", jur: AZ}
   - {client: phoenix, name: "City of Phoenix, AZ", jur: AZ}
   - {client: mesa, name: "City of Mesa, AZ", jur: AZ}
   - {client: columbus, name: "City of Columbus, OH", jur: OH}
-  - {client: fultoncountyga, name: "Fulton County, GA", jur: GA}
-  - {client: atlantacityga, name: "City of Atlanta, GA", jur: GA}
   - {client: sanantonio, name: "City of San Antonio, TX", jur: TX}
   - {client: fortworthgov, name: "City of Fort Worth, TX", jur: TX}
   - {client: kansascity, name: "Kansas City, MO", jur: MO}
-  - {client: tulsa, name: "City of Tulsa, OK", jur: OK}
-  - {client: cityofreno, name: "City of Reno, NV", jur: NV}

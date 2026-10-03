@@ -179,7 +179,10 @@ def courtlistener(ctx):
     tok = os.environ.get("COURTLISTENER_TOKEN")
     hdr = {"Authorization": f"Token {tok}"} if tok else {}
     items = []
-    for q in ctx.cfg.get("court_queries", []):
+    queries = ctx.cfg.get("court_queries", [])
+    if not tok:
+        queries = queries[:2]   # keyless use is rate-limited hard; a free token lifts it
+    for q in queries:
         for typ in ("o", "r"):
             if typ == "r" and not tok:
                 continue   # RECAP docket search needs a token
@@ -187,7 +190,10 @@ def courtlistener(ctx):
                    f"&filed_after={ctx.since}&q={quote(q)}")
             try:
                 j = ctx.http.get(url, headers=hdr).json()
-            except Blocked:
+            except Blocked as e:
+                if "429" in str(e):
+                    ctx.record("courtlistener", "rate_limited", "add repo secret COURTLISTENER_TOKEN (free account) for full coverage")
+                    return items
                 raise
             except Exception as e:
                 ctx.log(f"courtlistener {typ} {q[:40]}: {e!r}"[:200])
@@ -209,9 +215,12 @@ def _rows_from(content, ctype, url):
     if low.endswith(".json") or "json" in (ctype or ""):
         j = json.loads(content)
         return j if isinstance(j, list) else (j.get("data") or j.get("projects") or j.get("value") or [])
-    if low.endswith(".csv") or "csv" in (ctype or ""):
+    if low.endswith(".csv") or "csv" in (ctype or "") or "csv" in low:
         txt = content.decode("utf-8-sig", errors="replace")
-        return list(csv.DictReader(io.StringIO(txt)))
+        lines = txt.splitlines()
+        # skip preamble lines ("Last Updated On", ...): the header is the first line with >= 5 named columns
+        hi = next((i for i, ln in enumerate(lines[:30]) if sum(1 for c in next(csv.reader([ln])) if c.strip()) >= 5), 0)
+        return list(csv.DictReader(io.StringIO("\n".join(lines[hi:]))))
     import openpyxl
     wb = openpyxl.load_workbook(io.BytesIO(content), read_only=True, data_only=True)
     best = []
@@ -261,7 +270,11 @@ def queues(ctx):
         ids, by_state, new = set(), {}, []
         prev_ids = set(st.get("ids", []))
         for row in rows:
-            pid = _pick(row, qd.get("id_cols", [r"queue.?(id|number|#|pos)", r"^project.?(id|number)", r"^inr$", r"^id$"]))
+            status = str(_pick(row, [r"^status$", r"status"]) or "") + " " + str(_pick(row, [r"withdrawn"]) or "")
+            if re.search(r"withdrawn|cancel|commercial operation|in.?service|completed|suspended", status, re.I):
+                continue   # active queue only
+            pid = _pick(row, qd.get("id_cols", [r"queue.?(id|number|#|pos)", r"interconnection number", r"^project.?(id|number)",
+                                                r"^inr$", r"^id$", r"projectnumber"]))
             state = str(_pick(row, qd.get("state_cols", [r"^state$", r"state"])) or "").strip().upper()[:2]
             if state not in TRACKED_STATES:
                 continue
