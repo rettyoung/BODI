@@ -128,42 +128,41 @@ watch_pages:
   - {id: ferc_news,    jur: FERC, url: "https://www.ferc.gov/news-events/news", link: "/news-events/news/", verify: true}
   - {id: nerc_news,    jur: US-Federal, url: "https://www.nerc.com/news/Pages/default.aspx", link: "news|\\.pdf", verify: true}
   - {id: caiso_news,   jur: FERC, rto: CAISO, url: "https://www.caiso.com/about/news/news-releases/", link: "news|\\.pdf", render: true}
-  - {id: ercot_notices, jur: TX, rto: ERCOT, url: "https://www.ercot.com/services/comm/mkt_notices", link: "mkt_notices|\\.pdf|\\.docx", verify: true}
+  - {id: ercot_notices, jur: TX, rto: ERCOT, url: "https://www.ercot.com/services/comm/mkt_notices", link: "mkt_notices|\\.pdf|\\.docx", verify: true, render: true}
   - {id: ercot_news,   jur: TX,   rto: ERCOT, url: "https://www.ercot.com/news/releases", link: "/news/", verify: true}
   - {id: spp_news,     jur: FERC, rto: SPP, url: "https://www.spp.org/newsroom/", link: "newsroom|\\.pdf", verify: true}
-  - {id: nyiso_press,  jur: FERC, rto: NYISO, url: "https://www.nyiso.com/press-releases", link: "press|\\.pdf", verify: true}
+  - {id: nyiso_press,  jur: FERC, rto: NYISO, url: "https://www.nyiso.com/press-releases", link: "press|\\.pdf", verify: true, render: true}
   - {id: isone_press,  jur: FERC, rto: ISO-NE, url: "https://www.iso-ne.com/about/news-media/press-releases", link: "press|news", verify: true}
   - {id: miso_news,    jur: FERC, rto: MISO, url: "https://www.misoenergy.org/meet-miso/media-center/", link: "media-center|\\.pdf", verify: true, render: true}
   - {id: wpp_news,     jur: FERC, rto: Western Power Pool / WRAP, url: "https://www.westernpowerpool.org/news", link: "news", verify: true}
 
+  # Arizona and Kansas governors' sites and Duke's IRP page refuse automated clients (403, checked 2026-10-02).
   # Executive actions have no docket (the Aug 2026 Texas audit directive was missed for exactly this reason).
   - {id: gov_tx, jur: TX, url: "https://gov.texas.gov/news", link: "/news/post/", verify: true}
   - {id: gov_va, jur: VA, url: "https://www.governor.virginia.gov/newsroom/news-releases/", link: "news-releases/", verify: true}
   - {id: gov_ga, jur: GA, url: "https://gov.georgia.gov/press-releases", link: "press-releases/", verify: true}
-  - {id: gov_az, jur: AZ, url: "https://azgovernor.gov/office-arizona-governor/news", link: "/news/", verify: true}
   - {id: gov_pa, jur: PA, url: "https://www.pa.gov/governor/newsroom", link: "newsroom", verify: true}
-  - {id: gov_oh, jur: OH, url: "https://governor.ohio.gov/media/news-and-media", link: "news-and-media/", verify: true}
-  - {id: gov_la, jur: LA, url: "https://gov.louisiana.gov/news/", link: "/news/", verify: true}
+  - {id: gov_oh, jur: OH, url: "https://governor.ohio.gov/media/news-and-media", link: "news-and-media/", verify: true, render: true}
+  - {id: gov_la, jur: LA, url: "https://gov.louisiana.gov/news/", link: "/news/", verify: true, render: true}
   - {id: gov_nc, jur: NC, url: "https://governor.nc.gov/news/press-releases", link: "press-releases/", verify: true}
   - {id: puct_news, jur: TX, url: "https://www.puc.texas.gov/agency/resources/pubs/news/", link: "\\.pdf|news", verify: true}
 
   # ---- Recommendation 4: ERCOT large-load interconnection reporting (monthly overview and board updates)
-  - {id: ercot_load, jur: TX, rto: ERCOT, url: "https://www.ercot.com/gridinfo/load", link: "\\.pdf|\\.xlsx", title_filter: "large load|operational overview|interconnection", verify: true}
-  - {id: ercot_board, jur: TX, rto: ERCOT, url: "https://www.ercot.com/committees/board", link: "\\.pdf|meeting", title_filter: "large load|interconnection|grid analysis|batch", verify: true}
+  - {id: ercot_load, jur: TX, rto: ERCOT, url: "https://www.ercot.com/gridinfo/load", link: "\\.pdf|\\.xlsx", title_filter: "large load|operational overview|interconnection", verify: true, render: true}
+  - {id: ercot_board, jur: TX, rto: ERCOT, url: "https://www.ercot.com/committees/board", link: "\\.pdf|meeting", title_filter: "large load|interconnection|grid analysis|batch", verify: true, render: true}
   # ---- Recommendation 5: capacity auction results and planning parameters
   - {id: pjm_rpm, jur: FERC, rto: PJM, url: "https://www.pjm.com/markets-and-operations/rpm", link: "\\.pdf|\\.ashx|\\.xlsx", title_filter: "auction|results|planning parameters|BRA", verify: true}
   - {id: miso_pra, jur: FERC, rto: MISO, url: "https://www.misoenergy.org/planning/resource-adequacy/", link: "\\.pdf|auction|PRA", title_filter: "auction|PRA|results", verify: true}
-  - {id: nyiso_icap, jur: FERC, rto: NYISO, url: "https://www.nyiso.com/installed-capacity-market", link: "\\.pdf|\\.xlsx", title_filter: "auction|results|demand curve", verify: true}
+  - {id: nyiso_icap, jur: FERC, rto: NYISO, url: "https://www.nyiso.com/installed-capacity-market", link: "\\.pdf|\\.xlsx", title_filter: "auction|results|demand curve", verify: true, render: true}
   - {id: isone_fcm, jur: FERC, rto: ISO-NE, url: "https://www.iso-ne.com/markets-operations/markets/forward-capacity-market", link: "\\.pdf|fca|auction", title_filter: "auction|results|FCA|capacity", verify: true}
   - {id: spp_ra, jur: FERC, rto: SPP, url: "https://www.spp.org/engineering/resource-adequacy/", link: "\\.pdf|adequacy", title_filter: "requirement|planning reserve|adequacy|PRM", verify: true}
   # ---- Recommendation 6: state appellate courts (opinion lists; only utility/commission titles fetched)
   - {id: va_scv, jur: VA, url: "https://www.vacourts.gov/scv/opinions/home", link: "\\.pdf", title_filter: "commission|electric|power|utilit|corporation", verify: true}
   - {id: va_cav, jur: VA, url: "https://www.vacourts.gov/cav/opinions/home", link: "\\.pdf", title_filter: "commission|electric|power|utilit", verify: true}
-  - {id: pa_cmwlth, jur: PA, url: "https://www.pacourts.us/courts/commonwealth-court/court-opinions", link: "\\.pdf|opinion", title_filter: "utility|PUC|Public Utility|electric|PPL|PECO", verify: true}
+  - {id: pa_cmwlth, jur: PA, url: "https://www.pacourts.us/courts/commonwealth-court/court-opinions", link: "\\.pdf|opinion", title_filter: "utility|PUC|Public Utility|electric|PPL|PECO", verify: true, render: true}
   # ---- Recommendation 7: governors' executive orders and newsrooms (remaining states)
   - {id: gov_al, jur: AL, url: "https://governor.alabama.gov/newsroom/", link: "newsroom/", verify: true}
   - {id: gov_il, jur: IL, url: "https://gov.illinois.gov/newsroom.html", link: "news", verify: true}
-  - {id: gov_ks, jur: KS, url: "https://governor.kansas.gov/newsroom/", link: "/", verify: true}
   - {id: gov_mo, jur: MO, url: "https://governor.mo.gov/press-releases", link: "press-releases/", verify: true}
   - {id: gov_nm, jur: NM, url: "https://www.governor.state.nm.us/about-the-governor/executive-orders/", link: "\\.pdf|executive", verify: true}
   - {id: gov_nv, jur: NV, url: "https://gov.nv.gov/Newsroom/PRs/", link: "Newsroom", verify: true}
@@ -172,7 +171,6 @@ watch_pages:
   - {id: gov_wv, jur: WV, url: "https://governor.wv.gov/News/press-releases/", link: "press-releases|News", verify: true}
   # ---- Recommendation 9: utility resource-plan and procurement (IRP / RFP) pages
   - {id: irp_dominion, jur: VA, url: "https://www.dominionenergy.com/about/our-company/irp", link: "\\.pdf|irp", verify: true}
-  - {id: irp_duke, jur: NC, url: "https://www.duke-energy.com/our-company/about-us/irp-carolinas", link: "\\.pdf|irp|resource", verify: true}
   - {id: irp_gapower, jur: GA, url: "https://www.georgiapower.com/company/news-center/irp.html", link: "\\.pdf|irp", verify: true}
   - {id: irp_aps, jur: AZ, url: "https://www.aps.com/en/About/Our-Company/Doing-Business-with-Us/Resource-Planning-and-Procurement", link: "\\.pdf|rfp|irp|resource", verify: true}
   - {id: rfp_entergy, jur: LA, url: "https://spofossil.entergy.com/ENTRFP/SEND/", link: "RFP|\\.pdf", verify: true}
@@ -182,7 +180,7 @@ watch_pages:
   - {id: doe_news, jur: US-Federal, url: "https://www.energy.gov/newsroom", link: "/articles/", title_filter: "grid|power|electric|202|nuclear|loan|data cent|transmission", verify: true}
   - {id: doe_202c, jur: US-Federal, url: "https://www.energy.gov/ceser/federal-power-act-section-202c", link: "\\.pdf|202", verify: true}
   - {id: doe_lpo, jur: US-Federal, url: "https://www.energy.gov/lpo/lpo-news", link: "/articles/|lpo", verify: true}
-  - {id: nrc_news, jur: US-Federal, url: "https://www.nrc.gov/reading-rm/doc-collections/news/", link: "news|\\.pdf", title_filter: "restart|uprate|license|construction permit|small modular|SMR|Palisades|Crane|Duane Arnold|advanced reactor", verify: true}
+  - {id: nrc_news, jur: US-Federal, url: "https://www.nrc.gov/reading-rm/doc-collections/news/", link: "news|\\.pdf", title_filter: "restart|uprate|license|construction permit|small modular|SMR|Palisades|Crane|Duane Arnold|advanced reactor", verify: true, render: true}
 
 rss:
   - {id: pjm_insidelines, rto: PJM, url: "https://insidelines.pjm.com/feed/"}
