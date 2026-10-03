@@ -1,10 +1,9 @@
 """Load, validate and merge the Grid Docket row store.
 
 The system of record is OneDrive /GridDocket/ (rows.json manifest + immutable
-rows_pN.json parts). `store/` in this repo is a mirror of those immutable parts
-so the builders can run without transcribing the store through a connector.
-Each run checks the mirror against the OneDrive manifest (part names, row
-counts, sha256) before building.
+rows_pN.json parts). Scheduled runs download the live store into store_live/
+and run every tool against it (`--store store_live`). `store/` in this repo is a
+frozen copy of the 2026-09-18 baseline (rows_p1..p4), kept for tests and CI.
 """
 import hashlib
 import json
