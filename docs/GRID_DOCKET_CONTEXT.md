@@ -523,8 +523,10 @@ newest document already held, requests, new-case terms, extra pages) and the rec
 manual run in `/GridDocket/manual/`. For each docket it reads everything filed since the later of those two dates,
 so skipping weeks loses nothing. Since 3 Oct it also **searches each portal for new cases** opened since the last
 run (large-load tariffs, data-center contracts, generation certificates, cost-allocation cases, watched parties)
-— the one thing the cloud fallbacks can never see — and reads extra pages the cloud can't (Arizona governor; IR
-events pages in earnings season).
+— the one thing the cloud fallbacks can never see — records the route it used so the next run reuses it, and
+reads what the cloud can't: Arizona and New Mexico documents, the Arizona governor's newsroom, and IR events pages
+in earnings season. For Nevada (no text layer) it looks for a text copy elsewhere first (filer's site, FERC, SEC,
+intervenors), otherwise reads the pages visually — still Reported at most.
 
 **What happens:** one file per state saved as it goes, then a manifest with `"complete": true`; the next Sweep
 ingests it automatically (`state.manual_ingested`) and adds any new cases to the watch list. The pass never
@@ -762,11 +764,11 @@ Strategies studies; (9) FERC Form 1 / EQR (defer).
 | Gap | Filled by |
 |---|---|
 | Seven blocked commissions (VA, SC, IL, OH, NC, WV, NV) | Manual pass weekly (dockets + new cases), cloud fallbacks between passes; S&P RRA if licensed |
-| Nevada document content (no text layer) | Metadata only; OCR (Reported at best); RRA |
+| Nevada document content (no text layer) | Manual pass: text copies from the filer, FERC, SEC or intervenors (can be Verified when it is the same document from the filer, FERC or SEC); otherwise visual reading (Reported). Options: a public-records request to the PUCN for the documents as filed (filers usually submit searchable PDFs); S&P RRA |
 | Docket history before 3 Oct for collector states | Nightly enrichment (~2 weeks) + Sweep C-07 |
 | Arizona documents (ACC PDF host certificate mismatch) | Manual pass requests queued by the Sweep; automatic again if the certificate is fixed |
 | Arizona governor, IR pages for Southern/Evergy/Exelon/OGE/Oncor/BHE | EDGAR exhibits and deck search; manual pass extra pages |
-| New Mexico documents endpoint (empty) | Manual pass; repair when the endpoint is diagnosed |
+| New Mexico documents (cloud list returns nothing; ten request variants tried 3 Oct) | Manual pass reads them and records the request the e360 page makes, so the collector can be repaired |
 | ERCOT data products, PJM data | ERCOT Public API / PJM API (accounts needed) |
 | State bills | Open States key |
 | Counties outside Legistar, appellate courts beyond Virginia, three empty watch pages (NYISO capacity, NRC news, PA Commonwealth Court) | Build work, no access barrier |
