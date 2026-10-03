@@ -300,6 +300,24 @@ def main(only=None):
         checkpoint()
         print(f"  -> {rec.get('status')} found={rec.get('found')} new={rec.get('new')} kept={rec.get('kept')} {rec.get('error', '')}", flush=True)
 
+    # spare time: enrich the docket-history backfill with document text (see backfill_text.py)
+    left = RUN_DEADLINE_S - (time.time() - run_t0) - 120
+    if not BACKFILL_SINCE and left > 300:
+        import backfill_text
+        signal.alarm(int(left) + 60)
+        try:
+            health["backfill_text"] = backfill_text.enrich(http, cfg, state, fetch_docs, keyword_hit,
+                                                           lambda: Ctx(cfg, state, http), left,
+                                                           int(os.environ.get("BF_DOCS", "150")))
+        except Timeout:
+            health["backfill_text"] = {"status": "PARTIAL", "error": "time budget exceeded"}
+        except Exception as e:
+            health["backfill_text"] = {"status": "ERROR", "error": repr(e)[:300]}
+        finally:
+            signal.alarm(0)
+        print("backfill_text", health["backfill_text"], flush=True)
+        checkpoint()
+
     # prune seen ids older than 400 days
     cutoff = (dt.date.today() - dt.timedelta(days=400)).isoformat()
     state["seen"] = {k: v for k, v in state["seen"].items() if v >= cutoff}

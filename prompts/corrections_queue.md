@@ -23,7 +23,7 @@ Claims to verify:
   the 2026-08-20 open meeting. The collector now watches 58317 — read the filing and any PUCT order.
 - 2026-09-03 conditional Batch Zero classifications to TDSPs; 2026-09-09 Batch Zero Verification RFI;
   2026-09-14 Community Impact RFI (computational loads ≥25 MW not yet energized), **responses due
-  2026-10-12 17:00 CT**. Source: ERCOT market notices (collector watch page `ercot_notices`) or ERCOT news.
+  2026-10-12 17:00 CT**. Source: ERCOT market notices (collector watch page `ercot_notice_archive`, or WebFetch of the archive and the large-load integration page) or ERCOT news.
 - Reported 2026-09-23 (Sidley headline): the governor's environmental-permitting freeze extends the pause to
   all Texas data centers pending a statewide audit. Verify at source before writing; Reported at best otherwise.
 Then: overlay the baseline Batch Zero event (search the store for "Batch Zero"; it shows "Effective
@@ -32,8 +32,8 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
 
 ## C-02 — Arizona: Microsoft's closing brief in the APS rate case (missed)
 - ACC image **E000054018**, docket **E-01345A-25-0105**, docketed **2026-08-27**, Microsoft's Closing Brief
-  (50 pp.; exhibits MSFT-6, -7, -9, -16). The collector's Arizona adapter now lists this docket's filings;
-  find the item and its text in data/filings/AZ/. If the PDF did not extract, WebFetch
+  (50 pp.; exhibits MSFT-6, -7, -9, -16). It is backfill item AZ:468560 (filed under "Albert H. Acken, Atty.");
+  its text lands in data/filings/AZ/az_acc/AZ_468560.json once the nightly enrichment reaches it. If the PDF did not extract, WebFetch
   https://images.edocket.azcc.gov/docketpdf/E000054018.pdf; if that is refused, add it to manual_queue
   requests and leave this item open.
 - What to capture (verify each point in the brief): AG-XHLF rider expanding AG-X (capped at 200 MW) to all
@@ -63,14 +63,25 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   the 2026-12-16 milestone accordingly. Applicant reported as Evest LLC, Richland Parish, adjacent to the
   Laidley facility (U-37425); filed 2026-03-25 under the LPSC "Lightning Directive" of 2025-12-17.
 
-## C-05 — Store housekeeping (no web reads needed)
-- state.baseline.flags.superseded says 1; the store has 3 superseded rows across 2 events (E-20260918-035
-  ×2, E-20260918-110). Recompute flags from the data (Step 9.3 does this every run).
-- backfill_state.json still says "Phases 2 and 3 pending". Replace its `_doc` and phase statuses with the
-  truth: Phase 1 done 2026-09-18; Phases 2–3 done as a single pass 2026-09-18 with a gap-closing second pass
-  for VA, AZ, NM, SC, GRDA, KS and WV only; TX, ERCOT and the remaining states had one pass; docket activity
-  was not enumerated filing-by-filing anywhere (the cause of C-01 and C-02). Note that the v3 collector
-  backfill (data/backfill/) and the manual pass now close that gap, and point to this queue.
+## C-05 — Store and state housekeeping (no web reads needed)
+- Flags, recounted from the data on 2026-10-03 (rows_p1..p5 plus overlays): superseded = **3 rows across 2 events**
+  (E-20260918-035 ×2, E-20260918-110); on_appeal = **4 rows** (E-20260918-120, -125, -145, -148). rows_p5 added
+  neither. Write these into state.baseline.flags and drop its stale _note (Step 9.3 recomputes them every run anyway).
+- backfill_state.json still says "Phases 2 and 3 pending". Replace its `_doc` and phase statuses with the truth:
+  Phase 1 done 2026-09-18; Phases 2–3 done as a single pass 2026-09-18 with a gap-closing second pass for VA, AZ,
+  NM, SC, GRDA, KS and WV only; docket activity was not enumerated filing-by-filing (the cause of C-01 and C-02).
+  The v3 collector backfill (data/backfill/, enriched nightly into enriched.jsonl) and the manual pass close that
+  gap; point to C-07.
+- state.REMAINING_GAPS — remove: "SCOPE DECISION NEEDED" (Colorado and Oregon are out of scope for now, Rett
+  2026-10-03); "MIRROR_PENDING" (the repo store/ folder is a frozen baseline copy, not a mirror — scheduled runs
+  cannot push); "FLAG RECOUNT NEEDED" (done above).
+- state.ACCESS_METHOD_FINDINGS — replace stale entries: "GitHub repo rettyoung/BODI" → "WORKING since 2026-10-03:
+  the repo is public; scheduled runs `git clone --depth 1` it read-only (no push)". "Arizona ACC" → "WORKING in
+  the collector (eDocket API + PDFs from images.edocket.azcc.gov, AIA chain completion). docket.images.azcc.gov is
+  robots-disallowed: never use it." "PUCT Interchange" → "WORKING in the collector; only WebFetch gets HTTP 402."
+  "Oklahoma OCC" → "WORKING in the collector (Laserfiche search; 8 newest hits per watched cause kept unconfirmed;
+  confirm from the PDF text)". Add "ERCOT": "notice archive in the collector and WebFetch; large-load, planning and
+  board pages by WebFetch only (sweep.md 6.4/6.6)".
 - seen_index.json entries E-126..E-161 are out of date order — harmless; leave them.
 
 ## C-06 — Texas text quality
@@ -81,11 +92,17 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   finding.
 
 ## C-07 — Docket-activity backfill (ongoing until empty)
-- data/backfill/<date>.jsonl holds full docket activity from 2025-11-07 for the collector states (one-off pull).
+- data/backfill/enriched.jsonl: the docket-history backfill (filings since 2025-11-07 in the collector states) with
+  document text, added a few hundred documents per night by the collector (collector/backfill_text.py). Each line
+  carries a tier: 1 = issued by the commission/agency, 2 = filed by a watched party (matched on the cover page — a
+  party's brief is often filed under its attorney's name), 3 = briefs/testimony/applications/tariffs, 4 = other.
+  Each run, after this week's candidates, take up to 15 enriched items not yet in state.backfill_cursor.done: all
+  tier 1–2 items first (newest first), then tier 3–4 items only when keywords or party_hits are non-empty. Treat
+  each exactly like a candidate (discovery-date Event IDs). Most will already be in the store — dedupe first; a
+  confirmed duplicate is simply marked done. Record processed ids in state.backfill_cursor.done (ids only).
 - data/backfill/baseline_links_<date>.jsonl lists links that were already on watched pages (RTO notices,
-  governors, agencies, IR decks, mirrors) when the collector first saw them — metadata only, keyword hits on
-  the title. Triage these by title; for any that could postdate 2026-09-18 and look on-beat, WebFetch the link
-  and treat it as a candidate (the ERCOT Batch Zero RFIs of 9 and 14 September are likely among them).
-  Each run, after this week's candidates, take up to 10 backfill documents that pass Step 3.2 triage, newest
-  first, and process them exactly like candidates (discovery-date Event IDs, as always). Track progress in
-  state.backfill_cursor. Party filings and orders first. Mark C-07 done when the backfill files are exhausted.
+  governors, agencies, IR decks, mirrors) when the collector first saw them — metadata only. Triage by title; for
+  any that could postdate 2026-09-18 and look on-beat, WebFetch the link and treat it as a candidate (the ERCOT
+  Batch Zero RFIs of 9 and 14 September are likely among them). Finish this file in the first two runs.
+- Mark C-07 done when data/health/latest.json shows backfill_text status "complete" and every enriched item is
+  processed or skipped.
