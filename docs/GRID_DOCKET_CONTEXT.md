@@ -155,10 +155,18 @@ the repo says (OneDrive IDs, read-only mail, one email to Rett, no credentials/C
 repo and follow `prompts/sweep.md` / `brief.md`", then a degraded fallback if the clone fails. So **changing
 `prompts/*.md` in the repo changes next Monday's behaviour** without touching the tasks.
 
-**Model.** Each task stores its own model, set from the session that created or last updated it — all three run
-**`claude-opus-5-5`**. It changes only when Rett asks (any session can update it with the scheduled-task tools, or
-Rett can change it in the task's settings). A cheaper model (Sonnet 5.5) for the Brief is a reasonable cost
-option; the Sweep's classification and verification work benefits most from Opus.
+**Models (set 3 Oct, at Rett's request: Opus where judgment matters, Sonnet where it is enough).**
+- **Sweep** runs on `claude-opus-5-5` (triage, classification, verification, corrections, commits) and hands bulk
+  reading — per-document fact extraction, mail extraction, health tabulation — to subagents on `sonnet`.
+- **Brief** runs on `claude-sonnet-5-5` (setup, status, milestones, build, publish, send, record) and hands the
+  synthesis — narrative and email body — to one subagent on `opus`, then checks the email against the
+  invariants before sending.
+- **Manual pass** (Friday task) runs on `claude-opus-5-5`; Sonnet would do. A task bound to Rett's computer can
+  only have its model changed in the desktop app's task settings.
+- **Staying current.** Subagents use the aliases `opus` / `sonnet`, which always resolve to the newest model.
+  A task's own model is a fixed ID (the platform rejects aliases there), so each run records the models in use
+  and asks the alias subagents for their IDs; when a newer one appears, the Brief's STATUS CHECK says so and an
+  interactive session updates the tasks (scheduled runs never change their own model).
 
 **Why two cloud tasks, not one.** (1) The Brief is the watchdog: if the Sweep crashes, hangs or never fires, the
 Brief still runs and sends the `[No sweep]` failure notice — one combined task would fail silently, the failure

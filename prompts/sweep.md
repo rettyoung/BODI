@@ -7,6 +7,14 @@ WHAT FEEDS THIS RUN
   C. The manual pass: JSON files Rett's computer drops into /GridDocket/manual/ for the states that refuse automated access (VA, NC, SC, IL, OH, WV, NV) and for documents the cloud cannot open.
   D. Your own WebFetch/WebSearch, for Pennsylvania (the collector is refused at TLS), for Arizona documents the collector could not open, and as fallback for the manual-route states.
 
+MODEL ROUTING (this task's own model is Opus — it owns every judgment: triage, classification, verification, corrections, what to commit).
+Delegate bulk reading to subagents with the Agent tool, model "sonnet" (the alias always resolves to the newest Sonnet):
+  - per-document fact extraction for Step 3.4 and the enriched backfill (C-07): give each subagent up to 5 filing files and ask for structured facts only — parties, dates, MW, $, terms, deadlines, each with page/section reference and a verbatim quote of 40 words or fewer — no classification, no rows;
+  - mail extraction (Step 4): facts per message, sender, date, links; licensed sources stay facts-only;
+  - health tabulation (Step 2).
+Run independent subagents in parallel. Check every figure a subagent returns against its quote before it enters a row. If the Agent tool is unavailable, do the work yourself.
+MODEL CHECK: ask one subagent with model "opus" to reply with only its exact model id; record it and your own model id in the run record as models {main, opus_latest, sonnet_latest (from any sonnet subagent)}. If opus_latest is newer than your own model, add MODEL_UPDATE_AVAILABLE to the run record.
+
 ============================================================
 INVARIANTS — violating any of these is a failed run, not a degraded one
 ============================================================

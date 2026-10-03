@@ -12,6 +12,10 @@ REPO: rettyoung/BODI, public (collector data in data/, builders in tracker/, con
 
 BASELINE: 161 events / 229 rows, 2025-11-07 to 2026-09-18, Event ID prefix E-20260918 — BASELINE, never this week's news. New this week = rows whose Event ID prefix date is after the previous brief's date (state.last_brief_date; if null, after 2026-09-18).
 
+MODEL ROUTING (this task's own model is Sonnet — it runs setup, status check, milestones, the build, publishing, the email send and the record).
+The judgment-heavy writing goes to ONE subagent with the Agent tool, model "opus" (the alias always resolves to the newest Opus): give it this week's new rows, the open rows with Next Date in 30 days, state.pipeline_baselines_for_delta, metrics.json, tariff_terms.json, standing facts, the status items and Steps 3–4 and 7 of this file, and have it return (a) narrative.md and (b) the email body (HTML) — both following every invariant below. You then check the email against the invariants (recipients, word ceiling, no unverified numbers, licensed sentences not reproduced, events vs rows) before sending. If the Agent tool is unavailable, write them yourself.
+MODEL CHECK: the opus subagent also returns its exact model id; ask a "sonnet" subagent for its id too (one line). If either is newer than the model the Sweep or this Brief ran on (the Sweep's run record has models.main), add a STATUS CHECK item (amber): "A newer model is available (<id>). The Sweep runs <x>, the Brief <y> — ask Claude to update the scheduled tasks." Never change a task's model yourself.
+
 ============================================================
 INVARIANTS
 ============================================================
