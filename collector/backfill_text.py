@@ -61,10 +61,26 @@ def tier(item, parties):
     return 4
 
 
+def _has_text(it):
+    try:
+        f = json.load(open(os.path.join(ROOT, it["filing"])))
+    except Exception:
+        return True   # no filing file: nothing to enrich
+    return not f.get("fetch") or any(d.get("text") for d in f.get("documents") or [])
+
+
 def shortlist(parties, done):
+    out = []
+    # tier 0: this window's collector candidates whose documents did not extract (they feed the next Sweep)
+    for f in sorted(glob.glob(os.path.join(DATA, "candidates", "*.jsonl")))[-21:]:
+        for line in open(f):
+            it = json.loads(line)
+            if it.get("filing") and it["id"] not in done and it.get("source") not in ("watch_pages", "rss", "mirrors") \
+                    and not _has_text(it):
+                it["_candidate"] = True
+                out.append((0, it.get("filed") or "", it))
     files = sorted(f for f in glob.glob(os.path.join(DATA, "backfill", "*.jsonl"))
                    if re.search(r"/\d{4}-\d{2}-\d{2}\.jsonl$", f))
-    out = []
     for f in files:
         for line in open(f):
             it = json.loads(line)
@@ -82,6 +98,8 @@ def enrich(http, cfg, state, fetch_docs, keyword_hit, ctx_factory, seconds, max_
     t0 = time.time()
     st = state.setdefault("backfill_text", {"done": []})
     done = set(st["done"])
+    attempts = st.setdefault("attempts", {})
+    tried_tonight = set()
     parties, kws = cfg.get("parties", []), cfg.get("keywords", [])
     queue = shortlist(parties, done)
     rec = {"queue": len(queue), "enriched": 0, "docs": 0, "errors": 0, "status": "ok"}
@@ -93,6 +111,9 @@ def enrich(http, cfg, state, fetch_docs, keyword_hit, ctx_factory, seconds, max_
         for t, _, it in queue:
             if time.time() - t0 > seconds or rec["docs"] >= max_docs:
                 break
+            if it["id"] in tried_tonight:
+                continue
+            tried_tonight.add(it["id"])
             path = os.path.join(ROOT, it["filing"])
             filing = load_json(path, None)
             if not filing or not filing.get("fetch"):
@@ -101,11 +122,23 @@ def enrich(http, cfg, state, fetch_docs, keyword_hit, ctx_factory, seconds, max_
             docs = fetch_docs(http, filing, ctx)
             rec["docs"] += len(docs)
             rec["errors"] += sum(1 for d in docs if d.get("error"))
+            if not any(d.get("text") for d in docs):
+                # nothing extracted (fetch error, or no document link found): retry on later nights, give up after 3
+                n = attempts.get(it["id"], 0) + 1
+                attempts[it["id"]] = n
+                if n < 3:
+                    rec["retry_later"] = rec.get("retry_later", 0) + 1
+                    continue
+                rec["gave_up"] = rec.get("gave_up", 0) + 1
             cover = " ".join((d.get("text") or "")[:3000] for d in docs[:1])
             phits = _hits(f"{it.get('title') or ''} {it.get('entity') or ''} {cover}", parties)
             hits = keyword_hit(filing, docs, kws)
             filing.update(documents=docs, keywords=hits, party_hits=phits, enriched_at=now_utc())
             save_json(path, filing)
+            if it.get("_candidate"):        # a current candidate: the Sweep reads its filing file directly
+                done.add(it["id"])
+                rec["candidates_filled"] = rec.get("candidates_filled", 0) + 1
+                continue
             line = {k: it.get(k) for k in ("id", "jur", "source", "kind", "docket", "title", "filed", "url", "entity", "filing")}
             line.update(tier=t if not (t > 2 and phits) else 2, keywords=hits, party_hits=phits, enriched_at=now_utc(),
                         docs=[{"url": d.get("url"), "quality": d.get("quality"), "ocr": d.get("ocr"),
@@ -117,6 +150,7 @@ def enrich(http, cfg, state, fetch_docs, keyword_hit, ctx_factory, seconds, max_
     finally:
         ctx.close()
         st["done"] = sorted(done)
+        st["attempts"] = {k: v for k, v in attempts.items() if k not in done}
     rec["remaining"] = max(0, len(queue) - rec["enriched"])
     rec["seconds"] = round(time.time() - t0, 1)
     return rec

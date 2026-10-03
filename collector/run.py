@@ -308,7 +308,7 @@ def main(only=None):
         try:
             health["backfill_text"] = backfill_text.enrich(http, cfg, state, fetch_docs, keyword_hit,
                                                            lambda: Ctx(cfg, state, http), left,
-                                                           int(os.environ.get("BF_DOCS", "150")))
+                                                           int(os.environ.get("BF_DOCS", "400")))
         except Timeout:
             health["backfill_text"] = {"status": "PARTIAL", "error": "time budget exceeded"}
         except Exception as e:

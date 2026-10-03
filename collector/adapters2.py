@@ -72,7 +72,13 @@ def eia(ctx):
     last_ok = ctx.state.get("last_period")
     url = ("https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly"
            "&data[0]=nameplate-capacity-mw&sort[0][column]=period&sort[0][direction]=desc&length=1")
-    head = ctx.http.get(url + f"&api_key={key}").json().get("response", {}).get("data", [])
+    try:
+        head = ctx.http.get(url + f"&api_key={key}").json().get("response", {}).get("data", [])
+    except Exception as e:
+        if key == "DEMO_KEY" and "429" in str(e):
+            ctx.record("eia", "rate_limited", "public DEMO_KEY rate limit (shared runner IP); a repo secret EIA_API_KEY avoids it")
+            return []
+        raise
     if not head:
         ctx.log("eia: no data")
         return []
@@ -126,8 +132,14 @@ def congress(ctx):
     since = f"{ctx.since}T00:00:00Z"
     items, offset = [], 0
     while offset < 1000:
-        j = ctx.http.get(f"https://api.congress.gov/v3/bill?fromDateTime={since}&sort=updateDate+desc&limit=250"
-                         f"&offset={offset}&format=json&api_key={key}").json()
+        try:
+            j = ctx.http.get(f"https://api.congress.gov/v3/bill?fromDateTime={since}&sort=updateDate+desc&limit=250"
+                             f"&offset={offset}&format=json&api_key={key}").json()
+        except Exception as e:
+            if key == "DEMO_KEY" and "429" in str(e):
+                ctx.record("congress", "rate_limited", "public DEMO_KEY rate limit; kept what was read")
+                break
+            raise
         bills = j.get("bills", [])
         for b in bills:
             title = b.get("title") or ""

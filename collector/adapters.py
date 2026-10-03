@@ -338,7 +338,7 @@ def tx_puct(ctx):
 def tx_files(http, ctrl, item):
     html = http.get(f"https://interchange.puc.texas.gov/search/documents/?controlNumber={ctrl}&itemNumber={item}").text
     return list(dict.fromkeys(urljoin("https://interchange.puc.texas.gov/", u) for u in
-                              re.findall(r'href="(/Documents/[^"]+\.(?:PDF|pdf|ZIP|zip|DOCX|docx|XLSX|xlsx))"', html)))
+                              re.findall(r'href="((?:https?://interchange\.puc\.texas\.gov)?/Documents/[^"]+\.(?:PDF|pdf|ZIP|zip|DOCX|docx|XLSX|xlsx))"', html)))
 
 
 # =========================================================================== Kansas
