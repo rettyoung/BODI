@@ -1,0 +1,21 @@
+{
+ "filing": "data/filings/AZ/az_acc/AZ_468636.json",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/0000217295.pdf"
+  }
+ ],
+ "docs": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/0000217295.pdf",
+   "error": "blocked: robots.txt disallows https://images.edocket.azcc.gov/docketpdf/0000217295.pdf (SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V)"
+  }
+ ],
+ "log": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/0000217295.pdf",
+   "result": "robots_disallow",
+   "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
+  }
+ ]
+}

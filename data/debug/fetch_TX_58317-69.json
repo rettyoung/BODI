@@ -1,0 +1,59 @@
+{
+ "filing": "data/filings/TX/tx_puct/TX_58317-69.json",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "69"
+   ]
+  }
+ ],
+ "listing_status": 200,
+ "listing_len": 12166,
+ "listing_head": "<!DOCTYPE html>\r\n<html class=\"no-js\" lang=\"en\">\r\n<head>\r\n    <meta http-equiv=\"x-ua-compatible\" content=\"IE=Edge\">\r\n    <meta charset=\"utf-8\"/>\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta http-equiv=\"pragma\" content=\"no-cache\">\r\n    <meta http-equiv=\"cache-control\" content=\"no-cache, must-revalidate\">\r\n    <meta http-equiv=\"expires\" content=\"0\">\r\n    <meta name=\"title\" content=\"Interchange Search\">\r\n    <meta name=\"description\" content=\"Public Utility Commission of Texas Interchange Search\">\r\n    <meta name=\"keywords\" content=\"Austin, Texas, Public Utility Commission, PUC, PUCT, Interchange\">\r\n    \r\n    <title>Interchange - Documents</title>\r\n    <link rel=\"icon\" href=\"/favicon.ico\" />\r\n    <link href=\"/Content/css?v=_J--WzTqgXpBySvpm_jS9qSnupz7IjYmM-KNORJAzpw1\" rel=\"stylesheet\"/>\r\n\r\n    <link href=\"/Content/themes/base/css?v=i7BOC3S3137TEzZVBFmOebNbXdz0DQAHpplKmp0vqfc1\" rel=\"stylesheet\"/>\r\n\r\n    <link href=\"/Content/themes/base/datepicker.css\" rel=\"stylesheet\"/>\r\n\r\n    <script src=\"/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1\"></script>\r\n\r\n    <script>\r\n(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\nga('create', 'UA-21943797-4', 'texas.gov');\r\nga('send', 'pageview');\r\n</script>\r\n\r\n</head>\r\n<body>\r\n    \r\n    <a href=\"#main\" class=\"sr-only sr-only-focusable\">Skip to main content</a>\r\n    <div id=\"bodyWrapper\">\r\n        <header class=\"hidden-xs navbar navbar-fixed-top\" role=\"navigation\">\r\n            <a href=\"https://www.puc.texas.gov/\"><img src=\"/Content/images/logoSeal.png\" style=\"height: 136px; padding-left: 7px; padding-top: 7px; position: relative; float: left;\" /></a>\r\n            <div style=\"height: 144px; background-color: #3f51b5; padding-left: 155px; padding-top: 25px;\">\r\n                <span style=\"color: white; font-size: xx-large; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif\">Public Utility Commission of Texas</span><br/>\r\n                <span style=\"color: white; font-size: x-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\">Interchange Filing Search</span>\r\n            </div>\r\n        </header>\r\n        <header class=\"visible-xs navbar navbar-fixed-top\" role=\"navigation\">\r\n            <div class=\"container-fluid\" style=\"height: 80px; background-color: #3f51b5; padding-top: 20px; padding-left: 10px;\">\r\n                <span class=\"smallHeader\">Public Utility Commission of Texas</span>\r\n            </div>\r\n        </header>\r\n        \r\n\r\n\r\n\r\n    <div id=\"main\" role=\"main\" class=\"container body-content\">\r\n        <noscript>\r\n    <br/>\r\n    <br />\r\n    <div class=\"row\"> \r\n        <div class=\"col-md-12\">\r\n            <div class=\"alert alert-warning\"",
+ "hrefs": [
+  "/favicon.ico",
+  "/Content/css?v=_J--WzTqgXpBySvpm_jS9qSnupz7IjYmM-KNORJAzpw1",
+  "/Content/themes/base/css?v=i7BOC3S3137TEzZVBFmOebNbXdz0DQAHpplKmp0vqfc1",
+  "/Content/themes/base/datepicker.css",
+  "#main",
+  "https://www.puc.texas.gov/",
+  "/",
+  "/search/daily/",
+  "https://www.puc.texas.gov/industry/filings/Default.aspx",
+  "https://portal.puc.texas.gov/portal/",
+  "https://interchange.puc.texas.gov/filer",
+  "#",
+  "/",
+  "/search/daily/",
+  "https://www.puc.texas.gov/industry/filings/Default.aspx",
+  "https://portal.puc.texas.gov/portal/",
+  "https://interchange.puc.texas.gov/filer",
+  "https://interchange.puc.texas.gov/Documents/58317_69_1685515.ZIP",
+  "https://interchange.puc.texas.gov/Documents/58317_69_1685516.PDF",
+  "tel://1-512-936-7000",
+  "https://www.puc.texas.gov/agency/about/contact/Default.aspx",
+  "http://www.puc.texas.gov/agency/about/policies/Default.aspx",
+  "http://www.puc.texas.gov/agency/Sitemap.aspx",
+  "http://sao.fraud.state.tx.us/",
+  "http://governor.state.tx.us/homeland",
+  "http://www.ready.gov/",
+  "http://texas.gov",
+  "https://veterans.portal.texas.gov/",
+  "https://www.tsl.state.tx.us/trail/index.html",
+  "http://www.puc.texas.gov/agency/calendar/GetCalendarRss.aspx",
+  "http://www.facebook.com/pages/Public-Utility-Commission-of-Texas/207063229365425",
+  "https://twitter.com/PUCTx"
+ ],
+ "docs": [],
+ "log": [
+  {
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=69",
+   "result": 200
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=69",
+   "result": 200
+  }
+ ]
+}

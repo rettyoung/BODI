@@ -1,0 +1,6 @@
+{
+ "host": "images.edocket.azcc.gov",
+ "leaf_pem_head": "-----BEGIN CERTIFICATE-----\nMIIHRTCCBi2gAwIBAgIQDe0aYPlmtq4Y0CktaaIdLjANBgkqhkiG9w0BAQsFADBZ\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMTMwMQYDVQQDEypE\naWdpQ2VydCBHbG9iYWwgRzIgVExTIFJTQSBTSEEyNT",
+ "default_verify_error": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for \\'images.edocket.azcc.gov\\'. (_ssl.c:1010)\")))'))",
+ "aia_error": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for \\'images.edocket.azcc.gov\\'. (_ssl.c:1010)\")))'))"
+}
