@@ -17,7 +17,8 @@ keywords: [large load, large-load, data center, data centre, hyperscale, colocat
   crypto, bitcoin, mining load, transmission service, network upgrade, CIAC, contribution in aid,
   CPCN, certificate of public convenience, IRP, integrated resource plan, RFP, gas turbine,
   combined cycle, nuclear, SMR, uprate, battery storage, curtailment, flexible load, demand response,
-  ratepayer protection, cost allocation, cost shift]
+  ratepayer protection, cost allocation, cost shift, batch zero, NPRR, PGRR, verification RFI, community impact,
+  load forecast, firm load shed, emergency]
 
 jurisdictions:
   FERC: {route: collector, adapter: ferc}
