@@ -1,15 +1,199 @@
 {
  "adapter": "congress",
  "since": "2026-06-01",
- "items": 0,
- "sample": [],
+ "items": 29,
+ "sample": [
+  {
+   "id": "BILL:US:119-S-5411:2026-09-16",
+   "jur": "US-Federal",
+   "source": "congress",
+   "kind": "legislation",
+   "docket": "S 5411",
+   "title": "Emergency Grant Aid for College Students Act",
+   "filed": "2026-09-16",
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5411",
+   "fetch": [],
+   "meta": {
+    "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+    "keywords": [
+     "emergency"
+    ]
+   }
+  },
+  {
+   "id": "BILL:US:119-S-1055:2026-09-30",
+   "jur": "US-Federal",
+   "source": "congress",
+   "kind": "legislation",
+   "docket": "S 1055",
+   "title": "Indian Health Service Emergency Claims Parity Act",
+   "filed": "2026-09-30",
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1055",
+   "fetch": [],
+   "meta": {
+    "latest_action": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5298; text: CR S5298)",
+    "keywords": [
+     "emergency"
+    ]
+   }
+  },
+  {
+   "id": "BILL:US:118-S-4869:2024-07-30",
+   "jur": "US-Federal",
+   "source": "congress",
+   "kind": "legislation",
+   "docket": "S 4869",
+   "title": "Indian Health Service Emergency Claims Parity Act",
+   "filed": "2024-07-30",
+   "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4869",
+   "fetch": [],
+   "meta": {
+    "latest_action": "Read twice and referred to the Committee on Indian Affairs.",
+    "keywords": [
+     "emergency"
+    ]
+   }
+  },
+  {
+   "id": "BILL:US:119-HR-10448:2026-09-16",
+   "jur": "US-Federal",
+   "source": "congress",
+   "kind": "legislation",
+   "docket": "HR 10448",
+   "title": "Reverse Big Ugly Tax Breaks for Data Centers Act",
+   "filed": "2026-09-16",
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/10448",
+   "fetch": [],
+   "meta": {
+    "latest_action": "Referred to the House Committee on Ways and Means.",
+    "keywords": [
+     "data center",
+     "data centers"
+    ]
+   }
+  },
+  {
+   "id": "BILL:US:119-HR-4354:2025-07-10",
+   "jur": "US-Federal",
+   "source": "congress",
+   "kind": "legislation",
+   "docket": "HR 4354",
+   "title": "Agricultural Emergency Relief Act of 2025",
+   "filed": "2025-07-10",
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/4354",
+   "fetch": [],
+   "meta": {
+    "latest_action": "Referred to the House Committee on Agriculture.",
+    "keywords": [
+     "emergency"
+    ]
+   }
+  },
+  {
+   "id": "BILL:US:118-S-4714:2024-07-11",
+   "jur": "US-Federal",
+   "source": "congress",
+   "kind": "legislation",
+   "docket": "S 4714",
+   "title": "Fraudulent Artificial Intelligence Regulations (FAIR) Elections Act of 2024",
+   "filed": "2024-07-11",
+   "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4714",
+   "fetch": [],
+   "meta": {
+    "latest_action": "Read twice and referred to the Committee on Rules and Administration.",
+    "keywords": [
+     "artificial intelligence"
+    ]
+   }
+  },
+  {
+   "id": "BILL:US:119-HR-9340:2026-09-30",
+   "jur": "US-Federal",
+   "source": "congress",
+   "kind": "legislation",
+   "docket": "HR 9340",
+   "title": "Ratepayer Protection Act",
+   "filed": "2026-09-30",
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/9340",
+   "fetch": [],
+   "meta": {
+    "latest_action": "Motion to proceed to consideration of measure withdrawn in Senate. (CR S5199)",
+    "keywords": [
+     "ratepayer protection"
+    ]
+   }
+  },
+  {
+   "id": "BILL:US:119-HR-10686:2026-10-01",
+   "jur": "US-Federal",
+   "source": "congress",
+   "kind": "legislation",
+   "docket": "HR 10686",
+   "title": "To direct the Secretary of Homeland Security, acting through the Administrator of the Federal Emergency Management Agency, to establish a pilot program to award grants to covered entities to support the design, development, facilitation, or implementation of community-based catastrophe insurance.",
+   "filed": "2026-10-01",
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/10686",
+   "fetch": [],
+   "meta": {
+    "latest_action": "Referred to the House Committee on Financial Services.",
+    "keywords": [
+     "emergency"
+    ]
+   }
+  }
+ ],
  "notes": [],
  "sub": {
   "congress": {
-   "status": "no_key",
-   "note": "add repo secret CONGRESS_API_KEY to enable"
+   "status": "demo_key",
+   "note": "running on the public DEMO_KEY; a repo secret CONGRESS_API_KEY lifts the rate limit"
   }
  },
- "exchanges": [],
+ "exchanges": [
+  {
+   "method": "GET",
+   "url": "https://api.congress.gov/robots.txt",
+   "req": "None",
+   "status": 403,
+   "ctype": "application/json",
+   "len": 133,
+   "body": "{\n  \"error\": {\n    \"code\": \"API_KEY_MISSING\",\n    \"message\": \"No api_key was supplied. Get one at https://api.congress.gov:443\"\n  }\n}"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.congress.gov/v3/bill?fromDateTime=2026-06-01T00:00:00Z&sort=updateDate+desc&limit=250&offset=0&format=json&api_key=DEMO_KEY",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 172544,
+   "body": "{\n    \"bills\": [\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-05-13\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-14\",\n                \"text\": \"Received in the Senate.\"\n            },\n            \"number\": \"8800\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"National Defense Authorization Act for Fiscal Year 2027\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-03\",\n            \"updateDateIncludingText\": \"2026-10-03\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/8800?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-17\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-17\",\n                \"text\": \"Referred to the House Committee on Armed Services.\"\n            },\n            \"number\": \"10481\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"National Guard Heritage Welfare Society Act\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-03\",\n            \"updateDateIncludingText\": \"2026-10-03\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/10481?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-03-14\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-05-21\",\n                \"text\": \"Ordered to be Reported by the Yeas and Nays: 48 - 0.\"\n            },\n            \"number\": \"2145\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Recycling Infrastructure and Accessibility Act of 2025\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-03\",\n            \"updateDateIncludingText\": \"2026-10-03\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/2145?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-07-09\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-16\",\n                \"text\": \"Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.\"\n            },\n            \"number\": \"9617\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"CHARM Act\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-03\",\n            \"updateDateIncludingText\": \"2026-10-03\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/9617?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-11-20\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-10-01\",\n                \"actionTime\": \"11:33:03\",\n                \"text\": \"Held at the desk.\"\n            },\n            \"number\": \"3258\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"Aviation Medication Transparency Act of 2026\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-03\",\n            \"updateDateIncludingText\": \"2026-10-03\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/3258?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-04-02\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-15\",\n                \"text\": \"Ordered to be Reported (Amended) by Voice Vote.\"\n            },\n            \"number\": \"2592\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Aviation Medication Transparency Act of 2025\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-03\",\n            \"updateDateIncludingText\": \"2026-10-03\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/2592?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-06-24\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-05-14\",\n                \"text\": \"Forwarded by Subcommittee to Full Committee by Voice Vote.\"\n            },\n            \"number\": \"4109\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Recycling and Composting Accountability Act\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-03\",\n            \"updateDateIncludingText\": \"2026-10-03\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/4109?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-09-15\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-30\",\n                \"text\": \"Passed Senate with an amendment and an amendment to the Title by Unanimous Consent.\"\n            },\n            \"number\": \"5349\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"TAS Act\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-03\",\n            \"updateDateIncludingText\": \"2026-10-03\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/5349?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-12-02\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-30\",\n                \"text\": \"Passed Senate with an amendment by Unanimous Consent. (text: CR S5234-5236)\"\n            },\n            \"number\": \"3315\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"Health Care Cybersecurity and Resiliency Act of 2026\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-03\",\n            \"updateDateIncludingText\": \"2026-10-03\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/3315?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-15\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-15\",\n                \"text\": \"Read twice and referred to the Committee on Energy and Natura"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.congress.gov/v3/bill?fromDateTime=2026-06-01T00:00:00Z&sort=updateDate+desc&limit=250&offset=250&format=json&api_key=DEMO_KEY",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 182446,
+   "body": "{\n    \"bills\": [\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-15\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-15\",\n                \"text\": \"Referred to the Committee on the Judiciary, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.\"\n            },\n            \"number\": \"10377\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"MAGA Act\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/10377?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-07-24\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-30\",\n                \"text\": \"Passed Senate with an amendment by Unanimous Consent. (consideration: CR S5296-5297; text: CR S5296)\"\n            },\n            \"number\": \"2437\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"Snow Water Supply Forecasting Program Reauthorization Act of 2026\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/2437?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-08-05\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-30\",\n                \"text\": \"Passed Senate with an amendment by Unanimous Consent. (consideration: CR S5295-5296; text: CR S5295-5296)\"\n            },\n            \"number\": \"5249\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"MORE American Fuel Act of 2026\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/5249?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-09-09\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-30\",\n                \"text\": \"Passed Senate without amendment by Unanimous Consent. (consideration: CR S5295)\"\n            },\n            \"number\": \"5235\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Skills-Based Federal Contracting Act of 2025\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/5235?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-11-06\",\n            \"latestAction\": {\n                \"actionDate\": \"2025-11-06\",\n                \"text\": \"Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.\"\n            },\n            \"number\": \"3140\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"Flood Protection and Infrastructure Resilience Act of 2025\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/3140?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-07-14\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-30\",\n                \"text\": \"Passed Senate without amendment by Unanimous Consent. (consideration: CR S5295; text: CR S5295)\"\n            },\n            \"number\": \"2273\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"Wyoming Education Trust Modernization Act\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/2273?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-01-12\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-30\",\n                \"text\": \"Passed Senate without amendment by Unanimous Consent. (consideration: CR S5237-5238)\"\n            },\n            \"number\": \"7022\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Mystic Alerts Act\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/7022?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-07-15\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-07-15\",\n                \"text\": \"Referred to the Committee on Education and Workforce, and in addition to the Committees on the Judiciary, Transportation and Infrastructure, Energy and Commerce, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.\"\n            },\n            \"number\": \"112\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Recognizing the need to improve physical access to many federally funded facilities for all persons of the United States, particularly persons with disabilities.\",\n            \"type\": \"HCONRES\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hconres/112?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"intro"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.congress.gov/v3/bill?fromDateTime=2026-06-01T00:00:00Z&sort=updateDate+desc&limit=250&offset=500&format=json&api_key=DEMO_KEY",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 175890,
+   "body": "{\n    \"bills\": [\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-05-29\",\n            \"latestAction\": {\n                \"actionDate\": \"2025-05-29\",\n                \"text\": \"Referred to the House Committee on Education and Workforce.\"\n            },\n            \"number\": \"3624\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Improving Mental Health Access for Students Act\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/3624?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-11-10\",\n            \"latestAction\": {\n                \"actionDate\": \"2025-11-10\",\n                \"text\": \"Referred to the House Committee on Energy and Commerce.\"\n            },\n            \"number\": \"872\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Supporting the goals and ideals of \\\"Creutzfeldt-Jakob Disease (CJD) Awareness Day\\\".\",\n            \"type\": \"HRES\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hres/872?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-04-08\",\n            \"latestAction\": {\n                \"actionDate\": \"2025-04-08\",\n                \"text\": \"Referred to the House Committee on Education and Workforce.\"\n            },\n            \"number\": \"2736\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Public Service Freedom to Negotiate Act of 2025\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/2736?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-10-03\",\n            \"latestAction\": {\n                \"actionDate\": \"2025-10-03\",\n                \"text\": \"Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.\"\n            },\n            \"number\": \"5684\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Medical Foods and Formulas Access Act of 2025\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/5684?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-16\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-16\",\n                \"text\": \"Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.\"\n            },\n            \"number\": \"10473\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Justice for Ukrainian Children Act\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/10473?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-03-06\",\n            \"latestAction\": {\n                \"actionDate\": \"2025-03-06\",\n                \"text\": \"Referred to the House Committee on the Judiciary.\"\n            },\n            \"number\": \"1941\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Preventing Deepfakes of Intimate Images Act\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/1941?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-05-21\",\n            \"latestAction\": {\n                \"actionDate\": \"2025-05-21\",\n                \"text\": \"Referred to the Committee on Education and Workforce, and in addition to the Committees on Ways and Means, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.\"\n            },\n            \"number\": \"3543\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"College for All Act of 2025\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/3543?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-05-21\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-05-21\",\n                \"text\": \"Referred to the House Committee on Education and Workforce.\"\n            },\n            \"number\": \"8980\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Holiday Pay Act\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/8980?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2025-04-01\",\n            \"latestAction\": {\n                \"actionDate\": \"2025-04-01\",\n                \"text\": \"Refer"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.congress.gov/v3/bill?fromDateTime=2026-06-01T00:00:00Z&sort=updateDate+desc&limit=250&offset=750&format=json&api_key=DEMO_KEY",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 175114,
+   "body": "{\n    \"bills\": [\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-28\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-28\",\n                \"text\": \"Referred to the House Committee on Agriculture.\"\n            },\n            \"number\": \"10635\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Saving Rural Reservoirs Act\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/10635?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-24\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-24\",\n                \"text\": \"Read twice and referred to the Committee on Finance.\"\n            },\n            \"number\": \"5513\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"Domestic Manufacturing Revitalization Act of 2026\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/5513?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-24\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-24\",\n                \"text\": \"Read twice and referred to the Committee on the Judiciary.\"\n            },\n            \"number\": \"5528\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"Supreme Court Review Act of 2026\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/5528?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-24\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-24\",\n                \"text\": \"Read twice and referred to the Committee on Rules and Administration.\"\n            },\n            \"number\": \"5505\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"Safe and Fair Elections Act of 2026\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/5505?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-24\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-24\",\n                \"text\": \"Referred to the Committee on Ways and Means, and in addition to the Committees on Financial Services, the Judiciary, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.\"\n            },\n            \"number\": \"10595\",\n            \"originChamber\": \"House\",\n            \"originChamberCode\": \"H\",\n            \"title\": \"Stop Wall Street Looting Act\",\n            \"type\": \"HR\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/hr/10595?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-23\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-23\",\n                \"text\": \"Read twice and referred to the Committee on Commerce, Science, and Transportation.\"\n            },\n            \"number\": \"5493\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"Ban Artificial Superintelligence Act of 2026\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/5493?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-24\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-24\",\n                \"text\": \"Read twice and referred to the Committee on Health, Education, Labor, and Pensions.\"\n            },\n            \"number\": \"5520\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"SCREENS Act\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/5520?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-15\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-16\",\n                \"text\": \"Committee on Energy and Natural Resources. Hearings held.\"\n            },\n            \"number\": \"5402\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"Western Water Reinvestment Act\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/5402?format=json\"\n        },\n        {\n            \"congress\": 119,\n            \"introducedDate\": \"2026-09-15\",\n            \"latestAction\": {\n                \"actionDate\": \"2026-09-15\",\n                \"text\": \"Read twice and referred to the Committee on Energy and Natural Resources.\"\n            },\n            \"number\": \"5401\",\n            \"originChamber\": \"Senate\",\n            \"originChamberCode\": \"S\",\n            \"title\": \"Good Energy Jobs Act of 2026\",\n            \"type\": \"S\",\n            \"updateDate\": \"2026-10-02\",\n            \"updateDateIncludingText\": \"2026-10-02\",\n            \"url\": \"https://api.congress.gov/v3/bill/119/s/5401?format=json\"\n        },\n        {\n            \"co"
+  }
+ ],
  "adapter_state": {}
 }
