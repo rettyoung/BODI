@@ -678,6 +678,8 @@ def watch_pages(ctx):
             text = re.sub(r"<[^>]+>|\s+", " ", label).strip()
             if not rx.search(u + " " + text) or len(text) < 3:
                 continue
+            if p.get("title_filter") and not re.search(p["title_filter"], text, re.I):
+                continue   # busy pages (court opinions, agency newsrooms): only on-topic link text is fetched
             n += 1
             items.append({"id": f"PAGE:{p['id']}:{u}", "jur": p.get("jur"), "source": f"page:{p['id']}", "kind": "news",
                           "docket": None, "title": text[:300], "filed": None, "url": u,
@@ -761,3 +763,7 @@ ADAPTERS = {
     "nm_prc": nm_prc, "mo_efis": mo_efis, "al_psc": al_psc, "watch_pages": watch_pages, "rss": rss, "ir_decks": ir_decks,
     "mirrors": mirrors,
 }
+
+# Second-wave adapters (keyed APIs, queues, courts, local government).
+from adapters2 import ADAPTERS2  # noqa: E402
+ADAPTERS.update(ADAPTERS2)

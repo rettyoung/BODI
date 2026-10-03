@@ -76,7 +76,11 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   finding.
 
 ## C-07 — Docket-activity backfill (ongoing until empty)
-- data/backfill/*.jsonl holds full docket activity from 2025-11-07 for the collector states (one-off pull).
+- data/backfill/<date>.jsonl holds full docket activity from 2025-11-07 for the collector states (one-off pull).
+- data/backfill/baseline_links_<date>.jsonl lists links that were already on watched pages (RTO notices,
+  governors, agencies, IR decks, mirrors) when the collector first saw them — metadata only, keyword hits on
+  the title. Triage these by title; for any that could postdate 2026-09-18 and look on-beat, WebFetch the link
+  and treat it as a candidate (the ERCOT Batch Zero RFIs of 9 and 14 September are likely among them).
   Each run, after this week's candidates, take up to 10 backfill documents that pass Step 3.2 triage, newest
   first, and process them exactly like candidates (discovery-date Event IDs, as always). Track progress in
   state.backfill_cursor. Party filings and orders first. Mark C-07 done when the backfill files are exhausted.

@@ -116,7 +116,8 @@ federal_register:
   agencies: [federal-energy-regulatory-commission, energy-department, environmental-protection-agency,
              nuclear-regulatory-commission, executive-office-of-the-president]
   terms: ["large load", "data center", "co-location", "colocation", "resource adequacy", "interconnection",
-          "202(c)", "artificial intelligence infrastructure", "grid reliability"]
+          "202(c)", "artificial intelligence infrastructure", "grid reliability", "restart", "power uprate",
+          "small modular reactor", "loan guarantee"]
 
 # Page watchers: list pages whose new links become candidates. render=true uses headless Chromium.
 # verify=true means the URL is seeded from knowledge and is checked on first run; failures show in health.
@@ -145,6 +146,43 @@ watch_pages:
   - {id: gov_la, jur: LA, url: "https://gov.louisiana.gov/news/", link: "/news/", verify: true}
   - {id: gov_nc, jur: NC, url: "https://governor.nc.gov/news/press-releases", link: "press-releases/", verify: true}
   - {id: puct_news, jur: TX, url: "https://www.puc.texas.gov/agency/resources/pubs/news/", link: "\\.pdf|news", verify: true}
+
+  # ---- Recommendation 4: ERCOT large-load interconnection reporting (monthly overview and board updates)
+  - {id: ercot_load, jur: TX, rto: ERCOT, url: "https://www.ercot.com/gridinfo/load", link: "\\.pdf|\\.xlsx", title_filter: "large load|operational overview|interconnection", verify: true}
+  - {id: ercot_board, jur: TX, rto: ERCOT, url: "https://www.ercot.com/committees/board", link: "\\.pdf|meeting", title_filter: "large load|interconnection|grid analysis|batch", verify: true}
+  # ---- Recommendation 5: capacity auction results and planning parameters
+  - {id: pjm_rpm, jur: FERC, rto: PJM, url: "https://www.pjm.com/markets-and-operations/rpm", link: "\\.pdf|\\.ashx|\\.xlsx", title_filter: "auction|results|planning parameters|BRA", verify: true}
+  - {id: miso_pra, jur: FERC, rto: MISO, url: "https://www.misoenergy.org/planning/resource-adequacy/", link: "\\.pdf|auction|PRA", title_filter: "auction|PRA|results", verify: true}
+  - {id: nyiso_icap, jur: FERC, rto: NYISO, url: "https://www.nyiso.com/installed-capacity-market", link: "\\.pdf|\\.xlsx", title_filter: "auction|results|demand curve", verify: true}
+  - {id: isone_fcm, jur: FERC, rto: ISO-NE, url: "https://www.iso-ne.com/markets-operations/markets/forward-capacity-market", link: "\\.pdf|fca|auction", title_filter: "auction|results|FCA|capacity", verify: true}
+  - {id: spp_ra, jur: FERC, rto: SPP, url: "https://www.spp.org/engineering/resource-adequacy/", link: "\\.pdf|adequacy", title_filter: "requirement|planning reserve|adequacy|PRM", verify: true}
+  # ---- Recommendation 6: state appellate courts (opinion lists; only utility/commission titles fetched)
+  - {id: va_scv, jur: VA, url: "https://www.vacourts.gov/scv/opinions/home", link: "\\.pdf", title_filter: "commission|electric|power|utilit|corporation", verify: true}
+  - {id: va_cav, jur: VA, url: "https://www.vacourts.gov/cav/opinions/home", link: "\\.pdf", title_filter: "commission|electric|power|utilit", verify: true}
+  - {id: pa_cmwlth, jur: PA, url: "https://www.pacourts.us/courts/commonwealth-court/court-opinions", link: "\\.pdf|opinion", title_filter: "utility|PUC|Public Utility|electric|PPL|PECO", verify: true}
+  # ---- Recommendation 7: governors' executive orders and newsrooms (remaining states)
+  - {id: gov_al, jur: AL, url: "https://governor.alabama.gov/newsroom/", link: "newsroom/", verify: true}
+  - {id: gov_il, jur: IL, url: "https://gov.illinois.gov/newsroom.html", link: "news", verify: true}
+  - {id: gov_ks, jur: KS, url: "https://governor.kansas.gov/newsroom/", link: "/", verify: true}
+  - {id: gov_mo, jur: MO, url: "https://governor.mo.gov/press-releases", link: "press-releases/", verify: true}
+  - {id: gov_nm, jur: NM, url: "https://www.governor.state.nm.us/about-the-governor/executive-orders/", link: "\\.pdf|executive", verify: true}
+  - {id: gov_nv, jur: NV, url: "https://gov.nv.gov/Newsroom/PRs/", link: "Newsroom", verify: true}
+  - {id: gov_ok, jur: OK, url: "https://oklahoma.gov/governor/newsroom.html", link: "newsroom|executive", verify: true}
+  - {id: gov_sc, jur: SC, url: "https://governor.sc.gov/news", link: "news/", verify: true}
+  - {id: gov_wv, jur: WV, url: "https://governor.wv.gov/News/press-releases/", link: "press-releases|News", verify: true}
+  # ---- Recommendation 9: utility resource-plan and procurement (IRP / RFP) pages
+  - {id: irp_dominion, jur: VA, url: "https://www.dominionenergy.com/about/our-company/irp", link: "\\.pdf|irp", verify: true}
+  - {id: irp_duke, jur: NC, url: "https://www.duke-energy.com/our-company/about-us/irp-carolinas", link: "\\.pdf|irp|resource", verify: true}
+  - {id: irp_gapower, jur: GA, url: "https://www.georgiapower.com/company/news-center/irp.html", link: "\\.pdf|irp", verify: true}
+  - {id: irp_aps, jur: AZ, url: "https://www.aps.com/en/About/Our-Company/Doing-Business-with-Us/Resource-Planning-and-Procurement", link: "\\.pdf|rfp|irp|resource", verify: true}
+  - {id: rfp_entergy, jur: LA, url: "https://spofossil.entergy.com/ENTRFP/SEND/", link: "RFP|\\.pdf", verify: true}
+  - {id: irp_evergy, jur: KS, url: "https://www.evergy.com/company/integrated-resource-plan", link: "\\.pdf|irp|resource", verify: true}
+  - {id: rfp_xcel_sps, jur: TX, url: "https://www.xcelenergy.com/company/rates_and_regulations/resource_plans", link: "\\.pdf|rfp|plan", verify: true}
+  # ---- Recommendation 10: DOE (financing, 202(c) emergency orders) and NRC (restarts, uprates, SMRs)
+  - {id: doe_news, jur: US-Federal, url: "https://www.energy.gov/newsroom", link: "/articles/", title_filter: "grid|power|electric|202|nuclear|loan|data cent|transmission", verify: true}
+  - {id: doe_202c, jur: US-Federal, url: "https://www.energy.gov/ceser/federal-power-act-section-202c", link: "\\.pdf|202", verify: true}
+  - {id: doe_lpo, jur: US-Federal, url: "https://www.energy.gov/lpo/lpo-news", link: "/articles/|lpo", verify: true}
+  - {id: nrc_news, jur: US-Federal, url: "https://www.nrc.gov/reading-rm/doc-collections/news/", link: "news|\\.pdf", title_filter: "restart|uprate|license|construction permit|small modular|SMR|Palisades|Crane|Duane Arnold|advanced reactor", verify: true}
 
 rss:
   - {id: pjm_insidelines, rto: PJM, url: "https://insidelines.pjm.com/feed/"}
@@ -179,3 +217,44 @@ mirrors:
   - {id: oh_occ_filings, jur: OH, owner: "Ohio Consumers' Counsel", url: "https://occ.ohio.gov/filings", link: "\\.pdf|filings/", mirror_of: "PUCO DIS filings by OCC"}
   - {id: nc_ncuc_main, jur: NC, owner: "NC Utilities Commission (main site)", url: "https://www.ncuc.gov/", link: "\\.pdf"}
   - {id: il_cub, jur: IL, owner: "Citizens Utility Board", url: "https://www.citizensutilityboard.org/blog/category/cub-battles/", link: "\\.pdf|citizensutilityboard.org/blog/20"}
+
+# ---- Recommendation 3: interconnection queues (monthly snapshot; deltas for tracked states).
+# PJM and ERCOT publish their queues behind registration (PJM Planning API key; ERCOT MIS); add them once
+# a key exists. MISO and SPP cover KS, OK, NM, LA, MO, IL, TX (non-ERCOT) and parts of others.
+queues:
+  - {id: miso, name: MISO, rto: MISO, jur: FERC, url: "https://www.misoenergy.org/api/giqueue/getprojects",
+     page: "https://www.misoenergy.org/planning/resource-utilization/GI_Queue/gi-interactive-queue/", verify: true}
+  - {id: spp, name: SPP, rto: SPP, jur: FERC, url: "https://opsportal.spp.org/Studies/GenerateActiveCSV",
+     page: "https://opsportal.spp.org/Studies/GIActive", verify: true}
+
+# ---- Recommendation 2: keyed APIs (adapters skip quietly until the repo secret exists)
+openstates_queries: ["data center", "large load", "electric service agreement"]
+
+# ---- Recommendation 6: courts (CourtListener; COURTLISTENER_TOKEN secret optional, enables docket search)
+court_queries:
+  - '"large load" AND (tariff OR commission OR FERC)'
+  - '"data center" AND ("public service commission" OR "corporation commission" OR "public utility commission")'
+  - '"co-location" AND (PJM OR FERC)'
+  - 'Microsoft AND "State Corporation Commission"'
+  - '"Retail Energy Advancement League"'
+  - 'Constellation AND PJM AND (colocation OR "co-location")'
+
+# ---- Recommendation 8: county and city agendas (Legistar Web API). Clients unconfirmed until the
+# first run; health shows which respond. Add others by client name.
+legistar_filter: "data ?cent|hyperscale|server farm|large load|data processing"
+legistar:
+  - {client: pwcgov, name: "Prince William County, VA", jur: VA}
+  - {client: loudoun, name: "Loudoun County, VA", jur: VA}
+  - {client: fairfaxcounty, name: "Fairfax County, VA", jur: VA}
+  - {client: henrico, name: "Henrico County, VA", jur: VA}
+  - {client: maricopa, name: "Maricopa County, AZ", jur: AZ}
+  - {client: phoenix, name: "City of Phoenix, AZ", jur: AZ}
+  - {client: mesa, name: "City of Mesa, AZ", jur: AZ}
+  - {client: columbus, name: "City of Columbus, OH", jur: OH}
+  - {client: fultoncountyga, name: "Fulton County, GA", jur: GA}
+  - {client: atlantacityga, name: "City of Atlanta, GA", jur: GA}
+  - {client: sanantonio, name: "City of San Antonio, TX", jur: TX}
+  - {client: fortworthgov, name: "City of Fort Worth, TX", jur: TX}
+  - {client: kansascity, name: "Kansas City, MO", jur: MO}
+  - {client: tulsa, name: "City of Tulsa, OK", jur: OK}
+  - {client: cityofreno, name: "City of Reno, NV", jur: NV}

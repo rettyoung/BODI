@@ -33,13 +33,14 @@ OVERLAP_DAYS = 3
 MAX_DOCS = int(os.environ.get("MAX_DOCS", "160"))
 MAX_BYTES = 60 * 1024 * 1024
 ADAPTER_BUDGET_S = int(os.environ.get("ADAPTER_BUDGET_S", "420"))
-BUDGETS = {"ir_decks": 1200, "watch_pages": 900, "edgar": 900, "ferc": 600, "la_lpsc": 600, "mo_efis": 600}
+BUDGETS = {"ir_decks": 1200, "watch_pages": 1500, "queues": 900, "openstates": 600, "legistar": 600, "edgar": 900, "ferc": 600, "la_lpsc": 600, "mo_efis": 600}
 RUN_DEADLINE_S = int(os.environ.get("RUN_DEADLINE_S", str(70 * 60)))   # the job is killed at 90 min; stop well before
 BACKFILL_SINCE = os.environ.get("BACKFILL_SINCE") or None   # one-off history pull: candidates go to data/backfill/
 PRIORITY = re.compile(r"order|tariff|rate schedule|settlement|stipulation|brief|testimony|compliance|agreement|contract|"
                       r"application|petition|complaint|protest|comments|report|notice of hearing|rule|directive|"
                       r"large load|data cent", re.I)
-BASELINE_SOURCES = {"watch_pages", "rss", "ir_decks", "mirrors"}   # undated lists: first sight = baseline
+BASELINE_SOURCES = {"watch_pages", "ir_decks", "mirrors"}   # undated lists: first sight = baseline (RSS is dated)
+LIST_PREFIXES = ("PAGE:", "RSS:", "IR:", "MIRROR:")
 
 
 class Timeout(Exception):
@@ -158,6 +159,14 @@ def main(only=None):
     cfg = yaml.safe_load(open(os.path.join(ROOT, "config", "watchlist.yaml")))
     state = load_json(STATE, {"seen": {}, "sources": {}, "baselined": [], "runs": 0})
     state["runs"] = state.get("runs", 0) + 1
+    if not BACKFILL_SINCE and not state.get("relist_v1"):
+        # One-time: the first run treated every link already on a page/feed as baseline and dropped it, so
+        # anything posted between the 2026-09-18 tracker baseline and that run was never offered to the
+        # Sweep. Forget those list items once; this run re-lists them into data/backfill/ for triage.
+        state["seen"] = {k: v for k, v in state["seen"].items() if not k.startswith(LIST_PREFIXES)}
+        state["baselined_keys"], state["bkey_migrated"], state["baselined"] = [], [], []
+        state.setdefault("sources", {}).get("rss", {}).pop("last_ok", None)
+        state["relist_v1"] = today()
     http = Http(delay=float(os.environ.get("DELAY_S", "3")))
     http.session.headers["User-Agent"] = cfg.get("user_agent") or http.session.headers["User-Agent"]
     run_id = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d-%H%M")
@@ -165,6 +174,7 @@ def main(only=None):
               "user_agent": http.session.headers["User-Agent"]}
     cand_path = os.path.join(DATA, "backfill" if BACKFILL_SINCE else "candidates", f"{today()}.jsonl")
     os.makedirs(os.path.dirname(cand_path), exist_ok=True)
+    os.makedirs(os.path.join(DATA, "backfill"), exist_ok=True)
     kws = cfg.get("keywords", [])
     parties = cfg.get("parties", [])
     docs_budget = MAX_DOCS
@@ -231,6 +241,12 @@ def main(only=None):
             for it in new:
                 state["seen"][it["id"]] = today()
                 if is_baseline(it):
+                    # not news, but keep a metadata-only record so the Sweep can triage what was already there
+                    bl = {k: it.get(k) for k in ("id", "jur", "source", "kind", "title", "url", "entity")}
+                    bl.update(baseline=True, keywords=keyword_hit(it, [], kws), run_id=run_id)
+                    if bl["keywords"] or it.get("kind") == "deck":
+                        with open(os.path.join(DATA, "backfill", f"baseline_links_{today()}.jsonl"), "a") as f:
+                            f.write(json.dumps(bl, ensure_ascii=False, default=str) + "\n")
                     continue
                 docs = []
                 worth = not BACKFILL_SINCE or PRIORITY.search(it.get("title") or "") or it.get("kind") in ("deck", "8-K", "10-Q", "10-K")
