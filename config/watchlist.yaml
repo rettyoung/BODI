@@ -146,8 +146,9 @@ watch_pages:
   - {id: gov_nc, jur: NC, url: "https://governor.nc.gov/news/press-releases", link: "press-releases/", verify: true}
   - {id: puct_news, jur: TX, url: "https://www.puc.texas.gov/agency/resources/pubs/news/", link: "\\.pdf|news", verify: true}
 
-  # ---- Recommendation 4: ERCOT's notices and planning pages sit behind Incapsula for automated clients (checked
-  # 2026-10-02); ERCOT large-load updates arrive via ERCOT news releases, PUCT news, the ERCOT mail folder and RTO Insider.
+  # ---- Recommendation 4: ERCOT. The market-notice ARCHIVE page is public HTML (3-year archive; robots allows it);
+  # the old mkt_notices URL 404s and rendered pages hit Incapsula. Plain fetch of the archive, notices M-xxxxxx-xx.
+  - {id: ercot_notice_archive, jur: TX, rto: ERCOT, url: "https://www.ercot.com/services/comm/mkt_notices/archives", link: "mkt_notices/M-", verify: true}
   # ---- Recommendation 5: capacity auction results and planning parameters
   - {id: pjm_rpm, jur: FERC, rto: PJM, url: "https://www.pjm.com/markets-and-operations/rpm", link: "\\.pdf|\\.ashx|\\.xlsx", title_filter: "auction|results|planning parameters|BRA", verify: true}
   - {id: miso_pra, jur: FERC, rto: MISO, url: "https://www.misoenergy.org/planning/resource-adequacy/", link: "\\.pdf|auction|PRA", title_filter: "auction|PRA|results", verify: true}
