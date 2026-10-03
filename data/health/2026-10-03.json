@@ -1,35 +1,11 @@
 {
  "backfill_since": null,
- "run_id": "2026-10-03-0634",
- "started": "2026-10-03T06:34:15Z",
+ "run_id": "2026-10-03-2149",
+ "started": "2026-10-03T21:49:12Z",
  "sources": {
-  "tx_puct": {
-   "since": "2026-09-29",
-   "found": 21,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 27.1,
-   "consecutive_failures": 0
-  },
-  "az_acc": {
-   "since": "2026-09-29",
-   "found": 2,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 15.1,
-   "consecutive_failures": 0
-  },
   "ga_psc": {
-   "since": "2026-09-29",
-   "found": 4,
+   "since": "2026-09-30",
+   "found": 1,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -40,7 +16,7 @@
    "consecutive_failures": 0
   },
   "la_lpsc": {
-   "since": "2026-09-29",
+   "since": "2026-09-30",
    "found": 1,
    "new": 0,
    "baselined_now": 0,
@@ -50,15 +26,15 @@
    "notes": [
     "la: U-37921 not found"
    ],
-   "seconds": 21.4,
+   "seconds": 21.2,
    "consecutive_failures": 0
   },
   "ok_occ": {
    "since": "2026-09-30",
    "found": 8,
-   "new": 8,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 8,
+   "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [
@@ -83,7 +59,7 @@
     "ok text 21216943: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "ok text 21205773: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
    ],
-   "seconds": 242.8,
+   "seconds": 239.4,
    "consecutive_failures": 0
   },
   "ks_kcc": {
@@ -95,7 +71,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 3.1,
+   "seconds": 3.4,
    "consecutive_failures": 0
   },
   "nm_prc": {
@@ -111,21 +87,19 @@
     "nm 25-00082-UT: 0 documents in window",
     "nm 26-0000062: 0 documents in window"
    ],
-   "seconds": 36.2,
+   "seconds": 36.4,
    "consecutive_failures": 0
   },
   "mo_efis": {
    "since": "2026-09-30",
-   "found": 102,
-   "new": 4,
+   "found": 106,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 4,
+   "kept": 0,
    "status": "ok",
    "subsources": {},
-   "notes": [
-    "mo: case id not resolved for ET-2025-0184"
-   ],
-   "seconds": 54.1,
+   "notes": [],
+   "seconds": 15.5,
    "consecutive_failures": 0
   },
   "al_psc": {
@@ -142,10 +116,10 @@
   },
   "watch_pages": {
    "since": "2026-09-30",
-   "found": 1485,
-   "new": 1485,
-   "baselined_now": 1485,
-   "kept": 0,
+   "found": 1508,
+   "new": 24,
+   "baselined_now": 0,
+   "kept": 16,
    "status": "ok",
    "subsources": {
     "grda_board": {
@@ -227,6 +201,10 @@
     "puct_news": {
      "status": "ok",
      "note": "317 links"
+    },
+    "ercot_notice_archive": {
+     "status": "ok",
+     "note": "23 links"
     },
     "pjm_rpm": {
      "status": "ok",
@@ -334,20 +312,20 @@
     }
    },
    "notes": [],
-   "seconds": 221.9,
+   "seconds": 291.0,
    "consecutive_failures": 0
   },
   "rss": {
-   "since": "2026-09-15",
-   "found": 70,
-   "new": 70,
+   "since": "2026-09-30",
+   "found": 31,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 11,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "pjm_insidelines": {
-     "status": "ok",
-     "note": "10 entries"
+     "status": "error",
+     "note": "Blocked('block page (captcha) at https://insidelines.pjm.com/feed/')"
     },
     "utilitydive": {
      "status": "ok",
@@ -369,8 +347,8 @@
   "ir_decks": {
    "since": "2026-09-30",
    "found": 235,
-   "new": 235,
-   "baselined_now": 235,
+   "new": 0,
+   "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {
@@ -440,14 +418,14 @@
     }
    },
    "notes": [],
-   "seconds": 185.2,
+   "seconds": 185.7,
    "consecutive_failures": 0
   },
   "mirrors": {
    "since": "2026-09-30",
    "found": 27,
-   "new": 27,
-   "baselined_now": 27,
+   "new": 0,
+   "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {
@@ -473,45 +451,41 @@
     }
    },
    "notes": [],
-   "seconds": 15.2,
+   "seconds": 16.0,
    "consecutive_failures": 0
   },
   "eia": {
-   "since": "2026-09-15",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
+   "since": "2026-09-30",
+   "status": "ACCESS_REGRESSION",
+   "error": "HTTP 429 for https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=NV&start=2026-07&end=2026-07&offset=0&length=5000&api_key=DEMO_KEY",
    "subsources": {
     "eia": {
-     "status": "no_key",
-     "note": "add repo secret EIA_API_KEY to enable"
+     "status": "demo_key",
+     "note": "running on the public DEMO_KEY; a repo secret EIA_API_KEY lifts the rate limit"
     }
    },
-   "notes": [],
-   "seconds": 0.0,
-   "consecutive_failures": 0
+   "seconds": 48.1,
+   "consecutive_failures": 1
   },
   "congress": {
-   "since": "2026-09-15",
-   "found": 0,
-   "new": 0,
+   "since": "2026-09-30",
+   "found": 9,
+   "new": 9,
    "baselined_now": 0,
-   "kept": 0,
+   "kept": 9,
    "status": "ok",
    "subsources": {
     "congress": {
-     "status": "no_key",
-     "note": "add repo secret CONGRESS_API_KEY to enable"
+     "status": "demo_key",
+     "note": "running on the public DEMO_KEY; a repo secret CONGRESS_API_KEY lifts the rate limit"
     }
    },
    "notes": [],
-   "seconds": 0.0,
+   "seconds": 14.4,
    "consecutive_failures": 0
   },
   "openstates": {
-   "since": "2026-09-15",
+   "since": "2026-09-30",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -528,7 +502,7 @@
    "consecutive_failures": 0
   },
   "courtlistener": {
-   "since": "2026-09-15",
+   "since": "2026-09-30",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -536,36 +510,27 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 6.5,
+   "seconds": 6.3,
    "consecutive_failures": 0
   },
   "queues": {
-   "since": "2026-09-15",
+   "since": "2026-09-30",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
-   "subsources": {
-    "miso": {
-     "status": "ok",
-     "note": "471 tracked-state projects (baseline)"
-    },
-    "spp": {
-     "status": "ok",
-     "note": "478 tracked-state projects (baseline)"
-    }
-   },
+   "subsources": {},
    "notes": [],
-   "seconds": 4.2,
+   "seconds": 0.0,
    "consecutive_failures": 0
   },
   "legistar": {
-   "since": "2026-09-15",
-   "found": 1,
-   "new": 1,
+   "since": "2026-09-30",
+   "found": 0,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 1,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "pwcgov": {
@@ -574,19 +539,19 @@
     },
     "maricopa": {
      "status": "ok",
-     "note": "28 matters, 0 on-topic"
+     "note": "6 matters, 0 on-topic"
     },
     "phoenix": {
      "status": "ok",
-     "note": "33 matters, 0 on-topic"
+     "note": "0 matters, 0 on-topic"
     },
     "mesa": {
      "status": "ok",
-     "note": "29 matters, 0 on-topic"
+     "note": "6 matters, 0 on-topic"
     },
     "columbus": {
      "status": "ok",
-     "note": "73 matters, 1 on-topic"
+     "note": "9 matters, 0 on-topic"
     },
     "sanantonio": {
      "status": "ok",
@@ -598,7 +563,7 @@
     },
     "kansascity": {
      "status": "ok",
-     "note": "22 matters, 0 on-topic"
+     "note": "2 matters, 0 on-topic"
     }
    },
    "notes": [],
@@ -614,7 +579,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 58.4,
+   "seconds": 57.6,
    "consecutive_failures": 0
   },
   "federal_register": {
@@ -626,35 +591,60 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 39.0,
+   "seconds": 39.1,
    "consecutive_failures": 0
   },
   "edgar": {
-   "since": "2026-09-29",
-   "found": 5,
+   "since": "2026-09-30",
+   "found": 4,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 119.6,
+   "seconds": 129.6,
+   "consecutive_failures": 0
+  },
+  "tx_puct": {
+   "since": "2026-09-30",
+   "found": 19,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 27.1,
+   "consecutive_failures": 0
+  },
+  "az_acc": {
+   "since": "2026-09-30",
+   "found": 2,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 15.1,
    "consecutive_failures": 0
   }
  },
- "docs_fetched": 14,
- "new_items": 24,
+ "docs_fetched": 24,
+ "new_items": 25,
  "user_agent": "BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)",
- "finished": "2026-10-03T06:53:04Z",
+ "finished": "2026-10-03T22:22:59Z",
+ "backfill_text": {
+  "queue": 1781,
+  "enriched": 278,
+  "docs": 150,
+  "errors": 19,
+  "status": "ok",
+  "remaining": 1503,
+  "seconds": 801.9
+ },
  "http_hosts": {
-  "https://interchange.puc.texas.gov": {
-   "robots": "404",
-   "note": ""
-  },
-  "https://efiling.azcc.gov": {
-   "robots": "200",
-   "note": "no robots.txt (HTML app shell)"
-  },
   "https://psc.ga.gov": {
    "robots": "404",
    "note": ""
@@ -836,8 +826,8 @@
    "note": ""
   },
   "https://insidelines.pjm.com": {
-   "robots": "200",
-   "note": ""
+   "robots": "202",
+   "note": "no robots.txt (HTML app shell)"
   },
   "https://www.utilitydive.com": {
    "robots": "200",
@@ -935,12 +925,16 @@
    "robots": "200",
    "note": ""
   },
-  "https://www.courtlistener.com": {
+  "https://api.eia.gov": {
    "robots": "403",
    "note": ""
   },
-  "https://opsportal.spp.org": {
-   "robots": "404",
+  "https://api.congress.gov": {
+   "robots": "403",
+   "note": ""
+  },
+  "https://www.courtlistener.com": {
+   "robots": "403",
    "note": ""
   },
   "https://webapi.legistar.com": {
@@ -966,7 +960,23 @@
   "https://efts.sec.gov": {
    "robots": "403",
    "note": ""
+  },
+  "https://interchange.puc.texas.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://efiling.azcc.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  },
+  "https://images.edocket.azcc.gov": {
+   "robots": "error",
+   "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
+  },
+  "https://services.psc.ga.gov": {
+   "robots": "404",
+   "note": ""
   }
  },
- "seconds": 1130
+ "seconds": 2027
 }

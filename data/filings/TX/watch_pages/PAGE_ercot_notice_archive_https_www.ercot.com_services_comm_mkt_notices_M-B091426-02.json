@@ -1,0 +1,45 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B091426-02",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-B091426-02 Voluntary State and Community Impact RFI Option for Newly Substantiated Medium Load Data Center Customers",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-B091426-02",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B091426-02"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T21:59:38Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "batch zero",
+  "community impact",
+  "data center",
+  "large load",
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B091426-02",
+   "name": null,
+   "bytes": 12934,
+   "sha256": "c2848eeaa15bc9460d02db48dd00d046b6a722a53a5ec93ee479318852ccc046",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com,Notice_Legal_Notifications@lists.ercot.com\n\nSent:\n\n9/24/26, 7:40 PM\n\nSubject:\n\nM-B091426-02 Voluntary State and Community Impact RFI Option for Newly Substantiated Medium Load Data Center Customers \n\nNOTICE DATE: \nSeptember 24, 2026\n\nNOTICE TYPE: \nM-B091426-02 Legal\n\nSHORT DESCRIPTION: \nVoluntary \nState and Community Impact RFI \n Option for Newly Substantiated Medium Load Data Center Customers \n\nINTENDED AUDIENCE: \nDevelopers of Data Centers 25 MW and Larger, Transmission and/or Distribution Service Providers, and Market Participants\n\nDAYS AFFECTED: \nOctober 5, 2026; October 12, 2026\n\nLONG DESCRIPTION: \nAs explained in Market Notice M-B091426-01, ERCOT issued the State and Community Impact RFI to developers of Large Load data centers that were conditionally classified in Batch Zero as well as developers of data centers with a peak requested load of at least 25 MW but less than 75 MW (\"Medium Loads\") that were reported by a Transmission Service Provider (TSP) or Distribution Service Provider (DSP) in response to ERCOT's August 19, 2026 Medium Load RFI and that were classified by that TSP or DSP as a \"Substantiated Load,\" as defined in ERCOT Protocols Section 2.1.\n\nERCOT has been made aware that some additional Medium Load data center customers have become classified as \"Substantiated Load\" since the time of the relevant TSP's or DSP's RFI response, and that some of these customers may wish to complete the State and Community Impact RFI.  ERCOT will not require such newly identified customers to complete the State and Community Impact RFI because they were not deemed to be Substantiated Load by the Medium Load RFI response deadline.  However, for any Medium Load data center customer that has become Substantiated Load since that deadline, ERCOT can still issue the RFI to that customer to complete on a voluntary basis.  \n\nAny Medium Load data center customer that wishes to complete the State and Community Impact RFI on a voluntary basis should contact the customer's DSP.  That DSP should then send ERCOT the customer's load information using the same format and attestation that was used for the Medium Load RFI response.  The DSP may also authorize another TDSP to submit the load information on the DSP's behalf.  The load information should be submitted to ERCOT at \nDataCenterImpact@ercot.com\n.  Upon receiving the completed load information and attestation, ERCOT will issue the RFI.  \n\nPlease be aware that \nthe October 12, 2026 response deadline described in M-B091426-01 will still apply to any voluntarily submitted Medium Load RFI responses.  \nERCOT will not issue any new voluntary Medium Load RFIs after Monday, October 5, 2026.\n\nFor clarity, ERCOT emphasizes that the voluntary RFI completion option is only for new Medium Loads that did not qualify as Substantiated Load before the TSP's or DSP's response to the Medium Load was submitted to ERCOT.  Any Medium Load data center Customer that was identified in a TSP's or DSP's response to ERCOT's August 19, 2026 Medium Load RFI \nis required to\n complete the RFI that was issued to the customer through the customer's TSP or DSP. \n\nADDITIONAL INFORMATION:\n ERCOT has posted a RIOO RFI user guide for the State and Community Impact RFI to the \nData Center State and Community Impact RFI page\n on the ERCOT website.  \n\nACTION REQUIRED: \nTSPs, DSPs, or Medium Load developers interested in voluntarily responding to the State and Community Impact RFI must submit the relevant load information in the same format used for the Medium Load RFI response to \nDataCenterImpact@ercot.com\n no later than \nMonday, October 5, 2026\n. Any RFI issued as a result of a voluntary request remains subject to the \n5 p.m. Central Prevailing Time (CPT), October 12, 2026\n response deadline described in M-B091426-01.\n\nCONTACT: \nQuestions regarding this notice, the State and Community Impact RFI, or the voluntary participation process should be directed to \nDataCenterImpact@ercot.com\n. \n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\nkg"
+  }
+ ]
+}

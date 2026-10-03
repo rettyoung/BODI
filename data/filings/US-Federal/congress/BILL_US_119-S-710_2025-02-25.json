@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:119-S-710:2025-02-25",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "S 710",
+ "title": "Crypto ATM Fraud Prevention Act of 2025",
+ "filed": "2025-02-25",
+ "url": "https://www.congress.gov/bill/119th-congress/senate-bill/710",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (Sponsor introductory remarks on measure: CR S1347-1348; text: CR S1348-1350)",
+  "keywords": [
+   "crypto"
+  ]
+ },
+ "collected_at": "2026-10-03T22:04:38Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "crypto"
+ ],
+ "party_hits": [],
+ "documents": []
+}

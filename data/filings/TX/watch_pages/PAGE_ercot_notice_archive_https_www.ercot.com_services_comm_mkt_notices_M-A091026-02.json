@@ -1,0 +1,42 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A091026-02",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-A091026-02 Implementation of Market-facing changes for September 30, 2026, and October 01, 2026",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-A091026-02",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A091026-02"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T21:59:53Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "ESA",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A091026-02",
+   "name": null,
+   "bytes": 8827,
+   "sha256": "a9e0cedf658688672ae588b8dc6ad0c6b848cbfbd31e498eb47deebd0ae33a0a",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com,Notice_Extracts_Retail@lists.ercot.com,Notice_Extracts_Wholesale@lists.ercot.com,Notice_Release_Retail@lists.ercot.com,Notice_Release_Wholesale@lists.ercot.com\n\nSent:\n\n9/18/26, 9:23 AM\n\nSubject:\n\nM-A091026-02 Implementation of Market-facing changes for September 30, 2026, and October 01, 2026\n\nNOTICE  DATE:\n September 18, 2026\n\nNOTICE TYPE:\n M-A091026-02 Release - Retail/Wholesale\n\nSHORT DESCRIPTION:\n Implementation of Market-facing changes for September 30, 2026, and October 01, 2026\n\nINTENDED AUDIENCE:\n All Market Participants\n\nDAYS AFFECTED:\n September 30, 2026, and October 01, 2026\n\nLONG DESCRIPTION:\n ERCOT systems may experience intermittent service interruptions during the implementation period. The systems include, but are not limited to:\n\nComponents of the ERCOT Market Information System (MIS), including:\n\nReport publishing to the MIS\n\nDownloading of extracts and reports from MIS and External Web Services (EWS)\n\nERCOT.com dashboards and displays\n\nMarket Participant Identity Management (MPIM)\n\nMarket submissions and requests via Web Services, Market Manager, and Outage Scheduler\n\nNet Dependable Capability and Reactive Capability (NDCRC)\n\nERCOT Interconnection Services (RIOO) - \nhttps://sa.ercot.com/rioo-rs/\n\nCurrent Day Report (CDR) report publishing and downloading, which may cause the following reports to be unavailable:\n\nSCED and RTD Reports\n\nNSA Active and Inactive Constraint Reports\n\nState Estimator Reports\n\nReal-Time Dynamic Rating Data Reports\n\nWind Power Production - Actual 5-Minute Averaged Values\n\nSolar Power Production - Actual 5-Minute Averaged Values\n\nSOL Exceedance Report\n\nInformation on upcoming releases can be found on the \nProject Priority List (PPL)\n.\n\nADDITIONAL INFORMATION:\n\nIn the event of Settlement Intervals for which the Real-Time Settlement Point Prices are identified as erroneous, and ERCOT sets the SCED intervals as failed in accordance with Section 6.3, Adjustment Period and Real-Time Operations Timeline, then the LMPs, Real-Time MCPCs, Real-Time Reliability Deployment Price Adders for Energy, and Real-Time Reliability Deployment Price Adders for Ancillary Service, for the failed SCED intervals are equal to the LMPs, Real-Time MCPCs, Real-Time Reliability Deployment Price Adders for Energy, and Real-Time Reliability Deployment Price Adders for Ancillary Service, in the most recently solved SCED interval that is not set as failed.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg\n\nAttachments:\n\n2026 - R9 Market Facing Changes.xlsx\n\nSep 18, 2026 - xlsx - 11.6 KB"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-D070826-02",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-D070826-02 Optional Survey for Batch 1+ and Comprehensive Transmission Planning initiative",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-D070826-02",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-D070826-02"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T21:59:59Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection",
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-D070826-02",
+   "name": null,
+   "bytes": 8548,
+   "sha256": "1e715453e72bd4a79c293e9f21952bfdd408bfef607e5063fabc15d871f93134",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com\n\nSent:\n\n9/15/26, 10:43 AM\n\nSubject:\n\nM-D070826-02  Optional Survey for Batch 1+ and Comprehensive Transmission Planning initiative\n\nNOTICE DATE:\n September 15, 2026\n\nNOTICE TYPE:\n M-D070826-02 Operations\n\nSHORT DESCRIPTION:\n Optional Survey for Batch 1+ and Comprehensive Transmission Planning initiative\n\nINTENDED AUDIENCE:\n Transmission Service Providers (TSPs), Distribution Service Providers (DSPs), and other interested stakeholders\n\nDAYS AFFECTED:\n September 21, 2026\n\nLONG DESCRIPTION:\n  ERCOT has been working with the Technical Advisory Committee (TAC) to \nengage stakeholders in improving how transmission planning and Large Load interconnection activities are performed across the ERCOT Region, including the creation of a Comprehensive Transmission Planning process (\nsee July 8, 2026 Market Notice\n).  \nThe purpose of this effort is to evaluate opportunities to improve coordination across existing planning activities - including model and case building, Batch Studies, the Regional Transmission Plan (RTP), and the Regional Planning Group (RPG) process - and to develop recommendations for a future-state planning and batch framework that supports reliability and economic growth through improved planning efficiency and transparency. \n\nAs shared at the \nAugust 31, 2026 Workshop #1\n, ERCOT is issuing a stakeholder survey to solicit feedback and design alternatives ahead of \nWorkshop #2\n to be conducted on September 24, 2026.\n\nAll stakeholders are invited to complete the survey, however, ERCOT requests only one submission per company.  ERCOT will share a summary of the results and key takeaways at Workshop #2 to help prioritize key design elements for modifying the Planning and Batch processes.  ERCOT will not attribute specific comments to individual respondents.\n\nHere is the link to the 36 question survey: \n\nERCOT Comprehensive Transmission Planning including Future Batch Studies Survey\n\nAlso attached is a copy of all the survey questions to help companies develop a single response, but the online survey tool is the manner in which to submit answers.\n\nACTION REQUIRED:\n\nParticipation is encouraged but optional.  The deadline to participate in the survey is close of business, Monday September 21, 2026.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg\n\nAttachments:\n\nERCOT_CTP_Batch_Survey_09152026.pdf\n\nSep 15, 2026 - pdf - 120 KB"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A100226-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-A100226-01 RFP for NWS ERS-30, WS ERS-30, NWS ERS-10 and WS ERS-10 for the SCT of December 1, 2026, through March 31, 2027",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-A100226-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A100226-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T21:59:02Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "RFP",
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A100226-01",
+   "name": null,
+   "bytes": 6665,
+   "sha256": "ed89739f20c86a03f70f2f71ba9a8aa1e9e0d979d073f9339e689786a6eb7406",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Contracts@lists.ercot.com\n\nSent:\n\n10/2/26, 11:25 AM\n\nSubject:\n\nM-A100226-01 RFP for NWS ERS-30, WS ERS-30, NWS ERS-10 and WS ERS-10 for the SCT of December 1, 2026, through March 31, 2027\n\nNOTICE DATE:\n October 2, 2026\n\nNOTICE TYPE:\n M-A100226-01 \nContracts/RFP\n\nSHORT DESCRIPTION:\n\nRFP for NWS ERS-30, WS ERS-30, NWS ERS-10 and WS ERS-10 for the SCT of December 1, 2026, through March 31, 2027\n\nINTENDED AUDIENCE:\n\nQualified Scheduling Entities (QSEs)\n\nDAYS AFFECTED:\n October 30, 2026; November 9, 2026\n\nLONG DESCRIPTION: \nERCOT has issued a Request for Proposal (RFP) for Emergency Response Service (ERS) for the Standard Contract Term (SCT) of December 1, 2026, through March 31, 2027. This RFP seeks participants for Non-Weather-Sensitive ERS-30 (\nNWS ERS-30), Weather-Sensitive ERS-30 (WS ERS-30), Non-Weather-Sensitive ERS-10 (NWS ERS-10) and Weather-Sensitive ERS-10 (WS ERS-10)\n.\n\nERS Resource Identification (ERID) information is due to ERCOT no later than October 30, 2026. Competitive offers and self-provision offers are due by November 9, 2026.\n\nPlease visit the \nEmergency Response Service\n page of the ERCOT website for the RFP and all other documents associated with this procurement.\n\nADDITIONAL INFORMATION:\n\nERCOT will communicate awarded offers to QSEs no later than November 20, 2026.   The ERS Procurement Summary will be posted to the ERCOT Market Information System (MIS) prior to the start of the SCT.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\nam/dg"
+  }
+ ]
+}

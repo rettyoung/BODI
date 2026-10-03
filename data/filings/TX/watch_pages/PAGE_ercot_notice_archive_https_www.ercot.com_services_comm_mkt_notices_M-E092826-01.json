@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-E092826-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-E092826-01 ERCOT MOTE will be open for DST testing",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-E092826-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-E092826-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T21:59:32Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-E092826-01",
+   "name": null,
+   "bytes": 17374,
+   "sha256": "857a1924f0806ffcf55324bba8f8e3a65512c3f6b65d32431b224ed2cc1c2e26",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com,Notice_Release_Retail@lists.ercot.com,Notice_Release_Wholesale@lists.ercot.com\n\nSent:\n\n9/28/26, 2:28 PM\n\nSubject:\n\nM-E092826-01 ERCOT MOTE will be open for DST testing\n\nNOTICE DATE:\n September 28, 2026\n\nNOTICE TYPE:\n M-E092826-01 Operations\n\nSHORT DESCRIPTION:\n ERCOT MOTE will be open for DST testing\n\nINTENDED AUDIENCE:\n All Market Participants\n\nDAYS AFFECTED:\n October 5, 2026 - October 9, 2026\n\nLONG DESCRIPTION:\n The ERCOT Market Operations Test Environment (MOTE) will be available for Market Participant Daylight Saving Time (DST) testing as listed in the table below. There is only one period for testing this year. The testing period will be from Monday through Friday and will follow the simulated times shown in the table.\n\nReal Time\n\nSimulated Time\n\nMOTE System\n\nMon 10/5/2026 2 PM\n\nFri 10/30/2026 2 AM CDT\n\nMOTE Servers Normal Time change to DST Time\n\nMon 10/5/2026 5 PM\n\nFri 10/30/2026 5 AM CDT\n\nStart testing QSE submissions for next 5 days including Long Day 11/1/2026\n\nMon 10/5/2026 10 PM\n\nFri 10/30/2026 10 AM CDT\n\nDAM close for Operating Day 10/31/2026\n\nTue 10/6/2026 10 PM\n\nSat 10/31/2026 10 AM CDT\n\nDAM close for Operating Day 11/1/2026 (Long DST Day)\n\nWed 10/7/2026 1 PM\n\nSun 11/1/2026 1 AM CDT\n\nCDT Time\n\nWed 10/7/2026 2 PM\n\nSun 11/1/2026 1* AM\n\nDST Transition Time/Repeated Hour\n\nWed 10/7/2026 3 PM\n\nSun 11/1/2026 2 AM CST\n\nEnd of Repeated hour - CST\n\nWed 10/7/2026 11 PM\n\nSun 11/1/2026 10 AM CST\n\nDAM close for Operating Day 11/2/2026\n\nFri 10/9/2026 2 PM\n\nTue 11/3/2026 9 PM CST\n\nClose of Test and MOTE Servers DST Time Change to Normal Time\n\nACTION REQUIRED:\n MPs requested to participate in market and outage submission testing leading up to the DST transition and ensure no issues observed during and after the transition.\n\nADDITIONAL INFORMATION:\n For information regarding submissions, including DST requirements, please refer to the latest version of EIP external specifications documentation and the most recent External Web Services XSDs located on the ERCOT developer portal (\nhttps://developer.ercot.com/\n).\n\nFor MOTE testing, the URL for XML submissions is: \nhttps://testmisapi.ercot.com/NodalAPI/EWS/\n\nThe URL for UI submissions is: \nhttps://testmis.ercot.com/mmsui/mmsui/displayTradesLanding.action\n\nThe following are examples of how the Long DST Day November 01, 2026 will be labeled:\n\n0100\n\n0200 (Normal Hour)\n\n0200* (Repeated Hour)\n\n0300\n\n0400\n\n0500\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

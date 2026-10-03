@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:119-S-5352:2026-09-30",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "S 5352",
+ "title": "Desalination Reauthorization Act",
+ "filed": "2026-09-30",
+ "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5352",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+  "keywords": [
+   "esa"
+  ]
+ },
+ "collected_at": "2026-10-03T22:04:38Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [],
+ "documents": []
+}

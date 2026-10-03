@@ -64,5 +64,6 @@
    "url": "{'ferc_file': 'D690C3BA-4E4C-C69E-9277-A09064400000', 'name': 'LIP-0007PRIV NewGen Declaration.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-03T22:22:59Z"
 }

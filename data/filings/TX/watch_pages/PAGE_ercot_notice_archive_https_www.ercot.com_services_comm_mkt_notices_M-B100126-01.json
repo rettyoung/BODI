@@ -1,0 +1,43 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B100126-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-B100126-01 Upcoming training courses",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-B100126-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B100126-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T21:59:08Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "combined cycle"
+ ],
+ "party_hits": [
+  "Vantage"
+ ],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B100126-01",
+   "name": null,
+   "bytes": 21436,
+   "sha256": "0afb7d29925e3a1f4a3f008eb0701187112e86114055298190a5e341473ff6cd",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Training@lists.ercot.com,Notice_Operations@lists.ercot.com\n\nSent:\n\n10/1/26, 10:17 AM\n\nSubject:\n\nM-B100126-01 Upcoming training courses\n\nNOTICE DATE: \nOctober 1, 2026\n\nNOTICE TYPE: \nM-B100126-01 Education/Training\n\nSHORT DESCRIPTION: \nUpcoming training courses\n\nINTENDED AUDIENCE: \nERCOT Market Participants\n\nDAY AFFECTED: \nSee course schedule below.\n\nLONG DESCRIPTION: \nERCOT invites you to take advantage of its market training program that includes a wide variety of courses ranging from general introductions to deeper explorations of specific market topics and processes. \n\nNote that the new courses \"Day-Ahead Market Energy Settlement\" and \"Real-Time Market Energy Settlement\" replace the old \"Settlement: Energy and PTP Obligations\".\n\nThe location and schedule of the courses that are currently scheduled are shown below:\n\nResources in ERCOT Market Operations\n\n10/7/2026\n\n8:30 - 12:30\n\nWebEx\n\nEnergy Storage Resources\n\n10/14/2026\n\n8:30 - 12:30\n\nWebEx\n\nIntermittent Renewable Resources\n\n10/21/2026\n\n8:30 - 12:30\n\nWebEx\n\nCombined Cycle Generation Resources\n\n10/28/2026\n\n8:30 - 10:30\n\nWebEx\n\nLoad Serving Entities 201\n\n11/4/2026\n\n8:30 - 12:30\n\nWebEx\n\nDay-Ahead Market Energy Settlement\n\n11/11/2026\n\n8:30 - 12:30\n\nWebEx\n\nReal-Time Market Energy Settlement\n\n11/18/2026\n\n8:30 - 12:30\n\nWebEx\n\nRetail 101\n\n12/9/2026\n\n8:30 - 12:30\n\nWebEx\n\nADDITIONAL INFORMATION: \nTo enroll in a course, go to the ERCOT Training website at \nhttp://www.ercot.com/services/training/\n. Select the course you are interested in attending. On the \"Schedule/Registration\" tab, select the \"Sign up\" link to register for the course. These courses are part of a series of instructor-led and web-based training courses available to Market Participants. To view the complete catalog of ERCOT market and operational courses, select \nCourse Catalog\n from the ERCOT Training website.\n\nCONTACT: \nIf you have any questions, please contact ERCOT Training via email at \nTraining@ercot.com\n. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

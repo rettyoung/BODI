@@ -1,0 +1,46 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-C092126-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-C092126-01 Batch Zero Verification and Community Impact RFIs: RIOO RFI Tool Update to Restrict Visibility of Other Respondents' Submissions, and Posting of Question Reference Guides on the ERCOT Website",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-C092126-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-C092126-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T21:59:44Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "batch zero",
+  "community impact",
+  "data center",
+  "large load",
+  "transmission service",
+  "verification RFI"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-C092126-01",
+   "name": null,
+   "bytes": 10807,
+   "sha256": "feb8b19d4c8de3d2fdb37198e61d3080c87ce7436883296ae55ff7d83200733c",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Legal_Notifications@lists.ercot.com,Notice_Operations@lists.ercot.com\n\nSent:\n\n9/21/26, 8:46 PM\n\nSubject:\n\nM-C092126-01 Batch Zero Verification and Community Impact RFIs: RIOO RFI Tool Update to Restrict Visibility of Other Respondents' Submissions, and Posting of Question Reference Guides on the ERCOT Website\n\nNOTICE DATE:\n September 21, 2026\n\nNOTICE TYPE: \nM-C092126-01 Legal\n\nSHORT DESCRIPTION:\n\nBatch Zero Verification and Community Impact RFIs:  RIOO RFI Tool Update to Restrict Visibility of Other Respondents' Submissions, and Posting of Question Reference Guides on the ERCOT Website\n\nINTENDED AUDIENCE:\n Interconnecting Large Load Entities with projects conditionally included in Batch Zero, Developers of Data Centers 25 MW and Larger, Transmission and/or Distribution Service Providers, and Market Participants\n\nDAYS AFFECTED:\n September 21, 2026\n\nLONG DESCRIPTION: \nBased on feedback it received at the September 11, 2026 workshop for the Batch Zero Eligibility Verification Request for Information (RFI), ERCOT has introduced new functionality into the Resource Integration and Ongoing Operations (RIOO) RFI tool that will further restrict the visibility of information submitted for both the Batch Zero Eligibility Verification RFI and the Data Center State and Community Impact RFI.\n\nSpecifically, for the Batch Zero Eligibility Verification RFI, this functionality will now:\n\nprevent the Interconnecting Transmission Service Provider (TSP) from seeing the responses submitted, including documents uploaded, by the Interconnecting Large Load Entity (ILLE) and the Interconnecting Distribution Service Provider (DSP);\n\nprevent the Interconnecting DSP from seeing the responses submitted, including documents uploaded, by the ILLE and the Interconnecting TSP;\n\nallow the ILLE to see all responses submitted by the Interconnecting TSP and Interconnecting DSP; and\n\ncontinue to allow each entity to see responses it has submitted.\n\nSimilarly, for the Data Center State and Community Impact RFI, this functionality will:\n\nprevent the submitting TSP or submitting DSP from seeing the responses submitted, including documents uploaded, by the data center developer; and\n\ncontinue to allow the data center developer to see the responses it has submitted.\n\nThe restriction on visibility extends to any designated contacts associated with the Interconnecting TSP or DSP, submitting TSP or DSP, and the ILLE. \n\nIn addition, ERCOT has posted Question Reference Guides that include all of the instructions and questions issued for both RFIs.  ERCOT has posted a Question Reference Guide for each of the four Batch Zero eligibility pathways for which a Verification RFI has been issued.  These Question Reference Guides are posted to the \nLarge Load Integration\n page.  The Question Reference Guide for the Data Center State and Community Impact RFI is posted to the \nData Center State and Community Impact RFI page\n. \n\nCONTACT: \nFor technical issues accessing or using the RFI portal in RIOO, TSPs, DSPs, ILLEs, and data center developers should contact the ERCOT Service Desk at \nServiceDesk@ercot.com\n.  TSPs and DSPs registered as ERCOT Market Participants may also contact ERCOT Client Services at (512) 248-3900 or email \nClientServices@ercot.com\n. Questions about the Batch Zero Eligibility Verification RFI or the process for completing that RFI can be directed to \nLargeLoadVerification@ercot.com\n. Questions about the Data Center State and Community Impact RFI or the process for completing that RFI can be directed to \nDataCenterImpact@ercot.com\n.  \n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\nkg"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": "BILL:US:119-HR-10448:2026-09-16",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 10448",
+ "title": "Reverse Big Ugly Tax Breaks for Data Centers Act",
+ "filed": "2026-09-16",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/10448",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Referred to the House Committee on Ways and Means.",
+  "keywords": [
+   "data center",
+   "data centers"
+  ]
+ },
+ "collected_at": "2026-10-03T22:04:38Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

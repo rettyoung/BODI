@@ -17,9 +17,12 @@
  ],
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "PGRR"
+ ],
  "party_hits": [
   "CyrusOne"
  ],
- "documents": []
+ "documents": [],
+ "enriched_at": "2026-10-03T22:19:20Z"
 }

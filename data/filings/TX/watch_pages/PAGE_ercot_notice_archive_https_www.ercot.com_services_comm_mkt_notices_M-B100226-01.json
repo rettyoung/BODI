@@ -1,0 +1,44 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B100226-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-B100226-01 2026.NOV.Monthly.Auction",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-B100226-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B100226-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T21:58:59Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "NPRR"
+ ],
+ "party_hits": [
+  "Google",
+  "Microsoft"
+ ],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B100226-01",
+   "name": null,
+   "bytes": 37961,
+   "sha256": "de424ea1c2a6168f480e5613ceb7df1453a3e17d5242695f2252e9b01fc4fb67",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_CRR@lists.ercot.com\n\nSent:\n\n10/2/26, 3:07 PM\n\nSubject:\n\nM-B100226-01 2026.NOV.Monthly.Auction\n\nNOTICE DATE:\n  October 02, 2026\n\nNOTICE TYPE:\n  M-B100226-01 CRR\n\nSHORT DESCRIPTION:\n  2026.NOV.Monthly.Auction\n\nINTENDED AUDIENCE:\n  CRR Account Holders and Counter-Parties\n\nDAYS AFFECTED:\n  October 02 - October 23, 2026\n\nLONG DESCRIPTION:\n  The tables below contain key dates and parameters for the following Congestion Revenue Right (CRR) Auction:  2026.NOV.Monthly.Auction.\n\nImportant Auction Dates\n\nCredit window opens (00:01 CPT)\n\n10/02/2026\n\nPost path specific adders report\n\n10/08/2026\n\nBid window opens (00:01 CPT)\n\n10/13/2026\n\nBid and credit windows close (17:00 CPT)\n\n10/15/2026\n\nPost auction results and release credit\n\n10/22/2026\n\nPost invoices \n\n10/23/2026\n\nGeneral Auction Parameters\n\nAuction capacity %\n\n90\n\nPer account holder transaction limit\n\n10,000\n\nPreliminary transaction adjustment period limit (per account holder)\n\n1056\n\nTotal transaction limit\n\n575,000\n\nBid and offer submittal increments\n\n.1 MW\n\nMinimum option bid price\n\n$0.01 \n\nMethodology for deriving load distribution factors\n\nIn accordance with the methodology specified in Section 4.5.1(5)\n\nCRR application currently supports\n\nGoogle Chrome and Microsoft Edge\n\nSpecifications for the equipment and interfaces necessary to participate in CRR auctions\n\nCRR Market User Interface Specifications\n\nCRR Market User Interface Handbook\n\nNodal Protocol Revision Request (NPRR) 1261 Operational Flexibility for CRR Auction Transaction Limits\n has been approved and became effective April 1, 2025. Accordingly, the auction transaction limits table below will be provided with each CRR auction notice and it contains the transaction limits that will be effective for each auction type beginning with the 2025.2nd6.AnnualAuction.Seq1. The values in the transaction limits table are subject to change based on operational needs and changes will be previewed at \nCongestion Management Work Group\n meetings.\n\nAuction Type\n\nTotal Transaction Limit\n\nPer-TOU Limit\n\nPer-CRRAH Limit\n\nMonthly\n\n575,000 \n\nN/A \n\n10,000\n\nSeq1\n\n600,000\n\n200,000\n\n2,800\n\nSeq2\n\n525,000\n\n175,000\n\n2,300\n\nSeq3\n\n510,000\n\n170,000\n\n2,100\n\nSeq4\n\n420,000\n\n140,000\n\n1,700\n\nSeq5\n\n360,000\n\n120,000\n\n1,600\n\nSeq6\n\n300,000\n\n100,000\n\n1,500\n\nADDITIONAL INFORMATION:\n  Additional Market Notices will be sent if a transaction adjustment period is needed for this auction or if the auction results are posted on a different date than specified in the table above.\n\nThe \nCRR Activity Calendar\n is located on the \nCongestion Revenue Rights\n page of the ERCOT website.\n\nInformation about proxy Settlement Points used in calculating CRR credit exposure can be found in the \nDAM Proxy Settlement Points\n list posted on the Credit page of the ERCOT website.\n\nCONTACT:\n\nIf you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

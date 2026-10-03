@@ -18,10 +18,12 @@
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
  "keywords": [
+  "batch zero",
   "data center"
  ],
  "party_hits": [
   "Data Center Coalition"
  ],
- "documents": []
+ "documents": [],
+ "enriched_at": "2026-10-03T22:19:45Z"
 }

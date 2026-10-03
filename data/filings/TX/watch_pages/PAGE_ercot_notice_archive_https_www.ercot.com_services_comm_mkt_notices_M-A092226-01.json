@@ -1,0 +1,42 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A092226-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-A092226-01 Resource Entity (RE) and Transmission Service Provider (TSP) winter weather preparedness workshop in person or by WebEx",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-A092226-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A092226-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T21:59:41Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "emergency",
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A092226-01",
+   "name": null,
+   "bytes": 6270,
+   "sha256": "f6973b4efc33afec5025b91a31c39986b563fe9e81bebfb4dd5ff197c2b2a925",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com\n\nSent:\n\n9/22/26, 12:02 PM\n\nSubject:\n\nM-A092226-01 Resource Entity (RE) and Transmission Service Provider (TSP) winter weather preparedness workshop in person or by WebEx\n\nNOTICE DATE:\n September 22, 2026\n\nNOTICE TYPE:\n M-A092226-01 Operations\n\nSHORT DESCRIPTION:\n Resource Entity (RE) and Transmission Service Provider (TSP) winter weather preparedness workshop in person or by WebEx\n\nINTENDED AUDIENCE:\n Resource Entities and Transmission Service Providers\n\nDAYS AFFECTED:\n October 22, 2026, 9:00 a.m. to 12:30 p.m.\n\nLONG DESCRIPTION:\n ERCOT will host a Winter Weather Preparedness Workshop for RE and TSP personnel on October 22, 2026, from 9:00 a.m. to 12:30 p.m., at 8000 Metropolis Drive (Building E), Suite 100, Austin, TX 78744. The workshop will cover: (1) requirements of the Public Utility Commission of Texas (PUCT) Weather Emergency Preparedness Rule, 16 Texas Administrative Code (TAC) 25.55; (2) ERCOT's associated weatherization inspection checklist; (3) submitting a Declaration of Weather Preparedness (DoWP) through the Weatherization & Inspection Market Participant Portal; and (4) other relevant information for winter weather preparedness. Please see the ERCOT \nmeeting calendar\n for additional information.\n\nADDITIONAL INFORMATION:\n Meeting information is posted on the ERCOT \nmeeting calendar\n.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:119-HR-10467:2026-09-16",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 10467",
+ "title": "Data Center Fairness Fee Act of 2026",
+ "filed": "2026-09-16",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/10467",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Referred to the House Committee on Energy and Commerce.",
+  "keywords": [
+   "data center"
+  ]
+ },
+ "collected_at": "2026-10-03T22:04:38Z",
+ "run_id": "2026-10-03-2149",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}
