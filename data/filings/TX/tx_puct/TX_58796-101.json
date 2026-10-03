@@ -17,8 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "large load"
+ ],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:09:53Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_101_1679759.ZIP",
+   "name": null,
+   "bytes": 33157,
+   "sha256": "7a8d029ea6fe433e7f086ecd32ff5d01b209fe80c401d6f796abdfaac7d81423",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Docket No. 58796 SOAH ORDER NO. 11.pdf ===\nSOAH Docket No. 473-26-07507              Suffix: PUC\nPUC Docket No. 58796\n\n\n\n              Before the\n    State Office of Administrative\n               Hearings\n\n\n  APPLICATION OF SOUTHWESTERN ELECTRIC POWER\n  COMPANY FOR AUTHORITY TO AMEND TARIFFS FOR\nRETAIL ELECTRIC SERVICE TO INCLUDE NEW STANDARD\nFORM CONTRACT FOR ELECTRIC SERVICE – LARGE LOAD\n\n\n\n\n                             SOAH ORDER NO. 11\n                       GRANTING MOTION TO ABATE\n\n\n      On September 2, 2026, Southwestern Electric Power Company filed an\nagreed motion to abate this proceeding, stating that the parties have reached a\nsettlement in principle. The motion is GRANTED, and the procedural schedule is\nABATED. The parties SHALL file, no later than September 9, 2026, either a\nstatus report or settlement materials.\n\fSigned September 2, 2026\n\n\n                                       ALJ Signature(s):\n\n\n                                       _____________________________\n                                       Daniel Wiseman,\n                                       Presiding Administrative Law Judge\n\n\n\n\n                                          2\n                                 SOAH Order No. 11\n                  SOAH Docket No. 473-26-07507, PUC Docket No. 58796\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_101_1679760.PDF",
+   "name": null,
+   "bytes": 98292,
+   "sha256": "23132ba8c2c63087c8efcf66df5a967cb466679e46589ff77b23bf9a7344e644",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-03 09:18:34 AM\n\nControl Number - 58796\n\nItem Number - 101\n\fSOAH Docket No. 473-26-07507              Suffix: PUC\nPUC Docket No. 58796\n\n\n\n                             BEFORE THE\n    STATE OFFICE OF ADMINISTRATIVE\n                               HEARINGS\n\n\n  APPLICATION OF SOUTHWESTERN ELECTRIC POWER\n  COMPANY FOR AUTHORITY TO AMEND TARIFFS FOR\nRETAIL ELECTRIC SERVICE TO INCLUDE NEW STANDARD\nFORM CONTRACT FOR ELECTRIC SERVICE - LARGE LOAD\n\n\n\n\n                             SOAH ORDER No. 11\n                        GRANTING MOTION TO ABATE\n\n\n      On September 2, 2026, Southwestern Electric Power Company filed an\nagreed motion to abate this proceeding, stating that the parties have reached a\nsettlement in principle. The motion is GRANTED, and the procedural schedule is\nABATED. The parties SHALL file, no later than September 9,2026, either a\nstatus report or settlement materials.\n\fSigned September 2,2026\n\n                                      ALJ Signature(s):\n\n\n\n\n                                      Daniel Wiseman,\n                                      Presiding Administrative Law Judge\n\n\n\n\n                                         2\n                                SOAH Order No. 11\n                 SOAH Docket No. 473-26-07507, PUC Docket No. 58796\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-03T23:15:05Z"
 }

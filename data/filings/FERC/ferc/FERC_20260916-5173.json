@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "2026 09 16 ORPC Comment Clarification DeepGreen EASTPORT Prelim Permit.pdf",
+   "bytes": 97488,
+   "sha256": "e1dcb3cf0d8601a8eda72824dd96b081e9eb4019103e3d8f3ff06a804dc354b9",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                                                                       Stuart Davies\n                                                                                 CHIEF EXECUTIVE OFFICER\n\n                                                                         254 Commercial St., Suite 119B\n                                                                                  Portland, ME 04101\n                                                                                     CELL 617 512 5458\n                                                                                   OFFICE 207 772 7707\n\n                                                                                       sdavies@orpc.co\n\n\n\nSeptember 16, 2026\n\nDebbie-Anne A. Reese, Secretary\nFederal Energy Regulatory Commission\n888 First Street, N.E.\nWashington, DC 20426\n\nRe: COMMENTS P-15424\n\nDocket(s): P-15424\nLead Applicant: DeepGreen SPV LLC\n\nDear Madam Secretary:\n\nI am writing again to make a correction and clarification to our September 14, 2026,\ncorrespondence to you commenting on P-15424.\n\nIn its application for its proposed project in Eastport, Maine, DeepGreen made reference to\nORPC in the following section:\n\n      8. DISCLOSURE OF OVERLAPPING BOUNDARY AND INTEGRATION STRATEGY The Applicant\n      acknowledges Preliminary Permit No. P-15285 (ORPC), which occupies a portion of the\n      proposed Hub boundary. Pursuant to FERC’s preference for comprehensive resource\n      development, the Applicant asserts that this proposal is an Infrastructure-Layer Expansion.\n      The \"Open Architecture\" UDCs are designed to host third-party hardware (including ORPC\n      units), providing a scalable platform to move the Western Passage from 5.0 MW to a 51.0\n      MW commercial utility.\n\nThis statement could be interpreted that extensive discussions have happened between\nORPC and DeepGreen regarding the integration of ORPC’s turbines onto DeepGreen’s\nproposed data center. We are submitting this comment to clarify for FERC that ORPC has\nno involvement in DeepGreen's project and that no conversations have occurred between\nORPC and DeepGreen regarding the integration of ORPC turbines with DeepGreen’s\nproposed data center.\n\nSincerely,\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:10:51Z"
 }

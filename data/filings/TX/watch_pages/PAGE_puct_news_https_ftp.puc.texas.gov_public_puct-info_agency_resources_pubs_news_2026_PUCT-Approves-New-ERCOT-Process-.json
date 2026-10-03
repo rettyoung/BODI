@@ -21,8 +21,24 @@
  "collected_at": "2026-10-03T00:26:52Z",
  "run_id": "2026-10-02-2349",
  "keywords": [
-  "data center"
+  "crypto",
+  "data center",
+  "interconnection"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2026/PUCT-Approves-New-ERCOT-Process-to-Manage-Electricity-Requests-from-Data-Centers-Large-Power-Users.pdf",
+   "name": null,
+   "bytes": 134354,
+   "sha256": "856a254780efba572b5beac1f6d00f19c3cbeeb41c2764080830f9e9a70894cc",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                          Public Utility Commission of Texas\n                     1701 N. Congress, P.O. Box 13326, Austin, TX 78711-3326\n\n  News Release                                                           Contact: Rich Parsons\n  June 18, 2026                                                         Media@PUC.Texas.Gov\n\n\nPUCT Approves New ERCOT Process to Manage Electricity Requests from\n                 Data Centers, Large Power Users\n\n\n Changes to Ensure Continued Electric Reliability, Economic Growth in Texas\n\nAustin, Texas – The Public Utility Commission of Texas (PUCT) today approved changes to\nthe Electric Reliability Council of Texas’ (ERCOT) process for evaluating requests from data\ncenters and other large power users seeking to connect to the Texas grid. The new process\nmore effectively manages the rapid growth in grid interconnection requests while ensuring\nelectric reliability for Texas homes and businesses.\n\n“Texas is leading the nation in developing innovative solutions for the rapid growth in\nelectricity demand from data centers and other large power users,” PUCT Chairman\nThomas Gleeson said. “We are showing it is entirely possible to protect consumers first\nand encourage economic development, so our state continues to thrive. The changes\napproved today ensure we know who is serious about connecting to the Texas grid. This\nmarks another trailblazing step forward in building Texas’ grid of the future, while putting\nreliability and the concerns of Texas ratepayers first.”\n\nA record number of large electric users are lining up to connect to the ERCOT grid including\ndata centers, crypto mines, industrial facilities, and other major projects. Using the new\n“Batch Study” process, ERCOT will group projects together to speed up the evaluation\nprocess, separate out speculative projects, and identify what new transmission\ninfrastructure may be required. The process also gives greater regulatory certainty to\ndevelopers, encouraging further economic growth in Texas.\n\nThe process approved today is one of several steps the PUCT and ERCOT are taking to\nprotect consumers and prepare for the wave of new large power users seeking to connect\nto the grid. Ongoing PUCT rulemakings focus on ensuring residential\nconsumers don't shoulder the costs of connecting these facilities.\n\fThe approved revisions to the interconnection process will take effect later this\nsummer. Additional information is available in Docket 59142 and in this ERCOT resource.\n\n\n\n\nAbout the Public Utility Commission\nOur mission is to serve Texans by regulating the state’s electric, telecommunication, and\nwater and sewer utilities, implementing respective legislation, and offering customer\nassistance in resolving consumer complaints. Since its founding in 1975, the Commission\nhas a long and proud history of service to Texas, protecting customers, fostering\ncompetition, and promoting high quality infrastructure. To learn more, please visit\nhttps://www.puc.texas.gov.\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-03T23:12:20Z"
 }

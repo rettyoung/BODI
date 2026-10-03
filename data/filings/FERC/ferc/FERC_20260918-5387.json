@@ -29,7 +29,27 @@
  "collected_at": "2026-10-02T23:14:19Z",
  "run_id": "2026-10-02-2305",
  "keywords": [
+  "data center",
+  "interconnection",
   "large load"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1792137_Interv.txt",
+   "bytes": 1920,
+   "sha256": "c31925b73ff5cf242d9b0d8f4f12a5e83265260f8932ccca678668685eb6e395",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Google LLC under ER26-3650-000\r\n\r\nSubmission Date:        9/18/2026 4:21:28 PM\r\n\r\nFiled Date:             9/18/2026 4:21:28 PM\r\n\r\nDockets\r\n-------\r\nER26-3650-000        Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-08-28_Interconnection Reliability Requirements for Large Loads submitted on 8/28/2026 4:41:03 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nGoogle LLC                               briangeorge@google.com                   bshpall@wsgr.com                        \r\nGoogle LLC                               lindemans@google.com                                                             \r\nGoogle LLC                               mchristiansen@wsgr.com                                                           \r\n\r\nBasis for Intervening:\r\nPursuant to Rules 212 and 214 of the Rules of Practice and Procedure of the Federal Energy Regulatory Commission (“Commission”), 18 C.F.R. §§ 385.212 and 385.214, Google LLC (“Google”) hereby moves to intervene in this proceeding. Google is a direct, wholly-owned subsidiary of Alphabet, Inc. Google’s mission is to organize the world’s information and make it universally accessible and useful. Data centers necessary to serve Google’s customers are located across the U.S. and require reliable electric service to operate. Google has a direct and substantial interest in the outcome of this proceeding, and its interests cannot be adequately represented by any other party. Accordingly, Google respectfully requests that the Commission grant its motion to intervene in this proceeding."
+  }
+ ],
+ "party_hits": [
+  "Alphabet",
+  "Google"
+ ],
+ "enriched_at": "2026-10-03T23:05:13Z"
 }

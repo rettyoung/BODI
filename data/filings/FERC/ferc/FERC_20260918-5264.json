@@ -29,7 +29,25 @@
  "collected_at": "2026-10-02T23:14:19Z",
  "run_id": "2026-10-02-2305",
  "keywords": [
+  "interconnection",
   "large load"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1792010_Interv.txt",
+   "bytes": 2621,
+   "sha256": "f639e584017f955c35a616ae38c4c6956fe682dca7ce8ab3bfa6bf314f66ea2a",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Sierra Club under ER26-3650-000.\r\n\r\nSubmission Date:        9/18/2026 1:17:11 PM\r\n\r\nFiled Date:             9/18/2026 1:17:11 PM\r\n\r\nDockets\r\n-------\r\nER26-3650-000        Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-08-28_Interconnection Reliability Requirements for Large Loads submitted on 8/28/2026 4:41:03 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nSierra Club                              jonah.baskin@sierraclub.org                                                      \r\n\r\nBasis for Intervening:\r\nPursuant to Rule 214 of the Rules of Practice and Procedure of the Federal Energy Regulatory Commission (“Commission”), 18 C.F.R. § 385.214(b), the Sierra Club respectfully moves to intervene in the above-captioned proceeding.\r\n\r\nSTATEMENT OF INTERESTS\r\n\r\nFor the reasons set forth below, Sierra Club has an interest which may be materially affected by the outcome of this proceeding, and no other parties can represent their interests.\r\n\r\nFounded in 1892, the Sierra Club is a national organization with more than 60 chapters and over a million members and supporters. The Sierra Club’s purpose is to explore, enjoy, and protect the wild places of the earth; to practice and promote the responsible use of the earth’s ecosystems and resources; and to educate and enlist humanity to protect and restore the quality of the natural and human environments.\r\n\r\nAn important part of the Sierra Club’s current work at both the national and chapter level focuses on environmental and public health problems associated with energy generation. Sierra Club advocates for affordable, reliable, and clean energy. As part of this work, the Sierra Club has been a regular participant in proceedings before the Commission and in MISO stakeholder processes. This proceeding raises issues which are important to the environmental, public health, reliability and affordability interests that Sierra Club seeks to advance.\r\n\r\nCONCLUSION\r\n\r\nFor the aforementioned reasons, Sierra Club respectfully requests to be granted intervention status in this proceeding.\r\n\r\nRespectfully submitted,\r\n\r\nJonah Baskin, Associate Attorney\r\nSierra Club Environmental Law Program\r\n50 F Street NW, Eighth Floor\r\nWashington, DC 20001\r\n(202) 556-3917\r\njonah.baskin@sierraclub.org"
+  }
+ ],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "enriched_at": "2026-10-03T23:05:43Z"
 }

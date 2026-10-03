@@ -21,5 +21,31 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_101_1689503.ZIP",
+   "name": null,
+   "bytes": 846,
+   "sha256": "aa90df45ae9a1b77b3b08c1707d6a62442710fd01439f7980cfc200963deb458",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== PUC filing 10-2-26.txt ===\n10/2/26\n\nI am a resident of Hill county where there are at least 5 data centers in progress or in process and at least 3 of whom plan to build their own power plants to generate power for the data center. The one near Blum is 3,000 feet from me. The air permit for the gas generated power plant was issued in 2 weeks but will end up being a 4 GW power plant, enough to power 3 million homes. But it was issued just days before the Governors halt to TCEQ. Construction will take a few years. During that time, they will use local power, they will use diesel generators for electricity and they will use over 100,000 gallons of water a day. One plant.  Our county commissioners are meeting with Pacifico, AKA RCM Hill LLC AKA Hill Valley EC LLC, and making deals to “be a good neighbor” to residents in surrounding area, but we have no say, no information, no update, and our questions are voiced at the commissioners court onto deaf and sometimes asleep ears. We have been called the peanut gallery by one commissioner, we are called clowns by the county attorney. The scope of changes to Texas with the 765 kv lines, gas power plants and mega AI data centers is fast and furious and poorly executed. This system will crash due to poor planning and it will be at the cost of the citizens in their health and safety and land."
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_101_1689504.PDF",
+   "name": null,
+   "bytes": 98617,
+   "sha256": "113521f6aa93dee552cf89cc1ae3606f41257cbafde7a4f4be11c98a777fb4de",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-10-02 10:29:46 AM\n\nControl Number - 58317\n\nItem Number - 101\n\f10/2/26\n\nI am a resident of Hill county where there are at least 5 data centers in\nprogress or in process and at least 3 of whom plan to build their own\npower plants to generate power for the data center. The one near Blum is\n3,000 feet from me. The air permit for the gas generated power plant was\nissued in 2 weeks but will end up being a 4 GW power plant, enough to\npower 3 million homes. But it was issued just days before the Governors\nhalt to TCEQ. Construction will take a few years. During that time, they\nwill use local power, they will use diesel generators for electricity and\nthey will use over   100,000   gallons   of water a day.   One plant.   Our county\ncommissioners are meeting with Pacifico, AKA RCM Hill LLC AKA Hill Valley\nEC LLC, and making deals to \"be a good neighbor\" to residents in\nsurrounding area, but we have no say, no information, no update, and our\nquestions are voiced at the commissioners court onto deaf and sometimes\nasleep ears. We have been called the peanut gallery by one commissioner,\nwe are called clowns by the county attorney. The scope of changes to Texas\nwith the 765 kv lines, gas power plants and mega AI data centers is fast\nand furious and poorly executed. This system will crash due to poor\nplanning and it will be at the cost of the citizens in their health and\nsafety and land.\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-03T22:49:39Z"
 }

@@ -18,5 +18,32 @@
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
  "keywords": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59142_76_1687281.ZIP",
+   "name": null,
+   "bytes": 193192,
+   "sha256": "953fcf09070dfa565d711333934ddc98bcb75f4f4c638c7c174a81c46405c192",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": true,
+   "pages": null,
+   "truncated": false,
+   "text": "=== bob142.pdf ===\nSeptember 13\", 2026\nDear Commissioners,\n\n! respectfully request that the Public Utility Commission of Texas conduct an audit and\ncomprehensive review of Project Raptor Permit #59142 to ensure compliance with all\napplication regulations and to evaluate its potential impact on nearby residents and\nagricultural operations.\n\nThis proposed project is situated in the middle of hundreds of homes and large tracts of\nproduction agriculture. | myself and family live in close proximity and have great concerns\nabout the effects of increased industrial activity; including noise, lighting, traffic and other\ndisruptions that may affect young children, the medically vulnerable, livestock and the\nrural character of our community. Ranchers and property owners are particularly\nconcerned about impacts on cattle, horses and other livestock, as well as potential\ndeclines in quality of life and property enjoyment.\n\n| request that the Commission review any impact on electric reliability, infrastructure\ncosts, and Texas ratepayers and verify that all studies, disclosures, and regulatory\nrequirements have been fully met. Given the significant public interest in this project, | also\nask that the Commission make its findings publicly available and provide opportunities for\ncommunity input throughout the review process.\n\nThank you for your consideration and for your commitment to protecting Texas\nCommunities through transparent regulatory oversight.\n\nRespectfully,\nfir. t——\nName: Bob Lindemann\nAddress: 11016 State Hwy 79 South Holliday, Texas 76366\nEmail: blshoecloset@aol.com\n\nPhone number: 940-733-7004\n"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59142_76_1687282.PDF",
+   "name": null,
+   "bytes": 105774,
+   "sha256": "48647e8743e2fb47447bfa1cae27cc5136146d39e56024e37d1088805e4387d3",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-25 09:23:30 AM\n\nControl Number - 59142\n\nItem Number - 76\n\f September 13%2026\n\n\n\n\n DearCommissioners,\n\n\n\n\nI respectfully requestthat the Public Utility Commission of Texas conduct an audit and\ncomprehensive review of Project Raptor Permit #59142 to ensure compliance with all\napplication regulations and to evaluate its potential impact on nearby residents and\nagricultural operations.\n\nThis proposed project is situated in the middle of hundreds of homes and large tracts of\nproduction agriculture. I myself and famjty live in ctose proximity and have great concerns\naboutthe effects of increased industriatactivity; including noise, lighting, traffic and other\ndisruptionsthat may affect youngchildren, the medically vulnerable, livestock and the\nruralcharacter of ourcommunity. Ranchers and property ownersare particularly\nconcerned about impacts on cattle, horses and other livestock, as well as potential\ndeclines in quality of life and property enjoyment¤\n\nI requestthatthe Commission review any impact on electric reliability, infrastructure\ncosts, and Texas ratepayers and verify that all studies, disclosures, and regulatory\nrequirements have been fully met. Given the significant public interest in this project, I also\naskthatthe Commissjon mal<e its findings publiclyavailableand provide opportunities for\ncommunityinputthroughout the review process.\n\nThankyou foryourconsideration and foryourcommitmentto protecting Texas\nCommunities through transparent regulatory ove rsight.\n\n\n\nRespectfully,\n\n\n\n   fg- a?~                  _\nName: Bob Lindemann\n\nAddress: 11016 State Hwy 79 South Holliday, Texas 76366\n\nEmail: blshoecloset@aol.com\n\nPhone number: 940-733-7004\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:59:14Z"
 }

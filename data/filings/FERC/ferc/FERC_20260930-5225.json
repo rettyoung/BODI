@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151428.txt",
+   "bytes": 664,
+   "sha256": "8702c755aafab0818ea8bb807f743c000388028ef6acd008440a1360f34815ea",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nBrite Niezek, Palmer, AK.\nI cannot support building a Data Center in an area that sustains endangered Cook Inlet belugas and fisheries vital to our food supply and way of life. Even if surplus tidal power were added to the grid to help meet local demand, doing so would require infrastructure that does not yet exist. DeepGreen should not leverage that prospect to gain favor with the public or regulators. The applicants should not be given a preliminary permit while studies and engineering are performed, when the project, if evaluated on its own, is not in the region’s best interest. Do we need a Data Center in Cook Inlet? The answer is clearly No.\r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:52:05Z"
 }

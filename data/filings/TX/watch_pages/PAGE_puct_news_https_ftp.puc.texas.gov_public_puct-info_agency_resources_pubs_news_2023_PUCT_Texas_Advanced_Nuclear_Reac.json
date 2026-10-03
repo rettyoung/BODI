@@ -21,8 +21,25 @@
  "collected_at": "2026-10-03T00:26:52Z",
  "run_id": "2026-10-02-2349",
  "keywords": [
+  "ESA",
   "nuclear"
  ],
- "party_hits": [],
- "documents": []
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": [
+  {
+   "url": "https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2023/PUCT_Texas_Advanced_Nuclear_Reactor_Working_Group_Named.pdf",
+   "name": null,
+   "bytes": 143645,
+   "sha256": "3aa5c74918a0c63e854b85bbad46d8e87cfe93023cd913b0520d8ac127b053fc",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                           Public Utility Commission of Texas\n                      1701 N. Congress, P.O. Box 13326, Austin, TX 78711-3326\n\n  Press Release                                                              Contact: Ellie Breed\n  Oct. 10, 2023                                                           Media@PUC.Texas.Gov\n\n\n          Texas Advanced Nuclear Reactor Working Group Named\n\n                     FAQs Added to PUCT Nuclear Working Group Webpage\n\nAustin, Texas - The members of the Public Utility Commission of Texas’ (PUCT) Texas Advanced\nNuclear Reactor Working Group were announced today. The working group was established Aug.\n16, 2023, at the direction of Governor Greg Abbott and operates under the leadership of PUCT\nCommissioner Jimmy Glotfelty.\n\n“These experts are leaders in nuclear energy, business, and academia and will be instrumental as\nwe chart a path forward for advanced nuclear technology in Texas,” Glotfelty said. “The diversity\nand depth of their expertise will help us deliver a comprehensive and actionable plan to make our\nstate the leader in nuclear energy. I thank each of them for their willingness to participate and\nserve the interests of Texas consumers.”\n\nThe members of the Texas Advanced Nuclear Reactor Working Group, along with Commissioner\nGlotfelty, are:\n\nDillon Allen, Senior Manager of Advanced Nuclear Development, Entergy\nChrissy Borskey, Senior Executive Director, Government Affairs and Policy, GE Vernova/GE Hitachi\nBret Colby, Principal, Nuclear Oversight, CPS Energy\nRyan Duncan, Director of Government Relations, Last Energy\nDerek Haas, Associate Professor of Mechanical Engineering, University of Texas at Austin\nMaynard Holt, CEO, Veriten\nMike Kotara, President, Zachry Sustainability Solutions\nStephanie Matthews, Executive Vice President, Texas Association of Business\nSean McDeavitt, Associate Vice Chancellor, National Laboratories Office, Texas A&M University\nAndy Meyers, Ft. Bend County Commissioner\nAndy Nguyen, Director of Wholesale Market Development, Constellation\nPreeti Patel, Associate Commercial Director, Dow\nBenjamin Reinke, Vice President of Global Business Development, X-Energy\nDoug Robison, CEO, Natura\nClayton Scott, Executive Vice President of Business Development, Pearl/NuScale\nJim Stanway, Senior Strategist, Samsung\nPablo Vegas, CEO, Electric Reliability Council of Texas\n\fAlong with working group members, additional experts in fields relating to nuclear energy\ndevelopment, deployment, and distribution will join this effort on subgroups to ensure the full\nspectrum of ideas and options can be considered.\n\nThe working group will evaluate how advanced nuclear reactors can provide safe, reliable, and\naffordable power for Texas. Areas of study include safety advancements, financial incentives,\nstate, and federal regulatory impediments to growth, permitting processes, and impacts to the\nTexas electric market. The working group must report its findings and recommendations to\nGovernor Abbott by Dec. 1, 2024.\n\nAdditional information can be found on the Texas Advanced Nuclear Reactor Working Group web\npage, including frequently asked questions and information about upcoming public working group\nmeetings as they are scheduled.\n\n\nAbout the Public Utility Commission\nOur mission is to serve Texans by regulating the state’s electric, telecommunication, and water\nand sewer utilities, implementing respective legislation, and offering customer assistance in\nresolving consumer complaints. Since its founding in 1975, the Commission has a long and proud\nhistory of service to Texas, protecting customers, fostering competition, and promoting high\nquality infrastructure. To learn more, please visit https://www.puc.texas.gov.\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-03T23:12:29Z"
 }

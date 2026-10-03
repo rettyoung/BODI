@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151371.txt",
+   "bytes": 590,
+   "sha256": "81d7c030702936cd79a5fe85eab502e7075b1fc9ca4701b8ac66ded61a0c20df",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nPaula L Davis, Anchorage, AK.\nI am astonished that anyone who lives along Cook Inlet would agree to a data center in Cook Inlet. The impact on all the salmon, the beluga whales, the noise and potential pollution to the waters would be irreversible. It would be an affront to all that is important to Alaskans. And,data centers use a phenomenal amount of electricity and can raise the water temperatures surrounding the center, another negative impact for all creatures that live in the inlet.\r\nPlease do not consider this for our precious land and waters!\r\nSincerely,\r\nPaula L Davis\r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:58:25Z"
 }

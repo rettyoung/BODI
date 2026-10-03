@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151213.txt",
+   "bytes": 508,
+   "sha256": "5411de12b282008530c96095833d502eff0c851482b0400b03cfea0126a18768",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nKathryn Neffendorf, Wasilla, AK.\nAs a local Alaskan that was born and raised here I am against any data centers in Alaska period. I think I speak for the majority when I say that we value our wildlife and lands way more than anything a data center could provide for us, which I see zero value in a data center what so ever. The majority of Alaskans depend on the water to provide for us whether that is for off grid living or subsistence fishing. Alaska does not need and does not want data centers. \r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:02:28Z"
 }

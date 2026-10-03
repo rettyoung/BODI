@@ -29,7 +29,23 @@
  "collected_at": "2026-10-02T23:14:19Z",
  "run_id": "2026-10-02-2305",
  "keywords": [
+  "interconnection",
   "large load"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791832_Interv.txt",
+   "bytes": 2041,
+   "sha256": "e5af330001164f6ccd4867da16333920ab832f4bece9f9d0cf7058b9c9e215da",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Citizens Utility Board of Michigan under ER26-3650-000.\r\n\r\nSubmission Date:        9/17/2026 3:35:06 PM\r\n\r\nFiled Date:             9/17/2026 3:35:06 PM\r\n\r\nDockets\r\n-------\r\nER26-3650-000        Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-08-28_Interconnection Reliability Requirements for Large Loads submitted on 8/28/2026 4:41:03 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nCitizens Utility Board of Michigan       john.liskey@cubofmichigan.org                                                    \r\n\r\nBasis for Intervening:\r\nPursuant to Rules 212 and 214, 18 C.F.R. 385.212 and 385.214 (2024) of the Federal Energy Regulatory Commissions rules of practice and procedure, the Citizens Utility Board of Michigan (CUB of MI) moves for timely intervention in this proceeding. CUB of MI is a nonpartisan, nonprofit organization whose members are individual residential customers of Michigan’s energy utilities. CUB of MI was formed in 2018 to represent the interests of over 4 million residential electric ratepayers across the state of Michigan. CUB of MI represents these residential ratepayers in state and federal proceedings in support of just and reasonable electric rates pursuant to Michigan law.\r\n\r\nCUB of MI members are affected by the outcome of this proceeding as it could affect rates. CUB of Michigan's members have a significant and unique interest in this proceeding that cannot be protected by any other party. CUB of Michigan's participation in this docket is in the public interest, and good cause exists for the motion. CUB of MI respectfully requests that the\r\nCommission grant CUB of Michigan's motion to intervene and grant it full rights as a party.\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:10:06Z"
 }

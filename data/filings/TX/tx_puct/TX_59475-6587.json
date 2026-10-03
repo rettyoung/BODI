@@ -18,5 +18,32 @@
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
  "keywords": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6587_1684979.ZIP",
+   "name": null,
+   "bytes": 360695,
+   "sha256": "a5a5d6d9a8790bec8af91e7835510e312b4806e56f90b284d336668be1ee9a8a",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6587_1684980.PDF",
+   "name": null,
+   "bytes": 104342,
+   "sha256": "b5f24819e1348fabf984acf354dde43bf8d9101ee9fbe9ba47b8b0bb1fe96eac",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-20 12:06:13 PM\n\nControl Number - 59475\n\nItem Number - 6587\n\fHonorable Chairman Gleason\nPublic Comment Supporting Independent Audit Request - Docket\n59475, Item 6571\nI support Kevin Kennedy and John M. Burrow's request in Item 6571 for an\nindependent technical investigation and forensic audit of the modeling underlying\nthe 2024 Permian Basin Reliability Plan.\nBefore further irreversible commitments are made, we ask the Commission to\nobtain an independent evaluation of the modeling assumptions, reconcile\nmaterial differences between the PBRP and the 2024 Regional Transmission Plan,\nand publicly explain whether each proposed 765-kV import path remains\njustified.\nWe also support the requested pause while that work is completed and reviewed.\nOur support for an audit does not presume misconduct or a predetermined result.\nIt reflects the importance of getting decisions of this magnitude correct. When\nbillions of dollars, thousands of acres of private land, and long-term ratepayer\nobligations are at stake, Texans need confidence that the underlying models are\naccurate, unbiased, and compliant with all applicable standards.\nFor these reasons, we respectfully urge the Commission to grant the request for\nan independent technical investigation and forensic audit, and to pause further\naction on the 765-kV import paths until that work is complete.\n\nTexans deserve clarity before irreversible decisions are made.\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:04:19Z"
 }

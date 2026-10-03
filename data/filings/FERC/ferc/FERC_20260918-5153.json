@@ -29,7 +29,23 @@
  "collected_at": "2026-10-02T23:14:19Z",
  "run_id": "2026-10-02-2305",
  "keywords": [
+  "interconnection",
   "large load"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791951_Interv.txt",
+   "bytes": 1926,
+   "sha256": "41fdfc7695154cfa244bd2873a202449a1608a4a57ac4310dc0ae44000383d50",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Clean Grid Alliance under ER26-3650-000.\r\n\r\nSubmission Date:        9/18/2026 11:24:34 AM\r\n\r\nFiled Date:             9/18/2026 11:24:34 AM\r\n\r\nDockets\r\n-------\r\nER26-3650-000        Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-08-28_Interconnection Reliability Requirements for Large Loads submitted on 8/28/2026 4:41:03 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nClean Grid Alliance                      ewheeler@cleangridalliance.org           intertranec@gmail.com                   \r\n\r\nBasis for Intervening:\r\nClean Grid Alliance is a Minnesota-based nonprofit organization working in the MISO footprint to advance clean, renewable energy, reduce carbon emissions, build the clean energy economy in the Midwest, and transition MISO market rules to accommodate robust amounts of low-and zero carbon generation. \r\n\r\nMembers of Clean Grid Alliance include wind, solar, storage and transmission developers, state/regional/national NGOs working in the public interest, and other businesses that provide goods and services to the renewable energy industries. Our renewable energy developers, manufacturers and others will be significantly impacted by the Commission's resolution of this filing. Clean Grid Alliance staff and consultants are deeply involved in the MISO stakeholder process on market and operational rules that govern the participation of renewable energy in the MISO marketplace. Clean Grid Alliance thus has an interest in this proceeding that cannot be represented by any other entity, and that supports its intervention in these proceedings. "
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:05:31Z"
 }

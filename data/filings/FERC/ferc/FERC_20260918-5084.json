@@ -29,7 +29,23 @@
  "collected_at": "2026-10-02T23:14:19Z",
  "run_id": "2026-10-02-2305",
  "keywords": [
+  "interconnection",
   "large load"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791881_Interv.txt",
+   "bytes": 2106,
+   "sha256": "441c4a6b16bef24c55beca7f20bf022b71ab356e346d221b9308fa04ae80cfe1",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Mississippi Public Service Commission under ER26-3650-000.\r\n\r\nSubmission Date:        9/17/2026 9:29:15 PM\r\n\r\nFiled Date:             9/18/2026 8:30:00 AM\r\n\r\nDockets\r\n-------\r\nER26-3650-000        Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-08-28_Interconnection Reliability Requirements for Large Loads submitted on 8/28/2026 4:41:03 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nMississippi Public Service Commission    wdbooth@michaelbest.com                  barton.norfleet@psc.ms.gov              \r\nMississippi Public Service Commission                                             Orrie.walsvik@MichaelBest.com           \r\n\r\nBasis for Intervening:\r\nPursuant to Rule 214(a)(2) of the Commission's Rules of Practice and Procedure, 18 C.F.R. § 385.214(a)(2), the Mississippi Public Service Commission (Mississippi or MPSC) hereby provides notice of intervention in Docket No. ER26-3650. Mississippi is the state regulatory agency empowered pursuant to Miss. Code Ann. § 77-3-1, et seq., to regulate utilities operating within the State of Mississippi. The retail rates and services of the utilities regulated by the MPSC may be affected by the decision in this proceeding. As such, Mississippi has substantial, direct interests that may be affected by the outcome of this proceeding. Pursuant to FERC Rule 214(a)(2), 18 C.F.R. § 385.214(a)(2), Mississippi is entitled to intervene as a matter of right pursuant to timely filing of notice. Mississippi respectfully requests waiver of Rule 203(b) of the Commission's Rules of Practice and Procedure, 18 C.F.R. § 385.203(b), to the extent necessary to allow its representatives, submitted with this doc-less intervention, to be included on the official service list for this proceeding."
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:05:25Z"
 }

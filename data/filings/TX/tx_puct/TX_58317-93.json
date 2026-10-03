@@ -21,5 +21,31 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_93_1688830.ZIP",
+   "name": null,
+   "bytes": 242673,
+   "sha256": "32cabff93ce048c66a20540c6f253514ef548be1798c47fdb49430b269e3606e",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_93_1688831.PDF",
+   "name": null,
+   "bytes": 114478,
+   "sha256": "6bb536a120ee7bad685086f847fa2b71be23652d84f0e28ea34b33809b3db737",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-30 05:30:37 PM\n\nControl Number - 58317\n\nItem Number - 93\n\f                                                                                     /Pt<hv\n\n\n\n\n                                                                                  ~I'Illi\n                                                                                         ]04\n\n\n                                                                                               i\n\n\n\n\n£,, i..,   0,'. Ot,~ei ,·'   /J ·'J-I.ie.2,%4- '.- ..,L.t·k' b   b\n                                                                         i•   .\n\n\"Ilpottq\n                   '4*ks,f.-\n                            0'..%<j\n                                                        .t •'k .:S\n                                                                   I.I\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-03T22:52:32Z"
 }

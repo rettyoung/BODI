@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151411.txt",
+   "bytes": 1775,
+   "sha256": "677869ae6e3a9806b3ca4955e58d224dfe429e7b83e21ae23b4e04b7d5f88bd4",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nChloe Solomon, Bellingham, WA.\nAs a previous long term resident and hopefully future resident again, I am against the construction of the Cook Inlet data center. I majored in fisheries specifically for and in the Pacific Northwest, a few immediate concerns come to mind. Firstly, noise pollution in our oceans have a significant impact on our marine life often harming salmon populations, whales, birds, and other marine species. We also know that because they create a lot of heat so, how much heat will that data center generate to where it affects the surrounding water temperature potentially harming and killing marine life around it when it’s constantly running. Secondly, this has been shown to impact several of the surrounding local tribes, Alaskan native tribes are important and shouldn’t be forgotten as they have been residents much longer than we have and that fact should not be forgotten especially with our history. Lastly, how will this affect fishing permits and jobs because of this kills our salmon what will the fishermen do? Fishing is part of the identity of Alaska people from other parts of the world come to work a season to see what it’s like to work in our waters and come see our wildlife. \r\n\r\nOur communities support each other and we look out for each other, it is something I loved about living and growing up in Alaska. Alaska is called the last frontier it’s a title to uphold and keep because we respect our home and the wildlife that also call it home, allowing that data center to built would make us hypocrites and be an ugly stain on everything the people in Alaska stand for and it would make it the same as any other state in the U.S.. keep data centers out of Cook Inlet and out of Alaska, keep it the last frontier.\r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:54:25Z"
 }

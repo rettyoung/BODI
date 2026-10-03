@@ -31,5 +31,22 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "RESTOREfilingFERCETCTigerPipelineFranklinFarmsRichlandScoping.docx",
+   "bytes": 18492,
+   "sha256": "356dc57b2c2a266d1f8059b9a66a56c42600884fad4b48e08136e516d242b70e",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "RESTORE\nP.O. Box 233\nLongville, LA  70652\n(337)-725-3690\nmichaeltritico@yahoo.com\n09/24/2026\nDebbie-Anne A. Reese\nSecretary\nFederal Energy Regulatory Commission\n888 First Street NE        Room 1A\nWashington, D.C.  20426\n\neFiling at www.ferc.gov\n\nDocket Number  CP26-549-000\nScoping – ETC Tiger Pipeline, LLC - Franklin Farms Project Environmental Issues – Richland Parish\n\nDear FERC:\n\nThe Public Notice I received last month does not make clear whether it had taken into account a recently announced doubling of the size of the META Data Center that will be powered by the natural gas delivered by this pipeline network to the electricity generating plants.  Such a doubling could mean many additional miles of pipeline work and hundreds more acres of land disturbances.  If that doubling was not already taken into account, FERC must start the Scoping process over with the additional information made available to the public and more study time given to us with a new comment deadline.\n\nAs I understand it, the energy demand for the META Data Center will be 5 times that of the City of New Orleans each day.  The water demands are uncertain but the Sparta Aquifer is already overstressed.\n\nSince the area is within the likely distance of influence of the next large earthquake that will have its epicenter upstream near Cape Girardeau, extra attention should be given during Scoping to the vulnerabilities of the ETC Tiger Pipeline complex to that coming event.\n\nThere should also be serious scrutiny about the need for the META Data Center, since mankind got along for many thousands of years without even one, and thus without the need for this pipeline project.  \n\nAlso, Scoping should consider cumulative effects of data center energy/water use/noise proliferations and even the undermining effect upon public trust of government. \n \nThank you for the opportunity to submit these comments.\n\nSincerely,\n\t\tMichael Tritico,    Biologist and President of RESTORE\n\t\t\t\t   Restore Explicit Symmetry To Our Ravaged Earth"
+  }
+ ],
+ "party_hits": [
+  "Meta"
+ ],
+ "enriched_at": "2026-10-03T23:00:00Z"
 }

@@ -18,5 +18,32 @@
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
  "keywords": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6615_1689739.ZIP",
+   "name": null,
+   "bytes": 257199,
+   "sha256": "8a4c14548e746500fc2795e27fb7a45bb35da5464400a728ac05f0752f3a266b",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6615_1689740.PDF",
+   "name": null,
+   "bytes": 93817,
+   "sha256": "b70099bcc90c02023b289acfcb7623d6aff4bda0443e1fdebf48354cf6759a7c",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-10-02 03:49:02 PM\n\nControl Number - 59475\n\nItem Number - 6615\n\f/7\\ No 765 KV in Texas\n     ld · 0\n\"Its time that we quit talking\nfalsehoods\" Senator Kolkhorst\n\nWe agree! \"Building transmission to\nthe areas where minerals are found\"\n(HB 5066) as Iegistative justification\nfor the 765 KVs and PBRP is a\nfalsehood. Ratepayers and Texa s\nlandowners deserve truth and\ntransparancy not misrepresentation!\n\nThank you Senate B&C committee for\nbringing truth!\n\nSTOP: Bell County East -Bdg Hil~ 765\nkV\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:48:50Z"
 }

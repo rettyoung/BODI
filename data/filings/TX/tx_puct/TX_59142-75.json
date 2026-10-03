@@ -18,5 +18,32 @@
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
  "keywords": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59142_75_1687277.ZIP",
+   "name": null,
+   "bytes": 191533,
+   "sha256": "4ec120aba53b34aab1101cc96f545cd143aee8106379418c585e1c21f6963ffa",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": true,
+   "pages": null,
+   "truncated": false,
+   "text": "=== jenn 142.pdf ===\nSeptember 13\", 2026\n\nDear Commissioners,\n\n| respectfully request that the Public Utility Commission of Texas conduct an audit and\ncomprehensive review of Project Raptor Permit #59142 to ensure compliance with all\napplication regulations and to evaluate its potential impact on nearby residents and\nagricultural operations.\n\nThis proposed project is situated in the middle of hundreds of homes and large tracts of\nproduction agriculture. We share a fence line and have many concerns that could affect\nour way of life; including noise, lighting, traffic and other disruptions that may affect young\nchildren, the medically vulnerable, livestock and the rural character of our community. |\nhave particular concerns about impacts on cattle, horses and other livestock, as well as\npotential declines in quality of life and property enjoyment.\n\n| request that the Commission review any impact on electric reliability, infrastructure\ncosts, and Texas ratepayers and verify that all studies, disclosures, and regulatory\nrequirements have been fully met. Given the significant public interest in this project, | also\nask that the Commission make its findings publicly available and provide opportunities for\ncommunity input throughout the review process.\n\nThank you for your consideration and for your commitment to protecting Texas\nCommunities through transparent regulatory oversight.\n\nRespectfully,\nName: Jennifer Lindemann\nAddress: 840 Fm 2224 Holliday, Texas 76366\n\nEmail: jennifer@lindemanndrilling.com\n\nPhone number: 940-733-7008\n"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59142_75_1687278.PDF",
+   "name": null,
+   "bytes": 104942,
+   "sha256": "fe9e79fe3046471c23ec6cddf0044ded2f1c2afdf200e9669ada9a33c7bdb980",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-25 09:19:56 AM\n\nControl Number - 59142\n\nItem Number - 75\n\fSeptember 13th,2026\n\n\n\nDear Commissioners,\n\n\n\n\nI respectfully requestthatthe Public Utility Commission of Texas conductan auditand\ncomprehensive review of Project Raptor Permit #59142 to ensure compliance with all\napplication regulationsandtoevaluate its potential impacton nearby residents and\nagriculturaloperations.\n\nThis proposed project is situated in the middte of hundreds of homes and large tracts of\nproduction agriculture. We share a fence line and have manyconcernsthat could affect\nour way of life; including noise, lighting, traffic and other disruptions that may affect young\nchildren, the medicallyvulnerable, livestockand the ruralcharacter of ourcommunity. I\nhave particular concerns about impacts on cattle, horses and other livestock, as well as\npotential declines in quality of life and property enjoyment.\n\nI requestthatthe Commission review anyimpact on electric reliability, infrastructure\ncosts, and Texas ratepayers and verify that all studies, disclosures, and regulatory\nrequirements have been fully met. Given the significant public interest in this project, I also\naskthatthe Commission make its findings publiclyavailableand provide opportunities for\ncommunityinputthroughout the review process.\n\nThank you for yourconsideration and foryourcommitment to protecting Texas\nCommunitiesthroughtransparent regulatoryoversight.\n\n\n\n\nRespectfully,\n\n\n    ~fu, _ --9*4,44WdUt-··/\n                A\n\n\n\nName: Jennifer Lindemann\n\nAddress: 840 Fm 2224 Holliday, Texas 76366\n\nEmail: jennifer@lindemanndrilling.com\n\nPhone number: 940-733-7008\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:59:23Z"
 }

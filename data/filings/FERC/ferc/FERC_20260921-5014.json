@@ -29,7 +29,23 @@
  "collected_at": "2026-10-02T23:14:19Z",
  "run_id": "2026-10-02-2305",
  "keywords": [
-  "data center"
+  "data center",
+  "hyperscale"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151179.txt",
+   "bytes": 1253,
+   "sha256": "524ecd298b76466e7dce9f37165fcf5f9f95ebfcc2e5a42dbd888c9ac80c66bc",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nCathryn Simon, Anchorage, AK.\nI oppose the construction of a tidally powered data center in the Forelands region near Nikiski. The potential damage to Cook Inlet, its communities and ecosystems, out ways possible benefits.  This is a small area that supports salmon and an endangered population of beluga whales.  The heat from the power center functions will increase the temperature of the waters around it and this could exacerbate increases of sea temperature that we are already experiencing.  The sound pollution is likely to harm the echolocation of the belugas. The copper pollution from the cooling fins could impact salmon even if the copper is in very small amounts.  This type of hyperscale underwater data center and its effects on the environment have not been adequately studied.  Furthermore this type of project will not meet the needs of our communities.  We should put our energy into smaller projects that would provide renewable energy to the people of Cook Inlet that could be scaled up as appropriate over time and allow careful research into safe operation that will have minimal impacts on the ecosystem.  I urge FERC to deny a federal permit to DeepGreen and prevent the installation of the tidally powered data center.\r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:02:19Z"
 }

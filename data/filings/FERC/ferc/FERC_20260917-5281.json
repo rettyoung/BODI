@@ -29,7 +29,24 @@
  "collected_at": "2026-10-02T23:14:19Z",
  "run_id": "2026-10-02-2305",
  "keywords": [
-  "large load"
+  "interconnection",
+  "large load",
+  "transmission service"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791818_Interv.txt",
+   "bytes": 2640,
+   "sha256": "381d975387775529d81fa9f8720f1f7815af4f4d0a4e0b7e5812e067e96394b2",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Iowa Office of Consumer Advocate under ER26-3650-000.\r\n\r\nSubmission Date:        9/17/2026 3:04:45 PM\r\n\r\nFiled Date:             9/17/2026 3:04:45 PM\r\n\r\nDockets\r\n-------\r\nER26-3650-000        Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-08-28_Interconnection Reliability Requirements for Large Loads submitted on 8/28/2026 4:41:03 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nIowa Office of Consumer Advocate         heather.palmer@oca.iowa.gov                                                      \r\nIowa Office of Consumer Advocate         jennifer.easler@oca.iowa.gov                                                     \r\n\r\nBasis for Intervening:\r\nBasis for Intervening:\r\n\r\nPursuant to Rules 212 and 214 of the Federal Energy Regulatory Commission’s (“Commission”) Rules of Practice and Procedure, 18 C.F.R. sections 385.212 and 385.214, the Iowa Office of Consumer Advocate (“Iowa OCA”) respectfully submits this Motion to Intervene in the above-captioned proceeding.  \r\n\r\nThe Iowa OCA is authorized by Iowa law to act as attorney for and to represent all Iowa consumers generally and the Iowa public generally in proceedings before federal agencies involving the regulation of public utilities.  Iowa Code § 475A.2(5).  Iowa electric utilities participate in the Midcontinent Independent System Operator, Inc. (“MISO”) market and incur costs for transmission service and the purchase of capacity, energy and ancillary market service in the MISO market.  These costs are recovered from Iowa electric consumers.  The Commission’s decision will have a direct impact on the electric rates paid by Iowa consumers.  If the Iowa OCA is not allowed to intervene, the interests of Iowa consumers generally will not be adequately represented by any other party in this proceeding because no other party, agency, or office of the government of Iowa is tasked solely with the representation of the interests of Iowa consumers generally.  Unless the Iowa OCA is permitted to intervene on behalf of Iowa consumers generally and participate in this proceeding, Iowa consumers generally may be bound or adversely affected by a Commission order without an opportunity to have their views heard and considered.  Thus, Iowa OCA’s intervention is in the public interest. "
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:10:00Z"
 }

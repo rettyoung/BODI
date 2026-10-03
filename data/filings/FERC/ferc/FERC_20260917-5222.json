@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791748_Interv.txt",
+   "bytes": 3276,
+   "sha256": "ca49ddbe7a55bd198782b4699a70d1e421a2308b46dc69503c15f9f948f285d8",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Gary S Fronheiser, property owner on Johnson Cove under P-15424-000.\r\n\r\nSubmission Date:        9/17/2026 1:18:02 PM\r\n\r\nFiled Date:             9/17/2026 1:18:02 PM\r\n\r\nDockets\r\n-------\r\nP-15424-000          DeepGreen Western Passage SPV LLC submits Application for Preliminary Permit for the DeepGreen Western Passage Subsea-Compute & Infrastructure Hub Project under P-15424.\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nIndividual                               gsfron@ptd.net                                                                   \r\n\r\nBasis for Intervening:\r\nAlthough our primary residence is in Pennsylvania, my wife and I have owned a waterfront home on Johnson Cove in Eastport Maine for 14 years, and we enjoy the diverse and abundant wildlife both in the cove and on the shore. We are there every month of the year. It is a quiet area with abundant natural beauty. Fishing, lobster and scallop boats frequent the cove, and lobster buoys are scattered over the outer cove. Clams and crabs are also in the mudflats.  Whales and seals use the cove. Eagles nest on Kendall Head, and deer forage on our property. We believe the proposed Deep Green underwater data center directly off Johnson Cove would of necessity disrupt the sea floor, cause at minimum localized warming of the ocean water, and disrupt or even destroy fishing in that area and affect the waters even internationally, with Canadian waters being only a mile away.  A salmon pen had been in Johnson Cove next to Kendall Head several years ago and was removed because discharge from it was negatively affecting the western passage. Noise, even if underwater, would have an effect on the whales and other sea life.  This data center would also require infrastructure on land for its cables and transmission lines coming out of the water, and that would also have a negative effect on the land with most likely noise and regular activity, and Eastport has authority over how the land is used.  In addition, the location where my house is located is in a subdivision called Coveside, and there are deed restrictions that only allow a residence to be located on the property, so any data center infrastructure in the subdivision would violate all those deed restrictions. It is certain that property values and the ability to enjoy our property will most likely be negatively affected. Lastly, it seems as though Deep Green conducting the environmental study is a conflict of interest since Deep Green wants the project to proceed, with millions of dollars in the game for them.  For that reason, I suggest that FERC selects a third party to write the environmental impact statement with Deep Green paying for it, and also all thermal and acoustic modeling data be subjected to independent third-party study before any licenses are granted.  The environmental impact should also consider the impact of coastal erosion with the cables and other infrastructure coming onto the land. Thank you.--Gary Fronheiser   "
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:09:48Z"
 }

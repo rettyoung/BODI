@@ -29,7 +29,23 @@
  "collected_at": "2026-10-02T23:14:19Z",
  "run_id": "2026-10-02-2305",
  "keywords": [
+  "interconnection",
   "large load"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791892_Interv.txt",
+   "bytes": 1928,
+   "sha256": "56b20763edd955b4f2d177de6917fa2ada7f85d73cf4b5ba284523c46e92b5fe",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Rainbow Energy Center, LLC under ER26-3650-000.\r\n\r\nSubmission Date:        9/18/2026 7:07:08 AM\r\n\r\nFiled Date:             9/18/2026 8:30:00 AM\r\n\r\nDockets\r\n-------\r\nER26-3650-000        Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-08-28_Interconnection Reliability Requirements for Large Loads submitted on 8/28/2026 4:41:03 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nRainbow Energy Center, LLC               rfallon@efenergylaw.com                                                          \r\n\r\nBasis for Intervening:\r\nOn August 28, 2026, the Midcontinent Independent System Operator, Inc. (MISO) submitted to its Tariff establish certain Interconnection Reliability Requirements for Large Loads (IRR Proposal). The IRR Proposal establishes broad categories of new reliability requirements intended to address planning, operational and disturbance performance associated with Large Loads and Computational Loads, as defined therein, along with other definitions, applicability and transition provisions necessary to implement the new requirements.\r\n\r\nRainbow Energy Center, LLC (REC) is a North Dakota limited liability company that owns and operates the Coal Creek Generating Station, located within MISO.  As a generator in the MISO market capable of servicing load on-site, REC has a direct interest in the proposed new requirements sufficient to grant intervention pursuant to 18 C.F.R. Sec. 385.214.  Its interests cannot be adequately represented by any other party.  REC requests intervention in the referenced docket with all rights attendant thereto.\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:05:04Z"
 }

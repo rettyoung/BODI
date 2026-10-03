@@ -17,6 +17,35 @@
  ],
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
- "keywords": [],
- "documents": []
+ "keywords": [
+  "transmission service"
+ ],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6591_1685039.ZIP",
+   "name": null,
+   "bytes": 102999,
+   "sha256": "c28a8c143a9b8d3c9d48bd215f7268cbbca472414cec144e98bcb5f3fc54fb56",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Audit Request.pdf ===\n                                  SOAH DOCKET NO. 473-26-16349\n\n    JOINT APPLICATION OF\n ONCOR ELECTRIC DELIVERY\n   COMPANY LLC AND LCRA                              §\n   TRANSMISSION SERVICES                             §                            BEFORE THE\n  CORPORATION TO AMEND                               §\n   THEIR CERTIFICATES OF                             §                   PUBLIC UTILITY COMMISSION\n      CONVENIENCE AND                                §\n   NECESSITY FOR THE BELL                            §                              OF TEXAS\n COUNTY EAST SWITCH TO BIG                           §\n   HILL SUBSTATION 765-KV\n TRANSMISSION LINE PROJECT\nPUC DOCKET NO. 59475\n\n\n\n                    PLEADING IN SUPPORT OF REQUEST FOR\n               INDEPENDENT INVESTIGATION AND FORENSIC AUDIT\n\nTO THE HONORABLE PUBLIC UTILITY COMMISSION OF TEXAS AND\nADMINISTRATIVE LAW JUDGES:\nIntervenor Christine Thies, appearing pro se, files this pleading in support of Kevin Kennedy and\nJohn Burrows' request for an independent investigation and forensic audit.\nI. INDEPENDENT VERIFICATION\nThe Commission is being asked to rely on forecasts, models, source data, cost assumptions,\nplanning judgments, and conclusions concerning reliability and consumer benefits. An\nindependent review would allow a neutral party to determine whether that information is\ncomplete, traceable to its source, reproducible, and supported by the underlying data. This\nrequest does not presume fraud, misconduct, or wrongdoing. Its purpose is to replace speculation\nwith verification by determining what information was used, what assumptions were made,\nwhether the calculations can be replicated, and whether material information was omitted or\nchanged.\nII. PUBLIC INTEREST\nLandowners and ratepayers will live with the consequences of the Commission's decision.\nIndependent verification would strengthen the reliability of that decision, protect the integrity of\nthe process, and promote public confidence regardless of the ultimate outcome.\n\nRespectfully submitted,\n\n\n\n\nChristine Thies\nIntervenor, Pro Se\n16152 Audrey Ln\nHolland, TX 76534\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6591_1685040.PDF",
+   "name": null,
+   "bytes": 107062,
+   "sha256": "96b126c43785c32e20310db309d3b45df306e307fdfa922030b59635a79d0666",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-21 09:33:35 AM\n\nControl Number - 59475\n\nItem Number - 6591\n\f                                  SOAH DOCKET NO. 473-26-16349\n\n    JOINT APPLICATION OF\n  ONCOR ELECTRIC DELIVERY\n   COMPANY LLC AND LCRA                              §\n   TRANSMISSION SERVICES                             §                            BEFORE THE\n   CORPORATION TO AMEND                              §\n    THEIR CERTIFICATES OF                            §                   PUBLIC UTILITY COMMISSION\n      CONVENIENCE AND                                §\n   NECESSITY FOR THE BELL                            §                              OF TEXAS\n COUNTY EAST SWITCH TO BIG                           §\n   HILL SUBSTATION 765-KV\n TRANSMISSION LINE PROJECT\nPUC DOCKET NO. 59475\n\n\n\n                    PLEADING IN SUPPORT OF REQUEST FOR\n               INDEPENDENT INVESTIGATION AND FORENSIC AUDIT\n\nTO THE HONORABLE PUBLIC UTILITY COMMISSION OF TEXAS AND\nADMINISTRATIVE LAW JUDGES:\nIntervenor Christine Thies, appearing pro se, files this pleading in support of Kevin Kennedy and\nJohn Burrows' request for an independent investigation and forensic audit.\nI. INDEPENDENT VERIFICATION\nThe Commission is being asked to rely on forecasts, models, source data, cost assumptions,\nplanning judgments, and conclusions concerning reliability and consumer benefits. An\nindependent review would allow a neutral party to determine whether that information is\ncomplete, traceable to its source, reproducible, and supported by the underlying data. This\nrequest does not presume fraud, misconduct, or wrongdoing. Its purpose is to replace speculation\nwith verification by determining what information was used, what assumptions were made,\nwhether the calculations can be replicated, and whether material information was omitted or\nchanged.\nII. PUBLIC INTEREST\nLandowners and ratepayers willlive with the consequences of the Commission's decision.\nIndependent verification would strengthen the reliability of that decision, protect the integrity of\nthe process, and promote public confidence regardless of the ultimate outcome.\n\nRespectfully submitted,\n\n\n\nok\nChristine Thies\nIntervenor, Pro Se\n16152 Audrey Ln\nHolland, TX 76534\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:03:28Z"
 }

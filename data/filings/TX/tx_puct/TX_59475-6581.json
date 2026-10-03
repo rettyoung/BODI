@@ -18,5 +18,32 @@
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
  "keywords": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6581_1684659.ZIP",
+   "name": null,
+   "bytes": 30748,
+   "sha256": "fd4e866a18f8a1c495640d85a97be66d15edc0a49a06214d9284f9c4e7aba8ad",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 59475 void letter2.docx ===\n\nSeptember 18, 2026\n\nCentral Records, \n\nThis letter is to request Central Records to void AIS Item #6580 in Docket No. 59475. "
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6581_1684660.PDF",
+   "name": null,
+   "bytes": 90556,
+   "sha256": "cf86fdabeabf2a4b661ac3bfa84047cf70c66e5f86346371041e1d2a3a8f4ea7",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-18 01:24:03 PM\n\nControl Number - 59475\n\nItem Number - 6581\n\f      Thomas J. Gleeson                                                                                 Greg Abbott\n      Chairman                                                                                                    Governor\n\n      Kathleen Jackson                                                                                Connie Corona\n      Commissioner                                                                                    Executive Director\n\n      Courtney K. Hjaltman\n Commissioner\n\n      Morgan Johnson\n      Commissioner                 Public Utility Commission of Texas\n      Patrick Rhode\n      Commissioner\n\n\n\n\n              September 18, 2026\n\n              Central Records,\n\n              This letter is to request Central Records to void AIS Item #6580 in Docket No. 59475.\n\n\n\n\n~ted on recycled paper                                                                            An Equal Opportunity Employer\n\n 1701 N. Congress Avenue PO Box 13326 Austin, TX 78711 512/936-7000 Fax: 512/936-7003 website: www. puc. texas.gov\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:08:21Z"
 }

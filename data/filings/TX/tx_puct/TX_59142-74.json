@@ -18,5 +18,32 @@
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
  "keywords": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59142_74_1687271.ZIP",
+   "name": null,
+   "bytes": 209635,
+   "sha256": "4653485a3c24e1678c559281d5e7beaae429ce3c476bbeefa8042d8f67e05595",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": true,
+   "pages": null,
+   "truncated": false,
+   "text": "=== doug 142.pdf ===\nSeptember 13\", 2026\nDear Commissioners,\n\n| respectfully request that the Public Utility Commission of Texas conduct an audit and\ncomprehensive review of Project Raptor Permit #59142 to ensure compliance with all\napplication regulations and to evaluate its potential impact on nearby residents and\nagricultural operations.\n\nThis proposed project is situated in the middle of hundreds of homes and large tracts of\nproduction agriculture. | myself and family live in close proximity and have great concerns\nabout the effects of increased industrial activity; including noise, lighting, traffic and other\ndisruptions that may affect young children, the medically vulnerable, livestock and the\nrural character of our community. Ranchers and property owners are particularly\nconcerned about impacts on cattle, horses and other livestock, as well as potential\ndeclines in quality of life and property enjoyment.\n\n| request that the Commission review any impact on electric reliability, infrastructure\ncosts, and Texas ratepayers and verify that all studies, disclosures, and regulatory\nrequirements have been fully met. Given the significant public interest in this project, | also\nask that the Commission make its findings publicly available and provide opportunities for\ncommunity input throughout the review process.\n\nThank you for your consideration and for your commitment to protecting Texas\nCommunities through transparent regulatory oversight.\n\n9. olen\n\nName: Doug Lindemann\n\nAddress: 840 FM 2224 Holliday, Texas 76366\nEmail: doug@lindemanndrilling.com\n\nPhone number: 940-733-7003\n"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59142_74_1687272.PDF",
+   "name": null,
+   "bytes": 106379,
+   "sha256": "1e13ef2904e6b8fe0177d53b06c6c61d21b2b435ba70bac7a2728d39ad8f1e05",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-25 09:17:54 AM\n\nControl Number - 59142\n\nItem Number - 74\n\fSeptember 13th,2026\n\n\n\n\nDear Commissioners,\n\n\n\n\nI respectfully request that the Public Utility Commission of Texas conduct an audit and\ncomprehensive review of Project Raptor Permit #59142 to ensure compliance with all\napplication regulations andto evaluate its potential impacton nearby residentsand\nagricultural operations.\n\nThis proposed project is situated in the middle of hundreds of homes and large tracts of\nproduction agriculture. I myself and fartlily live in close proximity and have great concerns\nabout the effects of increased industrial activity; including noise, lighting, traffic and other\ndisruptions that may affect young chitdren, the medically vulnerable, livestock and the\nruralcharacter of ourcommunity. Ranchers and property ownersare particularly\nconcerned about impacts on cattle, horses and other livestock, as well as potential\ndeclines in quality of life and property enjoyment.\n\nI requestthatthe Commission review any impact on electric reliability, infrastructure\ncosts, and Texas ratepayers and verifythat alt studies, disclosures, and regulatory\nrequirements have been fully met. Given the significant public interest in this project, I also\naskthatthe Commission make its findings publicly available and provide opportunities for\ncommunityinputthroughoutthe review process.\n\nThanl<you foryourconsideration and for your commitment to protecting Texas\nCommunitiesthroughtransparent regulatory oversight.\n\n\n\n\n    pectfullv,           1\n\nNarne: Doug Lindemaru\nAddress: 840 FM 2224 Holliday, Texas 76366\n\nEmail: doug@lindernanndrilling.com\n\nPhone number: 940-733-7003\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:59:32Z"
 }

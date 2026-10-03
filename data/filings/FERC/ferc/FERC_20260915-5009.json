@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "150626.txt",
+   "bytes": 422,
+   "sha256": "7d36bbc4d7e673c0676e97adad698dccbad896c73d1439d0389f752cdc6d1e12",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nTara Russo, Haines, AK.\nI am an Alaskan and I oppose the data center in the Cook Inlet. These waters need to be protected because they are Alaska’s most valuable resource for food and wildlife. Time to think progressively for our future generations. Most states have already banned data centers for good reason. No data centers in Alaska, no pollution, no privatization of public space, no harm to aquatic life. \r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:11:23Z"
 }

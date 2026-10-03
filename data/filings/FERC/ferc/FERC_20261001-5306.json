@@ -32,5 +32,19 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151438.txt",
+   "bytes": 3045,
+   "sha256": "2bef509080696341c8f7580f53ac97615d2f2a7c41c5545d91f1eeaa3e906aa6",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nValerie Williams, KENAI, AK.\nDear Secretary,\r\nI am writing to file my formal opposition to the preliminary permit application submitted by DeepGreen Cook Inlet SPV LLC for their proposed 100-megawatt subsea data center and tidal hydrokinetic project in Upper Cook Inlet.\r\nAs a property owner located at 1105 Wells Way in Kenai, positioned directly on the bluff overlooking the inlet, I have a substantial, direct, and financial interest in this proceeding. Coastal erosion is a severe and active threat to my immediate shoreline. Because of this imminent danger, I have just personally invested over $100,000 of my own private capital to construct engineered seawalls to stabilize my section of the bluff and protect my home from the aggressive tidal forces of Cook Inlet. Neighboring properties face identical risks and are similarly undergoing costly mitigation.\r\nMy primary objections regarding the proposed 1,650-acre underwater infrastructure include:\r\n1. Alteration of Hydrodynamics and Accelerated Erosion: The project proposes installing between 330 and 350 marine hydrokinetic tidal turbines. Extracting massive amounts of kinetic energy from the water column inherently alters tidal velocity, wave energy, and sediment transport patterns. Any disruption to the natural flow of these currents could render my newly installed $100,000 seawall ineffective, shifting sediment away from my shoreline and rapidly accelerating the catastrophic failure of the Kenai bluff.\r\n2. Lack of Local Consultation and Notification: The developer’s failure to properly notify adjacent landowners and local municipal officials—including the City of Kenai—in their initial filings demonstrates a troubling lack of transparency. Local stakeholders who bear the actual physical and financial risks of this project were completely blindsided.\r\n3. Cumulative Environmental Harm: In addition to the structural threats to my property, the deployment of 66 subsea compute \"hives\" and heavy turbine infrastructure sits directly inside critical habitat for the endangered Cook Inlet beluga whale. The resulting underwater acoustic noise and electromagnetic fields pose unstudied risks to these marine mammals and migrating salmon runs.\r\nConclusion & Remedy Requested:\r\nBecause the developer has not provided adequate modeling to prove that hundreds of offshore turbines will not exacerbate shoreline erosion, I strongly urge the Commission to deny the preliminary permit.\r\nIf the Commission chooses to allow studies to move forward, I demand that FERC mandate a comprehensive, site-specific Environmental Impact Statement (EIS). This study must include robust hydrodynamic modeling to guarantee that this project will not alter the coastal sediment dynamics or cause physical or financial ruin to private property owners who are actively spending hundreds of thousands of dollars to combat erosion.\r\nThank you for your time and careful consideration of local property rights.\r\nSincerely,\r\nValerie Williams, 1105 Wells Way, Kenai AK, 99516 907-244-8878\r\n\r\n"
+  }
+ ],
+ "enriched_at": "2026-10-03T22:51:26Z"
 }

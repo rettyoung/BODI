@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151405.txt",
+   "bytes": 2750,
+   "sha256": "07911df9e7e4d5c3a0095afbd72cdd267eace82fa6878a37b46654d735ecc437",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nCASEY M MCDONALD, Anchorage, AK.\nTo whom it may concern:\r\nMy name is Casey McDonald. I am a lifelong Alaskan and resident of Anchorage, Alaska. I am of Yupik decent and grew up in Bethel, Alaska. I am writing to strongly oppose the proposed data center in the Cook Inlet. There are many reasons for my opposition as I am sure others have spoken out about. My biggest concern for the proposed data center is the impact it will have on our wildlife and our ability to subsist. Our eco system is incredibly fragile and slight warming to our water temperature can have massive consequences. With our salmon populations already dwindling, we can not afford to put that at further risk for a company who does not have Alaskans best interest at heart. We have a thriving population of belugas and seals in the Cook Inlet among other species that depend on healthy salmon populations and most importantly we have many Alaskans that rely on subsistence fishing to offset the high cost of groceries in our state. I also have concern about the underwater turbines causing harm to the species that live in these waters. The construction of said data center would cause disruption of our day to day life as well. Our construction season is short and to have such a large project near the only highway that gives Alaskans and tourists access to the Kenai peninsula, would be an inconvenience at the least but unnecessarily puts human lives at risk at worst.  Some people look at Alaska’s vast natural state and see opportunities to fill their own pockets and start projects with no concern or care for the people and wildlife who will be harmed. I have spent my life in Alaskas vast wilderness and I want future generations to have the same opportunity to experience that. We must protect it to make sure that happens. I also have concerns if we allow this company to move forward, there will be many more to follow and it will be hard to stop once we open those floodgates. I would ask, how would this data center benefit Alaskans in any way? I do not see anything in this project that indicates there’s benefits other than lining the pockets of non-Alaskans and causing disruption, food insecurity, negative environmental impacts, and danger to Alaskans. These data centers need to find more efficient, less harmful solutions to cooling because where will the line be for them if we allow this? It’s been apparent to me for a long time that Alaska would be an eventual target for data centers due to our massive amounts of fresh water and our cold climate but we cannot let this happen if we want to keep our state healthy and pristine for the Alaskans here now and future generations to come. \r\n\r\nWith resentment and annoyance, \r\nCasey McDonald \r\n\r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:53:58Z"
 }

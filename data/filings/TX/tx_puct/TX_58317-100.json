@@ -19,5 +19,31 @@
  "run_id": "2026-10-02-2349",
  "keywords": [],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_100_1689443.ZIP",
+   "name": null,
+   "bytes": 1060048,
+   "sha256": "418f7f95a3832a4198ea9f9e9e0c078af67288a3413d258238815f529fd92650",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_100_1689444.PDF",
+   "name": null,
+   "bytes": 106079,
+   "sha256": "cb7bf2fe5aa252947ffa1717f3eb518e8cc90a3766f3c708b8d1eebe4e586cfb",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 2,
+   "truncated": false,
+   "text": "Filing Receipt\n\nFiled Date - 2026-10-01 08:50:31 PM\nControl Number - 58317\n\nItem Number - 100\n\n\f'M IN FAVOR\nADOPTION\n\nA STANDARD\n\nGRUS_STD_60084\n\nPROPOSED UNDER CONTROL NUMBER\n\n58317-96\n@ | ADOPTION\n\n"
+  }
+ ],
+ "enriched_at": "2026-10-03T22:50:33Z"
 }

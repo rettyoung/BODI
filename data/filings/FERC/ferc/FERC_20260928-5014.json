@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151395.txt",
+   "bytes": 790,
+   "sha256": "e655e4c9b95bc81519b670b7eef08aae2dd0a0772a488ace756cdeb0a753ecf7",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nCatherine V Bernhardt, Eagle River, AK.\nHello,  putting an underwater data center is a bad idea.  We already know noise from ship proplellers disrupt whale communications.  It is logical to expect a data center that generates noise pollution above ground will do the same underwater.  Alaska relies on fisheries and tourism to sustain many businesses.  We do not need data centers to disrupt our way of life or the impact to our native underwater species.  Data centers will undoubtably be attractive to business people looking for an easy payday, however the long term implications to wildlife and the Alaskan fishery and tourism industry just aren't worth it. I vehemently disagree with the proposed underwater data center project in the Cook Inlet.\r\n    Catherine V. Bernhardt   \r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:54:22Z"
 }

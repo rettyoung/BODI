@@ -21,8 +21,26 @@
  "collected_at": "2026-10-03T00:30:28Z",
  "run_id": "2026-10-02-2349",
  "keywords": [
+  "behind-the-meter",
+  "collateral",
+  "contract demand",
+  "interconnection",
   "large load"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--Docket%20No.%202026-138-E.pdf",
+   "name": null,
+   "bytes": 178444,
+   "sha256": "5844c2bc379810e2fff16a9ca908ec4fc82649fd614e267597fd029a74cf8736",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                                                                                                                         COMMISSIONERS\n                                                                                                                             Justin T. Williams, Sixth District\n                                                                                                                                                    Chairman\n                                  The Public Service Commission                                                                 H. David Britt, Fourth District\n                                                                                                                                               Vice Chairman\n\n                                     State of South Carolina\n                                                                                                                               Eugene Hennelly, First District\n                                                                                                                           Florence P. Belser, Second District\n                                                                                                                     Stephen M. “Mike” Caston, Third District\n                                                                                                                             Swain E. Whitfield, Fifth District\n                                                                                                                       Delton W. Powers, Jr., Seventh District\n\n        Jocelyn Boyd\nChief Clerk/Executive Director                                                                                                                 Clerk’s Office\n   Phone: (803) 896-5100                                                                                                               Phone: (803) 896-5100\n     Fax: (803) 896-5246                                                                                                                 Fax: (803) 896-5199\n\n\n\n  For Immediate Release—July 6th, 2026\n\n\n       South Carolina Public Service Commission Receives Petition to\n     Establish a Generic Docket for the Purpose of Receiving Comments\n                     Addressing Large Load Additions\n  Columbia, South Carolina—On May 27, 2026, Duke Energy Carolinas, LLC, and Duke Energy Progress, LLC\n  (collectively, the “Companies”), filed a Petition with the Public Service Commission to Establish a Generic\n  Docket for the Purpose of Receiving Comments Addressing Large Load Additions.\n\n  On June 17th, the Public Service Commission issued Order No. 2026-362, which clarifies the procedural\n  schedule for this matter. Order No. 2026-362 can be reviewed at this link.\n\n  In their Petition, the Companies request that the PSC receive written comments concerning issues associated\n  with new large load (50 megawatts or greater) additions, including existing rate schedules, service regulations,\n  line extension policies, and interconnection rules, on topics related to new large load customers that include, but\n  are not limited to:\n          a. minimum contract period and contract demand for billing purposes;\n          b. collateral requirements;\n          c. exit policies and restrictions on customer capacity reduction;\n          d. treatment of generation, transmission, and administrative costs;\n          e. interconnection costs, including opportunities to support grid-enhancing technologies to manage such\n          costs;\n          f. optional tariff provisions for flexible interconnections; and\n          g. optional tariff provisions for the management of clean behind-the-meter resources, and optional clean\n          transition tariffs to enable direct selection of new clean energy resources.\n\n  Interested stakeholders may participate in this case by filing a Letter of Protest or filing a Petition to Intervene\n  via the process described in the Notice of Filing, which can be reviewed at this link.\n\n  More information about this matter can be found on the Commission’s Docket Management System\n  under Docket No. 2026-138-E.\n\n  For more information, follow the Commission on Facebook, LinkedIn, Nextdoor, and Instagram, email\n  contact@psc.sc.gov, or call 803.896.5100.\n\n                                                                     ######\n\n\n                        Public Service Commission, 101 Executive Center Dr., Suite 100, Columbia, SC 29210-8411, 803-896-5100, www.psc.sc.gov\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-03T23:12:35Z"
 }

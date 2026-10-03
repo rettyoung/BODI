@@ -34,7 +34,36 @@
  "collected_at": "2026-10-02T23:14:19Z",
  "run_id": "2026-10-02-2305",
  "keywords": [
+  "IRP",
+  "SMR",
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Form 556 - DUO001, LLC (Public).pdf",
+   "bytes": 3666480,
+   "sha256": "9d54c2122d9e0f2fa36bcbfce433e9afbbb225594c547d7f4da77922e4a25119",
+   "ctype": "application/octet-stream",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 1,
+   "truncated": false,
+   "text": "The full content of this file cannot be displayed with your current PDF viewer. Please update to the latest\npossible version to view this document.\n"
+  },
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Figures 1 and 2 - DUO001, LLC (Public).pdf",
+   "bytes": 146376,
+   "sha256": "2a41113ccbb98b5e430c52d62132d014b8cc0a9fbe498a7fb13ecf24c0719800",
+   "ctype": "application/octet-stream",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 1,
+   "truncated": false,
+   "text": "Figure 1: SOFC Chemical Reactions\n\nFuel Passes Oxygen lons React Reaction Produces\nOverAnode . with Fuel in Fuel Cell . Electricity\nNatural Gas CO+H, ———» 0>C0, H,>H,0\n(CH, —Methane) 4 :\nSteam\nReformation\n\nAir AirPasses” Vw\n\nOver Cathode\nFuel Cell\n\nFigure 2: Fuel Cell Reuse of Steam and Heat for SMR Reaction in an SOFC System\n\nSteam and Heat\n\nHz and CO AC\n\nIntegrated o, Fuel Cell\nSteam Reformation e ~800C\n\nElectrochemical Fuel\nCell Stack Assembly\n\niVWV\\-*\n\nCurrent =p\n\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:54:39Z"
 }

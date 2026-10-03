@@ -29,7 +29,23 @@
  "collected_at": "2026-10-02T23:14:19Z",
  "run_id": "2026-10-02-2305",
  "keywords": [
+  "interconnection",
   "large load"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791873_Interv.txt",
+   "bytes": 1334,
+   "sha256": "902b21103430b5c9541b2eec6d3e3617180a03541d275cc44dccf1bb7f5110c4",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of ALLIANCE FOR AFFORDABLE ENERGY under ER26-3650-000.\r\n\r\nSubmission Date:        9/17/2026 7:19:55 PM\r\n\r\nFiled Date:             9/18/2026 8:30:00 AM\r\n\r\nDockets\r\n-------\r\nER26-3650-000        Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-08-28_Interconnection Reliability Requirements for Large Loads submitted on 8/28/2026 4:41:03 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nALLIANCE FOR AFFORDABLE ENERGY           yvonne@all4energy.org                                                            \r\n\r\nBasis for Intervening:\r\nThe Alliance for Affordable Energy (AAE) requests to intervene in Docket ER26-3650, proposed tariff revisions filed by MISO regarding Interconnection Reliability Requirements for Large Loads. AAE is a consumer advocate for residential ratepayers in Louisiana, and member of the MISO Public Consumer Advocate Sector. This docket and activity has the potential to impact residential ratepayers in Louisiana, and therefore is of interest to AAE.  "
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:05:10Z"
 }

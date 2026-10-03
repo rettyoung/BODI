@@ -18,5 +18,24 @@
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
  "keywords": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6592_1685133.ZIP",
+   "error": "too large (125573594 bytes)"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6592_1685134.PDF",
+   "name": null,
+   "bytes": 84922,
+   "sha256": "6f1f4f5102cd76e6383478d28726c6151aae4357df524cea1417cc3c2bcef4e9",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-21 01:05:24 PM\n\nControl Number - 59475\n\nItem Number - 6592\n\fThe following files are not convertible:\n\n                                  Why we need ERCOT's models audited-\nLandowner comments from hearings.MP4\n\n\nPlease see the ZIP file for this Filing on the PUC Interchange in order to\naccess these files.\n\nContact centralrecords@puc.texas.gov if you have any questions.\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:03:19Z"
 }

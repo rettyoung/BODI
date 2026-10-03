@@ -21,5 +21,31 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_94_1688874.ZIP",
+   "name": null,
+   "bytes": 951929,
+   "sha256": "683b8cad02769c9af19f535da5560e11410d6ae94937665a92712fc7c0b30f46",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_94_1688875.PDF",
+   "name": null,
+   "bytes": 339616,
+   "sha256": "c84e52beaa376a59f316a7f90c20c7a7fcb9fae16c5a954b4a0ed98638541b85",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-10-01 07:49:16 AM\n\nControl Number - 58317\n\nItem Number - 94\n\f                                                                    AIA./0./I....'.          /./\n                   ~ VD ZDI V I W Ua LIS O,Ul l iUI i.V 6€1&1 V I ! D Ill il l &4 .) al lU J ! ! I l lt; D i, ! 161 t;D\n\n              -    0*\"d.ln.r N'pk'\"4'9'MINB'Pol. onl\n\n\n                                                                                                                                        t\n\n\n\n\n                                                                                                            .\n\n\n\n\n                                                                .\n\n\n\n\n                                                                                                                                            0\n\n\n\n\n                                                                                       L\n                                                                                                 4        19.\n                                                                                                                        t.\n                                                                                                                             .\n                                                                    ,\n\n                                                                               .\n\n\n\n\n                                                                                                                                                          4\n                                                                                                     .\n\n                                                                                                     ..             .\n\n\n\n\nI r'                   .                                                           ,\n\n\n\n1   .\n                                         ..\n                                                    1\n                                                        .   1                ll.,44.A\n\n\n\n\n                                                                                                                                                4 .,i .\n                                                                                       '.\n\n\n\n\n                                               'f                                           F.\n          1                                                                    h            1\n                   .                                                                             .\n                                           .\n\n\n\n\n                                                                                                                f\n                                                                                                                                 .A-,\n    ...       .\n\n\n\n1                 ..\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-03T22:51:26Z"
 }

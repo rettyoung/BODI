@@ -17,6 +17,37 @@
  ],
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
- "keywords": [],
- "documents": []
+ "keywords": [
+  "data center"
+ ],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6586_1684931.ZIP",
+   "name": null,
+   "bytes": 25779,
+   "sha256": "d068031c05b4dbaf7fbdbee38f1f3fa1b7fcd9a9f872a9f723a51a6c76bb0042",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Public Comment Supporting Independent Audit Request — Docket 59475, Item 6571.pdf ===\nPublic Comment Supporting Independent Audit Request — Docket 59475, Item 6571\nThe STOP the Riesel Data Center Coalition supports Kevin Kennedy and John M. Burrow’s request in Item 6571 for an\nindependent technical investigation and forensic audit of the modeling underlying the 2024 Permian Basin Reliability Plan.\n\nBefore further irreversible commitments are made, we ask the Commission to obtain an independent evaluation of the\nmodeling assumptions, reconcile material differences between the PBRP and the 2024 Regional Transmission Plan, and\npublicly explain whether each proposed 765-kV import path remains justified.\n\nWe also support the requested pause while that work is completed and reviewed. Our support for an audit does not\npresume misconduct or a predetermined result. It reflects the importance of getting decisions of this scale right.\n\nWe submit this comment not only as Texans concerned about statewide transmission planning, but also as members of\nSTOP the Riesel Data Center — a community group directly affected by large-scale energy and infrastructure decisions.\nOur experience raises additional concerns that make independent verification even more necessary.\n\nSpecifically, our community has been seeking answers about how two former ERCOT employees were permitted to be\nhired by Cipher Digital, a company pursuing multiple data-center developments in Texas, including in our area. From our\nperspective, this raises serious questions about conflicts of interest, the integrity of planning assumptions, and whether\nTexans’ public-interest protections are being upheld.\n\nOur group submitted a formal request for review to Attorney General Ron Paxton on June 26, 2026, asking his office to\ninvestigate this potential ethics violation. We have not received any response. When the same individuals who helped shape\nERCOT’s planning processes later appear in private-sector roles tied to projects dependent on those same planning\noutcomes, Texans deserve transparency.\n\nThese concerns do not accuse ERCOT or the Commission of wrongdoing. They simply underscore why independent\nverification is essential. When billions of dollars, thousands of acres of private land, and long-term ratepayer obligations are\nat stake, Texans need confidence that the underlying models are accurate, unbiased, and compliant with all applicable\nstandards.\n\nFor these reasons, we respectfully urge the Commission to grant the request for an independent technical investigation and\nforensic audit, and to pause further action on the 765-kV import paths until that work is complete.\n\nTexans deserve clarity before irreversible decisions are made.\n\nSTOP the Riesel Data Center Partnership\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6586_1684932.PDF",
+   "name": null,
+   "bytes": 117021,
+   "sha256": "ee2e78d71eb433d0f71947804fcbea16feaaf8eb55f4ce683f1798c7e3e40faf",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-19 02:50:29 PM\n\nControl Number - 59475\n\nItem Number - 6586\n\fPublic Comment Supporting Independent Audit Request - Docket 59475, Item 6571\nThe STOP the Riesel Data Center Coalition supports Kevin Kennedy and John M. Burrow's request in Item 6571 for an\nindependent technical investigation and forensic audit of the modeling underlying the 2024 Permian Basin Reliability Plan.\n\nBefore further irreversible commitments are made, we ask the Commission to obtain an independent evaluation ofthe\nmodeling assumptions, reconcile material differences between the PBRP and the 2024 Regional Transmission Plan, and\npublicly explain whether each proposed 765-kV import path remains justified.\n\nWe also support the requested pause while that work is completed and reviewed. Our support for an audit does not\npresume misconduct or a predetermined result. It reflects the importance of getting decisions of this scale right.\n\nWe submit this comment not only as Texans concerned about statewide transmission planning, but also as members of\nSTOP the Riesel Data Center - a community group directly affected by large-scale energy and infrastructure decisions.\nOur experience raises additional concerns that make independent verification even more necessary.\n\nSpecifically, our community has been seeking answers about how two former ERCOT employees were permitted to be\nhired by Cipher Digital, a company pursuing multiple data-center developments in Texas, including in our area. From our\nperspective, this raises serious questions about conflicts of interest, the integrity of planning assumptions, and whether\nTexans' public-interest protections are being upheld.\n\nOur group submitted a formal request for review to Attorney General Ron Paxton on June 26,2026, asking his office to\ninvestigate this potential ethics violation. We have not received any response. When the same individuals who helped shape\nERCOT's planning processes later appear in private-sector roles tied to projects dependent on those same planning\noutcomes, Texans deserve transparency.\n\nThese concerns do not accuse ERCOT or the Commission of wrongdoing. They simply underscore why independent\nverification is essential. When billions of dollars, thousands of acres of private land, and long-term ratepayer obligations are\nat stake, Texans need confidence that the underlying models are accurate, unbiased, and compliant with all applicable\nstandards.\n\nFor these reasons, we respectfully urge the Commission to grant the request for an independent technical investigation and\nforensic audit, and to pause further action on the 765-kV import paths until that work is complete.\n\nTexans deserve clarity before irreversible decisions are made.\n\nSTOP the Riesel Data Center Partnership\n\f"
+  }
+ ],
+ "party_hits": [
+  "Data Center Coalition"
+ ],
+ "enriched_at": "2026-10-03T23:04:28Z"
 }

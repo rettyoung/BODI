@@ -21,5 +21,31 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_95_1688909.ZIP",
+   "name": null,
+   "bytes": 606907,
+   "sha256": "a7bc91033091d7bcb9c064c071bf2638cf8a3d651bab5638612fe72e3cc680b8",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_95_1688910.PDF",
+   "name": null,
+   "bytes": 113243,
+   "sha256": "b15e2a51523dfa9fb76980b75c58ea0015d1ef700b1e3797c1a637ca4bc8ace4",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-10-01 09:10:51 AM\n\nControl Number - 58317\n\nItem Number - 95\n\f             7:43                                                                             .1   5 Uw -\n\n     <       Red River Army Depot AI Date Center Project\n      -- -----.---0   I- - -   --- -l. -I   -   - - -- - -- -   \\- - -- --   - -- - l   -          -I- - - ---- ,\n\n\nTSHA 2020).\nCONCLUSIONS and RECOMMENDATIONS bythe Arch\nFirm.\nNo cultural resources are present within 500 feet of the\nproposed Project. There are no archaeological sites,\nhistoric-age structures, NRHP-eligible properties, or\n    districts,\n    cemeteries, historic markers,\n    State\n    Archeological Landmarks (SALs), State Historic sites, or\n    Registered Texas Historic Landmarks (RTHLs) in the\n    a rc h iva l a rea s.\n    However, the ART REDI Project is in a known Caddo\n    Nation occupation area, and artifacts have been found\n    in the surrounding region where previous excavations\n    have taken place. In addition to the documented\n    presence of the Caddo Nation (A.D. 900-1800),\n    numerous prehistoric age archaeological sites are\n    documented in the County. There is readily available\n    fresh water in the Project. And the current Project is\n    unsurveyed for archaeological sites. Though subjectto\n    surface disturbances in the form of logging and pine\n    plantation, there is a high potential for sites within the\n    project area. ART REDI Project is\n    recommended for a 100% systematic pedestrian\n    archaeological survey supported by shovel testing\n    accordingto Council of Texas Archeologists (CTA) survey\n    standards.\nWe need to discuss these projects. Sincerely Chairman\n    Gonzalez\n\n\n\n    Get Outlool<foriOS\n\n     « v Reply AI I                                         Ef               1@I            u=;    000\n\n1                                                                                                        1   I\n\n\n\n\n             Mail\n                                                            ~\n                                                          Calendar\n                                                                                                     ~\n                                                                                                     Apps\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-03T22:51:17Z"
 }

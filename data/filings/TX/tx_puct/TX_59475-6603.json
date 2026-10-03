@@ -18,5 +18,24 @@
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
  "keywords": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6603_1686753.ZIP",
+   "error": "too large (75074725 bytes)"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6603_1686754.PDF",
+   "name": null,
+   "bytes": 83908,
+   "sha256": "969498faad5e49d47d177bbb231f7fa4a96a3d977c41ef183d2df324129a4e84",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-23 11:05:37 PM\n\nControl Number - 59475\n\nItem Number - 6603\n\fThe following files are not convertible:\n\n                                  Tanya Tucker Calls For Audit.MP4\n\n\nPlease see the ZIP file for this Filing on the PUC Interchange in order to\naccess these files.\n\nContact centralrecords@puc.texas.gov if you have any questions.\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:00:34Z"
 }

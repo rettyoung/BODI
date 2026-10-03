@@ -29,8 +29,23 @@
  "collected_at": "2026-10-03T00:31:26Z",
  "run_id": "2026-10-02-2349",
  "keywords": [
+  "ESA",
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151430.txt",
+   "bytes": 3209,
+   "sha256": "60a694a2cfda33b3b4027545ed4f2a77ad4d27aac8c3c0f2cc187521358c251c",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nSebastian White, Palmer, AK.\nTo the Federal Energy Regulatory Commission:\r\n\r\nI am a resident of Palmer, in the Matanuska-Susitna Borough, and I am writing to oppose issuance of a preliminary permit to DeepGreen Cook Inlet SPV LLC for the proposed subsea data center in the East Foreland area of Upper Cook Inlet.\r\n\r\nThe applicant has not shown the basic competence or good faith that a priority right on these waters should require. The parent company was formed one month before the application was filed. The applicant says it will rely on its management's real estate development and appraisal expertise, which is not relevant to tidal energy or marine engineering. FERC itself found the application deficient. The applicant also claimed its project would tie into the Alaska Energy Authority's Cook Inlet PowerLink, but AEA's CEO stated that the authority had never heard of DeepGreen and that the filing got key facts wrong. An applicant that misstates its relationship with the state's own energy authority should not receive exclusive priority over 1,650 acres of the inlet.\r\n\r\nThe location is a biological chokepoint. The Forelands is the narrowest point of Cook Inlet. Salmon bound for the Susitna and other northern rivers must pass through it. Those runs support commercial, sport, personal-use, and subsistence harvest across Southcentral Alaska, including here in the Mat-Su. According to the Alaska Commercial Fisheries Conservation Alliance, the application does not assess impacts on the more than 1,300 active Upper Cook Inlet commercial permits. Placing up to 350 turbines and 66 heat-producing server \"hives\" in this corridor is a direct risk to the fish Southcentral depends on.\r\n\r\nThe application also ignores thermal discharge. Continuous heat rejection is the core operating principle of the project, yet the application contains no thermal plume model. It also does not address what happens when flow stalls at slack tide, which occurs four times a day in the inlet. The Cook Inlet beluga whale is listed as endangered under the Endangered Species Act and uses this part of the inlet for feeding. A project this large should not receive a priority right before the applicant shows it understands how heat, noise, and turbine strikes would affect that population.\r\n\r\nAffected communities were not consulted. The Kenai Peninsula Borough, commercial fishing organizations, and conservation groups have all moved to intervene. The Alaska Energy Authority learned about the proposal from the press. The applicant's position is that these questions will be studied later. However, a preliminary permit gives the applicant priority, and it gives that priority to a company that did not engage with the people who live, work, and fish on this inlet before filing.\r\n\r\nI ask the Commission to deny the preliminary permit. If the Commission does issue a permit, I ask that it require the following as study conditions:\r\n\r\na thermal plume analysis that includes slack-tide conditions\r\nESA consultation on Cook Inlet belugas and salmon\r\ndocumented engagement with the Kenai Peninsula Borough, AEA, affected tribes, and fishing organizations\r\n\r\nRespectfully,\r\nSebastian White\r\nPalmer, Alaska\r\n\r\n"
+  }
+ ],
+ "enriched_at": "2026-10-03T22:52:45Z"
 }

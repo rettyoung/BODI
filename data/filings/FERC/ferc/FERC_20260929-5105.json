@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151421.txt",
+   "bytes": 1085,
+   "sha256": "7c1879b7a3d072145950b032f7659fa9e8a04bb950cc30788ab8885b006ad25a",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nLisa Bricker, Anchorage, AK.\nThere is no place for a data center in the Cook Inlet. This body of water supports beluga whales and subsistence fish stocks. \r\n\r\nA data center will heat the surrounding water, negatively affecting both plants and animals. \r\n\r\nA data center's noise will drastically impact sonar-using animals for miles around.\r\n\r\nChina has an underwater data center in usage. According to the Guardian, \"Underwater datacentres also create some risks for marine ecosystems, such as by disturbing sediments or heating the seawater. Experts said these risks were most likely manageable but would require further monitoring.\" \r\n\r\nWho will monitor the risks to our marine ecosystems? Considering Alaska's dependence on marine ecosystems for subsistence as well as tourism, this is not a small responsibility. Considering our seismic activity, the potential for drastic destructive effects has not been addressed in any public way.\r\n\r\nWithout a robust safety net and monitoring system, this datacenter only offers harms to our home. No underwater data centers in Alaska.\r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:53:18Z"
 }

@@ -1,20 +1,8 @@
 {
  "backfill_since": null,
- "run_id": "2026-10-03-2149",
- "started": "2026-10-03T21:49:12Z",
+ "run_id": "2026-10-03-2228",
+ "started": "2026-10-03T22:28:58Z",
  "sources": {
-  "ga_psc": {
-   "since": "2026-09-30",
-   "found": 1,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 6.7,
-   "consecutive_failures": 0
-  },
   "la_lpsc": {
    "since": "2026-09-30",
    "found": 1,
@@ -59,7 +47,7 @@
     "ok text 21216943: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "ok text 21205773: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
    ],
-   "seconds": 239.4,
+   "seconds": 234.6,
    "consecutive_failures": 0
   },
   "ks_kcc": {
@@ -71,7 +59,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 3.4,
+   "seconds": 3.1,
    "consecutive_failures": 0
   },
   "nm_prc": {
@@ -99,7 +87,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 15.5,
+   "seconds": 15.4,
    "consecutive_failures": 0
   },
   "al_psc": {
@@ -111,15 +99,15 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 36.3,
+   "seconds": 36.5,
    "consecutive_failures": 0
   },
   "watch_pages": {
    "since": "2026-09-30",
    "found": 1508,
-   "new": 24,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 16,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "grda_board": {
@@ -312,20 +300,20 @@
     }
    },
    "notes": [],
-   "seconds": 291.0,
+   "seconds": 229.6,
    "consecutive_failures": 0
   },
   "rss": {
    "since": "2026-09-30",
-   "found": 31,
+   "found": 34,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {
     "pjm_insidelines": {
-     "status": "error",
-     "note": "Blocked('block page (captcha) at https://insidelines.pjm.com/feed/')"
+     "status": "ok",
+     "note": "10 entries"
     },
     "utilitydive": {
      "status": "ok",
@@ -341,7 +329,7 @@
     }
    },
    "notes": [],
-   "seconds": 12.3,
+   "seconds": 12.7,
    "consecutive_failures": 0
   },
   "ir_decks": {
@@ -418,7 +406,7 @@
     }
    },
    "notes": [],
-   "seconds": 185.7,
+   "seconds": 191.7,
    "consecutive_failures": 0
   },
   "mirrors": {
@@ -451,7 +439,7 @@
     }
    },
    "notes": [],
-   "seconds": 16.0,
+   "seconds": 33.1,
    "consecutive_failures": 0
   },
   "eia": {
@@ -464,15 +452,15 @@
      "note": "running on the public DEMO_KEY; a repo secret EIA_API_KEY lifts the rate limit"
     }
    },
-   "seconds": 48.1,
-   "consecutive_failures": 1
+   "seconds": 38.5,
+   "consecutive_failures": 2
   },
   "congress": {
    "since": "2026-09-30",
    "found": 9,
-   "new": 9,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 9,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "congress": {
@@ -481,7 +469,7 @@
     }
    },
    "notes": [],
-   "seconds": 14.4,
+   "seconds": 12.1,
    "consecutive_failures": 0
   },
   "openstates": {
@@ -510,7 +498,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 6.3,
+   "seconds": 6.5,
    "consecutive_failures": 0
   },
   "queues": {
@@ -579,7 +567,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 57.6,
+   "seconds": 58.0,
    "consecutive_failures": 0
   },
   "federal_register": {
@@ -603,7 +591,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 129.6,
+   "seconds": 115.1,
    "consecutive_failures": 0
   },
   "tx_puct": {
@@ -629,26 +617,36 @@
    "notes": [],
    "seconds": 15.1,
    "consecutive_failures": 0
+  },
+  "ga_psc": {
+   "since": "2026-09-30",
+   "found": 1,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 6.7,
+   "consecutive_failures": 0
   }
  },
- "docs_fetched": 24,
- "new_items": 25,
+ "docs_fetched": 0,
+ "new_items": 0,
  "user_agent": "BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)",
- "finished": "2026-10-03T22:22:59Z",
+ "finished": "2026-10-03T23:15:05Z",
  "backfill_text": {
-  "queue": 1781,
-  "enriched": 278,
-  "docs": 150,
-  "errors": 19,
+  "queue": 1888,
+  "enriched": 6,
+  "docs": 401,
+  "errors": 40,
   "status": "ok",
-  "remaining": 1503,
-  "seconds": 801.9
+  "retry_later": 20,
+  "candidates_filled": 217,
+  "remaining": 1882,
+  "seconds": 1609.7
  },
  "http_hosts": {
-  "https://psc.ga.gov": {
-   "robots": "404",
-   "note": ""
-  },
   "https://lpscpubvalence.lpsc.louisiana.gov": {
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
@@ -826,8 +824,8 @@
    "note": ""
   },
   "https://insidelines.pjm.com": {
-   "robots": "202",
-   "note": "no robots.txt (HTML app shell)"
+   "robots": "200",
+   "note": ""
   },
   "https://www.utilitydive.com": {
    "robots": "200",
@@ -969,14 +967,22 @@
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
   },
-  "https://images.edocket.azcc.gov": {
-   "robots": "error",
-   "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
+  "https://psc.ga.gov": {
+   "robots": "404",
+   "note": ""
   },
   "https://services.psc.ga.gov": {
    "robots": "404",
    "note": ""
+  },
+  "https://images.edocket.azcc.gov": {
+   "robots": "error",
+   "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
+  },
+  "https://ftp.puc.texas.gov": {
+   "robots": "404",
+   "note": ""
   }
  },
- "seconds": 2027
+ "seconds": 2767
 }

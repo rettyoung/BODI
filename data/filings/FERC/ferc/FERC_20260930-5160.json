@@ -32,5 +32,19 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151431.txt",
+   "bytes": 2015,
+   "sha256": "531e41627c8e9af0b42d378b4e6a507d8033bd194d5e33ba03a917f0a27800ca",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nAddison Pletcher, Anchorage, AK.\nI am writing to express my opposition to the proposed DeepGreen Cook Inlet Subsea-Compute & Infrastructure Hub Project.\r\n\r\nI understand that the current proposal is for a preliminary permit and does not itself authorize construction. However, I am concerned about establishing priority for a project of this scale in Upper Cook Inlet before its potential impacts have been adequately studied and understood.\r\n\r\nThe proposal would involve approximately 330–350 tidal turbines and 66 subsea data-center pods, along with a 3.5-mile subsea power and fiber-optic cable. This is a substantial industrial development in an environmentally important marine area. I am particularly concerned about the potential effects on Cook Inlet’s marine ecosystem, fisheries, wildlife, and the communities that depend on these resources.\r\n\r\nIn particular, Cook Inlet is home to a unique beluga population that is found nowhere else in Alaska. Unlike migratory populations that move between distant regions, Cook Inlet belugas remain within the inlet throughout their lives, moving seasonally between different parts of the inlet. This population is geographically isolated, federally listed as endangered, and has already experienced a dramatic historical decline. NOAA identifies Cook Inlet belugas as the smallest and geographically isolated of Alaska’s five beluga populations. (NOAA Fisheries)\r\n\r\nGiven the population’s limited range and endangered status, I believe additional industrial activity in Cook Inlet warrants particular caution. The potential effects of underwater construction, turbines, cables, vessel activity, noise, and changes to the marine environment should be thoroughly understood before advancing a project of this scale. \r\n\r\nI encourage FERC to carefully consider the environmental, fisheries, wildlife, community, and long-term resource implications of this proposal before granting the requested preliminary permit.\r\n\r\nThank you for considering my comment.\r\n\r\n"
+  }
+ ],
+ "enriched_at": "2026-10-03T22:52:42Z"
 }

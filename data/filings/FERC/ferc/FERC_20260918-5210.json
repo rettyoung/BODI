@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151095.txt",
+   "bytes": 808,
+   "sha256": "637fee0ad73de94b45c075cd7a93fb0e36ee84ec2c66875c0067ef90bd0fdef8",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nAllen Braithwaite, Kenai, AK.\nSeptember 18, 2026\r\n\r\nTo Whom it May Concern:\r\n\r\nI am writing to oppose the proposed underwater data center in the Cook Inlet. \r\n\r\nThere is not enough scientific evidence showing that there isn’t going to be irreparable damage to marine life in the Inlet.  Water warming caused by the data center could have an adverse effect in the narrow inlet on marine life.  The water temperature could have an effect on the salmon that run this water way and the beluga whales and other marine life.  \r\n\r\nThe planned uses of fans to cool the data center would create copper pollution that would harm the marine life as well. \r\n\r\nThank you for your consideration and I implore you to not allow any data center in the Cook Inlet or in the Kenai Peninsula.  \r\n\r\nAllen Braithwaite \r\n\r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:04:37Z"
 }

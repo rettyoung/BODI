@@ -18,5 +18,32 @@
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
  "keywords": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6613_1689602.ZIP",
+   "name": null,
+   "bytes": 21494,
+   "sha256": "c5412444f5ddf1d22b3612145b256f9a76b242b82601dab83edcf332ff1baf6c",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": true,
+   "pages": null,
+   "truncated": false,
+   "text": "=== void letter - item 2374.pdf ===\nI would like to have Central Records void item 2374 in docket 59475, as it was\nfiled in error.\n"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6613_1689603.PDF",
+   "name": null,
+   "bytes": 80895,
+   "sha256": "6c8960fc3308de6a8d29d95d1fe972a4019617005be815f15d56403426939db3",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 2,
+   "truncated": false,
+   "text": "Filing Receipt\n\nFiled Date - 2026-10-02 11:47:20 AM\nControl Number - 59475\n\nItem Number - 6613\n\n\fI would like to have Central Records void item 2374 in docket 59475, as it was\nfiled in error.\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:49:10Z"
 }

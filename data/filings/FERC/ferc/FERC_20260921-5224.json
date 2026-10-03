@@ -29,8 +29,24 @@
  "collected_at": "2026-10-02T23:14:19Z",
  "run_id": "2026-10-02-2305",
  "keywords": [
+  "certificate of public convenience",
   "co-located",
   "co-location"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151296.txt",
+   "bytes": 2933,
+   "sha256": "f9e82b20b1fa37e7526003ade3df7ff2d33b1ade1b9826bcc4475094bf685d64",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nAlex Lotorto, Cresson, PA.\nAll reasonable alternatives to greenfield development have not been presented. The “no-build” option should be considered, as there are existing north-south pipelines transmitting gas at high volume to the states north and east of Susquehanna County. Co-locating the pipeline in utility right of ways in Susquehanna County has not been considered. Williams Company is purposefully and capriciously obfuscating the availability of co-location and no-build alternatives in their application. Due diligence by FERC and permitting agencies should be conducted to independently vet these alternatives or compel the applicant to do so. The incomplete application for a certificate of public convenience and necessity should be denied prima facie, as the pipeline serves neither the public’s convenience or necessity and the applicant willfully neglected to show a complete case for either.Make relevant studies, crossing plans, mitigation measures, and monitoring requirements available for public review before reaching final environmental and certificate determinations, Update the air-quality and greenhouse gas analysis. Ask FERC to use current, project-specific information to calculate construction and operational emissions. FERC should explain which upstream and downstream emissions fall within the scope of its analysis under current law and why., Reevaluate whether the Constitution Pipeline and Wright Interconnect Project are currently required by the “present or future public convenience and necessity” under Section 7(e) of the Natural Gas Act and make any new transportation agreements or other material evidence of market demand available in the public record before reaching a certificate decision., Prepare and circulate a Supplemental Draft EIS and Supplemental Final EIS evaluating current conditions and the environmental impacts of both projects before deciding whether to reissue the requested certificate authority., Clearly identify which findings and underlying information from the 2014 FEIS remain applicable, what information has been updated or independently verified for the 2026 review, and whether substantial changes or new circumstances or information require additional analysis or supplementation before FERC decides whether to reissue the certificates., Evaluate impacts to nearby residents and landowners using current conditions. Ask FERC to update information about residences, structures, land uses, and communities near the proposed pipeline and associated facilities and consider how construction and long-term operation could affect those areas.Please extend the comment period by 40 days, to October 31st, to allow members of the public, advocacy organizations, public officials, experts, and others time to review the EA and draft comments. The 30 day comment period currently provided falls during major holidays and the summer vacation period.\r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:02:43Z"
 }

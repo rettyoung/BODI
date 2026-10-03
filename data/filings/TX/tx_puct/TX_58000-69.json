@@ -17,6 +17,35 @@
  ],
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
- "keywords": [],
- "documents": []
+ "keywords": [
+  "ESA"
+ ],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58000_69_1689184.ZIP",
+   "name": null,
+   "bytes": 71809,
+   "sha256": "7344ffc9f7a2fe3b94565912ec64815a06ed866b1ca88a541e428ac544eb4022",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== VOID Letter 58000-1.pdf ===\nOctober 1, 2026\n\n                                                         VIA ELECTRONIC SUBMISSION\n\nPublic Utility Commission of Texas\n1701 N. Congress Avenue\nP.O. Box 13326\nAustin, TX 78711-3326\n\nRe:​ PUC Project No. 58000, Rulemaking to Update Wholesale and IOU Retail Transmission\nCost Recovery in the ERCOT Region\n\nDear Staff of the Public Utility Commission of Texas:\n\n​     This letter is to request Central Records to void Item 68 in Docket No. 58000 from the\nPUC Interchange. Thank you.\n\n\n                                                   Respectfully submitted,\n\n​                                                  /s/ Dawn James\n​                                                  Dawn James\n​                                                  Texas Energy Buyers Alliance\n                                                   djames@txenergybuyers.org\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58000_69_1689185.PDF",
+   "name": null,
+   "bytes": 89722,
+   "sha256": "6a0caec3f3234e072a0a5cb08ac8cef3e44e3744f0d7b030ecbb4dd7fd3baa30",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-10-01 01:48:45 PM\n\nControl Number - 58000\n\nItem Number - 69\n\fOctober 1, 2026\n\n                                                          VIA ELECTRONIC SUBMISSION\n\nPublic Utility Commission of Texas\n1701 N. Congress Avenue\nP.O. Box 13326\nAustin, TX 78711-3326\n\nRe :  PUC ProjecVNo . 5%000, Rulemaking to Update Wholesale and IOU Retail Transmission\nCost Recovery in the ERCOT Region\n\nDear Staff of the Public Utility Commission of Texas:\n\n      This letter is to request Central Records to void Item 68 in Docket No. 58000 from the\nPUC Interchange. Thank you.\n\n\n\n                                                   Respectfully submitted,\n\n                                                   /sf Daw-n James\n                                                   Dawn James\n                                                   Texas Energy Buyers Alliance\n                                                   djames@txenergybuyers.org\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:50:20Z"
 }

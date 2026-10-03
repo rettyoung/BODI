@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "150631.txt",
+   "bytes": 1164,
+   "sha256": "df18cd603cba4caab1825c8cce55e0deff789d9442ac571317c1bad8d828fd2f",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nAlina, Klawock, AK.\nTo whom it may concern,\r\nI’m an Alaskan who strongly opposes the proposed DeepGreen Cook Inlet underwater data center project, even for research purposes. Alaska was doing just fine without data centers, and we should not put our waters, wildlife, and salmon habitat at additional risk to support an industry that has no place in Cook Inlet. Our nature - not data centers - is what makes Alaska unique. Salmonids are extremely sensitive to temperature changes, and warming waters are already a serious threat to salmon. Using Cook Inlet as an industrial cooling system for a large-scale data center raises serious concerns about potential impacts to the marine environment. The proposed project would introduce substantial industrial infrastructure into Cook Inlet, creating unnecessary risks to salmon and wildlife. I do not believe those risks are justified for a technology that is not needed in Alaska. There is no reason to turn Cook Inlet into a testing ground for experimental data-center technology. Please reject this project and protect Cook Inlet, our salmon, wildlife, and the natural environment that makes Alaska unique.\r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:11:17Z"
 }

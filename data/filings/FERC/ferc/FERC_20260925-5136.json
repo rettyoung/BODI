@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151370.txt",
+   "bytes": 1854,
+   "sha256": "0df115a2bf7c3591a334311c7bec259e35fa31712cd8f602f696a12f8503823a",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nElizabeth Ferrara, Seward, AK.\nDear Federal Energy Regulatory Commission,\r\n\r\nI am writing to express my deepest concern for the proposed underwater data center in Cook Inlet by the East coast company DeepGreen.\r\n\r\nAfter moving to Alaska in 2010 I lived along Tunagin Arm for 8 years, while working both as a sea kayaking guide and then seining salmon commercially. In 2018 I moved to the coast in Seward. In my 16 years of living and working on coastal waters in Alaska there is one thing I can confidently say about them and that is that they are an incredibly dynamic and harsh environment.\r\n\r\nHaving read DeepGreen’s proposal, and taking into account that this would be their first underwater data center project, I do not get the sense that they have taken this irrefutable reality into adequate consideration. Given news coverage about their lack of communication with local communities and agencies it doesn’t seem they are seeking to educate themselves about the extreme tides (Cook Inlet has the 4th biggest tidal fluctuation in the world and the largest in the US), strong currents, silt, ice and slew of other factors that would affect their operations. This lack of consideration also extends to existing industries and interests such as commercial fishing and wildlife protection, both of which could be negatively impacted by noise pollution and the potential release of forever chemicals. \r\n\r\nGiven all this, Cook Inlet seems like a poor choice of location for one of the first projects of this kind in the United States. Additionally, the untested status of DeepGreen makes them an unwise choice in developer. I am therefore calling on the Federal Energy Regulatory Commission to deny DeepGreen’s preliminary Cook Inlet permit or any future application for a license concerning this project. \r\n\r\nSincerely,\r\nElizabeth Ferrara\r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:58:28Z"
 }

@@ -31,5 +31,20 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151355.txt",
+   "bytes": 332,
+   "sha256": "f9c9744ae44859e1b7f9745d5250c6a0d94ef56784a89f206aa6f51c94fab67f",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nRylee west, Saratoga Springs, NY.\nOur natural environment is worth more then an underground data center that does nothing but for our knowledge and our world. Leave our waterways alone and do not permit this data center to be buildt. Stand for what president Franklin Roosevelt stood for and protect our natural environment.\r\n\r\n"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:59:35Z"
 }

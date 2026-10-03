@@ -18,5 +18,32 @@
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
  "keywords": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6573_1684411.ZIP",
+   "name": null,
+   "bytes": 97952,
+   "sha256": "683edeed1950466662060e21a61ea50c392988894c83cf24d46adb60d6b05720",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Investigation Letter of Support Signed.pdf ===\n                                  LETTER OF SUPPORT\n\nTO:           Public Utility Commission of Texas\n\nFROM:         John B. Bradley III, Pro Se Intervenor\n\nDATE:         September 17, 2026\n\nSUBJECT:      Support for Request for Independent Investigation and Forensic Audit\n\nRE:           PUC Docket No. 59475; Item No. 6571\n\nI support Kevin Kennedy and John Burrow's request for an independent technical\ninvestigation and forensic audit of the modeling underlying ERCOT's 2024 Permian Basin\nReliability Plan.\n\nThe ﬁling identiﬁes material questions regarding di erences between the PBRP and\ncontemporaneous 2024 Regional Transmission Plan models, including their load,\ngeneration, and system-wide assumptions. Given that the Commission approved three\n765-kV import paths totaling approximately 1,255 miles, these questions warrant careful\nand independent examination. The requested audit would test the modeling rather than\npresume wrongdoing, including whether the PBRP complied with applicable NERC\nreliability and modeling requirements and whether its transmission recommendations\nremain supported under reconciled system-wide assumptions.\n\nBefore Texas commits billions of dollars and extensive land to infrastructure of this scale,\nthe underlying technical foundation should be transparent, reproducible, and\nindependently veriﬁed. I respectfully request that the Commission order the independent\ninvestigation and forensic technical audit requested in Item 6571 before taking further\naction dependent upon the challenged PBRP modeling.\n\nReference: Kevin Kennedy and John M. Burrow, Response to Remand - Request for\nIndependent Investigation and Forensic Audit, PUC Docket No. 59475, Item No. 6571, ﬁled\nSeptember 17, 2026.\n\nRespectfully submitted,\n\n\n\nJohn B. Bradley III\nPro Se Intervenor\n\nLazy S Ranch\n16767 Crows Ranch Rd\nSalado, TX 76571\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6573_1684412.PDF",
+   "name": null,
+   "bytes": 104750,
+   "sha256": "4ffaeec22ce192cdf75bd6d0f9f12830e2f3c601bb84ce01b32e76d2a3cce625",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-17 08:10:16 PM\n\nControl Number - 59475\n\nItem Number - 6573\n\f                                    LETTER OF SUPPORT\n\n TO:            Public Utility Commission of Texas\n\n FROM:          John B. Bradley Ill, Pro Se Intervenor\n\n DATE:          September 17,2026\n\n SUBJECT:       Support for Request for Independentlnvestigation and Forensic Audit\n\n RE:            PUC Docket No. 59475; Item No. 6571\n\n I support Kevin Kennedyand John Burrow's request foran independenttechnical\n investigation and forensic audit of the modeling underlying ERCOT's 2024 Permian Basin\n Reliability Plan.\n\n The filing identifies material questions regarding differences between the PBRP and\n contemporaneous 2024 Regional Transmission Plan models, includingtheir load,\n generation, and system-wide assumptions. Given thatthe Commission approved three\n 765-kV import paths totaling approximately 1,255 miles, these questions warrant careful\n and independentexamination. The requested auditwouldtestthe modelingratherthan\n presume wrongdoing, includingwhetherthe PBRP complied with applicable NERC\n reliabilityand modelingrequirements and whether its transmission recommendations\n remain supported under reconciled system-wide assumptions.\n\n Before Texas commits billions of dollars and extensive land to infrastructure of this scale,\n the underlyingtechnical foundation should betransparent, reproducible, and\n independently verified. I respectfully request thatthe Commission orderthe independent\n investigation and forensictechnical audit requested in Item 6571 before taking further\n action dependentuponthechallenged PBRP modeling.\n\n Reference: Kevin Kennedy and John M. Burrow, Response to Remand - Request for\n Independent Investigation and Forensic Audit, PUC Docket No. 59475, Item No. 6571, filed\n September 17,2026.\n\n Respectfully submitted,\n\n\n\n£0ohn B. Bradleyfll\n Pro Se Intervenor\n\n Lazy S Ranch\n 16767 Crows Ranch Rd\n Salado, TX 76571\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T23:10:18Z"
 }

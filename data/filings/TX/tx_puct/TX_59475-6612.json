@@ -18,5 +18,32 @@
  "collected_at": "2026-10-02T23:17:13Z",
  "run_id": "2026-10-02-2305",
  "keywords": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6612_1689590.ZIP",
+   "name": null,
+   "bytes": 31824,
+   "sha256": "d374c87236b43310f8759609391265fcc40d8699c3142bfc5a6b2988678ce048",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== NS 765.pdf ===\nDear Commissioners:\n\nI write to express my opposition to the proposed 765-kV transmission buildout in its current\nform.\n\nTexas is growing, and we need reliable power and infrastructure to support that growth. But\nprojects of this magnitude must make sound economic sense, protect private property rights,\nand justify the costs Texans will be asked to bear. I do not believe the proposed buildout meets\nthat standard.\n\nI urge the Commission to reconsider this approach before allowing these projects to move\nforward. Texas should prioritize reliable, dispatchable generation and carefully evaluate\nalternatives that could meet our energy needs with less disruption to farms, ranches, and rural\ncommunities and lower costs to ratepayers. Affected landowners deserve meaningful input\nthroughout that process.\n\nWe need infrastructure—but we need to build it the Texas way, with respect for private property\nand accountability to the families paying the bill.\n\nRespectfully,\n\nNate Sheets​\nCandidate for Texas Agriculture Commissioner\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6612_1689591.PDF",
+   "name": null,
+   "bytes": 93372,
+   "sha256": "72a8107fbab0ed17db84ba2ea1131db4cab4027c76c6a4edaa7f718d3b336b2e",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-10-02 11:33:37 AM\n\nControl Number - 59475\n\nItem Number - 6612\n\fDear Commissioners:\n\nI write to express my opposition to the proposed 765-kV transmission buildout in its current\nform.\n\nTexas is growing, and we need reliable power and infrastructure to support that growth. But\nprojects of this magnitude must make sound economic sense, protect private property rights,\nand justify the costs Texans will be asked to bear. I do not believe the proposed buildout meets\nthat standard.\n\nI urge the Commission to reconsider this approach before allowing these projects to move\nforward. Texas should prioritize reliable, dispatchable generation and carefully evaluate\nalternatives that could meet our energy needs with less disruption to farms, ranches, and rural\ncommunities and lower costs to ratepayers. Affected landowners deserve meaningful input\nthroughout that process.\n\nWe need infrastructure-but we need to build it the Texas way, with respect for private property\nand accountability to the families paying the bill.\n\nRespectfully,\n\nNate Sheets\nCandidate for Texas Agriculture Commissioner\n\f"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-03T22:49:18Z"
 }

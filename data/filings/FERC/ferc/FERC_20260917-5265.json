@@ -29,7 +29,26 @@
  "collected_at": "2026-10-02T23:14:19Z",
  "run_id": "2026-10-02-2305",
  "keywords": [
+  "ESA",
+  "interconnection",
   "large load"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1791807_Interv.txt",
+   "bytes": 1893,
+   "sha256": "7e0d943d2287b6c63d2f3f22aee9df4dac6e8b71b3633184c5f4c27bbf722d0b",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Texas Industrial Energy Consumers under ER26-3650-000.\r\n\r\nSubmission Date:        9/17/2026 2:41:21 PM\r\n\r\nFiled Date:             9/17/2026 2:41:21 PM\r\n\r\nDockets\r\n-------\r\nER26-3650-000        Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-08-28_Interconnection Reliability Requirements for Large Loads submitted on 8/28/2026 4:41:03 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nTexas Industrial Energy Consumers        kcoleman@omm.com                         jhubbard@omm.com                        \r\nTexas Industrial Energy Consumers                                                 kballi@omm.com                          \r\n\r\nBasis for Intervening:\r\nThe Texas Industrial Energy Consumers (TIEC) is an unincorporated trade association of industrial consumers of electricity. TIEC’s members own and operate industrial facilities in the MISO service territory and purchase substantial amounts of electricity from companies within the MISO service territory. Some of TIEC’s members currently self-generate electricity, some portion of which is or may be sold at wholesale and transmitted over MISO’s service territory. TIEC’s members also purchase significant amounts of electricity at retail rates from Entergy Texas, Inc. (ETI), who is a transmission owning member of MISO. MISO’s application in this proceeding raises a number of issues of significant interest that will directly impact TIEC members as customers of MISO. Therefore, TIEC has a direct, substantial and vital interest in the outcome of this proceeding."
+  }
+ ],
+ "party_hits": [
+  "Texas Industrial Energy Consumers"
+ ],
+ "enriched_at": "2026-10-03T23:10:03Z"
 }
