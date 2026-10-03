@@ -145,9 +145,9 @@ The four v1 artifacts (Grid Docket Protocol, Docket Watch Live, Docket Facet Sch
 
 | Task | ID | Schedule | State |
 |---|---|---|---|
-| Utility Tracker Sweep | `trig_01DA4N9G8Qv1zeggHuN9eQ3g` | Mon 04:55 PT (`CRON_TZ=America/Los_Angeles 55 4 * * 1`) | Enabled, auto-approve, M365 + Box. Next run 2026-10-05. |
-| Weekly Utility Tracker (Brief) | `trig_01X19jgn9aMSPL5ov1TQ7bvj` | Mon 07:54 PT (`CRON_TZ=America/Los_Angeles 54 7 * * 1`) | Enabled, auto-approve, M365 + Box. Next run 2026-10-05. |
-| Grid Docket manual pass (reminder) | `trig_015r1jt1qtx7CEYiyehWzSV2` | Fri 14:51 PT (`CRON_TZ=America/Los_Angeles 51 14 * * 5`) | Runs **on Rett's computer** (desktop app must be open). Push notification; asks "Run now / Skip this week" and does nothing without "Run now". First fires 2026-10-09. |
+| Utility Tracker Sweep | `trig_01DA4N9G8Qv1zeggHuN9eQ3g` | Mon 03:54 PT (`CRON_TZ=America/Los_Angeles 54 3 * * 1`) | Enabled, auto-approve, M365 + Box. Next run 2026-10-05. |
+| Weekly Utility Tracker (Brief) | `trig_01X19jgn9aMSPL5ov1TQ7bvj` | Mon 08:54 PT (`CRON_TZ=America/Los_Angeles 54 8 * * 1`) | Enabled, auto-approve, M365 + Box. Next run 2026-10-05. |
+| Grid Docket manual pass (reminder) | `trig_015r1jt1qtx7CEYiyehWzSV2` | Fri 09:04 PT (`CRON_TZ=America/Los_Angeles 4 9 * * 5`) | Runs **on Rett's computer** (desktop app must be open). Push notification; asks "Run now / Skip this week" and does nothing without "Run now". First fires 2026-10-09. |
 | Current Events Digest (unrelated) | `trig_01Q57Hm8Enb4TFRrhTZRbpc7` | weekdays 07:28 PT | Not part of this project |
 
 Each task's prompt is a **compact bootstrap** (`prompts/trigger_*.txt`): the invariants that must hold whatever
@@ -193,10 +193,10 @@ cover page, 3 briefs/testimony/applications/tariffs, 4 other) into `data/backfil
 
 ```
 Nightly    GitHub Actions collector ──► public repo data/ (candidates + full-text filings + health + backfill)
-Mon 04:55  Sweep (Claude, cloud)    ──► git clone (read-only) + OneDrive store + Outlook (read-only)
+Mon 03:54  Sweep (Claude, cloud)    ──► git clone (read-only) + OneDrive store + Outlook (read-only)
                                         + manual drops + WebFetch routes
                                     ──► NEW immutable part in OneDrive + run record (+ repair proposals)
-Mon 07:54  Brief (Claude, cloud)    ──► Excel + narrative built in the session ──► console republished
+Mon 08:54  Brief (Claude, cloud)    ──► Excel + narrative built in the session ──► console republished
                                     ──► email to Rett ──► brief record
 Any time   Manual pass (desktop app, Rett present) ──► OneDrive /GridDocket/manual/ ──► next Sweep ingests
 ```
@@ -518,7 +518,7 @@ reads the PDF).
 
 ## 12. The manual pass — how to run it
 
-**Friday reminder (set up 3 Oct).** Every Friday at 2:51 pm PT a scheduled task fires **on Rett's computer**
+**Friday reminder (set up 3 Oct).** Every Friday at 9:04 am PT a scheduled task fires **on Rett's computer**
 (the Claude desktop app must be open and the computer awake) and sends a push notification. It asks "Run now" or
 "Skip this week" — one click. It does nothing without "Run now", because the pass relies on Rett being present
 (CAPTCHAs are his to solve, and the browsing is his). If the computer is off, that week's pass is simply missed;
@@ -723,7 +723,7 @@ minimum take, 10–15 year terms, exit fees, collateral, cost-shift bars; West V
   works) — an `EIA_API_KEY` secret would avoid it.
 
 **Not yet verified end to end:** a scheduled Sweep reading collector data through the public clone — first test
-**Monday 5 Oct, 04:55 PT**.
+**Monday 5 Oct, 03:54 PT**.
 
 ---
 
@@ -754,7 +754,7 @@ Strategies studies; (9) FERC Form 1 / EQR (defer).
 ## 18. Outstanding actions, gaps and open decisions
 
 **Nothing else is required from Rett for the system to run.** Optional or recurring:
-1. **Fridays:** keep the desktop app open around 2:51 pm PT and click "Run now" (or run `/grid-docket-manual-pass`
+1. **Fridays:** keep the desktop app open around 9:04 am PT and click "Run now" (or run `/grid-docket-manual-pass`
    whenever convenient).
 2. **Keys (optional):** `OPENSTATES_API_KEY` (state bills — the only wired source still off),
    `EIA_API_KEY` (the public demo key is often rate-limited on GitHub's shared runners), `COURTLISTENER_TOKEN`
@@ -842,3 +842,4 @@ are enabled.
 | 2026-10-02 | v3 built (collector, overlays, Excel parity, console v6, prompts, manual skill); first collector run; backfill dispatched |
 | 2026-10-03 (pm) | Full review: collector cursor fix, nightly backfill enrichment, manual pass catch-up and new-case discovery, Friday reminder task, DEMO_KEY for EIA/congress.gov, cleanup of obsolete files, docs and artifacts |
 | 2026-10-03 | Colorado and Oregon ruled out of scope for now. Off-schedule verification runs (degraded Sweep → `rows_p5`; Brief → console v7 + email); repo made public; prompts clone read-only; compact task bootstraps; second-wave sources; ERCOT archive; WebFetch fallback pages; backfill re-dispatched; this document rewritten |
+| 2026-10-03 (eve) | Schedules changed by Rett: Sweep Mon 03:54 PT, Brief Mon 08:54 PT, manual-pass reminder Fri 09:04 PT (all `CRON_TZ=America/Los_Angeles`); §3, §4, §12, §16, §18 and `SOURCES.md` updated to match |

@@ -8,10 +8,10 @@ collector source is in `data/health/latest.json`, refreshed nightly.
 
 | Code | Process | Where it runs | Cadence |
 |---|---|---|---|
-| **C** | Nightly collector (GitHub Actions, `collector/`) | Cloud | Daily 02:17 ET |
-| **S** | Weekly Sweep (Claude scheduled task) | Cloud | Mon ~04:50 PT |
-| **B** | Weekly Brief (Claude scheduled task) | Cloud | Mon ~07:50 PT |
-| **M** | Manual browser pass (skill `grid-docket-manual-pass`) | Rett's computer, Claude desktop app | Whenever run; picked up by the next Sweep |
+| **C** | Nightly collector (GitHub Actions, `collector/`) | Cloud | Daily 06:17 UTC (~23:17 PT) |
+| **S** | Weekly Sweep (Claude scheduled task) | Cloud | Mon 03:54 PT |
+| **B** | Weekly Brief (Claude scheduled task) | Cloud | Mon 08:54 PT |
+| **M** | Manual browser pass (skill `grid-docket-manual-pass`) | Rett's computer, Claude desktop app | Reminder Fri 09:04 PT (runs only on "Run now"), or whenever run; picked up by the next Sweep |
 
 **Retrieval depth.** *Full text* = the primary document is downloaded and its text extracted (OCR when it has no
 text layer). *Metadata* = filing list only. *Mirror* = the same document from a permitted host other than the
