@@ -1,0 +1,62 @@
+{
+ "current": {
+  "status": 200,
+  "total": 0,
+  "first": "None",
+  "msg": "success"
+ },
+ "qp_values": {
+  "status": 200,
+  "total": 0,
+  "first": "None",
+  "msg": "success"
+ },
+ "lower_caseid": {
+  "status": 500,
+  "total": null,
+  "first": "None",
+  "msg": null
+ },
+ "data_caseId": {
+  "status": 500,
+  "total": null,
+  "first": "None",
+  "msg": null
+ },
+ "key_doc": {
+  "status": 200,
+  "total": 0,
+  "first": "None",
+  "msg": "success"
+ },
+ "key_doc2": {
+  "status": 200,
+  "total": 0,
+  "first": "None",
+  "msg": "success"
+ },
+ "casedocument": {
+  "status": 404,
+  "total": null,
+  "first": "None",
+  "msg": null
+ },
+ "publicdocument": {
+  "status": 404,
+  "total": null,
+  "first": "None",
+  "msg": null
+ },
+ "casepublicdocuments": {
+  "status": 404,
+  "total": null,
+  "first": "None",
+  "msg": null
+ },
+ "docket_number": {
+  "status": 200,
+  "total": 0,
+  "first": "None",
+  "msg": "success"
+ }
+}
