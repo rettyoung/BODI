@@ -24,8 +24,7 @@ generators**. It covers **25 named utilities, 8 RTOs and 18 jurisdictions**, ori
 power procurement.
 
 **Jurisdictions (18):** AL, AZ, FERC, GA, IL, KS, LA, MO, NC, NM, NV, OH, OK, PA, SC, TX, VA, WV (plus
-`US-Federal` for federal items with no state). Colorado (Xcel 26AL-0137E) and Oregon (PacifiCorp UE 463) are
-an **open scope question**.
+`US-Federal` for federal items with no state). Colorado and Oregon are out of scope for now (Rett, 3 Oct 2026).
 
 **What it tracks:** utility dockets and commission actions; FERC/NERC; executive, legislative and court
 actions; earnings and investor presentations; major customer and market-participant activity.
@@ -62,9 +61,10 @@ actions; earnings and investor presentations; major customer and market-particip
 - **Never create an account, enter a credential, or defeat a CAPTCHA or bot-check.** Never route around a
   robots.txt refusal. Record `ACCESS_REGRESSION` and move on. In the manual pass, Rett solves any CAPTCHA
   himself.
-- **Never take credentials in conversation.** API keys are added by Rett as GitHub repo secrets (Settings →
-  Secrets and variables → Actions); they stay secret even though the repo is public. Never store secrets in an
-  artifact database or in the repo.
+- **Keys go in repo secrets, added by Rett.** Claude cannot enter API keys, tokens or passwords itself — this
+  is a fixed limit on Claude, not a judgement about the keys (Rett regards these keys as non-sensitive). Free
+  keyless routes (public DEMO_KEY, keyless APIs) are used wherever they exist so this step is rare. Add secrets
+  at https://github.com/rettyoung/BODI/settings/secrets/actions/new. Never store secrets in an artifact or the repo.
 - **Licensed sources** (NPM, CapIQ, RTO Insider, DCC Bi-Weekly): facts may be extracted and cited; their
   sentences are never reproduced. Investor decks are public company disclosures and may be quoted.
 - **Polling commission portals is approved** — recorded as accepted risk by Rett, 2026-09-17. The ToS review
@@ -382,7 +382,7 @@ Legistar 600).
 | DOE / NRC | C | DOE news, 202(c), LPO working; NRC news 0 links. |
 | Investor decks | C | Events pages rendered, PDF links harvested (never guessed). 10 of 16 working; 6 refuse (§10). |
 | Mail | M | Folders "FERC", "ERCOT"; senders `today@rtoinsider.com`, `alerts@newprojectmedia.com`, `alerts@capitaliq.spglobal.com`, NCUC; DCC Bi-Weekly PDF (forwarded to BODIpower@blueowl.com). Internal deal threads are confidential and never sources. |
-| Keyed data | C | EIA, congress.gov, Open States wired and waiting for keys; CourtListener works keyless but rate-limited (§9). |
+| Keyed data | C | EIA and congress.gov running on the public DEMO_KEY; Open States waiting for its key; CourtListener keyless but rate-limited (§9). |
 
 **Manual-pass browser methods:** VA SCC Breeze API (`/DocketSearchAPI/breeze/…`; PDFs `/docketsearch/DOCS/<FileName>`);
 WV `http://` + `/scripts/WebDocket/` + `ViewText.cfm` (the Commission's own text layer); SC
@@ -400,16 +400,16 @@ Company; PNM = Public Service Company of New Mexico / TXNM Energy. Full list in 
 
 ## 9. API keys
 
-None are entered in conversation. Rett creates each account himself and adds the key at **GitHub → rettyoung/BODI
+Claude cannot enter keys itself, so Rett creates each account and adds the key at **GitHub → rettyoung/BODI
 → Settings → Secrets and variables → Actions → New repository secret**. Secrets stay private on a public repo
 and are masked in logs.
 
-**Wired now — the adapter switches on the night the secret appears:**
+**Wired now.** EIA and congress.gov already run nightly on api.data.gov's public `DEMO_KEY` (verified 3 Oct; low rate limit, enough for one nightly query) — their own keys are optional. Open States needs its key; CourtListener runs keyless but rate-limited:
 
 | Secret name | Where to get it | Cost | What it adds |
 |---|---|---|---|
-| `EIA_API_KEY` | eia.gov/opendata/register.php | Free | EIA-860M operating-generator capacity by state (large additions and retirements in tracked states) |
-| `CONGRESS_API_KEY` | api.congress.gov/sign-up | Free | Federal bills and actions on data centers, permitting, transmission |
+| `EIA_API_KEY` (optional) | eia.gov/opendata/register.php | Free | EIA-860M operating-generator capacity by state (large additions and retirements in tracked states) |
+| `CONGRESS_API_KEY` (optional) | api.congress.gov/sign-up | Free | Federal bills and actions on data centers, permitting, transmission |
 | `OPENSTATES_API_KEY` | open.pluralpolicy.com (account → API key) | Free | State bills matching data-center / large-load queries in the tracked states (replaces LegiScan, which blocks by IP) |
 | `COURTLISTENER_TOKEN` | courtlistener.com (free account → API token) | Free | Removes keyless rate limiting (HTTP 429) on appellate and federal court searches |
 
@@ -686,13 +686,13 @@ EDGAR); governors' newsrooms in 16 states (Arizona refuses); party watch; MISO a
 (8 counties/cities); Virginia appellate courts; utility IRP/RFP pages; DOE; Utility Dive, Canary Media, RTO
 Insider feeds; licensed mail (RTO Insider, NPM, CapIQ, DCC Bi-Weekly).
 
-**Waiting on keys:** EIA, congress.gov, Open States, CourtListener (full rate).
+**Running on the public DEMO_KEY:** EIA, congress.gov. **Waiting on keys:** Open States; CourtListener (full rate).
 
 **Candidates still open, ranked:** (1) ERCOT Public API and PJM API (§9); (2) state appellate courts beyond
 Virginia; (3) county planning agendas outside Legistar (Loudoun, Fairfax, Henrico, Fulton, Atlanta, Tulsa, Reno
 were not confirmed Legistar clients); (4) NRC ADAMS for restarts/uprates/SMRs; (5) hyperscaler newsrooms;
 (6) earnings call transcripts (CapIQ); (7) S&P RRA / Halcyon / Energy Strategies as cross-checks; (8) LBNL / Grid
-Strategies studies; (9) Colorado and Oregon (scope decision); (10) FERC Form 1 / EQR (defer).
+Strategies studies; (9) FERC Form 1 / EQR (defer).
 
 ---
 
@@ -758,4 +758,4 @@ confirm both scheduled tasks are still enabled.
 |---|---|
 | 2026-09-17/18 | v1/v2 built; baseline 161 events / 229 rows loaded; tasks later found disabled |
 | 2026-10-02 | v3 built (collector, overlays, Excel parity, console v6, prompts, manual skill); first collector run; backfill dispatched |
-| 2026-10-03 | Off-schedule verification runs (degraded Sweep → `rows_p5`; Brief → console v7 + email); repo made public; prompts clone read-only; compact task bootstraps; second-wave sources; ERCOT archive; WebFetch fallback pages; backfill re-dispatched; this document rewritten |
+| 2026-10-03 | Colorado and Oregon ruled out of scope for now. Off-schedule verification runs (degraded Sweep → `rows_p5`; Brief → console v7 + email); repo made public; prompts clone read-only; compact task bootstraps; second-wave sources; ERCOT archive; WebFetch fallback pages; backfill re-dispatched; this document rewritten |

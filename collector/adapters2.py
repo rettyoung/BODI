@@ -48,8 +48,13 @@ def _after(d, since):
     return d is None or d >= since
 
 
-def _kw(cfg):
-    return [k.lower() for k in cfg.get("keywords", [])]
+# Keywords that are useful on energy pages but match unrelated bill titles.
+_BILL_NOISE = {"emergency", "firm load shed"}
+
+
+def _kw(cfg, bills=False):
+    kws = [k.lower() for k in cfg.get("keywords", [])]
+    return [k for k in kws if k not in _BILL_NOISE] if bills else kws
 
 
 def _hit(text, kws):
@@ -117,7 +122,7 @@ def congress(ctx):
     key = os.environ.get("CONGRESS_API_KEY") or "DEMO_KEY"
     if key == "DEMO_KEY":
         ctx.record("congress", "demo_key", "running on the public DEMO_KEY; a repo secret CONGRESS_API_KEY lifts the rate limit")
-    kws = _kw(ctx.cfg) + ["electric grid", "transmission", "permitting", "ferc", "data centers", "artificial intelligence"]
+    kws = _kw(ctx.cfg, bills=True) + ["electric grid", "transmission", "permitting", "ferc", "data centers"]
     since = f"{ctx.since}T00:00:00Z"
     items, offset = [], 0
     while offset < 1000:

@@ -99,8 +99,8 @@ main intervenors is tagged by the collector and treated as material by the Sweep
 
 | Source | Secret | Use |
 |---|---|---|
-| EIA Open Data v2 (Form 860M planned additions/retirements) | `EIA_API_KEY` | Cross-check utility commission claims; only public window into GRDA, NOVEC, AEPCO. |
-| congress.gov API | `CONGRESS_API_KEY` | Federal bills on data centers, permitting, grid reliability. |
+| EIA Open Data v2 (Form 860M planned additions/retirements) | `EIA_API_KEY` (optional — runs on DEMO_KEY) | Cross-check utility commission claims; only public window into GRDA, NOVEC, AEPCO. |
+| congress.gov API | `CONGRESS_API_KEY` (optional — runs on DEMO_KEY) | Federal bills on data centers, permitting, grid reliability. |
 | Open States API | `OPENSTATES_API_KEY` | State bills in all 18 jurisdictions (NV and TX legislate in odd years only). |
 
 | CourtListener | `COURTLISTENER_TOKEN` (optional) | Opinions on large-load / tariff / co-location matters run keyless; the token adds federal docket (RECAP) search. |
@@ -147,5 +147,5 @@ Ranked by value to the deliverable per unit of effort. **Effort**: S = config ch
 | 15 | **Earnings call transcripts** | Management commentary on large-load pipeline not in decks | Licensed (CapIQ) or company-posted | S–M | Use CapIQ transcripts if the licence covers it. |
 | 16 | **S&P RRA / Halcyon / Energy Strategies / DELTa dataset** | Pre-structured docket tracking across all states | Licensed | S once licensed | Evaluate as a cross-check, not a replacement for primary filings. |
 | 17 | **LBNL / Grid Strategies large-load and queue studies** | Benchmarks for the narrative | Public PDFs | S | Annual watch. |
-| 18 | **Colorado and Oregon** (Xcel Colorado 26AL-0137E; PacifiCorp UE 463) | Two of the most active large-load tariff proceedings outside the current 18 jurisdictions; the DCC Bi-Weekly already covers both | Both commissions' e-filing systems — reachability not yet probed | M | Scope decision first; then probe and add as collector or manual states. |
+| 18 | ~~Colorado and Oregon~~ | **Out of scope for now (Rett, 3 Oct 2026).** | — | — | — |
 | 19 | **FERC Form 1 / EQR** | Utility financial and wholesale contract data (special contracts, PPAs) | Public | L | Defer; low weekly value. |
