@@ -112,7 +112,7 @@ webUrl        https://blueowlcap-my.sharepoint.com/personal/rett_young_blueowl_c
 **Why parts:** a single Graph write is capped at 1,048,576 bytes. Each Sweep writes a **new** part (`rows_p6.json`
 next) and appends it to the manifest. It never rewrites an existing part.
 
-### GitHub — `rettyoung/BODI` (**public** since 3 Oct 2026)
+### GitHub — `rettyoung/BODI` (public since 3 Oct 2026)
 
 Public so the scheduled tasks can clone it with no credentials. Nothing secret is ever committed; API keys live
 in repo secrets, which stay private on a public repo.
@@ -699,15 +699,12 @@ Strategies studies; (9) Colorado and Oregon (scope decision); (10) FERC Form 1 /
 ## 18. Outstanding actions and open decisions
 
 **Rett:**
-1. Add the four free keys as repo secrets (§9). Consider ERCOT and PJM accounts; once their secrets exist, a
+1. Add the remaining API keys as repo secrets (§9). Consider ERCOT and PJM accounts; once their secrets exist, a
    session with push access builds those adapters.
 2. Disable any desktop-local copies of the old tracker tasks.
-3. Optional: send the allowlist drafts (OH and WV through their web forms). Verbal consent is on record, but
-   only a **written change by the agency** (a robots.txt allowance or firewall rule for the UA) would let the
-   collector in — the agencies said they can't make technical changes, so the manual pass remains the route.
-4. Optional: run the manual pass before Monday 5 Oct.
+3. Optional: run the manual pass before Monday 5 Oct.
 
-**Open decisions:** Colorado (Xcel 26AL-0137E) and Oregon (PacifiCorp UE 463) in scope?; recipients after burn-in
+**Open decisions:** recipients after burn-in
 (only Rett now; possibly BODIpower@blueowl.com); whether a personal public GitHub repo is acceptable under Blue
 Owl policy long term (fallback: Azure Container Apps job, needs IT); Blue Owl branding for the narrative; send mode
 stays auto-send unless changed.
