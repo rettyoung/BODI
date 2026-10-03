@@ -1,0 +1,24 @@
+{
+ "id": "AZ:462685",
+ "jur": "AZ",
+ "source": "az_acc",
+ "kind": "filing",
+ "docket": "E-01773A-26-0123",
+ "title": "Consent to Email Service",
+ "filed": "2026-04-27",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29858",
+ "entity": "Jennifer Cranston",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000051039.pdf"
+  }
+ ],
+ "meta": {
+  "docketID": 29858
+ },
+ "collected_at": "2026-10-03T21:18:05Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FERC:20260210-5127",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-1088",
+ "title": "Motion to Intervene and Limited Protest of Eolian, L.P. et al. to PJM Interconnection, L.L.C.’s proposed revisions to the Open Access Transmission Tariff under ER26-1088.",
+ "filed": "2026-02-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260210-5127",
+ "entity": "Eolian, L.P.; Antora Energy LLC; Verrus",
+ "fetch": [
+  {
+   "ferc_file": "A4C7C6E5-AC9B-C039-8686-9C4938900000",
+   "name": "Limited Protest of Joint Parties in Docket No. ER26-1088.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-02-10"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

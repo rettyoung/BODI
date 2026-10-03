@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251110-5157",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-247",
+ "title": "(doc-less) Notice of Intervention of Public Utility Commission of Texas under ER26-247.",
+ "filed": "2025-11-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251110-5157",
+ "entity": "Public Utility Commission of Texas; Public Utility Commission of Texas",
+ "fetch": [
+  {
+   "ferc_file": "B41F57C6-E478-C8D5-A43E-9A6F77500000",
+   "name": "1679616_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-247",
+  "issued": "2025-11-10"
+ },
+ "collected_at": "2026-10-03T21:11:07Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

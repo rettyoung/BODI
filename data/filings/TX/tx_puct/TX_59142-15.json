@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-15",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "3/9/2026 | SCHAPER ENERGY CONSULTING LLC | COM | PUC PROJECT NO. 59142 - BATCH STUDY CONSIDERATIONS AND PGRR145",
+ "filed": "2026-03-09",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=15",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "15"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

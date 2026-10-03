@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-10",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "5/13/2026 | PUC OPDM | PL | ORDER NO. 6- GRANTING MOTION TO INTERVENE",
+ "filed": "2026-05-13",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=10",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "10"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

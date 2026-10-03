@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6017",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/8/2026 | N12/P1 Intervenors | PL | Cross Stipulation of N12/P1 Intervenors and Link R1 Opposition Landowners",
+ "filed": "2026-06-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6017",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6017"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6013",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/8/2026 | PUC LEGAL | RFI | COMMISSION STAFF’S RESPONSE TO WULFF BLUFF CREEK RANCH, LTD.’S SECOND REQUEST FOR INFORMATION QUESTION NOS. WBC 2-1 THROUGH WBC 2-7",
+ "filed": "2026-06-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6013",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6013"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

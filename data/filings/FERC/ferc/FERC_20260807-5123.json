@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20260807-5123",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-68",
+ "title": "Comments of the Southwest Power Pool Regional State Committee in support of Southwest Power Pool, Inc.’s request for an extension of time until 11/20/2026 to respond to the FERC's 06/18/2026 Order to Show Cause under EL26-68.",
+ "filed": "2026-08-07",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260807-5123",
+ "entity": "Southwest Power Pool Regional State Committee",
+ "fetch": [
+  {
+   "ferc_file": "D056F014-0DF3-C680-9D09-9FDD20B00000",
+   "name": "RSC Letter of Support of Abeyance Request in EL26-68.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Government Agency Submittal"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "watched docket EL26-68",
+  "issued": "2026-08-07"
+ },
+ "collected_at": "2026-10-03T21:02:36Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load",
+  "large-load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "RSC Letter of Support of Abeyance Request in EL26-68.pdf",
+   "bytes": 219839,
+   "sha256": "bd87e8dc04d1b5f445294792f7433f1678874ccf1612bd58a42c767a05bd53aa",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "August 7, 2026\n\nThe Honorable Debbie-Anne A. Reese\nSecretary\nFederal Energy Regulatory Commission\n888 First Street, N.E.\nWashington, D.C. 20426\n\nRE:    Southwest Power Pool Abeyance Request; Docket No. EL26-68-000\n\nDear Secretary Reese,\nThe Southwest Power Pool Regional State Committee (RSC) respectfully submits this letter in\nsupport of Southwest Power Pool, Inc.’s (SPP) request for an extension of time, until November\n20, 2026, to respond to the Commission’s June 18, 2026, Order to Show Cause in the above-\nreferenced proceeding.\nThe Commission’s order raises significant and complex issues concerning the integration of large\nloads, including how to mitigate the risk that transmission costs attributable to large-load\ndevelopment may be shifted to other transmission customers. These issues directly implicate the\nRSC’s responsibility within the SPP regional governance structure for determining regional\nproposals concerning the allocation of transmission costs.\nThe RSC, working through SPP’s Cost Control and Allocation Review and Evaluation (CARE)\nTeam, is currently considering potential measures to mitigate cost-shift risks associated with large\nload customers. Among other matters, the CARE Team is evaluating approaches for assigning or\nsecuring responsibility for transmission costs driven by new large loads, particularly when\nprojected load does not materialize as anticipated or does not remain on the system for the period\nused to justify transmission investment.\nThe CARE Team expects to develop a recommendation for consideration by the RSC and the SPP\nBoard of Directors during their quarterly business meetings on November 16 and 17, 2026. That\nrecommendation will reflect substantial analysis and regional stakeholder and state-regulatory\ninput regarding matters that are related to the cost-shifting concerns identified in the Commission’s\norder.\nGranting the requested extension would allow the RSC and SPP to complete this established\nregional process and would enable SPP’s response to more fully reflect the resulting\nrecommendations. It would also promote the development of a thoughtful, durable, and regionally\n\fThe Honorable Debbie-Anne A. Reese\nAugust 7, 2026\nPage 2\n\ntailored approach that recognizes the respective roles of SPP, its stakeholders, and state regulatory\nauthorities.\nThe RSC recognizes the urgency of addressing the challenges presented by rapid large-load growth\nand does not seek unnecessary delay. Rather, the additional time would support a more\ncomprehensive response and could reduce the need for subsequent revisions or supplemental\nfilings as the CARE Team’s work is completed.\nFor these reasons, the RSC respectfully supports SPP’s request for an extension of time in Docket\nNo. EL26-68-000.\nRespectfully submitted\n /s/ Chuck Hutchison\n Chuck Hutchison\n Chairman, Nebraska Power Review Board\n President, Southwest Power Pool Regional State Committee\n\n On Behalf of the Regional State Committee\n\f                                  CERTIFICATE OF SERVICE\n\n       I hereby certify that I have this day served the foregoing document upon each person\n\ndesignated on the official service list compiled by the Secretary in this proceeding.\n\n       Dated at Little Rock, Arkansas, this 7th day of August, 2026.\n\n\n                                                /s/ Michelle Harris\n                                               Michelle Harris\n                                               On Behalf of the\n                                               Southwest Power Pool Regional State Committee\n                                               201 Worthen Drive\n                                               Little Rock, AR 72223-4936\n                                               (501) 614-3200\n\f"
+  }
+ ]
+}

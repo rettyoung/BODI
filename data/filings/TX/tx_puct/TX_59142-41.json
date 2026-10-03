@@ -1,0 +1,25 @@
+{
+ "id": "TX:59142-41",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "7/13/2026 | Trailblazer Infrastrructure LLC. | PL | Notice of Withdrawal – This filing formally withdraws Trailblazer Infrastructure LLC's previously submitted Informational Memorandum in PUCT Project No. 59142. The notice advises the Commission that, due to ongoing discussions among the relevant parties.",
+ "filed": "2026-07-13",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=41",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "41"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "AWS"
+ ],
+ "documents": []
+}

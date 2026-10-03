@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-44",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "8/13/2026 | First Ammonia LLC | LTRS | Letter regarding ERCOT's Requests for Exceptions Relating to Batch Zero Deadlines",
+ "filed": "2026-08-13",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=44",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "44"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

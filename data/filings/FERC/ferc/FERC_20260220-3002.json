@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260220-3002",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49",
+ "title": "Notice of Denial of Rehearing by Operation of Law and Providing for Further Consideration re Allegheny Electric Cooperative, Inc. et al. v. PJM Interconnection, L.L.C. under EL25-49 et al. ",
+ "filed": "2026-02-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260220-3002",
+ "entity": "SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "D7D68333-5163-CC90-9540-9C7AF8500000",
+   "name": "EL25-49-002.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   },
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Delegated Order"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-02-20"
+ },
+ "collected_at": "2026-10-03T21:01:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

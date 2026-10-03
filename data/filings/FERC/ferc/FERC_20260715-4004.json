@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260715-4004",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "AD26-7",
+ "title": "Pre-filed Statement of Abraham Silverman, Assistant Research Scholar at Johns Hopkins University, for the PJM Governance and Stakeholder Reforms Technical Conference under AD26-7.",
+ "filed": "2026-07-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260715-4004",
+ "entity": "JOHNS HOPKINS UNIVERSITY",
+ "fetch": [
+  {
+   "ferc_file": "577D1CE0-2B87-CC0B-9858-9F67AB000000",
+   "name": "Pre-filed Statement - Abraham Silverman.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-15"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

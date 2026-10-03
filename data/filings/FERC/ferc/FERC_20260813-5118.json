@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20260813-5118",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3515",
+ "title": "PJM Interconnection, L.L.C. submits tariff filing per 35.13(a)(2)(iii: Proposal to Establish Interim Resource Adequacy Service & a Large Load Registry to be effective 10/12/2026 under ER26-3515 Filing Type : 10",
+ "filed": "2026-08-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260813-5118",
+ "entity": "PJM Interconnection, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "8135F559-DFB7-C71B-9E90-9FFCB3800000",
+   "name": "IRAS Transmittal Letter 4929-0395-4887 v.3.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "51C4ECB0-297C-CD2F-A723-9FFCB3800000",
+   "name": "Attachment A- Marked Tariff 4919-3670-8807 v.1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "D3CDBE65-D8B1-CF1D-86F6-9FFCB3900000",
+   "name": "Attachment B- Clean Tariff 4930-8837-2935 v.2.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "0A8DD34E-A907-CA5D-8D17-9FFCB3900000",
+   "name": "Attachment C IRAS - Pilong Affifdavit .pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-13"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection",
+  "large load",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": []
+}

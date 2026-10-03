@@ -1,0 +1,39 @@
+{
+ "id": "FERC:20260821-5206",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3380",
+ "title": "Comments of Google LLC re PJM Interconnection, L.L.C.’s Reliability Backstop Procurement Proposal under ER26-3380.",
+ "filed": "2026-08-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260821-5206",
+ "entity": "Google LLC; Google LLC; Google LLC",
+ "fetch": [
+  {
+   "ferc_file": "A437A88C-9289-CB11-A378-A025FC600000",
+   "name": "Google LLC Comments.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [
+  "Google"
+ ],
+ "documents": []
+}

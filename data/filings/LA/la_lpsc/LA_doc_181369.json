@@ -1,0 +1,24 @@
+{
+ "id": "LA:doc:181369",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Referral of Interlocutory Ruling to Commissioners for Review Issued by Chief ALJ Melanie Verzwyvelt",
+ "filed": "2026-07-31",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=181369",
+ "fetch": [
+  {
+   "la_document": 181369
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:47:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

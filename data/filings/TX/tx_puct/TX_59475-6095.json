@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6095",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/11/2026 | THEON/VOSS AND D&M DAVIS | RFI | Theon-Voss & D&M Davis' 1st Supplemental Response to Segment K13-K51's 1st Set of RFIs",
+ "filed": "2026-06-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6095",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6095"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

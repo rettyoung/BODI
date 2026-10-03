@@ -1,0 +1,23 @@
+{
+ "id": "GA:225690",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "55378",
+ "title": "Large Load Economic Development Report Q3 Q4 2025 Revised PD",
+ "filed": "2026-03-04",
+ "entity": "Georgia Power Company",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=225690",
+ "fetch": [
+  {
+   "ga_document": 225690
+  }
+ ],
+ "collected_at": "2026-10-03T21:18:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

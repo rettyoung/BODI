@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5894",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/5/2026 | Donald Lee Joiner and Anita M. Joiner | PL | Request to add Joiner Exhibit 1 to Order 30, Attachment A, and admit Joiner Exhibit 1 into evidence.",
+ "filed": "2026-06-05",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5894",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5894"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

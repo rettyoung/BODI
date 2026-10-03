@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260811-4001",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "AD10-12",
+ "title": "Day 2 Transcript: Software Presentation Sessions under AD10-12.",
+ "filed": "2026-08-11",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260811-4001",
+ "entity": "FEDERAL ENERGY REGULATORY COMMISSION",
+ "fetch": [
+  {
+   "ferc_file": "26261B3D-18BF-C583-9788-9FF15BD00000",
+   "name": "070826TechConference_Revised.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Transcript",
+    "documentType": "Conference/Meeting Transcript"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-07-08"
+ },
+ "collected_at": "2026-10-03T21:15:38Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-73",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "7/22/2026 | EASTMAN CHEMICAL COMPANY | PL | Eastman Chemical Company's Protective Order Certifications",
+ "filed": "2026-07-22",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=73",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "73"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-19",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "4/10/2026 | ONCOR ELECTRIC DELIVERY COMPANY LLC | COM | ONCOR ELECTRIC DELIVERY COMPANY LLC’S COMMENTS ON ERCOT’S PGRR 145",
+ "filed": "2026-04-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=19",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "19"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

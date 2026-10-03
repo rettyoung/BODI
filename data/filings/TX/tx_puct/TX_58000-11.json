@@ -1,0 +1,23 @@
+{
+ "id": "TX:58000-11",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "7/30/2026 | TEXAS ENERGY BUYERS ALLIANCE | COM | VOID SEE ITEM 12",
+ "filed": "2026-07-30",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=11",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "11"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

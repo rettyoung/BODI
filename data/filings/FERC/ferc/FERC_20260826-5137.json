@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20260826-5137",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL25-49,ER26-1479",
+ "title": "PJM Interconnection, L.L.C. submits notice of Compliance Filing submitted on 08/17/2026 in compliance with the directives in the 06/18/2026 Order under ER26-1479, et al.  ",
+ "filed": "2026-08-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260826-5137",
+ "entity": "PJM Interconnection, L.L.C.; PJM Interconnection, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "EF5774C2-7726-C570-9AAB-A03F68A00000",
+   "name": "Notice of August Compliance Filing.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "General Correspondence"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-08-26"
+ },
+ "collected_at": "2026-10-03T20:57:39Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Notice of August Compliance Filing.pdf",
+   "bytes": 223071,
+   "sha256": "9c51cb967b605f89e517291c8ad98a6a41b05e0e1edd7b2f212393327c42d3d6",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                                                                              1200 G Street, N.W., Suite 600\n                                                                              Washington, D.C. 20005-3898\n                                                                                       Phone: 202.393.1200\n                                                                                          Fax: 202.393.1240\n                                                                                              wrightlaw.com\n\n\n\n\nAugust 26, 2026\n\nHonorable Debbie-Anne A. Reese\nSecretary\nFederal Energy Regulatory Commission\n888 First Street, NE, Room 1A\nWashington, DC 20426\n\nRe:       PJM Interconnection, L.L.C., Docket No. EL25-49-000, et al.\n          Compliance Filing in Docket No. ER26-1479-002\n\nDear Secretary Reese:\n\n          This letter, being served on all parties to the above-referenced proceeding, confirms\n\nthat PJM Interconnection, L.L.C. (“PJM”) submitted on August 17, 2026, a filing in Docket\n\nNo. ER26-1479-002 (Accession No. 20260817-5195) in compliance with the Federal\n\nEnergy Regulatory Commission’s sixty-day compliance directives in the June 18, 2026\n\norder1 and the notice granting an extension of time for certain compliance obligations.2\n\nPJM requested an effective date of October 17, 2026, for the revisions in Parts I, III, VI,\n\nVII, VIII, and IX and June 1, 2028, for the provisions in Part XI. On August 18, 2026, the\n\nCommission set 5 PM ET on September 8, 2026, for comments on this filing.3\n\n\n\n\n1\n    PJM Interconnection, L.L.C., 195 FERC ¶ 61,209 (2026).\n2\n PJM Interconnection, L.L.C., Notice of Extension of Time, Docket Nos. EL25-49-002, et al. (Aug. 14,\n2026).\n3\n Harquahala Sun 1, LLC, Harquahala Sun 2, LLC, HV Sun SFA Manager 1, LLC, MEC Phase 1, LLC, MEC\nPhase 2, LLC, Olympus Phase 1, LLC, Olympus Phase 2, LLC, Olympus Phase 3, LLC, Saguaro Bidco Inc.,\nCombined Notice of Filings # 1, Docket Nos. EC26-140-000, et al. (Aug. 18, 2026).\n\fHonorable Debbie-Anne A. Reese\nAugust 26, 2026\nPage 2\n\n                                              Respectfully submitted,\n\n                                              /s/ Wendy B. Warren\n Craig Glazer                                 Wendy B. Warren\n Vice President – Federal Government Policy   Ruth M. Porter\n PJM Interconnection, L.L.C.                  Wright & Talisman, P.C.\n 1200 G Street, NW, Suite 600                 1200 G Street, NW, Suite 600\n Washington, DC 20005                         Washington, DC 20005\n 202-423-4743                                 202-393-1200\n craig.glazer@pjm.com                         warren@wrightlaw.com\n                                              porter@wrightlaw.com\n Mark J. Stanisz\n Associate General Counsel\n PJM Interconnection, L.L.C.\n 2750 Monroe Blvd,\n Audubon, PA 19403\n 610-666-8800\n                                              Counsel for\n mark.stanisz@pjm.com\n                                              PJM Interconnection, L.L.C.\n\n August 26, 2026\n\f                            CERTIFICATE OF SERVICE\n\n       I hereby certify that I have this 26th day of August 2026 caused a copy of the\n\nforegoing document to be served upon each person designated on the official service list\n\ncompiled by the Secretary in this proceeding.\n\n                                                   /s/ Ruth M. Porter\n                                                   Ruth M. Porter\n                                                   Wright & Talisman, P.C.\n                                                   1200 G Street, NW, Suite 600\n                                                   Washington, D.C. 20005\n                                                   (202) 393-1200\n                                                   porter@wrightlaw.com\n\f"
+  }
+ ]
+}

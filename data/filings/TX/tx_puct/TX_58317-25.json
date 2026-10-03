@@ -1,0 +1,23 @@
+{
+ "id": "TX:58317-25",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "8/6/2026 | PUC OPDM | PRJ | CHAIRMAN GLEESON MEMORANDUM",
+ "filed": "2026-08-06",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=25",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "25"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

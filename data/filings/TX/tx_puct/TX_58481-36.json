@@ -1,0 +1,29 @@
+{
+ "id": "TX:58481-36",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "12/18/2025 | SIERRA CLUB | COM | Comments on proposed staff draft on large load interconnection standards.",
+ "filed": "2025-12-18",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=36",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "36"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260827-5034",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2725",
+ "title": "Oglethorpe Power Corporation submits 2023 updated Supporting Technical Information Document re the Rocky Mountain Pumped Storage Hydroelectric Project under P-2725.",
+ "filed": "2026-08-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260827-5034",
+ "entity": "Oglethorpe Power Corporation",
+ "fetch": [
+  {
+   "ferc_file": "A1093612-0622-C8AA-8735-A04332900000",
+   "name": "RMOPS-LOC-26-014 - ROCKY MOUNTAIN STID.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-27"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

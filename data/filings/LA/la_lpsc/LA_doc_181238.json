@@ -1,0 +1,26 @@
+{
+ "id": "LA:doc:181238",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Joint Opposition to Meta Platforms, Inc's Motion for Immediate Review of Interlocutory Ruling and Response to the Tribunal's Questions Raised in the July 16, 2026 Notice",
+ "filed": "2026-07-24",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=181238",
+ "fetch": [
+  {
+   "la_document": 181238
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:47:10Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Meta"
+ ],
+ "documents": []
+}

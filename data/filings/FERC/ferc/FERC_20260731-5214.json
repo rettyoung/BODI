@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20260731-5214",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3380",
+ "title": "PJM Interconnection, L.L.C. submits tariff filing per 35.13(a)(2)(iii: Reliability Backstop Procurement to Address Resource Adequacy and Large Loads to be effective 9/29/2026 under ER26-3380 Filing Type : 10",
+ "filed": "2026-07-31",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260731-5214",
+ "entity": "PJM Interconnection, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "02C32907-5F5F-C6CA-9323-9FB9C3A00000",
+   "name": "RBP Transmittal Letter.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "C09E6390-56CC-C1A6-9B34-9FB9C3A00000",
+   "name": "Attachment A - Marked Tariff Records.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "73AABE4A-5742-C4B5-A266-9FB9C3A00000",
+   "name": "Attachment B - Clean Tariff Records.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "3F83D2BD-CA9B-C14A-AA4D-9FB9C3A00000",
+   "name": "Attachment C - Croop Affidavit.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-31"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection",
+  "large load",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": []
+}

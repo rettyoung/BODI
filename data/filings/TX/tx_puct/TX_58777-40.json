@@ -1,0 +1,23 @@
+{
+ "id": "TX:58777-40",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "5/5/2026 | THOMAS L DARTE | LTRS | Clarification of LSERO with Bilateral Contracting--- a proposed ERCOT market design modification (refer also to prior filings in this project 58777)",
+ "filed": "2026-05-05",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=40",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "40"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

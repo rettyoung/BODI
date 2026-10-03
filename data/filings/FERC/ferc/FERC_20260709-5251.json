@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5251",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67,EL26-68,EL26-69,EL26-70,EL26-71,EL26-72",
+ "title": "(doc-less) Motion to Intervene of Avangrid Networks, Inc. and Avangrid Power, LLC under EL26-72 et al.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5251",
+ "entity": "Avangrid Networks, Inc.; Avangrid Power, LLC",
+ "fetch": [
+  {
+   "ferc_file": "B8948500-9A64-CB96-BA79-9F485FB00000",
+   "name": "1769699_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:02:18Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-74",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "9/22/2026 | Toni Williams | COM | Public comments on data centers. 765kV Governor's audit",
+ "filed": "2026-09-22",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=74",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "74"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

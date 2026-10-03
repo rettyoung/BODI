@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5373",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/1/2026 | Julie Ann Collins/JT&WF Atkinson FLP | EX | LIST OF WITNESSES FOR CROSS EXAMINATION, WITNESS LIST, AND EXHIBIT LIST",
+ "filed": "2026-06-01",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5373",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5373"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

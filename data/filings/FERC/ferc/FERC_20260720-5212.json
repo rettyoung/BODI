@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260720-5212",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-110",
+ "title": "Supplement to 06/15/2026, Joint Application for Authorization Under Section 203 of the Federal Power Act of FirstLight Power Management LLC, et al. under EC26-110.",
+ "filed": "2026-07-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260720-5212",
+ "entity": "Hull Street Energy, LLC; FirstLight Power Management LLC; FirstLight CT Housatonic LLC; FirstLight MA Hydro LLC; Northfield Mountain LLC",
+ "fetch": [
+  {
+   "ferc_file": "EB819A06-5939-C778-BB56-9F8F7C200000",
+   "name": "CUI_PRIV_TX Rates.xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "73DBBC6A-6BE2-C88E-81BC-9F8F7C200001",
+   "name": "CUI_PRIV_Velocity Suite Load Query Screenshot-ISONE.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "C873512E-BE61-C3C4-8949-9F8F7C300000",
+   "name": "CUI_PRIV_Velocity Suite Price Query Screenshot-ISONE.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "87D52F1D-AE95-C1F5-9246-9F8F7C300000",
+   "name": "CUI_PRIV_ 2. create databases.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-20"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5138",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "(doc-less) Motion to Intervene of Large Public Power Council under EL26-70.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5138",
+ "entity": "Large Public Power Council; Large Public Power Council",
+ "fetch": [
+  {
+   "ferc_file": "76C6F6D0-791B-CF05-9134-9F47B4600000",
+   "name": "1769564_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:03:39Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,25 @@
+{
+ "id": "TX:58482-36",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "9/3/2026 | OPUC | COM | OFFICE OF PUBLIC UTILITY COUNSEL’S COMMENTS REGARDING THE PROPOSAL FOR PUBLICATION OF NEW 16 TAC §25.521",
+ "filed": "2026-09-03",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=36",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "36"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Office of Public Utility Counsel"
+ ],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6401",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "7/6/2026 | KENNEDY REPORTING SERVICE | ADMN | PREHEARING CONFERENCE FRIDAY, JUNE 5, 2026 (VIA ZOOM VIDEOCONFERENCE) VOL. 1",
+ "filed": "2026-07-06",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6401",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6401"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

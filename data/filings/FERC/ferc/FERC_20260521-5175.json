@@ -1,0 +1,60 @@
+{
+ "id": "FERC:20260521-5175",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-2422",
+ "title": "Motion to Intervene and Protest of the State of Washington and the Washington Utilities and Transportation Commission re TransAlta Centralia Generation LLC's application under ER26-2422.",
+ "filed": "2026-05-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260521-5175",
+ "entity": "Washington State Attorney General's Office",
+ "fetch": [
+  {
+   "ferc_file": "8CB518CD-7417-C659-9673-9E4C48E00000",
+   "name": "2026_05_21_MtnIntervene&Protest.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "8B400B26-AD04-CCA4-9C02-9E4C48E00000",
+   "name": "ExA_RFR(Jan)_pt1of3.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "27F6B325-048D-C0B1-8876-9E4C49300000",
+   "name": "ExA_RFR(Jan)_pt2of3.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "74CF7BCD-D170-C78A-8916-9E4C49500000",
+   "name": "ExA_RFR(Jan)_pt3of3.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   },
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Government Agency Submittal"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-05-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

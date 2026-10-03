@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5992",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/7/2026 | ColtonStolc | PL | Exhibit List for Item 4194",
+ "filed": "2026-06-07",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5992",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5992"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

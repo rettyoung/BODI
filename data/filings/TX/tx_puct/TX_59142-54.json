@@ -1,0 +1,25 @@
+{
+ "id": "TX:59142-54",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "8/20/2026 | SCHAPER ENERGY CONSULTING LLC | COM | SCHAPER ENERGY CONSULTING PROPOSED APPROACH TO PUBLIC BENEFIT DISCLOSURE IN THE COMMUNITY IMPACT COMPONENT OF THE LARGE LOAD AUDIT",
+ "filed": "2026-08-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=54",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "54"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

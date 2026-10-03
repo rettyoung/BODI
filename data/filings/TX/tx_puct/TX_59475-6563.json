@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6563",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/10/2026 | David Behrens | PC | Reliability of the Texas Electrical Grid and the 765 kV Transmission Line Project Reliability goes hand-in-hand with Security and Vulnerability. Two risks in these areas related to the 765kV Project are physical attacks and extreme weather events.",
+ "filed": "2026-09-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6563",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6563"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

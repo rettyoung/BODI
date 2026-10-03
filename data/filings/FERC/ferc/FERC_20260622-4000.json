@@ -1,0 +1,42 @@
+{
+ "id": "FERC:20260622-4000",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "Transcript of the 1137th Commission Meeting held on June 18, 2026 re Consent-Electric et al. ",
+ "filed": "2026-06-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260622-4000",
+ "entity": "FEDERAL ENERGY REGULATORY COMMISSION",
+ "fetch": [
+  {
+   "ferc_file": "4B944E9E-E288-CA26-9369-9EF069400000",
+   "name": "061826Meeting.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "CFF1F78C-5258-CCCE-9ABF-9EF069400000",
+   "name": "061826Meeting.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Transcript",
+    "documentType": "Conference/Meeting Transcript"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-06-18"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

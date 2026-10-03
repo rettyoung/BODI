@@ -1,0 +1,57 @@
+{
+ "id": "FERC:20260611-5006",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Motion to Intervene and Protest of Lisa Melton re the Grid-Reliability and Capacity Implications of Large-Load Interconnection and Associated Energy Infrastructure in Box Elder County, Utah under RM26-4.",
+ "filed": "2026-06-11",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260611-5006",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "CDF781D0-68B1-C8DE-926E-9EB69ED00000",
+   "name": "FERC_Motion_Intervene_Marlowe_RM26_4_RP26_358.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-06-10"
+ },
+ "collected_at": "2026-10-03T21:05:25Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection",
+  "large load",
+  "large-load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "FERC_Motion_Intervene_Marlowe_RM26_4_RP26_358.pdf",
+   "bytes": 65580,
+   "sha256": "4e6cf1de8cd4647aa8c7217eb6d6195843de87a36c75917ef5c8583e9ea33cfa",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 5,
+   "truncated": false,
+   "text": "UNITED STATES OF AMERICA BEFORE THE FEDERAL ENERGY REGULATORY COMMISSION\n\n\n\n) In the Matter of:           ) Large Load Interconnection Rulemaking     ) Docket No.\nRM26-4-000 ) Ruby Pipeline, L.L.C.            ) Docket No. RP26-358-000 )\n\n\n\nMOTION TO INTERVENE AND PROTEST\n\n\n\nPursuant to Rules 211 and 214 of the Federal Energy Regulatory Commission's (FERC or\nCommission) Rules of Practice and Procedure, 18 C.F.R. §§ 385.211 and 385.214, the\nundersigned Intervenor hereby submits this Motion to Intervene and Protest.\n\n\n\nRE: Intervention Regarding the Grid-Reliability and Capacity Implications of Large-Load\nInterconnection and Associated Energy Infrastructure, Box Elder County, Utah.\n\n\n\nTo the Federal Energy Regulatory Commission:\n\n\n\nThe undersigned submits this Motion as a directly affected stakeholder concerned with the\ntechnical, physical, and economic stability of the Western Interconnection. Intervenor's\ninterest rests on the grid-reliability consequences of introducing very large, concentrated\nloads onto the regional energy system — consequences squarely within the scope of the\nCommission's Large Load Interconnection Rulemaking and its review of associated\ninterstate pipeline interconnections. That interest places Intervenor within the community\nof persons affected by the outcome of these dockets.\n\n\n\nThe proposed 40,000-acre Stratos data center project requires a direct infrastructure\ninterconnection to the interstate Ruby Pipeline, under the jurisdiction of this Commission,\nand a major New Source Review (NSR) Air Permit, under the jurisdiction of the U.S.\nEnvironmental Protection Agency, to burn natural gas for an on-site 9-gigawatt power\ngeneration facility.\n\n1. Establishment of a Clear Federal Nexus and \"But For\" Causality\n\fThe Stratos project cannot proceed without multiple, indispensable federal actions:\n\n\n\nFERC Jurisdiction. The physical tap, delivery interconnection, and negotiated rate\nallocations on the interstate Ruby Pipeline (Docket No. RP26-358-000) require the direct\nregulatory approval of this Commission.\n\n\n\nEPA Jurisdiction. The carbon and particulate emissions from the proposed 9-GW gas plant\nrequire federal Title V and Clean Air Act authorizations.\n\n\n\nThe federal nexus here is direct and dispositive. But for this Commission's approval of the\nRuby Pipeline interconnection and associated rate authorizations in Docket No. RP26-358-\n000, the proposed 9-gigawatt gas generation facility has no fuel supply. Without fuel\ndelivery, the generation facility cannot be built or operated. And without that generation\nfacility, the 9-gigawatt load cannot be energized and the associated capacity and reliability\nimpacts on the Western Interconnection cannot occur.\n\n\n\nThe Commission's approval of the pipeline interconnection is therefore the indispensable\ncausal predicate for the entire chain of capacity and systemic impacts that follow. Federal\naction is not one factor among many; it is the gate through which every downstream effect\nmust pass. That is precisely why the Commission's review of these interconnections must\nbe rigorous, and must occur before — not after — the interconnection and rate\nauthorizations are granted.\n\n2. Grid Capacity and Reliability Divergence\n\nIntroducing a sudden 9-gigawatt footprint imposes large and potentially destabilizing\ncapacity demands on the Western Interconnection. A load of this magnitude, concentrated\nat a single site and dependent on dedicated on-site fossil generation, raises reliability\nquestions that the Commission should not resolve by default approval:\n\n\n\nCapacity strain. A 9-GW addition is not a marginal increment. It is a step change in\nregional demand that affects reserve margins, congestion, and the planning assumptions\nunderlying the interconnection.\n\fConcentration risk. A single 40,000-acre facility dependent on a single pipeline\ninterconnection and dedicated on-site generation concentrates reliability risk in a way that\ndistributed load does not.\n\n\n\nLock-in. Approving a fossil-fuel-dependent interconnection of this scale commits the\nregional system to a long-lived capacity and emissions profile that is difficult to reverse\nonce built.\n\n\n\nWithin the scope of the Large Load Interconnection Rulemaking (Docket No. RM26-4-000),\nthe Commission should expressly evaluate whether loads of this magnitude can be\nreduced, managed, or avoided through advanced load-management and grid-\nsynchronization approaches generally — including demand-side flexibility, load-shaping\nrequirements, ride-through and interconnection-conditioning standards, and comparable\nmeasures — rather than approving large fossil-fuel-reliant interconnections by default in a\nmanner that locks in irreversible systemic harm. Intervenor does not ask the Commission\nto adopt any particular proprietary methodology; Intervenor asks that the rulemaking\nrequire such alternatives to be evaluated as part of the record before large-load\ninterconnections of this scale are authorized.\n\n3. Environmental Implications Within the Commission's Review\n\nThe scale of this project also raises environmental concerns relevant to the federal\nauthorizations at issue:\n\n\n\nAir quality and climate footprint. Burning natural gas to generate 9 gigawatts of power\nthreatens a substantial increase in regional carbon and particulate emissions.\n\n\n\nHydrological strain. Converting vast acreage of open rangeland into an impervious\nindustrial campus permanently alters natural drainage basins, posing water-table and\necological threats to the nearby Great Salt Lake ecosystem — a system already the subject\nof significant regional environmental concern.\n\fThese effects are properly considered as part of the federal review triggered by the\ninterconnection and air authorizations, and weigh in favor of rigorous evaluation rather than\ndefault approval.\n\n4. MIDA Cannot Preempt Federal Statutory Obligations\n\nState-level actions taken by Utah's Military Installation Development Authority (MIDA) and\nthe Box Elder County Commission are the subject of active constitutional litigation in\nUtah's Third District Court (Alliance for a Better Utah v. MIDA). That litigation directly\nchallenges MIDA's authority to strip local citizens of their legislative and referendum rights.\n\n\n\nThe Commission must not treat any MIDA determination as a substitute for, or a waiver of,\nrigorous federal review. The principle is absolute: a state economic-development authority\nhas no power to contract away, delegate around, or immunize federal agencies from their\nindependent statutory obligations under federal environmental and energy law. Federal\nduties arise under federal law and bind federal agencies directly; they cannot be\nextinguished, narrowed, or satisfied by state or local zoning instruments, development\nagreements, or authority determinations of any kind.\n\n\n\nThat conclusion is only reinforced by the posture of the state proceedings. The MIDA\noverrides are contested, non-final, and the subject of pending constitutional challenge. A\nfederal agency may not rest a decision to forgo or curtail its review on a state authorization\nthat is legally disputed and not yet final. To defer to MIDA under these circumstances would\nbe to allow a contested, non-final state instrument to override a binding federal mandate.\n\n5. Formal Requests\n\nAs an affected stakeholder in the reliability of the Western Interconnection, Intervenor\nrespectfully requests that the Commission:\n\n\n\nGrant intervention. Grant Intervenor official party status in Docket Nos. RM26-4-000 and\nRP26-358-000.\n\n\n\nRequire evaluation of alternatives. Within the Large Load Interconnection Rulemaking,\nrequire that advanced load-management and grid-synchronization alternatives be\n\fevaluated as part of the record before large-scale, fossil-fuel-reliant pipeline\ninterconnections of this magnitude are authorized.\n\n\n\nConduct rigorous review. Decline to treat any state-level MIDA determination as a\nsubstitute for the Commission's independent federal review of the Ruby Pipeline\ninterconnection and associated authorizations.\n\n\n\nRespectfully submitted,\n\n\n\n/s/ L.M. Marlowe\n\n\n\nL.M. Marlowe lm.marlowe@pm.me\n\f"
+  }
+ ]
+}

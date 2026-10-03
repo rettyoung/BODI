@@ -1,0 +1,55 @@
+{
+ "id": "FERC:20260316-5144",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Supplemental Comments of Entergy Services, LLC, et al. re the Interconnection of Large Loads to the Interstate Transmission System under RM26-4.",
+ "filed": "2026-03-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260316-5144",
+ "entity": "Entergy Services, LLC; Entergy New Orleans, LLC; Entergy Louisiana, LLC; Entergy Mississippi, LLC; Entergy Arkansas, LLC; Entergy Texas, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "A64031FF-971F-C062-B611-9CF709500000",
+   "name": "Entergy Supplemental Comments, Docket No RM26-4.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-03-16"
+ },
+ "collected_at": "2026-10-03T21:06:57Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [
+  "AWS",
+  "Google",
+  "Meta"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Entergy Supplemental Comments, Docket No RM26-4.pdf",
+   "bytes": 15192,
+   "sha256": "c08eacf08a67b9e0ed550faf929f405b41f17ffeed4dfb894cd26b471b57666e",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "                           UNITED STATES OF AMERICA\n                                  BEFORE THE\n                    FEDERAL ENERGY REGULATORY COMMISSION\n\n                                                 )\n    Interconnection of Large Loads to the        )        Docket No. RM26-4-000\n    Interstate Transmission System               )\n\n                            SUPPLEMENTAL COMMENTS OF\n                         THE ENTERGY OPERATING COMPANIES\n\n         Entergy Services, LLC (“Entergy Services”), on behalf of the Entergy Operating\n\nCompanies,1 hereby submits these brief Supplemental Comments as the Commission considers\n\nthe Department of Energy’s advance notice of proposed rulemaking regarding the\n\ninterconnection of large loads. Entergy Services is submitting these Supplemental Comments to\n\nprovide new information that has arisen since it submitted Reply Comments on December 5,\n\n2025, namely, Entergy Corporation’s recent announcement that approximately 2.3 million\n\ncustomers in Arkansas, Louisiana, and Mississippi will receive approximately $5 billion in total\n\nsavings because of data center customer agreements in those states. Entergy Services will also\n\ndiscuss laws and guidance in Entergy Operating Company regions that are designed to attract\n\nand interconnect large loads in these regions, including actions taken since the time Entergy\n\nServices submitted its Reply Comments.\n\n         As Entergy Services explained in its Initial and Reply Comments, the existing retail\n\nregulatory frameworks in the Entergy Operating Companies’ service territories include efficient\n\nrules for attracting and interconnecting large loads, and which provide for significant input from\n\n\n\n\n1\n         The Entergy Operating Companies are Entergy Arkansas, LLC (“Entergy Arkansas”),\n         Entergy Louisiana, LLC (“Entergy Louisiana”), Entergy Mississippi, LLC (“Entergy\n         Mississippi”), Entergy New Orleans, LLC, and Entergy Texas, Inc.\n\fretail regulators.2 This framework includes a number of recent statutes and actions taken by\n\nretail regulators:\n\n               Most recently, on February 25, 2026, the Louisiana Public Service Commission\n                (“LPSC”) adopted non-binding guidelines for the interconnection of large loads\n                that are intended to ensure that the interests of all customers are protected and\n                balanced. The guidelines are a list of criteria the LPSC will apply to determine\n                whether the resources needed to serve a new large load addition are in the public\n                interest. They thus provide a roadmap for a utility to consider in structuring a\n                transaction with a large load customer.\n\n               In 2025, the Arkansas Legislature passed Act 373, known as the Generating\n                Arkansas Jobs Act. Act 373 is designed to help Entergy Arkansas and other\n                utilities attract large commercial customers. The statute allows Entergy Arkansas\n                to build the infrastructure needed to support new large load growth, while keeping\n                power affordable and reliable. This allows Entergy Arkansas to attract new large\n                customers that will pay their fair share and put downward pressure on rates.\n\n               In January 2024, the Mississippi Legislature passed SB 2001 during the Second\n                Extraordinary Session. That statute provides tax incentives and infrastructure\n                support for large-scale economic development projects.\n\n        Under this framework, starting in 2024 the Entergy Arkansas, Entergy Louisiana, and\n\nEntergy Mississippi regions saw the arrival of data center projects by five major technology\n\ncompanies:\n\n               AWS announced two campuses in Madison County, Mississippi, in January 2024.\n\n               AWS announced a third campus in Warren County, Mississippi, in November\n                2025.\n\n               Meta announced a campus in Rayville, Louisiana, in December 2024.\n\n               Avaio Digital announced a campus in Rankin County, Mississippi, in August\n                2025.\n\n               Avaio Digital announced a campus in Little Rock, Arkansas, in January 2026.\n\n               Google announced a campus in West Memphis, Arkansas, in October 2025.\n\n\n\n2\n        E.g., Entergy Initial Comments at 8; Entergy Reply Comments at 6.\n\n                                                 2\n\f                  Hut 8 announced a campus in West Feliciana Parish, Louisiana, in December\n                   2025.\n\nEntergy expects continued success in attracting and interconnecting large loads on a going\n\nforward basis.\n\n        The successful attraction of these loads will provide significant benefits to retail\n\ncustomers. On March 4, 2026, Entergy Corporation announced that approximately $5 billion in\n\ntotal savings will accrue to 2.3 million customers in Arkansas, Louisiana, and Mississippi\n\nbecause of data center customer agreements in those states. This includes more than $2 billion in\n\nsavings for Mississippi customers, $1.7 billion in savings for Arkansas customers, and $800\n\nmillion savings for Louisiana customers. Customer savings are projected over the next 20 years,\n\nand come after the regulatory approval or acknowledgement of the public service commissions\n\nin those states.\n\n        In light of the successes in Entergy Operating Company regions, evidence does not\n\nsupport Commission action in those regions. If the Commission nonetheless does take any\n\naction, it should recognize that the Entergy Operating Companies’ respective public service\n\ncommissions provided the collaboration, oversight, and direction needed to achieve the successes\n\ndiscussed above. It should take care to avoid any rule that could interfere with successful\n\nexisting state processes.\n\n\n\n\n                                                  3\n\f                            Respectfully submitted,\n\n                            /s/ Andrea Weinstein\nKaris Parnham               Andrea Weinstein\nEntergy Services, LLC       Glen Bernstein\n919 Congress Ave            Michael Chase\nSuite 701                   Jeffrey Phillips\nAustin, TX 78701            Entergy Services, LLC\n512-487-3986                101 Constitution Avenue, NW\nkparnha@entergy.com         Suite 200 East\n                            Washington, DC 20001\n                            202-530-7342\n                            aweinst@entergy.com\n\nMarch 16, 2026\n\n\n\n\n                        4\n\f"
+  }
+ ]
+}

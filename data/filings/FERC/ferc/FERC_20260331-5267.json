@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260331-5267",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,AD25-7,EL24-80,EL24-81,EL24-82,EL24-83,EL25-109,EL25-18,EL25-44,EL25-46,EL25-49,EL25-76,EL25-90,EL26-30,EL26-35,ER23-523,ER23-629,ER24-119,ER24-125,ER24-1317,ER24-2026,ER24-2042,ER24-2045,ER24-2046,ER24-2172,ER24-2336,ER24-2338,ER25-2297,ER25-3570,ER26-153",
+ "title": "American Clean Power Association submits request to update the service list under ER25-1802 et al. Part 3 of 3.",
+ "filed": "2026-03-31",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260331-5267",
+ "entity": "American Clean Power Association",
+ "fetch": [
+  {
+   "ferc_file": "BD18FC34-C00E-C566-AE6B-9D4512D00003",
+   "name": "ACP Substitution of Counsel 03.31.26.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-03-31"
+ },
+ "collected_at": "2026-10-03T20:59:51Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

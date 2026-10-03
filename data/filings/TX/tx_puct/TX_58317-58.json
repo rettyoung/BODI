@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-58",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "8/31/2026 | Kristina Carnevale | PC | Concerns about Data Centers planned and in-progress in North Richland Hills, TX",
+ "filed": "2026-08-31",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=58",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "58"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

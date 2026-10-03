@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260727-5241",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-63",
+ "title": "Motion to Dismiss and Answer of the Indicated PJM Transmission Owners to the complaint filed by the Maryland Office of People's Counsel v. PJM Interconnection, LLC under EL26-63.",
+ "filed": "2026-07-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260727-5241",
+ "entity": "Exelon Corporation on behalf of Atlantic City Electric Co.,; Duquesne Light Company; Public Service Electric and Gas Company; UGI Utilities Inc.; American Electric Power Service Corporation on behalf of App; Indicated PJM Transmission Owners; Dominion Energy Services, Inc. on behalf of Virginia Elec",
+ "fetch": [
+  {
+   "ferc_file": "7222B785-5E7D-CF93-B25F-9FAE31700001",
+   "name": "Indicated PJM TOs Motion to Dismiss and Answer (EL26-63).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "B0EEB6E1-3C81-CDF7-BADA-9FAE31700001",
+   "name": "Exh. PJMTO-001 (Russo Affidavit).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "ED8F2CD6-3A61-C11E-886B-9FAE31800000",
+   "name": "Exh. PJMTO-002 (Russo CV).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Response to Complaint"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-27"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

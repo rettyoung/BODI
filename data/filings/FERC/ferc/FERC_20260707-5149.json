@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260707-5149",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-76",
+ "title": "Answer and Motion for Leave to Answer of Grays Harbor Energy LLC, et al. to the 06/22/2026 Answer and Motion for Leave to Answer of the Independent Market Monitor for PJM under EC26-76.",
+ "filed": "2026-07-07",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260707-5149",
+ "entity": "Invenergy Nelson LLC; Hardee Power Partners Limited; Invenergy Cannon Falls LLC; Grays Harbor Energy LLC; Invenergy Nelson Expansion LLC; Lackawanna Energy Center LLC; Spindle Hill Energy LLC; Gray Wolf Power, LLC",
+ "fetch": [
+  {
+   "ferc_file": "57642E96-795C-C221-8BCD-9F3E4CF00001",
+   "name": "Reply to IMM Answer - Bridge.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-07"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5300",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-69",
+ "title": "(doc-less) Motion to Intervene of EDP Renewables North America LLC under EL26-69.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5300",
+ "entity": "EDP Renewables North America LLC",
+ "fetch": [
+  {
+   "ferc_file": "EA9A6EA8-CC01-C491-9CDA-9F489F000000",
+   "name": "1769779_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-69",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:03:00Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

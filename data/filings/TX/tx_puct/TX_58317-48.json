@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-48",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "8/26/2026 | Jonathan Hemmila | COM | Public Comment in Strong Opposition to Oncor Electric Delivery Infrastructure Expansion for the PowerHouse Circle T Data Center (Westlake, TX)",
+ "filed": "2026-08-26",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=48",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "48"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

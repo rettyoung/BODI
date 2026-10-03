@@ -1,0 +1,25 @@
+{
+ "id": "TX:59475-4663",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/15/2026 | Segment K13/K51 Landowners | RFI | Segment K13/K51 Landowners' First Set of Requests for Information to Oncor Electric Delivery Company LLC and LCRA Transmission Service Corporation",
+ "filed": "2026-05-15",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4663",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4663"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

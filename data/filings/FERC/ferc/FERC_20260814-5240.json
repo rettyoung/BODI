@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260814-5240",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3265",
+ "title": "Comments of the Public Service Commission of Wisconsin to American Transmission Company LLC's 07/24/2026 tariff filing under ER26-3265.",
+ "filed": "2026-08-14",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260814-5240",
+ "entity": "Public Service Commission - Wisconsin",
+ "fetch": [
+  {
+   "ferc_file": "B04B3EC2-08A3-C7B8-9D58-A00202A00000",
+   "name": "PSCW Comment and Attachments ER26-3265.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   },
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Government Agency Submittal"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-14"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

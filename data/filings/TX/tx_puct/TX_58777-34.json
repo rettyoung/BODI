@@ -1,0 +1,23 @@
+{
+ "id": "TX:58777-34",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "3/17/2026 | THOMAS L DARTE | LTRS | Letter to the Commission Concerning the ERCOT Reliability Standard Study",
+ "filed": "2026-03-17",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=34",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "34"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

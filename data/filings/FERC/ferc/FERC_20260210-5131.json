@@ -1,0 +1,44 @@
+{
+ "id": "FERC:20260210-5131",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AC25-56,AD24-11,AD24-6,AD24-7,CP25-534,EL24-80,EL25-109,EL25-49,EL25-80,EL25-90,ER10-1186,ER11-2731,ER11-3097,ER12-421,ER13-738,ER23-2977,ER24-1179,ER24-1377,ER24-1560,ER24-1638,ER24-2046,ER24-2553,ER24-2712,ER24-340,ER24-341,ER25-1408,ER25-1466,ER25-150,ER25-1674,ER25-1802,ER25-1886,ER25-2425,ER25-2454,ER25-2692,ER25-2783,ER25-3028,ER25-323,ER25-327,ER25-3425,ER25-507,ES24-61,PR25-18,RP23-917,RP2",
+ "title": "DTE Energy Supply, LLC et al. submit request to update the service list under RP24-971 et al.",
+ "filed": "2026-02-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260210-5131",
+ "entity": "DTE Electric Company; DTE Gas Company; DTE ENERGY RESOURCES, LLC; DTE Energy Supply, LLC",
+ "fetch": [
+  {
+   "ferc_file": "7B2BC1C0-E1B0-C8EA-BE5E-9C493E800001",
+   "name": "Notice of Substitution - Mark Madden & Christopher Payne (DTE Energy).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "5D6F946C-F84D-CE03-877C-9C493E800002",
+   "name": "Attachment A - Mark Madden.xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "3381E1A5-B164-C6C7-8FA0-9C493E800002",
+   "name": "Attachment B - Christopher Payne.xlsx",
+   "type": "XLSX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-02-10"
+ },
+ "collected_at": "2026-10-03T21:01:15Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,21 @@
+{
+ "id": "GA:225979",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "56002",
+ "title": "STF-PIA-18 PD Data Request Responses",
+ "filed": "2026-03-23",
+ "entity": "Georgia Power Company",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=225979",
+ "fetch": [
+  {
+   "ga_document": 225979
+  }
+ ],
+ "collected_at": "2026-10-03T21:18:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

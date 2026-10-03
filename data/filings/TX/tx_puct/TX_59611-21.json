@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-21",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "6/8/2026 | PUC LEGAL | PL | COMMISSION STAFF’S STATEMENT IN LIEU OF FINAL RECOMMENDATION",
+ "filed": "2026-06-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=21",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "21"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

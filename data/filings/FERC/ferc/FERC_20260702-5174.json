@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260702-5174",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67,EL26-68,EL26-69,EL26-70,EL26-72,ER24-529,ER25-624,ER26-2969,ER26-2970,ER26-2972,ER26-631",
+ "title": "Pacific Gas and Electric Company submits request to update the service list under ER26-2969 et al.",
+ "filed": "2026-07-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260702-5174",
+ "entity": "Pacific Gas and Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "81BFEF22-236E-C837-84EA-9F247C200000",
+   "name": "Request to Update Service Lists.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL26-69",
+  "issued": "2026-07-02"
+ },
+ "collected_at": "2026-10-03T21:03:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

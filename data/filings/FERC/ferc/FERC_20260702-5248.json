@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260702-5248",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3172",
+ "title": "Request for Approval of Incentive Rate Treatments of The Empire District Electric Company under ER26-3172.",
+ "filed": "2026-07-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260702-5248",
+ "entity": "The Empire District Electric Company; The Empire District Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "D4B6C11F-4CBE-C3D4-A74F-9F6B0E700000",
+   "name": "EDE Incentive Rate Filing - Transmittal Letter (7.2.2026).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "78990AE2-6D5F-C8E4-AF37-9F6B0E700000",
+   "name": "Exhibit No. EDE-100 - Nathan Morris Testimony.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "B012ADA0-B997-C940-B46E-9F6B0E700000",
+   "name": "Exhibit No. EDE-101.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "9C94CAB9-D9C8-C814-8BDE-9F6B0E800000",
+   "name": "Exhibit No. EDE-102.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Electric Rate Filing"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-07-02"
+ },
+ "collected_at": "2026-10-03T21:16:14Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

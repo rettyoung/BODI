@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6503",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/8/2026 | PUC OPDM | PL | VOID LETTER",
+ "filed": "2026-09-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6503",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6503"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

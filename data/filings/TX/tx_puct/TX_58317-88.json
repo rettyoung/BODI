@@ -1,0 +1,23 @@
+{
+ "id": "TX:58317-88",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "9/26/2026 | Clare Nelson | COM | The prudent course is not to build first and validate later. 1) Validate the load. 2) Establish the financial commitment. 3) Allocate the risk. 4) Then build what the evidence demonstrates Texas actually needs.",
+ "filed": "2026-09-26",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=88",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "88"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4668",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/15/2026 | MCCULLOCH COUNTY COMMISSIONER'S COURT | RFI | McCulloch County Commissioner Courts first set of requests for information to Oncor Electric Delivery Company LLC and LCRA TSC",
+ "filed": "2026-05-15",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4668",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4668"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

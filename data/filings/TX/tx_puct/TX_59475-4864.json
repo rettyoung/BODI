@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4864",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/21/2026 | Robert Lee Noland | PL | Notice of Intent to Appear at Hearing on Merits. Cause# 59475",
+ "filed": "2026-05-21",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4864",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4864"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

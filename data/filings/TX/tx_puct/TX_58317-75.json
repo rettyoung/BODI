@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-75",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "9/23/2026 | Jennifer Carrig Hood County Citizen | PC | Public Comment on SB 6 Implementation: Large-Load Verification, Transparency, Infrastructure Accountability, and Community Impacts",
+ "filed": "2026-09-23",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=75",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "75"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large-load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

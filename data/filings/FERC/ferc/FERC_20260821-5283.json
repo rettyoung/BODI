@@ -1,0 +1,37 @@
+{
+ "id": "FERC:20260821-5283",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3380",
+ "title": "Limited Protest of American Electric Power Service Corporation to PJM Interconnection, LLC’s proposed revisions to the Open Access Transmission Tariff and Reliability Assurance Agreement Among Load Serving Entities under ER26-3380.",
+ "filed": "2026-08-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260821-5283",
+ "entity": "American Electric Power Service Corporation",
+ "fetch": [
+  {
+   "ferc_file": "E8EB22F1-B011-C281-9380-A02670600000",
+   "name": "Final_AEP Protest_Docket No. ER26-3380.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-08-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

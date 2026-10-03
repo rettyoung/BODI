@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-190",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/17/2026 | Texas Public Policy Foundation | COM | Texas Public Policy Foundation's Comments on the Proposed New 16 TAC §25.194",
+ "filed": "2026-04-17",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=190",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "190"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

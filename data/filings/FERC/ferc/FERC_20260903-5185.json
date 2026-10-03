@@ -1,0 +1,42 @@
+{
+ "id": "FERC:20260903-5185",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3515",
+ "title": "Motion to Intervene and Comments of The Retail Energy Supply Association re PJM Interconnection, L.L.C.’s filing to establish Interim Resource Adequacy Service under ER26-3515.",
+ "filed": "2026-09-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260903-5185",
+ "entity": "The Retail Energy Supply Association",
+ "fetch": [
+  {
+   "ferc_file": "F02B4E92-5EAC-CE47-9EB5-A068D8100000",
+   "name": "MTI and Comments RESA ER26-3515 FINAL.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-03"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": []
+}

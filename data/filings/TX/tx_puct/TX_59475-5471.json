@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5471",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/2/2026 | Bruce Burnett | PL | Notice that I(Bruce Burnett) filed with SOAH ,Kiteworks my testimony and exhibits on June 2,2026. I was unable to file onEgnyte at that time as I had not received invitation by email from oncor. I emailed oncor support for an invitation email.",
+ "filed": "2026-06-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5471",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5471"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

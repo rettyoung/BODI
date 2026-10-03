@@ -1,0 +1,25 @@
+{
+ "id": "TX:58000-20",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "8/10/2026 | Sierra Club | COM | Comments from 350 Texans about PUCT proposed rule 58000",
+ "filed": "2026-08-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=20",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "20"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260804-3070",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-72",
+ "title": "Notice Establishing Answer Period re ISO New England Inc. et al. under EL26-72. ",
+ "filed": "2026-08-04",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260804-3070",
+ "entity": "SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "009CA09C-1442-CBB4-94F3-9FCDF8400000",
+   "name": "EL26-72-000 Answer.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "watched docket EL26-72",
+  "issued": "2026-08-04"
+ },
+ "collected_at": "2026-10-03T21:04:09Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

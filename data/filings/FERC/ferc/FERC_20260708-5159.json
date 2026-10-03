@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20260708-5159",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-71",
+ "title": "(doc-less) Motion to Intervene of State Water Contractors under EL26-71.",
+ "filed": "2026-07-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260708-5159",
+ "entity": "State Water Contractors; State Water Contractors; State Water Contractors; State Water Contractors",
+ "fetch": [
+  {
+   "ferc_file": "351BADB2-7A4F-CBD4-A935-9F433F700000",
+   "name": "1769227_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-71",
+  "issued": "2026-07-08"
+ },
+ "collected_at": "2026-10-03T21:04:06Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "large load"
+ ],
+ "party_hits": [
+  "AWS"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1769227_Interv.txt",
+   "bytes": 5224,
+   "sha256": "1c0fa1610a2cbdb8d01c9ffb85158fedcbc5486a39ce25c2978864ca288f34ba",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of State Water Contractors under EL26-71-000.\r\n\r\nSubmission Date:        7/8/2026 3:28:59 PM\r\n\r\nFiled Date:             7/8/2026 3:28:59 PM\r\n\r\nDockets\r\n-------\r\nEL26-71-000          206 Investigation\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nState Water Contractors                  jyoung@swc.org                           kml@dwgp.com                            \r\nState Water Contractors                  bkm@dwgp.com                                                                     \r\nState Water Contractors                  smn@dwgp.com                                                                     \r\nState Water Contractors                  sd@dwgp.com                                                                      \r\n\r\nBasis for Intervening:\r\nState Water Contractors \r\nDoc-less Motion to Intervene\r\nDocket No. EL26-71-000\r\n\r\nState Water Contractors (“SWC”) is a non-profit, mutual benefit corporation organized under the laws of the State of California.  SWC is comprised of 27 public agencies holding contracts with the State of California Department of Water Resources to purchase water delivered by the State Water Resources Development System, otherwise known as the State Water Project (“SWP”). Collectively, these public agencies supply water for drinking, commercial, industrial, and agricultural purposes to a population of more than 27 million and to over 750,000 acres of farmland and businesses in northern, central and southern California.  SWC was formed to further the common interest of its members with respect to the operation and administration of the SWP.  SWC represents the interests and views of their members regarding the SWP before state and federal legislative bodies and administrative agencies, including the Federal Energy Regulatory Commission. \r\n\r\nThe members of the SWC serve water to more than two-thirds of California's vast population.  The SWC members contract for water supplies with California Department of Water Resources, which operates and administers the SWP.  The SWP captures and stores run off in northern California and delivers the water to areas of need in northern, central and southern California.  Delivering this water requires significant electric energy resources for the pumping load.  Among other operating costs incurred by SWP, the SWC members pay all energy costs of the SWP, including costs of transmission and related service stemming from the California Independent System Operator Corporation (“CAISO”)-controlled grid.  \r\n\r\nIn this proceeding, the Commission has directed CAISO and its Participating Transmission Owners (“PTOs”) to submit (1) within 60 days, a filing to either justify why the current CAISO Tariff remains just and reasonable without provisions tailored to large and co-located loads, or to file tariff changes addressing the issues identified by the Commission; and (2) within 30 days, an informational report detailing how CAISO intends to ensure that adequate generation will be available to serve existing and new large loads.  Because SWC takes service under the CAISO Tariff, SWC has a vital interest in this proceeding.\r\nAccordingly, SWC has a vital interest in this proceeding and SWC’s participation in this case is necessary and appropriate to the administration of the Federal Power Act and will be in the public interest. SWC’s interest will be directly affected by this proceeding and will not be adequately represented by any party. Therefore, SWC requests the Commission grant its Motion to Intervene, pursuant to Rules 212 and 214 of FERC’s Rules of Practice and Procedure, 18 C.F.R. §§ 385.212 and 385.214 (2025), and make SWC a party to this proceeding for all purposes.\r\n\r\nThe persons to whom correspondence, pleadings, and other papers in relation to this proceeding should be addressed and the persons whose names are to be placed on the Commission’s official service list are designated as follows pursuant to Rule 203, 18 C.F.R. § 385.203 (2025):\r\n\r\nJonathan Young\r\nEnergy Manager\r\nState Water Contractors \r\n1121 L Street, Suite 1050 \r\nSacramento, CA 95814 \r\n(916) 447-7357 (tel) \r\njyoung@swc.org\r\n\r\nBhaveeta K. Mody \r\nDuncan, Weinberg, Genzer \r\n& Pembroke, P.C.\r\n1667 K Street, NW, Suite 700\r\nWashington, DC 20006\r\n(202) 467-6370 (tel)\r\n(202) 467-6379 (fax)\r\nbkm@dwgp.com \r\n\r\nSean M. Neal\r\nSylwia Dakowicz\r\nDuncan, Weinberg, Genzer \r\n& Pembroke, P.C\r\n915 L Street, Suite 1410\r\nSacramento, CA 95814\r\n(916) 713-0010 (tel)\r\nsmn@dwgp.com \r\nsd@dwgp.com\r\n\r\nSWC respectfully requests waiver of Rule 203(b)(3), 18 C.F.R. § 385.203(b)(3) (2025), to include more than two persons on the Commission’s official service list.\r\n\r\nSWC reserves the right to posit and address any issue that it or others may identify or raise herein that are developed before or after discovery or during the course of any hearing or technical or settlement conference that may be conducted in this proceeding."
+  }
+ ]
+}

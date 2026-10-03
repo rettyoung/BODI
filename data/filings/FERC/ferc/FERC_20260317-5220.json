@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260317-5220",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL24-115,EL25-44,EL25-49,EL26-34,EL26-42,ER19-13,ER19-1553,ER19-1816,ER20-2265,ER23-2309,ER24-1298,ER24-439,ER24-529,ER25-170,ER25-1721,ER25-2395,ER25-270,ER25-2707,ER25-3334,ER25-3349,ER25-3433,ER25-3473,ER25-550,ER25-597,ER25-624,ER26-1176,ER26-1185,ER26-1294,ER26-1416,ER26-182,ER26-183,ER26-206,ER26-207,ER26-208,ER26-231,ER26-302,ER26-318,ER26-336,ER26-378,ER26-415,ER26-416,ER26-418,ER26-520,ER",
+ "title": "California Department of Water Resources State Water Project submits request to update the service list under EL24-115 et al.",
+ "filed": "2026-03-17",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260317-5220",
+ "entity": "California Department of Water Resources State Water Project",
+ "fetch": [
+  {
+   "ferc_file": "257FED05-2500-C1B8-BBB6-9CFD7D600002",
+   "name": "DWR Request to Update Service List 3-17-26.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-03-17"
+ },
+ "collected_at": "2026-10-03T21:00:36Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

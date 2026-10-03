@@ -1,0 +1,23 @@
+{
+ "id": "TX:58482-31",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "7/30/2026 | RULES & PROJECTS | PRJ | Texas Register Acknowledgement of Receipt - Comment Deadline 09/04/2026",
+ "filed": "2026-07-30",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=31",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "31"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

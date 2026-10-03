@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5978",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/7/2026 | Hoestenbach Law Group | PL | Intervenors Wade and Cindy VanderBoom's 1st Amended Response to Applicants' Objection to Exhibits 1-5",
+ "filed": "2026-06-07",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5978",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5978"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

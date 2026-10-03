@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-62",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "9/13/2026 | Brad Bolton | PC | Audit Request- Project Raptor",
+ "filed": "2026-09-13",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=62",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "62"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

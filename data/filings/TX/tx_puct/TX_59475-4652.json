@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4652",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/15/2026 | Nelda Howton | RFI | Request for information from the applicants in Docket 59475, SOAH 473-26-16349",
+ "filed": "2026-05-15",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4652",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4652"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

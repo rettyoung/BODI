@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20260526-5028",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Comments of Dr. Elisa Nelson requesting that the responsible federal agencies formally invoke the Section 106 review process immediately re the Proposed Stratos Data Center and Associated 9-Gigawatt Energy Infrastructure under RM26-4.",
+ "filed": "2026-05-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260526-5028",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "9A6AF217-D26C-CFE0-92C8-9E643CF00000",
+   "name": "Section 106.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-05-23"
+ },
+ "collected_at": "2026-10-03T21:05:45Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Section 106.pdf",
+   "bytes": 88979,
+   "sha256": "128d7d15780d0f8e742c94142677f8998156d77e121d9b833d596fcf68ca8c3e",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "RE: Mandatory Invocation of Section 106 of the National Historic Preservation Act\n(NHPA) and Executive Order 13175 Regarding the Proposed Stratos Data Center and\nAssociated 9-Gigawatt Energy Infrastructure, Box Elder County, Utah.\n\nTo Whom It May Concern,\n\nI am writing as an affected 5th generation descendent of 7 of the founding families of Brigham\nCity, Utah, and stakeholder regarding the proposed Stratos AI data center project spanning\napproximately 40,000 contiguous acres in the Hansel Valley region of Box Elder County, Utah.\nThis massive project requires a direct infrastructure interconnection to the interstate Ruby\nPipeline (under the jurisdiction of the Federal Energy Regulatory Commission) and a major New\nSource Review (NSR) Air Permit (under the jurisdiction of the U.S. Environmental Protection\nAgency) to burn natural gas for a massive, on-site 9-gigawatt power generation facility.\n\nPursuant to 36 CFR Part 800 (Section 106 of the National Historic Preservation Act), I hereby\ndemand that the responsible federal agencies formally invoke the Section 106 review process\nimmediately. The agencies cannot legally approve any technical permits, air quality\nmodifications, or infrastructure taps for this project until this mandatory review is completed.\n\n1. Establishment of a Clear Federal Nexus The Stratos project constitutes a federal\nundertaking under 36 CFR § 800.16(y) due to multiple required federal actions:\n\nFERC Jurisdiction: The physical tap and delivery interconnect on the interstate Ruby Pipeline\nrequire federal regulatory approval.\n\nEPA Jurisdiction: The immense carbon and particulate emissions from the proposed 9-GW gas\nplant require federal Title V / Clean Air Act approvals.\n\nDepartment of Defense Land Nexus: The project boundaries intentionally encompass a parcel of\nthe Utah Test and Training Range, a federal military asset.\n\n2. Direct Threats to Culturally Significant, Historic, and Sacred Landscapes\nThe Area of Potential Effects (APE) for this 40,000-acre development sits within a highly\nsensitive regional landscape that is dense with irreplaceable historical, tribal, and archaeological\nassets. Physical grading, heavy construction, and long-term industrial operations directly\nthreaten:\nShoshone Ancestral Heritage: The footprint is culturally continuous with the sacred ancestral\nlands of the Northwestern Band of the Shoshone Nation and the broader Bear River Massacre\nlandscape, containing known and unmapped Native American artifacts.\n\nPioneer and Transit History: The project threatens the paths walked by early pioneers, including\nvisible, un-excavated pioneer ruts and historical western migration trails.\n\nHistorical Gravesites and Cemeteries: The boundary encompasses or sits immediately adjacent to\nthe historic Kelton Cemetery, the Kalpikoff Graves, and numerous vulnerable unmarked burial\nsites spanning centuries of local history.\n\fInstitutional and Wartime Landmarks: The region's history includes the legacy of the\nIntermountain Indian School and the Bushnell World War II-era hospital, sites of immense\nhistorical consequence to northern Utah that require rigorous protective buffers.\n\n3. Severe Environmental Implications\nBeyond cultural degradation, the scale of this project poses catastrophic environmental risks that\nrequire full federal environmental impact assessments:\n\nAir Quality and Climate Footprint: Burning natural gas to generate 9 gigawatts of power will\nresult in a projected 64% spike in Utah's entire carbon emissions, dumping massive particulate\npollution directly over regional communities.\n\nHydrological Strain and Stormwater Runoff: Transforming 40,000 acres of open rangeland into\nan impervious concrete campus of data facilities will permanently alter natural drainage basins.\nThis creates severe stormwater runoff, local stream erosion, and flooding risks.\n\nDisaster Exacerbation and Ecological Threat: The increased runoff and water table degradation\npose a direct threat to the fragile ecosystem of the nearby Great Salt Lake, potentially worsening\ntoxic dust storms and regional environmental crises already managed under federal emergency\nframeworks.\n\n4. Formal Requests and Demands\nAs a local stakeholder, I explicitly request the following actions from the reviewing federal\nagencies:\n\nImmediate Invocation: Formally trigger the Section 106 process and coordinate with the\nAdvisory Council on Historic Preservation (ACHP).Mandatory Tribal Consultation: Initiate\nformal, government-to-government consultation with the Northwestern Band of the Shoshone\nNation under Executive Order 13175, independent of any state-level MIDA proceedings.\n\nGranting of Consulting Party Status: I hereby request official Consulting Party Status under 36\nCFR § 800.2(c)(5) as an interested citizen, and demand to be included in all future\ncorrespondence, public hearings, and reviews regarding the definition of the Area of Potential\nEffects (APE). No federal agency may legally bypass these requirements by deferring to Utah's\nMilitary Installation Development Authority (MIDA), as state-level zoning overrides do not\nexempt federal agencies from their statutory obligations under the National Historic Preservation\nAct.\n\nIn kind,\n\n\nDr. Elisa Nelson\nenelsonutah@gmail.com\n\f"
+  }
+ ]
+}

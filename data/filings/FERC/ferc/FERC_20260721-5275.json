@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260721-5275",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-135",
+ "title": "Joint Application for Authorization Under Section 203 of the Federal Power Act of Twin Ridges LLC, et al. under EC26-135.",
+ "filed": "2026-07-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260721-5275",
+ "entity": "Laurel Run Interconnection LLC; Twin Ridges LLC",
+ "fetch": [
+  {
+   "ferc_file": "946D5859-3F9B-CA6B-A640-9F8EF3E00000",
+   "name": "Twin Ridges-Laurel Run 203 Application (7.21.2026 PUBLIC).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "256AA536-8A0E-CB63-AD2D-9F8EF3E00000",
+   "name": "Exhibit B.xlsx",
+   "type": "XLSX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Disposition of Facilities Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

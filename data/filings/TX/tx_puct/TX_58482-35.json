@@ -1,0 +1,23 @@
+{
+ "id": "TX:58482-35",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "8/31/2026 | Fedor Mikheev | Texas A&M | COM | Comments of Fedor Mikheev on proposed § 25.521 addressing payment structure, eligibility, procurement lead time, aggregation.",
+ "filed": "2026-08-31",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=35",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "35"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

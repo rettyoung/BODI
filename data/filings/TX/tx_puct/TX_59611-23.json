@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-23",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "6/17/2026 | PUC OPDM | PL | ORDER NO. 8- GRANTING INTERVENTIONS",
+ "filed": "2026-06-17",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=23",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "23"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-2",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "4/8/2026 | PUC OPDM | PL | ORDER NO. 1 - REQUIRING COMMENTS AND RECOMMENDATIONS ON THE APPLICATION, PROPOSED NOTICE, AND APPROPRIATE PROCESSING OF THE APPLICATION",
+ "filed": "2026-04-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=2",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "2"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

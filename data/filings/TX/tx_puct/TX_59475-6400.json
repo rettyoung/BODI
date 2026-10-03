@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6400",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/30/2026 | R. Baker | MISC | NOTICE OF PUBLIC HEARING BEFORE THE TEXAS SENATE B&C COMMITTEE; JULY 29, 2026; Assessing the State of the Texas Electric Grid & Managing the Impacts of 765-kv Transmission Lines on Private Property Rights",
+ "filed": "2026-06-30",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6400",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6400"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

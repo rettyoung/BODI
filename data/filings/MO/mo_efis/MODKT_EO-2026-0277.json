@@ -1,0 +1,23 @@
+{
+ "id": "MODKT:EO-2026-0277",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "keyword_hit",
+ "docket": "EO-2026-0277",
+ "title": "New Missouri PSC case EO-2026-0277",
+ "filed": null,
+ "url": "https://www.efis.psc.mo.gov/Case/Display/105464",
+ "fetch": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Case/Display/105464"
+  }
+ ],
+ "meta": {
+  "new_docket": true
+ },
+ "collected_at": "2026-10-03T20:55:57Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

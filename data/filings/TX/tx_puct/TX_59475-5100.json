@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5100",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/23/2026 | Brant Myers | PL | Motion to move from Protester to Intervenor Status in Docket 59475 as a member of the V8 Landowners Coalition.",
+ "filed": "2026-05-23",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5100",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5100"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

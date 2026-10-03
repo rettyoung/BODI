@@ -1,0 +1,23 @@
+{
+ "id": "TX:58000-56",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "8/11/2026 | TEXAS ENERGY BUYERS ALLIANCE | COM | TEBA's Comments on Project No. 58000 Proposal for Publication",
+ "filed": "2026-08-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=56",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "56"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

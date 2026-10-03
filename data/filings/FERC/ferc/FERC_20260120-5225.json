@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260120-5225",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-36",
+ "title": "(doc-less) Motion to Intervene of Citizens Utility Board of Wisconsin under EL26-36.",
+ "filed": "2026-01-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260120-5225",
+ "entity": "Citizens Utility Board of Wisconsin",
+ "fetch": [
+  {
+   "ferc_file": "6440846E-9375-CE3D-91A4-9BDD46000000",
+   "name": "1701298_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-36",
+  "issued": "2026-01-20"
+ },
+ "collected_at": "2026-10-03T21:11:55Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

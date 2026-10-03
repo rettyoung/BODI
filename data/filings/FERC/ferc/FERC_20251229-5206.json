@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251229-5206",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-10,EL25-20,EL25-49",
+ "title": "(doc-less) Motion to Intervene of American Clean Power Association under EL25-20 et al.",
+ "filed": "2025-12-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251229-5206",
+ "entity": "American Clean Power Association",
+ "fetch": [
+  {
+   "ferc_file": "898C05D4-DBFE-C16A-931A-9B6AE7600000",
+   "name": "1694732_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL25-20",
+  "issued": "2025-12-26"
+ },
+ "collected_at": "2026-10-03T21:08:48Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260113-5034",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL25-49",
+ "title": "(doc-less) Motion to Intervene of Pennsylvania Office of Consumer Advocate under EL25-49.",
+ "filed": "2026-01-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260113-5034",
+ "entity": "Pennsylvania Office of Consumer Advocate; Pennsylvania Office of Consumer Advocate",
+ "fetch": [
+  {
+   "ferc_file": "B25EB4CC-9D71-CF3C-A818-9BB7FA900000",
+   "name": "1698602_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-01-13"
+ },
+ "collected_at": "2026-10-03T21:01:42Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

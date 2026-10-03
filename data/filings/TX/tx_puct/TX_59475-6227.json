@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6227",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/19/2026 | Robert Freehill | BR | Initial Brief – Pro se Intervenor Robert Freehill",
+ "filed": "2026-06-19",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6227",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6227"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-28",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "7/9/2026 | PUC OPDM | PL | OUTGOING COMMISSION-SIGNED ORDER MAIL LOG",
+ "filed": "2026-07-09",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=28",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "28"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

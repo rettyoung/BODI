@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-44",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "1/21/2026 | CARD | PL | CARD's Protective Order Certifications",
+ "filed": "2026-01-21",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=44",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "44"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

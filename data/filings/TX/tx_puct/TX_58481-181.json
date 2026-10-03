@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-181",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/17/2026 | Crow Holdings | COM | INITIAL COMMENTS OF CROW HOLDINGS",
+ "filed": "2026-04-17",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=181",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "181"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

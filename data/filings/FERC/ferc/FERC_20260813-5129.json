@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260813-5129",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "(doc-less) Out-of-Time Motion to Intervene of Crusoe Technologies LLC under EL26-70.",
+ "filed": "2026-08-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260813-5129",
+ "entity": "Crusoe Technologies LLC",
+ "fetch": [
+  {
+   "ferc_file": "2260E288-900D-CA3C-A121-9FFCC5300000",
+   "name": "1784085_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-08-13"
+ },
+ "collected_at": "2026-10-03T21:03:21Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Crusoe"
+ ],
+ "documents": []
+}

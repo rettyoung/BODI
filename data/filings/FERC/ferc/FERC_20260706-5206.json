@@ -1,0 +1,38 @@
+{
+ "id": "FERC:20260706-5206",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-80,CP82-534",
+ "title": "Answer of Sierra Club et al. to Transwestern Pipeline Company, LLC’s Request for Expedited Action under CP26-80 et al.",
+ "filed": "2026-07-06",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260706-5206",
+ "entity": "Sierra Club; Center for Biological Diversity; Center for Biological Diversity; Food and Water Watch",
+ "fetch": [
+  {
+   "ferc_file": "28A5E00B-27D9-CBBB-A8B2-9F3939400000",
+   "name": "26 07 06 Answer to Request for Expedited Action.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-06"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

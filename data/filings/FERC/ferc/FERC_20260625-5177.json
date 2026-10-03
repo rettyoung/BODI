@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260625-5177",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Comment of GuardianSync in Docket(s)/Project(s) RM26-4-000\nSubmission Date: 6/25/2026\n",
+ "filed": "2026-06-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260625-5177",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "9A994112-1A93-CD36-9E50-9F0061000000",
+   "name": "148087.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-06-25"
+ },
+ "collected_at": "2026-10-03T21:04:59Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

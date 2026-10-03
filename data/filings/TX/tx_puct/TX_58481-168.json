@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-168",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/17/2026 | Advanced Power Alliance and American Clean Power Association | COM | Comments of the Advanced Power Alliance and American Clean Power Association",
+ "filed": "2026-04-17",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=168",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "168"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

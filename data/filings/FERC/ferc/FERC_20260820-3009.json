@@ -1,0 +1,38 @@
+{
+ "id": "FERC:20260820-3009",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "Notice of Denial of Rehearing by Operation of Law and Providing for Further Consideration re Midcontinent Independent System Operator, Inc. et al. under EL26-70.",
+ "filed": "2026-08-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260820-3009",
+ "entity": "SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "B6D5E0A6-152C-C9A5-9717-A01F11E00000",
+   "name": "EL26-70-001.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   },
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Delegated Order"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-08-20"
+ },
+ "collected_at": "2026-10-03T21:03:15Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4992",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/22/2026 | Pro Se Intervenor Robert Freehill | PL | Notice of Intent to Appear at Hearing of the Merits - 59475 - Segment F34 - Tract 2390",
+ "filed": "2026-05-22",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4992",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4992"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251112-5175",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-247",
+ "title": "(doc-less) Notice of Intervention of Missouri Public Service Commission under ER26-247.",
+ "filed": "2025-11-12",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251112-5175",
+ "entity": "Missouri Public Service Commission",
+ "fetch": [
+  {
+   "ferc_file": "8828F76B-051B-C2F0-9D46-9A7892400000",
+   "name": "1679908_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-247",
+  "issued": "2025-11-12"
+ },
+ "collected_at": "2026-10-03T21:11:07Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

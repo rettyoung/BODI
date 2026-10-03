@@ -1,0 +1,25 @@
+{
+ "id": "TX:59475-4859",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/21/2026 | E6 Link Intervenors | TEST | E6 LINK INTERVENORS RESPONSE TO ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICES CORPORATION’S OBJECTIONS TO, AND MOTION TO STRIKE, INTERVENOR TESTIMONY",
+ "filed": "2026-05-21",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4859",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4859"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260218-5097",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-1323",
+ "title": "(doc-less) Motion to Intervene of Constellation Energy Generation, LLC under ER26-1323.",
+ "filed": "2026-02-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260218-5097",
+ "entity": "Constellation Energy Generation, LLC; Constellation Energy Generation, LLC; Constellation Energy Generation, LLC",
+ "fetch": [
+  {
+   "ferc_file": "E12C8955-9437-C512-847C-9C7232F00000",
+   "name": "1715134_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-1323",
+  "issued": "2026-02-18"
+ },
+ "collected_at": "2026-10-03T21:09:42Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

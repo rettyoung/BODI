@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260220-5263",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49",
+ "title": "Motion for Leave to Answer and Answer of Constellation Energy Generation, LLC in response to the Independent Market Monitor for PJM’s Answer et al. under EL25-49 et al.",
+ "filed": "2026-02-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260220-5263",
+ "entity": "Constellation Energy Generation, LLC",
+ "fetch": [
+  {
+   "ferc_file": "968EF165-FBC7-C36F-A401-9C7CF3F00000",
+   "name": "Constellation Answer to IMM.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-02-20"
+ },
+ "collected_at": "2026-10-03T21:01:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

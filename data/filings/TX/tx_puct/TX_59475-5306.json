@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5306",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/1/2026 | James Gregory Waller, Marilyn Moseley Waller, Arthur Kyle Moseley, David Moseley | PL | Protective Order Certifications of Counsel for Intervenors James Gregory Waller, Marilyn Moseley Waller, Arthur Kyle Moseley, and David Moseley",
+ "filed": "2026-06-01",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5306",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5306"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

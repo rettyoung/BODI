@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4840",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/21/2026 | SOAH | PL | SOAH ORDER NO. 18 IN DOCKET NO. 59475- DENYING MOTION TO REQUEST RECONSIDERATION OF SOAH ORDER NO. 24 IN DOCKET NO. 59182 AND SOAH ORDER NO. 12 IN DOCKET NO. 59475",
+ "filed": "2026-05-21",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4840",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4840"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

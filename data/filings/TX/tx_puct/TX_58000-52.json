@@ -1,0 +1,25 @@
+{
+ "id": "TX:58000-52",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "8/11/2026 | TEXAS NEW MEXICO POWER COMPANY | COM | TNMP's Responses and Comments to PFP Update Wholesale and IOU Retail Transmission Cost Recovery - ERCOT Region",
+ "filed": "2026-08-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=52",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "52"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [],
+ "documents": []
+}

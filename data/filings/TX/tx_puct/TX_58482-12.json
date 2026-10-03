@@ -1,0 +1,27 @@
+{
+ "id": "TX:58482-12",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "4/8/2026 | Sierra Club | COM | Reply to questions on Large Loads Demand Management System",
+ "filed": "2026-04-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=12",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "12"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

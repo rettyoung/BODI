@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260605-3016",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "AD10-12",
+ "title": "Supplemental Notice of Technical Conference on Increasing Market and Planning Efficiency Through Improved Software under AD10-12. ",
+ "filed": "2026-06-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-3016",
+ "entity": "SECRETARY OF THE COMMISSION, FERC; SECRETARY OF THE COMMISSION, FERC",
+ "fetch": [
+  {
+   "ferc_file": "15F31313-30FE-C388-AB7F-9E981FA00000",
+   "name": "AD10-12-017 Tech Conf.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-06-05"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

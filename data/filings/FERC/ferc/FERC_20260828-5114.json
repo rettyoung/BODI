@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260828-5114",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-14680",
+ "title": "New England Hydropower Company, LLC submits Digital Project Archive Section No. 11 re the Natick Pond Project under P-14680.",
+ "filed": "2026-08-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260828-5114",
+ "entity": "New England Hydropower Company, LLC",
+ "fetch": [
+  {
+   "ferc_file": "961F194C-D16E-CBD1-8403-A048F4A00000",
+   "name": "2014-02-17_NTK_NEHC_ProposedTermsConditions.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "02310832-46EB-C56D-8F87-A048F4A00000",
+   "name": "2014-02-28_NTK_NEHC_InitialConsultationDocumentCommentsResponse.PDF",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "D6EA2670-2FAF-C9F5-B6A9-A048F4A00000",
+   "name": "2015-05-13_NTK_WaterStreetLand_LicenseExemptionApplicationP14505.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "0D5137C0-15BD-C690-972D-A048F4B00000",
+   "name": "2015-07-10_NTK_JAL_RevisedLicenseExemptionApplication.PDF",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-28"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

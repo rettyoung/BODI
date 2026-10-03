@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4620",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/14/2026 | Sen Flores, Rep Buckley, Cook, Cunningham, Darby, Harris Davila, Frank, Hayes, Hickland, Holt, Isaac, Leach, Leo Wilson, Luther, Money, Morgan, McLaughlin, Oliverson, Richardson, Shofner, Swanson, Troxclair, Vasut, Virdell, Wilson | PL | Legislative Correspondence",
+ "filed": "2026-05-14",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4620",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4620"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

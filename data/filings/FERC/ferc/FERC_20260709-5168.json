@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5168",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "(doc-less) Motion to Intervene of Grid Reform under EL26-67.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5168",
+ "entity": "Grid Reform",
+ "fetch": [
+  {
+   "ferc_file": "460492AD-4C92-C4E0-9FA6-9F4810F00000",
+   "name": "1769593_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:02:21Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

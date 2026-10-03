@@ -1,0 +1,24 @@
+{
+ "id": "LA:doc:180949",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Original Opposition to Alliance for Affordable Energy and Union of Concerned Scientists' Motion for Subpoena for the Production of Documents for Entergy Louisiana, LLC",
+ "filed": "2026-07-06",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=180949",
+ "fetch": [
+  {
+   "la_document": 180949
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:46:40Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

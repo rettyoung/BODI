@@ -1,0 +1,47 @@
+{
+ "id": "FERC:20260716-5170",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-555",
+ "title": "Tennessee Gas Pipeline Company, L.L.C. submits Prior Notice Request to construct, own, and operate approximately 2.35 miles of new 16-inch-diameter pipeline et al. in Washington County, Mississippi for the TGP Delta Blues Project under CP26-555.",
+ "filed": "2026-07-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260716-5170",
+ "entity": "Tennessee Gas Pipeline Company, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "178AC316-2097-CF9A-9BBA-9F6CA5F00000",
+   "name": "TGP Delta Blues Prior Notice Application (7-16-26) - Final.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "BB986B65-DD7A-C8FA-A02C-9F6CA5F00000",
+   "name": "Vol I_TGP Delta Blues_Public_20260716.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "D167EA81-62A0-C472-89AF-9F6CA6000000",
+   "name": "TGP Delta Blues - Form of Notice (7-16-26) - Final.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Certificate of Public Convenience and Necessity"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-16"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "certificate of public convenience",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

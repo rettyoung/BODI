@@ -1,0 +1,46 @@
+{
+ "id": "FERC:20260825-5043",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PF26-14",
+ "title": "Port Arthur LNG North, LLC submits Request to Initiate Pre-Filing Process for the Port Arthur LNG North Project under PF26-14.",
+ "filed": "2026-08-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260825-5043",
+ "entity": "Port Arthur LNG North, LLC",
+ "fetch": [
+  {
+   "ferc_file": "E2B25D01-E45F-C467-8C9D-A03969000000",
+   "name": "1.0 Port Arthur LNG North 3rd Party EDGE-PRIV.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "8799CBBA-9A30-C31F-945A-A03969000000",
+   "name": "2.0 Port Arthur LNG North 3rd Party EA Eng-PRIV.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "676D81F2-D76D-CC28-9C60-A03969000000",
+   "name": "3.0 Port Arthur LNG North 3rd Party AED-PRIV.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-25"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

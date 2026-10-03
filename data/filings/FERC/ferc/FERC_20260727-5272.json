@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260727-5272",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-63",
+ "title": "Comments of the Office of the Illinois Attorney General in response to the Maryland Office of People’s Counsel's 05/07/2026 Complaint under EL26-63.",
+ "filed": "2026-07-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260727-5272",
+ "entity": "Office of the Illinois Attorney General",
+ "fetch": [
+  {
+   "ferc_file": "DC9F8234-F4B7-CB33-9FAB-9FAE82A00000",
+   "name": "EL26-63-000 IL OAG Comments.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Government Agency Submittal"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-27"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:58317-84",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "9/24/2026 | Jason Davidson | COM | Concerns over Howard Blu Lacy transmission project, and call for alternative solutions.",
+ "filed": "2026-09-24",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=84",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "84"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

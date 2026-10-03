@@ -1,0 +1,38 @@
+{
+ "id": "FERC:20251208-5354",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49",
+ "title": "Answer of Indicated PJM Interconnection, L.L.C. Transmission Owners to the 11/21/2025 Motion for Expedited Action filed by Constellation Energy Generation, LLC under EL25-49 et. al.",
+ "filed": "2025-12-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251208-5354",
+ "entity": "Exelon Corporation; Old Dominion; City Of Cleveland, Ohio; FIRST ENERGY CORPORATION; AMP Transmission, LLC; City of Hamilton; Duquesne Light Company; East Kentucky Power Cooperative, Inc.; PPL Corporation; Wabash Valley Power Association",
+ "fetch": [
+  {
+   "ferc_file": "198AE412-0B08-C96D-9A4D-9AFFFAD00001",
+   "name": "TOs Joint Comments to Constellation's Motion 12-8-25.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   }
+  ],
+  "why": "watched docket AD24-11",
+  "issued": "2025-12-08"
+ },
+ "collected_at": "2026-10-03T21:08:42Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

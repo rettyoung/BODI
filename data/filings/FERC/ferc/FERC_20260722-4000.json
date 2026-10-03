@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260722-4000",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "AD10-12",
+ "title": "Prepared remarks of David Luke Oates on behalf of the Midcontinent Independent System Operator, Inc., at the 07/07/2026 Software Conference panel on Load Forecasting, under AD10-12.",
+ "filed": "2026-07-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260722-4000",
+ "entity": "MIDCONTINENT INDEPENDENT SYSTEM OPERATOR, INC.",
+ "fetch": [
+  {
+   "ferc_file": "80AA5DC2-C1FE-CF83-9C6D-9F8B5E000000",
+   "name": "AD10-12-017 MISO Techinical Conference Comments.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-07-22"
+ },
+ "collected_at": "2026-10-03T21:16:14Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

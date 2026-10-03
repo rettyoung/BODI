@@ -1,0 +1,25 @@
+{
+ "id": "TX:59475-5843",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/5/2026 | BAR H BAR RANCH AND NATURE PRESERVE | MISC | BAR H BAR RANCH AND NATURE PRESERVE’S RESPONSE TO ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICE CORPORATION’S FIRST REQUEST FOR INFORMATION",
+ "filed": "2026-06-05",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5843",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5843"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

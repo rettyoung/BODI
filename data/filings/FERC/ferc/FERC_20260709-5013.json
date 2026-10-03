@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260709-5013",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-69",
+ "title": "(doc-less) Motion to Intervene of Vistra Corp. under EL26-69",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5013",
+ "entity": "Vistra Corp.; Vistra Corp.; Vistra Corp.",
+ "fetch": [
+  {
+   "ferc_file": "914441D6-F1D0-C140-A2AD-9F46D2300000",
+   "name": "1769321_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-69",
+  "issued": "2026-07-08"
+ },
+ "collected_at": "2026-10-03T21:03:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Vistra"
+ ],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260630-5023",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-69",
+ "title": "(doc-less) Motion to Intervene of Base Power Company under EL26-69.",
+ "filed": "2026-06-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260630-5023",
+ "entity": "Base Power Company",
+ "fetch": [
+  {
+   "ferc_file": "4C741F75-2D73-CC62-9E9B-9F187F700000",
+   "name": "1766802_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-69",
+  "issued": "2026-06-29"
+ },
+ "collected_at": "2026-10-03T21:03:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

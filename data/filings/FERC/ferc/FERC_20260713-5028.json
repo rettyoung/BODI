@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20260713-5028",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Relentless Energy Systems LLC submits notice of errata to technical evidence and Xyce netlists related to the Geometric Phase Isolation, a Grid Enhancing Technology for hardware-level VAR-offloading at Point-of-Load under RM26-4.",
+ "filed": "2026-07-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260713-5028",
+ "entity": "Relentless Energy Systems LLC",
+ "fetch": [
+  {
+   "ferc_file": "1700C4CF-3796-C8D1-9EB8-9F5B9EA00000",
+   "name": "AE_Cover_Letter.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "6FF3BF6C-2D64-C1D0-A7BA-9F5B9EA00000",
+   "name": "GPI_Composite_Dashboard.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "0E3FC1D1-8F28-C8A7-AF49-9F5B9EA00000",
+   "name": "GPI_Master_Netlist.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "7DDC9DC0-2D92-C678-889B-9F5B9EB00000",
+   "name": "GPI_Master+10%_Netlist.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-07-12"
+ },
+ "collected_at": "2026-10-03T21:04:41Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

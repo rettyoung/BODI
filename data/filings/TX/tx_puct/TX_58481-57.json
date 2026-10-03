@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-57",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "12/19/2025 | ERCOT STEEL MILLS | COM | ERCOT Steel Mills' Comments on Staff's Discussion Draft for Project No. 58481",
+ "filed": "2025-12-19",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=57",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "57"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

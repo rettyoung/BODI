@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260903-5248",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3713",
+ "title": "Request for Prospective Tariff Waiver, et al. of Foundry Works Solar Energy LLC under ER26-3713.",
+ "filed": "2026-09-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260903-5248",
+ "entity": "Foundry Works Solar Energy LLC",
+ "fetch": [
+  {
+   "ferc_file": "FEB27196-E702-C019-95F3-A06CAEA00000",
+   "name": "2026 0903 Foundry Works FERC Waiver.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Waiver of Electric Regulation"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-03"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

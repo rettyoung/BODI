@@ -1,0 +1,27 @@
+{
+ "id": "TX:59142-12",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "2/6/2026 | TEXAS BLOCKCHAIN COUNCIL | PC | TBC ERCOT Large Load Interconnection Batch Study Comments",
+ "filed": "2026-02-06",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=12",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "12"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

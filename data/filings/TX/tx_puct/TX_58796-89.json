@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-89",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "8/10/2026 | CARD | PL | CARD's Protective Order Certifications (Georgis)",
+ "filed": "2026-08-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=89",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "89"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

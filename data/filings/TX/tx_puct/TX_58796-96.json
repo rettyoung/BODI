@@ -1,0 +1,25 @@
+{
+ "id": "TX:58796-96",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "8/13/2026 | TIEC | MISC | TEXAS INDUSTRIAL ENERGY CONSUMERS’ ERRATA TO THE DIRECT TESTIMONY OF SHAWN MCGLOTHLIN",
+ "filed": "2026-08-13",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=96",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "96"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Texas Industrial Energy Consumers"
+ ],
+ "documents": []
+}

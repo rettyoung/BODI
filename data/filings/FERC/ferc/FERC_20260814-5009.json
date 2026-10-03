@@ -1,0 +1,43 @@
+{
+ "id": "FERC:20260814-5009",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3515",
+ "title": "Comments of Neil P. Osnato d/b/a Persistence Analytics Group LLC concerning PJM Interconnection, L.L.C.'s 08/13/2026 proposal to establish Interim Resource Adequacy Service and a Large Load Registry under ER26-3515.",
+ "filed": "2026-08-14",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260814-5009",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "3BB09849-44EE-CC2A-9F9E-A00032200000",
+   "name": "PAG_Comments_Cover_Letter_ER26-3515-000.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "4B6343A7-29B9-CD9D-A798-A00032200000",
+   "name": "PAG_Comments_ER26-3515-000.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-08-13"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": []
+}

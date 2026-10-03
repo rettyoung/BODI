@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260727-5235",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-69",
+ "title": "(doc-less) Motion to Intervene Out-of-Time of Infrastructure Masons, Inc. under EL26-69.",
+ "filed": "2026-07-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260727-5235",
+ "entity": "Infrastructure Masons, Inc.; Infrastructure Masons, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "BA1A339C-A5BE-C992-9A82-9FAE26B00000",
+   "name": "1776948_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-69",
+  "issued": "2026-07-27"
+ },
+ "collected_at": "2026-10-03T21:02:57Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

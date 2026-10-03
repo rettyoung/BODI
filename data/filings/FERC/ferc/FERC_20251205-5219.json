@@ -1,0 +1,37 @@
+{
+ "id": "FERC:20251205-5219",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "RM26-4",
+ "title": "Reply Comments of the Independent Market Monitor for PJM under RM26-4.",
+ "filed": "2025-12-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251205-5219",
+ "entity": "Monitoring Analytics, LLC",
+ "fetch": [
+  {
+   "ferc_file": "B68C2DA3-E5A9-C96A-90E2-9AF018400000",
+   "name": "2025-12-05 IMM Reply Comments re ANOPR (RM26-4)-AS FILED.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2025-12-05"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

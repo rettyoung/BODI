@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-85",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "9/25/2026 | Kayleen Jones | COM | I do not want a data center in my neighborhood unless they have an independent power supply that does not use the grid. None of us want to lose the farmland and gain the noise or excessive bills from the proposed data centers.",
+ "filed": "2026-09-25",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=85",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "85"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

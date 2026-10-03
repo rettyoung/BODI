@@ -1,0 +1,26 @@
+{
+ "id": "TX:58317-52",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "8/30/2026 | Amber Monaghan | PC | Concerns over AI/crypto data centers using all of Texans resources and causing negative health outcomes being built too close to people's homes",
+ "filed": "2026-08-30",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=52",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "52"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "crypto",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

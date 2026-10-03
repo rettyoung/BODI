@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260701-5458",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3119,TS26-7",
+ "title": "Cheyenne Power Hub, LLC submits Request for Waiver, et al. under ER26-3119, et al.",
+ "filed": "2026-07-01",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260701-5458",
+ "entity": "Cheyenne Power Hub, LLC",
+ "fetch": [
+  {
+   "ferc_file": "F0554D3D-21B7-C724-A20F-9F4794500000",
+   "name": "Cheyenne Power Hub FERC Waiver Application.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Waiver of Electric Regulation"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-01"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

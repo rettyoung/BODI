@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6019",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/8/2026 | Tracy Snell Mack | TEST | ALJ's requested to refile testimony at beginning of 6/8 hearing",
+ "filed": "2026-06-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6019",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6019"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

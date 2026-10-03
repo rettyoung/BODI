@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20260911-5035",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-94",
+ "title": "Answer of the Long Island Power Authority in Opposition to Neptune Regional Transmission System, LLC's Motion to Dismiss and Answer to Complaint filed on 08/26/2026 under EL26-94.",
+ "filed": "2026-09-11",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260911-5035",
+ "entity": "Long Island Power Authority",
+ "fetch": [
+  {
+   "ferc_file": "E8AB8055-E9C0-CD03-A570-A09064300000",
+   "name": "LIPA Answer PRIV.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "2768A2B0-93B9-C21D-AE7F-A09064300000",
+   "name": "LIP-0005PRIV Stephenson Declaration FINAL.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "67D4C73B-8D8A-C6F2-8A16-A09064400000",
+   "name": "LIP-0006PRIV Iqbal Declaration FINAL_Redacted.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "D690C3BA-4E4C-C69E-9277-A09064400000",
+   "name": "LIP-0007PRIV NewGen Declaration.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-10"
+ },
+ "collected_at": "2026-10-03T21:16:44Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'E8AB8055-E9C0-CD03-A570-A09064300000', 'name': 'LIPA Answer PRIV.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '2768A2B0-93B9-C21D-AE7F-A09064300000', 'name': 'LIP-0005PRIV Stephenson Declaration FINAL.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '67D4C73B-8D8A-C6F2-8A16-A09064400000', 'name': 'LIP-0006PRIV Iqbal Declaration FINAL_Redacted.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'D690C3BA-4E4C-C69E-9277-A09064400000', 'name': 'LIP-0007PRIV NewGen Declaration.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

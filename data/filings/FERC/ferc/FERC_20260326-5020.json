@@ -1,0 +1,46 @@
+{
+ "id": "FERC:20260326-5020",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "2026 Form 715 of Oklahoma Gas and Electric Company.",
+ "filed": "2026-03-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260326-5020",
+ "entity": "Oklahoma Gas & Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "E5C4530A-6181-C302-AA35-9D2A1C000000",
+   "name": "Part 4 - SPP Planning Criteria v4.6.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "EFE9CBF8-9CAE-C165-879C-9D2A1C100000",
+   "name": "Part 6 - 2025-itp-report-v1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "E963E4D5-A605-C460-8CB0-9D2A1C100000",
+   "name": "Part 6 - 2025 itp assessment scope_v4.0.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 715 - Annual Transmission Planning and Evaluation Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-03-25"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260709-5221",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-72",
+ "title": "Motion to Intervene of Massachusetts Municipal Wholesale Electric Company et al. under EL26-72.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5221",
+ "entity": "Massachusetts Municipal Wholesale Electric Company; Connecticut Municipal Electric Energy Cooperative; New Hampshire Electric Cooperative, Inc.; Vermont Public Power Supply Authority",
+ "fetch": [
+  {
+   "ferc_file": "2EB2D844-8A8F-C692-A810-9F4841B00000",
+   "name": "EL26-72 Intervention.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-72",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:04:15Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [],
+ "documents": []
+}

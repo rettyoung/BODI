@@ -1,0 +1,23 @@
+{
+ "id": "TX:58777-26",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "3/2/2026 | CPS ENERGY | PRJ | CPS Energy's Response to Questions for Comment",
+ "filed": "2026-03-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=26",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "26"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

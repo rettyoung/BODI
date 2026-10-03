@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260903-5261",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER10-1427,ER18-1343,ER19-1074,ER19-1075,ER19-1819,ER19-1820,ER19-1821,ER19-2429,ER19-2728,ER19-529,ER21-2426,ER22-1010,ER22-2410,ER22-2411,ER22-2412,ER22-2413,ER23-1413,ER23-1414,ER23-1415,ER23-1416,ER23-2933,ER23-2934,ER23-726,ER23-727,ER24-672,ER24-673,ER25-3235,ER25-890,ER25-891",
+ "title": "Second Supplement to 06/30/2026, Triennial Market Power Analysis for Southeast Region of Broad River Solar, LLC, et al. under ER19-1819, et al.",
+ "filed": "2026-09-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260903-5261",
+ "entity": "Broad River Solar, LLC; Brookfield Energy Marketing Inc.; Brookfield Energy Marketing LP; Brookfield Renewable Energy Marketing US LLC; Brookfield Renewable Trading and Marketing LP; Brookfield Smoky Mountain Hydropower LP; Bulldog Solar, LLC; Cane Creek Solar, LLC; Carolina Solar Power, LLC; Catali",
+ "fetch": [
+  {
+   "ferc_file": "00D518A8-2299-CF9F-96E8-A08C32100003",
+   "name": "0. READ ME.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "BF60717F-6736-C724-9DA6-A08C32100003",
+   "name": "1. 714 Load Processing.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "0B057B72-39FD-C0FD-A647-A08C32100003",
+   "name": "10. Produce Company Load.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "B1F70E84-2C8C-C81B-8B85-A08C32200000",
+   "name": "11. Export Data to MBRA Spreadsheet.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-03"
+ },
+ "collected_at": "2026-10-03T21:17:09Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

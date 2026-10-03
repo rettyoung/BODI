@@ -1,0 +1,23 @@
+{
+ "id": "TX:58482-61",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "9/4/2026 | Voltus Inc | COM | Voltus Comments 58482 Round 2",
+ "filed": "2026-09-04",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=61",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "61"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

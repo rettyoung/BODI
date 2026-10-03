@@ -1,0 +1,39 @@
+{
+ "id": "FERC:20251121-5476",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "RM26-4",
+ "title": "Comments of Bloom Energy Corporation on the Advanced Notice of Proposed Rulemaking re the Interconnection of Large Loads to the Interstate Transmission System under RM26-4.",
+ "filed": "2025-11-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251121-5476",
+ "entity": "Bloom Energy Corporation",
+ "fetch": [
+  {
+   "ferc_file": "6E557F15-3949-C2CE-9096-9AA853D00000",
+   "name": "RM26-4_Bloom Energy Corp. Comments_11-21-25.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2025-11-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

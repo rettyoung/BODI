@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-140",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/13/2026 | CCNG, Inc. | COM | CCNG Comments and Redlines for the Proposal for Publication in Project 58481",
+ "filed": "2026-04-13",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=140",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "140"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260205-5144",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49",
+ "title": "Answer and Motion for Leave to Answer of the Independent Market Monitor for PJM to the Request for Clarification or, in the Alternative, Rehearing filed on 01/20/2026 by Constellation Energy Generation, LLC under EL25-49 et al.",
+ "filed": "2026-02-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260205-5144",
+ "entity": "Monitoring Analytics, LLC",
+ "fetch": [
+  {
+   "ferc_file": "DB2386F5-FBD9-CCEF-A619-9C2FBD000000",
+   "name": "2026-02-05 IMM Answer to CEG RFC-AS FILED.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-02-05"
+ },
+ "collected_at": "2026-10-03T21:01:18Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

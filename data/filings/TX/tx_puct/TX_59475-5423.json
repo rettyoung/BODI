@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5423",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/2/2026 | SWG BRIGGS I, L.P. | EX | SWG BRIGGS I, L.P.'S EXHIBITS",
+ "filed": "2026-06-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5423",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5423"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

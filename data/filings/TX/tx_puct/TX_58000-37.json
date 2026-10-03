@@ -1,0 +1,27 @@
+{
+ "id": "TX:58000-37",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "8/11/2026 | NRG ENERGY, INC. | COM | NRG Energy, Inc.'s Comments on Proposed Rules Regarding Transmission Cost Allocation",
+ "filed": "2026-08-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=37",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "37"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "cost allocation"
+ ],
+ "party_hits": [
+  "NRG"
+ ],
+ "documents": []
+}

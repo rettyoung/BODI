@@ -1,0 +1,43 @@
+{
+ "id": "FERC:20260602-5152",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-1088",
+ "title": "Motion for Leave and Answer of Constellation Energy Generation, LLC to Transmission Owner's Request for Rehearing or, in the Alternative, Clarification of the 04/16/2026 Order under ER26-1088.",
+ "filed": "2026-06-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260602-5152",
+ "entity": "Constellation Energy Generation, LLC",
+ "fetch": [
+  {
+   "ferc_file": "9A0A224E-68D6-C3F4-9C2D-9E8A04D00000",
+   "name": "Constellation Answer to TO Rehearing Request.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-06-02"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

@@ -1,0 +1,25 @@
+{
+ "id": "TX:58481-209",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "9/4/2026 | Bailey Wells | PC | Public Comment by residential ratepayer opposing local transmission cost socialization for the Louetta Road data center development under SB 6 rules.",
+ "filed": "2026-09-04",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=209",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "209"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

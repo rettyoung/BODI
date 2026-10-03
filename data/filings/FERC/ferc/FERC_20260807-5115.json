@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260807-5115",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-68",
+ "title": "(doc-less) Out-of-Time Motion to Intervene of Southwest Power Pool Regional State Committee under EL26-68.",
+ "filed": "2026-08-07",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260807-5115",
+ "entity": "Southwest Power Pool Regional State Committee",
+ "fetch": [
+  {
+   "ferc_file": "E02FA1D2-CB62-CAB1-9FDA-9FDCFF300000",
+   "name": "1782974_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-68",
+  "issued": "2026-08-07"
+ },
+ "collected_at": "2026-10-03T21:02:36Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

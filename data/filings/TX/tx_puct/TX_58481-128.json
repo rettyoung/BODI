@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-128",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "3/27/2026 | Cipher Digital | COM | Cipher Digital Comments on PUC Docket 58481",
+ "filed": "2026-03-27",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=128",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "128"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

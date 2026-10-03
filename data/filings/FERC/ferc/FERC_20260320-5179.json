@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260320-5179",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49",
+ "title": "Motion to Intervene Out-of-Time of National Railroad Passenger Corporation (\"Amtrak\") under EL25-49 et al.",
+ "filed": "2026-03-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260320-5179",
+ "entity": "National Railroad Passenger Corporation (\"Amtrak\")",
+ "fetch": [
+  {
+   "ferc_file": "510A5098-5EAE-C44E-AB52-9D0C2E200000",
+   "name": "Amtrak Motion to Intervene Out-of-Time - Docket No. ER25-49, et al..pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-03-20"
+ },
+ "collected_at": "2026-10-03T21:00:36Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

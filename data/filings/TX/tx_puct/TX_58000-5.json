@@ -1,0 +1,23 @@
+{
+ "id": "TX:58000-5",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "6/30/2026 | CHAIRMAN DREW DARBY | LTRS | LETTER REGARDING EVALUATION OF TRANSMISSION COST RECOVERY",
+ "filed": "2026-06-30",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=5",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "5"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

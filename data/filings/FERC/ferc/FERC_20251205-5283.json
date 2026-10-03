@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20251205-5283",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Reply Comment of RWE Clean Energy, LLC re the Advanced Notice of Proposed Rulemaking on Interconnection of Large Loads to the Interstate Transmission System under RM26-4.",
+ "filed": "2025-12-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251205-5283",
+ "entity": "RWE Clean Energy, LLC",
+ "fetch": [
+  {
+   "ferc_file": "87F9B0C1-BC4F-CB46-9D2A-9AF062600000",
+   "name": "RM26-4 ANOPR Reply Comments of RWECE 12.5.2025.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2025-12-05"
+ },
+ "collected_at": "2026-10-03T21:08:09Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "network upgrade"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "RM26-4 ANOPR Reply Comments of RWECE 12.5.2025.pdf",
+   "bytes": 436359,
+   "sha256": "098ebd8e9c6b1a2b35d05eab521c0c506bdd906575acd8da1f26b317fc36706a",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                          UNITED STATES OF AMERICA\n                                 BEFORE THE\n                    FEDERAL ENERGY REGULATORY COMMISSION\n\nInterconnection of Large Loads to the                 )              Docket No. RM26-4-000\nInterstate Transmission System                        )\n\n                                  REPLY COMMENTS OF\n                                 RWE CLEAN ENERGY, LLC\n\n         On October 23, the Department of Energy (“DOE”) issued a directive for the\n\nCommission to initiate an Advance Notice of Proposed Rulemaking focused on reforms to the\n\ninterconnection processes for large loads interconnecting to the interstate transmission system\n\n(“ANOPR”).1 Pursuant to the Federal Energy Regulatory Commission’s (“FERC” or the\n\n“Commission”) October 27, 2025 Notice Inviting Comments regarding the ANOPR (“October\n\n27 Notice”) and November 7, 2025 Notice Granting Extension of Time in the above-referenced\n\nproceeding, RWE Clean Energy, LLC (“RWECE”) respectfully submits these Reply Comments.\n\n    I.      REPLY COMMENTS\n\n         The ANOPR resulted in approximately 200 intervenors, of which many submitted\n\ncomments to the fourteen (14) principles for reform. 2 RWECE provides responses to comments\n\nsubmitted by American Electric Power Service Corporation (“AEP”) that focused on the “entry-\n\nfee” concept.3\n\n         A. RWECE Supports AEP’s Entry Fee Concept\n\n         American Electric Power Service Corporation (“AEP”) comments suggested the\n\nCommission should adopt an “entry fee” model where generation developers pay a standardized\n\n\n\n1\n  Ensuring the Timely and Orderly Interconnection of Large Loads, Advanced Notice of Proposed\nRulemaking (ANOPR) (October 23, 2025).\n2\n  ANOPR at Section V.\n3\n  RWECE’s comments are not exclusive and should not be read to imply agreement with or adoption of\nevery ANOPR principle or intervenor comments that are not the subject of these comments.\n                                                 1\n\for formulaic fee or charge to cover their interconnection costs. 4 AEP proposes that this fee\n\nshould be known to the developer prior to submission of its interconnection request. As AEP\n\ndescribes, because generation project developers will have certainty regarding cost responsibility\n\nupfront, this “entry fee” model reduces network upgrade cost uncertainty, which can impede the\n\ninterconnection process and inhibit the timely interconnection of new generation. AEP’s\n\ncomments detail how the “entry fee” could be determined, how a fee could be structured, and\n\nhow it could be paid by the interconnecting party.\n\n        RWECE supports such an “entry fee” concept for its potential to provide certainty to\n\nproject developers, both load and hybrid facilities (“LAHF”) and generation, and avoid projects\n\nwhich seek to identify low-cost interconnection locations but are rarely constructed, as AEP\n\ndescribes.5 Implementing new interconnection mechanisms quickly is important as well. For\n\nexample, the “entry fee” proposal that has been developed by Southwest Power Pool, Inc.\n\n(“SPP”) took several years to be developed and filed at FERC, and is currently pending FERC\n\napproval.6 Initial development of the concept and ultimate proposal began at SPP through\n\ncreation of an SPP Consolidated Planning Process Task Force in 2021. 7 The SPP proposal will\n\nlikely not be ruled upon by FERC until 2026.\n\n        RWECE believes that solutions which require more than 4 years to complete do not\n\naddress the issues identified in the ANOPR. For the immediate need, RWECE believes that\n\n\n\n\n4\n  Comments of American Electric Power Service Corporation at pp. 10-15, Docket No. RM26-4-000\n(Nov. 21, 2025) (“AEP comments”).\n5\n  AEP initial comments at pp. 11-12 (describing iterative study processes and speculative interconnection\nrequest practices that are currently common and which cause cost uncertainty for developers).\n6\n  Sw. Power Pool, Inc., Submission of Revisions to the SPP Open Access Transmission Tariff to\nImplement the Consolidated Planning Process, Docket No. ER26-414-000 (filed Nov. 3, 2025).\n7\n  SPP Consolidated Planning Process Task Force, Organization Group Scope Statement, Southwest Power\nPool, Inc. (Oct. 4, 2021), available at:\nhttps://www.spp.org/documents/66117/cpptf%20scope%20final%2011292021.pdf.\n                                                    2\n\fsolutions, including the crediting mechanism methodology identified in Principle #8 of the\n\nANOPR,8 and which RWECE supported in its initial comments, 9 can and should be implemented\n\nmuch faster than four years to meet the objective of this acceleration initiative. For the longer\n\nterm, the crediting mechanism should be replaced with an “entry fee” concept, which provides\n\ncertainty and reduced risks for LAHF and generation participants.\n\n      II.      CONCLUSION\n\n            RWECE respectfully requests that the Commission take these reply comments into\n\naccount in its consideration of the Advanced Notice of Proposed Rulemaking in this proceeding.\n\n\n\n                                               Respectfully submitted,\n\n                                               /s/ Tom Burke\n                                               RWE Clean Energy, LLC\n                                               Sr. Dir., Regulatory Affairs\n                                               RWE Clean Energy, LLC\n                                               1401 East 6th Street, Suite 400\n                                               Austin, TX 787012\n                                               Thomas.Burke@rwe.com\n\n\nDated: December 5, 2025\n\n\n\n\n8\n    ANOPR at P 25.\n9\n    Comments of RWE Clean Energy, LLC at pp. 6-9, Docket No. RM26-4-000 (Nov. 21, 2025).\n                                                  3\n\f"
+  }
+ ]
+}

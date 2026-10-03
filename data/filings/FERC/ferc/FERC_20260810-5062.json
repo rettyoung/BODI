@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260810-5062",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "(doc-less) Motion to Intervene of Energy LLC under EL26-67.",
+ "filed": "2026-08-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260810-5062",
+ "entity": "Energy LLC",
+ "fetch": [
+  {
+   "ferc_file": "35CDF2AE-07E5-C870-9EEE-9FEC65100000",
+   "name": "1783264_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-08-10"
+ },
+ "collected_at": "2026-10-03T21:01:51Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

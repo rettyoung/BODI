@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5343",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/1/2026 | Philip Louis Farmer | EX | Testimony of Witness List and Exhibit List on behalf of Philip Louis Farmer, TTEE for testimonies on Hearings of Merit beginning June 5, 2026 - June 12, 2026",
+ "filed": "2026-06-01",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5343",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5343"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

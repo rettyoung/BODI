@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4692",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/15/2026 | 4k Land and Cattle Company | RFI | 4K Land and Cattle RFI to Applicants",
+ "filed": "2026-05-15",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4692",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4692"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

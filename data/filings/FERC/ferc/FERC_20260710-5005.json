@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260710-5005",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-72",
+ "title": "(doc-less) Out-of-Time Motion to Intervene of Electricity Customer Alliance under EL26-72.",
+ "filed": "2026-07-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260710-5005",
+ "entity": "Electricity Customer Alliance",
+ "fetch": [
+  {
+   "ferc_file": "10507595-726B-CF35-909C-9F4C20E00000",
+   "name": "1769868_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-72",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:04:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FERC:20260820-3010",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-71",
+ "title": "Notice of Denial of Rehearing by Operation of Law and Providing for Further Consideration re California Independent System Operator Corporation et al. under EL26-71.",
+ "filed": "2026-08-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260820-3010",
+ "entity": "SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "62E7B3A3-9BF0-C918-97E6-A01F1CA00000",
+   "name": "EL26-71-001.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   },
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Delegated Order"
+   }
+  ],
+  "why": "watched docket EL26-71",
+  "issued": "2026-08-20"
+ },
+ "collected_at": "2026-10-03T21:03:39Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

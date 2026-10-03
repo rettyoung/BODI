@@ -1,0 +1,38 @@
+{
+ "id": "FERC:20251209-5031",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-247",
+ "title": "Motion for Leave to Answer and Answer of Eolian, L.P. to Southwest Power Pool, Inc.’s 12/04/2025 Answer under ER26-247.",
+ "filed": "2025-12-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251209-5031",
+ "entity": "Eolian, L.P.",
+ "fetch": [
+  {
+   "ferc_file": "9EFCA890-2BAC-C91D-9F8C-9B0369B00000",
+   "name": "Answer of Eolian L.P.; Docket No. ER26-247-000.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket ER26-247",
+  "issued": "2025-12-09"
+ },
+ "collected_at": "2026-10-03T21:10:40Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-49",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "8/19/2026 | PowerHouse CloudPeak Venture Alpha LLC and PowerHouse CloudPeak Venture C LLC | LTRS | Request for Commission Action on Batch Zero Eligibility (CloudPeak BZ-259 & BZ-180)",
+ "filed": "2026-08-19",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=49",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "49"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

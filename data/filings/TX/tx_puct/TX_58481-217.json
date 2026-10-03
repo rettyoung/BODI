@@ -1,0 +1,27 @@
+{
+ "id": "TX:58481-217",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "9/14/2026 | PROJECT NO. 58481 | PC | PUBLIC COMMENT – PROJECT NO. 58481 Rulemaking to Implement Large Load Interconnection Standards Under PURA §37.0561",
+ "filed": "2026-09-14",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=217",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "217"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

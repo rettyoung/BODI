@@ -1,0 +1,24 @@
+{
+ "id": "LA:doc:181479",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Ruling on Motion to Quash Subpoena Issued by Chief ALJ Melanie Verzwyvelt",
+ "filed": "2026-08-04",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=181479",
+ "fetch": [
+  {
+   "la_document": 181479
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:48:17Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

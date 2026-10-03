@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-93",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "1/16/2026 | CPS ENERGY | COM | CPS Energy's Response to Questions for Comment",
+ "filed": "2026-01-16",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=93",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "93"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

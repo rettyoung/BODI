@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-42",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "8/23/2026 | NANCY WHITE | PC | Testimony Before the Texas House Committee Regarding Data Centers as Critical Infrastructure and Enforcement of the Lone Star Infrastructure Protection Act",
+ "filed": "2026-08-23",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=42",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "42"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

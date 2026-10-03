@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251110-5128",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-247",
+ "title": "(doc-less) Motion to Intervene of Triple Oak Power under ER26-247.",
+ "filed": "2025-11-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251110-5128",
+ "entity": "Triple Oak Power",
+ "fetch": [
+  {
+   "ferc_file": "548AAEEF-1AE3-CAD6-9E6E-9A6F55A00000",
+   "name": "1679507_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-247",
+  "issued": "2025-11-10"
+ },
+ "collected_at": "2026-10-03T21:11:07Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

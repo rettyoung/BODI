@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260717-5181",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-1971",
+ "title": "Idaho Power Company submits Supporting Design Report Revision 4 and responses to FERC’s 07/10/2025 letter re the Oxbow Service Spillway Rehabilitation Project at the Oxbow Development of the Hells Canyon Complex under P-1971.",
+ "filed": "2026-07-17",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260717-5181",
+ "entity": "Idaho Power Company",
+ "fetch": [
+  {
+   "ferc_file": "B2BE05FB-E274-C01A-B891-9F71AD200000",
+   "name": "2026 07 17 OBPR SS Rehab Redesign SDR4 Submittal Package.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Dam Safety Compliance Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-17"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

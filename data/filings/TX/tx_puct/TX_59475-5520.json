@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5520",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/3/2026 | HENDERCO LLC | EX | Exhibit Testimony in protest of L4 and M22",
+ "filed": "2026-06-03",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5520",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5520"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

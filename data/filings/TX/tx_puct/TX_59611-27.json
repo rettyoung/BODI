@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-27",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "7/9/2026 | PUC OPDM | PL | PRELIMINARY ORDER",
+ "filed": "2026-07-09",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=27",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "27"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

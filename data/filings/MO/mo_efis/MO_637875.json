@@ -1,0 +1,20 @@
+{
+ "id": "MO:637875",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "13",
+ "filed": "2026-02-06",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/637875",
+ "fetch": [
+  {
+   "mo_filing": "637875"
+  }
+ ],
+ "collected_at": "2026-10-03T20:55:57Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

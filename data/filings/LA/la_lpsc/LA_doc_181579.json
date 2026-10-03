@@ -1,0 +1,26 @@
+{
+ "id": "LA:doc:181579",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Fax-filed Motion for Immediate Review of Interlocutory Ruling and Memorandum of Law in Support for Meta Platforms, Inc.",
+ "filed": "2026-08-11",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=181579",
+ "fetch": [
+  {
+   "la_document": 181579
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:48:17Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Meta"
+ ],
+ "documents": []
+}

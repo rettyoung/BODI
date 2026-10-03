@@ -1,0 +1,24 @@
+{
+ "id": "LA:doc:181021",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Ruling on Motion for Subpoena for the Production of Documents Issued by Chief ALJ Melanie Verzwyvelt",
+ "filed": "2026-07-10",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=181021",
+ "fetch": [
+  {
+   "la_document": 181021
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:46:58Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

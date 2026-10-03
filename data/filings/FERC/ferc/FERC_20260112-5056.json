@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260112-5056",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL25-49",
+ "title": "(doc-less) Motion to Intervene of Vitol Inc., et al. under EL25-49.",
+ "filed": "2026-01-12",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260112-5056",
+ "entity": "VC Renewables LLC; Vitol Inc.",
+ "fetch": [
+  {
+   "ferc_file": "4C3DC940-BE69-C681-AA63-9BB301500000",
+   "name": "1698253_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-01-12"
+ },
+ "collected_at": "2026-10-03T21:01:42Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

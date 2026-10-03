@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-21",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "7/28/2026 | CITY OF EL PASO | COM | Informal Comments of Renard U. Johnson, Mayor of the City of El Paso, in Response to Governor Greg Abbott's June 10, 2026 Data Center Directive",
+ "filed": "2026-07-28",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=21",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "21"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

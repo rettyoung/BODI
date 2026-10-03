@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-90",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "9/27/2026 | Sandy | COM | DataCenter concerns w/ sound/light pollution, low/highFREQvibration, short/long term financials,- can be compared to areas w/long term established Data Center for comparison/understanding, property values, health risk exposure. NOT paying for others MW.",
+ "filed": "2026-09-27",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=90",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "90"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

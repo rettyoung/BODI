@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6425",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "8/2/2026 | Hank Mulvihill | PC | Texas lawmakers want to halt plan to build high-voltage transmission lines across the state July 31, 2026",
+ "filed": "2026-08-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6425",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6425"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

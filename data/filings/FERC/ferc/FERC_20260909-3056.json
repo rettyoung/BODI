@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260909-3056",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "AD26-8",
+ "title": "Second Supplemental Notice of Reliability Technical Conference re Reliability Technical Conference under AD26-8. ",
+ "filed": "2026-09-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260909-3056",
+ "entity": "SECRETARY OF THE COMMISSION, FERC; SECRETARY OF THE COMMISSION, FERC",
+ "fetch": [
+  {
+   "ferc_file": "EE30FD7F-DC03-C745-951B-A087CA200000",
+   "name": "AD26-8-000 Second Supp Notice -Reliability Tech Conf.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-09"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

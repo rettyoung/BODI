@@ -1,0 +1,29 @@
+{
+ "id": "TX:58481-91",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "1/16/2026 | Sierra Club | COM | Further comments from Sierra Club on Large Load Interconnection Standards",
+ "filed": "2026-01-16",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=91",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "91"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

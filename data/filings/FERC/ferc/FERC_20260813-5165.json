@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260813-5165",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-2562",
+ "title": "Duke Energy Carolinas, LLC submits tariff filing per 35.17(b): Response to Deficiency Letter (PMPA NITSA) to be effective 8/1/2026 under ER26-2562 Filing Type : 180",
+ "filed": "2026-08-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260813-5165",
+ "entity": "Duke Energy Carolinas, LLC",
+ "fetch": [
+  {
+   "ferc_file": "4D6F1024-5BE9-CB74-91CD-A0103A800000",
+   "name": "DEC-PMPA NITSA -- Deficiency Response (FINAL 8-13-26).docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "71512969-C445-C198-996A-A0103A800000",
+   "name": "SA-355 DEC-PMPA NITSA (8-1-26) (clean).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "4DDE40ED-739B-CB9E-A1F5-A0103A800000",
+   "name": "SA-355 DEC-PMPA NITSA (marked).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "56789C48-8DAC-C1C5-AA06-A0103A800000",
+   "name": "FERC GENERATED TARIFF FILING.PDF",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-13"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

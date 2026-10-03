@@ -1,0 +1,21 @@
+{
+ "id": "GA:226977",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "55378",
+ "title": "Data Request from Commission Staff (STF-PIA-21)",
+ "filed": "2026-06-23",
+ "entity": "Staff",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=226977",
+ "fetch": [
+  {
+   "ga_document": 226977
+  }
+ ],
+ "collected_at": "2026-10-03T21:18:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

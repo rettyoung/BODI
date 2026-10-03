@@ -1,0 +1,25 @@
+{
+ "id": "TX:58482-17",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "4/8/2026 | TEXAS ADVANCED ENERGY BUSINESS ALLIANCE | COM | TAEBA Initial Question Responses Regarding the Large Load Demand Management Service",
+ "filed": "2026-04-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=17",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "17"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

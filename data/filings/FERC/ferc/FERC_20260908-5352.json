@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260908-5352",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-550",
+ "title": "Duke Energy Carolinas, LLC submits Request for Rehearing of the 08/07/2026 Order under ER26-550.",
+ "filed": "2026-09-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260908-5352",
+ "entity": "Duke Energy Carolinas, LLC; Duke Energy Carolinas, LLC; Duke Energy Carolinas, LLC; Duke Energy Carolinas, LLC",
+ "fetch": [
+  {
+   "ferc_file": "7640441B-CFDA-CCE5-AA86-A0862EF00000",
+   "name": "FINAL TO FILE - ER26-550 - DEC Request for Rehearing to Aug 7.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Request for Rehearing or Appeal"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-08"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

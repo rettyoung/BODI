@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260121-5049",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "CP24-519,CP25-208,CP25-94,CP26-2,EL24-149,EL24-35,EL24-53,EL24-61,EL24-80,EL24-85,EL25-109,EL25-18,EL25-44,EL25-49,EL25-52,EL25-90,EL26-26,RP24-1090,RP24-1109,RP24-114,RP24-33,RP24-580,RP24-584,RP24-588,RP24-846,RP25-1163,RP25-1164,RP25-1181,RP25-1185,RP25-49,RP25-734,RP25-758,RP25-759,RP25-858,RP25-964",
+ "title": "Ameren Services Company et al. submit notice of substitution of counsel and request to update the service lists under EL24-149 et al.",
+ "filed": "2026-01-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260121-5049",
+ "entity": "Ameren Illinois Company; Union Electric Company d/b/a Ameren Missouri; Ameren Services Company; Ameren Transmission Company of Illinois",
+ "fetch": [
+  {
+   "ferc_file": "F199807A-4567-CE47-A961-9BE162300001",
+   "name": "Ameren Notice of Substitution of Counsel_01.21.2026.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-01-21"
+ },
+ "collected_at": "2026-10-03T21:01:21Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

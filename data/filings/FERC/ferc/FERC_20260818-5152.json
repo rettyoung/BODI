@@ -1,0 +1,53 @@
+{
+ "id": "FERC:20260818-5152",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3552",
+ "title": "Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii: 2026-08-18_Zero Injection Generator Interconnection Agreement to be effective 10/18/2026 under ER26-3552 Filing Type : 10",
+ "filed": "2026-08-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260818-5152",
+ "entity": "Midcontinent Independent System Operator, Inc.; Midcontinent Independent System Operator, Inc.; Midcontinent Independent System Operator, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "B851DA2C-C569-C10C-A16F-A01697600000",
+   "name": "FINAL_ZGIA Transmittal Letter .pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "1D06DEA6-BA75-C36D-AB40-A01697600000",
+   "name": "Tab A - Marked Tariff Sheets.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "F0400652-A314-C213-B3E1-A01697600000",
+   "name": "Tab B - Clean Tariff Sheets.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "31091C5C-4C47-CE9A-88A7-A01697700000",
+   "name": "Tab C - Testimony of Marc Keyser.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-08-18"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

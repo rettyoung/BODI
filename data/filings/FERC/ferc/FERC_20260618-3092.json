@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260618-3092",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER25-1886",
+ "title": "Order Accepting Tariff Revisions, Subject to Condition re Midcontinent Independent System Operator, Inc. under ER25-1886. Comm'r. Rosner is concurring with a separate statement attached. Comm'r. Chang is dissenting with a separate statement attached. ",
+ "filed": "2026-06-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260618-3092",
+ "entity": "SECRETARY OF THE COMMISSION - FERC; COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION)",
+ "fetch": [
+  {
+   "ferc_file": "4DFFC6C4-EDD4-C229-95B2-9EDC50500000",
+   "name": "ER25-1886-000.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Commission Order/Opinion"
+   },
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Dissent/Concurrence by the Commissioner"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-06-18"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

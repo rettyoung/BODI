@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260415-5240",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD23-7,EC25-121,EC25-123,EC25-125,EC25-151,EC26-10,EC26-49,EC26-58,EL18-186,EL18-187,EL24-149,EL25-105,EL25-109,EL25-77,EL25-79,EL25-80,EL25-87,EL25-90,EL26-26,EL26-30,EL26-35,EL26-36,EL26-38,EL26-39,EL26-44,ER15-2114,ER17-405,ER17-406,ER17-419,ER18-194,ER18-195,ER20-2054,ER20-2574,ER22-1719,ER22-2363,ER23-2709,ER24-2153,ER24-2158,ER24-298,ER24-299,ER24-301,ER24-302,ER24-304,ER24-305,ER24-98,ER24-",
+ "title": "American Electric Power Service Corporation submits request to update the service list under EL25-77 et al. Part 1",
+ "filed": "2026-04-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260415-5240",
+ "entity": "American Electric Power Service Corporation",
+ "fetch": [
+  {
+   "ferc_file": "7681625D-C9CA-C893-91CF-9DABC7B00005",
+   "name": "AEP's Request to Update Service Lists  4.15.26.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket ER26-1323",
+  "issued": "2026-04-15"
+ },
+ "collected_at": "2026-10-03T21:09:16Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

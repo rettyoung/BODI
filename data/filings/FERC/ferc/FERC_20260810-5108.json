@@ -1,0 +1,53 @@
+{
+ "id": "FERC:20260810-5108",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67,EL26-68,EL26-69,EL26-70,EL26-71,EL26-72",
+ "title": "Comments of the Natural Gas Supply Association on the Informational Reports re Resource Adequacy Measures and Proposals, PJM Interconnection L.L.C., et al. under EL26-67, et. al.",
+ "filed": "2026-08-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260810-5108",
+ "entity": "NATURAL GAS SUPPLY ASSOCIATION (DC)",
+ "fetch": [
+  {
+   "ferc_file": "74B83E58-7C37-C450-B2A6-9FED04200000",
+   "name": "NGSA letter 8.10.26.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-08-10"
+ },
+ "collected_at": "2026-10-03T21:01:51Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection",
+  "large load",
+  "queue",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "NGSA letter 8.10.26.pdf",
+   "bytes": 255269,
+   "sha256": "be7564d73a92cdea55a64fad269bf3f5911cffb8528f473a9fbbf9e85b7b5aa4",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "August 10, 2026\n\n\n\nThe Honorable Laura Swett, Chairman\nFederal Energy Regulatory Commission\n888 First Street, NE\nWashington, D.C. 20426\n\nRe: Informational Reports Regarding Resource Adequacy Measures and Proposals,\n    PJM Interconnection L.L.C., Docket No. EL26-67-000; Southwest Power Pool, Inc., Docket\n    No. EL26-68-000; New York Independent System Operator, Inc., Docket No. EL26-69-000;\n    Midcontinent Independent System Operator, Inc., Docket No. EL26-70-000; California\n    Independent System Operator Corporation, Docket No. EL26-71-000; ISO New England\n    Inc., Docket No. EL26-72-000\n\nDear Chairman Swett:\n\nThe Natural Gas Supply Association (NGSA) appreciates the opportunity to comment on the\nInformational Reports directed by the Commission’s June 18, 2026, orders in the above-\ncaptioned dockets.\n\nAs industry participants who produce, ship, and deliver U.S. natural gas, NGSA members view\nthese reports as vital tools for tracking resource adequacy across regional operators. However, to\nensure a complete picture of grid reliability, the Commission should direct regional transmission\norganizations (RTOs) and independent system operators (ISOs) to supplement these reports with\nan assessment of whether existing natural gas infrastructure and fuel supply arrangements are\nsufficient to support anticipated growth in electricity demand.\n\n   I.      Natural Gas is Critical to Supporting Large Load Growth\n\nBecause of its scalability, reliability, and rapid dispatchability, natural gas will remain a\nsignificant fuel source to support much of this new electrical demand. As noted in an article by\nData Center Dynamics, natural gas is uniquely suited to meet the immediate needs of data\n\f                                                                                                            2\n\n\ncenters because it is the most dispatchable fuel source available, can run at capacity factors\nexceeding 80 percent, and can be ramped up within minutes to meet demand. 1\n\nIn fact, there has been a dramatic uptick in new gas generation in the interconnection queues\nacross the country. For example, the amount of natural gas generation in PJM’s interconnection\nqueue has increased by a staggering 1,458% (surging from approximately 6,800 MW to 106,000\nMW, where it now represents 48% of the total queue volume) over the past two years. Similarly,\nthere has been an incredible shift in MISO, where gas requests have spiked over the last 24\nmonths to now dominate the fast-track Expedited Resource Addition (ERAS) queue, capturing\n75% of the new expedited capacity requests. The need for new natural gas infrastructure built in\ntandem to support this magnitude of growth in gas generation cannot be ignored.\n\nThe United States is uniquely positioned to meet this demand as the largest net producer of dry\nnatural gas, supported by a vast pipeline network spanning more than three million miles. The\nupstream natural gas system possesses ample productive capacity to supply this growing market.\nNGSA member companies are already actively partnering with data center developers and power\ngeneration entities to create tailored commercial solutions underpinned by natural gas services to\nsupport this evolving market.\n\n    II.     Infrastructure Constraints Threaten Reliability Efforts\n\nWhile much attention has been focused on ensuring adequate power generation to meet rapid\ndemand from data centers and other large loads, and rightly so, we are concerned that the\nmagnitude of new pipeline capacity to support that growing load may not be fully appreciated.\nDespite the robust gas supply, regional energy security is increasingly limited by the delivery\ninfrastructure \"straw\"—rather than the wellhead. Multiple interstate pipeline mainlines currently\nrun near maximum capacity during peak periods.\n\nIf left unaddressed, localized infrastructure shortfalls will directly limit a region's ability to\ndevelop and dispatch new gas generation when and where it is needed most, particularly during\nextreme winter weather. Furthermore, the interdependence between the gas and electric sectors\ncontinues to grow as upstream and midstream operations become increasingly electrified,\nrequiring more transmission. Failing to account for the full energy ecosystem—including\nnecessary pipeline infrastructure—limits the regional operators’ ability to achieve full success in\nthese critical resource adequacy initiatives. Simply put, generation cannot be separated from fuel\nassurance.\n\n    III.    Conclusion and Specific Request for Supplemental Reporting\n\nNGSA does not ask the Commission or RTOs to reprioritize their current, complex workloads\nregarding large load integration. Rather, we urge the Commission to ensure that fuel availability\nis explicitly recognized as a core component of the total grid reliability equation.\n\n1\n See Data Center Dynamics, Welcome to Gas Land: How Natural Gas is Powering the US AI Boom (May 2025),\nhttps://www.datacenterdynamics.com/en/analysis/welcome-to-gas-land-how-natural-gas-is-powering-the-us-ai-\nboom/\n\f                                                                                              3\n\n\nTo that end, we ask the Commission to issue a directive requiring regional operators to\nsupplement their informational filings with a dedicated section detailing:\n\n   1. How they assess whether regional natural gas infrastructure can support the expected\n      growth in natural gas for power generation.\n   2. What regional initiatives or stakeholder processes are underway to address any identified\n      natural gas infrastructure shortfalls.\n   3. Their efforts to support generator fuel adequacy, such as ensuring power market reforms\n      that encourage strong natural gas contracting practices.\n\nAt a minimum, such information should be mandated in any updates or future Informational\nReports required by the Commission.\n\nRespectfully submitted,\n\n\n\n\nDena Wiggins\nPresident & CEO\nNatural Gas Supply Association\n\ncc: Commissioner David Rosner\n   Commissioner Judy W. Chang\n   Commissioner Lindsay S. See\n   Commissioner David A. LaCerte\n\f"
+  }
+ ]
+}

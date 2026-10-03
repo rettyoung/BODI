@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5044",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-71",
+ "title": "(doc-less) Motion to Intervene of the Cities of Anaheim, Azusa, Banning, Colton, Pasadena, and Riverside, California, under EL26-71.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5044",
+ "entity": "Six Cities CA",
+ "fetch": [
+  {
+   "ferc_file": "F918A955-6494-C540-9A52-9F473F300000",
+   "name": "1769417_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-71",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:04:03Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

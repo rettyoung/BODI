@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-104",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "1/17/2026 | Tract | COM | Tract Post-Workshop Comments on Staff's Second Discussion Draft",
+ "filed": "2026-01-17",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=104",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "104"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

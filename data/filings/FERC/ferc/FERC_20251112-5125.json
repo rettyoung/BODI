@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251112-5125",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-247",
+ "title": "(doc-less) Motion to Intervene of Natural Resources Defense Council, et al. under ER26-247.",
+ "filed": "2025-11-12",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251112-5125",
+ "entity": "Natural Resources Defense Council; Sustainable FERC Project",
+ "fetch": [
+  {
+   "ferc_file": "84F3B4FD-410F-C515-A50C-9A7846900000",
+   "name": "1679759_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-247",
+  "issued": "2025-11-11"
+ },
+ "collected_at": "2026-10-03T21:11:07Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

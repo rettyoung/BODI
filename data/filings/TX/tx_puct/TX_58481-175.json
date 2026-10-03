@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-175",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/17/2026 | Targa Resources LLC | COM | Targa Resources LLC's Comments and Proposed Redlines in Response to Proposal for Publication of 16 TAC § 25.194",
+ "filed": "2026-04-17",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=175",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "175"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

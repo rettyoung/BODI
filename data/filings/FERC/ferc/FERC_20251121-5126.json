@@ -1,0 +1,37 @@
+{
+ "id": "FERC:20251121-5126",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "RM26-4",
+ "title": "Comments of EDF Power Solutions, Inc. in support of the Department of Energy's Advanced Notice of Proposed Rulemaking under RM26-4.",
+ "filed": "2025-11-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251121-5126",
+ "entity": "EDF Power Solutions, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "B2B57EE7-E0FD-C453-9BA3-9AA719500000",
+   "name": "RM26-4 Comments FNL 11-21-25 4915-0031-3467.1.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2025-11-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

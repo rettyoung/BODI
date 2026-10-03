@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260106-3054",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-38,ER11-47,ER12-1540,ER12-1541,ER12-1542,ER12-1544,ER14-594,ER14-867,ER14-868,ER16-323,ER17-1930,ER17-1931,ER17-1932,ER19-606,ER20-649,ER22-2474,ER24-1151,ER24-1152,ER26-209,ER26-475,ER26-948,ER26-949,ER26-950,ER26-951,ER26-952,ER26-953,ER26-954",
+ "title": "Combined Notice of Filings #3, January 6, 2026: This notice contains information concerning multiple filings received by FERC. ",
+ "filed": "2026-01-06",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260106-3054",
+ "entity": "SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "15E4DE86-4BF2-C95D-93E2-9B9546100000",
+   "name": "CNF010626C.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "watched docket EL26-38",
+  "issued": "2026-01-06"
+ },
+ "collected_at": "2026-10-03T21:12:55Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

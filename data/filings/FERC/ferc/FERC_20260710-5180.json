@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260710-5180",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-68",
+ "title": "(doc-less) Out-of-Time Motion to Intervene of FuelCell Energy, Inc. under EL26-68.",
+ "filed": "2026-07-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260710-5180",
+ "entity": "FuelCell Energy, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "832B96A6-0E17-C05C-9F0C-9F4D7F100000",
+   "name": "1770167_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-68",
+  "issued": "2026-07-10"
+ },
+ "collected_at": "2026-10-03T21:02:45Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5616",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/3/2026 | Christa Noland | PL | Intervenor, Christa Noland; route G45 & G43, files Direct Testimony, Exhibit List, Witness List, and Certificate of Service.",
+ "filed": "2026-06-03",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5616",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5616"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

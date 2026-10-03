@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260707-5097",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-68",
+ "title": "(doc-less) Motion to Intervene of Century Aluminum Company under EL26-68.",
+ "filed": "2026-07-07",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260707-5097",
+ "entity": "Century Aluminum Company",
+ "fetch": [
+  {
+   "ferc_file": "CC3A6CC5-5B5A-CCB8-9F2C-9F3DE9E00000",
+   "name": "1768794_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-68",
+  "issued": "2026-07-07"
+ },
+ "collected_at": "2026-10-03T21:02:54Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

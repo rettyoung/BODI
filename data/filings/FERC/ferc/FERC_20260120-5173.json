@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260120-5173",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-36",
+ "title": "(doc-less) Motion to Intervene of Consumers Energy Company under EL26-36.",
+ "filed": "2026-01-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260120-5173",
+ "entity": "Consumers Energy Company",
+ "fetch": [
+  {
+   "ferc_file": "43680F3F-ADD7-CD8C-9F15-9BDCFC400000",
+   "name": "1701223_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-36",
+  "issued": "2026-01-20"
+ },
+ "collected_at": "2026-10-03T21:12:02Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

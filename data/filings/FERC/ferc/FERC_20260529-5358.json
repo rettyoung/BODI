@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260529-5358",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,RM26-4",
+ "title": "Comment of Paul Statchen in Docket(s)/Project(s) RM26-4-000, AD24-11-000\nSubmission Date: 5/29/2026\n",
+ "filed": "2026-05-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260529-5358",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "EB96A156-03C2-CD03-A239-9E755EC00000",
+   "name": "147776.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-05-29"
+ },
+ "collected_at": "2026-10-03T21:05:41Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

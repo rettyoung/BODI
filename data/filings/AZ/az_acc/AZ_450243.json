@@ -1,0 +1,24 @@
+{
+ "id": "AZ:450243",
+ "jur": "AZ",
+ "source": "az_acc",
+ "kind": "filing",
+ "docket": "E-01345A-25-0105",
+ "title": "Procedural Order - Admits an Attorney Pro Hac Vice",
+ "filed": "2025-11-20",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+ "entity": "Charles H. Hains, Administrative Law Judge",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000047694.pdf"
+  }
+ ],
+ "meta": {
+  "docketID": 29551
+ },
+ "collected_at": "2026-10-03T21:18:05Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

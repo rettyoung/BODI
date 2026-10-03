@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260824-5076",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3591",
+ "title": "Southwest Power Pool, Inc. submits tariff filing per 35.13(a)(2)(iii: Revisions to Modify the CHILL Policy to Accommodate Planned Outages to be effective 12/31/9998 under ER26-3591 Filing Type : 10",
+ "filed": "2026-08-24",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260824-5076",
+ "entity": "Southwest Power Pool, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "B34A41C5-3238-C2DA-9CEA-A034A0900000",
+   "name": "RR 768_Transmittal Letter.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "8B76DBDA-712F-CCF3-A649-A034A0900000",
+   "name": "Marked7383-b1f8e5e9-cff7-414d-b1d3-2d6f8d3253d3.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "2A73529E-ADE7-C9AF-AC28-A034A0900000",
+   "name": "Clean7383-ddc38b48-4ffd-4c03-b1cb-d0f1b29275ff.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "BFFAE1D8-5D1D-C6B2-B456-A034A0900000",
+   "name": "FERC GENERATED TARIFF FILING.PDF",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-08-24"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

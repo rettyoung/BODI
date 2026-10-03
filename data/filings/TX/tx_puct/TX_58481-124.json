@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-124",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "3/16/2026 | PUC RULES & PROJECTS | PRJ | Staff Memo w/MS Word Version of PFP",
+ "filed": "2026-03-16",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=124",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "124"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

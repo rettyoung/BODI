@@ -1,0 +1,23 @@
+{
+ "id": "TX:58000-8",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "7/9/2026 | PUC OPDM | PL | PROPOSAL FOR PUBLICATION OF AMENDMENTS TO §25.192 and §25.193 and NEW §25.252 FOR CONSIDERATION AT THE JULY 9, 2026 OPEN MEETING",
+ "filed": "2026-07-09",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=8",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "8"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

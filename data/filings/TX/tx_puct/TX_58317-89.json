@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-89",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "9/27/2026 | Residents | PRJ | Data center concerns with sound, water, pollution, short term financials, long term financials- these can also be compared with current open locations around the globe for comparison and understanding , property values, health risk exposure",
+ "filed": "2026-09-27",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=89",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "89"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

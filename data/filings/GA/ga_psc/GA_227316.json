@@ -1,0 +1,21 @@
+{
+ "id": "GA:227316",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "55378",
+ "title": "DKT 55378_STF-PIA-21 PD Data Request Responses",
+ "filed": "2026-07-23",
+ "entity": "Georgia Power Company",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=227316",
+ "fetch": [
+  {
+   "ga_document": 227316
+  }
+ ],
+ "collected_at": "2026-10-03T21:18:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

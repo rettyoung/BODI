@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260115-5165",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-36",
+ "title": "(doc-less) Motion to Intervene of the Council of the City of New Orleans under EL26-36.",
+ "filed": "2026-01-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260115-5165",
+ "entity": "Council of the City New Orleans",
+ "fetch": [
+  {
+   "ferc_file": "86DE1508-E301-CB4C-9EC1-9BC35B100000",
+   "name": "1699817_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-36",
+  "issued": "2026-01-15"
+ },
+ "collected_at": "2026-10-03T21:12:02Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

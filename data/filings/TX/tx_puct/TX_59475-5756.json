@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5756",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/3/2026 | M Rex and Kelli A Emerson | PL | Written Direct Testimony with Exhibit and Witness List_ONCOR LCRA TSC Bell Cty East Big Hill PUC 59475, SOAH 473-26-16349",
+ "filed": "2026-06-03",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5756",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5756"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

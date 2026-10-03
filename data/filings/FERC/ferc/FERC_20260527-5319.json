@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260527-5319",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-102",
+ "title": "Supplement to 05/22/2026, Joint Application for Authorization Under Section 203 of the Federal Power Act of Calpine Bethlehem, LLC, et al. under EC26-102.",
+ "filed": "2026-05-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260527-5319",
+ "entity": "Pathfinder Power, LLC",
+ "fetch": [
+  {
+   "ferc_file": "A8CCF538-41AE-CD06-9CA8-9E84A6700000",
+   "name": "1___Utility_Y2023.xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "8186DEC7-2FBD-C98D-A661-9E84A6700000",
+   "name": "1___Utility_Y2024.xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "F1D4313E-FA09-C88B-AEA5-9E84A6700000",
+   "name": "20160902-5155_2016 PJM SIL Study.docx.PDF",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "AAA67505-816B-CB22-8A49-9E84A6800000",
+   "name": "20160902-5155_Attachment 1 - 2015 Summary Table of SIL Components.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-05-27"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

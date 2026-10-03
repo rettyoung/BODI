@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-78",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "8/4/2026 | EASTMAN CHEMICAL COMPANY | PL | Eastman Chemical Company's Statement of Position",
+ "filed": "2026-08-04",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=78",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "78"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

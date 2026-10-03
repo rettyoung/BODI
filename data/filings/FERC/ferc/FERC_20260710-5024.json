@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260710-5024",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "(doc-less) Motion to Intervene of American Chemistry Council under EL26-70.",
+ "filed": "2026-07-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260710-5024",
+ "entity": "American Chemistry Council",
+ "fetch": [
+  {
+   "ferc_file": "2539E303-1290-C833-9F27-9F4C3B600000",
+   "name": "1769888_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-07-10"
+ },
+ "collected_at": "2026-10-03T21:03:34Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

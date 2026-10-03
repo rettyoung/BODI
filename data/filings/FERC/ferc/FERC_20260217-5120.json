@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260217-5120",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-1323",
+ "title": "(doc-less) Motion to Intervene of Western Farmers Electric Cooperative under ER26-1323.",
+ "filed": "2026-02-17",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260217-5120",
+ "entity": "Western Farmers Electric Cooperative; Western Farmers Electric Cooperative; Western Farmers Electric Cooperative",
+ "fetch": [
+  {
+   "ferc_file": "B51B8CD6-35B1-CA81-ADD8-9C6C6B100000",
+   "name": "1714678_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-1323",
+  "issued": "2026-02-17"
+ },
+ "collected_at": "2026-10-03T21:09:42Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

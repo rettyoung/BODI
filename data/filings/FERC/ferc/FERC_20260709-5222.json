@@ -1,0 +1,78 @@
+{
+ "id": "FERC:20260709-5222",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-69",
+ "title": "Notice of Intervention and Preliminary Comments of the New York State Public Service Commission to FERC's 06/18/2026 Notice of Institution of Section 206 Proceeding and Refund Effective Date under EL26-69.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5222",
+ "entity": "New York State Public Service Commission",
+ "fetch": [
+  {
+   "ferc_file": "2AF9A00A-5F0D-C434-9927-9F4842F00000",
+   "name": "EL26-69 NOI and Comments (Cover Letter).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "63296AD2-C3E3-C57A-A292-9F4842F00000",
+   "name": "EL26-69 NOI and Comments (Final).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   },
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Government Agency Submittal"
+   }
+  ],
+  "why": "watched docket EL26-69",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:03:09Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "ESA",
+  "co-located",
+  "interconnection",
+  "large load",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "EL26-69 NOI and Comments (Cover Letter).pdf",
+   "bytes": 255601,
+   "sha256": "dbb3634267f305807a4401839a6cb2b8d1b907e87a74b8f061f157bf1d4ef60a",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                                                                       KATHY HOCHUL\n                                                                                             Governor\n\n                                                                                  RORY M. CHRISTIAN\n                                                                                               Chair\n\n\n\n                                                       July 9, 2026\n\nSENT VIA ELECTRONIC FILING\nDebbie-Anne A. Reese, Secretary\nFederal Energy Regulatory Commission\n888 First Street, N.E.\nWashington, D.C. 20426\n\n       Re: Docket No. EL26-69-000 – New York Independent System Operator, Inc.; Central\n           Hudson Gas & Electric Corporation; Consolidated Edison Company of New York,\n           Inc.; LS Power Grid New York Corporation I; New York State Electric & Gas\n           Corporation; New York Transco LLC; NextEra Energy Transmission New York,\n           Inc.; Niagara Mohawk Power Corp.; Orange and Rockland Utilities, Inc.; Rochester\n           Gas and Electric Corporation\n\nDear Secretary Reese:\n\n        For filing in the above-referenced proceeding, please find the attached Notice of\nIntervention and Preliminary Comments of the New York State Public Service Commission. The\nparties have also been provided with a copy of this filing, as indicated in the attached Certificate\nof Service. Please contact me at (518) 473-8178 or David.Drexler@dps.ny.gov with any\nquestions.\n\n\n                                                       Sincerely,\n\n                                                       JOHN J. SIPOS\n                                                        General Counsel & Solicitor\n\n                                                       s/ David G. Drexler\n                                                       DAVID G. DREXLER\n                                                        Deputy General Counsel\n\n\n\n\n             Three Empire State Plaza, Albany, NY 12223-1350 | www.dps.ny.gov\n\f"
+  },
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "EL26-69 NOI and Comments (Final).pdf",
+   "bytes": 169126,
+   "sha256": "a5a2c78a76829db339a87bd39b4edbff6eb5afd33059f47414d98bcf405c2fde",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 6,
+   "truncated": false,
+   "text": "                           UNITED STATES OF AMERICA\n                                  BEFORE THE\n                    FEDERAL ENERGY REGULATORY COMMISSION\n\n\nNew York Independent System Operator, Inc.                )              Docket No. EL26-69-000\n                                                          )\nCentral Hudson Gas & Electric Corporation                 )\nConsolidated Edison Company of New York, Inc.             )\nLS Power Grid New York Corporation I                      )\nNew York State Electric & Gas Corporation                 )\nNew York Transco LLC                                      )\nNextEra Energy Transmission New York, Inc.                )\nNiagara Mohawk Power Corp.                                )\nOrange and Rockland Utilities, Inc.                       )\nRochester Gas and Electric Corporation                    )\n\n\n       NOTICE OF INTERVENTION AND PRELIMINARY COMMENTS OF THE\n              NEW YORK STATE PUBLIC SERVICE COMMISSION\n\n\n                                 NOTICE OF INTERVENTION\n\n       The New York State Public Service Commission (“NYSPSC”) hereby submits its timely\n\nNotice of Intervention in Docket No. EL26-69-000 pursuant to 18 C.F.R. §385.214 (Rule 214 of\n\nthe Federal Energy Regulatory Commission's (Commission) Rules of Practice and Procedure), and\n\nthe Commission’s June 18, 2026, Notice of Institution of Section 206 Proceeding and Refund\n\nEffective Date. The NYSPSC is an executive regulatory agency of the sovereign State of New\n\nYork with jurisdiction to regulate rates and charges for the sale of electric energy to consumers\n\nwithin the State, and participates in these proceedings as of right, pursuant to federal authorization\n\nvia the Federal Power Act (“FPA”) and the Commission’s implementing regulations. The\n\nNYSPSC is a State Commission as defined in section 3(15) of the FPA, 16 U.S.C. §796(15), and\n\n18 C.F.R. §1.101(k). Accordingly, pursuant to Rule 214(a)(2) of the Commission’s Rules of\n\fPractice and Procedure, the NYSPSC is entitled to intervene as a party in this proceeding as a\n\nmatter of right. 1\n\n        Copies of all correspondence and pleadings should be addressed to:\n\nDavid G. Drexler                                     Adam Evans\nDeputy General Counsel                               Chief, Wholesale and Retail Markets\nNew York State Department                            New York State Department\n of Public Service                                    of Public Service\nThree Empire State Plaza                             Three Empire State Plaza\nAlbany, New York 12223-1350                          Albany, New York 12223-1350\nDavid.Drexler@dps.ny.gov                             Adam.Evans@dps.ny.gov\n\n\nJordan Lesser\nAssistant Counsel\nNew York State Department\n of Public Service\nThree Empire State Plaza\nAlbany, New York 12223-1350\nJordan.Lesser@dps.ny.gov\n\n\n                                PRELIMINARY COMMENTS\n\n        The NYSPSC recognizes the nascent stage of this proceeding and that subsequent filings\n\ndirected by the Commission will shape the course of the Commission’s deliberations, including\n\nthe New York Independent System Operator, Inc.’s (“NYISO”) “informational report on any\n\nproposals under consideration in its stakeholder process to address the issue of resource adequacy\n\nto serve new large loads.” 2 While the Commission has directed this inquiry on resource adequacy\n\nto the NYISO, the NYSPSC is the primary entity responsible for ensuring the adequacy of\n\n\n\n1\n    18 C.F.R. §385.214(a)(2).\n2\n    EL26-69, New York Independent System Operator, Inc. et al., Order Instituting Proceeding\n    Under Section 206 of the Federal Power Act, 195 FERC ¶61,216 (issued June 18, 2026)\n    (“Order”), ¶129 (emphasis added).\n\n                                               -2-\n\fgeneration resources in New York. As the Commission correctly notes, “states have exclusive\n\nauthority over resource planning and the generation mix within their boundaries” 3 and further, to\n\ndetermine “which generation facilities are sited and allowed to serve co-located load.” 4\n\nAccordingly, any proposals to address the issue of resource adequacy, as the Commission requests\n\nto be identified in the informational report, 5 would concern the NYSPSC’s fundamental\n\nresponsibilities and jurisdiction.\n\n       As the NYISO and stakeholders may consider potential approaches for planning adequate\n\ngeneration to serve load, the NYSPSC is prepared to engage in discussions to develop solutions\n\nthat reflect the State’s authority and statutory mandates.        Unlike a multi-state Regional\n\nTransmission Organization with competing state interests, New York, whose boundaries are\n\ncoextensive with the NYISO’s operational control area, is well positioned to address any resource\n\nadequacy issues that may arise. The Commission should be assured that the NYSPSC takes the\n\nmatter of resource adequacy as a paramount responsibility and will take appropriate steps to ensure\n\nall load in the State is served in a reliable manner, while maintaining affordability. The NYSPSC\n\nhas a long history of taking such action and, for example, initiated a proceeding recently in\n\nDecember 2025 to address potential reliability needs in New York City, recognizing future needs\n\nthat were identified by the NYISO, as well as by Consolidated Edison Company of New York,\n\nInc. 6 Moreover, the NYSPSC routinely exercises its jurisdiction over reliability standards and\n\n\n3\n    Order, ¶119.\n4\n    Order, ¶100.\n5\n    Order, ¶129.\n6\n    See, NYPSC Case 25-E-0764, Proceeding on Motion of the Commission to Address New\n    York City Reliability Needs, Order Initiating Proceeding and Directing Reliability\n    Contingency Plan (issued December 18, 2025), available at:\n    https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={C096329B-0000-\n    C82A-9138-\n\n                                                -3-\n\fresource adequacy matters, as authorized under the Federal Power Act and the New York State\n\nPublic Service Law, through its approval of Reliability Rules of the New York State Reliability\n\nCouncil and the criteria of the Northeast Power Coordinating Council, and adopts the Installed\n\nReserve Margin annually for the New York Control Area. 7\n\n       With respect to the interconnection of large loads to the electric grid, the NYSPSC\n\ncommenced a proceeding in February 2026 focused, in part, on reviewing the planning and\n\ninterconnection processes, cost-allocation mechanisms, rate impacts, and tariff structures relating\n\nto the integration of large loads within the State’s electric utility systems. 8 This State initiative\n\nmay examine opportunities to modernize interconnection processes, enhance transparency around\n\nrequired grid upgrades, and improve cost predictability for projects.\n\n       The NYSPSC appreciates the Commission’s acknowledgment that developing provisions\n\nfor the successful interconnection and service of large loads implicates the interests and authority\n\nof New York State, and that it will therefore “respect the cooperative federalism approach\n\nestablished under the FPA.” 9 This acknowledgment should provide the foundation to address\n\nconcerns raised by the Commission, as well as matters of importance within the States’ purview.\n\n\n\n    596187178BF3}&DocTitle=Order%20Initiating%20Proceeding%20and%20Directing%20R\n    eliability%20Contingency%20Plan.\n7\n    See generally, NYSPSC Case 05-E-1180, Reliability Rules - New York State Reliability\n    Council and the Northeast Power Coordinating Council; NYSPSC Case 07-E-0088, Installed\n    Reserve Margin for the New York Control Area, accessible at:\n    https://documents.dps.ny.gov/public/common/search.html.\n8\n    See, NYSPSC Case 26-E-0045, Interconnection Reforms for Large Loads, Oder Instituting\n    Proceeding and Soliciting Comments (issued February 12, 2026), available at:\n    https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId={B040539C-0000-\n    CB26-AEB3-\n    8C865EF3724D}&DocTitle=Order%20Instituting%20Proceeding%20and%20Soliciting%20\n    Comments.\n9\n    Order, ¶76.\n\n                                                 -4-\n\fThe NYSPSC looks forward to addressing these issues further as this proceeding progresses and\n\nthe NYISO responds to the Commission’s directives.\n\n\n                                                   Respectfully submitted,\n\n                                                    s/ John J. Sipos\n                                                   JOHN J. SIPOS\n                                                     General Counsel and Solicitor\n                                                   New York State Public Service Commission\n\n                                                    s/ David G. Drexler\n                                                   DAVID G. DREXLER\n                                                     Deputy General Counsel\n                                                   Three Empire State Plaza\n                                                   Albany, NY 12223-1350\n                                                   (518) 473-8178\n                                                   David.Drexler@dps.ny.gov\n\n\nDated: July 9, 2026\n       Albany, New York\n\n\n\n\n                                             -5-\n\f                                  CERTIFICATE OF SERVICE\n\n       I hereby certify that I have this day served the foregoing document upon each person\n\ndesignated on the official service list compiled by the Secretary in this proceeding.\n\n\n                                                              s/ David G. Drexler\n                                                             DAVID G. DREXLER\n                                                               Deputy General Counsel\n                                                             Three Empire State Plaza\n                                                             Albany, NY 12223-1350\n                                                             (518) 473-8178\n                                                             David.Drexler@dps.ny.gov\n\n\nDated: July 9, 2026\n       Albany, New York\n\f"
+  }
+ ]
+}

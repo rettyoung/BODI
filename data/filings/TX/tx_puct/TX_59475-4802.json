@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4802",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/20/2026 | V8 Landowners Coalition | PL | V8 Landowners Coalition's First Statement of Alignment",
+ "filed": "2026-05-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4802",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4802"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

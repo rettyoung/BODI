@@ -1,0 +1,23 @@
+{
+ "id": "TX:58482-29",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "7/24/2026 | PUC RULES & PROJECTS | PRJ | OM Item No. 29 - Staff Memo & PFP w/Sept. 4 Comment Deadline",
+ "filed": "2026-07-24",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=29",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "29"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

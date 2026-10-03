@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-17",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "5/28/2026 | PUC OPDM | PL | ORDER NO. 7 - GRANTING INTERVENTION AND ADDRESSING HEARING REQUEST",
+ "filed": "2026-05-28",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=17",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "17"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

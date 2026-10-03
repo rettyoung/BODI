@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260609-0001",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Citizen Systems Architect and Independent Researcher submits technical architecture blueprint, Project Phoenix, for immediate legislative integration and municipal zoning adoption under RM26-4.",
+ "filed": "2026-06-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260609-0001",
+ "entity": "CITIZEN SYSTEMS ARCHITECT & INDEPENDENT RESEARCHER",
+ "fetch": [
+  {
+   "ferc_file": "886E9B10-E2D3-C291-8C42-9EAD94D00000",
+   "name": "DocBatch260609-0013.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Other External Submittal"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-05-29"
+ },
+ "collected_at": "2026-10-03T21:05:25Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

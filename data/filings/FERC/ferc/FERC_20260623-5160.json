@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260623-5160",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-114",
+ "title": "Supplement to 06/18/2026, Application for Authorization Under Section 203 of the Federal Power Act of Empire Generating Co, LLC under EC26-114.",
+ "filed": "2026-06-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260623-5160",
+ "entity": "Empire Generating Co, LLC",
+ "fetch": [
+  {
+   "ferc_file": "9AB1B173-A32D-CEC1-B234-9EF62D800000",
+   "name": "0. master run do files.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "E4624E6D-C483-C08E-B83E-9EF62D800000",
+   "name": "1. setup.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "DDBB2ADE-4715-C170-8064-9EF62D800001",
+   "name": "2. create databases.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "7D5FBAE6-CCB6-C620-8574-9EF62D900000",
+   "name": "3. insert sets.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-06-23"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260903-5148",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3515",
+ "title": "Motion of Ohio Energy Leadership Council to Intervene under ER26-3515.",
+ "filed": "2026-09-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260903-5148",
+ "entity": "Ohio Energy Leadership Council",
+ "fetch": [
+  {
+   "ferc_file": "1554C2C6-CC26-C96B-9E56-A0688BA00000",
+   "name": "ER26-3515-000 OELC Motion to Intervene.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-09-03"
+ },
+ "collected_at": "2026-10-03T21:13:58Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

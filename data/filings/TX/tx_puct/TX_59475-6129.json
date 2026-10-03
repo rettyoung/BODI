@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6129",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/14/2026 | Kevin Kennedy | PL | KEVIN KENNEDY’S RECORD LIST OF EXHIBITS",
+ "filed": "2026-06-14",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6129",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6129"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

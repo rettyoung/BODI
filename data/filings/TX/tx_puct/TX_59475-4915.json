@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4915",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/22/2026 | KLM Griffin Ranch, L.P., et al. | PL | KLM Griffin Ranch, L.P./Quillen Family Partnership, Ltd./William Quillen/James Blake Quillen/Carolyn Quillen/Pfluger Family Limited Partnership's Notice of Hearing Attendees",
+ "filed": "2026-05-22",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4915",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4915"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

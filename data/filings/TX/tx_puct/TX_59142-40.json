@@ -1,0 +1,25 @@
+{
+ "id": "TX:59142-40",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "7/10/2026 | Trailblazer Infrastructure LLC | LTRS | Project Trailblazer – Request for Legacy and/or batch zero Interconnection Process Consideration",
+ "filed": "2026-07-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=40",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "40"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,25 @@
+{
+ "id": "TX:59142-45",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "8/13/2026 | Octa Data Center Development Company LLC | COM | Octa's Comments on ERCOT's August 10, 2026 Status Update",
+ "filed": "2026-08-13",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=45",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "45"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

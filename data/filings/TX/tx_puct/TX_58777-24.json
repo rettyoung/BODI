@@ -1,0 +1,23 @@
+{
+ "id": "TX:58777-24",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "3/2/2026 | ONCOR ELECTRIC DELIVERY COMPANY LLC | COM | ONCOR ELECTRIC DELIVERY COMPANY LLC'S RESPONSE TO QUESTIONS ON ERCOT'S PROPOSED SERVM INPUT AND CONE ASSUMPTIONS",
+ "filed": "2026-03-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=24",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "24"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

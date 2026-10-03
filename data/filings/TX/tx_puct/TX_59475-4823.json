@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4823",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/21/2026 | BKV LAND HOLDINGS I, LLC | PL | Notice of Number of Attendees for In-Person Hearing on The Merits",
+ "filed": "2026-05-21",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4823",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4823"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

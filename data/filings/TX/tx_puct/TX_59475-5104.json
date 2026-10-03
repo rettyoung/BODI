@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5104",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/23/2026 | David Rosenkranz and Barbara Wright-Rosenkranz | TEST | David Rosenkranz and Barbara Wright-Rosenkranz Intervenors submits revised direct testimony that corrects all Applicant Objections in PUC Item 4726.",
+ "filed": "2026-05-23",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5104",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5104"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

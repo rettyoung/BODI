@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260911-4001",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "Transcript of the 1139th Commission Meeting held on September 10, 2026 re Consent-Electric et al.",
+ "filed": "2026-09-11",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260911-4001",
+ "entity": "FEDERAL ENERGY REGULATORY COMMISSION",
+ "fetch": [
+  {
+   "ferc_file": "F2529642-3BCF-CCE6-9274-A09248300000",
+   "name": "091026CommissionMtg.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "E0FB703C-962E-C3BD-9AF3-A09248300000",
+   "name": "091026CommissionMtg.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Transcript",
+    "documentType": "Commission Open Meeting Transcript"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-10"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

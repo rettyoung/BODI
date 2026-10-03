@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260127-5092",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-38",
+ "title": "(doc-less) Out-of-Time Motion to Intervene of Environmental Law and Policy Center under EL26-38.",
+ "filed": "2026-01-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260127-5092",
+ "entity": "ENVIRONMENTAL LAW & POLICY CENTER",
+ "fetch": [
+  {
+   "ferc_file": "91BDFE4D-2AD9-C256-9F1B-9C0053100000",
+   "name": "1705910_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-38",
+  "issued": "2026-01-27"
+ },
+ "collected_at": "2026-10-03T21:12:31Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

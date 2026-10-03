@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260127-5063",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-38",
+ "title": "(doc-less) Out-of-Time Motion to Intervene of Wabash Valley Power Association, Inc. under EL26-38.",
+ "filed": "2026-01-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260127-5063",
+ "entity": "Wabash Valley Power Association, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "7B61FD2F-3112-C9E6-9FDB-9C0038900000",
+   "name": "1705881_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-38",
+  "issued": "2026-01-27"
+ },
+ "collected_at": "2026-10-03T21:12:31Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

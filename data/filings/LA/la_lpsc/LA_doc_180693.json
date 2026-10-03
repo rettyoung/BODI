@@ -1,0 +1,26 @@
+{
+ "id": "LA:doc:180693",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Notice of an Addition to the Service List for Sierra Club",
+ "filed": "2026-06-24",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=180693",
+ "fetch": [
+  {
+   "la_document": 180693
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:46:04Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

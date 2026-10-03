@@ -1,0 +1,25 @@
+{
+ "id": "TX:59611-12",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "5/20/2026 | OPUC | PL | OFFICE OF PUBLIC UTILITY COUNSEL’S MOTION TO INTERVENE",
+ "filed": "2026-05-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=12",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "12"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Office of Public Utility Counsel"
+ ],
+ "documents": []
+}

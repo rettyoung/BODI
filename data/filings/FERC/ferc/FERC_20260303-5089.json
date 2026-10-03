@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260303-5089",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-1323",
+ "title": "(doc-less) Motion to Intervene of Municipal Energy Agency of Nebraska under ER26-1323.",
+ "filed": "2026-03-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260303-5089",
+ "entity": "Municipal Energy Agency of Nebraska",
+ "fetch": [
+  {
+   "ferc_file": "86441806-649A-C985-93FF-9CB4A7200000",
+   "name": "1718482_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-1323",
+  "issued": "2026-03-03"
+ },
+ "collected_at": "2026-10-03T21:09:36Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

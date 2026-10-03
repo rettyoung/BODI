@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-36",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "5/26/2026 | Nightpeak Energy LLC | COM | Comments on May 6th Staff Memorandum",
+ "filed": "2026-05-26",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=36",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "36"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

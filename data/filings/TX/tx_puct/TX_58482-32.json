@@ -1,0 +1,25 @@
+{
+ "id": "TX:58482-32",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "8/3/2026 | Jennifer Carrig | COM | Large Load Demand Services \"Say No to incentives\"",
+ "filed": "2026-08-03",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=32",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "32"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

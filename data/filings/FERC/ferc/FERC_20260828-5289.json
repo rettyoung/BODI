@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260828-5289",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-2389",
+ "title": "The New England Consumer-Owned Systems, et al. submit Initial Paper Hearing Brief and supporting affidavit and exhibits of Jonathan A. Lesser, Ph.D. under ER26-2389.",
+ "filed": "2026-08-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260828-5289",
+ "entity": "Block Island Utility District; Braintree Electric Light Department; CHICOPEE ELECTRIC LIGHT DEPARTMENT; Clear River Electric & Water District; BELMONT MUNICIPAL LIGHT DEPARTMENT; Concord Municipal Light Plant; Georgetown Municipal Light Department; Groveland Electric Light Department; HINGHAM MUNICI",
+ "fetch": [
+  {
+   "ferc_file": "0B8FC3CD-1DF1-CBF2-8B05-A057C0A00000",
+   "name": "ER26-2389 NECOS Initial Paper Hrg Brief_final.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Briefing/Arguments of Law",
+    "documentType": "Brief"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-28"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

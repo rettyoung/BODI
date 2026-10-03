@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6243",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/19/2026 | Benjamin Friou and Elizabeth Ann Friou | BR | INITIAL BRIEF OF INTERVENORS BENJAMIN FRIOU AND ELIZABETH ANN FRIOU",
+ "filed": "2026-06-19",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6243",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6243"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

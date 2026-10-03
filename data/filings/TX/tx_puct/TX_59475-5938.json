@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5938",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/7/2026 | Yates Ranches, Ltd.; JG & Wilson Sisters Ranch, Ltd; and Patience Shanklin Estate Trust and Brandon Shaklin Trust | MISC | REQUESTED CORRECTIONS TO EXHIBIT “A” AND “B” OF SOAH ORDER NO 30.",
+ "filed": "2026-06-07",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5938",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5938"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

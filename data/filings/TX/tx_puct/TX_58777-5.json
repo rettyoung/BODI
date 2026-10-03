@@ -1,0 +1,23 @@
+{
+ "id": "TX:58777-5",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "1/15/2026 | ERCOT | PRJ | ERCOT Proposal to Update Cost of New Entry (CONE) for the 2026 Reliability Assessment",
+ "filed": "2026-01-15",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=5",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "5"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

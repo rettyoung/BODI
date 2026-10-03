@@ -1,0 +1,26 @@
+{
+ "id": "TX:59142-50",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "8/19/2026 | Jordan Smith | PC | Review of ERCOT's Interconnection Process for Large Loads",
+ "filed": "2026-08-19",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=50",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "50"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

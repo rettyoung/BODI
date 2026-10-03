@@ -1,0 +1,22 @@
+{
+ "id": "NMDKT:26-0000117",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "keyword_hit",
+ "docket": "26-0000117",
+ "title": "IN THE MATTER OF THE FORMAL COMPLAINT OF Matthew Allen AGAINST Continental Divide Electric.",
+ "filed": "2026-06-10",
+ "entity": "Continental Divide Electric",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+ "fetch": [],
+ "meta": {
+  "new_docket": true,
+  "category": null,
+  "type": "Formal Complaint"
+ },
+ "collected_at": "2026-10-03T20:55:32Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

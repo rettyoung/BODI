@@ -1,0 +1,23 @@
+{
+ "id": "TX:58000-35",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "8/11/2026 | FREEPORT LNG DEVELOPMENT, L.P. | COM | Freeport LNG Development, L.P. comments on Proposal for Publication (Project No. 58000)",
+ "filed": "2026-08-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=35",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "35"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

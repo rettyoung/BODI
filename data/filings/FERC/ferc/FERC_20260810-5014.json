@@ -1,0 +1,47 @@
+{
+ "id": "FERC:20260810-5014",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PF26-9",
+ "title": "Request to file Out of Time Comments of Sierra Club members and supporters re the Desert Southwest Expansion Project under PF26-9.",
+ "filed": "2026-08-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260810-5014",
+ "entity": "Sierra Club",
+ "fetch": [
+  {
+   "ferc_file": "EEC8BC32-A677-C318-8599-9FEB92300000",
+   "name": "Out of Time Request Letter DSW (2).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "890FFE0A-A859-CBC4-8CED-9FEB92300000",
+   "name": "DSW comments Sierra Club 3.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-07"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

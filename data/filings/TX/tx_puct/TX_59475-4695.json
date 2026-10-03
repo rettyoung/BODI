@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4695",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/15/2026 | Charles & Cheryl Raeke | RFI | INTERVENORS CHARLES E. AND CHERYL L. RAEKE’S FIRST REQUESTS FOR INFORMATION TO ONCOR ELECTRIC DELIVERY COMPANY LLC",
+ "filed": "2026-05-15",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4695",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4695"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

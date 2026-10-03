@@ -1,0 +1,23 @@
+{
+ "id": "TX:58000-6",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "7/2/2026 | PUC RULES & PROJECTS | PRJ | OM Item No. 26 - Staff Memo & Revised PFP w/August 11 Comment Deadline",
+ "filed": "2026-07-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=6",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "6"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260814-3005",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49,ER26-1479",
+ "title": "Notice of Extension of Time re PJM Interconnection, L.L.C. et al. under EL25-49 et al. ",
+ "filed": "2026-08-14",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260814-3005",
+ "entity": "SECRETARY OF THE COMMISSION, FERC; SECRETARY OF THE COMMISSION, FERC",
+ "fetch": [
+  {
+   "ferc_file": "67BFA205-9B7D-C2CB-97F8-A00011100000",
+   "name": "EL25-49-002 EOT.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-08-14"
+ },
+ "collected_at": "2026-10-03T20:57:45Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

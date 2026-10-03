@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-106",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "2/12/2026 | Leaptran, Inc. | COM | Comments of Leaptran, Inc.",
+ "filed": "2026-02-12",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=106",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "106"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

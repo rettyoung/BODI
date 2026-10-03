@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260804-5133",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-99",
+ "title": "Motion for Leave to Answer and Answer of the Horizon Merger Sub, Inc. et al. to Comments of the PJM Market Monitor et al. and Request for Confidential Treatment under EC26-99.",
+ "filed": "2026-08-04",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260804-5133",
+ "entity": "Horizon Merger Sub, Inc.; Horizon Merger Sub, Inc.; Horizon Merger Sub, Inc.; Horizon Merger Sub, Inc.; Horizon Merger Sub, Inc.; The AES Corporation; The AES Corporation; The AES Corporation; Qatar Investment Authority; Qatar Investment Authority; EQT AB; EQT AB",
+ "fetch": [
+  {
+   "ferc_file": "4BF6A1BF-DCD1-CFF9-A08D-9FCE39E00000",
+   "name": "EC26-99 - Answer to Protests (PUBLIC).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-04"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

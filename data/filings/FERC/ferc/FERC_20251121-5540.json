@@ -1,0 +1,39 @@
+{
+ "id": "FERC:20251121-5540",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "RM26-4",
+ "title": "Comments of The PSEG Companies re the Advanced Notice of Proposed Rulemaking re the Interconnection of Large Loads to Interstate Transmission Systems under RM26-4.",
+ "filed": "2025-11-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251121-5540",
+ "entity": "PSEG Energy Resources & Trade LLC; PSEG  Power LLC; PSEG  Power LLC; Public Service Electric and Gas Company; Public Service Electric and Gas Company; PSEG Companies; PSEG Companies; PSEG Energy Resources & Trade LLC",
+ "fetch": [
+  {
+   "ferc_file": "F62B0E2D-68D3-C605-897A-9AA86F300001",
+   "name": "2025-11-21 PSEG Comments ANOPR Docket No. RM26-4.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2025-11-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

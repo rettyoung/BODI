@@ -1,0 +1,25 @@
+{
+ "id": "TX:58481-147",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/15/2026 | LOWER COLORADO RIVER AUTHORITY AND LCRA TRANSMISSION SERVICES CORPORATION | COM | COMMENTS ON THE PROPOSAL FOR PUBLICATION",
+ "filed": "2026-04-15",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=147",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "147"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

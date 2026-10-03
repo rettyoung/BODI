@@ -1,0 +1,38 @@
+{
+ "id": "FERC:20260316-5371",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-1479",
+ "title": "Protest of Maryland Office of People's Counsel re PJM Interconnection, L.L.C.’s compliance filing submitted on 02/23/2026 under ER26-1479.",
+ "filed": "2026-03-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260316-5371",
+ "entity": "Maryland Office of People's Counsel",
+ "fetch": [
+  {
+   "ferc_file": "8A350D75-8DAB-CA49-9FDF-9CF86D800000",
+   "name": "OPC Protest ER26-1479.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-03-16"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

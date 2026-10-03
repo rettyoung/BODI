@@ -1,0 +1,24 @@
+{
+ "id": "LA:doc:180539",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Motion to Enroll Counsel of Record for Southern Renewable Energy Association",
+ "filed": "2026-06-12",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=180539",
+ "fetch": [
+  {
+   "la_document": 180539
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:46:04Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

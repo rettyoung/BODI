@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20260213-3014",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EC25-148,EC25-43,EL24-149,EL25-20,EL25-49,EL26-30,ER26-1031,ER26-1032,ER26-247,ER26-838,ER26-839,ER26-841,ER26-853,ER26-989,ER26-990",
+ "title": "Notice of Staff Attendance at North American Electric Reliability Corporation Emerging Large Loads Technical Conference re Constellation Energy Corporation et al. under EC25-43 et al. ",
+ "filed": "2026-02-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260213-3014",
+ "entity": "SECRETARY OF THE COMMISSION, FERC; SECRETARY OF THE COMMISSION, FERC",
+ "fetch": [
+  {
+   "ferc_file": "63C09AD0-3D34-C736-95F6-9C574B600000",
+   "name": "EC25-43-000 Tech Conf.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-02-13"
+ },
+ "collected_at": "2026-10-03T21:01:15Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "interconnection",
+  "large load",
+  "large-load"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "EC25-43-000 Tech Conf.docx",
+   "bytes": 49333,
+   "sha256": "e036d263b31a756b3db01ddf7f9d1db526da43455cafdb988064982dff88ffab",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "UNITED STATES OF AMERICA\nFEDERAL ENERGY REGULATORY COMMISSION\n\n\nNOTICE OF STAFF ATTENDANCE AT NORTH AMERICAN ELECTRIC RELIABILITY CORPORATION EMERGING LARGE LOADS TECHNICAL CONFERENCE\n\n\n(February 13, 2026)\n\n\n\tThe Federal Energy Regulatory Commission (Commission) hereby gives notice that members of the Commission and/or Commission staff may attend the following conference meeting:\n\nNorth American Electric Reliability Corporation Emerging Large Loads Technical Conference\n\nFebruary 24-25, 2026 | 8:00 a.m. – 5:00 p.m. Eastern\n\nFurther information regarding this meeting and how to join remotely may be found at:  https://www.nerc.com/events/02-24-26-emerging-large-loads-technical-conference.\n\nThe discussions at the meeting, which are open to the public, may address matters at issue in the following Commission proceedings: \n\nDocket No. EC25-43\tConstellation Energy Corporation, Constellation Energy Generation, LLC, Calpine Corporation\n\nDocket No. EC25-148\tHill Top Energy Center, LLC, Hill Top Energy LLC\n\nDocket No. EL24-149\tBaltimore Gas & Electric Company and PECO Energy Company\n\nDocket Nos. EL25-49 \tPJM Interconnection, L.L.C., et al.\n          AD24-11 \tLarge Loads Co-Located at Generating Facilities\t\n          EL25-20\tConstellation Energy Generation, LLC v. \nPJM Interconnection, L.L.C.\n\nDocket No. EL26-30\tIndependent Market Monitor for PJM v. PJM Interconnection, L.L.C.\n\nDocket No. ER26-247\tSouthwest Power Pool, Inc.\n\nDocket No. ER26-838 \tCommonwealth Edison Company\n\nDocket No. ER26-839\tCommonwealth Edison Company\n\nDocket No. ER26-841 \tCommonwealth Edison Company\n\nDocket No. ER26-853\tCommonwealth Edison Company \n\nDocket No. ER26-989 \tCommonwealth Edison Company\n\nDocket No. ER26-990\tCommonwealth Edison Company\n\nDocket No. ER26-1031 \tCommonwealth Edison Company\n\nDocket No. ER26-1032\tCommonwealth Edison Company\n\t\t\nFor further information, please contact Neil Yallabandi at (202) 502-8260 or Neil.Yallabandi@ferc.gov.\n\n\n(Authority: 18 CFR 2.1)\n\n\n\nCarlos D. Clay,\nDeputy Secretary.\n"
+  }
+ ]
+}

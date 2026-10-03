@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260303-5186",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-1323",
+ "title": "(doc-less) Motion to Intervene of Geronimo Power, LLC under ER26-1323.",
+ "filed": "2026-03-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260303-5186",
+ "entity": "GERONIMO POWER, LLC",
+ "fetch": [
+  {
+   "ferc_file": "2B370A03-0545-CD16-9C50-9CB595800000",
+   "name": "1718646_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-1323",
+  "issued": "2026-03-03"
+ },
+ "collected_at": "2026-10-03T21:09:27Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

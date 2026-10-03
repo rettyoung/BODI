@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260508-5176",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-1479",
+ "title": "Motion for Leave to Answer and Answer of Calibrant Energy et al. in response to the 04/24/2026 Answer of the Indicated PJM Transmission Owners under ER26-1479.",
+ "filed": "2026-05-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260508-5176",
+ "entity": "Calibrant Energy; Antora Energy LLC; Convergent Energy and Power LP; Eolian, LP; Mainspring Energy; Verrus LLC",
+ "fetch": [
+  {
+   "ferc_file": "2D966AA6-160C-CB54-8674-9E090E800001",
+   "name": "ER26-1479; Answer of BTMG Parties.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-05-08"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

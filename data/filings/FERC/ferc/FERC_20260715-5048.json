@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260715-5048",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "(doc-less) Motion to Intervene Out-of-Time of the Organization of MISO States, Inc. under EL26-70.",
+ "filed": "2026-07-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260715-5048",
+ "entity": "Organization of MISO States, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "DFE91E09-CA69-CB81-9C03-9F6643E00000",
+   "name": "1771548_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-07-15"
+ },
+ "collected_at": "2026-10-03T21:03:34Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

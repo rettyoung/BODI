@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260727-5324",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "RM25-12",
+ "title": "Comments of Enchanted Rock, LLC in support of the proposed revisions to the blanket certificate program under RM25-12.",
+ "filed": "2026-07-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260727-5324",
+ "entity": "Enchanted Rock, LLC; Enchanted Rock, LLC",
+ "fetch": [
+  {
+   "ferc_file": "CEAA0667-0DFB-CC37-9947-9FAFAB700000",
+   "name": "Comments of Enchanted Rock, LLC.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-27"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

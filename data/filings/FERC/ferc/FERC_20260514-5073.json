@@ -1,0 +1,42 @@
+{
+ "id": "FERC:20260514-5073",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ZZ26-4",
+ "title": "Monitoring Analytics, LLC, Independent Market Monitor for PJM submits State of the Market Report for Q1 of 2026 under ZZ26-4.",
+ "filed": "2026-05-14",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260514-5073",
+ "entity": "Monitoring Analytics, LLC",
+ "fetch": [
+  {
+   "ferc_file": "2A5EA4E7-7773-CFD3-9C35-9E2740B00000",
+   "name": "2026 Q1 FERC SOM Submission Letter.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "4653EEED-DC58-C9CB-A69F-9E2740B00000",
+   "name": "2026q1-som-pjm.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Other Utility Report"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-05-14"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

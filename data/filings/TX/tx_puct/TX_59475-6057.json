@@ -1,0 +1,25 @@
+{
+ "id": "TX:59475-6057",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/9/2026 | ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICES CORPORATION | RFI | Oncor Electric Delivery Company LLC and LCRA Transmission Services Corporation's First Supplemental Response to Mark Friesenhahn's First Request for Information, Questions 1-10 and 1-11",
+ "filed": "2026-06-09",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6057",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6057"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

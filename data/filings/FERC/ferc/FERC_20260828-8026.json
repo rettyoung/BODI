@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260828-8026",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "Jersey Central Power & Light Company submits FERC Form 3Q Electric report for 2026/Q2",
+ "filed": "2026-08-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260828-8026",
+ "entity": "Jersey Central Power & Light Company",
+ "fetch": [
+  {
+   "ferc_file": "E15686B5-F83E-C8A5-92D8-A04929800000",
+   "name": "361262-C000312-Form_3Q_Electric-2026-Q2_361262.html",
+   "type": "HTML"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 3-Q -Quarterly financial report of electric utilities- licensees- and natural gas companies"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-08-28"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

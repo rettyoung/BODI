@@ -1,0 +1,59 @@
+{
+ "id": "FERC:20260807-5150",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-68",
+ "title": "Comments of the Public Service Commission of the State of Missouri in support of Southwest Power Pool, Inc.'s et al. request for abeyance filed 08/03/2026 under EL26-68.",
+ "filed": "2026-08-07",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260807-5150",
+ "entity": "Missouri Public Service Commission",
+ "fetch": [
+  {
+   "ferc_file": "903CF5C5-5269-CC3A-9F80-9FDD5EC00000",
+   "name": "EL26-68 MoPSC comments.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Government Agency Submittal"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "watched docket EL26-68",
+  "issued": "2026-08-07"
+ },
+ "collected_at": "2026-10-03T21:02:33Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "cost allocation",
+  "cost shift",
+  "large load",
+  "resource adequacy"
+ ],
+ "party_hits": [
+  "AWS"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "EL26-68 MoPSC comments.pdf",
+   "bytes": 145361,
+   "sha256": "10b96ea28199ba96b4e32b3b0eb32be99421abf30cafa39bd8d4a5601711e6d6",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 5,
+   "truncated": false,
+   "text": "                               UNITED STATES OF AMERICA\n                                      BEFORE THE\n                        FEDERAL ENERGY REGULATORY COMMISSION\n\n                                                )\nSouthwest Power Pool, Inc.                      )       Docket No. EL26-68-000\n                                                )\n\n       COMMENTS OF THE PUBLIC SERVICE COMMISSION OF THE STATE OF\n     MISSOURI IN SUPPORT OF THE JOINT MOVANTS’ REQUEST FOR ABEYANCE\n\n           Pursuant to Rule 2008 1 and the Notice Establishing Answer Period issued in this docket\n\non August 4, 2026, by the Federal Energy Regulatory Commission (Commission or FERC), the\n\nPublic Service Commission of the State of Missouri (Missouri PSC) hereby submits these\n\ncomments in support of the request for abeyance filed by the Southwest Power Pool, Inc. (SPP)\n\nand various transmission owners (collectively, Joint Movants) on August 3, 2026.\n\n                                     I. Summary of Comments\n\n           The Commission should grant the Joint Movants’ request for a 95-day abeyance in order\n\nto accommodate SPP’s stakeholder process. Although the Commission said it will disfavor a\n\nrequest for an abeyance exceeding 90 days, SPP’s Board of Directors meeting is scheduled for\n\nNovember 17, 2026—one day outside the 90-day window. The Joint Movants’ requested 95-day\n\nabeyance will allow SPP to complete its stakeholder and approval process for its compliance\n\nfiling in this docket, including input from state regulators. The requested abeyance will allow\n\nSPP’s stakeholder community adequate time to address important issues highlighted by the\n\nCommission and represents only a de minimus extension beyond the Commission’s 90-day\n\ntimeline. Therefore, the Joint Movants demonstrated good cause for the requested abeyance and\n\nit should be granted.\n\n\n1\n    18 C.F.R. § 385.2008.\n\n                                                    1\n\f                                    II. Service and Communication\n\n        All pleadings, correspondence and other communications related to this proceeding\n\nshould be directed to:\n\n         Rodney Massman                                        John D. Borgmeyer\n         General Counsel                                       Asst. General Counsel-Regulation\n         Public Service Commission of the                      Public Service Commission of the\n         State of Missouri                                     State of Missouri\n         P.O. Box 360                                          P.O. Box 360\n         Jefferson City, MO 65102                              Jefferson City, MO 65102\n         (573) 751-7510                                        (573) 751-7504\n         rodney.massman@psc.mo.gov                             john.borgmeyer@psc.mo.gov\n\n\n                                             III. Background\n\n        The Missouri PSC is a “state commission” as defined in Section 1.101(k) of the\n\nCommission’s Rules of General Applicability.2 Missouri law authorizes the Missouri PSC to\n\nregulate rates, charges and terms of service for the sale and distribution of electricity by public\n\nutilities to consumers in the state. 3 The Missouri PSC is an active member of the SPP Regional\n\nState Committee (RSC).\n\n        The Commission issued its Order Instituting Proceeding Under Section 206 of the\n\nFederal Power Act (Show Cause Order) in this docket on June 18, 2026. 4 The Commission\n\nmade a preliminary finding that SPP’s existing tariff appears to be unjust, unreasonable, or\n\nunduly discriminatory or preferential in that it lacks certain provisions. 5 The Commission\n\nrecognized and applauded the steps SPP and its stakeholders have already taken to address the\n\naddition of large and co-located loads to the transmission system. 6 The Commission also noted,\n\n\n\n\n2\n  18 C.F.R. 1.101(k).\n3\n  Section 386.250 Revised Statutes of Missouri (RSMo)(2016).\n4\n  195 FERC ¶ 61,213 (June 18, 2026).\n5\n  Show Cause Order at P. 3.\n6\n  Id. at P. 2.\n\n                                                      2\n\fhowever, that SPP had not yet proposed tariff revisions to address all the challenges associated\n\nwith integrating these loads into its system.\n\n        In the Show Cause Order, the Commission said it will consider requests from SPP and/or\n\nits transmission owners to hold this proceeding in abeyance for up to 90 days. 7 The Commission\n\nsaid it will not grant such abeyances reflexively, and it “will look with great disfavor” upon\n\nrequests for abeyance beyond the 90-day period. 8 Successful requests must include a robust\n\ndescription of a future compliance filing and a reasoned and specific explanation of when the\n\ncompliance filing will be made. 9\n\n        On August 3, 2026, the Joint Movants filed a request for abeyance. 10 The Joint Movants\n\nasked to hold the proceedings in abeyance for 95 days, up to and including November 20, 2026.\n\nThe additional five days is necessary to accommodate SPP’s full stakeholder process,\n\nculminating in a Board of Directors meeting scheduled for November 17, 2026.\n\n                                 IV. Comments of the Missouri PSC\n\n        The Joint Movants have demonstrated good cause for the requested 95-day abeyance.\n\nCommission Rule 2008 provides that “the time by which any person is required… to act under\n\nany… order may be extended by the decisional authority for good cause, upon a motion made\n\nbefore the expiration of the period prescribed… .” On April 14, 2025, for example, the\n\nCommission granted SPP a 12-month extension of time to submit filings in compliance with the\n\nCommission’s Order No. 1920 to accommodate its comprehensive stakeholder process. 11\n\nSimilar good cause exists to grant the much more limited 95-day abeyance requested here.\n\n\n\n7\n  Id. at P. 33.\n8\n  Id.\n9\n  Id.\n10\n   Docket No. EL26-68, Joint Movants’ Amended Motion To Hold Section 206 Proceeding in Abeyance, Accession\nNo. 20260803-5265 (August 3, 2026) (Joint Motion).\n11\n   Docket RM21-17, Notice of Extension of Time, Accession No. 20250414-3017 (April 14, 2025).\n\n                                                     3\n\f        The issues identified by the Commission involve numerous interrelated aspects of SPP’s\n\ntariff. Developing revisions that meet the Commission’s requirements will need careful technical\n\nanalysis and input from the various members and stakeholder groups affected by these changes.\n\nThe requested 95-day abeyance will allow the stakeholders to refine the proposals and present\n\nthem to the SPP Board for full consideration while maintaining the Commission’s expedited\n\ntimeline.\n\n        Issues related to transparency and the avoidance of cost shifting 12 are particularly\n\nimportant to the Missouri PSC and other state regulators who bear the responsibility of setting\n\nretail rates that include FERC-jurisdictional transmission costs. The Missouri PSC is an active\n\nparticipant in the RSC 13 and the Cost Control and Allocation Review and Evaluation (CARE)\n\nTeam, both of which will play a role in analyzing and refining SPP’s compliance tariff revisions.\n\nThe CARE Team in particular will evaluate potential responses to the Commission’s concerns\n\nregarding multiple potential approaches to cost mitigation and cost shifting. 14 The requested\n\nabeyance will allow the CARE Team time to complete this important work and present its\n\nrecommendations to the Board.\n\n        Along with these important benefits, the requested 95-day extension represents only a\n\nminor extension of the Commission’s preferred 90-day extension timeline. As the Commission\n\nnoted in its Show Cause Order, SPP and its stakeholders have been national leaders in\n\ndeveloping new approaches to integrating large loads into the transmission system. Allowing\n\nSPP and its stakeholders additional time to fully evaluate and approve the remaining work will\n\n\n\n\n12\n   Show Cause Order at P. 3.\n13\n   The RSC holds primary responsibility for cost allocation and the approach to resource adequacy across the entire\nregion. SPP Bylaws Section 7.2.\n14\n   Joint Motion at pgs. 12-13.\n\n                                                         4\n\fultimately save administrative resources, promote durable solutions, and will not unduly delay\n\nthis proceeding.\n\n                                          V. Conclusion\n\n       The Missouri PSC respectfully submits these comments in support of the Joint Movants’\n\nrequest for a 95-day abeyance of this Section 206 proceeding.\n\n\n\n                                              Respectfully submitted,\n\n\n                                              /s/ John D. Borgmeyer\n                                              John D. Borgmeyer\n                                              Asst. General Counsel-Regulation\n                                              Public Service Commission of the\n                                              State of Missouri\n                                              P.O. Box 360\n                                              Jefferson City, MO 65102-0360\n                                              573-751-7504 (telephone)\n                                              573-522-4016 (facsimile)\n                                              John.borgmeyer@psc.mo.gov\n\n\n                                      Certificate of Service\n\n       Pursuant to Rule 2010 of the Commission's Rules of Practice and Procedure, I hereby\n\ncertify that I have this day served a copy of the foregoing document on all persons designated on\n\nthe official service list compiled by the Secretary of the Commission in this proceeding by\n\nelectronic service dated on this 7th day of August, 2026.\n\n\n                                                               /s/ John D. Borgmeyer\n\n                                                               Jefferson City, Missouri\n\n\n\n\n                                                 5\n\f"
+  }
+ ]
+}

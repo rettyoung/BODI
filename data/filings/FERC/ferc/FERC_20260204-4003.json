@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20260204-4003",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL25-20,RM26-4",
+ "title": "Chairman Laura V. Swett's response to U.S. Senator Edward J. Markey's et al. 11/13/2025 letter re concerns of the impact of data center development on residential electric bills under RM26-4 et al.",
+ "filed": "2026-02-04",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260204-4003",
+ "entity": "CHAIR AND IMMEDIATE STAFF (FERC)",
+ "fetch": [
+  {
+   "ferc_file": "B6125777-514D-C16A-A57F-9C2A92600000",
+   "name": "Sen. Markey-RM26-4-000 et al.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Informational Correspondence",
+    "documentType": "Informational Correspondence (Miscellaneous Issuances)"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-02-04"
+ },
+ "collected_at": "2026-10-03T21:07:06Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "cost allocation",
+  "data center",
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Sen. Markey-RM26-4-000 et al.pdf",
+   "bytes": 132905,
+   "sha256": "a8b2725a5dcae9e4cf2a856c18d2951cab74f5556f524b33a3d8f56dc710f39b",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                        February 4, 2026\n\nThe Honorable Edward J. Markey\nThe Honorable Chris Van Hollen\nThe Honorable Elizabeth Warren\nThe Honorable Peter Welch\nThe Honorable Raphael Warnock\nThe Honorable Richard Blumenthal\nThe Honorable Adam B. Schiff\nU.S. Senate\nWashington, D.C. 20515/20510\n\nDear Senators Markey, Van Hollen, Warren, Welch, Warnock, Blumenthal, and Schiff:\n\n      Thank you for your November 13, 2025, letter alerting the Federal Energy Regulatory\nCommission (Commission) of your concerns regarding the impact of data center\ndevelopment on residential electric bills. Your comments are essential to ensure that the\nCommission’s consideration of this matter is both responsive and accurate.\n\n       In your letter, you highlight the impact of the rising demand for electricity for data\ncenters on ratepayers and urge the Commission to prioritize residential ratepayers in Docket\nNo. RM26-4-000. You also encourage the Commission to reject transmission-related filings\nthat do not properly address cost allocation, allow the cost of new transmission built to serve\ndata centers to be spread across the region, or allow large fossil fuel generators to jump the\ninterconnection queue. You express support for investigations into existing methods for\ntransmission cost allocation and standardized load forecasting and other practices relevant to\naddressing data center demand growth. Because there are several contested proceedings\npending with regard to these issues, I cannot discuss the merits of these matters at this time.\n\n        You have my commitment that we will continue to monitor this situation. I take\nseriously the Commission’s obligation to ensure our actions are in the public interest and can\nassure you that any decisions the Commission makes will be based upon a thorough and\ncareful review of the record.\n\n      Your letter and this reply will be placed in the public file in Docket Nos. RM26-4-\n000, EL25-49-000 and EL25-20-000. If I can be of further assistance in this or any other\nCommission matter, please do not hesitate to contact me.\n\n                                                           Sincerely,\n\n\n                                                           Laura V. Swett\n                                                           Chairman\n\n\n                               888 First Street | Washington, DC 20426\n\f"
+  }
+ ]
+}

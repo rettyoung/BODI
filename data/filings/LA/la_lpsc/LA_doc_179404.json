@@ -1,0 +1,24 @@
+{
+ "id": "LA:doc:179404",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Notice of Intervention and Inclusion on Service List for Louisiana Energy Users Group",
+ "filed": "2026-03-30",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=179404",
+ "fetch": [
+  {
+   "la_document": 179404
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:45:16Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260723-5028",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Comment of Carlinda Cabage in Docket(s)/Project(s) RM26-4-000\nSubmission Date: 7/23/2026\n",
+ "filed": "2026-07-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260723-5028",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "A5871BEB-A0B0-C04A-93B6-9F8DA2600000",
+   "name": "148729.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-07-23"
+ },
+ "collected_at": "2026-10-03T21:04:41Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

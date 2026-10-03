@@ -1,0 +1,26 @@
+{
+ "id": "LA:doc:181057",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Fax-filed Motion to Quash Subpoena Issued by the Tribunal to Non-Party Meta Platforms, Inc. for Meta Platforms, Inc.",
+ "filed": "2026-07-14",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=181057",
+ "fetch": [
+  {
+   "la_document": 181057
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:46:58Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Meta"
+ ],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260803-5210",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-69",
+ "title": "Request for Abeyance of the New York Transmission Owners and Request for Expedited Commission Action and Shortened Comment Period under EL26-69.",
+ "filed": "2026-08-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260803-5210",
+ "entity": "Central Hudson Gas & Electric Corporation; Central Hudson Gas & Electric Corporation; Consolidated Edison Company of New York, Inc.; Consolidated Edison Company of New York, Inc.; New York State Electric & Gas Corporation; New York State Electric & Gas Corporation; Niagara Mohawk Power Corporation d",
+ "fetch": [
+  {
+   "ferc_file": "306958FA-DE3F-CF9C-AA35-9FC91CC00001",
+   "name": "NYTOs_Request for Abeyance _FINAL_8.3.26.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL26-69",
+  "issued": "2026-08-03"
+ },
+ "collected_at": "2026-10-03T21:02:57Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

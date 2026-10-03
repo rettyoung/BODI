@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260529-8056",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "Mid-Atlantic Interstate Transmission, LLC submits FERC Form 3Q Electric report for 2026/Q1",
+ "filed": "2026-05-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260529-8056",
+ "entity": "Mid-Atlantic Interstate Transmission, LLC",
+ "fetch": [
+  {
+   "ferc_file": "CDB320E5-69B1-CE5C-9917-9E7553200000",
+   "name": "329272-C005475-Form_3Q_Electric-2026-Q1_329272.html",
+   "type": "HTML"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 3-Q -Quarterly financial report of electric utilities- licensees- and natural gas companies"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-05-29"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

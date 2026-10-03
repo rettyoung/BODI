@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260717-5262",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-131",
+ "title": "Supplement to 07/15/2026, Joint Application for Authorization Under Section 203 of the Federal Power Act of NextEra Energy, Inc., et al. under EC26-131.",
+ "filed": "2026-07-17",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260717-5262",
+ "entity": "NextEra Energy, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "AAC60BF3-C29D-C902-915B-9FA51CF00000",
+   "name": "EC26-131 - Workpapers (1 of 3).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "47D92C20-7833-CB6B-98BA-9FA51CF00000",
+   "name": "10_Year_Forecast.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "90F1DC0B-A423-CF8D-A0EA-9FA51CF00000",
+   "name": "20150331-5153_2_Transco_Atlantic_Sunrise_7c_Application_2015-0331_1of2.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "D55FB1AC-CA1B-CCAC-AAB3-9FA51CF00000",
+   "name": "20180223-5172_Dominion Energy-SCANA Section 203 Application (2).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Disposition of Facilities Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-17"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

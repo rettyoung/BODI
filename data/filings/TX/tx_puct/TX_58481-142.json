@@ -1,0 +1,25 @@
+{
+ "id": "TX:58481-142",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/14/2026 | SARAH DUNHAM | COM | Project# Rule 25.194 The people demand full and extensive transparency on all water and gas studies, usage records and future plans pertaining to industrial use especially for large scale data centers in bell county",
+ "filed": "2026-04-14",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=142",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "142"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

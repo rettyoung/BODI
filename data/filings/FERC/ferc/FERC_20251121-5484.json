@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20251121-5484",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "RM26-4",
+ "title": "Supporting Comments of Constellation Energy Generation, LLC re the proposed Advanced Notice of Proposed Rulemaking re the Interconnection of Large Loads to the Interstate Transmission System under RM26-4.",
+ "filed": "2025-11-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251121-5484",
+ "entity": "Constellation Energy Generation, LLC",
+ "fetch": [
+  {
+   "ferc_file": "45CB9613-CD8E-C267-9D02-9AA858300000",
+   "name": "Constellation ANOPR Comments.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2025-11-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

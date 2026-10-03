@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5868",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/5/2026 | Paul Skinner Pro Se Intervenor | PL | Per SOAH Order #30, Attachment A #272 Paul Skinner, Pro Se Intervenor instructed to add Direct Testimony as Exhibit 009. Direct Testimony Attached.",
+ "filed": "2026-06-05",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5868",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5868"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

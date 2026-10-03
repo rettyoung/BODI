@@ -1,0 +1,47 @@
+{
+ "id": "FERC:20260730-5200",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-558",
+ "title": "El Paso Natural Gas Company, L.L.C. submits Prior Notice Request to construct, etc. an approximately 5.8 mile, 16-inch outside diameter pipeline lateral, etc. located in El Paso County, Texas re the McCloud Lateral Project under CP26-558.",
+ "filed": "2026-07-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260730-5200",
+ "entity": "El Paso Natural Gas Company, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "308F4653-534A-CCCB-9F2C-9FC7DC900000",
+   "name": "EPNG McCloud Lateral Project-Vol I_Public.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "AB9F2DDE-69C2-C1EF-A7BD-9FC7DC900000",
+   "name": "EPNG McCloud Lateral Project-Vol 1 Attachment A-Env RR1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "1C93496D-7521-C3AA-AC05-9FC7DC900000",
+   "name": "EPNG McCloud Lateral Project-Vol I Attachment A-Env RR2 - RR12.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Certificate of Public Convenience and Necessity"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-30"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "certificate of public convenience",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

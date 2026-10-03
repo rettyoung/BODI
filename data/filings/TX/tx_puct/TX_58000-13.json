@@ -1,0 +1,23 @@
+{
+ "id": "TX:58000-13",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "8/5/2026 | Soren M. White, MD | COM | Comments of Soren M. White, MD",
+ "filed": "2026-08-05",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=13",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "13"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

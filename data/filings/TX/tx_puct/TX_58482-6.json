@@ -1,0 +1,23 @@
+{
+ "id": "TX:58482-6",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "4/8/2026 | ERCOT STEEL MILLS | COM | ERCOT Steel Mills Comments_Project 58482_4.8.2026",
+ "filed": "2026-04-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=6",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "6"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

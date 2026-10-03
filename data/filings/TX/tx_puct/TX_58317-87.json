@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-87",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "9/26/2026 | Leslie Wiltse | COM | I oppose the data centers, 765 kV, and I have no faith in the Governor’s audit. We moved to rural area to avoid what you are bringin here. I will not pay for these data centers to ruin our state!",
+ "filed": "2026-09-26",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=87",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "87"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

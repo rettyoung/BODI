@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251216-5238",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD07-7,AD16-16,AD16-17,AD17-11,AD18-7,AD19-15,AD19-19,AD20-14,AD21-10,AD21-15,AD22-8,AD23-7,AD24-11,AD25-7,CP06-445,CP10-76,CP18-84,CP21-94,EC05-104,EC05-43,EC05-70,EC08-78,EC10-68,EC10-70,EC17-187,EC18-122,EC18-132,EC19-71,EC21-57,EC22-24,EC25-43,EG17-148,EL02-111,EL03-212,EL04-102,EL04-104,EL04-121,EL04-123,EL04-124,EL04-131,EL04-135,EL05-102,EL05-104,EL05-105,EL05-116,EL05-121,EL05-127,EL05-143",
+ "title": "PJM Industrial Customer Coalition et al. submit request to update the service list under AD07-7, et al.",
+ "filed": "2025-12-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251216-5238",
+ "entity": "PJM Industrial Customer Coalition; COALITION OF MISO TRANSMISSION CUSTOMERS",
+ "fetch": [
+  {
+   "ferc_file": "D5A6DACA-9ED8-CBA9-9DB1-9B28D3500005",
+   "name": "Notice of Withdrawal of Counsel and Request to Update Service Lists - RAW.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket AD24-11",
+  "issued": "2025-12-16"
+ },
+ "collected_at": "2026-10-03T21:08:37Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

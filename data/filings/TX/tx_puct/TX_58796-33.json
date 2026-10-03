@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-33",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "12/12/2025 | PUC OPDM | PL | OUTGOING COMMISSION-SIGNED ORDER MAIL LOG",
+ "filed": "2025-12-12",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=33",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "33"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

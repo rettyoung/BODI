@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260625-5181",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-72",
+ "title": "(doc-less) Motion to Intervene of Pacific Gas & Electric Company under EL26-72.",
+ "filed": "2026-06-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260625-5181",
+ "entity": "Pacific Gas & Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "2A3A7068-1F5E-CC26-9F88-9F0063200000",
+   "name": "1765770_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-72",
+  "issued": "2026-06-25"
+ },
+ "collected_at": "2026-10-03T21:04:21Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

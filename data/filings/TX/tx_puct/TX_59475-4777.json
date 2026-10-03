@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4777",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/20/2026 | Christine Thies | PL | Updated / Typos Corrected (NOTICE OF MAP DISCREPANCY AND REQUEST FOR CORRECTION to the Draft Intervenor Map",
+ "filed": "2026-05-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4777",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4777"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

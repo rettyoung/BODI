@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5106",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/24/2026 | David Rosenkranz and Barbara Wright-Rosenkranz | PL | Request to Administrative Law Judges to deny Applicants request to strike intervenor testimony docket #4726",
+ "filed": "2026-05-24",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5106",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5106"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

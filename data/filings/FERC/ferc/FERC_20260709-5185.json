@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5185",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "(doc-less) Motion to Intervene of Office of the Ohio Consumers' Counsel under EL26-67.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5185",
+ "entity": "Office of the Ohio Consumers' Counsel; Office of the Ohio Consumers' Counsel",
+ "fetch": [
+  {
+   "ferc_file": "EA3607F6-BAE8-C743-9857-9F481B000000",
+   "name": "1769619_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:02:21Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

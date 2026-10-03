@@ -1,0 +1,20 @@
+{
+ "id": "MO:651816",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0291",
+ "title": "42",
+ "filed": "2026-08-27",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/651816",
+ "fetch": [
+  {
+   "mo_filing": "651816"
+  }
+ ],
+ "collected_at": "2026-10-03T20:55:57Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

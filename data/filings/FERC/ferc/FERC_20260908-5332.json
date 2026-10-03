@@ -1,0 +1,38 @@
+{
+ "id": "FERC:20260908-5332",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3552",
+ "title": "Comments of Advanced Energy United in response to the Midcontinent Independent System Operator’s proposal to establish a Zero Injection Generator Interconnection Agreement framework under ER26-3552.",
+ "filed": "2026-09-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260908-5332",
+ "entity": "Advanced Energy United",
+ "fetch": [
+  {
+   "ferc_file": "E98A1E4A-DE56-C461-9904-A082C1700000",
+   "name": "ER26-3552 Comments of Advanced Energy United.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-09-08"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

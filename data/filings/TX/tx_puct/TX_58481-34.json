@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-34",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "12/16/2025 | Cholla Petroleum, Inc. | COM | Cholla Comments on Draft Rule",
+ "filed": "2025-12-16",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=34",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "34"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260709-5304",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "(doc-less) Motion to Intervene of PJM Interconnection, L.L.C. under EL26-67.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5304",
+ "entity": "PJM Interconnection, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "79427656-75CF-C4CB-9EF2-9F48A0100000",
+   "name": "1769783_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:02:15Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

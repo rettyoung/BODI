@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260318-5140",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-1731",
+ "title": "(doc-less) Motion to Intervene of Oklahoma Gas and Electric Company under ER26-1731.",
+ "filed": "2026-03-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260318-5140",
+ "entity": "Oklahoma Gas and Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "2459828E-CA84-CF48-90C0-9D0278900000",
+   "name": "1725192_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-1731",
+  "issued": "2026-03-18"
+ },
+ "collected_at": "2026-10-03T21:10:10Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

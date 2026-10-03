@@ -1,0 +1,53 @@
+{
+ "id": "FERC:20260223-5181",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-1479",
+ "title": "PJM Interconnection, L.L.C. submits tariff filing per 35: Co-Located Load Tariff Revisions to Comply with Order in EL25-49, et al. to be effective 12/31/9998 under ER26-1479 Filing Type : 85",
+ "filed": "2026-02-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260223-5181",
+ "entity": "PJM Interconnection, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "34488D7B-6F54-C7AD-8495-9C8C82100000",
+   "name": "Transmittal Letter.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "89A3FA4B-9990-C51B-8EAD-9C8C82100000",
+   "name": "Attachment A - Clean Tariff.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "A92C23CA-54B7-CBC2-9627-9C8C82100000",
+   "name": "Attachment B - Marked Tariff.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "C9749E5E-1F30-CFB2-9C0B-9C8C82100000",
+   "name": "FERC GENERATED TARIFF FILING.PDF",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-02-23"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

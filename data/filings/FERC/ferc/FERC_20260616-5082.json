@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260616-5082",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-1929",
+ "title": "Tri-State Generation and Transmission Association, Inc. submits tariff filing per 35.17(b): Deficiency Response, Shortened Comment, and Expedited Treatment Request to be effective 7/16/2026 under ER26-1929 Filing Type : 180",
+ "filed": "2026-06-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260616-5082",
+ "entity": "Tri-State Generation and Transmission Association, Inc.; Tri-State Generation and Transmission Association, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "494A71D0-E8AC-C9C8-A724-9ED1EBC00000",
+   "name": "Transmittal Letter - ID 2390.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "19FEEF3B-06E1-CDD0-ACCD-9ED1EBC00000",
+   "name": "Attachment 1 - Narrative Responses - ID 2390.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "8E7C2661-4E7A-CA92-894F-9ED1EBD00000",
+   "name": "Attachment 2 - Prop Alt Western HILT_HILA - ID 2390.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "99AB4372-D51E-CB14-9274-9ED1EBD00000",
+   "name": "Attachment 3 - Redlined Comp of HILT and Alt West HILT.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-06-16"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

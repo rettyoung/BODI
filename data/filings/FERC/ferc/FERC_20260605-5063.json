@@ -1,0 +1,55 @@
+{
+ "id": "FERC:20260605-5063",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PF26-4",
+ "title": "WBI Energy Transmission, Inc. submits Draft Resource Reports 1 through 12 re the proposed Bakken East Pipeline Project under PF26-4.",
+ "filed": "2026-06-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260605-5063",
+ "entity": "WBI Energy Transmission, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "1E58169D-6E47-C922-9C7E-9E98A7100000",
+   "name": "Transmittal Letter.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "1CDCAFB8-85DE-C0D5-A4CB-9E98A7100000",
+   "name": "Vol II Draft RR1 WBI Energy Bakken East Pipeline (Public).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "87E01059-73C0-C3EB-8B04-9E98A7400000",
+   "name": "Vol II Draft RR2 WBI Energy Bakken East Pipeline (Public).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "1E5BF14B-34E5-CEFA-8A1B-9E98A7900000",
+   "name": "Vol II Draft RR3 WBI Energy Bakken East Pipeline (Public).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process"
+   },
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process Progress Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-06-05"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

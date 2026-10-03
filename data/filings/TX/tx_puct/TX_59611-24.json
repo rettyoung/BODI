@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-24",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "6/22/2026 | EL PASO ELECTRIC COMPANY | PL | List of Issues",
+ "filed": "2026-06-22",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=24",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "24"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

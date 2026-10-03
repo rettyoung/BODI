@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-31",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "8/11/2026 | CITY OF EL PASO | PL | City of El Paso's Notice of Filing Protective Order Certifications",
+ "filed": "2026-08-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=31",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "31"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

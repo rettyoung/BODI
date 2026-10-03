@@ -1,0 +1,25 @@
+{
+ "id": "TX:59475-5366",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/1/2026 | ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICES CORPORATION | RFI | ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICES CORPORATION'S RESPONSE TO ANN AND BENJAMIN FRIOU'S FIRST REQUEST FOR INFORMATION",
+ "filed": "2026-06-01",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5366",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5366"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

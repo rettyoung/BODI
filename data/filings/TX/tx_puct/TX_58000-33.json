@@ -1,0 +1,25 @@
+{
+ "id": "TX:58000-33",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "8/11/2026 | LOWER COLORADO RIVER AUTHORITY AND LCRA TRANSMISSION SERVICES CORPORATION | COM | COMMENTS ON THE PROPOSAL FOR PUBLICATION OF AMENDMENTS TO §§ 25.192, 25.193, AND 25.252",
+ "filed": "2026-08-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=33",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "33"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

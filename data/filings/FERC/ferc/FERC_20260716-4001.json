@@ -1,0 +1,38 @@
+{
+ "id": "FERC:20260716-4001",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "AD26-7",
+ "title": "Pre-filed Statement of Mason Emnett, Senior Vice President for Public Policy for Constellation Energy Generation, LLC, for the PJM Governance and Stakeholder Reforms Technical Conference under AD26-7.",
+ "filed": "2026-07-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260716-4001",
+ "entity": "CONSTELLATION ENERGY GENERATION, LLC",
+ "fetch": [
+  {
+   "ferc_file": "68AF8669-B047-C152-9B40-9F6B39900000",
+   "name": "Pre-filed Statement - Mason Emnett.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-07-14"
+ },
+ "collected_at": "2026-10-03T21:16:14Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

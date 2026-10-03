@@ -1,0 +1,23 @@
+{
+ "id": "TX:58482-3",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "3/23/2026 | PUC RULES & PROJECTS | PRJ | Staff Memo and Questions for Comment w/April 8 Deadline",
+ "filed": "2026-03-23",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=3",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "3"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

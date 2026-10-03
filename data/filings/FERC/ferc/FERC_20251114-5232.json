@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251114-5232",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-247",
+ "title": "(doc-less) Motion to Intervene of American Electric Power Service Corporation under ER26-247.",
+ "filed": "2025-11-14",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251114-5232",
+ "entity": "American Electric Power Service Corporation",
+ "fetch": [
+  {
+   "ferc_file": "C2CEE33A-6BD5-C70A-9EDE-9A8453B00000",
+   "name": "1680785_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-247",
+  "issued": "2025-11-14"
+ },
+ "collected_at": "2026-10-03T21:10:52Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

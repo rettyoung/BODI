@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5220",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/29/2026 | Laura Pressley | PL | Laura Pressley Combined Response, Motion to Strike, and Motion to Compel Production for Pressley's 1st Amended 1st RFI",
+ "filed": "2026-05-29",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5220",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5220"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

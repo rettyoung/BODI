@@ -1,0 +1,23 @@
+{
+ "id": "TX:58000-7",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "7/7/2026 | PUC RULES & PROJECTS | PRJ | Staff Memo w/MS Word Version of PFP",
+ "filed": "2026-07-07",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=7",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "7"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4890",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/22/2026 | SWG BRIGGS I, L.P. | TEST | REBUTTAL TESTIMONY OF AMY G. THOMASON ON BEHALF OF SWG BRIGGS I, L.P.",
+ "filed": "2026-05-22",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4890",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4890"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

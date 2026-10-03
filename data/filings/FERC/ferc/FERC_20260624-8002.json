@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260624-8002",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "Portland General Electric Company submits FERC Form 1 report for 2025/Q4",
+ "filed": "2026-06-24",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260624-8002",
+ "entity": "Portland General Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "835C947B-807A-C945-92D8-9EFC26500000",
+   "name": "340035-C001132-Form_1-2025-Q4_340035.html",
+   "type": "HTML"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 1 - Annual Rpt. for Major Electric Utilities, Licensees & Others"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-06-24"
+ },
+ "collected_at": "2026-10-03T21:16:56Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '835C947B-807A-C945-92D8-9EFC26500000', 'name': '340035-C001132-Form_1-2025-Q4_340035.html', 'type': 'HTML'}",
+   "error": "RuntimeError('FERC DownloadP8File returned application/octet-stream (13420933 bytes)')"
+  }
+ ]
+}

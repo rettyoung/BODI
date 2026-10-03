@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260709-5128",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-71",
+ "title": "(doc-less) Motion to Intervene of Digital Realty Trust, L.P. under EL26-71.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5128",
+ "entity": "Digital Realty Trust, L.P.",
+ "fetch": [
+  {
+   "ferc_file": "09C531E1-52DA-C3E5-9241-9F47B1700000",
+   "name": "1769555_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-71",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:04:03Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Digital Realty"
+ ],
+ "documents": []
+}

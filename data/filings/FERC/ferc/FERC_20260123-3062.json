@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260123-3062",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49",
+ "title": "Notice of Extension of Time re Allegheny Electric Cooperative, Inc. et al. PJM Interconnection, L.L.C. under EL25-49 et al. ",
+ "filed": "2026-01-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260123-3062",
+ "entity": "SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "AB3C632E-7584-CFAA-92CB-9BEC41C00000",
+   "name": "EL25-49-000 EOT.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-01-23"
+ },
+ "collected_at": "2026-10-03T21:01:21Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251231-5245",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-36",
+ "title": "(doc-less) Motion to Intervene of Calpine Corporation under .",
+ "filed": "2025-12-31",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251231-5245",
+ "entity": "Calpine Corporation; Calpine Corporation",
+ "fetch": [
+  {
+   "ferc_file": "A3B456E8-13DD-C218-9F31-9B7576500000",
+   "name": "1695954_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-36",
+  "issued": "2025-12-31"
+ },
+ "collected_at": "2026-10-03T21:12:02Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

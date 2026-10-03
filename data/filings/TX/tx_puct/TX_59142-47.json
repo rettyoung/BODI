@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-47",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "8/16/2026 | Pallara, Inc. | COM | Comments of Pallara, Inc. on ERCOT's Requests for Good Cause Exceptions Relating to Batch Zero Deadlines",
+ "filed": "2026-08-16",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=47",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "47"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

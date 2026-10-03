@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260824-5029",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-10676",
+ "title": "CRP MA Red Bridge, LLC submits Site Specific Probable Maximum Precipitation Study re the Red Bridge Hydroelectric Project under P-10676.",
+ "filed": "2026-08-24",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260824-5029",
+ "entity": "CRP MA RED BRIDGE LLC",
+ "fetch": [
+  {
+   "ferc_file": "02B2DDCB-D7EE-C41B-B0A1-A033D8200000",
+   "name": "Red Bridge Dam Final PMP Report_Compiled 1-3.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "4CF4452E-D248-C511-87CC-A033D8300000",
+   "name": "Red Bridge Dam Final PMP Report_Compiled 2-3.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "F107AE8C-61B0-C2B6-8BAC-A033D8500000",
+   "name": "Red Bridge Dam Final PMP Report_Compiled 3-3.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "EAFBC835-8C99-C712-9249-A033D8500000",
+   "name": "20260810-RBG-BOC-FINALRed BridgeBOCPMPLETTER.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Dam Safety Compliance Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-24"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

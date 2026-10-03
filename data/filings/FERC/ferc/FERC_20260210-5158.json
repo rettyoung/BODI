@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260210-5158",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-1088",
+ "title": "Comments and Conditional Protest of Constellation Energy Generation, LLC re one proposed replacement term in PJM Interconnection, L.L.C.'s Thirty-Day Compliance Filing under ER26-1088.",
+ "filed": "2026-02-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260210-5158",
+ "entity": "Constellation Energy Generation, LLC",
+ "fetch": [
+  {
+   "ferc_file": "248B19F8-51B2-C6BB-9DB8-9C4970F00000",
+   "name": "To-Be-Filed Constellation Protest to ER26-1088 Compliance Filing.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-02-10"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

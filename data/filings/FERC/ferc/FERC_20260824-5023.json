@@ -1,0 +1,39 @@
+{
+ "id": "FERC:20260824-5023",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "Motion to Intervene Out-of-Time of Persistence Analytics Group LLC under EL26-67.",
+ "filed": "2026-08-24",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260824-5023",
+ "entity": "PERSISTENCE ANALYTICS GROUP LLC",
+ "fetch": [
+  {
+   "ferc_file": "C5F2EF07-39AC-C539-9121-A033D1A00000",
+   "name": "PAG_Cover_Letter_EL26-67-000 (1).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "DCE41DD9-F703-C9CD-9954-A033D1A00000",
+   "name": "PAG_Motion_to_Intervene_Out_of_Time_EL26-67-000 (1).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-08-24"
+ },
+ "collected_at": "2026-10-03T21:01:42Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

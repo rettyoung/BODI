@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5065",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-72",
+ "title": "Motion to Intervene of New England Conference of Public Utilities Commissioners under EL26-72.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5065",
+ "entity": "New England Conference of Public Utilities Commissioners",
+ "fetch": [
+  {
+   "ferc_file": "1EEC16AA-6821-CBC1-93EC-9F476AC00000",
+   "name": "7.6.26 NECPUC motion to intervene in EL26-72.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-72",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:04:18Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

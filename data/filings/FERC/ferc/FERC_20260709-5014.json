@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5014",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "(doc-less) Motion to Intervene of Ohio Blockchain Council, Inc. under EL26-67.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5014",
+ "entity": "Ohio Blockchain Council, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "7AED5599-8B83-C518-9D7B-9F46D2800000",
+   "name": "1769320_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-07-08"
+ },
+ "collected_at": "2026-10-03T21:02:24Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

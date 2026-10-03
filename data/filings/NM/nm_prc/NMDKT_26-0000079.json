@@ -1,0 +1,24 @@
+{
+ "id": "NMDKT:26-0000079",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "keyword_hit",
+ "docket": "26-0000079",
+ "title": "IN THE MATTER OF THE APPLICATION OF EL PASO ELECTRIC COMPANY FOR APPROVAL TO IMPLEMENT A DEMAND RESPONSE AND DISTRIBUTED ENERGY RESOURCE PILOT PROJECT\n\nEL PASO ELECTRIC COMPANY,\nAPPLICANT.",
+ "filed": "2026-04-20",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+ "fetch": [],
+ "meta": {
+  "new_docket": true,
+  "category": "Application (General)",
+  "type": "Utility"
+ },
+ "collected_at": "2026-10-03T20:55:32Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "demand response"
+ ],
+ "party_hits": [],
+ "documents": []
+}

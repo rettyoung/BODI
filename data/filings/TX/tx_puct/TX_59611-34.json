@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-34",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "8/24/2026 | EL PASO ELECTRIC COMPANY | LTRS | Letter to Judge Robles re Motion to Adopt Procedural Schedule",
+ "filed": "2026-08-24",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=34",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "34"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

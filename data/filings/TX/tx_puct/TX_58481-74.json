@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-74",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "12/19/2025 | OCCIDENTAL PERMIAN LTD | COM | Occidental Permian, LTD. Comments",
+ "filed": "2025-12-19",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=74",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "74"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

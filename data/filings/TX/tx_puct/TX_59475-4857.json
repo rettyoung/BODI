@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4857",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/21/2026 | CHARLES & LOREN POWELL | PL | NOTICE OF INTENT TO APPEAR AT HEARING ON THE MERITS - PUC DOCKET 59475 SOAH DOCKET NO. 473-26-16349",
+ "filed": "2026-05-21",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4857",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4857"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

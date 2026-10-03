@@ -1,0 +1,26 @@
+{
+ "id": "LA:doc:179679",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Fax-filed Motion to Intervene and Inclusion on Service List for Sierra Club",
+ "filed": "2026-04-10",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=179679",
+ "fetch": [
+  {
+   "la_document": 179679
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:45:40Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

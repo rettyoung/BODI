@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260626-3002",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP25-514,CP25-517",
+ "title": "Environmental Impact Statement for Tennessee Gas Pipeline Company, LLC's et al. Mississippi Crossing Project et al. under CP25-514 et al. ",
+ "filed": "2026-06-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260626-3002",
+ "entity": "OFFICE OF ENERGY PROJECTS",
+ "fetch": [
+  {
+   "ferc_file": "66534BA1-762A-C4EA-8A11-9F0399300000",
+   "name": "20260626_MSX-SSE4_Part-1-of-5_Final-EIS.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "2AE61FC4-506A-C901-9235-9F0399300000",
+   "name": "20260626_MSX-SSE4-EIS_Part-2-of-5_Appendices-A-H.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "1702B080-D042-C294-84B2-9F0399500000",
+   "name": "20260626_MSX-SSE4-EIS_Part-3-of-5_Appendices-I-N.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "30839359-C6FB-C0B5-8CB3-9F0399500000",
+   "name": "20260626_MSX-SSE4-EIS_Part-4-of-5_Appendix-O-MSX-BA.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "FERC Report/Study",
+    "documentType": "Environmental Assessment (EA) and Environmental Impact Statement (EIS)"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-06-26"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

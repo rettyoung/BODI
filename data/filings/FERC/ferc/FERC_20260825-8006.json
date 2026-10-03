@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260825-8006",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "Appalachian Power Company submits FERC Form 3Q Electric report for 2026/Q2",
+ "filed": "2026-08-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260825-8006",
+ "entity": "Appalachian Power Company",
+ "fetch": [
+  {
+   "ferc_file": "94976BDA-5745-C733-9189-A03995E00000",
+   "name": "360891-C000530-Form_3Q_Electric-2026-Q2_360891.html",
+   "type": "HTML"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 3-Q -Quarterly financial report of electric utilities- licensees- and natural gas companies"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-08-25"
+ },
+ "collected_at": "2026-10-03T21:14:48Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '94976BDA-5745-C733-9189-A03995E00000', 'name': '360891-C000530-Form_3Q_Electric-2026-Q2_360891.html', 'type': 'HTML'}",
+   "error": "RuntimeError('FERC DownloadP8File returned application/octet-stream (5411194 bytes)')"
+  }
+ ]
+}

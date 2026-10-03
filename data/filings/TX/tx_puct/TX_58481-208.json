@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-208",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "9/3/2026 | PUC RULES & PROJECTS | PRJ | OM Item No. 24 - (Staff Recommendation) Order Adopting New §25.194",
+ "filed": "2026-09-03",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=208",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "208"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

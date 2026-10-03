@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260709-5145",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-68",
+ "title": "(doc-less) Motion to Intervene of Stream U.S. Data Centers, L.L.C. under EL26-68.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5145",
+ "entity": "Stream U.S. Data Centers, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "6807D5CF-173A-C48D-9FD1-9F47C2B00000",
+   "name": "1769573_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-68",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:02:51Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "AWS"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1769573_Interv.txt",
+   "bytes": 1720,
+   "sha256": "3ce8573e347f5e6b5898ecf14138582e7cc6a311853de5f5fbebe8353cd631f1",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Stream U.S. Data Centers, L.L.C. under EL26-68-000.\r\n\r\nSubmission Date:        7/9/2026 12:40:19 PM\r\n\r\nFiled Date:             7/9/2026 12:40:19 PM\r\n\r\nDockets\r\n-------\r\nEL26-68-000          206 Investigation\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nStream U.S. Data Centers, L.L.C.         kwatson@stream-dc.com                                                            \r\n\r\nBasis for Intervening:\r\nPursuant to Rules 212 and 214 of the Rules of Practice and Procedure of the Federal Energy Regulatory Commission (“Commission”), 18 C.F.R. §§ 385.212 and 214, Stream U.S. Data Centers, L.L.C. (“Stream”) respectfully moves to intervene in the above-captioned Federal Power Act Section 206 proceeding instituted by the Commission on June 18, 2026.\r\nStream is a limited liability corporation organized and existing under the laws of the state of Texas.   Stream is engaged in the business of developing data center facilities and other commercial real estate properties across the United States. Stream is responsible for securing power supply for its data center facilities and customers located, or potentially to be located, within the Southwest Power Pool, Inc. region.  Stream has substantial, direct interests that may be affected by the outcome of this proceeding.  Stream cannot be adequately represented by any other party in this docket. Wherefore, Stream respectfully moves to intervene in this proceeding. \r\n"
+  }
+ ]
+}

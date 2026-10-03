@@ -1,0 +1,25 @@
+{
+ "id": "TX:58796-42",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "1/14/2026 | TIEC | RFI | TEXAS INDUSTRIAL ENERGY CONSUMERS THIRD REQUEST FOR INFORMATION TO SOUTHWESTERN ELECTRIC POWER COMPANY",
+ "filed": "2026-01-14",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=42",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "42"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Texas Industrial Energy Consumers"
+ ],
+ "documents": []
+}

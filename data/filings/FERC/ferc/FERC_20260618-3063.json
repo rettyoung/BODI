@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260618-3063",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-69",
+ "title": "Order Instituting Proceeding Under Section 206 of the Federal Power Act re New York Independent System Operator, Inc. et al., EL26-69. Chmn. Swett, Comm'r. Rosner, Comm'r. See, Comm'r. Chang, and Comm'r. LaCerte are concurring w/ sep. stmt attached. ",
+ "filed": "2026-06-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260618-3063",
+ "entity": "COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION); SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "F8D9A9B2-5EBF-C71B-896F-9EDBA9000000",
+   "name": "EL26-69-000.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Commission Order/Opinion"
+   },
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Dissent/Concurrence by the Commissioner"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-06-18"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

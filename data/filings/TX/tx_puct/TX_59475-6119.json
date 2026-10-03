@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6119",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/12/2026 | Segment K13/K51 Landowners | EX | Segment K13/K51 Landowners' Third Amended Exhibit List and Exhibits 22, 23, 24, and 25",
+ "filed": "2026-06-12",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6119",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6119"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

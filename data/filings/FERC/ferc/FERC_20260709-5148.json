@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5148",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-71",
+ "title": "(doc-less) Motion to Intervene of Transmission Agency of Northern California under EL26-71.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5148",
+ "entity": "Transmission Agency of Northern California; Transmission Agency of Northern California; Transmission Agency of Northern California; Transmission Agency of Northern California",
+ "fetch": [
+  {
+   "ferc_file": "2537CEF5-143F-C83D-ABF5-9F47C3D00000",
+   "name": "1769572_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-71",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:04:00Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

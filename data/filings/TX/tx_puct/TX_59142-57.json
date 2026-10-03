@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-57",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "9/11/2026 | Synergen Green Energy, Inc. | PL | Synergen's Request for Good Cause Exception Relating To Batch Zero Eligibility Deadlines",
+ "filed": "2026-09-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=57",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "57"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

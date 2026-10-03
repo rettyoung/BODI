@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-17",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "11/10/2025 | PUC LEGAL | PL | COMMISSION STAFF’S REQUEST FOR HEARING",
+ "filed": "2025-11-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=17",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "17"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

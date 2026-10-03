@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20260223-5198",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL25-49",
+ "title": "PJM Interconnection, L.L.C. submits Supplemental Informational Report with additional detail regarding the timeline and process for developing the revisions to the backstop procurement tariff construct et al. under EL25-49.",
+ "filed": "2026-02-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260223-5198",
+ "entity": "PJM Interconnection, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "85527737-F31A-C92E-A065-9CAEC4A00000",
+   "name": "20260223-el25-49-000 et al..pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Other Utility Report"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-02-23"
+ },
+ "collected_at": "2026-10-03T21:00:48Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [
+  "Amazon",
+  "Constellation",
+  "Talen",
+  "Vistra"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "20260223-el25-49-000 et al..pdf",
+   "bytes": 223243,
+   "sha256": "c7d7b4dd547df203ddca36f3a4bd47d3ed71e688924390b4c137682c776d18e2",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "                                                                                        PJM Interconnection, L.L.C.\n                                                                                                 2750 Monroe Blvd\n                                                                                               Audubon, PA 19403\n\n                                                                                                      Daniel Vinnik\n                                                                                                           Counsel\n                                                                                                 T: (267) 858-9451\n                                                                                            Daniel.Vinnik@pjm.com\n\n\n\n\nFebruary 23, 2026\n\nHonorable Debbie-Anne A. Reese\nSecretary\nFederal Energy Regulatory Commission\n888 First Street, N.E. Room 1A\nWashington, D.C. 20426\n\nRe:        PJM Interconnection L.L.C., Docket Nos. EL25-49-000 and -001\n           Supplemental Informational Report\n\nDear Secretary Reese:\n\n           As referenced in the January 20, 2026 informational report, 1 PJM Interconnection, L.L.C.\n\n(“PJM”) submits this supplemental informational filing with additional detail regarding the\n\ntimeline and process for developing the revisions to the backstop procurement tariff construct and\n\nthe timing of commencing the revised backstop procurement process to the Federal Energy\n\nRegulatory Commission (“Commission”).\n\n      I.       INFORMATIONAL FILING\n\n           PJM and stakeholders have commenced the process for developing the reliability backstop\n\nprocurement construct at the February 6, 2026 Reliability Backstop Procurement Workshop.2\n\nUnder the current timeline, PJM is targeting implementation of a reliability backstop procurement\n\n\n\n\n1\n    PJM Interconnection, L.L.C., Informational Report at 5, Docket No. EL25-49-000 (Jan. 20, 2026).\n2\n PJM Interconnection, L.L.C., Reliability Backstop Procurement Workshop, Discussion Around Goals, Principles\nand Elements of a Reliability Backstop Procurement (Feb. 6, 2026) https://www.pjm.com/-\n/media/DotCom/committees-groups/workshops/rbpw/2026/20260206/20260206-item-02---goals-principles-and-\nelements.pdf; PJM Interconnection, L.L.C., Reliability Backstop Procurement Workshop, Overview of Reliability\nBackstop Workshops (Feb. 6, 2026) https://www.pjm.com/-/media/DotCom/committees-\ngroups/workshops/rbpw/2026/20260206/20260206-item-01---overview-of-reliability-backstop-workshops.pdf.\n\fHonorable Debbie-Anne A. Reese, Secretary\nFebruary 23, 2026\nPage 2 of 3\n\nprior to the December 2026 Base Residual Auction for the 2029/2030 Delivery Year, with a\n\nspecific target (subject to potential revision) of running such an auction in September 2026. 3\n\n        Consistent with the above targets, PJM would plan to make a filing to meet the above\n\nplanned auction timeline. In order to provide for stakeholder input while balancing the need for\n\ntimely presentation of a proposed auction design to the Commission, PJM is planning several\n\nworkshops through mid-March. 4 PJM and stakeholders are therefore already actively in the\n\nprocess of developing the forthcoming revised backstop procurement process, as evidenced by the\n\nseveral proposals already submitted for consideration. 5 Specifically, at the February 17, 2026\n\nworkshop, stakeholders presented various initial proposals, and, on the next day, PJM discussed\n\nits initial thoughts and design of a reliability backstop construct with stakeholders. Additionally,\n\nstakeholder meetings on the reliability backstop process are currently scheduled for February 24,\n\n2026, February 25, 2026, March 4, 2026, and March 5, 2026. Additional meetings to discuss the\n\nreliability backstop construct will be scheduled as needed with the goal of ultimately implementing\n\n\n\n3\n See Department of Energy, Statement of Principles Regarding PJM (Jan. 16, 2026),\nhttps://www.energy.gov/documents/statement-principles-regarding-pjm; PJM Interconnection, L.L.C., Reliability\nBackstop Procurement Workshop, Next Steps (Feb. 6, 2026) https://www.pjm.com/-/media/DotCom/committees-\ngroups/workshops/rbpw/2026/20260206/20260206-item-03---next-steps.pdf.\n4\n Meeting details and materials for the Reliability Backstop Procurement Workshop can be found at\nhttps://www.pjm.com/committees-and-groups/workshops/rbpw.\n5\n  See Constellation Energy Corporation, LLC, et al., Joint Stakeholder Proposal for Reliability Backstop Auction\n(Feb. 17, 2026), https://www.pjm.com/-/media/DotCom/committees-\ngroups/workshops/rbpw/2026/20260217/20260217-item-02a---joint-stakeholder-proposal---constellation-vistra-\nalphagen-earthrise---presentation.pdf; Cross-Sector Reliability Coalition, PJM Presentation to RBA Workshop (Feb.\n17, 2026), https://www.pjm.com/-/media/DotCom/committees-groups/workshops/rbpw/2026/20260217/20260217-\nitem-02b---cross-sector-reliability-coalition---talen-amazon-cpv---presentation.pdf; Independent Market Monitor for\nPJM, Proposed backstop auction design (Feb. 10, 2026), https://www.pjm.com/-/media/DotCom/committees-\ngroups/workshops/rbpw/2026/20260217/20260217-item-02c---backstop-auction-design-proposal---imm---\npresentation.pdf; Maryland Office of People’s Counsel, et al., Reliability Backstop Mechanism (Feb. 17, 2026),\nhttps://www.pjm.com/-/media/DotCom/committees-groups/workshops/rbpw/2026/20260217/20260217-item-02d---\nreliability-backstop-mechanism-goals-principles-elements---md-pa-de-consumer-advocates---presentation.pdf.\n\n\n                                                         2\n\fHonorable Debbie-Anne A. Reese, Secretary\nFebruary 23, 2026\nPage 3 of 3\n\nsuch a backstop procurement prior to the December 2026 Base Residual Auction for the 2029/2030\n\nDelivery Year.\n\n         II.     CONCLUSION\n\n         PJM pledges to keep the Commission informed of the timeline for submission of a filing\n\nto the Commission if changes to the current timeline become necessary. PJM appreciates the\n\nCommission and stakeholders’ dedication and understanding given the tight timelines and tasks\n\nahead.\n\n\n\n\n                                                    Respectfully submitted,\n\n                                                    /s/ Daniel Vinnik\n\n Craig Glazer                                       Daniel Vinnik\n Vice President – Federal Government Policy         Counsel\n PJM Interconnection, L.L.C.                        PJM Interconnection, L.L.C.\n 1200 G Street, N.W.                                2750 Monroe Boulevard\n Suite 600                                          Audubon, PA* 19403\n Washington, D.C. 20005                             *(Licensed in the District of\n (202) 423-4743                                     Columbia and Illinois)\n Craig.Glazer@pjm.com                               (267) 858-9451\n                                                    Daniel.Vinnik@pjm.com\n\n\n                                                    On behalf of\n                                                    PJM Interconnection, L.L.C.\n\n\n\n\n                                               3\n\f                                CERTIFICATE OF SERVICE\n\n       I hereby certify that I have this 23rd day of February, 2026 caused a copy of the foregoing\n\ndocument to be served upon each person designated on the official service lists compiled by the\n\nSecretary in this proceeding.\n\n                                             /s/ Daniel Vinnik\n                                             Daniel Vinnik\n                                             Counsel\n                                             PJM Interconnection, L.L.C.\n                                             2750 Monroe Boulevard\n                                             Audubon, PA 19403\n                                             (267) 858-9451\n                                             Daniel.Vinnik@pjm.com\n\f"
+  }
+ ]
+}

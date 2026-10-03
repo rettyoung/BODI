@@ -1,0 +1,42 @@
+{
+ "id": "FERC:20260309-5267",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49",
+ "title": "Motion for Leave to Answer and Answer of PJM Interconnection, L.L.C. to the 02/20/2026 Motion for Leave to Answer and Answer, and the 01/20/2026 Request for Clarification etc. of Constellation Energy Generation under EL25-49 et al.",
+ "filed": "2026-03-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260309-5267",
+ "entity": "PJM Interconnection, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "50147018-B7A1-CFF8-B59E-9CD43D100000",
+   "name": "20260309-el25-49-000.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-03-09"
+ },
+ "collected_at": "2026-10-03T21:00:39Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

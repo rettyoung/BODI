@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-72",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "9/14/2026 | Rhonda Peysen | COM | My name is Rhonda Peysen and I live at 433 Mahler Rd, Wichita Falls, TX 76310. The 1000 MW request sits 1 road over from my home. I would like the audit applied to Project Raptor specifically.",
+ "filed": "2026-09-14",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=72",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "72"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

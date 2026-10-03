@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5069",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-72",
+ "title": "(doc-less) Motion to Intervene of National Grid plc, on behalf of National Grid Ventures, under EL26-72.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5069",
+ "entity": "National Grid Plc",
+ "fetch": [
+  {
+   "ferc_file": "05C11879-8121-CABB-9FAD-9F476E200000",
+   "name": "1769468_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-72",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:04:18Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

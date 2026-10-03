@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260901-5227",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-573",
+ "title": "Enable Gas Transmission, LLC submits Prior Notice Request to construct, etc. natural gas pipeline facilities located in Pope and Johnson Counties, Arkansas for the Clarksville Lateral Project under CP26-573.",
+ "filed": "2026-09-01",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260901-5227",
+ "entity": "Enable Gas Transmission, LLC",
+ "fetch": [
+  {
+   "ferc_file": "B4F9293C-BF60-C576-93EE-A05E90500000",
+   "name": "PUBLIC_CP26-PRN-EGT_Clarksville Lateral_TL-Appl-CER and Appendices A-E_Vol 1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "90AE9885-A24E-C52B-8B42-A05E90600000",
+   "name": "PUBLIC_CP26-PRN- EGT_Clarksville Lateral_Append F-H_Prot Agmt_Vol I.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Prior Notice Request under Blanket Certificate"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-01"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5192",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-71",
+ "title": "(doc-less) Motion to Intervene of Invenergy Wind Development North America LLC et al. under EL26-71.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5192",
+ "entity": "Invenergy Wind Development North America LLC; Invenergy Thermal Development Holdings LLC; Invenergy Solar Development North America LLC",
+ "fetch": [
+  {
+   "ferc_file": "B7AD9FC0-31D3-C616-AC95-9F481DA00000",
+   "name": "1769633_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-71",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:04:00Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

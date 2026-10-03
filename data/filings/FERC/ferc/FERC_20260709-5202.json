@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5202",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-68",
+ "title": "(doc-less) Motion to Intervene of East Texas Electric Cooperative, Inc. under EL26-68.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5202",
+ "entity": "East Texas Electric Cooperative, Inc.; East Texas Electric Cooperative, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "8C085FF0-3E67-C6FC-A09D-9F4825200000",
+   "name": "1769648_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-68",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:02:48Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

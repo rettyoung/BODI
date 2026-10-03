@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260727-5258",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "RM25-12",
+ "title": "Comments of Beyond Extreme Energy, 198 methods, and Climate Hawks Vote Civic Action, including 11,791 individuals in response to FERC's 05/21/2026 Notice of Proposed Rulemaking under RM25-12.",
+ "filed": "2026-07-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260727-5258",
+ "entity": "Beyond Extreme Energy; 198 Methods; CLIMATE HAWKS VOTE CIVIC ACTION",
+ "fetch": [
+  {
+   "ferc_file": "14923493-C0FE-C029-A3D7-9FAE64800000",
+   "name": "combined redacted FERC Blanket Cert comments for delivery 20260727.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "99C12E42-1265-CDCD-AA6F-9FAE64800000",
+   "name": "cover letter forFERC blanket cert 20260727 (1).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-27"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

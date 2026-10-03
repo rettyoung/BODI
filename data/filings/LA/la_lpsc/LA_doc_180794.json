@@ -1,0 +1,24 @@
+{
+ "id": "LA:doc:180794",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Motion for Subpoena for the Production of Documents for Alliance for Affordable Energy and Union of Concerned Scientists",
+ "filed": "2026-06-30",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=180794",
+ "fetch": [
+  {
+   "la_document": 180794
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:46:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

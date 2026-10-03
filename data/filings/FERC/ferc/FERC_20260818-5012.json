@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260818-5012",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-80",
+ "title": "Transwestern Pipeline Company, LLC submits second supplemental response to FERC’s 05/15/2026 environmental information request re the application for the Green Chile Project under CP26-80.",
+ "filed": "2026-08-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260818-5012",
+ "entity": "Transwestern Pipeline Company, LLC",
+ "fetch": [
+  {
+   "ferc_file": "58307E29-DE5C-C992-9D14-A014E2400000",
+   "name": "PUBLIC_CP26-80_TW 2nd SUP-RESP-EIR No.2-GC_2026.08.17.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-17"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-26",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "7/7/2026 | PUC OPDM | PL | ORDER OF REFERRAL",
+ "filed": "2026-07-07",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=26",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "26"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,28 @@
+{
+ "id": "TX:59142-7",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "1/29/2026 | Rose City Partners, Schaper Energy Consulting, Crusoe Energy Systems, Outlaw Ventures, Solomon Data Systems, Eolic Development Partners, Zero Emission Grid, Juvo Energy, Belisari, and V-Wire | COM | OPEN LETTER TO THE COMMISSION REGARDING ERCOT'S INTERCONNECTION PROCESS FOR LARGE LOADS",
+ "filed": "2026-01-29",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=7",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "7"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [
+  "Crusoe"
+ ],
+ "documents": []
+}

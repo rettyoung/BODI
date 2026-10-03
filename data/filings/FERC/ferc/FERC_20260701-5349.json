@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260701-5349",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL24-148,EL25-105,EL25-18,EL25-20,EL25-46,EL25-76,ER24-1649,ER24-1790,ER24-2045,ER24-2195,ER24-2336,ER24-2338,ER24-26,ER24-2835,ER24-2864,ER24-3076,ER24-754,ER24-843,ER24-98,ER25-1128,ER25-1357,ER25-140,ER25-142,ER25-2234,ER25-712,ER25-775,ER25-785",
+ "title": "Exelon Corporation et al. submit request to update the service list under ER22-1520 et al.",
+ "filed": "2026-07-01",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260701-5349",
+ "entity": "Exelon Corporation; Exelon Corporation",
+ "fetch": [
+  {
+   "ferc_file": "C6FE1BB1-48FA-CBD2-8C49-9F1F65A00002",
+   "name": "07-01-26 Exelon's Substitution of Counsel Case Requests.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL25-20",
+  "issued": "2026-07-01"
+ },
+ "collected_at": "2026-10-03T21:08:48Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

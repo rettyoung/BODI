@@ -1,0 +1,25 @@
+{
+ "id": "TX:59475-5215",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/28/2026 | ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICES CORPORATION | TEST | REBUTTAL TESTIMONY OF CORIN E. COOLEY, P.E., WITNESS FOR ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICES CORPORATION",
+ "filed": "2026-05-28",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5215",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5215"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

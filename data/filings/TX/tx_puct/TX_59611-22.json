@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-22",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "6/8/2026 | New Horizon Devco, LLC and Southwest Power Connection, LLC | PL | Response Of New Horizon Devco, LLC and Southwest Power Connection, LLC to El Paso Electric Company’s Objection to New Horizon Devco, LLC and Southwest Power Connection, LLC’s Motions to Intervene",
+ "filed": "2026-06-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=22",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "22"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

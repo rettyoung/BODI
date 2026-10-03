@@ -1,0 +1,23 @@
+{
+ "id": "TX:58482-18",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "4/8/2026 | ONCOR ELECTRIC DELIVERY COMPANY LLC | COM | ONCOR ELECTRIC DELIVERY’S RESPONSE TO COMMISSION STAFF’S FIRST SET OF QUESTIONS FOR COMMENTS",
+ "filed": "2026-04-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=18",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "18"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

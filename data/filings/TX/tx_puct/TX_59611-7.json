@@ -1,0 +1,25 @@
+{
+ "id": "TX:59611-7",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "5/5/2026 | TIEC | PL | TEXAS INDUSTRIAL ENERGY CONSUMERS’ MOTION TO INTERVENE",
+ "filed": "2026-05-05",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=7",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "7"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Texas Industrial Energy Consumers"
+ ],
+ "documents": []
+}

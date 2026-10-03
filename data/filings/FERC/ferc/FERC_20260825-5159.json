@@ -1,0 +1,56 @@
+{
+ "id": "FERC:20260825-5159",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3437",
+ "title": "Motion to Intervene and Protest of the State of Washington and the Washington Utilities and Transportation Commission re TransAlta Centralia Generation LLC's Application for Cost Recovery under ER26-3437.",
+ "filed": "2026-08-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260825-5159",
+ "entity": "State of Washington",
+ "fetch": [
+  {
+   "ferc_file": "F84D8E16-5428-CB10-9C07-A03AB7600000",
+   "name": "2026.8.26 Mot Intervene & Comments on TA Rate Filing 2.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "999B0E35-2C56-C850-A5DC-A03AB7600000",
+   "name": "ExA_RFR(Jan)_pt1of3.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "0411A968-25C1-C438-89F3-A03AB7800000",
+   "name": "ExA_RFR(Jan)_pt2of3.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "30FD3DEE-9E9D-C4AB-894E-A03AB7900000",
+   "name": "ExA_RFR(Jan)_pt3of3.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-08-25"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260617-5094",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2233",
+ "title": "Portland General Electric submits revised Quality Control Inspection Program re the Flow Control Structure Rubber Dams of the Willamette Falls Hydroelectric Project under P-2233. ",
+ "filed": "2026-06-17",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260617-5094",
+ "entity": "PGE",
+ "fetch": [
+  {
+   "ferc_file": "9D08538F-4FA0-C93E-85BA-9ED6EA000000",
+   "name": "06172026 WF-03 FCS Bulkhead QCIP Rev_1 - Enclosure.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Dam Safety Compliance Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-06-17"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

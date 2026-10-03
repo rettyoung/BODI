@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4707",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/17/2026 | JEFF JOYCE | PL | Statement of Number of Persons Attending for Intervenors Jeff and Toy Joyce",
+ "filed": "2026-05-17",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4707",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4707"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

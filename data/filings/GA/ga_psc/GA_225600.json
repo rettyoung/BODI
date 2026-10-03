@@ -1,0 +1,21 @@
+{
+ "id": "GA:225600",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "56002",
+ "title": "2025 Annual Transmission Update PD",
+ "filed": "2026-02-27",
+ "entity": "Georgia Power Company",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=225600",
+ "fetch": [
+  {
+   "ga_document": 225600
+  }
+ ],
+ "collected_at": "2026-10-03T21:18:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

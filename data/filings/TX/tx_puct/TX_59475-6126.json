@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6126",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/13/2026 | Link R1 Opposition Landowners | EX | Admitted Exhibit List",
+ "filed": "2026-06-13",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6126",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6126"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,26 @@
+{
+ "id": "LA:doc:179764",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Motion to Intervene Out of Time and Request for Inclusion on the Service List for Walmart Inc.",
+ "filed": "2026-04-21",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=179764",
+ "fetch": [
+  {
+   "la_document": 179764
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:45:52Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Walmart"
+ ],
+ "documents": []
+}

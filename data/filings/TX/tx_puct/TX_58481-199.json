@@ -1,0 +1,25 @@
+{
+ "id": "TX:58481-199",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/17/2026 | Crusoe Technologies LLC | COM | CRUSOE TECHNOLOGIES LLC’S COMMENTS ON STAFF’S PROPOSAL FOR PUBLICATION OF NEW 16 TAC § 25.194",
+ "filed": "2026-04-17",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=199",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "199"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Crusoe"
+ ],
+ "documents": []
+}

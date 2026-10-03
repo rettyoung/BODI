@@ -1,0 +1,23 @@
+{
+ "id": "TX:58317-12",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "1/30/2026 | PUC RULES & PROJECTS | PRJ | OM Item No. 46 - Staff Memo and Updated Roadmap",
+ "filed": "2026-01-30",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=12",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "12"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

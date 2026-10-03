@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260528-5262",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-1394",
+ "title": "Southern California Edison submits Pre-Inspection Preparation Report for the Part 12D Comprehensive Assessment re the Bishop Creek Intake No. 2 Development of the Bishop Creek Hydroelectric Project under P-1394.",
+ "filed": "2026-05-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260528-5262",
+ "entity": "Southern California Edison",
+ "fetch": [
+  {
+   "ferc_file": "EB9CDE9F-0BEF-C399-9326-9E7043700000",
+   "name": "20260528_P-1394 Bishop Intake 2_CA PIPR_final.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-05-28"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

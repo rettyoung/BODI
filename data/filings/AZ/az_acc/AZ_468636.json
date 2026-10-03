@@ -1,0 +1,24 @@
+{
+ "id": "AZ:468636",
+ "jur": "AZ",
+ "source": "az_acc",
+ "kind": "filing",
+ "docket": "E-01773A-26-0123",
+ "title": "Decision",
+ "filed": "2026-08-27",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29858",
+ "entity": "ACC (#82128)",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/0000217295.pdf"
+  }
+ ],
+ "meta": {
+  "docketID": 29858
+ },
+ "collected_at": "2026-10-03T21:18:05Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

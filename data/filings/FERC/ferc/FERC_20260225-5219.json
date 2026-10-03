@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20260225-5219",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL25-49,ER26-1479",
+ "title": "Notice of Compliance Filing in ER26-1479-000 of PJM Interconnection, L.L.C., under EL25-49.",
+ "filed": "2026-02-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260225-5219",
+ "entity": "PJM Interconnection, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "46C4286B-6420-C796-A0C4-9CAF1E700000",
+   "name": "20260224-el25-49-000 et al..pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "General Correspondence"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-02-24"
+ },
+ "collected_at": "2026-10-03T21:00:45Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "20260224-el25-49-000 et al..pdf",
+   "bytes": 191745,
+   "sha256": "2dfb4e0051b2d9eedde9b558af671f9bf821cc2aa1b32a4efff759cf7a37995a",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                                                  PJM Interconnection, L.L.C.\n                                                                  2750 Monroe Boulevard\n                                                                  Audubon, PA 19403\n\n                                                                  Mark J. Stanisz\n                                                                  Associate General Counsel\n                                                                  Ph: (610) 666-4707\nFebruary 24, 2026                                                 Mark.Stanisz@pjm.com\n\n\nVIA ELECTRONIC FILING\n\nHonorable Debbie-Anne A. Reese, Secretary\nFederal Energy Regulatory Commission\n888 First Street, NE, Room 1A\nWashington, DC 20426\n\nRe:       PJM Interconnection, L.L.C., Docket No. EL25-49-000, et al.\n          Compliance Filing in Docket No. ER26-1479-000\n\nDear Secretary Reese:\n\n       This letter, being served on all parties to the above-referenced proceeding, confirms\nthat PJM Interconnection, L.L.C. (“PJM”) submitted on February 23, 2026 a filing in\nDocket No. ER26-1479-000 (Accession No. 20260223-5181) in compliance with the\nFederal Energy Regulatory Commission’s 60-day compliance directives in the December\n18, 2025 order. 1 PJM requested a placeholder effective date of 12/31/9998. On February\n24, 2026, the Commission set 5 pm ET on March 16, 2026 for comments on this filing.\n\n                                                    Respectfully submitted,\n\n                                                     /s/ Mark J. Stanisz\n       Craig Glazer\n       Vice President – Federal                     Mark J. Stanisz\n       Government Policy                            Associate General Counsel\n       PJM Interconnection, L.L.C.                  Thomas DeVita\n       1200 G Street, NW, Suite 600                 Associate General Counsel\n       Washington, DC 20005                         Chenchao Lu\n       (202) 423-4743                               Associate General Counsel\n       craig.glazer@pjm.com                         2750 Monroe Blvd,\n                                                    Audubon, PA 19403\n                                                    (610) 666-8800\n                                                    mark.stanisz@pjm.com\n                                                    thomas.devita@pjm.com\n                                                    chenchao.lu@pjm.com\n\nCounsel for PJM Interconnection, L.L.C.\n\n\n\n\n1\n    PJM Interconnection, L.L.C., 193 FERC ¶ 61,217 (2025).\n\f                           CERTIFICATE OF SERVICE\n\n       I hereby certify that I have this day served the foregoing document upon each\n\nperson designated on the official service list compiled by the Secretary in these\n\nproceedings.\n\n       Dated at Audubon, P.A., this 24th day of February, 2026.\n\n\n\n                                           /s/ Mark J. Stanisz\n                                           Mark J. Stanisz\n                                           Associate General Counsel\n                                           PJM Interconnection, L.L.C.\n                                           2750 Monroe Blvd.\n                                           Audubon, PA 19403\n                                           (610) 666-4707\n                                           Mark.Stanisz@pjm.com\n\n                                           Attorney for\n                                           PJM Interconnection, L.L.C.\n\f"
+  }
+ ]
+}

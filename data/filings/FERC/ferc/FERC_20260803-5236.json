@@ -1,0 +1,38 @@
+{
+ "id": "FERC:20260803-5236",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49,ER26-1479",
+ "title": "Answer of Constellation Energy Generation, LLC in support of PJM Interconnection, L.L.C's Motion for Extension of Time under EL25-49 et al.",
+ "filed": "2026-08-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260803-5236",
+ "entity": "Constellation Energy Generation, LLC",
+ "fetch": [
+  {
+   "ferc_file": "0BC319F4-6DA3-CAC9-9150-9FC94DF00000",
+   "name": "Constellation Answer to PJM Motion for Extension of Time.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-08-03"
+ },
+ "collected_at": "2026-10-03T20:57:45Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

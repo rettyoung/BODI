@@ -1,0 +1,25 @@
+{
+ "id": "TX:59142-14",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "3/5/2026 | ERCOT | PRJ | ERCOT LARGE LOAD BATCH STUDY UPDATE",
+ "filed": "2026-03-05",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=14",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "14"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

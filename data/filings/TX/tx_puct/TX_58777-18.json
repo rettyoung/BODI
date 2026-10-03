@@ -1,0 +1,23 @@
+{
+ "id": "TX:58777-18",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "3/2/2026 | Texas Electric Cooperatives, Inc. | PRJ | Comments of Texas Electric Cooperatives, Inc.",
+ "filed": "2026-03-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=18",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "18"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

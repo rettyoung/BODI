@@ -1,0 +1,20 @@
+{
+ "id": "MO:635112",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ET-2025-0184",
+ "title": "189",
+ "filed": "2025-12-17",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/635112",
+ "fetch": [
+  {
+   "mo_filing": "635112"
+  }
+ ],
+ "collected_at": "2026-10-03T20:55:57Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

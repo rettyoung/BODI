@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260717-5012",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "(doc-less) Out-of-Time Motion to Intervene of Midwest Large Energy Consumers under EL26-70.",
+ "filed": "2026-07-17",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260717-5012",
+ "entity": "Midwest Large Energy Consumers",
+ "fetch": [
+  {
+   "ferc_file": "B16075C5-252C-C1F9-9D23-9F700CB00000",
+   "name": "1772715_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-07-16"
+ },
+ "collected_at": "2026-10-03T21:03:34Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

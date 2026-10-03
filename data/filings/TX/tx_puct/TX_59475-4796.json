@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4796",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/20/2026 | TRAVIS & JENNIFER REPPOND | PL | Notice of Intent to appear via virtual means (Zoom or otherwise) at hearings on the merits [Line D-11] Parcel 3049",
+ "filed": "2026-05-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4796",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4796"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

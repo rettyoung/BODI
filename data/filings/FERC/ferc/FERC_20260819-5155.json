@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260819-5155",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PF26-9",
+ "title": "Transwestern Pipeline Company, LLC submits response to scoping period comments re the Desert Southwest Expansion Project under PF26-9.",
+ "filed": "2026-08-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260819-5155",
+ "entity": "Transwestern Pipeline Company, LLC",
+ "fetch": [
+  {
+   "ferc_file": "D4FDC20F-67BD-C4E4-9C9D-A01B9F700000",
+   "name": "(2026.08.19)--PF26-9-000 TW Response to Scoping Comments.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "General Correspondence"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-19"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,28 @@
+{
+ "id": "TX:58481-136",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/10/2026 | Zachary Butler, Blind Mice Labs | COM | Public Comment on SB 6 Large-Load Interconnection Standards — Satellite-Based Evidence of Data Center Roof Thermal Degradation and Grid Demand Impact (403 TX Facilities, 27M SF, $101M Annual Energy Waste, 247M Gallons Avoidable Water)",
+ "filed": "2026-04-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=136",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "136"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection",
+  "large-load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

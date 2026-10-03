@@ -1,0 +1,27 @@
+{
+ "id": "TX:58481-156",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/16/2026 | SATOSHI ENERGY CORP. | COM | SATOSHI ENERGY COMMENTS ON STAFF'S PROPOSAL FOR PUBLICATION ON PROJECT NO. 58481, RULEMAKING TO IMPLEMENT LARGE LOAD INTERCONNECTION STANDARDS UNDER PURA §37.0561",
+ "filed": "2026-04-16",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=156",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "156"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

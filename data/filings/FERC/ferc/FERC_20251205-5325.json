@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251205-5325",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Reply Comment of Americans for a Clean Energy Grid under RM26-4.",
+ "filed": "2025-12-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251205-5325",
+ "entity": "Americans for a Clean Energy Grid",
+ "fetch": [
+  {
+   "ferc_file": "B1F5B685-440E-C98F-9C2B-9AF086B00000",
+   "name": "ACEG ANOPR Reply Comments_RM26-4-000_Final.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2025-12-05"
+ },
+ "collected_at": "2026-10-03T21:07:33Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

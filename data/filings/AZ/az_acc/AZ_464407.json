@@ -1,0 +1,24 @@
+{
+ "id": "AZ:464407",
+ "jur": "AZ",
+ "source": "az_acc",
+ "kind": "filing",
+ "docket": "E-01345A-25-0105",
+ "title": "Late-Filed Exhibit/s",
+ "filed": "2026-06-01",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+ "entity": "Andy McCoy, Atty.",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000051932.pdf"
+  }
+ ],
+ "meta": {
+  "docketID": 29551
+ },
+ "collected_at": "2026-10-03T21:18:05Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

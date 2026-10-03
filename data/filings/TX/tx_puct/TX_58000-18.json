@@ -1,0 +1,27 @@
+{
+ "id": "TX:58000-18",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "8/9/2026 | SIERRA CLUB | COM | Brief Comments on Proposed Transmission Cost Allocation Rule (58000)",
+ "filed": "2026-08-09",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=18",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "18"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "cost allocation"
+ ],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

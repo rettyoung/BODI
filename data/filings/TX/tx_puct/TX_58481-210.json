@@ -1,0 +1,27 @@
+{
+ "id": "TX:58481-210",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "9/4/2026 | Clinton Brooks Herman | PC | Re: Project No. 58481 - Large Load Interconnection Standards",
+ "filed": "2026-09-04",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=210",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "210"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

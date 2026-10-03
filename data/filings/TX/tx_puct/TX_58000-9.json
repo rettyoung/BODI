@@ -1,0 +1,23 @@
+{
+ "id": "TX:58000-9",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "7/9/2026 | RULES & PROJECTS | PRJ | Texas Register Acknowledgement of Receipt - Comments Due 08.11.2026",
+ "filed": "2026-07-09",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=9",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "9"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

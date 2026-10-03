@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260714-5084",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "(doc-less) Out-of-Time Motion to Intervene of NRG Business Marketing LLC et al. under EL26-67.",
+ "filed": "2026-07-14",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260714-5084",
+ "entity": "NRG Business Marketing LLC; NRG Business Marketing LLC; NRG Business Marketing LLC; Midwest Generation, LLC; Midwest Generation, LLC; NRG Business Marketing LLC; Midwest Generation, LLC; Midwest Generation, LLC",
+ "fetch": [
+  {
+   "ferc_file": "23FA62F1-0C82-C1E1-9575-9F61E9E00001",
+   "name": "1771204_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-07-14"
+ },
+ "collected_at": "2026-10-03T21:02:15Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "NRG"
+ ],
+ "documents": []
+}

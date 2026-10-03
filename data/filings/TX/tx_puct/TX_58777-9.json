@@ -1,0 +1,23 @@
+{
+ "id": "TX:58777-9",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "1/30/2026 | PUC MARKET ANALYSIS | PRJ | Questions for Comment on ERCOT's Proposed Assumptions for the 2026 Reliability Assessment",
+ "filed": "2026-01-30",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=9",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "9"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

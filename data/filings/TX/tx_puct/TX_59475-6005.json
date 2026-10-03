@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6005",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/8/2026 | SOAH | PL | SOAH ORDER NO. 31 - CORRECTING INITIAL LIST OF EXHIBITS TO BE ADMITTED; CORRECTING ORDER OF PRESENTATION; AND PROVIDING PRELIMINARY LIST OF WITNESSES FOR CROSS-EXAMINATION",
+ "filed": "2026-06-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6005",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6005"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

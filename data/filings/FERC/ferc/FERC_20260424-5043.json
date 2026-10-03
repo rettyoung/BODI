@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260424-5043",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "(doc-less) Motion to Intervene of MARA Holdings, Inc. under RM26-4.",
+ "filed": "2026-04-24",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260424-5043",
+ "entity": "MARA Holdings, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "0ED4790F-B9BA-C185-92E0-9DBFCCB00000",
+   "name": "1744006_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-04-24"
+ },
+ "collected_at": "2026-10-03T21:06:24Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

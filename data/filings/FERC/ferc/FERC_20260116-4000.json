@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260116-4000",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL25-49",
+ "title": " Non-Decisional: Emerald AI submits comment to FERC's Chairman and Commissioners regarding the FERC Co-Location Show Cause to PJM , (the two redactions reflect information that Emerald AI has identified as commercially sensitive) under EL25-49.",
+ "filed": "2026-01-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260116-4000",
+ "entity": "EMERALD AI",
+ "fetch": [
+  {
+   "ferc_file": "510D2FCA-0692-CA07-9EF4-9BC7ED100000",
+   "name": "Emerald AI ex parte communication.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-01-16"
+ },
+ "collected_at": "2026-10-03T21:01:42Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

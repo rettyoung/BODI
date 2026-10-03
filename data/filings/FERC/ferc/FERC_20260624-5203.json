@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260624-5203",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-72",
+ "title": "(doc-less) Motion to Intervene of Public Citizen, Inc under EL26-72.",
+ "filed": "2026-06-24",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260624-5203",
+ "entity": "PUBLIC CITIZEN, INC",
+ "fetch": [
+  {
+   "ferc_file": "3AA574CE-B8A9-CC05-927A-9EFEAF100000",
+   "name": "1765530_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-72",
+  "issued": "2026-06-24"
+ },
+ "collected_at": "2026-10-03T21:04:21Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

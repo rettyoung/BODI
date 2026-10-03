@@ -1,0 +1,23 @@
+{
+ "id": "TX:58317-43",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "8/24/2026 | Darian Stern | PC | Public Comments and Complaints",
+ "filed": "2026-08-24",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=43",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "43"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

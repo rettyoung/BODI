@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260630-5402",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER10-2881,ER10-2882,ER10-2883,ER10-2884,ER16-2509,ER17-2400,ER17-2401,ER17-2403,ER17-2404",
+ "title": "Triennial Market Power Analysis for Southeast Region of Alabama Power Company, et al. under ER10-2881, et al.",
+ "filed": "2026-06-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260630-5402",
+ "entity": "Alabama Power Company; Georgia Power Company; Rutherford Farm, LLC; SP Decatur Parkway Solar, LLC; Mississippi Power Company; SP Butler Solar, LLC; SP PawPaw Solar, LLC; SP Sandhills Solar, LLC; Southern Power Company",
+ "fetch": [
+  {
+   "ferc_file": "FE62B3BC-A3BB-CD6C-8C32-9F620DF00001",
+   "name": "PRIV-Southern SE Triennials ER10-2881 (6-30-2026).xlsx",
+   "type": "XLSX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Compliance Electric Rate Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-06-30"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

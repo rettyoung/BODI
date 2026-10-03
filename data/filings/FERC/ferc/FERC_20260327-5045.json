@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260327-5045",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-1731",
+ "title": "(doc-less) Motion to Intervene of Union Electric Company under ER26-1731.",
+ "filed": "2026-03-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260327-5045",
+ "entity": "Union Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "613BC79E-CA43-CFDE-93D9-9D2F79100000",
+   "name": "1730233_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-1731",
+  "issued": "2026-03-27"
+ },
+ "collected_at": "2026-10-03T21:10:10Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

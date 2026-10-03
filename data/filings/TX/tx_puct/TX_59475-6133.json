@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6133",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/15/2026 | John B. Bradley (aka John B. Bradley III) - Lazy S Ranch | PL | John B. Bradley of the Lazy S Ranch (aka John B. Bradley III), appearing pro se, and respectfully files this Admitted and Recorded Exhibit List admitted by ALJs on June 8th 2026.",
+ "filed": "2026-06-15",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6133",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6133"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

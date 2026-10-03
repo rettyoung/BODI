@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260120-5081",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-38",
+ "title": "(doc-less) Motion to Intervene of American Municipal Power, Inc. under EL26-38.",
+ "filed": "2026-01-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260120-5081",
+ "entity": "American Municipal Power, Inc.; American Municipal Power, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "F1DB5273-3C11-CA93-8595-9BDBFEB00000",
+   "name": "1700930_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-38",
+  "issued": "2026-01-20"
+ },
+ "collected_at": "2026-10-03T21:12:55Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:58317-46",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "8/25/2026 | Meredith McCall | PC | Oral Arguments on 59315 and 59029 and Transcripts from the July 29th B&C committee on Grid Reliability and 765 KV Transmission",
+ "filed": "2026-08-25",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=46",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "46"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

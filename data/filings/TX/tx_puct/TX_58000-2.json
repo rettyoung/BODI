@@ -1,0 +1,23 @@
+{
+ "id": "TX:58000-2",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "5/27/2026 | PUC RULES & PROJECTS | PRJ | Staff Memo and Restyle Request",
+ "filed": "2026-05-27",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=2",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "2"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

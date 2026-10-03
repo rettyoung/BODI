@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260813-3026",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "Errata to the Commission issued Order Instituting Proceeding Under Section 206 of the Federal Power Act; correcting the caption etc. re Midcontinent Independent System Operator, Inc. et al. under EL26-72. For order see accession number 20260618-3047. ",
+ "filed": "2026-08-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260813-3026",
+ "entity": "SECRETARY OF THE COMMISSION, FERC; COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION); SECRETARY OF THE COMMISSION, FERC",
+ "fetch": [
+  {
+   "ferc_file": "45F3447B-F9D1-CCDE-8A9B-9FFB5A800000",
+   "name": "EL26-70-000 Errata.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Commission Order/Opinion"
+   },
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Dissent/Concurrence by the Commissioner"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-08-13"
+ },
+ "collected_at": "2026-10-03T21:03:24Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "EL26-70-000 Errata.docx",
+   "bytes": 45166,
+   "sha256": "1c37ebd4969e121a1320dd08eb6c8c66ba864e068fab0a9fd611828f08b91567",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "196 FERC ¶ 61,123\nUNITED STATES OF AMERICA\nFEDERAL ENERGY REGULATORY COMMISSION\n\n\n\nERRATA NOTICE\n\n(August 13, 2026)\n\nOn June 18, 2026, the Commission issued an “Order Instituting Proceeding Under Section 206 of the Federal Power Act” in the above-captioned proceeding.  Midcontinent Indep. Sys. Operator, Inc., 195 FERC ¶ 61,212 (2026).  The caption in the order inadvertently included “Wabash Valley Power Association, Inc.” and footnote 11 inadvertently omitted “Wabash Valley Power Association, Inc.”  This errata notice hereby corrects the caption, as shown above, by deleting “Wabash Valley Power Association, Inc.”  In addition, this errata notice hereby corrects footnote 11 to add “Wabash Valley Power Association, Inc.,” as follows:\n\nTransmission Owners refers to the entities listed in the caption of this order.  We recognize that MISO’s transmission owners include entities that are not subject to the Commission’s jurisdiction because they are not public utilities pursuant to section 201(f) of the FPA.  See 16 U.S.C. § 824(f); Sw. Power Pool, Inc., 180 FERC ¶ 61,022, at PP 44-45 (2022).  Accordingly, the Commission has not included 1803 Electric Cooperative, Inc.; Ames Municipal Electric System; Arkansas Electric Cooperative Corporation; Big Rivers Electric Corporation; Board of Water, Electric and Communications Trustees of the City of Muscatine, Iowa; Central Minnesota Municipal Power Agency; Citizens Electric Corporation; City of Alexandria, Louisiana; City of Columbia, Missouri, Water & Light Department; City of Henderson, Kentucky, Utility Commission; City Water, Light and Power - City of Springfield, Illinois City Water and Light Plant of the City of Jonesboro; Cooperative Energy; Dairyland Power Cooperative; East Texas Electric Cooperative, Inc.; Great River Energy; Hoosier Energy Rural Electric Cooperative, Inc.; Indiana Municipal Power Agency; Lafayette City-Parish Consolidated Government; Michigan Public Power Agency; Michigan South Central Power Agency; Minnesota Municipal Power Agency; Missouri Joint Municipal Electric Utility Commission; Missouri River Energy Services; Municipal Electric Utility of the City of Cedar Falls, Iowa; Municipal Energy Agency of Nebraska; Prairie Power, Inc.; Rochester Public Utilities; Sam Houston Electric Cooperative, Inc.; Southern Illinois Power Cooperative; Southern Minnesota Municipal Power Agency; Wabash Valley Power Association, Inc.; Willmar Municipal Utilities; and WPPI Energy here as Transmission Owners that must respond to this order to show cause.  Nonetheless, the Commission retains the authority to review each entity’s formula rates as a component of MISO’s Tariff in an order to show cause directed towards MISO, and MISO must respond to this order regarding the non-public utilities’ MISO Tariff provisions on file with the Commission.  See Sw. Power Pool, Inc., 180 FERC ¶ 61,022 at P 40.\n\t\t\t\t\t\t\t\n\nDebbie-Anne A. Reese,\nSecretary."
+  }
+ ]
+}

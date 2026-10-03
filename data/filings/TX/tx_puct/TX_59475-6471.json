@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6471",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/2/2026 | PUC LEGAL | PL | COMMISSION STAFF’S EXCEPTIONS TO THE PROPOSAL FOR DECISION",
+ "filed": "2026-09-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6471",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6471"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

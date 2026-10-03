@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251231-3057",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AC26-18,EC26-43,EC26-44,EC26-45,EC26-46,EC26-47,EL26-36,ER10-2128,ER11-1933,ER14-1480,ER15-2589,ER17-259,ER17-260,ER17-262,ER18-2497,ER25-2514,ER26-85,ER26-86,ER26-88,ER26-924,ER26-925,ER26-926,ER26-927,ER26-928,ER26-929,ER26-930,ER26-931,ER26-932,PH26-4",
+ "title": "Combined Notice of Filings #1, December 31, 2025: This notice contains information concerning multiple filings received by FERC. ",
+ "filed": "2025-12-31",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251231-3057",
+ "entity": "SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "02090BA5-DCF7-CDEA-91D6-9B7652800000",
+   "name": "CNF123125.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "watched docket EL26-36",
+  "issued": "2025-12-31"
+ },
+ "collected_at": "2026-10-03T21:12:02Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

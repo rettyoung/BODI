@@ -1,0 +1,23 @@
+{
+ "id": "MODKT:EA-2025-0075",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "keyword_hit",
+ "docket": "EA-2025-0075",
+ "title": "New Missouri PSC case EA-2025-0075",
+ "filed": null,
+ "url": "https://www.efis.psc.mo.gov/Case/Display/90004",
+ "fetch": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Case/Display/90004"
+  }
+ ],
+ "meta": {
+  "new_docket": true
+ },
+ "collected_at": "2026-10-03T20:55:57Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260212-5158",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-1323",
+ "title": "(doc-less) Motion to Intervene of Advanced Energy United under ER26-1323.",
+ "filed": "2026-02-12",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260212-5158",
+ "entity": "Advanced Energy United",
+ "fetch": [
+  {
+   "ferc_file": "17F75C71-1A62-CF76-9D9B-9C53D9700000",
+   "name": "1713854_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-1323",
+  "issued": "2026-02-12"
+ },
+ "collected_at": "2026-10-03T21:09:42Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

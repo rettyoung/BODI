@@ -1,0 +1,23 @@
+{
+ "id": "TX:58000-61",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "8/11/2026 | TEXAS REP COALITION | COM | Texas Retail Electric Provider Coalition's Comments on the Proposal for Publication of Amendments to §25.192 and §25.193 and New §25.252",
+ "filed": "2026-08-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=61",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "61"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

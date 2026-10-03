@@ -1,0 +1,23 @@
+{
+ "id": "TX:58777-14",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "2/17/2026 | THOMAS L DARTE | LTRS | “I would like to have Central Records void 13 in docket (58777), as it was filed in error.”",
+ "filed": "2026-02-17",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=14",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "14"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,25 @@
+{
+ "id": "TX:59475-5806",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/4/2026 | A2 Segment Affected Landowners Coalition | PL | A2 SEGMENT AFFECTED LANDOWNERS MOTION TO CORRECT ATTACHMENT 2 FILED PURSUANT TO SOAH ORDER NO. 23. RONALD AND TERESA JURCA AND JEFFREY KIRBY",
+ "filed": "2026-06-04",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5806",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5806"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [],
+ "documents": []
+}

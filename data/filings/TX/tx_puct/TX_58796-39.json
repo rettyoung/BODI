@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-39",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "1/8/2026 | SOAH | PL | SOAH ORDER NO. 1 - FILING DESCRIPTION, JURISDICTION, SETTING PREHEARING CONFERENCE, GRANTING MOTION TO INTERVENE, AND ADDRESSING GENERAL PROCEDURES",
+ "filed": "2026-01-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=39",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "39"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4665",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/15/2026 | SOAH | PL | SOAH ORDER NO. 13- DENYING MOTIONS FOR ROUTE ADEQUACY HEARING AND CANCELING ROUTE ADEQUACY HEARING",
+ "filed": "2026-05-15",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4665",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4665"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

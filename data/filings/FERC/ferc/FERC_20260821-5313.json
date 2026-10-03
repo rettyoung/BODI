@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260821-5313",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3380",
+ "title": "Motion to Intervene and Request for Clarification, or in the Alternative, Limited Protest of Tract Holding Company I, LLC re PJM Interconnection, L.L.C.’s 07/31/2026 filing under ER26-3380.",
+ "filed": "2026-08-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260821-5313",
+ "entity": "Tract Holding Company I, LLC",
+ "fetch": [
+  {
+   "ferc_file": "041025CD-4F47-CCDC-9E39-A033AFF00000",
+   "name": "2026 0821 Tract - MTI and Request for Clarification or in the Alternative Limited Protest.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-08-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

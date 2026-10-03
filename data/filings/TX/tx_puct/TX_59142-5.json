@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-5",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "1/16/2026 | ERCOT | LTRS | LETTER RE FEBRUARY 3 2026 BATCH STUDY WORKSHOP",
+ "filed": "2026-01-16",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=5",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "5"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

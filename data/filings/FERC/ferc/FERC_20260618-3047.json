@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260618-3047",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-70",
+ "title": "Order Instituting Proceeding under Section 206 of the Federal Power Act re Midcontinent Independent System Operator, Inc. et al. under EL26-70. Chairman Swett, Commissioners Rosner, See, Chang and LaCerte are concurring with separate statements attached.",
+ "filed": "2026-06-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260618-3047",
+ "entity": "COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION); SECRETARY OF THE COMMISSION, FERC; SECRETARY OF THE COMMISSION, FERC",
+ "fetch": [
+  {
+   "ferc_file": "2013E316-860B-CDB4-9CE9-9EDB5DF00000",
+   "name": "EL26-70-000.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Commission Order/Opinion"
+   },
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Dissent/Concurrence by the Commissioner"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-06-18"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

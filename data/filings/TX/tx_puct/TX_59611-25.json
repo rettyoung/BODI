@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-25",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "6/26/2026 | PUC OPDM | PL | DRAFT PRELIMINARY ORDER WITH MEMORANDUM",
+ "filed": "2026-06-26",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=25",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "25"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

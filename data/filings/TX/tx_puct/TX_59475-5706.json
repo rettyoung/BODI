@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5706",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/3/2026 | The Linda Derrick Williams Estate | EX | Intervenor The Linda Faye Derrick Williams Estate's Hearing Exhibit List and Exhibits",
+ "filed": "2026-06-03",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5706",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5706"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

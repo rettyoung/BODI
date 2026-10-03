@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-15",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "5/22/2026 | Southwest Power Connection, LLC | PL | Southwest Power Connection, LLC Motion to Intervene",
+ "filed": "2026-05-22",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=15",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "15"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

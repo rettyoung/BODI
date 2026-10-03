@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260115-5067",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-38",
+ "title": "(doc-less) Notice of Intervention of Mississippi Public Service Commission under EL26-38.",
+ "filed": "2026-01-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260115-5067",
+ "entity": "Mississippi Public Service Commission",
+ "fetch": [
+  {
+   "ferc_file": "DB65AF63-8CFA-C4E2-9C1C-9BC259A00000",
+   "name": "1699461_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-38",
+  "issued": "2026-01-15"
+ },
+ "collected_at": "2026-10-03T21:12:55Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-45",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "1/22/2026 | OPUC | RFI | OPUC'S FIRST REQUEST FOR INFORMATION TO SOUTHWESTERN ELECTRIC POWER COMPANY",
+ "filed": "2026-01-22",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=45",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "45"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260903-5156",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3515",
+ "title": "Comments and Limited Protest of NRG Business Marketing LLC, et. al. re the Interim Resource Adequacy Service proposed by PJM Interconnection, L.L.C. under ER26-3515.",
+ "filed": "2026-09-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260903-5156",
+ "entity": "Enerwise Global Technologies, LLC; Green Mountain Energy Company; Green Mountain Energy Company; Green Mountain Energy Company; Independence Energy Group LLC; Independence Energy Group LLC; LSP University Park, LLC; Midwest Generation LLC; Midwest Generation LLC; NRG Curtailment Solutions, Inc.; NRG",
+ "fetch": [
+  {
+   "ferc_file": "B77E499C-1020-CB8A-82C4-A0689DC00003",
+   "name": "NRG IRAS Limited Protest - FINAL.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-09-03"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "resource adequacy"
+ ],
+ "party_hits": [
+  "NRG"
+ ],
+ "documents": []
+}

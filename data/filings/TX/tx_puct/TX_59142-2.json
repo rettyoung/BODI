@@ -1,0 +1,27 @@
+{
+ "id": "TX:59142-2",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "12/18/2025 | GOOGLE LLC, LANCIUM LLC | COM | Joint Comments of Google LLC and Lancium LLC as it pertains to ERCOT's Large Load Process Reforms",
+ "filed": "2025-12-18",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=2",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "2"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [
+  "Google"
+ ],
+ "documents": []
+}

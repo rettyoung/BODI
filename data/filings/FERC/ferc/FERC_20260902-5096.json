@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260902-5096",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-158",
+ "title": "WBI Energy Transmission, Inc. submits response to FERC's 08/19/2026 environmental information request re the application for the Line Section 32 Expansion Project under CP26-158.",
+ "filed": "2026-09-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260902-5096",
+ "entity": "WBI Energy Transmission, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "26A6620F-0C48-C777-85DC-A06366800000",
+   "name": "CP26-158 - WBI Energy Responses to an OEP Data Request Dated 8.19.2026 (PRIV).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-02"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

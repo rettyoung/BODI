@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-206",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "8/24/2026 | PUC RULES & PROJECTS | PRJ | Staff Memo w/Draft Recommended Changes to Proposed Rule",
+ "filed": "2026-08-24",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=206",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "206"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

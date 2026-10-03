@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-70",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "9/22/2026 | Kimberly Weiland | COM | Public comment on Data centers and large industrial complexes",
+ "filed": "2026-09-22",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=70",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "70"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

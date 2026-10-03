@@ -1,0 +1,24 @@
+{
+ "id": "NMDKT:26-0000114",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "keyword_hit",
+ "docket": "26-0000114",
+ "title": "IN THE MATTER OF PUBLIC SERVICE COMPANY OF NEW MEXICO’S APPLICATION FOR APPROVAL OF PURCHASED POWER AGREEMENTS, ENERGY STORAGE AGREEMENTS, AND CERTIFICATE OF PUBLIC CONVENIENCE AND NECESSITY FOR 2029-2032 SYSTEM RESOURCES AND THE ABANDONMENT OF THE FOUR CORNERS POWER PLANT",
+ "filed": "2026-06-01",
+ "entity": "PUBLIC SERVICE COMPANY OF NEW MEXICO",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+ "fetch": [],
+ "meta": {
+  "new_docket": true,
+  "category": "Resource: Certificate of Convenience and Necessity (CCN) /Power Purchase Agreement (PPA)",
+  "type": "Utility"
+ },
+ "collected_at": "2026-10-03T20:55:32Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "certificate of public convenience"
+ ],
+ "party_hits": [],
+ "documents": []
+}

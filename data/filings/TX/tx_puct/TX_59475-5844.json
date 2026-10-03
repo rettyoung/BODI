@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5844",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/5/2026 | J6, K41, and J33 Landowner Group | RFI | Responses of J6, K41, and J33 Landowner Groups to K13/K51 Landowner Group's First Requests for Information (Q1-1 & Q1-2)",
+ "filed": "2026-06-05",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5844",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5844"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

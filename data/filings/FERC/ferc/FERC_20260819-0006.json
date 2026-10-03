@@ -1,0 +1,37 @@
+{
+ "id": "FERC:20260819-0006",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "Application of Court House Point Road MD PV LLC before the Public Service Commission of Maryland, for a Certificate of Public Convenience and Necessity, etc. re community solar energy generating facility, etc. located in Cecil County, Maryland. ",
+ "filed": "2026-08-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260819-0006",
+ "entity": "COURT HOUSE POINT ROAD MD PV LLC",
+ "fetch": [
+  {
+   "ferc_file": "1CE808A9-2BF6-C448-8553-A024EE000000",
+   "name": "_20260819-0006.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Other External Submittal"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-24"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "certificate of public convenience",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

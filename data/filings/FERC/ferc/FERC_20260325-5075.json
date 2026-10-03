@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260325-5075",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-1731",
+ "title": "(doc-less) Motion to Intervene of the Louisiana Public Service Commission under ER26-1731.",
+ "filed": "2026-03-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260325-5075",
+ "entity": "Louisiana Public Service Commission; Louisiana Public Service Commission; Louisiana Public Service Commission; Louisiana Public Service Commission",
+ "fetch": [
+  {
+   "ferc_file": "9AF85A17-EDA2-C43C-B5F8-9D259F000000",
+   "name": "1729438_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-1731",
+  "issued": "2026-03-25"
+ },
+ "collected_at": "2026-10-03T21:10:10Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

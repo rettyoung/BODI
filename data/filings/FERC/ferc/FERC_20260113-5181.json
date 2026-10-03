@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260113-5181",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-36",
+ "title": "(doc-less) Motion to Intervene of Pelican Power LLC under EL26-36.",
+ "filed": "2026-01-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260113-5181",
+ "entity": "Pelican Power LLC",
+ "fetch": [
+  {
+   "ferc_file": "6BCD5027-CF96-C9AB-9828-9BB950F00000",
+   "name": "1698838_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-36",
+  "issued": "2026-01-13"
+ },
+ "collected_at": "2026-10-03T21:12:02Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

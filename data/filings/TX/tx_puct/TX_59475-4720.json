@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4720",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/18/2026 | Save the Lampasas | PL | Appeal of SOAH Order No. 13 Regarding Denial of Hearing Request on Route Adequacy Challenge",
+ "filed": "2026-05-18",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4720",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4720"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

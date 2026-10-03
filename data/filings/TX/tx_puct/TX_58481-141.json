@@ -1,0 +1,27 @@
+{
+ "id": "TX:58481-141",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/13/2026 | Tract Holding Company I, LLC | COM | TRACT HOLDING COMPANY I, LLC’S COMMENTS ON THE COMMISSION’S PROPOSAL FOR PUBLICATION TO IMPLEMENT LARGE LOAD INTERCONNECTION STANDARDS (“STANDARDS”)",
+ "filed": "2026-04-13",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=141",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "141"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

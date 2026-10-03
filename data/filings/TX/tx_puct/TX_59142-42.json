@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-42",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "8/10/2026 | ERCOT | PRJ | ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.’S REQUESTS FOR GOOD CAUSE EXCEPTIONS RELATING TO BATCH ZERO DEADLINES AND STATUS UPDATE ON ADDITIONAL MATTERS INCLUDING THE LONG-TERM LOAD FORECAST",
+ "filed": "2026-08-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=42",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "42"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

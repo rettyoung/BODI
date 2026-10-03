@@ -1,0 +1,42 @@
+{
+ "id": "FERC:20260618-3105",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-67",
+ "title": "Order Instituting Proceeding Under Section 206 etc. re PJM Interconnection, L.L.C. et al. under EL26-67. Chairman Swett and Comm'rs Rosner, See, Chang, and LaCerte are concurring w/ sep. stmts. attached. For errata see accession number 20260813-3025.",
+ "filed": "2026-06-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260618-3105",
+ "entity": "COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION); SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "9C29C282-CABA-C429-94AC-9EDCB8200000",
+   "name": "EL26-67-000.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Commission Order/Opinion"
+   },
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Dissent/Concurrence by the Commissioner"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-06-18"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260807-5216",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "Answer of Corporate Energy Buyers Association in Support of Midcontinent Independent System Operator, Inc.'s et al. 08/03/2026 Motion for Abeyance under EL26-70.",
+ "filed": "2026-08-07",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260807-5216",
+ "entity": "Corporate Energy Buyers Association",
+ "fetch": [
+  {
+   "ferc_file": "7EA6EEBA-2C18-CA09-9CAF-9FDDF2400000",
+   "name": "CEBA Answer in Support of Abeyance Request (MISO) EL26-70.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-08-07"
+ },
+ "collected_at": "2026-10-03T21:03:27Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260821-5340",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-99",
+ "title": "Supplement to 05/21/2026, Joint Application for Authorization Under Section 203 of the Federal Power Act of Horizon Merger Sub, Inc., et al. under EC26-99.",
+ "filed": "2026-08-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260821-5340",
+ "entity": "Horizon Merger Sub, Inc.; Horizon Merger Sub, Inc.; EQT AB; Qatar Investment Authority; Horizon Merger Sub, Inc.; Horizon Merger Sub, Inc.; Horizon Merger Sub, Inc.; The AES Corporation; The AES Corporation; The AES Corporation; EQT AB; Qatar Investment Authority",
+ "fetch": [
+  {
+   "ferc_file": "46F73FA4-F124-CE04-A4DC-A04427300000",
+   "name": "Reviewing Output.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "524CC5F3-5CD6-C060-AE7F-A04427300000",
+   "name": "Run PASS 20260820.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "1D807858-890F-C952-B770-A04427300000",
+   "name": "run_gams.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "5DE1D2C9-EA89-C1CE-BFE7-A04427300000",
+   "name": "Scenarios.xlsx",
+   "type": "XLSX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Disposition of Facilities Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

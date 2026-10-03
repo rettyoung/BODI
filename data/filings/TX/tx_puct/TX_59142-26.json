@@ -1,0 +1,25 @@
+{
+ "id": "TX:59142-26",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "4/16/2026 | Stream Data Centers, L.P. and Provident Corp. | COM | Joint Comments of Stream Data Centers and Provident",
+ "filed": "2026-04-16",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=26",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "26"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

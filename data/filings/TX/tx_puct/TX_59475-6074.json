@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6074",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/10/2026 | Laura Pressley | PL | Pressley Renewed Motion to Compel Discovery for Oncor to Produce RFI Items 01-11 and 01-12, Motion for Sanctions, and Motion to Return Unused Time",
+ "filed": "2026-06-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6074",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6074"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

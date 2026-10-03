@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260730-5171",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3343",
+ "title": "SR Quincy Valley, LLC submits tariff filing per 35.12: Market-Based Rate Application & Request for Confidential Treatment to be effective 9/29/2026 under ER26-3343 Filing Type : 405",
+ "filed": "2026-07-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260730-5171",
+ "entity": "SR Quincy Valley, LLC",
+ "fetch": [
+  {
+   "ferc_file": "F4DEDAA1-C8C8-C42C-B767-9FB4C8100000",
+   "name": "CUI-PRIV) Indicative Screen Capacity Calculation.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "09784482-045E-C506-8803-9FB4C8200000",
+   "name": "CUI-PRIV) Two Indicative Screens_QuincyValley.xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "C059933C-A455-C18E-93C8-9FB4C8200000",
+   "name": "CUI-PRIV) Wkp RPB-Avail Mapping.xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "F2E1BA7B-C311-C6F1-9A94-9FB4C8200000",
+   "name": "CUI-PRIV) Wkp RPB-Availability Methodology.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-30"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

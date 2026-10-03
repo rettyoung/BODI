@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-33",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "5/6/2026 | PUC DEPUTY EXECUTIVE DIRECTOR | PRJ | Staff memo on Batch 0 entry criteria",
+ "filed": "2026-05-06",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=33",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "33"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

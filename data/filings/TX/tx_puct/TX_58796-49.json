@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-49",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "2/11/2026 | SOAH | PL | SOAH ORDER NO. 3- GRANTING MOTION TO EXTEND DEADLINE",
+ "filed": "2026-02-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=49",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "49"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

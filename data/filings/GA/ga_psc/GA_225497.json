@@ -1,0 +1,21 @@
+{
+ "id": "GA:225497",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "55378",
+ "title": "Georgia Power Company’s DCO Agreement Deemed Certified Request",
+ "filed": "2026-02-19",
+ "entity": "Georgia Power Company",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=225497",
+ "fetch": [
+  {
+   "ga_document": 225497
+  }
+ ],
+ "collected_at": "2026-10-03T21:18:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

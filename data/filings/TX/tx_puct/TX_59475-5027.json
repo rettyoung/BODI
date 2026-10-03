@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5027",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/22/2026 | John B. Bradley (aka John B. Bradley III) - Lazy S Ranch | PL | Pro se Intervenor John B. Bradley submits motion to admit and accept testimony, and waive attendance given military service; if unable to waive then pro se Intervenor requests specific date and time for attendance virtually.",
+ "filed": "2026-05-22",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5027",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5027"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5444",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/2/2026 | John B. Bradley (aka John B. Bradley III) - Lazy S Ranch | EX | John B. Bradley formatted pro se Intervenor list of exhibits and certificate of service to accompany revised Direct Testimony PUC Item 4787 and Exhibits PUC Item 5346.",
+ "filed": "2026-06-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5444",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5444"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

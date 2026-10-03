@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260316-5323",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-1479",
+ "title": "Comments of Data Center Coalition in response to PJM Interconnection, L.L.C.’s 02/23/2026 tariff filing in compliance under ER26-1479.",
+ "filed": "2026-03-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260316-5323",
+ "entity": "Data Center Coalition; Data Center Coalition; Data Center Coalition",
+ "fetch": [
+  {
+   "ferc_file": "D49E43A0-1A95-CF59-A2FB-9CF845700000",
+   "name": "DCC PJM Colocation Comments Final.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-03-16"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [
+  "Data Center Coalition"
+ ],
+ "documents": []
+}

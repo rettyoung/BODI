@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260826-8022",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "New York Independent System Operator, Inc. submits FERC Form 3Q Electric report for 2026/Q2",
+ "filed": "2026-08-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260826-8022",
+ "entity": "New York Independent System Operator, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "AE25DEFA-B0C1-CE55-9386-A03F17F00000",
+   "name": "361012-C000038-Form_3Q_Electric-2026-Q2_361012.html",
+   "type": "HTML"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 3-Q -Quarterly financial report of electric utilities- licensees- and natural gas companies"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-26"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

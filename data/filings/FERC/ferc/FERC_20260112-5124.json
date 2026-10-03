@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260112-5124",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD21-15,AD24-11,AD24-7,AD25-4,AD25-8,EL24-67,EL24-80,EL25-106,EL25-109,EL25-20,EL25-29,EL25-44,EL25-76,EL25-87,EL26-26,EL26-30,EL26-35,EL26-4,EL26-5,ER19-2276,ER23-2040,ER24-1915,ER24-726,ER25-1886,ER25-198,ER25-2636,ER25-2753,ER25-312,ER25-3361,ER25-3570,ER26-153,ER26-156,ER26-235,ER26-455,ER26-570,ER26-578,ER26-589,ER26-600,ER26-639,ER26-704,ER26-713,ER26-743,ER26-744,ER26-746,ER26-751,ER26-893,",
+ "title": "New York Transmission Owners et al. submit request to update the service list under ER26-911 et al.",
+ "filed": "2026-01-12",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260112-5124",
+ "entity": "Central Hudson Gas & Electric Corporation; Consolidated Edison Company of New York, Inc.; New York State Electric & Gas Corporation; Niagara Mohawk Power Corp d/b/a National Grid; Orange and Rockland Utilities, Inc.; Long Island Power Authority; Rochester Gas and Electric Corporation; New York Trans",
+ "fetch": [
+  {
+   "ferc_file": "95E4FCE3-8ADB-CA02-931C-9BB37AA00001",
+   "name": "NYTO Notice of Substitution of Counsel_01.12.2026_FINAL.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-01-12"
+ },
+ "collected_at": "2026-10-03T21:07:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

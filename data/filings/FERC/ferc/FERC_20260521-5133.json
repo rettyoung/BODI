@@ -1,0 +1,57 @@
+{
+ "id": "FERC:20260521-5133",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-63",
+ "title": "Motion for Leave to Amend the 05/07/2026 Complaint of Maryland Office of People's Counsel V. PJM Interconnection L.L.C. under EL26-63.",
+ "filed": "2026-05-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260521-5133",
+ "entity": "Maryland Office of People's Counsel",
+ "fetch": [
+  {
+   "ferc_file": "93B4B285-A6C9-C5F5-9E5F-9E4C04800000",
+   "name": "Cover letter re Amended Complaint.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "485847CA-E75B-CDDC-A4B0-9E4C04800000",
+   "name": "OPC_Motion_to_Amend_Complaint_05212026.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "F8FCDCD5-899B-C634-AF62-9E4C04800000",
+   "name": "20260521 - RTEP Amended complaint - redline version 217.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "CAB032BF-E85D-C502-B5A5-9E4C04800000",
+   "name": "202605521 - RTEP Amended complaint incl attachments - clean version 215.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Complaints"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-05-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

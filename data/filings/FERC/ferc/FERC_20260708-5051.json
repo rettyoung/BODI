@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260708-5051",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-69",
+ "title": "(doc-less) Motion to Intervene of Environmental Defense Fund under EL26-69.",
+ "filed": "2026-07-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260708-5051",
+ "entity": "Environmental Defense Fund",
+ "fetch": [
+  {
+   "ferc_file": "FE561BC0-CE56-CC0F-851A-9F423BA00000",
+   "name": "1769036_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-69",
+  "issued": "2026-07-08"
+ },
+ "collected_at": "2026-10-03T21:03:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

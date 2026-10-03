@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5134",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-69",
+ "title": "(doc-less) Motion to Intervene of New York Association of Public Power under EL26-69.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5134",
+ "entity": "New York Association of Public Power; New York Association of Public Power",
+ "fetch": [
+  {
+   "ferc_file": "C85CA64C-949C-CA4F-A780-9F47B3400000",
+   "name": "1769559_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-69",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:03:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

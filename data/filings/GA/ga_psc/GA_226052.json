@@ -1,0 +1,21 @@
+{
+ "id": "GA:226052",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "56002",
+ "title": "DKT 56002 Mar 2026 111 GHG Semi-Annual PD",
+ "filed": "2026-03-31",
+ "entity": "",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=226052",
+ "fetch": [
+  {
+   "ga_document": 226052
+  }
+ ],
+ "collected_at": "2026-10-03T21:18:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

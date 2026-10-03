@@ -1,0 +1,201 @@
+{
+ "backfill_since": "2025-11-07",
+ "run_id": "2026-10-03-2044",
+ "started": "2026-10-03T20:44:34Z",
+ "sources": {
+  "la_lpsc": {
+   "since": "2025-11-07",
+   "found": 144,
+   "new": 135,
+   "baselined_now": 0,
+   "kept": 135,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "la: U-37921 not found"
+   ],
+   "seconds": 402.2,
+   "consecutive_failures": 0
+  },
+  "ok_occ": {
+   "since": "2025-11-07",
+   "found": 8,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "ok text 21362576: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362552: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362467: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362465: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362458: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362455: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354473: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354331: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354315: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354312: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354172: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354164: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21353967: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21351151: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21332545: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21321323: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21311681: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21310653: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21216943: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21205773: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+   ],
+   "seconds": 216.6,
+   "consecutive_failures": 0
+  },
+  "ks_kcc": {
+   "since": "2025-11-07",
+   "found": 15,
+   "new": 9,
+   "baselined_now": 0,
+   "kept": 9,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 3.1,
+   "consecutive_failures": 0
+  },
+  "nm_prc": {
+   "since": "2025-11-07",
+   "found": 100,
+   "new": 93,
+   "baselined_now": 0,
+   "kept": 93,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "nm 25-00079-UT: 0 documents in window",
+    "nm 25-00082-UT: 0 documents in window",
+    "nm 26-0000062: 0 documents in window"
+   ],
+   "seconds": 36.1,
+   "consecutive_failures": 0
+  },
+  "mo_efis": {
+   "since": "2025-11-07",
+   "found": 886,
+   "new": 773,
+   "baselined_now": 0,
+   "kept": 773,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 25.7,
+   "consecutive_failures": 0
+  },
+  "al_psc": {
+   "since": "2025-11-07",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 36.4,
+   "consecutive_failures": 0
+  },
+  "ferc": {
+   "since": "2025-11-07",
+   "found": 1058,
+   "new": 1019,
+   "baselined_now": 0,
+   "kept": 1019,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 1248.0,
+   "consecutive_failures": 0
+  },
+  "tx_puct": {
+   "since": "2025-11-07",
+   "found": 2659,
+   "new": 2583,
+   "baselined_now": 0,
+   "kept": 2583,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 27.8,
+   "consecutive_failures": 0
+  },
+  "az_acc": {
+   "since": "2025-11-07",
+   "found": 575,
+   "new": 571,
+   "baselined_now": 0,
+   "kept": 571,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 15.3,
+   "consecutive_failures": 0
+  },
+  "ga_psc": {
+   "since": "2025-11-07",
+   "found": 37,
+   "new": 27,
+   "baselined_now": 0,
+   "kept": 27,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 6.7,
+   "consecutive_failures": 0
+  }
+ },
+ "docs_fetched": 450,
+ "new_items": 5210,
+ "user_agent": "BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)",
+ "finished": "2026-10-03T21:18:12Z",
+ "http_hosts": {
+  "https://lpscpubvalence.lpsc.louisiana.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  },
+  "https://public.occ.ok.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.kcc.ks.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://e360.prc.nm.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  },
+  "https://www.efis.psc.mo.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  },
+  "https://www.pscpublicaccess.alabama.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://elibrary.ferc.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://interchange.puc.texas.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://efiling.azcc.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  },
+  "https://psc.ga.gov": {
+   "robots": "404",
+   "note": ""
+  }
+ },
+ "seconds": 2018
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260709-5103",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "(doc-less) Motion to Intervene of Oracle America, Inc. under EL26-67.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5103",
+ "entity": "Oracle America, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "7CA1699B-570E-C8E4-9FC2-9F4798000000",
+   "name": "1769518_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:02:24Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Oracle"
+ ],
+ "documents": []
+}

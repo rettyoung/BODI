@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251113-5186",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-247",
+ "title": "(doc-less) Motion to Intervene of GridStor LLC under ER26-247.",
+ "filed": "2025-11-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251113-5186",
+ "entity": "GridStor LLC",
+ "fetch": [
+  {
+   "ferc_file": "93F642FE-C5FA-CB17-980B-9A7EED300000",
+   "name": "1680450_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-247",
+  "issued": "2025-11-13"
+ },
+ "collected_at": "2026-10-03T21:11:07Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

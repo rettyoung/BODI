@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-39",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "12/18/2025 | FREEPORT LNG DEVELOPMENT, L.P. | COM | Freeport LNG Development, L.P. comments to address new proposed §25.194(l).",
+ "filed": "2025-12-18",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=39",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "39"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

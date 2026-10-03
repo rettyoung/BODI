@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6479",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/2/2026 | Laura Pressley and Leif Allred | BR | LEIF ALLRED AND LAURA PRESSLEY, EXCEPTIONS TO PROPOSAL FOR DECISION",
+ "filed": "2026-09-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6479",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6479"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260211-5014",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-1323",
+ "title": "(doc-less) Motion to Intervene of Solar Energy Industries Association under ER26-1323.",
+ "filed": "2026-02-11",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260211-5014",
+ "entity": "Solar Energy Industries Association; Solar Energy Industries Association",
+ "fetch": [
+  {
+   "ferc_file": "19AA3778-083D-C92E-99CD-9C4CFEC00000",
+   "name": "1713333_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-1323",
+  "issued": "2026-02-11"
+ },
+ "collected_at": "2026-10-03T21:09:42Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

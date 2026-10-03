@@ -1,0 +1,38 @@
+{
+ "id": "FERC:20260521-3018",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-38",
+ "title": "Notice of Denial of Rehearing by Operation of Law and Providing for Further Consideration re Southern Indiana Gas and Electric Company v. Midcontinent Independent System Operator, Inc. under EL26-38. ",
+ "filed": "2026-05-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260521-3018",
+ "entity": "SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "9EACAF4C-9F10-C427-9742-9E4A84300000",
+   "name": "EL26-38-001.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   },
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Delegated Order"
+   }
+  ],
+  "why": "watched docket EL26-38",
+  "issued": "2026-05-21"
+ },
+ "collected_at": "2026-10-03T21:12:14Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

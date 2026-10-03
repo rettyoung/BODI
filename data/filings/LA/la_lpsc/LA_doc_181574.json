@@ -1,0 +1,24 @@
+{
+ "id": "LA:doc:181574",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Oral argument held, Chief Judge Melanie Verzwyvelt presiding.",
+ "filed": "2026-07-29",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=181574",
+ "fetch": [
+  {
+   "la_document": 181574
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:48:17Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

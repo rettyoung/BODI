@@ -1,0 +1,23 @@
+{
+ "id": "TX:58317-14",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "5/27/2026 | PUC RULES & PROJECTS | PRJ | Staff Memo_New Rulemaking Project",
+ "filed": "2026-05-27",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=14",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "14"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

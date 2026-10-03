@@ -1,0 +1,39 @@
+{
+ "id": "FERC:20260727-5240",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-63",
+ "title": "Answer of Sierra Club in support of the complaint filed by the Maryland Office of People's Counsel v. PJM Interconnection, LLC under EL26-63.",
+ "filed": "2026-07-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260727-5240",
+ "entity": "Sierra Club; Sierra Club; Sierra Club",
+ "fetch": [
+  {
+   "ferc_file": "74866864-009D-C183-AF0A-9FAE2F800000",
+   "name": "Answer of Sierra Club.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-27"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

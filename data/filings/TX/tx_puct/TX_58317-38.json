@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-38",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "8/20/2026 | Nitisha | COM | Concerns about the Data center at 13590 Denton hwy",
+ "filed": "2026-08-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=38",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "38"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

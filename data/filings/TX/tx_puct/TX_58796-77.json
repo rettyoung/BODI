@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-77",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "7/27/2026 | SOUTHWESTERN ELECTRIC POWER COMPANY | CONF | Highly Sensitive Workpapers to the Rebuttal Testimony of Lynn Ferry-Nelson",
+ "filed": "2026-07-27",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=77",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "77"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

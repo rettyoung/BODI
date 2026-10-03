@@ -1,0 +1,39 @@
+{
+ "id": "FERC:20251121-5386",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "RM26-4",
+ "title": "Comments of Public Interest Organizations on the Advanced Notice of Proposed Rulemaking re the Interconnection of Large Loads to the Interstate Transmission System under RM26-4.",
+ "filed": "2025-11-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251121-5386",
+ "entity": "Natural Resource Defense Council; Sustainable FERC Project; Clean Air Task Force; Coalition for Affordable Utility Services and Energy Efficie; EARTHJUSTICE; Sierra Club; EARTHJUSTICE; EARTHJUSTICE; ENVIRONMENTAL DEFENSE FUND; ENVIRONMENTAL DEFENSE FUND; MONTANA ENVIRONMENTAL INFORMATION CENTER; Sie",
+ "fetch": [
+  {
+   "ferc_file": "72EF41D1-C567-CBAE-B0F4-9AA820800001",
+   "name": "DRAFT PIO RM26-4 Large Load Comment to FERC FINAL.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2025-11-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

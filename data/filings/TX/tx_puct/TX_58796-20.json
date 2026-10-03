@@ -1,0 +1,25 @@
+{
+ "id": "TX:58796-20",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "11/21/2025 | OPUC | PL | OFFICE OF PUBLIC UTILITY COUNSEL’S NOTICE OF ADDITION OF COUNSEL",
+ "filed": "2025-11-21",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=20",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "20"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Office of Public Utility Counsel"
+ ],
+ "documents": []
+}

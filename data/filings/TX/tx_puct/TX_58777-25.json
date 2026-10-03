@@ -1,0 +1,23 @@
+{
+ "id": "TX:58777-25",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "3/2/2026 | TEXAS ADVANCED ENERGY BUSINESS ALLIANCE | PL | TAEBA Responses to Initial Staff Questions Project 58777",
+ "filed": "2026-03-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=25",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "25"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

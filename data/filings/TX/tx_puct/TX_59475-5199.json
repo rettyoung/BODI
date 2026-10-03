@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5199",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/28/2026 | CE STEPHENS PROPERTIES, LLC | PL | CE STEPHENS PROPERTIES, LLC’S AGREED NOTICE OF THE ORAL DEPOSITION OF JOHN POOLE, P.E. AND SUBPOENA DUCES TECUM",
+ "filed": "2026-05-28",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5199",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5199"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

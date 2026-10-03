@@ -1,0 +1,26 @@
+{
+ "id": "LA:doc:181601",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Original Motion to Enroll Counsel of Record for Limited Appearance for Meta Platforms, Inc.",
+ "filed": "2026-08-12",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=181601",
+ "fetch": [
+  {
+   "la_document": 181601
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:48:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Meta"
+ ],
+ "documents": []
+}

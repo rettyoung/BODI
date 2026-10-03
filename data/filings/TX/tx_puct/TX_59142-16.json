@@ -1,0 +1,25 @@
+{
+ "id": "TX:59142-16",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "3/20/2026 | VISTRA CORP. | PRJ | Vistra Corp.'s Comments on Planning Guide Revision Request 145 for Project 59142",
+ "filed": "2026-03-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=16",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "16"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Vistra"
+ ],
+ "documents": []
+}

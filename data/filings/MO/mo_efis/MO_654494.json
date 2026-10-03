@@ -1,0 +1,20 @@
+{
+ "id": "MO:654494",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "288",
+ "filed": "2026-09-25",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/654494",
+ "fetch": [
+  {
+   "mo_filing": "654494"
+  }
+ ],
+ "collected_at": "2026-10-03T20:55:57Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

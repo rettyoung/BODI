@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260708-5142",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "(doc-less) Motion to Intervene of Bloom Energy Corporation under EL26-67.",
+ "filed": "2026-07-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260708-5142",
+ "entity": "Bloom Energy Corporation",
+ "fetch": [
+  {
+   "ferc_file": "EFC98FE7-CD02-C85A-9A1D-9F4326000000",
+   "name": "1769198_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-07-08"
+ },
+ "collected_at": "2026-10-03T21:02:27Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

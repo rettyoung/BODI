@@ -1,0 +1,23 @@
+{
+ "id": "TX:58317-27",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "8/10/2026 | ERCOT | LTRS | ERCOT LETTER REGARDING PROJECT NO. 59142 FILING",
+ "filed": "2026-08-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=27",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "27"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

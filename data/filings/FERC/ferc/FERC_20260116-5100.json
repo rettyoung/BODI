@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260116-5100",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-36",
+ "title": "(doc-less) Motion to Intervene of the Arkansas Public Service Commission under EL26-36.",
+ "filed": "2026-01-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260116-5100",
+ "entity": "Arkansas Public Service Commission",
+ "fetch": [
+  {
+   "ferc_file": "278EFD00-7460-C5B6-9EF7-9BC840500000",
+   "name": "1700451_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-36",
+  "issued": "2026-01-16"
+ },
+ "collected_at": "2026-10-03T21:12:02Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

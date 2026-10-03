@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5948",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/7/2026 | Larry and Donna Martin | PL | Larry and Donna Martin's Motion to Correct LCRA's Edits to ALJs' Cross-Examination List",
+ "filed": "2026-06-07",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5948",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5948"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

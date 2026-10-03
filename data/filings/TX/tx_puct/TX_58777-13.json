@@ -1,0 +1,23 @@
+{
+ "id": "TX:58777-13",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "2/13/2026 | Thomas L Darte | LTRS | VOID SEE ITEM 15",
+ "filed": "2026-02-13",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=13",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "13"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-163",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/16/2026 | Electric Hydrogen Co. | COM | Electric Hydrogen Comments on Proposed 16 TAC 25.194",
+ "filed": "2026-04-16",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=163",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "163"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-53",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "8/20/2026 | PUC OPDM | PRJ | ORDER GRANTING GOOD CAUSE EXCEPTIONS",
+ "filed": "2026-08-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=53",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "53"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

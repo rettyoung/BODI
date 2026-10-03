@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260618-3110",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-68",
+ "title": "Order Instituting Proceeding under Section 206 of the Federal Power Act re Southwest Power Pool, Inc. et al. under EL26-68. Chairman Swett and Commissioners Rosner, See, Chang, and LaCerte are concurring with separate statements attached.",
+ "filed": "2026-06-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260618-3110",
+ "entity": "COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION); SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "6B139123-039C-CD9E-9746-9EDCD9B00000",
+   "name": "EL26-68-000.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Commission Order/Opinion"
+   },
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Dissent/Concurrence by the Commissioner"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-06-18"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

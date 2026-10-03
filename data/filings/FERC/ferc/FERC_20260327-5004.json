@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260327-5004",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Comment of Alexandre Figueras in Docket(s)/Project(s) RM26-4-000\nSubmission Date: 3/26/2026\n",
+ "filed": "2026-03-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260327-5004",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "54CE817C-4217-C0E0-9000-9D2CE2500000",
+   "name": "145302.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-03-26"
+ },
+ "collected_at": "2026-10-03T21:06:52Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

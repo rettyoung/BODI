@@ -1,0 +1,25 @@
+{
+ "id": "TX:59475-5476",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/3/2026 | ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICES CORPORATION | RFI | ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICES CORPORATION’S RESPONSE TO BEN E. KEITH COMPANY; JAN YATES BOULTINGHOUSE FAMILY TRUST; JAN YATES BOULTINGHOUSE, TRUSTEE; AND KENNA BOULTINGHOUSE SQUIRES, SUCCESSOR TRUSTEE’S SECOND RFI",
+ "filed": "2026-06-03",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5476",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5476"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

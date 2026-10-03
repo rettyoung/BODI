@@ -1,0 +1,38 @@
+{
+ "id": "FERC:20260507-5026",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-63",
+ "title": "Complaint of Maryland Office of People’s Counsel v. PJM Interconnection, LLC under EL26-63.",
+ "filed": "2026-05-07",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260507-5026",
+ "entity": "PEOPLE'S COUNSEL OF MARYLAND",
+ "fetch": [
+  {
+   "ferc_file": "ED79726E-7FED-CD17-9D55-9E02DB100000",
+   "name": "20260507 - RTEP complaint - FINAL.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Complaints"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-05-07"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-97",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "1/16/2026 | AEP TEXAS INC. | COM | AEP TEXAS' COMMENTS ON STAFF’S SECOND DISCUSSION DRAFT",
+ "filed": "2026-01-16",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=97",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "97"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260722-5071",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2651",
+ "title": "American Electric Power Company o/b/o Indiana Michigan Power Company submits revised Study Plan re the Elkhart Hydroelectric Project under P-2651.",
+ "filed": "2026-07-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260722-5071",
+ "entity": "Indiana Michigan Power Company",
+ "fetch": [
+  {
+   "ferc_file": "0422BC69-4FE3-CDF7-9DA9-9F8A51100000",
+   "name": "Elkhart_FERC 2651_Indiana Michigan_Revised Study Plan_20260722.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "ILP Proposed Study Plan or Revised Study Plan"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-22"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

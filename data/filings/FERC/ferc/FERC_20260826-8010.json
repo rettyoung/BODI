@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260826-8010",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "Mississippi Power Company submits FERC Form 1 report for 2025/Q4",
+ "filed": "2026-08-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260826-8010",
+ "entity": "Mississippi Power Company",
+ "fetch": [
+  {
+   "ferc_file": "1D505829-59B2-C1EF-916C-A03E93300000",
+   "name": "360975-C001555-Form_1-2025-Q4_360975.html",
+   "type": "HTML"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 1 - Annual Rpt. for Major Electric Utilities, Licensees & Others"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-08-26"
+ },
+ "collected_at": "2026-10-03T21:14:43Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '1D505829-59B2-C1EF-916C-A03E93300000', 'name': '360975-C001555-Form_1-2025-Q4_360975.html', 'type': 'HTML'}",
+   "error": "RuntimeError('FERC DownloadP8File returned application/octet-stream (12416576 bytes)')"
+  }
+ ]
+}

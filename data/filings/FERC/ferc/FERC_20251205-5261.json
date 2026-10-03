@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20251205-5261",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Reply Comments of the Large Public Power Council Endorsing a Consensus-Based Approach to Large Load Interconnection under RM26-4.",
+ "filed": "2025-12-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251205-5261",
+ "entity": "Large Public Power Council",
+ "fetch": [
+  {
+   "ferc_file": "6AEC2EE1-E1AA-CBFE-9534-9AF045F00000",
+   "name": "RM26-4 - LPPC Reply Comments [final].docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2025-12-05"
+ },
+ "collected_at": "2026-10-03T21:08:30Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "RM26-4 - LPPC Reply Comments [final].docx",
+   "bytes": 37679,
+   "sha256": "a03e01b6e4a61580b2a59537df3af12e015256e866735736687bc9b3fcd54d9d",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "BEFORE THE\nUNITED STATES OF AMERICA\nFEDERAL ENERGY REGULATORY COMMISSION\n\n \nREPLY COMMENTS OF THE LARGE PUBLIC POWER COUNCIL ENDORSING A CONSENSUS-BASED APPROACH TO LARGE LOAD INTERCONNECTION \n\n\tThese reply comments are filed on behalf of the Large Public Power Council (“LPPC”) in response to initial comments filed in this docket on November 21, 2025, and pursuant to the Notice Granting Extension of Time, issued by the Federal Energy Regulatory Commission (“FERC” or “the Commission”) on November 7, 2025.  \n\tIn initial comments in this docket, LPPC expressed support for the objective articulated by the Department of Energy (“DOE”) of a consistent, nationwide approach to large load interconnection. However, LPPC asked that this be accomplished while respecting the role reserved under the Federal Power Act (“FPA”) to state authorities over retail service, of which large load is an increasing component. \n\tWith these objectives and concerns in mind, LPPC here renews the request outlined in its initial comments that the Commission convene a forum to develop a consensus-based approach to large load interconnection that may be adopted voluntarily across the nation.  Should the Commission proceed this way, it may reserve the right to take mandatory action at some future juncture on complaint or on its own motion, should implementation of the consensus framework not meet the Commission’s expectations. \n\nCOMMENTS\nA Significant Cross-Section of Parties in this Docket have Expressed Concern Regarding FERC’s Jurisdiction in this Matter. \n\nConcerns that LPPC voiced in its initial comments regarding the scope of FERC’s authority to mandate large load interconnections as proposed in the ANOPR have been echoed by a broad cross-section of parties in this docket, including the National Association of Regulatory Utility Commissioners (“NARUC”), the Edison Electric Institute (“EEI”), the National Rural Electric Cooperative Association (“NRECA”), the American Public Power Association (“APPA”) and the overwhelming majority of commenting state commissions.  \nThe concerns voiced by these parties are similar to those outlined by LPPC in initial comments. In its comments, LPPC urged the Commission, should it adopt a rule in this docket, to eschew any intention to interfere with the terms and conditions of retail service, including contractual terms and the assessment and allocation of the cost of generation needed to serve large loads. Further, LPPC asked the Commission to clarify that its intention is not to mandate retail wheeling, as would be prohibited by Federal Power Act (“FPA”) section 210(h).  In addition, LPPC cautioned that the Commission’s assertion of authority over retail interconnections where transmission remains bundled with retail sales is questionable, and fraught with potential unintended consequences as to the scope of responsibility over retail transmission that the assertion of this jurisdiction would entail.\n \nThere is Substantial Support in the Docket for a Consensus-Based Approach to Large Load Interconnection. \n\nIn comments that LPPC endorses, NARUC “pledges to engage with regulated entities and with other stakeholders to explore consensus solutions for FERC’s consideration that will help meet national goals, while avoiding disputes over jurisdiction that would impede achieving our shared goals.” \nThe docket is filled with similar comments. The Organization of PJM States, e.g., advises that “[r]ather than unilaterally imposing federal jurisdiction on these interconnections, FERC should pursue a cooperative approach – potentially developing voluntary best practices with states and other novel approaches to meet the moment – without undermining state authority or established statutory frameworks.” Similarly, the Nebraska Power Review Board “encourages FERC to adopt a collaborative approach where FERC, state commissions and transmission providers work together to develop solutions.  Remedies other than exerting jurisdiction over the issue should be explored.…” In the same vein, the New York State Public Service Commission says that “[g]iven the jurisdictional issues with the Proposed ANOPR, the NYPSC encourages the Commission to…work collaboratively with stakeholders to identify other efforts that should be pursued to address the interconnection of large load.” The Organization of MISO States recommends that “the Commission should pursue a cooperative federalism approach by developing voluntary best practices with states to improve interconnection efficiency, requiring load interconnection processes that enhance transparency, and other novel approaches that meet the moment.”     \nC.\tLPPC Urges the Commission to Consider Fostering but not Mandating a Consensus-Based Approach to Large Load Interconnection.  \n\n\tRecognizing both the national interest in serving growing data center load, and the fundamental jurisdictional challenge the ANOPR poses with respect to state regulatory authority,  LPPC advocated in initial comments and reiterates here its suggestion that the Commission convene a forum to develop a consensus-based approach to large load interconnection. That forum, overseen by FERC, should include NARUC and representatives from the investor-owned utility, public power and cooperative communities. LPPC would commit to participate in such a forum and supports the suggestion it understands NARUC will make in reply comments in this docket that this discussion begin with a Commission-sponsored technical conference. LPPC suggests that following a technical conference, the development of a consensus-based approach to interconnection may best be accomplished in the context of workshops drawing together entities and individuals with relevant experiences and varied perspectives.     \n\tAs to the substance of an interconnection framework, LPPC envisions that the Principles of Reform outlined in the ANOPR would serve as a starting point for relevant discussions. Assuming consensus can be achieved, the framework may be articulated in a policy statement or simply in an order closing this proceeding. The resulting framework may be adopted consensually across the nation. Following some period of time for voluntary adoption of the framework, FERC may reserve the option of taking further action if it determines that progress in interconnecting large loads has unreasonably stalled.  By the same token, parties would reserve the right to challenge further action. LPPC is optimistic that in this manner progress may very well be made more quickly than in the context of litigation in this docket, without the distraction and inevitable delays associated with litigation of the thorny legal questions the ANOPR raises.        \n\nCONCLUSION \n\n\tFor reasons articulated above and in initial comments, LPPC urges the Commission, if it moves ahead with this docket, to convene a forum to develop a consensus-based approach to large load interconnection that may be adopted voluntarily across the nation. \n\t\t\t\t\t\t\tRespectfully submitted,\n\n\t\t\t\t\t\t\n         "
+  }
+ ]
+}

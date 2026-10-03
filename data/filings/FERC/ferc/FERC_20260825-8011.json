@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260825-8011",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "Southwestern Electric Power Company submits FERC Form 3Q Electric report for 2026/Q2",
+ "filed": "2026-08-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260825-8011",
+ "entity": "Southwestern Electric Power Company",
+ "fetch": [
+  {
+   "ferc_file": "82A20F7A-0DBE-CA87-9224-A039ACE00000",
+   "name": "360897-C000537-Form_3Q_Electric-2026-Q2_360897.html",
+   "type": "HTML"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 3-Q -Quarterly financial report of electric utilities- licensees- and natural gas companies"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-08-25"
+ },
+ "collected_at": "2026-10-03T21:14:45Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '82A20F7A-0DBE-CA87-9224-A039ACE00000', 'name': '360897-C000537-Form_3Q_Electric-2026-Q2_360897.html', 'type': 'HTML'}",
+   "error": "RuntimeError('FERC DownloadP8File returned application/octet-stream (5354779 bytes)')"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-213",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "9/9/2026 | Good Company Associates | COM | GOOD COMPANY ASSOOCIATES COMMENTS ON THE COMMISSION’S PROPOSAL FOR ADOPTION (PFA)",
+ "filed": "2026-09-09",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=213",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "213"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6236",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/19/2026 | N12/P1 Intervenors (Party No. 635) | BR | N12/P1 INTERVENORS’ INITIAL POST-HEARING BRIEF",
+ "filed": "2026-06-19",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6236",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6236"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

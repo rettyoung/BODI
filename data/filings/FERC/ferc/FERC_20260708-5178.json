@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260708-5178",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "(doc-less) Motion to Intervene of RWE Americas, LLC under EL26-67.",
+ "filed": "2026-07-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260708-5178",
+ "entity": "RWE Americas, LLC",
+ "fetch": [
+  {
+   "ferc_file": "F650C14D-83E5-C885-9C7D-9F4360A00000",
+   "name": "1769261_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-07-08"
+ },
+ "collected_at": "2026-10-03T21:02:27Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

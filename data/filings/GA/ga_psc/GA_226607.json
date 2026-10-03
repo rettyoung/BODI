@@ -1,0 +1,23 @@
+{
+ "id": "GA:226607",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "55378",
+ "title": "Docket No. 55378 - Quarterly Large Load Economic Development Report",
+ "filed": "2026-05-15",
+ "entity": "Georgia Power Company",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=226607",
+ "fetch": [
+  {
+   "ga_document": 226607
+  }
+ ],
+ "collected_at": "2026-10-03T21:18:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

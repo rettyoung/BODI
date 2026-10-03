@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6542",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/9/2026 | Cherokee Creek Aligned Intervenors | PL | Replies to Exceptions to the Proposal for Decision by Cherokee Creek Aligned Intervenors",
+ "filed": "2026-09-09",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6542",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6542"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

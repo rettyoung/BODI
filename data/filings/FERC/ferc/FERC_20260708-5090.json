@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260708-5090",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "(doc-less) Motion to Intervene of Citizens Electric Corporation under EL26-70.",
+ "filed": "2026-07-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260708-5090",
+ "entity": "Citizens Electric Corporation; Citizens Electric Corporation",
+ "fetch": [
+  {
+   "ferc_file": "EA029A3D-244E-C995-A79F-9F429DB00000",
+   "name": "1769113_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-07-08"
+ },
+ "collected_at": "2026-10-03T21:03:39Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

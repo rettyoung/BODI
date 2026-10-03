@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20251229-5251",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49,EL26-30,RM26-4",
+ "title": "PJM Interconnection, L.L.C. submits request to update the service list under EL26-30 et al.",
+ "filed": "2025-12-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251229-5251",
+ "entity": "PJM Interconnection, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "BF17ACCB-E799-CCF5-968F-9B6B18500000",
+   "name": "20251229 Request to Update Service List AHelfer.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2025-12-29"
+ },
+ "collected_at": "2026-10-03T21:07:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-37",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "8/20/2026 | Marshall Ridge Keller | PC | Concerns about the data center proposed to be built at 13590 Denton Hwy in Westlake.",
+ "filed": "2026-08-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=37",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "37"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

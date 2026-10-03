@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5333",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-68",
+ "title": "(doc-less) Motion to Intervene of Voltus, Inc. under EL26-68.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5333",
+ "entity": "Voltus, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "2229C2CA-8C0F-CB8C-9C9C-9F4C19600000",
+   "name": "1769817_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-68",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:02:45Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

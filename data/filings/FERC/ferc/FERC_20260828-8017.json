@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260828-8017",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "American Transmission Systems, Incorporated submits FERC Form 3Q Electric report for 2026/Q2",
+ "filed": "2026-08-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260828-8017",
+ "entity": "American Transmission Systems, Incorporated",
+ "fetch": [
+  {
+   "ferc_file": "16197C0B-CDE3-C7C5-90F3-A048FBC00000",
+   "name": "361248-C000319-Form_3Q_Electric-2026-Q2_361248.html",
+   "type": "HTML"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 3-Q -Quarterly financial report of electric utilities- licensees- and natural gas companies"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-08-28"
+ },
+ "collected_at": "2026-10-03T21:14:35Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '16197C0B-CDE3-C7C5-90F3-A048FBC00000', 'name': '361248-C000319-Form_3Q_Electric-2026-Q2_361248.html', 'type': 'HTML'}",
+   "error": "RuntimeError('FERC DownloadP8File returned application/octet-stream (2727190 bytes)')"
+  }
+ ]
+}

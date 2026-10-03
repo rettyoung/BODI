@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6088",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/10/2026 | CE Stephens Properties LLC | PL | CE Stephens Properties LLC's Updated Exhibit List",
+ "filed": "2026-06-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6088",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6088"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

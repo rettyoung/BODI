@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-83",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "9/24/2026 | Ashly Sanchez | COM | Overwhelming the state with data centers. 765 kV, governors audit. 520 acres of data center near atmos gas line. Drought. Farm land/agriculture, wildlife and historical sites.",
+ "filed": "2026-09-24",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=83",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "83"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

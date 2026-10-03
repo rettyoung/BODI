@@ -1,0 +1,24 @@
+{
+ "id": "AZ:464861",
+ "jur": "AZ",
+ "source": "az_acc",
+ "kind": "filing",
+ "docket": "E-01345A-25-0105",
+ "title": "Miscellaneous Comments",
+ "filed": "2026-06-11",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+ "entity": "From the Office of Commissioner René Lopez",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000052193.pdf"
+  }
+ ],
+ "meta": {
+  "docketID": 29551
+ },
+ "collected_at": "2026-10-03T21:18:05Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

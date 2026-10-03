@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-17",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "7/2/2026 | SIERRA CLUB | COM | Informal comments related to directive from Governor Greg Abbott",
+ "filed": "2026-07-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=17",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "17"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

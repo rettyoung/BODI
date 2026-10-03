@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260213-5172",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-1323",
+ "title": "(doc-less) Motion to Intervene of Southwest Power Pool Transmission Owner Group under ER26-1323.",
+ "filed": "2026-02-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260213-5172",
+ "entity": "Southwest Power Pool Transmission Owner Group",
+ "fetch": [
+  {
+   "ferc_file": "B6223330-689C-C7BD-9CBC-9C5890D00000",
+   "name": "1714278_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-1323",
+  "issued": "2026-02-13"
+ },
+ "collected_at": "2026-10-03T21:09:42Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

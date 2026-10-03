@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260303-5181",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-1323",
+ "title": "(doc-less) Motion to Intervene of Basin Electric Power Cooperative under ER26-1323.",
+ "filed": "2026-03-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260303-5181",
+ "entity": "Basin Electric Power Cooperative",
+ "fetch": [
+  {
+   "ferc_file": "BA531D09-5646-CCCF-9D5B-9CB58FD00000",
+   "name": "1718629_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-1323",
+  "issued": "2026-03-03"
+ },
+ "collected_at": "2026-10-03T21:09:30Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260908-5127",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AC26-36,AC26-37,CP26-547,EC25-101,EC25-128,EC25-147,EC26-131,EL25-80,EL26-40,EL26-72,ER25-1886,ER25-2069,ER25-2070,ER25-2075,ER25-2080,ER25-2097,ER25-2117,ER25-2682,ER25-2707,ER25-2845,ER25-3035,ER25-3107,ER26-1109,ER26-1211,ER26-1214,ER26-1238,ER26-1348,ER26-1350,ER26-1398,ER26-1455,ER26-1459,ER26-1490,ER26-1538,ER26-1676,ER26-1684,ER26-185,ER26-1882,ER26-1989,ER26-2047,ER26-215,ER26-2215,ER26-23",
+ "title": "Spiegel & McDiarmid LLP submits request to update the service list under ER25-1886 et al.",
+ "filed": "2026-09-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260908-5127",
+ "entity": "Spiegel & McDiarmid LLP",
+ "fetch": [
+  {
+   "ferc_file": "0B3EFC1B-C14F-CC97-912A-A08195E00000",
+   "name": "Attorney withdrawal FERC.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL26-72",
+  "issued": "2026-09-08"
+ },
+ "collected_at": "2026-10-03T21:04:06Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

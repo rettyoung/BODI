@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260126-5104",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-38",
+ "title": "(doc-less) Motion to Intervene of Illinois Citizens Utility Board under EL26-38.",
+ "filed": "2026-01-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260126-5104",
+ "entity": "Illinois Citizens Utility Board",
+ "fetch": [
+  {
+   "ferc_file": "17E58F93-F0AE-CD74-914F-9BFAFF800000",
+   "name": "1704860_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-38",
+  "issued": "2026-01-26"
+ },
+ "collected_at": "2026-10-03T21:12:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

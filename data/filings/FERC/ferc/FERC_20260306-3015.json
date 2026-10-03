@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260306-3015",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EC25-148,EC25-43,EL24-149,EL25-20,EL25-49,EL26-30,ER26-1031,ER26-1032,ER26-1088,ER26-1323,ER26-247,ER26-838,ER26-839,ER26-841,ER26-853,ER26-989,ER26-990,RD26-1,RD26-2,RD26-3",
+ "title": "Notice of Staff Attendance at North American Electric Reliability Corporation Reliability and Security Technical Committee Meetings re Constellation Energy Corporation et al. under EC25-43 et al. ",
+ "filed": "2026-03-06",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260306-3015",
+ "entity": "SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "E994C5D2-17EF-CE46-892B-9CC3C5D00000",
+   "name": "EC25-43-000 NERC Meeting.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-03-06"
+ },
+ "collected_at": "2026-10-03T21:00:42Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

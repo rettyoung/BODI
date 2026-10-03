@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5515",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/3/2026 | DANCE BAR RANCH, LLC | PL | INTERVENOR DANCE BAR RANCH, LLC’S WITNESS LIST",
+ "filed": "2026-06-03",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5515",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5515"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

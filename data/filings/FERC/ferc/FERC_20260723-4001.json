@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260723-4001",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "AD26-7",
+ "title": "Pre-Conference Comments of The PJM Legislators’ Collaborative re the PJM Governance and Stakeholder Reforms under AD26-7.",
+ "filed": "2026-07-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260723-4001",
+ "entity": "PJM LEGISLATORS' COLLABORATIVE",
+ "fetch": [
+  {
+   "ferc_file": "3C99D97A-E7AF-CD64-9D08-9F9082700000",
+   "name": "PJM Legislators' Collaborative Comments_AD26_7_000.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-23"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

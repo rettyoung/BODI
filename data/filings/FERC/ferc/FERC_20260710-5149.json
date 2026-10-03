@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260710-5149",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "(doc-less) Out-of-Time Motion to Intervene of Arkansas Electric Cooperative Corporation under EL26-70.",
+ "filed": "2026-07-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260710-5149",
+ "entity": "Arkansas Electric Cooperative Corporation",
+ "fetch": [
+  {
+   "ferc_file": "FB6F542D-0710-C7DC-9C26-9F4D57E00000",
+   "name": "1770103_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-07-10"
+ },
+ "collected_at": "2026-10-03T21:03:34Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

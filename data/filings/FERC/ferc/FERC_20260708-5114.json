@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260708-5114",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67,EL26-68,EL26-69,EL26-70,EL26-71,EL26-72",
+ "title": "(doc-less) Motion to Intervene of Antora Energy, Inc. under EL26-69 et al.",
+ "filed": "2026-07-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260708-5114",
+ "entity": "Antora Energy, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "6B5079D8-A5B9-C160-B86D-9F42F0E00000",
+   "name": "1769050_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-68",
+  "issued": "2026-07-08"
+ },
+ "collected_at": "2026-10-03T21:02:51Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

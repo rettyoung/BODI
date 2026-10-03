@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260723-5235",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER10-1437",
+ "title": "Supplement to 06/30/2026, Triennial Market Power Analysis for Southeast Region of Tampa Electric Company under ER10-1437.",
+ "filed": "2026-07-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260723-5235",
+ "entity": "Tampa Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "E79F0DA8-6EDE-C47E-993C-9FA93F800000",
+   "name": "0. READ ME.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "F828B79B-EFD7-CFB5-A389-9FA93F800000",
+   "name": "1. 714 Load Processing.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "C41522B4-65B3-C030-AA24-9FA93F800000",
+   "name": "2. 714 Outage Processing.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "1A400E03-5645-C2C8-B02A-9FA93F800000",
+   "name": "3. 930 Load Processing.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-23"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

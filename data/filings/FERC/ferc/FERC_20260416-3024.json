@@ -1,0 +1,38 @@
+{
+ "id": "FERC:20260416-3024",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-1088",
+ "title": "Order on Compliance and Directing Further Compliance re PJM Interconnection, L.L.C. under ER26-1088. ",
+ "filed": "2026-04-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260416-3024",
+ "entity": "COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION); SECRETARY OF THE COMMISSION, FERC; SECRETARY OF THE COMMISSION, FERC",
+ "fetch": [
+  {
+   "ferc_file": "6EFF6DFD-030C-CC2A-9402-9D96D5F00000",
+   "name": "ER26-1088-000.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Commission Order/Opinion"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-04-16"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

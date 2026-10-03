@@ -1,0 +1,27 @@
+{
+ "id": "TX:59142-10",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "2/2/2026 | LARRY MARTIN | COM | 75kW Sculptawave Infrastructure Standard and Sovereign Disclosure by Larry Power Versatility Martin.Formal Notice of the 75kW Ready State Technology for Large Load Interconnection",
+ "filed": "2026-02-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=10",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "10"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

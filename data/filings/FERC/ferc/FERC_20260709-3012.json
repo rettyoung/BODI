@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20260709-3012",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-72",
+ "title": "Errata to the Commission issued Order Instituting Proceeding Under Section 206 of the Federal Power Act; correcting the caption re ISO New England Inc. et al. under EL26-72. For order see accession number 20260618-3076. ",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-3012",
+ "entity": "SECRETARY OF THE COMMISSION, FERC; SECRETARY OF THE COMMISSION, FERC; COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION)",
+ "fetch": [
+  {
+   "ferc_file": "BFEE917D-AED3-C73A-9477-9F4734100000",
+   "name": "EL26-72-000 Errata Notice.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Commission Order/Opinion"
+   }
+  ],
+  "why": "watched docket EL26-72",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:04:21Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "EL26-72-000 Errata Notice.docx",
+   "bytes": 45436,
+   "sha256": "f1c7876e3ba404a898efd73af1475e4d7b8fd7d4c8fcaeabf860c4e26f897643",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "196 FERC ¶ 61,012\nUNITED STATES OF AMERICA\nFEDERAL ENERGY REGULATORY COMMISSION\n\n\n\n\nERRATA NOTICE\n\n(Issued July 9, 2026)\n\nOn June 18, 2026, the Commission issued an “Order Instituting Proceeding Under Section 206 of the Federal Power Act” in the above-captioned proceeding.  ISO New Eng. Inc., 195 FERC ¶ 61,215 (2026).  The caption in the order inadvertently included “Vermont Electric Cooperative, Inc.” and footnote 10 inadvertently omitted “Vermont Electric Cooperative, Inc.”  This errata notice hereby corrects the caption, as shown above, by deleting “Vermont Electric Cooperative, Inc.”  In addition, this errata notice hereby corrects footnote 10 to add “Vermont Electric Cooperative, Inc.,” as follows:\nParticipating Transmission Owners refers to the entities listed in the caption of this order.  We recognize that ISO-NE’s transmission owners include entities that are not subject to the Commission’s jurisdiction because they are not public utilities pursuant to section 201(f) of the FPA.  See 16 U.S.C. § 824(f); Sw. Power Pool, Inc., 180 FERC ¶ 61,022, at PP 44-45 (2022).  Accordingly, the Commission has not included Town of Braintree Electric Light Department; Chicopee Municipal Lighting Plant; Connecticut Municipal Electric Energy Cooperative; Connecticut Transmission Municipal Electric Energy Cooperative; The City of Holyoke Gas and Electric Department; Town of Hudson Light and Power Department; Massachusetts Municipal Wholesale Electric Company; Town of Middleborough Gas & Electric Department; New Hampshire Electric Cooperative, Inc.; Town of Norwood Municipal Light Department; Town of Reading Municipal Light Department; Shrewsbury Electric and Cable Operations; Town of Stowe Electric Department; Taunton Municipal Lighting Plant; Vermont Electric Cooperative, Inc.; Vermont Public Power Supply Authority; and Town of Wallingford, CT, Department of Public Utilities, Electric Division here as Participating Transmission Owners that must respond to this order to show cause.  Nonetheless, the Commission retains the authority to review each entity’s formula rates as a component of ISO-NE’s Tariff in an order to show cause directed towards ISO-NE, and ISO-NE must respond to this order regarding the non-public utilities’ ISO-NE Tariff provisions on file with the Commission.  See Sw. Power Pool, Inc., 180 FERC ¶ 61,022 at P 40.\n\n\n\nDebbie-Anne A. Reese,\nSecretary.\n\n\n"
+  }
+ ]
+}

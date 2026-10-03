@@ -1,0 +1,23 @@
+{
+ "id": "TX:59142-25",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "4/16/2026 | Tract Holding Company I, LLC | COM | TRACT HOLDING COMPANY I, LLC’S COMMENTS ON THE COMMISSION’S STAFF MEMO DATED APRIL 12, 2026",
+ "filed": "2026-04-16",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=25",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "25"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

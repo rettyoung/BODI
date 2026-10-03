@@ -1,0 +1,27 @@
+{
+ "id": "TX:58000-38",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "8/11/2026 | DATA CENTER COALITION | COM | Final DCC Comments on Proposal for Publication (Project 58000)",
+ "filed": "2026-08-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=38",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "38"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "Data Center Coalition"
+ ],
+ "documents": []
+}

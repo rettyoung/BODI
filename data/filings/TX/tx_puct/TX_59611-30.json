@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-30",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "7/20/2026 | SOAH | PL | SOAH ORDER NO. 1- FILING DESCRIPTION, JURISDICTION, REQUIRING FILING, AND ADDRESSING GENERAL PROCEDURES",
+ "filed": "2026-07-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=30",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "30"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

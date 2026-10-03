@@ -1,0 +1,25 @@
+{
+ "id": "TX:58481-127",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "3/20/2026 | VISTRA CORP. | PRJ | Vistra Corp.'s Comments on Planning Guide Revision Request 145 for Project 58481",
+ "filed": "2026-03-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=127",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "127"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Vistra"
+ ],
+ "documents": []
+}

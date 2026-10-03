@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20260730-5132",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP25-514,CP25-517",
+ "title": "Comments of Alabama Rivers Alliance et al. re Project Need and Motion for Evidentiary Hearing re the South System Expansion 4 Project et al. under CP25-517 et al.",
+ "filed": "2026-07-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260730-5132",
+ "entity": "Southern Alliance for Clean Energy; Alabama Rivers Alliance; BlackBelt Women Rising; Energy Alabama; Georgia Interfaith Power & Light; Mississippi Rising Coalition; Mary Avery",
+ "fetch": [
+  {
+   "ferc_file": "78712FD5-BFC1-C02E-8220-9FB47CF00001",
+   "name": "PIO Small Customer Burden & Cost Shift Comment and Motion for Evidentiary Hearing.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "DF9EB881-F58D-C33D-8869-9FB47CF00001",
+   "name": "Exhibits 1-15.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "67D50860-D148-C106-91FB-9FB47CF00001",
+   "name": "Exhibits 16-36.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Request for Hearing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-07-30"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

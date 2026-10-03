@@ -1,0 +1,24 @@
+{
+ "id": "LA:doc:180869",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Notice of Opportunity to File Response to Subpoena for the Production of Documents and Notice of Oral Argument Issued by Chief ALJ Melanie Verzwyvelt",
+ "filed": "2026-06-30",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=180869",
+ "fetch": [
+  {
+   "la_document": 180869
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:46:28Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FERC:20260202-5197",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49",
+ "title": "Motion for Leave to Answer and Answer of Constellation Energy Generation, LLC in response to the rehearing request filed by the Indicated PJM Transmission Owners under EL25-49 et al.",
+ "filed": "2026-02-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260202-5197",
+ "entity": "Constellation Energy Generation, LLC",
+ "fetch": [
+  {
+   "ferc_file": "6C029D18-0716-C9B0-B04C-9C203F600000",
+   "name": "Constellation Motion for Leave and Answer.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-02-02"
+ },
+ "collected_at": "2026-10-03T21:01:18Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

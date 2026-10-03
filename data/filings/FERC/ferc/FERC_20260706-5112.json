@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260706-5112",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-72",
+ "title": "(doc-less) Motion to Intervene of The Retail Energy Supply Association under EL26-72.",
+ "filed": "2026-07-06",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260706-5112",
+ "entity": "The Retail Energy Supply Association",
+ "fetch": [
+  {
+   "ferc_file": "5E61EBBC-B261-CEAB-9F1D-9F3839B00000",
+   "name": "1768426_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-72",
+  "issued": "2026-07-06"
+ },
+ "collected_at": "2026-10-03T21:04:21Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

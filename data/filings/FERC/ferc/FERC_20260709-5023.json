@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5023",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67,EL26-68,EL26-69,EL26-70,EL26-71,EL26-72",
+ "title": "Second Supplemental Technical Comment of L.M. Marlowe on the Frequency-Response Absorption Standard and Coupling-Discrimination Protocol under EL26-67 et al.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5023",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "EFCAB0A4-7F8C-CF0F-B3D2-9F46DF600000",
+   "name": "MARLOWE_FERC-Second-Supplemental-Comment_2026-07-08 (1).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-07-08"
+ },
+ "collected_at": "2026-10-03T21:02:24Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251114-5105",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-247",
+ "title": "(doc-less) Motion to Intervene of Orion Renewable Energy, LLC under ER26-247.",
+ "filed": "2025-11-14",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251114-5105",
+ "entity": "Orion Renewable Energy, LLC",
+ "fetch": [
+  {
+   "ferc_file": "BAB3672E-0230-CB95-9E01-9A8374A00000",
+   "name": "1680637_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-247",
+  "issued": "2025-11-14"
+ },
+ "collected_at": "2026-10-03T21:11:07Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

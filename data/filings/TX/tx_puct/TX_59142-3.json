@@ -1,0 +1,26 @@
+{
+ "id": "TX:59142-3",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "12/19/2025 | SCHAPER ENERGY CONSULTING LLC | COM | PROJECT NO. 59142_REVIEW OF ERCOT'S INTERCONNECTION PROCESSES FOR LARGE LOADS_SCHAPER ENERGY CONSULTING LLC COMMENTS",
+ "filed": "2025-12-19",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=3",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "3"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

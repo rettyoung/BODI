@@ -1,0 +1,45 @@
+{
+ "id": "FERC:20260325-5230",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49",
+ "title": "Answer and Motion for Leave to Answer of the Independent Market Monitor for PJM in response to the Initial Brief of PJM Interconnection, L.L.C. filed on 02/23/2026 under EL25-49 et al. Erroneously Filed.",
+ "filed": "2026-03-25",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260325-5230",
+ "entity": "Monitoring Analytics, LLC",
+ "fetch": [
+  {
+   "ferc_file": "7215C5EA-1285-C33D-A6F6-9D2A08C00000",
+   "name": "2026-03-25 IMM Reply Brief - AS FILED.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-03-25"
+ },
+ "collected_at": "2026-10-03T21:00:23Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '7215C5EA-1285-C33D-A6F6-9D2A08C00000', 'name': '2026-03-25 IMM Reply Brief - AS FILED.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

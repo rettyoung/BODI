@@ -1,0 +1,23 @@
+{
+ "id": "TX:58777-2",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "11/21/2025 | PUC RULES & PROJECTS | PRJ | Restyle Memo",
+ "filed": "2025-11-21",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=2",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "2"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

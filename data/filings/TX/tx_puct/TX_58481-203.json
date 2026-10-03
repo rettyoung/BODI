@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-203",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/20/2026 | Cormint Data Systems | COM | Cormint Data Systems Comments on Staff PforP in 58481",
+ "filed": "2026-04-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=203",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "203"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

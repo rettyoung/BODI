@@ -1,0 +1,23 @@
+{
+ "id": "TX:58482-4",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "3/24/2026 | OPUC | PRJ | OPUC NOTICE OF PARTICIPATION LETTER",
+ "filed": "2026-03-24",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=4",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "4"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

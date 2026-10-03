@@ -1,0 +1,45 @@
+{
+ "id": "FERC:20260821-5281",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3380",
+ "title": "The Ohio Consumers' Counsel submits Protest and Request for Rejection of Filing or in the Alternative for Evidentiary Hearings and/or Settlement Proceedings re PJM Interconnection, L.L.C.’s Reliability Backstop Procurement filing under ER26-3380.",
+ "filed": "2026-08-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260821-5281",
+ "entity": "Office of the Ohio Consumers' Counsel; Office of the Ohio Consumers' Counsel",
+ "fetch": [
+  {
+   "ferc_file": "FEC0ADE5-9FD2-C791-A5C4-A0266A400000",
+   "name": "FIN OCC Protest RBP Docket ER26-3380.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   },
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Request for Hearing"
+   },
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Government Agency Submittal"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-21"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

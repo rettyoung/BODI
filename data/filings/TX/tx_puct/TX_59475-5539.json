@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5539",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/3/2026 | Henderco LLC | PL | Henderco LLC Response to SOAH ORDER No. 24. James Curtis Henderson filed on behalf of Henderco LLC by the deadline date. Tracking No. CQNOTQMZ, filing submitted 5/12/26 4:40 PM. Henderco LLC should be reinstated as a party.",
+ "filed": "2026-06-03",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5539",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5539"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

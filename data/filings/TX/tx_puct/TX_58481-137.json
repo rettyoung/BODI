@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-137",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "4/10/2026 | Zachary Butler, Blind Mice Labs | COM | Supplemental Filing — Revised 2-Page Summary (Corrects and supersedes initial filing FCROOJZE dated 4/10/2026)",
+ "filed": "2026-04-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=137",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "137"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

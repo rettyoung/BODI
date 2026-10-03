@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260526-5014",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Comment of Lauren Hopkins in Docket(s)/Project(s) RM26-4-000\nSubmission Date: 5/25/2026\n",
+ "filed": "2026-05-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260526-5014",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "B195F422-9C60-C9D8-9FB0-9E6056500000",
+   "name": "147743.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-05-25"
+ },
+ "collected_at": "2026-10-03T21:05:46Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

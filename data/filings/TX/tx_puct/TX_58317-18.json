@@ -1,0 +1,23 @@
+{
+ "id": "TX:58317-18",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "7/20/2026 | PUC DEPUTY EXECUTIVE DIRECTOR | LTRS | Response to Governor Abbott's June 10, 2026 letter",
+ "filed": "2026-07-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=18",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "18"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

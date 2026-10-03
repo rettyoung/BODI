@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260813-5066",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-2691",
+ "title": "Duke Energy Carolinas, LLC submits tariff filing per 35.17(b): Response to Deficiency Letter (Joint OATT Att F-2) to be effective 8/1/2026 under ER26-2691 Filing Type : 180",
+ "filed": "2026-08-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260813-5066",
+ "entity": "Duke Energy Carolinas, LLC",
+ "fetch": [
+  {
+   "ferc_file": "A2ECC1B4-330D-C645-9EE9-9FFC0DA00000",
+   "name": "DEC Attach F-2 -- Deficiency Response (FINAL 8-13-26).docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "E70B791E-51C5-C74D-A452-9FFC0DA00000",
+   "name": "Attachment F-2 (DEC NITSA) (clean 5-29-26).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "0245CC9E-44AC-C16E-AC42-9FFC0DA00000",
+   "name": "Attachment F-2 (DEC NITSA) (marked 5-29-26).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "2B7A893D-5041-C859-85A2-9FFC0DB00000",
+   "name": "FERC GENERATED TARIFF FILING.PDF",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-13"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,53 @@
+{
+ "id": "FERC:20260813-3025",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "Errata to the 06/18/2026 Commission issued Order Instituting Proceeding Under Section 206 of the Federal Power Act; correcting footnote 13 re PJM Interconnection, L.L.C. et al. under EL26-67. For order see accession number 20260618-3105. ",
+ "filed": "2026-08-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260813-3025",
+ "entity": "COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION); SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "A2033FCC-DBFC-C1AF-9650-9FFB57A00000",
+   "name": "EL26-67-000 Errata Notice.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Commission Order/Opinion"
+   },
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Dissent/Concurrence by the Commissioner"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-08-13"
+ },
+ "collected_at": "2026-10-03T21:01:48Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "EL26-67-000 Errata Notice.docx",
+   "bytes": 52302,
+   "sha256": "bff287ba7fa503b1f71c094012cdfa0b9b8a387841998c91e65cc128c66a4251",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "196 FERC ¶ 61,122\nUNITED STATES OF AMERICA\nFEDERAL ENERGY REGULATORY COMMISSION\n\n\nERRATA NOTICE\n\n(August 13, 2026)\n\nOn June 18, 2026, the Commission issued an “Order Instituting Proceeding Under Section 206 of the Federal Power Act” in the above-captioned proceeding.  PJM Interconnection, L.L.C., 195 FERC ¶ 61,211 (2026).  The caption in the order inadvertently included “Allegheny Electric Cooperative, Inc.” and “Wabash Valley Power Association, Inc.” and footnote 13 inadvertently omitted “Allegheny Electric Cooperative, Inc.” and “Wabash Valley Power Association, Inc.”  This errata notice hereby corrects the caption, as shown above, by deleting “Allegheny Electric Cooperative, Inc.” and “Wabash Valley Power Association, Inc.”  In addition, this errata notice hereby corrects footnote 13 to add “Allegheny Electric Cooperative, Inc.” and “Wabash Valley Power Association, Inc.,” as follows:\n\nTransmission Owners refers to the entities listed in the caption of this order.  We recognize that PJM’s transmission owners include entities that are not subject to the Commission’s jurisdiction because they are not public utilities pursuant to section 201(f) of the FPA.  See 16 U.S.C. § 824(f); Sw. Power Pool, Inc., 180 FERC ¶ 61,022,                      at PP 44-45 (2022).  Accordingly, the Commission has not included Allegheny Electric Cooperative, Inc.; AMP Transmission, LLC; City of Cleveland, Department of Public Utilities, Division of Cleveland Public Power; City of Hamilton, OH; East Kentucky Power Cooperative, Inc.; Southern Maryland Electric Cooperative, Inc.; and Wabash Valley Power Association, Inc. here as Transmission Owners that must respond to this order to show cause.  Nonetheless, the Commission retains the authority to review each entity’s formula rates as a component of PJM’s Tariff in an order to show cause directed towards PJM, and PJM must respond to this order regarding the non-public utilities’ PJM Tariff provisions on file with the Commission.  See Sw. Power Pool, Inc., 180 FERC ¶ 61,022 at P 40.\n  \n\nDebbie-Anne A. Reese,\nSecretary."
+  }
+ ]
+}

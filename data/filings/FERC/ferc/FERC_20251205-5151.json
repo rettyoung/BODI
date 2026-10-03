@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20251205-5151",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER23-2309,ER24-1394",
+ "title": "DCR Transmission, L.L.C. submits Rebuttal Testimony and Exhibits under ER23-2309, et al. Part 1 of 4.",
+ "filed": "2025-12-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251205-5151",
+ "entity": "DCR Transmission, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "15C50260-043B-C71A-B235-9AEFB2D00000",
+   "name": "DCT-0062 Rebuttal Testimony of John Michael Hagerty.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "B88A168C-0ED8-C1B0-89E7-9AEFB2E00000",
+   "name": "DCT-0063 Qualifications John Michael Hagerty.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "485B4712-8758-C645-9325-9AEFB2E00000",
+   "name": "DCT-0064 Chang Technical Report 2019.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "FF132393-1FCF-C418-99DC-9AEFB2E00000",
+   "name": "DCT-0065 Hagerty Workpapers 1.xlsx",
+   "type": "XLSX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Testimony",
+    "documentType": "Response (Rebuttal) Testimony"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2025-12-05"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,24 @@
+{
+ "id": "AZ:467765",
+ "jur": "AZ",
+ "source": "az_acc",
+ "kind": "filing",
+ "docket": "E-01773A-26-0123",
+ "title": "Open Meeting Agenda",
+ "filed": "2026-08-10",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29858",
+ "entity": "Douglas R. Clark, Executive Director",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/0000217179.pdf"
+  }
+ ],
+ "meta": {
+  "docketID": 29858
+ },
+ "collected_at": "2026-10-03T21:18:05Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "TX:58777-3",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "11/25/2025 | ERCOT | PRJ | ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.'S REPORT ON 2026 RELIABILITY STANDARD MAGNITUDE",
+ "filed": "2025-11-25",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=3",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "3"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

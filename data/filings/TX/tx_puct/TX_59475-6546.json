@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6546",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/9/2026 | 4K LAND AND CATTLE COMPANY | MISC | 4K Land and Cattle Reply Exceptions to the PFD",
+ "filed": "2026-09-09",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6546",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6546"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

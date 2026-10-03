@@ -1,0 +1,55 @@
+{
+ "id": "FERC:20260909-5064",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PF26-9",
+ "title": "Transwestern Pipeline Company, LLC submits draft Resource Report Nos. 1 and 10 re the Desert Southwest Expansion Project under PF26-9. ",
+ "filed": "2026-09-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260909-5064",
+ "entity": "Transwestern Pipeline Company, LLC",
+ "fetch": [
+  {
+   "ferc_file": "B7A6697A-4586-C718-911E-A086CCB00000",
+   "name": "0. Public-Final- DSW Transmittal Letter_DRR 1 and 10_ 09_09_26.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "8AAC7B9A-6955-C8CA-9A1C-A086CCB00000",
+   "name": "1. PUBLIC_DSW_Draft RR1 and App1D-App1L_20260909.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "93E72D79-5AEA-CB56-87DE-A086CCC00000",
+   "name": "2. PUBLIC_DSW_Draft App1A-1_App1A-2-Topo Maps_20260909.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "334706F4-9DB9-C60D-8AF2-A086CCD00000",
+   "name": "3. PUBLIC_DSW_Draft App1B-1_AlignShts-ML_1 of 2_20260909.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process Progress Report"
+   },
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-09"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

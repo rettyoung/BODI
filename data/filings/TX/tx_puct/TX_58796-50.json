@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-50",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "2/12/2026 | KENNEDY REPORTING SERVICE | ADMN | PREHEARING CONFERENCE THURSDAY, JANUARY 29, 2026 (VIA ZOOM VIDEOCONFERENCE)",
+ "filed": "2026-02-12",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=50",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "50"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

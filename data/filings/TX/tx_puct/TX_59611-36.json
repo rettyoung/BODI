@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-36",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "8/31/2026 | CITY OF EL PASO | RFI | City of El Paso's 1st RFIs to EPE",
+ "filed": "2026-08-31",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=36",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "36"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

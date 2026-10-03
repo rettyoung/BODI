@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260618-3083",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-71",
+ "title": "Order Instituting Proceeding Under Section 206 of the Federal Power Act re California Independent System Operator Corporation et al. under EL26-71. Chairman Swett, and Commissioners Rosner, See, Chang, and LaCerte are concurring w/separate stmt. attached.",
+ "filed": "2026-06-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260618-3083",
+ "entity": "SECRETARY OF THE COMMISSION - FERC; COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION)",
+ "fetch": [
+  {
+   "ferc_file": "B8AE9CFD-D849-CEE8-97E2-9EDC07800000",
+   "name": "EL26-71-000.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Commission Order/Opinion"
+   },
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Dissent/Concurrence by the Commissioner"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-06-18"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

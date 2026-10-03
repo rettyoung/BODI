@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20251205-5292",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Reply Comments of Michigan Attorney General  on behalf of the People of the State of Michigan in response to the Notice Inviting Comments and Advanced Notice of Proposed Rulemaking under RM26-4",
+ "filed": "2025-12-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251205-5292",
+ "entity": "Michigan Attorney General",
+ "fetch": [
+  {
+   "ferc_file": "8DD1A839-5FB5-C59B-9F38-9AF073B00000",
+   "name": "RM26-4-000 Michigan AG Reply Comments.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2025-12-05"
+ },
+ "collected_at": "2026-10-03T21:08:00Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "ratepayer protection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "RM26-4-000 Michigan AG Reply Comments.pdf",
+   "bytes": 123649,
+   "sha256": "7a6cb4477f7859f32fe460a51ecf0eb76c393c33c3b05e5fb01a91ca87c89d37",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                              UNITED STATES OF AMERICA\n                                     BEFORE THE\n                       FEDERAL ENERGY REGULATORY COMMISSION\n\n\nInterconnection of Large Loads to                       )\nthe Interstate Transmission System                      )          Docket No. RM26-4-000\n\n\n                                   REPLY COMMENTS OF\n                           THE PEOPLE OF THE STATE OF MICHIGAN\n\n            Pursuant to the Federal Energy Regulatory Commission’s (“FERC”) November 7, 2025\n\nNotice Granting Extension of Time, Michigan Attorney General Dana Nessel (the “Attorney\n\nGeneral”), on behalf of the people of the State of Michigan respectfully submits these Reply\n\nComments in response to initial comments submitted by interested stakeholders that address the\n\nOctober 27, 2025 Notice Inviting Comments regarding the Advanced Notice of Proposed\n\nRulemaking (“ANOPR”) proposed by the Secretary of Energy on October 23, 2025.\n\n            The Attorney General replies to present support for several points raised in comments by\n\nthe National Association of State Utility Consumer Advocates (“NASUCA”). The Attorney\n\nGeneral replies to express support for NASUCA’s comments as to jurisdictional concerns\n\npresented by the ANOPR’s arguments and potential impact. 1 The Attorney General further replies\n\nto express support for NASUCA’s comments as to why expedited action would be inappropriate\n\nhere. 2\n\n            The Attorney General also replies to express support for the request raised in comment by\n\na group of several states’ attorneys general and ratepayer advocates for FERC to “meaningfully\n\n\n\n\n1\n    See, NASUCA’s Initial Comments, at 5 – 7.\n2\n    Id. at 7 – 11.\n\fprioritize ratepayer protections during this rulemaking process.” 3 The Attorney General reserves\n\nher ability to present additional or different comments, positions, and objections during the course\n\nof the rulemaking process.\n\n                                                             Respectfully submitted,\n\n\n                                                             Dana Nessel\n                                                             Michigan Attorney General\n\n                                                             /s/ Michael E. Moody\n\n                                                             Michael E. Moody (P51985)\n                                                             Lucas Wollenzien (P86928)\n                                                             Assistant Attorneys General\n                                                             Special Litigation Division\n                                                             P.O. Box 30755\n                                                             Lansing, MI 48909\n                                                             517-335-7627\n                                                             MoodyM2@michigan.gov\n                                                             WollenzienL@michigan.gov\n\nDated: December 5, 2025\n\n\n\n\n3\n See at page 7 in the Initial Comments filed on behalf of the Massachusetts Attorney General’s Office, the Arizona\nAttorney General’s Office, the Colorado Attorney General’s Office, the Connecticut Office of Consumer Counsel, the\nMaryland Office of People’s Counsel, the Minnesota Attorney General’s Office, the Office of the Nevada Attorney\nGeneral, Bureau of Consumer Protection, the New Hampshire Office of the Consumer Advocate, the Oregon Attorney\nGeneral, and the Rhode Island Division of Public Utilities and Carriers.\n\n\n\n                                                        2\n\f                              CERTIFICATE OF SERVICE\n\n       I hereby certify that I have this day served the foregoing document upon each person\ndesignated on the official service list compiled by the Secretary in this proceeding.\n\nDated this 5th day of December, 2025\n\n\n                                                 Michael E. Moody (P51985)\n                                                 Assistant Attorney General\n                                                 Special Litigation Division\n                                                 P.O. Box 30755\n                                                 Lansing, MI 48909\n                                                 517-335-7627\n                                                 MoodyM2@michigan.gov\n\n\n\n\n                                            3\n\f"
+  }
+ ]
+}

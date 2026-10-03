@@ -1,0 +1,42 @@
+{
+ "id": "FERC:20251219-4001",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "Transcript of the 1131th Commission Meeting held on December 18, 2025 re Consent-Electric et al. kg",
+ "filed": "2025-12-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251219-4001",
+ "entity": "FEDERAL ENERGY REGULATORY COMMISSION",
+ "fetch": [
+  {
+   "ferc_file": "339B9A7B-B8BD-C95A-926E-9B38B7700000",
+   "name": "121825CommissionMtg.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "E1A8CB64-E093-C77A-9BC4-9B38B7700000",
+   "name": "121825CommissionMtg.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Transcript",
+    "documentType": "Commission Open Meeting Transcript"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2025-12-18"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

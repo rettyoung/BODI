@@ -1,0 +1,25 @@
+{
+ "id": "TX:59475-6439",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "8/18/2026 | ONCOR, LCRA TSC, AEP, AND CPS ENERGY (JOINT TSPS) | PL | JOINT TRANSMISSION SERVICE PROVIDERS’ RESPONSE TO AMERICAN STEWARDS OF LIBERTY’S MOTION TO ABATE",
+ "filed": "2026-08-18",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6439",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6439"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260709-5243",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-68",
+ "title": "(doc-less) Motion to Intervene of Microsoft Corporation under EL26-68.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5243",
+ "entity": "Microsoft Corporation; Microsoft Corporation; Microsoft Corporation; Microsoft Corporation",
+ "fetch": [
+  {
+   "ferc_file": "4898A2B2-D21A-CF48-A7B8-9F4852900000",
+   "name": "1769695_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-68",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:02:48Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Microsoft"
+ ],
+ "documents": []
+}

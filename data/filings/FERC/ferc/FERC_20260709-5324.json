@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260709-5324",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "(doc-less) Motion to Intervene of Rappahannock Electric Cooperative under EL26-67.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5324",
+ "entity": "RAPPAHANNOCK ELECTRIC COOPERATIVE; RAPPAHANNOCK ELECTRIC COOPERATIVE",
+ "fetch": [
+  {
+   "ferc_file": "E2957DFC-FBA0-CF22-872D-9F48ADD00000",
+   "name": "1769808_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:02:15Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

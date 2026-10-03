@@ -1,0 +1,24 @@
+{
+ "id": "GA:225867",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "56002",
+ "title": "Semi-Annual Nuclear Uprate Report 12 2025",
+ "filed": "2026-03-16",
+ "entity": "Georgia Power Company",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=225867",
+ "fetch": [
+  {
+   "ga_document": 225867
+  }
+ ],
+ "collected_at": "2026-10-03T21:18:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "nuclear",
+  "uprate"
+ ],
+ "party_hits": [],
+ "documents": []
+}

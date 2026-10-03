@@ -1,0 +1,21 @@
+{
+ "id": "GA:226711",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "56002",
+ "title": "DKT 56002 STF-PIA-21 PD",
+ "filed": "2026-05-26",
+ "entity": "Georgia Power Company",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=226711",
+ "fetch": [
+  {
+   "ga_document": 226711
+  }
+ ],
+ "collected_at": "2026-10-03T21:18:12Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

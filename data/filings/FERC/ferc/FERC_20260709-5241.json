@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20260709-5241",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "(doc-less) Motion to Intervene of Data Center Coalition under EL26-70.",
+ "filed": "2026-07-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260709-5241",
+ "entity": "Data Center Coalition",
+ "fetch": [
+  {
+   "ferc_file": "D57D819F-FFFA-CFEF-9E8C-9F4851D00000",
+   "name": "1769692_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-07-09"
+ },
+ "collected_at": "2026-10-03T21:03:36Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [
+  "Data Center Coalition"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1769692_Interv.txt",
+   "bytes": 3042,
+   "sha256": "bb53d65881e85d3da6ccc3d9ad1f38fadd2da36e6e3faed59aa2bf362ef4a5b0",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Data Center Coalition under EL26-70.\r\n\r\nSubmission Date:        7/9/2026 3:06:54 PM\r\n\r\nFiled Date:             7/9/2026 3:06:54 PM\r\n\r\nDockets\r\n-------\r\nEL26-70-000          206 Investigation\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nData Center Coalition                    morgan@datacentercoalition.org                                                   \r\n\r\nBasis for Intervening:\r\nPursuant to Rules 212 and 214 of the Rules of Practice and Procedure of the Federal Energy Regulatory Commission (\"Commission\"), 18 C.F.R. §§ 385.212 and 385.214, the Data Center Coalition (\"DCC\") hereby moves to intervene in this proceeding. DCC is the membership organization for the U.S. data center industry, representing leading data center owners and operators that maintain data center infrastructure and teams across the country. DCC members operate data centers that constitute significant loads within the MISO region and are active stakeholders in regional efforts to speed large load interconnections and accelerate resource additions.\r\n\r\nDCC's member companies provide the essential digital infrastructure that underpins the modern economy and supports critical public services, including cloud computing, artificial intelligence, emergency response systems, and public safety operations. From 2017 to 2023, the data center industry contributed $3.5 trillion to U.S. GDP. As the industry unlocks unprecedented economic opportunities across the country and the MISO region, supporting affordability is a foundational priority for DCC members and the communities they serve. DCC advocates for grid reforms that minimize unnecessary cost burdens, align with cost causation, facilitate responsible load growth, and support the development of new generation without imposing undue costs on existing ratepayers. While maintaining reliability is ultimately the responsibility of utilities, grid operators, electric reliability organizations, and regulators, DCC members are also leaning in and leading as engaged partners supporting regional reliability during periods of grid stress, including extreme weather, generation outages, and sudden load spikes. Data centers can serve as valuable operational assets by providing emergency load relief and supporting critical voltage and frequency stability, while safeguarding the essential digital services that communities rely on.\r\n\r\nDCC members will be directly and substantially impacted by the outcome of this proceeding. DCC has a substantial interest in this proceeding, and no other party can adequately represent the substantial interests of DCC or its diverse and broad set of members. Accordingly, DCC respectfully requests that the Commission grant its timely motion to intervene in this proceeding.\r\n"
+  }
+ ]
+}

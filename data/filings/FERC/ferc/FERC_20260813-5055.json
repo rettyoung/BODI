@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260813-5055",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ZZ26-4",
+ "title": "Independent Market Monitor for PJM submits Quarterly State of the Market Report for Q2 of 2026 under ZZ26-4.",
+ "filed": "2026-08-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260813-5055",
+ "entity": "Monitoring Analytics, LLC",
+ "fetch": [
+  {
+   "ferc_file": "0019806B-31A3-CC2A-9DEB-9FFBE2A00000",
+   "name": "2026 Q2 FERC SOM Submission Letter.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "9320B2A1-6A7C-CF31-A423-9FFBE2A00000",
+   "name": "2026q2-som-pjm.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Other Utility Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-13"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

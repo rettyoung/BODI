@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20251114-5261",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-247",
+ "title": "(doc-less) Motion to Intervene of Sierra Club under ER26-247.",
+ "filed": "2025-11-14",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251114-5261",
+ "entity": "Sierra Club",
+ "fetch": [
+  {
+   "ferc_file": "1ABFD301-9767-C481-9F5E-9A8472F00000",
+   "name": "1680838_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-247",
+  "issued": "2025-11-14"
+ },
+ "collected_at": "2026-10-03T21:10:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

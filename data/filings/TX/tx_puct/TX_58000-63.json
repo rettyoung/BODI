@@ -1,0 +1,25 @@
+{
+ "id": "TX:58000-63",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "8/11/2026 | OPUC | COM | OFFICE OF PUBLIC UTILITY COUNSEL’S COMMENTS ON THE PROPOSAL FOR PUBLICATION OF AMENDMENTS TO §25.192 and §25.193 and NEW §25.252",
+ "filed": "2026-08-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=63",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "63"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Office of Public Utility Counsel"
+ ],
+ "documents": []
+}

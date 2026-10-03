@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260812-5045",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EC19-31,EL15-3,EL19-69,EL20-42,EL20-49,EL23-14,EL25-57,ER15-704,P-14890,RM26-4,TX18-1",
+ "title": "Jenner & Block LLP submits request to update the service list under EL15-3 et al.",
+ "filed": "2026-08-12",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260812-5045",
+ "entity": "Jenner & Block LLP",
+ "fetch": [
+  {
+   "ferc_file": "632FF272-096A-C12B-84CF-9FF682700001",
+   "name": "Juliana Brint Request to Update Official Service Lists.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-08-12"
+ },
+ "collected_at": "2026-10-03T21:04:38Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

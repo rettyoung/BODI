@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-105",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "1/20/2026 | TEXAS-NEW MEXICO POWER COMPANY | COM | Comments of Texas-New Mexico Power Company",
+ "filed": "2026-01-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=105",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "105"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251114-5168",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-247",
+ "title": "(doc-less) Motion to Intervene of Geronimo Power, LLC under ER26-247.",
+ "filed": "2025-11-14",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251114-5168",
+ "entity": "GERONIMO POWER, LLC",
+ "fetch": [
+  {
+   "ferc_file": "0CCDEA47-9225-CA92-9D29-9A83F6D00000",
+   "name": "1680710_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-247",
+  "issued": "2025-11-14"
+ },
+ "collected_at": "2026-10-03T21:11:01Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

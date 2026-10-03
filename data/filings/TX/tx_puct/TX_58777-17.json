@@ -1,0 +1,26 @@
+{
+ "id": "TX:58777-17",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "2/17/2026 | THOMAS L DARTE | LTRS | The Challenges Created by Data Centers and Other large Loads",
+ "filed": "2026-02-17",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=17",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "17"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

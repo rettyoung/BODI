@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260807-5186",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "Answer of the Organization of MISO States, Inc. in Support of Midcontinent Independent System Operator, Inc.'s et al. 08/03/2026 Motion to Hold Proceeding in Abeyance under EL26-70.",
+ "filed": "2026-08-07",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260807-5186",
+ "entity": "Organization of MISO States, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "22819E6F-6B2C-CA74-9FDB-9FDDB7F00000",
+   "name": "EL26-70 OMS Answer to MISO Abeyance Request.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-08-07"
+ },
+ "collected_at": "2026-10-03T21:03:27Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

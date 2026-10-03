@@ -1,0 +1,24 @@
+{
+ "id": "AZ:468691",
+ "jur": "AZ",
+ "source": "az_acc",
+ "kind": "filing",
+ "docket": "E-01345A-25-0105",
+ "title": "Motion/Request to Withdraw as Counsel",
+ "filed": "2026-08-31",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+ "entity": "Antonia M. Langowski, Atty.",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000054065.pdf"
+  }
+ ],
+ "meta": {
+  "docketID": 29551
+ },
+ "collected_at": "2026-10-03T21:18:05Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

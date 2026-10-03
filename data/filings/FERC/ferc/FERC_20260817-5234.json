@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260817-5234",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-153",
+ "title": "Application for Authorization Under Section 203 of the Federal Power Act of AEP Generation Resources Inc., et al. under EC26-153.",
+ "filed": "2026-08-17",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260817-5234",
+ "entity": "AEP Generation Resources Inc.; Longview Power, LLC",
+ "fetch": [
+  {
+   "ferc_file": "38B972FE-8C9C-CE60-A5A1-A0158C100000",
+   "name": "2026-08-17 Longview 203 Filing Final.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "A1D7E955-213D-C659-AC03-A0158C100000",
+   "name": "AEP and Longview_Details_PJM West.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "A8F4D074-D537-CF9B-B64E-A0158C100000",
+   "name": "AEP and Longview_Details_PJM.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "C7FA305C-DEFA-CD84-BFD7-A0158C100000",
+   "name": "AEP Buys Longview PJM DPT Results_20260817.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Disposition of Facilities Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-08-17"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

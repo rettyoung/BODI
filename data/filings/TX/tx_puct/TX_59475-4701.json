@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4701",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/16/2026 | John B. Bradley - Lazy S Ranch | PL | John Bradley, pro se intervenor, respectfully submits notice to applicants that PUC Interchange Item 4696, Draft Intervenor Map, omits habitable structure and well w/in 500ft of segment G71 centerline.",
+ "filed": "2026-05-16",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4701",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4701"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

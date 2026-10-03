@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-70",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "7/10/2026 | PUC LEGAL | TEST | DIRECT TESTIMONY OF ADRIAN NARVAEZ RATE REGULATION DIVISION PUBLIC UTILITY COMMISSION OF TEXAS JULY 10, 2026",
+ "filed": "2026-07-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=70",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "70"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

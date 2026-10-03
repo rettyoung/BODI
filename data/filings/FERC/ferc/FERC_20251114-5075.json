@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20251114-5075",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-247",
+ "title": "(doc-less) Motion to Intervene of City Utilities of Springfield, Missouri under ER26-247.",
+ "filed": "2025-11-14",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20251114-5075",
+ "entity": "City Utilities of Springfield, Missouri",
+ "fetch": [
+  {
+   "ferc_file": "91853B5D-FD44-C952-9CC7-9A8326900000",
+   "name": "1680590_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket ER26-247",
+  "issued": "2025-11-14"
+ },
+ "collected_at": "2026-10-03T21:11:07Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

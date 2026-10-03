@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-4739",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/19/2026 | PUC LEGAL | PL | COMMISSION STAFF’S MOTION FOR INFORMATIONAL PREHEARING CONFERENCE AND FOR ALIGNMENT OF INTERVENORS IN ORDER OF PRESENTATION",
+ "filed": "2026-05-19",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4739",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4739"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

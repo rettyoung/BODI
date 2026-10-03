@@ -1,0 +1,25 @@
+{
+ "id": "TX:59475-5149",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/26/2026 | G-9 and G-13 Landowners | PL | G-9 and G-13 Landowners' Response to Oncor Electric Delivery Company LLC and LCRA Transmission Services Corporation’s Objections to, and Motion to Strike, Intervenor Testimony",
+ "filed": "2026-05-26",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5149",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5149"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

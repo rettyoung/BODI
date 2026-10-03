@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260804-3065",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "Notice Establishing Answer Period re PJM Interconnection, L.L.C. et al. under EL26-67. ",
+ "filed": "2026-08-04",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260804-3065",
+ "entity": "SECRETARY OF THE COMMISSION, FERC; SECRETARY OF THE COMMISSION, FERC",
+ "fetch": [
+  {
+   "ferc_file": "E0DCE3D7-0691-C4E8-960E-9FCDF4900000",
+   "name": "EL26-67-000 Answer.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-08-04"
+ },
+ "collected_at": "2026-10-03T21:01:51Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

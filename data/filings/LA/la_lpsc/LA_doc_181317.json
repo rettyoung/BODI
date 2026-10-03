@@ -1,0 +1,26 @@
+{
+ "id": "LA:doc:181317",
+ "jur": "LA",
+ "source": "la_lpsc",
+ "kind": "filing",
+ "docket": "U-37882",
+ "title": "Fax-filed Affidavit of Weston Adams, III for Meta Platforms, Inc.",
+ "filed": "2026-07-30",
+ "entity": "",
+ "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=181317",
+ "fetch": [
+  {
+   "la_document": 181317
+  }
+ ],
+ "meta": {
+  "matterId": 32728
+ },
+ "collected_at": "2026-10-03T20:47:10Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Meta"
+ ],
+ "documents": []
+}

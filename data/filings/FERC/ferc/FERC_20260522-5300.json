@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260522-5300",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-99",
+ "title": "Supplement to 05/21/2026, Joint Application for Authorization Under Section 203 of the Federal Power Act of Horizon Merger Sub, Inc., et al. under EC26-99.",
+ "filed": "2026-05-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260522-5300",
+ "entity": "Horizon Merger Sub, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "2235CF23-57F1-C836-8BDC-9E8421200000",
+   "name": "Reviewing Output.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "BD273A51-9A6C-CBDF-9089-9E8421200000",
+   "name": "Run PASS 20260515.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "350B27F1-0AB3-C04E-9A70-9E8421200000",
+   "name": "Technical Appendix Methods to Calculate Concentration.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "95DBC610-F900-C52A-8B97-9E8421A00000",
+   "name": "15. pass full summary for exhibits.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-05-22"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

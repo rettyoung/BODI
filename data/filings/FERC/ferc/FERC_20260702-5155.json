@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260702-5155",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-71",
+ "title": "(doc-less) Motion to Intervene of City of Santa Clara, CA d/b/a Silicon Valley Power under EL26-71.",
+ "filed": "2026-07-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260702-5155",
+ "entity": "City of Santa Clara, CA d/b/a Silicon Valley Power; City of Santa Clara, CA d/b/a Silicon Valley Power; City of Santa Clara, CA d/b/a Silicon Valley Power",
+ "fetch": [
+  {
+   "ferc_file": "D2ECD116-E083-CB8F-AEAD-9F245A900000",
+   "name": "1768211_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-71",
+  "issued": "2026-07-02"
+ },
+ "collected_at": "2026-10-03T21:04:06Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

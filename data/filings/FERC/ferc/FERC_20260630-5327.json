@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260630-5327",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER20-2054",
+ "title": "Supplement to Annual Update Regarding ISO Tariff Charges in Effect as of 01/01/2026, under ER20-2054.",
+ "filed": "2026-06-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260630-5327",
+ "entity": "Participating Transmission Owners Administrative Committee",
+ "fetch": [
+  {
+   "ferc_file": "E61539C9-8858-C0BE-9C08-9F1E93D00000",
+   "name": "PTO AC Annual Informational Update.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "8DB9C616-ACFB-CFA2-896A-9F1E93E00000",
+   "name": "Attachment 1 - Schedule 9.xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "86B6253B-7C72-C062-91EA-9F1E93E00000",
+   "name": "Attachment 2 - CL&P - 12C.xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "6B28E031-569D-C122-997B-9F1E93E00000",
+   "name": "Attachment 2 - CL&P.xlsx",
+   "type": "XLSX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-06-29"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

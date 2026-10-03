@@ -1,0 +1,57 @@
+{
+ "id": "FERC:20260812-5036",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-70",
+ "title": "Comments of Sparkfund on Midcontinent Independent System Operator Inc.’s Informational Report filed on 07/20/2026 under EL26-70.",
+ "filed": "2026-08-12",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260812-5036",
+ "entity": "Sparkfund",
+ "fetch": [
+  {
+   "ferc_file": "2ADCAEFD-01B4-CBA3-9EE6-9FF66C100000",
+   "name": "Sparkfund Comments to FERC in MISO Large Load Docket.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "watched docket EL26-70",
+  "issued": "2026-08-12"
+ },
+ "collected_at": "2026-10-03T21:03:27Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "ESA",
+  "IRP",
+  "data center",
+  "integrated resource plan",
+  "large load",
+  "large-load",
+  "resource adequacy"
+ ],
+ "party_hits": [
+  "Google"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Sparkfund Comments to FERC in MISO Large Load Docket.pdf",
+   "bytes": 143917,
+   "sha256": "8d2a1b1fbd6b04a5a3dcb306406c5c56b5ffe54ac08d9b76d85ebe49b90b0adf",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "                             UNITED STATES OF AMERICA\n                                    BEFORE THE\n                      FEDERAL ENERGY REGULATORY COMMISSION\n\n\n\n    Midcontinent Independent System Operator,                        Docket No. EL26-70-000\n    Inc.\n\n\n\n         COMMENTS OF SPARKFUND ON MISO’S INFORMATIONAL REPORT\n\n​        Spark Community Investment Fund (d/b/a Sparkfund) appreciates the informational\n\nreport filed by the Midcontinent Independent System Operator (MISO) describing the efforts\n\nMISO is undertaking to integrate large loads. Sparkfund submits these comments to provide\n\nfurther information on how MISO’s existing and pending DER models are enabling DERs to be\n\na means to integrate large loads, and how this model can be further replicated throughout MISO.\n\n         Distributed resources are increasingly providing capacity to integrate large loads, through\n\nutility programs and MISO’s existing participation models. This distributed capacity potential is\n\ndocumented through Rewiring America’s Homegrown Energy blueprint;1 the recent 16 GW\n\nnationwide VPP announced by Tesla, Sunrun, and Renew Home;2 and Voltus’s Bring Your Own\n\nCapacity model.3 While MISO diligently works towards full implementation of FERC Order\n\n2222 in 2029/2030, aggregators and utilities within MISO are able to deploy distributed\n\nresources as capacity today using the existing participation models.\n\n ​       One example illustrates how a MISO utility is already leveraging the distribution system\n\nto deploy power plant scale capacity to integrate large loads. The Minnesota Public Utilities\n\n1\n  Rewiring America, Homegrown Energy (May 2026), available at\nhttps://www.rewiringamerica.org/research/homegrown-energy-report-policy-affordable-household-upgrades.\n2\n  See vppcapacity.com, documenting hundreds of megawatts available in MISO states through existing batteries and\nHVAC loads.\n3\n  Voltus Launches “Bring Your Own Capacity” Product to Support Data Center Growth and Grid Resiliency (Sept.\n30, 2025), available at https://www.voltus.co/press/bring-your-own-capacity-data-centers.\n\n\n                                                                                                              1\n\fCommission recently approved Xcel Energy’s Capacity*Connect program, to deploy up to 200\n\nMW of front-of-the-meter, distribution-sited 1-3 MW battery energy storage systems (BESS) by\n\nthe end of 2028,4 with the potential for 500 MW by 2031.5 The Capacity*Connect program is a\n\nform of distributed capacity procurement (DCP), in which the BESS would be owned and\n\noperated by Xcel, and intentionally sited where the resources could best benefit the distribution\n\ngrid.6 The BESS will use MISO’s DRR Type 1 Participation model, which allows the resources\n\nto participate in MISO’s energy and ancillary service markets.7 DRRs can act as capacity\n\nresources that count towards an LSE’s Planning Reserve Margin Requirement (PRMR), just like\n\na generator.8\n\n         Xcel’s Capacity*Connect program illustrates several points about distributed capacity\n\nsupporting large load integration in MISO. First, MISO’s existing participation models provide\n\nseveral options for utilities and third-parties within MISO to deploy distributed energy resources\n\nthat, in aggregate, reach power plant scale.9 Second, Capacity*Connect provides a mechanism to\n\ndeploy new capacity to serve data centers while also delivering localized, distribution-level\n\nbenefits: Google’s new Pine Island, MN data center facility has entered an Electric Service\n\nAgreement that includes $50 million towards Xcel’s Capacity*Connect battery portfolio in\n\nexchange for matched capacity credits. Google’s purchase of capacity credits from\n\nCapacity*Connect offsets a portion of Xcel’s total cost.10\n\n\n4\n   Order at 5, In the Matter of the Petition of Northern States Power Company, d/b/a Xcel Energy, for Approval of\nCapacity*Connect, a Distributed Capacity Procurement Program, Docket No. E-002/M-25-378 (May 13, 2026)\n(“Capacity*Connect Order”).\n5\n  Staff Briefing Papers at 7, In the Matter of the Petition of Northern States Power Company, d/b/a Xcel Energy, for\nApproval of Capacity*Connect, a Distributed Capacity Procurement Program, Docket No. E-002/M-25-378 (Mar.\n18, 2026) (Capacity*Connect Briefing Papers).\n6\n  Capacity*Connect Order at 4-5.\n7\n  Capacity*Connect Briefing Papers at 8.\n8\n  Id. at n. 14.\n9\n  Id. at 8 discussing multiple participation pathways in MISO’s market.\n10\n   Id. at 10.\n\n\n                                                                                                                       2\n\f        Third, when well-designed programs align with functioning markets the combination can\n\nbe net negative on residential electricity bills. Xcel’s compliance filing calculates that\n\nCapacity*Connect will deliver average residential bill savings of approximately $0.13 per month\n\nover the twenty-year analysis period, with Google’s $50 million contribution further increasing\n\nthose savings by another $0.04 per month, to approximately $0.17 per month.11\n\nCapacity*Connect therefore demonstrates that distributed capacity can be deployed to integrate\n\nlarge loads while simultaneously lowering residential bills.\n\n        Fourth, distributed capacity could meaningfully contribute to MISO’s resource adequacy:\n\nmultiple utilities deploying 200-500 MW of utility-owned and operated distributed capacity\n\ncould amount to gigawatts across the MISO footprint. Other utilities within the MISO footprint\n\nhave taken notice of Capacity*Connect and are actively exploring and establishing distributed\n\ncapacity programs of their own. This exploration is taking shape across multiple regulatory and\n\ncommercial pathways, including existing integrated resource planning (IRP) processes, both\n\nexisting and newly-proposed large-load tariffs designed to serve data center customers, and\n\nemerging bring-you-own-capacity (BYOC) structures. These efforts are particularly notable\n\ngiven the potential for distributed batteries to value-stack across both wholesale market\n\nopportunities and distribution-level benefits, an opportunity that Xcel has detailed for the\n\nMinnesota Public Utilities Commission during its review of the Capacity*Connect.12\n\n        Finally, distributed capacity is a way to “right size” the capacity to meet load growth\n\nneeds. For example, 127 MW of distributed capacity could be deployed as a bridge solution\n\nwhile traditional thermal generation is being built.\n\n\n11\n   See Compliance Filing – Bill Impact Analysis, at 2-5, In the Matter of the Petition of Northern States Power\nCompany, d/b/a Xcel Energy, for Approval of Capacity*Connect, a Distributed Capacity Procurement Program,\nDocket No. E-002/M-25-378 (Apr. 24, 2026).\n12\n   Capacity*Connect Order at 4-6.\n\n\n                                                                                                                  3\n\f       Sparkfund provides the above information to spotlight what distributed capacity is\n\ncapable of doing in MISO today, while noting that this potential only grows as MISO and other\n\nmarkets implement FERC Order No. 2222.\n\n\n\nDated: August 12, 2026\n\n\nSincerely,\n\n\n\n\nAllison Bates Wannop\nVice President, Regulatory Affairs and Wholesale Markets\nSparkfund\nallison.wannop@sparkfund.com\n617-548-6221\n\n\n\n\n                                                                                                4\n\f"
+  }
+ ]
+}

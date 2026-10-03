@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260827-8038",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "PACIFIC GAS AND ELECTRIC COMPANY submits FERC Form 3Q Electric report for 2026/Q2",
+ "filed": "2026-08-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260827-8038",
+ "entity": "PACIFIC GAS AND ELECTRIC COMPANY",
+ "fetch": [
+  {
+   "ferc_file": "A6A03CDE-32D5-CDDC-9322-A044D5A00000",
+   "name": "361177-C000388-Form_3Q_Electric-2026-Q2_361177.html",
+   "type": "HTML"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 3-Q -Quarterly financial report of electric utilities- licensees- and natural gas companies"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-08-27"
+ },
+ "collected_at": "2026-10-03T21:14:40Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'A6A03CDE-32D5-CDDC-9322-A044D5A00000', 'name': '361177-C000388-Form_3Q_Electric-2026-Q2_361177.html', 'type': 'HTML'}",
+   "error": "RuntimeError('FERC DownloadP8File returned application/octet-stream (7802013 bytes)')"
+  }
+ ]
+}

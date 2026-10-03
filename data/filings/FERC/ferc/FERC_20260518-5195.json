@@ -1,0 +1,37 @@
+{
+ "id": "FERC:20260518-5195",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-1088",
+ "title": "The Indicated PJM Transmission Owners submit Request for Rehearing or, in the Alternative, Clarification of the 04/16/2026 Order under ER26-1088.",
+ "filed": "2026-05-18",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260518-5195",
+ "entity": "Indicated PJM Transmission Owners; Indicated PJM Transmission Owners; Indicated PJM Transmission Owners; Indicated PJM Transmission Owners",
+ "fetch": [
+  {
+   "ferc_file": "A28CFB0E-1D5A-CF88-B7DC-9E4068000000",
+   "name": "ITO Request for Rhrg 30-Day Comp. Filing (Final 5.18).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Request for Rehearing or Appeal"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-05-18"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

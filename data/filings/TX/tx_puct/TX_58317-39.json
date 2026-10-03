@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-39",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "8/20/2026 | Sandra Reeves | PC | Concerns about the Data Center at 13590 Denton Hwy",
+ "filed": "2026-08-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=39",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "39"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

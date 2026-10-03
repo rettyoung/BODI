@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5393",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/2/2026 | Gary and Marie Combs | PL | Refiling #4809 to request to intervene, we were not included in SOAH Order No. 14 or 24. Request to intervene was filed on 4-27-26 (2589)",
+ "filed": "2026-06-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5393",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5393"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

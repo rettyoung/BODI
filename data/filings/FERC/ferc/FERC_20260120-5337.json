@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20260120-5337",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL25-49,ER26-1088",
+ "title": "Notice of Compliance Filing in ER26-1088-000 of PJM Interconnection, L.L.C., under EL25-49.",
+ "filed": "2026-01-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260120-5337",
+ "entity": "PJM Interconnection, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "2A8628E9-C295-C59B-A430-9C1E77700000",
+   "name": "Notice of Compliance Filing (Jan 20).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "General Correspondence"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-01-20"
+ },
+ "collected_at": "2026-10-03T21:01:24Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Notice of Compliance Filing (Jan 20).pdf",
+   "bytes": 164654,
+   "sha256": "aab15485990ddc237d74707db70c0652afb0a08bfb7badc27ff2f0310960b0fc",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                                                                   1200 G Street, N.W., Suite 600\n                                                                                   Washington, D.C. 20005-3898\n                                                                                            Phone: 202.393.1200\n                                                                                               Fax: 202.393.1240\n                                                                                                   wrightlaw.com\n\n\n                                            January 20, 2026\n\n                                                                     VIA ELECTRONIC FILING\n\nHonorable Debbie-Anne A. Reese, Secretary\nFederal Energy Regulatory Commission\n888 First Street, N.E.\nWashington, DC 20426\n\n          Re:      PJM Interconnection, L.L.C., Docket No. EL25-49-000, et al.\n                   Compliance Filing in Docket No. ER26-1088-000\n\nDear Secretary Reese:\n\n       This letter, being served on all parties to the above-referenced proceeding, confirms\nthat PJM Interconnection L.L.C (“PJM”) submitted today a Compliance Filing of Tariff\nchanges in Docket No. ER26-1088-000 (Accession No. 202601205251) in accordance with\nthe Federal Energy Regulatory Commission’s December 28, 2025 order. 1 PJM has\nrequested approval of the Tariff changes effective as of the date the Commission accepts\nthe Compliance Filing.\n\n\n                                                          Respectfully submitted,\n\n                                                          /s/Ruth M. Porter\n                                                          Wendy B. Warren\n                                                          Ruth M. Porter\n                                                          Wright & Talisman, P.C.\n                                                          1200 G Street N.W., Suite 600\n                                                          Washington, D.C. 20005-3802\n                                                          (202) 393-1200\n                                                          warren@wrightlaw.com\n                                                          porter@wrightlaw.com\n\n                                                         Attorneys for\n                                                         PJM Interconnection, L.L.C.\n\n\n\n\n1\n    PJM Interconnection, L.L.C., 193 FERC ¶ 61,217, at PP 2, 161, 231-36 (2025).\n\f                              CERTIFICATE OF SERVICE\n\n       I hereby certify that I have this day served the foregoing document upon each person\n\ndesignated on the official service lists compiled by the Secretary in these proceedings.\n\n       Dated at Washington, DC, this 20th day of January 2026.\n\n\n                                               /s/ Ruth M. Porter\n                                               Ruth M. Porter\n                                               Wright & Talisman, P.C.\n                                               1200 G Street, N.W., Suite 600\n                                               Washington, DC 20005-3898\n                                               (202) 393-1200\n                                               porter@wrightlaw.com\n\n                                               Attorney for\n                                               PJM Interconnection, L.L.C.\n\f"
+  }
+ ]
+}

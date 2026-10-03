@@ -1,0 +1,25 @@
+{
+ "id": "TX:59475-4625",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "5/14/2026 | V2 Landowners | RFI | V2 Landowners' First Request for Information to Oncor Electric Delivery Company and LCRA Transmission Services Corporation",
+ "filed": "2026-05-14",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=4625",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "4625"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

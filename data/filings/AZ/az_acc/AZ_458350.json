@@ -1,0 +1,24 @@
+{
+ "id": "AZ:458350",
+ "jur": "AZ",
+ "source": "az_acc",
+ "kind": "filing",
+ "docket": "E-01345A-25-0105",
+ "title": "Correspondence from Commissioner/s",
+ "filed": "2026-02-25",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+ "entity": "Lea Márquez Peterson, Commissioner",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000049651.pdf"
+  }
+ ],
+ "meta": {
+  "docketID": 29551
+ },
+ "collected_at": "2026-10-03T21:18:05Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

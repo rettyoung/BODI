@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260212-5155",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD24-11,EL25-20,EL25-49",
+ "title": "Answer of Exelon Corporation et al. in Opposition to Constellation Energy Generation LLC's 02/02/2026 Motion and Answer to the 01/16/2026 Rehearing Request under EL25-49, et al.",
+ "filed": "2026-02-12",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260212-5155",
+ "entity": "Exelon Corporation; Exelon Corporation; The FirstEnergy Transmission Companies",
+ "fetch": [
+  {
+   "ferc_file": "7C92F686-05A8-C83E-B62E-9C53D4500000",
+   "name": "Indicated TOs Answer in Opp to Constellation's Motion.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   }
+  ],
+  "why": "watched docket EL25-49",
+  "issued": "2026-02-12"
+ },
+ "collected_at": "2026-10-03T21:01:15Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

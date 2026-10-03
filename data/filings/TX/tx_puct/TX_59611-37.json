@@ -1,0 +1,23 @@
+{
+ "id": "TX:59611-37",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "9/10/2026 | EL PASO ELECTRIC COMPANY | RFI | EPE's Responses to CEP's 1st",
+ "filed": "2026-09-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=37",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "37"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

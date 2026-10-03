@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260529-5090",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "RP26-884",
+ "title": "WBI Energy Transmission, Inc. submits tariff filing per 154.312: 2026 Section 4 Rate Case to be effective 7/1/2026 under RP26-884 Filing Type : 690",
+ "filed": "2026-05-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260529-5090",
+ "entity": "WBI Energy Transmission, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "4E2BFFB4-6AAB-C952-9E4A-9E7416500000",
+   "name": "WBI Rate Case Transmittal Letter.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "370F8DA5-3B1F-C74C-A6F0-9E7416500000",
+   "name": "Tariff Sheets (Clean).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "4E2DF61C-5B74-CF12-86E6-9E7416600000",
+   "name": "Tariff Sheets (Marked).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "1B42D466-C3C7-CE22-8F85-9E7416600000",
+   "name": "Accounting Representative.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-05-29"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

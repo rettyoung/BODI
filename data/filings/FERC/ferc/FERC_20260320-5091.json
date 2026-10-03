@@ -1,0 +1,53 @@
+{
+ "id": "FERC:20260320-5091",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Comments of North American Electric Reliability Corporation providing supplement re activities over the last quarter et al. re Interconnection of Large Loads to the Interstate Transmission System under RM26-4.",
+ "filed": "2026-03-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260320-5091",
+ "entity": "North American Electric Reliability Corporation",
+ "fetch": [
+  {
+   "ferc_file": "2DD88E68-4DD7-CAFA-9D48-9D0B94B00000",
+   "name": "NERC_Accelerated LL Action Plan_RM26-4.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-03-20"
+ },
+ "collected_at": "2026-10-03T21:06:55Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center",
+  "interconnection",
+  "large load",
+  "large-load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "NERC_Accelerated LL Action Plan_RM26-4.pdf",
+   "bytes": 925170,
+   "sha256": "7dd505fab1f7adeece1b3b942114fcbce063ed89f7b616143350259457a99890",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "March 20, 2026\n\nThe Honorable Laura Swett, Chairman\nThe Honorable David Rosner, Commissioner\nThe Honorable Lindsay See, Commissioner\nThe Honorable Judy Chang, Commissioner\nThe Honorable David LaCerte, Commissioner\n\nFederal Energy Regulatory Commission\n888 First Street, N.E.\nWashington, D.C. 20426\n\nRe: Docket No. RM26-4-000\n\nDear Chairman Swett and Commissioners Rosner, See, Chang, and LaCerte:\n\nWe are entering a period of load growth unprecedented in recent memory, driven by data centers that support\nour daily lives and advance North America’s leadership in the deployment of artiﬁcial intelligence. The North\nAmerican Electric Reliability Corporation (“NERC”) recognizes the urgency we are facing. We need signiﬁcant\ninvestment in infrastructure and energy resources to meet our transforming resource and energy needs. At\nthe same time, we must stay laser-focused on reliability, informed by NERC’s analysis of grid events in Virginia\nand Texas, where large data center loads have responded to, and ampliﬁed, grid instability. 1 We understand\nwe must quickly secure the reliable contribution of these loads to the future system, especially given the\nlessons learned related to the integration of inverter-based resources. As a result, NERC is currently processing\nmany tasks in parallel to address large load integration, rather than in sequence as we normally would. We\nbelieve this is the most appropriate way to enable data center growth and reliable integration with the grid.\n\nIn October of 2025, the Department of Energy (“DOE”) issued an Advance Notice of Proposed Rulemaking\nEnsuring the Timely and Orderly Interconnection of Large Loads 2 that directed the Federal Energy Regulatory\nCommission (the “Commission”) to initiate proceedings to enable the interconnection of large loads. The\nCommission issued a Notice Inviting Comments, 3 and in November, NERC submitted a ﬁling to support the\nCommission’s consideration of how to best ensure that the Bulk Power System (“BPS”) is prepared to integrate\nlarge loads in a way that sustains reliability. 4 NERC included a timeline for its large load action plan.\n\nNERC respectfully submits this supplement to: (i) update the Commission on NERC activities over the last\nquarter; and (ii) provide NERC’s accelerated large load action plan. Under the accelerated large load action\nplan, NERC intends to ﬁle revised registry criteria and Reliability Standards on or before December 31, 2026.\nNERC also plans a Level 3 Alert in early May of 2026 to urge essential actions in the interim.\n\n1         Incident Review Considering Simultaneous Voltage-Sensitive Load Reductions (Jan. 8, 2025), https://www.nerc.com/globalassets/our-\nwork/reports/event-reports/incident_review_large_load_loss.pdf.\n2         Ensuring the Timely and Orderly Interconnection of Large Loads, Advance Notice of Proposed Rulemaking, Docket No. RM26-4-000 (Oct.\n27, 2025) [hereinafter ANOPR]; 42 U.S.C. § 7173(a).\n3         Interconnection of Large Loads to the Interstate Transmission System, Notice Inviting Comments, Docket No. RM26-4-000 (Oct. 27, 2025).\n4         Comments of the N. Am. Elec. Reliability Corp. in Response to Notice Inviting Comments, Docket No. RM26-4-000 (Nov. 21, 2025).\n\n\nRELIABILITY | RESILIENCE | SECURITY\n\nPOWERING TODAY. PROTECTING TOMORROW.\n\fThis expedited, multi-pronged approach is based on NERC reliability assessments and stakeholder feedback.\nIn February of 2026, NERC held a large load technical conference to discuss crucial questions and ﬁndings, and\nto continue building meaningful engagement with stakeholders on this issue. The technical conference\nincluded NERC’s presentation on the results of January responses to NERC’s Level 2 Alert (which provided\nrecommendations for large load integration). After hearing from participants, NERC concluded that it would\naccelerate the large load action plan and initiate eﬀorts to update its registry criteria and develop initial\nReliability Standards to include large loads. These updates would provide certainty on which parties should be\nsubject to NERC requirements (per updated registry criteria) and what those parties should be required to do\n(per updated Reliability Standards). Additional Reliability Standard revisions are also anticipated in the future\nunder NERC’s stakeholder process.\n\nIn addition, on March 11, 2026, NERC’s Reliability and Security Technical Committee (the “RSTC”) approved the\nLarge Loads Working Group’s (“LLWG”) second whitepaper, Assessment of Gaps in Existing Practices,\nRequirements, and Reliability Standards for Emerging Large Loads. 5 The ﬁndings in this whitepaper, as well as\nthe public report on the Level 2 Alert, further reﬂect the need for registry criteria and Reliability Standard\nupdates. The Level 2 Alert report also underscored the need for a Level 3 Alert to urge essential actions and\nprovide guidance while registry criteria and Reliability Standards are modiﬁed. 6 A Level 3 Alert and guidance\nmaterials throughout 2026 via NERC and its subgroups will ensure that risk mitigation starts right away, while\nthe appropriate regulatory process works to deliver the necessary updates to registration and standards.\n\nFinally, on March 18, 2026, the NERC Standards Committee (“SC”) appointed a standard drafting team,\naccepted a Standard Authorization Request (“SAR”) for computational load, and authorized the SAR for\nposting. 7 The SAR proposes Glossary updates for computational load and computational load entities along\nwith a new Reliability Standard focused on essential actions for integrating large computational loads in the\nnear term.\n\nThe past quarter has primed NERC and stakeholders for redoubled eﬀort to address the reliability needs\nassociated with large load integration. NERC is committed to identifying and mitigating risks to the BPS so that\nthe grid continues to support the North American economy and innovation. The following depicts the\naccelerated large load action plan with stakeholder feedback each step of the way.\n\n\n\n\n5        NERC Large Loads Working Group, Assessment of Gaps in Existing Practices, Requirements, and Reliability Standards for Emerging Large\nLoads (March 2026), https://www.nerc.com/globalassets/our-work/guidelines/reliability/white-paper---assessment-of-gaps.pdf.\n6        Aggregated Report on NERC Level 2 Industry Recommendation: Large Load Interconnection, Study, Commissioning, and Operations\n(March 2026) https://www.nerc.com/globalassets/programs/bpsa/alerts/2025/aggregated-report-level-2-large-load-interconnection-study-\ncommissioning-and-operations.pdf.\n7        NERC Standards Committee, Meeting Agenda (Item 5 Reliability Standards to Address Computational Load - Phase I Standard\nAuthorization         Request)         (Mar.         18,         2026),            https://www.nerc.com/globalassets/who-we-are/standing-\ncommittees/sc/20260318_sc_agenda_package.pdf.\n\n\n                                                                                                                                          2\n\f*NERC will maintain an up to date version on its Large Load Action Plan Webpage at\nhttps://www.nerc.com/initiatives/large-loads-action-plan\n\nNERC, in partnership with the Regional Entities, is committed to doing our part as the Electric Reliability\nOrganization to enable the rapid growth of these key loads in a manner that preserves—and potentially\nenhances—reliability for all. The accelerated large load action plan would achieve initial level setting by year-\nend.\n\nWhile the pace of development puts pressure on all of us, I want to assure you that NERC and the Regional\nEntities are working at the pace necessary—which at times can be uncomfortable—to meet the moment and\nenable the interconnection of large data centers in a manner that preserves reliability. NERC expresses its\nsincere appreciation to the governmental authorities, large load participants, utilities, other stakeholders, and\npublic as we work together to ensure reliable operation of the BPS. We look forward to working with the\nCommission and stakeholders, and welcome any feedback that you or your teams may have throughout the\nprocess.\n\n                                                             Sincerely,\n\n\n\n\n                                                             James B. Robb\n                                                             President and Chief Executive Oﬃcer\n                                                             North American Electric Reliability Corporation\n                                                             1401 H Street NW, Suite 410\n                                                             Washington, DC 20005\n\n\n                                                                                                               3\n\f"
+  }
+ ]
+}

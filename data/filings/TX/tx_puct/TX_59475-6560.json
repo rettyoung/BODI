@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6560",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "9/10/2026 | Clare Nelson | LTRS | Email to DOE Secretary Wright on September 10, 2026. Subject: Pause Texas 765-kV Projects Pending Federal Bulk-Power Security Review. References Executive Order, “Declaring a National Emergency to Secure the United States Bulk-Power System.\"",
+ "filed": "2026-09-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6560",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6560"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

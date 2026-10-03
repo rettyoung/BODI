@@ -1,0 +1,23 @@
+{
+ "id": "TX:58482-16",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "4/8/2026 | TEXAS ENERGY BUYERS ALLIANCE | COM | Texas Energy Buyers Alliance Response to Commission Staff Questions",
+ "filed": "2026-04-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=16",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "16"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

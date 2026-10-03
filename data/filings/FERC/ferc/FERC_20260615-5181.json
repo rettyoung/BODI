@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20260615-5181",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-109",
+ "title": "Joint Application for Authorization Under Section 203 of the Federal Power Act of Tom Sawyer Solar, LLC, et al. under EC26-109.",
+ "filed": "2026-06-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260615-5181",
+ "entity": "Union Electric Company d/b/a Ameren Missouri; Tom Sawyer Solar, LLC; Tom Sawyer Solar, LLC; Union Electric Company d/b/a Ameren Missouri; Union Electric Company d/b/a Ameren Missouri; Union Electric Company d/b/a Ameren Missouri",
+ "fetch": [
+  {
+   "ferc_file": "3ACE172A-398A-C40B-AC5B-9ED08E900000",
+   "name": "PUBLIC Tom Sawyer Section 203 6.15.26.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "81AEA5AC-9655-C8C1-B56E-9ED08E900000",
+   "name": "Ameren and EDF_Details_20260602.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "DF84D752-4AE8-CF82-BDF3-9ED08E900000",
+   "name": "Ameren Buys TOM SAWYER MISO DPT Results_20260602.docx",
+   "type": "DOCX"
+  },
+  {
+   "ferc_file": "06909DA7-790C-CADC-84B1-9ED08E900001",
+   "name": "prices_MISO.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Disposition of Facilities Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-06-15"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

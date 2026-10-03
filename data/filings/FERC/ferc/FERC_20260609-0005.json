@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260609-0005",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP25-10",
+ "title": "Petition for Review filed in the U.S. Court of Appeals for the District of Columbia Circuit of Transcontinental Gas Pipe Line Co. , LLC re Order issued 1/29/2026 and Denial Notice issued 4/2/2026, under CP25-10, et al. (No Case No.).",
+ "filed": "2026-06-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260609-0005",
+ "entity": "TRANSCONTINENTAL GAS PIPE LINE COMPANY LLC",
+ "fetch": [
+  {
+   "ferc_file": "384BA546-97E5-C31C-8534-9FEC3B100000",
+   "name": "20260609-0005.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Petition for Review"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-05-28"
+ },
+ "collected_at": "2026-10-03T21:17:22Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

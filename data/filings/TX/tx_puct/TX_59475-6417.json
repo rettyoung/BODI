@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6417",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "7/26/2026 | John B. Bradley - Lazy S Ranch | LTRS | Pro se Intervenor writing to support Texas State Representatives in urging the Public Utility Commission to delay its final decision on the massive 765-kV transmission line segments.",
+ "filed": "2026-07-26",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6417",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6417"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

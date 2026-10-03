@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260715-4008",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "AD26-7",
+ "title": "Pre-filed Statement of Jodi L. Moskowitz, Vice President Regulatory – Law, Deputy General Counsel and RTO Strategy Officer for Public Service Enterprise Group Incorporated, for the PJM Governance and Stakeholder Reforms Technical Conference under AD26-7.",
+ "filed": "2026-07-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260715-4008",
+ "entity": "PUBLIC SERVICE ENTERPRISE GROUP INCORPORATED",
+ "fetch": [
+  {
+   "ferc_file": "03BBE0FD-FFA9-CD97-9836-9F67BDB00000",
+   "name": "Pre-filed Statement - Jodi Moskowitz.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-07-14"
+ },
+ "collected_at": "2026-10-03T21:16:14Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

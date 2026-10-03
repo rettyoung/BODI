@@ -1,0 +1,27 @@
+{
+ "id": "TX:59142-39",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "6/17/2026 | First Ammonia LLC | COM | First Ammonia LLC's Comments on Commission Consideration of PGRR 145, Batch Zero Process for Large Load Interconnections",
+ "filed": "2026-06-17",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=39",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "39"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

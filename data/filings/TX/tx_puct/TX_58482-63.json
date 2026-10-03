@@ -1,0 +1,25 @@
+{
+ "id": "TX:58482-63",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "9/4/2026 | TEXAS BITCOIN & GRID ALLIANCE | COM | Comments of the Texas Bitcoin & Grid Alliance on Proposed New 16 TAC 25.521",
+ "filed": "2026-09-04",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=63",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "63"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "bitcoin"
+ ],
+ "party_hits": [],
+ "documents": []
+}

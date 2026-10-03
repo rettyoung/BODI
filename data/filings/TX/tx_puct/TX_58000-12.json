@@ -1,0 +1,26 @@
+{
+ "id": "TX:58000-12",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "7/30/2026 | TEXAS ENERGY BUYERS ALLIANCE | COM | Void letter for item 11 and Large Load Minimum Billing Demand Study",
+ "filed": "2026-07-30",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=12",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "12"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load",
+  "minimum bill"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260708-5136",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-71",
+ "title": "(doc-less) Motion to Intervene of Emerald AI under EL26-71.",
+ "filed": "2026-07-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260708-5136",
+ "entity": "Emerald AI; Emerald AI",
+ "fetch": [
+  {
+   "ferc_file": "5E54F92A-8841-C00D-A410-9F431D500000",
+   "name": "1769183_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-71",
+  "issued": "2026-07-08"
+ },
+ "collected_at": "2026-10-03T21:04:06Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

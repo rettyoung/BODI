@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-5861",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "6/5/2026 | SEGMENT I1 LANDOWNERS | RFI | Segment i1 Response to Appllicants First RFI",
+ "filed": "2026-06-05",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=5861",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "5861"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

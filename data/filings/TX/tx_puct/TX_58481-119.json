@@ -1,0 +1,23 @@
+{
+ "id": "TX:58481-119",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58481",
+ "title": "3/11/2026 | Engine 1 | COM | Engine 1's Comments on PUCT Staff's Proposal for Publication",
+ "filed": "2026-03-11",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58481&itemNumber=119",
+ "fetch": [
+  {
+   "tx_item": [
+    "58481",
+    "119"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

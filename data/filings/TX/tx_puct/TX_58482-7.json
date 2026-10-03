@@ -1,0 +1,25 @@
+{
+ "id": "TX:58482-7",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58482",
+ "title": "4/8/2026 | TCPA | COM | TCPA’S RESPONSES TO STAFF’S QUESTIONS REGARDING THE LARGE LOAD DEMAND MANAGEMENT SERVICE",
+ "filed": "2026-04-08",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58482&itemNumber=7",
+ "fetch": [
+  {
+   "tx_item": [
+    "58482",
+    "7"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

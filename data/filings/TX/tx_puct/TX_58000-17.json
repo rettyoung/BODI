@@ -1,0 +1,23 @@
+{
+ "id": "TX:58000-17",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58000",
+ "title": "8/7/2026 | Public Power Utilities | COM | Joint Comments of Austin Energy, Bandera Electric, Brazos Electric, CPS Energy, and STEC in Project No. 58000",
+ "filed": "2026-08-07",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58000&itemNumber=17",
+ "fetch": [
+  {
+   "tx_item": [
+    "58000",
+    "17"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:50Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

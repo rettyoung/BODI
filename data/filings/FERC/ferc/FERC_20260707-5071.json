@@ -1,0 +1,34 @@
+{
+ "id": "FERC:20260707-5071",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-68",
+ "title": "(doc-less) Motion to Intervene of National Association of Regulatory Utility Commissioners under EL26-68.",
+ "filed": "2026-07-07",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260707-5071",
+ "entity": "National Association of Regulatory Utility Commissioners; National Association of Regulatory Utility Commissioners",
+ "fetch": [
+  {
+   "ferc_file": "2754B35E-ED39-C247-A7E6-9F3DC8300000",
+   "name": "1768756_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "watched docket EL26-68",
+  "issued": "2026-07-07"
+ },
+ "collected_at": "2026-10-03T21:02:54Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

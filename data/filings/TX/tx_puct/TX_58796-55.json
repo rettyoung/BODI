@@ -1,0 +1,23 @@
+{
+ "id": "TX:58796-55",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58796",
+ "title": "2/20/2026 | SOUTHWESTERN ELECTRIC POWER COMPANY | PL | Agreed Motion to Adopt Procedural Schedule and to Suspend the Requested Effective Date",
+ "filed": "2026-02-20",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58796&itemNumber=55",
+ "fetch": [
+  {
+   "tx_item": [
+    "58796",
+    "55"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-03T21:17:49Z",
+ "run_id": "2026-10-03-2044",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}
