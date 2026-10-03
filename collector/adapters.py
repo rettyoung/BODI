@@ -552,31 +552,50 @@ def nm_prc(ctx):
                          headers={"Content-Type": "application/json"}).json().get("items", [])
 
     def docs(case):
-        env = {"data": {}, "origin": "", "origin_key": "CaseX", "queryParams": ["caseId"],
-               "gridInput": {"params": {"parameters": {"caseId": case["id"]}}, "persistPrevParams": False},
-               "parameters": {"caseId": case["id"]}, "pageNo": 1, "pageSize": 200, "sortBy": {}}
-        try:
-            return http.post(api + "casepublicdocument/getAll", json=env,
-                             headers={"Content-Type": "application/json"}).json().get("items", [])
-        except Exception as e:
-            ctx.log(f"nm documents {case.get('casedocketnumber')}: {e!r}")
-            return []
+        """Public documents of a case, newest first (body as the e360 page sends it, observed 2026-10-03:
+        the parameters carry searchTerm alongside caseId). Pages until documents fall before the window."""
+        out = []
+        for page in range(1, 8):
+            env = {"data": {}, "origin": "", "origin_key": "CaseX", "queryParams": ["caseId"],
+                   "gridInput": {"params": {"parameters": {"caseId": case["id"], "searchTerm": ""}}, "persistPrevParams": False},
+                   "parameters": {"caseId": case["id"], "searchTerm": ""}, "pageNo": page, "pageSize": 100, "sortBy": {}}
+            try:
+                j = http.post(api + "casepublicdocument/getAll", json=env,
+                              headers={"Content-Type": "application/json", "Accept": "application/json, text/plain, */*"}).json()
+            except Blocked:
+                raise
+            except Exception as e:
+                ctx.log(f"nm documents {case.get('casedocketnumber')}: {e!r}")
+                break
+            batch = j.get("items", []) or []
+            out += batch
+            dates = [x for x in (_d(b.get("fileddate") or b.get("filedon")) for b in batch) if x]
+            if len(batch) < 100 or (dates and min(dates) < ctx.since):
+                break
+        if not out:
+            ctx.record(f"NM {case.get('casedocketnumber')}", "empty", "document list returned no items")
+        return out
 
     for d in ctx.cfg["dockets"].get("NM", []):
         for c in cases(docketNumber=d)[:2]:
             n = 0
             for doc in docs(c):
-                filed = _d(doc.get("filingdate") or doc.get("fileddate") or doc.get("createddate") or doc.get("documentdate"))
+                filed = _d(doc.get("fileddate") or doc.get("filedon") or doc.get("filingdate") or doc.get("createddate"))
                 if not _after(filed, ctx.since):
                     continue
+                if str(doc.get("confidential", "No")).lower().startswith("y") or doc.get("accesstype") not in (None, "PUBLIC"):
+                    continue
+                if re.match(r"\s*confidentiality ?agreement", doc.get("documentname") or "", re.I):
+                    continue   # signed NDAs to view protected material: dozens per case, never a tracker event
                 n += 1
-                did = doc.get("id") or doc.get("documentid")
-                items.append({"id": f"NM:{did}", "jur": "NM", "source": "nm_prc", "kind": "filing", "docket": d,
-                              "title": doc.get("documenttitle") or doc.get("documentname") or doc.get("description") or doc.get("filename"),
-                              "filed": filed, "entity": doc.get("filedby") or c.get("caseprimarycompany"),
-                              "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
-                              "fetch": [], "meta": {"caseId": c["id"], "confidential": doc.get("isconfidential"),
-                                                    "fields": sorted(doc.keys())[:40]}})
+                did = doc.get("id")
+                items.append({"id": f"NM:{doc.get('documentnumber') or did}", "jur": "NM", "source": "nm_prc", "kind": "filing", "docket": d,
+                              "title": f"{doc.get('documentname') or ''} [{doc.get('documenttype') or ''}]".strip(),
+                              "filed": filed, "entity": doc.get("company") or doc.get("companyparties") or c.get("caseprimarycompany"),
+                              "url": f"https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId={c['id']}",
+                              "fetch": [{"nm_document": did, "name": doc.get("documentnumber")}] if did and doc.get("candownload", True) else [],
+                              "meta": {"caseId": c["id"], "document_number": doc.get("documentnumber"), "filed_by": doc.get("filedby"),
+                                       "document_type": doc.get("documenttype"), "source": doc.get("source")}})
             ctx.log(f"nm {d}: {n} documents in window")
     for c in cases(caseFiledDateFrom=ctx.since, caseFiledDateTo=ctx.today):
         items.append({"id": f"NMDKT:{c.get('casedocketnumber')}", "jur": "NM", "source": "nm_prc", "kind": "keyword_hit",
@@ -584,6 +603,21 @@ def nm_prc(ctx):
                       "entity": c.get("caseprimarycompany"), "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
                       "fetch": [], "meta": {"new_docket": True, "category": c.get("docketcategory"), "type": c.get("dockettype")}})
     return items
+
+
+def nm_download(http, doc_id):
+    """e360 public download (observed 2026-10-03): the page asks casex/cms/downloadToken for a short-lived
+    anonymous ticket for one public document, then GETs previewDocument?token=... The same two calls a
+    visitor's browser makes; no account or credential is involved."""
+    base = "https://e360.prc.nm.gov/core/api/"
+    t = http.post(base + "apiflow/v1/casex/cms/downloadToken", json={"context": "File", "documentId": doc_id, "isPreview": True},
+                  headers={"Content-Type": "application/json", "Accept": "application/json, text/plain, */*"}).json().get("token")
+    if not t:
+        raise RuntimeError("e360 downloadToken returned no ticket")
+    r = http.get(base + "document/v1/previewDocument", params={"token": t})
+    if r.content[:4] != b"%PDF" and b"<html" in r.content[:300].lower():
+        raise RuntimeError(f"e360 previewDocument returned {r.headers.get('content-type')}")
+    return r
 
 
 # =========================================================================== Missouri
@@ -703,10 +737,19 @@ def rss(ctx):
                 filed = dt.datetime(*e.published_parsed[:3]).strftime(FMT)
             if not _after(filed, ctx.since):
                 continue
-            items.append({"id": f"RSS:{f['id']}:{e.get('id') or e.get('link')}", "jur": None, "source": f"rss:{f['id']}",
-                          "kind": "news", "docket": None, "title": e.get("title"), "filed": filed, "url": e.get("link"),
-                          "fetch": [], "meta": {"bkey": "rss:" + f["id"], "rto": f.get("rto"), "summary": re.sub(r"<[^>]+>", " ", e.get("summary") or "")[:800],
-                                                "keyword_filter": True}})
+            summary = re.sub(r"<[^>]+>", " ", e.get("summary") or "")[:800]
+            if f.get("title_filter") and not re.search(f["title_filter"], f"{e.get('title') or ''} {summary}", re.I):
+                continue   # busy feeds (court opinions, company newsrooms): only on-topic entries go further
+            meta = {"bkey": "rss:" + f["id"], "rto": f.get("rto"), "summary": summary, "feed": f["id"],
+                    "keyword_filter": not f.get("text_filter")}
+            if f.get("text_filter"):
+                meta["text_filter"] = f["text_filter"]
+            if f.get("entity"):
+                meta["entity"] = f["entity"]
+            items.append({"id": f"RSS:{f['id']}:{e.get('id') or e.get('link')}", "jur": f.get("jur"), "source": f"rss:{f['id']}",
+                          "kind": f.get("kind", "news"), "docket": None, "title": e.get("title"), "filed": filed, "url": e.get("link"),
+                          "entity": f.get("entity"),
+                          "fetch": [{"url": e.get("link")}] if f.get("fetch_link") and e.get("link") else [], "meta": meta})
         ctx.record(f["id"], "ok", f"{len(feed.entries)} entries")
     return items
 

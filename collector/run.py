@@ -33,14 +33,16 @@ OVERLAP_DAYS = 3
 MAX_DOCS = int(os.environ.get("MAX_DOCS", "160"))
 MAX_BYTES = 60 * 1024 * 1024
 ADAPTER_BUDGET_S = int(os.environ.get("ADAPTER_BUDGET_S", "420"))
-BUDGETS = {"ir_decks": 1200, "watch_pages": 1500, "queues": 900, "openstates": 600, "legistar": 600, "edgar": 900, "ferc": 600, "la_lpsc": 600, "mo_efis": 600}
+BUDGETS = {"ir_decks": 1200, "watch_pages": 1500, "queues": 900, "openstates": 600, "legistar": 600, "edgar": 900, "ferc": 600, "la_lpsc": 600, "mo_efis": 600,
+           "agendas": 1200, "courts_state": 900, "ercot_large_load": 900, "ferc_forms": 600, "ferc_eqr": 900, "nyiso_icap": 300,
+           "nm_prc": 900, "nrc_adams": 300, "studies": 300}
 RUN_DEADLINE_S = int(os.environ.get("RUN_DEADLINE_S", str(70 * 60)))   # the job is killed at 90 min; stop well before
 BACKFILL_SINCE = os.environ.get("BACKFILL_SINCE") or None   # one-off history pull: candidates go to data/backfill/
 PRIORITY = re.compile(r"order|tariff|rate schedule|settlement|stipulation|brief|testimony|compliance|agreement|contract|"
                       r"application|petition|complaint|protest|comments|report|notice of hearing|rule|directive|"
                       r"large load|data cent", re.I)
-BASELINE_SOURCES = {"watch_pages", "ir_decks", "mirrors"}   # undated lists: first sight = baseline (RSS is dated)
-LIST_PREFIXES = ("PAGE:", "RSS:", "IR:", "MIRROR:")
+BASELINE_SOURCES = {"watch_pages", "ir_decks", "mirrors", "agendas"}   # undated lists: first sight = baseline (RSS is dated)
+LIST_PREFIXES = ("PAGE:", "RSS:", "IR:", "MIRROR:", "AGENDA:")
 
 
 class Timeout(Exception):
@@ -118,6 +120,10 @@ def fetch_docs(http, item, ctx):
                 urls = A.la_files(http, spec["la_document"])
             elif "mo_filing" in spec:
                 urls = A.mo_files(http, spec["mo_filing"])
+            elif "nm_document" in spec:
+                r = A.nm_download(http, spec["nm_document"])
+                docs.append(_doc(r.url.split("?")[0] + f"#{spec.get('name') or ''}", r.content, r.headers.get("content-type", ""), spec.get("name")))
+                continue
             elif "ferc_file" in spec:
                 r = A.ferc_download(http, spec["ferc_file"])
                 docs.append(_doc(r.url, r.content, r.headers.get("content-type", ""), spec.get("name")))
@@ -261,6 +267,17 @@ def main(only=None):
                                     f"{(docs[0].get('text') or '')[:3000] if docs else ''}", parties) if parties else []
                 if (it.get("meta") or {}).get("keyword_filter") and not hits:
                     continue  # news/mirror link with nothing on-beat
+                tf = (it.get("meta") or {}).get("text_filter")
+                if tf:
+                    # source-specific beat filter (agendas, court lists, company newsrooms): the general keyword
+                    # list is too loose there ("emergency" is on every county agenda), so the item is kept only
+                    # if its title, summary or document text matches this source's own pattern
+                    hay = " ".join([it.get("title") or "", str((it.get("meta") or {}).get("summary") or "")] +
+                                   [d.get("text", "")[:300000] for d in docs])
+                    m_tf = re.search(tf, hay, re.I)
+                    if not m_tf:
+                        continue
+                    it.setdefault("meta", {})["text_filter_match"] = hay[max(0, m_tf.start() - 300): m_tf.end() + 300]
                 kept += 1
                 fpath = os.path.join("data", "filings", slug(it.get("jur") or "NA", 12), slug(name, 30),
                                      slug(it["id"], 120) + ".json")

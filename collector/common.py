@@ -114,6 +114,7 @@ class HostState:
     robots_status: object = None
     robots_note: str = ""
     ca_bundle: Optional[str] = None   # trust store + the server's missing intermediate (AIA), when needed
+    min_gap: float = 0.0              # robots.txt Crawl-delay / Request-rate for our user agent (honoured)
 
 
 @dataclass
@@ -137,7 +138,7 @@ class Http:
         return self.hosts[key]
 
     def _wait(self, hs: HostState):
-        gap = self.delay - (time.time() - hs.last)
+        gap = max(self.delay, hs.min_gap) - (time.time() - hs.last)
         if gap > 0:
             time.sleep(gap)
         hs.last = time.time()
@@ -170,6 +171,15 @@ class Http:
                     hs.robots_note = "no robots.txt (HTML app shell)"
                 else:
                     rp.parse(body.splitlines())
+                    ua = self.session.headers.get("User-Agent", UA)
+                    try:
+                        cd = rp.crawl_delay(ua)
+                        rr = rp.request_rate(ua)
+                        hs.min_gap = max(float(cd or 0), (rr.seconds / rr.requests) if rr and rr.requests else 0.0)
+                        if hs.min_gap:
+                            hs.robots_note = f"crawl delay {hs.min_gap:g}s honoured"
+                    except Exception:
+                        pass
             elif 400 <= r.status_code < 500:
                 rp.allow_all = True
             else:

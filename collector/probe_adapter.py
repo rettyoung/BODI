@@ -89,7 +89,8 @@ def urlprobe(cfg, listfile):
             continue
         render = line.startswith("R|")
         keep = line.startswith("B|")
-        url = line[2:] if (render or keep) else line
+        dump = line.startswith("D|")
+        url = line[2:] if (render or keep or dump) else line
         o = {"url": url, "render": render}
         try:
             hs = http._robots(url)
@@ -113,6 +114,12 @@ def urlprobe(cfg, listfile):
             o["head"] = body[:1500]
             if keep:
                 o["body"] = body[:40000]
+            if dump:
+                from common import slug
+                pth = os.path.join(DATA, "debug", "pages", slug(url, 90) + ".txt")
+                os.makedirs(os.path.dirname(pth), exist_ok=True)
+                open(pth, "w").write(body[:3_000_000])
+                o["dumped"] = pth
             links = re.findall(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>', body, re.S | re.I)
             o["n_links"] = len(links)
             o["links"] = [[urljoin(url, h.replace("&amp;", "&")), re.sub(r"<[^>]+>|\s+", " ", t).strip()[:120]] for h, t in links][:250]
