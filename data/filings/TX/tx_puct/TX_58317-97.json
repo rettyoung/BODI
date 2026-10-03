@@ -1,0 +1,23 @@
+{
+ "id": "TX:58317-97",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "10/1/2026 | Jennifer Hood | COM | In favor of adoption 58317-96 measurement standard",
+ "filed": "2026-10-01",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=97",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "97"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:52:02Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

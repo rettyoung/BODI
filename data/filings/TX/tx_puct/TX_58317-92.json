@@ -1,0 +1,26 @@
+{
+ "id": "TX:58317-92",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "9/30/2026 | Saunders Consigliere PLLC | PC | Executive Brief — Texas Data Center and Large-Load Development: Community Protection, Siting and Lifecycle Framework",
+ "filed": "2026-09-30",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=92",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "92"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:52:17Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [
+  "data center",
+  "large-load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

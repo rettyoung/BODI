@@ -1,0 +1,29 @@
+{
+ "id": "AZ:469615",
+ "jur": "AZ",
+ "source": "az_acc",
+ "kind": "filing",
+ "docket": "E-01773A-26-0123",
+ "title": "Compliance - All others",
+ "filed": "2026-09-22",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29858",
+ "entity": "Jennifer A. Cranston, Atty.",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000054487.pdf"
+  }
+ ],
+ "meta": {
+  "docketID": 29858
+ },
+ "collected_at": "2026-10-02T23:52:35Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000054487.pdf",
+   "error": "blocked: robots.txt disallows https://images.edocket.azcc.gov/docketpdf/E000054487.pdf (SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V)"
+  }
+ ]
+}

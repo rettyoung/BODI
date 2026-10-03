@@ -1,0 +1,33 @@
+{
+ "id": "MO:654735",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0291",
+ "title": "51",
+ "filed": "2026-09-29",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/654735",
+ "fetch": [
+  {
+   "mo_filing": "654735"
+  }
+ ],
+ "collected_at": "2026-10-03T00:19:14Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/891923",
+   "name": null,
+   "bytes": 441372,
+   "sha256": "48479f7c23eaa2973cc04465a0966dbd10da0c7e57f5685fb5c73130698fa5e8",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 2,
+   "truncated": false,
+   "text": "NONDISCLOSURE AGREEMENT\nFor Case No.: ER-2026-0291\n\n(To Access Confidential Information)\n\nI, Jeremy Pour, have reviewed the Commission's Rule at 20 CSR 4240-2.135 onthe\n\n28\" day of September, 2026.\n\nIhave requested review of the confidential information produced in Case No. ER-\n\n2026-0291 on behalf of IBEW Local 1439.\n\nThereby certify that:\n\n(a) | Only employees of a party that are acting as an expert for that party\nor that have been retained for this case as an outside expert for that party\nmay receive confidential information;\n\n(b) Anemployee is a person in the service of his or her employer whose\nservices are controllable by the employer.\n\n(c) Iam employee of IBEW Local 1439 acting as its expert and/or its\nemployee who intends to file testimony in this docket; and\n\n(d) I have read and agree to abide by the Commission's Rule at 20 CSR\n\n4240-2.135.\n\nEXHIBIT A\n\n\fDated this 28\"\" day of September.\nCa be Buimess Mewes “\n\nSignatf re and Title /\n\nIBEW Local 1439\nEmployer\n\nIBEW Local 1439\nParty\n\n2121 59* Street\nSt. Louis, MO 63110\n\n(314) 644-6111\nTelephone\n\njeremyp@ibew 1439.com\nEmail Address\n\nEXHIBIT A\n"
+  }
+ ]
+}

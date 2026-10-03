@@ -1,0 +1,33 @@
+{
+ "id": "MO:655131",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "309",
+ "filed": "2026-10-02",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/655131",
+ "fetch": [
+  {
+   "mo_filing": "655131"
+  }
+ ],
+ "collected_at": "2026-10-03T00:11:58Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/892548",
+   "name": null,
+   "bytes": 239460,
+   "sha256": "286fd9bd0cbb4119e6f2934d64bcf675f031529be8abe7606232186a92e02a9c",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 1,
+   "truncated": false,
+   "text": "BEFORE THE PUBL! ERVICE MISSI\n\nOF THE STATE OF MISSOURI\n\nIn the Matter of Evergy Metro, Inc. d/b/a )\n\nEvergy Missouri Metro’s Request for ) Case No. ER-2026-0143\nAuthority to Implement a General Rate )\nIncrease for Electric Service )\n\nAFFIDAVIT OF SARAH L.K. LANGE\n\nSTATE OF MISSOURI )\n) ss.\nCOUNTY OF COLE )\n\nCOMES NOW SARAH L.K. LANGE and on her oath declares that she is of sound mind\nand lawful age; that she contributed to the foregoing Conforming Direct Testimony\nof Sarah L.K. Lange; and that the same is true and correct according to her best knowledge\n\nand belief.\n\nFurther the Affiant sayeth not.\n\nBovaly bP\n\nSARAH L.K. LANGE\n\nJURAT\n\nSubscribed and sworn before me, a duly constituted and authorized Notary Public, in\n\nand for the County of Cole, State of Missouri, at my office in Jefferson City, on this\n\nAid day of October 2026.\n\na Diane - Vow)\nDIANNA L. VAUGHT,\n\nNotary Public - Notary Seal Notary Public a)\nState of Nisoth Yy\nCommissioned for Cole County\nMy Commission Expires: July 18, 2027\nCommission Number: 15207377 _\n"
+  }
+ ]
+}

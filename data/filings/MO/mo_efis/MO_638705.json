@@ -1,0 +1,33 @@
+{
+ "id": "MO:638705",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "30",
+ "filed": null,
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/638705",
+ "fetch": [
+  {
+   "mo_filing": "638705"
+  }
+ ],
+ "collected_at": "2026-10-03T00:17:07Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/866445",
+   "name": null,
+   "bytes": 76854,
+   "sha256": "94040d80802dfd2e7eea69a882c8d88cf87da3950650333e1cead02ba98b7a6c",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                     BEFORE THE PUBLIC SERVICE COMMISSION\n                           OF THE STATE OF MISSOURI\n\n\n In the Matter of the Request of Evergy          )\n Metro, Inc. d/b/a Evergy Missouri Metro for     )                  Case No. ER-2026-0143\n Authority to Implement a General Rate           )\n Increase for Electric Service                   )\n\n\n\n                           APPLICATION TO INTERVENE OF\n                        MIDWEST ENERGY CONSUMERS GROUP\n\n       COMES NOW, the Midwest Energy Consumers Group, (“MECG”) and pursuant to 20\n\nCSR 4240-2.075, applies to intervene in the above case. For its Application, MECG states:\n\n1.     Midwest Energy Consumers Group (“MECG”) is an incorporated entity representing the\n\ninterests of large commercial and industrial users of electricity, water, and natural gas throughout\n\nthe State of Missouri including in the areas served by Evergy Missouri Metro.\n\n2.     On February 6th, Evergy Missouri Metro filed tariff sheets designed to implement a general\n\nrate increase of approximately $140.4 million or 15.19% for its electric services. The matters to\n\nbe considered in this case and the Commission’s determinations thereon, could have a direct and\n\nsignificant impact on the cost of service of the large commercial and industrial customers.\n\n3.     As a representative of large user customers of Evergy Misssouri Metro, the MECG has a\n\ndirect and immediate interest in these proceedings that is different from that of the general public.\n\nWhile MECG does not at this time have sufficient information to assert a position in this case, it\n\nreserves the right to assert positions after they have had an adequate opportunity to examine the\n\nrecord, and any documentation of other parties filed herein. In general, MECG opposes excessive\n\nROE, supports cost-based allocation of any revenue requirement, and opposes unlawful and\n\nunreasonable special ratemaking accounting and mechanisms that distort the balance between the\n\n\n\n                                                 1\n\futility and its customers. In addition to positions it may take in pre-filed testimony, MECG\n\nanticipates adopting formal positions on the issues in its position statements that may be filed in\n\nthis case.\n\n4.        Pleadings, notices and other correspondence in this case should be directed to undersigned\n\ncounsel.\n\n          WHEREFORE, MECG respectfully requests that the Commission issue its order granting\n\nits Application to Intervene and that it be made a party hereto with all rights to participate in this\n\nmatter.\n\n                                                       Respectfully,\n\n                                                       /s/ Tim Opitz\n                                                       Tim Opitz, Mo. Bar No. 65082\n                                                       Opitz Law Firm, LLC\n                                                       308 E. High Street, Suite B101\n                                                       Jefferson City, MO 65101\n                                                       T: (573) 825-1796\n                                                       tim.opitz@opitzlawfirm.com\n\n                                                       ATTORNEY FOR MIDWEST\n                                                       ENERGY CONSUMERS GROUP\n\n\n                                          Certificate of Service\n\n     I hereby certify that copies of the foregoing have been mailed, emailed or hand-delivered to\n     all counsel of record this 23rd day of February 2026:\n\n                                                              /s/ Tim Opitz\n\n\n\n\n                                                  2\n\f"
+  }
+ ]
+}

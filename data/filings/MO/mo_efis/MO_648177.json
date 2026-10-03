@@ -1,0 +1,39 @@
+{
+ "id": "MO:648177",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0291",
+ "title": "23",
+ "filed": null,
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/648177",
+ "fetch": [
+  {
+   "mo_filing": "648177"
+  }
+ ],
+ "collected_at": "2026-10-03T00:23:48Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [
+  "demand response",
+  "integrated resource plan"
+ ],
+ "party_hits": [
+  "AWS",
+  "Sierra Club"
+ ],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/882306",
+   "name": null,
+   "bytes": 69856,
+   "sha256": "fbf14a4b95e32683fc7f40cfc5b0805ccc355f76276e85d12d444bb3723d0ead",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "                     BEFORE THE PUBLIC SERVICE COMMISSION\n                           OF THE STATE OF MISSOURI\n\n\nIn the Matter of Union Electric Company               )\nd/b/a Ameren Missouri's Tariffs to Adjust Its         )               File No. ER-2026-0291\nRevenues for Electric Service                         )\n\n\n                     SIERRA CLUB’S APPLICATION TO INTERVENE\n\n       Sierra Club, pursuant to 20 CSR 4240-2.075, applies to intervene in this docket. In\n\nsupport of its application to intervene, Sierra Club states the following:\n\n\n       1.      Sierra Club is a nonprofit organization organized and existing under the nonprofit\n\ncorporation laws of the state of California. Sierra Club has more than 595,000 members\n\nnationally and more than 8,800 members in Missouri, many of whom reside in Ameren\n\nMissouri’s service territory and are Ameren Missouri ratepayers. The Missouri Chapter of Sierra\n\nClub has an office at 725 Kingsland Ave, University City, MO 63130.\n\n       2.      All communications and pleadings in this case should be directed to:\n\n\n                                              Elizabeth Hubertz\n                                              Interdisciplinary Environmental Clinic\n                                              Washington University in St. Louis, School of Law\n                                              1 Brookings Drive\n                                              St. Louis, MO 63130\n                                              ejhubertz@wustl.edu\n                                              (314) 935-8760\n\n                                              Tony Mendoza\n                                              Sierra Club\n                                              2101 Webster St., 13th Floor\n                                              Oakland, CA 94612\n                                              tony.mendoza@sierraclub.org\n                                              (415) 977-5589\n\n\n\n\n                                                  1\n\f       3.      Sierra Club exists for the purpose of preserving and protecting environmental\n\nvalues. Consistent with this mission, Sierra Club for many years has advocated for transitioning\n\nthe electricity sector from coal-and gas-burning generation to cleaner and lower cost forms of\n\nenergy, such as energy efficiency, renewable energy sources, and energy storage. Sierra Club’s\n\ninterest in protecting and enhancing the quality of ambient air and water throughout the state will\n\nbe favorably affected if Ameren Missouri pursues renewable energy, energy efficiency, and\n\ndemand response programs that displace fossil fuel generation. Sierra Club is concerned with\n\nemissions of greenhouse gases that cause climate change and with pollution from coal and gas\n\nthat causes a host of health problems including asthma, mercury poisoning, sudden infant death\n\nsyndrome, respiratory problems, and other issues.\n\n       4.      Sierra Club has been a party to numerous Ameren Missouri general rate cases, as\n\nwell as integrated resource planning, energy efficiency, vehicle electrification, and other\n\nproceedings.\n\n       5.      Sierra Club’s interest in promoting cleaner and lower-cost forms of energy is\n\ndifferent from that of the general public and could be adversely affected by an order approving\n\nrate designs or a revenue requirement that disincentivizes energy efficiency, discourage\n\nrenewable generation, or prolong reliance on coal-burning power plants. Sierra Club’s\n\nintervention would serve the public interest in promoting prudent resource planning, public\n\nhealth, and the reduction of greenhouse gas emissions. Sierra Club’s intervention would also\n\nserve the public interest because Sierra Club intends to conduct discovery on Ameren Missouri’s\n\nrequested rate increase and Sierra Club may file expert testimony, which would enhance the\n\nrecord for the Commission’s final decision in this matter.\n\n       6.      Sierra Club has not yet determined the positions it will take in this matter. Sierra\n\n\n\n\n                                                2\n\fClub will likely explore the amount and justification for spending at the Labadie and Sioux coal-\n\nburning power plants. Sierra Club generally supports reasonable investments in renewable\n\nenergy, energy efficiency, and demand response programs, and may take a position on these\n\nissues. Sierra Club also supports rate design that incentivizes conservation of energy, including\n\nthrough low fixed customers charges, and may investigate these issues.\n\n       7.      It will serve the public interest for the Missouri Public Service Commission to\n\ngrant this application to intervene.\n\n\n\n       WHEREFORE, Sierra Club respectfully requests the Public Service Commission to grant\n\nthis application to intervene.\n\n                                       /s/ Elizabeth Hubertz\n                                       Elizabeth Hubertz\n                                       Interdisciplinary Environmental Clinic\n                                       Washington University in St. Louis, School of Law\n                                       1 Brookings Drive\n                                       St. Louis, MO 63130\n                                       ejhubertz@wustl.edu\n                                       (314) 935-8760\n\n\n                                       Attorney for Sierra Club\n\n\n\n\n                                                 3\n\f                                 CERTIFICATE OF SERVICE\n\n       I hereby certify that a true and correct copy of the foregoing was filed on EFIS and sent\n\nby email, on this 13th day of July, 2026, to all counsel of record.\n\n\n                                              /s/ Elizabeth Hubertz\n                                              Elizabeth Hubertz\n\n\n\n\n                                                 4\n\f"
+  }
+ ]
+}

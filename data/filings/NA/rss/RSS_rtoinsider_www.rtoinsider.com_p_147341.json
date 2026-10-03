@@ -1,0 +1,24 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147341",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "BPA Issues Proposed Agreement to End Tx Planning Pause",
+ "filed": "2026-10-03",
+ "url": "//www.rtoinsider.com/147341-bpa-issues-proposed-agreement-to-end-tx-planning-pause/",
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The Bonneville Power Administration released a settlement proposal aimed at resuming processing of transmission service requests after a pause that has lasted for more than a year. \n The post  BPA Issues Proposed Agreement to End Tx Planning Pause  appeared first on  RTO Insider . ",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T00:27:04Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

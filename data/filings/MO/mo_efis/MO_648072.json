@@ -1,0 +1,40 @@
+{
+ "id": "MO:648072",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0291",
+ "title": "22",
+ "filed": null,
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/648072",
+ "fetch": [
+  {
+   "mo_filing": "648072"
+  }
+ ],
+ "collected_at": "2026-10-03T00:23:53Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [
+  "data center",
+  "integrated resource plan",
+  "large load"
+ ],
+ "party_hits": [
+  "AWS",
+  "Google"
+ ],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/882192",
+   "name": null,
+   "bytes": 13136,
+   "sha256": "2532a49d098b4c3d612141521be2f18a0524646c220d2f4d4529861434246535",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "                     BEFORE THE PUBLIC SERVICE COMMISSION\n                           OF THE STATE OF MISSOURI\n\n In the Matter of Union Electric Company d/b/a )\n Ameren Missouri's Tariff to Adjust Its Revenues )          File No. ER-2026-0291\n for Electric Service.                           )\n\n\n                               APPLICATION TO INTERVENE\n\n         Pursuant to 20 CSR 4240-2.075, Google LLC (“Google”) hereby files this Application to\n\nIntervene in the above-listed matter and states the following:\n\n         1.     On June 26, 2026, Union Electric Company d/b/a Ameren Missouri (“Ameren\n\nMissouri”) filed proposed tariffs and supporting testimony to initiate a general rate case proceeding\n\nseeking an increase in its electric rates. On June 30, 2026, the Missouri Public Service Commission\n\n(the “Commission”) issued an Order, in part, instructing that applications to intervene be filed no\n\nlater than July 15, 2026.\n\n         2.     Google is a limited liability corporation duly incorporated under the laws of the\n\nState of Delaware. The Company’s principal office is located at 1600 Amphitheatre Parkway,\n\nMountain View, CA 94043. The contact information for Google’s attorneys are set forth below.\n\n         3.     Google is a U.S.-based technology company that offers technology services and\n\nproducts and operates multiple data centers in the country and around the world to power its\n\nportfolio of products and services.\n\n         4.     Google is currently developing a data center within Ameren Missouri’s service\n\nterritory. Google’s energy spend will be impacted by the outcome of this proceeding.\n\n         5.     Data center facilities that Google develops—including within Ameren Missouri’s\n\nservice territory—require loads exceeding 75 MW. As such, Google expects to take service under\n\n\n\n\n                                                 1\n112070353.2\n\fAmeren’ Large Load Customer Tariff and has an interest in this proceeding different from that of\n\nthe general public. Accordingly, Google meets the requirements of 20 CSR 4240-2.075(3)(A).\n\n         6.     The Commission previously granted Google’s Application to Intervene in\n\nAmeren’s docket ET-2025-0184 establishing new modified tariffs for large load customers, and\n\nhas allowed Google’s intervention in several similar Evergy dockets affecting rates applicable to\n\nlarge load customers and resource plans, finding that Google’s previous Applications to Intervene\n\nsatisfied the requirements of Commission Rule 20 CSR 4240-2.075 and were in the public interest.\n\nSee Orders Granting Applications to Intervene in File Numbers ET-2025-0184 (Ameren); and see\n\nalso EO-2022-0061 (Nov. 9, 2021) (establishing Special High Load Factor Market Rate for Evergy\n\nMissouri West); EO-2023-0022 (Nov. 21, 2022) (establishing Special High Load Factor Market\n\nRate for EMM); EO-2023-0212 & EO-2023-0213 (July 17, 2023) (Integrated Resource Plan\n\nUpdate Dockets); and EO-2025-0154 (Mar. 20, 2025) (establishing LLPS Rate Plan and\n\naccompanying tariffs). This Application is largely the same as those filed in previous dockets and\n\nthus meets the requirements of Commission Rule 20 CSR 4240-2.075 and is in the public interest.\n\n         7.     Pursuant to 20 CSR 4240-2.075(2)(F), Google has not yet taken a position specific\n\nto the issues raised by Ameren Missouri’s rate case application and supporting witness testimony\n\nin this case but asserts that it should be able to take a position in responsive testimony after review\n\nof discovery and additional information to be adduced in the proceeding.\n\n         8.     Should the Commission grant this Application, notices and other correspondence\n\nin this case should be directed to the following persons:\n\n\n          Frank A. Caro, Jr.                          Andrew O. Schulte\n          Polsinelli PC                               Polsinelli PC\n          900 W 48th Place Ste 900                    900 W 48th Place Ste 900\n          Kansas City, MO 64112                       Kansas City, MO 64112\n          fcaro@polsinelli.com                        aschulte@polsinelli.com\n\n\n                                                  2\n112070353.2\n\f                     Sean Pluta\n                     Polsinelli PC\n                     7676 Forsyth Blvd\n                     Suite 800\n                     St. Louis, MO 63105\n                     spluta@polsinelli.com\n\n\n\n              Respectfully submitted,\n\n              POLSINELLI PC\n\n              By:      /s/ Frank A. Caro\n\n                       Frank A. Caro, Jr. (#42094)\n                       Polsinelli PC\n                       900 W. 48th Place\n                       Suite 900\n                       Kansas City, Missouri 64112\n                       (816) 572-4754\n                       fcaro@polsinelli.com\n\n                       Andrew O. Schulte (#62194)\n                       Polsinelli PC\n                       900 W. 48th Place\n                       Suite 900\n                       Kansas City, Missouri 64112\n                       816-691-3731\n                       aschulte@polsinelli.com\n\n                       Sean Pluta\n                       Polsinelli PC\n                       7676 Forsyth Blvd\n                       Suite 800\n                       St. Louis, MO 63105\n                       spluta@polsinelli.com\n                       ATTORNEYS FOR GOOGLE LLC\n\n\n\n\n                 3\n112070353.2\n\f                               CERTIFICATE OF SERVICE\n\n       I do hereby certify that a true and correct copy of the foregoing document has been\nemailed to all parties of record this 10th day of July, 2026.\n\n\n                                                                   /s/ Frank A. Caro\n\n\n\n\n                                               4\n112070353.2\n\f"
+  }
+ ]
+}

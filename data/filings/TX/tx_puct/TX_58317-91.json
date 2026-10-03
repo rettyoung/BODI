@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-91",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "9/29/2026 | Yasmen Ritchey | COM | Data Center Comments",
+ "filed": "2026-09-29",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=91",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "91"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:52:20Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

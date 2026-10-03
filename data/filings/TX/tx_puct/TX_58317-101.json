@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-101",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "10/2/2026 | Kimberly Weiland | COM | Public comments on data centers, 765 KV and Governors audit",
+ "filed": "2026-10-02",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=101",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "101"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:51:50Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,33 @@
+{
+ "id": "MO:648384",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0291",
+ "title": "27",
+ "filed": null,
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/648384",
+ "fetch": [
+  {
+   "mo_filing": "648384"
+  }
+ ],
+ "collected_at": "2026-10-03T00:22:41Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/882821",
+   "name": null,
+   "bytes": 73889,
+   "sha256": "554c8611f56e0f1c1df131c9cd4ff007e2d14536c9de670b5062e141495a7033",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                 BEFORE THE MISSOURI PUBLIC SERVICE COMMISSION\n                          OF THE STATE OF MISSOURI\nIn the Matter of Union Electric Company                  )\nd/b/a Ameren Missouri’s Tariff to Adjust                 )       ER-2026-0291\nIts Revenues for Electric Service                        )\n\n\n                              APPLICATION TO INTERVENE OF\n                         THE MISSOURI INDUSTRIAL ENERGY CONSUMERS\n        COMES NOW the Missouri Industrial Energy Consumers (“MIEC”) and pursuant to 20\nCSR 4240-2.075 files its application to intervene. In support of its application, the MIEC states\nas follows:\n        1. The MIEC is an association of large industrial energy customers of Ameren Missouri;\n\n        2. As a representative of the interests of large industrial customers of Ameren Missouri,\n\n              the MIEC’s interests in this case are different than that of the general public, and\n\n              may be adversely affected by the decisions in this case;\n\n        3. The MIEC does not yet have a position on the issues in this case and reserves the\n\n              right to take positions on specific issues as this case proceeds.\n\n\n        WHEREFORE, the MIEC respectfully requests that the Commission grant its application\nintervene and grant it the right to participate as a party to this case for all purposes.\n                                                 Respectfully submitted,\n                                                 /s/ Diana M. Plescia\n                                                 Missouri Bar #42419\n                                                 7733 Forsyth, Suite 1100\n                                                 Clayton, Missouri 63105\n                                                 Telephone (314) 704-8444\n                                                 dianaplescia@dmpfirm.com\n\f                              CERTIFICATE OF SERVICE\n     I hereby certify that a copy of the foregoing has been served to all parties on the\nCommission’s service list.\n                                             /s/ Diana M. Plescia\n\f"
+  }
+ ]
+}

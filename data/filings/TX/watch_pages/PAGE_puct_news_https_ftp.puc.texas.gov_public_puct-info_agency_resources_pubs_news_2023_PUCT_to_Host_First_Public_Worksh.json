@@ -1,0 +1,28 @@
+{
+ "id": "PAGE:puct_news:https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2023/PUCT_to_Host_First_Public_Workshop_on_Advanced_Nuclear_Reactors.pdf",
+ "jur": "TX",
+ "source": "page:puct_news",
+ "kind": "news",
+ "docket": null,
+ "title": "PUCT to Host First Public Workshop on Advanced Nuclear Reactors",
+ "filed": null,
+ "url": "https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2023/PUCT_to_Host_First_Public_Workshop_on_Advanced_Nuclear_Reactors.pdf",
+ "fetch": [
+  {
+   "url": "https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2023/PUCT_to_Host_First_Public_Workshop_on_Advanced_Nuclear_Reactors.pdf"
+  }
+ ],
+ "meta": {
+  "bkey": "page:puct_news",
+  "rto": null,
+  "page": "https://www.puc.texas.gov/agency/resources/pubs/news/",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-03T00:26:52Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20261001-5306",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Valerie Williams in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/1/2026\n",
+ "filed": "2026-10-01",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261001-5306",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "894E0D6C-03F9-CED5-9E0C-A0F8FA900000",
+   "name": "151438.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-01"
+ },
+ "collected_at": "2026-10-03T00:31:26Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FERC:20260930-5164",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Sebastian White in Docket(s)/Project(s) P-15423-000\nSubmission Date: 9/30/2026\n",
+ "filed": "2026-09-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260930-5164",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "ECF92D9C-14EC-C109-9D9A-A0F39F800000",
+   "name": "151430.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-30"
+ },
+ "collected_at": "2026-10-03T00:31:26Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,35 @@
+{
+ "id": "MO:638892",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "31",
+ "filed": null,
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/638892",
+ "fetch": [
+  {
+   "mo_filing": "638892"
+  }
+ ],
+ "collected_at": "2026-10-03T00:17:02Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [],
+ "party_hits": [
+  "AWS"
+ ],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/866729",
+   "name": null,
+   "bytes": 104223,
+   "sha256": "8f9657511fb7e107d747e066b441d59771f09746bfa95d2b928cffbd35eeba39",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                      BEFORE THE PUBLIC SERVICE COMMISSION\n                            OF THE STATE OF MISSOURI\n\n\nIn the Matter of the Request of Evergy                )\nMetro, Inc. d/b/a Evergy Missouri Metro for           )       File No. ER-2026-0143\nAuthority to Implement a General Rate                 )\nIncrease for Electric Service                         )\n\n\n        APPLICATION TO INTERVENE OF RENEW MISSOURI ADVOCATES\n\n\n         COMES NOW Renew Missouri Advocates d/b/a Renew Missouri (“Renew Missouri”),\n\nand pursuant to 20 CSR 4240-2.075, applies to intervene in the above-captioned case. For its\n\nApplication to Intervene Renew Missouri states:\n\n       1.       Renew Missouri is a non-profit corporation organized under the laws of Missouri\n\nwith its principal place of business at 501 Fay Street, Suite 206, Columbia, Missouri 65201. Renew\n\nMissouri is a registered fictitious name of Renew Missouri Advocates under § 417.200, RSMo.\n\nRenew Missouri is a non-profit policy group whose mission is to transform Missouri into a leading\n\nstate in renewable energy and energy efficiency.\n\n       2.       As advocates for renewable energy and energy efficiency efforts in Missouri,\n\nRenew Missouri’s interests are different than those of the general public and may be adversely\n\naffected by a final order arising from this case if policies hindering those efforts are adopted.\n\n       3.       Granting Renew Missouri intervention will serve the public interest by assisting the\n\nCommission’s record for decision in this case, and no party will be adversely affected by such\n\nintervention.\n\n       4.       Renew Missouri has not yet taken a final position in this specific case based on the\n\napplication and forthcoming evidence, but generally advocates for policies that promote the\n\ntransition to more reliance on renewable energy, as well as energy efficiency efforts that encourage\n\fenergy savings, decreased reliance on fossil fuel generation, and increased affordability. Renew\n\nMissouri also advocates for sensible transmission policies that support increased reliability and\n\naccess to renewable energy. Renew Missouri takes no position at this time regarding the relief\n\nsought by Evergy. Renew Missouri cannot assert a position at this time due to the recency of the\n\ncase filing, and the inability to conduct discovery without being a party to the case. Currently,\n\nRenew Missouri is not certain how the relief sought by Evergy may impact, directly or indirectly,\n\npolicies impacting energy efficiency efforts and/or the transition to renewable energy. Renew\n\nMissouri anticipates it will be able to assert a position in either its direct or responsive testimony,\n\nas appropriate, after reviewing and analyzing the filed testimony, and obtaining more information\n\nthrough the discovery process.\n\n       5.      Pleadings, notices, and other correspondence in this case should be directed to:\n\n               Nicole Mers                             James Owen\n               501 Fay Street                          501 Fay Street\n               Suite 206                               Suite 206\n               Columbia, MO 65201                      Columbia, MO 65201\n               nicole@renewmo.org                      james@renewmo.org\n               General Counsel                         Executive Director\n\n\n       WHEREFORE, Renew Missouri respectfully requests that the Commission grant this\n\nApplication to Intervene, along with any further relief the Commission deems proper.\n\n\n                                                       Respectfully,\n\n\n                                                       /s/ Nicole Mers\n                                                       Nicole Mers, Bar No. 66766\n                                                       501 Fay Street\n                                                       Suite 206\n                                                       Columbia, MO 65201\n                                                       T:314-308-2729\n                                                       nicole@renewmo.org\n\f                                                    GENERAL COUNSEL FOR RENEW\n                                                    MISSOURI ADVOCATES\n\n\n\n                                  CERTIFICATE OF SERVICE\nI hereby certify that copies of the foregoing have been emailed to all counsel of record this 26th\n\nday of February 2026.\n\n\n\n                                                       /s/ Nicole Mers\n\f"
+  }
+ ]
+}

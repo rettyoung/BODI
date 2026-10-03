@@ -1,0 +1,25 @@
+{
+ "id": "TX:58317-95",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "10/1/2026 | Danny Proctor | COM | Comments on data centers",
+ "filed": "2026-10-01",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=95",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "95"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:52:08Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

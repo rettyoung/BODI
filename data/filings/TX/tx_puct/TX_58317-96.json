@@ -1,0 +1,23 @@
+{
+ "id": "TX:58317-96",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "10/1/2026 | GREEN RECURIVE UTILITY SERVICE LLC | PL | Request for adoption of GRUS-STD-60084 Measurement Standard for Large Computational Loads",
+ "filed": "2026-10-01",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=96",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "96"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-02T23:52:05Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

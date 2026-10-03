@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20260929-5033",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-98",
+ "title": "Comments of the Illinois Commerce Commission in support of the Complaint of Pennsylvania Public Utility Commission v. PJM Interconnection, L.L.C. under EL26-98.",
+ "filed": "2026-09-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20260929-5033",
+ "entity": "Illinois Commerce Commission",
+ "fetch": [
+  {
+   "ferc_file": "4A1D320E-027D-C4F3-9856-A0ED89100000",
+   "name": "FINALALLEL26-98ICCcommentsonPAPUCComplaint-9-29-26.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Government Agency Submittal"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-09-29"
+ },
+ "collected_at": "2026-10-03T00:31:26Z",
+ "run_id": "2026-10-02-2349",
+ "keywords": [
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}
