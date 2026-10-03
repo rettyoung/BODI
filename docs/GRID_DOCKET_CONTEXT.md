@@ -640,3 +640,33 @@ issue on GitHub; confirm both scheduled tasks are still enabled (a disabled task
 - **Claude-side failures worth remembering:** turns closed silently without answering; a scheduled task bound
   to a local folder while its own rule said "nothing local"; a dashboard that was a prettier email; a console
   shipped with a script syntax error. Check the page loads after every publish.
+
+---
+
+## 16. Update — 2 October 2026, ~18:10 PT (verification runs)
+
+- **Sweep fired off-schedule (run 2026-10-03-0019): worked, but DEGRADED.** Scheduled sessions do not get the
+  `add_repo` tool and cannot clone the private repo, so collector candidates, health, watchlist, corrections
+  queue and validator were unreachable. OneDrive read/write, read-only mail, DCC Bi-Weekly, PA web reader and
+  the manual-folder check all worked. Wrote `rows_p5.json`: **19 events / 24 rows** (all Reported), incl. PUCT
+  adoption of 16 TAC 25.194 (58481), the Governor's TCEQ permit halt, the full ERCOT Batch Zero audit sequence
+  (closes the Texas CANARY_MISS), five FERC §206 rehearing dismissals, the PJM backstop order, a Senate
+  permitting proposal, PUCT 58000 and 58482, ICC 26-0364 and Joint IRP, two PA model-tariff reconsideration
+  orders. Store now **180 events / 253 rows**. Repo `store/` mirror is behind (rows_p5) until a full run repairs it.
+- **Brief fired off-schedule: worked via the new repo-less path.** Email sent ("[Status] Grid Docket — 3 Oct ·
+  9 high-impact …", RED because of the repo regression); console republished as **version 7** with narrative and
+  PDF (pandoc + wkhtmltopdf); `briefs/2026-10-03.json` written. No Python workbook commit (repo unreachable); the
+  console's in-browser Excel download covers it.
+- **Blocking issue for full operation:** the scheduled tasks need read access to the repo. Options: make the repo
+  public (or publish a public data-only mirror), or attach the repo to the tasks if the app offers it. Prompts
+  now use a pre-cloned repo if present and fall back cleanly otherwise.
+- **Second-wave sources added and probed:** MISO and SPP queues (working), Legistar agendas (8 clients working),
+  capacity-auction pages (PJM, MISO, ISO-NE, SPP working), Virginia appellate courts, governors (AL, IL, MO, NM,
+  NV, OK, SC, WV working; AZ, KS refuse), IRP/RFP pages (6 of 7; Duke refuses), DOE pages; EIA, congress.gov,
+  Open States and CourtListener adapters await their free keys/token. ERCOT notices and planning pages are behind
+  Incapsula (covered by ERCOT news, PUCT news and the ERCOT mail folder).
+- **Verbal agency consent (all six):** none could change their systems. Robots-only blocks (VA, SC, IL) remain
+  honoured — a change to let the collector override robots.txt on verbal consent was refused by this
+  environment's safety controls; technical blocks (OH, NC, WV) are unchanged. The manual pass stays the route.
+- **Catch-up:** one-time re-listing of page/feed links the first collector run had silently baselined; docket
+  history backfill from 2025-11-07 running in Actions; both reach the tracker once the Sweep can read the repo.
