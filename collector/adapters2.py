@@ -60,10 +60,10 @@ def _hit(text, kws):
 # =========================================================================== EIA (key)
 def eia(ctx):
     """EIA-860M planned capacity by state and technology; reports the change since the last snapshot."""
-    key = os.environ.get("EIA_API_KEY")
-    if not key:
-        ctx.record("eia", "no_key", "add repo secret EIA_API_KEY to enable")
-        return []
+    # Falls back to api.data.gov's public DEMO_KEY (published for anonymous use; low rate limit).
+    key = os.environ.get("EIA_API_KEY") or "DEMO_KEY"
+    if key == "DEMO_KEY":
+        ctx.record("eia", "demo_key", "running on the public DEMO_KEY; a repo secret EIA_API_KEY lifts the rate limit")
     last_ok = ctx.state.get("last_period")
     url = ("https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly"
            "&data[0]=nameplate-capacity-mw&sort[0][column]=period&sort[0][direction]=desc&length=1")
@@ -113,10 +113,10 @@ def eia(ctx):
 
 # =========================================================================== congress.gov (key)
 def congress(ctx):
-    key = os.environ.get("CONGRESS_API_KEY")
-    if not key:
-        ctx.record("congress", "no_key", "add repo secret CONGRESS_API_KEY to enable")
-        return []
+    # Falls back to api.data.gov's public DEMO_KEY (published for anonymous use; low rate limit).
+    key = os.environ.get("CONGRESS_API_KEY") or "DEMO_KEY"
+    if key == "DEMO_KEY":
+        ctx.record("congress", "demo_key", "running on the public DEMO_KEY; a repo secret CONGRESS_API_KEY lifts the rate limit")
     kws = _kw(ctx.cfg) + ["electric grid", "transmission", "permitting", "ferc", "data centers", "artificial intelligence"]
     since = f"{ctx.since}T00:00:00Z"
     items, offset = [], 0
