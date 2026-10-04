@@ -1,8 +1,137 @@
 {
  "adapter": "openstates",
  "since": "2026-06-01",
- "error": "Blocked('HTTP 429 for https://v3.openstates.org/bills?jurisdiction=Illinois&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions')",
- "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/BODI/BODI/collector/probe_adapter.py\", line 193, in main\n    items = A.ADAPTERS[name](ctx) or []\n            ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/BODI/BODI/collector/adapters2.py\", line 184, in openstates\n    j = ctx.http.get(f\"https://v3.openstates.org/bills?jurisdiction={quote(STATE_NAMES[st])}&q={quote(q)}\"\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/BODI/BODI/collector/common.py\", line 243, in get\n    return self.request(\"GET\", url, **kw)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/BODI/BODI/collector/common.py\", line 228, in request\n    raise Blocked(f\"HTTP {r.status_code} for {scrub(url)}\")\ncommon.Blocked: HTTP 429 for https://v3.openstates.org/bills?jurisdiction=Illinois&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions\n",
+ "items": 492,
+ "sample": [
+  {
+   "id": "BILL:AL:ocd-bill/98dd6561-3f05-4fbd-a4e1-c071a42bef7a:2026-04-17T04:00:00+00:00",
+   "jur": "AL",
+   "source": "openstates",
+   "kind": "legislation",
+   "docket": "HB 393",
+   "title": "Tax abatement and tax incentive programs, NAICS Code references and definitions updated to latest terms",
+   "filed": "2026-04-17",
+   "url": "https://openstates.org/al/bills/2026rs/HB393/",
+   "fetch": [],
+   "meta": {
+    "session": "2026rs",
+    "latest_action": "Read for the first time and referred to the House Committee on Economic Development and Tourism",
+    "query": "data center"
+   }
+  },
+  {
+   "id": "BILL:AL:ocd-bill/07fd495c-223a-4d92-8135-375c064c3732:2026-04-08T04:00:00+00:00",
+   "jur": "AL",
+   "source": "openstates",
+   "kind": "legislation",
+   "docket": "SJR 89",
+   "title": "Urging the Governor and relevant state agencies to recognize the value of spent nuclear fuel and take state actions toward its development",
+   "filed": "2026-04-08",
+   "url": "https://openstates.org/al/bills/2026rs/SJR89/",
+   "fetch": [],
+   "meta": {
+    "session": "2026rs",
+    "latest_action": "Read for the first time",
+    "query": "data center"
+   }
+  },
+  {
+   "id": "BILL:AL:ocd-bill/4b0d1af4-09fa-48da-959f-daefe6471f0d:2026-03-11T04:00:00+00:00",
+   "jur": "AL",
+   "source": "openstates",
+   "kind": "legislation",
+   "docket": "HB 97",
+   "title": "Geographic Information Technology; to recognize the Geographic Information Executive Council, the Geographic Information Program Office, the Advisory Committee, and to provide for coordination with the 911 Board",
+   "filed": "2026-03-11",
+   "url": "https://openstates.org/al/bills/2026rs/HB97/",
+   "fetch": [],
+   "meta": {
+    "session": "2026rs",
+    "latest_action": "Read for the first time and referred to the House Committee on State Government",
+    "query": "data center"
+   }
+  },
+  {
+   "id": "BILL:AL:ocd-bill/ebca1c0d-8818-44e6-a90f-39f4418abc8d:2026-04-09T04:00:00+00:00",
+   "jur": "AL",
+   "source": "openstates",
+   "kind": "legislation",
+   "docket": "HB 238",
+   "title": "Appropriations from Education Trust Fund for the support, maintenance, and development of public education for fiscal year ending September 30, 2027",
+   "filed": "2026-04-09",
+   "url": "https://openstates.org/al/bills/2026rs/HB238/",
+   "fetch": [],
+   "meta": {
+    "session": "2026rs",
+    "latest_action": "Read for the first time and referred to the House Committee on Ways and Means Education",
+    "query": "data center"
+   }
+  },
+  {
+   "id": "BILL:AL:ocd-bill/e884b2f2-4001-4442-9ce1-3bd345716f92:2026-04-09T04:00:00+00:00",
+   "jur": "AL",
+   "source": "openstates",
+   "kind": "legislation",
+   "docket": "SB 265",
+   "title": "Tax abatements for data processing centers, exemption period limited, collection of certain taxes on purchases required, sunset date extended",
+   "filed": "2026-04-09",
+   "url": "https://openstates.org/al/bills/2026rs/SB265/",
+   "fetch": [],
+   "meta": {
+    "session": "2026rs",
+    "latest_action": "Read for the first time and referred to the Senate Committee on Fiscal Responsibility and Economic Development",
+    "query": "data center"
+   }
+  },
+  {
+   "id": "BILL:AL:ocd-bill/5593e8e3-8bd2-4ecb-a283-48fceba9f91f:2026-04-17T04:00:00+00:00",
+   "jur": "AL",
+   "source": "openstates",
+   "kind": "legislation",
+   "docket": "HB 235",
+   "title": "Supplemental appropriations from the Education Trust Fund for the fiscal year ending September 30, 2026",
+   "filed": "2026-04-17",
+   "url": "https://openstates.org/al/bills/2026rs/HB235/",
+   "fetch": [],
+   "meta": {
+    "session": "2026rs",
+    "latest_action": "Read for the first time and referred to the House Committee on Ways and Means Education",
+    "query": "data center"
+   }
+  },
+  {
+   "id": "BILL:AL:ocd-bill/92319d23-06da-461c-a008-c0de86541573:2026-04-09T04:00:00+00:00",
+   "jur": "AL",
+   "source": "openstates",
+   "kind": "legislation",
+   "docket": "SB 143",
+   "title": "Nursing facilities, privilege assessments and surcharge on each nursing home bed, sunset clause removed",
+   "filed": "2026-04-09",
+   "url": "https://openstates.org/al/bills/2026rs/SB143/",
+   "fetch": [],
+   "meta": {
+    "session": "2026rs",
+    "latest_action": "Read for the first time and referred to the Senate Committee on Finance and Taxation General Fund",
+    "query": "data center"
+   }
+  },
+  {
+   "id": "BILL:AL:ocd-bill/718867d5-a082-47e6-9b14-f9f323c0f07e:2026-02-05T05:00:00+00:00",
+   "jur": "AL",
+   "source": "openstates",
+   "kind": "legislation",
+   "docket": "HB 322",
+   "title": "Underground Damage Prevention Program; One-Call Notification System, further provided for complex or large projects, sunset extended",
+   "filed": "2026-02-05",
+   "url": "https://openstates.org/al/bills/2026rs/HB322/",
+   "fetch": [],
+   "meta": {
+    "session": "2026rs",
+    "latest_action": "Read for the first time and referred to the House Committee on Transportation, Utilities and Infrastructure",
+    "query": "data center"
+   }
+  }
+ ],
  "notes": [],
  "sub": {},
  "exchanges": [
@@ -109,10 +238,370 @@
    "method": "GET",
    "url": "https://v3.openstates.org/bills?jurisdiction=Illinois&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
    "req": "None",
-   "status": 429,
+   "status": 200,
    "ctype": "application/json",
-   "len": 41,
-   "body": "{\"detail\":\"exceeded limit of 10/min: 11\"}"
+   "len": 97002,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/e3af5883-3334-4791-91ab-d45920b0f6e8\",\"session\":\"104th\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:il/government\",\"name\":\"Illinois\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/20782ae5-cc22-4470-846b-fd9788ad3db7\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 1574\",\"title\":\"PESTICIDES-OPERATOR REGULATION\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{},\"created_at\":\"2025-02-04T21:39:34.775607+00:00\",\"updated_at\":\"2026-08-15T03:45:55.515407+00:00\",\"openstates_url\":\"https://openstates.org/il/bills/104th/SB1574/\",\"first_action_date\":\"2025-02-04\",\"latest_action_date\":\"2025-04-11\",\"latest_action_description\":\"Added as Co-Sponsor Sen. Javier L. Cervantes\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"4bcbe259-7ae3-4d05-b2b8-eb47b24bc510\",\"organization\":{\"id\":\"ocd-organization/20782ae5-cc22-4470-846b-fd9788ad3db7\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Filed with Secretary by Sen. Doris Turner\",\"date\":\"2025-02-04\",\"classification\":[\"filing\"],\"order\":0,\"related_entities\":[]},{\"id\":\"120e9d9c-ba0d-4d63-a2b0-0b5e59401414\",\"organization\":{\"id\":\"ocd-organization/20782ae5-cc22-4470-846b-fd9788ad3db7\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"First Reading\",\"date\":\"2025-02-04\",\"classification\":[\"reading-1\"],\"order\":1,\"related_entities\":[]},{\"id\":\"79a3dfff-e193-481c-9af2-306476e4e284\",\"organization\":{\"id\":\"ocd-organization/20782ae5-cc22-4470-846b-fd9788ad3db7\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Referred to Assignments\",\"date\":\"2025-02-04\",\"classification\":[],\"order\":2,\"related_entities\":[]},{\"id\":\"05f132eb-bbd8-4ace-b45a-f02fb70839ea\",\"organization\":{\"id\":\"ocd-organization/20782ae5-cc22-4470-846b-fd9788ad3db7\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Assigned to Agriculture\",\"date\":\"2025-02-11\",\"classification\":[\"referral-committee\"],\"order\":3,\"related_entities\":[]},{\"id\":\"63903594-de36-4669-a517-82101d763100\",\"organization\":{\"id\":\"o"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Illinois&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 141953,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/e296aaa5-ebb8-474b-9f1f-ba91cb34fc09\",\"session\":\"104th\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:il/government\",\"name\":\"Illinois\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/76120f9a-2982-4cc5-a6e2-de7401fa0d38\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 2563\",\"title\":\"CONDO-RESERVE STUDY\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{},\"created_at\":\"2025-02-04T21:33:43.309906+00:00\",\"updated_at\":\"2026-09-11T14:37:52.246015+00:00\",\"openstates_url\":\"https://openstates.org/il/bills/104th/HB2563/\",\"first_action_date\":\"2025-02-04\",\"latest_action_date\":\"2026-09-08\",\"latest_action_description\":\"Added Co-Sponsor Rep. Diane Blair-Sherlock\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"55ae75c7-3c75-40cd-9443-a3799149f304\",\"organization\":{\"id\":\"ocd-organization/76120f9a-2982-4cc5-a6e2-de7401fa0d38\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Filed with the Clerk by Rep. Terra Costa Howard\",\"date\":\"2025-02-04\",\"classification\":[\"filing\"],\"order\":0,\"related_entities\":[]},{\"id\":\"ccaf8468-4e35-4ed8-80f8-07180e398665\",\"organization\":{\"id\":\"ocd-organization/76120f9a-2982-4cc5-a6e2-de7401fa0d38\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Added Chief Co-Sponsor Rep. Rick Ryan\",\"date\":\"2025-02-04\",\"classification\":[],\"order\":1,\"related_entities\":[]},{\"id\":\"6bd83fe6-31bd-4d79-85b7-eb4b9fdb8b09\",\"organization\":{\"id\":\"ocd-organization/76120f9a-2982-4cc5-a6e2-de7401fa0d38\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"First Reading\",\"date\":\"2025-02-04\",\"classification\":[\"reading-1\"],\"order\":2,\"related_entities\":[]},{\"id\":\"ec0e003f-12a0-4e3b-a936-cf06f42c6b95\",\"organization\":{\"id\":\"ocd-organization/76120f9a-2982-4cc5-a6e2-de7401fa0d38\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Referred to Rules Committee\",\"date\":\"2025-02-04\",\"classification\":[],\"order\":3,\"related_entities\":[]},{\"id\":\"c833886b-4dc2-4a9f-bbc3-255a1b537580\",\"organization\":{\"id\":\"ocd-organizatio"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Kansas&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 87112,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/df9a757c-9e08-4f65-8b35-8470b4beed9c\",\"session\":\"2025-2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:ks/government\",\"name\":\"Kansas\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/c1d465f9-fab5-4cc0-aded-270423bf31ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 530\",\"title\":\"Clarifying definitions of individuals who are subject to a state and national criminal history record check and which agency receives the results of such record check.\",\"classification\":[\"bill\"],\"subject\":[\"Crimes, Punishment and Criminal Procedure\"],\"extras\":{},\"created_at\":\"2026-03-10T05:52:24.964408+00:00\",\"updated_at\":\"2026-07-29T22:45:23.508119+00:00\",\"openstates_url\":\"https://openstates.org/ks/bills/2025-2026/SB530/\",\"first_action_date\":\"2026-03-09\",\"latest_action_date\":\"2026-04-10\",\"latest_action_description\":\"Died in Committee\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"ec5600d3-ddc1-4b41-8bce-aec38549bfeb\",\"organization\":{\"id\":\"ocd-organization/c1d465f9-fab5-4cc0-aded-270423bf31ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Died in Committee\",\"date\":\"2026-04-10\",\"classification\":[\"failure\"],\"order\":0,\"related_entities\":[]},{\"id\":\"64e36034-d75e-4b7f-b3ab-e654c733ac0d\",\"organization\":{\"id\":\"ocd-organization/c1d465f9-fab5-4cc0-aded-270423bf31ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Referred to Senate Committee on Judiciary\",\"date\":\"2026-03-10\",\"classification\":[\"referral-committee\"],\"order\":1,\"related_entities\":[]},{\"id\":\"d5895941-2a1f-48b3-bdf9-84745dbde2f4\",\"organization\":{\"id\":\"ocd-organization/c1d465f9-fab5-4cc0-aded-270423bf31ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Introduced\",\"date\":\"2026-03-09\",\"classification\":[\"introduction\"],\"order\":2,\"related_entities\":[]}]},{\"id\":\"ocd-bill/adeb8793-d1b6-409c-aec4-81484e65b34a\",\"session\":\"2025-2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:ks/government\",\"name\":\"Kansas\",\"classification\":\"state\"},\"f"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Kansas&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 10701,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/adeb8793-d1b6-409c-aec4-81484e65b34a\",\"session\":\"2025-2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:ks/government\",\"name\":\"Kansas\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/c1d465f9-fab5-4cc0-aded-270423bf31ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 531\",\"title\":\"Prohibiting the development or operation of any new large load data center in a county that has had a drought emergency declared for such county pursuant to the Kansas emergency management act within the preceding three years.\",\"classification\":[\"bill\"],\"subject\":[\"Counties\",\"Water\"],\"extras\":{},\"created_at\":\"2026-03-10T05:50:32.758567+00:00\",\"updated_at\":\"2026-07-29T22:40:16.365126+00:00\",\"openstates_url\":\"https://openstates.org/ks/bills/2025-2026/SB531/\",\"first_action_date\":\"2026-03-09\",\"latest_action_date\":\"2026-04-10\",\"latest_action_description\":\"Died in Committee\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"4e04b8b1-04d2-4600-8c64-04eca9004afe\",\"organization\":{\"id\":\"ocd-organization/c1d465f9-fab5-4cc0-aded-270423bf31ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Died in Committee\",\"date\":\"2026-04-10\",\"classification\":[\"failure\"],\"order\":0,\"related_entities\":[]},{\"id\":\"9d10828f-942b-473b-948f-f91c11f04924\",\"organization\":{\"id\":\"ocd-organization/c1d465f9-fab5-4cc0-aded-270423bf31ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Withdrawn from Senate Committee on Utilities; Referred to Senate Committee on Utilities\",\"date\":\"2026-03-10\",\"classification\":[\"referral-committee\"],\"order\":1,\"related_entities\":[]},{\"id\":\"c6e7b3da-c047-446b-927c-d38997c09151\",\"organization\":{\"id\":\"ocd-organization/c1d465f9-fab5-4cc0-aded-270423bf31ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Referred to Senate Committee on Commerce\",\"date\":\"2026-03-10\",\"classification\":[\"referral-committee\"],\"order\":2,\"related_entities\":[]},{\"id\":\"7b5a6685-0784-4413-b8f3-f42a4d52d19f\",\"organization\":{\"id\":\"ocd-organi"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Kansas&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 90124,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/adeb8793-d1b6-409c-aec4-81484e65b34a\",\"session\":\"2025-2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:ks/government\",\"name\":\"Kansas\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/c1d465f9-fab5-4cc0-aded-270423bf31ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 531\",\"title\":\"Prohibiting the development or operation of any new large load data center in a county that has had a drought emergency declared for such county pursuant to the Kansas emergency management act within the preceding three years.\",\"classification\":[\"bill\"],\"subject\":[\"Counties\",\"Water\"],\"extras\":{},\"created_at\":\"2026-03-10T05:50:32.758567+00:00\",\"updated_at\":\"2026-07-29T22:40:16.365126+00:00\",\"openstates_url\":\"https://openstates.org/ks/bills/2025-2026/SB531/\",\"first_action_date\":\"2026-03-09\",\"latest_action_date\":\"2026-04-10\",\"latest_action_description\":\"Died in Committee\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"4e04b8b1-04d2-4600-8c64-04eca9004afe\",\"organization\":{\"id\":\"ocd-organization/c1d465f9-fab5-4cc0-aded-270423bf31ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Died in Committee\",\"date\":\"2026-04-10\",\"classification\":[\"failure\"],\"order\":0,\"related_entities\":[]},{\"id\":\"9d10828f-942b-473b-948f-f91c11f04924\",\"organization\":{\"id\":\"ocd-organization/c1d465f9-fab5-4cc0-aded-270423bf31ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Withdrawn from Senate Committee on Utilities; Referred to Senate Committee on Utilities\",\"date\":\"2026-03-10\",\"classification\":[\"referral-committee\"],\"order\":1,\"related_entities\":[]},{\"id\":\"c6e7b3da-c047-446b-927c-d38997c09151\",\"organization\":{\"id\":\"ocd-organization/c1d465f9-fab5-4cc0-aded-270423bf31ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Referred to Senate Committee on Commerce\",\"date\":\"2026-03-10\",\"classification\":[\"referral-committee\"],\"order\":2,\"related_entities\":[]},{\"id\":\"7b5a6685-0784-4413-b8f3-f42a4d52d19f\",\"organization\":{\"id\":\"ocd-organi"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Louisiana&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 91477,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/7787581c-bc79-4379-ae31-2947e501b2f8\",\"session\":\"2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:la/government\",\"name\":\"Louisiana\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-83a7-92d73b24f94a\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 987\",\"title\":\"HIGHER EDUCATION: Realigns energy-related programs by moving the Louisiana Geological Survey under the Louisiana State University Energy Institute (EN NO IMPACT   See Note)\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{},\"created_at\":\"2026-03-19T22:18:37.132800+00:00\",\"updated_at\":\"2026-09-04T10:50:07.219181+00:00\",\"openstates_url\":\"https://openstates.org/la/bills/2026/HB987/\",\"first_action_date\":\"2026-03-23\",\"latest_action_date\":\"2026-05-22\",\"latest_action_description\":\"Signed by the Governor. Becomes Act No. 331.\",\"latest_passage_date\":\"2026-05-13\",\"actions\":[{\"id\":\"90207b3d-f6fe-4eca-b7f5-a70702a3dee1\",\"organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-83a7-92d73b24f94a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Effective date: 05/22/2026.\",\"date\":\"2026-05-22\",\"classification\":[],\"order\":0,\"related_entities\":[]},{\"id\":\"0bf36525-5ea7-4167-b909-607efce26882\",\"organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-83a7-92d73b24f94a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Signed by the Governor. Becomes Act No. 331.\",\"date\":\"2026-05-22\",\"classification\":[\"became-law\",\"executive-signature\"],\"order\":1,\"related_entities\":[]},{\"id\":\"7b609492-d2ba-4608-b603-f382b275aa33\",\"organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-83a7-92d73b24f94a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Sent to the Governor for executive approval.\",\"date\":\"2026-05-19\",\"classification\":[\"executive-receipt\"],\"order\":2,\"related_entities\":[]},{\"id\":\"4e9d8cfe-8e48-4864-92d7-46d1dbca8d9b\",\"organization\":{\"id\":\"ocd-organization/ebc2f274-ac99-40a5-ae55-19e896936bc7\",\"name\":\"Senate\",\"classific"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Louisiana&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 6906,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/483cb84a-d613-4865-ab76-a5bcd1203ab1\",\"session\":\"2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:la/government\",\"name\":\"Louisiana\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-83a7-92d73b24f94a\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HR 279\",\"title\":\"ENERGY: Recognizes the value of geothermal energy development in the state\",\"classification\":[\"resolution\"],\"subject\":[],\"extras\":{},\"created_at\":\"2026-05-13T19:32:07.918028+00:00\",\"updated_at\":\"2026-08-19T10:53:46.592135+00:00\",\"openstates_url\":\"https://openstates.org/la/bills/2026/HR279/\",\"first_action_date\":\"2026-05-13\",\"latest_action_date\":\"2026-06-03\",\"latest_action_description\":\"Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"ebe4140a-2385-4513-9eb9-8d8f38a2d0a9\",\"organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-83a7-92d73b24f94a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.\",\"date\":\"2026-06-03\",\"classification\":[],\"order\":0,\"related_entities\":[]},{\"id\":\"b64f7edc-abfe-43be-9282-6105c54fe090\",\"organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-83a7-92d73b24f94a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Enrolled and signed by the Speaker of the House.\",\"date\":\"2026-06-01\",\"classification\":[\"enrolled\"],\"order\":1,\"related_entities\":[]},{\"id\":\"7ffe5614-d8f6-4429-8919-2906dd447167\",\"organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-83a7-92d73b24f94a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Read by title, roll called, yeas 93, nays 3. The resolution was adopted.\",\"date\":\"2026-06-01\",\"classification\":[],\"order\":2,\"related_entities\":[]},{\"id\":\"7ae55ba8-ce38-4f36-8da4-162f2f6c465b\",\"organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-8"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Louisiana&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 17890,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/40387759-0e64-426e-a62b-db83c903d997\",\"session\":\"2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:la/government\",\"name\":\"Louisiana\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-83a7-92d73b24f94a\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 1156\",\"title\":\"ENERGY: Enacts safety regulations for carbon dioxide transport and sequestration\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{},\"created_at\":\"2026-03-31T23:52:31.862466+00:00\",\"updated_at\":\"2026-07-07T09:07:37.091914+00:00\",\"openstates_url\":\"https://openstates.org/la/bills/2026/HB1156/\",\"first_action_date\":\"2026-03-31\",\"latest_action_date\":\"2026-04-01\",\"latest_action_description\":\"Read by title, under the rules, referred to the Committee on Natural Resources and Environment.\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"310fde85-4f03-469a-b5ca-f584733df87f\",\"organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-83a7-92d73b24f94a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Read by title, under the rules, referred to the Committee on Natural Resources and Environment.\",\"date\":\"2026-04-01\",\"classification\":[\"referral-committee\"],\"order\":0,\"related_entities\":[]},{\"id\":\"818062b5-f640-4b5b-8b90-2f8cd2143f7b\",\"organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-83a7-92d73b24f94a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Read by title.  Lies over under the rules.\",\"date\":\"2026-03-31\",\"classification\":[],\"order\":1,\"related_entities\":[]}]},{\"id\":\"ocd-bill/707ddd0e-fe3b-4dc4-ba83-6e4aab29c219\",\"session\":\"2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:la/government\",\"name\":\"Louisiana\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/d711b9b2-6668-470d-83a7-92d73b24f94a\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 939\",\"title\":\"MOTOR VEHICLES: Creates the Louisiana New and Used Motor Vehicle Commission (OR DECREASE SG EX See Note)\",\"classificat"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Missouri&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 66586,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/e377f964-2bc8-49c5-bcba-e64fa2c5342a\",\"session\":\"2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:mo/government\",\"name\":\"Missouri\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HJR 187\",\"title\":\"Proposes a constitutional amendment relating to health care professionals\",\"classification\":[\"joint resolution\"],\"subject\":[\"CONSTITUTIONAL AMENDMENTS\",\"HEALTH CARE\",\"HEALTH CARE PROFESSIONALS\",\"NURSES\",\"PROFESSIONAL REGISTRATION AND LICENSING\"],\"extras\":{},\"created_at\":\"2026-02-12T19:30:05.487013+00:00\",\"updated_at\":\"2026-09-29T11:25:17.095984+00:00\",\"openstates_url\":\"https://openstates.org/mo/bills/2026/HJR187/\",\"first_action_date\":\"2026-02-12T06:00:00+00:00\",\"latest_action_date\":\"2026-05-15T05:00:00+00:00\",\"latest_action_description\":\"Referred: Emerging Issues(H)\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"07ed9941-53a6-48f2-af38-3cc10d16839e\",\"organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Introduced and Read First Time (H)\",\"date\":\"2026-02-12T06:00:00+00:00\",\"classification\":[\"introduction\"],\"order\":0,\"related_entities\":[]},{\"id\":\"5fdaf937-17c8-4f40-b8f2-0421b12ab9dc\",\"organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Read Second Time (H)\",\"date\":\"2026-02-16T06:00:00+00:00\",\"classification\":[\"reading-2\"],\"order\":1,\"related_entities\":[]},{\"id\":\"768c95a1-dcda-4240-ae69-5bdd2c3f7c1a\",\"organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Referred: Emerging Issues(H)\",\"date\":\"2026-05-15T05:00:00+00:00\",\"classification\":[\"referral-committee\"],\"order\":2,\"related_entities\":[]}]},{\"id\":\"ocd-bill/2f0eeefe-c704-4210-9573-30f0fabb7202\",\"session\":\"2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdi"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Missouri&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 11820,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/edf492dd-4f5a-46fa-85d4-e405db697abb\",\"session\":\"2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:mo/government\",\"name\":\"Missouri\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 3362\",\"title\":\"Creates new provisions for industrial utility users\",\"classification\":[\"bill\"],\"subject\":[\"ENERGY\",\"NATURAL RESOURCES, DEPARTMENT OF\",\"UTILITIES\",\"WATER RESOURCES AND WATER DISTRICTS\"],\"extras\":{},\"created_at\":\"2026-02-19T23:18:03.959989+00:00\",\"updated_at\":\"2026-09-23T19:16:19.992370+00:00\",\"openstates_url\":\"https://openstates.org/mo/bills/2026/HB3362/\",\"first_action_date\":\"2026-02-19T06:00:00+00:00\",\"latest_action_date\":\"2026-03-30T05:00:00+00:00\",\"latest_action_description\":\"Public Hearing Completed (H)\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"64ec0a24-82a7-4778-9775-6af0752a3a55\",\"organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Introduced and Read First Time (H)\",\"date\":\"2026-02-19T06:00:00+00:00\",\"classification\":[\"introduction\"],\"order\":0,\"related_entities\":[]},{\"id\":\"36619a6f-c48a-4cc2-b960-e502e035bcf4\",\"organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Read Second Time (H)\",\"date\":\"2026-02-23T06:00:00+00:00\",\"classification\":[\"reading-2\"],\"order\":1,\"related_entities\":[]},{\"id\":\"b4555497-ae17-4624-987d-e7720a07a8d3\",\"organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Referred: Conservation and Natural Resources(H)\",\"date\":\"2026-03-24T05:00:00+00:00\",\"classification\":[\"referral-committee\"],\"order\":2,\"related_entities\":[]},{\"id\":\"52242989-c318-4d71-baff-60ace982c66c\",\"organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classifica"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Missouri&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 81415,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/ffd8e455-5784-41e7-b850-f985ca054979\",\"session\":\"2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:mo/government\",\"name\":\"Missouri\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 3466\",\"title\":\"Establishes the \\\"Missouri Building Codes Act\\\"\",\"classification\":[\"bill\"],\"subject\":[\"BOARDS, COMMISSIONS, COMMITTEES, AND COUNCILS\",\"COMMERCE AND INSURANCE, DEPARTMENT OF\",\"CONSTRUCTION AND BUILDING CODES\",\"FIRE PROTECTION\",\"HOUSING\",\"POLITICAL SUBDIVISIONS\",\"PUBLIC SAFETY, DEPARTMENT OF\"],\"extras\":{},\"created_at\":\"2026-02-26T19:55:14.597770+00:00\",\"updated_at\":\"2026-09-24T07:02:16.254838+00:00\",\"openstates_url\":\"https://openstates.org/mo/bills/2026/HB3466/\",\"first_action_date\":\"2026-02-26T06:00:00+00:00\",\"latest_action_date\":\"2026-04-13T05:00:00+00:00\",\"latest_action_description\":\"Referred: Local Government(H)\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"500b32e2-9382-4629-8858-1a0aa0a24166\",\"organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Introduced and Read First Time (H)\",\"date\":\"2026-02-26T06:00:00+00:00\",\"classification\":[\"introduction\"],\"order\":0,\"related_entities\":[]},{\"id\":\"5fca2bb9-1010-4877-9fe4-9a696f033046\",\"organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Read Second Time (H)\",\"date\":\"2026-02-27T06:00:00+00:00\",\"classification\":[\"reading-2\"],\"order\":1,\"related_entities\":[]},{\"id\":\"20794ef8-35e2-4166-bf32-6c85296278f4\",\"organization\":{\"id\":\"ocd-organization/b028938f-599d-4b3a-8d53-fdb9de12e759\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Referred: Local Government(H)\",\"date\":\"2026-04-13T05:00:00+00:00\",\"classification\":[\"referral-committee\"],\"order\":2,\"related_entities\":[]}]},{\"id\":\"ocd-bill/25d32622-1395-4f38-9e5a-e68ab66d98e8\",\""
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=North%20Carolina&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 141962,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/2d43d527-f29e-4aaa-a2b3-fbdd2a6b4444\",\"session\":\"2025\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:nc/government\",\"name\":\"North Carolina\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/4861d484-9f30-411a-baaf-c2c12d4d174f\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 268\",\"title\":\"2026 Budget Technical Corrections - II.\",\"classification\":[\"bill\"],\"subject\":[\"ADMIN. HEARINGS OFFICE; ADMINISTRATIVE CODE; ADMINISTRATIVE RULES; AGRICULTURE; APPOINTMENTS; APPRENTICESHIPS; APPROPRIATIONS; ARMED FORCES; ARTS; AUDITING & AUDITS; AUTHORITIES; BIDS & BIDDING; BOARDS; BUDGET & MANAGEMENT OFFICE; BUDGETING; BUILDING CODES; BUILDINGS; CAPITAL SPENDING; CHILDREN WITH SPECIAL NEEDS; COLLEGES & UNIVERSITIES; COMMERCE; COMMERCE DEPT.; COMMISSIONS; COMMUNITY COLLEGES; CONSTITUTION\",\"FOR-PROFIT; CORPORATIONS\",\"INC.; SYLVA; ELECTRONIC SIGNATURES; ELECTRONIC GOVERNMENT; YANCEYVILLE; HAVELOCK; ROLESVILLE; SCHOLARSHIPS & FINANCIAL AID; CLEMMONS; BOATS & WATERCRAFT; MEBANE; ART SOCIETY; PUBLIC BUILDINGS; BENTONVILLE BATTLEFIELD FUND; CABARRUS COUNTY; GREEN LEVEL; KING; EMERGENCY EQUIPMENT; GRAHAM; SWEPSONVILLE; BUDGET DIRECTOR; GOVERNMENT EMPLOYEES; HIGHWAY PATROL; MEDICAL EQUIPMENT; NGOS; PROPERTY-STATE GOVERNMENT; TOBACCO PRODUCTS; PUBLIC SAFETY DEPT.; MOTOR FLEET; VOUCHERS; FAMILY ISSUES; HUMAN RESOURCES OFFICE; INFORMATION TECHNOLOGY DEPT.; MILITARY AFFAIRS DEPT.; HEALTH INFORMATION EXCHANGE AUTHORITY; STATE FIRE MARSHAL; CAPITAL & INFRASTRUCTURE FUND; UNC HEALTH CARE; POLICY COLLABORATORY; VACANCIES; FOOD & NUTRITION PROGRAMS; FOREST SERVICE; MUSEUM OF ART  ; SCHOOL STAFF; VASS; AUTRYVILLE; FRIDAY INSTITUTE; HIE NETWORK; HIGH SCHOOL REDESIGN COMN.; INVESTMENT AUTHORITY; HUBERT\",\"NC; CONTRACTS; CORPORATIONS\",\"NONPROFIT; CORRECTIONAL INSTITUTIONS; COUNCIL OF STATE; COUNTIES; COURT COSTS & FEES; COURTS; CULTURAL RESOURCES; NATURAL & CULTURAL RESOURCES DEPT.; CURRICULUM; DAMS; DATA & RECORDS SYSTEMS; DEQ; DISASTER"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=North%20Carolina&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 45888,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/785d5a75-fffc-45f2-bdae-05493005e295\",\"session\":\"2025\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:nc/government\",\"name\":\"North Carolina\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/6347dffa-4778-4dc0-97d7-fd4db3ff5328\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 445\",\"title\":\"Regulatory Reform Act of 2026.\",\"classification\":[\"bill\"],\"subject\":[\"ADMIN. HEARINGS OFFICE; ADMINISTRATIVE CODE; ADMINISTRATIVE RULES; ADVERTISING & MARKETING; ALCOHOLIC BEVERAGES; AUTHORITIES; BOARDS; BUILDING CODES; BUILDINGS; CALENDAR; COASTAL RESOURCES; COLLEGES & UNIVERSITIES; COMMERCE; COMMISSIONS; COMMUNICATIONS; COMMUNITY COLLEGES; COMMUNITY COLLEGES OFFICE; CONSTRUCTION; CONTRACTS; COUNTIES; COURTS; CRIMES; CRIMINAL PROCEDURE; CRIMINAL RECORDS; DEQ; DEREGULATION; DHHS; DISASTERS & EMERGENCIES; ECONOMIC DEVELOPMENT; EDUCATION; EDUCATION ASSISTANCE AUTHORITY; EDUCATION BOARDS; EDUCATION\",\"HEALTH; KINDERGARTEN; LAW ENFORCEMENT; LICENSES & PERMITS; LOCAL GOVERNMENT; MANUFACTURING; MEDICAID; MENTAL HEALTH; MORATORIUMS; MUNICIPALITIES; ORGANIZED LABOR; PLANNING & ZONING; POLLUTION; POVERTY; PRESENTED; PRIVATIZATION; PROPERTY; PUBLIC; PUBLIC HEALTH; PUBLIC INSTRUCTION DEPT.; RATIFIED; REPORTING; REPORTS; RETAILING; ROADS & HIGHWAYS; SAFETY; SBI; SECONDARY EDUCATION; SESSION LAWS; SIGNS; SOCIAL SERVICES; STUDIES; SURVEYS & POLLS; TELECOMMUNICATIONS; TELEPHONES; TELESERVICES; TESTING; THEFT; TITLE CHANGE; TOBACCO; TRANSPORTATION; TRANSPORTATION DEPT.; TUITION; UNC; UNC BOARD OF GOVERNORS; UTILITIES; WASTE MANAGEMENT; WATER RESOURCES; WEAPONS; LITTERING; RECORDS; FORSYTH COUNTY; WINSTON-SALEM; PLANTS & TREES; SCHOLARSHIPS & FINANCIAL AID; CONSTRUCTION INDUSTRY; LOCAL ORDINANCES; TOBACCO PRODUCTS; PUBLIC SAFETY DEPT.; FAMILY ISSUES; POLICY COLLABORATORY; CONCEALED CARRY\",\"STATE BOARD OF; EDUCATIONAL TESTING; ELECTRICITY GENERATION & DISTRIBUTION; ELEMENTARY EDUCATION; EMERGENCY MANAGEMENT; EMERGENCY SERVICES; EMPL"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=North%20Carolina&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 129798,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/785d5a75-fffc-45f2-bdae-05493005e295\",\"session\":\"2025\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:nc/government\",\"name\":\"North Carolina\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/6347dffa-4778-4dc0-97d7-fd4db3ff5328\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 445\",\"title\":\"Regulatory Reform Act of 2026.\",\"classification\":[\"bill\"],\"subject\":[\"ADMIN. HEARINGS OFFICE; ADMINISTRATIVE CODE; ADMINISTRATIVE RULES; ADVERTISING & MARKETING; ALCOHOLIC BEVERAGES; AUTHORITIES; BOARDS; BUILDING CODES; BUILDINGS; CALENDAR; COASTAL RESOURCES; COLLEGES & UNIVERSITIES; COMMERCE; COMMISSIONS; COMMUNICATIONS; COMMUNITY COLLEGES; COMMUNITY COLLEGES OFFICE; CONSTRUCTION; CONTRACTS; COUNTIES; COURTS; CRIMES; CRIMINAL PROCEDURE; CRIMINAL RECORDS; DEQ; DEREGULATION; DHHS; DISASTERS & EMERGENCIES; ECONOMIC DEVELOPMENT; EDUCATION; EDUCATION ASSISTANCE AUTHORITY; EDUCATION BOARDS; EDUCATION\",\"HEALTH; KINDERGARTEN; LAW ENFORCEMENT; LICENSES & PERMITS; LOCAL GOVERNMENT; MANUFACTURING; MEDICAID; MENTAL HEALTH; MORATORIUMS; MUNICIPALITIES; ORGANIZED LABOR; PLANNING & ZONING; POLLUTION; POVERTY; PRESENTED; PRIVATIZATION; PROPERTY; PUBLIC; PUBLIC HEALTH; PUBLIC INSTRUCTION DEPT.; RATIFIED; REPORTING; REPORTS; RETAILING; ROADS & HIGHWAYS; SAFETY; SBI; SECONDARY EDUCATION; SESSION LAWS; SIGNS; SOCIAL SERVICES; STUDIES; SURVEYS & POLLS; TELECOMMUNICATIONS; TELEPHONES; TELESERVICES; TESTING; THEFT; TITLE CHANGE; TOBACCO; TRANSPORTATION; TRANSPORTATION DEPT.; TUITION; UNC; UNC BOARD OF GOVERNORS; UTILITIES; WASTE MANAGEMENT; WATER RESOURCES; WEAPONS; LITTERING; RECORDS; FORSYTH COUNTY; WINSTON-SALEM; PLANTS & TREES; SCHOLARSHIPS & FINANCIAL AID; CONSTRUCTION INDUSTRY; LOCAL ORDINANCES; TOBACCO PRODUCTS; PUBLIC SAFETY DEPT.; FAMILY ISSUES; POLICY COLLABORATORY; CONCEALED CARRY\",\"STATE BOARD OF; EDUCATIONAL TESTING; ELECTRICITY GENERATION & DISTRIBUTION; ELEMENTARY EDUCATION; EMERGENCY MANAGEMENT; EMERGENCY SERVICES; EMPL"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=New%20Mexico&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 81,
+   "body": "{\"results\":[],\"pagination\":{\"per_page\":20,\"page\":1,\"max_page\":1,\"total_items\":0}}"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=New%20Mexico&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 81,
+   "body": "{\"results\":[],\"pagination\":{\"per_page\":20,\"page\":1,\"max_page\":1,\"total_items\":0}}"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=New%20Mexico&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 81,
+   "body": "{\"results\":[],\"pagination\":{\"per_page\":20,\"page\":1,\"max_page\":1,\"total_items\":0}}"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Nevada&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 81,
+   "body": "{\"results\":[],\"pagination\":{\"per_page\":20,\"page\":1,\"max_page\":1,\"total_items\":0}}"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Nevada&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 81,
+   "body": "{\"results\":[],\"pagination\":{\"per_page\":20,\"page\":1,\"max_page\":1,\"total_items\":0}}"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Nevada&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 81,
+   "body": "{\"results\":[],\"pagination\":{\"per_page\":20,\"page\":1,\"max_page\":1,\"total_items\":0}}"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Ohio&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 71539,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/7a538be2-17e5-4968-b57c-4ae5255465e3\",\"session\":\"136\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:oh/government\",\"name\":\"Ohio\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/3cb2bb10-f68b-4a7d-a7c5-41986e71ff3a\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 455\",\"title\":\"Regards the operation of public schools and the DEW\",\"classification\":[\"bill\"],\"subject\":[\"Early Childhood Education\",\"Education\",\"Primary and Secondary Education\"],\"extras\":{},\"created_at\":\"2025-09-17T18:46:05.394926+00:00\",\"updated_at\":\"2026-10-01T00:18:45.058246+00:00\",\"openstates_url\":\"https://openstates.org/oh/bills/136/HB455/\",\"first_action_date\":\"2025-09-17T04:00:00+00:00\",\"latest_action_date\":\"2026-10-09T04:00:00+00:00\",\"latest_action_description\":\"Effective 10/9/26\",\"latest_passage_date\":\"2026-07-01T04:00:00+00:00\",\"actions\":[{\"id\":\"58b0d33a-8dfe-42e9-97a6-70fb47cef23d\",\"organization\":{\"id\":\"ocd-organization/3cb2bb10-f68b-4a7d-a7c5-41986e71ff3a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Introduced\",\"date\":\"2025-09-17T04:00:00+00:00\",\"classification\":[\"introduction\"],\"order\":0,\"related_entities\":[]},{\"id\":\"21c09a1f-3df6-4042-a73e-17297e45bc75\",\"organization\":{\"id\":\"ocd-organization/3cb2bb10-f68b-4a7d-a7c5-41986e71ff3a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Referred to committee\",\"date\":\"2025-10-01T04:00:00+00:00\",\"classification\":[\"referral-committee\"],\"order\":1,\"related_entities\":[{\"name\":\"House Education Committee\",\"entity_type\":\"organization\"}]},{\"id\":\"3156e844-f57d-406b-b35c-14a30e323504\",\"organization\":{\"id\":\"ocd-organization/3cb2bb10-f68b-4a7d-a7c5-41986e71ff3a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Reported - Substitute\",\"date\":\"2025-11-18T05:00:00+00:00\",\"classification\":[],\"order\":2,\"related_entities\":[{\"name\":\"House Education Committee\",\"entity_type\":\"organization\"}]},{\"id\":\"cafac4e8-c63b-4941-9214-d7f1d395bb8d\",\"organization\":{\"id\":\"ocd-organization/3cb2bb10"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Ohio&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 30355,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/cffed967-069b-4c2d-8502-35c5a92a1fbb\",\"session\":\"136\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:oh/government\",\"name\":\"Ohio\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/401c065d-0f85-4c93-b87b-1675a7ef6c1a\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 103\",\"title\":\"Allow alternative rate plans for certain natural gas companies\",\"classification\":[\"bill\"],\"subject\":[\"Gas Utilities\",\"Utilities\"],\"extras\":{},\"created_at\":\"2025-02-18T14:50:58.623621+00:00\",\"updated_at\":\"2026-09-03T01:29:31.294470+00:00\",\"openstates_url\":\"https://openstates.org/oh/bills/136/SB103/\",\"first_action_date\":\"2025-02-14T05:00:00+00:00\",\"latest_action_date\":\"2026-03-20T04:00:00+00:00\",\"latest_action_description\":\"Effective 3/20/26\",\"latest_passage_date\":\"2025-12-09T05:00:00+00:00\",\"actions\":[{\"id\":\"4e415b09-3087-4a18-b204-05e6675d0238\",\"organization\":{\"id\":\"ocd-organization/401c065d-0f85-4c93-b87b-1675a7ef6c1a\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Introduced\",\"date\":\"2025-02-14T05:00:00+00:00\",\"classification\":[\"introduction\"],\"order\":0,\"related_entities\":[]},{\"id\":\"740d00c3-6d0a-4186-825e-a724078481e9\",\"organization\":{\"id\":\"ocd-organization/401c065d-0f85-4c93-b87b-1675a7ef6c1a\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Referred to committee\",\"date\":\"2025-02-19T05:00:00+00:00\",\"classification\":[\"referral-committee\"],\"order\":1,\"related_entities\":[{\"name\":\"Senate Public Utilities Committee\",\"entity_type\":\"organization\"}]},{\"id\":\"3c6142cd-c26a-4766-8b01-ed44c663147a\",\"organization\":{\"id\":\"ocd-organization/401c065d-0f85-4c93-b87b-1675a7ef6c1a\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Reported - Substitute\",\"date\":\"2025-10-15T04:00:00+00:00\",\"classification\":[],\"order\":2,\"related_entities\":[{\"name\":\"Senate Public Utilities Committee\",\"entity_type\":\"organization\"}]},{\"id\":\"cc30c97e-a31b-4b87-9a11-bfa9ea3b3364\",\"organization\":{\"id\":\"ocd-organization/401c065d-0f85-4c93-b87b"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Ohio&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 69819,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/12e592ba-4a77-410b-bb38-e1679c8652db\",\"session\":\"136\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:oh/government\",\"name\":\"Ohio\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/3cb2bb10-f68b-4a7d-a7c5-41986e71ff3a\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 1020\",\"title\":\"Temporarily suspend the motor fuel tax; make other changes\",\"classification\":[\"bill\"],\"subject\":[\"Commerce\",\"Consumer Protection\",\"Economic Development\",\"Motor Vehicles\",\"Taxation\",\"Transportation\"],\"extras\":{},\"created_at\":\"2026-10-01T00:06:29.998017+00:00\",\"updated_at\":\"2026-10-01T03:36:00.050863+00:00\",\"openstates_url\":\"https://openstates.org/oh/bills/136/HB1020/\",\"first_action_date\":\"2026-09-30T04:00:00+00:00\",\"latest_action_date\":\"2026-09-30T04:00:00+00:00\",\"latest_action_description\":\"Introduced\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"4345f3b4-457a-47a1-b333-fdb464ac6af8\",\"organization\":{\"id\":\"ocd-organization/3cb2bb10-f68b-4a7d-a7c5-41986e71ff3a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Introduced\",\"date\":\"2026-09-30T04:00:00+00:00\",\"classification\":[\"introduction\"],\"order\":0,\"related_entities\":[]}]},{\"id\":\"ocd-bill/12b9c59f-0cb7-4d22-9a31-fe420ffe2d29\",\"session\":\"136\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:oh/government\",\"name\":\"Ohio\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/3cb2bb10-f68b-4a7d-a7c5-41986e71ff3a\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 433\",\"title\":\"Alter amusement ride classification for inspection fee purposes\",\"classification\":[\"bill\"],\"subject\":[\"Agriculture\",\"Amusement Rides\"],\"extras\":{},\"created_at\":\"2025-09-03T17:24:04.555884+00:00\",\"updated_at\":\"2026-10-01T00:19:46.184983+00:00\",\"openstates_url\":\"https://openstates.org/oh/bills/136/HB433/\",\"first_action_date\":\"2025-09-03T04:00:00+00:00\",\"latest_action_date\":\"2026-10-06T04:00:00+00:00\",\"latest_action_description\":\"Effective 10/6/26\",\"latest_passage_date\":\"2026-0"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Oklahoma&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 180444,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/d55cbdb7-f0ca-43c5-9dea-8397fbaa23ac\",\"session\":\"2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:ok/government\",\"name\":\"Oklahoma\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/5c78775c-6ff3-4cf8-a5f2-4e5e550861f3\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 1953\",\"title\":\"Health insurance; creating the Employer Health Plan Transparency Act; prohibiting certain health plan from entering certain contracts; prohibiting certain contract provisions; requiring issuer to adhere to certain privacy regulations; establishing civil penalties. Effective date.\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{},\"created_at\":\"2026-01-16T00:03:01.318527+00:00\",\"updated_at\":\"2026-08-26T07:52:31.105351+00:00\",\"openstates_url\":\"https://openstates.org/ok/bills/2026/SB1953/\",\"first_action_date\":\"2026-02-02\",\"latest_action_date\":\"2026-02-24\",\"latest_action_description\":\"Coauthored by Representative Lepak (principal House author)\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"64ec140e-eea2-4b55-bfe9-4bb5cf578310\",\"organization\":{\"id\":\"ocd-organization/5c78775c-6ff3-4cf8-a5f2-4e5e550861f3\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"First Reading\",\"date\":\"2026-02-02\",\"classification\":[\"introduction\",\"reading-1\"],\"order\":0,\"related_entities\":[]},{\"id\":\"01cd4f67-4d82-41b9-a8d6-96886d7a840f\",\"organization\":{\"id\":\"ocd-organization/5c78775c-6ff3-4cf8-a5f2-4e5e550861f3\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Authored by Senator Murdock\",\"date\":\"2026-02-02\",\"classification\":[],\"order\":1,\"related_entities\":[]},{\"id\":\"593c0daf-1739-4ad3-b90b-c5163a39049c\",\"organization\":{\"id\":\"ocd-organization/5c78775c-6ff3-4cf8-a5f2-4e5e550861f3\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Second Reading referred to Business and Insurance\",\"date\":\"2026-02-03\",\"classification\":[\"reading-2\",\"referral-committee\"],\"order\":2,\"related_entities\":[]},{\"id\":\"5ec97d67-d1f9-4acc-a2bc-e074e202bd63\",\"organ"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Oklahoma&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 8165,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/67be93ce-3635-43a2-b828-2db4431f8e1a\",\"session\":\"2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:ok/government\",\"name\":\"Oklahoma\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/cba1f18c-65a2-4eb0-886d-eada16da3d8a\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 2805\",\"title\":\"Dental benefit plans; creating the Medical Loss Ratios for Dental (DLR) Health Care Services Plans Act; definitions; formula; reporting to Insurance Department; data verification; rebate calculation; rates; effective date.\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{},\"created_at\":\"2025-12-05T03:30:19.738179+00:00\",\"updated_at\":\"2026-07-02T04:55:48.095834+00:00\",\"openstates_url\":\"https://openstates.org/ok/bills/2026/HB2805/\",\"first_action_date\":\"2025-02-03\",\"latest_action_date\":\"2025-04-01\",\"latest_action_description\":\"Second Reading referred to Business and Insurance\",\"latest_passage_date\":\"2025-03-27\",\"actions\":[{\"id\":\"03f88906-96ae-4d12-8e15-a918c6f0ec87\",\"organization\":{\"id\":\"ocd-organization/cba1f18c-65a2-4eb0-886d-eada16da3d8a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"First Reading\",\"date\":\"2025-02-03\",\"classification\":[\"introduction\",\"reading-1\"],\"order\":0,\"related_entities\":[]},{\"id\":\"8faf73ac-a4bb-40e1-a7cb-52f79555817f\",\"organization\":{\"id\":\"ocd-organization/cba1f18c-65a2-4eb0-886d-eada16da3d8a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Authored by Representative Marti\",\"date\":\"2025-02-03\",\"classification\":[],\"order\":1,\"related_entities\":[]},{\"id\":\"88016c6c-abd8-4532-9548-444580e4f169\",\"organization\":{\"id\":\"ocd-organization/cba1f18c-65a2-4eb0-886d-eada16da3d8a\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Second Reading referred to Commerce and Economic Development Oversight\",\"date\":\"2025-02-04\",\"classification\":[\"reading-2\",\"referral-committee\"],\"order\":2,\"related_entities\":[]},{\"id\":\"a56eb6d2-bdc2-4e39-850f-25aa6e4f0ab9\",\"organization\":{\"id\":\"ocd-organization/cba"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Oklahoma&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 74520,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/e05c8e69-07bb-4711-b71c-823453939662\",\"session\":\"2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:ok/government\",\"name\":\"Oklahoma\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/5c78775c-6ff3-4cf8-a5f2-4e5e550861f3\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 999\",\"title\":\"Property; modifying provisions of the Uniform Unclaimed Property Act. Effective date.\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{},\"created_at\":\"2025-12-05T03:27:56.968651+00:00\",\"updated_at\":\"2026-07-09T08:00:18.040033+00:00\",\"openstates_url\":\"https://openstates.org/ok/bills/2026/SB999/\",\"first_action_date\":\"2025-02-03\",\"latest_action_date\":\"2025-05-28\",\"latest_action_description\":\"Becomes law without Governor's signature 05/28/2025\",\"latest_passage_date\":\"2025-05-20\",\"actions\":[{\"id\":\"58825ee5-47f9-4c26-9b9a-75cc7ee1fb2a\",\"organization\":{\"id\":\"ocd-organization/5c78775c-6ff3-4cf8-a5f2-4e5e550861f3\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"First Reading\",\"date\":\"2025-02-03\",\"classification\":[\"introduction\",\"reading-1\"],\"order\":0,\"related_entities\":[]},{\"id\":\"0a0639bb-c4f7-4dde-ac3f-850c9ff22f15\",\"organization\":{\"id\":\"ocd-organization/5c78775c-6ff3-4cf8-a5f2-4e5e550861f3\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Authored by Senator Murdock\",\"date\":\"2025-02-03\",\"classification\":[],\"order\":1,\"related_entities\":[]},{\"id\":\"f11dc340-5715-4870-8b3f-de98d294e91a\",\"organization\":{\"id\":\"ocd-organization/5c78775c-6ff3-4cf8-a5f2-4e5e550861f3\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Second Reading referred to Judiciary\",\"date\":\"2025-02-04\",\"classification\":[\"reading-2\",\"referral-committee\"],\"order\":2,\"related_entities\":[]},{\"id\":\"667fb4f2-4263-4fbf-ad50-521de62abec9\",\"organization\":{\"id\":\"ocd-organization/5c78775c-6ff3-4cf8-a5f2-4e5e550861f3\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Coauthored by Senator Jett\",\"date\":\"2025-02-05\",\"classification\":[],\"order\":3,\"r"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Pennsylvania&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 69906,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/b64a96da-0667-49b9-93c6-e0bc1f0d2fa3\",\"session\":\"2025-2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:pa/government\",\"name\":\"Pennsylvania\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 2150\",\"title\":\"An Act providing for annual reporting of energy consumption and water consumption by data centers; and imposing a penalty.\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{},\"created_at\":\"2026-01-21T13:41:43.396424+00:00\",\"updated_at\":\"2026-10-04T15:15:37.551590+00:00\",\"openstates_url\":\"https://openstates.org/pa/bills/2025-2026/HB2150/\",\"first_action_date\":\"2026-01-20T05:00:00+00:00\",\"latest_action_date\":\"2026-04-23T04:00:00+00:00\",\"latest_action_description\":\"Referred to Environmental Resources & Energy\",\"latest_passage_date\":\"2026-04-13T04:00:00+00:00\",\"actions\":[{\"id\":\"e9fbddf4-eecb-48e9-ae53-fa920b9438f4\",\"organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Referred to Energy\",\"date\":\"2026-01-20T05:00:00+00:00\",\"classification\":[\"referral-committee\"],\"order\":0,\"related_entities\":[]},{\"id\":\"6cfb2d95-8359-45fa-937c-608534a65b11\",\"organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Reported as amended\",\"date\":\"2026-03-19T04:00:00+00:00\",\"classification\":[\"amendment-passage\",\"committee-passage\"],\"order\":1,\"related_entities\":[]},{\"id\":\"4349d7d5-728e-4e47-a3e7-c86ce8ee98af\",\"organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"First consideration\",\"date\":\"2026-03-19T04:00:00+00:00\",\"classification\":[\"reading-1\"],\"order\":2,\"related_entities\":[]},{\"id\":\"9a0789be-a332-46c9-b6a9-f566bf23b596\",\"organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Pennsylvania&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 17723,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/657e9e24-7151-4879-ab92-44f27236b184\",\"session\":\"2025-2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:pa/government\",\"name\":\"Pennsylvania\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 2535\",\"title\":\"An Act providing for the public safety regulation of large load users; requiring the submission of emergency operations plans and generalized infrastructure inventories as a condition of occupancy; protecting confidential security information; and providing for enforcement and penalties.\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{},\"created_at\":\"2026-05-27T01:42:59.083679+00:00\",\"updated_at\":\"2026-10-01T14:00:13.820058+00:00\",\"openstates_url\":\"https://openstates.org/pa/bills/2025-2026/HB2535/\",\"first_action_date\":\"2026-05-27T04:00:00+00:00\",\"latest_action_date\":\"2026-09-30T04:00:00+00:00\",\"latest_action_description\":\"Third consideration and final passage\",\"latest_passage_date\":\"2026-09-30T04:00:00+00:00\",\"actions\":[{\"id\":\"405df1e4-8f8d-48f6-885a-a34132879c96\",\"organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Referred to Veterans Affairs & Emergency Preparedness\",\"date\":\"2026-05-27T04:00:00+00:00\",\"classification\":[\"referral-committee\"],\"order\":0,\"related_entities\":[]},{\"id\":\"20279d90-9ce5-43e7-a713-7a3dafc932f1\",\"organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Reported as committed\",\"date\":\"2026-06-30T04:00:00+00:00\",\"classification\":[\"committee-passage\"],\"order\":1,\"related_entities\":[]},{\"id\":\"be4c3513-1363-4ab0-bf6e-a5af7fbe383b\",\"organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"First consideration\",\"date\":\"2026-06-30T04:00:00+00:00\",\"classification\":[\"read"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Pennsylvania&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 39660,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/3768eaa7-a744-4fd7-a196-5c4521f9682b\",\"session\":\"2025-2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:pa/government\",\"name\":\"Pennsylvania\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 1330\",\"title\":\"An Act to provide appropriations from the General Fund for the expenses of certain agencies of the Executive Department for the fiscal year July 1, 2025, to June 30, 2026, and for the payment of bills incurred and remaining unpaid at the close of the fiscal year ending June 30, 2025.\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{},\"created_at\":\"2025-03-25T21:48:55.283275+00:00\",\"updated_at\":\"2026-10-01T14:07:01.672900+00:00\",\"openstates_url\":\"https://openstates.org/pa/bills/2025-2026/HB1330/\",\"first_action_date\":\"2025-03-25T04:00:00+00:00\",\"latest_action_date\":\"2025-07-17T04:00:00+00:00\",\"latest_action_description\":\"Re-committed to Appropriations\",\"latest_passage_date\":\"2025-07-14T04:00:00+00:00\",\"actions\":[{\"id\":\"c3597ae6-3872-4c5b-972f-ac24ac267150\",\"organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Referred to Appropriations\",\"date\":\"2025-03-25T04:00:00+00:00\",\"classification\":[\"referral-committee\"],\"order\":0,\"related_entities\":[]},{\"id\":\"51887c33-146a-4e00-8c9b-65267843d6a6\",\"organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Reported as committed\",\"date\":\"2025-05-07T04:00:00+00:00\",\"classification\":[\"committee-passage\"],\"order\":1,\"related_entities\":[]},{\"id\":\"4f3c3359-198e-4e22-b064-08b783cddd25\",\"organization\":{\"id\":\"ocd-organization/0f78429d-ec86-4333-9338-17708fe11914\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"First consideration\",\"date\":\"2025-05-07T04:00:00+00:00\",\"classification\":[\"reading-1\"],\"order\":2,\"related_entities\":["
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=South%20Carolina&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 50434,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/28946448-b696-407c-bc37-e5a15595fa79\",\"session\":\"2025-2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:sc/government\",\"name\":\"South Carolina\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/11144d16-6b61-4e2a-94fe-6f9c24e36193\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"H 5722\",\"title\":\"Rev. Dr. Betty Walker Collins\",\"classification\":[\"resolution\"],\"subject\":[],\"extras\":{},\"created_at\":\"2026-06-26T05:31:28.671344+00:00\",\"updated_at\":\"2026-06-26T05:31:37.518313+00:00\",\"openstates_url\":\"https://openstates.org/sc/bills/2025-2026/H5722/\",\"first_action_date\":\"2026-06-25\",\"latest_action_date\":\"2026-06-25\",\"latest_action_description\":\"Introduced and adopted\",\"latest_passage_date\":\"2026-06-25\",\"actions\":[{\"id\":\"333d86e4-471c-45ce-bf3b-0bf10fcd5b3d\",\"organization\":{\"id\":\"ocd-organization/11144d16-6b61-4e2a-94fe-6f9c24e36193\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Introduced and adopted\",\"date\":\"2026-06-25\",\"classification\":[\"introduction\",\"passage\"],\"order\":0,\"related_entities\":[]}]},{\"id\":\"ocd-bill/e3d75302-9234-45fa-a98b-43311a50b93e\",\"session\":\"2025-2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:sc/government\",\"name\":\"South Carolina\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/705ec497-4b18-4a39-a0e0-ce114a2f3c78\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"S 831\",\"title\":\"SCDOT Modernization\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{},\"created_at\":\"2026-01-21T11:08:08.260236+00:00\",\"updated_at\":\"2026-06-16T08:15:47.416733+00:00\",\"openstates_url\":\"https://openstates.org/sc/bills/2025-2026/S831/\",\"first_action_date\":\"2026-01-20\",\"latest_action_date\":\"2026-06-05\",\"latest_action_description\":\"Effective date See Act for Effective Date\",\"latest_passage_date\":\"2026-04-30\",\"actions\":[{\"id\":\"a279936a-e37d-4c0c-adaf-87ce781dce05\",\"organization\":{\"id\":\"ocd-organization/705ec497-4b18-4a39-a0e0-ce114a2f3c78\",\"name\":\"Senate\",\"classifi"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=South%20Carolina&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 15382,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/ed6731a4-7b32-46a3-8d14-a735fc7588e0\",\"session\":\"2025-2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:sc/government\",\"name\":\"South Carolina\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/705ec497-4b18-4a39-a0e0-ce114a2f3c78\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"S 922\",\"title\":\"Appointments\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{},\"created_at\":\"2026-02-12T06:12:33.374384+00:00\",\"updated_at\":\"2026-06-26T14:43:35.884508+00:00\",\"openstates_url\":\"https://openstates.org/sc/bills/2025-2026/S922/\",\"first_action_date\":\"2026-02-11\",\"latest_action_date\":\"2026-06-25\",\"latest_action_description\":\"Roll call Yeas-9  Nays-90\",\"latest_passage_date\":\"2026-05-14\",\"actions\":[{\"id\":\"368f4209-22eb-403d-b426-554546421afc\",\"organization\":{\"id\":\"ocd-organization/705ec497-4b18-4a39-a0e0-ce114a2f3c78\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Introduced and read first time\",\"date\":\"2026-02-11\",\"classification\":[\"introduction\",\"reading-1\"],\"order\":0,\"related_entities\":[]},{\"id\":\"c0c7ef32-ed3d-4e57-9e06-66bdf20535d7\",\"organization\":{\"id\":\"ocd-organization/705ec497-4b18-4a39-a0e0-ce114a2f3c78\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Referred to Committee on Judiciary\",\"date\":\"2026-02-11\",\"classification\":[\"referral-committee\"],\"order\":1,\"related_entities\":[]},{\"id\":\"efa2ab9f-5855-4b4e-ba43-c35510f328df\",\"organization\":{\"id\":\"ocd-organization/57920b9f-163e-4cc3-9642-e616579b47ee\",\"name\":\"South Carolina Legislature\",\"classification\":\"legislature\"},\"description\":\"Scrivener's error corrected\",\"date\":\"2026-02-12\",\"classification\":[],\"order\":2,\"related_entities\":[]},{\"id\":\"b090e1ae-c397-4822-b7d5-08cedc7a022f\",\"organization\":{\"id\":\"ocd-organization/705ec497-4b18-4a39-a0e0-ce114a2f3c78\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Committee report: Favorable with amendment Judiciary\",\"date\":\"2026-03-11\",\"classification\":[\"committee-passage-favorable\"],\"order\":3,\"re"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=South%20Carolina&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 63988,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/a5c5b5c2-1f72-48fd-98b4-4993bad80cfb\",\"session\":\"2025-2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:sc/government\",\"name\":\"South Carolina\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/705ec497-4b18-4a39-a0e0-ce114a2f3c78\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"S 1\",\"title\":\"5807\",\"classification\":[\"resolution\"],\"subject\":[],\"extras\":{},\"created_at\":\"2024-12-05T23:03:41.893697+00:00\",\"updated_at\":\"2026-09-17T12:34:55.392966+00:00\",\"openstates_url\":\"https://openstates.org/sc/bills/2025-2026/S1/\",\"first_action_date\":\"2024-12-04\",\"latest_action_date\":\"2024-12-04\",\"latest_action_description\":\"Introduced and adopted\",\"latest_passage_date\":\"2024-12-04\",\"actions\":[{\"id\":\"d5ba8698-5b62-4446-8f5d-d4ba208e05dd\",\"organization\":{\"id\":\"ocd-organization/705ec497-4b18-4a39-a0e0-ce114a2f3c78\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Introduced and adopted\",\"date\":\"2024-12-04\",\"classification\":[\"introduction\",\"passage\"],\"order\":0,\"related_entities\":[]}]},{\"id\":\"ocd-bill/230d7a69-c1a8-457f-8366-05b63f72c910\",\"session\":\"2025-2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:sc/government\",\"name\":\"South Carolina\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/11144d16-6b61-4e2a-94fe-6f9c24e36193\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"H 5752\",\"title\":\"St. Matthews UMC 160th anniversary\",\"classification\":[\"resolution\"],\"subject\":[],\"extras\":{},\"created_at\":\"2026-08-12T10:07:43.160464+00:00\",\"updated_at\":\"2026-08-12T10:07:44.501136+00:00\",\"openstates_url\":\"https://openstates.org/sc/bills/2025-2026/H5752/\",\"first_action_date\":\"2026-08-11\",\"latest_action_date\":\"2026-08-11\",\"latest_action_description\":\"Introduced and adopted\",\"latest_passage_date\":\"2026-08-11\",\"actions\":[{\"id\":\"5778b788-37df-4522-a305-d497aae924b9\",\"organization\":{\"id\":\"ocd-organization/11144d16-6b61-4e2a-94fe-6f9c24e36193\",\"name\":\"House\",\"classification\":\"lower\"},\"descripti"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Texas&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 58044,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/e3b77cbc-8961-47c5-9c6c-7bc8ba526073\",\"session\":\"892\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:tx/government\",\"name\":\"Texas\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/cabf1716-c572-406a-bfdd-1917c11ac629\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 2\",\"title\":\"Relating to disaster preparedness, response, and recovery; requiring a license; authorizing fees.\",\"classification\":[\"bill\"],\"subject\":[\"ADMINISTRATIVE HEARINGS, STATE OFFICE OF (V0065)\",\"AUTOPSIES (S8855)\",\"Aeronautics (I0010)\",\"Business & Commerce--Small Business & Minority Business (I0051)\",\"CONTINUING EDUCATION (S0234)\",\"CRIMINAL RECORDS (S0008)\",\"City Government--Employees/Officers (I0061)\",\"County Government--Employees/Officers (I0095)\",\"Disaster Preparedness & Relief (I0211)\",\"ECONOMIC DEVELOPMENT & TOURISM OFFICE, TEXAS (V1109)\",\"ECONOMIC DEVELOPMENT BANK, TEXAS (V0452)\",\"EMERGENCY MANAGEMENT, TEXAS DIVISION OF (VP6FW)\",\"Electronic Information Systems (I0311)\",\"FEDERAL BUREAU OF INVESTIGATION (V0196)\",\"FIRE PROTECTION, TEXAS COMMISSION ON (V0035)\",\"FLOODS (S0327)\",\"Fire Fighters & Police--General (I0370)\",\"Health--Emergency Services & Personnel (I0384)\",\"JUSTICE OF THE PEACE (S0133)\",\"LOANS (S0117)\",\"MICRO-BUSINESSES (S0397)\",\"Minors--Health & Safety (I0533)\",\"PUBLIC SAFETY, DEPARTMENT OF (V0251)\",\"RECREATIONAL & CULTURAL FACILITIES (S0286)\",\"RICE UNIVERSITY (U699W)\",\"SHERIFFS (S1013)\",\"STAFF DEVELOPMENT & TRAINING (S0317)\",\"STATE CLIMATOLOGIST, TEXAS (V1158)\",\"STATE HEALTH SERVICES, DEPARTMENT OF (V0463)\",\"STATEWIDE METEOROLOGICAL DATA MONITORING WORK GROUP (VO7OX)\",\"Safety (I0740)\",\"State Agencies, Boards & Commissions--Newly Proposed (I0773)\",\"Sunset--Recommended Reviews (I0018)\",\"TEXAS TECH UNIVERSITY (U0722)\",\"TRANSPORTATION, TEXAS DEPARTMENT OF (V8796)\",\"UNIVERSITY OF TEXAS AT ARLINGTON (U0015)\",\"UNIVERSITY OF TEXAS AT AUSTIN                                (U0397)\",\"UPPER GUADALUPE RIVER AUTHORITY (D0069)\",\"VOLU"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Texas&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 81,
+   "body": "{\"results\":[],\"pagination\":{\"per_page\":20,\"page\":1,\"max_page\":1,\"total_items\":0}}"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Texas&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 38157,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/f4aafaf1-4742-4cfd-a0e4-439f756bd2c2\",\"session\":\"892\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:tx/government\",\"name\":\"Texas\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/d6189dbb-417e-429e-ae4b-2ee6747eddc0\",\"name\":\"House\",\"classification\":\"lower\"},\"identifier\":\"HB 162\",\"title\":\"Relating to the exercise of the power of eminent domain by a political subdivision to acquire property outside the political subdivision's boundaries.\",\"classification\":[\"bill\"],\"subject\":[\"CONDEMNATION (S0063)\",\"City Government--Annexation (I0063)\",\"County Government--General (I0096)\",\"Political Subdivisions (I0588)\",\"Property Interests--Eminent Domain (I0615)\",\"Special Districts & Authorities--Miscellaneous (I0770)\"],\"extras\":{},\"created_at\":\"2025-08-18T20:54:53.879848+00:00\",\"updated_at\":\"2026-10-03T06:19:10.142032+00:00\",\"openstates_url\":\"https://openstates.org/tx/bills/892/HB162/\",\"first_action_date\":\"2025-08-15\",\"latest_action_date\":\"2025-08-15\",\"latest_action_description\":\"Filed\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"6b39cb0c-12be-472d-bec9-8e5be50b2a1b\",\"organization\":{\"id\":\"ocd-organization/d6189dbb-417e-429e-ae4b-2ee6747eddc0\",\"name\":\"House\",\"classification\":\"lower\"},\"description\":\"Filed\",\"date\":\"2025-08-15\",\"classification\":[\"filing\"],\"order\":0,\"related_entities\":[]}]},{\"id\":\"ocd-bill/e3b77cbc-8961-47c5-9c6c-7bc8ba526073\",\"session\":\"892\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:tx/government\",\"name\":\"Texas\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/cabf1716-c572-406a-bfdd-1917c11ac629\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 2\",\"title\":\"Relating to disaster preparedness, response, and recovery; requiring a license; authorizing fees.\",\"classification\":[\"bill\"],\"subject\":[\"ADMINISTRATIVE HEARINGS, STATE OFFICE OF (V0065)\",\"AUTOPSIES (S8855)\",\"Aeronautics (I0010)\",\"Business & Commerce--Small Business & Minority Business (I0051)\",\"CONTINUING EDUCATION "
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Virginia&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 39188,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/67ad55d9-d008-4a75-b5ab-48b43bf22eec\",\"session\":\"2027\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:va/government\",\"name\":\"Virginia\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/9f1a0a17-d2fb-4d0c-90fb-119004411b83\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 93\",\"title\":\"Data centers; taxes on banks that are tenants of a center.\",\"classification\":[\"bill\"],\"subject\":[],\"extras\":{\"VA_LEG_ID\":98847},\"created_at\":\"2026-07-21T23:21:07.098629+00:00\",\"updated_at\":\"2026-10-03T03:26:44.327169+00:00\",\"openstates_url\":\"https://openstates.org/va/bills/2027/SB93/\",\"first_action_date\":\"2025-12-31\",\"latest_action_date\":\"2026-07-21\",\"latest_action_description\":\"Continued from last session\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"3008532c-e8d8-4fd0-8253-7c8f767dd0ed\",\"organization\":{\"id\":\"ocd-organization/9f1a0a17-d2fb-4d0c-90fb-119004411b83\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Prefiled and ordered printed; Offered 01-14-2026 26100753D\",\"date\":\"2025-12-31\",\"classification\":[\"filing\",\"introduction\"],\"order\":0,\"related_entities\":[]},{\"id\":\"042fb135-2ae5-40c4-a5ca-bb725a8b9519\",\"organization\":{\"id\":\"ocd-organization/9f1a0a17-d2fb-4d0c-90fb-119004411b83\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Referred to Committee on Finance and Appropriations\",\"date\":\"2025-12-31\",\"classification\":[\"referral-committee\"],\"order\":1,\"related_entities\":[]},{\"id\":\"20be1164-4ec6-4854-aee8-e6c56983766f\",\"organization\":{\"id\":\"ocd-organization/9f1a0a17-d2fb-4d0c-90fb-119004411b83\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Fiscal Impact statement From TAX (1/20/2026 7:34 am)\",\"date\":\"2026-01-20\",\"classification\":[],\"order\":2,\"related_entities\":[]},{\"id\":\"cf818746-a454-47a4-8d20-4eca1975ce0f\",\"organization\":{\"id\":\"ocd-organization/9f1a0a17-d2fb-4d0c-90fb-119004411b83\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Continued to next session in Finance and Appropriations "
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Virginia&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 81,
+   "body": "{\"results\":[],\"pagination\":{\"per_page\":20,\"page\":1,\"max_page\":1,\"total_items\":0}}"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=Virginia&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 81,
+   "body": "{\"results\":[],\"pagination\":{\"per_page\":20,\"page\":1,\"max_page\":1,\"total_items\":0}}"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=West%20Virginia&q=data%20center&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 75931,
+   "body": "{\"results\":[{\"id\":\"ocd-bill/824e803a-abf3-4dda-8665-dff9ad789984\",\"session\":\"2026\",\"jurisdiction\":{\"id\":\"ocd-jurisdiction/country:us/state:wv/government\",\"name\":\"West Virginia\",\"classification\":\"state\"},\"from_organization\":{\"id\":\"ocd-organization/660bc141-f4cb-4d98-b334-b12b637776ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"identifier\":\"SB 424\",\"title\":\"Establishing Affordable Electricity and Economic Growth Act of 2026\",\"classification\":[\"bill\"],\"subject\":[\"Economic Development\",\"Energy\",\"Labor\"],\"extras\":{},\"created_at\":\"2026-01-16T05:49:52.883617+00:00\",\"updated_at\":\"2026-07-09T05:15:58.089476+00:00\",\"openstates_url\":\"https://openstates.org/wv/bills/2026/SB424/\",\"first_action_date\":\"2026-01-15\",\"latest_action_date\":\"2026-01-30\",\"latest_action_description\":\"To Finance\",\"latest_passage_date\":\"\",\"actions\":[{\"id\":\"9044e7c9-223c-4056-a61c-18501e0b9a1d\",\"organization\":{\"id\":\"ocd-organization/660bc141-f4cb-4d98-b334-b12b637776ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Filed for introduction\",\"date\":\"2026-01-15\",\"classification\":[\"filing\"],\"order\":0,\"related_entities\":[]},{\"id\":\"658782b8-b9d7-4e89-bd94-a210d3c3e374\",\"organization\":{\"id\":\"ocd-organization/660bc141-f4cb-4d98-b334-b12b637776ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"To Energy, Industry, and Mining then Finance\",\"date\":\"2026-01-15\",\"classification\":[],\"order\":1,\"related_entities\":[]},{\"id\":\"e97f17a9-3c68-40e6-86f4-539d53aaa58a\",\"organization\":{\"id\":\"ocd-organization/660bc141-f4cb-4d98-b334-b12b637776ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"Introduced in Senate\",\"date\":\"2026-01-15\",\"classification\":[\"introduction\"],\"order\":2,\"related_entities\":[]},{\"id\":\"0c327907-f63b-4873-a30a-d60b242dcefa\",\"organization\":{\"id\":\"ocd-organization/660bc141-f4cb-4d98-b334-b12b637776ba\",\"name\":\"Senate\",\"classification\":\"upper\"},\"description\":\"To Energy, Industry, and Mining\",\"date\":\"2026-01-15\",\"classification\":[],\"order\":3,\"related_entities\":[]},{\"id\":\"17d92cd8-c913-4806"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=West%20Virginia&q=large%20load&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 81,
+   "body": "{\"results\":[],\"pagination\":{\"per_page\":20,\"page\":1,\"max_page\":1,\"total_items\":0}}"
+  },
+  {
+   "method": "GET",
+   "url": "https://v3.openstates.org/bills?jurisdiction=West%20Virginia&q=electric%20service%20agreement&updated_since=2026-06-01&sort=updated_desc&per_page=20&include=actions",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 81,
+   "body": "{\"results\":[],\"pagination\":{\"per_page\":20,\"page\":1,\"max_page\":1,\"total_items\":0}}"
   }
  ],
  "adapter_state": {}
