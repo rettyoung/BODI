@@ -394,7 +394,10 @@ newsletter canary; corrections queue.
    C-01 Texas directive / Batch Zero (partly done 3 Oct as Reported; upgrade and overlay the stale baseline row) ·
    C-02 Microsoft APS brief · C-03 Arizona XHLF eligibility · C-04 Louisiana U-37882 milestone · C-05 store
    housekeeping · C-06 Texas text quality · C-07 backfill (ongoing until exhausted).
-5. **Manual pass** for the states the cloud can't read (§12).
+5. **New-source history** (4 Oct): bills, court decisions, county actions, Regulations.gov items, ERCOT large-load
+   materials and LBNL studies since 2025-11-07, pulled once the sources existed; the Sweep works through them 20 a run
+   (C-08) and rebuilds the ERCOT large-load series from the monthly overviews.
+6. **Manual pass** for the states the cloud can't read (§12).
 
 ---
 
@@ -429,13 +432,13 @@ ERCOT large-load 900, EQR 900, state courts 900, NM 900, Open States 600, Legist
 | VA, SC, IL, OH, NC, WV, NV | P (+W fallbacks) | Refuse automated access — see §10. |
 | RTOs | C + W + M | CAISO, SPP, NYISO, ISO-NE, MISO, WPP pages; ERCOT news and **notice archive** (C); **ERCOT large-load status** — LLWG/TAC/ROS/Board meeting pages, the large-load page and the Monthly Operational Overview, with table extraction (C, adapter `ercot_large_load`, since 3 Oct; these pages now open to the runners); ERCOT planning page (W); PJM newsroom (W). See §11 for ERCOT. |
 | Capacity markets | C (+P) | PJM RPM (119 links), MISO PRA, ISO-NE FCM, SPP RA working. **NYISO ICAP:** the page's documents come from `POST /o/documentlibrary/subitems` (observed 3 Oct), but NYISO answers automated clients with an empty HTTP 202 (bot-management challenge); adapter `nyiso_icap` records it as `refused_known` (a sub-source status, so it never trips the circuit breaker or the Brief's RED) and stops. The manual pass reads the ICAP page monthly (extra page). |
-| Queues | C | MISO `misoenergy.org/api/giqueue/getprojects`; SPP `opsportal.spp.org/Studies/GenerateActiveCSV` (CSV preamble handled); **PJM (4 Oct, no key)** — serial/expedited queue from the static `www.pjm.com/pjmfiles/media/planning/queues-data/PlanningQueues.xml` (~23 MB, refreshed daily) and the cycle queue (TC1, TC2, Cycle 1+) from `POST www.pjm.com/m/ProjectTransition/GenerateXMLTransitionProjectsAll` with the form the Cycle Service Request Status page's "Full Export: XML" button sends (observed in the built-in browser). Serial entries "moved to" a transition cycle and Long-Term Firm Transmission Service requests are skipped. Verified from the runners 4 Oct: baseline 228 serial + 664 cycle active projects in VA, OH, PA, IL, WV, NC. Working. ERCOT's queue needs its API secrets (§9). |
+| Queues | C | MISO `misoenergy.org/api/giqueue/getprojects`; SPP `opsportal.spp.org/Studies/GenerateActiveCSV` (CSV preamble handled); **PJM (4 Oct, no key)** — serial/expedited queue from the static `www.pjm.com/pjmfiles/media/planning/queues-data/PlanningQueues.xml` (~23 MB, refreshed daily) and the cycle queue (TC1, TC2, Cycle 1+) from `POST www.pjm.com/m/ProjectTransition/GenerateXMLTransitionProjectsAll` with the form the Cycle Service Request Status page's "Full Export: XML" button sends (observed in the built-in browser). Serial entries "moved to" a transition cycle and Long-Term Firm Transmission Service requests are skipped. Verified from the runners 4 Oct: baseline 228 serial + 664 cycle active projects in VA, OH, PA, IL, WV, NC. Working. ERCOT's generator queue (GIS report) is not collected yet; the ERCOT Public API is live (§9) and the adapter can be pointed at its EMIL id. |
 | Legistar | C | 9 clients: pwcgov, maricopa, phoenix, mesa, columbus, sanantonio, fortworthgov, kansascity, washoe-nv (added 3 Oct). Working. |
 | Local agendas (non-Legistar) | C | Adapter `agendas` (3 Oct): Fairfax BOS meeting pages, Henrico agenda PDFs, Atlanta IQM2 calendar, Tulsa Council / TMAPC / Board of Adjustment, Storey County AgendaCenter. Items kept only when their text matches `agenda_filter`. Loudoun (lfportal robots unreadable; Granicus disallows), Reno (PrimeGov disallows) and Fulton (no static agenda links) are not collectable. |
 | Governors | C (+W) | AL, IL, MO, NM, NV, OK, SC, WV, TX, VA, GA, PA, OH, LA, NC working in C; KS via W; AZ refuses both. |
 | Courts | C | Virginia Supreme Court and Court of Appeals pages; **West Virginia Supreme Court** opinions page (3 Oct); **PA Commonwealth Court opinions RSS** (`pacourts.us/Rss/Opinions/Commonwealth/`, replaces the 0-link page); **Supreme Court of Texas** release-date pages and orders PDFs (adapter `courts_state`); CourtListener with a state-appellate-court query first (TX 3rd/15th COA, OH, PA, WV and the other tracked states). `search.txcourts.gov` (TAMES) disallows crawlers — the Texas courts of appeals arrive only through CourtListener. `COURTLISTENER_TOKEN` is now passed to the job (it was not before 3 Oct). |
 | IRP / RFP pages | C (+W) | Dominion, Georgia Power, APS, Entergy RFPs, Evergy, Xcel/SPS working; Duke via W. |
-| DOE / NRC | C | DOE news, 202(c), LPO working. **NRC news via RSS** (`nrc.gov/public-involve/rss?feed=news`, replaces the 0-link page; occasional 403 from NRC's CDN). **NRC ADAMS** Public Search API (`POST adams-api.nrc.gov/aps/api/search`) for ten named dockets — built; needs `NRC_APS_KEY`. The legacy `adams.nrc.gov/wba` host no longer resolves. |
+| DOE / NRC | C | DOE news, 202(c), LPO working. **NRC news via RSS** (`nrc.gov/public-involve/rss?feed=news`, replaces the 0-link page; occasional 403 from NRC's CDN). **NRC ADAMS** Public Search API (`POST adams-api.nrc.gov/aps/api/search`) for ten named dockets — live 4 Oct (`NRC_APS_KEY`). The legacy `adams.nrc.gov/wba` host no longer resolves. |
 | FERC Form 1 / 3-Q / 714 | C | eCollection XBRL feed (`ecollection.ferc.gov/api/rssfeed`, keyless, newest ~650 filings), matched to the tracked operating companies and the RTOs' Form 714s; metadata + link to FERC's HTML rendering. |
 | FERC EQR | C | Catalyst Cooperative PUDL parquet (`s3.us-west-2.amazonaws.com/pudl.catalyst.coop/ferceqr/core_ferceqr__contracts/<yyyy>q<n>.parquet`, ~3 MB a quarter, keyless): new contracts with hyperscalers and data-center developers versus the previous quarter. |
 | Studies | C (+W) | LBNL via DOE OSTI records API (emp.lbl.gov / eta.lbl.gov return 403 to the runners); LBNL "Queued Up" page monthly via WebFetch; Grid Strategies RSS. |
@@ -472,17 +475,17 @@ key in the URL and the repo is public, every file the collector writes passes th
 values and `api_key=`/`token=`/`password=` parameters); the probe workflow receives the same secrets so keyed
 adapters can be tested on demand.
 
-**Wired now.** congress.gov runs nightly on api.data.gov's public `DEMO_KEY` (verified 3 Oct); EIA accepts it too but is often rate-limited on GitHub's shared runners, so an `EIA_API_KEY` is recommended. Open States and NRC ADAMS need their keys; CourtListener runs keyless but rate-limited (the workflow did not pass `COURTLISTENER_TOKEN` before 3 Oct — it does now, together with `NRC_APS_KEY` and the three ERCOT secrets):
+**Secrets in use** (all free; each `ok` in health):
 
 | Secret name | Where to get it | Cost | What it adds |
 |---|---|---|---|
-| `EIA_API_KEY` (recommended) | eia.gov/opendata/register.php | Free | EIA-860M operating-generator capacity by state (large additions and retirements in tracked states) |
-| `CONGRESS_API_KEY` (optional) | api.congress.gov/sign-up | Free | Federal bills and actions on data centers, permitting, transmission |
+| `EIA_API_KEY` | eia.gov/opendata/register.php | Free | EIA-860M operating-generator capacity by state (large additions and retirements in tracked states) |
+| `CONGRESS_API_KEY` | api.congress.gov/sign-up | Free | Federal bills and actions on data centers, permitting, transmission |
 | `OPENSTATES_API_KEY` | open.pluralpolicy.com (account → API key) | Free | State bills matching data-center / large-load queries in the tracked states (replaces LegiScan, which blocks by IP) |
-| `COURTLISTENER_TOKEN` | courtlistener.com (free account → API token) | Free | Removes keyless rate limiting (HTTP 429) on appellate and federal court searches |
-| `REGULATIONS_GOV_API_KEY` | api.data.gov/signup | Free | Adapter `regulations_gov` (4 Oct): DOE/EPA/NRC documents on the beat and comments by watched parties in those dockets; runs on DEMO_KEY until the secret exists |
+| `COURTLISTENER_TOKEN` | courtlistener.com (free account → API token) | Free | Every court query plus federal RECAP dockets; search paced to 5 requests a minute |
+| `REGULATIONS_GOV_API_KEY` | api.data.gov/signup | Free | Adapter `regulations_gov` (4 Oct): DOE/EPA/NRC documents on the beat and comments by watched parties in those dockets |
 | `NRC_APS_KEY` | adams-api-developer.nrc.gov → Sign up → Products → "ADAMS Public Search API" → Subscribe; the key is under "Your Subscriptions" | Free | ADAMS documents added to the ten named nuclear dockets (Palisades, Crane/TMI-1, Duane Arnold, Hermes 2, Kemmerer, Long Mott, Clinch River, Pioneer 1–2) |
-| `ERCOT_API_USERNAME`, `ERCOT_API_PASSWORD`, `ERCOT_API_SUBSCRIPTION_KEY` | apiexplorer.ercot.com (free ERCOT account + Public API subscription) | Free | Route built 3 Oct (adapter `ercot_large_load`, untested until the secrets exist): report archives for ERCOT's large-load data products by EMIL id |
+| `ERCOT_API_USERNAME`, `ERCOT_API_PASSWORD`, `ERCOT_API_SUBSCRIPTION_KEY` | apiexplorer.ercot.com (free ERCOT account + Public API subscription) | Free | Sign-in verified 4 Oct; adapter `ercot_large_load` pages the 120-product catalogue nightly and collects any large-load product (none published yet) |
 
 **Recommended — would need an adapter built once the credentials exist (can't be tested without them):**
 
@@ -555,13 +558,14 @@ reads the PDF); Ohio Supreme Court opinion list (ASP.NET postback paging — Cou
   `meta.table_metrics`): MW approved to energize (9,012 → 9,062 → 8,926 MW, April–June 2026 overviews) and the
   observed non-simultaneous peak consumption of those loads (4,006 → 4,145 → 3,966 MW). The Sweep keeps the series
   in metrics.json. ERCOT's NPRR1267 Large Load Interconnection Status Report is an MIS data product; the MIS
-  servlets are robots-disallowed, so it arrives through the ERCOT Public API once its secrets exist.
+  servlets are robots-disallowed; the ERCOT Public API (live 4 Oct) does not list it yet, and the adapter checks its
+  catalogue nightly.
 - **Planning page:** `gridinfo/planning` (RTP, LTSA, constraints report, GRRA) via WebFetch (Sweep 6.4).
 - **Documents:** everything under `ercot.com/files/docs/` opens to both the collector and WebFetch. Board and TAC
   materials not linked from those pages: WebSearch `site:ercot.com/files/docs` by topic and month.
 - **Data products** (`mp/data-products/…`, e.g. RTP `PG7-048-M`, GRRA `PG7-226-M`) are JS-rendered lists. The
-  reliable route is the **ERCOT Public API** (§9), which lists report archives by EMIL id. Until it is added,
-  the Sweep relies on the planning page's direct links.
+  reliable route is the **ERCOT Public API** (§9, live 4 Oct), which lists report archives by EMIL id; the Sweep also
+  uses the planning page's direct links.
 - **Texas context outside ERCOT:** PUCT 58317 and related projects (collector); governor and PUCT news pages.
 
 ---
@@ -590,7 +594,7 @@ intervenors), otherwise reads the pages visually — still Reported at most.
 **What happens:** one file per state saved as it goes, then a manifest with `"complete": true`; the next Sweep
 ingests it automatically (`state.manual_ingested`) and adds any new cases to the watch list. The pass never
 writes the row store. Skill copy at `manual/SKILL.md`; the saved skill on Rett's account is authoritative
-(updated 3 Oct).
+(updated 4 Oct: NYISO ICAP page monthly; New Mexico only when the queue asks).
 
 ---
 
@@ -813,7 +817,8 @@ market participants; all 8 RTOs, with ERCOT large-load status tables; 11 state c
 (TX, AZ listings, GA, LA, MO, NM — documents repaired 3 Oct, KS, OK, AL, PA, plus GRDA) and 7 by manual pass (VA, SC,
 IL, OH, NC, WV, NV) with AZ documents; 10 of 16 IR pages (the rest via EDGAR); hyperscaler newsrooms (Microsoft,
 Google, Amazon, Meta); governors' newsrooms in 16 states; party watch; MISO, SPP and PJM queues (PJM from its public exports, 4 Oct); capacity markets (NYISO
-ICAP via the manual pass); courts — Supreme Court of Texas, Virginia, West Virginia, PA Commonwealth Court (RSS),
+ICAP via the manual pass); state bills (Open States), federal bills (congress.gov), Regulations.gov, EIA-860M, NRC ADAMS and
+the ERCOT Public API (all keyed, live 4 Oct); courts — Supreme Court of Texas, Virginia, West Virginia, PA Commonwealth Court (RSS),
 CourtListener for all tracked states' appellate courts; local agendas — 9 Legistar clients plus Fairfax, Henrico,
 Atlanta, Tulsa (Council, TMAPC, BOA) and Storey County; utility IRP/RFP pages; DOE; NRC news (RSS); LBNL via OSTI and
 Grid Strategies; Utility Dive, Canary Media, RTO Insider feeds; licensed mail (RTO Insider, NPM, CapIQ, DCC Bi-Weekly).
