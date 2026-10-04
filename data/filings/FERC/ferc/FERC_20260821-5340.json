@@ -47,5 +47,23 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': '46F73FA4-F124-CE04-A4DC-A04427300000', 'name': 'Reviewing Output.docx', 'type': 'DOCX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '524CC5F3-5CD6-C060-AE7F-A04427300000', 'name': 'Run PASS 20260820.docx', 'type': 'DOCX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '1D807858-890F-C952-B770-A04427300000', 'name': 'run_gams.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '5DE1D2C9-EA89-C1CE-BFE7-A04427300000', 'name': 'Scenarios.xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "enriched_at": "2026-10-04T20:01:47Z"
 }

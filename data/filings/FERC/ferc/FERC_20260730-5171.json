@@ -47,5 +47,23 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': 'F4DEDAA1-C8C8-C42C-B767-9FB4C8100000', 'name': 'CUI-PRIV) Indicative Screen Capacity Calculation.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '09784482-045E-C506-8803-9FB4C8200000', 'name': 'CUI-PRIV) Two Indicative Screens_QuincyValley.xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'C059933C-A455-C18E-93C8-9FB4C8200000', 'name': 'CUI-PRIV) Wkp RPB-Avail Mapping.xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'F2E1BA7B-C311-C6F1-9A94-9FB4C8200000', 'name': 'CUI-PRIV) Wkp RPB-Availability Methodology.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "enriched_at": "2026-10-04T20:02:11Z"
 }

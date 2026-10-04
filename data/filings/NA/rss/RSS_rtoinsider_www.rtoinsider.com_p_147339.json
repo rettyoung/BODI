@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147339",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "ISO-NE Outlines 2027 Annual Work Plan",
+ "filed": "2026-10-04",
+ "url": "//www.rtoinsider.com/147339-iso-ne-outlines-2027-annual-work-plan/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Capacity auction reforms, large load rules, transmission planning and establishing a new dynamic operating reserve product will make up much of ISO-NE’s workload in 2027. \n The post  ISO-NE Outlines 2027 Annual Work Plan  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-04T19:44:53Z",
+ "run_id": "2026-10-04-1940",
+ "keywords": [
+  "capacity auction",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

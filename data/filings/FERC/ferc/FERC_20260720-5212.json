@@ -47,5 +47,23 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': 'EB819A06-5939-C778-BB56-9F8F7C200000', 'name': 'CUI_PRIV_TX Rates.xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '73DBBC6A-6BE2-C88E-81BC-9F8F7C200001', 'name': 'CUI_PRIV_Velocity Suite Load Query Screenshot-ISONE.docx', 'type': 'DOCX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'C873512E-BE61-C3C4-8949-9F8F7C300000', 'name': 'CUI_PRIV_Velocity Suite Price Query Screenshot-ISONE.docx', 'type': 'DOCX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '87D52F1D-AE95-C1F5-9246-9F8F7C300000', 'name': 'CUI_PRIV_ 2. create databases.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "enriched_at": "2026-10-04T20:02:23Z"
 }

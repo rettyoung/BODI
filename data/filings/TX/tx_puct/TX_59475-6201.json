@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "transmission service"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6201_1658408.ZIP",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "extract_error: BadZipFile('File is not a zip file')",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6201_1658409.PDF",
+   "name": null,
+   "bytes": 134398,
+   "sha256": "e33a2bed18fa6d4740df48b25b3613b49bdee384d2e858385e7a5d8e69edec85",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-19 10:37:30 AM\n\nControl Number - 59475\n\nItem Number - 6201\n\f                         SOAH DOCKET NUMBER 473-26-16349\n                               PUC DOCKET NUMBER 59475\n JOINT APPLICATION OF ONCOR                          §\n ELECTRIC DELIVERY COMPANY LLC                       §            Before the State\n AND LCRA TRANSMISSION SERVICE                       §\n CORPORATION TO AMEND THEIR                          §                 Office of\n CERTIFICATES OF CONVENIENCE AND                     §\n NECESSITY FORTHEBELLCOUNTY                          §             Administrative\n EAST SWITCH TO BIG HILL                             §\n SUBSTATION 765-KV TRANSMISSION                      §                Hearings.\n LINE PROJECT IN BELL, BURNET,                       §\n CONCHO, CORYELL, LAMPASAS,                          §\n LLANO, MASON, MCCULLOCH,                            §\n MENARD, MILAM, MILLS, SAN SABA,                     §\n SCHLEICHER5 TOM GREEN, AND\n WILLIAMSON COUNTIES\n\n\n                             PAUL SKINNNER'S POST HEARING BRIEF\n\nPaul Skinner, pro se intervenor, on behalf of himself, respectfully submits this post hearing\n\nbrief. Paul Skinner is a Iandowner to property impacted directly by one of the proposed\n\nroutes. His item number is 272.\n\nPaul Skinner previously submitted testimony and exhibits that were admitted into the\n\nrecord. Paul Skinner respectfully requests that the Administrative Law Judges consider the\n\nadmitted testimony and exhibits in their entirety.\n\n\nBased upon the evidence admitted into the record, Paul Skinner opposes the\n\napplication in its entirety and respectfully recommends denial of the proposed\n\ntransmission line project.\n\n\n\n\n                                                                     Post Hearing Brief of Paul Skinner\n                                                                               PUC Docket No. 59475\n                                                                 SOAH Docket No. 473-26-16349 Page\n                                                                                                1 of 3\n\fAs set forth in Paul Skinner's testimony and exhibits, the proposed project would negatively\n\naffect Intervenor>s property, agricultural activities, existing improvements, future plans for the\n\nproperty, and continued use and enjoyment of the land. Those concerns are fully described in\n\nthe evidence already admitted into the record.\n\nDuring the Hearing on the Merits on June 8,2026, Intervenor Lazy B Land Company\n\n(Benjamin Tanner) cross-examined Applicants' representatives, who admitted on the\n\nrecord that Link G73 landowners within 500 feet of the proposed centerline were not\n\nmailed notice prior to the 2025 public meetings as required by 16 Tex. Admin. Code §\n\n22.52(a)(4) as it was a ·'new link\" Specifically, during cross-examination of Applicants on\n\nMonday, June 8,2026, Benjamin Tanner asked, \"A majority of link G-73 Landowners did not\n\nreceive mail notice of the project until late March, 2026, correct?\" To which an applicant\n\nrepresentative replied, \"Yes, since that was an added link, after public participation\n\nmeetings. That is Correct\". Therefore, link G73 should not be considered due to lack of\n\nproper notice. In the alternative, should the Commission approve the application despite\n\nintervenor's recommendation for denial, Paul Skinner respectfully requests that the\n\nCommission consider the alternate routes and continue to reject link G73 for the reasons\n\nset forth therein.\n\n                                                                              Respectfully Submitted,\n                                                                               /s/ Paul Skinner Pro Se\n\n                                                                              Intervenor\n\n\n\n\n                                                                                                  Paul Skinner\n                                                                   154 Wilson Branch Rd Ki!!een, Texas 76542\n                                                                                                (832) 372-7374\n                                                                                           pskin39@gmai!.com\n\n\n\n\n                                                                          Post Hearing Brief of Paul Skinner\n                                                                        PUC Docket No. 59475 SOAH Docket\n                                                                              No. 473-26-16349 Page 2 of 3\n\f                              CERTIFICATE OF SERV[CE\n\nI certify that this is a true and correct copy of Paul Skinner's Post Hearing Brief and was served\n\non all parties of record in PUCT Docket No. 59475 via the Public Utility Commission of Texas\n\nfiling system on this 19th day of June 2026.\n\n\n\n\n                                                                           Respectfully Submitted\n\n                                                                            /s/ Pauk Skinner\n                                                                             Pro se Intervenor\n\n\n\n\n                                                                                         Paul Skinner\n\n\n\n                                                                       154 Wilson Branch Rd Killeen, Texas\n\n                                                                                    76542 /832) 372-7374\n\n\n\n                                                                               pskin39@gmail.com\n\n\n\n\n                                                                        Post Hearing Brief of Paul Skinner\n                                                                                  PUC Docket No. 59475\n                                                                     SOAH Docket No. 473-26-16349 Page\n                                                                                                     3 of 3\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T20:06:40Z"
 }

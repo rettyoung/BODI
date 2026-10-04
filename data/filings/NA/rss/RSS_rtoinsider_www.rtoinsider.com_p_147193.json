@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147193",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "CAISO, PG&E Spar Over ‘Large Loads’ Definition",
+ "filed": "2026-10-04",
+ "url": "//www.rtoinsider.com/147193-caiso-pge-spar-over-large-loads-definition/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " CAISO and Pacific Gas and Electric representatives butted heads at a meeting over the ISO’s proposed \"large load\" definition as artificial intelligence data centers pound at the door of the Golden State’s grid. \n The post  CAISO, PG&#038;E Spar Over ‘Large Loads’ Definition  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-04T19:44:53Z",
+ "run_id": "2026-10-04-1940",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -47,5 +47,23 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': 'F0900866-06F6-C6C3-881C-9FFC9ED00003', 'name': '0. master run do files.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '46D3354B-2464-C38D-9130-9FFC9ED00003', 'name': '1. setup.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'A85E0EB8-8EA5-C2FB-88CE-9FFC9EE00000', 'name': '10. insert contracts.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'EAD60882-7D39-C41B-916C-9FFC9EE00000', 'name': '11. sql statements.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "enriched_at": "2026-10-04T20:01:59Z"
 }
