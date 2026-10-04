@@ -1,55 +1,10 @@
 {
  "backfill_since": null,
- "run_id": "2026-10-04-0022",
- "started": "2026-10-04T00:22:46Z",
+ "run_id": "2026-10-04-0713",
+ "started": "2026-10-04T07:13:40Z",
  "sources": {
-  "ok_occ": {
-   "since": "2026-09-30",
-   "found": 8,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [
-    "ok text 21362576: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21362552: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21362467: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21362465: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21362458: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21362455: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21354473: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21354331: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21354315: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21354312: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21354172: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21354164: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21353967: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21351151: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21332545: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21321323: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21311681: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21310653: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21216943: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21205773: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
-   ],
-   "seconds": 223.3,
-   "consecutive_failures": 0
-  },
-  "ks_kcc": {
-   "since": "2026-09-30",
-   "found": 1,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 3.1,
-   "consecutive_failures": 0
-  },
   "nm_prc": {
-   "since": "2026-09-30",
+   "since": "2026-10-01",
    "found": 5,
    "new": 0,
    "baselined_now": 0,
@@ -61,23 +16,23 @@
     "nm 25-00082-UT: 0 documents in window",
     "nm 26-0000062: 0 documents in window"
    ],
-   "seconds": 35.7,
+   "seconds": 37.8,
    "consecutive_failures": 0
   },
   "mo_efis": {
-   "since": "2026-09-30",
-   "found": 106,
+   "since": "2026-10-01",
+   "found": 93,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 15.5,
+   "seconds": 15.6,
    "consecutive_failures": 0
   },
   "al_psc": {
-   "since": "2026-09-30",
+   "since": "2026-10-01",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -85,11 +40,11 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 36.4,
+   "seconds": 36.3,
    "consecutive_failures": 0
   },
   "watch_pages": {
-   "since": "2026-09-30",
+   "since": "2026-10-01",
    "found": 1508,
    "new": 0,
    "baselined_now": 0,
@@ -278,15 +233,15 @@
     }
    },
    "notes": [],
-   "seconds": 184.0,
+   "seconds": 185.8,
    "consecutive_failures": 0
   },
   "rss": {
-   "since": "2026-09-30",
-   "found": 41,
-   "new": 7,
+   "since": "2026-10-01",
+   "found": 29,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 7,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "pjm_insidelines": {
@@ -343,11 +298,11 @@
     }
    },
    "notes": [],
-   "seconds": 94.4,
+   "seconds": 56.4,
    "consecutive_failures": 0
   },
   "ir_decks": {
-   "since": "2026-09-30",
+   "since": "2026-10-01",
    "found": 235,
    "new": 0,
    "baselined_now": 0,
@@ -420,11 +375,11 @@
     }
    },
    "notes": [],
-   "seconds": 231.7,
+   "seconds": 225.7,
    "consecutive_failures": 0
   },
   "mirrors": {
-   "since": "2026-09-30",
+   "since": "2026-10-01",
    "found": 27,
    "new": 0,
    "baselined_now": 0,
@@ -446,18 +401,14 @@
     "mirror:nc_ncuc_main": {
      "status": "ok",
      "note": "5 links"
-    },
-    "mirror:il_cub": {
-     "status": "blocked",
-     "note": "Blocked('HTTP 403 for https://www.citizensutilityboard.org/blog/category/cub-battles/')"
     }
    },
    "notes": [],
-   "seconds": 15.4,
+   "seconds": 12.3,
    "consecutive_failures": 0
   },
   "eia": {
-   "since": "2026-09-30",
+   "since": "2026-10-01",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -470,11 +421,11 @@
     }
    },
    "notes": [],
-   "seconds": 38.9,
+   "seconds": 38.7,
    "consecutive_failures": 0
   },
   "congress": {
-   "since": "2026-09-30",
+   "since": "2026-10-01",
    "found": 9,
    "new": 0,
    "baselined_now": 0,
@@ -487,11 +438,11 @@
     }
    },
    "notes": [],
-   "seconds": 15.9,
+   "seconds": 18.4,
    "consecutive_failures": 0
   },
   "openstates": {
-   "since": "2026-09-30",
+   "since": "2026-10-01",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -508,19 +459,19 @@
    "consecutive_failures": 0
   },
   "courtlistener": {
-   "since": "2026-09-30",
-   "found": 1,
-   "new": 1,
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 1,
+   "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 6.4,
+   "seconds": 6.2,
    "consecutive_failures": 0
   },
   "queues": {
-   "since": "2026-09-30",
+   "since": "2026-10-01",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -532,7 +483,7 @@
    "consecutive_failures": 0
   },
   "legistar": {
-   "since": "2026-09-30",
+   "since": "2026-10-01",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -553,11 +504,11 @@
     },
     "mesa": {
      "status": "ok",
-     "note": "6 matters, 0 on-topic"
+     "note": "2 matters, 0 on-topic"
     },
     "columbus": {
      "status": "ok",
-     "note": "9 matters, 0 on-topic"
+     "note": "3 matters, 0 on-topic"
     },
     "sanantonio": {
      "status": "ok",
@@ -573,85 +524,85 @@
     },
     "washoe-nv": {
      "status": "ok",
-     "note": "12 matters, 0 on-topic"
+     "note": "6 matters, 0 on-topic"
     }
    },
    "notes": [],
-   "seconds": 27.1,
+   "seconds": 40.1,
    "consecutive_failures": 0
   },
   "courts_state": {
-   "since": "2026-09-15",
-   "found": 3,
-   "new": 3,
+   "since": "2026-10-01",
+   "found": 4,
+   "new": 4,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {
-    "txsc 2026-09-09": {
+    "txsc 2026-09-25": {
      "status": "ok",
-     "note": "18009 chars"
+     "note": "10120 chars"
     },
-    "txsc 2026-09-11": {
+    "txsc 2026-09-28": {
      "status": "ok",
-     "note": "10396 chars"
+     "note": "4252 chars"
     },
-    "txsc 2026-09-15": {
+    "txsc 2026-10-02": {
      "status": "ok",
-     "note": "4204 chars"
+     "note": "20246 chars"
     }
    },
    "notes": [],
-   "seconds": 21.1,
+   "seconds": 24.1,
    "consecutive_failures": 0
   },
   "agendas": {
-   "since": "2026-09-15",
-   "found": 19,
-   "new": 19,
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 6,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "atlanta": {
      "status": "ok",
-     "note": "27 links, 3 new (first sight)"
+     "note": "27 links, 0 new"
     },
     "storey": {
      "status": "ok",
-     "note": "47 links, 3 new (first sight)"
+     "note": "47 links, 0 new"
     },
     "tulsa_council": {
      "status": "ok",
-     "note": "5 links, 3 new (first sight)"
+     "note": "5 links, 0 new"
     },
     "tulsa_tmapc": {
      "status": "ok",
-     "note": "5 links, 3 new (first sight)"
+     "note": "5 links, 0 new"
     },
     "tulsa_boa": {
      "status": "ok",
-     "note": "1 links, 1 new (first sight)"
+     "note": "1 links, 0 new"
     },
     "henrico": {
      "status": "ok",
-     "note": "19 links, 3 new (first sight)"
+     "note": "19 links, 0 new"
     },
     "fairfax_bos": {
      "status": "ok",
-     "note": "24 links, 3 new (first sight)"
+     "note": "24 links, 0 new"
     }
    },
    "notes": [],
-   "seconds": 301.0,
+   "seconds": 80.6,
    "consecutive_failures": 0
   },
   "ercot_large_load": {
-   "since": "2026-09-15",
-   "found": 16,
-   "new": 16,
+   "since": "2026-10-01",
+   "found": 9,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 16,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "ercot:llwg": {
@@ -676,19 +627,28 @@
     }
    },
    "notes": [],
-   "seconds": 84.2,
+   "seconds": 12.4,
    "consecutive_failures": 0
   },
   "nyiso_icap": {
    "since": "2026-09-15",
-   "status": "ACCESS_REGRESSION",
-   "error": "NYISO answers automated clients with an empty HTTP 202 (bot-management challenge)",
-   "subsources": {},
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "nyiso:library": {
+     "status": "refused_known",
+     "note": "empty HTTP 202 (bot-management challenge); covered by the manual pass"
+    }
+   },
+   "notes": [],
    "seconds": 0.4,
-   "consecutive_failures": 1
+   "consecutive_failures": 0
   },
   "nrc_adams": {
-   "since": "2026-09-15",
+   "since": "2026-10-01",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -705,7 +665,7 @@
    "consecutive_failures": 0
   },
   "ferc_forms": {
-   "since": "2026-09-15",
+   "since": "2026-10-01",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -718,32 +678,32 @@
     }
    },
    "notes": [],
-   "seconds": 3.6,
+   "seconds": 3.2,
    "consecutive_failures": 0
   },
   "ferc_eqr": {
-   "since": "2026-09-15",
-   "found": 1,
-   "new": 1,
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 1,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "pudl_eqr": {
      "status": "ok",
-     "note": "2026Q2: 10 new contract lines with watched counterparties vs (2026, 1); 175 active (3 MB read)"
+     "note": "no new quarter (latest 2026Q2)"
     }
    },
    "notes": [],
-   "seconds": 12.3,
+   "seconds": 3.1,
    "consecutive_failures": 0
   },
   "studies": {
-   "since": "2026-09-15",
-   "found": 17,
-   "new": 17,
+   "since": "2026-10-01",
+   "found": 3,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 17,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "osti:\"interconnection queue\" OR \"qu": {
@@ -752,56 +712,56 @@
     },
     "osti:\"data center\" AND (electricity": {
      "status": "ok",
-     "note": "7 records"
+     "note": "4 records"
     },
     "osti:\"load growth\" OR \"large loads\"": {
      "status": "ok",
-     "note": "7 records"
+     "note": "6 records"
     }
    },
    "notes": [],
-   "seconds": 179.6,
+   "seconds": 9.1,
    "consecutive_failures": 0
   },
   "ferc": {
-   "since": "2026-09-30",
-   "found": 34,
+   "since": "2026-10-01",
+   "found": 19,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 58.3,
+   "seconds": 57.9,
    "consecutive_failures": 0
   },
   "federal_register": {
-   "since": "2026-09-30",
-   "found": 2,
+   "since": "2026-10-01",
+   "found": 1,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 39.1,
+   "seconds": 39.0,
    "consecutive_failures": 0
   },
   "edgar": {
-   "since": "2026-09-30",
-   "found": 4,
+   "since": "2026-10-01",
+   "found": 1,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 114.7,
+   "seconds": 129.5,
    "consecutive_failures": 0
   },
   "tx_puct": {
-   "since": "2026-09-30",
-   "found": 19,
+   "since": "2026-10-01",
+   "found": 16,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -812,8 +772,8 @@
    "consecutive_failures": 0
   },
   "az_acc": {
-   "since": "2026-09-30",
-   "found": 2,
+   "since": "2026-10-01",
+   "found": 0,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -824,8 +784,8 @@
    "consecutive_failures": 0
   },
   "ga_psc": {
-   "since": "2026-09-30",
-   "found": 1,
+   "since": "2026-10-01",
+   "found": 0,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -836,7 +796,7 @@
    "consecutive_failures": 0
   },
   "la_lpsc": {
-   "since": "2026-09-30",
+   "since": "2026-10-01",
    "found": 1,
    "new": 0,
    "baselined_now": 0,
@@ -848,31 +808,70 @@
    ],
    "seconds": 21.3,
    "consecutive_failures": 0
+  },
+  "ok_occ": {
+   "since": "2026-10-01",
+   "found": 8,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "ok text 21362576: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362552: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362467: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362465: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362458: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362455: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354473: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354331: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354315: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354312: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354172: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354164: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21353967: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21351151: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21332545: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21321323: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21311681: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21310653: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21216943: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21205773: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+   ],
+   "seconds": 229.5,
+   "consecutive_failures": 0
+  },
+  "ks_kcc": {
+   "since": "2026-10-01",
+   "found": 1,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 0.3,
+   "consecutive_failures": 0
   }
  },
- "docs_fetched": 62,
- "new_items": 48,
+ "docs_fetched": 4,
+ "new_items": 0,
  "user_agent": "BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)",
- "finished": "2026-10-04T01:20:35Z",
+ "finished": "2026-10-04T08:12:27Z",
  "backfill_text": {
-  "queue": 1664,
-  "enriched": 166,
-  "docs": 400,
-  "errors": 79,
+  "queue": 1750,
+  "enriched": 195,
+  "docs": 401,
+  "errors": 118,
   "status": "ok",
-  "retry_later": 54,
-  "remaining": 1498,
-  "seconds": 1655.5
+  "gave_up": 20,
+  "candidates_filled": 20,
+  "retry_later": 66,
+  "remaining": 1555,
+  "seconds": 2193.3
  },
  "http_hosts": {
-  "https://public.occ.ok.gov": {
-   "robots": "404",
-   "note": ""
-  },
-  "https://www.kcc.ks.gov": {
-   "robots": "404",
-   "note": ""
-  },
   "https://e360.prc.nm.gov": {
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
@@ -887,6 +886,10 @@
   },
   "https://www.grda.com": {
    "robots": "200",
+   "note": ""
+  },
+  "https://www.kcc.ks.gov": {
+   "robots": "404",
    "note": ""
   },
   "https://lpsc.louisiana.gov": {
@@ -1042,7 +1045,7 @@
    "note": ""
   },
   "https://www.nrc.gov": {
-   "robots": "200",
+   "robots": "403",
    "note": ""
   },
   "https://gridstrategiesllc.com": {
@@ -1078,10 +1081,6 @@
    "note": ""
   },
   "https://www.canarymedia.com": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://azure.microsoft.com": {
    "robots": "200",
    "note": ""
   },
@@ -1165,10 +1164,6 @@
    "robots": "404",
    "note": ""
   },
-  "https://www.citizensutilityboard.org": {
-   "robots": "200",
-   "note": ""
-  },
   "https://api.eia.gov": {
    "robots": "403",
    "note": ""
@@ -1213,14 +1208,6 @@
    "robots": "200",
    "note": ""
   },
-  "https://AtlantaCityGA.IQM2.com": {
-   "robots": "200",
-   "note": "crawl delay 60s honoured"
-  },
-  "https://www.cityoftulsa.org": {
-   "robots": "200",
-   "note": "no robots.txt (HTML app shell)"
-  },
   "https://ecollection.ferc.gov": {
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
@@ -1245,10 +1232,6 @@
    "robots": "404",
    "note": ""
   },
-  "https://www.sec.gov": {
-   "robots": "200",
-   "note": ""
-  },
   "https://efts.sec.gov": {
    "robots": "403",
    "note": ""
@@ -1269,10 +1252,14 @@
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
   },
+  "https://public.occ.ok.gov": {
+   "robots": "404",
+   "note": ""
+  },
   "https://images.edocket.azcc.gov": {
    "robots": "error",
    "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
   }
  },
- "seconds": 3468
+ "seconds": 3527
 }

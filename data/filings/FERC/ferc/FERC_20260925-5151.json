@@ -40,5 +40,16 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': '7591ED2D-2625-C639-B04C-A0DA02400000', 'name': 'PGE20260925_2310_RuckerLake_STID_Enc1.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'B6D86CD2-D42F-CFF5-BA7B-A0DA02400000', 'name': 'PGE20260925_2310_RuckerLake_STID_Enc2.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:37:03Z"
 }

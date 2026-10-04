@@ -32,5 +32,12 @@
   "co-located",
   "co-location"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': 'F3C762B4-4EF7-C1D9-B1FC-A0FE06200000', 'name': 'Condition 144 Compliance - Narrative (CUI-PRIV).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:35:57Z"
 }

@@ -63,5 +63,9 @@
    "url": "{'ferc_file': '8ACA7A93-D8E4-C413-9BA1-A0F837000000', 'name': '1. setup.txt', 'type': 'TXT'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "enriched_at": "2026-10-04T07:36:09Z"
 }

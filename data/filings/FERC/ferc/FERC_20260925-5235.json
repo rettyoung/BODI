@@ -36,5 +36,7 @@
    "url": "{'ferc_file': 'D926F66C-BC28-CF5D-AA71-A0ED5A200000', 'name': 'PRIV - NON-PUBLIC_Switched On LLC - FERC FPA Section 203 Application (9.25.2026).pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:36:51Z"
 }

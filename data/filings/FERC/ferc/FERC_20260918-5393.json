@@ -51,5 +51,24 @@
   "co-located",
   "co-location"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': '7D595B6B-5917-CD0B-B993-A0B638D00000', 'name': 'CILNG_Prelim Draft RR13 Appendix List A3_Priv.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'AEE78684-70CD-CB45-8000-A0B638D00001', 'name': 'CILNG_Prelim Draft RR13 Appendix List C_Priv.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '65E22711-0C44-CDEF-88C7-A0B638E00000', 'name': 'CILNG_Prelim Draft RR13 Appendix List D1_Priv.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'BDEAABEC-C1A8-C4CB-922C-A0B638E00000', 'name': 'CILNG_Prelim Draft RR13 Appendix List F_Priv.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:37:24Z"
 }

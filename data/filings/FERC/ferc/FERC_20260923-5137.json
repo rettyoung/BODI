@@ -45,5 +45,7 @@
    "url": "{'ferc_file': 'AB0E11DD-0E54-C289-BBCC-A0D003500000', 'name': 'PGE20260923_2310_LowerPkSTIDP12_R1_13&14C2_Enc2.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:37:09Z"
 }

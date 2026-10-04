@@ -31,5 +31,12 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': '0C68FC74-452C-C339-A094-A0F3C3400000', 'name': 'CUI-PRIV Cheyenne Pwr Hub Response to Deficiency Letter.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:36:12Z"
 }

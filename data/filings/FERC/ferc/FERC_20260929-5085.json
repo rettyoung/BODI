@@ -64,5 +64,7 @@
    "url": "{'ferc_file': '5FA9B9EF-F94D-CA2C-8A1E-A0EE59D00000', 'name': '13.I.1 Earthquakes (CEII).pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:36:24Z"
 }

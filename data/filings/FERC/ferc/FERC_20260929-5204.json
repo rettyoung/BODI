@@ -36,5 +36,7 @@
    "url": "{'ferc_file': '040241FD-DF0B-C61A-9A5A-A0F7B1500000', 'name': 'Attachment C_CUI-PRIV Wkp RPB-Indicative Screens_APS_Q12026.xlsx', 'type': 'XLSX'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:36:27Z"
 }

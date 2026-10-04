@@ -36,5 +36,7 @@
    "url": "{'ferc_file': '6C82B62F-3E9C-C36A-850D-A0FE5CB00000', 'name': 'Stevens Point STID_2026.09.30 Compressed.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:35:54Z"
 }

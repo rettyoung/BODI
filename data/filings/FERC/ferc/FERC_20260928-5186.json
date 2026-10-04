@@ -36,5 +36,16 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': 'A2E9EC8B-C44E-CE9E-84F9-A0ED18700000', 'name': 'Form 556 - DUO001, LLC (Non-Public).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'F56E4860-5898-CF29-8C2E-A0ED18700000', 'name': 'Figure 3 - DUO001, LLC (Non-Public).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:36:48Z"
 }

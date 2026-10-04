@@ -19,5 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_64_1661944.ZIP",
+   "name": null,
+   "bytes": 726554,
+   "sha256": "d30ba7413b70c70e482926fc5fed5372f67d79f45391f4d52390d7371f2b0702",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 58796 Workpapers to the Direct Testimony and Exhibits of Anthony Georgis 7.01.26 final.pdf ===\n                 SOAH DOCKET NO. 473-26-07507\n                    PUC DOCKET NO. 58796\n\nAPPLICATION OF SOUTHWESTERN      §\nELECTRIC POWER COMPANY FOR       §\nAUTHORITY TO AMEND TARIFFS       §   BEFORE THE STATE OFFICE\nFOR RETAIL SERVICE TO INCLUDE    §             OF\nNEW STANDARD FORM CONTRACT       §   ADMINISTRATIVE HEARINGS\nFOR ELECTRIC SERVICE – LARGE     §\nLOAD                             §\n\n                        WORKPAPERS\n\n\n                           TO THE\n\n\n               DIRECT TESTIMONY AND EXHIBITS\n\n                                OF\n\n                     ANTHONY M. GEORGIS\n\n\n\n                        ON BEHALF OF\n\n\n\n        CITIES ADVOCATING REASONABLE DEREGULATION\n\n\n\n\n                         JULY 1, 2026\n\f                                Year:                         13                14              15              16              17        Average - 4 years\n$       1,000 $/kW                                            13                14              15              16              17\n         1000 MW                Gross                   $ 1,000,000,000   $ 1,000,000,000 $ 1,000,000,000 $ 1,000,000,000 $ 1,000,000,000\n            35 years            Depr                    $    28,571,429   $    28,571,429 $    28,571,429 $    28,571,429 $    28,571,429\n                                Cum Depr                $ 371,428,571     $ 400,000,000 $ 428,571,429 $ 457,142,857 $ 485,714,286\n$ 1,000,000,000 Cost of asset   Net                     $ 628,571,429     $ 600,000,000 $ 571,428,571 $ 542,857,143 $ 514,285,714\n$ 28,571,429 Depreciation Exp   Return                                               9.0%              9%              9%              9%\n                                Return                                    $    54,000,000 $    51,428,571 $    48,857,143 $    46,285,714\n\n                                Return + Depreciation                     $   82,571,429 $     80,000,000 $     77,428,571 $    74,857,143 $ 78,714,286\n                                                                                                                                           Approx: $80M\n\n         1000 MW\n\n\n\n\n                                                                                                                                                     1\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_64_1661945.PDF",
+   "name": null,
+   "bytes": 106858,
+   "sha256": "eaaf447d263e11267a8b6641298ccc4858abf52a879903ffeda5b75a644ee35c",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-07-01 04:15:28 PM\n\nControl Number - 58796\n\nItem Number - 64\n\f1\n\n\n\n\n                      SOAH DOCKET NO. 473-26-07507\n                         PUC DOCKET NO. 58796\n\n    APPLICATION OF SOUTHWESTERN      §\n    ELECTRIC POWER COMPANY FOR       §\n    AUTHORITY TO AMEND TARIFFS       §   BEFORE THE STATE OFFICE\n    FOR RETAIL SERVICE TO INCLUDE    §             OF\n    NEW STANDARD FORM CONTRACT       §   ADMINISTRATIVE HEARINGS\n    FOR ELECTRIC SERVICE - LARGE     §\n    LOAD                             §\n\n                             WORKPAPERS\n\n\n                                TO THE\n\n\n                   DIRECT TESTIMONY AND EXHIBITS\n\n                                    OF\n                         ANTHONY M. GEORGIS\n\n\n\n                             ON BEHALF OF\n\n\n\n            CITIES ADVOCATING REASONABLE DEREGULATION\n\n\n\n\n                              JULY 1, 2026\n1\n\n\n\n\n                                                                   1\n\f                                Year:                          13                14              15             16              17        Average - 4 years\n$       1,000 $/kW                                             13                14              15             16              17\n         1000 MW                Gross                   $ 1,000,000,000   $ 1,000,000,000 $ 1,000,000,000 $ 1,000,000,000 $ 1,000,000,000\n           35 years             Depr                    $    28,571,429   $    28,571,429 $    28,571,429 $    28,571,429 $    28,571,429\n                                Cum Depr                $ 371,428,571     $ 400,000,000 $ 428,571,429 $ 457,142,857 $ 485,714,286\n$1,000,000,000 Cost of asset    Net                     $ 628,571,429     $ 600,000,000 $ 571,428,571 $ 542,857,143 $ 514,285,714\n$ 28,571,429 Depreciation Exp   Return                                               9.0%              9%              9%              9%\n                                Return                                    $    54,000,000 $    51,428,571 $    48,857,143 $    46,285,714\n\n                                Return + Depreciation                     $   82,571,429 $     80,000,000 $     77,428,571   $   74,857,143 $    78,714,286\n                                                                                                                                            Approx: $80M\n\n         1000 MW\n\n\n\n\n                                                                                                                                                      1\n\fThe following files are not convertible:\n\n                                  58796 Workpapers to the Direct\nTestimony and Exhibits of Anthony Georgis_SWEPCO stranded costs.xlsm\n\n\nPlease see the ZIP file for this Filing on the PUC Interchange in order to\naccess these files.\n\nContact centralrecords@puc.texas.gov if you have any questions.\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T08:08:32Z"
 }

@@ -42,5 +42,20 @@
   "certificate of public convenience",
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': '05A03622-F601-CC2A-A207-A0B117E00000', 'name': 'PRIV_Appendix 1F. Landowner List_Priv.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '059D0D90-8A54-CAE6-AA44-A0B117E00000', 'name': 'PRIV_APP 4A DRAFT_Amarillo Expansion Cultural Report_Submitted.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'FFEE803A-C42D-C598-8475-A0B117F00000', 'name': 'Exhibit I NGPL AMEX Priv.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:37:33Z"
 }

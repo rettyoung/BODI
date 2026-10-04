@@ -54,5 +54,24 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': 'A6F7FCF4-31D6-CB6C-AB73-A0EE4F900000', 'name': 'Section 1 of Public Act 17-3 Final Determination.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'C038A592-FCF2-CDDB-B242-A0EE4F900000', 'name': 'Section 1(b) of Public Act 15-107 Final Determination.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '33F368AA-E3F6-CD4A-B8F2-A0EE4F900000', 'name': 'Section 6 of Public Act 13-303 Final Determination.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'CF57696C-C604-C529-82B0-A0EE4F900001', 'name': 'Section 8 of Public Act 13-303 Final Determination.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:36:42Z"
 }

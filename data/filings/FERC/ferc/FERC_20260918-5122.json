@@ -31,5 +31,12 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': '6B61EE1D-B6DC-C0F2-9A27-A0B4DB100000', 'name': 'PRIV-P-15353-002-DLA-Volume-III-09-16-2026.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:37:12Z"
 }

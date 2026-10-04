@@ -31,5 +31,12 @@
  "keywords": [
   "data center"
  ],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': '2ED372AA-92AE-C153-9DFA-A0F23C300000', 'name': '2026-09-29 IMM Market Power Report - CUI-PRIV-HC.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:36:30Z"
 }

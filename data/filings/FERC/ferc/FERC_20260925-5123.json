@@ -45,5 +45,7 @@
    "url": "{'ferc_file': '5BB55602-A578-C8DF-9BAF-A0D9B3B00000', 'name': 'PGE20260925_2105_UNFFR_Updated_PMF_Enc2.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "party_hits": [],
+ "enriched_at": "2026-10-04T07:36:57Z"
 }
