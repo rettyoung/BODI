@@ -33,7 +33,7 @@ OVERLAP_DAYS = 3
 MAX_DOCS = int(os.environ.get("MAX_DOCS", "160"))
 MAX_BYTES = 60 * 1024 * 1024
 ADAPTER_BUDGET_S = int(os.environ.get("ADAPTER_BUDGET_S", "420"))
-BUDGETS = {"ir_decks": 1200, "watch_pages": 1500, "queues": 900, "openstates": 600, "legistar": 600, "edgar": 900, "ferc": 600, "la_lpsc": 600, "mo_efis": 600,
+BUDGETS = {"ir_decks": 1200, "watch_pages": 1500, "queues": 900, "openstates": 600, "courtlistener": 600, "legistar": 600, "edgar": 900, "ferc": 600, "la_lpsc": 600, "mo_efis": 600,
            "agendas": 1200, "courts_state": 900, "ercot_large_load": 900, "ferc_forms": 600, "ferc_eqr": 900, "nyiso_icap": 300,
            "nm_prc": 900, "nrc_adams": 300, "studies": 300}
 RUN_DEADLINE_S = int(os.environ.get("RUN_DEADLINE_S", str(70 * 60)))   # the job is killed at 90 min; stop well before

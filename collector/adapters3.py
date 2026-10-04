@@ -441,7 +441,7 @@ def nrc_adams(ctx):
             ctx.record(f"nrc:{dk}", "error", repr(e)[:200])
             continue
         results = j.get("results") or j.get("value") or j.get("documents") or []
-        for r in results[:60]:
+        for r in results[:200]:
             doc = r.get("document") or r
             acc = doc.get("AccessionNumber")
             if not acc:

@@ -16,6 +16,7 @@ import io
 import json
 import os
 import re
+import time
 from urllib.parse import quote, urljoin
 
 from common import Blocked
@@ -178,13 +179,23 @@ def openstates(ctx):
         return []
     items = []
     queries = ctx.cfg.get("openstates_queries", ["data center", "large load"])
+    ctx.http.pace("https://v3.openstates.org/", 6.5)       # free tier: 10 requests a minute
     for st in TRACKED_STATES:
         for q in queries:
+            url = (f"https://v3.openstates.org/bills?jurisdiction={quote(STATE_NAMES[st])}&q={quote(q)}"
+                   f"&updated_since={ctx.since}&sort=updated_desc&per_page=20&include=actions")
             try:
-                j = ctx.http.get(f"https://v3.openstates.org/bills?jurisdiction={quote(STATE_NAMES[st])}&q={quote(q)}"
-                                 f"&updated_since={ctx.since}&sort=updated_desc&per_page=20&include=actions",
-                                 headers={"X-API-KEY": key}).json()
-            except Blocked:
+                try:
+                    j = ctx.http.get(url, headers={"X-API-KEY": key}).json()
+                except Blocked as e:
+                    if "429" not in str(e):
+                        raise
+                    time.sleep(65)                           # minute window reset, then one retry
+                    j = ctx.http.get(url, headers={"X-API-KEY": key}).json()
+            except Blocked as e:
+                if "429" in str(e):
+                    ctx.record("openstates", "rate_limited", f"stopped at {st} / {q}; the rest next night")
+                    return items
                 raise
             except Exception as e:
                 ctx.log(f"openstates {st} {q}: {e!r}"[:200])
@@ -215,6 +226,7 @@ def courtlistener(ctx):
     queries = ctx.cfg.get("court_queries", [])
     if not tok:
         queries = queries[:2]   # keyless use is rate-limited hard; a free token lifts it
+    ctx.http.pace("https://www.courtlistener.com/", 13)    # the search API throttles at 5 requests a minute
     for q in queries:
         court = None
         if isinstance(q, dict):     # {q: ..., court: "texapp tex ..."} restricts a query to named courts
@@ -225,10 +237,18 @@ def courtlistener(ctx):
             url = (f"https://www.courtlistener.com/api/rest/v4/search/?type={typ}&order_by=dateFiled%20desc"
                    f"&filed_after={ctx.since}&q={quote(q)}" + (f"&court={quote(court)}" if court else ""))
             try:
-                j = ctx.http.get(url, headers=hdr).json()
+                try:
+                    j = ctx.http.get(url, headers=hdr).json()
+                except Blocked as e:
+                    if "429" not in str(e):
+                        raise
+                    time.sleep(65)
+                    j = ctx.http.get(url, headers=hdr).json()
             except Blocked as e:
                 if "429" in str(e):
-                    ctx.record("courtlistener", "rate_limited", "add repo secret COURTLISTENER_TOKEN (free account) for full coverage")
+                    ctx.record("courtlistener", "rate_limited",
+                               "throttled after a retry; the rest next night" if tok else
+                               "add repo secret COURTLISTENER_TOKEN (free account) for full coverage")
                     return items
                 raise
             except Exception as e:

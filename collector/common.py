@@ -175,7 +175,7 @@ class Http:
                     try:
                         cd = rp.crawl_delay(ua)
                         rr = rp.request_rate(ua)
-                        hs.min_gap = max(float(cd or 0), (rr.seconds / rr.requests) if rr and rr.requests else 0.0)
+                        hs.min_gap = max(hs.min_gap, float(cd or 0), (rr.seconds / rr.requests) if rr and rr.requests else 0.0)
                         if hs.min_gap:
                             hs.robots_note = f"crawl delay {hs.min_gap:g}s honoured"
                     except Exception:
@@ -191,6 +191,11 @@ class Http:
             rp.disallow_all = True
         hs.robots = rp
         return hs
+
+    def pace(self, url: str, seconds: float):
+        """Minimum gap between requests to this host (an API's published per-minute limit)."""
+        hs = self._host(url)
+        hs.min_gap = max(hs.min_gap, seconds)
 
     def allowed(self, url: str) -> bool:
         return self._robots(url).robots.can_fetch(UA, url)
