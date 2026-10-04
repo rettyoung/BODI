@@ -159,7 +159,7 @@ minute) and CourtListener search (5 a minute) are paced to their limits, with on
 | `COURTLISTENER_TOKEN` | Full-rate court search (all queries, federal RECAP dockets) |
 | `EIA_API_KEY` | EIA-860M without the DEMO_KEY rate limit |
 | `CONGRESS_API_KEY` | congress.gov without the DEMO_KEY rate limit |
-| `REGULATIONS_GOV_API_KEY` — *adapter built 4 Oct* | Regulations.gov: DOE / EPA / NRC documents on the beat, and comments by watched parties in those dockets (runs on DEMO_KEY until the secret exists) |
+| `REGULATIONS_GOV_API_KEY` — *adapter built 4 Oct* | Regulations.gov: DOE / EPA / NRC documents on the beat, and comments by watched parties in those dockets |
 | `ERCOT_API_SUBSCRIPTION_KEY` + `ERCOT_API_USERNAME` + `ERCOT_API_PASSWORD` | ERCOT Public API report archives (large-load data products by EMIL id). All three are needed: the API takes the subscription key plus a sign-in token made from the ERCOT account's username and password |
 | `PJM_API_KEY` | PJM Data Miner 2 (capacity and market data; adapter not built). Not needed for the queue, which is collected from PJM's public exports since 4 Oct. Account Manager would not offer Data Miner access on Rett's account (4 Oct); PJM Member Relations can fix that |
 
