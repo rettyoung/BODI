@@ -20,6 +20,35 @@ jobs:
           sudo apt-get update -q && sudo apt-get install -y -q poppler-utils tesseract-ocr
           pip install -q -r requirements.txt
           python -m playwright install --with-deps chromium
+      - name: Secret presence (names only — never values)
+        env:
+          S_OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY != '' }}
+          V_OPENSTATES_API_KEY: ${{ vars.OPENSTATES_API_KEY != '' }}
+          S_EIA_API_KEY: ${{ secrets.EIA_API_KEY != '' }}
+          V_EIA_API_KEY: ${{ vars.EIA_API_KEY != '' }}
+          S_COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN != '' }}
+          V_COURTLISTENER_TOKEN: ${{ vars.COURTLISTENER_TOKEN != '' }}
+          S_CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY != '' }}
+          V_CONGRESS_API_KEY: ${{ vars.CONGRESS_API_KEY != '' }}
+          S_REGULATIONS_GOV_API_KEY: ${{ secrets.REGULATIONS_GOV_API_KEY != '' }}
+          V_REGULATIONS_GOV_API_KEY: ${{ vars.REGULATIONS_GOV_API_KEY != '' }}
+          S_NRC_APS_KEY: ${{ secrets.NRC_APS_KEY != '' }}
+          V_NRC_APS_KEY: ${{ vars.NRC_APS_KEY != '' }}
+          S_ERCOT_API_SUBSCRIPTION_KEY: ${{ secrets.ERCOT_API_SUBSCRIPTION_KEY != '' }}
+          V_ERCOT_API_SUBSCRIPTION_KEY: ${{ vars.ERCOT_API_SUBSCRIPTION_KEY != '' }}
+          S_ERCOT_API_USERNAME: ${{ secrets.ERCOT_API_USERNAME != '' }}
+          V_ERCOT_API_USERNAME: ${{ vars.ERCOT_API_USERNAME != '' }}
+          S_ERCOT_API_PASSWORD: ${{ secrets.ERCOT_API_PASSWORD != '' }}
+          V_ERCOT_API_PASSWORD: ${{ vars.ERCOT_API_PASSWORD != '' }}
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          names = ['OPENSTATES_API_KEY', 'EIA_API_KEY', 'COURTLISTENER_TOKEN', 'CONGRESS_API_KEY', 'REGULATIONS_GOV_API_KEY', 'NRC_APS_KEY', 'ERCOT_API_SUBSCRIPTION_KEY', 'ERCOT_API_USERNAME', 'ERCOT_API_PASSWORD']
+          out = {n: {"repository_secret": os.environ.get("S_" + n) == "true", "repository_variable": os.environ.get("V_" + n) == "true"} for n in names}
+          os.makedirs("data/debug", exist_ok=True)
+          json.dump(out, open("data/debug/secret_presence.json", "w"), indent=1)
+          print(json.dumps(out, indent=1))
+          EOF
       - working-directory: collector
         env:
           # the same repo secrets as the nightly run, so keyed adapters can be tested on demand (masked in logs)
