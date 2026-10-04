@@ -1,0 +1,5372 @@
+[
+ {
+  "url": "https://www.fairfaxcounty.gov/boardofsupervisors/2026-board-meetings",
+  "render": false,
+  "robots_status": 200,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "text/html; charset=UTF-8",
+  "final_url": "https://www.fairfaxcounty.gov/boardofsupervisors/2026-board-meetings",
+  "len": 133629,
+  "head": "<!DOCTYPE html>\n<html  lang=\"en\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# \">\n  <head><script src=\"/prod_common.js?matcher\"></script><script src=\"/prod_common.js?single\"></script>\n    <meta charset=\"utf-8\" />\n<meta name=\"description\" content=\"Fairfax County, Virginia - This the schedule of 2026 Fairfax County Board of Supervisors and Committee Meetings.\" />\n<meta name=\"keywords\" content=\"BOS\" />\n<meta name=\"Last-Modified\" content=\"2026-09-29T14:41:56-04:00\" />\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-Y0MWKLSD2V\"></script>\n<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag(\"js\", new Date());gtag(\"set\", \"developer_id.dMDhkMT\", true);gtag(\"config\", \"G-Y0MWKLSD2V\", {\"groups\":\"default\",\"page_placeholder\":\"PLACEHOLDER_page_location\"});gtag(\"config\", \"G-P0M7YK9ZWG\", {\"groups\":\"default\",\"page_placeholder\":\"PLACEHOLDER_page_location\"});</script>\n<meta name=\"MobileOptimized\" content=\"width\" />\n<meta name=\"HandheldFriendly\" content=\"true\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<link rel=\"icon\" href=\"/boardofsupervisors/themes/bootstrap-8.x-3.0-rc2/",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_www.fairfaxcounty.gov_boardofsupervisors_2026-board-meetings.txt",
+  "n_links": 436,
+  "links": [
+   [
+    "https://www.fairfaxcounty.gov/",
+    ""
+   ],
+   [
+    "https://www.fairfaxcounty.gov/",
+    ""
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/",
+    "Board Homepage"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/bacs",
+    "Boards, Authorities and Commissions"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/committees",
+    "Board Committees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/members-and-districts",
+    "Board Members and Districts"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/priorities",
+    "Board Priorities"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/2026-board-meetings",
+    "2026 Meetings Schedule"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-meetings-archive",
+    "Meetings Archive"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/board-meeting-summaries",
+    "Summaries Archive"
+   ],
+   [
+    "http://video.fairfaxcounty.gov/ViewPublisher.php?view_id=7",
+    "Board Meetings Video Archive"
+   ],
+   [
+    "http://video.fairfaxcounty.gov/ViewPublisher.php?view_id=9",
+    "Committee Meetings Video Archive"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/about-board-meetings",
+    "About Board Meetings"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-presentations",
+    "Presentations"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/calendar/?c=1",
+    "Public Meetings Calendar"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/regional-calendars",
+    "Regional Meetings Calendars"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/animals-and-pets",
+    "Animals &amp; Pets"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/animalservices/adopt",
+    "Adoptions"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/police/specializedunits/animalprotectionpolice",
+    "Animal Control &amp; Regulations"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/guides/dogs",
+    "Guide to Dogs"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/animalservices/lostandfoundpets",
+    "Lost &amp; Found Pets"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/animalservices/donate",
+    "Shelter Support &amp; Supplies"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/wildlife",
+    "Wildlife"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/animals-and-pets",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/courts-and-legal",
+    "Courts &amp; Legal"
+   ],
+   [
+    "https://eapps.courts.state.va.us/gdcourts/captchaVerification.do?landing=landing",
+    "Case Information"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/circuitcourtdocket/",
+    "Circuit Court Docket"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/circuit/jury/general-information",
+    "Jury Duty"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/circuit/land-records/general-information",
+    "Land Records"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/courts/magistrate",
+    "Magistrate"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/public-law-library",
+    "Public Law Library"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/courthouse-self-help-center",
+    "Self-Help Resources"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/generaldistrict/traffic",
+    "Traffic Court"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health/vital-records",
+    "Vital Records"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/courts-and-legal",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/environment",
+    "Environment &amp; Energy"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/invasive-species",
+    "Invasive Species"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/litter",
+    "Litter"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/recycle",
+    "Recycle, Trash &amp; Compost"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/sustain-fairfax",
+    "Sustain Fairfax"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/trees",
+    "Trees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/stormwater",
+    "Watersheds"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/environment/",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health-humanservices",
+    "Health &amp; Human Services"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/basic-needs-assistance",
+    "Basic Needs &amp; Assistance"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/familyservices/disabilities",
+    "Disability Services"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health/diseases-conditions",
+    "Diseases &amp; Conditions"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/familyservices/domestic-sexual-violence",
+    "Domestic &amp; Sexual Violence"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health/clinics",
+    "Health Clinics"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/community-services-board/mental-health",
+    "Mental Health"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/opioids",
+    "Opioids"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health-humanservices/",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/individuals-and-families",
+    "Individuals &amp; Families"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/children-and-youth",
+    "Children &amp; Youth"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/federal-government-resource-hub",
+    "Federal Workforce"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/immigrants-fairfax-county",
+    "Immigrants"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/military-veterans",
+    "Military &amp; Veterans"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/guides/moving-to-fairfax",
+    "New Residents"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/familyservices/older-adults",
+    "Older Adults"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/parents",
+    "Parents"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/people-with-disabilities",
+    "People with Disabilities"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/volunteering",
+    "Volunteers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/individuals-and-families",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/land-use-and-planning",
+    "Land Use &amp; Planning"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planning-zoning/fairfax-county-comprehensive-plan",
+    "Comprehensive Plan"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/capital-projects",
+    "County Capital Projects"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/data-centers",
+    "Data Centers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/circuit/land-records/general-information",
+    "Land Records"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/planning-development/planning",
+    "Parks Planning"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planning-zoning/projects-and-initiatives",
+    "Planning Projects"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planning-development/land-use-research",
+    "Research Tools"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/transportation/projects",
+    "Transportation Projects"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planning-development/urban-centers",
+    "Urban Centers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/land-use-and-planning",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/library-and-education",
+    "Library &amp; Education"
+   ],
+   [
+    "https://www.fcps.edu/academics/adult-and-community-education-ace-overview",
+    "Adult Education"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/early-childhood-programs-services",
+    "Early Childhood Programs"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/library/branches",
+    "Library Branches"
+   ],
+   [
+    "https://fcplcat.fairfaxcounty.gov/",
+    "Library Catalog Search"
+   ],
+   [
+    "https://www.fcps.edu/",
+    "Public Schools"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/library-and-education",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/recreation-and-parks",
+    "Parks &amp; Recreation"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/arts",
+    "Arts"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/athletic-fields",
+    "Athletic Fields"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/camps",
+    "Camps"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/community-centers",
+    "Community Centers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/parktakes",
+    "Parktakes Classes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/reccenter",
+    "Rec Centers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/senior-centers",
+    "Senior Centers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/teen-centers",
+    "Teen Centers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/trails/",
+    "Trails"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/recreation-and-parks",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/permits-and-licenses",
+    "Permits &amp; Licenses"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health/vital-records",
+    "Birth &amp; Death Certificates"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/landdevelopment/building-permits",
+    "Building"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/ceps",
+    "Child Care"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/dog-license-information",
+    "Dogs"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health/permits",
+    "Health"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/circuit/marriage/marriage-license-information",
+    "Marriage"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/permits",
+    "Park Use"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/cableconsumer/csd/regulation-licensing/canvassers-peddlers-promoters-solicitors",
+    "Solicitors"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/permits-and-licenses",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/property-and-housing",
+    "Property &amp; Housing"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/housing/",
+    "Affordable Housing"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/code",
+    "Code &amp; Zoning"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/neighborhoods",
+    "Neighborhoods"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/real-estate",
+    "Real Estate Values"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/recycling-and-trash",
+    "Recycling &amp; Trash"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/cableconsumer/csd/tenant-landlord",
+    "Tenant Landlord Issues"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/cableconsumer/csd/utility-and-cable-providers",
+    "Utilities"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/property-and-housing",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/public-safety-and-emergencies",
+    "Public Safety &amp; Emergencies"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/911",
+    "9-1-1"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/emergency",
+    "Emergency Preparedness"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/fire-ems",
+    "Fire &amp; Rescue"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/news/resources-to-help-prevent-gun-violence",
+    "Gun Violence Prevention"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/police",
+    "Police"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/scams",
+    "Scams"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/sheriff",
+    "Sheriff"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/emergency/stormcenter",
+    "Storm Center"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/public-safety-and-emergencies",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/roads-and-commuting",
+    "Roads &amp; Commuting"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/transportation/bike-walk",
+    "Bike &amp; Walk"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/connector",
+    "Connector Bus"
+   ],
+   [
+    "https://www.wmata.com/",
+    "Metrobus &amp; Metrorail"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/connector/park-and-ride",
+    "Park &amp; Ride"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/pedestrian-bike-traffic-safety",
+    "Pedestrian Safety"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
+    "Road Maintenance/VDOT"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/transportation/parking",
+    "Street Parking"
+   ],
+   [
+    "https://www.tollroadsinvirginia.com/",
+    "Toll Roads"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/transportation/projects",
+    "Transportation Projects"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/roads-and-commuting",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/taxes-and-fees",
+    "Taxes &amp; Fees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/vehicles",
+    "Car Taxes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/fees",
+    "Park Fees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/real-estate",
+    "Real Estate Taxes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/relief",
+    "Tax Relief"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/recycling-trash/residential-disposal-fees-and-regulations",
+    "Trash Disposal Fees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/taxes-and-fees",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/",
+    "Voting &amp; Elections"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/absentee",
+    "Absentee Voting"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/early-voting",
+    "Early Voting"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/returns",
+    "Election Results"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/precincts",
+    "Polling Places"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/voter-registration",
+    "Voter Registration"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/news/weather/",
+    "Weather &amp; Climate"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/emergency/air-quality",
+    "Air Quality"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/environment-energy-coordination/climate-action",
+    "Climate Action Dashboard"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/extreme-heat-resources",
+    "Extreme Heat"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/flood-info",
+    "Floods"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/emergency/readyfairfax",
+    "Ready Fairfax"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/environment-energy-coordination/resilient-fairfax",
+    "Resilient Fairfax"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/snow/",
+    "Snow"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/news/guide-tornado-preparedness-fairfax-county",
+    "Tornadoes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/news/weather/",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/business-construction",
+    "Business &amp; Construction"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/landdevelopment/building-permits",
+    "Building Permits"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/code",
+    "Code &amp; Zoning"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/land-use-and-planning",
+    "Land Use"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/business-construction",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/business-services",
+    "Business Services"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/emergency/readyfairfax/businesspreparedness",
+    "Business Emergency Preparedness"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/business",
+    "Business Taxes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/cableconsumer/csd/consumer",
+    "Consumer Services"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/transportation/commuter-services",
+    "Employer Transportation Service"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/energy/greenbusiness",
+    "Green Business Partners Program"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planning-development/zoning/home-based-business",
+    "Home-Based Business"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/cableconsumer/csd/regulation-licensing",
+    "Regulation &amp; Licensing"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/small-business-commission/",
+    "Small Business"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/starting-business",
+    "Starting a Business"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/humanrights/",
+    "Workplace Issues"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/business-services",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/doing-business-fairfax-county",
+    "Doing Business with Fairfax"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/procurement",
+    "Contracting and Procurement"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/procurement/contracting-opportunities",
+    "Current Solicitations"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/permits-and-licenses",
+    "Permits"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/procurement/vendor-pitch-portal",
+    "Vendor Pitch Portal"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/doing-business-fairfax-county",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/about-fairfax-county",
+    "About"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/codes-and-standards",
+    "Codes &amp; Standards"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/strategicplan/",
+    "Countywide Strategic Plan"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/facilities-and-locations",
+    "Facilities &amp; Locations"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/history",
+    "History of Fairfax County"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/status",
+    "Operating Status"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/about-fairfax-county",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/",
+    "Board of Supervisors"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardauditor/",
+    "Auditor"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/members-and-districts",
+    "Board Members"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/bacs",
+    "Boards, Authorities &amp; Commissions"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/bosclerk/",
+    "Clerk Services"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/committees",
+    "Committees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/2026-board-meetings",
+    "Meetings &amp; Agendas"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/budget-finance",
+    "Budget &amp; Finance"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/bond",
+    "Bonds"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/budget",
+    "Budget"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/financial-transparency",
+    "Financial Transparency"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/finance/AccountsPayable/UnclaimedMoney",
+    "Unclaimed Money"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/budget-finance",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/departments-and-agencies",
+    "Departments &amp; Agencies"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/jobs",
+    "Jobs &amp; Employment"
+   ],
+   [
+    "https://www.governmentjobs.com/careers/fairfaxcounty",
+    "Full-Time Openings"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/hr/non-merit-internships",
+    "Internships"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/hr/non-merit-fairfax-county-jobs",
+    "Seasonal &amp; Non-Merit"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/maps-data",
+    "Maps &amp; Data"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/data/",
+    "Countywide Data Analytics"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/demographics",
+    "Demographics"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/maps",
+    "Geographic Information Systems"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/demographics/data-visualization-gallery",
+    "Interactive Data Tools"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/maps-data",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/one-fairfax",
+    "One Fairfax"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/digital-equity",
+    "Digital Equity"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/inclusive-community-engagement",
+    "Inclusive Engagement"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/trust-policy",
+    "Trust Policy"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/",
+    ""
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/find",
+    "Find"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/animalservices/",
+    "Animal Services"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health/clinics",
+    "Health Clinics"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/jobs",
+    "Jobs"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/library",
+    "Library Resources"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/animalservices/lostandfoundpets",
+    "Lost or Found Pet"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/community-services-board/mental-health",
+    "Mental Health Support"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/parktakes",
+    "Park Classes"
+   ],
+   [
+    "https://icare.fairfaxcounty.gov/ffxcare/",
+    "Real Estate Values"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/recycling-and-trash",
+    "Recycling &amp; Trash"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/volunteering",
+    "Volunteer Opportunities"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/find",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/pay",
+    "Pay"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/business",
+    "Business Taxes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/dta_mobileepay/",
+    "Car Taxes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/dog-license-information",
+    "Dog Licenses"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/driving-parking-fine-payments",
+    "Driving &amp; Parking Fines"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/policefalsealarm/",
+    "False Alarm Fees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/dta_mobileepayre/",
+    "Real Estate/Property Taxes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/ofc/saccpayments/",
+    "SACC Payments"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/pay",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/registerapply",
+    "Register/Apply"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/coordinated-services-planning",
+    "Basic Needs &amp; Assistance"
+   ],
+   [
+    "https://plus.fairfaxcounty.gov/",
+    "Building Inspections"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/vehicles/register-update-preface",
+    "Car Registration"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/alerts",
+    "Fairfax Alerts"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/permits-and-licenses",
+    "Permits &amp; Licenses"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/relief/tax-relief-seniors-people-with-disabilities",
+    "Tax Relief"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/voter-registration",
+    "Vote"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/registerapply",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/report",
+    "Report"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/police/specializedunits/animalprotectionpolice",
+    "Animal Control Issues"
+   ],
+   [
+    "https://dccs.powerappsportals.us/file-a-complaint",
+    "Consumer Complaints"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/police/howdoi/communityreportingsystem",
+    "Crime"
+   ]
+  ]
+ },
+ {
+  "url": "https://www.fultoncountyga.gov/Commissioners/Agenda-Minutes",
+  "render": false,
+  "robots_status": 200,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "final_url": "https://www.fultoncountyga.gov/Commissioners/Agenda-Minutes",
+  "len": 244813,
+  "head": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n    <!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-151756342-1\"></script>\r\n    <script>\r\n        window.dataLayer = window.dataLayer || [];\r\n\r\n        function gtag() { dataLayer.push(arguments); }\r\n\r\n        gtag('js', new Date());\r\n\r\n        gtag('config','UA-151756342-1');\r\n    </script>\r\n\r\n\r\n\r\n    <meta charset=\"UTF-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n\r\n\r\n    \r\n\r\n\r\n    <!-- Critical CSS -->\r\n    <style type=\"text/css\">\r\n        @media print{*{-webkit-print-color-adjust:exact !important}}html{font-size:16px}@media only screen and (max-width: 320px){html{font-size:12px}}body{font-family:'Open Sans', sans-serif;font-weight:400;font-size:16px;line-height:1.5}h1,h2,h3,h4,h5,h6{font-family:'Oswald', sans-serif;font-weight:500;text-transform:uppercase;color:#002D53;margin-bottom:20px}h1{font-size:3.5rem}h2{font-size:3.25rem}h3{font-size:2rem}h4{font-size:1.75rem}img{max-width:100%}label,.label{margin:0}a{cursor:pointer;color:#004EA5;text-decoration:underline}@media all and (-ms-high-contrast: none){svg{max-height:1em;max-width:1em}}#scWebEditRibbon{z-index:10000 !important}.main-heading{position:absolute;opacity:0;z-index:-99999}.button-primary{font-family:'Open Sans', sans-serif;font-weight:700;font-size:.875rem;letter-spacing:1px;display:table;border-radius:30px;padding:15px ",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_www.fultoncountyga.gov_Commissioners_Agenda-Minutes.txt",
+  "n_links": 285,
+  "links": [
+   [
+    "https://twitter.com/fultoninfo?lang=en",
+    "Twitter"
+   ],
+   [
+    "https://www.instagram.com/fultoninfo/?hl=en",
+    "Instagram"
+   ],
+   [
+    "https://www.facebook.com/fultoninfo/",
+    "Facebook"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections",
+    "Elections"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Jobs",
+    "Jobs"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Calendar",
+    "Calendar"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commission-District-Finder",
+    "Commission District Finder"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Payments",
+    "Payments"
+   ],
+   [
+    "https://www.fultoncountyga.gov/News",
+    "News"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Maps",
+    "Maps"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Customer-Service",
+    "Customer Service"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Watch-FGTV",
+    "Watch FGTV"
+   ],
+   [
+    "https://www.fultoncountyga.gov/",
+    ""
+   ],
+   [
+    "https://visitor.r20.constantcontact.com/manage/optin?v=001pRmNkNNhb38xsI9BKzPGAT6VX8gu-AdhuhhypsqgiD4L_n71y2QtjvjalpJ0jMH4yHmAnfjHZ4_UY1WVZXtiAPhvFMP23kGALCNjleiUzU0%3D",
+    "Email Newsletters"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services",
+    "Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Licenses-and-Certificates",
+    "License &amp; Certificates"
+   ],
+   [
+    "https://www.fultonprobatega.org/195/Marriage-Licenses",
+    "Marriage License"
+   ],
+   [
+    "https://www.fultonprobatega.org/201/Weapons-Carry-Licenses-WCL",
+    "Weapons Carry Licenses"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Clerk-of-Superior-Court/Passports",
+    "Passports"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Clerk-of-Superior-Court/Notary",
+    "Notary"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Licenses-and-Certificates",
+    "See All  License &amp; Certificates links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections",
+    "Voting &amp; Elections"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections/Absentee-Voting",
+    "Absentee Voting"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections/Become-a-Poll-Worker",
+    "Become a Poll Worker"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections/Early-Voting-Locations",
+    "Early Voting Locations"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections/Voter-Registration",
+    "Voter Registration"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections",
+    "See All  Voting &amp; Elections links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Health-Services",
+    "Health Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Behavioral-Health-and-Developmental-Disabilities",
+    "Behavioral Health &amp; Developmental Disabilities"
+   ],
+   [
+    "https://fultoncountyboh.com/environmental-health/food-service/",
+    "Food Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Health-Services/HIV-Services",
+    "HIV Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Health-Services",
+    "See All  Health Services links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Libraries-Arts-and-Cooperative-Extension",
+    "Libraries &amp; Arts"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Library",
+    "Library Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Arts-and-Culture",
+    "Art Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Cooperative-Extension/Become-a-Community-Gardener",
+    "Community Gardening"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Cooperative-Extension",
+    "Cooperative Extension"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Libraries-Arts-and-Cooperative-Extension",
+    "See All  Libraries &amp; Arts links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services",
+    "Animal Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services/Adopt-or-Foster",
+    "Adopt/Foster"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services/Pet-Registration",
+    "Pet Registration"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services/Report-a-Stray",
+    "Report a Stray"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services/Rescue-Groups",
+    "Rescue Groups"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services/Animal-Shelter-Volunteer",
+    "Animal Shelter Volunteers"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services",
+    "See All  Animal Services links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Youth",
+    "Youth"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Cooperative-Extension/4H-Program",
+    "4-H Program"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Behavioral-Health-and-Developmental-Disabilities/Child-or-Adolescent-Behavioral-Health-Services",
+    "Child &amp; Adolescent Behavioral Health"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/WorkSource-Fulton/Job-Training-and-GED-Resources",
+    "Job Training &amp; GED Resources"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Community-Development/Youth-Commission",
+    "Youth Commission"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Youth",
+    "See All  Youth links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services",
+    "Seniors"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/Senior-Virtual-Classes",
+    "Senior Virtual Classes"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/Home-Delivered-Meals",
+    "Home Delivered Meals"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/In-Home-Services",
+    "In-Home Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/Senior-Centers",
+    "Senior Centers"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services",
+    "See All  Seniors links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Water-Services",
+    "Water"
+   ],
+   [
+    "https://www.fultoncountyga.gov/-/media/Departments/Public-Works/Water-Quality-Reports/2022-CCR_FINAL.pdf",
+    "2026 Water Quality Report"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Water-Services/Emergency-Repairs",
+    "Emergency Water/ Sewer Repairs"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Water-Services/Establish-New-Water-Services",
+    "Establish New Water Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Water-Services/Pay-Your-Water-Bill",
+    "Pay Your Water Bill"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Water-Services/Water-Conservation",
+    "Water Conservation"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Water-Services",
+    "See All  Water links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Public-Safety",
+    "Public Safety"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Emergency-Services",
+    "911 (Emergency Services)"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Medical-Examiner/Death-Investigations",
+    "Death Investigations"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Sheriff/Jail",
+    "Jail Information"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Atlanta-Fulton-Emergency-Management-Agency/Plan-and-Prepare",
+    "Plan and Prepare"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Police/Obtaining-a-Police-Report",
+    "Police Reports"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Sheriff/Law-Enforcement/Sex-Offender-Search",
+    "Sex Offender Information"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Public-Safety",
+    "See All  Public Safety links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Court-Services",
+    "Courts"
+   ],
+   [
+    "https://www.fultonprobatega.org/196/Decedents-Estates",
+    "Estates and Wills"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Marshal/Evictions",
+    "Evictions"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Superior-Court/Jury-Duty",
+    "Jury Duty"
+   ],
+   [
+    "https://www.fultonprobatega.org/",
+    "Probate Information Center"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Court-Services",
+    "See All  Courts links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Human-Services",
+    "Human Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Community-Development/Homeless-Services",
+    "Homeless Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/Indigent-Burials",
+    "Indigent Burials"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Community-Development/Community-Service-Programs",
+    "Community Service Programs"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Human-Services",
+    "See All  Human Services links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Other-Government",
+    "Other"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Other-Government/City-Services",
+    "City Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Diversity-and-Civil-Rights-Compliance/Disability-Affairs-and-Accommodation",
+    "Disability Affairs/Accommodation"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Office-of-the-County-Auditor/Title-VI-Reports",
+    "Title VI"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Other-Government/Trash-Services-for-Cities",
+    "Trash Services for Cities"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Other-Government/Veteran-Resources",
+    "Veteran Resources"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Other-Government",
+    "See All  Other links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services",
+    "See All Services  Services links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles",
+    "Property and Vehicles"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles/Property",
+    "Property"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Board-of-Assessors/Boards-of-Equalization",
+    "Boards of Equalization"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Board-of-Assessors/Appealing-Your-Assessment",
+    "File an Appeal"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Board-of-Assessors/Homestead-Exemptions",
+    "Homestead Exemptions"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Board-of-Assessors/Property-Assessments",
+    "Property Assessments"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Tax-Commissioner/Property-Taxes",
+    "Property Taxes"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles/Property",
+    "See All  Property links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles/Vehicles",
+    "Vehicles"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Marshal/Get-Vehicle-Out-of-Impound",
+    "Get a Vehicle Out of Impound"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Tax-Commissioner/Vehicle-Tags",
+    "Vehicle Tags"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles/Vehicles",
+    "See All  Vehicles links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles/Water",
+    "Water"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles/Water/Emergency-Repairs",
+    "Emergency Water/Sewer Repairs"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles/Water/Establish-New-Water-Services",
+    "Establish New Water Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles/Water/Pay-Your-Water-Bill",
+    "Pay Your Water Bill"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles/Water/Water-Conservation",
+    "Water Conservation"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles/Water/Water-Leak-Adjustment-Request",
+    "Water Leak Adjustment"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles/Water",
+    "See All  Water links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Property-and-Vehicles",
+    "See All  Property and Vehicles links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Business-Services",
+    "Business Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Business-Services/Do-Business-with-Fulton-County",
+    "Doing Business with FC"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Purchasing-and-Contract-Compliance/Vendor-Registration-Information",
+    "Vendor Registration Information"
+   ],
+   [
+    "https://www.bidnetdirect.com/georgia/fultoncounty",
+    "Bid Board (Bid Opportunities)"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Purchasing-and-Contract-Compliance/MFBE-Registration",
+    "MFBE Registration"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Purchasing-and-Contract-Compliance",
+    "Purchasing &amp; Contract Compliance Contact Us"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Purchasing-and-Contract-Compliance/Vendor-Workshops",
+    "Vendor Training"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Purchasing-and-Contract-Compliance/Bid-Opportunities",
+    "Bid Opportunity FAQs"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Business-Services/Do-Business-with-Fulton-County",
+    "See All  Doing Business with FC links"
+   ],
+   [
+    "https://www.bidnetdirect.com/georgia/fultoncounty",
+    "Bid Opportunities"
+   ],
+   [
+    "http://bidboard.fultoncountyga.gov/Apps/bidboard/MainSearchPage.php",
+    "Bid Board Archives"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Real-Estate-and-Asset-Management/Land-Division/Surplus-Real-Estate-for-Sale",
+    "Surplus Real Estate for Sale"
+   ],
+   [
+    "https://www.bidnetdirect.com/georgia/fultoncounty",
+    "Bid Opportunities  Bid Opportunities links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Business-Services/Economic-Development",
+    "Economic Development"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Select-Fulton",
+    "Select Fulton"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Select-Fulton/Fulton-Films",
+    "Fulton Films"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Select-Fulton",
+    "Locate a Business in Fulton"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/WorkSource-Fulton",
+    "Workforce Development"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Business-Services/Economic-Development",
+    "See All  Economic Development links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Business-Services/Permits-and-Inspections",
+    "Permits and Inspections"
+   ],
+   [
+    "https://fultoncountyboh.com/environmental-health/food-service/",
+    "Restaurant Inspections"
+   ],
+   [
+    "https://fultoncountyboh.com/environmental-health/inspections-non-food/hotel-motel-inspections/",
+    "Hotel and Motel Inspections"
+   ],
+   [
+    "https://fultoncountyboh.com/environmental-health/inspections-non-food/pool-inspections/",
+    "Pool Inspections"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Finance/Business-Licenses",
+    "Business Licenses"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Atlanta-Fulton-Emergency-Management-Agency/LEPC-E-Plan-Tier-II-Reporting",
+    "E-Plan Tier II Reporting"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Business-Services/Permits-and-Inspections",
+    "See All  Permits and Inspections links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Business-Services",
+    "See All  Business Services links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Courts-and-Justice-Agencies",
+    "Courts"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Courts-and-Justice-Agencies",
+    "Courts"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Superior-Court",
+    "Superior Court"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/State-Court",
+    "State Court"
+   ],
+   [
+    "https://www.fultonprobatega.org/",
+    "Probate Court"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Magistrate-Court",
+    "Magistrate Court"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Juvenile-Court",
+    "Juvenile Court"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Courts-and-Justice-Agencies",
+    "See All  Courts links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Courts-and-Justice-Agencies",
+    "Justice Agencies"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Sheriff",
+    "Sheriff"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/District-Attorney",
+    "District Attorney"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Solicitor-General",
+    "Solicitor General"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Public-Defender",
+    "Public Defender"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Marshal",
+    "Marshal"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Courts-and-Justice-Agencies",
+    "See All  Justice Agencies links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Court-Services",
+    "Court Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Superior-Court/Jury-Duty",
+    "Jury Duty"
+   ],
+   [
+    "https://www.fultonprobatega.org/195/Marriage-Licenses",
+    "Marriage Licenses"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Clerk-of-Superior-Court/Notary",
+    "Becoming a Notary"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Solicitor-General/Victims-Services",
+    "Victim Services"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Services/Court-Services",
+    "Court Services  Court Services links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Courts-and-Justice-Agencies",
+    "See All  Courts links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners",
+    "Commissioners"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners",
+    "Board of Commissioners"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Robb-Pitts",
+    "Chairman Robb Pitts"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Bridget-Thorne",
+    "Commissioner Bridget Thorne"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Bob-Ellis",
+    "Commissioner Bob Ellis"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Dana-Barrett",
+    "Commissioner Dana Barrett"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Marvin-Arrington",
+    "Commissioner Marvin Arrington"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Khadijah-Abdur-Rahman",
+    "Vice Chair Khadijah Abdur-Rahman"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners",
+    "Commissioners  Board of Commissioners links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission",
+    "Clerk to the Commission"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Code-of-Ethics",
+    "Code of Ethics"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Code-of-Georgia",
+    "Code of Georgia"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Code-of-Laws",
+    "Code of Law"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Public-Notices",
+    "Public Notices"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission",
+    "See All  Clerk to the Commission links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Board-of-Commissioners-Meeting-Schedule",
+    "BOC Meeting Schedule"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Agenda-Minutes",
+    "Agendas and Minutes"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Watch-Past-Meetings",
+    "Watch Previous Board Meetings"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commissioners",
+    "See All  Commissioners links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Get-Involved",
+    "Get Involved"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Get-Involved/Citizen-Engagement",
+    "Citizen Engagement"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections/Become-a-Poll-Worker",
+    "Become a Poll Worker"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Calendar",
+    "Calendar of Events"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/External-Affairs/Fulton-County-Citizens-University",
+    "Fulton County Citizen University"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/District-Attorney/CourtWatch",
+    "CourtWatch"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Get-Involved/Citizen-Engagement",
+    "See All  Citizen Engagement links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Get-Involved/Tours-and-Requests",
+    "Tours and Requests"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/External-Affairs/Request-a-Fulton-County-Speaker",
+    "Request a Fulton County Speaker"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/External-Affairs/Request-Proclamation",
+    "Request a Proclamation"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/External-Affairs/Tour-a-Fulton-County-Facility",
+    "Tour a Fulton County Facility"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Public-Works/Public-Education-and-Outreach/Facility-Tours",
+    "Tour a Water Facility"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Get-Involved/Tours-and-Requests",
+    "See All  Tours and Requests links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Get-Involved/Volunteer-Opportunities",
+    "Volunteer Opportunities"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/AmeriCorps-Senior-Companion-Program",
+    "AmeriCorps Senior Companion Program"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/Senior-Center-Volunteers",
+    "Senior Center Volunteers"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services/Animal-Shelter-Volunteer",
+    "Animal Shelter Volunteer"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Cooperative-Extension/Become-a-Master-Gardener",
+    "Become a Master Gardener"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Get-Involved/Volunteer-Opportunities",
+    "See All  Volunteer Opportunities links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Get-Involved/Youth-Programs",
+    "Youth Programs"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Cooperative-Extension/4H-Program?4-H Youth Development",
+    "4-H Youth Development"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Marshal/Marshals-Jr-Deputy-Program",
+    "Marshal&#39;s Department Jr Deputy Program"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Community-Development/Youth-Commission",
+    "Fulton County Youth Commission"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Get-Involved/Youth-Programs",
+    "See All  Youth Programs links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Get-Involved",
+    "See All  Get Involved links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County",
+    "Inside Fulton County"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/About-Fulton-County",
+    "About Fulton County"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/About-Fulton-County/Demographics",
+    "Demographics"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/About-Fulton-County/Governance",
+    "Governance"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/About-Fulton-County/History",
+    "History"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/About-Fulton-County/Organizational-Chart",
+    "Organizational Chart"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/About-Fulton-County",
+    "See All  About Fulton County links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Executive-Leadership",
+    "Executive Leadership"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/County-Manager-and-Team",
+    "County Manager and Team"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Executive-Leadership/County-Attorney",
+    "County Attorney"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Executive-Leadership/County-Auditor",
+    "County Auditor"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Executive-Leadership/Clerk-to-the-Commission",
+    "Clerk to the Commission"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Executive-Leadership",
+    "See All  Executive Leadership links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments",
+    "Fulton County Departments"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives",
+    "Fulton County Initiatives"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives/End-Human-Trafficking",
+    "End Human Trafficking"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives/End-Opioid-Abuse",
+    "End Opioid Abuse"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives/Infrastructure-For-All",
+    "Infrastructure For All"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives/Renew-the-District",
+    "Renew the District"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives/Sustainable-Fulton",
+    "Sustainable Fulton"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives",
+    "See All  Fulton County Initiatives links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Open-Government",
+    "Open Government"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Office-of-the-County-Auditor/Audit-Report",
+    "Audit Reports"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Open-Government/Budget",
+    "Budget"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Open-Government/Performance-Reporting",
+    "Performance Reporting"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Open-Government/Strategic-Plan",
+    "Strategic Plan"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Open-Government",
+    "See All  Open Government links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County",
+    "See All  Inside Fulton County links"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections",
+    "Elections"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Jobs",
+    "Jobs"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Calendar",
+    "Calendar"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Commission-District-Finder",
+    "Commission District Finder"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Payments",
+    "Payments"
+   ],
+   [
+    "https://www.fultoncountyga.gov/News",
+    "News"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Maps",
+    "Maps"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Customer-Service",
+    "Customer Service"
+   ],
+   [
+    "https://www.fultoncountyga.gov/Watch-FGTV",
+    "Watch FGTV"
+   ],
+   [
+    "https://twitter.com/fultoninfo?lang=en",
+    ""
+   ],
+   [
+    "https://www.instagram.com/fultoninfo/?hl=en",
+    ""
+   ],
+   [
+    "https://www.facebook.com/fultoninfo/",
+    ""
+   ],
+   [
+    "https://www.google.com/maps/place/141+Pryor+St+SW,+Atlanta,+GA+30303/@33.751422,-84.393632,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5039da35b24a5:0xb7d97e7eb909787b!8m2!3d33.751422!4d-84.3914433",
+    "141 Pryor St. SW   Atlanta, GA 30303"
+   ],
+   [
+    "https://www.google.com/maps/place/141+Pryor+St+SW,+Atlanta,+GA+30303/@33.751422,-84.393632,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5039da35b24a5:0xb7d97e7eb909787b!8m2!3d33.751422!4d-84.3914433",
+    ""
+   ],
+   [
+    "tel:404-612-4000",
+    "404-612-4000"
+   ],
+   [
+    "tel:404-612-4000",
+    ""
+   ],
+   [
+    "mailto:customerservice@fultoncountyga.gov",
+    "customerservice@fultoncountyga.gov"
+   ],
+   [
+    "https://www.fultoncountyga.gov/",
+    "Fulton Home"
+   ]
+  ]
+ },
+ {
+  "url": "https://henrico.gov/supervisors/supervisors-agenda-o-gram/",
+  "render": false,
+  "robots_status": 200,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "text/html; charset=UTF-8",
+  "final_url": "https://henrico.gov/supervisors/supervisors-agenda-o-gram/",
+  "len": 142566,
+  "head": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=yes' />\r\n    <!--    <script type=\"application/ld+json\">{ \"@context\": \"http://schema.org\", \"@type\": \"WebSite\", \"name\": \"Henrico\", \"url\": \"http://henrico.gov/\", \"potentialAction\": { \"@type\": \"SearchAction\", \"target\": \"http://henrico.gov/search/?q={search_term}\", \"query-input\": \"required name=search_term\" } }</script>-->\r\n\r\n    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />\n\n\t<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n\t<title>Agend-O-Gram &#187; Henrico County, Virginia</title>\n\t<meta name=\"description\" content=\"Agend-O-Gram Henrico, VA :: DateAgendaSummary (Agend-o-Gram)Minutes of Regular MeetingMinutes of Special MeetingTuesday, September 22, 2026Meeting, Agenda and Resume September\" />\n\t<link rel=\"canonical\" href=\"https://henrico.gov/supervisors/supervisors-agenda-o-gram/\" />\n\t<!-- / Yoast SEO plugin. -->\n\n\n<link rel='dns-prefetch' href='//www.google.com' />\n<link rel='dns-prefetch' href='//fonts.googleapis.com' />\n<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />\n<link rel='preconnect' href='https://fonts.googleapis.com' />\n<link rel='preconnect' href='https://fonts.gstatic.com' />\n<link rel=\"alternate\" title=",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_henrico.gov_supervisors_supervisors-agenda-o-gram.txt",
+  "n_links": 505,
+  "links": [
+   [
+    "https://henrico.gov/services/jobs/",
+    "Jobs"
+   ],
+   [
+    "https://henrico.gov/calendar/",
+    "Events"
+   ],
+   [
+    "https://henrico.gov/henrico-county-public-schools/",
+    "Schools"
+   ],
+   [
+    "https://henrico.gov/public-library/",
+    "Libraries"
+   ],
+   [
+    "https://henrico.gov/residents/",
+    "Residents"
+   ],
+   [
+    "https://henrico.gov/business/",
+    "Business"
+   ],
+   [
+    "https://henrico.gov/contact-us/",
+    "Contact"
+   ],
+   [
+    "https://www.facebook.com/henricova",
+    ""
+   ],
+   [
+    "https://x.com/HenricoNews",
+    ""
+   ],
+   [
+    "https://www.instagram.com/henricocountygovernment/",
+    ""
+   ],
+   [
+    "https://www.youtube.com/c/HenricoCountyGovernment",
+    ""
+   ],
+   [
+    "https://henrico.gov/assets/translation_disclaimer.pdf",
+    "Disclaimer"
+   ],
+   [
+    "https://henrico.gov/",
+    ""
+   ],
+   [
+    "https://henrico.gov/services",
+    "Services"
+   ],
+   [
+    "https://henrico.gov/services/tags/building-construction/",
+    "Building &amp; Construction"
+   ],
+   [
+    "https://henrico.gov/services/building-permit-residential/",
+    "Building Permit – Residential"
+   ],
+   [
+    "https://henrico.gov/services/building-permit-commercial/",
+    "Building Permit – Commercial"
+   ],
+   [
+    "https://henrico.gov/finance/business/",
+    "Business"
+   ],
+   [
+    "https://henrico.gov/services/business-license/",
+    "Business License"
+   ],
+   [
+    "https://henrico.gov/services/business-taxes/",
+    "Business Tax Filing and Payment Portal"
+   ],
+   [
+    "https://henrico.gov/services/categories/community/",
+    "Community"
+   ],
+   [
+    "https://henrico.gov/services/seniors/",
+    "EngAGE in Henrico: Resources for Older Residents"
+   ],
+   [
+    "https://henrico.gov/public-library/",
+    "Libraries"
+   ],
+   [
+    "https://henrico.gov/rec/parks/",
+    "Parks &amp; Recreation Centers"
+   ],
+   [
+    "https://henrico.gov/services/reserve-recreation-facility/",
+    "Reserve a Recreation Facility"
+   ],
+   [
+    "https://henrico.gov/services/reserve-a-park-shelter/",
+    "Reserve a Picnic Shelter"
+   ],
+   [
+    "https://henrico.gov/services/categories/courts/",
+    "Courts"
+   ],
+   [
+    "https://henrico.gov/services/file-a-civil-case-in-the-circuit-court/",
+    "File a Civil Case in the Circuit Court"
+   ],
+   [
+    "https://henrico.gov/services/file-a-civil-case-in-general-district-court/",
+    "File a Civil Case in General District Court"
+   ],
+   [
+    "https://henrico.gov/services/henrico-inmate-search/",
+    "Henrico Inmate Search"
+   ],
+   [
+    "https://henrico.gov/services/marriage-license/",
+    "Marriage Licenses"
+   ],
+   [
+    "https://henrico.gov/services/probate/",
+    "Probate &#038; Estate Administration"
+   ],
+   [
+    "https://henrico.gov/services/traffic-violation-payments/",
+    "Traffic Violation Payments"
+   ],
+   [
+    "https://henrico.gov/services/categories/careers-employment/",
+    "Jobs"
+   ],
+   [
+    "https://henrico.gov/services/jobs/",
+    "Apply for a Job"
+   ],
+   [
+    "https://henrico.gov/services/how-to-become-a-deputy/",
+    "Become A Deputy"
+   ],
+   [
+    "https://henrico.gov/services/internship/",
+    "Become an Intern"
+   ],
+   [
+    "https://henrico.gov/services/become-an-election-official-in-henrico-county/",
+    "Become an Election Official in Henrico County"
+   ],
+   [
+    "https://henrico.gov/services/volunteer/",
+    "Become a Volunteer"
+   ],
+   [
+    "https://henrico.gov/services/categories/health/",
+    "Health &amp; Wellness"
+   ],
+   [
+    "https://henrico.gov/services/opioids-overdose-prevention/",
+    "Opioids: Overdose Prevention"
+   ],
+   [
+    "https://henrico.gov/services/revive-and-rapid-revive-training/",
+    "REVIVE! and Rapid Revive! Training"
+   ],
+   [
+    "https://henrico.gov/services/vital-records/",
+    "Vital Records"
+   ],
+   [
+    "https://henrico.gov/services/women-infants-children-wic/",
+    "Women, Infants &#038; Children (WIC)"
+   ],
+   [
+    "https://henrico.gov/services/public-safety-services/",
+    "Public Safety Services"
+   ],
+   [
+    "https://henrico.gov/services/henrico-alert/",
+    "Henrico County Emergency Alerts"
+   ],
+   [
+    "https://henrico.gov/services/tags/dec/",
+    "Emergency Communications"
+   ],
+   [
+    "https://henrico.gov/services/tags/emws/",
+    "Emergency Management"
+   ],
+   [
+    "https://henrico.gov/services/categories/fire/",
+    "Fire"
+   ],
+   [
+    "https://henrico.gov/services/categories/police/",
+    "Police"
+   ],
+   [
+    "https://henrico.gov/services/categories/sheriff/",
+    "Sheriff"
+   ],
+   [
+    "https://henrico.gov/services/categories/finance-taxes/",
+    "Real Estate &amp; Taxes"
+   ],
+   [
+    "https://henrico.gov/services/online-tax-bills/",
+    "Online Tax Bills"
+   ],
+   [
+    "https://henrico.gov/services/pay-utility-bill/",
+    "Pay Utility Bill"
+   ],
+   [
+    "https://henrico.gov/finance/payments/",
+    "Payment Options"
+   ],
+   [
+    "https://henrico.gov/services/real-estate-advantage-program/",
+    "Real Estate Advantage Program (REAP)"
+   ],
+   [
+    "https://henrico.gov/services/categories/social-services/",
+    "Social Services"
+   ],
+   [
+    "https://henrico.gov/services/applying-foster-parent/",
+    "Apply to be a Foster Parent"
+   ],
+   [
+    "https://henrico.gov/services/medicaid/",
+    "Medicaid Assistance Programs"
+   ],
+   [
+    "https://henrico.gov/services/supplemental-nutritional-assistance-program-snap/",
+    "Supplemental Nutritional Assistance Program (SNAP)"
+   ],
+   [
+    "https://henrico.gov/services/temporary-assistance-for-needy-families-tanf/",
+    "Temporary Assistance for Needy Families (TANF)"
+   ],
+   [
+    "https://henrico.gov/services/categories/refuse/",
+    "Trash &amp; Recycling"
+   ],
+   [
+    "https://henrico.gov/services/public-use-areas-for-disposal/",
+    "Public Use Areas for Disposal"
+   ],
+   [
+    "https://henrico.gov/services/refuse-collections/",
+    "Refuse Collections"
+   ],
+   [
+    "https://henrico.gov/services/water-sewer-refuse-collection-services/",
+    "Water, Sewer &#038; Refuse Collection Application"
+   ],
+   [
+    "https://henrico.gov/services/",
+    "All Services  →"
+   ],
+   [
+    "https://henrico.gov/community",
+    "Community"
+   ],
+   [
+    "https://henrico.gov/supervisors/",
+    "Board of Supervisors"
+   ],
+   [
+    "https://henrico.gov/supervisors/next-meeting/",
+    "Next Meeting"
+   ],
+   [
+    "https://henrico.gov/supervisors/supervisors-agenda-o-gram/",
+    "Meeting Summaries &amp; Minutes"
+   ],
+   [
+    "https://henrico.gov/supervisors/boards-commissions/",
+    "Boards &#038; Commissions"
+   ],
+   [
+    "https://henrico.gov/finance/business/",
+    "Business"
+   ],
+   [
+    "https://henrico.gov/rec/parks/",
+    "Parks &#038; Facilities"
+   ],
+   [
+    "https://henrico.gov/rec/explore/performing-arts/",
+    "Performing Arts"
+   ],
+   [
+    "https://henrico.gov/rec/specialevents/",
+    "Events – R&amp;P"
+   ],
+   [
+    "https://henrico.gov/give/",
+    "Give to Your Community"
+   ],
+   [
+    "https://henrico.gov/government/",
+    "Government"
+   ],
+   [
+    "https://henrico.gov/locations/",
+    "Buildings &amp; Locations"
+   ],
+   [
+    "https://henrico.gov/manager/",
+    "County Manager’s Office"
+   ],
+   [
+    "https://henrico.gov/government/freedom-information-act-foia/",
+    "Freedom of Information Act (FOIA)"
+   ],
+   [
+    "https://henrico.gov/transparency/",
+    "Transparency"
+   ],
+   [
+    "https://henrico.gov/heart/",
+    "HEART"
+   ],
+   [
+    "https://henrico.gov/outreach/",
+    "Outreach &amp; Engagement"
+   ],
+   [
+    "https://henrico.gov/residents/",
+    "Residents"
+   ],
+   [
+    "https://henrico.gov/social-media/",
+    "Social Media"
+   ],
+   [
+    "https://henrico.gov/public-library/",
+    "Libraries"
+   ],
+   [
+    "https://henrico.gov/departments/",
+    "Departments"
+   ],
+   [
+    "https://henrico.gov/supervisors/",
+    "Board of Supervisors"
+   ],
+   [
+    "https://henrico.gov/bldg/",
+    "Building Inspections"
+   ],
+   [
+    "https://henrico.gov/clerk/",
+    "Circuit Court Clerk’s Office"
+   ],
+   [
+    "https://henrico.gov/ccjudges/",
+    "Circuit Court Judges Chambers"
+   ],
+   [
+    "https://henrico.gov/com-atty/",
+    "Commonwealth’s Attorney’s Office"
+   ],
+   [
+    "https://henrico.gov/communications/",
+    "Communications"
+   ],
+   [
+    "https://henrico.gov/cc/",
+    "Community Corrections"
+   ],
+   [
+    "https://henrico.gov/revit/",
+    "Community Revitalization"
+   ],
+   [
+    "https://henrico.gov/countyattorney/",
+    "County Attorney"
+   ],
+   [
+    "https://henrico.gov/manager/",
+    "County Manager’s Office"
+   ],
+   [
+    "https://www.henrico.com/",
+    "Economic Development Authority"
+   ],
+   [
+    "https://henrico.gov/dec/",
+    "Emergency Communications"
+   ],
+   [
+    "https://henrico.gov/emws/",
+    "Emergency Management"
+   ],
+   [
+    "https://henrico.gov/extension/",
+    "Extension Office"
+   ],
+   [
+    "https://henrico.gov/finance/",
+    "Finance"
+   ],
+   [
+    "https://henrico.gov/fire/",
+    "Fire"
+   ],
+   [
+    "https://henrico.gov/gendistcourt/",
+    "General District Court"
+   ],
+   [
+    "https://henrico.gov/genserv/",
+    "General Services"
+   ],
+   [
+    "https://henrico.gov/it/gis/",
+    "Geographic Information Systems (GIS)"
+   ],
+   [
+    "https://henrico.gov/health/",
+    "Health"
+   ],
+   [
+    "https://henricosea.com/",
+    "Henrico Sports and Entertainment Authority"
+   ],
+   [
+    "https://www.hswcd.org/",
+    "Henricopolis Soil and Water Conservation District"
+   ],
+   [
+    "https://henrico.gov/hr/",
+    "Human Resources"
+   ],
+   [
+    "https://henrico.gov/it/",
+    "Information Technology"
+   ],
+   [
+    "https://henrico.gov/audit/",
+    "Internal Audit"
+   ],
+   [
+    "https://henrico.gov/jdrcourt/",
+    "Juvenile/Domestic Relations Court"
+   ],
+   [
+    "https://henrico.gov/juvenile-detention/",
+    "Juvenile Detention Home"
+   ],
+   [
+    "https://henrico.gov/utility/keep-henrico-beautiful/",
+    "Keep Henrico Beautiful"
+   ],
+   [
+    "https://henrico.gov/public-library/",
+    "Library"
+   ],
+   [
+    "https://henrico.gov/mhds/",
+    "Mental Health &#038; Developmental Services"
+   ],
+   [
+    "https://henrico.gov/outreach/",
+    "Outreach &amp; Engagement"
+   ],
+   [
+    "https://henrico.gov/permitcenter/",
+    "Permit Center"
+   ],
+   [
+    "https://henrico.gov/planning/",
+    "Planning"
+   ],
+   [
+    "https://henrico.gov/police/",
+    "Police"
+   ],
+   [
+    "https://henrico.gov/utility/",
+    "Public Utilities"
+   ],
+   [
+    "https://henrico.gov/works/",
+    "Public Works"
+   ],
+   [
+    "https://henrico.gov/realprop/",
+    "Real Property"
+   ],
+   [
+    "https://henrico.gov/rec/",
+    "Recreation &#038; Parks"
+   ],
+   [
+    "https://henrico.gov/henrico-county-public-schools/",
+    "Schools"
+   ],
+   [
+    "https://henrico.gov/sheriff/",
+    "Sheriff’s Office"
+   ],
+   [
+    "https://henrico.gov/dss/",
+    "Social Services"
+   ],
+   [
+    "https://vcwcapital.com/",
+    "Virginia Career Works"
+   ],
+   [
+    "https://henrico.gov/registrar/",
+    "Voter Registration and Elections"
+   ],
+   [
+    "https://henrico.gov/news/",
+    "News"
+   ],
+   [
+    "https://henrico.gov/news/",
+    ""
+   ],
+   [
+    "https://henrico.gov/news/archives/",
+    "Archives"
+   ],
+   [
+    "https://henrico.gov/news/2026/10/empowerment-series-workshops-to-promote-recovery-life-skills-education-among-adults-who-have-struggled-with-substance-use/",
+    "Empowerment Series workshops to promote recovery, life-skills education among adults who have struggled with substance u"
+   ],
+   [
+    "https://henrico.gov/news/2026/10/henrico-remembers-and-commemorates-the-battle-of-new-market-heights/",
+    "Henrico remembers and commemorates the Battle of New Market Heights"
+   ],
+   [
+    "https://henrico.gov/news/2026/09/henrico-to-celebrate-active-aging-week-with-free-workshops-and-events-beginning-oct-1/",
+    "Henrico to celebrate Active Aging Week with free workshops and events, beginning Oct. 1"
+   ],
+   [
+    "https://henrico.gov/news/",
+    "More News  →"
+   ],
+   [
+    "https://henrico.gov/visit/",
+    "Visit"
+   ],
+   [
+    "https://henrico.gov/rec/",
+    "Recreation &#038; Parks"
+   ],
+   [
+    "https://henrico.gov/public-library/",
+    "Libraries"
+   ],
+   [
+    "https://henrico.gov/trails/",
+    "Trails in Henrico"
+   ],
+   [
+    "https://henrico.gov/locations/",
+    "Henrico Government Buildings"
+   ],
+   [
+    "https://henrico.gov/rec/specialevents/",
+    "Events – R&amp;P"
+   ],
+   [
+    "https://www.visitrichmondva.com/henrico-county/",
+    "Things to Do in Henrico"
+   ],
+   [
+    "https://henrico.gov/rec/explore/performing-arts/",
+    "Performing Arts"
+   ],
+   [
+    "https://henricosea.com/",
+    "Sports &amp; Entertainment Authority"
+   ],
+   [
+    "https://henrico.gov/history/va-250-henrico/",
+    "VA 250-Henrico"
+   ],
+   [
+    "https://henrico.gov/history/",
+    "Henrico History"
+   ],
+   [
+    "https://henrico.gov/history/landmarks/county-markers/",
+    "County Markers"
+   ],
+   [
+    "https://henrico.gov/history/landmarks/historical-tabletops/",
+    "Historical Tabletops"
+   ],
+   [
+    "https://henricosea.com/facilities-venues/henrico-sports-and-events-center/",
+    ""
+   ],
+   [
+    "https://henrico.gov/",
+    ""
+   ],
+   [
+    "https://henrico.gov/services",
+    "Services"
+   ],
+   [
+    "https://henrico.gov/services/tags/building-construction/",
+    "Building &amp; Construction"
+   ],
+   [
+    "https://henrico.gov/services/building-permit-residential/",
+    "Building Permit – Residential"
+   ],
+   [
+    "https://henrico.gov/services/building-permit-commercial/",
+    "Building Permit – Commercial"
+   ],
+   [
+    "https://henrico.gov/finance/business/",
+    "Business"
+   ],
+   [
+    "https://henrico.gov/services/business-license/",
+    "Business License"
+   ],
+   [
+    "https://henrico.gov/services/business-taxes/",
+    "Business Tax Filing and Payment Portal"
+   ],
+   [
+    "https://henrico.gov/services/categories/community/",
+    "Community"
+   ],
+   [
+    "https://henrico.gov/services/seniors/",
+    "EngAGE in Henrico: Resources for Older Residents"
+   ],
+   [
+    "https://henrico.gov/public-library/",
+    "Libraries"
+   ],
+   [
+    "https://henrico.gov/rec/parks/",
+    "Parks &amp; Recreation Centers"
+   ],
+   [
+    "https://henrico.gov/services/reserve-recreation-facility/",
+    "Reserve a Recreation Facility"
+   ],
+   [
+    "https://henrico.gov/services/reserve-a-park-shelter/",
+    "Reserve a Picnic Shelter"
+   ],
+   [
+    "https://henrico.gov/services/categories/courts/",
+    "Courts"
+   ],
+   [
+    "https://henrico.gov/services/file-a-civil-case-in-the-circuit-court/",
+    "File a Civil Case in the Circuit Court"
+   ],
+   [
+    "https://henrico.gov/services/file-a-civil-case-in-general-district-court/",
+    "File a Civil Case in General District Court"
+   ],
+   [
+    "https://henrico.gov/services/henrico-inmate-search/",
+    "Henrico Inmate Search"
+   ],
+   [
+    "https://henrico.gov/services/marriage-license/",
+    "Marriage Licenses"
+   ],
+   [
+    "https://henrico.gov/services/probate/",
+    "Probate &#038; Estate Administration"
+   ],
+   [
+    "https://henrico.gov/services/traffic-violation-payments/",
+    "Traffic Violation Payments"
+   ],
+   [
+    "https://henrico.gov/services/categories/careers-employment/",
+    "Jobs"
+   ],
+   [
+    "https://henrico.gov/services/jobs/",
+    "Apply for a Job"
+   ],
+   [
+    "https://henrico.gov/services/how-to-become-a-deputy/",
+    "Become A Deputy"
+   ],
+   [
+    "https://henrico.gov/services/internship/",
+    "Become an Intern"
+   ],
+   [
+    "https://henrico.gov/services/become-an-election-official-in-henrico-county/",
+    "Become an Election Official in Henrico County"
+   ],
+   [
+    "https://henrico.gov/services/volunteer/",
+    "Become a Volunteer"
+   ],
+   [
+    "https://henrico.gov/services/categories/health/",
+    "Health &amp; Wellness"
+   ],
+   [
+    "https://henrico.gov/services/opioids-overdose-prevention/",
+    "Opioids: Overdose Prevention"
+   ],
+   [
+    "https://henrico.gov/services/revive-and-rapid-revive-training/",
+    "REVIVE! and Rapid Revive! Training"
+   ],
+   [
+    "https://henrico.gov/services/vital-records/",
+    "Vital Records"
+   ],
+   [
+    "https://henrico.gov/services/women-infants-children-wic/",
+    "Women, Infants &#038; Children (WIC)"
+   ],
+   [
+    "https://henrico.gov/services/public-safety-services/",
+    "Public Safety Services"
+   ],
+   [
+    "https://henrico.gov/services/henrico-alert/",
+    "Henrico County Emergency Alerts"
+   ],
+   [
+    "https://henrico.gov/services/tags/dec/",
+    "Emergency Communications"
+   ],
+   [
+    "https://henrico.gov/services/tags/emws/",
+    "Emergency Management"
+   ],
+   [
+    "https://henrico.gov/services/categories/fire/",
+    "Fire"
+   ],
+   [
+    "https://henrico.gov/services/categories/police/",
+    "Police"
+   ],
+   [
+    "https://henrico.gov/services/categories/sheriff/",
+    "Sheriff"
+   ],
+   [
+    "https://henrico.gov/services/categories/finance-taxes/",
+    "Real Estate &amp; Taxes"
+   ],
+   [
+    "https://henrico.gov/services/online-tax-bills/",
+    "Online Tax Bills"
+   ],
+   [
+    "https://henrico.gov/services/pay-utility-bill/",
+    "Pay Utility Bill"
+   ],
+   [
+    "https://henrico.gov/finance/payments/",
+    "Payment Options"
+   ],
+   [
+    "https://henrico.gov/services/real-estate-advantage-program/",
+    "Real Estate Advantage Program (REAP)"
+   ],
+   [
+    "https://henrico.gov/services/categories/social-services/",
+    "Social Services"
+   ],
+   [
+    "https://henrico.gov/services/applying-foster-parent/",
+    "Apply to be a Foster Parent"
+   ],
+   [
+    "https://henrico.gov/services/medicaid/",
+    "Medicaid Assistance Programs"
+   ],
+   [
+    "https://henrico.gov/services/supplemental-nutritional-assistance-program-snap/",
+    "Supplemental Nutritional Assistance Program (SNAP)"
+   ],
+   [
+    "https://henrico.gov/services/temporary-assistance-for-needy-families-tanf/",
+    "Temporary Assistance for Needy Families (TANF)"
+   ],
+   [
+    "https://henrico.gov/services/categories/refuse/",
+    "Trash &amp; Recycling"
+   ],
+   [
+    "https://henrico.gov/services/public-use-areas-for-disposal/",
+    "Public Use Areas for Disposal"
+   ],
+   [
+    "https://henrico.gov/services/refuse-collections/",
+    "Refuse Collections"
+   ],
+   [
+    "https://henrico.gov/services/water-sewer-refuse-collection-services/",
+    "Water, Sewer &#038; Refuse Collection Application"
+   ],
+   [
+    "https://henrico.gov/services/",
+    "All Services"
+   ],
+   [
+    "https://henrico.gov/community",
+    "Community"
+   ],
+   [
+    "https://henrico.gov/supervisors/",
+    "Board of Supervisors"
+   ],
+   [
+    "https://henrico.gov/supervisors/next-meeting/",
+    "Next Meeting"
+   ],
+   [
+    "https://henrico.gov/supervisors/supervisors-agenda-o-gram/",
+    "Meeting Summaries &amp; Minutes"
+   ],
+   [
+    "https://henrico.gov/supervisors/boards-commissions/",
+    "Boards &#038; Commissions"
+   ],
+   [
+    "https://henrico.gov/finance/business/",
+    "Business"
+   ],
+   [
+    "https://henrico.gov/rec/parks/",
+    "Parks &#038; Facilities"
+   ],
+   [
+    "https://henrico.gov/rec/explore/performing-arts/",
+    "Performing Arts"
+   ],
+   [
+    "https://henrico.gov/rec/specialevents/",
+    "Events – R&amp;P"
+   ],
+   [
+    "https://henrico.gov/give/",
+    "Give to Your Community"
+   ],
+   [
+    "https://henrico.gov/government/",
+    "Government"
+   ],
+   [
+    "https://henrico.gov/locations/",
+    "Buildings &amp; Locations"
+   ],
+   [
+    "https://henrico.gov/manager/",
+    "County Manager’s Office"
+   ],
+   [
+    "https://henrico.gov/government/freedom-information-act-foia/",
+    "Freedom of Information Act (FOIA)"
+   ],
+   [
+    "https://henrico.gov/transparency/",
+    "Transparency"
+   ],
+   [
+    "https://henrico.gov/heart/",
+    "HEART"
+   ],
+   [
+    "https://henrico.gov/outreach/",
+    "Outreach &amp; Engagement"
+   ],
+   [
+    "https://henrico.gov/residents/",
+    "Residents"
+   ],
+   [
+    "https://henrico.gov/social-media/",
+    "Social Media"
+   ],
+   [
+    "https://henrico.gov/public-library/",
+    "Libraries"
+   ],
+   [
+    "https://henrico.gov/departments/",
+    "Departments"
+   ],
+   [
+    "https://henrico.gov/supervisors/",
+    "Board of Supervisors"
+   ],
+   [
+    "https://henrico.gov/bldg/",
+    "Building Inspections"
+   ],
+   [
+    "https://henrico.gov/clerk/",
+    "Circuit Court Clerk’s Office"
+   ],
+   [
+    "https://henrico.gov/ccjudges/",
+    "Circuit Court Judges Chambers"
+   ],
+   [
+    "https://henrico.gov/com-atty/",
+    "Commonwealth’s Attorney’s Office"
+   ],
+   [
+    "https://henrico.gov/communications/",
+    "Communications"
+   ],
+   [
+    "https://henrico.gov/cc/",
+    "Community Corrections"
+   ],
+   [
+    "https://henrico.gov/revit/",
+    "Community Revitalization"
+   ],
+   [
+    "https://henrico.gov/countyattorney/",
+    "County Attorney"
+   ],
+   [
+    "https://henrico.gov/manager/",
+    "County Manager’s Office"
+   ],
+   [
+    "https://www.henrico.com/",
+    "Economic Development Authority"
+   ],
+   [
+    "https://henrico.gov/dec/",
+    "Emergency Communications"
+   ],
+   [
+    "https://henrico.gov/emws/",
+    "Emergency Management"
+   ],
+   [
+    "https://henrico.gov/extension/",
+    "Extension Office"
+   ],
+   [
+    "https://henrico.gov/finance/",
+    "Finance"
+   ],
+   [
+    "https://henrico.gov/fire/",
+    "Fire"
+   ],
+   [
+    "https://henrico.gov/gendistcourt/",
+    "General District Court"
+   ],
+   [
+    "https://henrico.gov/genserv/",
+    "General Services"
+   ],
+   [
+    "https://henrico.gov/it/gis/",
+    "Geographic Information Systems (GIS)"
+   ],
+   [
+    "https://henrico.gov/health/",
+    "Health"
+   ],
+   [
+    "https://henricosea.com/",
+    "Henrico Sports and Entertainment Authority"
+   ],
+   [
+    "https://www.hswcd.org/",
+    "Henricopolis Soil and Water Conservation District"
+   ],
+   [
+    "https://henrico.gov/hr/",
+    "Human Resources"
+   ],
+   [
+    "https://henrico.gov/it/",
+    "Information Technology"
+   ]
+  ]
+ },
+ {
+  "url": "https://www.storeycounty.org/RSSFeed.aspx?ModID=65",
+  "render": false,
+  "robots_status": 200,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "text/xml; charset=utf-8",
+  "final_url": "https://www.storeycounty.org/RSSFeed.aspx?ModID=65",
+  "len": 2968,
+  "head": "<?xml version=\"1.0\"?><rss version=\"2.0\"><channel>\r\n\t<title>Storey County, NV - Agenda Creator</title>\r\n\t<link>https://nv-storeycounty.civicplus.com/AgendaCenter</link>\r\n\t<lastBuildDate>Sat, 03 Oct 2026 17:00:40 -0800</lastBuildDate>\r\n\t<description>Storey County, NV - Get the latest agendas</description>\r\n\t<language>en-us</language>\r\n\t<item>\r\n\t\t<title>Joint Special Board Meeting of the Storey County Board of County Commissioners and the Regional Transportation Commission of Washoe County Meeting Agenda and Packet</title>\r\n\t\t<link>https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1409</link>\r\n\t\t<pubDate>Thu, 01 Oct 2026 14:46:34 -0800</pubDate>\r\n\t\t<description>Joint Special Board Meeting of the Storey County Board of County Commissioners and the Regional Transportation Commission of Washoe County Meeting Agenda and Packet</description>\r\n\t\t\r\n\t\t<guid isPermaLink=\"false\">https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1409/639264735940000000</guid>\r\n\t</item>\r\n\t<item>\r\n\t\t<title>10/06/2026 Storey County Board of County Commissioners Meeting Agenda and Packet</title>\r\n\t\t<link>https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1411</link>\r\n\t\t<pubDate>Wed, 30 Sep 2026 13:52:12 -0800</pubDate>\r\n\t\t<description>10/06/2026 Storey County Board of County Commissioners Meeting Agenda and Packet</description>\r\n\t\t\r\n\t\t<guid isPermaLink=\"false\">https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1411/639263839320000000</guid>\r",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_www.storeycounty.org_RSSFeed.aspx_ModID_65.txt",
+  "n_links": 0,
+  "links": [],
+  "feed_items": [
+   "Storey County, NV - Agenda Creator",
+   "Joint Special Board Meeting of the Storey County Board of County Commissioners and the Regional Transportation Commission of Washoe County Meeting Agenda and Packet",
+   "10/06/2026 Storey County Board of County Commissioners Meeting Agenda and Packet",
+   "Storey County Local Emergency Planning Committee quarterly meeting",
+   "Storey County LEPC October 14, 2026 Meeting",
+   "9/15/2026 Storey County Board of County Commissioners Meeting Agenda and Packet"
+  ]
+ },
+ {
+  "url": "https://atlantacityga.iqm2.com/Services/RSS.aspx?Feed=Calendar",
+  "render": false,
+  "robots_status": 200,
+  "robots_note": "crawl delay 60s honoured",
+  "allowed": true,
+  "crawl_delay": 60,
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "final_url": "https://atlantacityga.iqm2.com/Services/RSS.aspx?Feed=Calendar",
+  "len": 60656,
+  "head": "<?xml version=\"1.0\" encoding=\"utf-16\"?><html><head><title>RSS Feed</title></head><body style=\" text-align:center;\"><h1>RSS Feed</h1><div><h1>City of Atlanta - Meeting Calendar</h1><h3>City of Atlanta, Georgia - Meeting Calendar of Agendas, Minutes and Media</h3></div><div><h2>Atlanta City Council - Agenda - Oct 5, 2026 1:00 PM</h2><p><p><a href='https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4418'>View Web Agenda</a></p><strong>Downloads: </strong><a href='https://AtlantaCityGA.IQM2.com/Citizens/FileOpen.aspx?Type=14&ID=3942'>Public Agenda</a> | <a href='https://AtlantaCityGA.IQM2.com/Citizens/FileOpen.aspx?Type=1&ID=3942'>Full Agenda</a></p><p><em>\r\n\t\t\t\t\t\t\t\tPublished on: Sat, 03 Oct 2026 00:47:11 GMT</em></p></div><div><h2>Committee on Council - Agenda - Oct 5, 2026 11:30 AM</h2><p><p><a href='https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4403'>View Web Agenda</a></p><strong>Downloads: </strong><a href='https://AtlantaCityGA.IQM2.com/Citizens/FileOpen.aspx?Type=14&ID=3943'>Public Agenda</a> | <a href='https://AtlantaCityGA.IQM2.com/Citizens/FileOpen.aspx?Type=1&ID=3943'>Full Agenda</a></p><p><em>\r\n\t\t\t\t\t\t\t\tPublished on: Fri, 02 Oct 2026 15:23:00 GMT</em></p></div><div><h2>Finance/Executive Committee - Agenda - Sep 30, 2026 1:30 PM</h2><p><p><a href='https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4297'>View Web Agenda</a></p><strong>Downloads: </strong><a href='https://AtlantaCityGA.IQM2.com/Citizens/FileOpen.aspx?Type=14&ID=393",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_atlantacityga.iqm2.com_Services_RSS.aspx_Feed_Calendar.txt",
+  "n_links": 0,
+  "links": []
+ },
+ {
+  "url": "https://ecollection.ferc.gov/api/rssfeed",
+  "render": false,
+  "robots_status": 200,
+  "robots_note": "no robots.txt (HTML app shell)",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "application/atom+xml; charset=utf-8",
+  "final_url": "https://ecollection.ferc.gov/api/rssfeed",
+  "len": 1126700,
+  "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:a10=\"http://www.w3.org/2005/Atom\" version=\"2.0\"><channel><title>Most Recent XBRL Filings Submitted</title><link>http://ferc.gov/</link><description>FERC</description><category>XBRL Filings</category><item><guid isPermaLink=\"false\">fedc12c1-f5a4-4235-9fbc-a6911a98c593</guid><link>https://ferc.gov/</link><title>Navajo Nation Oil &amp; Gas Company</title><description>Form 6Q&lt;br /&gt; Download Files:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://eCollection.ferc.gov/api/DownloadDocument/474623/1?filename=372048-C000644-Form_6Q-2026-Q2.xbrl'&gt;372048-C000644-Form_6Q-2026-Q2.xbrl&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://eCollection.ferc.gov/api/DownloadDocument/474624/3?filename=372048-C000644-Form_6Q-2026-Q2_372048.html'&gt;372048-C000644-Form_6Q-2026-Q2_372048.html&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;</description><pubDate>Mon, 28 Sep 2026 10:11:04 -0400</pubDate><a10:updated>2026-09-28T10:11:04-04:00</a10:updated><ferc:xbrlFiling xmlns:ferc=\"https://ferc.gov\"><ferc:FilingID>372048</ferc:FilingID><ferc:CID>C000644</ferc:CID><ferc:CpaCertRequired>False</ferc:CpaCertRequired><ferc:CpaCertUploaded>False</ferc:CpaCertUploaded><ferc:FormName>Form 6Q</ferc:FormName><ferc:Period>Q2</ferc:Period><ferc:PrivilegedAccessionNumber></ferc:PrivilegedAccessionNumber><ferc:Status>Accepted</ferc:Status><ferc:SubmittedOn>9/28/2026 10:11:04 AM</ferc:SubmittedOn><ferc:Year>2026</ferc:Year><ferc:xbrlFile file=\"37204",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_ecollection.ferc.gov_api_rssfeed.txt",
+  "n_links": 0,
+  "links": [],
+  "feed_items": [
+   "Most Recent XBRL Filings Submitted",
+   "Navajo Nation Oil &amp; Gas Company",
+   "Canyon Crossing LLC",
+   "Glass Mountain Pipeline, LLC",
+   "Spire MoGas Pipeline LLC",
+   "Spire MoGas Pipeline LLC",
+   "MarkWest New Mexico, L.L.C.",
+   "Western Gas Interstate Company",
+   "West Texas Gas Utility, LLC",
+   "PGPipeline LLC",
+   "Wheatland Energy Connection, LLC",
+   "Dakota Energy Connection, LLC",
+   "Platte Pipe Line Company, LLC",
+   "CITGO Products Pipeline Company",
+   "Texoma Crude Oil Pipeline Company LLC"
+  ]
+ },
+ {
+  "url": "https://s3.us-west-2.amazonaws.com/pudl.catalyst.coop?list-type=2&prefix=ferceqr/core_ferceqr__contracts/",
+  "render": false,
+  "robots_status": 403,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "application/xml",
+  "final_url": "https://s3.us-west-2.amazonaws.com/pudl.catalyst.coop?list-type=2&prefix=ferceqr/core_ferceqr__contracts/",
+  "len": 17962,
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ListBucketResult xmlns=\"http://s3.amazonaws.com/doc/2006-03-01/\"><Name>pudl.catalyst.coop</Name><Prefix>ferceqr/core_ferceqr__contracts/</Prefix><KeyCount>52</KeyCount><MaxKeys>1000</MaxKeys><IsTruncated>false</IsTruncated><Contents><Key>ferceqr/core_ferceqr__contracts/2013q3.parquet</Key><LastModified>2026-09-02T04:00:04.000Z</LastModified><ETag>&quot;3704b409bae8cb574cf1c73f707a8629&quot;</ETag><ChecksumAlgorithm>CRC32</ChecksumAlgorithm><ChecksumType>FULL_OBJECT</ChecksumType><Size>2305712</Size><StorageClass>INTELLIGENT_TIERING</StorageClass></Contents><Contents><Key>ferceqr/core_ferceqr__contracts/2013q4.parquet</Key><LastModified>2026-09-02T04:00:05.000Z</LastModified><ETag>&quot;652ae8f2c6bf70d95c6a47f961a3c38f&quot;</ETag><ChecksumAlgorithm>CRC32</ChecksumAlgorithm><ChecksumType>FULL_OBJECT</ChecksumType><Size>2281958</Size><StorageClass>INTELLIGENT_TIERING</StorageClass></Contents><Contents><Key>ferceqr/core_ferceqr__contracts/2014q1.parquet</Key><LastModified>2026-09-02T04:00:05.000Z</LastModified><ETag>&quot;1620ce85411b23fe8c046cf61faab717&quot;</ETag><ChecksumAlgorithm>CRC32</ChecksumAlgorithm><ChecksumType>FULL_OBJECT</ChecksumType><Size>2301588</Size><StorageClass>INTELLIGENT_TIERING</StorageClass></Contents><Contents><Key>ferceqr/core_ferceqr__contracts/2014q2.parquet</Key><LastModified>2026-09-02T04:00:06.000Z</LastModified><ETag>&quot;56b044795675fe118f1c4ad6251876df&quot;</ETag><ChecksumAlgorithm>CRC32</ChecksumAlgori",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_s3.us-west-2.amazonaws.com_pudl.catalyst.coop_list-type_2_prefix_ferceqr_core_ferceq.txt",
+  "n_links": 0,
+  "links": []
+ },
+ {
+  "url": "https://www.pacourts.us/Rss/Opinions/Commonwealth/",
+  "render": false,
+  "robots_status": 404,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "application/rss+xml; charset=utf-8",
+  "final_url": "https://www.pacourts.us/Rss/Opinions/Commonwealth/",
+  "len": 35354,
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\r\n\r\n<rss version=\"2.0\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:pheedo=\"http://www.pheedo.com/namespace/pheedo\">\r\n  <channel>\r\n    <title>Unified Judicial System of Pennsylvania: Commonwealth Court Opinions</title>\r\n    <link>https://www.pacourts.us/Rss/Opinions/Commonwealth/</link>\r\n    <description>Unified Judicial System of Pennsylvania: Commonwealth Court Opinions</description>\r\n    <lastBuildDate>Fri, 02 Oct 2026 19:52:29 GMT</lastBuildDate>\r\n    <language>en-us</language>\r\n    <item>\r\n      <title>T.L. Ayala v. Dept. of State, Bureau of Elections - 1371 C.D. 2026</title>\r\n      <link>https://www.pacourts.us/assets/opinions/Commonwealth/out/1371CD26_10-2-26.pdf</link>\r\n      <guid>https://www.pacourts.us/assets/opinions/Commonwealth/out/1371CD26_10-2-26.pdf</guid>\r\n      <pheedo:origLink>https://www.pacourts.us/assets/opinions/Commonwealth/out/1371CD26_10-2-26.pdf</pheedo:origLink>\r\n      <atom:link href=\"https://www.pacourts.us/assets/opinions/Commonwealth/out/1371CD26_10-2-26.pdf\" />\r\n      <pubDate>Fri, 02 Oct 2026 04:00:00 GMT</pubDate>\r\n      <description><![CDATA[]]></description>\r\n      <dc:creator>Wallace, J.</dc:creator>\r\n    </item>\r\n    <item>\r\n      <title>K. Williams v. UCBR - 780 C.D. 2025</title>\r\n      <link>https://www.pacourts.us/assets/opinions/Commonwealth/out/780CD25_10-2-26.pdf</link>\r\n      <guid>https://www.pacourts.us/assets/opinions/Commonwealth/out/780CD25_",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_www.pacourts.us_Rss_Opinions_Commonwealth.txt",
+  "n_links": 0,
+  "links": [],
+  "feed_items": [
+   "Unified Judicial System of Pennsylvania: Commonwealth Court Opinions",
+   "T.L. Ayala v. Dept. of State, Bureau of Elections - 1371 C.D. 2026",
+   "K. Williams v. UCBR - 780 C.D. 2025",
+   "C.A. Rogalski v. Com. of PA, Dept. of Ed. (PSPC) - 464 M.D. 2023 (RECONSIDERATION ORDER)",
+   "Delaware County Tax Bureau v. S. Ather v. A. Alfsoofi ~ Appeal of: S. Ather - 987 C.D. 2024",
+   "Merakey Philadelphia v. DHS - 244, 246 &amp;amp; 247 C.D. 2026",
+   "Merakey IDD Philadelphia &amp;amp; Merakey Woodhaven v. DHS - 939 C.D. 2024",
+   "S. Williams v. PA Superior Court, et al. - 250 M.D. 2025",
+   "C.M. Armenti v. Chester County D.A.&#39;s Office - 13 C.D. 2025",
+   "B. Wishnefsky v. DOC (OOR) - 177 C.D. 2025",
+   "D. Tobe v. UCBR - 315 C.D. 2025",
+   "C.D. v. PA State Police - 358 M.D. 2025",
+   "Formation Energy LLC v. South Union Township - 591 C.D. 2025",
+   "In re: The Matter of Proceedings by the Redevelopment Authority of the County of Schuylkill, et al. ~ Appeal of: Reading Anthracite Company, et al. - Nos. 391 &amp;amp; 748 C.D. 2024",
+   "City of Lancaster v. I. Grivas - 1399 &amp;amp; 1703 C.D. 2024 (REARGUMENT ORDER)"
+  ]
+ },
+ {
+  "url": "https://www.osti.gov/api/v1/records?research_org=LBNL&q=%22interconnection%20queue%22&sort=publication_date%20desc&rows=5",
+  "render": false,
+  "robots_status": 200,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "application/json",
+  "final_url": "https://www.osti.gov/api/v1/records?research_org=LBNL&q=%22interconnection%20queue%22&sort=publication_date%20desc&rows=5",
+  "len": 13634,
+  "head": "[\r\n{\"language\":\"English\",\"entry_date\":\"2026-09-01T12:10:02Z\",\"relation\":\"Journal Name: Electric Power Systems Research Journal Volume: 262\",\"identifier\":\"AC02-05CH11231\",\"country_publication\":\"United States\",\"journal_type\":\"AM\",\"doi\":\"10.1016/j.epsr.2026.113571\",\"description\":\"Drawing on existing market designs with independent resource participation in electricity markets, this study analyzes participation models for hybrid resources combining renewable generation and storage. Two models are considered: in the first, the components operate independently, with the Independent System Operator (ISO) managing the storage state of charge (SoC); in the second, the hybrid resource acts as an integrated unit, submitting offers as a “black box” and managing its SoC internally. Using a production cost model for the zonal New York Bulk Power System, we evaluate trade-offs in system reliability, market efficiency, and asset profitability. Our results provide several key insights for policymakers, showing that the ISO-managed granular model enhances social welfare through explicit SoC management, while the simpler integrated model is more computationally efficient, but may cause more real-time violations and lower overall profits.\",\"title\":\"Market participation strategy of hybrid energy resources: A New York ISO case study\",\"other_number\":\"ark:/13030/qt81r5w82h; https://escholarship.org/uc/item/81r5w82h\",\"contract_number\":\"AC02-05CH11231\",\"publication_date\":\"2027-01-01T00:00:00Z\",\"journa",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_www.osti.gov_api_v1_records_research_org_LBNL_q_22interconnection_20queue_22_sort_pu.txt",
+  "n_links": 0,
+  "links": []
+ },
+ {
+  "url": "https://webapi.legistar.com/v1/washoe-nv/matters?$top=3&$orderby=MatterIntroDate%20desc",
+  "render": false,
+  "robots_status": 404,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "application/json; charset=utf-8",
+  "final_url": "https://webapi.legistar.com/v1/washoe-nv/matters?$top=3&$orderby=MatterIntroDate%20desc",
+  "len": 4228,
+  "head": "[{\"MatterId\":13850,\"MatterGuid\":\"83AF3FF2-A255-43CA-BE44-0C7E9B41EBDF\",\"MatterLastModifiedUtc\":\"2026-10-02T18:02:10.357\",\"MatterRowVersion\":\"AAAAAAERh9k=\",\"MatterFile\":\"TMP-12466\",\"MatterName\":null,\"MatterTitle\":\"Presentation and Discussion of the Community Investment Fund Established Under the Amended and Restated Franchise Agreement for Ambulance Service.\\r\\nPresented by: Andrea Esp\",\"MatterTypeId\":68,\"MatterTypeName\":\"Action Item\",\"MatterStatusId\":62,\"MatterStatusName\":\"Draft\",\"MatterBodyId\":200,\"MatterBodyName\":\"Northern Nevada Public Health\",\"MatterIntroDate\":\"2026-10-02T00:00:00\",\"MatterAgendaDate\":\"2026-10-22T00:00:00\",\"MatterPassedDate\":null,\"MatterEnactmentDate\":null,\"MatterEnactmentNumber\":null,\"MatterRequester\":null,\"MatterNotes\":null,\"MatterVersion\":\"1\",\"MatterCost\":null,\"MatterText1\":null,\"MatterText2\":null,\"MatterText3\":null,\"MatterText4\":null,\"MatterText5\":null,\"MatterDate1\":null,\"MatterDate2\":null,\"MatterEXText1\":null,\"MatterEXText2\":null,\"MatterEXText3\":null,\"MatterEXText4\":null,\"MatterEXText5\":null,\"MatterEXText6\":null,\"MatterEXText7\":null,\"MatterEXText8\":null,\"MatterEXText9\":null,\"MatterEXText10\":null,\"MatterEXText11\":null,\"MatterEXDate1\":null,\"MatterEXDate2\":null,\"MatterEXDate3\":null,\"MatterEXDate4\":null,\"MatterEXDate5\":null,\"MatterEXDate6\":null,\"MatterEXDate7\":null,\"MatterEXDate8\":null,\"MatterEXDate9\":null,\"MatterEXDate10\":null,\"MatterAgiloftId\":0,\"MatterReference\":null,\"MatterRestrictViewViaWeb\":false,\"MatterReports\":[]},{\"MatterId\":13851,\"MatterGuid\":\"1",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_webapi.legistar.com_v1_washoe-nv_matters_top_3_orderby_MatterIntroDate_20desc.txt",
+  "n_links": 0,
+  "links": []
+ },
+ {
+  "url": "https://www.loudoun.gov/3435/Archived-Action-Reports-Copy-Testes-Minu",
+  "render": false,
+  "robots_status": 200,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "final_url": "https://www.loudoun.gov/3435/Archived-Action-Reports-Copy-Testes-Minu",
+  "len": 95685,
+  "head": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\t\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=10\" />\r\n\r\n\t<meta http-equiv=\"Content-type\" content=\"text/html; charset=UTF-8\" />\r\n<!-- Google Tag Manager for GA4 -->\r\n\t\t\t\t<script>(function(w,d,s,l,i){w.GAMeasurementID='G-RMXZH4MHBW';w[l]=w[l]||[];w[l].push({'gtm.start':\r\n\t\t\t\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\n\t\t\t\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n\t\t\t\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n\t\t\t\t})(window,document,'script','cpDataLayerGA4','GTM-K73C5PS');</script>\r\n\t\t\t\t<!-- End Google Tag Manager for GA4 -->\r\n\t\t\t\t<script type='text/javascript'>\r\n\t\t\t\t\tvar enableTelemetry = 'false'\r\n\t\t\t\t\tvar aiConfig = {\r\n\t\t\t\t\tinstrumentationKey: '1cde048e-3185-4906-aa46-c92a7312b60f'\t\t\t\t\t\t\r\n\t\t\t\t\t}\r\n\t\t\t\t\tvar appInsights = window.appInsights || function (a) { function b(a) { c[a] = function () { var b = arguments; c.queue.push(function () { c[a].apply(c, b) }) } } var c = { config: a }, d = document, e = window; setTimeout(function () { var b = d.createElement('script'); b.src = a.url || 'https://js.monitor.azure.com/scripts/a/ai.0.js', d.getElementsByTagName('script')[0].parentNode.appendChild(b) }); try { c.cookie = d.cookie } catch (a) { } c.queue = []; for (var f = ['Event', 'Exception', 'Metric', 'PageView', 'Trace', 'Dependency']; f.length;)b('track' + f.pop()); if (b('setAuthenticatedUserContext'), b('clearAuthenticatedUserCo",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_www.loudoun.gov_3435_Archived-Action-Reports-Copy-Testes-Minu.txt",
+  "n_links": 54,
+  "links": [
+   [
+    "https://www.loudoun.gov/",
+    ""
+   ],
+   [
+    "https://www.loudoun.gov/27/Government",
+    "Government"
+   ],
+   [
+    "https://www.loudoun.gov/9/Residents",
+    "Residents"
+   ],
+   [
+    "https://www.loudoun.gov/31/Services",
+    "Services"
+   ],
+   [
+    "https://www.loudoun.gov/90/Departments-Offices",
+    "Departments &amp; Offices"
+   ],
+   [
+    "https://www.loudoun.gov/35/Business",
+    "Business"
+   ],
+   [
+    "https://www.loudoun.gov/",
+    ""
+   ],
+   [
+    "https://www.facebook.com/LoudounCountyVa/",
+    ""
+   ],
+   [
+    "https://twitter.com/loudouncogovt",
+    ""
+   ],
+   [
+    "https://www.youtube.com/user/loudouncountyva",
+    ""
+   ],
+   [
+    "https://nextdoor.com/agency/loudoun-county-government/?i=pqhhbpdxbpltjhlwphdc",
+    ""
+   ],
+   [
+    "https://bsky.app/profile/loudoun.gov",
+    ""
+   ],
+   [
+    "https://www.loudoun.gov/Search/Results",
+    ""
+   ],
+   [
+    "https://www.loudoun.gov/",
+    "Home"
+   ],
+   [
+    "https://www.loudoun.gov/27/Government",
+    "Government"
+   ],
+   [
+    "https://www.loudoun.gov/86/Board-of-Supervisors",
+    "Board of Supervisors"
+   ],
+   [
+    "https://www.loudoun.gov/4829/Board-of-Supervisors-Meeting-Documents",
+    "Board of Supervisors Meeting Documents"
+   ],
+   [
+    "https://www.loudoun.gov/3434/Legislative-Reports",
+    "Legislative Reports"
+   ],
+   [
+    "https://www.loudoun.gov/bos",
+    "Board of Supervisors"
+   ],
+   [
+    "https://www.loudoun.gov/webcast-archives",
+    "Loudoun County webcast system"
+   ],
+   [
+    "https://www.loudoun.gov/3435/Archived-Action-Reports-Copy-Testes-Minu",
+    "Archived Action Reports, Copy Testes, Minutes"
+   ],
+   [
+    "https://www.loudoun.gov/paytaxes",
+    "PAY TAXES"
+   ],
+   [
+    "https://www.loudoun.gov/parceldatabase",
+    "REAL ESTATE ASSESSMENTS"
+   ],
+   [
+    "https://www.loudoun.gov/1057/Prospective-Employees",
+    "JOBS"
+   ],
+   [
+    "https://www.loudoun.gov/4829",
+    "BOARD AGENDAS &amp; DOCUMENTS"
+   ],
+   [
+    "https://www.loudoun.gov/4241/Permits",
+    "PERMITS &amp; LICENSES"
+   ],
+   [
+    "https://www.loudoun.gov/3055/Loudoun-Express-Request",
+    "REPORT A CONCERN"
+   ],
+   [
+    "https://www.loudoun.gov/",
+    "Home"
+   ],
+   [
+    "https://www.loudoun.gov/MyAccount",
+    "My Account"
+   ],
+   [
+    "https://www.loudoun.gov/EmailPage",
+    "Email Page"
+   ],
+   [
+    "https://www.loudoun.gov/rss.aspx",
+    "RSS"
+   ],
+   [
+    "https://www.loudoun.gov/SiteMap",
+    "Site Map"
+   ],
+   [
+    "https://www.loudoun.gov/list.aspx",
+    "Notifications"
+   ],
+   [
+    "https://www.loudoun.gov/QuickLinks.aspx?CID=76",
+    "County Resources"
+   ],
+   [
+    "https://www.loudoun.gov/2960/Accessibility",
+    "ADA Accessibility/Language Access"
+   ],
+   [
+    "https://www.loudoun.gov/2364/Contact-Us",
+    "Contact Us"
+   ],
+   [
+    "https://www.loudoun.gov/923/Virginia-Freedom-of-Information-Act-FOIA",
+    "Public Records Requests (FOIA)"
+   ],
+   [
+    "https://www.loudoun.gov/3442/Report-Fraud-Waste-Abuse",
+    "Report Fraud, Waste & Abuse"
+   ],
+   [
+    "https://www.loudoun.gov/3350/Service-Response-Card",
+    "Tell Us How We're Doing"
+   ],
+   [
+    "https://www.surveymonkey.com/r/LCWebsiteFeedback",
+    "Website Feedback"
+   ],
+   [
+    "https://www.loudoun.gov/QuickLinks.aspx?CID=212",
+    "Related Links"
+   ],
+   [
+    "https://www.virginia.gov/",
+    "Commonwealth of Virginia"
+   ],
+   [
+    "https://www.mwcog.org/",
+    "Council of Governments"
+   ],
+   [
+    "https://www.lcps.org/",
+    "Loudoun County Public Schools"
+   ],
+   [
+    "https://www.novaregion.org",
+    "Northern Virginia Regional Commission"
+   ],
+   [
+    "https://www.loudoun.gov/193/Incorporated-Towns",
+    "Towns"
+   ],
+   [
+    "https://www.usa.gov/",
+    "USA.gov"
+   ],
+   [
+    "https://www.loudoun.gov/",
+    "Home"
+   ],
+   [
+    "https://www.loudoun.gov/2366/For-Employees",
+    "For Employees"
+   ],
+   [
+    "https://www.loudoun.gov/904/Privacy-Practices-Security-Policy",
+    "Privacy Policy/Copyright Notices"
+   ],
+   [
+    "https://www.loudoun.gov/sitemap",
+    "Site Map"
+   ],
+   [
+    "https://www.loudoun.gov/3594/Loudoun-County-Website-Accessibility",
+    "Website Accessibility"
+   ],
+   [
+    "tel: 703-777-0100",
+    "703-777-0100"
+   ],
+   [
+    "http://www.civicplus.com",
+    "CivicPlus&reg;"
+   ]
+  ]
+ },
+ {
+  "url": "https://www.fairfaxcounty.gov/planningcommission/meetingcalendar",
+  "render": false,
+  "robots_status": 200,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "text/html; charset=UTF-8",
+  "final_url": "https://www.fairfaxcounty.gov/planningcommission/meetingcalendar",
+  "len": 131483,
+  "head": "<!DOCTYPE html>\n<html  lang=\"en\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# \">\n  <head><script src=\"/prod_common.js?matcher\"></script><script src=\"/prod_common.js?single\"></script>\n    <meta charset=\"utf-8\" />\n<meta name=\"description\" content=\"Fairfax County, Virginia - Planning Commission Meeting Calendar\" />\n<meta name=\"keywords\" content=\"Planning Commission, Planning Commission Calendar, Meeting Schedule\" />\n<meta name=\"Last-Modified\" content=\"2026-10-02T09:55:55-04:00\" />\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-ECSKBQL4PW\"></script>\n<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag(\"js\", new Date());gtag(\"set\", \"developer_id.dMDhkMT\", true);gtag(\"config\", \"G-ECSKBQL4PW\", {\"groups\":\"default\",\"page_placeholder\":\"PLACEHOLDER_page_location\"});gtag(\"config\", \"G-P0M7YK9ZWG\", {\"groups\":\"default\",\"page_placeholder\":\"PLACEHOLDER_page_location\"});</script>\n<meta name=\"MobileOptimized\" content=\"width\" />\n<meta name=\"HandheldFriendly\" content=\"true\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<link rel=\"icon\" href=\"/planningcommission/themes/bootstr",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_www.fairfaxcounty.gov_planningcommission_meetingcalendar.txt",
+  "n_links": 470,
+  "links": [
+   [
+    "https://www.fairfaxcounty.gov/",
+    ""
+   ],
+   [
+    "https://www.fairfaxcounty.gov/",
+    ""
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planningcommission/",
+    "Home"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planning-development/node/357",
+    "Land Use Research Tools"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planningcommission/contact",
+    "Contact/Directions"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planningcommission/meetingcalendar",
+    "Calendar and Agenda"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planningcommission/committees",
+    "Committees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planningcommission/pc-workshops",
+    "Workshops"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planningcommission/pcaction-home",
+    "Planning Commission Actions"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planningcommission/minutes-home",
+    "Planning Commission Minutes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planningcommission/ways-to-provide-public-hearing-testimony",
+    "Ways to Testify"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planningcommission/speaker",
+    "Speakers List Sign Up"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planningcommission/faqs",
+    "FAQ"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/animals-and-pets",
+    "Animals &amp; Pets"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/animalservices/adopt",
+    "Adoptions"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/police/specializedunits/animalprotectionpolice",
+    "Animal Control &amp; Regulations"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/guides/dogs",
+    "Guide to Dogs"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/animalservices/lostandfoundpets",
+    "Lost &amp; Found Pets"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/animalservices/donate",
+    "Shelter Support &amp; Supplies"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/wildlife",
+    "Wildlife"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/animals-and-pets",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/courts-and-legal",
+    "Courts &amp; Legal"
+   ],
+   [
+    "https://eapps.courts.state.va.us/gdcourts/captchaVerification.do?landing=landing",
+    "Case Information"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/circuitcourtdocket/",
+    "Circuit Court Docket"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/circuit/jury/general-information",
+    "Jury Duty"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/circuit/land-records/general-information",
+    "Land Records"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/courts/magistrate",
+    "Magistrate"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/public-law-library",
+    "Public Law Library"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/courthouse-self-help-center",
+    "Self-Help Resources"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/generaldistrict/traffic",
+    "Traffic Court"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health/vital-records",
+    "Vital Records"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/courts-and-legal",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/environment",
+    "Environment &amp; Energy"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/invasive-species",
+    "Invasive Species"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/litter",
+    "Litter"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/recycle",
+    "Recycle, Trash &amp; Compost"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/sustain-fairfax",
+    "Sustain Fairfax"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/trees",
+    "Trees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/stormwater",
+    "Watersheds"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/environment/",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health-humanservices",
+    "Health &amp; Human Services"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/basic-needs-assistance",
+    "Basic Needs &amp; Assistance"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/familyservices/disabilities",
+    "Disability Services"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health/diseases-conditions",
+    "Diseases &amp; Conditions"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/familyservices/domestic-sexual-violence",
+    "Domestic &amp; Sexual Violence"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health/clinics",
+    "Health Clinics"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/community-services-board/mental-health",
+    "Mental Health"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/opioids",
+    "Opioids"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health-humanservices/",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/individuals-and-families",
+    "Individuals &amp; Families"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/children-and-youth",
+    "Children &amp; Youth"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/federal-government-resource-hub",
+    "Federal Workforce"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/immigrants-fairfax-county",
+    "Immigrants"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/military-veterans",
+    "Military &amp; Veterans"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/guides/moving-to-fairfax",
+    "New Residents"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/familyservices/older-adults",
+    "Older Adults"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/parents",
+    "Parents"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/people-with-disabilities",
+    "People with Disabilities"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/volunteering",
+    "Volunteers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/individuals-and-families",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/land-use-and-planning",
+    "Land Use &amp; Planning"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planning-zoning/fairfax-county-comprehensive-plan",
+    "Comprehensive Plan"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/capital-projects",
+    "County Capital Projects"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/data-centers",
+    "Data Centers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/circuit/land-records/general-information",
+    "Land Records"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/planning-development/planning",
+    "Parks Planning"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planning-zoning/projects-and-initiatives",
+    "Planning Projects"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planning-development/land-use-research",
+    "Research Tools"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/transportation/projects",
+    "Transportation Projects"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planning-development/urban-centers",
+    "Urban Centers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/land-use-and-planning",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/library-and-education",
+    "Library &amp; Education"
+   ],
+   [
+    "https://www.fcps.edu/academics/adult-and-community-education-ace-overview",
+    "Adult Education"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/early-childhood-programs-services",
+    "Early Childhood Programs"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/library/branches",
+    "Library Branches"
+   ],
+   [
+    "https://fcplcat.fairfaxcounty.gov/",
+    "Library Catalog Search"
+   ],
+   [
+    "https://www.fcps.edu/",
+    "Public Schools"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/library-and-education",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/recreation-and-parks",
+    "Parks &amp; Recreation"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/arts",
+    "Arts"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/athletic-fields",
+    "Athletic Fields"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/camps",
+    "Camps"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/community-centers",
+    "Community Centers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/parktakes",
+    "Parktakes Classes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/reccenter",
+    "Rec Centers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/senior-centers",
+    "Senior Centers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/teen-centers",
+    "Teen Centers"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/trails/",
+    "Trails"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/recreation-and-parks",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/permits-and-licenses",
+    "Permits &amp; Licenses"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health/vital-records",
+    "Birth &amp; Death Certificates"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/landdevelopment/building-permits",
+    "Building"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/ceps",
+    "Child Care"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/dog-license-information",
+    "Dogs"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health/permits",
+    "Health"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/circuit/marriage/marriage-license-information",
+    "Marriage"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/permits",
+    "Park Use"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/cableconsumer/csd/regulation-licensing/canvassers-peddlers-promoters-solicitors",
+    "Solicitors"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/permits-and-licenses",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/property-and-housing",
+    "Property &amp; Housing"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/housing/",
+    "Affordable Housing"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/code",
+    "Code &amp; Zoning"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/neighborhoods",
+    "Neighborhoods"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/real-estate",
+    "Real Estate Values"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/recycling-and-trash",
+    "Recycling &amp; Trash"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/cableconsumer/csd/tenant-landlord",
+    "Tenant Landlord Issues"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/cableconsumer/csd/utility-and-cable-providers",
+    "Utilities"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/property-and-housing",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/public-safety-and-emergencies",
+    "Public Safety &amp; Emergencies"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/911",
+    "9-1-1"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/emergency",
+    "Emergency Preparedness"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/fire-ems",
+    "Fire &amp; Rescue"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/news/resources-to-help-prevent-gun-violence",
+    "Gun Violence Prevention"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/police",
+    "Police"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/scams",
+    "Scams"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/sheriff",
+    "Sheriff"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/emergency/stormcenter",
+    "Storm Center"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/public-safety-and-emergencies",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/roads-and-commuting",
+    "Roads &amp; Commuting"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/transportation/bike-walk",
+    "Bike &amp; Walk"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/connector",
+    "Connector Bus"
+   ],
+   [
+    "https://www.wmata.com/",
+    "Metrobus &amp; Metrorail"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/connector/park-and-ride",
+    "Park &amp; Ride"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/pedestrian-bike-traffic-safety",
+    "Pedestrian Safety"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/transportation/roads-conditions-maintenance",
+    "Road Maintenance/VDOT"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/transportation/parking",
+    "Street Parking"
+   ],
+   [
+    "https://www.tollroadsinvirginia.com/",
+    "Toll Roads"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/transportation/projects",
+    "Transportation Projects"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/roads-and-commuting",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/taxes-and-fees",
+    "Taxes &amp; Fees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/vehicles",
+    "Car Taxes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/fees",
+    "Park Fees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/real-estate",
+    "Real Estate Taxes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/relief",
+    "Tax Relief"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/recycling-trash/residential-disposal-fees-and-regulations",
+    "Trash Disposal Fees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/taxes-and-fees",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/",
+    "Voting &amp; Elections"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/absentee",
+    "Absentee Voting"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/early-voting",
+    "Early Voting"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/returns",
+    "Election Results"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/precincts",
+    "Polling Places"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/voter-registration",
+    "Voter Registration"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/news/weather/",
+    "Weather &amp; Climate"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/emergency/air-quality",
+    "Air Quality"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/environment-energy-coordination/climate-action",
+    "Climate Action Dashboard"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/extreme-heat-resources",
+    "Extreme Heat"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/flood-info",
+    "Floods"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/emergency/readyfairfax",
+    "Ready Fairfax"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/environment-energy-coordination/resilient-fairfax",
+    "Resilient Fairfax"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/snow/",
+    "Snow"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/news/guide-tornado-preparedness-fairfax-county",
+    "Tornadoes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/news/weather/",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/business-construction",
+    "Business &amp; Construction"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/landdevelopment/building-permits",
+    "Building Permits"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/code",
+    "Code &amp; Zoning"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/land-use-and-planning",
+    "Land Use"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/business-construction",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/business-services",
+    "Business Services"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/emergency/readyfairfax/businesspreparedness",
+    "Business Emergency Preparedness"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/business",
+    "Business Taxes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/cableconsumer/csd/consumer",
+    "Consumer Services"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/transportation/commuter-services",
+    "Employer Transportation Service"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/energy/greenbusiness",
+    "Green Business Partners Program"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/planning-development/zoning/home-based-business",
+    "Home-Based Business"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/cableconsumer/csd/regulation-licensing",
+    "Regulation &amp; Licensing"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/small-business-commission/",
+    "Small Business"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/starting-business",
+    "Starting a Business"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/humanrights/",
+    "Workplace Issues"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/business-services",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/doing-business-fairfax-county",
+    "Doing Business with Fairfax"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/procurement",
+    "Contracting and Procurement"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/procurement/contracting-opportunities",
+    "Current Solicitations"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/permits-and-licenses",
+    "Permits"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/procurement/vendor-pitch-portal",
+    "Vendor Pitch Portal"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/doing-business-fairfax-county",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/about-fairfax-county",
+    "About"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/codes-and-standards",
+    "Codes &amp; Standards"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/strategicplan/",
+    "Countywide Strategic Plan"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/facilities-and-locations",
+    "Facilities &amp; Locations"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/history",
+    "History of Fairfax County"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/status",
+    "Operating Status"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/about-fairfax-county",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/",
+    "Board of Supervisors"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardauditor/",
+    "Auditor"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/members-and-districts",
+    "Board Members"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/bacs",
+    "Boards, Authorities &amp; Commissions"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/bosclerk/",
+    "Clerk Services"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/committees",
+    "Committees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/2026-board-meetings",
+    "Meetings &amp; Agendas"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/budget-finance",
+    "Budget &amp; Finance"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/bond",
+    "Bonds"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/budget",
+    "Budget"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/financial-transparency",
+    "Financial Transparency"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/finance/AccountsPayable/UnclaimedMoney",
+    "Unclaimed Money"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/budget-finance",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/departments-and-agencies",
+    "Departments &amp; Agencies"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/jobs",
+    "Jobs &amp; Employment"
+   ],
+   [
+    "https://www.governmentjobs.com/careers/fairfaxcounty",
+    "Full-Time Openings"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/hr/non-merit-internships",
+    "Internships"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/hr/non-merit-fairfax-county-jobs",
+    "Seasonal &amp; Non-Merit"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/maps-data",
+    "Maps &amp; Data"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/data/",
+    "Countywide Data Analytics"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/demographics",
+    "Demographics"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/maps",
+    "Geographic Information Systems"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/demographics/data-visualization-gallery",
+    "Interactive Data Tools"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/maps-data",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/one-fairfax",
+    "One Fairfax"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/digital-equity",
+    "Digital Equity"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/inclusive-community-engagement",
+    "Inclusive Engagement"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/trust-policy",
+    "Trust Policy"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/",
+    ""
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/find",
+    "Find"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/animalservices/",
+    "Animal Services"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/health/clinics",
+    "Health Clinics"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/jobs",
+    "Jobs"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/library",
+    "Library Resources"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/animalservices/lostandfoundpets",
+    "Lost or Found Pet"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/community-services-board/mental-health",
+    "Mental Health Support"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/parks/parktakes",
+    "Park Classes"
+   ],
+   [
+    "https://icare.fairfaxcounty.gov/ffxcare/",
+    "Real Estate Values"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/publicworks/recycling-and-trash",
+    "Recycling &amp; Trash"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/volunteering",
+    "Volunteer Opportunities"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/find",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/pay",
+    "Pay"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/business",
+    "Business Taxes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/dta_mobileepay/",
+    "Car Taxes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/dog-license-information",
+    "Dog Licenses"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/driving-parking-fine-payments",
+    "Driving &amp; Parking Fines"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/policefalsealarm/",
+    "False Alarm Fees"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/dta_mobileepayre/",
+    "Real Estate/Property Taxes"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/ofc/saccpayments/",
+    "SACC Payments"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/pay",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/registerapply",
+    "Register/Apply"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/neighborhood-community-services/coordinated-services-planning",
+    "Basic Needs &amp; Assistance"
+   ],
+   [
+    "https://plus.fairfaxcounty.gov/",
+    "Building Inspections"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/vehicles/register-update-preface",
+    "Car Registration"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/alerts",
+    "Fairfax Alerts"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/permits-and-licenses",
+    "Permits &amp; Licenses"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/taxes/relief/tax-relief-seniors-people-with-disabilities",
+    "Tax Relief"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/elections/voter-registration",
+    "Vote"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/registerapply",
+    "More"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/topics/report",
+    "Report"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/police/specializedunits/animalprotectionpolice",
+    "Animal Control Issues"
+   ],
+   [
+    "https://dccs.powerappsportals.us/file-a-complaint",
+    "Consumer Complaints"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/police/howdoi/communityreportingsystem",
+    "Crime"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/familyservices/domestic-sexual-violence",
+    "Domestic Violence"
+   ],
+   [
+    "https://www.fairfaxcounty.gov/police/howdoi/financialcrimes",
+    "Financial Crimes"
+   ],
+   [
+    "https://plus.fairfaxcounty.gov/CitizenAccess/Cap/CapApplyDisclaimer.aspx?module=Enforcement&TabName=Enforcement&TabList=Home%7C0%7CBuilding%7C1%7CEnforcement%7C2%7CEnvHealth%7C3%7CFire%7C4%7CPlanning%7C5%7CSite%7C6%7CZoning%7C7%7CCurrentTabIndex%7C2",
+    "Neighborhood Complaints"
+   ]
+  ]
+ },
+ {
+  "url": "https://www.tulsacouncil.org/",
+  "render": false,
+  "robots_status": 200,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "text/html; charset=UTF-8",
+  "final_url": "https://www.tulsacouncil.org/",
+  "len": 2223851,
+  "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  \n  <meta charset='utf-8'>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" id=\"wixDesktopViewport\" />\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"generator\" content=\"Wix.com Website Builder\"/>\n\n  <link rel=\"icon\" sizes=\"192x192\" href=\"https://static.wixstatic.com/media/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png\" type=\"image/png\"/>\n  <link rel=\"shortcut icon\" href=\"https://static.wixstatic.com/media/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png\" type=\"image/png\"/>\n  <link rel=\"apple-touch-icon\" href=\"https://static.wixstatic.com/media/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png\" type=\"image/png\"/>\n\n  <!-- Safari Pinned Tab Icon -->\n  <!-- <link rel=\"mask-icon\" href=\"https://static.wixstatic.com/media/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png\"> -->\n\n  <!-- Segmenter Polyfill -->\n  <script>\n    if (!window.Intl || !window.Intl.Segmenter) {\n      (function() {\n        var script = document.createElement('script');\n        script.src = 'https://static.parastorage.com/unpkg/@format",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_www.tulsacouncil.org.txt",
+  "n_links": 95,
+  "links": [
+   [
+    "https://www.tulsacouncil.org",
+    ""
+   ],
+   [
+    "https://www.tulsacouncil.org",
+    "TULSA CITY COUNCIL"
+   ],
+   [
+    "https://www.tulsacouncil.org",
+    "HOME"
+   ],
+   [
+    "https://www.tulsacouncil.org",
+    "Upcoming Events"
+   ],
+   [
+    "https://www.tulsacouncil.org/about",
+    "ABOUT US"
+   ],
+   [
+    "https://www.tulsacouncil.org/news",
+    "News"
+   ],
+   [
+    "https://www.tulsacouncil.org/council-staff",
+    "Council Staff"
+   ],
+   [
+    "https://www.tulsacouncil.org/council-rules",
+    "Council Rules"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-finder",
+    "District Finder"
+   ],
+   [
+    "https://www.tulsacouncil.org/councilors",
+    "COUNCILORS"
+   ],
+   [
+    "https://www.tulsacouncil.org/copy-of-councilors",
+    "Meet the Councilors"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-1",
+    "District 1"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-2",
+    "District 2"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-3",
+    "District 3"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-4",
+    "District 4"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-5",
+    "District 5"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-6",
+    "District 6"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-7",
+    "District 7"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-8",
+    "District 8"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-9",
+    "District 9"
+   ],
+   [
+    "https://www.tulsacouncil.org/meetings",
+    "MEETINGS"
+   ],
+   [
+    "https://www.tulsacouncil.org/meetings",
+    "Agendas"
+   ],
+   [
+    "https://www.tulsacouncil.org/meetings",
+    "FAQs"
+   ],
+   [
+    "https://www.tulsacouncil.org/meetings",
+    "Forms"
+   ],
+   [
+    "https://tulsa-ok.granicus.com/ViewPublisher.php?view_id=4",
+    "Recorded Meetings"
+   ],
+   [
+    "https://www.tulsacouncil.org/projects",
+    "PROJECTS"
+   ],
+   [
+    "https://www.tulsacouncil.org/south-tulsa-roads",
+    "South Tulsa Roads"
+   ],
+   [
+    "https://www.tulsacouncil.org/3htaskforce",
+    "3H Task Force"
+   ],
+   [
+    "https://www.tulsacouncil.org/improveourtulsa",
+    "Improve Our Tulsa 3"
+   ],
+   [
+    "https://www.tulsacouncil.org/budget",
+    "Budget"
+   ],
+   [
+    "https://www.tulsacouncil.org/hotel",
+    "Hotel Guest Tax"
+   ],
+   [
+    "https://www.tulsacouncil.org/priorities-2027",
+    "Mayor/Council Priorities"
+   ],
+   [
+    "https://www.tulsacouncil.org/past-projects/iot2",
+    "Community Development Priority Projects"
+   ],
+   [
+    "https://www.tulsacouncil.org/past-projects",
+    "Past Projects"
+   ],
+   [
+    "https://www.tulsacouncil.org/past-projects/past-budgets",
+    "Past Budgets"
+   ],
+   [
+    "https://www.tulsacouncil.org/past-projects/past-priorities",
+    "Past Priorities"
+   ],
+   [
+    "https://www.tulsacouncil.org/past-projects/tribalrelationscommittee",
+    "Tribal Relations Committee"
+   ],
+   [
+    "https://www.tulsacouncil.org/council-equality-indicators-initiative",
+    "Council Equality Indicators Initiative"
+   ],
+   [
+    "https://www.tulsacouncil.org/charter-amendments-2024",
+    "Charter Amendments 2024"
+   ],
+   [
+    "https://www.tulsacouncil.org/past-projects/tulsa-race-massacre-commemoration",
+    "Tulsa Race Massacre Commemoration"
+   ],
+   [
+    "https://www.tulsacouncil.org/past-projects/iot2",
+    "Improve Our Tulsa 2"
+   ],
+   [
+    "https://www.tulsacouncil.org/faqs",
+    "FAQs"
+   ],
+   [
+    "https://www.tulsacouncil.org/contact",
+    "CONTACT"
+   ],
+   [
+    "https://www.tulsacouncil.org/councilors",
+    "MEET THE COUNCILORS"
+   ],
+   [
+    "https://experience.arcgis.com/experience/bfe2644da8034a5abafd91d579986978",
+    "DISTRICT FINDER"
+   ],
+   [
+    "http://tgovonline.org/",
+    "WATCH MEETINGS"
+   ],
+   [
+    "https://www.tulsacouncil.org/about",
+    "LEARN MORE"
+   ],
+   [
+    "https://www.cityoftulsa.org/apps/TulsaCouncilArchive",
+    "AGENDA FINDER"
+   ],
+   [
+    "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32737",
+    "URBAN &amp; ECON DEV"
+   ],
+   [
+    "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32735",
+    "BUDGET"
+   ],
+   [
+    "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32736",
+    "PUBLIC WORKS"
+   ],
+   [
+    "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32733",
+    "REGULAR 4PM"
+   ],
+   [
+    "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32734",
+    "REGULAR 5PM"
+   ],
+   [
+    "https://www.tulsacouncil.org/post/city-council-recap-august-2026",
+    "City Council Recap | September 2026"
+   ],
+   [
+    "https://www.tulsacouncil.org/post/launch-of-new-approach-to-mental-health",
+    "Launch of New Approach to Mental Health"
+   ],
+   [
+    "https://www.tulsacouncil.org/post/city-of-tulsa-announces-dates-for-mandatory-hud-grant-workshops",
+    "City of Tulsa Announces Dates for Mandatory HUD Grant Workshops"
+   ],
+   [
+    "https://www.tulsacouncil.org/news",
+    "VIEW ALL NEWS"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-1",
+    ""
+   ],
+   [
+    "https://www.tulsacouncil.org/district-1",
+    "DISTRICT 1"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-1",
+    "VIEW ALL"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-2",
+    ""
+   ],
+   [
+    "https://www.tulsacouncil.org/district-2",
+    "DISTRICT 2"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-2",
+    "VIEW ALL"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-3",
+    ""
+   ],
+   [
+    "https://www.tulsacouncil.org/district-3",
+    "DISTRICT 3"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-3",
+    "VIEW ALL"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-4",
+    ""
+   ],
+   [
+    "https://www.tulsacouncil.org/district-4",
+    "DISTRICT 4"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-4",
+    "VIEW ALL"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-5",
+    ""
+   ],
+   [
+    "https://www.tulsacouncil.org/district-5",
+    "DISTRICT 5"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-5",
+    "VIEW ALL"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-6",
+    ""
+   ],
+   [
+    "https://www.tulsacouncil.org/district-6",
+    "DISTRICT 6"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-6",
+    "VIEW ALL"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-7",
+    ""
+   ],
+   [
+    "https://www.tulsacouncil.org/district-7",
+    "DISTRICT 7"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-7",
+    "VIEW ALL"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-8",
+    ""
+   ],
+   [
+    "https://www.tulsacouncil.org/district-8",
+    "DISTRICT 8"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-8",
+    "VIEW ALL"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-9",
+    ""
+   ],
+   [
+    "https://www.tulsacouncil.org/district-9",
+    "DISTRICT 9"
+   ],
+   [
+    "https://www.tulsacouncil.org/district-9",
+    "VIEW ALL"
+   ],
+   [
+    "https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fmaps.cityoftulsa.org%2Fcitycouncil&data=05%7C02%7Caguyton%40tulsacouncil.org%7C8b2e57bebdc2434fd4f808de36a2851e%7C79d58ae020484d8c9c598b1b7dfb4204%7C0%7C0%7C639008268799946589%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=AVanxdJsYdX29UlAwSzZep7LOYtfCRb%2BwacRI9rihDE%3D&reserved=0",
+    "DISTRICT FINDER"
+   ],
+   [
+    "https://www.google.com/maps/place/175+E+2nd+St,+Tulsa,+OK+74103/@36.1552301,-95.9895427,17z/data=!3m1!4b1!4m5!3m4!1s0x87b6eb78c3ffa2c5:0x249621adccae8a90!8m2!3d36.1552301!4d-95.9895427",
+    "175 East 2nd St. 4th Floor    ​"
+   ],
+   [
+    "tel:9185961990",
+    "(918) 596-1990"
+   ],
+   [
+    "mailto:info@tulsacouncil.org",
+    "info@tulsacouncil.org"
+   ],
+   [
+    "https://www.facebook.com/tulsacitycouncil/",
+    ""
+   ],
+   [
+    "https://www.instagram.com/tulsacitycouncil/?hl=en",
+    ""
+   ],
+   [
+    "https://twitter.com/tulsacouncil?lang=en",
+    ""
+   ],
+   [
+    "https://www.youtube.com/user/tulsacouncil",
+    ""
+   ],
+   [
+    "https://www.linkedin.com/company/tulsa-city-council/",
+    ""
+   ],
+   [
+    "https://www.flickr.com/photos/tulsacouncil/",
+    ""
+   ],
+   [
+    "https://nextdoor.com/pages/tulsa-city-council-tulsa-ok/",
+    ""
+   ]
+  ]
+ },
+ {
+  "url": "https://www.txcourts.gov/supreme/orders-opinions/2026/october/october-2-2026/",
+  "render": false,
+  "robots_status": 200,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "final_url": "https://www.txcourts.gov/supreme/orders-opinions/2026/october/october-2-2026/",
+  "len": 61014,
+  "head": "\r\n\t<!DOCTYPE html>\r\n\t<html xmlns:umbraco=\"http://umbraco.org\" lang=\"en\">\r\n\t<head>\r\n\t\t<meta charset=\"utf-8\">\r\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n        <link rel=\"shortcut icon\" href=\"/ico/favicon.ico\" >\r\n        <title>TJB | SC | Orders & Opinions | 2026 | October | October 2, 2026</title>\r\n        <meta name=\"description\" content=\"\">\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n\r\n\t\t<meta property=\"og:type\" content=\"article\" />\r\n\t\t<meta property=\"og:title\" content=\"\" />\r\n\t\t<meta property=\"og:image\" content=\"\" />\r\n\t\t<meta property=\"og:description\" content=\"\" />\r\n\r\n\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css\" integrity=\"sha512-dhpxh4AzF050JM736FF+lLVybu28koEYRrSJtTKfA4Z7jKXJNQ5LcxKmHEwruFN2DuOAi9xeKROJ4Z+sttMjqw==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\r\n\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css\" integrity=\"sha512-S6hLYzz2hVBjcFOZkAOO+qEkytvbg2k9yZ1oO+zwXNYnQU71syCWhWtIk3UYDvUW2FCIwkzsTcwkEE58EZPnIQ==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\r\n\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css\" integrity=\"sha512-77kidyGDJGWWmJ0MVO0CRp+6nRgZRK67frUVBRvnL1zCcmcw9FkCQxpDHq52SebW+KWTAnnuX0Qk2/MQWogWoQ==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\r\n   ",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_www.txcourts.gov_supreme_orders-opinions_2026_october_october-2-2026.txt",
+  "n_links": 117,
+  "links": [
+   [
+    "http://browsehappy.com/",
+    "upgrade your browser"
+   ],
+   [
+    "http://www.google.com/chromeframe/?redirect=true",
+    "activate Google Chrome Frame"
+   ],
+   [
+    "https://www.txcourts.gov/",
+    "Texas Judicial   Branch"
+   ],
+   [
+    "https://www.txcourts.gov/",
+    "Home"
+   ],
+   [
+    "https://www.txcourts.gov/about-texas-courts/",
+    "About Texas Courts"
+   ],
+   [
+    "https://www.txcourts.gov/supreme/",
+    "Supreme Court"
+   ],
+   [
+    "https://www.txcourts.gov/cca/",
+    "Court of Criminal Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/1stcoa/",
+    "1 st  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/2ndcoa/",
+    "2 nd  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/3rdcoa/",
+    "3 rd  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/4thcoa/",
+    "4 th  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/5thcoa/",
+    "5 th  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/6thcoa/",
+    "6 th  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/7thcoa/",
+    "7 th  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/8thcoa/",
+    "8 th  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/9thcoa/",
+    "9 th  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/10thcoa/",
+    "10 th  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/11thcoa/",
+    "11 th  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/12thcoa/",
+    "12 th  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/13thcoa/",
+    "13 th  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/14thcoa/",
+    "14 th  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/15thcoa/",
+    "15 th  Court of Appeals"
+   ],
+   [
+    "https://www.txcourts.gov/courts/non-appellate-courts/multi-district-litigation-panel/",
+    "Multi-District Litigation Panel"
+   ],
+   [
+    "https://www.txcourts.gov/businesscourt/",
+    "Business Court"
+   ],
+   [
+    "https://www.txcourts.gov/courts/non-appellate-courts/childrens-courts/",
+    "Children's Courts"
+   ],
+   [
+    "https://www.txcourts.gov/courts/non-appellate-courts/specialty-courts/",
+    "Specialty Courts"
+   ],
+   [
+    "https://www.txcourts.gov/courts/non-appellate-courts/trial-courts/",
+    "Trial Courts"
+   ],
+   [
+    "https://www.txcourts.gov/forms/",
+    "Forms"
+   ],
+   [
+    "https://www.txcourts.gov/rules-forms/rules-standards/",
+    "Rules & Standards"
+   ],
+   [
+    "https://www.txcourts.gov/rules-forms/local-rules-forms-and-standing-orders/",
+    "Local Rules, Forms and Standing Orders"
+   ],
+   [
+    "https://www.txcourts.gov/organizations/policy-funding/administrative-judicial-regions/",
+    "Administrative Judicial Regions"
+   ],
+   [
+    "https://www.texaschildrenscommission.gov/",
+    "Children's Commission"
+   ],
+   [
+    "https://www.txcourts.gov/jcit/",
+    "Judicial Committee on Information Technology"
+   ],
+   [
+    "https://www.txcourts.gov/jbcc/",
+    "Judicial Branch Certification Commission"
+   ],
+   [
+    "https://www.texasjcmh.gov/",
+    "Judicial Commission on Mental Health"
+   ],
+   [
+    "https://www.txcourts.gov/jcc/",
+    "Judicial Compensation Commission"
+   ],
+   [
+    "https://www.txcourts.gov/jdb/",
+    "Judicial Districts Board"
+   ],
+   [
+    "https://www.txcourts.gov/scac/",
+    "Supreme Court Advisory Committee"
+   ],
+   [
+    "https://www.txcourts.gov/organizations/policy-funding/task-force-on-judicial-emergency-preparedness/",
+    "Task Force on Judicial Emergency Preparedness"
+   ],
+   [
+    "https://www.texasatj.org/",
+    "Texas Access to Justice Commission"
+   ],
+   [
+    "https://www.teajf.org/",
+    "Texas Access to Justice Foundation"
+   ],
+   [
+    "https://www.txcourts.gov/tcjs/",
+    "Texas Commission on Judicial Selection"
+   ],
+   [
+    "https://www.txcourts.gov/organizations/policy-funding/texas-commission-to-expand-civil-legal-services/",
+    "Texas Commission to Expand Civil Legal Services"
+   ],
+   [
+    "https://www.txcourts.gov/fsc/",
+    "Texas Forensic Science Commission"
+   ],
+   [
+    "https://www.tidc.texas.gov/",
+    "Texas Indigent Defense Commission"
+   ],
+   [
+    "https://www.txcourts.gov/tjc/",
+    "Texas Judicial Council"
+   ],
+   [
+    "https://www.txcourts.gov/organizations/policy-funding/timothy-cole-exoneration-review-commission/",
+    "Timothy Cole Exoneration Review Commission"
+   ],
+   [
+    "https://ocfw.texas.gov/",
+    "Office of Capital and Forensic Writs"
+   ],
+   [
+    "https://www.txcourts.gov/oca/",
+    "Office of Court Administration"
+   ],
+   [
+    "https://www.scjc.texas.gov/",
+    "State Commission on Judicial Conduct"
+   ],
+   [
+    "https://www.sll.texas.gov/",
+    "State Law Library"
+   ],
+   [
+    "https://www.spa.texas.gov/",
+    "State Prosecuting Attorney"
+   ],
+   [
+    "https://ble.texas.gov/home",
+    "Board of Law Examiners"
+   ],
+   [
+    "https://www.txcourts.gov/organizations/bar-education/judicial-education/",
+    "Judicial Education"
+   ],
+   [
+    "https://www.txcourts.gov/organizations/bar-education/ombudsman-for-attorney-discipline/",
+    "Ombudsman for Attorney Discipline"
+   ],
+   [
+    "https://www.texasbar.com/",
+    "State Bar of Texas"
+   ],
+   [
+    "https://www.tbls.org/",
+    "Texas Board of Legal Specialization"
+   ],
+   [
+    "https://www.legalethicstexas.com/",
+    "Texas Center for Legal Ethics"
+   ],
+   [
+    "https://www.txcourts.gov/publications-training/clerk-resources/",
+    "Clerk Resources"
+   ],
+   [
+    "https://www.txcourts.gov/publications-training/judicial-ethics-bench-books/",
+    "Judicial Ethics & Bench Books"
+   ],
+   [
+    "https://www.txcourts.gov/publications-training/legislative-information/",
+    "Legislative Information"
+   ],
+   [
+    "https://www.txcourts.gov/publications-training/publications/",
+    "Publications"
+   ],
+   [
+    "https://www.txcourts.gov/publications-training/training-materials/",
+    "Training Materials"
+   ],
+   [
+    "https://www.txcourts.gov/publications-training/webinars/",
+    "Webinars"
+   ],
+   [
+    "https://www.txcourts.gov/bail/",
+    "Bail & Pretrial"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/certification-registration-licensing/",
+    "Certification, Registration & Licensing"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/centers-of-excellence/",
+    "Centers of Excellence"
+   ],
+   [
+    "https://www.txcourts.gov/ccs/",
+    "Court Consultant Services"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/court-reminder-program/",
+    "Court Reminder Program"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/court-security/",
+    "Court Security"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/digital-evidence-sharing/",
+    "Digital Evidence Sharing"
+   ],
+   [
+    "https://www.txcourts.gov/dvrp/",
+    "Domestic Violence Resource Program"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/electronic-filing/",
+    "Electronic Filing"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/electronic-hearings-zoom/",
+    "Electronic Hearings (Zoom)"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/guardianship-abuse-fraud-and-exploitation-deterrence-program-gafedp/",
+    "Guardianship Abuse, Fraud, and Exploitation Deterrence Program (GAFEDP)"
+   ],
+   [
+    "https://www.tidc.texas.gov/",
+    "Indigent Defense"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/interpretation-translation/",
+    "Interpretation & Translation"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/legal-aid/",
+    "Legal Aid"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/remote-marriage-licenses/",
+    "Remote Marriage Licenses"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/self-help/",
+    "Self-Help"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/uniform-case-management-system/",
+    "Uniform Case Management System"
+   ],
+   [
+    "https://streams.txcourts.gov",
+    "YouTube Channel Directory"
+   ],
+   [
+    "https://www.txcourts.gov/programs-services/archived-programs-services/",
+    "Archived Programs & Services"
+   ],
+   [
+    "https://www.txcourts.gov/judicial-data/citation-by-publication/",
+    "Citation by Publication"
+   ],
+   [
+    "https://card.txcourts.gov/",
+    "Court Activity Database"
+   ],
+   [
+    "https://www.txcourts.gov/judicial-data/cps-reporting/",
+    "CPS Reporting"
+   ],
+   [
+    "https://www.txcourts.gov/judicial-data/data-quality-assistance-program/",
+    "Data Quality & Assistance Program"
+   ],
+   [
+    "https://www.txcourts.gov/judicial-directory/",
+    "Judicial Directory"
+   ],
+   [
+    "https://www.txcourts.gov/open-records-policy/",
+    "Open Records Policy"
+   ],
+   [
+    "https://www.txcourts.gov/judicial-data/protective-order-registry/",
+    "Protective Order Registry"
+   ],
+   [
+    "https://www.txcourts.gov/reporting-to-oca/",
+    "Reporting to OCA"
+   ],
+   [
+    "https://www.txcourts.gov/judicial-data/settlement-database/",
+    "Settlement Database"
+   ],
+   [
+    "https://www.txcourts.gov/statistics/",
+    "Statistics & Other Data"
+   ],
+   [
+    "https://www.txcourts.gov/judicial-data/vexatious-litigants/",
+    "Vexatious Litigants"
+   ],
+   [
+    "https://www.efiletexas.gov/",
+    "eFile Texas"
+   ],
+   [
+    "https://www.txcourts.gov/media/public-affairs/",
+    "Public Affairs"
+   ],
+   [
+    "https://www.txcourts.gov/media/how-to-report-scam-text-messages/",
+    "How to Report Scam Text Messages"
+   ],
+   [
+    "https://www.txcourts.gov/",
+    "Home"
+   ],
+   [
+    "https://www.txcourts.gov/supreme/",
+    "Supreme Court"
+   ],
+   [
+    "https://www.txcourts.gov/supreme/orders-opinions/",
+    "Orders &amp; Opinions"
+   ],
+   [
+    "https://www.txcourts.gov/supreme/orders-opinions/2026/",
+    "2026"
+   ],
+   [
+    "https://www.txcourts.gov/media/1463418/supreme-court-of-texas-orders-10-02-2026.pdf",
+    "Print-Friendly"
+   ],
+   [
+    "https://www.txcourts.gov/",
+    ""
+   ],
+   [
+    "https://www.texasamerica250.com/",
+    ""
+   ],
+   [
+    "https://comptroller.texas.gov/transparency/open-data/dashboards.php",
+    "Where the Money Goes"
+   ],
+   [
+    "https://sao.fraud.texas.gov/",
+    "Report Fraud, Waste and Abuse"
+   ],
+   [
+    "https://www.txcourts.gov/media/1463204/supreme-court-of-texas-legislative-appropriation-request.pdf",
+    "Legislative Appropriations Request"
+   ],
+   [
+    "https://www.txcourts.gov/media/1457638/supreme-court-of-texas-operating-budget.pdf",
+    "Operating Budget"
+   ],
+   [
+    "https://www.txcourts.gov/media/1459446/supreme-court-of-texas-annual-financial-report.pdf",
+    "Annual Financial Report"
+   ],
+   [
+    "https://www.txcourts.gov/media/1439407/supreme-court-of-texas-leave-policies.pdf",
+    "Time & Leave Policy"
+   ],
+   [
+    "https://www.txcourts.gov/careers/",
+    "Careers"
+   ],
+   [
+    "https://www.txcourts.gov/site-policies/",
+    "Site Policies"
+   ],
+   [
+    "https://gov.texas.gov/organization/hsgd",
+    "Texas Homeland Security"
+   ],
+   [
+    "https://veterans.portal.texas.gov/",
+    "Texas Veterans Portal"
+   ],
+   [
+    "https://www.texas.gov/",
+    "Texas.gov"
+   ],
+   [
+    "https://www.tsl.texas.gov/trail/index.html",
+    "Texas Records and Information Locator (TRAIL)"
+   ],
+   [
+    "https://www.txcourts.gov/contact-us/",
+    "Contact the Webmaster"
+   ]
+  ]
+ },
+ {
+  "url": "https://www.nrc.gov/public-involve/rss?feed=news",
+  "render": false,
+  "robots_status": 200,
+  "robots_note": "",
+  "allowed": true,
+  "crawl_delay": null,
+  "status": 200,
+  "ctype": "application/rss+xml; charset=UTF-8",
+  "final_url": "https://www.nrc.gov/public-involve/rss?feed=news",
+  "len": 52589,
+  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss xmlns:atom=\"http://www.w3.org/2005/Atom\" version=\"2.0\">\n  <channel>\n    <title>NRC RSS Feed: News Releases</title>\n    <link><![CDATA[ https://www.nrc.gov/public-involve/rss?feed=news ]]></link>\n    <description> </description>\n    <language>en-us</language>\n    <atom:link href=\"https://www.nrc.gov/public-involve/rss?feed=news\" rel=\"self\" type=\"application/rss+xml\"/>\n    <item>\n      <pubDate><![CDATA[ Mon, 14 Sep 2026 08:00:00 GMT ]]></pubDate>\n      <title><![CDATA[ NRC Advisory: NRC to Hold Mandatory Hearing on Proposed Long Mott Generating Station ]]></title>\n      <link><![CDATA[ https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-029-a.pdf ]]></link>\n    </item>\n    <item>\n      <pubDate><![CDATA[ Fri, 11 Sep 2026 08:00:00 GMT ]]></pubDate>\n      <title><![CDATA[ NRC Proposes Broad Overhaul of Nuclear Reactor Regulations ]]></title>\n      <link><![CDATA[ https://www.nrc.gov/sites/default/files/documents/26-077.pdf ]]></link>\n    </item>\n    <item>\n      <pubDate><![CDATA[ Wed, 09 Sep 2026 08:00:00 GMT ]]></pubDate>\n      <title><![CDATA[ NRC Advisory: NRC to Hold Mandatory Hearing on Belews Creek Early Site Permit ]]></title>\n      <link><![CDATA[ https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-028-a.pdf ]]></link>\n    </item>\n    <item>\n      <pubDate><![CDATA[ Tue, 08 Sep 2026 08:00:00 GMT ]]></pubDate>\n      <title><![CDATA[ NRC Advisory: NRC to Hold Public Webinar on New Reactor ",
+  "dumped": "/home/runner/work/BODI/BODI/data/debug/pages/https_www.nrc.gov_public-involve_rss_feed_news.txt",
+  "n_links": 0,
+  "links": [],
+  "feed_items": [
+   "NRC RSS Feed: News Releases",
+   "<![CDATA[ NRC Advisory: NRC to Hold Mandatory Hearing on Proposed Long Mott Generating Station ]]>",
+   "<![CDATA[ NRC Proposes Broad Overhaul of Nuclear Reactor Regulations ]]>",
+   "<![CDATA[ NRC Advisory: NRC to Hold Mandatory Hearing on Belews Creek Early Site Permit ]]>",
+   "<![CDATA[ NRC Advisory: NRC to Hold Public Webinar on New Reactor Licensing Pathways ]]>",
+   "<![CDATA[ Modern Regulation for a New Nuclear Era ]]>",
+   "<![CDATA[ NRC to Host 7th Artificial Intelligence Workshop ]]>",
+   "<![CDATA[ NRC Proposes Rule That Will Protect Drinking Water Near Uranium In-Situ Recovery Sites ]]>",
+   "<![CDATA[ NRC Advisory: NRC to Hold Virtual Public Meeting on Reducing Barriers to Medical Use Licensing ]]>",
+   "<![CDATA[ NRC Debuts Modernized Hearing Process for Nation’s First Advanced Reactor Construction Permit Review ]]>",
+   "<![CDATA[ NRC Advisory: NRC to Hold Virtual Public Meeting on Proposed Transportation Rule ]]>",
+   "<![CDATA[ NRC Advisory: NRC to Hold Virtual Public Meeting on Proposed Rule To Modernize Radiation Protection Framework ]]>",
+   "<![CDATA[ *Updated* NRC to Hold Virtual Public Meeting on Proposed NEPA Rule Changes ]]>",
+   "<![CDATA[ NRC Proposes Modernized Transportation Rules to Support Advanced Nuclear Technologies ]]>",
+   "<![CDATA[ NRC Moves to Streamline Radioactive Medical Treatment Regulations ]]>"
+  ]
+ }
+]

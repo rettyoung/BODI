@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=yes' />
+    <!--    <script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "name": "Henrico", "url": "http://henrico.gov/", "potentialAction": { "@type": "SearchAction", "target": "http://henrico.gov/search/?q={search_term}", "query-input": "required name=search_term" } }</script>-->
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Agend-O-Gram &#187; Henrico County, Virginia</title>
+	<meta name="description" content="Agend-O-Gram Henrico, VA :: DateAgendaSummary (Agend-o-Gram)Minutes of Regular MeetingMinutes of Special MeetingTuesday, September 22, 2026Meeting, Agenda and Resume September" />
+	<link rel="canonical" href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='preconnect' href='https://fonts.googleapis.com' />
+<link rel='preconnect' href='https://fonts.gstatic.com' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://henrico.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhenrico.gov%2Fsupervisors%2Fsupervisors-agenda-o-gram%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://henrico.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhenrico.gov%2Fsupervisors%2Fsupervisors-agenda-o-gram%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='tribe-events-pro-mini-calendar-block-styles-css' href='https://henrico.gov/wp-content/plugins/events-calendar-pro/build/css/tribe-events-pro-mini-calendar-block.css?ver=7.8.3' media='all' />
+<link rel='stylesheet' id='henrico-fonts-css' href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&#038;display=swap' media='all' />
+<link rel='stylesheet' id='datatable-bs4-css-min-css' href='https://henrico.gov/wp-content/themes/henrico/css/dataTables.bootstrap4.min.css?ver=1.10.6' media='all' />
+<link rel='stylesheet' id='datatables-responsive-css' href='https://henrico.gov/wp-content/themes/henrico/css/datatables/responsive.bootstrap4.min.css?ver=2.2.1' media='all' />
+<link rel='stylesheet' id='henrico-material-symbols-css' href='https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0&#038;icon_names=local_police,park&#038;display=block' media='all' />
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://henrico.gov/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://henrico.gov/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id="wp-block-table-inline-css">
+.wp-block-table{overflow-x:auto}.wp-block-table table{border-collapse:collapse;width:100%}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{border:1px solid;padding:.5em}.wp-block-table .has-fixed-layout{table-layout:fixed;width:100%}.wp-block-table .has-fixed-layout td,.wp-block-table .has-fixed-layout th{word-break:break-word}.wp-block-table.aligncenter,.wp-block-table.alignleft,.wp-block-table.alignright{display:table;width:auto}.wp-block-table.aligncenter td,.wp-block-table.aligncenter th,.wp-block-table.alignleft td,.wp-block-table.alignleft th,.wp-block-table.alignright td,.wp-block-table.alignright th{word-break:break-word}.wp-block-table .has-subtle-light-gray-background-color{background-color:#f3f4f5}.wp-block-table .has-subtle-pale-green-background-color{background-color:#e9fbe5}.wp-block-table .has-subtle-pale-blue-background-color{background-color:#e7f5fe}.wp-block-table .has-subtle-pale-pink-background-color{background-color:#fcf0ef}.wp-block-table.is-style-stripes{background-color:transparent;border-collapse:inherit;border-spacing:0}.wp-block-table.is-style-stripes tbody tr:nth-child(odd){background-color:#f0f0f0}.wp-block-table.is-style-stripes.has-subtle-light-gray-background-color tbody tr:nth-child(odd){background-color:#f3f4f5}.wp-block-table.is-style-stripes.has-subtle-pale-green-background-color tbody tr:nth-child(odd){background-color:#e9fbe5}.wp-block-table.is-style-stripes.has-subtle-pale-blue-background-color tbody tr:nth-child(odd){background-color:#e7f5fe}.wp-block-table.is-style-stripes.has-subtle-pale-pink-background-color tbody tr:nth-child(odd){background-color:#fcf0ef}.wp-block-table.is-style-stripes td,.wp-block-table.is-style-stripes th{border-color:transparent}.wp-block-table.is-style-stripes{border-bottom:1px solid #f0f0f0}.wp-block-table .has-border-color td,.wp-block-table .has-border-color th,.wp-block-table .has-border-color tr,.wp-block-table .has-border-color>*{border-color:inherit}.wp-block-table table[style*=border-top-color] tr:first-child,.wp-block-table table[style*=border-top-color] tr:first-child td,.wp-block-table table[style*=border-top-color] tr:first-child th,.wp-block-table table[style*=border-top-color]>*,.wp-block-table table[style*=border-top-color]>* td,.wp-block-table table[style*=border-top-color]>* th{border-top-color:inherit}.wp-block-table table[style*=border-top-color] tr:not(:first-child){border-top-color:currentColor}.wp-block-table table[style*=border-right-color] td:last-child,.wp-block-table table[style*=border-right-color] th,.wp-block-table table[style*=border-right-color] tr,.wp-block-table table[style*=border-right-color]>*{border-right-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:last-child,.wp-block-table table[style*=border-bottom-color] tr:last-child td,.wp-block-table table[style*=border-bottom-color] tr:last-child th,.wp-block-table table[style*=border-bottom-color]>*,.wp-block-table table[style*=border-bottom-color]>* td,.wp-block-table table[style*=border-bottom-color]>* th{border-bottom-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:not(:last-child){border-bottom-color:currentColor}.wp-block-table table[style*=border-left-color] td:first-child,.wp-block-table table[style*=border-left-color] th,.wp-block-table table[style*=border-left-color] tr,.wp-block-table table[style*=border-left-color]>*{border-left-color:inherit}.wp-block-table table[style*=border-style] td,.wp-block-table table[style*=border-style] th,.wp-block-table table[style*=border-style] tr,.wp-block-table table[style*=border-style]>*{border-style:inherit}.wp-block-table table[style*=border-width] td,.wp-block-table table[style*=border-width] th,.wp-block-table table[style*=border-width] tr,.wp-block-table table[style*=border-width]>*{border-style:inherit;border-width:inherit}
+/*# sourceURL=https://henrico.gov/wp-includes/blocks/table/style.min.css */
+</style>
+
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='siteimprove_preview_css-css' href='https://henrico.gov/wp-content/plugins/siteimprove/admin/css/siteimprove-preview.css?ver=2.1.4' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css?ver=5.1' media='all' />
+<link rel='stylesheet' id='henrico-style-css' href='https://henrico.gov/wp-content/themes/henrico/style.css?ver=1787828152' media='all' />
+<link rel='stylesheet' id='slb_core-css' href='https://henrico.gov/wp-content/plugins/simple-lightbox/client/css/app.css?ver=2.9.5' media='all' />
+<link rel='stylesheet' id='henrico-main-css' href='https://henrico.gov/wp-content/themes/henrico/assets/css/main.css?ver=1788287595' media='all' />
+<link rel='stylesheet' id='bootstrap-icons-css' href='https://henrico.gov/wp-content/themes/henrico/vendor/bootstrap-icons/bootstrap-icons.min.css?ver=1787828227' media='all' />
+<script id="jquery-js" src="https://henrico.gov/wp-includes/js/jquery/jquery.js"></script>
+<script id="bac-contact-formatter-js" src="https://henrico.gov/wp-content/plugins/features/public/js/bac-contact-formatter.js?ver=5.2"></script>
+<script id="google-analytics-js" src="https://henrico.gov/wp-content/themes/henrico/js/google-analytics.js?ver=5.1"></script>
+<link rel="alternate" type="application/rss+xml" title="Henrico County, Virginia Feed" href="https://henrico.gov/feed/">
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://henrico.gov"><link rel="alternate" href="https://henrico.gov/wp-json/tribe/events/v1/" /><link rel="icon" href="https://henrico.gov/assets/cropped-Favicon_Henrico-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://henrico.gov/assets/cropped-Favicon_Henrico-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://henrico.gov/assets/cropped-Favicon_Henrico-180x180.png" />
+<meta name="msapplication-TileImage" content="https://henrico.gov/assets/cropped-Favicon_Henrico-270x270.png" />
+
+    
+    
+    <link rel="image_src" href="https://henrico.gov/HenricoSealShare.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@HenricoNews">
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Agend-O-Gram &#187; Henrico County, Virginia">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="DateAgendaSummary (Agend-o-Gram)">
+    <meta name="twitter:image" property="og:image" content="https://henrico.gov/HenricoSealShare.png">
+    <link rel="icon" sizes="192x192" href="https://henrico.gov/favicon-192.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="msapplication-square150x150logo" content="/150x150.png">
+    <meta name="msapplication-wide310x150logo" content="/310x150.png">
+    <meta name="msapplication-TileImage" content="/150x150.png">
+    
+    <meta name="google-site-verification" content="CbPbbVW_B2_t9OePWhsz08IyqUj6ybm2wDJF0MqDwko" />    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '504740720360938');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=504740720360938&ev=PageView&noscript=1">
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7N3G8GMW9N"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7N3G8GMW9N');
+    </script>
+
+</head>
+
+<body class="wp-singular page-template-default page page-id-47015 page-parent page-child parent-pageid-3026 wp-embed-responsive wp-theme-henrico tribe-no-js group-blog">
+
+    
+    <!-- Skip link for a11y -->
+    <a class="skip-link visually-hidden-focusable position-absolute start-0 top-0 m-3 p-2 bg-white rounded shadow" href="#main">Skip to main content</a>
+
+
+    <div id="page" class="site">
+
+        
+
+
+        <!-- // NEW header parts -->
+        
+
+<div class="utility-bar text-white d-none d-lg-block">
+  <div class="container d-flex align-items-center justify-content-between gap-3">
+    <nav aria-label="Utility">
+          <ul class="nav utility-nav small d-none d-md-flex">
+      <li class="nav-item"><a class="nav-link px-0 text-white" href="https://henrico.gov/services/jobs/">Jobs</a></li>
+      <li class="nav-item"><a class="nav-link px-0 text-white" href="https://henrico.gov/calendar/">Events</a></li>
+      <li class="nav-item"><a class="nav-link px-0 text-white" href="https://henrico.gov/henrico-county-public-schools/">Schools</a></li>
+      <li class="nav-item"><a class="nav-link px-0 text-white" href="https://henrico.gov/public-library/">Libraries</a></li>
+      <li class="nav-item"><a class="nav-link px-0 text-white" href="https://henrico.gov/residents/">Residents</a></li>
+      <li class="nav-item"><a class="nav-link px-0 text-white" href="https://henrico.gov/business/">Business</a></li>
+      <li class="nav-item"><a class="nav-link px-0 text-white" href="https://henrico.gov/contact-us/">Contact</a></li>
+
+    </ul>
+    </nav>
+
+    <nav class="d-flex align-items-center gap-3" aria-label="Social media and translation">
+      <a class="text-white text-decoration-none" href="https://www.facebook.com/henricova" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="utility-social bi bi-facebook"></i></a>
+      <a class="text-white text-decoration-none" href="https://x.com/HenricoNews" aria-label="X" target="_blank" rel="noopener noreferrer"><i class="utility-social bi bi-twitter-x"></i></a>
+      <a class="text-white text-decoration-none" href="https://www.instagram.com/henricocountygovernment/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="utility-social bi bi-instagram"></i></a>
+      <a class="text-white text-decoration-none" href="https://www.youtube.com/c/HenricoCountyGovernment" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="utility-social bi bi-youtube"></i></a>
+      <div class="translate-dropdown-wrap">
+        <button
+          id="translate-btn"
+          type="button"
+          class="translate-btn-utility btn btn-sm rounded-3 fs-6"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-controls="translate-dropdown">
+          <i class="bi bi-translate me-2" aria-hidden="true"></i>
+          <span class="translate-btn-label">Translate</span>
+          <i class="bi bi-chevron-down translate-btn-caret ms-2" aria-hidden="true"></i>
+        </button>
+        <div id="translate-dropdown" class="translate-dropdown" role="menu" aria-label="Select your language" aria-hidden="true">
+          <div class="translate-dropdown-inner">
+            <p class="translate-dropdown-title mb-2">Select your language</p>
+            <ul id="translate-dropdown-languages" class="list-unstyled mb-2"></ul>
+            <div class="translate-dropdown-footer small">
+              <a id="translate-dropdown-more" href="#" target="_blank" class="translate-link more-lang">More Languages</a><span class="translate-sep" aria-hidden="true">|</span>
+              <a href="https://henrico.gov/assets/translation_disclaimer.pdf" target="_blank" class="translate-link disclaimer-lang">Disclaimer</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+        
+<nav class="navbar navbar-light sticky-top site-primary-nav" aria-label="Primary">
+    <div class="container">
+        <div class="row align-items-center w-100 gx-3">
+
+            <!-- Logo -->
+            <div class="col-auto">
+                <a class="navbar-brand py-0" href="https://henrico.gov/">
+                    <img
+                        src="https://henrico.gov/wp-content/themes/henrico/images/logo-henrico-county-2025.png"
+                        alt="Henrico County Virginia home page" />
+                </a>
+            </div>
+
+            <!-- Desktop nav (hidden <992px) -->
+            <div class="col position-static d-none d-lg-flex justify-content-end">
+                <ul class="main-menu"><li class="mega-menu-item"><a class="nav-link" href="https://henrico.gov/services">Services</a><button class="nav-disclosure" type="button" aria-expanded="false" aria-controls="mega-169660"><i class="bi bi-chevron-down" aria-hidden="true"></i><span class="visually-hidden">Toggle Services menu</span></button><div id="mega-169660"
+     class="sub-mega-menu sub-mega-menu--services layout--multicol"
+     hidden>
+  <div class="mega-grid mega-grid--tight">
+<div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/services/tags/building-construction/">Building &amp; Construction</a></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/services/building-permit-residential/">Building Permit – Residential</a></li><li><a class="mega-link" href="https://henrico.gov/services/building-permit-commercial/">Building Permit – Commercial</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/finance/business/">Business</a></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/services/business-license/">Business License</a></li><li><a class="mega-link" href="https://henrico.gov/services/business-taxes/">Business Tax Filing and Payment Portal</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/services/categories/community/">Community</a></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/services/seniors/">EngAGE in Henrico: Resources for Older Residents</a></li><li><a class="mega-link" href="https://henrico.gov/public-library/">Libraries</a></li><li><a class="mega-link" href="https://henrico.gov/rec/parks/">Parks &amp; Recreation Centers</a></li><li><a class="mega-link" href="https://henrico.gov/services/reserve-recreation-facility/">Reserve a Recreation Facility</a></li><li><a class="mega-link" href="https://henrico.gov/services/reserve-a-park-shelter/">Reserve a Picnic Shelter</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/services/categories/courts/">Courts</a></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/services/file-a-civil-case-in-the-circuit-court/">File a Civil Case in the Circuit Court</a></li><li><a class="mega-link" href="https://henrico.gov/services/file-a-civil-case-in-general-district-court/">File a Civil Case in General District Court</a></li><li><a class="mega-link" href="https://henrico.gov/services/henrico-inmate-search/">Henrico Inmate Search</a></li><li><a class="mega-link" href="https://henrico.gov/services/marriage-license/">Marriage Licenses</a></li><li><a class="mega-link" href="https://henrico.gov/services/probate/">Probate &#038; Estate Administration</a></li><li><a class="mega-link" href="https://henrico.gov/services/traffic-violation-payments/">Traffic Violation Payments</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/services/categories/careers-employment/">Jobs</a></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/services/jobs/">Apply for a Job</a></li><li><a class="mega-link" href="https://henrico.gov/services/how-to-become-a-deputy/">Become A Deputy</a></li><li><a class="mega-link" href="https://henrico.gov/services/internship/">Become an Intern</a></li><li><a class="mega-link" href="https://henrico.gov/services/become-an-election-official-in-henrico-county/">Become an Election Official in Henrico County</a></li><li><a class="mega-link" href="https://henrico.gov/services/volunteer/">Become a Volunteer</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/services/categories/health/">Health &amp; Wellness</a></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/services/opioids-overdose-prevention/">Opioids: Overdose Prevention</a></li><li><a class="mega-link" href="https://henrico.gov/services/revive-and-rapid-revive-training/">REVIVE! and Rapid Revive! Training</a></li><li><a class="mega-link" href="https://henrico.gov/services/vital-records/">Vital Records</a></li><li><a class="mega-link" href="https://henrico.gov/services/women-infants-children-wic/">Women, Infants &#038; Children (WIC)</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/services/public-safety-services/">Public Safety Services</a></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/services/henrico-alert/">Henrico County Emergency Alerts</a></li><li><a class="mega-link" href="https://henrico.gov/services/tags/dec/">Emergency Communications</a></li><li><a class="mega-link" href="https://henrico.gov/services/tags/emws/">Emergency Management</a></li><li><a class="mega-link" href="https://henrico.gov/services/categories/fire/">Fire</a></li><li><a class="mega-link" href="https://henrico.gov/services/categories/police/">Police</a></li><li><a class="mega-link" href="https://henrico.gov/services/categories/sheriff/">Sheriff</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/services/categories/finance-taxes/">Real Estate &amp; Taxes</a></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/services/online-tax-bills/">Online Tax Bills</a></li><li><a class="mega-link" href="https://henrico.gov/services/pay-utility-bill/">Pay Utility Bill</a></li><li><a class="mega-link" href="https://henrico.gov/finance/payments/">Payment Options</a></li><li><a class="mega-link" href="https://henrico.gov/services/real-estate-advantage-program/">Real Estate Advantage Program (REAP)</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/services/categories/social-services/">Social Services</a></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/services/applying-foster-parent/">Apply to be a Foster Parent</a></li><li><a class="mega-link" href="https://henrico.gov/services/medicaid/">Medicaid Assistance Programs</a></li><li><a class="mega-link" href="https://henrico.gov/services/supplemental-nutritional-assistance-program-snap/">Supplemental Nutritional Assistance Program (SNAP)</a></li><li><a class="mega-link" href="https://henrico.gov/services/temporary-assistance-for-needy-families-tanf/">Temporary Assistance for Needy Families (TANF)</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/services/categories/refuse/">Trash &amp; Recycling</a></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/services/public-use-areas-for-disposal/">Public Use Areas for Disposal</a></li><li><a class="mega-link" href="https://henrico.gov/services/refuse-collections/">Refuse Collections</a></li><li><a class="mega-link" href="https://henrico.gov/services/water-sewer-refuse-collection-services/">Water, Sewer &#038; Refuse Collection Application</a></li></ul></div><div class="mega-col mega-col--cta"><div class="mega-col__title"><a class="mega-col__cta" href="https://henrico.gov/services/">All Services<span class="mega-col__cta-arrow" aria-hidden="true"> →</span></a></div></div></div></div></li><li class="mega-menu-item"><a class="nav-link" href="https://henrico.gov/community">Community</a><button class="nav-disclosure" type="button" aria-expanded="false" aria-controls="mega-164860"><i class="bi bi-chevron-down" aria-hidden="true"></i><span class="visually-hidden">Toggle Community menu</span></button><div id="mega-164860"
+     class="sub-mega-menu sub-mega-menu--community layout--multicol"
+     hidden>
+  <div class="mega-grid mega-grid--tight">
+<div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/supervisors/">Board of Supervisors</a></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/supervisors/next-meeting/">Next Meeting</a></li><li><a class="mega-link" href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/">Meeting Summaries &amp; Minutes</a></li><li><a class="mega-link" href="https://henrico.gov/supervisors/boards-commissions/">Boards &#038; Commissions</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/finance/business/">Business</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/rec/parks/">Parks &#038; Facilities</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/rec/explore/performing-arts/">Performing Arts</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/rec/specialevents/">Events – R&amp;P</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/give/">Give to Your Community</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/government/">Government</a></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/locations/">Buildings &amp; Locations</a></li><li><a class="mega-link" href="https://henrico.gov/manager/">County Manager’s Office</a></li><li><a class="mega-link" href="https://henrico.gov/government/freedom-information-act-foia/">Freedom of Information Act (FOIA)</a></li><li><a class="mega-link" href="https://henrico.gov/transparency/">Transparency</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/heart/">HEART</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/outreach/">Outreach &amp; Engagement</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/residents/">Residents</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/social-media/">Social Media</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/public-library/">Libraries</a></div></div></div></div></li><li class="mega-menu-item"><a class="nav-link" href="https://henrico.gov/departments/">Departments</a><button class="nav-disclosure" type="button" aria-expanded="false" aria-controls="mega-164878"><i class="bi bi-chevron-down" aria-hidden="true"></i><span class="visually-hidden">Toggle Departments menu</span></button><div id="mega-164878"
+     class="sub-mega-menu sub-mega-menu--departments layout--multicol"
+     hidden>
+  <div class="mega-grid mega-grid--tight"><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/supervisors/">Board of Supervisors</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/bldg/">Building Inspections</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/clerk/">Circuit Court Clerk’s Office</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/ccjudges/">Circuit Court Judges Chambers</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/com-atty/">Commonwealth’s Attorney’s Office</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/communications/">Communications</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/cc/">Community Corrections</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/revit/">Community Revitalization</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/countyattorney/">County Attorney</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/manager/">County Manager’s Office</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://www.henrico.com/" target="_blank" rel="noopener noreferrer">Economic Development Authority</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/dec/">Emergency Communications</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/emws/">Emergency Management</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/extension/">Extension Office</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/finance/">Finance</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/fire/">Fire</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/gendistcourt/">General District Court</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/genserv/">General Services</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/it/gis/">Geographic Information Systems (GIS)</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/health/">Health</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henricosea.com/" target="_blank" rel="noopener noreferrer">Henrico Sports and Entertainment Authority</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://www.hswcd.org/" target="_blank" rel="noopener noreferrer">Henricopolis Soil and Water Conservation District</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/hr/">Human Resources</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/it/">Information Technology</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/audit/">Internal Audit</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/jdrcourt/">Juvenile/Domestic Relations Court</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/juvenile-detention/">Juvenile Detention Home</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/utility/keep-henrico-beautiful/">Keep Henrico Beautiful</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/public-library/">Library</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/mhds/">Mental Health &#038; Developmental Services</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/outreach/">Outreach &amp; Engagement</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/permitcenter/">Permit Center</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/planning/">Planning</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/police/">Police</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/utility/">Public Utilities</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/works/">Public Works</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/realprop/">Real Property</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/rec/">Recreation &#038; Parks</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/henrico-county-public-schools/">Schools</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/sheriff/">Sheriff’s Office</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/dss/">Social Services</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://vcwcapital.com/" target="_blank" rel="noopener noreferrer">Virginia Career Works</a></div></div><div class="mega-col"><div class="mega-col__title"><a href="https://henrico.gov/registrar/">Voter Registration and Elections</a></div></div></div></div></li><li class="mega-menu-item"><a class="nav-link" href="https://henrico.gov/news/">News</a><button class="nav-disclosure" type="button" aria-expanded="false" aria-controls="mega-164921"><i class="bi bi-chevron-down" aria-hidden="true"></i><span class="visually-hidden">Toggle News menu</span></button><div id="mega-164921" class="sub-mega-menu sub-mega-menu--news" hidden>
+  <div class="mega-news-wrap container pt-2 pb-3">
+
+    <!-- Brand -->
+    <div class="mega-news__brand text-center mb-3">
+      <a class="d-inline-block" href="https://henrico.gov/news/">
+        <img class="mega-menu-news-logo mb-2"
+          src="https://henrico.gov/assets/HenricoNews_2026-scaled.png"
+          alt="Henrico County News" />
+      </a>
+    </div>
+
+    <!-- 2-col layout -->
+    <div class="mega-news__body" role="group" aria-label="Henrico News">
+
+      <!-- LEFT: stacked circular color icons -->
+      <nav class="mega-news__sidebar" aria-label="News sections">
+        <ul class="circle-links list-unstyled m-0">
+          <li>
+            <a class="circle-link circle-link--articles" href="https://henrico.gov/news/#main">
+              <span class="circle" aria-hidden="true">
+                <i class="bi bi-newspaper"></i>
+              </span>
+              <span class="label">Articles</span>
+            </a>
+          </li>
+          <li>
+            <a class="circle-link circle-link--videos" href="https://henrico.gov/news/#videos">
+              <span class="circle" aria-hidden="true">
+                <i class="bi bi-camera-video"></i>
+              </span>
+              <span class="label">Videos</span>
+            </a>
+          </li>
+          <li>
+            <a class="circle-link circle-link--podcasts" href="https://henrico.gov/news/archives/">
+              <span class="circle" aria-hidden="true">
+                <i class="bi bi-archive"></i>
+              </span>
+              <span class="label">Archives</span>
+
+            </a>
+          </li>
+
+
+
+
+
+
+
+
+        </ul>
+      </nav>
+
+      <!-- RIGHT: articles stack -->
+      <section class="mega-news__articles" aria-label="Latest News">
+        <ul class="article-list article-list--stack list-unstyled m-0">
+                        <li class="article-card">
+                <a class="article-card__title" href="https://henrico.gov/news/2026/10/empowerment-series-workshops-to-promote-recovery-life-skills-education-among-adults-who-have-struggled-with-substance-use/">
+                  Empowerment Series workshops to promote recovery, life-skills education among adults who have struggled with substance use                </a>
+                <p class="article-card__excerpt">The Empower Henrico Task Force will present a series of free life-skills workshops this fall and winter to help adults who have struggled with substance use. &nbsp; The Empowerment Series…</p>
+              </li>
+                          <li class="article-card">
+                <a class="article-card__title" href="https://henrico.gov/news/2026/10/henrico-remembers-and-commemorates-the-battle-of-new-market-heights/">
+                  Henrico remembers and commemorates the Battle of New Market Heights                </a>
+                <p class="article-card__excerpt">“Better soldiers never shouldered a musket.” Years later, that is how Maj. Gen. Benjamin Butler, of the Union Army, remembered the men of the United States Colored Troops (USCT) who…</p>
+              </li>
+                          <li class="article-card">
+                <a class="article-card__title" href="https://henrico.gov/news/2026/09/henrico-to-celebrate-active-aging-week-with-free-workshops-and-events-beginning-oct-1/">
+                  Henrico to celebrate Active Aging Week with free workshops and events, beginning Oct. 1                </a>
+                <p class="article-card__excerpt">Henrico County will celebrate Active Aging Week by offering free workshops and events to celebrate healthy living and active lifestyles for adults ages 50 and older. The events include fall…</p>
+              </li>
+                    </ul>
+
+        <!-- Bottom-right CTA -->
+        <div class="mega-news__cta text-end">
+          <a class="more-link-arrow" href="https://henrico.gov/news/">
+            More News <span class="more-link-arrow__icon" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>
+</li><li class="mega-menu-item"><a class="nav-link" href="https://henrico.gov/visit/">Visit</a><button class="nav-disclosure" type="button" aria-expanded="false" aria-controls="mega-164926"><i class="bi bi-chevron-down" aria-hidden="true"></i><span class="visually-hidden">Toggle Visit menu</span></button><div id="mega-164926"
+     class="sub-mega-menu sub-mega-menu--visit layout--multicol"
+     hidden>
+  <div class="mega-grid mega-grid--tight">
+<div class="mega-col"><div class="mega-col__title"><span>Explore</span></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/rec/">Recreation &#038; Parks</a></li><li><a class="mega-link" href="https://henrico.gov/public-library/">Libraries</a></li><li><a class="mega-link" href="https://henrico.gov/trails/">Trails in Henrico</a></li><li><a class="mega-link" href="https://henrico.gov/locations/">Henrico Government Buildings</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><span>Experience</span></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/rec/specialevents/">Events – R&amp;P</a></li><li><a class="mega-link" href="https://www.visitrichmondva.com/henrico-county/" target="_blank" rel="noopener noreferrer">Things to Do in Henrico</a></li><li><a class="mega-link" href="https://henrico.gov/rec/explore/performing-arts/">Performing Arts</a></li><li><a class="mega-link" href="https://henricosea.com/" target="_blank" rel="noopener noreferrer">Sports &amp; Entertainment Authority</a></li></ul></div><div class="mega-col"><div class="mega-col__title"><span>Learn</span></div><ul class="sub-menu"><li><a class="mega-link" href="https://henrico.gov/history/va-250-henrico/">VA 250-Henrico</a></li><li><a class="mega-link" href="https://henrico.gov/history/">Henrico History</a></li><li><a class="mega-link" href="https://henrico.gov/history/landmarks/county-markers/">County Markers</a></li><li><a class="mega-link" href="https://henrico.gov/history/landmarks/historical-tabletops/">Historical Tabletops</a></li></ul></div><div class="mega-col mega-col--visit-image" aria-hidden="true"><figure class="mega-visit-media"><a class="mega-visit-image-link" href="https://henricosea.com/facilities-venues/henrico-sports-and-events-center/" target="_blank" rel="noopener noreferrer" tabindex="-1"><img class="mega-visit-image" src="https://henrico.gov/assets/hsec-exterior-1500x1000-1.png" alt="Henrico Sports &amp; Events Center exterior" loading="lazy" decoding="async" /></a><figcaption class="mega-visit-caption">Henrico Sports and Events Center</figcaption></figure></div></div></div></li></ul>            </div>
+
+            <!-- Actions (right-aligned on all viewports) -->
+            <div class="col-auto ms-auto d-flex align-items-center gap-2">
+                <!-- Search toggle -->
+                <button id="search-toggle" type="button"
+                    class="nav-search-btn d-inline-flex align-items-center justify-content-center rounded-3 p-2 border-0"
+                    aria-expanded="false" aria-controls="search-panel" aria-haspopup="dialog"
+                    aria-label="Open site search">
+                    <i class="bi bi-search fs-3 " aria-hidden="true"></i>
+                </button>
+
+                <!-- Mobile hamburger (only <992px) -->
+                <button class="shadow-none btn p-0 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#mobileNav"
+                    aria-controls="mobileNav"
+                    aria-label="Open menu">
+                    <i class="bi bi-list main-menu-hamburger" aria-hidden="true"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="search-panel collapse border border-secondary-emphasis
+        " role="dialog"
+            aria-modal="false" aria-labelledby="search-panel-title">
+            <div id="search-panel-title" class="visually-hidden">Site search</div>
+
+            <form role="search" method="get" action="https://henrico.gov/" class="p-3">
+                <label for="site-search-input" class="visually-hidden">Search henrico.gov</label>
+
+                <div class="site-search" data-site-search data-site-search-ajax-url="https://henrico.gov/wp-admin/admin-ajax.php">
+                    <div class="input-group shadow-sm border border-secondary-emphasis rounded-2 bg-white">
+                        </span>
+
+                        <input
+                            id="site-search-input"
+                            name="s"
+                            type="search"
+                            class="form-control border-0 ps-2 rounded-start-2"
+                            placeholder="Search henrico.gov"
+                            aria-label="Search henrico.gov"
+                            autocomplete="off" />
+
+                        <button
+                            class="btn btn-secondary px-3 border-0 rounded-end-2"
+                            type="submit">
+                            <i aria-hidden="true" class="bi bi-search me-2"></i>Search
+                        </button>
+                    </div>
+                    <div class="site-search__results" role="listbox" aria-label="Search suggestions" hidden></div>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+</nav>
+
+<!-- Mobile offcanvas drawer (outside <nav> for full-viewport) -->
+<div class="offcanvas offcanvas-start mobile-offcanvas"
+    tabindex="-1"
+    id="mobileNav"
+    aria-labelledby="mobileNavLabel"
+    data-bs-scroll="false"
+    data-bs-backdrop="true">
+    <div class="offcanvas-header mobile-nav-header">
+        <a class="mobile-nav-brand" href="https://henrico.gov/" aria-label="Henrico County home page">
+            <img
+                src="https://henrico.gov/wp-content/themes/henrico/images/logo-henrico-county-2025.png"
+                alt=""
+                aria-hidden="true" />
+        </a>
+        <div class="offcanvas-title visually-hidden" id="mobileNavLabel">Site menu</div>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close menu"></button>
+    </div>
+
+    <!-- Mobile search at the TOP -->
+    <div class="mobile-search-wrap">
+        <form role="search" method="get" action="https://henrico.gov/" class="mobile-search-form">
+            <label for="m-site-search" class="visually-hidden">Search henrico.gov</label>
+
+            <div class="site-search" data-site-search data-site-search-ajax-url="https://henrico.gov/wp-admin/admin-ajax.php">
+                <div class="mobile-search-control">
+                    <input
+                        id="m-site-search"
+                        name="s"
+                        type="search"
+                        class="mobile-search-input"
+                        placeholder="Search henrico.gov"
+                        aria-label="Search henrico.gov"
+                        autocomplete="off" />
+
+                    <button
+                        class="mobile-search-submit"
+                        type="submit">
+                        <i class="bi bi-search" aria-hidden="true"></i>
+                        <span>Search</span>
+                    </button>
+                </div>
+                <div class="site-search__results" role="listbox" aria-label="Search suggestions" hidden></div>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="offcanvas-body p-0 mobile-offcanvas-body">
+        <!-- Make the body a full-height column so we can sticky the bottom row via mt-auto -->
+        <div class="mobile-wrap d-flex flex-column h-100">
+            <!-- Primary (walker) menu -->
+            <nav aria-label="Primary (mobile)" class="mobile-primary-nav">
+                <ul id="mobile-menu" class="mobile-nav list-unstyled m-0"><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/services">Services</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-169660" aria-controls="mob-sub-169660" aria-expanded="false" aria-label="Show Services submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-169660" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/services/tags/building-construction/">Building &amp; Construction</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164788" aria-controls="mob-sub-164788" aria-expanded="false" aria-label="Show Building &amp; Construction submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164788" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/building-permit-residential/">Building Permit – Residential</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/building-permit-commercial/">Building Permit – Commercial</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/finance/business/">Business</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164801" aria-controls="mob-sub-164801" aria-expanded="false" aria-label="Show Business submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164801" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/business-license/">Business License</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/business-taxes/">Business Tax Filing and Payment Portal</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/services/categories/community/">Community</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164804" aria-controls="mob-sub-164804" aria-expanded="false" aria-label="Show Community submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164804" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/seniors/">EngAGE in Henrico: Resources for Older Residents</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/public-library/">Libraries</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/rec/parks/">Parks &amp; Recreation Centers</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/reserve-recreation-facility/">Reserve a Recreation Facility</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/reserve-a-park-shelter/">Reserve a Picnic Shelter</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/services/categories/courts/">Courts</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164810" aria-controls="mob-sub-164810" aria-expanded="false" aria-label="Show Courts submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164810" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/file-a-civil-case-in-the-circuit-court/">File a Civil Case in the Circuit Court</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/file-a-civil-case-in-general-district-court/">File a Civil Case in General District Court</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/henrico-inmate-search/">Henrico Inmate Search</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/marriage-license/">Marriage Licenses</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/probate/">Probate &#038; Estate Administration</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/traffic-violation-payments/">Traffic Violation Payments</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/services/categories/careers-employment/">Jobs</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164817" aria-controls="mob-sub-164817" aria-expanded="false" aria-label="Show Jobs submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164817" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/jobs/">Apply for a Job</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/how-to-become-a-deputy/">Become A Deputy</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/internship/">Become an Intern</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/become-an-election-official-in-henrico-county/">Become an Election Official in Henrico County</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/volunteer/">Become a Volunteer</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/services/categories/health/">Health &amp; Wellness</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164823" aria-controls="mob-sub-164823" aria-expanded="false" aria-label="Show Health &amp; Wellness submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164823" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/opioids-overdose-prevention/">Opioids: Overdose Prevention</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/revive-and-rapid-revive-training/">REVIVE! and Rapid Revive! Training</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/vital-records/">Vital Records</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/women-infants-children-wic/">Women, Infants &#038; Children (WIC)</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/services/public-safety-services/">Public Safety Services</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164829" aria-controls="mob-sub-164829" aria-expanded="false" aria-label="Show Public Safety Services submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164829" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/henrico-alert/">Henrico County Emergency Alerts</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/tags/dec/">Emergency Communications</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/tags/emws/">Emergency Management</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/categories/fire/">Fire</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/categories/police/">Police</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/categories/sheriff/">Sheriff</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/services/categories/finance-taxes/">Real Estate &amp; Taxes</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164845" aria-controls="mob-sub-164845" aria-expanded="false" aria-label="Show Real Estate &amp; Taxes submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164845" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/online-tax-bills/">Online Tax Bills</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/pay-utility-bill/">Pay Utility Bill</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/finance/payments/">Payment Options</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/real-estate-advantage-program/">Real Estate Advantage Program (REAP)</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/services/categories/social-services/">Social Services</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164850" aria-controls="mob-sub-164850" aria-expanded="false" aria-label="Show Social Services submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164850" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/applying-foster-parent/">Apply to be a Foster Parent</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/medicaid/">Medicaid Assistance Programs</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/supplemental-nutritional-assistance-program-snap/">Supplemental Nutritional Assistance Program (SNAP)</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/temporary-assistance-for-needy-families-tanf/">Temporary Assistance for Needy Families (TANF)</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/services/categories/refuse/">Trash &amp; Recycling</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164855" aria-controls="mob-sub-164855" aria-expanded="false" aria-label="Show Trash &amp; Recycling submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164855" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/public-use-areas-for-disposal/">Public Use Areas for Disposal</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/refuse-collections/">Refuse Collections</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/water-sewer-refuse-collection-services/">Water, Sewer &#038; Refuse Collection Application</a></li></ul></div></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/services/">All Services</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/community">Community</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164860" aria-controls="mob-sub-164860" aria-expanded="false" aria-label="Show Community submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164860" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/supervisors/">Board of Supervisors</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164861" aria-controls="mob-sub-164861" aria-expanded="false" aria-label="Show Board of Supervisors submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164861" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/supervisors/next-meeting/">Next Meeting</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/">Meeting Summaries &amp; Minutes</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/supervisors/boards-commissions/">Boards &#038; Commissions</a></li></ul></div></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/finance/business/">Business</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/rec/parks/">Parks &#038; Facilities</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/rec/explore/performing-arts/">Performing Arts</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/rec/specialevents/">Events – R&amp;P</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/give/">Give to Your Community</a></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/government/">Government</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164869" aria-controls="mob-sub-164869" aria-expanded="false" aria-label="Show Government submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164869" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/locations/">Buildings &amp; Locations</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/manager/">County Manager’s Office</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/government/freedom-information-act-foia/">Freedom of Information Act (FOIA)</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/transparency/">Transparency</a></li></ul></div></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/heart/">HEART</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/outreach/">Outreach &amp; Engagement</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/residents/">Residents</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/social-media/">Social Media</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/public-library/">Libraries</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/departments/">Departments</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164878" aria-controls="mob-sub-164878" aria-expanded="false" aria-label="Show Departments submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164878" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/supervisors/">Board of Supervisors</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/bldg/">Building Inspections</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/clerk/">Circuit Court Clerk’s Office</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/ccjudges/">Circuit Court Judges Chambers</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/com-atty/">Commonwealth’s Attorney’s Office</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/communications/">Communications</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/cc/">Community Corrections</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/revit/">Community Revitalization</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/countyattorney/">County Attorney</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/manager/">County Manager’s Office</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://www.henrico.com/" target="_blank" rel="noopener noreferrer">Economic Development Authority</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/dec/">Emergency Communications</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/emws/">Emergency Management</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/extension/">Extension Office</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/finance/">Finance</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/fire/">Fire</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/gendistcourt/">General District Court</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/genserv/">General Services</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/it/gis/">Geographic Information Systems (GIS)</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/health/">Health</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henricosea.com/" target="_blank" rel="noopener noreferrer">Henrico Sports and Entertainment Authority</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://www.hswcd.org/" target="_blank" rel="noopener noreferrer">Henricopolis Soil and Water Conservation District</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/hr/">Human Resources</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/it/">Information Technology</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/audit/">Internal Audit</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/jdrcourt/">Juvenile/Domestic Relations Court</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/juvenile-detention/">Juvenile Detention Home</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/utility/keep-henrico-beautiful/">Keep Henrico Beautiful</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/public-library/">Library</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/mhds/">Mental Health &#038; Developmental Services</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/outreach/">Outreach &amp; Engagement</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/permitcenter/">Permit Center</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/planning/">Planning</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/police/">Police</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/utility/">Public Utilities</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/works/">Public Works</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/realprop/">Real Property</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/rec/">Recreation &#038; Parks</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/henrico-county-public-schools/">Schools</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/sheriff/">Sheriff’s Office</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/dss/">Social Services</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://vcwcapital.com/" target="_blank" rel="noopener noreferrer">Virginia Career Works</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/registrar/">Voter Registration and Elections</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/news/">News</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164921" aria-controls="mob-sub-164921" aria-expanded="false" aria-label="Show News submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164921" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/news/#main">Articles</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://www.youtube.com/c/HenricoCountyGovernment">Videos</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://lp.constantcontactpages.com/sl/RpkuCTj/HenricoNews" target="_blank" rel="noopener noreferrer">HenricoNews Sign Up</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/news/archives/">Archives</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><a class="mobile-link mobile-parent-link" href="https://henrico.gov/visit/">Visit</a><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-164926" aria-controls="mob-sub-164926" aria-expanded="false" aria-label="Show Visit submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-164926" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><div class="mobile-row"><span class="mobile-link mobile-parent-link mobile-parent-label" role="button" tabindex="0" data-bs-target="#mob-sub-167113" aria-controls="mob-sub-167113" aria-expanded="false">Explore</span><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-167113" aria-controls="mob-sub-167113" aria-expanded="false" aria-label="Show Explore submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-167113" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/rec/">Recreation &#038; Parks</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/public-library/">Libraries</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/trails/">Trails in Henrico</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/locations/">Henrico Government Buildings</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><span class="mobile-link mobile-parent-link mobile-parent-label" role="button" tabindex="0" data-bs-target="#mob-sub-167114" aria-controls="mob-sub-167114" aria-expanded="false">Experience</span><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-167114" aria-controls="mob-sub-167114" aria-expanded="false" aria-label="Show Experience submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-167114" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/rec/specialevents/">Events – R&amp;P</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://www.visitrichmondva.com/henrico-county/" target="_blank" rel="noopener noreferrer">Things to Do in Henrico</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/rec/explore/performing-arts/">Performing Arts</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henricosea.com/" target="_blank" rel="noopener noreferrer">Sports &amp; Entertainment Authority</a></li></ul></div></li><li class="mobile-item"><div class="mobile-row"><span class="mobile-link mobile-parent-link mobile-parent-label" role="button" tabindex="0" data-bs-target="#mob-sub-167115" aria-controls="mob-sub-167115" aria-expanded="false">Learn</span><button class="mobile-toggle" type="button" data-bs-target="#mob-sub-167115" aria-controls="mob-sub-167115" aria-expanded="false" aria-label="Show Learn submenu"><i class="bi bi-chevron-right chev" aria-hidden="true"></i></button></div><div id="mob-sub-167115" class="collapse"><ul class="mobile-submenu"><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/history/va-250-henrico/">VA 250-Henrico</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/history/">Henrico History</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/history/landmarks/county-markers/">County Markers</a></li><li class="mobile-item"><a class="mobile-link mobile-leaf-link" href="https://henrico.gov/history/landmarks/historical-tabletops/">Historical Tabletops</a></li></ul></div></li></ul></div></li></ul>            </nav>
+
+            <!-- Divider between primary and utility -->
+            <hr class="mobile-divider my-0" />
+
+            <!-- Utility menu (stacked) -->
+            <nav aria-label="Utility (mobile)" class="mobile-utility">
+                                            <ul class="mobile-utility-list">
+                                <li><a href="https://henrico.gov/services/jobs/">Jobs</a></li>
+                                <li><a href="https://henrico.gov/calendar/">Events</a></li>
+                                <li><a href="https://www.henricoschools.us/" target="_blank" rel="noopener noreferrer">Schools</a></li>
+                                <li><a href="https://henrico.gov/public-library/">Libraries</a></li>
+                                <li><a href="https://henrico.gov/residents/">Residents</a></li>
+                                <li><a href="https://henrico.gov/business/">Business</a></li>
+                                <li><a href="https://henrico.gov/contact-us/">Contact</a></li>
+                            </ul>
+                            </nav>
+
+            <!-- Bottom utilities (Translate above socials) -->
+            <div class="mt-auto mobile-social mobile-social-wrap">
+                <!-- Translate first -->
+                <div class="mobile-translate-wrap">
+                    <button id="translate-btn-mobile"
+                        class="mobile-translate-btn"
+                        type="button"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        aria-controls="translate-dropdown-mobile">
+                        <span class="mobile-translate-btn-label">
+                            <i class="bi bi-translate me-2" aria-hidden="true"></i> Translate
+                        </span>
+                        <i class="bi bi-chevron-down mobile-translate-caret" aria-hidden="true"></i>
+                    </button>
+                    <div id="translate-dropdown-mobile" class="mobile-translate-dropdown" aria-label="Select your language" aria-hidden="true">
+                        <div class="mobile-translate-dropdown-inner">
+                            <p class="mobile-translate-dropdown-title mb-2">Select your language</p>
+                            <ul id="translate-dropdown-languages-mobile" class="list-unstyled mb-2"></ul>
+                            <div class="mobile-translate-dropdown-footer small">
+                                <a id="translate-dropdown-more-mobile" href="#" target="_blank" class="translate-link more-lang">More Languages</a> |
+                                <a href="https://henrico.gov/assets/translation_disclaimer.pdf" target="_blank" class="translate-link disclaimer-lang">Disclaimer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Socials below -->
+                <div class="mobile-social-links d-flex align-items-center justify-content-around">
+                    <a class="mobile-social-link text-reset text-decoration-none" href="https://www.facebook.com/henricova" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+                    <a class="mobile-social-link text-reset text-decoration-none" href="https://x.com/HenricoNews" aria-label="X" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter-x"></i></a>
+                    <a class="mobile-social-link text-reset text-decoration-none" href="https://www.instagram.com/henricocountygovernment/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+                    <a class="mobile-social-link text-reset text-decoration-none" href="https://www.youtube.com/c/HenricoCountyGovernment" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+        <div class="body-wrapper">
+
+
+<div class="container pt-2 pt-md-3 pt-lg-3 pb-5 container-back">
+    <div class="row g-4 g-lg-4 align-items-start">
+
+                    <!-- Left Navigation lives outside the white content container -->
+            <div class="col-12 col-lg-2 order-lg-1 order-1">
+                <div class="page-left-nav-wrap">
+                    <div class="shadow-md page-left-nav">
+                        <nav class='widget subpages left-nav' id='secondary-navigation' role='navigation' aria-label='Secondary' aria-labelledby='secondary-navigation-title-6ac1934a504a2'><div class='widget-inner'><div class='entry-title rounded-top-3 bg-default leftside-nav-title d-flex align-items-center justify-content-between'><div id='secondary-navigation-title-6ac1934a504a2' class='h6 m-0'><a href='https://henrico.gov/supervisors/'>Board of Supervisors</a></div><button type='button' class='leftside-nav-toggle page-left-nav-toggle btn btn-link text-white' aria-expanded='true' aria-controls='secondary-navigation-list-6ac1934a504a4'><span class='visually-hidden'>Toggle secondary navigation</span><span class='page-left-nav-toggle-icon' aria-hidden='true'></span></button></div><ul id='secondary-navigation-list-6ac1934a504a4' class='pb-2 rounded-bottom-3 leftside-nav-list'><li class="page_item page-item-125901"><a href="https://henrico.gov/supervisors/brookland-district/">Brookland District</a></li>
+<li class="page_item page-item-125910"><a href="https://henrico.gov/supervisors/fairfield-district/">Fairfield District</a></li>
+<li class="page_item page-item-125838"><a href="https://henrico.gov/supervisors/three-chopt-district/">Three Chopt District</a></li>
+<li class="page_item page-item-125905"><a href="https://henrico.gov/supervisors/tuckahoe-district/">Tuckahoe District</a></li>
+<li class="page_item page-item-125915"><a href="https://henrico.gov/supervisors/varina-district/">Varina District</a></li>
+<li class="page_item page-item-11992"><a href="https://henrico.gov/supervisors/next-meeting/">Next Meeting</a></li>
+<li class="page_item page-item-16447"><a href="https://henrico.gov/supervisors/video-of-meetings/">Video of Meetings</a></li>
+<li class="page_item page-item-47015 page_item_has_children current_page_item"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/" aria-current="page">Agend-O-Gram</a>
+<ul class='children'>
+	<li class="page_item page-item-11989"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/meeting-schedule/">Meeting Schedule</a></li>
+	<li class="page_item page-item-11995"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/public-comment-period/">Public Comment Period</a></li>
+	<li class="page_item page-item-11997"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/public-meetings/">Public Meetings</a></li>
+	<li class="page_item page-item-11999"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/subscribe/">Receive Agendas and Agend-O-Grams by email</a></li>
+	<li class="page_item page-item-12001 page_item_has_children"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/">Archived Board of Supervisors&#8217; Meeting Summaries and Minutes</a>
+	<ul class='children'>
+		<li class="page_item page-item-164388"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2025-supervisor-meeting-archives/">2025 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-148161"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2024-back-issues/">2024 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-134197"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2023-back-issues/">2023 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-123104"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2022-back-issues/">2022 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-111130"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2021-back-issues/">2021 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-100932"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2020-back-issues/">2020 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-90022"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2019-back-issues/">2019 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-82263"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2018-back-issues/">2018 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-73088"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2017-back-issues/">2017 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-66645"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2016-back-issues/">2016 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-56472"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2015-back-issues/">2015 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-46975"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2014-back-issues/">2014 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-46971"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2013-back-issues/">2013 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-46969"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2012-back-issues/">2012 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-46967"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2011-back-issues/">2011 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-30820"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2010-back-issues/">2010 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-12007"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2009-back-issues/">2009 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-12010"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2008-back-issues/">2008 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-12015"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2007-back-issues/">2007 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-12018"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2006-back-issues/">2006 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-12020"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2005-back-issues/">2005 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-12022"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2004-back-issues/">2004 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-88952"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2003-back-issues/">2003 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-88940"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2002-back-issues/">2002 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-88936"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2001-back-issues/">2001 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-88932"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/2000-back-issues/">2000 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-88912"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/1999-back-issues/">1999 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-88889"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/1998-back-issues/">1998 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-88871"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/1997-back-issues/">1997 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-88790"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/1996-back-issues/">1996 Supervisor Meeting Archives</a></li>
+		<li class="page_item page-item-88866"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/1995-back-issues/">1995 Supervisor Meeting Archives</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-4505 page_item_has_children"><a href="https://henrico.gov/supervisors/boards-commissions/">Boards &#038; Commissions</a>
+<ul class='children'>
+	<li class="page_item page-item-31542"><a href="https://henrico.gov/supervisors/boards-commissions/capital-region-workforce-partnership-consortium/">Capital Region Workforce Partnership Consortium</a></li>
+	<li class="page_item page-item-31544"><a href="https://henrico.gov/supervisors/boards-commissions/greater-richmond-convention-center-authority-commission/">Greater Richmond Convention Center Authority Commission</a></li>
+	<li class="page_item page-item-118157"><a href="https://henrico.gov/supervisors/boards-commissions/henrico-county-sports-authority-board/">Henrico County Sports Authority Board</a></li>
+	<li class="page_item page-item-55583"><a href="https://henrico.gov/supervisors/boards-commissions/henricopolis/">Henricopolis Soil and Water Conservation District</a></li>
+	<li class="page_item page-item-85047"><a href="https://henrico.gov/supervisors/boards-commissions/housing-advisory-committee/">Housing Advisory Committee</a></li>
+	<li class="page_item page-item-31512"><a href="https://henrico.gov/supervisors/boards-commissions/library-advisory-board/">Library Advisory Board</a></li>
+	<li class="page_item page-item-162194"><a href="https://henrico.gov/supervisors/boards-commissions/sustainability-and-resilience-advisory-committee-srac/">Sustainability and Resilience Advisory Committee (SRAC)</a></li>
+	<li class="page_item page-item-95938"><a href="https://henrico.gov/supervisors/boards-commissions/the-first-tee-of-greater-richmond-board-of-directors/">The First Tee of Greater Richmond Board of Directors</a></li>
+	<li class="page_item page-item-4525"><a href="https://henrico.gov/supervisors/boards-commissions/board-of-zoning-appeals/">Board of Zoning Appeals</a></li>
+	<li class="page_item page-item-4531"><a href="https://henrico.gov/supervisors/boards-commissions/association-of-volunteer-rescue-squads/">Association of Volunteer Rescue Squads</a></li>
+	<li class="page_item page-item-4534"><a href="https://henrico.gov/supervisors/boards-commissions/grievance-panel-persons-eligible-to-serve/">Grievance Panel &#8211; Persons Eligible to Serve</a></li>
+	<li class="page_item page-item-4538"><a href="https://henrico.gov/supervisors/boards-commissions/planning-commission/">Planning Commission</a></li>
+	<li class="page_item page-item-4542"><a href="https://henrico.gov/supervisors/boards-commissions/finance-board/">Finance Board</a></li>
+	<li class="page_item page-item-4556"><a href="https://henrico.gov/supervisors/boards-commissions/local-emergency-planning-committee/">Local Emergency Planning Committee</a></li>
+	<li class="page_item page-item-4561"><a href="https://henrico.gov/supervisors/boards-commissions/j-sargeant-reynolds-community-college-board/">J. Sargeant Reynolds Community College Board</a></li>
+	<li class="page_item page-item-4565"><a href="https://henrico.gov/supervisors/boards-commissions/mental-health-and-developmental-services-board/">Mental Health and Developmental Services Board</a></li>
+	<li class="page_item page-item-4571"><a href="https://henrico.gov/supervisors/boards-commissions/board-of-social-services/">Board of Social Services</a></li>
+	<li class="page_item page-item-4575"><a href="https://henrico.gov/supervisors/boards-commissions/community-policy-and-management-team/">Community Policy and Management Team</a></li>
+	<li class="page_item page-item-4578"><a href="https://henrico.gov/supervisors/boards-commissions/virginia-transit-association-board-of-directors/">Virginia Transit Association Board of Directors</a></li>
+	<li class="page_item page-item-4584"><a href="https://henrico.gov/supervisors/boards-commissions/electoral-board/">Electoral Board</a></li>
+	<li class="page_item page-item-4587"><a href="https://henrico.gov/supervisors/boards-commissions/keep-henrico-beautiful-committee/">Keep Henrico Beautiful Committee</a></li>
+	<li class="page_item page-item-4592"><a href="https://henrico.gov/supervisors/boards-commissions/capital-region-airport-commission/">Capital Region Airport Commission</a></li>
+	<li class="page_item page-item-4599"><a href="https://henrico.gov/supervisors/boards-commissions/maymont-foundation/">Maymont Foundation</a></li>
+	<li class="page_item page-item-4602"><a href="https://henrico.gov/supervisors/boards-commissions/central-virginia-solid-waste-management-authority-board-of-directors/">Central Virginia Solid Waste Management Authority Board of Directors</a></li>
+	<li class="page_item page-item-4605"><a href="https://henrico.gov/supervisors/boards-commissions/richmond-regional-planning-district-commission/">Richmond Regional Planning District Commission</a></li>
+	<li class="page_item page-item-4617"><a href="https://henrico.gov/supervisors/boards-commissions/board-of-building-code-appeals/">Board of Building Code Appeals</a></li>
+	<li class="page_item page-item-4621"><a href="https://henrico.gov/supervisors/boards-commissions/john-tyler-alcohol-safety-action-program-board-of-directors/">John Tyler Alcohol Safety Action Program Board of Directors</a></li>
+	<li class="page_item page-item-4627"><a href="https://henrico.gov/supervisors/boards-commissions/richmond-metropolitan-transportation-authority/">Richmond Metropolitan Transportation Authority</a></li>
+	<li class="page_item page-item-4630"><a href="https://henrico.gov/supervisors/boards-commissions/the-span-center-capital-area-agency-on-aging/">The Span Center, Capital Area Agency on Aging for Central Virginia</a></li>
+	<li class="page_item page-item-4635"><a href="https://henrico.gov/supervisors/boards-commissions/richmond-region-tourism-board-of-directors/">Richmond Region Tourism Board of Directors</a></li>
+	<li class="page_item page-item-4643"><a href="https://henrico.gov/supervisors/boards-commissions/richmond-regional-planning-district-commission-community-transportation-advisory-committee/">Richmond Regional Planning District Commission Community Transportation Advisory Committee</a></li>
+	<li class="page_item page-item-4646"><a href="https://henrico.gov/supervisors/boards-commissions/the-cultural-arts-center-at-glen-allen-foundation/">The Cultural Arts Center at Glen Allen Foundation</a></li>
+	<li class="page_item page-item-4653"><a href="https://henrico.gov/supervisors/boards-commissions/parks-and-recreation-advisory-commission/">Parks and Recreation Advisory Commission</a></li>
+	<li class="page_item page-item-4658"><a href="https://henrico.gov/supervisors/boards-commissions/community-criminal-justice-board/">Community Criminal Justice Board</a></li>
+	<li class="page_item page-item-4661 page_item_has_children"><a href="https://henrico.gov/supervisors/boards-commissions/board-of-real-estate-review-and-equalization/">Board of Real Estate Review and Equalization</a>
+	<ul class='children'>
+		<li class="page_item page-item-172100"><a href="https://henrico.gov/supervisors/boards-commissions/board-of-real-estate-review-and-equalization/2022-meeting-minutes/">2022 Meeting Minutes</a></li>
+		<li class="page_item page-item-172098"><a href="https://henrico.gov/supervisors/boards-commissions/board-of-real-estate-review-and-equalization/2023-meeting-minutes-agendas/">2023 Meeting Minutes &amp; Agendas</a></li>
+		<li class="page_item page-item-172095"><a href="https://henrico.gov/supervisors/boards-commissions/board-of-real-estate-review-and-equalization/2024-meeting-minutes-agendas/">2024 Meeting Minutes &amp; Agendas</a></li>
+		<li class="page_item page-item-172089"><a href="https://henrico.gov/supervisors/boards-commissions/board-of-real-estate-review-and-equalization/2025-meeting-minutes-agendas/">2025 Meeting Minutes &amp; Agendas</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-4664"><a href="https://henrico.gov/supervisors/boards-commissions/james-river-juvenile-detention-commission/">James River Juvenile Detention Commission</a></li>
+	<li class="page_item page-item-4667"><a href="https://henrico.gov/supervisors/boards-commissions/economic-development-authority-board-of-directors/">Economic Development Authority Board of Directors</a></li>
+	<li class="page_item page-item-4671"><a href="https://henrico.gov/supervisors/boards-commissions/historic-preservation-advisory-committee/">Historic Preservation Advisory Committee</a></li>
+	<li class="page_item page-item-4674"><a href="https://henrico.gov/supervisors/boards-commissions/greater-richmond-partnership-board-of-directors/">Greater Richmond Partnership Board of Directors</a></li>
+	<li class="page_item page-item-4677"><a href="https://henrico.gov/supervisors/boards-commissions/richmond-area-metropolitan-planning-organization/">Richmond Area Metropolitan Planning Organization</a></li>
+</ul>
+</li>
+<li class="page_item page-item-16455"><a href="https://henrico.gov/supervisors/photo-gallery-of-henricos-chairmen-1934-present/">Photo Gallery of Henrico&#8217;s Board Chairs, 1934-Present</a></li>
+<li class="page_item page-item-146849"><a href="https://henrico.gov/supervisors/public-data/">Public Data &#8211; Board of Supervisors</a></li>
+<li class="page_item page-item-146847"><a href="https://henrico.gov/supervisors/services/">Services &#8211; Board of Supervisors</a></li>
+</ul></div></nav>                    </div>
+                </div>
+            </div>
+        
+        <div class="col-12 col-lg-10 order-lg-2 order-2">
+            <div id="primary" class="content-area shadow-sm pt-1">
+                <main id="main" class="site-main">
+
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <div class="row"><nav aria-label="breadcrumb" class="col-12 breadcrumb-container"><ol class="breadcrumb mb-0"><li id='breadcrumb-60223' class='breadcrumb-item'><a href='https://henrico.gov/'>Home</a></li><li id='breadcrumb-departments' class='breadcrumb-item'><a href='https://henrico.gov/departments/'>Departments</a></li><li id='breadcrumb-3026' class='breadcrumb-item'><a href='https://henrico.gov/supervisors/'>Board of Supervisors</a></li><li aria-current='page' class='breadcrumb-item active' id='breadcrumb-47015'>Agend-O-Gram</li></ol></nav></div>                        </div>
+                    </div>
+
+                    <div class="row g-4">
+                        <!-- Primary Content -->
+                        <div class="col-lg-9 order-lg-first">
+                            
+<article id="post-47015" class="post-47015 page type-page status-publish hentry" >
+	<header class="entry-header">
+		<h1 class='entry-title bg-default'>Agend-O-Gram</h1>	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		
+<figure class="wp-block-table"><table><thead><tr><th><strong>Date</strong></th><th><strong>Agenda</strong></th><th><strong>Summary (Agend-o-Gram)</strong></th><th><strong>Minutes of Regular Meeting</strong></th><th><strong>Minutes of Special Meeting</strong></th></tr></thead><tbody><tr><td>Tuesday, September 22, 2026</td><td><a href="/pdfs/manager/meetings2026/092226ag.pdf">Meeting, Agenda and Resume September 22</a></td><td><a href="/pdfs/manager/meetings2026/9-22-26Agend-O-Gram.pdf">Summary(Agend-O-Gram) September 22</a></td><td></td><td></td></tr><tr><td>Tuesday, September 8, 2026</td><td><a href="/pdfs/manager/meetings2026/090826ag.pdf">Meeting, Agenda and Resume September 8</a></td><td><a href="/pdfs/manager/meetings2026/9-8-26Agend-O-Gram.pdf">Summary(Agend-O-Gram)September 8</a></td><td><a href="/pdfs/manager/meetings2026/090826regmins.PDF">Regular Meeting Minutes September 8</a></td><td><a href="/pdfs/manager/meetings2026/090826spmins.PDF">Special Meeting Minutes September 8</a></td></tr><tr><td>Tuesday, August 25, 2026</td><td><a href="/pdfs/manager/meetings2026/82526ag.pdf">Meeting, Agenda and Resume August 25</a></td><td><a href="/pdfs/manager/meetings2026/8-25-26Agend-O-Gram.pdf">Summary(Agend-O-Gram)August 25</a></td><td><a href="/pdfs/manager/meetings2026/082526regmins.PDF">Regular Meeting Minutes August 25</a></td><td><a href="/pdfs/manager/meetings2026/082526spmins.PDF">Special Meeting Minutes August 25</a></td></tr><tr><td>Tuesday, August 11, 2026</td><td><a href="/pdfs/manager/meetings2026/081126ag.pdf">Meeting, Agenda and Resume August 11</a></td><td><a href="/pdfs/manager/meetings2026/8-11-26Agend-O-Gram.pdf">Summary(Agend-O-Gram) August 11</a></td><td><a href="/pdfs/manager/meetings2026/081126regmins.PDF">Regular Meeting Minutes August 11</a></td><td><a href="/pdfs/manager/meetings2026/081126spmins.PDF">Special Meeting Minutes August 11</a></td></tr><tr><td>Tuesday, July 28, 2026</td><td><a href="/pdfs/manager/meetings2026/072826ag.pdf">Meeting, Agenda and Resume July 28</a></td><td><a href="/pdfs/manager/meetings2026/7-28-26Agend-O-Gram.pdf">Summary(Agend-O-Gram) July 28</a></td><td><a href="/pdfs/manager/meetings2026/072826regmins.PDF">Regular Meeting Minutes July 28</a></td><td><a href="/pdfs/manager/meetings2026/072826spmins.PDF">Special Meeting Minutes July 28</a></td></tr><tr><td>Tuesday, June 23, 2026</td><td><a href="/pdfs/manager/meetings2026/062326ag.pdf">Meeting, Agenda and Resume June 23</a></td><td><a href="/pdfs/manager/meetings2026/6-23-26Agend-O-Gram.pdf">Summary(Agend-O-Gram)June 23</a></td><td><a href="/pdfs/manager/meetings2026/062326regmins.PDF">Regular Meeting Minutes June 23</a></td><td><a href="/pdfs/manager/meetings2026/062326spmins.PDF">Special Meeting Minutes June 23</a></td></tr><tr><td>Tuesday, June 9, 2026</td><td><a href="/pdfs/manager/meetings2026/06926ag.pdf">Meeting, Agenda and Resume June 9</a></td><td><a href="/pdfs/manager/meetings2026/6-9-26Agend-O-Gram.pdf">Summary(Agend-O-Gram)June 9</a></td><td><a href="/pdfs/manager/meetings2026/060926regmins.PDF">Regular Meeting Minutes June 9</a></td><td><a href="/pdfs/manager/meetings2026/060926spmins.PDF">Special Meeting Minutes June 9</a></td></tr><tr><td>Tuesday, May 26, 2026</td><td><a href="/pdfs/manager/meetings2026/052626ag.pdf">Meeting, Agenda and Resume May 26</a></td><td><a href="/pdfs/manager/meetings2026/5-26-26Agend-O-Gram.pdf">Summary(Agend-O-Gram)May 26</a></td><td><a href="/pdfs/manager/meetings2026/052626regmins.PDF">Regular Meeting Minutes May 26</a></td><td><a href="/pdfs/manager/meetings2026/052626spmins.PDF">Special Meeting Minutes May 26</a></td></tr><tr><td>Tuesday, May 12, 2026</td><td><a href="/pdfs/manager/meetings2026/51226ag.pdf">Meeting, Agenda and Resume May 12</a></td><td><a href="/pdfs/manager/meetings2026/5-12-26Agend-O-Gram.pdf">Summary(Agend-O-Gram)May 12</a></td><td><a href="/pdfs/manager/meetings2026/051226regmins.PDF">Regular Meeting Minutes May 12</a></td><td><a href="/pdfs/manager/meetings2026/051226spmins.PDF">Special Meeting Minutes May 12</a></td></tr><tr><td>Tuesday, April 28, 2026</td><td><a href="/pdfs/manager/meetings2026/42826ag.pdf">Meeting, Agenda and Resume April 28</a></td><td><a href="/pdfs/manager/meetings2026/4-28-26Agend-O-Gram.pdf">Summary(Agend-O-Gram)April 28</a></td><td><a href="/pdfs/manager/meetings2026/042826regmins.PDF">Regular Meeting Minutes April 28</a></td><td><a href="/pdfs/manager/meetings2026/042826spmins.PDF">Special Meeting Minutes April 28</a></td></tr><tr><td>Tuesday, April 14, 2026</td><td><a href="/pdfs/manager/meetings2026/41426ag.pdf">Meeting, Agenda and Resume April 14</a></td><td><a href="/pdfs/manager/meetings2026/4-14-26Agend-O-Gram.pdf">Summary(Agend-O-Gram) April 14</a></td><td><a href="/pdfs/manager/meetings2026/041426regmins.PDF">Regular Meeting Minutes April 14</a></td><td><a href="/pdfs/manager/meetings2026/041426spmins.PDF">Special Meeting Minutes April 14</a></td></tr><tr><td>Tuesday, March 24, 2026</td><td><a href="/pdfs/manager/meetings2026/32426ag.pdf">Meeting, Agenda and Resume March 24</a></td><td><a href="/pdfs/manager/meetings2026/3-24-26Agend-O-Gram.pdf">Summary(Agend-O-Gram)March 24</a></td><td><a href="/pdfs/manager/meetings2026/032426RegMins.PDF">Regular Meeting Minutes March 24</a></td><td><a href="/pdfs/manager/meetings2026/032426SpMins.PDF">Special Meeting Minutes March 24</a></td></tr><tr><td>Monday, March 16, 2026 &#8211; Thursday, March 19, 2026</td><td><a href="/pdfs/manager/meetings2026/31626ag.pdf">Special Meeting Notice March 16</a></td><td>N/A</td><td>N/A</td><td><a href="/pdfs/manager/meetings2026/031626spmins.PDF">Special Meeting Minutes March 16</a></td></tr><tr><td>Tuesday, March 10, 2026</td><td><a href="/pdfs/manager/meetings2026/31026ag.pdf">Meeting, Agenda and Resume March 10</a></td><td><a href="/pdfs/manager/meetings2026/3-10-26Agend-O-Gram.pdf">Summary(Agend-O-Gram) March 10</a></td><td><a href="/pdfs/manager/meetings2026/031026RegMins.PDF">Regular Meeting Minutes March 10</a></td><td><a href="/pdfs/manager/meetings2026/031026SpMins.PDF">Special Meeting Minutes March 10</a></td></tr><tr><td>Tuesday, February 24, 2026</td><td><a href="/pdfs/manager/meetings2026/22426ag.pdf">Meeting, Agenda and Resume February 24</a></td><td><a href="/pdfs/manager/meetings2026/2-24-26Agend-O-Gram.pdf">Summary(Agend-O-Gram) February 24</a></td><td><a href="/pdfs/manager/meetings2026/022426RegMins.PDF">Regular Meeting Minutes February 24</a></td><td><a href="/pdfs/manager/meetings2026/022426SpMins.PDF">Special Meeting Minutes February 24</a></td></tr><tr><td>Tuesday, February 10, 2026</td><td><a href="/pdfs/manager/meetings2026/21026ag.pdf">Meeting, Agenda and Resume February 10</a></td><td><a href="/pdfs/manager/meetings2026/2-10-26Agend-O-Gram.pdf">Summary(Agend-O-Gram) February 10</a></td><td><a href="/pdfs/manager/meetings2026/021026regmins.PDF">Regular Meeting Minutes February 10</a></td><td><a href="/pdfs/manager/meetings2026/021026spmins.PDF">Special Meeting Minutes February 10</a></td></tr><tr><td>Tuesday, January 27, 2026</td><td><a href="/pdfs/manager/meetings2026/12726ag.pdf">Meeting, Agenda and Resume January 27</a></td><td><a href="/pdfs/manager/meetings2026/1-27-26Agend-O-Gram.pdf">Summary(Agend-O-Gram) January 27</a></td><td><a href="/pdfs/manager/meetings2026/012726regmins.PDF">Regular Meeting Minutes January 27</a></td><td><a href="/pdfs/manager/meetings2026/012726spmins.PDF">Special Meeting Minutes January 27</a></td></tr><tr><td>Tuesday, January 13, 2025</td><td><a href="/pdfs/manager/meetings2026/11326ag.pdf">Meeting, Agenda and Resume January 13</a></td><td><a href="/pdfs/manager/meetings2026/1-13-26Agend-O-Gram.pdf">Summary(Agend-O-Gram) January 13</a></td><td><a href="/pdfs/manager/meetings2026/011326regmins.PDF">Regular Meeting Minutes January 13</a></td><td><a href="/pdfs/manager/meetings2026/011326spmins.PDF">Special Meeting Minutes January 13</a></td></tr><tr><td>Tuesday, December 16, 2025</td><td><a href="/pdfs/manager/meetings2025/121625ag.pdf">Meeting, Agenda and Resume December 16</a></td><td><a href="/pdfs/manager/meetings2025/12-16-25Agend-O-Gram.pdf">Summary(Agend-O-Gram) December 16</a></td><td><a href="/pdfs/manager/meetings2025/121625regmins.PDF">Regular Meeting Minutes December 16</a></td><td><a href="/pdfs/manager/meetings2025/121625spmins.PDF">Special Meeting Minutes December 16</a></td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading">Video of Board of Supervisors&#8217; Meetings Online</h2>
+
+
+
+<p class="wp-block-paragraph">Henrico is pleased to offer live web-streaming of the regular meetings of the Board of Supervisors. You can <a href="/supervisors/video-of-meetings/">view the meetings</a>, or the meeting archives &#8211; held on the second and fourth Tuesday of each month. In addition to watching live webcasts of meetings, you can also see past meetings. Videos will be stored in an online archive, which will allow viewers to search individual agenda items from a particular meeting or watch a meeting in its entirety.</p>
+
+
+
+<h2 class="wp-block-heading">Board of Supervisors&#8217; Meeting Summaries and Minutes</h2>
+
+
+
+<p class="wp-block-paragraph">The County Manager&#8217;s Office publishes the Agend-O-Gram, which is a summary of actions taken at regular meetings of the Board of Supervisors. Select a date to see the status of items considered by the Board. You can also <a href="/manager/supervisors-agenda-o-gram/subscribe/">subscribe to receive e-mail notices</a> when Agend-O-Grams have been published online. Formal minutes of regular and special meetings of the Board of Supervisors are posted in PDF format subsequent to approval by the Board. Please note that these are large files.</p>
+
+
+
+<h2 class="wp-block-heading">Archives</h2>
+
+
+
+<p class="wp-block-paragraph"><a href="https://henrico.gov/supervisors/supervisors-agenda-o-gram/archives/">View Archived Back Issues</a></p>
+	</div><!-- .entry-content -->
+</article><!-- #post-## -->
+                        </div>
+
+                        <!-- Right Sidebar -->
+                                                    <aside class="col-lg-3 order-lg-last">
+                                <div class="page-sidebar">
+                                    <div><div class="right-sidebar-widget mb-4 p-3 pt-2 bg-light rounded-3" role="complementary" aria-label="Contact Us"><h2 class="fw-bold fs-5 mb-2">Contact Us</h2><p><a href="https://henrico.gov/supervisors"><strong>Board of Supervisors</strong></a></p><p><strong>Phone</strong><br /><a href="tel:(804) 501-4208" title="Call (804) 501-4208" >(804) 501-4208</a><br /></p><p><strong>Fax</strong><br>(804) 501-5361<br /></p><p><strong>Mailing Address</strong><br />P. O. Box 90775<br />Henrico, VA 23273-0775</p></div></div>                                </div>
+                            </aside>
+                                            </div>
+
+                </main><!-- #main -->
+            </div><!-- #primary -->
+        </div>
+
+    </div><!-- .row -->
+</div><!-- .container -->
+
+
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://henrico.gov/"},{"@type":"ListItem","position":2,"name":"Departments","item":"https://henrico.gov/departments/"},{"@type":"ListItem","position":3,"name":"Board of Supervisors","item":"https://henrico.gov/supervisors/"},{"@type":"ListItem","position":4,"name":"Agend-O-Gram","item":"https://henrico.gov/supervisors/supervisors-agenda-o-gram/"}]},{"@context":"https://schema.org","@type":"GovernmentOrganization","name":"Board of Supervisors","description":"Henrico County Government Department","url":"https://henrico.gov/supervisors","address":{"@type":"PostalAddress","streetAddress":"P. O. Box 90775","addressLocality":"Henrico","addressRegion":"VA","postalCode":"23273-0775","addressCountry":"US"},"telephone":"(804) 501-4208","faxNumber":"(804) 501-5361","parentOrganization":{"@type":"GovernmentOrganization","name":"Henrico County, Virginia","url":"https://henrico.gov/"}}]</script>
+<footer id="colophon" class="site-footer bg-secondary text-white">
+    <div class="container py-5 py-lg-6"><!-- legacy width  -->
+        <div class="row g-4">
+
+            <!-- Column 1: Seal + County Info + Social -->
+            <section class="col-12 col-sm-6 col-lg-3" aria-labelledby="footer-henrico-info">
+                <a class="d-inline-flex mb-3" href="https://henrico.gov/">
+                    <img
+                        src="https://henrico.gov/wp-content/themes/henrico/images/footer-seal.png"
+                        alt="The official seal of Henrico County, Virginia"
+                        class="img-fluid" style="max-width:120px;height:auto;">
+                </a>
+
+                <p id="footer-henrico-info" class="h1 fw-bold pb-0 mb-1 text-white">Henrico County</p>
+                <p class="mb-3 text-white">Henrico (<em>hen-RYE-ko</em>)</p>
+
+                                <address class="footer-address mb-3 text-white d-flex align-items-start gap-2">
+                    <span class="flex-shrink-0 d-inline-flex justify-content-center" style="width:1.25rem" aria-hidden="true">
+                        <i class="fs-5 bi bi-geo-alt-fill"></i>
+                    </span>
+                    <a
+                        href="https://henrico.gov/locations/western-government-center/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-white text-decoration-underline"
+                        aria-label="4301 East Parham Road, Henrico, VA 23228 (opens in a new window)">
+                        4301 East Parham Road<br>
+                        Henrico, VA 23228                        <span class="visually-hidden"> (opens in a new window)</span>
+                    </a>
+                </address>
+
+
+
+                <div class="mb-4 text-white d-flex align-items-start gap-2">
+                    <span class="flex-shrink-0 d-inline-flex justify-content-center" style="width:1.25rem" aria-hidden="true">
+                        <i class="fs-5 bi bi-clock"></i>
+                    </span>
+                    <div>
+                        <strong class="d-block">Hours of Operation</strong>
+                        Mon–Fri <time datetime="08:00">8:00 a.m.</time>–<time datetime="16:00">4:30 p.m.</time>
+                    </div>
+                </div>
+
+
+                <a class="fs-5 btn btn-outline-light rounded-3 fw-semibold px-4 py-2 mb-3" href="https://henrico.gov/contact-us">
+                    Contact Us
+                </a>
+
+                                    <!-- Connect With Us -->
+                    <section aria-labelledby="footer-connect">
+                        <p id="footer-connect" class="footer-title h3 text-white fw-semibold pt-4 mb-2">Connect With Us</p>
+                        <p class="visually-hidden">Social media links for Henrico County.</p>
+                        <ul class="fs-2 list-inline mb-0 footer-socials">
+                                                            <li class="list-inline-item">
+                                    <a class="footer-social-link" href="https://www.facebook.com/henricova" aria-label="Visit our Facebook page" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                                                                        <li class="list-inline-item">
+                                    <a class="footer-social-link" href="https://x.com/HenricoNews" aria-label="Visit our X (Twitter) page" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-twitter-x" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                                                                        <li class="list-inline-item">
+                                    <a class="footer-social-link" href="https://www.instagram.com/henricocountygovernment/" aria-label="Visit our Instagram page" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                                                                        <li class="list-inline-item">
+                                    <a class="footer-social-link" href="https://www.youtube.com/c/HenricoCountyGovernment" aria-label="Visit our YouTube page" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-youtube" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                                    </ul>
+                        <p class="mt-2 mb-0">
+                            <a
+                                class="text-white text-decoration-underline"
+                                href="https://henrico.gov/social-media/">
+                                View All Social Media
+                            </a>
+                        </p>
+                    </section>
+                
+            </section>
+
+            <!-- Column 2: Helpful Links + Sign Up -->
+            <div class="col-6 col-lg-3">
+                <nav aria-labelledby="footer-helpful-links">
+                    <p id="footer-helpful-links" class="footer-title h3 text-white fw-semibold mb-2">Helpful Links</p>
+                    <p class="visually-hidden">Quick links to popular county resources.</p>
+                                            <ul class="list-unstyled footer-links mb-0">
+                            <li><a href="https://traffic.henrico.gov/" target="_blank">Traffic Conditions</a></li>
+                            <li><a href="https://henrico.gov/services/jobs/">Apply for a Job</a></li>
+                            <li><a href="https://henrico.gov/residents/">Residents</a></li>
+                            <li><a href="https://henrico.gov/business/">Businesses</a></li>
+                            <li><a href="https://henrico.gov/census/">Census 2020</a></li>
+                            <li><a href="https://www.virginia.gov/" target="_blank">virginia.gov</a></li>
+                        </ul>
+                    
+                </nav>
+
+                <!-- Sign up to Receive Henrico News -->
+                <section class="mt-3" aria-labelledby="footer-signup-connect">
+                    <p id="footer-signup-connect" class="footer-title h3 text-white fw-semibold mb-2 pt-4">Sign up to Receive Henrico News</p>
+                    <a class="fs-5 btn btn-outline-light rounded-3 fw-semibold px-4 py-2" href="https://lp.constantcontactpages.com/sl/RpkuCTj/HenricoNews" target="_blank" rel="noopener noreferrer">
+                        Sign Up
+                    </a>
+                </section>
+            </div>
+
+            <!-- Column 3: Government -->
+            <nav class="col-12 col-sm-6 col-lg-3" aria-labelledby="footer-government">
+                <p id="footer-government" class="footer-title h3 text-white fw-semibold mb-2">Government</p>
+                <ul class="list-unstyled footer-links mb-0">
+                    <li><a href="https://henrico.gov/supervisors/">Board of Supervisors</a></li>
+                    <li><a href="https://henrico.gov/supervisors/video-of-meetings/">Board of Supervisors' Streaming Meetings</a></li>
+                    <li><a href="https://henrico.gov/government/">Government</a></li>
+                    <li><a href="https://henrico.gov/news/">News</a></li>
+                    <li><a href="https://storymaps.arcgis.com/stories/49f76dc099dc485f8eb7b04277f1458a" target="_blank">Henrico's Annual Report</a></li>
+                    <li><a href="https://henrico.gov/budget/">Henrico's Budget</a></li>
+                    <li><a href="https://henrico.gov/transparency/">Transparency</a></li>
+                    <li><a href="https://www.henricoschools.us/" target="_blank">Public Schools</a></li>
+                    <li><a href="https://henricolibrary.org/" target="_blank">Public Library</a></li>
+                </ul>
+            </nav>
+
+
+
+            <!-- Column 4: Explore -->
+            <nav class="col-6 col-lg-3" aria-labelledby="footer-explore">
+                <p id="footer-explore" class="footer-title h3 text-white fw-semibold mb-2">Explore</p>
+                                    <ul class="list-unstyled footer-links mb-0">
+                        <li><a href="https://henrico.gov/services/">Services</a></li>
+                        <li><a href="https://henrico.gov/public-data/">Public Data</a></li>
+                        <li><a href="https://henrico.gov/projects/">Projects</a></li>
+                        <li><a href="https://henrico.gov/departments/">County Agencies</a></li>
+                        <li><a href="https://henrico.gov/locations/">Government Buildings</a></li>
+                        <li><a href="https://henrico.gov/rec/parks/">County Parks</a></li>
+                        <li><a href="https://henrico.gov/history/landmarks/">County Landmarks</a></li>
+                        <li><a href="https://henrico.gov/calendar/">Calendar</a></li>
+                        <li><a href="https://henrico.gov/maps/">Maps</a></li>
+                        <li><a href="https://henrico.gov/apps/">Apps</a></li>
+                    </ul>
+                            </nav>
+
+        </div>
+
+
+        
+        <hr class="my-4 border-white-30">
+
+
+        <!-- Bottom: copyright, then legal links beneath -->
+        <div class="">
+            <p class="mb-1 mb-md-2 text-white footer-copyright">
+                &copy; 1996–2026.
+                henrico.gov is the official site for Henrico County, Virginia, government information and services.            </p>
+            <div>
+                <ul class="list-inline mb-0 footer-legal">
+                                            <li class="list-inline-item"><a href="https://henrico.gov/privacy-policy/">Privacy Policy</a></li>
+                                                            <li class="list-inline-item ms-3"><a href="https://henrico.gov/sitemap/">Site Map</a></li>
+                    <li class="list-inline-item ms-3"><a href="https://henrico.gov/services/provide-a-website-suggestion/">Web Suggestions</a></li>
+                    <li class="list-inline-item ms-3"><a href="https://henrico.gov/website-accessibility/">Accessibility</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<button
+    type="button"
+    class="hc-back-to-top"
+    id="hc-back-to-top"
+    aria-label="Back to top"
+    title="Back to top"
+    hidden>
+    <i class="bi bi-arrow-up" aria-hidden="true"></i>
+</button>
+
+<!-- Begin Constant Contact Active Forms -->
+<script> var _ctct_m = "524da0a45356c78ef8e2bc8d84e976df"; </script>
+<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+<!-- End Constant Contact Active Forms -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/assets/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/henrico/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script id="tec-user-agent-js" src="https://henrico.gov/wp-content/plugins/the-events-calendar/common/build/js/user-agent.js?ver=da75d0bdea6dde3898df"></script>
+<script id="jquery-ui-core-js-before">
+jQuery.uiBackCompat = true;
+//# sourceURL=jquery-ui-core-js-before
+</script>
+<script id="jquery-ui-core-js" src="https://henrico.gov/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-menu-js" src="https://henrico.gov/wp-includes/js/jquery/ui/menu.min.js?ver=1.14.2"></script>
+<script id="wp-dom-ready-js" src="https://henrico.gov/wp-includes/js/dist/dom-ready.min.js?ver=3fe927cab37bf38d6a23"></script>
+<script id="wp-hooks-js" src="https://henrico.gov/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="https://henrico.gov/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js" src="https://henrico.gov/wp-includes/js/dist/a11y.min.js?ver=31c6cec5a4ff7aff483d"></script>
+<script id="jquery-ui-autocomplete-js" src="https://henrico.gov/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.14.2"></script>
+<script id="jq-datatable-min-js" src="https://henrico.gov/wp-content/themes/henrico/js/lib/jquery.dataTables.min.js?ver=1.10.6"></script>
+<script id="js-datatable-bs4-min-js" src="https://henrico.gov/wp-content/themes/henrico/js/lib/dataTables.bootstrap4.min.js?ver=1.10.6"></script>
+<script id="js-dtresponsive-js" src="https://henrico.gov/wp-content/themes/henrico/js/lib/dataTables.responsive.min.js?ver=2.2.1"></script>
+<script id="lib-modernizr-js" src="https://henrico.gov/wp-content/themes/henrico/js/lib/modernizr-custom.js?ver=5.1"></script>
+<script id="bootstrap-tether-js" src="https://henrico.gov/wp-content/themes/henrico/js/lib/tether.min.js?ver=5.1"></script>
+<script id="jquery-plugin-velocity-js" src="https://henrico.gov/wp-content/themes/henrico/js/lib/velocity.min.js?ver=5.1"></script>
+<script id="search_autocomplete-js-extra">
+var SearchAutocomplete = {"url":"https://henrico.gov/wp-admin/admin-ajax.php"};
+//# sourceURL=search_autocomplete-js-extra
+</script>
+<script id="search_autocomplete-js" src="https://henrico.gov/wp-content/themes/henrico/js/searchAutocomplete.js"></script>
+<script id="search_sort-js" src="https://henrico.gov/wp-content/themes/henrico/js/searchSort.js"></script>
+<script id="henrico-browser-detect-js" src="https://henrico.gov/wp-content/themes/henrico/js/browser-detect.js?ver=5.1"></script>
+<script id="henrico-core-js" src="https://henrico.gov/wp-content/themes/henrico/js/core.js?ver=5.1"></script>
+<script id="henrico-dtable-js" src="https://henrico.gov/wp-content/themes/henrico/js/dataTable.js?ver=5.1"></script>
+<script id="henrico-navigation-js" src="https://henrico.gov/wp-content/themes/henrico/js/navigation.js?ver=5.1"></script>
+<script id="henrico-skip-link-focus-fix-js" src="https://henrico.gov/wp-content/themes/henrico/js/skip-link-focus-fix.js?ver=5.1"></script>
+<script id="henrico-accessibility-js" src="https://henrico.gov/wp-content/themes/henrico/js/accessibility.js?ver=5.1"></script>
+<script id="henrico-calculators-js" src="https://henrico.gov/wp-content/themes/henrico/js/calculators.js?ver=5.1"></script>
+<script id="henrico-address_autocomplete-js" src="https://henrico.gov/wp-content/themes/henrico/js/addressAutocomplete.js?ver=5.1"></script>
+<script id="henrico-find-cleanup-js" src="https://henrico.gov/wp-content/themes/henrico/js/findacleanup.js?ver=5.1"></script>
+<script id="henrico-cards-js" src="https://henrico.gov/wp-content/themes/henrico/js/cards.js?ver=5.1"></script>
+<script id="gforms_recaptcha_recaptcha-js-extra">
+var gforms_recaptcha_recaptcha_strings = {"nonce":"3bdaba019b","disconnect":"Disconnecting","change_connection_type":"Resetting","spinner":"https://henrico.gov/wp-content/plugins/gravityforms/images/spinner.svg","connection_type":"enterprise","disable_badge":"1","change_connection_type_title":"Change Connection Type","change_connection_type_message":"Changing the connection type will delete your current settings.  Do you want to proceed?","disconnect_title":"Disconnect","disconnect_message":"Disconnecting from reCAPTCHA will delete your current settings.  Do you want to proceed?","site_key":"6LdDmFcrAAAAAAF3w-m2iJSkbsC7Vg0EdKJWKblp","key_type":"","ajaxurl":"https://henrico.gov/wp-admin/admin-ajax.php"};
+//# sourceURL=gforms_recaptcha_recaptcha-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_recaptcha-js" src="https://www.google.com/recaptcha/enterprise.js?render=6LdDmFcrAAAAAAF3w-m2iJSkbsC7Vg0EdKJWKblp&#038;ver=2.2.2"></script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_frontend-js" src="https://henrico.gov/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=2.2.2"></script>
+<script type="module" id="henrico-app-js" src="https://henrico.gov/wp-content/themes/henrico/assets/js/app.js?ver=1788287595"></script>
+<script type="text/javascript" id="slb_context">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/* ]]> */</script>
+
+
+</body>
+</html>
