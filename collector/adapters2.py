@@ -180,6 +180,9 @@ def openstates(ctx):
     items = []
     queries = ctx.cfg.get("openstates_queries", ["data center", "large load"])
     ctx.http.pace("https://v3.openstates.org/", 6.5)       # free tier: 10 requests a minute
+    trx = ctx.cfg.get("openstates_title_filter",
+                      r"data (processing )?cent|large[- ]load|electric|utilit|energy|power|grid|transmission|ratepayer|"
+                      r"nuclear|generat|interconnect|public service commission|corporation commission|demand response")
     for st in TRACKED_STATES:
         for q in queries:
             url = (f"https://v3.openstates.org/bills?jurisdiction={quote(STATE_NAMES[st])}&q={quote(q)}"
@@ -201,6 +204,8 @@ def openstates(ctx):
                 ctx.log(f"openstates {st} {q}: {e!r}"[:200])
                 continue
             for b in j.get("results", []):
+                if not re.search(trx, b.get("title") or "", re.I):
+                    continue    # full-text search matches budget and tax bills that mention data centers in passing
                 last = (b.get("actions") or [{}])[-1]
                 items.append({"id": f"BILL:{st}:{b.get('id')}:{b.get('latest_action_date')}", "jur": st, "source": "openstates",
                               "kind": "legislation", "docket": b.get("identifier"), "title": (b.get("title") or "")[:300],
