@@ -16,13 +16,35 @@
  "meta": {
   "rto": "ERCOT",
   "page": "https://www.ercot.com/services/rq/large-load-integration",
-  "postprocess": "ercot_ll_table"
+  "postprocess": "ercot_ll_table",
+  "table_rows": [],
+  "table_metrics": {},
+  "summary": "",
+  "ocr": false
  },
- "collected_at": "2026-10-04T23:32:44Z",
- "run_id": "2026-10-04-2316",
+ "collected_at": "2026-10-04T23:37:08Z",
+ "run_id": "2026-10-04-2335",
  "keywords": [
-  "large-load"
+  "batch zero",
+  "interconnection",
+  "large load",
+  "large-load",
+  "load interconnection",
+  "transmission service"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/06/05/ERCOT-Sections-9.2.1.1-1-c-and-d-Form.pdf",
+   "name": null,
+   "bytes": 141897,
+   "sha256": "df7246be9094fdf2fb79791ec0f5ff5589f7350ca304f19f8b39b42b2d261733",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "Customer specific information submitted to ERCOT by an Interconnecting DSP or Interconnecting TSP in this\ndocument is considered Protected Information under paragraph (1)(r) of Protocol Section 1.3.1.1, Items Considered\nProtected Information.\n\n ERCOT Batch Zero Process for Large Load Interconnection:\n            Section 9.2.1.1(1)(c) and (d) Form\nInstructions: This Sections 9.2.1.1(1)(c) and (d) Form (“Form”) must be completed by an\nauthorized representative of the designated Interconnecting Large Load Entity (“Designated\nILLE”) named below. The Designated ILLE is providing this Form in accordance with Electric\nReliability Council of Texas, Inc.’s Planning Guide Section 9.2.1.1(1)(c) or (d) and Section\n9.2.2(1)(c) as stated in Planning Guide Revision Request 145 which is subject to approval by the\nPublic Utility Commission of Texas. All fields must be completed unless otherwise noted. This\nForm must be returned to the Interconnecting Transmission Service Provider (“TSP”) or\nInterconnecting Distribution Service Provider (“DSP”) named below, as applicable, on or before\nJuly 10, 2026. Questions regarding this Form may be sent to: llwg_feedback@ercot.com.\n\nDesignated Large Load Information\n\nIdentification information provided in this section must be consistent with information provided in\nthe Load Information Form.\n\nILLE Name: ________________________________________________________\n\nName of Large Load Facility: ___________________________________________\n\nBatch Zero Serial Number: BZ-____\n\nAddress of the Large Load Facility: _______________________________________\n\n___________________________________________________________________\n\nPlanning Bus or Description of Bus: ______________________________________\n\nCheck All Study Types Completed for the Designated Large Load:\n\n    ☐ Large Load Interconnection Study after March 25, 2022, LLI-____\n\n    ☐ Regional Planning Project Study, Project No(s). _____\n\n    ☐ Permian Basin Reliability Plan\n\n    ☐ Other ______________________________________________\n\nInterconnecting TSP or Interconnecting DSP, as applicable: ____________________________\n\nEligibility Information\n\nDesignated ILLE Acknowledgment – Section 9.2.2(1)(c)\n\nThe Designated ILLE acknowledges its obligations to notify and update the Interconnecting DSP\nand Interconnecting TSP of changes to the Large Load project information or to the load\ncomposition, technology, parameters, or development schedule, as described in Section 9.2.3 of\nthe ERCOT Planning Guide, during the interconnection process.\n\n\n                                                                                                   Page 1 of 2\n\fCustomer specific information submitted to ERCOT by an Interconnecting DSP or Interconnecting TSP in this\ndocument is considered Protected Information under paragraph (1)(r) of Protocol Section 1.3.1.1, Items Considered\nProtected Information.\nSignature Block\n\nBy executing this Form, the undersigned represents that he or she is a representative, official,\nofficer, or other authorized person with binding authority over ______________________\n(Designated ILLE), is authorized to execute this Form on behalf of the Designated ILLE, and that\nthe statements contained herein are true, correct, and complete to the best of the undersigned's\nknowledge and belief as of the date of execution.\n\nBy: ___________________________\nName: _________________________\nTitle: ________________________\nContact Information: _____________________\n_______________________________\n\n\n\n\n                                                                                                   Page 2 of 2\n\f"
+  }
+ ]
 }

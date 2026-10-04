@@ -16,13 +16,35 @@
  "meta": {
   "rto": "ERCOT",
   "page": "https://www.ercot.com/services/rq/large-load-integration",
-  "postprocess": "ercot_ll_table"
+  "postprocess": "ercot_ll_table",
+  "table_rows": [],
+  "table_metrics": {},
+  "summary": "",
+  "ocr": false
  },
- "collected_at": "2026-10-04T23:32:44Z",
- "run_id": "2026-10-04-2316",
+ "collected_at": "2026-10-04T23:37:02Z",
+ "run_id": "2026-10-04-2335",
  "keywords": [
-  "large-load"
+  "batch zero",
+  "interconnection",
+  "large load",
+  "large-load",
+  "load interconnection",
+  "transmission service"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/06/05/ERCOT-Interconnecting-TSP-Dynamic-Stability-Study-Form-v2.pdf",
+   "name": null,
+   "bytes": 196503,
+   "sha256": "c3f3c0c4f9bdd8d3ac9c4c80a94a3e536a626988fc4c13711d389cf379cf7409",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "Customer specific information submitted to ERCOT by an Interconnecting DSP or Interconnecting TSP in this\ndocument is considered Protected Information under paragraph (1)(r) of Protocol Section 1.3.1.1, Items Considered\nProtected Information.\n\n ERCOT Batch Zero Process for Large Load Interconnection:\n        Section 9.2.2(3) Valid Stability Study Form\nInstructions: This Section 9.2.2.(3) Form (“Form”) must be completed by the Interconnecting\nTransmission Service Provider (TSP) for a Large Load that has a dynamic stability study on or\nbefore July 10, 2026. The Interconnecting TSP provides this Form in accordance with Electric\nReliability Council of Texas, Inc.’s Planning Guide Section 9.2.2(3) as stated in Planning Guide\nRevision Request 145, which is subject to approval by the Public Utility Commission of Texas.\nAll fields must be completed unless otherwise noted. This Form must be returned to ERCOT on\nor before July 24, 2026. Questions regarding this Form may be sent to:\nllwg_feedback@ercot.com.\n\nDesignated Interconnecting TSP and Large Load Information\n\nIdentification information provided in this section must be consistent with information provided in\nthe Load Information Form.\n\nInterconnecting TSP: ____________________________\n\nIdentification information provided in this section must be consistent with information provided in\nthe Load Information Form.\n\nILLE Name: ________________________________________________________\n\nName of Large Load Facility: ___________________________________________\n\nBatch Zero Serial Number: BZ-____\n\nAddress of the Large Load Facility: _______________________________________\n\n___________________________________________________________________\n\nPlanning Bus or Description of Bus: ______________________________________\n\nCheck All Study Types Completed for the Designated Large Load:\n\n    ☐ Large Load Interconnection Study after March 25, 2022, LLI-____\n\n    ☐ Regional Planning Project Study, Project No(s). _____\n\n    ☐ Permian Basin Reliability Plan\n\n    ☐ Other ______________________________________________\n\nStability Study Validity Information\n\nAcknowledgment – Section 9.2.2(1)(c)\n\nStability Study Validity Information\n    1. Has the Designated Large Load been subject to a dynamic stability study?\n        Yes (complete Questions 2 and 3)\n\n                                                                                                   Page 1 of 2\n\fCustomer specific information submitted to ERCOT by an Interconnecting DSP or Interconnecting TSP in this\ndocument is considered Protected Information under paragraph (1)(r) of Protocol Section 1.3.1.1, Items Considered\nProtected Information.\n        No (Questions 2 and 3 are not required)\n    2. If yes, provide information about the previous stability study, including who\n       performed the study, the date of the study, and whether ERCOT reviewed and\n       approved the study.\n        ___________________________________________________________________\n        ___________________________________________________________________\n    3. The Interconnecting TSP has determined that the dynamic stability study for the\n       Designated Large Load has:\n        not been adversely impacted by updated dynamic data provided by the Designated\n          ILLE\n        been adversely impacted by updated dynamic data provided by the Designated ILLE\n\nSignature Block\n\nBy executing this Form, the undersigned represents that he or she is a representative, official,\nofficer, or other authorized person with binding authority over ______________________\n(Interconnecting TSP), is authorized to execute this Form on behalf of the Interconnecting TSP,\nand that the statements contained herein are true, correct, and complete to the best of the\nundersigned's knowledge and belief as of the date of execution.\n\nBy: ___________________________\nName: _________________________\nTitle: ________________________\nContact Information: _____________________\n_______________________________\n\n\n\n\n                                                                                                   Page 2 of 2\n\f"
+  }
+ ]
 }

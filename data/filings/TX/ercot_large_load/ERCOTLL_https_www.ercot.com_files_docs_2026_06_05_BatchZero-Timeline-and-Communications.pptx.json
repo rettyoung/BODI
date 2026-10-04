@@ -16,14 +16,31 @@
  "meta": {
   "rto": "ERCOT",
   "page": "https://www.ercot.com/services/rq/large-load-integration",
-  "postprocess": "ercot_ll_table"
+  "postprocess": "ercot_ll_table",
+  "table_rows": [],
+  "table_metrics": {},
+  "summary": "",
+  "ocr": false
  },
- "collected_at": "2026-10-04T23:32:44Z",
- "run_id": "2026-10-04-2316",
+ "collected_at": "2026-10-04T23:36:50Z",
+ "run_id": "2026-10-04-2335",
  "keywords": [
   "batch zero",
   "large-load"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/06/05/BatchZero-Timeline-and-Communications.pptx",
+   "name": null,
+   "bytes": 274992,
+   "sha256": "ce7d3784f5df886c3c3964541f727017fc2f38e538b7d3cca4cc622355cd6926",
+   "ctype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  }
+ ]
 }

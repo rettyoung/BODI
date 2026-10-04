@@ -7879,7 +7879,25 @@
   "REGS:comment:EPA-HQ-OW-2009-0819-13843": "2026-10-04",
   "REGS:comment:EPA-HQ-OW-2009-0819-13847": "2026-10-04",
   "REGS:comment:EPA-HQ-OLEM-2025-2864-0542": "2026-10-04",
-  "REGS:comment:EPA-HQ-OLEM-2025-2864-0374": "2026-10-04"
+  "REGS:comment:EPA-HQ-OLEM-2025-2864-0374": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/02/18/ERCOT-Monthly-Operational-Overview-January-2026.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/03/18/ERCOT-Monthly-Operational-Overview-February-2026.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/04/16/ERCOT-Monthly-Operational-Overview-March-2026.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/05/BatchZero-Timeline-and-Communications.pptx": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/26/Batch_Zero_Readiness_FAQs_V8.1.xlsx": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/18/Batch-Zero-Load-Information-Form-06172026.xlsx": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/23/ERCOT-Affiliate-Form-Version-Two.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/05/ERCOT-Interconnecting-TSP-Dynamic-Stability-Study-Form-v2.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/18/ERCOT-Section-9.2.1.1-1-b-Attestation.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/05/ERCOT-Sections-9.2.1.1-1-c-and-d-Form.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/05/ERCOT-Section-9.2.1.1-1-e-Attestation-v2.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/05/ERCOT-Section-9.2.1.1-1-f-Attestation_v3.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/05/ERCOT-Section-9.2.1.1-1-g-Attestation_v3.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/05/ERCOT-Section-9.2.1.2-1-Attestation-Form-v2-1-.pdf": "2026-10-04",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/06/05/ERCOT-Section-9.2.1.4-3-d-Attestation.pdf": "2026-10-04"
  },
  "sources": {
   "ferc": {
@@ -21328,7 +21346,16 @@
   "ercot_large_load": {
    "consecutive_failures": 0,
    "data": {
-    "meetings_done": [],
+    "meetings_done": [
+     "https://www.ercot.com/calendar/08062026-ROS-Meeting",
+     "https://www.ercot.com/calendar/08212026-LLWG-Meeting-_-Webex",
+     "https://www.ercot.com/calendar/08262026-TAC-Meeting-_-Webex",
+     "https://www.ercot.com/calendar/09032026-ROS-Meeting",
+     "https://www.ercot.com/calendar/09142026-Board-of-Directors-Meeting",
+     "https://www.ercot.com/calendar/09152026-Board-of-Directors-Meeting",
+     "https://www.ercot.com/calendar/09172026-LLWG-Meeting",
+     "https://www.ercot.com/calendar/10012026-ROS-Meeting"
+    ],
     "ercot_api_products_seen": 120,
     "ercot_api_large_load_products": []
    },
@@ -21392,8 +21419,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 14,
- "last_run": "2026-10-04T23:33:51Z",
+ "runs": 15,
+ "last_run": "2026-10-04T23:37:23Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",

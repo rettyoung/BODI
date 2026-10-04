@@ -1,0 +1,59 @@
+{
+ "backfill_since": "2025-11-07",
+ "run_id": "2026-10-04-2335",
+ "started": "2026-10-04T23:35:45Z",
+ "sources": {
+  "ercot_large_load": {
+   "since": "2025-11-07",
+   "found": 34,
+   "new": 18,
+   "baselined_now": 0,
+   "kept": 18,
+   "status": "ok",
+   "subsources": {
+    "ercot:llwg": {
+     "status": "ok",
+     "note": "read"
+    },
+    "ercot:tac": {
+     "status": "ok",
+     "note": "read"
+    },
+    "ercot:ros": {
+     "status": "ok",
+     "note": "read"
+    },
+    "ercot:board": {
+     "status": "ok",
+     "note": "read"
+    },
+    "ercot:public_api": {
+     "status": "ok",
+     "note": "0 large-load products among 120 in the catalogue"
+    }
+   },
+   "notes": [],
+   "seconds": 97.7,
+   "consecutive_failures": 0
+  }
+ },
+ "docs_fetched": 18,
+ "new_items": 18,
+ "user_agent": "BlueOwl-RegTracker/4.0 (***)",
+ "trigger": {
+  "event": "workflow_dispatch",
+  "cron": null
+ },
+ "finished": "2026-10-04T23:37:23Z",
+ "http_hosts": {
+  "https://www.ercot.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://api.ercot.com": {
+   "robots": "404",
+   "note": ""
+  }
+ },
+ "seconds": 98
+}

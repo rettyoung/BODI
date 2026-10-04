@@ -16,13 +16,35 @@
  "meta": {
   "rto": "ERCOT",
   "page": "https://www.ercot.com/services/rq/large-load-integration",
-  "postprocess": "ercot_ll_table"
+  "postprocess": "ercot_ll_table",
+  "table_rows": [],
+  "table_metrics": {},
+  "summary": "",
+  "ocr": false
  },
- "collected_at": "2026-10-04T23:32:44Z",
- "run_id": "2026-10-04-2316",
+ "collected_at": "2026-10-04T23:37:23Z",
+ "run_id": "2026-10-04-2335",
  "keywords": [
-  "large-load"
+  "batch zero",
+  "interconnection",
+  "large load",
+  "large-load",
+  "load interconnection",
+  "transmission service"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/06/05/ERCOT-Section-9.2.1.4-3-d-Attestation.pdf",
+   "name": null,
+   "bytes": 158057,
+   "sha256": "28784bebaa6dc23ffad960c3e3e20ecaa83294eee244218f0a29812ac40595f1",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "Customer specific information submitted to ERCOT by an Interconnecting DSP or Interconnecting TSP in this\ndocument is considered Protected Information under paragraph (1)(r) of Protocol Section 1.3.1.1, Items Considered\nProtected Information.\n\n ERCOT Batch Zero Process for Large Load Interconnection:\n          Section 9.2.1.4(3)(d) Attestation Form\nInstructions: This Section 9.2.1.4(3)(d) Attestation Form (“Form”) must be completed by the\nInterconnecting Transmission Service Provider (“TSP”) named below and sworn to by the TSP’s\nofficial, officer, or other authorized person with binding authority over the Designated\nInterconnecting TSP. The Designated Interconnecting TSP acknowledges this Form, together\nwith all attachments hereto, constitutes a single instrument. The TSP provides this Form in\naccordance with Electric Reliability Council of Texas, Inc.’s Planning Guide Section 9.2.1.4(3)(d)\nas stated in Planning Guide Revision Request 145. All fields must be completed unless\notherwise noted. This Form must be submitted to ERCOT on or before July 24, 2026.\nQuestions regarding this Form may be sent to: llwg_feedback@ercot.com.\n\nIdentification Information\n\nIdentification information provided in this section must be consistent with information provided in\nthe Load Information Form.\n\nInterconnecting TSP or Interconnecting DSP, as applicable: ____________________________\n\nILLE Name: ________________________________________________________\n\nName of Large Load Facility: ___________________________________________\n\nBatch Zero Serial Number: BZ-____\n\nRequired Information\n\n1. Study Agreement\n\n        a. The date on which the Designated ILLE executed a study agreement with the\n            Designated Interconnecting TSP: ______________________________________\n\n        b. The Initial Energization date specified in the study agreement: ____________\n\n        c. The MW Demand requested by the Designated ILLE: _____________________\n\n2. Was the period between the Designated ILLE’s interconnection request and requested\n   Initial Energization date more than two years?\n\n     ___________________________________________________________________________\n\n3. Did the Designated Interconnecting TSP perform an interconnection study for the Large\n   Load through the TSP’s customary study process?\n\n    ___________________________________________________________________________\n\n\n\n\n                                                                                                   Page 1 of 2\n\fCustomer specific information submitted to ERCOT by an Interconnecting DSP or Interconnecting TSP in this\ndocument is considered Protected Information under paragraph (1)(r) of Protocol Section 1.3.1.1, Items Considered\nProtected Information.\n4. Did the interconnection study completed on or before December 15, 2025, show that the\n   Large Load could be reliably served without Transmission Facility improvements\n   requiring review by the Regional Planning Group?\n\n    ______________________________________________________________________________\n\n5. Did the Designated ILLE execute an interconnection agreement or equivalent agreement\n   to proceed with interconnection on or before December 15, 2025?\n\n     ______________________________________________________________________________\n\n6. Is additional information being provided to demonstrate the inclusion of the Large Load\n   in ERCOT transmission planning studies, including submissions to the Regional Planning\n   Group or other ERCOT study processes? If so, attach it to this Form. _______________\n\nNotarization\n\nBy executing this Form, the undersigned represents that he or she is a representative, official,\nofficer, or other authorized person with binding authority over ______________________\n(Designated Interconnecting Transmission Service Provider), is authorized to execute this\nattestation on behalf of the Designated Interconnecting Transmission Service Provider, and that\nthe statements contained herein are true, correct, and complete to the best of the undersigned's\nknowledge and belief as of the date of execution.\n\nBy: ___________________________\nName: _________________________\nTitle: ________________________\nContact Information: _____________________\n_______________________________\n\nSTATE OF _______§\nCOUNTY OF __________ §\n\nSworn to and subscribed before me on the ___ day of ______, 2026, by ___________, in the\ncapacity stated above, on behalf of said entity.\n\n____________________________________\nNotary Public, State of ________\n\nMy Commission Expires: ______________\n\n\n\n\n                                                                                                   Page 2 of 2\n\f"
+  }
+ ]
 }
