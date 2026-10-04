@@ -181,7 +181,14 @@ double rows, but a local Brief would send a second email.
 
 ### Collector (GitHub Actions)
 
-Nightly at **06:17 UTC** (~23:17 PT). Writes only to the repo's `data/`. Never classifies, never writes the row
+Nightly, with **three scheduled triggers — 04:43, 06:17 and 08:41 UTC** (21:43, 23:17 and 01:41 PDT). GitHub runs scheduled
+events best-effort (its docs: they "can be delayed during periods of high loads" and some "may be dropped"; the 06:17
+run of 4 Oct started at 12:26 UTC). A guard step lets only the first trigger that starts do the work: later triggers
+skip if a complete run finished within 10 hours, so agencies still see one collection a night. Each job checks out
+the newest `main` at start (a queued event otherwise checks out an hours-old commit). Every complete run records
+`last_full_run` in `data/state/collector_state.json` and `hours_since_previous_full_run` / `collector_gap` in its
+health file; the Sweep reports a gap as COLLECTOR_GAP (amber). A missed night loses nothing: adapters re-read from
+their last success minus three days. Writes only to the repo's `data/`. Never classifies, never writes the row
 store. Manual dispatch accepts `backfill_since` (docket history from a date). Spare time at the end of each night
 (up to the 70-minute deadline, ~150 documents) goes to **backfill enrichment**: fetching and extracting the
 documents behind the docket-history backfill, tiered (1 commission-issued, 2 watched party — matched on the
@@ -877,6 +884,10 @@ are enabled.
   filer field.
 - **"Working" means text extracted, not items listed.** Texas and Arizona listed filings for days with no document
   text behind them; health now has to be read per document, and enrichment retries failures.
+- **GitHub's scheduler is best-effort.** A scheduled run can start hours late or never; one trigger is not a
+  schedule. Use several off-the-hour triggers with a guard so only one does the work, and check out `main` at job
+  start. (4 Oct: the 06:17 UTC run started at 12:26 and was first misreported here as skipped — check the run list
+  again before calling a run missed.)
 - **The manual pass depends on Rett being present.** The Friday task asks first and never browses unattended.
 
 ---
@@ -892,3 +903,4 @@ are enabled.
 | 2026-10-03 (eve) | Schedules changed by Rett: Sweep Mon 03:54 PT, Brief Mon 08:54 PT, manual-pass reminder Fri 09:04 PT (all `CRON_TZ=America/Los_Angeles`); §3, §4, §12, §16, §18 and `SOURCES.md` updated to match |
 | 2026-10-04 | Wave 3 sources: Supreme Court of Texas, PA Commonwealth Court RSS, WV Supreme Court, CourtListener state courts; local agendas (Fairfax, Henrico, Atlanta, Tulsa ×3, Storey, Washoe); ERCOT large-load status with table extraction; NYISO ICAP (refused → manual pass); NRC news RSS and ADAMS (key); FERC Form 1/3-Q/714 feed and EQR (PUDL); LBNL via OSTI, Grid Strategies; hyperscaler newsrooms. NM documents repaired. `SOURCES.md` rewritten; §8–§12, §16–§18 updated |
 | 2026-10-04 (am) | Consistency pass: NYISO ICAP refusal recorded as `refused_known` (no false RED); refused IL CUB mirror dropped; corrections item C-05 brought up to date (Arizona documents, ERCOT, New Mexico, NYISO, Texas courts); §3 file and watch-list counts corrected |
+| 2026-10-04 (pm) | Collector schedule hardened after GitHub started the 4 Oct run six hours late: three nightly triggers (04:43, 06:17, 08:41 UTC) with a skip guard, checkout of the newest `main`, `last_full_run` and gap tracking; Sweep reports COLLECTOR_GAP, Brief treats it as amber |

@@ -1,8 +1,14 @@
 name: nightly-collect
 on:
   schedule:
-    # 06:17 UTC = 02:17 ET (EDT) / 01:17 ET (EST). Off the hour to avoid GitHub's top-of-hour queue.
-    - cron: '17 6 * * *'
+    # GitHub runs scheduled events best-effort: under load they can start hours late or be dropped
+    # (the 06:17 run of 2026-10-04 started at 12:26). So there are three triggers each night, all off the
+    # hour, and the guard step below lets only the first one that starts do the work — agencies still see
+    # one collection per night. The last (08:41 UTC) finishes before the Monday Sweep (10:54 UTC in PDT,
+    # 11:54 UTC in PST).
+    - cron: '43 4 * * *'    # 21:43 PDT / 20:43 PST
+    - cron: '17 6 * * *'    # 23:17 PDT / 22:17 PST
+    - cron: '41 8 * * *'    # 01:41 PDT / 00:41 PST
   workflow_dispatch:
     inputs:
       sources:
@@ -32,17 +38,44 @@ jobs:
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
+        with:
+          # the newest main at job start — a scheduled or queued event otherwise checks out the commit that
+          # existed when the event was created, which can be hours old and predate the previous run's data
+          ref: main
+      - name: Guard — skip if tonight's full collection already ran
+        id: guard
+        if: github.event_name == 'schedule'
+        run: |
+          python3 - <<'EOF'
+          import datetime as dt, json, os
+          age = None
+          try:
+              s = json.load(open("data/state/collector_state.json")).get("last_full_run") or {}
+              fin = dt.datetime.fromisoformat(s["finished"].replace("Z", "+00:00"))
+              age = (dt.datetime.now(dt.timezone.utc) - fin).total_seconds() / 3600
+          except Exception as e:
+              print("no usable last_full_run:", repr(e))
+          skip = age is not None and age < 10
+          print(f"last full run finished {'?' if age is None else round(age, 1)} h ago -> {'skip' if skip else 'run'}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"skip={'true' if skip else 'false'}\n")
+          EOF
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: '3.12'
       - name: Install dependencies
+        if: steps.guard.outputs.skip != 'true'
         run: |
           sudo apt-get update -q && sudo apt-get install -y -q poppler-utils tesseract-ocr
           pip install -q -r requirements.txt
           python -m playwright install --with-deps chromium
       - name: Collect
+        if: steps.guard.outputs.skip != 'true'
         working-directory: collector
         env:
+          TRIGGER_EVENT: ${{ github.event_name }}
+          TRIGGER_CRON: ${{ github.event.schedule }}
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
           OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
@@ -55,7 +88,7 @@ jobs:
           MAX_DOCS: ${{ github.event.inputs.backfill_since && '450' || '160' }}
         run: python run.py ${{ github.event.inputs.sources }}
       - name: Commit
-        if: always()
+        if: always() && steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "griddocket-collector"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -68,7 +101,7 @@ jobs:
           done
           echo "::error::could not push collected data"; exit 1
       - name: Open an issue when a source fails twice running
-        if: always()
+        if: always() && steps.guard.outputs.skip != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           BF: ${{ github.event.inputs.backfill_since }}

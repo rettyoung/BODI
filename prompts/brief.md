@@ -46,7 +46,7 @@ P2. Zero new events AND status GREEN → the three-line "nothing moved" brief (s
 STEP 2 — STATUS CHECK
 ============================================================
 From the last 4 run records (/GridDocket/runs/) and data/health/ for the last 7 nights in the clone:
-  GREEN all reporting | AMBER deferrals (DEFERRED_NEEDS_MANUAL), OCR backlog, read backlog or CANARY_MISS, but nothing silent | RED URL drift, SUSPECT_ZERO, ACCESS_REGRESSION on a primary source, open circuit, COLLECTOR_STALE, or a source failing every night.
+  GREEN all reporting | AMBER deferrals (DEFERRED_NEEDS_MANUAL), OCR backlog, read backlog, CANARY_MISS or COLLECTOR_GAP (a night with no complete collector run; caught up the next night), but nothing silent | RED URL drift, SUSPECT_ZERO, ACCESS_REGRESSION on a primary source, open circuit, COLLECTOR_STALE, or a source failing every night.
 RED goes at the very top, above all substance. Name the likely cause of any SUSPECT_ZERO (including a renamed filing entity: Westar → Evergy, PNM Resources → TXNM). Never report a source listed in state.EXPLICIT_NEGATIVES as a gap. Report state.REMAINING_GAPS items while they persist. Name a manual-route state that went without a manual drop for more than 14 days.
 Write status.json for the console: {"level": "green"|"amber"|"red", "label": "<one line>", "items": [{"b": "<bold lead>", "t": "<sentence>"}]} — at most 7 items.
 

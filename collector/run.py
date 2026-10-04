@@ -177,7 +177,18 @@ def main(only=None):
     http.session.headers["User-Agent"] = cfg.get("user_agent") or http.session.headers["User-Agent"]
     run_id = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d-%H%M")
     health = {"backfill_since": BACKFILL_SINCE, "run_id": run_id, "started": now_utc(), "sources": {}, "docs_fetched": 0, "new_items": 0,
-              "user_agent": http.session.headers["User-Agent"]}
+              "user_agent": http.session.headers["User-Agent"],
+              "trigger": {"event": os.environ.get("TRIGGER_EVENT") or "local", "cron": os.environ.get("TRIGGER_CRON") or None}}
+    full_run = not only and not BACKFILL_SINCE
+    prev_full = state.get("last_full_run") or {}
+    if full_run and prev_full.get("finished"):
+        # how long since the last complete nightly collection. Over 30 h means a night was missed (GitHub dropped
+        # or badly delayed every trigger); nothing is lost — each adapter re-reads from its last success minus
+        # three days — but the Sweep reports it as COLLECTOR_GAP.
+        gap = (dt.datetime.now(dt.timezone.utc) -
+               dt.datetime.fromisoformat(prev_full["finished"].replace("Z", "+00:00"))).total_seconds() / 3600
+        health["hours_since_previous_full_run"] = round(gap, 1)
+        health["collector_gap"] = gap > 30
     cand_path = os.path.join(DATA, "backfill" if BACKFILL_SINCE else "candidates", f"{today()}.jsonl")
     os.makedirs(os.path.dirname(cand_path), exist_ok=True)
     os.makedirs(os.path.join(DATA, "backfill"), exist_ok=True)
@@ -349,6 +360,10 @@ def main(only=None):
     state["seen"] = {k: v for k, v in state["seen"].items() if v >= cutoff}
     health["http_hosts"] = {h: {"robots": str(s.robots_status), "note": s.robots_note} for h, s in http.hosts.items()}
     health["seconds"] = round(time.time() - run_t0)
+    if full_run:
+        # read by the workflow's guard step: a later trigger the same night skips when this is recent
+        state["last_full_run"] = {"run_id": run_id, "started": health["started"], "finished": now_utc(),
+                                  **health["trigger"]}
     checkpoint()
     bad = [k for k, v in health["sources"].items() if v.get("status") not in ("ok",)]
     print("DONE new_items", health["new_items"], "docs", health["docs_fetched"], "problem sources:", bad)

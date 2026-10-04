@@ -9,7 +9,7 @@ is in `data/health/latest.json`, refreshed nightly. Last full revision: 4 Octobe
 
 | Code | Process | Where it runs | Cadence |
 |---|---|---|---|
-| **C** | Nightly collector (GitHub Actions, `collector/`) | Cloud | Daily 06:17 UTC (~23:17 PT) |
+| **C** | Nightly collector (GitHub Actions, `collector/`) | Cloud | Nightly; triggers at 04:43, 06:17 and 08:41 UTC (21:43, 23:17, 01:41 PDT) — the first to start runs, the others skip |
 | **S** | Weekly Sweep (Claude scheduled task) — mail, web reader (WebFetch/WebSearch), classification | Cloud | Mon 03:54 PT |
 | **B** | Weekly Brief (Claude scheduled task) | Cloud | Mon 08:54 PT |
 | **M** | Manual browser pass (skill `grid-docket-manual-pass`) | Rett's computer, Claude desktop app | Reminder Fri 09:04 PT (runs only on "Run now"), or whenever run; picked up by the next Sweep |
