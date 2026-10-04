@@ -145,9 +145,11 @@ and treated as material by the Sweep (`parties` in the watchlist).
 
 ### 1j. Keys and credentials (Rett adds them as repo secrets; Claude never handles them)
 
-Keys obtained by Rett on 4 Oct 2026 for every row except PJM; each switches on as soon as it is saved as a repository
-secret (GitHub → rettyoung/BODI → Settings → Secrets and variables → Actions). Health (`data/health/latest.json`)
-shows each adapter's status: `no_key` / `demo_key` until its secret exists, `ok` after.
+**Live since 4 Oct 2026** (verified from the runners): Open States, EIA, CourtListener, congress.gov, Regulations.gov and
+NRC ADAMS. ERCOT's subscription key and username are saved; `ERCOT_API_PASSWORD` is still missing, so the ERCOT Public
+API stays off until it is added. Health (`data/health/latest.json`) shows each adapter's status; the probe workflow
+records which secret names exist (never values) in `data/debug/secret_presence.json`. Open States (10 requests a
+minute) and CourtListener search (5 a minute) are paced to their limits, with one retry after a 429.
 
 | Secret | What it switches on |
 |---|---|

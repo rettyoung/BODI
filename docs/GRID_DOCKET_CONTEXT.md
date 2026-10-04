@@ -448,9 +448,10 @@ Claude cannot enter keys itself, so Rett creates each account and adds the key a
 → Settings → Secrets and variables → Actions → New repository secret**. Secrets stay private on a public repo
 and are masked in logs.
 
-**Status 4 Oct 2026:** Rett obtained keys for Open States, EIA, CourtListener, congress.gov, Regulations.gov, ERCOT
-(subscription key) and NRC ADAMS. They take effect when saved as repository secrets under the names below; ERCOT also
-needs `ERCOT_API_USERNAME` and `ERCOT_API_PASSWORD` (the ERCOT account sign-in). Because EIA and congress.gov carry the
+**Status 4 Oct 2026 — live:** Open States (bill titles filtered to the beat; paced to 10/min), EIA, CourtListener
+(paced to 5/min), congress.gov, Regulations.gov and NRC ADAMS (ten dockets; the `DateAddedTimestamp ge` filter works),
+all verified from the runners. ERCOT: subscription key and username saved, **`ERCOT_API_PASSWORD` missing** — the
+ERCOT Public API route stays off until it is added. Secret names are checked by the probe (presence only). Because EIA and congress.gov carry the
 key in the URL and the repo is public, every file the collector writes passes through `common.scrub()` (masks secret
 values and `api_key=`/`token=`/`password=` parameters); the probe workflow receives the same secrets so keyed
 adapters can be tested on demand.
@@ -816,10 +817,8 @@ data tables; (9) direct state bill trackers.
 **Nothing else is required from Rett for the system to run.** Optional or recurring:
 1. **Fridays:** keep the desktop app open around 9:04 am PT and click "Run now" (or run `/grid-docket-manual-pass`
    whenever convenient).
-2. **Save the keys as repository secrets** (obtained 4 Oct): `OPENSTATES_API_KEY`, `EIA_API_KEY`, `COURTLISTENER_TOKEN`,
-   `CONGRESS_API_KEY`, `REGULATIONS_GOV_API_KEY`, `NRC_APS_KEY`, `ERCOT_API_SUBSCRIPTION_KEY` plus `ERCOT_API_USERNAME`
-   and `ERCOT_API_PASSWORD` (§9). Then ask a session to run the adapter probe and confirm each reads `ok`. PJM API
-   account still optional; a session with push access builds that adapter once its secret exists.
+2. **Keys:** all saved and verified 4 Oct except `ERCOT_API_PASSWORD` (the ERCOT account password), which switches on
+   the ERCOT Public API route. PJM API account still optional; a session with push access builds that adapter.
 3. **Check once:** disable any desktop-local copies of the old tracker tasks (`utility-tracker-sweep`,
    `weekly-utility-brief`) if they still exist — a local Brief would send a second email.
 4. **Optional decisions:** recipients after burn-in (only Rett now; possibly BODIpower@blueowl.com); whether a
@@ -913,3 +912,4 @@ are enabled.
 | 2026-10-04 (pm) | Collector schedule hardened after GitHub started the 4 Oct run six hours late: three nightly triggers (04:43, 06:17, 08:41 UTC) with a skip guard, checkout of the newest `main`, `last_full_run` and gap tracking; Sweep reports COLLECTOR_GAP, Brief treats it as amber |
 | 2026-10-04 (pm) | Keys obtained by Rett; Regulations.gov adapter built; secrets wired into the collector and probe workflows; `common.scrub()` keeps keys out of the public repo |
 | 2026-10-04 (eve) | PJM interconnection queue added with no key: serial/expedited `PlanningQueues.xml` and the cycle-queue XML export (adapter `queues` now reads XML and page export forms); verified from the runners (228 + 664 active tracked-state projects, baseline). PJM API key no longer needed for queue data |
+| 2026-10-04 (eve) | Keys live: Open States, EIA, CourtListener, congress.gov, Regulations.gov, NRC ADAMS (ERCOT awaits its password). Open States and CourtListener paced to their per-minute limits; Open States filtered by bill title; NRC per-docket cap 200 |
