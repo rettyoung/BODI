@@ -1,0 +1,67 @@
+{
+ "_doc": "Hand-maintained context for the console views. build_console.py copies it into data.json. coverage_marks: dated changes in HOW the tracker collects, drawn on the activity chart so a jump in collection is not read as a jump in regulation (add one whenever a source family starts, stops or is backfilled). matter_labels: short names for dockets and matters, keyed by the docket key the console extracts from the Document column. party_groups: watched parties that file under several names, folded into one row of the party view; party_kinds: the role each party plays.",
+ "console_url": "https://claude.ai/artifact/JJ8FYdvfZ2WPg6r4UpFXbW",
+ "coverage_marks": [
+  {"date": "2026-09-18", "label": "Baseline loaded", "detail": "Everything dated before 18 Sep was collected retrospectively in one pass that followed known docket numbers; docket activity was never enumerated filing by filing."},
+  {"date": "2026-09-21", "label": "Two Mondays missed", "detail": "The weekly tasks were disabled on 21 and 28 Sep; nothing was collected live until 3 Oct."},
+  {"date": "2026-10-02", "label": "Nightly collector starts", "detail": "Commission portals, FERC, EDGAR, RTO pages and governors' newsrooms read every night from 2 Oct; docket-history backfill to 7 Nov 2025 dispatched 3 Oct."}
+ ],
+ "jurisdiction_notes": {
+  "AZ": "Filing lists are read nightly; the documents themselves only through the manual pass (the ACC image host presents a certificate for another hostname).",
+  "TX": "ERCOT notices and large-load status pages are read nightly as well as PUCT projects; executive actions arrive through the governor's newsroom.",
+  "PA": "The commission refuses the collector, so the Monday Sweep reads it with the web reader.",
+  "NV": "No text layer on PUCN documents, so Nevada rows are Reported at most.",
+  "OK": "OCC page-text service errors; the Sweep confirms from the PDF text.",
+  "VA": "Between manual passes: Dominion, ApCo and NOVEC disclosures on EDGAR, the DCC Bi-Weekly and trade mail.",
+  "NC": "Between manual passes: NCUC main-site PDFs, NCUC mail and Duke on EDGAR.",
+  "SC": "Between manual passes: PSC publications and ORS pages (collector) and Duke and Dominion on EDGAR.",
+  "IL": "Between manual passes: ComEd and Exelon on EDGAR, the IPA site and trade mail.",
+  "OH": "Between manual passes: Ohio Consumers' Counsel filings (collector), AEP Ohio on EDGAR and Columbus agendas.",
+  "WV": "Between manual passes: ApCo and AEP on EDGAR and the governor's page."
+ },
+ "matter_labels": {
+  "EL25-49": "PJM co-location",
+  "EL26-67": "FERC §206 large load — PJM",
+  "EL26-68": "FERC §206 large load — SPP",
+  "EL26-69": "FERC §206 large load — NYISO",
+  "EL26-70": "FERC §206 large load — MISO",
+  "EL26-71": "FERC §206 large load — CAISO",
+  "EL26-72": "FERC §206 large load — ISO-NE",
+  "RM26-4": "FERC large-load interconnection rulemaking",
+  "PUR-2026-00056": "Dominion Rider T1",
+  "PUR-2025-00058": "Dominion biennial review and GS-5",
+  "PUR-2025-00057": "ApCo Schedule L.P.S.",
+  "PUR-2026-00011": "Dominion large-load queue standards",
+  "PUR-2026-00114": "NOVEC large-load terms",
+  "PUR-2026-00044": "ApCo Virginia rate case",
+  "58481": "PUCT 16 TAC §25.194 large-load interconnection rule",
+  "58000": "PUCT transmission cost allocation (4CP to 12CP)",
+  "58482": "PUCT large-load demand-reduction service",
+  "BATCH-ZERO": "ERCOT Batch Zero",
+  "E-01345A-25-0105": "APS rate case and XHLF",
+  "U-37882": "Entergy Louisiana / Meta (Lightning Directive)",
+  "M-2025-3054271": "Pennsylvania model large-load tariff",
+  "2026-138-E": "South Carolina generic large-load docket",
+  "26-0364": "ICC investigation of ComEd large-load protections",
+  "ER-2026-0291": "Ameren Missouri rate case",
+  "25-EKME-315-TAR": "Evergy Kansas LLPS tariff",
+  "26-0000062": "EPE Rate No. 50 (New Mexico)",
+  "GRDA-BOARD": "GRDA board agendas"
+ },
+ "party_groups": {
+  "Google": ["Google", "Alphabet"],
+  "Amazon / AWS": ["Amazon", "Amazon Data Services", "AWS"]
+ },
+ "party_kinds": {
+  "Microsoft": "Hyperscaler", "Google": "Hyperscaler", "Amazon / AWS": "Hyperscaler", "Meta": "Hyperscaler",
+  "Oracle": "Hyperscaler", "OpenAI": "Hyperscaler", "CoreWeave": "Hyperscaler",
+  "Data Center Coalition": "Industry group", "Clean Energy Buyers Association": "Industry group",
+  "Retail Energy Advancement League": "Industry group", "Texas Industrial Energy Consumers": "Industry group", "Walmart": "Large customer",
+  "Digital Realty": "Developer", "Equinix": "Developer", "QTS": "Developer", "STACK Infrastructure": "Developer",
+  "Vantage": "Developer", "Aligned Data Centers": "Developer", "CyrusOne": "Developer", "Compass Datacenters": "Developer",
+  "Crusoe": "Developer", "Applied Digital": "Developer",
+  "Constellation": "Generator", "Vistra": "Generator", "NRG": "Generator", "Talen": "Generator",
+  "Southern Environmental Law Center": "Advocate", "Sierra Club": "Advocate", "Appalachian Voices": "Advocate",
+  "Office of Public Utility Counsel": "Consumer advocate"
+ }
+}

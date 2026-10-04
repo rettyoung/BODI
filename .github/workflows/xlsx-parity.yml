@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: "20" }
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq pandoc >/dev/null
-      - run: pip install -q openpyxl python-docx
+      - run: pip install -q openpyxl python-docx pyyaml
       - run: npm install --no-save --silent exceljs@4.4.0
       - name: Build both workbooks
         run: |

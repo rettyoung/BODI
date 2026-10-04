@@ -1,6 +1,9 @@
 <title>Grid Docket Console</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
+/* Layout: one 1180px reading column of numbered sections under a sticky jump bar; every view is computed
+   from the published JSON files. Series colours follow the validated categorical order (blue, orange,
+   aqua, yellow, magenta) with a grey "Other"; status colours stay separate from series colours. */
 :root{
   --ink:#16181c;--ink-2:#3d424b;--ink-3:#6b7280;
   --ground:#faf8f5;--surface:#fff;--surface-2:#f3f0eb;
@@ -12,10 +15,14 @@
   --viol:#4527a0;--viol-soft:#ede7f6;
   --h0:#f3f0eb;--h1:#E6F1FB;--h2:#B5D4F4;--h3:#85B7EB;--h4:#378ADD;--h5:#185FA5;
   --hd:#042C53;
+  --c1:#2a78d6;--c2:#eb6834;--c3:#1baf7a;--c4:#eda100;--c5:#e87ba4;--c0:#a9a59c;
+  --up:#2a78d6;--down:#e34948;
+  --grid:#ebe6dd;--axis:#cdc6b9;
   --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
   --body:'Public Sans',system-ui,sans-serif;--display:'Newsreader',Georgia,serif;
 }
-:root:not([data-theme="light"]){@media (prefers-color-scheme:dark){
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark;
   --ink:#eceae6;--ink-2:#b9b4ab;--ink-3:#8b857b;
   --ground:#14151a;--surface:#1c1e24;--surface-2:#23262e;
   --rule:#333740;--rule-2:#454a55;
@@ -23,8 +30,11 @@
   --ok:#7fc79b;--ok-soft:#1b2d22;--warn:#e0b45c;--warn-soft:#2e2615;
   --bad:#e08c86;--bad-soft:#2f1d1c;--viol:#b39ddb;--viol-soft:#241a3d;
   --h0:#23262e;
+  --c1:#3987e5;--c2:#d95926;--c3:#199e70;--c4:#c98500;--c5:#d55181;--c0:#6b6860;
+  --up:#3987e5;--down:#e66767;--grid:#2a2d34;--axis:#454a55;
 }}
 :root[data-theme="dark"]{
+  color-scheme:dark;
   --ink:#eceae6;--ink-2:#b9b4ab;--ink-3:#8b857b;
   --ground:#14151a;--surface:#1c1e24;--surface-2:#23262e;
   --rule:#333740;--rule-2:#454a55;
@@ -32,22 +42,33 @@
   --ok:#7fc79b;--ok-soft:#1b2d22;--warn:#e0b45c;--warn-soft:#2e2615;
   --bad:#e08c86;--bad-soft:#2f1d1c;--viol:#b39ddb;--viol-soft:#241a3d;
   --h0:#23262e;
+  --c1:#3987e5;--c2:#d95926;--c3:#199e70;--c4:#c98500;--c5:#d55181;--c0:#6b6860;
+  --up:#3987e5;--down:#e66767;--grid:#2a2d34;--axis:#454a55;
 }
 *{box-sizing:border-box}
 body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;margin:0}
 .wrap{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:0 80px}
 @media(min-width:640px){.wrap{padding-inline:20px}}
-h1{font-family:var(--display);font-size:clamp(1.8rem,4.5vw,2.7rem);font-weight:600;letter-spacing:-.015em;margin:0;line-height:1.15}
-h2{font-family:var(--display);font-size:1.32rem;font-weight:600;margin:0}
+h1{font-family:var(--display);font-size:clamp(1.8rem,4.5vw,2.7rem);font-weight:600;letter-spacing:-.015em;margin:0;line-height:1.15;text-wrap:balance}
+h2{font-family:var(--display);font-size:1.32rem;font-weight:600;margin:0;text-wrap:balance}
 p{margin:0 0 .8rem;max-width:72ch}
 a{color:var(--accent)}
-header{border-bottom:2px solid var(--ink);padding-block:40px 18px;margin-bottom:24px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+header{border-bottom:2px solid var(--ink);padding-block:40px 18px;margin-bottom:0}
 .eyebrow{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 .8rem}
 .meta{font-family:var(--mono);font-size:.71rem;color:var(--ink-3);margin-top:1rem;display:flex;gap:1.3rem;flex-wrap:wrap}
-section{margin-bottom:38px;scroll-margin-top:12px}
+/* jump bar */
+.jump{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--ground);border-bottom:1px solid var(--rule-2);margin-bottom:24px;overflow-x:auto;scrollbar-width:none}
+.jump::-webkit-scrollbar{display:none}
+.jump ol{list-style:none;margin:0;padding:.5rem 0;display:flex;gap:.25rem;white-space:nowrap}
+.jump a{font-family:var(--mono);font-size:.68rem;color:var(--ink-2);text-decoration:none;padding:.25em .55em;border-radius:3px;display:inline-block}
+.jump a:hover{background:var(--surface-2);color:var(--accent)}
+.jump a b{color:var(--accent);font-weight:500;margin-right:.35em}
+section{margin-bottom:42px;scroll-margin-top:52px}
 .sec-head{display:flex;align-items:baseline;gap:.8rem;border-bottom:1px solid var(--rule-2);padding-bottom:.45rem;margin-bottom:1.1rem;flex-wrap:wrap}
 .sec-num{font-family:var(--mono);font-size:.73rem;color:var(--accent);flex:none}
 .sec-note{font-family:var(--mono);font-size:.7rem;color:var(--ink-3);margin-left:auto}
+.lede{font-size:.88rem;color:var(--ink-2);margin:-.3rem 0 1rem;max-width:80ch}
 .status{border-radius:5px;padding:.85rem 1.05rem;border-left:3px solid var(--warn);background:var(--warn-soft)}
 .status .lbl{font-family:var(--mono);font-size:.69rem;letter-spacing:.1em;text-transform:uppercase;color:var(--warn);font-weight:500;display:block;margin-bottom:.3rem}
 .status ul{margin:.4rem 0 0;padding-left:1.1rem;font-size:.87rem}
@@ -57,8 +78,31 @@ section{margin-bottom:38px;scroll-margin-top:12px}
 .dlrow{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-top:.9rem}
 .dllbl{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
 .dlmsg{font-family:var(--mono);font-size:.7rem;color:var(--ink-3)}
-.card{background:var(--surface);border:1px solid var(--rule);border-radius:5px;padding:1.1rem}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:5px;padding:1.1rem;min-width:0}
 .caveat{background:var(--warn-soft);border-left:3px solid var(--warn);padding:.7rem .9rem;border-radius:0 4px 4px 0;font-size:.84rem;margin-top:1rem;max-width:none}
+.sub-h{font-size:.85rem;font-weight:600;margin:0 0 .1rem}
+.sub-n{font-family:var(--mono);font-size:.66rem;color:var(--ink-3);margin:0 0 .8rem}
+.empty-note{font-size:.86rem;color:var(--ink-3);padding:.6rem 0}
+/* changes */
+.chg-bar{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-bottom:1rem}
+.chg-bar label{font-size:.86rem;color:var(--ink-2)}
+select,input[type=number],input[type=search],input[type=text]{font-family:var(--body);font-size:.88rem;border:1px solid var(--rule-2);border-radius:4px;background:var(--surface);color:var(--ink);padding:.38rem .5rem}
+.notice{font-size:.84rem;color:var(--ink-2);background:var(--surface-2);border-radius:4px;padding:.5rem .7rem;margin-bottom:1rem;max-width:none}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:1.1rem}
+.tile{background:var(--surface);border:1px solid var(--rule);border-radius:5px;padding:.65rem .8rem}
+.tile .k{font-family:var(--mono);font-size:.62rem;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3)}
+.tile .v{font-family:var(--display);font-size:1.6rem;font-weight:600;line-height:1.2}
+.tile .s{font-size:.75rem;color:var(--ink-3)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,430px),1fr));gap:14px;align-items:start}
+.list-h{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:0 0 .4rem;font-weight:500}
+.crow{padding:.5rem .2rem;border-bottom:1px solid var(--rule);cursor:pointer;display:grid;grid-template-columns:62px 1fr;gap:.6rem;align-items:baseline}
+.crow:hover{background:var(--surface-2)}
+.crow .md{font-family:var(--mono);font-size:.72rem;color:var(--ink-2)}
+.crow .t{font-size:.86rem;line-height:1.38;min-width:0}
+.crow .t em{font-style:normal;font-family:var(--mono);font-size:.68rem;color:var(--ink-3);display:block;margin-top:.15rem}
+.was{text-decoration:line-through;color:var(--ink-3)}
+.now{color:var(--ink);font-weight:600}
+.arrow{color:var(--ink-3);margin:0 .3em}
 /* timeline */
 .tl-axis{position:relative;height:74px;margin:.2rem 0 .4rem}
 .tl-mo{position:absolute;top:52px;font-family:var(--mono);font-size:.64rem;color:var(--ink-3);transform:translateX(-50%);white-space:nowrap}
@@ -74,9 +118,43 @@ section{margin-bottom:38px;scroll-margin-top:12px}
 .mrow:hover{background:var(--surface-2)}
 .mrow.hot{background:var(--bad-soft)}
 .md{font-family:var(--mono);font-size:.74rem;color:var(--ink-2);font-variant-numeric:tabular-nums}
-.mw{font-size:.86rem;line-height:1.35}
+.mw{font-size:.86rem;line-height:1.35;min-width:0}
 .mw em{font-style:normal;font-family:var(--mono);font-size:.7rem;color:var(--ink-3);display:block}
 .mn{font-family:var(--mono);font-size:.69rem;color:var(--ink-3);white-space:nowrap}
+/* matters */
+.mctl{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-bottom:.8rem}
+.mctl input[type=search]{flex:1 1 220px;min-width:0}
+.mat{border:1px solid var(--rule);border-radius:5px;background:var(--surface);margin-bottom:8px}
+.mat>button{all:unset;box-sizing:border-box;display:grid;grid-template-columns:1fr auto;gap:.3rem 1rem;width:100%;padding:.7rem .9rem;cursor:pointer}
+.mat>button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.mat .nm{font-weight:600;font-size:.92rem;line-height:1.3;min-width:0}
+.mat .nm .eid{font-weight:400;margin-left:.4rem}
+.mat .rt{font-family:var(--mono);font-size:.68rem;color:var(--ink-3);text-align:right;white-space:nowrap}
+.mat .ln{grid-column:1/-1;font-size:.83rem;color:var(--ink-2);min-width:0}
+.mat .ln b{color:var(--ink);font-weight:600}
+.chron{border-top:1px solid var(--rule);padding:.6rem .9rem .9rem;display:grid;gap:0}
+.ch{display:grid;grid-template-columns:72px 14px 1fr;gap:.5rem;align-items:start;cursor:pointer;padding:.25rem 0}
+.ch:hover .ct{color:var(--accent)}
+.ch .cd{font-family:var(--mono);font-size:.7rem;color:var(--ink-3);padding-top:.15rem}
+.ch .cdot{width:10px;height:10px;border-radius:50%;background:var(--surface);border:2px solid var(--ink-3);margin-top:.3rem;position:relative}
+.ch .cdot.new{border-color:var(--accent);background:var(--accent)}
+.ch .ct{font-size:.84rem;line-height:1.38;min-width:0}
+.ch .cs{font-family:var(--mono);font-size:.68rem;color:var(--ink-3)}
+.mat-act{display:flex;gap:.5rem;margin-top:.5rem;flex-wrap:wrap}
+.more{margin-top:.4rem}
+/* tester */
+.tester{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.8rem 1rem;margin-bottom:1rem}
+.fld label{display:block;font-family:var(--mono);font-size:.64rem;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);margin-bottom:.25rem}
+.fld input,.fld select{width:100%}
+.fld small{display:block;font-size:.72rem;color:var(--ink-3);margin-top:.2rem}
+.medline{font-family:var(--mono);font-size:.7rem;color:var(--ink-3);margin:.2rem 0 .8rem}
+.dev{font-family:var(--mono);font-size:.62rem;padding:.08em .38em;border-radius:3px;white-space:nowrap;display:inline-block;margin-top:.15rem}
+.dev.hi{background:var(--bad-soft);color:var(--bad)}.dev.lo{background:var(--ok-soft);color:var(--ok)}.dev.eq{background:var(--surface-2);color:var(--ink-3)}
+.ap{font-family:var(--mono);font-size:.66rem;padding:.14em .45em;border-radius:3px;white-space:nowrap;border:1px solid currentColor;display:inline-block}
+.ap.y{color:var(--ok);background:var(--ok-soft)}.ap.n{color:var(--ink-3);background:var(--surface-2)}.ap.q{color:var(--warn);background:var(--warn-soft)}
+tr.dim td{opacity:.62}
+details.mx{margin-top:1rem}
+details.mx summary{cursor:pointer;font-size:.86rem;font-weight:600;padding:.3rem 0}
 /* small multiples */
 .sm{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:10px}
 .smt{background:var(--surface);border:1px solid var(--rule);border-radius:5px;padding:.7rem .8rem}
@@ -92,6 +170,30 @@ section{margin-bottom:38px;scroll-margin-top:12px}
 .lbar{display:flex;height:22px;border-radius:2px;overflow:hidden;gap:2px}
 .lseg{display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:.64rem;min-width:2px}
 .s1{background:#B5D4F4;color:#042C53}.s2{background:#378ADD;color:#fff}.s3{background:#185FA5;color:#fff}
+.dt-tbl{border-collapse:collapse;width:100%;min-width:640px;font-size:.84rem}
+.dt-tbl th{text-align:left;font-family:var(--mono);font-size:.63rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding:.4rem .5rem;border-bottom:1px solid var(--rule-2);font-weight:400;white-space:nowrap}
+.dt-tbl td{padding:.45rem .5rem;border-bottom:1px solid var(--rule);vertical-align:middle}
+.dt-tbl td.q{width:19%}
+.brk{font-family:var(--mono);font-size:.6rem;color:var(--warn);display:block}
+.ratio{display:grid;grid-template-columns:110px 1fr 52px;gap:.6rem;align-items:center;margin-bottom:.4rem;font-size:.82rem}
+.ratio .rb{height:14px;background:var(--surface-2);border-radius:2px;position:relative;overflow:hidden}
+.ratio .rb i{position:absolute;left:0;top:0;bottom:0;background:var(--c1);border-radius:0 4px 4px 0}
+.ratio .rv{font-family:var(--mono);font-size:.74rem;text-align:right;font-variant-numeric:tabular-nums}
+/* activity */
+.seg{display:inline-flex;border:1px solid var(--rule-2);border-radius:4px;overflow:hidden}
+.seg button{font-family:var(--mono);font-size:.68rem;padding:.32em .7em;border:0;background:var(--surface);color:var(--ink-2);cursor:pointer}
+.seg button+button{border-left:1px solid var(--rule-2)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
+.act-ctl{display:flex;gap:.8rem;flex-wrap:wrap;align-items:center;margin-bottom:.8rem}
+.legend{display:flex;gap:.9rem;flex-wrap:wrap;font-size:.76rem;color:var(--ink-2);margin:.6rem 0 0}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:.35rem;vertical-align:-1px}
+.chartbox{position:relative}
+.tip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--rule-2);border-radius:4px;padding:.45rem .6rem;font-size:.76rem;box-shadow:0 4px 14px rgba(0,0,0,.12);z-index:5;min-width:150px;max-width:240px}
+.tip b{display:block;font-family:var(--mono);font-size:.68rem;font-weight:500;color:var(--ink-3);margin-bottom:.2rem}
+.tip div{display:flex;justify-content:space-between;gap:.8rem}
+.tip i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:.3rem}
+.marks{display:grid;gap:.3rem;margin-top:.8rem;font-size:.8rem;color:var(--ink-2)}
+.marks span.n{display:inline-flex;width:17px;height:17px;border-radius:50%;background:var(--ink);color:var(--ground);font-family:var(--mono);font-size:.62rem;align-items:center;justify-content:center;margin-right:.45rem}
 /* heatmap */
 .hm{border-collapse:separate;border-spacing:2px;table-layout:fixed;width:100%;min-width:600px;font-size:12px}
 .hm th{font-weight:400;color:var(--ink-3);font-size:11px;padding-bottom:4px;text-align:center}
@@ -99,9 +201,52 @@ section{margin-bottom:38px;scroll-margin-top:12px}
 .hm td{text-align:center;padding:5px 0;border-radius:3px}
 .hm td.j{text-align:left;color:var(--ink);font-weight:600;padding-right:4px}
 .hm td.t{color:var(--ink-3)}
+/* parties */
+.pt{border-collapse:collapse;width:100%;min-width:760px;font-size:.84rem}
+.pt th{text-align:left;font-family:var(--mono);font-size:.63rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding:.45rem .6rem;border-bottom:1px solid var(--rule-2);background:var(--surface-2);font-weight:400;white-space:nowrap}
+.pt td{padding:.55rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
+.pt tr.pr{cursor:pointer}.pt tr.pr:hover td{background:var(--surface-2)}
+.kind{font-family:var(--mono);font-size:.62rem;color:var(--ink-3);display:block}
+.lnk{background:none;border:0;padding:0;font:inherit;color:var(--accent);cursor:pointer;text-decoration:underline;text-underline-offset:2px;text-align:left}
+.dcell{display:grid;grid-template-columns:1fr 64px;gap:.5rem;align-items:center}
+.dbar{display:grid;grid-template-columns:1fr 1fr;height:14px;position:relative}
+.dbar i{display:block;height:12px;margin-top:1px}
+.dbar .z{position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--axis)}
+.dcell .num{font-size:.74rem;text-align:right}
+.tl-more{position:absolute;transform:translateX(-50%);font-family:var(--mono);font-size:.6rem;color:var(--ink-3)}
+.bars{display:flex;align-items:center;gap:.4rem}
+.bars i{display:block;height:8px;background:var(--c1);border-radius:0 3px 3px 0;min-width:2px}
+/* coverage */
+.cov{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:16px}
+@media(max-width:820px){.cov{grid-template-columns:1fr}}
+.tgrid{display:grid;grid-template-columns:repeat(11,minmax(26px,1fr));gap:3px;min-width:330px}
+.tl{aspect-ratio:1;border-radius:4px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--mono);font-size:.66rem;line-height:1.05;max-width:100%}
+.tl.off{background:var(--surface-2);color:var(--ink-3);opacity:.55;font-size:.58rem}
+.tl.on{cursor:pointer;border:1.5px solid transparent;font-weight:500}
+.tl.on small{font-size:.54rem;font-weight:400;opacity:.85}
+.tl.on.sel{border-color:var(--ink)}
+.st-ok{background:var(--ok-soft);color:var(--ok)}
+.st-late{background:var(--warn-soft);color:var(--warn)}
+.st-none{background:var(--bad-soft);color:var(--bad)}
+.fed{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.fed .tl{aspect-ratio:auto;padding:.4rem .7rem;flex-direction:row;gap:.4rem}
+.cleg{display:flex;gap:.9rem;flex-wrap:wrap;font-size:.74rem;color:var(--ink-2);margin-top:.8rem}
+.cleg span{display:inline-flex;align-items:center;gap:.35rem}
+.cleg i{display:inline-block;width:14px;height:14px;border-radius:3px;font-style:normal;font-size:.6rem;text-align:center;line-height:14px}
+.cdet h3{font-family:var(--display);font-size:1.15rem;margin:0 0 .2rem}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:.3rem .8rem;font-size:.84rem;margin:.6rem 0}
+.kv dt{font-family:var(--mono);font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding-top:.15rem}
+.kv dd{margin:0;min-width:0}
+.mix{display:flex;height:10px;border-radius:2px;overflow:hidden;gap:2px;margin-top:.25rem;max-width:240px}
+.mix i{display:block}
+.cdet ul{margin:.3rem 0 0;padding-left:1.1rem;font-size:.82rem;color:var(--ink-2)}
+.cdet li{margin-bottom:.25rem}
+.verdict{font-size:.86rem;padding:.5rem .7rem;border-radius:4px;margin:.5rem 0;max-width:none}
+.nights{display:flex;gap:3px;margin-top:.4rem;flex-wrap:wrap}
+.nights span{font-family:var(--mono);font-size:.6rem;padding:.25em .4em;border-radius:3px}
 /* tariff matrix */
 .tm{border-collapse:collapse;width:100%;min-width:820px;font-size:.83rem}
-.tm th{text-align:left;font-family:var(--mono);font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding:.5rem .6rem;border-bottom:1px solid var(--rule-2);background:var(--surface-2);white-space:nowrap}
+.tm th{text-align:left;font-family:var(--mono);font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding:.5rem .6rem;border-bottom:1px solid var(--rule-2);background:var(--surface-2);white-space:nowrap;font-weight:400}
 .tm td{padding:.55rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
 .tm .nul{color:var(--ink-3)}
 .num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
@@ -119,13 +264,18 @@ section{margin-bottom:38px;scroll-margin-top:12px}
 .chip:hover{border-color:var(--accent)}
 .chip[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
 .chip .n{opacity:.55;margin-left:.3em}
+.active{display:flex;gap:.35rem;flex-wrap:wrap;margin-bottom:.6rem}
+.active button{font-family:var(--mono);font-size:.68rem;padding:.22em .55em;border-radius:3px;border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);cursor:pointer}
 .bar{display:flex;justify-content:space-between;align-items:center;gap:.6rem;margin-bottom:.6rem;flex-wrap:wrap}
 .count{font-family:var(--mono);font-size:.76rem;color:var(--ink-3)}
 .btn{font-family:var(--mono);font-size:.7rem;padding:.3em .7em;border-radius:3px;border:1px solid var(--rule-2);background:var(--surface);color:var(--ink-2);cursor:pointer}
 .btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
+.sharebox{display:flex;gap:.4rem;align-items:center;flex-wrap:wrap;margin-bottom:.6rem}
+.sharebox input{flex:1 1 320px;min-width:0;font-family:var(--mono);font-size:.72rem}
 .tblwrap{overflow-x:auto;border:1px solid var(--rule);border-radius:5px;background:var(--surface)}
 table.main{border-collapse:collapse;width:100%;font-size:.855rem;min-width:860px}
-.main th{text-align:left;font-family:var(--mono);font-size:.65rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding:.55rem .7rem;border-bottom:1px solid var(--rule-2);background:var(--surface-2);white-space:nowrap;cursor:pointer;user-select:none;position:sticky;top:0;z-index:2}
+.main th{text-align:left;font-family:var(--mono);font-size:.65rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding:.55rem .7rem;border-bottom:1px solid var(--rule-2);background:var(--surface-2);white-space:nowrap;cursor:pointer;user-select:none;position:sticky;top:0;z-index:2;font-weight:400}
 .main th:hover{color:var(--accent)}
 .main th .ar{opacity:.35;font-size:.8em}
 .main th.on .ar{opacity:1;color:var(--accent)}
@@ -152,6 +302,7 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
 .c-u{background:var(--bad-soft);color:var(--bad);border-color:currentColor}
 .lv{background:var(--viol-soft);color:var(--viol);border-color:currentColor;margin-right:.2rem;margin-bottom:.2rem}
 .flag{background:var(--accent-soft);color:var(--accent);border-color:currentColor;margin-left:.3rem}
+.newp{background:var(--accent);color:#fff;border-color:var(--accent);margin-left:.3rem}
 .empty{padding:2.2rem 1rem;text-align:center;color:var(--ink-3);font-size:.9rem}
 .foot{border-top:2px solid var(--ink);padding-top:1rem;font-family:var(--mono);font-size:.73rem;color:var(--ink-3);line-height:1.7}
 .loading{padding:2.4rem 1rem;text-align:center;color:var(--ink-3);font-family:var(--mono);font-size:.8rem}
@@ -161,6 +312,7 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
 .narr h3:first-child{margin-top:0}
 .narr p{margin:.35rem 0}.narr ul{margin:.3rem 0;padding-left:1.15rem}.narr li{margin:.25rem 0}
 .narr a{color:var(--accent)}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 </style>
 
 <div class="wrap">
@@ -172,7 +324,22 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
   <div class="dlrow" id="dlrow" hidden><span class="dllbl">Downloads</span><button class="btn" type="button" id="dl-xlsx" hidden>Excel tracker (.xlsx)</button><button class="btn" type="button" id="dl-pdf" hidden>Weekly narrative (.pdf)</button><button class="btn" type="button" id="dl-md" hidden>Narrative (.md)</button><span class="dlmsg" id="dlmsg" role="status"></span></div>
 </header>
 
-<section id="s-status">
+<nav class="jump" aria-label="Sections"><ol>
+  <li><a href="#status"><b>01</b>Status</a></li>
+  <li><a href="#changes"><b>02</b>What changed</a></li>
+  <li><a href="#week"><b>03</b>This week</a></li>
+  <li><a href="#calendar"><b>04</b>Calendar</a></li>
+  <li><a href="#matters"><b>05</b>Matters</a></li>
+  <li><a href="#terms"><b>06</b>Tariff tester</a></li>
+  <li><a href="#conversion"><b>07</b>Conversion</a></li>
+  <li><a href="#activity"><b>08</b>Activity</a></li>
+  <li><a href="#pressure"><b>09</b>Pressure</a></li>
+  <li><a href="#parties"><b>10</b>Parties</a></li>
+  <li><a href="#coverage"><b>11</b>Coverage</a></li>
+  <li><a href="#console"><b>12</b>Console</a></li>
+</ol></nav>
+
+<section id="status">
   <div class="sec-head"><span class="sec-num">01</span><h2>Status check</h2><span class="sec-note" id="st-note">—</span></div>
   <div class="status" id="st-box">
     <span class="lbl" id="st-lbl">Loading status…</span>
@@ -180,44 +347,114 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
   </div>
 </section>
 
-<section id="s-week" hidden>
-  <div class="sec-head"><span class="sec-num">02</span><h2>This week</h2><span class="sec-note" id="wk-note">—</span></div>
+<section id="changes">
+  <div class="sec-head"><span class="sec-num">02</span><h2>What changed</h2><span class="sec-note" id="chg-note">—</span></div>
+  <div class="chg-bar">
+    <label for="chg-since">Changes since</label>
+    <select id="chg-since"></select>
+    <button class="btn" type="button" id="chg-console">Show these in the console</button>
+  </div>
+  <p class="notice" id="chg-fallback" hidden></p>
+  <div class="tiles" id="chg-tiles"></div>
+  <div class="cols">
+    <div class="card"><p class="list-h">New events</p><div id="chg-new"></div></div>
+    <div class="card"><p class="list-h">Updated, superseded and moved</p><div id="chg-upd"></div></div>
+  </div>
+</section>
+
+<section id="week" hidden>
+  <div class="sec-head"><span class="sec-num">03</span><h2>This week</h2><span class="sec-note" id="wk-note">—</span></div>
   <article class="card narr" id="wk"></article>
 </section>
 
-<section id="s-time">
-  <div class="sec-head"><span class="sec-num">03</span><h2>Decision calendar</h2><span class="sec-note" id="tl-note">—</span></div>
+<section id="calendar">
+  <div class="sec-head"><span class="sec-num">04</span><h2>Decision calendar</h2><span class="sec-note" id="tl-note">—</span></div>
   <div class="card">
     <div class="tl-axis" id="tl"></div>
     <div class="bar" style="margin:0">
       <span class="count" id="tl-count"></span>
-      <span><button class="btn" id="tl-all">Show everything</button></span>
+      <span><button class="btn" type="button" id="tl-all">Show everything</button></span>
     </div>
   </div>
   <div class="mgrp" id="mlist"></div>
 </section>
 
-<section id="s-conv">
-  <div class="sec-head"><span class="sec-num">04</span><h2>Conversion</h2><span class="sec-note">signed capacity by issuer, GW</span></div>
+<section id="matters">
+  <div class="sec-head"><span class="sec-num">05</span><h2>Matters</h2><span class="sec-note" id="mt-note">—</span></div>
+  <p class="lede">Each docket or proceeding as one chronology, from the first event the tracker holds to the latest. Matters are read from the Document column, so an event citing two dockets appears in both.</p>
+  <div class="mctl">
+    <input type="search" id="mt-q" placeholder="Search matters: docket, utility, label…" aria-label="Search matters">
+    <select id="mt-j" aria-label="Jurisdiction"><option value="">All jurisdictions</option></select>
+    <button class="chip" type="button" id="mt-moved" aria-pressed="false">Moved since last brief</button>
+    <button class="chip" type="button" id="mt-ir" aria-pressed="false">Include investor disclosures</button>
+  </div>
+  <div id="mt-list"></div>
+  <div class="more"><button class="btn" type="button" id="mt-more" hidden>Show all matters</button></div>
+</section>
+
+<section id="terms">
+  <div class="sec-head"><span class="sec-num">06</span><h2>Load-scenario tariff tester</h2><span class="sec-note">what a campus would sign up to</span></div>
+  <p class="lede">Enter a campus and see which large-load tariffs it triggers, the minimum it commits to and where each term sits against the median of the tariffs that state it. A demand-charge assumption is optional and only scales the minimum bill; it is yours, not a tariff rate.</p>
+  <form class="card" id="tt-form" autocomplete="off">
+    <div class="tester">
+      <div class="fld"><label for="tt-mw">Contract demand (MW)</label><input type="number" id="tt-mw" min="1" step="1" value="300"></div>
+      <div class="fld"><label for="tt-lf">Load factor (%)</label><input type="number" id="tt-lf" min="1" max="100" step="1" value="85"></div>
+      <div class="fld"><label for="tt-j">Jurisdiction</label><select id="tt-j"><option value="">All with a tariff</option></select></div>
+      <div class="fld"><label for="tt-dc">Demand charge ($/kW-month)</label><input type="number" id="tt-dc" min="0" step="0.5" placeholder="optional"><small>Your assumption, for dollar figures</small></div>
+    </div>
+    <p class="medline" id="tt-med"></p>
+    <div class="tblwrap"><table class="tm"><thead><tr>
+      <th>Tariff</th><th>Applies?</th><th>Minimum billed</th><th>Term commitment</th><th>Collateral</th><th>Notice</th><th>Against the median</th>
+    </tr></thead><tbody id="tt-b"></tbody></table></div>
+  </form>
+  <details class="mx">
+    <summary>All stated terms, as read</summary>
+    <div class="tblwrap" style="margin-top:.6rem"><table class="tm"><thead><tr>
+      <th>Utility</th><th>Tariff</th><th>Threshold</th><th>Term</th><th>Min take</th><th>Notice</th><th>Collateral</th><th>Status</th>
+    </tr></thead><tbody id="tmb"><tr><td colspan="8"><div class="loading">Loading tariffs…</div></td></tr></tbody></table></div>
+  </details>
+  <p class="caveat" id="tm-note">A dash means the term was not stated in what was read, never that it does not exist.</p>
+</section>
+
+<section id="conversion">
+  <div class="sec-head"><span class="sec-num">07</span><h2>Conversion</h2><span class="sec-note">signed capacity by issuer, GW</span></div>
+  <div class="card" style="margin-bottom:12px">
+    <p class="sub-h">Quarter-over-quarter change</p>
+    <p class="sub-n">what the brief reports: the step each quarter, not the level · bars share one GW scale</p>
+    <div class="scroll"><table class="dt-tbl" id="dlt"></table></div>
+  </div>
   <div class="sm" id="sm"></div>
-  <div class="card" style="margin-top:12px">
-    <div style="font-size:.85rem;font-weight:600;margin-bottom:.1rem">Dominion contracted-capacity ladder</div>
-    <div style="font-family:var(--mono);font-size:.66rem;color:var(--ink-3);margin-bottom:.7rem">the one series published on a consistent basis across all three stages</div>
-    <div id="ladder"></div>
+  <div class="cols" style="margin-top:12px">
+    <div class="card">
+      <p class="sub-h">Dominion contracted-capacity ladder</p>
+      <p class="sub-n">the one series published on a consistent basis across all three stages</p>
+      <div id="ladder"></div>
+    </div>
+    <div class="card">
+      <p class="sub-h">Dominion CLOA → ESA conversion</p>
+      <p class="sub-n">ESA added in the quarter as a share of the prior quarter's CLOA book</p>
+      <div id="ratio"></div>
+    </div>
   </div>
   <p class="caveat"><b>Definitions are not standardised across companies.</b> "Signed ESA", "committed", "contracted" and "advanced stage" mean different things in each deck, and pipeline denominators differ in both stage and horizon. Read across issuers as indicative of relative conversion discipline, never like-for-like. Exelon changed methodology at Q2 2026 and is not comparable to its own earlier figures. Entergy never states an absolute signed figure and is therefore absent. Every point is drawn live from the metrics table — nothing here is hand-maintained.</p>
 </section>
 
-<section id="s-tariff">
-  <div class="sec-head"><span class="sec-num">05</span><h2>Tariff terms</h2><span class="sec-note">what a large load actually signs up to</span></div>
-  <div class="tblwrap"><table class="tm"><thead><tr>
-    <th>Utility</th><th>Tariff</th><th>Threshold</th><th>Term</th><th>Min take</th><th>Notice</th><th>Collateral</th><th>Status</th>
-  </tr></thead><tbody id="tmb"><tr><td colspan="8"><div class="loading">Loading…</div></td></tr></tbody></table></div>
-  <p class="caveat" id="tm-note"></p>
+<section id="activity">
+  <div class="sec-head"><span class="sec-num">08</span><h2>Activity over time</h2><span class="sec-note" id="ac-note">events per week</span></div>
+  <div class="card">
+    <div class="act-ctl">
+      <div class="seg" role="group" aria-label="Group by"><button type="button" data-g="sub" aria-pressed="true">By subject</button><button type="button" data-g="jur" aria-pressed="false">By jurisdiction</button></div>
+      <div class="seg" role="group" aria-label="Date basis"><button type="button" data-b="ev" aria-pressed="true">When it happened</button><button type="button" data-b="disc" aria-pressed="false">When the tracker found it</button></div>
+    </div>
+    <div class="chartbox scroll" id="ac-box"><div id="ac"></div><div class="tip" id="ac-tip" hidden></div></div>
+    <div class="legend" id="ac-leg"></div>
+    <div class="marks" id="ac-marks"></div>
+  </div>
+  <p class="caveat">Numbered lines mark changes in how the tracker collects. A step up after one of them is more coverage, not necessarily more regulation. Click a week to filter the console to it.</p>
 </section>
 
-<section id="s-heat">
-  <div class="sec-head"><span class="sec-num">06</span><h2>Where the pressure is</h2><span class="sec-note">events touching each lever, by jurisdiction</span></div>
+<section id="pressure">
+  <div class="sec-head"><span class="sec-num">09</span><h2>Where the pressure is</h2><span class="sec-note">events touching each lever, by jurisdiction</span></div>
   <div class="card">
     <div class="scroll"><table class="hm"><thead><tr id="hmh"></tr></thead><tbody id="hmb"></tbody></table></div>
     <div style="display:flex;align-items:center;gap:10px;margin-top:12px;font-size:.76rem;color:var(--ink-3);flex-wrap:wrap">
@@ -236,11 +473,40 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
   </div>
 </section>
 
-<section id="s-console">
-  <div class="sec-head"><span class="sec-num">07</span><h2>Console</h2><span class="sec-note">click any row to expand</span></div>
+<section id="parties">
+  <div class="sec-head"><span class="sec-num">10</span><h2>Parties</h2><span class="sec-note" id="pt-note">—</span></div>
+  <p class="lede">Where the watched hyperscalers, developers, generators and advocates appear, and in which matters. Read from the text of each row, so a mention can be a filing, an intervention, a named counterparty or a reference in a takeaway; open the row to see which.</p>
+  <div class="tblwrap"><table class="pt"><thead><tr><th>Party</th><th>Events</th><th>Jurisdictions</th><th>Matters</th><th>Latest</th></tr></thead><tbody id="pt-b"></tbody></table></div>
+  <p class="empty-note" id="pt-none"></p>
+</section>
+
+<section id="coverage">
+  <div class="sec-head"><span class="sec-num">11</span><h2>Coverage</h2><span class="sec-note" id="cv-note">—</span></div>
+  <p class="lede" id="cv-lede">Is a quiet state quiet, or is nobody reading it? Each tile shows how the commission is read and when it was last read successfully.</p>
+  <div class="cov">
+    <div class="card">
+      <div class="scroll"><div class="tgrid" id="cv-grid" role="group" aria-label="Jurisdictions"></div></div>
+      <div class="fed" id="cv-fed"></div>
+      <div class="cleg">
+        <span><i class="st-ok">✓</i>Read on schedule</span>
+        <span><i class="st-late">!</i>Read, but late</span>
+        <span><i class="st-none">×</i>Docket not read yet</span>
+        <span style="color:var(--ink-3)">C collector · W web reader · M manual pass · number = days since last read</span>
+      </div>
+      <p class="sub-h" style="margin-top:1rem">Nightly collector</p>
+      <div class="nights" id="cv-nights"></div>
+    </div>
+    <div class="card cdet" id="cv-det" aria-live="polite"></div>
+  </div>
+</section>
+
+<section id="console">
+  <div class="sec-head"><span class="sec-num">12</span><h2>Console</h2><span class="sec-note">click any row to expand</span></div>
 
   <div class="ctrl">
     <input class="srch" id="q" type="search" placeholder="Search headline, entity, docket, takeaway…" aria-label="Search">
+    <div class="active" id="act"></div>
+    <div class="fgrp"><div class="fttl">Period</div><div class="chips" id="f-per"></div></div>
     <div class="fgrp"><div class="fttl">Materiality</div><div class="chips" id="f-mat"></div></div>
     <div class="fgrp"><div class="fttl">Subject</div><div class="chips" id="f-sub"></div></div>
     <div class="fgrp"><div class="fttl">Jurisdiction</div><div class="chips" id="f-jur"></div></div>
@@ -253,10 +519,12 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
   <div class="bar">
     <span class="count" id="cnt"></span>
     <span style="display:flex;gap:.4rem;flex-wrap:wrap">
-      <button class="btn" id="csv" hidden>Export CSV</button>
-      <button class="btn" id="clr">Clear filters</button>
+      <button class="btn" type="button" id="share">Copy link to this view</button>
+      <button class="btn" type="button" id="csv" hidden>Export CSV</button>
+      <button class="btn" type="button" id="clr">Clear filters</button>
     </span>
   </div>
+  <div class="sharebox" id="sharebox" hidden><input type="text" id="share-url" readonly aria-label="Link to this view"><span class="dlmsg" id="share-msg" role="status"></span></div>
 
   <div class="tblwrap">
     <table class="main">
@@ -283,16 +551,87 @@ let TODAY=new Date().toISOString().slice(0,10);
 const LEVORDER=["Upfront Costs","Rates","Term","Speed","Curtailment","Deliverability","Supply/Demand","Market Participation"];
 const LEVSHORT={"Upfront Costs":"Upfront","Rates":"Rates","Term":"Term","Speed":"Speed","Curtailment":"Curtail","Deliverability":"Deliver","Supply/Demand":"Supply","Market Participation":"Mkt part"};
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const $=id=>document.getElementById(id);
 const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const dayN=d=>Math.round((new Date(d+"T00:00:00")-new Date(TODAY+"T00:00:00"))/864e5);
-const fmtD=d=>{const p=d.split("-");return (+p[2])+" "+MON[+p[1]-1]+(p[0]!=="2026"?" "+p[0].slice(2):"");};
+const fmtD=d=>{if(!d)return '—';const p=d.split("-");return (+p[2])+" "+MON[+p[1]-1]+(p[0]!==TODAY.slice(0,4)?" "+p[0].slice(2):"");};
 const fmtM=k=>{const p=k.split("-");return MON[+p[1]-1]+" "+p[0];};
+const addDays=(d,n)=>{const t=new Date(d+'T00:00:00Z');t.setUTCDate(t.getUTCDate()+n);return t.toISOString().slice(0,10);};
+const disc=e=>e.id.slice(2,6)+'-'+e.id.slice(6,8)+'-'+e.id.slice(8,10);
+const fmtN=v=>v==null?'—':(Math.round(v*10)/10).toLocaleString('en-US');
+const fmtUSD=v=>v>=1e9?'$'+(v/1e9).toFixed(2)+'bn':v>=1e6?'$'+(v/1e6).toFixed(1)+'m':'$'+Math.round(v).toLocaleString('en-US');
+const rx=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 
-let EV=[],NROWS=0,MET=null,TAR=null;
-const F={mat:new Set(),sub:new Set(),jur:new Set(),ent:new Set(),ins:new Set(),lev:new Set(),con:new Set()};
+let EV=[],BYID={},NROWS=0,MET=null,TAR=null,PARTS=null,CHG=[],ANN={},COV=null,PARTIES=[],SINCE=null,CUR_P=null;
+const F={mat:new Set(),sub:new Set(),jur:new Set(),ent:new Set(),ins:new Set(),lev:new Set(),con:new Set(),party:new Set()};
+const X={per:'',chg:null,wk:null,matter:null};
 let sortK='date',sortD=-1,open=new Set(),tlAll=false;
 const MP={"High / near-term":'m-h',"Medium / long-term":'m-m'};
 const CP={Verified:'c-v',Reported:'c-r',Unverified:'c-u'};
+
+/* ---------- what changed: the store's own history (parts + overlays), never inferred ---------- */
+function partDate(e){return PARTS&&e.part!=null&&PARTS[e.part]&&PARTS[e.part].date?PARTS[e.part].date:disc(e);}
+const addedAfter=(e,P)=>partDate(e)>P;
+const changesAfter=P=>CHG.filter(c=>(c.date||'')>P);
+function changedIds(P){const s=new Set(EV.filter(e=>addedAfter(e,P)).map(e=>e.id));
+  changesAfter(P).forEach(c=>{s.add(c.event_id);if(c.new_event_id)s.add(c.new_event_id);});return s;}
+let chgAll=false,CHG_SET=new Set(),_cid={P:null,s:null};
+const cidFor=P=>{if(_cid.P!==P)_cid={P,s:changedIds(P)};return _cid.s;};
+function sincePoints(){
+  const m=new Map(), base=PARTS&&PARTS.length?PARTS[0].date:'2026-09-18';
+  const lab=d=>d===SINCE?`the last brief, ${fmtD(d)}`:d===base?`the baseline, ${fmtD(d)}`:`the run of ${fmtD(d)}`;
+  const ds=new Set(PARTS?PARTS.map(p=>p.date).filter(Boolean):EV.map(disc));
+  if(SINCE)ds.add(SINCE);
+  [...ds].sort().reverse().forEach(d=>m.set(d,lab(d)));
+  return m;
+}
+function changes(P,auto){
+  const pts=[...sincePoints().keys()];
+  let note='';
+  if(auto){
+    let i=pts.indexOf(P);
+    while(i>=0&&i<pts.length-1&&!EV.some(e=>addedAfter(e,pts[i]))&&!changesAfter(pts[i]).length)i++;
+    if(pts[i]!==P){note=`Nothing has been added or changed since ${sincePoints().get(P)}. Showing everything since ${sincePoints().get(pts[i])} instead.`;P=pts[i];}
+  }
+  CUR_P=P;$('chg-since').value=P;
+  $('chg-fallback').hidden=!note;$('chg-fallback').textContent=note;
+  const nev=EV.filter(e=>addedAfter(e,P)).sort((a,b)=>(a.mat>b.mat?1:a.mat<b.mat?-1:0)||(a.date<b.date?1:-1));
+  const ch=changesAfter(P), ov=ch.filter(c=>c.kind==='overlay'), sp=ch.filter(c=>c.kind==='supersede');
+  const rows=nev.reduce((a,e)=>a+e.ents.length,0);
+  const hi=nev.filter(e=>e.mat.startsWith('High')).length;
+  const moved=ov.filter(c=>c.column==='Next Date'||c.column==='Next Milestone');
+  const newDated=nev.filter(e=>e.nd&&e.nd>=TODAY).length;
+  const tile=(k,v,s)=>`<div class="tile"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s}</div></div>`;
+  $('chg-tiles').innerHTML=
+    tile('New events',nev.length,`${rows} entity rows`)+
+    tile('High impact',hi,'of the new events')+
+    tile('Updated',new Set(ov.map(c=>c.event_id)).size,`${ov.length} field change${ov.length===1?'':'s'}`)+
+    tile('Milestones moved',new Set(moved.map(c=>c.event_id)).size,'next step or date changed')+
+    tile('Superseded',sp.length,'replaced by a later event')+
+    tile('New dated milestones',newDated,'ahead of today');
+  $('chg-note').textContent=`since ${fmtD(P)}`;
+  const cap=chgAll?nev.length:8;
+  $('chg-new').innerHTML=nev.length?nev.slice(0,cap).map(e=>`<div class="crow" data-go="${e.id}">
+      <div class="md">${fmtD(e.date)}</div>
+      <div class="t">${esc(e.headline)} <span class="pill ${MP[e.mat]}">${e.mat.split(' / ')[0]}</span>
+      <em>${esc(e.ents.map(t=>t[0]).join(', '))} · ${esc([...new Set(e.ents.map(t=>t[1]))].join('/'))} · ${esc(e.instrument)} · ${esc(e.conf)}</em></div></div>`).join('')
+      +(nev.length>cap?`<div class="more"><button class="btn" type="button" id="chg-all">Show all ${nev.length} new events</button></div>`:'')
+    :'<p class="empty-note">No new events in this window.</p>';
+  const grp=new Map();ch.forEach(c=>{const k=c.event_id+'|'+c.date;if(!grp.has(k))grp.set(k,[]);grp.get(k).push(c);});
+  const upd=[...grp.values()].map(cs=>{const c0=cs[0],e=BYID[c0.event_id];const hl=e?e.headline:c0.event_id;
+    const body=cs.map(c=>(c.kind==='supersede'
+      ?`<em>Superseded by <b>${esc((BYID[c.new_event_id]||{}).headline||c.new_event_id||'a later event')}</b></em>`
+      :`<em>${esc(c.column)}: <span class="was">${esc(c.before||'blank')}</span><span class="arrow">→</span><span class="now">${esc(c.after||'blank')}</span></em>`)
+      +(c.reason?`<em>${esc(c.reason)}</em>`:'')).join('');
+    return `<div class="crow" data-go="${esc(c0.event_id)}"><div class="md">${fmtD(c0.date)}</div>
+      <div class="t">${esc(hl)}${body}</div></div>`;}).join('');
+  $('chg-upd').innerHTML=upd||(PARTS?'<p class="empty-note">No earlier event was updated or superseded in this window.</p>'
+    :'<p class="empty-note">This build carries no change history, so updates to earlier events cannot be shown.</p>');
+  CHG_SET=changedIds(P);
+  $('mt-moved').textContent=`Moved since ${fmtD(P)}`;
+  if(X.chg){X.chg=P;}
+  render();renderMatters();
+}
 
 /* ---------- decision calendar, derived from the events themselves ---------- */
 function milestones(){
@@ -303,21 +642,24 @@ function milestones(){
 }
 function timeline(){
   const all=milestones(); const lim=tlAll?all:all.filter(m=>dayN(m.d)<=120);
-  const el=document.getElementById('tl');
+  const el=$('tl');
   if(!lim.length){el.innerHTML='<div class="loading">No dated milestones ahead.</div>';return;}
   const t0=Math.min(0,dayN(lim[0].d)), t1=dayN(lim[lim.length-1].d);
   const span=Math.max(t1-t0,1), pos=d=>((dayN(d)-t0)/span)*96+2;
   let marks='',seen=new Set();
   lim.forEach(m=>{const k=m.d.slice(0,7); if(!seen.has(k)){seen.add(k);
     marks+=`<div class="tl-gl" style="left:${pos(k+'-01')}%"></div><div class="tl-mo" style="left:${pos(k+'-01')}%">${fmtM(k)}</div>`;}});
-  const byd={}; let dots='';
+  const byd={},cnt={}; let dots='';
+  lim.forEach(m=>cnt[m.d]=(cnt[m.d]||0)+1);
+  Object.entries(cnt).filter(([,n])=>n>4).forEach(([d,n])=>{dots+=`<div class="tl-more" style="left:${pos(d)}%;top:-4px">+${n-3}</div>`;});
   lim.forEach(m=>{byd[m.d]=(byd[m.d]||0)+1;
     const stack=byd[m.d]-1, y=40-stack*11;
+    if(stack>=(cnt[m.d]>4?3:4))return;
     dots+=`<div class="tl-dot ${m.mat.startsWith('High')?'h':'m'}" style="left:${pos(m.d)}%;top:${y}px" data-go="${m.id}" title="${esc(fmtD(m.d)+' · '+m.what)}"></div>`;});
   el.innerHTML=`<div class="tl-base"></div>${marks}<div class="tl-now" style="left:${pos(TODAY)}%"><span>today</span></div>${dots}`;
-  document.getElementById('tl-count').textContent=`${lim.length} of ${all.length} dated milestones`;
-  document.getElementById('tl-note').textContent=tlAll?'all open items':'next 120 days';
-  document.getElementById('tl-all').textContent=tlAll?'Next 120 days':'Show everything';
+  $('tl-count').textContent=`${lim.length} of ${all.length} dated milestones`;
+  $('tl-note').textContent=tlAll?'all open items':'next 120 days';
+  $('tl-all').textContent=tlAll?'Next 120 days':'Show everything';
   let html='',cur='';
   lim.forEach(m=>{const k=m.d.slice(0,7);
     if(k!==cur){cur=k;html+=`<h3>${fmtM(k)}</h3>`;}
@@ -326,7 +668,149 @@ function timeline(){
       <div class="md">${fmtD(m.d)}</div>
       <div class="mw">${esc(m.what)}<em>${esc(m.who)} · ${esc(m.jur)}</em></div>
       <div class="mn">${n} d</div></div>`;});
-  document.getElementById('mlist').innerHTML=html;
+  $('mlist').innerHTML=html;
+}
+
+/* ---------- matters: docket keys read from the Document column ---------- */
+const DOCKET_RULES=[
+  [/\bPUR-\d{4}-\d{5}\b/g,m=>m[0]],                               // VA SCC
+  [/\b[A-Z]-\d{5}A-\d{2}-\d{4}\b/g,m=>m[0]],                      // AZ ACC
+  [/\b\d{2}-[A-Z]{4}-\d{3,4}-[A-Z]{3}\b/g,m=>m[0]],               // KS KCC
+  [/\b\d{2}-\d{4}-EL-[A-Z]{3}\b/g,m=>m[0]],                       // OH PUCO
+  [/\b\d{2}-\d{4}-[A-Z]-[A-Z0-9]{2,3}\b/g,m=>m[0]],               // WV PSC
+  [/\b\d{4}-\d{1,4}-[A-Z]{1,2}\b/g,m=>m[0]],                      // SC PSC
+  [/\b[A-Z]-\d{4}-\d{7}\b/g,m=>m[0]],                             // PA PUC
+  [/\bPUD\d{4}-\d{6}\b/g,m=>m[0]],                                // OK OCC
+  [/\b(?:ER|ET|EA|EO|EC)-\d{4}-\d{4}\b/g,m=>m[0]],                // MO PSC
+  [/\b\d{2}-\d{5}-UT\b/g,m=>m[0]],[/\b\d{2}-\d{7}\b/g,m=>m[0]],   // NM PRC
+  [/\bE-(\d+),?\s+Sub\s+(\d+)\b/g,m=>`E-${m[1]} Sub ${m[2]}`],    // NC NCUC
+  [/\bCase\s+(\d{2}-E-\d{4})\b/g,m=>m[1]],                        // NY PSC
+  [/\b[UXR]-\d{5}\b/g,m=>m[0]],                                   // LA LPSC
+  [/\b(?:Project|Docket|Dockets|Case)\s+(?:No\.\s*)?(\d{5})\b/g,m=>m[1]],   // PUCT, GA, AL
+  [/\b\d{2}-\d{4,5}\b/g,m=>m[0]],                                 // IL ICC, NV PUCN
+  [/\b(NPRR|PGRR)\s?(\d{3,4})\b/g,m=>m[1]+m[2]]
+];
+function dockets(e){
+  const keys=[],add=k=>{if(k&&!keys.includes(k))keys.push(k);};
+  let s=e.document||'';
+  s=s.replace(/\b(EL|ER|RM|AD|EC)(\d{2})-(\d{1,5})(?:-\d{3})?((?:\s*(?:,\s*and|,|and)\s*-\d{1,5})*)/g,(m,a,y,n,cont)=>{
+    add(`${a}${y}-${n}`);(cont.match(/-\d{1,5}/g)||[]).forEach(x=>add(`${a}${y}${x}`));return ' '.repeat(m.length);});
+  DOCKET_RULES.forEach(([re,fn])=>{s=s.replace(re,(...a)=>{add(fn(a));return ' '.repeat(a[0].length);});});
+  const t=(e.document||'')+' '+e.headline;
+  const deck=e.instrument==='Disclosure'&&/earnings|investor|call slides|results|marketing presentation/i.test(e.document||'');
+  if(/Batch Zero/i.test(t)&&!deck)add('BATCH-ZERO');
+  if(/^GRDA board/i.test(e.document||''))add('GRDA-BOARD');
+  if(deck&&e.ents.length)add('IR:'+e.ents[0][0]);
+  return keys;
+}
+let MATTERS=[],mtOpen=new Set(),mtAll=false;
+function matterLabel(k,v){
+  const L=(ANN.matter_labels||{})[k]; if(L)return L;
+  if(k.startsWith('IR:'))return k.slice(3)+' investor disclosures';
+  const d=v[v.length-1].document||'', i=d.indexOf(' — ');
+  const t=(i>=0?d.slice(i+3):d).replace(/^(Docket|Dockets|Case|Project)\s+\S+\s*/,'');
+  return t.length>78?t.slice(0,76).replace(/\s+\S*$/,'')+'…':t;
+}
+function buildMatters(){
+  const by={};
+  EV.forEach(e=>{e.dk=dockets(e);e.dk.forEach(k=>(by[k]=by[k]||[]).push(e));});
+  MATTERS=Object.entries(by).filter(([,v])=>v.length>=2).map(([k,v])=>{
+    v.sort((a,b)=>a.date<b.date?-1:a.date>b.date?1:(a.id<b.id?-1:1));
+    return {k,ev:v,last:v[v.length-1],label:matterLabel(k,v),ir:k.startsWith('IR:'),
+      jur:[...new Set(v.flatMap(e=>e.ents.map(t=>t[1])))],ents:[...new Set(v.flatMap(e=>e.ents.map(t=>t[0])))]};
+  }).sort((a,b)=>a.last.date<b.last.date?1:a.last.date>b.last.date?-1:b.ev.length-a.ev.length);
+  const js=[...new Set(MATTERS.flatMap(m=>m.jur))].sort();
+  $('mt-j').innerHTML='<option value="">All jurisdictions</option>'+js.map(j=>`<option>${esc(j)}</option>`).join('');
+}
+const moved=m=>CUR_P&&m.ev.some(e=>CHG_SET.has(e.id));
+function renderMatters(){
+  if(!MATTERS.length&&!EV.length)return;
+  const q=$('mt-q').value.trim().toLowerCase(), j=$('mt-j').value;
+  const onlyMoved=$('mt-moved').getAttribute('aria-pressed')==='true', ir=$('mt-ir').getAttribute('aria-pressed')==='true';
+  const list=MATTERS.filter(m=>(ir||!m.ir)&&(!j||m.jur.includes(j))&&(!onlyMoved||moved(m))&&
+    (!q||(m.k+' '+m.label+' '+m.ents.join(' ')+' '+m.jur.join(' ')).toLowerCase().includes(q)));
+  const shown=mtAll||q||j||onlyMoved?list:list.slice(0,12);
+  $('mt-note').textContent=`${list.length} matters with two or more events`;
+  $('mt-more').hidden=shown.length>=list.length;
+  $('mt-more').textContent=`Show all ${list.length} matters`;
+  $('mt-list').innerHTML=shown.length?shown.map(m=>{
+    const isOpen=mtOpen.has(m.k),l=m.last,span=`${fmtD(m.ev[0].date)} – ${fmtD(l.date)}`;
+    const nx=[...m.ev].reverse().find(e=>e.nd);
+    const chron=isOpen?`<div class="chron">${m.ev.map(e=>`<div class="ch" data-go="${e.id}">
+        <div class="cd">${fmtD(e.date)}</div><div class="cdot${CHG_SET.has(e.id)?' new':''}"></div>
+        <div class="ct"><span class="pill e-pill">${esc(e.instrument)}</span> ${esc(e.headline)}
+        <span class="cs"> · ${esc(e.status||'')} · ${esc(e.conf)}</span>${e.sup==='Yes'?'<span class="pill flag">superseded</span>':''}</div></div>`).join('')}
+        <div class="mat-act"><button class="btn" type="button" data-mtf="${esc(m.k)}">Filter the console to this matter</button></div></div>`:'';
+    const key=m.ir||m.k==='BATCH-ZERO'||m.k==='GRDA-BOARD'?'':`<span class="eid">${esc(m.k)}</span>`;
+    return `<div class="mat"><button type="button" data-mt="${esc(m.k)}" aria-expanded="${isOpen}">
+      <div class="nm">${esc(m.label)}${key}${moved(m)?'<span class="pill newp">moved</span>':''}</div>
+      <div class="rt">${m.ev.length} events · ${esc(m.jur.join('/'))}<br>${span}</div>
+      <div class="ln"><b>Latest:</b> ${esc(l.headline)}${nx&&nx.nd>=TODAY?` · <b>Next:</b> ${esc(nx.nm||'milestone')}, ${fmtD(nx.nd)}`:''}</div>
+      </button>${chron}</div>`;}).join(''):'<p class="empty-note">No matter fits these filters.</p>';
+}
+
+/* ---------- load-scenario tariff tester ---------- */
+const median=a=>{a=a.filter(x=>x!=null).sort((x,y)=>x-y);if(!a.length)return null;const m=a.length>>1;return a.length%2?a[m]:(a[m-1]+a[m])/2;};
+let MED={};
+function tester(){
+  if(!TAR)return;
+  const mw=+$('tt-mw').value||0, lf=+$('tt-lf').value||0, j=$('tt-j').value, dc=parseFloat($('tt-dc').value);
+  const hasDC=isFinite(dc)&&dc>0;
+  const nul='<span class="nul">—</span>';
+  const rows=TAR.data.filter(t=>!j||t.jurisdiction===j).map(t=>{
+    let ap,why;
+    if(t.threshold_mw==null){ap='q';why='Threshold not stated';}
+    else if(mw<t.threshold_mw){ap='n';why=`Below ${t.threshold_mw} MW`;}
+    else if(t.load_factor_pct&&lf<t.load_factor_pct){ap='n';why=`Below ${t.load_factor_pct}% load factor`;}
+    else{ap='y';why='Applies';}
+    const minMW=t.min_take_pct!=null?mw*t.min_take_pct/100:null;
+    const monthly=hasDC&&minMW!=null?minMW*1000*dc:null;
+    const mwyr=minMW!=null&&t.term_years?minMW*t.term_years:null;
+    const total=monthly!=null&&t.term_years?monthly*12*t.term_years:null;
+    const two=/two years|2 years|24 months/i.test(t.collateral||'');
+    const coll=t.collateral?esc(t.collateral)+(two&&monthly!=null?`<br><span class="num">≈ ${/up to/i.test(t.collateral)?'up to ':''}${fmtUSD(monthly*24)}</span>`:''):nul;
+    const devs=[];
+    const dv=(v,m,unit,lbl,stricterIfHigher)=>{if(v==null||m==null)return;const d=v-m;
+      const cls=Math.abs(d)<1e-9?'eq':((d>0)===stricterIfHigher?'hi':'lo');
+      devs.push(`<span class="dev ${cls}">${lbl} ${Math.abs(d)<1e-9?'at median':(d>0?'+':'−')+fmtN(Math.abs(d))+unit}</span>`);};
+    dv(t.threshold_mw,MED.thr,' MW','threshold',false);
+    dv(t.term_years,MED.term,' yr','term',true);
+    dv(t.min_take_pct,MED.take,' pts','min take',true);
+    dv(t.notice_months,MED.notice,' mo','notice',true);
+    const order={y:0,q:1,n:2}[ap];
+    return {order,html:`<tr class="${ap==='n'?'dim':''}">
+      <td><b>${esc(t.utility)}</b> <span class="eid">${esc(t.jurisdiction)}</span><br>${esc(t.tariff)}${t.docket?`<br><span class="eid">${esc(t.docket)}</span>`:''}</td>
+      <td><span class="ap ${ap}">${ap==='y'?'✓ ':ap==='n'?'– ':'? '}${esc(why)}</span>${t.conf!=='Verified'?`<br><span class="pill ${CP[t.conf]}" style="margin-top:.3rem">${esc(t.conf)}</span>`:''}</td>
+      <td class="num">${minMW!=null?fmtN(minMW)+' MW<br><span class="eid">'+t.min_take_pct+'% of '+fmtN(mw)+' MW</span>'+(monthly!=null?'<br>'+fmtUSD(monthly)+'/mo':''):nul}</td>
+      <td class="num">${t.term_years?t.term_years+' yr'+(t.ramp_years?` <span class="eid">+${t.ramp_years} ramp</span>`:'')+(mwyr!=null?'<br>'+Math.round(mwyr).toLocaleString('en-US')+' MW-yr':'')+(total!=null?'<br>'+fmtUSD(total):''):nul}</td>
+      <td style="min-width:180px">${coll}</td>
+      <td class="num">${t.notice_months?t.notice_months+' mo':nul}</td>
+      <td>${devs.join('<br>')||nul}</td></tr>`};
+  }).sort((a,b)=>a.order-b.order);
+  $('tt-b').innerHTML=rows.map(r=>r.html).join('')||`<tr><td colspan="7"><div class="empty">No tariff recorded for this jurisdiction.</div></td></tr>`;
+  $('tt-med').textContent=`Median across the tariffs that state each term: threshold ${fmtN(MED.thr)} MW · term ${fmtN(MED.term)} yr · minimum take ${fmtN(MED.take)}% · notice ${fmtN(MED.notice)} mo. Red marks a term stricter on the customer than the median, green a looser one. "MW-yr" is minimum billed demand times the base term.`;
+}
+function tariffs(){
+  if(!TAR)return;
+  MED={thr:median(TAR.data.map(t=>t.threshold_mw)),term:median(TAR.data.map(t=>t.term_years)),
+       take:median(TAR.data.map(t=>t.min_take_pct)),notice:median(TAR.data.map(t=>t.notice_months))};
+  const js=[...new Set(TAR.data.map(t=>t.jurisdiction))].sort();
+  $('tt-j').innerHTML='<option value="">All with a tariff</option>'+js.map(j=>`<option>${esc(j)}</option>`).join('');
+  const nul='<span class="nul">—</span>';
+  $('tmb').innerHTML=TAR.data.map(t=>{
+    const term=t.term_years?(t.term_years+' yr'+(t.ramp_years?' +'+t.ramp_years+' ramp':'')):nul;
+    return `<tr>
+      <td><b>${esc(t.utility)}</b><br><span class="eid">${esc(t.jurisdiction)}</span></td>
+      <td>${esc(t.tariff)}${t.docket?`<br><span class="eid">${esc(t.docket)}</span>`:''}</td>
+      <td class="num">${t.threshold_mw?t.threshold_mw+' MW'+(t.load_factor_pct?`<br><span class="eid">${t.load_factor_pct}% LF</span>`:''):nul}</td>
+      <td class="num">${term}</td>
+      <td class="num">${t.min_take_pct?t.min_take_pct+'%':nul}</td>
+      <td class="num">${t.notice_months?t.notice_months+' mo':nul}</td>
+      <td>${t.collateral?esc(t.collateral):nul}</td>
+      <td>${esc(t.status)}<br><span class="pill ${CP[t.conf]}">${esc(t.conf)}</span></td></tr>`;
+  }).join('');
+  $('tm-note').innerHTML=`<b>A dash means the term was not stated in what was read, never that it does not exist.</b> ${esc(TAR.convergence_note||'')}`;
+  tester();
 }
 
 /* ---------- conversion, drawn live from metrics.json ---------- */
@@ -338,6 +822,51 @@ function spark(pts,w,h){
   return `<svg class="spark" width="100%" height="${h}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" role="img" aria-label="trend">
     <path d="${d}" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
     <circle cx="${x(pts.length-1).toFixed(1)}" cy="${y(vs[vs.length-1]).toFixed(1)}" r="2.6" fill="var(--accent)"/></svg>`;
+}
+const prevQ=p=>{const y=+p.slice(0,4),q=+p.slice(5);return q===1?`${y-1}Q4`:`${y}Q${q-1}`;};
+const qLabel=p=>`Q${p.slice(5)} ${p.slice(2,4)}`;
+const MEAS_LBL={esa_gw:'signed ESA',contracted_gw:'contracted',committed_gw:'committed',late_stage_gw:'advanced stage'};
+function deltas(){
+  const pref=['esa_gw','contracted_gw','committed_gw','late_stage_gw'];
+  const by={};
+  MET.data.filter(m=>m.value!=null&&pref.includes(m.measure)).forEach(m=>{
+    const o=(by[m.issuer]=by[m.issuer]||{});(o[m.measure]=o[m.measure]||[]).push(m);});
+  const series=Object.entries(by).map(([iss,o])=>{
+    const meas=pref.slice().sort((a,b)=>((o[b]||[]).length-(o[a]||[]).length)||pref.indexOf(a)-pref.indexOf(b))[0];
+    const pts={};(o[meas]||[]).forEach(m=>pts[m.period]=m);
+    return {iss,meas,pts};
+  });
+  const periods=[...new Set(series.flatMap(s=>Object.keys(s.pts)))].sort().slice(-3);
+  const cell=(s,p)=>{const a=s.pts[p],b=s.pts[prevQ(p)];
+    const brk=a&&/METHODOLOGY/i.test(a.note||'');
+    if(!a)return {t:'<span class="nul">—</span>'};
+    if(!b)return {t:`<span class="eid">${brk?'method change':'first point'}</span>`};
+    return {d:+(a.value-b.value).toFixed(2)};};
+  const rows=series.map(s=>({s,c:periods.map(p=>cell(s,p))}));
+  const mx=Math.max(0.1,...rows.flatMap(r=>r.c.filter(c=>c.d!=null).map(c=>Math.abs(c.d))));
+  const bar=d=>{const w=Math.max(2,Math.abs(d)/mx*100).toFixed(1);
+    return `<div class="dcell"><div class="dbar">
+      <div style="display:flex;justify-content:flex-end">${d<0?`<i style="width:${w}%;background:var(--down);border-radius:4px 0 0 4px"></i>`:''}</div>
+      <div>${d>0?`<i style="width:${w}%;background:var(--up);border-radius:0 4px 4px 0"></i>`:''}</div><span class="z"></span></div>
+      <span class="num">${d>0?'+':d<0?'−':'±'}${fmtN(Math.abs(d))} GW</span></div>`;};
+  rows.sort((a,b)=>{const la=Object.keys(a.s.pts).length,lb=Object.keys(b.s.pts).length;return lb-la||a.s.iss.localeCompare(b.s.iss);});
+  $('dlt').innerHTML=`<thead><tr><th>Issuer</th>${periods.map(p=>`<th>${qLabel(p)}</th>`).join('')}<th>Latest level</th></tr></thead><tbody>`+
+    rows.map(r=>{const ks=Object.keys(r.s.pts).sort(),last=r.s.pts[ks[ks.length-1]];
+      const brk=/METHODOLOGY/i.test(last.note||'');
+      return `<tr><td><b>${esc(r.s.iss)}</b><span class="kind">${MEAS_LBL[r.s.meas]}</span></td>
+      ${r.c.map(c=>`<td class="q">${c.d!=null?bar(c.d):c.t}</td>`).join('')}
+      <td class="num">${fmtN(last.value)} GW <span class="eid">${qLabel(last.period)}</span>${brk?'<span class="brk">methodology changed</span>':''}</td></tr>`;}).join('')+'</tbody>';
+  /* Dominion: ESA added per quarter over the prior quarter's CLOA */
+  const per={};
+  MET.data.filter(m=>m.issuer==='Dominion'&&m.value!=null).forEach(m=>(per[m.period]=per[m.period]||{})[m.measure]=m.value);
+  const rr=Object.keys(per).sort().filter(p=>per[prevQ(p)]&&per[prevQ(p)].cloa_gw&&per[p].esa_gw!=null&&per[prevQ(p)].esa_gw!=null)
+    .map(p=>({p,add:per[p].esa_gw-per[prevQ(p)].esa_gw,cloa:per[prevQ(p)].cloa_gw}));
+  const rmx=Math.max(0.01,...rr.map(r=>Math.max(0,r.add/r.cloa)));
+  $('ratio').innerHTML=rr.length?rr.map(r=>{const v=r.add/r.cloa;
+    return `<div class="ratio"><span>${qLabel(r.p)} <span class="eid">+${fmtN(r.add)} of ${fmtN(r.cloa)} GW</span></span>
+      <div class="rb"><i style="width:${(Math.max(0,v)/rmx*100).toFixed(1)}%"></i></div><span class="rv">${(v*100).toFixed(1)}%</span></div>`;}).join('')+
+    `<p class="sub-n" style="margin:.6rem 0 0">An upper bound: it assumes every new ESA came through the CLOA stage. Only consecutive quarters are used.</p>`
+    :'<p class="empty-note">Needs two consecutive Dominion quarters.</p>';
 }
 function conversion(){
   if(!MET)return;
@@ -353,7 +882,7 @@ function conversion(){
     const dtxt=dv===null?'first point':(dv>0?'+':'')+dv+' GW';
     return {iss,o,last,dv,cls,dtxt,sz:last.v};
   }).sort((a,b)=>b.sz-a.sz);
-  document.getElementById('sm').innerHTML=tiles.map(t=>`<div class="smt">
+  $('sm').innerHTML=tiles.map(t=>`<div class="smt">
     <div class="nm">${esc(t.iss)}</div>
     <div class="ms">${t.o.meas.replace('_gw','').replace('_',' ')} · ${esc(t.last.p)}</div>
     <div class="vv"><span class="big">${t.last.v}</span><span class="dl ${t.cls}">${t.dtxt}</span></div>
@@ -363,7 +892,7 @@ function conversion(){
     (per[m.period]=per[m.period]||{})[m.measure]=m.value;});
   const keys=Object.keys(per).sort();
   const mx=Math.max(...keys.map(k=>(per[k].seloa_gw||0)+(per[k].cloa_gw||0)+(per[k].esa_gw||0)));
-  document.getElementById('ladder').innerHTML=keys.map(k=>{
+  $('ladder').innerHTML=keys.map(k=>{
     const p=per[k],tot=(p.seloa_gw||0)+(p.cloa_gw||0)+(p.esa_gw||0);
     const seg=(v,c,l)=>v?`<div class="lseg ${c}" style="flex:${v}">${v>=4?l+' '+v:''}</div>`:'';
     return `<div class="ladder"><div class="lp">${esc(k)}</div>
@@ -373,26 +902,69 @@ function conversion(){
     <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#B5D4F4;margin-right:4px"></i>SELOA engineering</span>
     <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#378ADD;margin-right:4px"></i>CLOA construction</span>
     <span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#185FA5;margin-right:4px"></i>ESA signed</span></div>`;
+  deltas();
 }
 
-/* ---------- tariff matrix ---------- */
-function tariffs(){
-  if(!TAR)return;
-  const nul='<span class="nul">—</span>';
-  document.getElementById('tmb').innerHTML=TAR.data.map(t=>{
-    const term=t.term_years?(t.term_years+' yr'+(t.ramp_years?' +'+t.ramp_years+' ramp':'')):nul;
-    return `<tr>
-      <td><b>${esc(t.utility)}</b><br><span class="eid">${esc(t.jurisdiction)}</span></td>
-      <td>${esc(t.tariff)}${t.docket?`<br><span class="eid">${esc(t.docket)}</span>`:''}</td>
-      <td class="num">${t.threshold_mw?t.threshold_mw+' MW'+(t.load_factor_pct?`<br><span class="eid">${t.load_factor_pct}% LF</span>`:''):nul}</td>
-      <td class="num">${term}</td>
-      <td class="num">${t.min_take_pct?t.min_take_pct+'%':nul}</td>
-      <td class="num">${t.notice_months?t.notice_months+' mo':nul}</td>
-      <td>${t.collateral?esc(t.collateral):nul}</td>
-      <td>${esc(t.status)}<br><span class="pill ${CP[t.conf]}">${esc(t.conf)}</span></td></tr>`;
-  }).join('');
-  document.getElementById('tm-note').innerHTML=
-    `<b>A dash means the term was not stated in what was read, never that it does not exist.</b> ${esc(TAR.convergence_note)}`;
+/* ---------- activity over time ---------- */
+let AG='sub',AB='ev',AC=null;
+const weekOf=d=>{const t=new Date(d+'T00:00:00Z');t.setUTCDate(t.getUTCDate()-((t.getUTCDay()+6)%7));return t.toISOString().slice(0,10);};
+function activity(){
+  const dOf=e=>AB==='ev'?e.date:disc(e);
+  const gOf=e=>AG==='sub'?[e.subject]:[...new Set(e.ents.map(t=>t[1]))];
+  const tot={};EV.forEach(e=>gOf(e).forEach(g=>tot[g]=(tot[g]||0)+1));
+  const top=Object.keys(tot).sort((a,b)=>tot[b]-tot[a]).slice(0,5);
+  const groups=[...top,...(Object.keys(tot).length>5?['Other']:[])];
+  const col=g=>g==='Other'?'var(--c0)':`var(--c${top.indexOf(g)+1})`;
+  const ds=EV.map(dOf).sort();
+  const w0=weekOf(ds[0]),w1=weekOf(TODAY>ds[ds.length-1]?TODAY:ds[ds.length-1]);
+  const weeks=[];for(let w=w0;w<=w1;w=addDays(w,7))weeks.push({w,c:{},t:0});
+  const ix={};weeks.forEach((x,i)=>ix[x.w]=i);
+  EV.forEach(e=>{const x=weeks[ix[weekOf(dOf(e))]];if(!x)return;
+    gOf(e).forEach(g=>{const k=top.includes(g)?g:'Other';x.c[k]=(x.c[k]||0)+1;x.t++;});});
+  const mxT=Math.max(1,...weeks.map(x=>x.t));
+  const step=mxT>60?20:mxT>24?10:mxT>10?5:2, yMax=Math.ceil(mxT/step)*step;
+  const L=30,R=8,T=42,B=24,cw=($('ac-box').clientWidth||860)-2,band=Math.max(9,(cw-L-R)/weeks.length),W=L+R+band*weeks.length,H=230,ph=H-T-B;
+  const y=v=>T+ph-(v/yMax)*ph;
+  let g='';
+  for(let v=0;v<=yMax;v+=step)g+=`<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" style="stroke:${v?'var(--grid)':'var(--axis)'}" stroke-width="1"/>
+    <text x="${L-6}" y="${y(v)+3.5}" text-anchor="end" style="fill:var(--ink-3);font:10px var(--mono)">${v}</text>`;
+  let lastM='';
+  weeks.forEach((x,i)=>{const m=x.w.slice(0,7);if(m!==lastM){lastM=m;const p=m.split('-');
+    g+=`<text x="${L+i*band+2}" y="${H-8}" style="fill:var(--ink-3);font:10px var(--mono)">${MON[+p[1]-1]}${p[1]==='01'||i===0?' '+p[0].slice(2):''}</text>`;}});
+  const bw=Math.max(5,Math.min(band*0.72,28));
+  weeks.forEach((x,i)=>{let acc=0;const bx=L+i*band+(band-bw)/2;
+    const segs=groups.filter(k=>x.c[k]);
+    segs.forEach((k,si)=>{const v=x.c[k],y0=y(acc),y1=y(acc+v);acc+=v;
+      const h=Math.max(1,y0-y1-(si<segs.length-1?1.5:0));
+      const isTop=si===segs.length-1, r=Math.min(3,bw/2,h);
+      const yTop=y0-h;
+      g+=isTop?`<path d="M${bx},${y0}V${yTop+r}Q${bx},${yTop} ${bx+r},${yTop}H${bx+bw-r}Q${bx+bw},${yTop} ${bx+bw},${yTop+r}V${y0}Z" style="fill:${col(k)}"/>`
+            :`<rect x="${bx}" y="${yTop}" width="${bw}" height="${h}" style="fill:${col(k)}"/>`;});
+    g+=`<rect class="hit" data-i="${i}" x="${L+i*band}" y="${T}" width="${band}" height="${ph}" style="fill:transparent;cursor:pointer"/>`;});
+  const marks=(ANN.coverage_marks||[]).concat(((COV&&COV.manual_runs)||[]).map(d=>({date:d,label:'Manual pass',detail:'A complete manual pass of the blocked commissions.'})))
+    .filter(m=>m.date>=w0&&m.date<=addDays(w1,6)).sort((a,b)=>a.date<b.date?-1:1);
+  let px=-99,row=0;
+  marks.forEach((m,n)=>{const i=ix[weekOf(m.date)],frac=dayN(m.date)-dayN(weekOf(m.date));const x=L+i*band+band*(frac/7);
+    row=x-px<18?1-row:0;px=x;const cy=T-12-row*17;
+    g+=`<line x1="${x}" x2="${x}" y1="${cy}" y2="${T+ph}" style="stroke:var(--ink-2)" stroke-width="1" stroke-dasharray="3 3"/>
+      <circle cx="${x}" cy="${cy}" r="8" style="fill:var(--ink)"/><text x="${x}" y="${cy+3.5}" text-anchor="middle" style="fill:var(--ground);font:10px var(--mono)">${n+1}</text>`;});
+  $('ac').innerHTML=`<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Events per week, stacked by ${AG==='sub'?'subject':'jurisdiction'}" style="display:block;max-width:none">${g}</svg>`;
+  $('ac-leg').innerHTML=groups.map(k=>`<span><i style="background:${col(k)}"></i>${esc(k)} <span class="eid">${k==='Other'?Object.keys(tot).filter(x=>!top.includes(x)).reduce((a,x)=>a+tot[x],0):tot[k]}</span></span>`).join('');
+  $('ac-marks').innerHTML=marks.map((m,n)=>`<div><span class="n">${n+1}</span><b>${esc(m.label)}</b> · ${fmtD(m.date)}. ${esc(m.detail||'')}</div>`).join('');
+  $('ac-note').textContent=AG==='jur'?'event-jurisdiction pairs per week (an event in two states counts in both)':'events per week';
+  AC={weeks,groups,col,band,L};
+}
+function acTip(ev){
+  const r=ev.target.closest('rect.hit'),tip=$('ac-tip');
+  if(!r||!AC){tip.hidden=true;return;}
+  const x=AC.weeks[+r.dataset.i];
+  tip.innerHTML=`<b>Week of ${fmtD(x.w)}</b>`+(x.t?AC.groups.filter(k=>x.c[k]).map(k=>`<div><span><i style="background:${AC.col(k)}"></i>${esc(k)}</span><span class="num">${x.c[k]}</span></div>`).join('')
+    +`<div style="border-top:1px solid var(--rule);margin-top:.2rem;padding-top:.2rem"><span>Total</span><span class="num">${x.t}</span></div>`:'<div>No events</div>');
+  const box=$('ac-box').getBoundingClientRect(),rb=r.getBoundingClientRect();
+  tip.hidden=false;
+  let left=rb.left-box.left+$('ac-box').scrollLeft+rb.width+8;
+  if(left+tip.offsetWidth>$('ac-box').scrollLeft+box.width)left=rb.left-box.left+$('ac-box').scrollLeft-tip.offsetWidth-8;
+  tip.style.left=Math.max(0,left)+'px';tip.style.top='28px';
 }
 
 /* ---------- lever heatmap, derived from the events ---------- */
@@ -405,34 +977,137 @@ function heatmap(){
   const mx=Math.max(...Object.values(cell));
   const step=v=>v===0?'var(--h0)':v<=mx*.12?'var(--h1)':v<=mx*.28?'var(--h2)':v<=mx*.5?'var(--h3)':v<=mx*.75?'var(--h4)':'var(--h5)';
   const ink=v=>v>mx*.5?'#fff':'var(--hd)';
-  document.getElementById('hmh').innerHTML='<th style="width:52px">Juris</th>'+
-    LEVORDER.map(l=>`<th>${LEVSHORT[l]}</th>`).join('')+'<th style="width:40px">All</th>';
-  document.getElementById('hmb').innerHTML=js.map(j=>{
+  $('hmh').innerHTML='<th style="width:52px">Juris</th>'+LEVORDER.map(l=>`<th>${LEVSHORT[l]}</th>`).join('')+'<th style="width:40px">All</th>';
+  $('hmb').innerHTML=js.map(j=>{
     const tds=LEVORDER.map(l=>{const v=cell[j+'|'+l]||0;
       return `<td style="background:${step(v)};color:${v?ink(v):'var(--ink-3)'};cursor:pointer" data-j="${j}" data-l="${esc(l)}">${v||''}</td>`;}).join('');
     return `<tr><td class="j">${j}</td>${tds}<td class="t">${jt[j]}</td></tr>`;}).join('');
 }
-document.getElementById('hmb').onclick=e=>{
-  const td=e.target.closest('td[data-j]'); if(!td)return;
-  Object.values(F).forEach(s=>s.clear());
-  F.jur.add(td.dataset.j); F.lev.add(td.dataset.l);
-  syncChips(); render();
-  document.getElementById('s-console').scrollIntoView({behavior:'smooth'});
-};
+
+/* ---------- parties: watched names found in the row text ---------- */
+const PARTY_FALLBACK=["Microsoft","Google","Alphabet","Amazon","Amazon Data Services","AWS","Meta","Oracle","OpenAI","CoreWeave","Data Center Coalition","Constellation","Vistra","Talen"];
+let PG=[];
+function buildParties(){
+  const groups=ANN.party_groups||{},a2g={};
+  Object.entries(groups).forEach(([g,al])=>al.forEach(a=>a2g[a]=g));
+  const by={};(PARTIES.length?PARTIES:PARTY_FALLBACK).forEach(n=>{const g=a2g[n]||n;(by[g]=by[g]||[]).push(n);});
+  PG=Object.entries(by).map(([g,al])=>({g,kind:(ANN.party_kinds||{})[g]||'',
+    re:new RegExp('(^|[^A-Za-z0-9])('+al.sort((a,b)=>b.length-a.length).map(rx).join('|')+')(?![A-Za-z0-9])')}));
+  EV.forEach(e=>{const t=[e.headline,e.takeaway,e.document,e.ents.map(x=>x[0]).join(' ')].join(' ');
+    e._pt=PG.filter(p=>p.re.test(t)).map(p=>p.g);});
+}
+function parties(){
+  const mk=new Set(MATTERS.map(m=>m.k));
+  const rows=PG.map(p=>{const ev=EV.filter(e=>e._pt.includes(p.g)).sort((a,b)=>a.date<b.date?1:-1);
+    return {p,ev,jur:[...new Set(ev.flatMap(e=>e.ents.map(t=>t[1])))],
+      mt:[...new Set(ev.flatMap(e=>e.dk||[]))].filter(k=>mk.has(k)&&!k.startsWith('IR:'))};}).filter(r=>r.ev.length)
+    .sort((a,b)=>b.ev.length-a.ev.length||a.p.g.localeCompare(b.p.g));
+  const mx=Math.max(1,...rows.map(r=>r.ev.length));
+  $('pt-note').textContent=`${rows.length} of ${PG.length} watched parties appear`;
+  $('pt-b').innerHTML=rows.map(r=>`<tr class="pr" data-party="${esc(r.p.g)}">
+    <td><b>${esc(r.p.g)}</b><span class="kind">${esc(r.p.kind)}</span></td>
+    <td><div class="bars"><i style="width:${(r.ev.length/mx*90).toFixed(0)}px"></i><span class="num">${r.ev.length}</span></div></td>
+    <td>${r.jur.map(j=>`<span class="pill e-pill">${esc(j)}</span>`).join(' ')}</td>
+    <td>${r.mt.slice(0,5).map(k=>`<button class="lnk" type="button" data-openmt="${esc(k)}">${esc((ANN.matter_labels||{})[k]||k)}</button>`).join(', ')||'<span class="nul">—</span>'}${r.mt.length>5?` <span class="eid">+${r.mt.length-5}</span>`:''}</td>
+    <td style="min-width:240px"><span class="eid">${fmtD(r.ev[0].date)}</span> ${esc(r.ev[0].headline)}</td></tr>`).join('');
+  const none=PG.filter(p=>!rows.some(r=>r.p===p)).map(p=>p.g);
+  $('pt-none').textContent=none.length?`Not yet named in any row: ${none.join(', ')}.`:'';
+}
+
+/* ---------- coverage: is a quiet state quiet, or unread? ---------- */
+const TILE={AK:[0,0],ME:[0,10],VT:[1,9],NH:[1,10],WA:[2,0],ID:[2,1],MT:[2,2],ND:[2,3],MN:[2,4],IL:[2,5],WI:[2,6],MI:[2,7],NY:[2,8],RI:[2,9],MA:[2,10],
+  OR:[3,0],NV:[3,1],WY:[3,2],SD:[3,3],IA:[3,4],IN:[3,5],OH:[3,6],PA:[3,7],NJ:[3,8],CT:[3,9],CA:[4,0],UT:[4,1],CO:[4,2],NE:[4,3],MO:[4,4],KY:[4,5],WV:[4,6],VA:[4,7],MD:[4,8],DE:[4,9],
+  AZ:[5,1],NM:[5,2],KS:[5,3],AR:[5,4],TN:[5,5],NC:[5,6],SC:[5,7],DC:[5,8],OK:[6,3],LA:[6,4],MS:[6,5],AL:[6,6],GA:[6,7],HI:[7,0],TX:[7,3],FL:[7,8]};
+const SNAME={AL:'Alabama',AZ:'Arizona',GA:'Georgia',IL:'Illinois',KS:'Kansas',LA:'Louisiana',MO:'Missouri',NC:'North Carolina',NM:'New Mexico',NV:'Nevada',OH:'Ohio',OK:'Oklahoma',PA:'Pennsylvania',SC:'South Carolina',TX:'Texas',VA:'Virginia',WV:'West Virginia',FERC:'FERC',
+  'US-Federal':'Federal (Congress and agencies)'};
+const RL={collector:'C',webfetch:'W',manual:'M'};
+let covSel=null;
+function covStatus(j){
+  const age=j.last_read?-dayN(j.last_read):null, lim=j.route==='collector'?2:j.route==='webfetch'?8:14;
+  if(age==null)return {cls:'st-none',ic:'×',lbl:'Docket not read yet',age};
+  if((j.failures||0)>=2)return {cls:'st-late',ic:'!',lbl:`Failing for ${j.failures} nights`,age};
+  if(age>lim)return {cls:'st-late',ic:'!',lbl:`Last read ${age} days ago`,age};
+  return {cls:'st-ok',ic:'✓',lbl:'Read on schedule',age};
+}
+function covStats(code){
+  const ev=EV.filter(e=>e.ents.some(t=>t[1]===code));
+  const n=d=>ev.filter(e=>dayN(e.date)>=-d).length;
+  const cm={Verified:0,Reported:0,Unverified:0};ev.forEach(e=>cm[e.conf]=(cm[e.conf]||0)+1);
+  return {ev,n30:n(30),n90:n(90),cm,latest:ev.slice().sort((a,b)=>a.date<b.date?1:-1)[0]};
+}
+function coverage(){
+  if(!COV){$('cv-lede').textContent='This build carries no coverage data. The Brief adds it when it builds from the repository.';
+    $('cv-det').innerHTML='<p class="empty-note">Coverage appears here after the next scheduled build.</p>';return;}
+  const J={};COV.jurisdictions.forEach(j=>{J[j.code]=j;j.st=covStatus(j);j.s=covStats(j.code);});
+  const tile=(code,j)=>j?`<button type="button" class="tl on ${j.st.cls}${covSel===code?' sel':''}" data-cov="${code}" aria-pressed="${covSel===code}" title="${esc((SNAME[code]||code)+': '+j.st.lbl)}">${code==='US-Federal'?'Federal':code}<small>${j.st.ic} ${RL[j.route]||''}${j.st.age!=null?' '+j.st.age+'d':''}</small></button>`
+    :`<div class="tl off">${code}</div>`;
+  const cells=[];for(let r=0;r<8;r++)for(let c=0;c<11;c++){const s=Object.keys(TILE).find(k=>TILE[k][0]===r&&TILE[k][1]===c);
+    cells.push(s?tile(s,J[s]):'<div></div>');}
+  $('cv-grid').innerHTML=cells.join('');
+  $('cv-fed').innerHTML=['FERC','US-Federal'].filter(k=>J[k]).map(k=>tile(k,J[k])).join('');
+  const all=COV.jurisdictions,ok=all.filter(j=>j.st.cls==='st-ok').length,none=all.filter(j=>j.st.cls==='st-none').length;
+  $('cv-note').textContent=`${ok} of ${all.length} read on schedule${none?` · ${none} not read yet`:''}`;
+  $('cv-nights').innerHTML=(COV.nights||[]).map(n=>{const c=n.gap||!n.complete?'st-none':n.failing.length?'st-late':'st-ok';
+    return `<span class="${c}" title="${esc(n.failing.length?'Failing: '+n.failing.join(', '):n.gap?'No complete run that night':'All sources ok')}">${fmtD(n.date)}${n.failing.length?' · '+n.failing.length+' failing':n.gap?' · gap':' ✓'}</span>`;}).join('')
+    +(COV.collector_last_full_run?`<span class="eid" style="align-self:center;margin-left:.3rem">last complete run ${esc(COV.collector_last_full_run.slice(0,16).replace('T',' '))} UTC</span>`:'');
+  if(!covSel||!J[covSel]){
+    const pri=j=>(j.st.cls==='st-none'&&j.s.n90===0?0:j.st.cls==='st-none'?1:j.st.cls==='st-late'?2:3);
+    covSel=all.slice().sort((a,b)=>pri(a)-pri(b)||a.s.n90-b.s.n90)[0].code;
+    return coverage();
+  }
+  const j=J[covSel],s=j.s,cm=s.cm,tot=s.ev.length||1;
+  let v,vc;
+  if(s.n90===0&&j.negatives.length){v='Quiet, with a recorded negative: a proper search found nothing, so this zero is real.';vc='st-ok';}
+  else if(s.n90===0&&j.st.cls==='st-ok'){v='Quiet while being read on schedule: most likely a real lull.';vc='st-ok';}
+  else if(s.n90===0){v='Quiet and not being read: treat this as a blind spot, not a lull.';vc='st-none';}
+  else if(j.st.cls==='st-none'){v=`${s.n90} event${s.n90===1?'':'s'} in 90 days, all from fallbacks (EDGAR, mail, other sites). The commission docket itself has not been read by a manual pass yet.`;vc='st-late';}
+  else if(j.st.cls==='st-late'){v=`${s.n90} event${s.n90===1?'':'s'} in 90 days, but the source is late: recent filings may be missing.`;vc='st-late';}
+  else{v=`Active and read on schedule: ${s.n90} events in the last 90 days.`;vc='st-ok';}
+  const note=(ANN.jurisdiction_notes||{})[j.code]||j.note||'';
+  $('cv-det').innerHTML=`<h3>${esc(SNAME[j.code]||j.code)}</h3><span class="ap ${j.st.cls==='st-ok'?'y':j.st.cls==='st-late'?'q':'n'}">${j.st.ic} ${esc(j.st.lbl)}</span>
+    <p class="verdict ${vc}">${esc(v)}</p>
+    <dl class="kv">
+      <dt>Read by</dt><dd>${esc(j.read_by||'')}${j.last_try&&j.last_result!=='ok'?` · last attempt ${fmtD(j.last_try)}: ${esc(j.last_result)}`:''}</dd>
+      <dt>Last read</dt><dd>${j.last_read?fmtD(j.last_read)+` (${j.st.age} day${j.st.age===1?'':'s'} ago)`:'Never'}${j.last_error?`<br><span class="eid">${esc(j.last_error)}</span>`:''}</dd>
+      ${note?`<dt>How</dt><dd>${esc(note)}</dd>`:''}
+      <dt>Events</dt><dd>${s.n30} in 30 days · ${s.n90} in 90 · ${s.ev.length} in all</dd>
+      <dt>Confidence</dt><dd>${cm.Verified} verified · ${cm.Reported} reported · ${cm.Unverified} unverified
+        <div class="mix"><i style="flex:${cm.Verified};background:var(--ok)"></i><i style="flex:${cm.Reported};background:var(--warn)"></i><i style="flex:${cm.Unverified};background:var(--bad)"></i></div></dd>
+      ${s.latest?`<dt>Latest</dt><dd><button class="lnk" type="button" data-go="${s.latest.id}">${fmtD(s.latest.date)} · ${esc(s.latest.headline)}</button></dd>`:''}
+    </dl>
+    ${j.negatives.length?`<p class="list-h">Recorded negatives</p><ul>${j.negatives.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
+    ${j.gaps.length?`<p class="list-h" style="margin-top:.8rem">Open gaps</p><ul>${j.gaps.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
+    ${s.ev.length?`<div class="mat-act"><button class="btn" type="button" data-covf="${esc(j.code)}">Show ${esc(j.code)} in the console</button></div>`:''}`;
+}
 
 /* ---------- facets + table ---------- */
 function tally(get){const m=new Map();EV.forEach(e=>get(e).forEach(v=>m.set(v,(m.get(v)||0)+1)));
   return [...m.entries()].sort((a,b)=>b[1]-a[1]||String(a[0]).localeCompare(String(b[0])));}
 function chips(id,key,pairs){
-  const el=document.getElementById(id);
+  const el=$(id);
   el.innerHTML=pairs.map(([v,n])=>`<button class="chip" type="button" data-k="${key}" data-v="${esc(v)}" aria-pressed="false">${esc(v)}<span class="n">${n}</span></button>`).join('');
   el.onclick=e=>{const b=e.target.closest('.chip');if(!b)return;const v=b.dataset.v;
     F[key].has(v)?F[key].delete(v):F[key].add(v);syncChips();render();};
 }
-function syncChips(){document.querySelectorAll('.chip[data-k]').forEach(c=>
-  c.setAttribute('aria-pressed',F[c.dataset.k].has(c.dataset.v)?'true':'false'));}
+const PERIODS=[['30','Last 30 days'],['90','Last 90 days'],['365','Last 12 months']];
+function periodChips(){
+  $('f-per').innerHTML=PERIODS.map(([v,l])=>`<button class="chip" type="button" data-per="${v}" aria-pressed="false">${l}</button>`).join('');
+  $('f-per').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;X.per=X.per===b.dataset.per?'':b.dataset.per;syncChips();render();};
+}
+function syncChips(){
+  document.querySelectorAll('.chip[data-k]').forEach(c=>c.setAttribute('aria-pressed',F[c.dataset.k].has(c.dataset.v)?'true':'false'));
+  document.querySelectorAll('.chip[data-per]').forEach(c=>c.setAttribute('aria-pressed',X.per===c.dataset.per?'true':'false'));
+  const a=[];
+  if(X.chg)a.push(['chg',`Changed since ${fmtD(X.chg)}`]);
+  if(X.wk)a.push(['wk',`${X.wk.b==='disc'?'Found':'Dated'} ${fmtD(X.wk.from)} – ${fmtD(X.wk.to)}`]);
+  if(X.matter)a.push(['matter',`Matter: ${(ANN.matter_labels||{})[X.matter]||X.matter}`]);
+  F.party.forEach(p=>a.push(['party:'+p,`Party: ${p}`]));
+  $('act').innerHTML=a.map(([k,l])=>`<button type="button" data-rm="${esc(k)}" aria-label="Remove filter ${esc(l)}">${esc(l)} ×</button>`).join('');
+}
+$('act').onclick=e=>{const b=e.target.closest('[data-rm]');if(!b)return;const k=b.dataset.rm;
+  if(k.startsWith('party:'))F.party.delete(k.slice(6));else X[k]=null;syncChips();render();};
 function match(e){
-  const q=document.getElementById('q').value.trim().toLowerCase();
+  const q=$('q').value.trim().toLowerCase();
   if(q){const hay=(e.headline+' '+e.takeaway+' '+e.document+' '+e.subject+' '+e.id+' '+
     e.ents.map(t=>t[0]+' '+t[1]).join(' ')+' '+(e.status||'')+' '+(e.nm||'')).toLowerCase();
     if(!hay.includes(q))return false;}
@@ -443,17 +1118,23 @@ function match(e){
   if(F.jur.size&&!e.ents.some(t=>F.jur.has(t[1])))return false;
   if(F.ent.size&&!e.ents.some(t=>F.ent.has(t[0])))return false;
   if(F.lev.size&&![...F.lev].some(l=>e.levers.includes(l)))return false;
+  if(F.party.size&&!(e._pt||[]).some(p=>F.party.has(p)))return false;
+  if(X.per&&e.date<addDays(TODAY,-(+X.per)))return false;
+  if(X.chg&&!cidFor(X.chg).has(e.id))return false;
+  if(X.wk){const d=X.wk.b==='disc'?disc(e):e.date;if(d<X.wk.from||d>X.wk.to)return false;}
+  if(X.matter&&!(e.dk||[]).includes(X.matter))return false;
   return true;
 }
 let LAST=[];
 function render(){
+  if(!EV.length)return;
   const list=EV.filter(match).sort((a,b)=>{
     if(sortK==='mat'){const o={"High / near-term":0,"Medium / long-term":1};return (o[a.mat]-o[b.mat])*sortD;}
     const gv=r=>sortK==='_ent'?r.ents.map(t=>t[0]).join(','):(r[sortK]||'');
     const x=gv(a).toString().toLowerCase(),y=gv(b).toString().toLowerCase();
     return x<y?-1*sortD:x>y?1*sortD:(a.id<b.id?1:-1);});
   LAST=list;
-  const tb=document.getElementById('tb');
+  const tb=$('tb');
   tb.innerHTML=!list.length?`<tr><td colspan="8"><div class="empty">No events match these filters.</div></td></tr>`:
    list.map(e=>{
     const det=open.has(e.id)?`<tr class="det"><td colspan="8">
@@ -467,6 +1148,9 @@ function render(){
         <div><span class="det-k">Superseded</span><span class="det-v">${esc(e.sup)}</span></div>
         <div><span class="det-k">Entity rows</span><span class="det-v">${e.ents.map(t=>esc(t[0]+' · '+t[1])).join('<br>')}</span></div>
         <div><span class="det-k">Levers</span><span class="det-v">${e.levers.length?e.levers.map(l=>`<span class="pill lv">${esc(l)}</span>`).join(''):'—'}</span></div>
+        <div><span class="det-k">Found</span><span class="det-v">${fmtD(partDate(e))}${PARTS&&e.part!=null&&PARTS[e.part]?' · '+esc(PARTS[e.part].file):''}</span></div>
+        ${(e._pt||[]).length?`<div><span class="det-k">Parties named</span><span class="det-v">${esc(e._pt.join(', '))}</span></div>`:''}
+        ${(e.dk||[]).length?`<div><span class="det-k">Matters</span><span class="det-v">${e.dk.map(k=>`<button class="lnk" type="button" data-openmt="${esc(k)}">${esc((ANN.matter_labels||{})[k]||(k.startsWith('IR:')?k.slice(3)+' disclosures':k))}</button>`).join(', ')}</span></div>`:''}
       </div>
       <a href="${esc(e.url)}" target="_blank" rel="noopener">Open source document →</a></td></tr>`:'';
     return `<tr class="r${e.sup==='Yes'?' sup':''}" id="row-${e.id}" data-id="${e.id}">
@@ -474,38 +1158,116 @@ function render(){
       <td class="eid">${e.id.replace('E-20260918-','B-')}${e.ents.length>1?`<span class="pill flag">×${e.ents.length}</span>`:''}</td>
       <td><div class="ent">${e.ents.map(t=>`<span class="pill e-pill">${esc(t[0])} · ${esc(t[1])}</span>`).join('')}</div></td>
       <td>${esc(e.subject)}</td><td>${esc(e.instrument)}</td>
-      <td class="hl">${esc(e.headline)}${e.appeal==='Yes'?'<span class="pill flag">appeal</span>':''}${e.sup==='Yes'?'<span class="pill flag">superseded</span>':''}</td>
+      <td class="hl">${esc(e.headline)}${CUR_P&&CHG_SET.has(e.id)?'<span class="pill newp">new</span>':''}${e.appeal==='Yes'?'<span class="pill flag">appeal</span>':''}${e.sup==='Yes'?'<span class="pill flag">superseded</span>':''}</td>
       <td><span class="pill ${MP[e.mat]}">${e.mat.split(' / ')[0]}</span></td>
       <td><span class="pill ${CP[e.conf]}">${esc(e.conf)}</span></td></tr>${det}`;}).join('');
   const sr=list.reduce((a,e)=>a+e.ents.length,0);
-  document.getElementById('cnt').textContent=`${list.length} of ${EV.length} events · ${sr} of ${NROWS} entity rows`;
+  $('cnt').textContent=`${list.length} of ${EV.length} events · ${sr} of ${NROWS} entity rows`;
   document.querySelectorAll('.main th').forEach(t=>t.classList.toggle('on',t.dataset.k===sortK));
 }
+function clearAll(){Object.values(F).forEach(s=>s.clear());X.per='';X.chg=null;X.wk=null;X.matter=null;$('q').value='';syncChips();}
+const toConsole=()=>$('console').scrollIntoView({behavior:'smooth'});
 function goTo(id){
+  const e=BYID[id];if(!e)return;
+  if(!match(e))clearAll();
   open.add(id); render();
-  const el=document.getElementById('row-'+id);
+  const el=$('row-'+id);
   if(el){el.scrollIntoView({behavior:'smooth',block:'center'});
     document.querySelectorAll('tr.hit').forEach(r=>r.classList.remove('hit'));
     el.classList.add('hit');}
 }
+function openMatter(k){
+  mtOpen.add(k);$('mt-q').value='';$('mt-j').value='';
+  if(k.startsWith('IR:'))$('mt-ir').setAttribute('aria-pressed','true');
+  $('mt-moved').setAttribute('aria-pressed','false');
+  const i=MATTERS.findIndex(m=>m.k===k);if(i>=12)mtAll=true;
+  renderMatters();
+  const el=document.querySelector(`[data-mt="${CSS.escape(k)}"]`);
+  (el||$('matters')).scrollIntoView({behavior:'smooth',block:'start'});
+}
 document.addEventListener('click',e=>{
-  const g=e.target.closest('[data-go]'); if(g){goTo(g.dataset.go);}
+  const g=e.target.closest('[data-go]'); if(g){goTo(g.dataset.go);return;}
+  const om=e.target.closest('[data-openmt]'); if(om){e.stopPropagation();openMatter(om.dataset.openmt);return;}
+  const mt=e.target.closest('[data-mt]'); if(mt){const k=mt.dataset.mt;mtOpen.has(k)?mtOpen.delete(k):mtOpen.add(k);renderMatters();return;}
+  const mf=e.target.closest('[data-mtf]'); if(mf){clearAll();X.matter=mf.dataset.mtf;syncChips();render();toConsole();return;}
+  const cv=e.target.closest('[data-cov]'); if(cv){covSel=cv.dataset.cov;coverage();return;}
+  const cf=e.target.closest('[data-covf]'); if(cf){clearAll();F.jur.add(cf.dataset.covf);syncChips();render();toConsole();return;}
+  const pr=e.target.closest('tr[data-party]'); if(pr){clearAll();F.party.add(pr.dataset.party);syncChips();render();toConsole();return;}
 });
-document.getElementById('tb').onclick=e=>{
+$('tb').onclick=e=>{
   const tr=e.target.closest('tr.r'); if(!tr||e.target.tagName==='A')return;
   const id=tr.dataset.id; open.has(id)?open.delete(id):open.add(id); render();};
 document.querySelectorAll('.main th').forEach(t=>t.onclick=()=>{
   const k=t.dataset.k;
   if(sortK===k)sortD*=-1; else{sortK=k;sortD=(k==='date'||k==='mat')?-1:1;}
   render();});
-document.getElementById('q').oninput=render;
-document.getElementById('clr').onclick=()=>{
-  Object.values(F).forEach(s=>s.clear());syncChips();
-  document.getElementById('q').value='';render();};
-document.getElementById('tl-all').onclick=()=>{tlAll=!tlAll;timeline();};
+$('q').oninput=render;
+$('clr').onclick=()=>{clearAll();render();};
+$('tl-all').onclick=()=>{tlAll=!tlAll;timeline();};
 document.querySelectorAll('[data-exp]').forEach(b=>b.onclick=()=>{
-  const el=document.getElementById(b.dataset.exp);
+  const el=$(b.dataset.exp);
   b.textContent=el.classList.toggle('collapsed')?'show all':'show fewer';});
+$('hmb').onclick=e=>{
+  const td=e.target.closest('td[data-j]'); if(!td)return;
+  clearAll(); F.jur.add(td.dataset.j); F.lev.add(td.dataset.l);
+  syncChips(); render(); toConsole();
+};
+$('chg-since').onchange=()=>{chgAll=false;changes($('chg-since').value,false);};
+$('chg-new').addEventListener('click',e=>{if(e.target.id==='chg-all'){chgAll=true;changes(CUR_P,false);}});
+$('chg-console').onclick=()=>{clearAll();X.chg=CUR_P;syncChips();render();toConsole();};
+$('mt-q').oninput=renderMatters;$('mt-j').onchange=renderMatters;
+['mt-moved','mt-ir'].forEach(id=>$(id).onclick=()=>{const b=$(id);b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')==='true'?'false':'true');renderMatters();});
+$('mt-more').onclick=()=>{mtAll=true;renderMatters();};
+$('tt-form').addEventListener('input',tester);
+$('tt-form').addEventListener('submit',e=>e.preventDefault());
+document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{
+  if(b.dataset.g)AG=b.dataset.g;if(b.dataset.b)AB=b.dataset.b;
+  b.parentNode.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false'));
+  $('ac-tip').hidden=true;activity();});
+$('ac').addEventListener('mousemove',acTip);
+$('ac').addEventListener('mouseleave',()=>{$('ac-tip').hidden=true;});
+$('ac').addEventListener('click',e=>{const r=e.target.closest('rect.hit');if(!r||!AC)return;const w=AC.weeks[+r.dataset.i].w;
+  clearAll();X.wk={from:w,to:addDays(w,6),b:AB};syncChips();render();toConsole();});
+
+/* ---------- shareable views: the whole filter state in a plain #anchor token ---------- */
+function viewState(){
+  const o={},q=$('q').value.trim();if(q)o.q=q;
+  Object.keys(F).forEach(k=>{if(F[k].size)o[k]=[...F[k]];});
+  if(X.per)o.per=X.per;if(X.chg)o.chg=X.chg;if(X.wk)o.wk=[X.wk.from,X.wk.to,X.wk.b];if(X.matter)o.mt=X.matter;
+  if(sortK!=='date'||sortD!==-1)o.s=[sortK,sortD];
+  return o;
+}
+const b64u=s=>btoa(unescape(encodeURIComponent(s))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+const unb64u=t=>{let b=t.replace(/-/g,'+').replace(/_/g,'/');while(b.length%4)b+='=';return decodeURIComponent(escape(atob(b)));};
+function applyView(tok){
+  let o;try{o=JSON.parse(unb64u(tok.slice(3)));}catch(_){return false;}
+  clearAll();
+  Object.keys(F).forEach(k=>(o[k]||[]).forEach(v=>F[k].add(v)));
+  if(o.q)$('q').value=o.q;X.per=o.per||'';X.chg=o.chg||null;X.matter=o.mt||null;
+  if(o.wk)X.wk={from:o.wk[0],to:o.wk[1],b:o.wk[2]};
+  if(o.s){sortK=o.s[0];sortD=o.s[1];}
+  syncChips();render();
+  setTimeout(()=>$('console').scrollIntoView(),50);
+  return true;
+}
+$('share').onclick=()=>{
+  const o=viewState(),base=(ANN.console_url||'').replace(/#.*$/,'');
+  const url=base+'#'+(Object.keys(o).length?'v1.'+b64u(JSON.stringify(o)):'console');
+  const box=$('sharebox'),inp=$('share-url'),msg=$('share-msg');
+  box.hidden=false;inp.value=url;
+  const fallback=()=>{inp.focus();inp.select();msg.textContent='Select the link and copy it.';};
+  try{
+    navigator.clipboard.writeText(url).then(()=>{msg.textContent='Link copied. It opens the console with these filters.';},fallback);
+  }catch(_){fallback();}
+};
+function fromHash(){
+  const h=decodeURIComponent(location.hash.slice(1));
+  if(!h)return;
+  if(h.startsWith('v1.')){applyView(h);return;}
+  const el=$(h);if(el)setTimeout(()=>el.scrollIntoView(),50);
+}
+window.addEventListener('hashchange',fromHash);
+
 function buildCSV(){
   const H=["Date","Event ID","Utility","Jurisdiction","Subject","Venue","Instrument","Document",
     "Headline","Takeaway","Status","Next Milestone","Next Date","Materiality","Confidence",
@@ -522,7 +1284,7 @@ function buildCSV(){
 (async()=>{
   let dl=null;
   try{ dl = window.claude && claude.use ? await claude.use("downloads") : null; }catch(_){ dl=null; }
-  const btn=document.getElementById('csv');
+  const btn=$('csv');
   if(!dl||!btn)return;
   btn.hidden=false;
   btn.onclick=async()=>{
@@ -540,18 +1302,19 @@ function buildCSV(){
 })();
 
 function statusBox(st){
-  const box=document.getElementById('st-box');
-  if(!st){document.getElementById('st-lbl').textContent='No status published with this data.';return;}
+  const box=$('st-box');
+  if(!st){$('st-lbl').textContent='No status published with this data.';return;}
   box.classList.remove('green','red');
   if(st.level==='green'||st.level==='red')box.classList.add(st.level);
-  document.getElementById('st-note').textContent=st.level||'';
-  document.getElementById('st-lbl').textContent=st.label||'';
-  document.getElementById('st-list').innerHTML=(st.items||[]).map(i=>`<li><b>${esc(i.b||'')}</b> ${esc(i.t||'')}</li>`).join('');
+  $('st-note').textContent=st.level||'';
+  $('st-lbl').textContent=st.label||'';
+  $('st-list').innerHTML=(st.items||[]).map(i=>`<li><b>${esc(i.b||'')}</b> ${esc(i.t||'')}</li>`).join('');
 }
 /* Every file reaches the viewer through the downloads capability; a plain link would be inert here.
    The workbook is built in this page from the full row table (tracker_xlsx.js, a port of
    tracker/build_tracker.py whose output CI checks cell for cell against the Python build). */
 /*@@TRACKER_XLSX@@*/
+
 function loadScript(src){return new Promise((ok,no)=>{const t=document.createElement('script');t.src=src;t.onload=ok;t.onerror=()=>no(new Error('load failed'));document.head.appendChild(t);});}
 let _xl=null;
 function excelJS(){
@@ -566,9 +1329,9 @@ async function downloads(d){
   let dl=null;
   try{ dl = window.claude && claude.use ? await claude.use("downloads") : null; }catch(_){ dl=null; }
   if(!dl)return;
-  const files=d.files||{}, row=document.getElementById('dlrow'), msg=document.getElementById('dlmsg');
+  const files=d.files||{}, row=$('dlrow'), msg=$('dlmsg');
   const wire=(id,name,make)=>{
-    const b=document.getElementById(id); if(!make){b.hidden=true;return false;}
+    const b=$(id); if(!make){b.hidden=true;return false;}
     b.hidden=false;
     b.onclick=async()=>{
       msg.textContent='Preparing '+name+'…'; b.disabled=true;
@@ -613,11 +1376,12 @@ function narrative(md,asof){
     out.push('<p>'+mdInline(l)+'</p>');
   });
   if(list)out.push('</ul>');
-  document.getElementById('wk').innerHTML=out.join('');
-  document.getElementById('wk-note').textContent='week to '+fmtD(asof);
-  document.getElementById('s-week').hidden=false;
+  $('wk').innerHTML=out.join('');
+  $('wk-note').textContent='week to '+fmtD(asof);
+  $('week').hidden=false;
 }
 
+const guard=(name,fn)=>{try{fn();}catch(err){console.error('[console] '+name+' failed',err);}};
 Promise.all([
   fetch('data.json').then(r=>r.json()),
   fetch('metrics.json').then(r=>r.json()).catch(()=>null),
@@ -625,11 +1389,16 @@ Promise.all([
   fetch('status.json').then(r=>r.json()).catch(()=>null)
 ]).then(([d,m,t,st])=>{
   EV=d.data;NROWS=d.rows;MET=m;TAR=t;
+  EV.forEach(e=>BYID[e.id]=e);
+  PARTS=d.parts||null;CHG=d.changes||[];ANN=d.annotations||{};COV=d.coverage||null;PARTIES=d.parties||[];
   if(d.asof)TODAY=d.asof;
-  const p=TODAY.split('-');document.getElementById('hdrdate').textContent=(+p[2])+' '+['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'][+p[1]-1]+' '+p[0];
+  SINCE=d.since||(PARTS&&PARTS.length>1?PARTS[PARTS.length-2].date:null);
+  const p=TODAY.split('-');$('hdrdate').textContent=(+p[2])+' '+['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'][+p[1]-1]+' '+p[0];
   statusBox(st);downloads(d);
   if(d.files&&d.files.md)fetch(d.files.md.path).then(r=>r.ok?r.text():null).then(md=>narrative(md,TODAY)).catch(()=>{});
-  document.getElementById('hdrcount').textContent=`${d.events} EVENTS · ${d.rows} ROWS`;
+  $('hdrcount').textContent=`${d.events} EVENTS · ${d.rows} ROWS`;
+  buildMatters();buildParties();
+  periodChips();
   chips('f-mat','mat',tally(e=>[e.mat]));
   chips('f-sub','sub',tally(e=>[e.subject]));
   chips('f-jur','jur',tally(e=>[...new Set(e.ents.map(x=>x[1]))]));
@@ -638,14 +1407,22 @@ Promise.all([
   const lt=tally(e=>e.levers);lt.sort((a,b)=>LEVORDER.indexOf(a[0])-LEVORDER.indexOf(b[0]));
   chips('f-lev','lev',lt);
   chips('f-con','con',tally(e=>[e.conf]));
+  const sp=sincePoints();
+  $('chg-since').innerHTML=[...sp.entries()].map(([v,l])=>`<option value="${v}">${esc(l)}</option>`).join('');
   const ver=EV.filter(e=>e.conf==='Verified').length;
   const np=MET?MET.data.filter(x=>x.value!=null).length:0;
-  document.getElementById('foot').innerHTML=
-    `${d.events} events · ${d.rows} entity rows · 33 entities · 18 jurisdictions · ${ver} verified at source<br>`+
-    `${np} structured metric points · ${TAR?TAR.data.length:0} tariffs · ${milestones().length} dated forward milestones — all four views above are computed from these files, not hand-maintained.<br>`+
+  $('foot').innerHTML=
+    `${d.events} events · ${d.rows} entity rows · ${new Set(EV.flatMap(e=>e.ents.map(t=>t[0]))).size} entities · ${new Set(EV.flatMap(e=>e.ents.map(t=>t[1]))).size} jurisdictions · ${ver} verified at source<br>`+
+    `${np} structured metric points · ${TAR?TAR.data.length:0} tariffs · ${milestones().length} dated forward milestones · ${MATTERS.length} matters — every view above is computed from these files, not hand-maintained.<br>`+
     `Data through ${fmtD(TODAY)} ${TODAY.slice(0,4)}. Baseline loaded 18 September 2026, covering 7 November 2025 onward; later events carry their discovery date in the Event ID. Event IDs shown as B-nnn are baseline, not observed in flight. Faded rows are superseded and retained for audit. Schema 3.5.`;
-  timeline();conversion();tariffs();heatmap();render();
+  guard('calendar',timeline);guard('conversion',conversion);guard('tariffs',tariffs);guard('heatmap',heatmap);
+  guard('activity',activity);guard('parties',parties);guard('coverage',coverage);
+  guard('changes',()=>changes(SINCE||[...sp.keys()][0],true));
+  guard('matters',renderMatters);
+  render();
+  fromHash();
 }).catch(e=>{
-  document.getElementById('tb').innerHTML=
+  $('tb').innerHTML=
     `<tr><td colspan="8"><div class="empty">Could not load the dataset.<br><small>${esc(e.message)}</small></div></td></tr>`;});
+
 </script>
