@@ -1,0 +1,302 @@
+{
+ "adapter": "regulations_gov",
+ "since": "2026-06-01",
+ "items": 87,
+ "sample": [
+  {
+   "id": "REGS:doc:EPA-HQ-OAR-2025-0124-2973",
+   "jur": "US-Federal",
+   "source": "regulations_gov",
+   "kind": "notice",
+   "docket": "EPA-HQ-OAR-2025-0124",
+   "title": "EPA: US DOE 2026 DOE 202(c) Orders [Supporting & Related Material]",
+   "filed": "2026-09-17",
+   "entity": "EPA",
+   "url": "https://www.regulations.gov/document/EPA-HQ-OAR-2025-0124-2973",
+   "fetch": [],
+   "meta": {
+    "term": "\"large load\"",
+    "fr_doc": null,
+    "comment_end": null,
+    "document_type": "Supporting & Related Material"
+   }
+  },
+  {
+   "id": "REGS:doc:EPA-HQ-OAR-2025-0124-2996",
+   "jur": "US-Federal",
+   "source": "regulations_gov",
+   "kind": "notice",
+   "docket": "EPA-HQ-OAR-2025-0124",
+   "title": "EPA: Response to Comment Document 2026 - Final Partial Repeal of the Carbon Pollution Standards for Fossil Fuel-Fired Electric Generating Units [Supporting & Related Material]",
+   "filed": "2026-09-17",
+   "entity": "EPA",
+   "url": "https://www.regulations.gov/document/EPA-HQ-OAR-2025-0124-2996",
+   "fetch": [],
+   "meta": {
+    "term": "\"large load\"",
+    "fr_doc": null,
+    "comment_end": null,
+    "document_type": "Supporting & Related Material"
+   }
+  },
+  {
+   "id": "REGS:doc:EPA-HQ-OAR-2025-0124-2982",
+   "jur": "US-Federal",
+   "source": "regulations_gov",
+   "kind": "notice",
+   "docket": "EPA-HQ-OAR-2025-0124",
+   "title": "EPA: US Dept of Energy Resource Adequacy Report. Evaluating the Reliability and Security of the United States Electric Grid [Supporting & Related Material]",
+   "filed": "2026-09-17",
+   "entity": "EPA",
+   "url": "https://www.regulations.gov/document/EPA-HQ-OAR-2025-0124-2982",
+   "fetch": [],
+   "meta": {
+    "term": "\"large load\"",
+    "fr_doc": null,
+    "comment_end": null,
+    "document_type": "Supporting & Related Material"
+   }
+  },
+  {
+   "id": "REGS:doc:EPA-HQ-OLEM-2020-0107-3280",
+   "jur": "US-Federal",
+   "source": "regulations_gov",
+   "kind": "notice",
+   "docket": "EPA-HQ-OLEM-2020-0107",
+   "title": "EPA: Public Hearing Transcript-Proposed Legacy-CCRMU Amendments Rule 052826 [Supporting & Related Material]",
+   "filed": "2026-09-30",
+   "entity": "EPA",
+   "url": "https://www.regulations.gov/document/EPA-HQ-OLEM-2020-0107-3280",
+   "fetch": [],
+   "meta": {
+    "term": "\"data center\"",
+    "fr_doc": null,
+    "comment_end": null,
+    "document_type": "Supporting & Related Material"
+   }
+  },
+  {
+   "id": "REGS:doc:EPA-HQ-OW-2003-0040-0014",
+   "jur": "US-Federal",
+   "source": "regulations_gov",
+   "kind": "notice",
+   "docket": "EPA-HQ-OW-2003-0040",
+   "title": "EPA: USEPA. 1996. ICR Microbial Laboratory Manual. Office of Research and Development. EPA/600/R-95/178. April 1996. 233 pp [W-01-17-I-B-1] [Supporting & Related Material]",
+   "filed": "2026-09-28",
+   "entity": "EPA",
+   "url": "https://www.regulations.gov/document/EPA-HQ-OW-2003-0040-0014",
+   "fetch": [],
+   "meta": {
+    "term": "\"data center\"",
+    "fr_doc": null,
+    "comment_end": null,
+    "document_type": "Supporting & Related Material"
+   }
+  },
+  {
+   "id": "REGS:doc:NRC-2026-0397-0018",
+   "jur": "US-Federal",
+   "source": "regulations_gov",
+   "kind": "notice",
+   "docket": "NRC-2026-0397",
+   "title": "NRC: Constellation Energy Generation, LLC; Christopher M. Crane Clean Energy Center; Environmental Assessment and Finding of No Significant Impact [Notice]",
+   "filed": "2026-09-25",
+   "entity": "NRC",
+   "url": "https://www.regulations.gov/document/NRC-2026-0397-0018",
+   "fetch": [],
+   "meta": {
+    "term": "\"data center\"",
+    "fr_doc": "2026-19603",
+    "comment_end": null,
+    "document_type": "Notice"
+   }
+  },
+  {
+   "id": "REGS:doc:EPA-HQ-OAR-2025-0124-2994",
+   "jur": "US-Federal",
+   "source": "regulations_gov",
+   "kind": "notice",
+   "docket": "EPA-HQ-OAR-2025-0124",
+   "title": "EPA: Regulatory Impact Analysis for the Final Partial Repeal of the Carbon Pollution Standards for Fossil Fuel-Fired Electric Generating Units [Supporting & Related Material]",
+   "filed": "2026-09-17",
+   "entity": "EPA",
+   "url": "https://www.regulations.gov/document/EPA-HQ-OAR-2025-0124-2994",
+   "fetch": [],
+   "meta": {
+    "term": "\"data center\"",
+    "fr_doc": null,
+    "comment_end": null,
+    "document_type": "Supporting & Related Material"
+   }
+  },
+  {
+   "id": "REGS:doc:EPA-HQ-OAR-2025-0124-2975",
+   "jur": "US-Federal",
+   "source": "regulations_gov",
+   "kind": "notice",
+   "docket": "EPA-HQ-OAR-2025-0124",
+   "title": "EPA: US DOE - Project Selections for Broad Agency Announcement DE-FOA-0003605 [Supporting & Related Material]",
+   "filed": "2026-09-17",
+   "entity": "EPA",
+   "url": "https://www.regulations.gov/document/EPA-HQ-OAR-2025-0124-2975",
+   "fetch": [],
+   "meta": {
+    "term": "\"data center\"",
+    "fr_doc": null,
+    "comment_end": null,
+    "document_type": "Supporting & Related Material"
+   }
+  }
+ ],
+ "notes": [],
+ "sub": {
+  "regulations_gov": {
+   "status": "rate_limited",
+   "note": "86 documents, 1 watched-party comments, 30 dockets watched"
+  }
+ },
+ "exchanges": [
+  {
+   "method": "GET",
+   "url": "https://api.regulations.gov/robots.txt",
+   "req": "None",
+   "status": 403,
+   "ctype": "application/json",
+   "len": 136,
+   "body": "{\n  \"error\": {\n    \"code\": \"API_KEY_MISSING\",\n    \"message\": \"No api_key was supplied. Get one at https://api.regulations.gov:443\"\n  }\n}"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.regulations.gov/v4/documents",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 3920,
+   "body": "{\n  \"data\" : [ {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OAR-2025-0124-2973\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b951d4f0\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-17T16:52:55Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"postedDate\" : \"2026-09-17T04:00:00Z\",\n      \"title\" : \"US DOE 2026 DOE 202(c) Orders\",\n      \"docketId\" : \"EPA-HQ-OAR-2025-0124\",\n      \"subtype\" : \"Order\",\n      \"allowLateComments\" : false\n    }\n  }, {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OAR-2025-0124-2996\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b9551fdf\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-17T16:52:58Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"postedDate\" : \"2026-09-17T04:00:00Z\",\n      \"title\" : \"Response to Comment Document 2026 - Final Partial Repeal of the Carbon Pollution Standards for Fossil Fuel-Fired Electric Generating Units\",\n      \"docketId\" : \"EPA-HQ-OAR-2025-0124\",\n      \"subtype\" : \"Comment Response\",\n      \"allowLateComments\" : false\n    }\n  }, {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OAR-2025-0124-2982\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b951d4f9\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-17T16:52:56Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"pos"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.regulations.gov/v4/documents",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 29873,
+   "body": "{\n  \"data\" : [ {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OLEM-2020-0107-3280\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b95c73bb\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-30T19:24:52Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"postedDate\" : \"2026-09-30T04:00:00Z\",\n      \"title\" : \"Public Hearing Transcript-Proposed Legacy-CCRMU Amendments Rule 052826\",\n      \"docketId\" : \"EPA-HQ-OLEM-2020-0107\",\n      \"subtype\" : \"Transcript\",\n      \"allowLateComments\" : false\n    }\n  }, {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OW-2003-0040-0014\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b8dcb4ed\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-28T20:55:20Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"postedDate\" : \"2026-09-28T04:00:00Z\",\n      \"title\" : \"USEPA. 1996. ICR Microbial Laboratory Manual. Office of Research and Development. EPA/600/R-95/178. April 1996. 233 pp [W-01-17-I-B-1]\",\n      \"docketId\" : \"EPA-HQ-OW-2003-0040\",\n      \"subtype\" : \"Publication - USEPA\",\n      \"allowLateComments\" : false\n    }\n  }, {\n    \"type\" : \"documents\",\n    \"id\" : \"NRC-2026-0397-0018\",\n    \"attributes\" : {\n      \"agencyId\" : \"NRC\",\n      \"objectId\" : \"09000064b95c54a0\",\n      \"frDocNum\" : \"2026-19603\",\n      \"documentType\" : \"Notice\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : \"2026-09-25T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-09-25T16:33:25Z\",\n      \"openForComment\" : false,\n      "
+  },
+  {
+   "method": "GET",
+   "url": "https://api.regulations.gov/v4/documents",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 30294,
+   "body": "{\n  \"data\" : [ {\n    \"type\" : \"documents\",\n    \"id\" : \"NRC-2025-1138-0025\",\n    \"attributes\" : {\n      \"agencyId\" : \"NRC\",\n      \"objectId\" : \"09000064b95d4332\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-28T17:40:00Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"postedDate\" : \"2026-09-28T04:00:00Z\",\n      \"title\" : \"Unofficial Redline Strikeout for Proposed Rule: Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational Oversight (ML26191A073)\",\n      \"docketId\" : \"NRC-2025-1138\",\n      \"subtype\" : null,\n      \"allowLateComments\" : false\n    }\n  }, {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OAR-2025-0302-0019\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b93d10a7\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-28T16:47:08Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"postedDate\" : \"2026-09-28T04:00:00Z\",\n      \"title\" : \"ILTA Petition For Review\",\n      \"docketId\" : \"EPA-HQ-OAR-2025-0302\",\n      \"subtype\" : \"Petition\",\n      \"allowLateComments\" : false\n    }\n  }, {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OW-2002-0014-4037\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b8e5ce25\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-28T20:55:06Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"postedDate\" : \"2026-0"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.regulations.gov/v4/documents",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 6955,
+   "body": "{\n  \"data\" : [ {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OLEM-2020-0107-3280\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b95c73bb\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-30T19:24:52Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"postedDate\" : \"2026-09-30T04:00:00Z\",\n      \"title\" : \"Public Hearing Transcript-Proposed Legacy-CCRMU Amendments Rule 052826\",\n      \"docketId\" : \"EPA-HQ-OLEM-2020-0107\",\n      \"subtype\" : \"Transcript\",\n      \"allowLateComments\" : false\n    }\n  }, {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OAR-2025-0124-2973\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b951d4f0\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-17T16:52:55Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"postedDate\" : \"2026-09-17T04:00:00Z\",\n      \"title\" : \"US DOE 2026 DOE 202(c) Orders\",\n      \"docketId\" : \"EPA-HQ-OAR-2025-0124\",\n      \"subtype\" : \"Order\",\n      \"allowLateComments\" : false\n    }\n  }, {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OAR-2025-0124-2996\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b9551fdf\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-17T16:52:58Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"postedDate\" : \"2026-09-17T04:00:00Z\",\n      \"title\" : \"Response to Comment "
+  },
+  {
+   "method": "GET",
+   "url": "https://api.regulations.gov/v4/documents",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 7293,
+   "body": "{\n  \"data\" : [ {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OAR-2025-0124-2994\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b95502ff\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-17T16:52:58Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"postedDate\" : \"2026-09-17T04:00:00Z\",\n      \"title\" : \"Regulatory Impact Analysis for the Final Partial Repeal of the Carbon Pollution Standards for Fossil Fuel-Fired Electric Generating Units\",\n      \"docketId\" : \"EPA-HQ-OAR-2025-0124\",\n      \"subtype\" : \"Publication - USEPA\",\n      \"allowLateComments\" : false\n    }\n  }, {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OAR-2025-0124-2975\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b951d4f2\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-17T16:52:55Z\",\n      \"openForComment\" : false,\n      \"withinCommentPeriod\" : false,\n      \"postedDate\" : \"2026-09-17T04:00:00Z\",\n      \"title\" : \"US DOE - Project Selections for Broad Agency Announcement DE-FOA-0003605\",\n      \"docketId\" : \"EPA-HQ-OAR-2025-0124\",\n      \"subtype\" : \"Publication - Other Governmental\",\n      \"allowLateComments\" : false\n    }\n  }, {\n    \"type\" : \"documents\",\n    \"id\" : \"EPA-HQ-OAR-2025-0124-2996\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b9551fdf\",\n      \"frDocNum\" : null,\n      \"documentType\" : \"Supporting & Related Material\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"commentEndDate\" : null,\n      \"commentStartDate\" : null,\n      \"lastModifiedDate\" : \"2026-09-17T16:52:58Z\",\n      \""
+  },
+  {
+   "method": "GET",
+   "url": "https://api.regulations.gov/v4/comments",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 20534,
+   "body": "{\n  \"data\" : [ {\n    \"id\" : \"EPA-HQ-OAR-2025-0124-3055\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b95e16f3\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"postedDate\" : \"2026-09-30T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-09-30T20:04:24Z\",\n      \"title\" : \"Comment submitted by Attorneys General of New York et al.\"\n    }\n  }, {\n    \"id\" : \"EPA-HQ-OAR-2025-0124-3054\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b95c72df\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"postedDate\" : \"2026-09-28T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-09-28T22:06:31Z\",\n      \"title\" : \"Comment submitted by National Wildlife Federation\"\n    }\n  }, {\n    \"id\" : \"EPA-HQ-OAR-2025-0124-3044\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b95a9487\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"postedDate\" : \"2026-09-23T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-09-24T00:00:54Z\",\n      \"title\" : \"Comment submitted by David Dibbell\"\n    }\n  }, {\n    \"id\" : \"EPA-HQ-OAR-2025-0124-3047\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b95b0121\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"postedDate\" : \"2026-09-23T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-09-24T00:00:55Z\",\n      \"title\" : \"Comment submitted by K. Jacquelyn Omosunbo Omotalade\"\n    }\n  }, {\n    \"id\" : \"EPA-HQ-OAR-2025-0124-3053\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b95b301a\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n    "
+  },
+  {
+   "method": "GET",
+   "url": "https://api.regulations.gov/v4/comments/EPA-HQ-OAR-2025-0124-3051",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/vnd.api+json;charset=utf-8",
+   "len": 3599,
+   "body": "{\n  \"data\" : {\n    \"id\" : \"EPA-HQ-OAR-2025-0124-3051\",\n    \"type\" : \"comments\",\n    \"links\" : {\n      \"self\" : \"https://api.regulations.gov/v4/comments/EPA-HQ-OAR-2025-0124-3051\"\n    },\n    \"attributes\" : {\n      \"commentOn\" : \"09000064b957e416\",\n      \"commentOnDocumentId\" : \"EPA-HQ-OAR-2025-0124-2920\",\n      \"duplicateComments\" : 1,\n      \"address1\" : null,\n      \"address2\" : null,\n      \"agencyId\" : \"EPA\",\n      \"city\" : null,\n      \"category\" : null,\n      \"comment\" : \"See attached file(s)\",\n      \"country\" : null,\n      \"displayProperties\" : [ {\n        \"name\" : \"pageCount\",\n        \"label\" : \"Page Count\",\n        \"tooltip\" : \"Number of pages In the content file\"\n      } ],\n      \"docAbstract\" : \"Other submitters:  League of Conservation Voters, Earthjustice, Natural Resources Defense Council, WE ACT for Environmental Justice, Union of Concerned Scientists\",\n      \"docketId\" : \"EPA-HQ-OAR-2025-0124\",\n      \"documentType\" : \"Public Submission\",\n      \"email\" : null,\n      \"fax\" : null,\n      \"field1\" : null,\n      \"field2\" : null,\n      \"fileFormats\" : null,\n      \"firstName\" : null,\n      \"govAgency\" : null,\n      \"govAgencyType\" : null,\n      \"objectId\" : \"09000064b95b2dfd\",\n      \"lastName\" : null,\n      \"legacyId\" : null,\n      \"modifyDate\" : \"2026-09-24T00:00:57Z\",\n      \"organization\" : null,\n      \"originalDocumentId\" : null,\n      \"pageCount\" : 1,\n      \"phone\" : null,\n      \"postedDate\" : \"2026-09-23T04:00:00Z\",\n      \"postmarkDate\" : \"2026-09-22T04:00:00Z\",\n      \"reasonWithdrawn\" : null,\n      \"receiveDate\" : \"2026-09-22T04:00:00Z\",\n      \"restrictReason\" : null,\n      \"restrictReasonType\" : null,\n      \"stateProvinceRegion\" : null,\n      \"submitterRep\" : null,\n      \"submitterRepAddress\" : null,\n      \"submitterRepCityState\" : null,\n      \"subtype\" : \"Company/Organization Comment\",\n      \"title\" : \"Comment submitted by Sierra Club et al.\",\n      \"trackingNbr\" : \"mud-2cqv-5cgl\",\n      \"withdrawn\" : false,\n      \"zip\" : null,\n      \"openForComment\" : f"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.regulations.gov/v4/comments",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 105094,
+   "body": "{\n  \"data\" : [ {\n    \"id\" : \"EPA-HQ-OLEM-2020-0107-3279\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b93e3760\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"postedDate\" : \"2026-08-04T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-08-05T04:14:19Z\",\n      \"title\" : \"Comment submitted by Oglethorpe Power Corporation\"\n    }\n  }, {\n    \"id\" : \"EPA-HQ-OLEM-2020-0107-3278\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b93bc99f\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"postedDate\" : \"2026-07-27T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-07-27T21:30:31Z\",\n      \"title\" : \"Comment submitted by Representative Gary Palmer et al., U.S. Congress\"\n    }\n  }, {\n    \"id\" : \"EPA-HQ-OLEM-2020-0107-3277\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b93b15b3\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"postedDate\" : \"2026-07-24T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-07-24T23:05:30Z\",\n      \"title\" : \"Comment submitted by Hoosier Environmental Council et al.\"\n    }\n  }, {\n    \"id\" : \"EPA-HQ-OLEM-2020-0107-3267\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b93572fb\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"postedDate\" : \"2026-07-14T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-07-14T21:01:10Z\",\n      \"title\" : \"Comment submitted by Teresa Delima\"\n    }\n  }, {\n    \"id\" : \"EPA-HQ-OLEM-2020-0107-3276\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"EPA\",\n      \"objectId\" : \"09000064b935ab01\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highligh"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.regulations.gov/v4/comments",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 564,
+   "body": "{\n  \"data\" : [ ],\n  \"meta\" : {\n    \"aggregations\" : {\n      \"agencyId\" : [ ],\n      \"postedDate\" : [ ]\n    },\n    \"filters\" : {\n      \"postedDate\" : {\n        \"fromDate\" : \"2026-06-01\",\n        \"toDate\" : null\n      },\n      \"docketId\" : {\n        \"label\" : \"EPA-HQ-OW-2003-0040\",\n        \"value\" : \"EPA-HQ-OW-2003-0040\"\n      }\n    },\n    \"hasNextPage\" : false,\n    \"hasPreviousPage\" : false,\n    \"numberOfElements\" : 0,\n    \"pageNumber\" : 1,\n    \"pageSize\" : 250,\n    \"totalElements\" : 0,\n    \"totalPages\" : 0,\n    \"firstPage\" : true,\n    \"lastPage\" : true\n  }\n}"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.regulations.gov/v4/comments",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 3672,
+   "body": "{\n  \"data\" : [ {\n    \"id\" : \"NRC-2026-0397-0016\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"NRC\",\n      \"objectId\" : \"09000064b936d997\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"postedDate\" : \"2026-07-16T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-07-16T21:25:38Z\",\n      \"title\" : \"Comment (5) of Coja Yamashita  on FR Doc # 2026-11377, NRC-2026-0397-0011, from Pennsylvania Fish and Boat Commission\"\n    }\n  }, {\n    \"id\" : \"NRC-2026-0397-0017\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"NRC\",\n      \"objectId\" : \"09000064b9372f7c\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"postedDate\" : \"2026-07-16T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-07-16T21:27:09Z\",\n      \"title\" : \"Comment (6) of Mark McManus  on FR Doc # 2026-11377, NRC-2026-0397-0011, from United Association of Journeymen and Apprentices of the Plumbing and Pipefitting Industry of the U.S. and Canada\"\n    }\n  }, {\n    \"id\" : \"NRC-2026-0397-0015\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"NRC\",\n      \"objectId\" : \"09000064b936520f\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"postedDate\" : \"2026-07-16T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-07-16T21:23:39Z\",\n      \"title\" : \"Comment (4) of Jeffrey Mason on FR Doc # 2026-11377, NRC-2026-0397-0011, from Jeffrey Mason\"\n    }\n  }, {\n    \"id\" : \"NRC-2026-0397-0012\",\n    \"type\" : \"comments\",\n    \"attributes\" : {\n      \"agencyId\" : \"NRC\",\n      \"objectId\" : \"09000064b931d9b7\",\n      \"documentType\" : \"Public Submission\",\n      \"withdrawn\" : false,\n      \"highlightedContent\" : \"\",\n      \"postedDate\" : \"2026-07-01T04:00:00Z\",\n      \"lastModifiedDate\" : \"2026-07-01T15:34:17Z\",\n      \"title\" : \"Comment (1) of Anonymous  on FR Doc # 2026-11377, NRC-2026-0397-0011, from Anonymous\"\n    }\n  },"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.regulations.gov/v4/comments",
+   "req": "None",
+   "status": 429,
+   "ctype": "application/json",
+   "len": 185,
+   "body": "{\n  \"error\": {\n    \"code\": \"OVER_RATE_LIMIT\",\n    \"message\": \"You have exceeded your rate limit. Try again later or contact us for assistance: https://www.regulations.gov/support\"\n  }\n}"
+  }
+ ],
+ "adapter_state": {
+  "dockets": {
+   "EPA-HQ-OAR-2025-0124": "2026-10-04",
+   "EPA-HQ-OLEM-2020-0107": "2026-10-04",
+   "EPA-HQ-OW-2003-0040": "2026-10-04",
+   "NRC-2026-0397": "2026-10-04",
+   "EPA-HQ-OW-1990-8153": "2026-10-04",
+   "EPA-R08-OAR-2023-0495": "2026-10-04",
+   "DOE-HQ-2026-1123": "2026-10-04",
+   "EPA-R05-OW-2026-1618": "2026-10-04",
+   "EPA-R04-OAR-2023-0227": "2026-10-04",
+   "EPA-R05-OW-2026-6569": "2026-10-04",
+   "EPA-R05-OAR-2018-0788": "2026-10-04",
+   "EPA-HQ-OW-2002-0030": "2026-10-04",
+   "EPA-R07-OAR-2026-5842": "2026-10-04",
+   "EPA-R05-OW-2026-6568": "2026-10-04",
+   "EPA-R08-OAR-2026-1651": "2026-10-04",
+   "NRC-2025-1138": "2026-10-04",
+   "EPA-HQ-OAR-2025-0302": "2026-10-04",
+   "EPA-HQ-OW-2002-0014": "2026-10-04",
+   "EPA-HQ-OW-1986-0161": "2026-10-04",
+   "EPA-R05-OAR-2026-1354": "2026-10-04",
+   "EPA-HQ-OAR-2022-0730": "2026-10-04",
+   "EPA-HQ-OPPT-2018-0465": "2026-10-04",
+   "NRC-2026-0265": "2026-10-04",
+   "EPA-HQ-OLEM-2025-2499": "2026-10-04",
+   "EPA-R04-OAR-2024-0241": "2026-10-04",
+   "EPA-HQ-OPPT-2018-0488": "2026-10-04",
+   "EPA-R07-OAR-2026-5809": "2026-10-04",
+   "NRC-2025-0478": "2026-10-04",
+   "NRC-2025-0975": "2026-10-04",
+   "EPA-HQ-OLEM-2026-4886": "2026-10-04"
+  }
+ }
+}
