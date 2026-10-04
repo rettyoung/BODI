@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000196525-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "ORDER GRANTING EXTENSION OF TIME [Orders]",
+ "filed": "2026-02-19",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "2eb1e46e-649d-46d4-9094-b3f60179b1fa",
+   "name": "DOC-000196525-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000196525-26",
+  "filed_by": "laurieann santillanes",
+  "document_type": "Orders",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:50:14Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000196525-26",
+   "name": "DOC-000196525-26",
+   "bytes": 229970,
+   "sha256": "1e27ca73846e94720768ca7ef55121b3a40b1806f5a1efe87d0dc34135dbaa22",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "              BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n IN THE MATTER OF THE APPLICATION OF EL                                )\n PASO ELECTRIC COMPANY FOR REVISION OF                                 )\n ITS RETAIL ELECTRIC RATES,                                            ) Docket No. 25-00082-UT\n EL PASO ELECTRIC COMPANY,                                             )\n Applicant.                                                            )\n\n                          ORDER GRANTING EXTENSION OF TIME\n\n         THIS MATTER comes before the New Mexico Public Regulation Commission\n\n(“Commission”) upon El Paso Electric Company’s (“EPE”) Unopposed And Verified Motion For\n\nVariance Regarding Rate Case Filing Deadline (“Motion”). The Commission grants EPE’s motion\n\nfor a four week extension of the deadline for the filing of its rate case, for the following reasons.\n\n                                           DISCUSSION\n\n         1.       On February 6, 2026, EPE filed its Motion for “an order granting EPE a variance\n\nfrom the requirement that it file its rate case package no later than 150 days after the last day of\n\nthe Base Period.” 1 EPE sought the positions of parties to its most recent rate case, Case No. 20-\n\n00104-UT, and no opposition was expressed by those parties. 2\n\n         2.       EPE seeks a four-week extension of the deadline for its rate case filing to be\n\ntendered, which would allow EPE to file its rate case on or before March 27, 2026, with a base\n\nperiod ending on September 30, 2025. 3\n\n         3.       On February 12, 2026, the Commission issued its Order Shortening Deadline for\n\nResponses, which established that EPE’s Motion shall be addressed by the Commission as a\n\n\n\n\n1 Motion (February 6, 2026) at 1.\n\n\n2 Id. ¶ 18.\n\n\n3 Id. ¶¶ 5-6, and ¶ 13.\n\fmotion for extension of time, and ordered responses to EPE’s Motion to be filed by February 17,\n\n2026. 4\n\n          4.    No responses were filed to EPE’s unopposed Motion.\n\n          5.    Rule 1.2.2.8(K) NMAC establishes that the time by which any person is required\n\nto act under any rule may be extended by the commission or presiding officer for good cause.\n\n          6.    In its Motion, EPE identified three challenges that have slowed its preparation of\n\nits rate case application, 5 and stated that it is not clear whether EPE will be able to complete its\n\nrate case package by February 27, 2026. 6 EPE asserted that “[r]ushing the rate case package\n\nincreases the possibility of an error or inaccuracy that will require time and resources to correct,”\n\nand that “[i]t benefits all parties to avoid such errors and allow EPE time to make the rate package\n\nas complete and accurate as possible. 7\n\n          7.    The Commission finds good cause for granting EPE an extension of time for the\n\nfiling of its rate case package.\n\n          IT IS THEREFORE ORDERED:\n\n          A.    EPE’s motion for a four-week extension of the deadline for the filing of its rate case\n\npackage is GRANTED.\n\n          B.    EPE shall file its rate case no later than March 27, 2026.\n\n          C.    This Order is effective when signed.\n\n\n\n\n4 Order Shortening Deadline for Responses (February 12, 2026) Decretal ¶¶ A, B.\n\n\n5 Motion ¶ 9.\n\n\n6 Id. ¶ 11.\n\n\n7 Id. ¶ 12.\n\n\nDocket No. 25-00082-UT\nOrder Granting Extension of Time\nPage 2 of 3\n\f       D.      In computing time in accordance with statute, regulation, or Commission order, the\n\ncomputation shall begin on the date that this Order is filed with the Chief Clerk of the\n\nCommission’s Records Management Bureau or the Chief Clerk’s designee.\n\n       SIGNED under the Seal of the Commission at Santa Fe, New Mexico, this 19th day of\n\nFebruary, 2026.\n\n                         NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n                         /s/ Gabriel Aguilera, electronically signed\n                          GABRIEL AGUILERA, COMMISSIONER\n\n\n\n\nDocket No. 25-00082-UT\nOrder Granting Extension of Time\nPage 3 of 3\n\f"
+  }
+ ]
+}

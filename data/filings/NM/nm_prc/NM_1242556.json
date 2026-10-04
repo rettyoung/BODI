@@ -1,0 +1,31 @@
+{
+ "id": "NM:1242556",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "COALITION FOR CLEAN AFFORDABLE ENERGY’S MOTION FOR LEAVE TO INTERVENE [Motion]",
+ "filed": "2026-01-12",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "c1e6d20a-b16e-4442-ac69-cc347528b13c",
+   "name": "1242556"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "1242556",
+  "filed_by": "DESAILLAN, C.",
+  "document_type": "Motion",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:38:32Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [],
+ "documents": []
+}

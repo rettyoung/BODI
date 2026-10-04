@@ -1,0 +1,31 @@
+{
+ "id": "NM:DOC-000305776-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "Walmart's Motion for Leave to Intervene and Request for Discovery [Motion]",
+ "filed": "2026-05-21",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "904ef7ec-8c76-4339-9868-b4510129cad8",
+   "name": "DOC-000305776-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000305776-26",
+  "filed_by": "Julie Clark",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:48:04Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [
+  "Walmart"
+ ],
+ "documents": []
+}

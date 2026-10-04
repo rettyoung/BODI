@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000272668-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Updated Confidentiality Agreement of Andrienne Follett [Confidentiality Agreement]",
+ "filed": "2026-04-27",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "3cb28dfd-1cfb-4032-a38c-b43900d695ef",
+   "name": "DOC-000272668-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000272668-26",
+  "filed_by": "Ebony Payton",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:34:08Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000272668-26",
+   "name": "DOC-000272668-26",
+   "bytes": 56163,
+   "sha256": "cd15d47f7341c064055ca67d0f03339d53c93f5f36b9a8d4b5b0ea003f772242",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                           ATTACIIMENT A\n\n             BEFORE TIIE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n  IN THE MATTER OF SOUTHWESTERN PUBLIC                               )\n  SERVICE COMPANY'S APPLICATION FOR: (1)                             )\n  REVISION OF ITS RETAIL RATES UNDER ADVICE                          )   Docket 25-00079-UT\n  NOTICE 341; AND {2} OTHER ASSOCIATED RELIEF                        )\n\n\n                                 CONF'IDENTIALITY AGREEMENT\n\n         I hereby certify that I am familiar with the terms and conditions of the protective order entered\n\nby the Commission in the above-captioned case and agree to be bound by the terms and conditions\n\nof it. I also consent to the jurisdiction of the New Mexico Public Regulation Commission and the\n\ncourts of the State of New Mexico for the resolution of disputes regarding alleged violations of the\n\nprotective order and this confidentiality agreement.\n\n\n\n\nAdrienne J. Follett                                     Administrative Assistant\nName (print or type)\n\n\n\n\n                                                        16690 Swingley Ridge Road, Suite 140\nFederal Executive Agencies                              Chesterfield MO 63017\nRepresenting                                            Business Address\n\n\n\nApril2A,2A26\nDate\n\n\n\n\naf ollett@,c onsu ltb ai. c om\nEmail Address\n\f"
+  }
+ ]
+}

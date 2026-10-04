@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000198145-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "CCAE Confidentiality Agreement of Cara R. Lynch [Confidentiality Agreement]",
+ "filed": "2026-02-20",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "cf5ab99a-fbc4-4a20-8866-b3f701503cea",
+   "name": "DOC-000198145-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000198145-26",
+  "filed_by": "Caitlin  Evans",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:36:44Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000198145-26",
+   "name": "DOC-000198145-26",
+   "bytes": 200619,
+   "sha256": "446520389e25d63e56fbe4ba824ff4028fdcb68dc548fb1d908f89ee4a6f600c",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "          BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\nIN THE MATTER OF SOUTHWESTERN PUBLIC      )\nSERVICE COMPANY’S APPLICATION FOR: (1)    )\nREVISION OF ITS RETAIL RATES UNDER ADVICE )                           Case No. 25-00079-UT\nNOTICE 341, AND (2) OTHER ASSOCIATED      )\nRELIEF                                    )\n\n\n                             CONFIDENTIALITY AGREEMENT\n\n\n       I hereby certify that I am familiar with the terms and conditions of the protective order\n\nentered by the New Mexico Public Regulation Commission in the above-captioned case and\n\nagree to be bound by the terms and conditions of it. I also consent to the jurisdiction of the\n\nCommission and the courts of the State of New Mexico for the resolution of disputes regarding\n\nalleged violations of the protective order and this confidentiality agreement.\n\n\n\n\nCara R. Lynch                                         Attorney\n   Name (print or type)                                   Title\n\n\nCoalition for Clean Affordable Energy                 3105 San Joaquin Avenue SE\n                                                      Albuquerque, New Mexico 87106\n\n   Representing                                           Business Address\n\nFebruary 20, 2026                                     /s/ Cara R. Lynch\n\n   Date                                                   Signature\n\n\nLynch.cara.nm@gmail.com\n\n   Email Address\n\f"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000208808-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "New Mexico Large Customer Group's and Louisiana Energy Services' Joint Motion to Extend Rate Suspension Period [Motion]",
+ "filed": "2026-02-27",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "22e4e71f-79aa-4773-849d-b3fe018297fa",
+   "name": "DOC-000208808-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000208808-26",
+  "filed_by": "Austin Rueschhoff",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:36:15Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

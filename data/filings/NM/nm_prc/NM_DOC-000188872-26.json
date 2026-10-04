@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000188872-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "El Paso Electric Company's Motion for Admission of Eleanor D'Ambrosio to Appear Pro Hac Vice [Motion]",
+ "filed": "2026-02-10",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "ecc105f5-382c-4ec6-90ac-b3ed0149bde5",
+   "name": "DOC-000188872-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000188872-26",
+  "filed_by": "Jeffrey Wechsler",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:50:20Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000227443-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "NMDOJ Confidentiality Agreement of Matthew Bandyk [Confidentiality Agreement]",
+ "filed": "2026-03-17",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "9eed790d-52da-4818-b865-b41000ff6365",
+   "name": "DOC-000227443-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000227443-26",
+  "filed_by": "Matthew Bandyk",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:35:15Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000227443-26",
+   "name": "DOC-000227443-26",
+   "bytes": 668260,
+   "sha256": "36f52b5523b0fd12c69b55537a9e55f8fbba7c62cf51703d88d986377881067b",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 1,
+   "truncated": false,
+   "text": "DOCKET NUMBER FILED DATE & TIME\n25-00079-UT 03/17/2026 09:30 AM MST\n\nFILED WITH NMPRC\n\nBEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\nIN THE MATTER OF SOUTHWESTERN\nPUBLIC SERVICE COMPANY’S\nAPPLICATION FOR: (1) REVISION OF ITS\nRETAIL RATES UNDER ADVICE NOTICE\n341; AND (2) OTHER ASSOCIATED RELIEF.\nCASE NO. 25-00079-UT\nSOUTHWESTERN PUBLIC SERVICE\nCOMPANY,\n\nAPPLICANT.\n\nNee Nee eee eS\n\nCONFIDENTIALITY AGREEMENT\nI hereby certify that I am familiar with the terms and conditions of the Protective Order\nentered by the Commission in the above-captioned case and agree to be bound by the terms and\nconditions thereof. I also consent to the jurisdiction of the New Mexico Public Regulation\nCommission and the courts of the State of New Mexico for the resolution of disputes\n\nregarding alleged violations of the Protective Order and this Confidentiality Agreement.\n\nWal+hew Bardyle Senor (odsultiat S Lakes Bntrga\nName (print or type) Title\n\nPQ boy 864 Nuchort mE 14670\n\nN M8 OS Business Address\nL/\\T/2b WAT lh—\nDate Signature\n\nmandate Q@_S lakes vnergy. tom\nEmail Address\n\n"
+  }
+ ]
+}

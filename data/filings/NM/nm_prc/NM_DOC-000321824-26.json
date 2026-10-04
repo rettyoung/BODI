@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000321824-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "Philip B. Simpson's Motion for Leave to Intervene and Request for Discovery Requests and Responses [Motion]",
+ "filed": "2026-06-10",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "4002914a-ed57-4de9-8c7e-b46501118178",
+   "name": "DOC-000321824-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000321824-26",
+  "filed_by": "Philip Simpson",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:47:40Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

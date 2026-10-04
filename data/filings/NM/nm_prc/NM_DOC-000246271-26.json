@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000246271-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "26-0000062",
+ "title": "El Paso Electric Company Advice Notice No. 317 [Advice Notice]",
+ "filed": "2026-03-27",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=8eea84cb-d4f0-4bc0-b329-c3707130261d",
+ "fetch": [
+  {
+   "nm_document": "6f6cdbd7-de97-414b-adf9-b41a010aacba",
+   "name": "DOC-000246271-26"
+  }
+ ],
+ "meta": {
+  "caseId": "8eea84cb-d4f0-4bc0-b329-c3707130261d",
+  "document_number": "DOC-000246271-26",
+  "filed_by": "Jeffrey Wechsler",
+  "document_type": "Advice Notice",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:51:02Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

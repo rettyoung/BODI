@@ -1,0 +1,44 @@
+{
+ "id": "NM:DOC-000305785-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "Walmart Confidentiality Agreement-Steve W. Chriss [Confidentiality Agreement]",
+ "filed": "2026-05-21",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "463a54c6-aa5c-46c2-81ab-b451012b2ee4",
+   "name": "DOC-000305785-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000305785-26",
+  "filed_by": "Julie Clark",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:47:58Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [
+  "Walmart"
+ ],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000305785-26",
+   "name": "DOC-000305785-26",
+   "bytes": 236394,
+   "sha256": "b6899677ef34803a2fa48dca96f3e28af3a2cdfe2fe4aa4b955c821d7eec82ba",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                        ATTACHMENT A\n\n\n          BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n IN THE MATTER OF THE APPLICATION                      )\n OF EL PASO ELECTRIC COMPANY FOR                       )\n REVISION OF ITS RETAIL ELECTRIC                       )     DOCKET NUMBER 25-00082-UT\n RATES PURSUANT TO ADVICE NOTICE                       )\n No. 317                                               )\n\n\n                              CONFIDENTIALITY AGREEMENT\n\n       I hereby certify that I am familiar with the terms and conditions of the protective order entered\n\nby the Commission in the above-captioned case and agree to be bound by the terms and conditions\n\nof it. I also consent to the jurisdiction of the New Mexico Public Regulation Commission and the\n\ncourts of the State of New Mexico for the resolution of disputes regarding alleged violations of the\n\nprotective order and this confidentiality agreement.\n\n\n\n\n Steve W. Chriss                                           Global Director, Utility Partnerships\nName (print or type)\n\n\n\n                                                       814 Respect Dr., Mail Stop: 5530\nWalmart Inc.                                           Bentonville, AR 72713\nRepresenting                                           Business Address\n\n\n  May 21, 2026                                             /s/ Steve W. Chriss\nDate                                                   Signature\n\n\n\n Stephen.Chriss@walmart.com\nEmail Address\n\f"
+  }
+ ]
+}

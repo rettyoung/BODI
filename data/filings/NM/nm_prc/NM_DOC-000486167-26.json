@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000486167-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "The CIty of Las Cruces' Motion for Leave to Reply to El Paso Electric Company's Response to the City's Motion to Dismiss [Motion]",
+ "filed": "2026-09-21",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "d11874cf-6b2d-4a47-86b1-b4cc0177cd3e",
+   "name": "DOC-000486167-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000486167-26",
+  "filed_by": "Anastasia Stevens",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:42:28Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000406057-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "Order Clarifying Sua Sponte Order [Orders]",
+ "filed": "2026-08-04",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "ce6044eb-9a3b-4c28-a555-b49c016a89ff",
+   "name": "DOC-000406057-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000406057-26",
+  "filed_by": "ana kippenbrock",
+  "document_type": "Orders",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:46:40Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000406057-26",
+   "name": "DOC-000406057-26",
+   "bytes": 222897,
+   "sha256": "f60ae766164b3828700b7afcbe72c0b251166d484e0b2e7abb2800f07e14cfaf",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "         BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n IN THE MATTER OF THE APPLICATION OF                       )\n EL PASO ELECTRIC COMPANY FOR                              )\n REVISION OF ITS RETAIL ELECTRIC RATES                     )   Docket No. 25-00082-UT\n PURSUANT TO ADVICE NOTICE NO. 317                         )\n\n\n                       ORDER CLARIFYING SUA SPONTE ORDER\n\n       THIS MATTER comes before the Hearing Examiners upon the Utility Division Staff's\n\nMotion to Clarify Sua Sponte Order (\"Motion\"), filed August 3, 2026. Having reviewed the\n\nMotion, being otherwise fully advised, and finding good cause, the Hearing Examiners issue the\n\nfollowing clarifications:\n\n       1.        Staff requests clarification of decretal paragraph H of the Sua Sponte Order,\n\nnoting that the second sentence appears to omit the word \"not,\" resulting in an apparent\n\ninconsistency within the paragraph. The omission was inadvertent. Accordingly, the second\n\nsentence of decretal paragraph H shall read:\n\n            a. \"Staff shall not provide any advice or commentary on whether EPE's substantive\n\n               requests are reasonable, lawful, or supported by the weight of the evidence.\"\n\n       2.        Staff also requests clarification regarding decretal paragraph G(9), which directs\n\nStaff to consider whether EPE has adequately supplemented affected discovery responses. Staff\n\nexplains that, given the volume of discovery in this proceeding and the limited seven-day review\n\nperiod, comprehensive review of discovery responses is not practicable.\n\n            a. Upon further consideration, the Hearing Examiners conclude that decretal\n\n               paragraph G(9) is unnecessary. Questions concerning the adequacy of discovery\n\n               responses are matters appropriately addressed by the parties through the normal\n\f            BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\nOrder Clarifying Sua Sponte Order                     Docket No. 25-00082-UT\n\n\n               discovery process and, if necessary, by motion practice. Accordingly, decretal\n\n               paragraph G(9) is stricken and shall have no further force or effect.\n\n       3.        Except as expressly clarified and modified herein, the Sua Sponte Order Vacating\n\nProcedural Schedule, Tolling Pending Deadlines, and Requiring the Filing of an Amended\n\nApplication remains in full force and effect.\n\n\n   ISSUED under the seal of the Commission at Santa Fe, New Mexico, on August 4, 2026.\n\n                       NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n\n\n                       Nicholas Rossi\n                       Hearing Examiner\n                       Nicholas.Rossi@prc.nm.gov\n\n\n\n\n                                                -2-\n\f"
+  }
+ ]
+}

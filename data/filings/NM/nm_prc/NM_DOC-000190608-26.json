@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000190608-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "El Paso Company's Notice of Errata [Errata Notice]",
+ "filed": "2026-02-12",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "047726ef-8317-4ab5-bc4d-b3ef017701b8",
+   "name": "DOC-000190608-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000190608-26",
+  "filed_by": "Jeffrey Wechsler",
+  "document_type": "Errata Notice",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:50:20Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

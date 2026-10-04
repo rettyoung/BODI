@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000223490-26-A1",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Southwestern Public Service Company's Attachment MAK-BR-1(m) [Supporting Document]",
+ "filed": "2026-03-13",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "d38aa924-60c9-4241-9b3e-b40c015999a4",
+   "name": "DOC-000223490-26-A1"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000223490-26-A1",
+  "filed_by": "Cindy  Baeza",
+  "document_type": "Supporting Document",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:35:50Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

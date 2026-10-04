@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000387297-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "SOUTHWESTERN PUBLIC SERVICE COMPANY’S   NOTICE OF INTENT TO USE CONFIDENTIAL MATERIAL AND REQUEST FOR CONFIDENTIAL TREATMENT   [Notices]",
+ "filed": "2026-07-16",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "acb4120d-082e-44af-9f41-b489017e4219",
+   "name": "DOC-000387297-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000387297-26",
+  "filed_by": "Cindy  Baeza",
+  "document_type": "Notices",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:25:44Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

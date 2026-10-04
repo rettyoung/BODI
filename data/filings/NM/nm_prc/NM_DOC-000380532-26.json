@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000380532-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "Order Requiring EPE and Staff Response to Motion to Dismiss and Extending Deadline for Responses [Orders]",
+ "filed": "2026-07-08",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "5ff16856-36b7-43d2-baa7-b481012f1bbf",
+   "name": "DOC-000380532-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000380532-26",
+  "filed_by": "ana kippenbrock",
+  "document_type": "Orders",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:47:10Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000380532-26",
+   "name": "DOC-000380532-26",
+   "bytes": 207775,
+   "sha256": "9af3205913b807c17647fb939b8e0d1ce528200a03934141f590e968e5d419a1",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "         BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n IN THE MATTER OF THE APPLICATION OF                        )\n EL PASO ELECTRIC COMPANY FOR                               )\n REVISION OF ITS RETAIL ELECTRIC RATES                      )   Docket No. 25-00082-UT\n PURSUANT TO ADVICE NOTICE NO. 317                          )\n\n\n    ORDER REQUIRING EPE AND STAFF RESPONSE TO MOTION TO DISMISS\n              AND EXTENDING DEADLINE FOR RESPONSES\n\n       THIS MATTER comes before hearing examiner Jocelyn Barrett upon the filing of the\n\nCity of Las Cruces’s (“CLC”) Verified Motion to Dismiss El Paso Electric Company’s Application\n\nfor Revision of Retail Electric Rates (“Motion to Dismiss”) on June 30, 2026. Having reviewed\n\nthe Motion to Dismiss and considered the overall posture of the case, the Hearing Examiner finds\n\nthat the issues presented require a fully developed record, including responses from both the\n\nApplicant and Utility Division Staff. The Hearing Examiner further finds that an extension of the\n\nresponse deadline is appropriate to provide the parties with adequate time to address the legal and\n\nprocedural issues raised by the Motion.\n\n       IT IS THEREFORE ORDERED:\n\n       A.      Pursuant to 1.2.2.12 NMAC and the Hearing Examiner's authority to regulate the\n\ncourse of this proceeding, the deadline for filing responses to the Motion to Dismiss is extended\n\nthrough Tuesday, July 21, 2026.\n\n       B.      El Paso Electric Company and Utility Division Staff shall each file a written\n\nresponse addressing the Motion on or before July 21, 2026.\n\n       C.      All other parties and intervenors may, but are not required to, file written responses\n\nto the Motion on or before July 21, 2026, should they wish to express a position or provide\n\nargument regarding the issues presented.\n\f           BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\nOrder Requiring EPE and Staff Response to Motion to Dismiss Docket No. 25-00082-UT\n\n\n      ISSUED under the seal of the Commission at Santa Fe, New Mexico, on July 8, 2026.\n\n\n\n                    NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n\n\n                                          -2-\n\f"
+  }
+ ]
+}

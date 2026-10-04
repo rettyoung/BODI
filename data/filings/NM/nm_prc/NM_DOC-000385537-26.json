@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000385537-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "Entry Of Appearance and Request For Expansion Of The Service List [Entry Of Appearance]",
+ "filed": "2026-07-15",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "a4b055be-a277-42a0-8930-b4880107c74a",
+   "name": "DOC-000385537-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000385537-26",
+  "filed_by": "Stephanie Dzur",
+  "document_type": "Entry Of Appearance",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:46:58Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

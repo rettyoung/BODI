@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000214898-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "ORDER APPOINTING SUBSTITUTE CO-HEARING EXAMINER [Orders]",
+ "filed": "2026-03-05",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "3b113220-111a-46ca-a79a-b4040126986e",
+   "name": "DOC-000214898-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000214898-26",
+  "filed_by": "laurieann santillanes",
+  "document_type": "Orders",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:36:08Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000214898-26",
+   "name": "DOC-000214898-26",
+   "bytes": 162388,
+   "sha256": "fd8e000f477a3dd7826ab690e48020987e5d4d22c886898dac1c1920395d3388",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "             BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n IN THE MATTER OF SOUTHWESTERN PUBLIC                         )\n SERVICE COMPANY’S APPLICATION FOR: (1)                       )\n REVISION OF ITS RETAIL RATES UNDER                           )      Docket No. 25-00079-UT\n ADVICE NOTICE 341; AND (2) OTHER                             )\n ASSOCIATED RELIEF                                            )\n\n\n            ORDER APPOINTING SUBSTITUTE CO-HEARING EXAMINER\n\n       THIS MATTER comes before the New Mexico Public Regulation Commission upon its\n\nown motion due to internal personnel changes within the Commission. The Commission appoints\n\na substitute co-hearing examiner to preside over this matter with Co-Hearing Examiner Patrick\n\nSchaefer.\n\n                                     FINDING AND CONCLUSION\n       1.      Due to internal personnel changes within the Commission, it is necessary to appoint\n\na substitute co-hearing examiner to preside over this case.\n\n       2.      The appointment of a substitute co-hearing examiner will provide administrative\n\nefficiency and assist in the orderly and timely resolution of this matter.\n\n       IT IS THEREFORE ORDERED:\n\n       A.      Hearing Examiner Keven Gedko is hereby appointed Co-Hearing Examiner with\n\nCo-Hearing Examiner Patrick Schaefer to preside over this matter, take all action necessary and\n\nconvenient within the limits of their authority, conduct any necessary hearings, and take any other\n\naction in this case that is consistent with law, including issuing of a recommended decision.\n\n       B.       This Order is effective when signed.\n\n       C.      This Order shall be served upon the parties in the current service list for this docket.\n\f      D.       In computing time in accordance with statute, regulation, or Commission order, the\n\ncomputation shall begin on the date that this Order is filed with the Chief Clerk of the\n\nCommission’s Records Management Bureau or the Chief Clerk’s designee.\n\n      SIGNED under the Seal of the Commission at Santa Fe, New Mexico, this 5th day of\n\nMarch, 2026.\n\n                        NEW MEXICO PUBLIC REGULATION COMMISSION\n\n                        /s/ Greg Nibert, electronically signed\n                        GREG NIBERT, COMMISSIONER\n\f"
+  }
+ ]
+}

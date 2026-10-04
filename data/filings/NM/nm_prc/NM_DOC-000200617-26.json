@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000200617-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Southwestern Public Service Company’s Notice of Filing of Affidavits of Mailing, Publication and Web Publication  [Affidavits of Publication/Notice]",
+ "filed": "2026-02-24",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "90238760-c0b5-4413-90a2-b3fb0162365b",
+   "name": "DOC-000200617-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000200617-26",
+  "filed_by": "Cindy  Baeza",
+  "document_type": "Affidavits of Publication/Notice",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:36:20Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

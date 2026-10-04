@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000451177-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "OCCIDENTAL PERMIAN LTD.S REPLY BRIEF [Brief]",
+ "filed": "2026-08-31",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "a8c8372c-8858-45df-b2d4-b4b7015b7bd3",
+   "name": "DOC-000451177-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000451177-26",
+  "filed_by": "Michael McMIllin",
+  "document_type": "Brief",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:24:44Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000451177-26",
+   "name": "DOC-000451177-26",
+   "bytes": 171699,
+   "sha256": "02980a76eb774333371dccbcf4d0f37a14b93506612b194a3d69b6bdc3c4e8cb",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "           BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n IN THE MATTER OF SOUTHWESTERN                              §\n PUBLIC SERVICE COMPANY’S                                   §\n APPLICATION FOR: (1) REVISION OF ITS                       §\n RETAIL RATES UNDER ADVICE NOTICE                           §\n 341; AND (2) OTHER ASSOCIATED RELIEF                       §         Case No. 25-00079-UT\n                                                            §\n SOUTHWESTERN PUBLIC SERVICE                                §\n COMPANY                                                    §\n                                                            §\n APPLICANT.                                                 §\n\n                       OCCIDENTAL PERMIAN LTD.’S REPLY BRIEF\n\n       Occidental Permian, Ltd. (“OPL”) respectfully submits this post-hearing reply brief. The\n\nComprehensive Stipulation (“Stipulation”) was the product of extensive negotiations between SPS\n\nand every ratepayer group that participated in this proceeding, and the record clearly demonstrates\n\nthat the Stipulation will result in “fair, just and reasonable rates.”1 The only party that opposes\n\nany portion of the Stipulation is Commission Staff, and the arguments raised in Staff’s initial brief\n\nhave all been addressed in the initial briefs filed by OPL and the other signatories to the Stipulation.\n\nAccordingly, OPL urges the Commission to adopt the Stipulation in its entirety.\n\n\n\n\n       1\n           NMSA § 62-3-1(B).\n\n                                                   1\n\fRespectfully submitted,\n\nO’MELVENY & MYERS LLP\n\n/s/ Michael A. McMillin\nPhillip G. Oldham\nKatherine L. Coleman\nMichael A. McMillin\n401 West 4th St., Suite 3300\nAustin, TX 78701\n(737) 261-8600\npoldham@omm.com\nkcoleman@omm.com\nmmcmillin@omm.com\nOMMeservice@omm.com\n\nATTORNEYS FOR OCCIDENTAL\nPERMIAN LTD.\n\n\n\n\n2\n\f        BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n IN THE MATTER OF SOUTHWESTERN                      §\n PUBLIC SERVICE COMPANY’S                           §\n APPLICATION FOR: (1) REVISION OF ITS               §\n RETAIL RATES UNDER ADVICE NOTICE                   §\n 341; AND (2) OTHER ASSOCIATED RELIEF               §        Case No. 25-00079-UT\n                                                    §\n SOUTHWESTERN PUBLIC SERVICE                        §\n COMPANY                                            §\n                                                    §\n APPLICANT.                                         §\n\n                              CERTIFICATE OF SERVICE\n\n       I HEREBY CERTIFY that a true correct copy of Occidental Permian LTD.’s Reply\n\nBrief, was served via PRCe360 on August 31, 2026.\n\n                                             /s/ Michael A. McMillin\n                                             Michael A. McMillin\n\n\n\n\n                                             1\n\f"
+  }
+ ]
+}

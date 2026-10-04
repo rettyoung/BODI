@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000350916-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "New Mexico Large Customer Group's Motion for Admission of Richard A. Arnett and Thorvald A. Nelson to Appear Pro Hac Vice [Motion]",
+ "filed": "2026-06-25",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "ce3f4b4f-7534-429f-b2b0-b474016883b0",
+   "name": "DOC-000350916-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000350916-26",
+  "filed_by": "Austin Rueschhoff",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:29:56Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

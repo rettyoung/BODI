@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000381092-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Order Granting Appearance Pro Hac Vice [Orders]",
+ "filed": "2026-07-08",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "aeaf6908-f140-4017-83ca-b48101779dd2",
+   "name": "DOC-000381092-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000381092-26",
+  "filed_by": "ana kippenbrock",
+  "document_type": "Orders",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:26:44Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000381092-26",
+   "name": "DOC-000381092-26",
+   "bytes": 202284,
+   "sha256": "74b04140ab7b8a576f4f8f2713d31b239b1477249e691be498bd8da5af82f57e",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "         BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n IN THE MATTER OF SOUTHWESTERN                              )\n PUBLIC SERVICE COMPANY’S APPLICATION                       )\n FOR: (1) REVISION OF ITS RETAIL RATES                      )         Docket No. 25-00079-UT\n UNDER ADVICE NOTICE 341; AND (2) OTHER                     )\n ASSOCIATED RELIEF                                          )\n\n\n                  ORDER GRANTING APPEARANCE PRO HAC VICE\n\n       THIS MATTER comes before hearing examiners Patrick Schaefer and Keven Gedko\n\nupon Southwestern Public Service Company’s (“SPS”) Motion for Admission of William O. Coe\n\nto Appear Pro Hac Vice for SPS in this proceeding in association with local counsels, Dana S.\n\nHardy and Patrick J. Pearsall, filed pursuant to 1.2.2.9(E) NMAC on July 8, 2026.\n\n       FINDINGS AND CONCLUSIONS:\n\n       1.      The Declaration and Registration Certificate of William O. Coe attached to the\n\nMotion show that he is a member in good standing of the State Bar of Texas and has complied\n\nwith Rule 24-106 NMRA by filing the requisite Registration Certificate of Non-Admitted Lawyer\n\nwith the State Bar of New Mexico.\n\n       2.      The Motion is unopposed.\n\n       IT IS THEREFORE ORDERED:\n\n       SPS’s Motion is GRANTED. William O. Coe is admitted to appear in this proceeding pro\n\nhac vice in association with local counsels, Dana S. Hardy and Patrick J. Pearsall.\n\f                 BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\nOrder Granting Appearance Pro Hac Vice                       Docket No. 25-00079-UT\n\n\n\n      ISSUED under the seal of the Commission at Santa Fe, New Mexico, on July 8, 2026.\n\n               NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n\n\n                             Keven Gedko\n                             Hearing Examiner\n                             Keven.Gedko@prc.nm.gov\n\n\n\n\n                                           -2-\n\f"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000244454-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "SOUTHWESTERN PUBLIC SERVICE COMPANY’S NOTICE OF CORRECTION TO FUTURE TEST YEAR DEPRECIATION EXPENSE   [Notices]",
+ "filed": "2026-03-25",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "d41a8aa8-de94-4307-8613-b4180166083e",
+   "name": "DOC-000244454-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000244454-26",
+  "filed_by": "Cindy  Baeza",
+  "document_type": "Notices",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:34:44Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000198147-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "CCAE Confidentiality Agreement of Sydney Tellez [Confidentiality Agreement]",
+ "filed": "2026-02-20",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "261582b7-6322-4638-957c-b3f70150c505",
+   "name": "DOC-000198147-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000198147-26",
+  "filed_by": "Caitlin  Evans",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:36:38Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000198147-26",
+   "name": "DOC-000198147-26",
+   "bytes": 163642,
+   "sha256": "8e475bb3591b850527af3c5eef18d60794b192970895687024dc2ec42948ea58",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "          BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\nIN THE MATTER OF SOUTHWESTERN PUBLIC      )\nSERVICE COMPANY’S APPLICATION FOR: (1)    )\nREVISION OF ITS RETAIL RATES UNDER ADVICE )                           Case No. 25-00079-UT\nNOTICE 341, AND (2) OTHER ASSOCIATED      )\nRELIEF                                    )\n\n\n                             CONFIDENTIALITY AGREEMENT\n\n\n       I hereby certify that I am familiar with the terms and conditions of the protective order\n\nentered by the New Mexico Public Regulation Commission in the above-captioned case and\n\nagree to be bound by the terms and conditions of it. I also consent to the jurisdiction of the\n\nCommission and the courts of the State of New Mexico for the resolution of disputes regarding\n\nalleged violations of the protective order and this confidentiality agreement.\n\n\n\nSydney Tellez, Esq.                                   Director of Legal & Government Affairs\n                                                      at Single Space Strategies\n\n   Name (print or type)                                   Title\n\n\nCoalition for Clean Affordable Energy                 7200 Constitution Ave NE\n                                                      Albuquerque, NM 87110\n\n   Representing                                           Business Address\n\nFebruary 20, 2026                                     /s/ Sydney Tellez\n\n   Date                                                   Signature\n\nsydney@singlespacestrategies.com\n\n   Email Address\n\f"
+  }
+ ]
+}

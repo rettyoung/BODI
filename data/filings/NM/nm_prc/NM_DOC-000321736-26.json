@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000321736-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "SECOND BENCH REQUEST [Bench Request]",
+ "filed": "2026-06-10",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "3cc312a0-eb89-4038-8bb1-b465010d8564",
+   "name": "DOC-000321736-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000321736-26",
+  "filed_by": "laurieann santillanes",
+  "document_type": "Bench Request",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:30:20Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

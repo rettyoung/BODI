@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000299429-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "WRA Confidentiality Agreement of Caitlin Evans [Confidentiality Agreement]",
+ "filed": "2026-05-14",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "cc7f6f67-39df-4eec-afb4-b44a01317ae9",
+   "name": "DOC-000299429-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000299429-26",
+  "filed_by": "Caitlin Evans",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:48:16Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000299429-26",
+   "name": "DOC-000299429-26",
+   "bytes": 116722,
+   "sha256": "9af8ce44371bd1c5faddd7eb6bc8bcdc024e743ec162748f5312eab69cf418de",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "          BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\nIN THE MATTER OF THE APPLICATION      )\nOF EL PASO ELECTRIC COMPANY FOR       )                      Docket No. 25-00082-UT\nREVISION OF ITS RETAIL ELECTRIC RATES )\nPURSUANT TO ADVICE NOTICE NO. 317     )\n\n\n                             CONFIDENTIALITY AGREEMENT\n\n         I hereby certify that I am familiar with the terms and conditions of the protective order\n\nentered by the Commission in the above-captioned case and agree to be bound by the terms and\n\nconditions of it. I also consent to the jurisdiction of the New Mexico Public Regulation\n\nCommission and the courts of the State of New Mexico for the resolution of disputes regarding\n\nalleged violations of the protective order and this confidentiality agreement.\n\n\n\n\nCaitlin Evans                                        Legal Assistant\n  Name (print or type)\n\n                                                     141 E. Palace Ave, Suite 220, Santa Fe, NM\n                                                     87501\nWestern Resource Advocates\n  Representing                                          Business Address\n\n\nMay 14, 2026                                         /s/ Caitlin Evans\n  Date                                                  Signature\n\n\n\ncaitlin.evans@westernresources.org\nEmail Address\n\f"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000390537-26-A1",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Transcript Exhibits Vol 1 [Transcript]",
+ "filed": "2026-07-22",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "bda82e4f-749f-427f-a209-b48f0126df3e",
+   "name": "DOC-000390537-26-A1"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000390537-26-A1",
+  "filed_by": "ana kippenbrock",
+  "document_type": "Transcript",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:25:44Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

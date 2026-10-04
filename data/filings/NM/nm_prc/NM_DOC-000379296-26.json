@@ -1,0 +1,44 @@
+{
+ "id": "NM:DOC-000379296-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Order Granting Motion to File Testimony In Support of Stipulation Out of Time [Orders]",
+ "filed": "2026-07-02",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "ec09fea5-e442-4884-8abf-b47b016154e8",
+   "name": "DOC-000379296-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000379296-26",
+  "filed_by": "ana kippenbrock",
+  "document_type": "Orders",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:27:38Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [
+  "Walmart"
+ ],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000379296-26",
+   "name": "DOC-000379296-26",
+   "bytes": 226099,
+   "sha256": "88780575cf525453b6f277229807a551446a331db53e0fe134103a8b716333db",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "          BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n      IN THE MATTER OF SOUTHWESTERN                                     )\n      PUBLIC SERVICE COMPANY’S APPLICATION                              )\n      FOR: (1) REVISION OF ITS RETAIL RATES                             )   Docket 25-00079-UT\n      UNDER ADVICE NOTICE 341; AND (2) OTHER                            )\n      ASSOCIATED RELIEF                                                 )\n\n\n               ORDER GRANTING MOTION TO FILE TESTIMONY IN SUPPORT\n                           OF STIPULATION OUT OF TIME\n\n          THIS MATTER comes before the Keven Gedko and Patrick Schaefer, hearing\n\nexaminers for the New Mexico Public Regulation Commission (“Commission”), upon a Motion\n\nto File Testimony in Support of Stipulation Out of Time (“Motion”) filed by Coalition for Clean\n\nAffordable Energy (“CCAE”) on July 1, 2026.1 Being duly informed, the hearing examiners\n\nFIND and CONCLUDE:\n\n          1.       The Order Revising Procedural Deadlines, filed on June 18, 2026, set June 22,\n\n    2026, as the deadline for filing of a comprehensive stipulation and June 30, 2026, as the deadline\n\n    for filing testimony in support of a contested stipulation.2\n\n          2.       On June 22, 2026, Southwestern Public Service (“SPS”), New Mexico Department\n\n    of Justice (“NMDOJ”), New Mexico Large Customer Group (“NMLCG”), Occidental Permian\n\n    Ltd. (“OPL”), Louisiana Energy Services (“LES”), Federal Executive Agencies (“FEA”), Targa\n\n    Resources Corp., Walmart Inc., Coalition for Clean Affordable Energy (“CCAE”), and Prosperity\n\n    Works (collectively, “Signatories”) filed a Comprehensive Stipulation.3\n\n          3.       On July 1, 2026, CCAE filed the present Motion, requesting a one-day extension\n\n    to July 2, 2026, to submit the Testimony in Support of Stipulation, stating the prior deadline was\n\n\n\n1\n    Motion to File Testimony in Support of Stipulation Out of Time (July 1, 2026).\n2\n    Order Revising Procedural Deadlines (June 18, 2026) at 3, ¶G.\n3\n    Comprehensive Stipulation (June 30, 2026).\n\f           BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\nOrder Granting Motion                                Docket No. 25-00079-UT\n\n\ninadvertently missed. CCAE sought the positions of the other parties prior to filing its Motion\n\nand represented that none objected.\n\n        4.     The extension requested is effectively a two-day extension through July 2, 2026.\n\n        5.     Granting the Motion will not delay the proceeding or prejudice any party.\n\nIT IS THEREFORE ORDERED:\n\n        The Motion is GRANTED. CCAE shall file testimony in support of stipulation by July 2,\n\n2026.\n\n\n        ISSUED under the Seal of the Commission at Santa Fe, New Mexico, on July 2, 2026.\n\n\n                 NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n\n                             ___________________________\n                             Patrick Schaefer\n                             Hearing Examiner\n                             Patrick.Schaefer@prc.nm.gov\n\n\n\n                             ___________________________\n                             Keven Gedko\n                             Hearing Examiner\n                             Keven.Gedko@prc.nm.gov\n\n\n\n\n                                               -2-\n\f"
+  }
+ ]
+}

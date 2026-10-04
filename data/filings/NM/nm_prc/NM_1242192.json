@@ -1,0 +1,29 @@
+{
+ "id": "NM:1242192",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "OCCIDENTAL PERMIAN LTD.’S MOTION FOR LEAVE TO INTERVENE AND REQUEST FOR DISCOVERY [Motion]",
+ "filed": "2025-12-11",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "f8480418-4164-4ed1-a2d7-8b5fefe660aa",
+   "name": "1242192"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "1242192",
+  "filed_by": "MCMILLIN, M.",
+  "document_type": "Motion",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:38:38Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

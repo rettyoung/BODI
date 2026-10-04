@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000299427-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "WRA Confidentiality Agreement of Gwen Farnsworth [Confidentiality Agreement]",
+ "filed": "2026-05-14",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "c3b79a77-4d53-4950-8ec0-b44a0130fa9c",
+   "name": "DOC-000299427-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000299427-26",
+  "filed_by": "Caitlin Evans",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:48:22Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000299427-26",
+   "name": "DOC-000299427-26",
+   "bytes": 117759,
+   "sha256": "cbb52f44d0a72ee2de0b10ff71cf91b74524a0c6836db7f6a93b68e5a358d8b2",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "          BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\nIN THE MATTER OF THE APPLICATION      )\nOF EL PASO ELECTRIC COMPANY FOR       )                      Docket No. 25-00082-UT\nREVISION OF ITS RETAIL ELECTRIC RATES )\nPURSUANT TO ADVICE NOTICE NO. 317     )\n\n\n                             CONFIDENTIALITY AGREEMENT\n\n         I hereby certify that I am familiar with the terms and conditions of the protective order\n\nentered by the Commission in the above-captioned case and agree to be bound by the terms and\n\nconditions of it. I also consent to the jurisdiction of the New Mexico Public Regulation\n\nCommission and the courts of the State of New Mexico for the resolution of disputes regarding\n\nalleged violations of the protective order and this confidentiality agreement.\n\n\n\n\nGwen Farnsworth                                      Deputy Director of State Advocacy\n  Name (print or type)\n\nWestern Resource Advocates                           1401 Walnut St, Ste 200, Boulder, CO, 80302\n  Representing                                          Business Address\n\n\nMay 14, 2026                                         /s/ Gwen Farnsworth\n  Date                                                  Signature\n\n\n\ngwen.farnsworth@westernresources.org\nEmail Address\n\f"
+  }
+ ]
+}

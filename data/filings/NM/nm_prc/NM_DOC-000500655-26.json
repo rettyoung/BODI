@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000500655-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "Joint Motion to Reject El Paso Electric Company's Late-Filed Response to the Joint Motion for Clarification and Reconsideration or for Leave to Reply [Motion]",
+ "filed": "2026-09-28",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "733668fd-aa32-4ed0-a973-b4d3015c8e54",
+   "name": "DOC-000500655-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000500655-26",
+  "filed_by": "Anastasia Stevens",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:42:22Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

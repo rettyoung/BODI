@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000385178-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "City of Las Cruces' Unopposed Motion for Leave to File Reply to El Paso Electric Company's Response to Motion to Compel [Motion]",
+ "filed": "2026-07-14",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "a52b9794-55bd-4b4e-88a8-b4870167172a",
+   "name": "DOC-000385178-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000385178-26",
+  "filed_by": "Anastasia Stevens",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:46:58Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

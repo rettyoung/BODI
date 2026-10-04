@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000316698-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "MOTION OF THE NEW MEXICO DEPARTMENT OF JUSTICE TO AMEND THE OFFICIAL SERVICE LIST [Motion]",
+ "filed": "2026-06-03",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "165c405b-d997-430d-ba58-b45e015614aa",
+   "name": "DOC-000316698-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000316698-26",
+  "filed_by": "Mark Hayden",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:47:46Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

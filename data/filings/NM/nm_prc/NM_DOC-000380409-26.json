@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000380409-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Southwestern Public Service Company’s Motion for Admission of William O. Coe to Appear Pro Hac Vice [Motion]",
+ "filed": "2026-07-08",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "2d58a0ee-e94d-4377-8a14-b48100fafa2f",
+   "name": "DOC-000380409-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000380409-26",
+  "filed_by": "Cindy  Baeza",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:26:44Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

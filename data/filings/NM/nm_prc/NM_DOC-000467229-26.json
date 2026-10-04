@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000467229-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "Affidavit of Stephen Fischmann Regarding Discovery Conference and Status of Production [Affidavit]",
+ "filed": "2026-09-11",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "c35dccd3-ee0f-4455-b4bc-b4c2005875e8",
+   "name": "DOC-000467229-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000467229-26",
+  "filed_by": "Stephen Fischmann",
+  "document_type": "Affidavit",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:42:52Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

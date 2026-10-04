@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000299420-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "WRA Confidentiality Agreement of Cydney Beadles [Confidentiality Agreement]",
+ "filed": "2026-05-14",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "6bebdc67-5c1c-4745-ba00-b44a012fd05d",
+   "name": "DOC-000299420-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000299420-26",
+  "filed_by": "Caitlin Evans",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:48:34Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000299420-26",
+   "name": "DOC-000299420-26",
+   "bytes": 116802,
+   "sha256": "3c42bd034917c5913641d6142a152707ca91aafd389f6397457cef81ee7428fc",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "          BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\nIN THE MATTER OF THE APPLICATION      )\nOF EL PASO ELECTRIC COMPANY FOR       )                      Docket No. 25-00082-UT\nREVISION OF ITS RETAIL ELECTRIC RATES )\nPURSUANT TO ADVICE NOTICE NO. 317     )\n\n\n                             CONFIDENTIALITY AGREEMENT\n\n         I hereby certify that I am familiar with the terms and conditions of the protective order\n\nentered by the Commission in the above-captioned case and agree to be bound by the terms and\n\nconditions of it. I also consent to the jurisdiction of the New Mexico Public Regulation\n\nCommission and the courts of the State of New Mexico for the resolution of disputes regarding\n\nalleged violations of the protective order and this confidentiality agreement.\n\n\n\nCydney Beadles                                       Program Manager and Senior Attorney\n  Name (print or type)\n\n                                                     141 E. Palace Ave, Suite 220, Santa Fe, NM\n                                                     87501\nWestern Resource Advocates\n  Representing                                          Business Address\n\n\nMay 14, 2026                                         /s/ Cydney Beadles\n  Date                                                  Signature\n\n\ncydney.beadles@westernresources.org\nEmail Address\n\f"
+  }
+ ]
+}

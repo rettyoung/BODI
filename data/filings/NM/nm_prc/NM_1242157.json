@@ -1,0 +1,29 @@
+{
+ "id": "NM:1242157",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "NMDOJ’S MOTION FOR LEAVE TO INTERVENE, REQUEST FOR DISCOVERY, AND MOTION TO AMEND SERVICE LIST [Motion]",
+ "filed": "2025-12-10",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "509d3c3f-6cbc-4680-ae71-c7d65f505e93",
+   "name": "1242157"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "1242157",
+  "filed_by": "HARRIS, B.",
+  "document_type": "Motion",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:38:44Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

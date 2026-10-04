@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000281046-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Account 904 (Native File to WPs of Jonathan Ly on behalf of OPL) [Other]",
+ "filed": "2026-05-04",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "efc18e60-81d0-4f5a-94a2-b440016c05fe",
+   "name": "DOC-000281046-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000281046-26",
+  "filed_by": "Michael McMIllin",
+  "document_type": "Other",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:30:56Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

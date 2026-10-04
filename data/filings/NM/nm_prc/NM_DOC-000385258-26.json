@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000385258-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Order Granting Appearance Pro Hac Vice [Orders]",
+ "filed": "2026-07-14",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "aac603ae-a69e-4b65-bcc7-b487016ffbe9",
+   "name": "DOC-000385258-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000385258-26",
+  "filed_by": "ana kippenbrock",
+  "document_type": "Orders",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:25:50Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000385258-26",
+   "name": "DOC-000385258-26",
+   "bytes": 197269,
+   "sha256": "10219dc0535845a7f61c5fb3a7030311e37f53c4ba1f8c3d2777d529989a393b",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "         BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n IN THE MATTER OF SOUTHWESTERN                             )\n PUBLIC SERVICE COMPANY’S APPLICATION                      )\n FOR: (1) REVISION OF ITS RETAIL RATES                     )      Case No. 25-00079-UT\n UNDER ADVICE NOTICE 341; AND (2) OTHER                    )\n ASSOCIATED RELIEF                                         )\n\n                  ORDER GRANTING APPEARANCE PRO HAC VICE\n\n       THIS MATTER comes before hearing examiners Patrick Schaefer and Keven Gedko\n\nupon Southwestern Public Service Company’s (“SPS”) Motion for Admission of Patrick T. Zomer\n\nto Appear Pro Hac Vice for SPS in this proceeding in association with local counsel, Dana S.\n\nHardy, filed pursuant to 1.2.2.9(E) NMAC on July 14, 2026.\n\n       FINDINGS AND CONCLUSIONS:\n\n       1.     The Declaration and Registration Certificate of Patrick T. Zomer attached to the\n\nMotion show that he is a member in good standing of the Bar of Minnesota and has complied with\n\nRule 24-106 NMRA by filing the requisite Registration Certificate of Non-Admitted Lawyer with\n\nthe State Bar of New Mexico.\n\n       2.     SPS’s motion is unopposed.\n\n       IT IS THEREFORE ORDERED:\n\n       SPS’s Motion is GRANTED. Patrick T. Zomer is admitted to appear in this proceeding\n\npro hac vice in association with local counsel Dana S. Hardy.\n\n       ISSUED under the Seal of the Commission at Santa Fe, New Mexico on July 14, 2026.\n\f"
+  }
+ ]
+}

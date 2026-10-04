@@ -1,0 +1,29 @@
+{
+ "id": "NM:1242221",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "NEW MEXICO LARGE CUSTOMER GROUP’S MOTION FOR LEAVE TO INTERVENE [Motion]",
+ "filed": "2025-12-12",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "321350a2-d6bd-4ad4-8d86-018a238702ff",
+   "name": "1242221"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "1242221",
+  "filed_by": "STOFFEL, N.",
+  "document_type": "Motion",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:38:38Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

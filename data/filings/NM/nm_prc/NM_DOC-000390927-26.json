@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000390927-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Transcript of Proceeding Vol. 4 [Transcript]",
+ "filed": "2026-07-23",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "a675ad78-4e9d-4d16-9be3-b4900113d263",
+   "name": "DOC-000390927-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000390927-26",
+  "filed_by": "ana kippenbrock",
+  "document_type": "Transcript",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:25:44Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,34 @@
+{
+ "backfill_since": "2025-11-07",
+ "run_id": "2026-10-04-0123",
+ "started": "2026-10-04T01:23:22Z",
+ "sources": {
+  "nm_prc": {
+   "since": "2025-11-07",
+   "found": 458,
+   "new": 358,
+   "baselined_now": 0,
+   "kept": 358,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "nm 25-00079-UT: 229 documents in window",
+    "nm 25-00082-UT: 125 documents in window",
+    "nm 26-0000062: 4 documents in window"
+   ],
+   "seconds": 1659.5,
+   "consecutive_failures": 0
+  }
+ },
+ "docs_fetched": 266,
+ "new_items": 358,
+ "user_agent": "BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)",
+ "finished": "2026-10-04T01:51:02Z",
+ "http_hosts": {
+  "https://e360.prc.nm.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  }
+ },
+ "seconds": 1660
+}

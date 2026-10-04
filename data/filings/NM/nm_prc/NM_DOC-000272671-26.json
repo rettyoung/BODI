@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000272671-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Updated Confidentiality Agreement of Chris Walters [Confidentiality Agreement]",
+ "filed": "2026-04-27",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "89223e06-563c-47a1-8094-b43900d73421",
+   "name": "DOC-000272671-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000272671-26",
+  "filed_by": "Ebony Payton",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:33:50Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000272671-26",
+   "name": "DOC-000272671-26",
+   "bytes": 54468,
+   "sha256": "7ac8373940d88d03a458420ce049adccc240f74111f8e2f8e7a72a8e948960ef",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                         ATTACHMENT A\n\n           BEF'ORE TIIE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n IN THE MATTER OF SOUTIIWESTERN PUBLIC                             )\n SERVICE COMPANY'S APPLICATION FOR: (1)                            )\n REVISION OF ITS RETAIL RATES UNDER ADVICE                         )   Docket 25-00079-UT\n NOTICE 341; AND (2) OTHER ASSOCIATED RELIEF                       )\n\n\n                              CONF'IDENTIALITY AGREEMENT\n\n       I hereby certify that I am familiar with the terms and conditions of the protective order entered\n\nby the Commission in the above-captioned case and agree to be bound by the terms and conditions\n\nof it. I also consent to the jurisdiction of the New Mexico Public Regulation Commission and the\n\ncourts of the State of New Mexico for the resolution of disputes regarding alleged violations of the\n\nprotective order and this confldentiality agreement.\n\n\n\n\nChristopher C. Walters                                 Principal\nName (print or type)\n\n\n\n\n                                                       16690 Swingley Ridge Road, Suite 140\nFederal Executive Agencies                             Chesterfield, MO 63017\nRepresenting                                           Business Address\n\n\n\nAprrI2A,2026\nDate                                                   Signature\n\n\n\n\ncwalters@consultbai. com\nEmailAddress\n\f"
+  }
+ ]
+}

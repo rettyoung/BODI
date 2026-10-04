@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000384846-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Southwestern Public Service Company’s Motion for Admission of Patrick T. Zomer to Appear Pro Hac Vice [Motion]",
+ "filed": "2026-07-14",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "eaa81cf7-ef1b-4656-a845-b4870146cb8d",
+   "name": "DOC-000384846-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000384846-26",
+  "filed_by": "Cindy  Baeza",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:25:50Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

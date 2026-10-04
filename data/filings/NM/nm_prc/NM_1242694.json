@@ -1,0 +1,29 @@
+{
+ "id": "NM:1242694",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "COS AMENDED STAFF'S FIRST SET OF DISCOVERY REQUESTS TO SOUTHWESTERN PUBLIC SERVICE COMPANY [Discovery Interrogatory]",
+ "filed": "2026-01-21",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "971be056-05cd-4bd7-a083-af8808e5ea42",
+   "name": "1242694"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "1242694",
+  "filed_by": "MARTINEZ-RAEL, P.",
+  "document_type": "Discovery Interrogatory",
+  "source": "Internal"
+ },
+ "collected_at": "2026-10-04T01:38:32Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

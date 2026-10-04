@@ -1,0 +1,29 @@
+{
+ "id": "NM:DOC-000281148-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Revised CCOSS Using Modified (Native File to the WPs of Jonathan Ly on behalf of OPL) [Other]",
+ "filed": "2026-05-04",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "6b930da8-00e9-4773-946b-b440016d3f6b",
+   "name": "DOC-000281148-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000281148-26",
+  "filed_by": "Michael McMIllin",
+  "document_type": "Other",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:31:02Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

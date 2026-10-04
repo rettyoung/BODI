@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000272670-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Updated Confidentiality Agreement of Caleb Agnew [Confidentiality Agreement]",
+ "filed": "2026-04-27",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "157c5ea7-70ed-4bf7-83ef-b43900d706d6",
+   "name": "DOC-000272670-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000272670-26",
+  "filed_by": "Ebony Payton",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:34:20Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000272670-26",
+   "name": "DOC-000272670-26",
+   "bytes": 53978,
+   "sha256": "7a16fde225d3ec1293c3c3ead0c21f3bbb17fbb93bf09580a88596e15d1d3612",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                         ATTACHMENT A\n\n           BEF'ORE TIIE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n IN THE MATTER OF'SOUTHWESTERN PUBLIC                              )\n SERVICE COMPANY'S APPLICATION FOR: (1)                            )\n REVISION OF ITS RETAIL RATES UNDER ADVICE                         )   Docket 25-00079-UT\n NOTICE 341r AND (2) OTHER ASSOCIATED RELIEF                       )\n\n\n                              CONF'IDENTIALITY AGREEMENT\n\n       I hereby certify that I am familiar with the terms and conditions of the protective order entered\n\nby the Commission in the above-captioned case and agree to be bound by the terms and conditions\n\nof it. I also consent to the jurisdiction of the New Mexico Public Reguiation Commission and the\n\ncourts of the State of New Mexico for the resolution of disputes regarding alleged violations of the\n\nprotective order and this confidentiality agreement.\n\n\n\n\nCaleb S. Agnew                                         Analyst\nNane (print or type)\n\n\n\n                                                       16690 Swingley Ridge Road, Suite 140\nFederal Executive Agencies                             Chesterfield MO 63017\nRepresenting                                           Business Address\n\n\n\nAprrl2A,2026\nDate                                                   Signature\n\n\n\n\ncagnew@consultbai. corn\nEmailAddress\n\f"
+  }
+ ]
+}

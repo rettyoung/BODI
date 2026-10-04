@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000427212-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Coalition for Clean Affordable Energy and Prosperity Works’ Errata to Post Hearing Brief [Errata Notice]",
+ "filed": "2026-08-14",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "b36aa919-990e-47f4-b2cc-b4a60154c679",
+   "name": "DOC-000427212-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000427212-26",
+  "filed_by": "Cara Lynch",
+  "document_type": "Errata Notice",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:25:26Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000427212-26",
+   "name": "DOC-000427212-26",
+   "bytes": 167393,
+   "sha256": "a5af2e92626beabfea9c091feb028fd977b292883e267057bdcb1037afbbb3b5",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "          BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\nIN THE MATTER OF SOUTHWESTERN                           )\nPUBLIC SERVICE COMPANY’S                                )\nAPPLICATION FOR: (1) REVISION OF ITS                    )\n                                                              CASE NO. 25-00079-UT\nRETAIL RATES UNDER ADVICE NOTICE                        )\n341; AND (2) OTHER ASSOCIATED RELIEF                    )\n                                                        )\n\n        COALITION FOR CLEAN AFFORDABLE ENERGY AND PROSPERITY\n                           WORKS’ ERRATA\n\n\n\n        Coalition for Clean Affordable Energy and Prosperity Works hereby submits this Notice\n\n of Errata to Post Hearing Brief.\n\n\n        The Errata corrects citation to the accurate statute. Edits include:\n\n   1. Page 3: footnote 7, changes § 62-8-8(C) to § 62-8-6(C).\n   2. Page 4: § 62-8-8(C) to § 62-8-6(C).\n\n\n\n\n                                                      Respectfully Submitted,\n\nDated: August 14, 2026\n                                                      /s/ Cara R. Lynch\n\n                                                      Cara R. Lynch\n                                                      3105 San Joaquin Avenue SE\n                                                      Albuquerque, New Mexico 87106\n                                                      (505) 977-3025\n                                                      Lynch.Cara.NM@gmail.com\n\n                                              Attorney for Coalition for Clean Affordable Energy\n\n\n\n\n                                            -1\n                                            -\n\f"
+  }
+ ]
+}

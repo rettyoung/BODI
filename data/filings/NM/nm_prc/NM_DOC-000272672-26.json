@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000272672-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Updated Confidentiality Agreement of James Leyko [Confidentiality Agreement]",
+ "filed": "2026-04-27",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "aefe34e0-d37c-431d-9836-b43900d75a1f",
+   "name": "DOC-000272672-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000272672-26",
+  "filed_by": "Ebony Payton",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:33:32Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000272672-26",
+   "name": "DOC-000272672-26",
+   "bytes": 55684,
+   "sha256": "52573def5d05b637c727ebd2bcc13943f463d8501a2cc27e12ef8a12ca8519b4",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                         ATTACIIMENT A\n\n           BEF'ORE TIIE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n IN THf, MATTER OF SOUTHWESTERN PUBLIC                              )\n SERVICE COMPANY'S APPLICATION FOR: (1)                             )\n REVISION OF ITS RETAIL RATES UNDER ADVICE                          )   Docket 25-00079-UT\n NOTICE 341; AND {2) OTHERASSOCIATED RELIEF'                        )\n\n\n                              CONF'IDENTIALITY AGREEMENT\n\n       I hereby certify that I am familiar with the terms and conditions of the protective order entered\n\nby the Commission in the above-captioned case and agree to be bound by the terms and conditions\n\nof it. I also consent to the jurisdiction of the New Mexico Public Regulation Commission and the\n\ncourts of the State of New Mexico for the resolution of disputes regarding alleged violations of the\n\nprotective order and this confidentiality agreement.\n\n\n\n\nJames A. Levko                                         Senior Consultant\nName (print or type)\n\n\n\n\n                                                       16690 Swingley     Road, Suite 140\nFederal Exec.utive Agencies                            Chesterfield   630t7\nRepresenting                                           Bus\n\n\nApriI20,2026\nDafe                                                         ture\n\n\n\n\nj leyko@consultbai. com\n\nEmailAddress\n\f"
+  }
+ ]
+}

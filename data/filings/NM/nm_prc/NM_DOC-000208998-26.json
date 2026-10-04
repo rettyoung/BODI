@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000208998-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "NMDOJ Confidentiality Agreement of Doug Gegax [Confidentiality Agreement]",
+ "filed": "2026-03-02",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "793b3a2c-acd0-4c50-8688-b40100fe3e3b",
+   "name": "DOC-000208998-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000208998-26",
+  "filed_by": "Billy  Jimenez",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:36:15Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000208998-26",
+   "name": "DOC-000208998-26",
+   "bytes": 54904,
+   "sha256": "ce99b966055ceeb18a620a21284fb5c199e0b17af0518e359d503bda7ad99e0c",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 1,
+   "truncated": false,
+   "text": "DOCKET NUMBER, FILED DATE & TIME\n25-00079-UT 03/02/2026 :08:25 AM MST\n\nFILED WITH NMPRC\nATTACHMENT A\n\nBEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\nIN THE MATTER OF SOUTHWESTERN\nPUBLIC SERVICE COMPANY’S\nAPPLICATION FOR: (1) REVISION OF ITS\nRETAIL RATES UNDER ADVICE NOTICE\n341; AND (2) OTHER ASSOCIATED RELIEF,\n\nDOCKET No. 25-00079-UT\n\nSOUTHWESTERN PUBLIC SERVICE\nCOMPANY, APPLICANT\n\nwa a a\n\nCONFIDENTIALITY AGREEMENT\n\nThereby certify that Iam familiar with the terms and conditions of the protective order entered\nby the Commission in the above-captioned case and agree to be bound by the terms and conditions\nof it. { also consent to the jurisdiction of the New Mexico Public Regulation Commission and the\ncourts of the State of New Mexico for the resolution of disputes regarding alleged violations of the\n\nprotective order and this confidentiality agreement.\n\nDoug Gegax Consultant\nName (print or type) Title\nNMBOS 4805 Sage Road, Las Cruces, NM 88011\nRepresenting Business Address\n03/02/2026 Aauok hepa\nDate Signature / a\n\ndgegax@nmsu.edu\n\nEmail Address\n"
+  }
+ ]
+}

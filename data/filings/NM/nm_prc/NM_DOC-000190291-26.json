@@ -1,0 +1,31 @@
+{
+ "id": "NM:DOC-000190291-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Walmart Inc.’s Motion for Leave to Intervene and Request for Discovery [Motion]",
+ "filed": "2026-02-12",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "8d1e10dc-62b8-4086-bebd-b3ef014e689c",
+   "name": "DOC-000190291-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000190291-26",
+  "filed_by": "Julie Clark",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:38:26Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [
+  "Walmart"
+ ],
+ "documents": []
+}

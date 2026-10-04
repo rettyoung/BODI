@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000272665-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00079-UT",
+ "title": "Updated Confidentiality Agreement of Matthew Vondrasek [Confidentiality Agreement]",
+ "filed": "2026-04-27",
+ "entity": "SOUTHWESTERN PUBLIC SERVICE COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=bb5d610b-e248-4e04-b00c-909586059c8e",
+ "fetch": [
+  {
+   "nm_document": "9f90c4b4-18ad-4465-9923-b43900d61bed",
+   "name": "DOC-000272665-26"
+  }
+ ],
+ "meta": {
+  "caseId": "bb5d610b-e248-4e04-b00c-909586059c8e",
+  "document_number": "DOC-000272665-26",
+  "filed_by": "Ebony Payton",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-04T01:33:38Z",
+ "run_id": "2026-10-04-0123",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000272665-26",
+   "name": "DOC-000272665-26",
+   "bytes": 168026,
+   "sha256": "6d923438622ea74feeb67fa4bd0e81732dd6e322a7070e7f55acd2646529bff0",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                        ATTACHMENT A\n\n\n          BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n IN THE MATTER OF SOUTHWESTERN PUBLIC                              )\n SERVICE COMPANY’S APPLICATION FOR: (1)                            )\n REVISION OF ITS RETAIL RATES UNDER ADVICE                         )   Docket 25-00079-UT\n NOTICE 341; AND (2) OTHER ASSOCIATED RELIEF                       )\n\n\n                              CONFIDENTIALITY AGREEMENT\n\n       I hereby certify that I am familiar with the terms and conditions of the protective order entered\n\nby the Commission in the above-captioned case and agree to be bound by the terms and conditions\n\nof it. I also consent to the jurisdiction of the New Mexico Public Regulation Commission and the\n\ncourts of the State of New Mexico for the resolution of disputes regarding alleged violations of the\n\nprotective order and this confidentiality agreement.\n\n\n\n Matthew R. Vondrasek                                   FEA Attorney\nName (print or type)\n\n\n                                                       139 Barnes Drive, Ste. 1 Bldg 1120\n                                                       Tyndall Air Force Base, FL 32403\n Federal Executive Agencies (FEA)\nRepresenting                                           Business Address\n\n\n    4/20/2026\n\nDate                                                   Signature\n\n\n\n Matthew.Vondrasek.1@us.af.mil\nEmail Address\n\f"
+  }
+ ]
+}
