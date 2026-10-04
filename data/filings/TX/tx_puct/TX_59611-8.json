@@ -19,6 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:14:45Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_8_1638555.ZIP",
+   "name": null,
+   "bytes": 83697,
+   "sha256": "b2e4a4515544b370e6ae11dea61501e0fcf85b3aa6c685f7446599d40ff6bc96",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 59611-4 complete_notice suff_sched.pdf ===\n                                      DOCKET NO. 59611\n\n\n APPLICATION OF EL PASO                            §     PUBLIC UTILITY COMMISSION\n ELECTRIC COMPANY FOR                              §\n APPROVAL OF A HIGH LOAD                           §                    OF TEXAS\n FACTOR LARGE POWER SERVICE                        §\n TARIFF                                            §\n\n\n                           ORDER NO. 4\nFINDING APPLICATION ADMINISTRATIVELY COMPLETE, PROPOSED NOTICE\n         SUFFICIENT, AND ENTERING PROCEDURAL SCHEDULE\n\n       On April 7, 2026, El Paso Electric Company (EPE) filed an application seeking approval\nof a new tariff applicable to very large, high load factor customers.\n\n       On May 1, 2026, Commission Staff filed its recommendation on administrative\ncompleteness, notice, and proposed a procedural schedule for further processing of the application.\n\n       The administrative law judge finds EPE’s application administratively complete and\nsufficient for further review and proposed notice sufficient. The following procedural schedule\napplies for further processing:\n\n                     Event                                               Date\n Deadline for EPE to file proof of notice                           May 22, 2026\n Deadline for intervention                                          May 22, 2026\n Deadline for intervenors to file comments on                       June 1, 2026\n the merits or to request a hearing\n Deadline for Commission Staff to file a                            June 8, 2026\n recommendation on final disposition or to\n request a hearing\n Deadline for EPE to request a hearing or                           June 16, 2026\n respond to intervenor comments and\n Commission Staff’s recommendation on final\n disposition; or if no disputed issues exist,\n deadline for parties to file a joint motion to\n admit and proposed findings of fact,\n conclusions of law, and ordering paragraphs\n\fDocket No. 59611                                            Order No. 4                    Page 2 of 2\n\n\n          Signed at Austin, Texas on the 5th day of May 2026.\n                                                               PUBLIC UTILITY COMMISSION OF TEXAS\n\n\n\n\n                                                               ERIC YOON\n                                                               ADMINISTRATIVE LAW JUDGE\n\nq:\\cadm\\docket management\\electric\\tariffs\\59xxx\\59611-4 complete_notice suff_sched.docx\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_8_1638556.PDF",
+   "name": null,
+   "bytes": 108290,
+   "sha256": "1d1022a31fac69a113b44575317b82fbadfc471670362af241fba5b325541280",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-05-05 03:04:10 PM\n\nControl Number - 59611\n\nItem Number - 8\n\f                                      DOCKET NO. 59611\n\n\n APPLICATION OF EL PASO                            §      PUBLIC UTILITY COMMISSION\n ELECTRIC COMPANY FOR                              §\n APPROVAL OF A HIGH LOAD                           §                      OF TEXAS\n FACTOR LARGE POWER SERVICE                        §\n TARIFF                                            §\n\n\n                           ORDER NO. 4\nFINDING APPLICATION ADMINISTRATIVELY COMPLETE, PROPOSED NOTICE\n         SUFFICIENT, AND ENTERING PROCEDURAL SCHEDULE\n\n       On April 7,2026, El Paso Electric Company (EPE) filed an application seeking approval\nof a new tariff applicable to very large, high load factor customers.\n\n       On May 1, 2026, Commission Staff filed its recommendation on administrative\ncompleteness, notice, and proposed a procedural schedule for further processing ofthe application.\n\n       The administrative law judge finds EPE' s application administratively complete and\nsufficient for further review and proposed notice sufficient. The following procedural schedule\napplies for further processing:\n\n                      Event                                                I)ate\n Deadline for EPE to file proof of notice                           May 22,2026\n Deadline for intervention                                          May 22,2026\n Deadline for intervenors to file comments on                           June 1, 2026\n the merits or to request a hearing\n Deadline for Commission Staff to file a                                June 8,2026\n recommendation on final disposition or to\n request a hearing\n Deadline for EPE to request a hearing or                           June 16, 2026\n respond to intervenor comments and\n Commission Staff's recommendation on final\n disposition; or if no disputed issues exist,\n deadline for parties to file a j oint motion to\n admit and proposed findings of fact,\n conclusions of law, and ordering paragraphs\n\fDocket No. 59611                                            Order No. 4                          Page 2 of 2\n\n\n          Signed at Austin, Texas on the 5th day of May 2026.\n                                                               PUBLIC UTILITY COMMISSION OF TEXAS\n\n                                                                           (r\n                                                                                           4,'\n\n\n                                                               ERIC YOON\n                                                               ADMINISTRATIVE LAW JUDGE\n\nq:\\cadm\\docket management\\electric\\tariffs\\59xxx\\59611-4 complete_notice suff_sched.docx\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:04:33Z"
 }

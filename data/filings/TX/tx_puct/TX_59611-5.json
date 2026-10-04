@@ -19,6 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:14:51Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_5_1637226.ZIP",
+   "name": null,
+   "bytes": 82820,
+   "sha256": "55ee70a81bade2b7cbb5757c2e384456680a4ffe2e1c82f5e313290a6bd95383",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 59611-3 solicit rec.pdf ===\n                                                      DOCKET NO. 59611\n\n\n APPLICATION OF EL PASO                                                 §   PUBLIC UTILITY COMMISSION\n ELECTRIC COMPANY FOR                                                   §\n APPROVAL OF A HIGH LOAD                                                §           OF TEXAS\n FACTOR LARGE POWER SERVICE                                             §\n TARIFF                                                                 §\n\n\n                            ORDER NO. 3\n   REQUIRING COMMENTS AND RECOMMENDATIONS ON THE APPLICATION,\n  PROPOSED NOTICE, AND APPROPRIATE PROCESSING OF THE APPLICATION\n\n          In Order No. 1 filed on April 8, 2026, the Administrative Law Judge (ALJ) established a\ndeadline of April 22, 2026 for Commission Staff to file comments and recommendations on the\nadministrative completeness of El Paso Electric Company’s April 7, 2026 application for approval\nof a new tariff applicable to very large, high load factor customers. Commission Staff did not file\na recommendation or otherwise respond to Order No. 1.\n\n          In Order No. 2 filed on April 24, 2026, the ALJ established a new deadline of April 29,\n2026 for Commission Staff to file comments and recommendations on the administrative\ncompleteness of El Paso Electric’s application. To date, Commission Staff has not filed its\nrecommendation or otherwise responded to Order No. 2.\n\n          By May 15, 2026, Commission Staff must file its comments and recommendations on the\nadministrative completeness of the application and notice, and a proposal, including procedural\nschedule, for the appropriate processing of this docket.\n\n          Signed at Austin, Texas on the 1st day of May 2026.\n                                                                 PUBLIC UTILITY COMMISSION OF TEXAS\n\n\n\n\n                                                                 ERIC YOON\n                                                                 ADMINISTRATIVE LAW JUDGE\n\nq:\\cadm\\docket management\\electric\\tariffs\\59xxx\\59611-3 solicit rec.docx\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_5_1637227.PDF",
+   "name": null,
+   "bytes": 102942,
+   "sha256": "96b9b6ba1c6293a84223a7f39f91b09f4bac4c3ba1d27021a24ce37d92f45357",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-05-01 02:43:15 PM\n\nControl Number - 59611\n\nItem Number - 5\n\f                                                      DOCKET NO. 59611\n\n\n APPLICATION OF EL PASO                                                 §       PUBLIC UTILITY COMMISSION\n ELECTRIC COMPANY FOR                                                   §\n APPROVAL OF A HIGH LOAD                                                §                    OF TEXAS\n FACTOR LARGE POWER SERVICE                                             §\n TARIFF                                                                 §\n\n\n                            ORDER NO. 3\n   REQUIRING COMMENTS AND RECOMMENDATIONS ON THE APPLICATION,\n  PROPOSED NOTICE, AND APPROPRIATE PROCESSING OF THE APPLICATION\n\n          In Order No. 1 filed on April 8,2026, the Administrative Law Judge (ALJ) established a\ndeadline of April 22,2026 for Commission Staff to file comments and recommendations on the\nadministrative completeness of El Paso Electric Company' s April 7,2026 application for approval\nof a new tariff applicable to very large, high load factor customers. Commission Staff did not file\na recommendation or otherwise respond to Order No. 1.\n\n          In Order No. 2 filed on April 24,2026, the ALJ established a new deadline of April 29,\n2026 for Commission Staff to file comments and recommendations on the administrative\ncompleteness of El Paso Electric' s application.                            To date, Commission Staff has not filed its\nrecommendation or otherwise responded to Order No. 2.\n\n          By May 15, 2026, Commission Staff must file its comments and recommendations on the\nadministrative completeness of the application and notice, and a proposal, including procedural\nschedule, for the appropriate processing of this docket.\n\n           Signed at Austin, Texas on the 1st day of May 2026.\n                                                                 PUBLIC UTILITY COMMISSION OF TEXAS\n                                                                                t\n                                                                                        4;\n                                                                                       /b\n\n\n                                                                 ERIC YOON\n                                                                 ADMINISTRATIVE LAW JUDGE\n\nq:\\cadm\\docket management\\electric\\tariffs\\59xxx\\59611-3 solicit rec.docx\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:04:51Z"
 }

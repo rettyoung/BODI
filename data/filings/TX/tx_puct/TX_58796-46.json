@@ -17,8 +17,37 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
- "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:16:26Z"
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [
+  "Office of Public Utility Counsel"
+ ],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_46_1579791.ZIP",
+   "name": null,
+   "bytes": 36490,
+   "sha256": "824c1a4d46ab26c4adbaac2420f19e084526262398dd408718aa212fe246174b",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Docket No. 58796 SOAH ORDER NO. 2.pdf ===\nSOAH Docket No. 473-26-07507               Suffix: PUC\nPUC Docket No. 58796\n\n\n\n             Before the\n   State Office of Administrative\n              Hearings\n\n\n  APPLICATION OF SOUTHWESTERN ELECTRIC POWER\n  COMPANY FOR AUTHORITY TO AMEND TARIFFS FOR\nRETAIL ELECTRIC SERVICE TO INCLUDE NEW STANDARD\nFORM CONTRACT FOR ELECTRIC SERVICE – LARGE LOAD\n\n\n\n\n                       SOAH ORDER NO. 2\n              MEMORIALIZING PREHEARING CONFERENCE\n\n      On January 29, 2026, the Administrative Law Judge (ALJ) convened a\nprehearing conference in this proceeding. The following parties appeared through\ntheir representatives: Southwestern Electric Power Company (SWEPCO), Texas\nIndustrial Energy Consumers, Cities Advocating Reasonable Deregulation, the\nOffice of Public Utility Counsel, and staff of the Public Utility Commission of\nTexas.\n\n\n      SWEPCO represented the parties have been negotiating a proposed\nprocedural schedule and are close to finalizing one. Thus, the ALJ ORDERS\n\fparties to file a joint proposed procedural schedule by February 6, 2026.\nAdditionally, the parties SHALL file a statement whether mediation is appropriate\nfor this proceeding.\n\n\n\nSigned January 29, 2026\n\n\n                                            _____________________________\n                                            Rachelle Nicolette Robles,\n                                            Administrative Law Judge\n\n\n\n\n                                               2\n                                      SOAH Order No. 2\n                       SOAH Docket No. 473-26-07507, PUC Docket No. 58796\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_46_1579792.PDF",
+   "name": null,
+   "bytes": 104276,
+   "sha256": "0dc38e0288f0f76a3154a8388a0852a248b3eb084316476dd16d62ccb4c68c61",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-01-29 12:06:27 PM\n\nControl Number - 58796\n\nItem Number - 46\n\fSOAH Docket No. 473-26-07507               Suffix: PUC\nPUC Docket No. 58796\n\n\n\n                           BEFORE THE\n    STATE OFFICE OF ADMINISTRATIVE\n                             HEARINGS\n\n\n  APPLICATION OF SOUTHWESTERN ELECTRIC POWER\n  COMPANY FOR AUTHORITY TO AMEND TARIFFS FOR\nRETAIL ELECTRIC SERVICE TO INCLUDE NEW STANDARD\nFORM CONTRACT FOR ELECTRIC SERVICE - LARGE LOAD\n\n\n\n\n                            SOAH ORDER No. 2\n              MEMORIALIZING PREHEARING CONFERENCE\n\n\n      On January 29, 2026, the Administrative Law Judge (ALJ) convened a\nprehearing conference in this proceeding. The following parties appeared through\ntheir representatives: Southwestern Electric Power Company (SWEPCO), Texas\nIndustrial Energy Consumers, Cities Advocating Reasonable Deregulation, the\nOffice of Public Utility Counsel, and staff of the Public Utility Commission of\nTexas.\n\n\n      SWEPCO represented the parties have been negotiating a proposed\nprocedural schedule and are close to finalizing one. Thus, the AU ORDERS\n\fparties to file a joint proposed procedural schedule by February 6, 2026.\nAdditionally, the parties SHALL file a statement whether mediation is appropriate\nfor this proceeding.\n\n\n\nSignedJanuary 29,2026\n\n\n                                                    A\n                                            V\n                                            Rachelle Nicolette Robles,\n                                            Administrative Law Judge\n\n\n\n\n                                                2\n                                       SOAH Order No. 2\n                       SOAH Docket No. 473-26-07507, PUC Docket No. 58796\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:07:34Z"
 }

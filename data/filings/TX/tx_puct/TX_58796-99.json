@@ -17,8 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "large load"
+ ],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:10:27Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_99_1677783.ZIP",
+   "name": null,
+   "bytes": 32403,
+   "sha256": "5585963d4f87b240c7c0c346ffc68e49897d8f16be46e7360f060ab29fa092d1",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 58796 SOAH ORDER NO. 10.pdf ===\nSOAH Docket No. 473-26-07507               Suffix: PUC\nPUC Docket No. 58796\n\n\n\n             Before the\n   State Office of Administrative\n              Hearings\n\n\n  APPLICATION OF SOUTHWESTERN ELECTRIC POWER\n  COMPANY FOR AUTHORITY TO AMEND TARIFFS FOR\nRETAIL ELECTRIC SERVICE TO INCLUDE NEW STANDARD\nFORM CONTRACT FOR ELECTRIC SERVICE – LARGE LOAD\n\n\n\n\n                          SOAH ORDER NO. 10\n                     EXTENDING BRIEFING DEADLINES\n\n      On August 27, 2026, the Southwestern Electric Power Company, on behalf\nof all parties to the proceeding, filed an agreed motion to extend the briefing\ndeadlines in order to allow the parties additional time to negotiate a potential\nsettlement. The motion is GRANTED, and the briefing deadlines are revised as\nfollows:\n            Initial briefs:   September 3, 2026\n            Reply briefs:     September 11, 2026\n\fSigned August 27, 2026\n\n\n                                       ALJ Signature(s):\n\n\n                                       _____________________________\n                                       Daniel Wiseman,\n                                       Presiding Administrative Law Judge\n\n\n\n\n                                          2\n                                SOAH Order No. 10\n                  SOAH Docket No. 473-26-07507, PUC Docket No. 58796\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_99_1677784.PDF",
+   "name": null,
+   "bytes": 99029,
+   "sha256": "55e1468bb423030a995fd951ea4737f8e6d9353e144bcf69efa15593af06e9e0",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-08-27 11:50:35 AM\n\nControl Number - 58796\n\nItem Number - 99\n\fSOAH Docket No. 473-26-07507               Suffix: PUC\nPUC Docket No. 58796\n\n\n\n                              BEFORE THE\n    STATE OFFICE OF ADMINISTRATIVE\n                               HEARINGS\n\n\n  APPLICATION OF SOUTHWESTERN ELECTRIC POWER\n  COMPANY FOR AUTHORITY TO AMEND TARIFFS FOR\nRETAIL ELECTRIC SERVICE TO INCLUDE NEW STANDARD\nFORM CONTRACT FOR ELECTRIC SERVICE - LARGE LOAD\n\n\n\n\n                              SOAH ORDER No. 10\n                     EXTENDING BRIEFING DEADLINES\n\n\n      On August 27,2026, the Southwestern Electric Power Company, on behalf\nof all parties to the proceeding, filed an agreed motion to extend the briefing\ndeadlines in order to allow the parties additional time to negotiate a potential\nsettlement. The motion is GRANTED, and the briefing deadlines are revised as\nfollows:\n            Initial briefs:     September 3,2026\n            Reply briefs:       September 11, 2026\n\fSigned August 27,2026\n\n\n                                      ALJ Signature(s):\n\n\n\n\n                                      Daniel Wiseman,\n                                      Presiding Administrative Law Judge\n\n\n\n\n                                         2\n                                SOAH Order No. 10\n                 SOAH Docket No. 473-26-07507, PUC Docket No. 58796\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T00:54:54Z"
 }

@@ -19,6 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:13:53Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_19_1651614.ZIP",
+   "name": null,
+   "bytes": 93196,
+   "sha256": "cd34619d96c49b9b5f674cf6c9a4ff89da880f499413b713b976c9b18a5fe295",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 59611 req issues.pdf ===\n                                                       DOCKET NO. 59611\n\n APPLICATION OF EL PASO                                           §     PUBLIC UTILITY COMMISSION\n ELECTRIC COMPANY FOR                                             §\n APPROVAL OF A HIGH LOAD                                          §                OF TEXAS\n FACTOR LARGE POWER SERVICE                                       §\n TARIFF                                                           §\n\n                                      ORDER REQUESTING LISTS OF ISSUES\n\n          On April 7, 2026, El Paso Electric Company filed an application for approval of a new tariff\napplicable to very large, high load factor customers. El Paso Electric Company proposes to create\nSchedule No. 27 - High Load Factor Large Power Service Rate with an effective date of May 12,\n2026. El Paso Electric Company also proposes the termination of Rate Schedule 33A upon approval\nof the proposed Schedule No. 27.\n\n          The Commission may issue a preliminary order that will contain a list of the issues to be\naddressed in this docket, as well as any necessary statement of Commission policy, precedent, or\nposition on any threshold legal or policy issues relevant to this proceeding. To assist the Commission\nin drafting that order, El Paso Electric Company must, and Commission Staff and any other interested\nparty may, file in this docket a list of issues to be addressed in the docket by June 22, 2026. This\npleading may also identify any issues that should not be addressed in the docket and identify any\nthreshold legal and policy issues that should be briefed for purposes of a preliminary order. Specific\nexplanations shall support any issues not to be addressed, or threshold issues identified in the\npleading. Parties shall not file responses to any pleading submitted in response to this Order, unless\nspecifically requested.\n\n          If the Commission issues a preliminary order, it will provide a list of issues and areas that\nmust be addressed in this proceeding and any necessary statement of Commission policy, precedent,\nor position on threshold issues, or combination thereof, relevant to this proceeding. The Commission\nmay consider and possibly adopt a preliminary order in this docket at a future open meeting.\n\n          Signed at Austin, Texas, the 2nd day of June 2026.\n                                                           PUBLIC UTILITY COMMISSION OF TEXAS\n\n\n                                                           Electronically signed by Ron Olson\n                                                           RON OLSON\n                                                           COMMISSION COUNSEL\nq:\\cadm\\orders\\briefing & issues\\59000\\59611 req issues.docx\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_19_1651615.PDF",
+   "name": null,
+   "bytes": 109756,
+   "sha256": "60961a90b4445eeb05441dd0aff4268ed3c11c31c4b256bb2af4a229e72e2737",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-02 11:46:15 AM\n\nControl Number - 59611\n\nItem Number - 19\n\f                                                       DOCKET NO. 59611\n\n APPLICATION OF EL PASO                                           §     PUBLIC UTILITY COMMISSION\n ELECTRIC COMPANY FOR                                             §\n APPROVAL OF A HIGH LOAD                                          §                OF TEXAS\n FACTOR LARGE POWER SERVICE                                       §\n TARIFF                                                           §\n\n                                      ORDER REQUESTING LISTS OF ISSUES\n\n          On April 7,2026, El Paso Electric Company filed an application for approval of a new tariff\napplicable to very large, high load factor customers. El Paso Electric Company proposes to create\nSchedule No. 27 - High Load Factor Large Power Service Rate with an effective date of May 12,\n2026. El Paso Electric Company also proposes the termination of Rate Schedule 33A upon approval\nof the proposed Schedule No. 27.\n\n          The Commission may issue a preliminary order that will contain a list of the issues to be\naddressed in this docket, as well as any necessary statement of Commission policy, precedent, or\nposition on any threshold legal or policy issues relevant to this proceeding. To assist the Commission\nin drafting that order, El Paso Electric Company must, and Commission Staff and any other interested\nparty may, file in this docket a list of issues to be addressed in the docket by June 22,2026. This\npleading may also identify any issues that should not be addressed in the docket and identify any\nthreshold legal and policy issues that should be briefed for purposes of a preliminary order. Specific\nexplanations shall support any issues not to be addressed, or threshold issues identified in the\npleading. Parties shall not file responses to any pleading submitted in response to this Order, unless\nspecifically requested.\n\n          If the Commission issues a preliminary order, it will provide a list of issues and areas that\nmust be addressed in this proceeding and any necessary statement of Commission policy, precedent,\nor position on threshold issues, or combination thereof, relevant to this proceeding. The Commission\nmay consider and possibly adopt a preliminary order in this docket at a future open meeting.\n\n          Signed at Austin, Texas, the 2nd day of June 2026.\n                                                           PUBLIC UTILITY COMMISSION OF TEXAS\n\n\n                                                           Electronically signed by Ron Olson\n                                                           RON OLSON\n                                                           COMMISSION COUNSEL\nq:\\cadm\\orders\\briefing & issues\\59000\\59611 reg issues.docx\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:02:00Z"
 }

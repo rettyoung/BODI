@@ -19,6 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:16:53Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58777_2_1560172.ZIP",
+   "name": null,
+   "bytes": 28232,
+   "sha256": "00eaffddebdb71cffb97cf3d4525edb1514b6c3a74efea7862ae565463bbce0c",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 58777 Restyle Memo.docx ===\n\nTO:\t\tCentral Records\n\t\t\nFROM:\t\tSeaver Myers, Rules and Projects, Project Manager\nDATE:\t\tNovember 21, 2025\n\nRE:\tProject No. 58777, Restyle Request\n\t\n\nCommission Staff requests this project be restyled to:  \n\nProject No. 58777, Triennial Reliability Assessment for the ERCOT Region under §25.508\n\n"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58777_2_1560173.PDF",
+   "name": null,
+   "bytes": 86811,
+   "sha256": "56274024aa3416c69148e21147f8b17819481bbaad554b0764a5be12773701c1",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2025-11-21 02:54:28 PM\n\nControl Number - 58777\n\nItem Number - 2\n\f                    Public Utility Commission of Texas\n\n                                     Memorandum\n\nTO:            Central Records\n\nFROM:          Seaver Myers, Rules and Projects, Project Manager\n\nDATE:          November 21,2025\n\nRE:            Project No. 58777, Restyle Request\n\n\nCommission Staff requests this project be restyled to:\n\n        Project No . 58777 , Triennial Reliability Assessment for the ERCOT Region under\n        §25.508\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:08:49Z"
 }

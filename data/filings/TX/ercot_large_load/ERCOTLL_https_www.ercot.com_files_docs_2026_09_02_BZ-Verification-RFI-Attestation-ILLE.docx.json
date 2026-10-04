@@ -1,0 +1,48 @@
+{
+ "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/09/02/BZ-Verification-RFI-Attestation-ILLE.docx",
+ "jur": "TX",
+ "source": "ercot_large_load",
+ "kind": "report",
+ "docket": null,
+ "title": "ERCOT — BZ Verification RFI Attestation ILLE",
+ "filed": "2026-09-02",
+ "url": "https://www.ercot.com/files/docs/2026/09/02/BZ-Verification-RFI-Attestation-ILLE.docx",
+ "entity": "ERCOT",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/09/02/BZ-Verification-RFI-Attestation-ILLE.docx"
+  }
+ ],
+ "meta": {
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/rq/large-load-integration",
+  "postprocess": "ercot_ll_table",
+  "table_rows": [],
+  "table_metrics": {},
+  "summary": "",
+  "ocr": false
+ },
+ "collected_at": "2026-10-04T00:44:55Z",
+ "run_id": "2026-10-04-0022",
+ "keywords": [
+  "batch zero",
+  "large load",
+  "large-load",
+  "verification RFI"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/09/02/BZ-Verification-RFI-Attestation-ILLE.docx",
+   "name": null,
+   "bytes": 17582,
+   "sha256": "811087978273e83f7f281b90d72f76cfd60c7264b5847e86282137838e636d2b",
+   "ctype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "ERCOT Batch Zero Verification RFI Attestation\nBEFORE ME, the undersigned authority, on this day personally appeared      , and being by me duly sworn, under oath declared the following statements are true and correct:\n“I am a representative, official, officer, or other authorized person with authority to bind      , the  Interconnecting Large Load Entity (ILLE) identified in the response to ERCOT’s request for information accompanying this attestation.  I hereby certify that I have reviewed the information and documentation the ILLE provided in response to ERCOT’s request for information.  I further certify that, to the best of my knowledge, that information and documentation are true and accurate, and that, after all reasonable inquiry, all material information reasonably responsive to the request has been provided.”  \n     \nSignature\n\n     \nPrinted Name\n\nSWORN TO AND SUBSCRIBED BEFORE ME on this       day of      , 2026.\n     \nNotary Public in and for the State of       \nMy commission expires      \n\t\t\t\t\t\t\t\t\t\t"
+  }
+ ]
+}

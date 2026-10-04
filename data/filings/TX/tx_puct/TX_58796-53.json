@@ -17,8 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "large load"
+ ],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:16:14Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_53_1588165.ZIP",
+   "name": null,
+   "bytes": 39998,
+   "sha256": "8e0d6c6010d733011b57edfbcd201440233e9d1d18f5cae772ef82fda551e2e8",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Docket No. 58796 SOAH ORDER NO. 4.pdf ===\nSOAH Docket No. 473-26-07507              Suffix: PUC\nPUC Docket No. 58796\n\n\n\n             Before the\n   State Office of Administrative\n              Hearings\n\n\n  APPLICATION OF SOUTHWESTERN ELECTRIC POWER\n  COMPANY FOR AUTHORITY TO AMEND TARIFFS FOR\nRETAIL ELECTRIC SERVICE TO INCLUDE NEW STANDARD\nFORM CONTRACT FOR ELECTRIC SERVICE – LARGE LOAD\n\n\n\n\n                     SOAH ORDER NO. 4\n         GRANTING SECOND MOTION TO EXTEND DEADLINE\n\n\n       SOAH Order No. 3 granted a request to extend the deadline for parties to\nfile a joint proposed procedural schedule. On February 13, 2026, Southwestern\nElectric Power Company filed a second letter requesting an extension of the\ndeadline. The motion is GRANTED and the deadline is extended to February 20,\n2026.\n\n\nSigned February 18, 2026\n\n\n                                    _____________________________\n                                    Rachelle Nicolette Robles,\n                                    Administrative Law Judge\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_53_1588166.PDF",
+   "name": null,
+   "bytes": 95647,
+   "sha256": "a0f91cec824b2fdc35ba2b685629a89596a5cd134d24e3c0324649816cb9af22",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-02-18 10:29:53 AM\n\nControl Number - 58796\n\nItem Number - 53\n\fSOAH Docket No. 473-26-07507               Suffix: PUC\nPUC Docket No. 58796\n\n\n\n                           BEFORE THE\n   STATE OFFICE OF ADMINISTRATIVE\n                             HEARINGS\n\n\n  APPLICATION OF SOUTHWESTERN ELECTRIC POWER\n  COMPANY FOR AUTHORITY TO AMEND TARIFFS FOR\nRETAIL ELECTRIC SERVICE TO INCLUDE NEW STANDARD\nFORM CONTRACT FOR ELECTRIC SERVICE - LARGE LOAD\n\n\n\n\n                           SOAH ORDER No. 4\n         GRANTING SECOND MOTION TO EXTEND DEADLINE\n\n\n\n       SOAH Order No. 3 granted a request to extend the deadline for parties to\nfile a joint proposed procedural schedule. On February 13, 2026, Southwestern\nElectric Power Company filed a second letter requesting an extension of the\ndeadline. The motion is GRANTED and the deadline is extended to February 20,\n2026.\n\n\nSigned February 18, 2026\n                                       A\n\n\n\n                                    Rachelle Nicolette Robles,\n                                    Administrative Law Judge\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:06:58Z"
 }

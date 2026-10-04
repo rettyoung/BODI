@@ -17,8 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "transmission service"
+ ],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:15:55Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_123_1600577.ZIP",
+   "name": null,
+   "bytes": 136229,
+   "sha256": "dd074245502c3b649c7b912835bdb00b85c9181cc86d2339db27b868bdc31fe3",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== TxReg_58481.pdf ===\nFrom:            register@sos.texas.gov on behalf of Texas Secretary of State\nTo:              Seaver Myers\nSubject:         TEXAS REGISTER ACKNOWLEDGMENT OF RECEIPT - SUBMISSION TRD 202601174\nDate:            Thursday, March 12, 2026 1:58:44 PM\n\n\n\n\n                                  CAUTION - EXTERNAL EMAIL\n                             Phishing? Click the PUC Phish Report button.\n\n\n\n\n           ACKNOWLEDGEMENT OF RECEIPT\n\n           Please note that this email acknowledges receipt of your submission only. If we find\n           that the document or submission form does not conform to statutory filing\n           requirements or our administrative rules, we may refuse to accept it for filing and\n           publication. We will notify you if your submission is refused.\n\n           TRD Number: 202601174\n           For Issue of: 03/27/2026\n\n           Submitted Date/Time: 03/12/2026 01:57 PM CDT\n\n           Proposed Rulemaking Submission\n\n           Agency: Public Utility Commission of Texas\n           Certifying Official’s Name: Katelyn Lewis\n           Certifying Official’s Title: Rules Coordinator\n           Phone # for Public Inquiries: (512) 936-7044\n           Liaison: seaver.myers@puc.texas.gov\n\n           Title: 16\n           Title Name: ECONOMIC REGULATION\n           Part: 2\n           Part Name: PUBLIC UTILITY COMMISSION OF TEXAS\n           Chapter: 25\n           Chapter Name: SUBSTANTIVE RULES APPLICABLE TO ELECTRIC\n           SERVICE PROVIDERS\n           Subchapter: I\n           Subchapter Name: TRANSMISSION AND DISTRIBUTION\n           Division: 1\n           Division Name: OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE\n           FOR ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL OF\n           TEXAS\n           TAC Rule Number(s): 25.194\n\n           Action: New\n\n           Comments: Hello! Please don't hesitate to email me if you have any questions or\n           concerns! Thank you\n\f\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_123_1600578.PDF",
+   "name": null,
+   "bytes": 238773,
+   "sha256": "f4b17edb7502686703469884e9c08f15dc2305051661b8339bd92e6b4f0d3158",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-03-12 02:10:15 PM\n\nControl Number - 58481\n\nItem Number - 123\n\fFronn:            reaister@sos.texas.aov on behalf of Texas Secretary of State\nTo:               Seaver Myers\nSubject:          TEXAS REGISTER ACKNOWLEDGMENT OF RECEIPT - SUBMISSION TRD 202601174\nDate:             Thursday, March 12, 2026 1:58:44 PM\n\n\n\n\n                                    CAUTION - EXTERNAL EMAIL\n                              Phishing? Click the PUC Phish Report button.\n\n\n\n\n                          m\n\n           ACKNOWLEDGEMENT OF RECEIPT\n\n           Please note that this email acknowledges receipt ofyour submission only. If we find\n           that the document or submission form does not conform to statutory filing\n           requirements or our administrative rules, we may refuse to accept it for filing and\n           publication. We will notify you ifyour submission is refused.\n\n           TRD Number: 202601174\n           For Issue of: 03/27/2026\n\n           Submitted Date/Time: 03/12/2026 01:57 PM CDT\n\n           Proposed Rulemaking Submission\n\n           Agency: Public Utility Commission of Texas\n           Certifying Official's Name: Katelyn Lewis\n           Certifying Official's Title: Rules Coordinator\n           Phone # for Public Inquiries: (512) 936-7044\n           Liaison: seaver.myers@puc.texas.gov\n\n           Title: 16\n           Title Name: ECONOMIC REGULATION\n           Part: 2\n           Part Name: PUBLIC UTILITY COMMISSION OF TEXAS\n           Chapter: 25\n           Chapter Name: SUBSTANTIVE RULES APPLICABLE TO ELECTRIC\n           SERVICE PROVIDERS\n           Subchapter: I\n           Subchapter Name: TRANSMISSION AND DISTRIBUTION\n           Division: 1\n           Division Name: OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE\n           FOR ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL OF\n           TEXAS\n           TAC Rule Number(s): 25.194\n\n           Action: New\n\n           Comments: Hello! Please don't hesitate to email me if you have any questions or\n           concerns ! Thank you\n\fr   [Ei [Ei-1\n       l [Eil[Eil[Eli-EI\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:06:39Z"
 }

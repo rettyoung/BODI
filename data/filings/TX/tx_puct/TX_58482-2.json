@@ -17,8 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "large load"
+ ],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:15:45Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58482_2_1607810.ZIP",
+   "name": null,
+   "bytes": 115781,
+   "sha256": "1cff59e69904191bdb4b4300201adea41d285cfaf126f309f8f7fb36dd9180de",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 58482_Staff Restyle Request.pdf ===\n                    Public Utility Commission of Texas\n\n                                     Memorandum\n\n\n TO:            Central Records\n\n FROM:          Jessie Horn, Sr. Counsel, Rules and Projects Division\n\n DATE:          March 23, 2026\n\n RE:            Project No. 58482, Restyle Request\n\n\n\nCommission Staff requests that this project be restyled to:\n\n       Project No. 58482, Large Load Demand Management Service\n\n\n\n\n                                            Page 1 of 1\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58482_2_1607811.PDF",
+   "name": null,
+   "bytes": 86179,
+   "sha256": "a66f06ce5d92db0bee8a61f8a58022afb456a1e4b6bf004ea6993220811c2281",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-03-23 08:52:36 AM\n\nControl Number - 58482\n\nItem Number - 2\n\f                    Public Utility Commission of Texas\n\n                                     Memorandum\n\n\n TO:            Central Records\n\n FROM:          Jessie Horn, Sr. Counsel, Rules and Projects Division\n\n DATE:          March 23,2026\n\n RE:            Project No. 58482, Restyle Request\n\n\n\n\nCommission Staff requests that this project be restyled to:\n\n       Project No . 58482 , Large Load Demand Management Service\n\n\n\n\n                                             Page 1 of 1\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:06:12Z"
 }

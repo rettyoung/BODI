@@ -17,8 +17,37 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:16:35Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_33_1566888.ZIP",
+   "name": null,
+   "bytes": 5521,
+   "sha256": "3cbe09a594337db8b99320224304dcc604d1b8780119e60461a8295bba53ffa9",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 58481_Staff Memo and Notice of 1.9 Workshop.pdf ===\n                  Public Utility Commission of Texas\n\n                                    Memorandum\n\n\n TO:           Interested Persons\n\n FROM:         Jessie Horn, Sr. Counsel, Rules and Projects Division\n\n DATE:         December 16, 2025\n\n RE:           Project No. 58481, Rulemaking to Implement Large Load Interconnection\n               Standards Under PURA §37.0561\n               Notice of Workshop\n\n\n                                    Workshop Details\n                                     January 9, 2026\n                                      9:30 a.m. CST\n                           Barbara Jordan State Office Building\n                           1601 Congress Avenue, Room 2.035\n                                   Austin, Texas 78701\n\nCommission Staff will host a workshop on January 9, 2026, beginning at 9:30 a.m. CST to\nreceive public input on topics related to the rulemaking to implement large load\ninterconnection standards under Public Utility Regulatory Act (PURA) §37.0561. The\nworkshop will also be broadcast live and archived for later viewing on Admin Monitor. An\nagenda will be filed closer to the date of the workshop.\n\n\n\n\n                                          Page 1 of 1\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_33_1566889.PDF",
+   "name": null,
+   "bytes": 93729,
+   "sha256": "f8c87c92e73f9b709da08171af2886daabbbb2aedc73d272e37e0ea391ab064a",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2025-12-16 11:46:11 AM\n\nControl Number - 58481\n\nItem Number - 33\n\f                  Public Utility Commission of Texas\n\n                                    Memorandum\n\n\n TO:           Interested Persons\n\n FROM:         Jessie Horn, Sr. Counsel, Rules and Projects Division\n\n DATE:         December 16,2025\n\n RE :          Project No . 58481 , Rulemaking to Implement Large Load Interconnection\n               Standards Under PURA §37.0561\n               Notice of Workshop\n\n\n                                    Workshop Details\n                                     January 9,2026\n                                      9:30 a.m. CST\n                           Barbara Jordan State Office Building\n                           1601 Congress Avenue, Room 2.035\n                                    Austin, Texas 78701\n\nCommission Staff will host a workshop on January 9,2026, beginning at 9:30 a.m. CST to\nreceive public input on topics related to the rulemaking to implement large load\ninterconnection standards under Public Utility Regulatory Act (PURA) §37.0561. The\nworkshop will also be broadcast live and archived for later viewing on Admin Monitor. An\nagenda will be filed closer to the date of the workshop.\n\n\n\n\n                                          Page 1 of 1\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:08:01Z"
 }

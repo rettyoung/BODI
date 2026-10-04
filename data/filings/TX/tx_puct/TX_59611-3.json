@@ -19,6 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:15:14Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_3_1630151.ZIP",
+   "name": null,
+   "bytes": 82081,
+   "sha256": "3a4098d2a02ed888830ad2fae1d65bf3d0efd6da27337b7e981be03da176ded7",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 59611-2 solicit rec.pdf ===\n                                                      DOCKET NO. 59611\n\n\n APPLICATION OF EL PASO                                                 §   PUBLIC UTILITY COMMISSION\n ELECTRIC COMPANY FOR APROVAL                                           §\n OF A HIGH LOAD FACTOR LARGE                                            §           OF TEXAS\n POWER SERVICE TARIFF                                                   §\n\n\n                            ORDER NO. 2\n   REQUIRING COMMENTS AND RECOMMENDATIONS ON THE APPLICATION,\n  PROPOSED NOTICE, AND APPROPRIATE PROCESSING OF THE APPLICATION\n\n          In Order No. 1 filed on April 8, 2026, the Administrative Law Judge established a deadline\nof April 22, 2026 for Commission Staff to file comments and recommendations on the\nadministrative completeness of El Paso Electric Company’s April 7, 2026 application for approval\nof a new tariff applicable to very large, high load factor customers. To date, Commission Staff\nhas not filed its recommendation in this docket.\n\n          By April 29, 2026, Commission Staff must file its comments and recommendations on the\nadministrative completeness of the application and notice, and a proposal, including procedural\nschedule, for the appropriate processing of this docket.\n\n          Signed at Austin, Texas, on the 24th day of April 2026.\n                                                                 PUBLIC UTILITY COMMISSION OF TEXAS\n\n\n\n\n                                                                 ERIC YOON\n                                                                 ADMINISTRATIVE LAW JUDGE\n\nq:\\cadm\\docket management\\electric\\tariffs\\59xxx\\59611-2 solicit rec.docx\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_3_1630152.PDF",
+   "name": null,
+   "bytes": 98512,
+   "sha256": "03c1820d9ac8221b2999816e6c4a495db23773cd8b428929fccb62be46a5ffbf",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-04-24 03:45:38 PM\n\nControl Number - 59611\n\nItem Number - 3\n\f                                                      DOCKET NO. 59611\n\n\n APPLICATION OF EL PASO                                                 §   PUBLIC UTILITY COMMISSION\n ELECTRIC COMPANY FOR APROVAL                                           §\n OF A HIGH LOAD FACTOR LARGE                                            §              OF TEXAS\n POWER SERVICE TARIFF                                                   §\n\n\n                            ORDER NO. 2\n   REQUIRING COMMENTS AND RECOMMENDATIONS ON THE APPLICATION,\n  PROPOSED NOTICE, AND APPROPRIATE PROCESSING OF THE APPLICATION\n\n          In Order No. 1 filed on April 8,2026, the Administrative Law Judge established a deadline\nof April 22, 2026 for Commission Staff to file comments and recommendations on the\nadministrative completeness of El Paso Electric Company' s April 7,2026 application for approval\nof a new tariff applicable to very large, high load factor customers. To date, Commission Staff\nhas not filed its recommendation in this docket.\n\n          By April 29,2026, Commission Staff must file its comments and recommendations on the\nadministrative completeness of the application and notice, and a proposal, including procedural\nschedule, for the appropriate processing of this docket.\n\n           Signed at Austin, Texas, on the 24th day of April 2026.\n                                                                 PUBLIC UTILITY COMMISSION OF TEXAS\n\n                                                                            i     41\n\n\n                                                                 ERIC YOON\n                                                                 ADMINISTRATIVE LAW JUDGE\n\nq:\\cadm\\docket management\\electric\\tariffs\\59xxx\\59611-2 solicit rec.docx\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:05:17Z"
 }

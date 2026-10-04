@@ -1,0 +1,48 @@
+{
+ "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/09/02/BZ-Verification-RFI-Attestation-TSP-or-DSP.docx",
+ "jur": "TX",
+ "source": "ercot_large_load",
+ "kind": "report",
+ "docket": null,
+ "title": "ERCOT — BZ Verification RFI Attestation TSP or DSP",
+ "filed": "2026-09-02",
+ "url": "https://www.ercot.com/files/docs/2026/09/02/BZ-Verification-RFI-Attestation-TSP-or-DSP.docx",
+ "entity": "ERCOT",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/09/02/BZ-Verification-RFI-Attestation-TSP-or-DSP.docx"
+  }
+ ],
+ "meta": {
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/rq/large-load-integration",
+  "postprocess": "ercot_ll_table",
+  "table_rows": [],
+  "table_metrics": {},
+  "summary": "",
+  "ocr": false
+ },
+ "collected_at": "2026-10-04T00:44:58Z",
+ "run_id": "2026-10-04-0022",
+ "keywords": [
+  "batch zero",
+  "large-load",
+  "transmission service",
+  "verification RFI"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/09/02/BZ-Verification-RFI-Attestation-TSP-or-DSP.docx",
+   "name": null,
+   "bytes": 17373,
+   "sha256": "d99c0468e05a3c5ff1b378ee51b2d8eab2dfd052260dafcc99099ec314b69c27",
+   "ctype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "ERCOT Batch Zero Verification RFI Attestation\nBEFORE ME, the undersigned authority, on this day personally appeared      , and being by me duly sworn, under oath declared the following statements are true and correct:\n“I am a representative, official, officer, or other authorized person with authority to bind      , the Interconnecting Transmission Service Provider (TSP) or Interconnecting Distribution Provider (DSP) identified in the response to ERCOT’s request for information accompanying this attestation.  I hereby certify that I have reviewed the information and documentation the Interconnecting TSP or DSP provided in response to ERCOT’s request for information.  I further certify that, to the best of my knowledge, that information and documentation are true and accurate, and that, after all reasonable inquiry, all material information reasonably responsive to the request has been provided.”  \n     \nSignature\n\n     \nPrinted Name\n\nSWORN TO AND SUBSCRIBED BEFORE ME on this       day of      , 2026.\n     \nNotary Public in and for the State of      \nMy commission expires      \n\t\t\t\t\t\t\t\t\t\t\t\t\n"
+  }
+ ]
+}

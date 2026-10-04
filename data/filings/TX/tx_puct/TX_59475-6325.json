@@ -17,8 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "transmission service"
+ ],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:12:54Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6325_1659099.ZIP",
+   "name": null,
+   "bytes": 152171,
+   "sha256": "cd5826a85310612815e9fd13158991a42da6b3f553460496660cb62a03fa12ba",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 59475donotaddAppealltr_6.22.26.pdf ===\n   Thomas J. Gleeson                                                                                                  Greg Abbott\n   Chairman                                                                                                                     Governor\n   Kathleen Jackson                                                                                               Connie Corona\n   Commissioner                                                                                                    Executive Director\n   Courtney K. Hjaltman\n   Commissioner\n   Morgan Johnson\n   Commissioner                       Public Utility Commission of Texas\n   Patrick Rhode\n   Commissioner\n\n ___________________________________________________________________________________________________________________________________\n\n\n\n            TO:                 All Parties of Record\n\n            FROM:               Commission Advising\n\n            RE:                 Docket No. 59475 – Joint Application of Oncor Electric Delivery Company\n                                LLC and LCRA Transmission Service Corporation to Amend their\n                                Certificates of Convenience and Necessity for the Bell County East Switch\n                                to Big Hill Substation 765-KV Transmission Line Project in Bell, Burnet,\n                                Concho, Coryell, Lampasas, Llano, Mason, McCulloch, Menard, Milam,\n                                Mills, San Saba, Schleicher, Tom Green, and Williamson Counties\n\n            DATE:               22 June 2026\n\n\n            The Commission voted to not add John M. Burrow’s Appeal of SOAH Order No. 25 to any\n            open meeting agenda.\n\n\n\n\n    Printed on recycled paper                                                                                   An Equal Opportunity Employer\n\n1701 N. Congress Avenue PO Box 13326 Austin, TX 78711 512/936-7000 Fax: 512/936-7003 website: www.puc.texas.gov\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6325_1659100.PDF",
+   "name": null,
+   "bytes": 98121,
+   "sha256": "688e3cf65e24259e9c2d123573921538182a898fa1685c1d82b79af0d19e9588",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-22 04:20:55 PM\n\nControl Number - 59475\n\nItem Number - 6325\n\f    Thomas J. Gleeson                                             *                                    Greg Abbott\n    Chairman                                                                                                     Governor\n\n    Kathleen Jackson                                                                               Connie Corona\n    Commissioner                                                                                    Executive Director\n\n    Courtney K. Hjaltman\n    Commissioner\n\n    Morgan Johnson\n    Commissioner                      Public Utility Commission of Texas\n    Patrick Rhode\n    Commissioner\n\n\n\n\n            TO:                 All Parties of Record\n\n            FROM:               Commission Advising\n\n            RE:                 Docket No. 59475 - Joint Application of Oncor Electric Delivery Company\n                                LLC and LCRA Transmission Service Corporation to Amend their\n                                Certificates of Convenience and Necessity for the Bell County East Switch\n                                to Big Hill Substation 765-KV Transmission Line Project in Bell, Burnet,\n                                Concho, Coryell, Lampasas, Llano, Mason, McCulloch, Menard, Milam,\n                                Mills, San Saba, Schleicher, Tom Green, and Williamson Counties\n\n            DATE:               22 June 2026\n\n\n            The Commission voted to not add John M. Burrow's Appeal of SOAH Order No. 25 to any\n            open meeting agenda.\n\n\n\n\n~   Printed on recycled paper                                                                    An Equal Opportunity Employer\n\n1701 N. Congress Avenue PO Box 13326 Austin, TX 78711 512/936-7000 Fax: 512/936-7003 website: www. puc.texas. gov\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:00:03Z"
 }

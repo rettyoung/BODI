@@ -18,7 +18,34 @@
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
  "keywords": [],
- "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:13:38Z"
+ "party_hits": [
+  "Office of Public Utility Counsel"
+ ],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_21_1654255.ZIP",
+   "name": null,
+   "bytes": 20686,
+   "sha256": "b3e1d080f30d0c98ed8d9fcb2229d31472633046817176f9da146af8649eb2ea",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 59611 high load factor lieu of Final Rec (dk).docx ===\nDocket No. 59611\ncommission staff’s STATEMENT IN LIEU OF FINAL Recommendation\nOn April 7, 2026, El Paso Electric Company (EPE) filed an application for approval of a new tariff applicable to very large, high-load factor customers. EPE proposes to create Schedule No. 27 - High Load Factor Large Power Service Rate (HLFLP) with an effective date of May 12, 2026. EPE also proposes the termination of Rate Schedule 33A upon approval of the proposed Schedule No. 27.\nOn May 29, 2026, the administrative law judge (ALJ) filed Order No. 4, requiring the Staff (Staff) of the Public Utility Commission of Texas, to file a recommendation on final disposition or to request a hearing by June 8, 2026. Therefore, this pleading is timely filed. \nSTATEMENT IN LIEU OF FINAL RECOMMENDATION\nOn May 15, 2026, the City of El Paso requested this case be referred to the State Office of Administrative Hearings (SOAH) for a hearing on the merits. Also on May 27, 2026, the Office of Public Utility Counsel filed a request for hearing. Accordingly, Staff defers making its final recommendation in anticipation of filing testimony on any identified issues on a date the parties agree to in a forthcoming procedural schedule.\nCONCLUSION\nStaff respectfully requests the ALJ take note of Staff’s statement provided herein.\n\nDated: June 8, 2026\n\nRespectfully submitted,\nPUBLIC UTILITY COMMISSION OF TEXAS \nLEGAL DIVISION\n\nMarisa Lopez Wagley\nDivision Director\n\nAndy Aus\nManaging Attorney\n\n/s/ Dylan King\t\t\t\nDylan King\nState Bar No. 24131431 \n1701 N. Congress Avenue \nP.O. Box 13326 \nAustin, Texas 78711-3326 \n(512) 936-7299 \n(512) 936-7268 (facsimile) \nDylan.King@puc.texas.gov\n\nDOCKET NO. 59611\n\nCERTIFICATE OF SERVICE\n\nI certify that a copy of this document will be served on all parties of record on June 8, 2026, in accordance with 16 TAC § 22.74. \n/s/ Dylan King\t\t\t\nDylan King"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_21_1654256.PDF",
+   "name": null,
+   "bytes": 113228,
+   "sha256": "23dc593a72e35212929583c2821f5bf18132708d95f2d514d74aea9685131b03",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-08 01:13:18 PM\n\nControl Number - 59611\n\nItem Number - 21\n\f                                      DOCKET NO. 59611\n\nAPPLICATION OF EL PASO ELECTRIC                     §      PUBLIC UTILITY COMMISSION\nCOMPANY FOR APROVAL OF A HIGH                       §\nLOAD FACTOR LARGE POWER                             §                   OF TEXAS\nSERVICE TARIFF                                      §\n\n  COMMISSION STAFF'S STATEMENT IN LIEU OF FINAL RECOMMENDATION\n\n       On April 7,2026, El Paso Electric Company (EPE) filed an application for approval of a\n\nnew tariff applicable to very large, high-load factor customers. EPE proposes to create Schedule\n\nNo. 27 - High Load Factor Large Power Service Rate (HI-,FLP) with an effective date of May 12,\n\n2026. EPE also proposes the termination of Rate Schedule 33A upon approval of the proposed\n\nSchedule No. 27.\n\n       On May 29,2026, the administrative law judge (ALJ) filed Order No. 4, requiring the Staff\n\n(Staff) of the Public Utility Commission of Texas, to file a recommendation on final disposition\n\nor to request a hearing by June 8,2026. Therefore, this pleading is timely filed.\n\n\n            I.      STATEMENT IN LIEU OF FINAL RECOMMENDATION\n       On May 15, 2026, the City of El Paso requested this case be referred to the State Office of\n\nAdministrative Hearings (SOAH) for a hearing on the merits. Also on May 27,2026, the Office\n\nof Public Utility Counsel filed a request for hearing. Accordingly, Staff defers making its final\n\nrecommendation in anticipation of filing testimony on any identified issues on a date the parties\n\nagree to in a forthcoming procedural schedule.\n\n                                     II.     CONCLUSION\n       Staff respectfully requests the ALJ take note of Staff' s statement provided herein.\n\f                                                                                         Page 2 of 2\n\n\n\nDated: June 8,2026\n\n\n                                             Respectfully submitted,\n\n                                             PUBLIC UTILITY COMMISSION OF TEXAS\n                                             LEGAL DIVISION\n\n                                             Marisa Lopez Wagley\n                                             Division Director\n\n                                             Andy Aus\n                                             Managing Attorney\n\n                                             /s/ Dvlan King\n                                             Dylan King\n                                             State Bar No. 24131431\n                                              1701 N. Congress Avenue\n                                             P.O. Box 13326\n                                             Austin, Texas 78711-3326\n                                             (512) 936-7299\n                                             (512) 936-7268 (facsimile)\n                                             Dylan.King@puc.texas.gov\n\n\n                                     DOCKET NO. 59611\n\n                                CERTIFICATE OF SERVICE\n\n\n       I certify that a copy ofthis document will be served on all parties ofrecord on June 8,2026,\n\nin accordance with 16 TAC § 22.74.\n\n                                             /s/ Dvlan King\n                                             Dylan King\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:01:15Z"
 }

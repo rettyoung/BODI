@@ -1,0 +1,45 @@
+{
+ "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/09/28/Large-Load-IROL-Mitigation-Plans_ROS.pptx",
+ "jur": "TX",
+ "source": "ercot_large_load",
+ "kind": "report",
+ "docket": null,
+ "title": "ERCOT — 05. Large Load IROL Mitigation Plans_ROS",
+ "filed": "2026-10-01",
+ "url": "https://www.ercot.com/files/docs/2026/09/28/Large-Load-IROL-Mitigation-Plans_ROS.pptx",
+ "entity": "ERCOT",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/09/28/Large-Load-IROL-Mitigation-Plans_ROS.pptx"
+  }
+ ],
+ "meta": {
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/calendar/10012026-ROS-Meeting",
+  "postprocess": "ercot_ll_table",
+  "table_rows": [],
+  "table_metrics": {},
+  "summary": "",
+  "ocr": false
+ },
+ "collected_at": "2026-10-04T00:44:22Z",
+ "run_id": "2026-10-04-0022",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/09/28/Large-Load-IROL-Mitigation-Plans_ROS.pptx",
+   "name": null,
+   "bytes": 708384,
+   "sha256": "a47cbf2f1dbe7a9801fc3b8c130c941db80595648dd6847d3f5f568429355dab",
+   "ctype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  }
+ ]
+}

@@ -17,8 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "ESA"
+ ],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:14:11Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58000_2_1648995.ZIP",
+   "name": null,
+   "bytes": 18078,
+   "sha256": "2afaa46f373dcb9efc44231f5329447ab6aaebe4c1b396260de7afa43c610b36",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 58000_Staff Memo_Restyle Request.docx ===\n\n\n\n\nCommission Staff requests that this project be restyled to: \n\nProject No. 58000, Rulemaking to Update Wholesale and IOU Retail Transmission Cost Recovery in the ERCOT Region\n"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58000_2_1648996.PDF",
+   "name": null,
+   "bytes": 87528,
+   "sha256": "715f4fc0d87db3dcbb74668ac24dade77b67d192e65a70d86fecbd05aaaef3ac",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-05-27 01:34:19 PM\n\nControl Number - 58000\n\nItem Number - 2\n\f                    Public Utility Commission of Texas\n\n                                     Memorandum\n\n\n TO:            Central Records\n\n FROM:          Jessie Horn, Sr. Counsel, Rules and Projects Division\n\n DATE:          May 27,2026\n\n RE :           Project No . 58000 , Rules and Projects - X\n\n\n\nCommission Staff requests that this project be restyled to:\n\n   •    Project No. 58000, Rulemaking to Update Wholesale and IOU Retail Transmission\n        Cost Recovery in the ERCOT Region\n\n\n\n\n                                             Page 1 of 1\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:02:53Z"
 }

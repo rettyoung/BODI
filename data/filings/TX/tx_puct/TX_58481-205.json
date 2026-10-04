@@ -19,6 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:10:55Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_205_1676912.ZIP",
+   "name": null,
+   "bytes": 15510,
+   "sha256": "0a82c2edce8bb202b1e056aa293a183785c12d91c38e95067b407279a1852896",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Void Memo for Item No. 204.docx ===\n\nTO:\tCentral Records\n\nFROM:\t\tKatelyn Lewis \n\t\tRules and Projects Division\nDATE:\t\tAugust 24, 2026 \n\nRE:\tStaff Memorandum Requesting to Void Item\n\n\nThis memo is to request Central Records to void AIS Item #204 in Project No. 58481."
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_205_1676913.PDF",
+   "name": null,
+   "bytes": 85661,
+   "sha256": "529fa9a16e61fd0c53ffc809b540b3e92defc073fcc5718a24ffae4f5e1913bb",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-08-24 04:28:33 PM\n\nControl Number - 58481\n\nItem Number - 205\n\f                   Public Utility Commission of Texas\n\n                                   Memorandum\n\nTO:           Central Records\n\nFROM:         Katelyn Lewis\n              Rules and Projects Division\n\nDATE:         August 24,2026\n\nRE:           Staff Memorandum Requesting to Void Item\n\n\nThis memo is to request Central Records to void AIS Item #204 in Project No. 58481.\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T00:56:05Z"
 }

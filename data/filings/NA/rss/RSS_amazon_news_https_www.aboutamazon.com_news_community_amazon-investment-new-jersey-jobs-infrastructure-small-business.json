@@ -1,0 +1,50 @@
+{
+ "id": "RSS:amazon_news:https://www.aboutamazon.com/news/community/amazon-investment-new-jersey-jobs-infrastructure-small-business",
+ "jur": null,
+ "source": "rss:amazon_news",
+ "kind": "news",
+ "docket": null,
+ "title": "5 ways Amazon is investing in New Jersey",
+ "filed": "2026-10-01",
+ "url": "https://www.aboutamazon.com/news/community/amazon-investment-new-jersey-jobs-infrastructure-small-business?utm_source=rss",
+ "entity": "Amazon",
+ "fetch": [
+  {
+   "url": "https://www.aboutamazon.com/news/community/amazon-investment-new-jersey-jobs-infrastructure-small-business?utm_source=rss"
+  }
+ ],
+ "meta": {
+  "bkey": "rss:amazon_news",
+  "rto": null,
+  "summary": "Amazon's investments are boosting the Garden State's economy while creating opportunities for New Jersey residents.",
+  "feed": "amazon_news",
+  "keyword_filter": false,
+  "text_filter": "data ?cent|electric|power grid|nuclear|SMR|gigawatt|\\bGW\\b|megawatt|utility|energy",
+  "entity": "Amazon",
+  "text_filter_match": " We Do\nWorking at Amazon\nLeadership Principles\nShareholder Letters\nReports\nFeatured Topics\nArtificial Intelligence\nAmazon's Custom Chips\nOur Impact\nJobs and Investments\nCommunity\nSustainability\nSmall Businesses\nFeatured Topics\nBuilding Strong Communities\nBuilding Skills for the Future\nAffordability\nData Center Commitments\nSubscribe"
+ },
+ "collected_at": "2026-10-04T00:32:29Z",
+ "run_id": "2026-10-04-0022",
+ "keywords": [
+  "SMR",
+  "data center",
+  "nuclear"
+ ],
+ "party_hits": [
+  "Amazon"
+ ],
+ "documents": [
+  {
+   "url": "https://www.aboutamazon.com/news/community/amazon-investment-new-jersey-jobs-infrastructure-small-business?utm_source=rss",
+   "name": null,
+   "bytes": 230630,
+   "sha256": "67960bf8bddcc3191fe17342936d8c04693a1895f3285e6829f1f82d52a2a081",
+   "ctype": "text/html; charset=utf-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "How Amazon is investing in New Jersey\n5 ways Amazon is investing in New Jersey \nAmazon's investments are boosting the Garden State's economy while creating opportunities for New Jersey residents. \nShare\nWritten by \nAmazon Staff\n3 min read\nKey takeaways\nAmazon has \ninvested more than $55 billion\n in New Jersey and contributed over $60 billion to the state's economy.\nThe company has more than 42,000 full- and part-time employees and supports more than 30,000 indirect jobs.\nAmazon partners with 14 educational institutions in New Jersey through its \nCareer Choice program\n and has upskilled over 6,400 employees since 2019.\nMore than 284 million items were sold by New Jersey-based independent sellers through Amazon's store.\nFor more than 30 years, Amazon has been investing across the United States, strengthening local economies and creating opportunities for communities nationwide. New Jersey is a prime example of this commitment, with Amazon building a substantial presence in the state since 2008.\nKatherine Hopkins teaches a training on belt fasteners to Gabriel Sanchez, at ABE8 Amazon Distribution Center, in Florence, N.J., on Tuesday, June 18, 2024. \nToday, New Jersey serves as a thriving innovation and logistics hub for Amazon, with investments spanning fulfillment centers to Whole Foods Market locations. The company's economic impact extends beyond direct employment, supporting thousands of additional jobs in construction, logistics, and professional services, and helping local businesses reach customers around the world.\nHere are five ways Amazon is investing in New Jersey:\n1. Investing in our employees\nAmazon provides \ncompetitive wages and comprehensive benefits from Day 1\n. Operations employees in customer fulfillment and transportation earn an average hourly base wage of more than $24, with total compensation averaging more than $32 an hour when including benefits. These benefits include health, vision, and dental insurance starting on Day 1, free mental health resources, up to 20 weeks of fully paid parental leave, a 401(k) with 50% company match, and flexible time-off options that increase with tenure.\nLina Hernandez at ACY5 Amazon Fulfillment Center, in Logan Township, NJ, on Wednesday, May 8, 2024. \nBeyond more than 42,000 direct jobs, Amazon's presence in New Jersey supports more than 30,000 indirect jobs in industries such as construction, logistics, and professional services—suppliers and partners whom we rely on every day.\n2. Supporting workforce development and upskilling\nAmazon is committed to preparing its workforce for future opportunities through comprehensive education and skills training programs. Since 2019, more than 6,400 New Jersey employees have participated in these free initiatives.\nAmazon commits $1 billion to Career Choice employee education program as part of Future Ready 2030 fund\nThe Future Ready 2030 fund supports students, employees, and those looking to expand their skills as the workforce adapts to a changing economy.\nIn New Jersey, Amazon partners with 14 educational institutions through its \nCareer Choice program\n, which prepays tuition for employees pursuing further education. These partnerships with colleges and universities across the state help Amazon employees gain in-demand skills that can propel them into new careers. \nFrom Machine Learning University to Career Choice, these programs represent Amazon's investment in developing talent and creating pathways to opportunity for its workforce.\n3. Building infrastructure across the Garden State\nAmazon has invested more than $55 billion in New Jersey's infrastructure and employee compensation, contributing more than $60 billion to the state's gross domestic product.\nAerial view of a New Jersey-based Amazon facility with solar panels.\nThese investments include 24 fulfillment and sortation centers, 23 delivery stations, and other facilities across the state. The company has also expanded its retail footprint with 25 Whole Foods Market locations across New Jersey. Amazon continues to grow its sustainable infrastructure as well, with 15 solar farms and 15 sites with on-site solar power in the state.\n4. Empowering New Jersey's small businesses\nAmazon provides a powerful opportunity for New Jersey's entrepreneurs and small businesses to reach customers worldwide. \nNew Jersey-based independent sellers\n—primarily small and medium-sized businesses—sold more than 284 million items through Amazon's store, with the average seller generating more than $540,000 in annual sales.\nInside \nBroombi\n's packing room in Fort Lee, New Jersey, where the team prepares their patented bristleless brooms for shipment.\nThese independent sellers represent more than 60% of sales in Amazon's store. Their success contributes significantly to local economies, with more than 65% of U.S. independent sellers employing at least one person within 50 miles of their primary business location. \nBy providing infrastructure, logistics support, and access to millions of customers, Amazon enables New Jersey's small businesses to scale their operations and create additional jobs throughout the state.\n5. Investing as a good neighbor\nAmazon uses its global scale and strengths to make a positive impact in communities. Working with trusted community partners, we address critical needs—\nfood security\n, \neducation\n, \ndisaster relief\n—using our logistics, technology, and innovation, while investing as a good neighbor in the communities where our employees live and work.\nIn New Jersey, Amazon has donated more than $1 million to more than 50 local community organizations.\nAmazon team members volunteering at Community FoodBank of New Jersey\nAmazon has delivered more than 200,000 meals on behalf of food banks and nonprofits across the state. The company has reached more than 40,000 students and 2,000 teachers through education programs and supported more than 600,000 computer science learning hours. More than 3,000 Amazon employees have volunteered in communities across New Jersey.\nRead more about how Amazon is \ninvesting in New Jersey\n and the \nU.S.\nTrending news and stories\nAmazon introduces a completely redesigned Kindle family\nPrime Big Deal Days: Our biggest deals to kick off fall and holiday shopping October 6-7\nFire TV launches all-new, faster 4K stick and new remote design\nPrime Big Deal Days 2026: Early deals you can shop right now\n\nRelated Tags\n\nCommunity\nJob creation and investment\nUpskilling\nSustainability\nSmall business \nNew Jersey\nVolunteer \nShare\nMore Amazon News\nPrevious slide\n1 / 1\nNext slide\nHow Amazon is helping communities impacted by the Nepal flash floods\nCommunity\nAmazon in the community: Service, community, and commitment at HQ2\nCommunity\nHow Amazon’s rapid response technology systems help communities recover faster\nCommunity\nAmazon delivered more than 2 million meals to students in rural communities this summer\nCommunity\nHow Amazon is helping after back-to-back earthquakes in Venezuela\nCommunity\n5 ways Amazon is investing in Arizona\nCommunity\n5 ways Amazon is investing in Nevada\nCommunity\n5 ways Amazon is investing in Colorado\nCommunity\nScroll to top button\nAmazon News\nPress Center\nAmazon.com\nInvestor Resources \nCountry & Language:\nEN\nCareers \nSite Map\nMore from Amazon\nAmazon.com\nConditions of Use\nAmazon Privacy Policy\n© 1996-\n2026\n\nAmazon.com, Inc. or its affiliates\nNews\nStores and Shopping\nAWS\nDevices\nEntertainment\nArtificial Intelligence\nWorkplace\nSustainability\nCommunity\nInternational\nFeatured Topics\nPrime Big Deal Days\nAbout Us\nWhat We Do\nWorking at Amazon\nLeadership Principles\nShareholder Letters\nReports\nFeatured Topics\nArtificial Intelligence\nAmazon's Custom Chips\nOur Impact\nJobs and Investments\nCommunity\nSustainability\nSmall Businesses\nFeatured Topics\nBuilding Strong Communities\nBuilding Skills for the Future\nAffordability\nData Center Commitments\nSubscribe"
+  }
+ ]
+}

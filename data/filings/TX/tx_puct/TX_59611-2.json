@@ -19,6 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:15:39Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_2_1617986.ZIP",
+   "name": null,
+   "bytes": 85318,
+   "sha256": "d2b8af9307a425ba153fe0a8e5b3e9c1925e50560fbb718ff628ed79daf57594",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 59611-1.pdf ===\n                                                    DOCKET NO. 59611\n\n\n APPLICATION OF EL PASO                                            §   PUBLIC UTILITY COMMISSION\n ELECTRIC COMPANY FOR APROVAL                                      §\n OF A HIGH LOAD FACTOR LARGE                                       §           OF TEXAS\n POWER SERVICE TARIFF                                              §\n\n\n                            ORDER NO. 1\n   REQUIRING COMMENTS AND RECOMMENDATIONS ON THE APPLICATION,\n  PROPOSED NOTICE, AND APPROPRIATE PROCESSING OF THE APPLICATION\n\n          This Order addresses application filed by El Paso Electric Company (EPE) on April 7,\n2026, for approval of a new tariff applicable to very large, high load factor customers. EPE\nproposes to create Schedule No. 27 - High Load Factor Large Power Service Rate (HLFLP) with\nan effective date of May 12, 2026. EPE also proposes the termination of Rate Schedule 33A upon\napproval of the proposed Schedule No. 27.\n\n          EPE proposes that notice be given to Anthony, Clint, El Paso, Horizon City, San Elizario,\nSocorro, Van Horn, and Vinton, the municipalities retaining original jurisdiction over EPE’s rates,\nby service of a copy of the application and by a one-time publication in newspapers of general\ncirculation in EPE’s service territory. By April 22, 2026, Commission Staff must file comments\nand recommendations on the administrative completeness of the application and notice, and a\nproposal, including schedule, for the appropriate processing of this docket.\n\n          Signed at Austin, Texas, on the 8th day of April 2026.\n                                                                PUBLIC UTILITY COMMISSION OF TEXAS\n\n\n\n\n                                                                ERIC YOON\n                                                                ADMINISTRATIVE LAW JUDGE\n\nq:\\cadm\\docket management\\electric\\tariffs\\59xxx\\59611-1.docx\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_2_1617987.PDF",
+   "name": null,
+   "bytes": 103314,
+   "sha256": "a07e1555839c602f8dd4026257318dd2715651a6c70e43b5b612ed314e73b048",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-04-08 12:15:05 PM\n\nControl Number - 59611\n\nItem Number - 2\n\f                                                    DOCKET NO. 59611\n\n\n APPLICATION OF EL PASO                                            §   PUBLIC UTILITY COMMISSION\n ELECTRIC COMPANY FOR APROVAL                                      §\n OF A HIGH LOAD FACTOR LARGE                                       §               OF TEXAS\n POWER SERVICE TARIFF                                              §\n\n\n                            ORDER NO. 1\n   REQUIRING COMMENTS AND RECOMMENDATIONS ON THE APPLICATION,\n  PROPOSED NOTICE, AND APPROPRIATE PROCESSING OF THE APPLICATION\n\n          This Order addresses application filed by El Paso Electric Company (EPE) on April 7,\n2026, for approval of a new tariff applicable to very large, high load factor customers. EPE\nproposes to create Schedule No. 27 - High Load Factor Large Power Service Rate (HLFLP) with\nan effective date of May 12, 2026. EPE also proposes the termination of Rate Schedule 33A upon\napproval of the proposed Schedule No. 27.\n\n          EPE proposes that notice be given to Anthony, Clint, El Paso, Horizon City, San Elizario,\nSocorro, Van Horn, and Vinton, the municipalities retaining original jurisdiction over EPE' s rates,\nby service of a copy of the application and by a one-time publication in newspapers of general\ncirculation in EPE's service territory. By April 22,2026, Commission Staff must file comments\nand recommendations on the administrative completeness of the application and notice, and a\nproposal, including schedule, for the appropriate processing of this docket.\n\n          Signed at Austin, Texas, on the 8th day of April 2026.\n                                                                PUBLIC UTILITY COMMISSION OF TEXAS\n                                                                       t\n                                                                             4#'\n\n\n                                                                ERIC YOON\n                                                                ADMINISTRATIVE LAW JUDGE\n\nq:\\cadm\\docket management\\electric\\tariffs\\59xxx\\59611-1.docx\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:05:54Z"
 }

@@ -17,8 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "large load"
+ ],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:11:23Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_90_1672396.ZIP",
+   "name": null,
+   "bytes": 33997,
+   "sha256": "6476c929f10f069ffde4aa4076b908c322e5fb115a42feeac9e5dcf70c7ceeb3",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Docket No. 58796 SOAH ORDER NO. 8.pdf ===\nSOAH Docket No. 473-26-07507                  Suffix: PUC\nPUC Docket No. 58796\n\n\n\n              Before the\n    State Office of Administrative\n               Hearings\n\n\n  APPLICATION OF SOUTHWESTERN ELECTRIC POWER\n  COMPANY FOR AUTHORITY TO AMEND TARIFFS FOR\nRETAIL ELECTRIC SERVICE TO INCLUDE NEW STANDARD\nFORM CONTRACT FOR ELECTRIC SERVICE – LARGE LOAD\n\n\n\n\n                              SOAH ORDER NO. 8\n                               REQUIRING FILING\n\n        For ease of the administration of the hearing scheduled for Wednesday,\nAugust 12, 2026, Southwestern Electric Power Company SHALL file an agreed\nlist of presentation of witnesses by close of business August 11, 2026. This list will\ninclude the witnesses from all parties, designate whether it is direct or rebuttal\ntestimony, in the order to be presented at trial. If there are any witnesses that have\nbeen waived ahead of the hearing, that information shall be noted in the filing.\n\n\nSigned August 9, 2026\n                                       _____________________________\n                                       Rachelle Nicolette Robles,\n                                       Administrative Law Judge\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_90_1672397.PDF",
+   "name": null,
+   "bytes": 97654,
+   "sha256": "7a93acc3ea050a6b992fb8dfed481ce90f5c62c038503fb7ac7a6f1c71709788",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-08-10 02:17:34 PM\n\nControl Number - 58796\n\nItem Number - 90\n\fSOAH Docket No. 473-26-07507                  Suffix: PUC\nPUC Docket No. 58796\n\n\n\n                             BEFORE THE\n    STATE OFFICE OF ADMINISTRATIVE\n                               HEARINGS\n\n\n  APPLICATION OF SOUTHWESTERN ELECTRIC POWER\n  COMPANY FOR AUTHORITY TO AMEND TARIFFS FOR\nRETAIL ELECTRIC SERVICE TO INCLUDE NEW STANDARD\nFORM CONTRACT FOR ELECTRIC SERVICE - LARGE LOAD\n\n\n\n\n                              SOAH ORDERNO. 8\n                               REQUIRING FILING\n\n\n        For ease of the administration of the hearing scheduled for Wednesday,\nAugust 12, 2026, Southwestern Electric Power Company SHALL file an agreed\nlist of presentation of witnesses by close ofbusiness August 11, 2026. This list will\ninclude the witnesses from all parties, designate whether it is direct or rebuttal\ntestimony, in the order to be presented at trial. If there are any witnesses that have\nbeen waived ahead of the hearing, that information shall be noted in the filing.\n\n\nSigned August 9,2026\n                                            £ *JJ Ul\n\n\n                                       Rachelle Nicolette Robles,\n                                       Administrative Law Judge\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T00:57:29Z"
 }

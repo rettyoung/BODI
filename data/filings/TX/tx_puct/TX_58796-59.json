@@ -17,8 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "large load"
+ ],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:15:28Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_59_1626394.ZIP",
+   "name": null,
+   "bytes": 37357,
+   "sha256": "5f2cfe5d49956e0e89e03b3c2a9c600d5c43edebca3434432ab53b3ec46fb6c2",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Docket No. 58796 SOAH ORDER NO. 6.pdf ===\nSOAH Docket No. 473-26-07507              Suffix: PUC\nPUC Docket No. 58796\n\n\n\n             Before the\n   State Office of Administrative\n              Hearings\n\n\n  APPLICATION OF SOUTHWESTERN ELECTRIC POWER\n  COMPANY FOR AUTHORITY TO AMEND TARIFFS FOR\nRETAIL ELECTRIC SERVICE TO INCLUDE NEW STANDARD\nFORM CONTRACT FOR ELECTRIC SERVICE – LARGE LOAD\n\n\n\n\n                        SOAH ORDER NO. 6\n                 CONSOLIDATING MUNICIPAL APPEALS\n\n      On February 19, 2026, and February 27, 2026, Southwestern Electric Power\nCompany (SWEPCO) filed its Petition and Second Petition for Review and\nMotions to Consolidate (Motion). SWEPCO asserts that the cities of Alba, Avery,\nBeckville, Big Sandy, Bloomburg, Carthage, Childress, Clarendon, DeKalb,\nDodson, Estelline, Fruitvale, Gary, East Mountain, Gilmer, Union Grove, Gary,\nEast Mountain, Gilmer, Union Grove, Warren City, Grand Saline, Hallsville,\nHedley, Hooks, Leary, Hughes Springs, Lakeview, Linden, Lakeport, Maud,\nMemphis, Mount Vernon, Nash, New Boston, Omaha, Overton, Queen City,\nScottsville, Shamrock, Tatum, Tenaha, Red Lick, Texarkana, Wake Village,\n\fWellington, Clarksville City, Miller's Cove, Winfield, Atlanta, Bloomburg, Center,\nClarksville City, Gladewater, Grand Saline, Hallsville, Hughes Springs, Kilgore,\nLongview, Marshall, Memphis, Mount Pleasant, Mount Vernon, Overton,\nPittsburg, Queen City, Wake Village, Waskom, Winnsboro, and Winona\n(collectively, Cities) in which it operates denied SWEPCO’s requested rate\nchange. SWEPCO appeals the Cities’ decisions and requests that the appeals be\nconsolidated with this rate case to promote regulatory efficiency, stating that the\nappeals involve common questions of law and fact to those in this proceeding. No\nobjections were filed. SWEPCO’s Motion is GRANTED and the appeals of\nCities’ denials are CONSOLIDATED for review with this docket.\n\n\nSigned April 21, 2026\n\n\n                                         _____________________________\n                                         Rachelle Nicolette Robles\n                                         Administrative Law Judge\n\n\n\n\n                                             2\n                                    SOAH Order No. 6\n                     SOAH Docket No. 473-26-07507, PUC Docket No. 58796\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_59_1626395.PDF",
+   "name": null,
+   "bytes": 115466,
+   "sha256": "955cd892d4132a9981dad96214179670919a25bf56dd718a39acbd9224f3f643",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-04-21 10:35:26 AM\n\nControl Number - 58796\n\nItem Number - 59\n\fSOAH Docket No. 473-26-07507              Suffix: PUC\nPUC Docket No. 58796\n\n\n\n                          BEFORE THE\n   STATE OFFICE OF ADMINISTRATIVE\n                            HEARINGS\n\n\n  APPLICATION OF SOUTHWESTERN ELECTRIC POWER\n  COMPANY FOR AUTHORITY TO AMEND TARIFFS FOR\nRETAIL ELECTRIC SERVICE TO INCLUDE NEW STANDARD\nFORM CONTRACT FOR ELECTRIC SERVICE - LARGE LOAD\n\n\n\n\n                           SOAH ORDERNO. 6\n                 CONSOLIDATING MUNICIPAL APPEALS\n\n\n      On February 19, 2026, and February 27,2026, Southwestern Electric Power\nCompany (SWEPCO) filed its Petition and Second Petition for Review and\nMotions to Consolidate (Motion). SWEPCO asserts that the cities ofAlba, Avery,\nBeckville, Big Sandy, Bloomburg, Carthage, Childress, Clarendon, DeKalb,\nDodson, Estelline, Fruitvale, Gary, East Mountain, Gilmer, Union Grove, Gary,\nEast Mountain, Gilmer, Union Grove, Warren City, Grand Saline, Hallsville,\nHedley, Hooks, Leary, Hughes Springs, Lakeview, Linden, Lakeport, Maud,\nMemphis, Mount Vernon, Nash, New Boston, Omaha, Overton, Queen City,\nScottsville, Shamrock, Tatum, Tenaha, Red Lick, Texarkana, Wake Village,\n\fWellington, Clarksville City, Miller's Cove, Winfield, Atlanta, Bloomburg, Center,\nClarksville City, Gladewater, Grand Saline, Hallsville, Hughes Springs, Kilgore,\nLongview, Marshall, Memphis, Mount Pleasant, Mount Vernon, Overton,\nPittsburg, Queen City, Wake Village, Waskom, Winnsboro, and Winona\n(collectively, Cities) in which it operates denied SWEPCO's requested rate\nchange. SWEPCO appeals the Cities' decisions and requests that the appeals be\nconsolidated with this rate case to promote regulatory efficiency, stating that the\nappeals involve common questions of law and fact to those in this proceeding. No\nobjections were filed. SWEPCO's Motion is GRANTED and the appeals of\nCities' denials are CONSOLIDATED for review with this docket.\n\n\nSigned April 21, 2026\n\n\n\n\n                                         Rachelle Nicolette Robles\n                                         Administrative Law Judge\n\n\n\n\n                                             2\n                                    SOAH Order No. 6\n                     SOAH Docket No. 473-26-07507, PUC Docket No. 58796\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:05:26Z"
 }

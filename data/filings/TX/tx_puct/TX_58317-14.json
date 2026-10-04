@@ -17,8 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "ESA"
+ ],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:14:17Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_14_1649015.ZIP",
+   "name": null,
+   "bytes": 206795,
+   "sha256": "d8c28b95d7131689b1d303143ba9af6d89be1f9188e57cb0ef585037f29b8988",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 58317 and 58484_Staff Memo.pdf ===\n                   Public Utility Commission of Texas\n\n                                    Memorandum\n\n\n TO:           Interested Persons\n\n FROM:         Jessie Horn, Sr. Counsel, Rules and Projects Division\n\n DATE:         May 27, 2026\n\n RE:           Project No. 58317, SB 6 Implementation\n               Project No. 58484, Evaluation of Transmission Cost Recovery\n\n\nCommission Staff has opened an additional rulemaking project to implement Senate Bill 6, as\nenacted by the Texas 89th Legislature, Regular Session:\n\n   •   Project No. 58000, Rulemaking to Update Wholesale and IOU Retail Transmission\n       Cost Recovery in the ERCOT Region\n\n\n\n\n                                          Page 1 of 1\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_14_1649016.PDF",
+   "name": null,
+   "bytes": 89565,
+   "sha256": "bd6ab08d08fb4d865066292278b7aeeb5c5722862b4fcedf603aa0558b8c4687",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-05-27 01:44:31 PM\n\nControl Number - 58317\n\nItem Number - 14\n\f                   Public Utility Commission of Texas\n\n                                    Memorandum\n\n\n TO:           Interested Persons\n\n FROM:         Jessie Horn, Sr. Counsel, Rules and Projects Division\n\n DATE:         May 27,2026\n\n RE :          Project No . 58317 , SB 6 Implementation\n               Project-No. 5%4%4, Evaluation of Transmission Cost Recovery\n\n\nCommission Staff has opened an additional rulemaking project to implement Senate Bill 6, as\nenacted by the Texas 89th Legislature, Regular Session:\n\n   •    Project No. 5%000, Rulemaking to Update Wholesale and IOU Retail Transmission\n        Cost Recovery in the ERCOT Region\n\n\n\n\n                                          Page 1 of 1\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:03:11Z"
 }

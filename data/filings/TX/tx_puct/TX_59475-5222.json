@@ -17,8 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "transmission service"
+ ],
  "party_hits": [],
- "documents": [],
- "enriched_at": "2026-10-03T22:14:05Z"
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5222_1649827.ZIP",
+   "name": null,
+   "bytes": 49274,
+   "sha256": "894517c65e444d7a12bb9130ed34342e53650aa7e95bb263f74611f2714f299c",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Docket No. 59475 SOAH ORDER NO 21.pdf ===\nSOAH Docket No. 473-26-16349                            Suffix: PUC\nPUC Docket No. 59475\n\n\n\n             Before the\n   State Office of Administrative\n              Hearings\n\n\n  JOINT APPLICATION OF ONCOR ELECTRIC DELIVERY\n   COMPANY LLC AND LCRA TRANSMISSION SERVICE\n  CORPORATION TO AMEND THEIR CERTIFICATES OF\n CONVENIENCE AND NECESSITY FOR THE BELL COUNTY\n     EAST SWITCH TO BIG HILL SUBSTATION 765-KV\n    TRANSMISSION LINE PROJECT IN BELL, BURNET,\n    CONCHO, CORYELL, LAMPASAS, LLANO, MASON,\n   MCCULLOCH, MENARD, MILAM, MILLS, SAN SABA,\nSCHLEICHER, TOM GREEN, AND WILLIAMSON COUNTIES\n\n\n\n\n                         SOAH ORDER NO. 21\n                    NOTICE OF YOUTUBE STREAMING\n\n\n      All proceedings in this case will be livestreamed on SOAH’s YouTube\nchannel: https://www.youtube.com/@TexasSOAH. The proceedings include the\nprehearing conference scheduled for June 5, 2026, at 1:00 p.m. and the hearing on\nthe merits scheduled for June 8-12, 2026, beginning at 9:00 a.m. each day. People\n\fwho are observing but not participating should view the proceedings on YouTube in\nlieu of joining the Zoom videoconference.\n\n\nSigned May 28, 2026\n\n\n\n_____________________                           ______________________\nCassandra Quinn                                 Linda Brite\nAdministrative Law Judge                        Administrative Law Judge\n\n\n_____________________\nDee Marlo Chico\nAdministrative Law Judge\n\n\n\n\n                                            2\n                                  SOAH Order No. 21\n                    SOAH Docket No. 473-26-16349, PUC Docket No. 59475\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5222_1649828.PDF",
+   "name": null,
+   "bytes": 106709,
+   "sha256": "40ac41e12380120df44bc8a9e489222fa1ac9e48b45b56364391d5ad742282ea",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-05-29 07:56:24 AM\n\nControl Number - 59475\n\nItem Number - 5222\n\fSOAH Docket No. 473-26-16349                           Suffix: PUC\nPUC Docket No. 59475\n\n\n\n                           BEFORE THE\n    STATE OFFICE OF ADMINISTRATIVE\n                             HEARINGS\n\n\n JOINT APPLICATION OF ONCOR ELECTRIC DELIVERY\n   COMPANY LLC AND LCRA TRANSMISSION SERVICE\n  CORPORATION TO AMEND THEIR CERTIFICATES OF\nCONVENIENCE AND NECESSITY FOR THE BELL COUNTY\n     EAST SWITCH TO BIG HILL SUBSTATION 765-KV\n   TRANSMISSION LINE PROJECT IN BELL, BURNET,\n    CONCHO, CORYELL, LAMPASAS, LLANO, MASON,\n   MCCULLOCH, MENARD, MILAM, MILLS, SAN SABA,\nSCHLEICHER, TOM GREEN, AND WILLIAMSON COUNTIES\n\n\n\n\n                           SOAH ORDER No. 21\n                    NOTICE OF YOUTUBE STREAMING\n\n\n      All proceedings in this case will be livestreamed on SOAH' s YouTube\nchannel: https://www.youtube.com/@TexasSOAH. The proceedings include the\nprehearing conference scheduled forJune 5, 2026, at 1:00 p.m. and the hearing on\nthe merits scheduled forJune 8-12, 2026, beginning at 9:00 a.m. each day. People\n\fwho are observing but not participating should view the proceedings on YouTube in\nlieu ofjoining the Zoom videoconference.\n\n\nSigned May 28,2026\n\n\n                                                      k   .\n                                                              •     /-\n\n(2&*WV+0&4+ )0&,A--                                 9... \"\n                                                    A .J..IA ,0>fi.. ; j/%*. U··\n\n\nCassandra Quinn                                   Linda Brite\nAdministrative Law Judge                          Administrative Law Judge\n\n\n\n\nDee Marlo Chico\nAdministrative Law Judge\n\n\n\n\n                                              2\n                                     SOAH Order No. 21\n                      SOAH Docket No. 473-26-16349, PUC Docket No. 59475\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T01:02:36Z"
 }
