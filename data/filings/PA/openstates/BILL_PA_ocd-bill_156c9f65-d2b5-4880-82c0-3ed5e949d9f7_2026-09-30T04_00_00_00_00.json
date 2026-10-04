@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/156c9f65-d2b5-4880-82c0-3ed5e949d9f7:2026-09-30T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SR 382",
+ "title": "A Resolution recognizing the month of October 2026 as \"Down Syndrome Awareness Month\" in Pennsylvania.",
+ "filed": "2026-09-30",
+ "url": "https://openstates.org/pa/bills/2025-2026/SR382/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Rules & Executive Nominations",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

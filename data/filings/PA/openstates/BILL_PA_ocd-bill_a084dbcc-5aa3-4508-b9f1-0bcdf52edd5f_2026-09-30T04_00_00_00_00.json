@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/a084dbcc-5aa3-4508-b9f1-0bcdf52edd5f:2026-09-30T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SR 369",
+ "title": "A Resolution directing the Legislative Budget and Finance Committee to conduct a study on the future viability of data center technology and facilities.",
+ "filed": "2026-09-30",
+ "url": "https://openstates.org/pa/bills/2025-2026/SR369/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Communications & Technology",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

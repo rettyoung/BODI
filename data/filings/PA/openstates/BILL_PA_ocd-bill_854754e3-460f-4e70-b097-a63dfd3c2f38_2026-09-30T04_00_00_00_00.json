@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/854754e3-460f-4e70-b097-a63dfd3c2f38:2026-09-30T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1408",
+ "title": "An Act prohibiting certain nondisclosure agreements between public agencies and data centers.",
+ "filed": "2026-09-30",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1408/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Re-referred to Rules & Executive Nominations",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

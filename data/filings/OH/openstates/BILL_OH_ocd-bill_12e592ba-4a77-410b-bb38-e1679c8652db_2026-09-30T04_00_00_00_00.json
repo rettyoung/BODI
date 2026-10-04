@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/12e592ba-4a77-410b-bb38-e1679c8652db:2026-09-30T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1020",
+ "title": "Temporarily suspend the motor fuel tax; make other changes",
+ "filed": "2026-09-30",
+ "url": "https://openstates.org/oh/bills/136/HB1020/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Introduced",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

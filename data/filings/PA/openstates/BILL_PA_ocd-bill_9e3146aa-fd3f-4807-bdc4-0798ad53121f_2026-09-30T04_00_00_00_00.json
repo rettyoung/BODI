@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/9e3146aa-fd3f-4807-bdc4-0798ad53121f:2026-09-30T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1345",
+ "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in zoning, providing for optional temporary moratorium on acceptance or consideration of new applications for high impact data centers.",
+ "filed": "2026-09-30",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1345/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Re-referred to Rules & Executive Nominations",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

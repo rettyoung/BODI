@@ -1,0 +1,24 @@
+{
+ "id": "BILL:PA:ocd-bill/657e9e24-7151-4879-ab92-44f27236b184:2026-09-30T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2535",
+ "title": "An Act providing for the public safety regulation of large load users; requiring the submission of emergency operations plans and generalized infrastructure inventories as a condition of occupancy; protecting confidential security information; and providing for enforcement and penalties.",
+ "filed": "2026-09-30",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2535/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Third consideration and final passage",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "emergency",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

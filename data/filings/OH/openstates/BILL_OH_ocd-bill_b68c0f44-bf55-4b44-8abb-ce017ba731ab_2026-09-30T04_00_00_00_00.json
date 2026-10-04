@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/b68c0f44-bf55-4b44-8abb-ce017ba731ab:2026-09-30T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 463",
+ "title": "Regards threat assessment team, behavioral threat assessment plan",
+ "filed": "2026-09-30",
+ "url": "https://openstates.org/oh/bills/136/SB463/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Referred to committee",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

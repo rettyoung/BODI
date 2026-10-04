@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/86ef5915-d1e5-4970-91c6-499403b152f0:2026-10-01T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HR 645",
+ "title": "A Resolution designating October 20, 2026, as \"Domestic Violence Awareness Day\" in Pennsylvania, in honor of the 50th anniversary of the Pennsylvania Coalition Against Domestic Violence.",
+ "filed": "2026-10-01",
+ "url": "https://openstates.org/pa/bills/2025-2026/HR645/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to State Government",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

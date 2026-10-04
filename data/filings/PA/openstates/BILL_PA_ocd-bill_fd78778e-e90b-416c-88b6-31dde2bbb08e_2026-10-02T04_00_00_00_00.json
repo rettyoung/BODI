@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/fd78778e-e90b-416c-88b6-31dde2bbb08e:2026-10-02T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2821",
+ "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in general provisions, further providing for definitions; and, in subdivision and land development, providing for local option for high impact data centers.",
+ "filed": "2026-10-02",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2821/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Local Government",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

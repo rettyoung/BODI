@@ -1,0 +1,35 @@
+{
+ "id": "NRC:ML26244A233",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000289",
+ "title": "Crane Clean Energy Center / TMI-1 (Constellation restart): Ltr to D. J. Morrison, Historic Harrisburg Association - CCEC Final EA [['Letter']]",
+ "filed": "2026-10-02",
+ "entity": [
+  "NRC/NRR/DDLP/DLP2/LREB"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2624/ML26244A233.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2624/ML26244A233.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Crane Clean Energy Center / TMI-1 (Constellation restart)",
+  "accession": "ML26244A233",
+  "document_date": "2026-09-24"
+ },
+ "collected_at": "2026-10-04T22:25:54Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2624/ML26244A233.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2624/ML26244A233.pdf"
+  }
+ ]
+}

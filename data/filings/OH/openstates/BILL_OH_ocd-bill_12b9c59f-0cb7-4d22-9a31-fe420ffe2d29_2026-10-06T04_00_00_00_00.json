@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/12b9c59f-0cb7-4d22-9a31-fe420ffe2d29:2026-10-06T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 433",
+ "title": "Alter amusement ride classification for inspection fee purposes",
+ "filed": "2026-10-06",
+ "url": "https://openstates.org/oh/bills/136/HB433/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Effective 10/6/26",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

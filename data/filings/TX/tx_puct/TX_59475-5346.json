@@ -19,5 +19,71 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5346_1651235.ZIP",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "extract_error: BadZipFile('File is not a zip file')",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5346_1651236.PDF",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "empty",
+   "ocr": false,
+   "pages": 0,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5346_1651237.PDF",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "empty",
+   "ocr": false,
+   "pages": 0,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5346_1651238.PDF",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "empty",
+   "ocr": false,
+   "pages": 0,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5346_1651239.PDF",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "empty",
+   "ocr": false,
+   "pages": 0,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5346_1651240.PDF",
+   "error": "too large (86177736 bytes)"
+  }
+ ],
+ "enriched_at": "2026-10-04T22:44:27Z"
 }

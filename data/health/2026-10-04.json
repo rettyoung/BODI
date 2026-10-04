@@ -1,8 +1,705 @@
 {
  "backfill_since": null,
- "run_id": "2026-10-04-2101",
- "started": "2026-10-04T21:01:09Z",
+ "run_id": "2026-10-04-2207",
+ "started": "2026-10-04T22:07:47Z",
  "sources": {
+  "rss": {
+   "since": "2026-10-01",
+   "found": 29,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "pjm_insidelines": {
+     "status": "ok",
+     "note": "10 entries"
+    },
+    "pa_cmwlth": {
+     "status": "ok",
+     "note": "50 entries"
+    },
+    "nrc_news": {
+     "status": "error",
+     "note": "Blocked('HTTP 403 for https://www.nrc.gov/public-involve/rss?feed=news')"
+    },
+    "grid_strategies": {
+     "status": "ok",
+     "note": "10 entries"
+    },
+    "msft_issues": {
+     "status": "ok",
+     "note": "10 entries"
+    },
+    "msft_source": {
+     "status": "ok",
+     "note": "10 entries"
+    },
+    "google_blog": {
+     "status": "ok",
+     "note": "20 entries"
+    },
+    "google_sustain": {
+     "status": "ok",
+     "note": "20 entries"
+    },
+    "amazon_news": {
+     "status": "ok",
+     "note": "10 entries"
+    },
+    "meta_news": {
+     "status": "ok",
+     "note": "10 entries"
+    },
+    "utilitydive": {
+     "status": "ok",
+     "note": "10 entries"
+    },
+    "rtoinsider": {
+     "status": "ok",
+     "note": "10 entries"
+    },
+    "canary": {
+     "status": "ok",
+     "note": "100 entries"
+    }
+   },
+   "notes": [],
+   "seconds": 56.8,
+   "consecutive_failures": 0
+  },
+  "ir_decks": {
+   "since": "2026-10-01",
+   "found": 235,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "ir:AEP": {
+     "status": "ok",
+     "note": "15 pdf links"
+    },
+    "ir:Southern": {
+     "status": "blocked",
+     "note": "block page (incapsula) at https://investor.southerncompany.com/events-and-presentations/default.aspx"
+    },
+    "ir:Duke": {
+     "status": "ok",
+     "note": "0 pdf links"
+    },
+    "ir:Dominion": {
+     "status": "ok",
+     "note": "2 pdf links"
+    },
+    "ir:Entergy": {
+     "status": "ok",
+     "note": "0 pdf links"
+    },
+    "ir:Evergy": {
+     "status": "blocked",
+     "note": "robots.txt disallows https://investors.evergy.com/events-and-presentations"
+    },
+    "ir:Exelon": {
+     "status": "blocked",
+     "note": "robots.txt disallows https://investors.exeloncorp.com/events-and-presentations"
+    },
+    "ir:Ameren": {
+     "status": "ok",
+     "note": "11 pdf links"
+    },
+    "ir:PPL": {
+     "status": "ok",
+     "note": "0 pdf links"
+    },
+    "ir:Pinnacle West": {
+     "status": "ok",
+     "note": "3 pdf links"
+    },
+    "ir:Xcel": {
+     "status": "ok",
+     "note": "15 pdf links"
+    },
+    "ir:OGE Energy": {
+     "status": "blocked",
+     "note": "robots.txt disallows https://investor.oge.com/events-and-presentations/default.aspx"
+    },
+    "ir:Oncor": {
+     "status": "blocked",
+     "note": "robots.txt disallows https://investor.oncor.com/news-events/events-and-presentations/default.aspx"
+    },
+    "ir:Fortis": {
+     "status": "ok",
+     "note": "10 pdf links"
+    },
+    "ir:BHE": {
+     "status": "blocked",
+     "note": "block page (captcha) at https://www.brkenergy.com/investors"
+    },
+    "ir:TXNM Energy": {
+     "status": "ok",
+     "note": "179 pdf links"
+    }
+   },
+   "notes": [],
+   "seconds": 231.9,
+   "consecutive_failures": 0
+  },
+  "mirrors": {
+   "since": "2026-10-01",
+   "found": 27,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "mirror:sc_psc_publications": {
+     "status": "ok",
+     "note": "17 links"
+    },
+    "mirror:sc_ors_electric": {
+     "status": "ok",
+     "note": "4 links"
+    },
+    "mirror:oh_occ_filings": {
+     "status": "ok",
+     "note": "1 links"
+    },
+    "mirror:nc_ncuc_main": {
+     "status": "ok",
+     "note": "5 links"
+    }
+   },
+   "notes": [],
+   "seconds": 13.7,
+   "consecutive_failures": 0
+  },
+  "eia": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "eia": {
+     "status": "ok",
+     "note": "baseline 2026-07"
+    }
+   },
+   "notes": [],
+   "seconds": 62.2,
+   "consecutive_failures": 0
+  },
+  "congress": {
+   "since": "2026-10-01",
+   "found": 9,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 14.7,
+   "consecutive_failures": 0
+  },
+  "openstates": {
+   "since": "2026-10-01",
+   "found": 36,
+   "new": 36,
+   "baselined_now": 0,
+   "kept": 36,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 331.7,
+   "consecutive_failures": 0
+  },
+  "courtlistener": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 169.4,
+   "consecutive_failures": 0
+  },
+  "queues": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "pjm_serial": {
+     "status": "ok",
+     "note": "228 tracked-state projects (baseline)"
+    },
+    "pjm_cycle": {
+     "status": "ok",
+     "note": "664 tracked-state projects (baseline)"
+    }
+   },
+   "notes": [],
+   "seconds": 33.4,
+   "consecutive_failures": 0
+  },
+  "legistar": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "pwcgov": {
+     "status": "ok",
+     "note": "0 matters, 0 on-topic"
+    },
+    "maricopa": {
+     "status": "ok",
+     "note": "6 matters, 0 on-topic"
+    },
+    "phoenix": {
+     "status": "ok",
+     "note": "0 matters, 0 on-topic"
+    },
+    "mesa": {
+     "status": "ok",
+     "note": "2 matters, 0 on-topic"
+    },
+    "columbus": {
+     "status": "ok",
+     "note": "3 matters, 0 on-topic"
+    },
+    "sanantonio": {
+     "status": "ok",
+     "note": "0 matters, 0 on-topic"
+    },
+    "fortworthgov": {
+     "status": "ok",
+     "note": "0 matters, 0 on-topic"
+    },
+    "kansascity": {
+     "status": "ok",
+     "note": "2 matters, 0 on-topic"
+    },
+    "washoe-nv": {
+     "status": "ok",
+     "note": "6 matters, 0 on-topic"
+    }
+   },
+   "notes": [],
+   "seconds": 27.2,
+   "consecutive_failures": 0
+  },
+  "courts_state": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 3.3,
+   "consecutive_failures": 0
+  },
+  "agendas": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "atlanta": {
+     "status": "ok",
+     "note": "27 links, 0 new"
+    },
+    "storey": {
+     "status": "ok",
+     "note": "47 links, 0 new"
+    },
+    "tulsa_council": {
+     "status": "ok",
+     "note": "5 links, 0 new"
+    },
+    "tulsa_tmapc": {
+     "status": "ok",
+     "note": "5 links, 0 new"
+    },
+    "tulsa_boa": {
+     "status": "ok",
+     "note": "1 links, 0 new"
+    },
+    "henrico": {
+     "status": "ok",
+     "note": "19 links, 0 new"
+    },
+    "fairfax_bos": {
+     "status": "ok",
+     "note": "24 links, 0 new"
+    }
+   },
+   "notes": [],
+   "seconds": 81.3,
+   "consecutive_failures": 0
+  },
+  "ercot_large_load": {
+   "since": "2026-10-01",
+   "found": 9,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "ercot:llwg": {
+     "status": "ok",
+     "note": "read"
+    },
+    "ercot:tac": {
+     "status": "ok",
+     "note": "read"
+    },
+    "ercot:ros": {
+     "status": "ok",
+     "note": "read"
+    },
+    "ercot:board": {
+     "status": "ok",
+     "note": "read"
+    },
+    "ercot:public_api": {
+     "status": "no_key",
+     "note": "add ERCOT_API_USERNAME, ERCOT_API_PASSWORD, ERCOT_API_SUBSCRIPTION_KEY repo secrets to enable"
+    }
+   },
+   "notes": [],
+   "seconds": 15.5,
+   "consecutive_failures": 0
+  },
+  "nyiso_icap": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "nyiso:library": {
+     "status": "refused_known",
+     "note": "empty HTTP 202 (bot-management challenge); covered by the manual pass"
+    }
+   },
+   "notes": [],
+   "seconds": 3.0,
+   "consecutive_failures": 0
+  },
+  "nrc_adams": {
+   "since": "2026-10-01",
+   "found": 7,
+   "new": 7,
+   "baselined_now": 0,
+   "kept": 7,
+   "status": "ok",
+   "subsources": {
+    "nrc:05000255": {
+     "status": "ok",
+     "note": "1 documents"
+    },
+    "nrc:05000289": {
+     "status": "ok",
+     "note": "6 documents"
+    },
+    "nrc:05000331": {
+     "status": "ok",
+     "note": "0 documents"
+    },
+    "nrc:05000611": {
+     "status": "ok",
+     "note": "0 documents"
+    },
+    "nrc:05000612": {
+     "status": "ok",
+     "note": "0 documents"
+    },
+    "nrc:05000613": {
+     "status": "ok",
+     "note": "0 documents"
+    },
+    "nrc:05000614": {
+     "status": "ok",
+     "note": "0 documents"
+    },
+    "nrc:05000615": {
+     "status": "ok",
+     "note": "0 documents"
+    },
+    "nrc:05000616": {
+     "status": "ok",
+     "note": "0 documents"
+    },
+    "nrc:05000617": {
+     "status": "ok",
+     "note": "0 documents"
+    }
+   },
+   "notes": [],
+   "seconds": 48.4,
+   "consecutive_failures": 0
+  },
+  "ferc_forms": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "ecollection": {
+     "status": "ok",
+     "note": "650 filings in feed, 0 tracked Form 1/3-Q/714"
+    }
+   },
+   "notes": [],
+   "seconds": 4.5,
+   "consecutive_failures": 0
+  },
+  "ferc_eqr": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "pudl_eqr": {
+     "status": "ok",
+     "note": "no new quarter (latest 2026Q2)"
+    }
+   },
+   "notes": [],
+   "seconds": 3.0,
+   "consecutive_failures": 0
+  },
+  "studies": {
+   "since": "2026-10-01",
+   "found": 3,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "osti:\"interconnection queue\" OR \"qu": {
+     "status": "ok",
+     "note": "3 records"
+    },
+    "osti:\"data center\" AND (electricity": {
+     "status": "ok",
+     "note": "4 records"
+    },
+    "osti:\"load growth\" OR \"large loads\"": {
+     "status": "ok",
+     "note": "6 records"
+    }
+   },
+   "notes": [],
+   "seconds": 9.1,
+   "consecutive_failures": 0
+  },
+  "regulations_gov": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "regulations_gov": {
+     "status": "ok",
+     "note": "0 documents, 0 watched-party comments, 2 dockets watched"
+    }
+   },
+   "notes": [],
+   "seconds": 21.1,
+   "consecutive_failures": 0
+  },
+  "ferc": {
+   "since": "2026-10-01",
+   "found": 19,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 58.9,
+   "consecutive_failures": 0
+  },
+  "federal_register": {
+   "since": "2026-10-01",
+   "found": 1,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 39.1,
+   "consecutive_failures": 0
+  },
+  "edgar": {
+   "since": "2026-10-01",
+   "found": 1,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 114.8,
+   "consecutive_failures": 0
+  },
+  "tx_puct": {
+   "since": "2026-10-01",
+   "found": 16,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 27.2,
+   "consecutive_failures": 0
+  },
+  "az_acc": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 15.1,
+   "consecutive_failures": 0
+  },
+  "ga_psc": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 6.7,
+   "consecutive_failures": 0
+  },
+  "la_lpsc": {
+   "since": "2026-10-01",
+   "found": 1,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "la: U-37921 not found"
+   ],
+   "seconds": 21.3,
+   "consecutive_failures": 0
+  },
+  "ok_occ": {
+   "since": "2026-10-01",
+   "found": 8,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "ok text 21362576: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362552: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362467: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362465: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362458: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21362455: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354473: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354331: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354315: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354312: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354172: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21354164: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21353967: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21351151: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21332545: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21321323: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21311681: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21310653: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21216943: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ok text 21205773: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+   ],
+   "seconds": 221.5,
+   "consecutive_failures": 0
+  },
+  "ks_kcc": {
+   "since": "2026-10-01",
+   "found": 1,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 3.1,
+   "consecutive_failures": 0
+  },
+  "nm_prc": {
+   "since": "2026-10-01",
+   "found": 5,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "nm 25-00079-UT: 0 documents in window",
+    "nm 25-00082-UT: 0 documents in window",
+    "nm 26-0000062: 0 documents in window"
+   ],
+   "seconds": 37.6,
+   "consecutive_failures": 0
+  },
+  "mo_efis": {
+   "since": "2026-10-01",
+   "found": 93,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 15.4,
+   "consecutive_failures": 0
+  },
+  "al_psc": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 36.5,
+   "consecutive_failures": 0
+  },
   "watch_pages": {
    "since": "2026-10-01",
    "found": 1508,
@@ -193,846 +890,33 @@
     }
    },
    "notes": [],
-   "seconds": 185.2,
-   "consecutive_failures": 0
-  },
-  "rss": {
-   "since": "2026-10-01",
-   "found": 29,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "pjm_insidelines": {
-     "status": "ok",
-     "note": "10 entries"
-    },
-    "pa_cmwlth": {
-     "status": "ok",
-     "note": "50 entries"
-    },
-    "nrc_news": {
-     "status": "error",
-     "note": "Blocked('HTTP 403 for https://www.nrc.gov/public-involve/rss?feed=news')"
-    },
-    "grid_strategies": {
-     "status": "ok",
-     "note": "10 entries"
-    },
-    "msft_issues": {
-     "status": "ok",
-     "note": "10 entries"
-    },
-    "msft_source": {
-     "status": "ok",
-     "note": "10 entries"
-    },
-    "google_blog": {
-     "status": "ok",
-     "note": "20 entries"
-    },
-    "google_sustain": {
-     "status": "ok",
-     "note": "20 entries"
-    },
-    "amazon_news": {
-     "status": "ok",
-     "note": "10 entries"
-    },
-    "meta_news": {
-     "status": "ok",
-     "note": "10 entries"
-    },
-    "utilitydive": {
-     "status": "ok",
-     "note": "10 entries"
-    },
-    "rtoinsider": {
-     "status": "ok",
-     "note": "10 entries"
-    },
-    "canary": {
-     "status": "ok",
-     "note": "100 entries"
-    }
-   },
-   "notes": [],
-   "seconds": 57.2,
-   "consecutive_failures": 0
-  },
-  "ir_decks": {
-   "since": "2026-10-01",
-   "found": 235,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "ir:AEP": {
-     "status": "ok",
-     "note": "15 pdf links"
-    },
-    "ir:Southern": {
-     "status": "blocked",
-     "note": "block page (incapsula) at https://investor.southerncompany.com/events-and-presentations/default.aspx"
-    },
-    "ir:Duke": {
-     "status": "ok",
-     "note": "0 pdf links"
-    },
-    "ir:Dominion": {
-     "status": "ok",
-     "note": "2 pdf links"
-    },
-    "ir:Entergy": {
-     "status": "ok",
-     "note": "0 pdf links"
-    },
-    "ir:Evergy": {
-     "status": "blocked",
-     "note": "robots.txt disallows https://investors.evergy.com/events-and-presentations"
-    },
-    "ir:Exelon": {
-     "status": "blocked",
-     "note": "robots.txt disallows https://investors.exeloncorp.com/events-and-presentations"
-    },
-    "ir:Ameren": {
-     "status": "ok",
-     "note": "11 pdf links"
-    },
-    "ir:PPL": {
-     "status": "ok",
-     "note": "0 pdf links"
-    },
-    "ir:Pinnacle West": {
-     "status": "ok",
-     "note": "3 pdf links"
-    },
-    "ir:Xcel": {
-     "status": "ok",
-     "note": "15 pdf links"
-    },
-    "ir:OGE Energy": {
-     "status": "blocked",
-     "note": "robots.txt disallows https://investor.oge.com/events-and-presentations/default.aspx"
-    },
-    "ir:Oncor": {
-     "status": "blocked",
-     "note": "robots.txt disallows https://investor.oncor.com/news-events/events-and-presentations/default.aspx"
-    },
-    "ir:Fortis": {
-     "status": "ok",
-     "note": "10 pdf links"
-    },
-    "ir:BHE": {
-     "status": "blocked",
-     "note": "block page (captcha) at https://www.brkenergy.com/investors"
-    },
-    "ir:TXNM Energy": {
-     "status": "ok",
-     "note": "179 pdf links"
-    }
-   },
-   "notes": [],
-   "seconds": 230.4,
-   "consecutive_failures": 0
-  },
-  "mirrors": {
-   "since": "2026-10-01",
-   "found": 27,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "mirror:sc_psc_publications": {
-     "status": "ok",
-     "note": "17 links"
-    },
-    "mirror:sc_ors_electric": {
-     "status": "ok",
-     "note": "4 links"
-    },
-    "mirror:oh_occ_filings": {
-     "status": "ok",
-     "note": "1 links"
-    },
-    "mirror:nc_ncuc_main": {
-     "status": "ok",
-     "note": "5 links"
-    }
-   },
-   "notes": [],
-   "seconds": 12.5,
-   "consecutive_failures": 0
-  },
-  "eia": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "eia": {
-     "status": "rate_limited",
-     "note": "public DEMO_KEY rate limit (shared runner IP); a repo secret EIA_API_KEY avoids it"
-    }
-   },
-   "notes": [],
-   "seconds": 33.1,
-   "consecutive_failures": 0
-  },
-  "congress": {
-   "since": "2026-10-01",
-   "found": 9,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "congress": {
-     "status": "demo_key",
-     "note": "running on the public DEMO_KEY; a repo secret CONGRESS_API_KEY lifts the rate limit"
-    }
-   },
-   "notes": [],
-   "seconds": 17.1,
-   "consecutive_failures": 0
-  },
-  "openstates": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "openstates": {
-     "status": "no_key",
-     "note": "add repo secret OPENSTATES_API_KEY to enable"
-    }
-   },
-   "notes": [],
-   "seconds": 0.0,
-   "consecutive_failures": 0
-  },
-  "courtlistener": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 6.2,
-   "consecutive_failures": 0
-  },
-  "queues": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 0.0,
-   "consecutive_failures": 0
-  },
-  "legistar": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "pwcgov": {
-     "status": "ok",
-     "note": "0 matters, 0 on-topic"
-    },
-    "maricopa": {
-     "status": "ok",
-     "note": "6 matters, 0 on-topic"
-    },
-    "phoenix": {
-     "status": "ok",
-     "note": "0 matters, 0 on-topic"
-    },
-    "mesa": {
-     "status": "ok",
-     "note": "2 matters, 0 on-topic"
-    },
-    "columbus": {
-     "status": "ok",
-     "note": "3 matters, 0 on-topic"
-    },
-    "sanantonio": {
-     "status": "ok",
-     "note": "0 matters, 0 on-topic"
-    },
-    "fortworthgov": {
-     "status": "ok",
-     "note": "0 matters, 0 on-topic"
-    },
-    "kansascity": {
-     "status": "ok",
-     "note": "2 matters, 0 on-topic"
-    },
-    "washoe-nv": {
-     "status": "ok",
-     "note": "6 matters, 0 on-topic"
-    }
-   },
-   "notes": [],
-   "seconds": 27.1,
-   "consecutive_failures": 0
-  },
-  "courts_state": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 3.2,
-   "consecutive_failures": 0
-  },
-  "agendas": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "atlanta": {
-     "status": "ok",
-     "note": "27 links, 0 new"
-    },
-    "storey": {
-     "status": "ok",
-     "note": "47 links, 0 new"
-    },
-    "tulsa_council": {
-     "status": "ok",
-     "note": "5 links, 0 new"
-    },
-    "tulsa_tmapc": {
-     "status": "ok",
-     "note": "5 links, 0 new"
-    },
-    "tulsa_boa": {
-     "status": "ok",
-     "note": "1 links, 0 new"
-    },
-    "henrico": {
-     "status": "ok",
-     "note": "19 links, 0 new"
-    },
-    "fairfax_bos": {
-     "status": "ok",
-     "note": "24 links, 0 new"
-    }
-   },
-   "notes": [],
-   "seconds": 80.6,
-   "consecutive_failures": 0
-  },
-  "ercot_large_load": {
-   "since": "2026-10-01",
-   "found": 9,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "ercot:llwg": {
-     "status": "ok",
-     "note": "read"
-    },
-    "ercot:tac": {
-     "status": "ok",
-     "note": "read"
-    },
-    "ercot:ros": {
-     "status": "ok",
-     "note": "read"
-    },
-    "ercot:board": {
-     "status": "ok",
-     "note": "read"
-    },
-    "ercot:public_api": {
-     "status": "no_key",
-     "note": "add ERCOT_API_USERNAME, ERCOT_API_PASSWORD, ERCOT_API_SUBSCRIPTION_KEY repo secrets to enable"
-    }
-   },
-   "notes": [],
-   "seconds": 12.2,
-   "consecutive_failures": 0
-  },
-  "nyiso_icap": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "nyiso:library": {
-     "status": "refused_known",
-     "note": "empty HTTP 202 (bot-management challenge); covered by the manual pass"
-    }
-   },
-   "notes": [],
-   "seconds": 0.6,
-   "consecutive_failures": 0
-  },
-  "nrc_adams": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "nrc_adams": {
-     "status": "no_key",
-     "note": "add repo secret NRC_APS_KEY (free: adams-api-developer.nrc.gov) to enable"
-    }
-   },
-   "notes": [],
-   "seconds": 0.0,
-   "consecutive_failures": 0
-  },
-  "ferc_forms": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "ecollection": {
-     "status": "ok",
-     "note": "650 filings in feed, 0 tracked Form 1/3-Q/714"
-    }
-   },
-   "notes": [],
-   "seconds": 3.7,
-   "consecutive_failures": 0
-  },
-  "ferc_eqr": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "pudl_eqr": {
-     "status": "ok",
-     "note": "no new quarter (latest 2026Q2)"
-    }
-   },
-   "notes": [],
-   "seconds": 3.1,
-   "consecutive_failures": 0
-  },
-  "studies": {
-   "since": "2026-10-01",
-   "found": 3,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "osti:\"interconnection queue\" OR \"qu": {
-     "status": "ok",
-     "note": "3 records"
-    },
-    "osti:\"data center\" AND (electricity": {
-     "status": "ok",
-     "note": "4 records"
-    },
-    "osti:\"load growth\" OR \"large loads\"": {
-     "status": "ok",
-     "note": "6 records"
-    }
-   },
-   "notes": [],
-   "seconds": 9.1,
-   "consecutive_failures": 0
-  },
-  "regulations_gov": {
-   "since": "2026-09-15",
-   "found": 27,
-   "new": 27,
-   "baselined_now": 0,
-   "kept": 27,
-   "status": "ok",
-   "subsources": {
-    "regulations_gov": {
-     "status": "demo_key",
-     "note": "26 documents, 1 watched-party comments, 2 dockets watched"
-    }
-   },
-   "notes": [],
-   "seconds": 27.2,
-   "consecutive_failures": 0
-  },
-  "ferc": {
-   "since": "2026-10-01",
-   "found": 19,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 58.5,
-   "consecutive_failures": 0
-  },
-  "federal_register": {
-   "since": "2026-10-01",
-   "found": 1,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 39.1,
-   "consecutive_failures": 0
-  },
-  "edgar": {
-   "since": "2026-10-01",
-   "found": 1,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 129.4,
-   "consecutive_failures": 0
-  },
-  "tx_puct": {
-   "since": "2026-10-01",
-   "found": 16,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 27.1,
-   "consecutive_failures": 0
-  },
-  "az_acc": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 15.1,
-   "consecutive_failures": 0
-  },
-  "ga_psc": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 6.7,
-   "consecutive_failures": 0
-  },
-  "la_lpsc": {
-   "since": "2026-10-01",
-   "found": 1,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [
-    "la: U-37921 not found"
-   ],
-   "seconds": 21.7,
-   "consecutive_failures": 0
-  },
-  "ok_occ": {
-   "since": "2026-10-01",
-   "found": 8,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [
-    "ok text 21362576: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21362552: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21362467: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21362465: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21362458: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21362455: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21354473: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21354331: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21354315: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21354312: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21354172: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21354164: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21353967: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21351151: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21332545: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21321323: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21311681: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21310653: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21216943: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "ok text 21205773: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
-   ],
-   "seconds": 222.0,
-   "consecutive_failures": 0
-  },
-  "ks_kcc": {
-   "since": "2026-10-01",
-   "found": 1,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 0.3,
-   "consecutive_failures": 0
-  },
-  "nm_prc": {
-   "since": "2026-10-01",
-   "found": 5,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [
-    "nm 25-00079-UT: 0 documents in window",
-    "nm 25-00082-UT: 0 documents in window",
-    "nm 26-0000062: 0 documents in window"
-   ],
-   "seconds": 36.2,
-   "consecutive_failures": 0
-  },
-  "mo_efis": {
-   "since": "2026-10-01",
-   "found": 93,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 15.4,
-   "consecutive_failures": 0
-  },
-  "al_psc": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 36.3,
+   "seconds": 180.2,
    "consecutive_failures": 0
   }
  },
- "docs_fetched": 1,
- "new_items": 27,
- "user_agent": "BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)",
+ "docs_fetched": 7,
+ "new_items": 43,
+ "user_agent": "BlueOwl-RegTracker/4.0 (***)",
  "trigger": {
   "event": "push",
   "cron": null
  },
- "hours_since_previous_full_run": 0.2,
+ "hours_since_previous_full_run": 0.0,
  "collector_gap": false,
- "finished": "2026-10-04T22:06:48Z",
+ "finished": "2026-10-04T23:15:59Z",
  "backfill_text": {
-  "queue": 1200,
-  "enriched": 198,
-  "docs": 400,
-  "errors": 92,
+  "queue": 974,
+  "enriched": 58,
+  "docs": 243,
+  "errors": 82,
   "status": "ok",
-  "retry_later": 90,
-  "gave_up": 2,
-  "remaining": 1002,
-  "seconds": 2621.6
+  "retry_later": 107,
+  "candidates_filled": 1,
+  "gave_up": 11,
+  "remaining": 916,
+  "seconds": 2183.2
  },
  "http_hosts": {
-  "https://www.grda.com": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.kcc.ks.gov": {
-   "robots": "404",
-   "note": ""
-  },
-  "https://lpsc.louisiana.gov": {
-   "robots": "404",
-   "note": ""
-  },
-  "https://www.ferc.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.nerc.com": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.caiso.com": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.ercot.com": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.spp.org": {
-   "robots": "404",
-   "note": ""
-  },
-  "https://www.nyiso.com": {
-   "robots": "202",
-   "note": ""
-  },
-  "https://www.iso-ne.com": {
-   "robots": "404",
-   "note": ""
-  },
-  "https://www.misoenergy.org": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.westernpowerpool.org": {
-   "robots": "404",
-   "note": ""
-  },
-  "https://gov.texas.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.governor.virginia.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://gov.georgia.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.pa.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://governor.ohio.gov": {
-   "robots": "404",
-   "note": ""
-  },
-  "https://gov.louisiana.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://governor.nc.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.puc.texas.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.pjm.com": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.vacourts.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.courtswv.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://governor.alabama.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://gov.illinois.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://governor.mo.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.governor.state.nm.us": {
-   "robots": "404",
-   "note": ""
-  },
-  "https://gov.nv.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://oklahoma.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://governor.sc.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://governor.wv.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.dominionenergy.com": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.georgiapower.com": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.aps.com": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://spofossil.entergy.com": {
-   "robots": "404",
-   "note": ""
-  },
-  "https://www.evergy.com": {
-   "robots": "200",
-   "note": "no robots.txt (HTML app shell)"
-  },
-  "https://www.xcelenergy.com": {
-   "robots": "404",
-   "note": ""
-  },
-  "https://www.energy.gov": {
-   "robots": "200",
-   "note": ""
-  },
   "https://insidelines.pjm.com": {
    "robots": "200",
    "note": ""
@@ -1042,7 +926,7 @@
    "note": ""
   },
   "https://www.nrc.gov": {
-   "robots": "403",
+   "robots": "200",
    "note": ""
   },
   "https://gridstrategiesllc.com": {
@@ -1169,8 +1053,16 @@
    "robots": "403",
    "note": ""
   },
+  "https://v3.openstates.org": {
+   "robots": "404",
+   "note": ""
+  },
   "https://www.courtlistener.com": {
    "robots": "403",
+   "note": ""
+  },
+  "https://www.pjm.com": {
+   "robots": "200",
    "note": ""
   },
   "https://webapi.legistar.com": {
@@ -1205,6 +1097,18 @@
    "robots": "200",
    "note": ""
   },
+  "https://www.ercot.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.nyiso.com": {
+   "robots": "202",
+   "note": ""
+  },
+  "https://adams-api.nrc.gov": {
+   "robots": "404",
+   "note": ""
+  },
   "https://ecollection.ferc.gov": {
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
@@ -1218,10 +1122,6 @@
    "note": ""
   },
   "https://api.regulations.gov": {
-   "robots": "403",
-   "note": ""
-  },
-  "https://downloads.regulations.gov": {
    "robots": "403",
    "note": ""
   },
@@ -1261,6 +1161,10 @@
    "robots": "404",
    "note": ""
   },
+  "https://www.kcc.ks.gov": {
+   "robots": "404",
+   "note": ""
+  },
   "https://e360.prc.nm.gov": {
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
@@ -1273,14 +1177,150 @@
    "robots": "404",
    "note": ""
   },
+  "https://www.grda.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://lpsc.louisiana.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.ferc.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.nerc.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.caiso.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.spp.org": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.iso-ne.com": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.misoenergy.org": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.westernpowerpool.org": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://gov.texas.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.governor.virginia.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://gov.georgia.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.pa.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://governor.ohio.gov": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://gov.louisiana.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://governor.nc.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.puc.texas.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.vacourts.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.courtswv.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://governor.alabama.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://gov.illinois.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://governor.mo.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.governor.state.nm.us": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://gov.nv.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://oklahoma.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://governor.sc.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://governor.wv.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.dominionenergy.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.georgiapower.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.aps.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://spofossil.entergy.com": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.evergy.com": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  },
+  "https://www.xcelenergy.com": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.energy.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://downloads.regulations.gov": {
+   "robots": "403",
+   "note": ""
+  },
   "https://images.edocket.azcc.gov": {
    "robots": "error",
    "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
-  },
-  "https://services.psc.ga.gov": {
-   "robots": "404",
-   "note": ""
   }
  },
- "seconds": 3939
+ "seconds": 4092
 }

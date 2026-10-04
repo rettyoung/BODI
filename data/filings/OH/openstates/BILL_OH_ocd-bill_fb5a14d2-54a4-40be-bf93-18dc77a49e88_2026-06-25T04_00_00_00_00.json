@@ -1,0 +1,24 @@
+{
+ "id": "BILL:OH:ocd-bill/fb5a14d2-54a4-40be-bf93-18dc77a49e88:2026-06-25T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 173",
+ "title": "Regards entities providing behind-the-meter utility services",
+ "filed": "2026-06-25",
+ "url": "https://openstates.org/oh/bills/136/HB173/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Veto receipt",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "behind-the-meter",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/f4aafaf1-4742-4cfd-a0e4-439f756bd2c2:2025-08-15",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 162",
+ "title": "Relating to the exercise of the power of eminent domain by a political subdivision to acquire property outside the political subdivision's boundaries.",
+ "filed": "2025-08-15",
+ "url": "https://openstates.org/tx/bills/892/HB162/",
+ "fetch": [],
+ "meta": {
+  "session": "892",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

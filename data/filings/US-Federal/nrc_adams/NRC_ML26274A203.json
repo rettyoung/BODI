@@ -1,0 +1,45 @@
+{
+ "id": "NRC:ML26274A203",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000289",
+ "title": "Crane Clean Energy Center / TMI-1 (Constellation restart): Christopher M. Crane Clean Energy Center - Cybersecurity Inspection Report 05000289/2026402 (Cover Letter Only) [['Letter']]",
+ "filed": "2026-10-02",
+ "entity": [
+  "NRC/CNRI/ORAR1/R1DRP/RPBB"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2627/ML26274A203.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26274A203.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Crane Clean Energy Center / TMI-1 (Constellation restart)",
+  "accession": "ML26274A203",
+  "document_date": "2026-10-01"
+ },
+ "collected_at": "2026-10-04T22:26:00Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26274A203.pdf",
+   "name": null,
+   "bytes": 448331,
+   "sha256": "9e7a39a8d62a28d22964ac34f61db6d81607d8701e3b36c97c85a0ec6c12600f",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                OFFICIAL USE ONLY – SECURITY-RELATED INFORMATION\n\n\n\n\n                                         October 1, 2026\n\nChristopher H. Mudrick\nSenior Vice President and\n  Chief Nuclear Officer\nConstellation Energy Generation, LLC\nPresident\nConstellation Nuclear\n200 Energy Way, KSA-3N\nKennett Square, PA 19348\n\nSUBJECT:       CHRISTOPHER M. CRANE CLEAN ENERGY CENTER – CYBERSECURITY\n               INSPECTION REPORT 05000289/2026402\n\nDear Christopher Mudrick:\n\nOn September 26, 2019, the Christopher M. Crane Clean Energy Center (CCEC), formerly\nThree Mile Island Nuclear Station, Unit 1, permanently ceased power operations and removed\nall fuel from the reactor, as certified in a letter to the U.S. Nuclear Regulatory Commission\n(NRC) (Agencywide Documents Access and Management System (ADAMS) Accession\nNo. ML19269E480). On November 19, 2024, Constellation Energy Generation, LLC\n(Constellation) submitted a letter to the NRC requesting exemptions from certain portions of the\nrequirements of Title 10 of the Code of Federal Regulations (10 CFR) 50.82(a)(2) to pursue the\npotential reauthorization of power operations at CCEC (ML24324A048). The NRC’s initial\nacceptance to review CCEC’s request for exemptions was documented in a letter on\nDecember 20, 2024 (ML24355A057).\n\nOn August 26, 2026, the NRC completed an inspection at CCEC and discussed the results of\nthis inspection with Trevor Orth, Plant Manager, and other members of your staff. The results of\nthis inspection are documented in the enclosed report.\n\nNo findings or violations of more than minor significance were identified during this inspection.\n\nThis letter will be made available for public inspection and copying at\nhttp://www.nrc.gov/reading-rm/adams.html and at the NRC Public Document Room in\naccordance with 10 CFR 2.390, “Public Inspections, Exemptions, Requests for Withholding.”\n\nThe enclosed report contains Security-Related Information, so the enclosed report will not be\nmade publicly available in accordance with 10 CFR 2.390(d)(1). If you choose to provide a\nresponse that contains Security-Related Information, please mark your entire response\n“Security-Related Information–Withhold from public disclosure under 10 CFR 2.390” in\n\n\n\n  Enclosure(s) transmitted herewith contain(s) SUNSI. When separated from enclosure(s), this\n                             transmittal document is decontrolled.\n\n                OFFICIAL USE ONLY – SECURITY-RELATED INFORMATION\n\f               OFFICIAL USE ONLY – SECURITY-RELATED INFORMATION\n\nC. Mudrick                                     2\n\naccordance with 10 CFR 2.390(d)(1) and follow the instructions for withholding in\n10 CFR 2.390(b)(1). The NRC is waiving the affidavit requirements for your response in\naccordance with 10 CFR 2.390(b)(1)(ii).\n\n                                           Sincerely,\n                                                           Digitally signed by\n                                           GLENN           GLENN DENTEL\n                                                           Date: 2026.10.01\n                                           DENTEL          11:07:11 -04'00'\n\n\n                                           Glenn T. Dentel, Chief\n                                           Reactor Projects Branch B\n                                           Division of Reactor Projects, Region I\n                                           Office of the Chief Nuclear Reactor Inspector\n\nDocket No. 05000289\nLicense No. DPR-50\n\nEnclosure:\nAs stated\n\ncc w/o encl: Granicus Communications Subscriber\n\ncc w/encl:\nD. Shearer, Director, Bureau of Radiation Protection,\n   PA Department of Environmental Protection\nB. Werner, Decommissioning and Environmental Surveillance\n   Division\nP. Simmons, Acting Manager Site Security\n\n\n\n\n               OFFICIAL USE ONLY – SECURITY-RELATED INFORMATION\n\f               OFFICIAL USE ONLY – SECURITY-RELATED INFORMATION\n\nC. Mudrick                                    3\n\nSUBJECT:      CHRISTOPHER M. CRANE CLEAN ENERGY CENTER – CYBERSECURITY\n              INSPECTION REPORT 05000289/2026402 DATED OCTOBER 1, 2026\n\nDistribution w/o encl; w/o OUO-SRI:\nJGreives, ORA\nRMcKinley, DRS\nMYoung, DRP\nECarfang, DRS\nNFloyd, DRS\nNMentzer, DRP, SRI\nMFadden, DRP, RI\nIBerrios, NRR\nJPoole, NRR\nBBallard, NRR\nRidsNrrDlp1Orlb3 Resource\n\nDistribution w/encl; w/OUO-SRI:\nJBeardsley, NRR\nTSiddiky, NRR\nJWorosilo, DRS, RII\nJGilliam, DRS, RIII\nSMakor, DRS, RIV\nECarfang, DRS\nNMentzer, DRP, SRI\n\n\n\n\nDOCUMENT NAME: https://usnrc.sharepoint.com/teams/EngineeringBranch2/Shared Documents/_Cyber\nSecurity/_Baseline Inspections - OUO_SRI/2026/Crane/Crane CS IR 2026402 (PUBLIC).docx\nNon-Public Designation Category: MD 3.4 Non-Public A.3\nADAMS Accession Numbers: ML26274A197 (Cover Letter w/ enclosure(s)),\nML26274A203 (Cover Letter), PKG: ML26106A276\n\n\n\n\n               OFFICIAL USE ONLY – SECURITY-RELATED INFORMATION\n\f"
+  }
+ ]
+}

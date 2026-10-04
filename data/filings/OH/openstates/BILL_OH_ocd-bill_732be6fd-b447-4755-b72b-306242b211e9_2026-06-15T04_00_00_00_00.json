@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/732be6fd-b447-4755-b72b-306242b211e9:2026-06-15T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 450",
+ "title": "Make capital appropriations for the biennium ending June 30, 2028",
+ "filed": "2026-06-15",
+ "url": "https://openstates.org/oh/bills/136/SB450/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Effective 6/15/26",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

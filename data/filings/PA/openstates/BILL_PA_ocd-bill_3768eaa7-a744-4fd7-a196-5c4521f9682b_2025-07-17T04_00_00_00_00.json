@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/3768eaa7-a744-4fd7-a196-5c4521f9682b:2025-07-17T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1330",
+ "title": "An Act to provide appropriations from the General Fund for the expenses of certain agencies of the Executive Department for the fiscal year July 1, 2025, to June 30, 2026, and for the payment of bills incurred and remaining unpaid at the close of the fiscal year ending June 30, 2025.",
+ "filed": "2025-07-17",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB1330/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Re-committed to Appropriations",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

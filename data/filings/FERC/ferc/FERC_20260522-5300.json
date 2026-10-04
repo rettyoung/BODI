@@ -47,5 +47,23 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': '2235CF23-57F1-C836-8BDC-9E8421200000', 'name': 'Reviewing Output.docx', 'type': 'DOCX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'BD273A51-9A6C-CBDF-9089-9E8421200000', 'name': 'Run PASS 20260515.docx', 'type': 'DOCX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '350B27F1-0AB3-C04E-9A70-9E8421200000', 'name': 'Technical Appendix Methods to Calculate Concentration.docx', 'type': 'DOCX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '95DBC610-F900-C52A-8B97-9E8421A00000', 'name': '15. pass full summary for exhibits.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "enriched_at": "2026-10-04T22:44:41Z"
 }

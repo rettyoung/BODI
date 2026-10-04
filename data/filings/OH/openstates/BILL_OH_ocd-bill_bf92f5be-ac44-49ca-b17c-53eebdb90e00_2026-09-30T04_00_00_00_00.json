@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/bf92f5be-ac44-49ca-b17c-53eebdb90e00:2026-09-30T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 733",
+ "title": "Include maple syrup, maple product production to agriculture law",
+ "filed": "2026-09-30",
+ "url": "https://openstates.org/oh/bills/136/HB733/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Referred to committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

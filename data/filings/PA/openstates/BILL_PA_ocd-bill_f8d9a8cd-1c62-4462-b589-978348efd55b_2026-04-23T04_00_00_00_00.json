@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/f8d9a8cd-1c62-4462-b589-978348efd55b:2026-04-23T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2151",
+ "title": "An Act amending Title 53 (Municipalities Generally) of the Pennsylvania\r\n Consolidated Statutes, providing for data center ordinance\r\n assistance.",
+ "filed": "2026-04-23",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2151/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Local Government",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

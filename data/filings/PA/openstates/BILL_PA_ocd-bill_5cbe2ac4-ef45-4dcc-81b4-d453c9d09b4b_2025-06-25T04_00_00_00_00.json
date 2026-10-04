@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/5cbe2ac4-ef45-4dcc-81b4-d453c9d09b4b:2025-06-25T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1189",
+ "title": "An Act amending the act of April 9, 1929 (P.L.343, No.176), known as The Fiscal Code, in disposition of abandoned and unclaimed property, further providing for claim for property paid or delivered.",
+ "filed": "2025-06-25",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB1189/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Re-referred to Appropriations",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

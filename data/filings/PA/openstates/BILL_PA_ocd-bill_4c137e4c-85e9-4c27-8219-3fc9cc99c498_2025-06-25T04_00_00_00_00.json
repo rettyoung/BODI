@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/4c137e4c-85e9-4c27-8219-3fc9cc99c498:2025-06-25T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 101",
+ "title": "An Act amending the act of December 18, 2001 (P.L.949, No.114), known as the Workforce Development Act, in preliminary provisions, further providing for definitions; and, in local workforce development areas and regions and local workforce development boards, further providing for plan, functions an",
+ "filed": "2025-06-25",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB101/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Labor & Industry",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

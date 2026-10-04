@@ -1,0 +1,25 @@
+{
+ "id": "BILL:PA:ocd-bill/d3cacbd7-9957-4d73-945c-bdb23810f8e8:2026-09-30T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2828",
+ "title": "An Act providing for tariffs for large computational load customers and for emergency load control procedures during regional resource adequacy shortfalls; and imposing duties on the Pennsylvania Public Utility Commission.",
+ "filed": "2026-09-30",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2828/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Laid on the table",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "emergency",
+  "large load",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/201a4306-ae4b-4594-8800-ff6b1d14dc0f:2026-06-10T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3",
+ "title": "Enact the School Bus Safety Act",
+ "filed": "2026-06-10",
+ "url": "https://openstates.org/oh/bills/136/HB3/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Passed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/ff1bab56-414a-440b-a3b1-cd2919a0094e:2025-07-23T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1668",
+ "title": "An Act amending the act of April 9, 1929 (P.L.343, No.176), known as The Fiscal Code, in Water Assistance Program, providing for retrofitting residential high-rise buildings with automatic fire sprinkler systems.",
+ "filed": "2025-07-23",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB1668/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Finance",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

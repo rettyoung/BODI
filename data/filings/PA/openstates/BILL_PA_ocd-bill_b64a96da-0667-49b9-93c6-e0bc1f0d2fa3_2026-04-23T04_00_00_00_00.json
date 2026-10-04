@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/b64a96da-0667-49b9-93c6-e0bc1f0d2fa3:2026-04-23T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2150",
+ "title": "An Act providing for annual reporting of energy consumption and water consumption by data centers; and imposing a penalty.",
+ "filed": "2026-04-23",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2150/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Environmental Resources & Energy",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T22:19:39Z",
+ "run_id": "2026-10-04-2207",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}
