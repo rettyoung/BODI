@@ -288,8 +288,9 @@ agenda_filter: "data ?cent|datacenter|hyperscale|server farm|data processing|lar
 agendas:
   - {id: atlanta, name: "City of Atlanta, GA", jur: GA, url: "https://atlantacityga.iqm2.com/Services/RSS.aspx?Feed=Calendar",
      heading_pairs: true, link: "Detail_Meeting\\.aspx", title_filter: "(Atlanta City Council|Zoning|Community Development|Utilities|Transportation)[^—]*- Agenda -", max_new: 4}
-  - {id: storey, name: "Storey County, NV", jur: NV, url: "https://www.storeycounty.org/RSSFeed.aspx?ModID=65", rss: true,
-     follow: "AgendaCenter/PreviousVersions", link: "AgendaCenter/ViewFile", title_filter: "Board of County Commissioners|Planning Commission"}
+  # Storey County (Tahoe Reno Industrial Center): its RSS points at nv-storeycounty.civicplus.com, whose robots.txt
+  # disallows crawlers; the county's own AgendaCenter page links the same agenda files on www.storeycounty.org.
+  - {id: storey, name: "Storey County, NV", jur: NV, url: "https://www.storeycounty.org/AgendaCenter", link: "/AgendaCenter/ViewFile/Agenda/"}
   - {id: tulsa_council, name: "Tulsa City Council, OK", jur: OK, url: "https://www.tulsacouncil.org/", link: "COTDisplayDocument/\\?DocumentType=Agenda"}
   - {id: tulsa_tmapc, name: "Tulsa Metropolitan Area Planning Commission, OK", jur: OK, url: "https://tulsaplanning.org/boards/pc/agenda/", link: "tulsaplanning\\.org/agendas/"}
   - {id: tulsa_boa, name: "Tulsa Board of Adjustment, OK", jur: OK, url: "https://tulsaplanning.org/boards/boa/agenda/", link: "tulsaplanning\\.org/agendas/"}

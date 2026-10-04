@@ -45,6 +45,9 @@ def _d(s):
     m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})", s)
     if m:
         return f"{m.group(3)}-{int(m.group(1)):02d}-{int(m.group(2)):02d}"
+    m = re.search(r"_(\d{2})(\d{2})(\d{4})-\d+", s)          # CivicPlus AgendaCenter file names: _MMDDYYYY-<id>
+    if m:
+        return f"{m.group(3)}-{m.group(1)}-{m.group(2)}"
     m = re.search(r"([A-Za-z]+)\.?[ -](\d{1,2}),?[ -](\d{4})", s)
     if m and m.group(1).lower()[:3] in {k[:3] for k in MONTHS}:
         mo = next(v for k, v in MONTHS.items() if k[:3] == m.group(1).lower()[:3])
@@ -355,7 +358,12 @@ def nyiso_icap(ctx):
     (observed 2026-10-03). Same call, folder by folder: newest-year subfolders, files published in the window."""
     http, items = ctx.http, []
     page = "https://www.nyiso.com/installed-capacity-market"
-    html = http.get(page).text
+    r0 = http.get(page)
+    if r0.status_code == 202 and not r0.content.strip():
+        # NYISO's bot management answers non-browser clients with an empty HTTP 202. That is a refusal: it is
+        # recorded, never worked around (no headless browser is used to pass it).
+        raise Blocked("NYISO answers automated clients with an empty HTTP 202 (bot-management challenge)")
+    html = r0.text
     pm = re.search(r"(portlet_com_liferay_client_extension_web_internal_portlet_ClientExtensionEntryPortlet_\w+?_LXC_nyiso_document_library_INSTANCE_[A-Za-z0-9]+)", html)
     plid = (re.search(r'getPlid\s*\(\)\s*\{\s*return\s*"?(\d+)', html) or re.search(r'"plid"\s*:\s*"?(\d+)', html))
     portlet = pm.group(1) if pm else ctx.cfg.get("nyiso_portlet")
@@ -368,6 +376,8 @@ def nyiso_icap(ctx):
         r = http.post("https://www.nyiso.com/o/documentlibrary/subitems",
                       json={"plid": plid, "portletId": portlet, "uuid": uuid, "folderLevel": level},
                       headers={"Content-Type": "application/json", "Accept": "application/json"})
+        if r.status_code == 202 and not r.content.strip():
+            raise Blocked("NYISO document library answered with an empty HTTP 202 (bot-management challenge)")
         return (r.json() or {}).get("config") or {}
 
     year = ctx.today[:4]
@@ -556,7 +566,10 @@ def ferc_eqr(ctx):
     prev_q = max((q for q in quarters if q < latest), default=None)
     prev, _ = read(prev_q) if prev_q else ([], [])
     old = {key(r) for r in prev}
-    new_rows = [r for r in cur if key(r) not in old]
+    q_start = dt.date(latest[0], 3 * latest[1] - 2, 1)
+    recent = (q_start - dt.timedelta(days=183)).isoformat()
+    new_rows = [r for r in cur if key(r) not in old and (not str(g(r, "contract_execution_date"))[:10]
+                                                         or str(g(r, "contract_execution_date"))[:10] >= recent)]
     by_cust = {}
     for r in cur:
         c = str(g(r, "customer_company_name", "customer_name")).strip() or "?"
