@@ -119,8 +119,8 @@ in repo secrets, which stay private on a public repo.
 
 | Path | What it is |
 |---|---|
-| `collector/` | `common.py` (HTTP, robots, extraction, AIA chain completion), `adapters.py` (commission, watch-page, RSS, IR, mirror, FERC, Federal Register, EDGAR adapters), `adapters2.py` (EIA, congress.gov, Open States, CourtListener, MISO/SPP queues, Legistar), `adapters3.py` (wave 3, 3 Oct: Supreme Court of Texas, local agendas, ERCOT large-load status, NYISO ICAP, NRC ADAMS, FERC Form 1/3-Q/714 and EQR, LBNL via OSTI), `run.py` (orchestrator, budgets, checkpoints, baselining, backfill), `backfill_text.py` (nightly enrichment of the docket-history backfill), `discover.py` and `probe_adapter.py` (repair tools; `urls:<list>` probes candidate URLs from the runners) |
-| `config/watchlist.yaml` | **The single place to add or drop coverage**: 56 keywords, jurisdictions and routes, watched dockets, entity aliases, party watch list, EDGAR issuers, Federal Register terms, 45 watch pages, 13 RSS feeds, 16 IR pages, 5 mirrors, 2 queues, 9 Legistar clients, 7 other agenda lists, court, OSTI and Open States queries, NRC dockets, FERC form filers, EQR counterparties |
+| `collector/` | `common.py` (HTTP, robots, extraction, AIA chain completion), `adapters.py` (commission, watch-page, RSS, IR, mirror, FERC, Federal Register, EDGAR adapters), `adapters2.py` (EIA, congress.gov, Open States, CourtListener, MISO/SPP/PJM queues, Legistar), `adapters3.py` (wave 3, 3 Oct: Supreme Court of Texas, local agendas, ERCOT large-load status, NYISO ICAP, NRC ADAMS, FERC Form 1/3-Q/714 and EQR, LBNL via OSTI), `run.py` (orchestrator, budgets, checkpoints, baselining, backfill), `backfill_text.py` (nightly enrichment of the docket-history backfill), `discover.py` and `probe_adapter.py` (repair tools; `urls:<list>` probes candidate URLs from the runners) |
+| `config/watchlist.yaml` | **The single place to add or drop coverage**: 56 keywords, jurisdictions and routes, watched dockets, entity aliases, party watch list, EDGAR issuers, Federal Register terms, 45 watch pages, 13 RSS feeds, 16 IR pages, 5 mirrors, 4 queues (MISO, SPP, PJM serial, PJM cycle), 9 Legistar clients, 7 other agenda lists, court, OSTI and Open States queries, NRC dockets, FERC form filers, EQR counterparties |
 | `data/` | Collector output: `candidates/<date>.jsonl`, `filings/<jur>/<source>/<id>.json` (full text), `health/`, `state/`, `backfill/`, `debug/`, `tests/` |
 | `store/` | Frozen copy of the 2026-09-18 baseline (`rows_p1..p4`) for tests and CI. Not a mirror: scheduled runs download the live store from OneDrive into `store_live/` |
 | `tracker/` | `vocab.py`, `rowstore.py` (load, overlays, validation CLI), `build_tracker.py` (canonical Excel), `build_console.py` (console package), `narrative.py` (PDF/DOCX) |
@@ -474,7 +474,7 @@ adapters can be tested on demand.
 | `PJM_API_KEY` | apiportal.pjm.com (free PJM account, Data Miner subscription) | PJM Data Miner 2 capacity and market data. **Not needed for the queue** (public exports since 4 Oct). On 4 Oct Account Manager offered no Data Miner access on Rett's account and apiportal sign-in looped to Tools home; PJM Member Relations (custsvc@pjm.com) can fix it. Data Miner terms bar redistribution, so any adapter must keep its output out of the public repo |
 | CapIQ (optional, licensed) | Blue Owl's S&P entitlement | Already arriving as mail; an API call would add structure. S&P RRA (state docket content) is a separate entitlement |
 
-**Not needed:** SEC EDGAR (UA only), Federal Register, FERC eLibrary, MISO and SPP queues, Legistar, GitHub (the
+**Not needed:** SEC EDGAR (UA only), Federal Register, FERC eLibrary, MISO, SPP and PJM queues, Legistar, GitHub (the
 workflow uses its built-in token), Microsoft 365 and Box (connectors attached to the scheduled tasks).
 
 ---
@@ -795,7 +795,7 @@ FERC EQR contracts with hyperscalers and data-center developers (PUDL); SEC EDGA
 market participants; all 8 RTOs, with ERCOT large-load status tables; 11 state commissions by collector or WebFetch
 (TX, AZ listings, GA, LA, MO, NM — documents repaired 3 Oct, KS, OK, AL, PA, plus GRDA) and 7 by manual pass (VA, SC,
 IL, OH, NC, WV, NV) with AZ documents; 10 of 16 IR pages (the rest via EDGAR); hyperscaler newsrooms (Microsoft,
-Google, Amazon, Meta); governors' newsrooms in 16 states; party watch; MISO and SPP queues; capacity markets (NYISO
+Google, Amazon, Meta); governors' newsrooms in 16 states; party watch; MISO, SPP and PJM queues (PJM from its public exports, 4 Oct); capacity markets (NYISO
 ICAP via the manual pass); courts — Supreme Court of Texas, Virginia, West Virginia, PA Commonwealth Court (RSS),
 CourtListener for all tracked states' appellate courts; local agendas — 9 Legistar clients plus Fairfax, Henrico,
 Atlanta, Tulsa (Council, TMAPC, BOA) and Storey County; utility IRP/RFP pages; DOE; NRC news (RSS); LBNL via OSTI and
