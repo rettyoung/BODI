@@ -1,0 +1,24 @@
+{
+ "id": "BILL:OK:ocd-bill/ebcdf7e8-3331-4798-8b55-ef55dd4e5270:2026-02-03",
+ "jur": "OK",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4424",
+ "title": "Revenue and taxation; ad valorem; exemption; manufacturing facilities; data center; effective date.",
+ "filed": "2026-02-03",
+ "url": "https://openstates.org/ok/bills/2026/HB4424/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Second Reading referred to Appropriations and Budget",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

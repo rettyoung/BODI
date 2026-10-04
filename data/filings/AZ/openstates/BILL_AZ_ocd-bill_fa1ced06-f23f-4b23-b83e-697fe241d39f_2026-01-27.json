@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AZ:ocd-bill/fa1ced06-f23f-4b23-b83e-697fe241d39f:2026-01-27",
+ "jur": "AZ",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2843",
+ "title": "portable solar power devices; requirements",
+ "filed": "2026-01-27",
+ "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2843/",
+ "fetch": [],
+ "meta": {
+  "session": "57th-2nd-regular",
+  "latest_action": "House Second Reading",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

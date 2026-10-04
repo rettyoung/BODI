@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AZ:ocd-bill/05f6b3a5-33f2-4b48-9d6e-f2c07580997e:2026-02-04",
+ "jur": "AZ",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1606",
+ "title": "plug in solar energy; requirements",
+ "filed": "2026-02-04",
+ "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1606/",
+ "fetch": [],
+ "meta": {
+  "session": "57th-2nd-regular",
+  "latest_action": "Senate Second Reading",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

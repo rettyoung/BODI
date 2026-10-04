@@ -1,0 +1,23 @@
+{
+ "id": "BILL:LA:ocd-bill/0ff2ba33-5831-4a90-b34d-df121d9935b9:2026-04-01",
+ "jur": "LA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1206",
+ "title": "WATER/DRINKING WATER: Provides relative to permitting and reporting of water usage at data centers",
+ "filed": "2026-04-01",
+ "url": "https://openstates.org/la/bills/2026/HB1206/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Read by title.  Lies over under the rules.",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

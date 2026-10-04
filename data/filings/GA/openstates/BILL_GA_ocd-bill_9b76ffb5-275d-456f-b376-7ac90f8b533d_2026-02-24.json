@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/9b76ffb5-275d-456f-b376-7ac90f8b533d:2026-02-24",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1387",
+ "title": "Ad valorem tax; state-wide homestead exemption in an amount as determined from proceeds generated from collection of certain ad valorem property taxes on data centers",
+ "filed": "2026-02-24",
+ "url": "https://openstates.org/ga/bills/2025_26/HB1387/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "House Second Readers",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

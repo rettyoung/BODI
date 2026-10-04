@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/54fe240d-140c-4ba1-9129-aed1dd532148:2026-03-27",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4983",
+ "title": "UTILITY-EXPEDITED ACQUISITION",
+ "filed": "2026-03-27",
+ "url": "https://openstates.org/il/bills/104th/HB4983/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Rule 19(a) / Re-referred to Rules Committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

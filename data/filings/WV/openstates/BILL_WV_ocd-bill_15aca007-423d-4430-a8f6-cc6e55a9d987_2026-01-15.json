@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/15aca007-423d-4430-a8f6-cc6e55a9d987:2026-01-15",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4379",
+ "title": "To enable the Public Service Commission to authorize accelerated rate recovery for advanced transmission technology projects",
+ "filed": "2026-01-15",
+ "url": "https://openstates.org/wv/bills/2026/HB4379/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To House Energy and Public Works",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,24 @@
+{
+ "id": "BILL:AL:ocd-bill/07fd495c-223a-4d92-8135-375c064c3732:2026-04-08T04:00:00+00:00",
+ "jur": "AL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SJR 89",
+ "title": "Urging the Governor and relevant state agencies to recognize the value of spent nuclear fuel and take state actions toward its development",
+ "filed": "2026-04-08",
+ "url": "https://openstates.org/al/bills/2026rs/SJR89/",
+ "fetch": [],
+ "meta": {
+  "session": "2026rs",
+  "latest_action": "Read for the first time",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

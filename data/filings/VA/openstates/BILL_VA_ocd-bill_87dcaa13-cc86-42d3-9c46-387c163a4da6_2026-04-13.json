@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/87dcaa13-cc86-42d3-9c46-387c163a4da6:2026-04-13",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 496",
+ "title": "Certain data from water users; water use consumption for domestic, etc., purposes, data centers.",
+ "filed": "2026-04-13",
+ "url": "https://openstates.org/va/bills/2026/HB496/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Acts of Assembly Chapter text (CHAP0623)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

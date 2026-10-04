@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/a957653f-9529-4cf6-8274-93ce8770dbc6:2026-05-13T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2515",
+ "title": "An Act providing for commercial data center transparency regarding energy use, water use and noise pollution; imposing duties on the Department of Environmental Protection, the Department of Transportation and the Office of Attorney General; and imposing civil penalties.",
+ "filed": "2026-05-13",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2515/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Energy",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

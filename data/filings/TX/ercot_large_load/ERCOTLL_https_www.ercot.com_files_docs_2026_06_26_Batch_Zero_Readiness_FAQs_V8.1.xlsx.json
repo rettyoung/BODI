@@ -1,0 +1,28 @@
+{
+ "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/06/26/Batch_Zero_Readiness_FAQs_V8.1.xlsx",
+ "jur": "TX",
+ "source": "ercot_large_load",
+ "kind": "report",
+ "docket": null,
+ "title": "ERCOT — Frequently Asked Questions (FAQ)",
+ "filed": "2026-06-26",
+ "url": "https://www.ercot.com/files/docs/2026/06/26/Batch_Zero_Readiness_FAQs_V8.1.xlsx",
+ "entity": "ERCOT",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/06/26/Batch_Zero_Readiness_FAQs_V8.1.xlsx"
+  }
+ ],
+ "meta": {
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/rq/large-load-integration",
+  "postprocess": "ercot_ll_table"
+ },
+ "collected_at": "2026-10-04T23:32:44Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large-load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

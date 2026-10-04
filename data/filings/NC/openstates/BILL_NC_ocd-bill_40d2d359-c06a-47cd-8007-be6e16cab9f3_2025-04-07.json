@@ -1,0 +1,24 @@
+{
+ "id": "BILL:NC:ocd-bill/40d2d359-c06a-47cd-8007-be6e16cab9f3:2025-04-07",
+ "jur": "NC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 728",
+ "title": "Utility-Scale Battery Storage Rqmts.",
+ "filed": "2025-04-07",
+ "url": "https://openstates.org/nc/bills/2025/SB728/",
+ "fetch": [],
+ "meta": {
+  "session": "2025",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "battery storage",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

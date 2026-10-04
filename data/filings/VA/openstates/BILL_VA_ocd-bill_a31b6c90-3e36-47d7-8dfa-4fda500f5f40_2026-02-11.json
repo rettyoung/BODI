@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/a31b6c90-3e36-47d7-8dfa-4fda500f5f40:2026-02-11",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 961",
+ "title": "Retail Sales and Use Tax; commercial and industrial exemptions, data centers.",
+ "filed": "2026-02-11",
+ "url": "https://openstates.org/va/bills/2026/HB961/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Incorporated by Finance (HB897-Sullivan)  (Voice Vote)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

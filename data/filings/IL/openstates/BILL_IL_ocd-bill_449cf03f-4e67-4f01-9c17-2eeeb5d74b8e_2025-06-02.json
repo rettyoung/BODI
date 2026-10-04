@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/449cf03f-4e67-4f01-9c17-2eeeb5d74b8e:2025-06-02",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 2478",
+ "title": "UTILITY DATA ACCESS ACT",
+ "filed": "2025-06-02",
+ "url": "https://openstates.org/il/bills/104th/SB2478/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Rule 3-9(a) / Re-referred to Assignments",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

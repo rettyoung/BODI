@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/18f205a5-a44f-4ce0-9b84-1a0051be2828:2026-03-30T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3364",
+ "title": "Creates new provisions for industrial utility users",
+ "filed": "2026-03-30",
+ "url": "https://openstates.org/mo/bills/2026/HB3364/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Public Hearing Completed (H)",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/c41699ac-1e1a-4dce-a08d-95b43e41e78c:2026-02-18",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1101",
+ "title": "Local composite index school funding formula; data center revenue.",
+ "filed": "2026-02-18",
+ "url": "https://openstates.org/va/bills/2026/HB1101/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Left in Education",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

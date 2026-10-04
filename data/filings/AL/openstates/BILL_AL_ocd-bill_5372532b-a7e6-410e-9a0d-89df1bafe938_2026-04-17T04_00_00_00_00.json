@@ -1,0 +1,24 @@
+{
+ "id": "BILL:AL:ocd-bill/5372532b-a7e6-410e-9a0d-89df1bafe938:2026-04-17T04:00:00+00:00",
+ "jur": "AL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 270",
+ "title": "Electric Utilities; review by Public Service Commission of certain contracts with large load data centers further provided for",
+ "filed": "2026-04-17",
+ "url": "https://openstates.org/al/bills/2026rs/SB270/",
+ "fetch": [],
+ "meta": {
+  "session": "2026rs",
+  "latest_action": "Read for the first time and referred to the Senate Committee on Fiscal Responsibility and Economic Development",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

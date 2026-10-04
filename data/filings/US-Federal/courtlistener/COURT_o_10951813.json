@@ -1,0 +1,20 @@
+{
+ "id": "COURT:o:10951813",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "02-25-00430-CV",
+ "title": "Andrea Potter, Individually and as Next Friend of C.P. and H.P., Minors; And Cordell Potter v. Atmos Energy Corporation",
+ "filed": "2026-08-13",
+ "url": "https://www.courtlistener.com/opinion/10951813/andrea-potter-individually-and-as-next-friend-of-cp-and-hp-minors/",
+ "fetch": [],
+ "meta": {
+  "court": "Texas Court of Appeals, 2nd District (Fort Worth)",
+  "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

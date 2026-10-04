@@ -1,0 +1,23 @@
+{
+ "id": "BILL:KS:ocd-bill/31e28864-8417-4e33-9b97-e14a97e1420a:2026-04-10",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2459",
+ "title": "Requiring any person who is 17 years of age and under to wear a helmet when operating an electric-assisted scooter or electric-assisted bicycle and modifying the definition and operation of electric-assisted scooters to include certain specifications and maximum operating speeds.",
+ "filed": "2026-04-10",
+ "url": "https://openstates.org/ks/bills/2025-2026/HB2459/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

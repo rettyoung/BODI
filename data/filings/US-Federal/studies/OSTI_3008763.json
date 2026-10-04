@@ -1,0 +1,36 @@
+{
+ "id": "OSTI:3008763",
+ "jur": "US-Federal",
+ "source": "studies",
+ "kind": "report",
+ "docket": "None",
+ "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Queued Up: 2025 Edition – Characteristics of Power Plants Seeking Transmission Interconnection As of the End of 2024 [Slides]",
+ "filed": "2025-12-01",
+ "url": "https://www.osti.gov/biblio/3008763",
+ "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
+ "fetch": [
+  {
+   "url": "https://www.osti.gov/servlets/purl/3008763"
+  }
+ ],
+ "meta": {
+  "authors": [
+   "Rand, Joseph [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Manderlink, Nick [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Zhang, Steven [Interconnection.fyi (United States)]",
+   "Talley, Chris [Interconnection.fyi (United States)]",
+   "Gorman, Will [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Wiser, Ryan H. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]"
+  ],
+  "query": "\"interconnection queue\" OR \"queued up\"",
+  "doi": "10.2172/3008763"
+ },
+ "collected_at": "2026-10-04T23:32:53Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}

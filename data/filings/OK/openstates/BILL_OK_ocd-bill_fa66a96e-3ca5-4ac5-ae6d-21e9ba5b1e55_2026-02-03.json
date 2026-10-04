@@ -1,0 +1,24 @@
+{
+ "id": "BILL:OK:ocd-bill/fa66a96e-3ca5-4ac5-ae6d-21e9ba5b1e55:2026-02-03",
+ "jur": "OK",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3724",
+ "title": "Public utilities; defining terms; stating applicability to high-demand facilities with certain electricity requirements; emergency.",
+ "filed": "2026-02-03",
+ "url": "https://openstates.org/ok/bills/2026/HB3724/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Referred to Utilities",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement",
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": []
+}

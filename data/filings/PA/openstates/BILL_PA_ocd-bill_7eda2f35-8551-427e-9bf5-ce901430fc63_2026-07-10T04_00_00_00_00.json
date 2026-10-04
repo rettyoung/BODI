@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/7eda2f35-8551-427e-9bf5-ce901430fc63:2026-07-10T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1384",
+ "title": "An Act amending the act of March 4, 1971 (P.L.6, No.2), known as the Tax Reform Code of 1971, in tax credit and tax benefit administration, further providing for definitions; in computer data center equipment incentive program, providing for certification prohibition; providing for Governor's Respon",
+ "filed": "2026-07-10",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1384/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Finance",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

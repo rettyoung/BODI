@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/2811f30d-032c-43c2-a6df-ff383af7296e:2026-09-24T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1455",
+ "title": "An Act amending Title 53 (Municipalities Generally) of the Pennsylvania Consolidated Statutes, in general provisions relating to government and administration, providing for pre-application procedure for a proposed data center.",
+ "filed": "2026-09-24",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1455/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Local Government",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

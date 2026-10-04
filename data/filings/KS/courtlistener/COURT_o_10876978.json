@@ -1,0 +1,22 @@
+{
+ "id": "COURT:o:10876978",
+ "jur": "KS",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "128510",
+ "title": "Sierra Club v. Kansas Corporation Comm'n",
+ "filed": "2026-06-18",
+ "url": "https://www.courtlistener.com/opinion/10876978/sierra-club-v-kansas-corporation-commn/",
+ "fetch": [],
+ "meta": {
+  "court": "Court of Appeals of Kansas",
+  "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/172599e8-e95d-4e8c-92eb-e670c47c8e09:2026-06-10T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 457",
+ "title": "Enact the Electricity Forecast Integrity Act",
+ "filed": "2026-06-10",
+ "url": "https://openstates.org/oh/bills/136/SB457/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Referred to committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

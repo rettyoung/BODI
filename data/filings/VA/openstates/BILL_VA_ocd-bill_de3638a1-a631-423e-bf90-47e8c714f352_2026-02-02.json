@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/de3638a1-a631-423e-bf90-47e8c714f352:2026-02-02",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 552",
+ "title": "Siting of large data centers; site assessment, standards, civil penalties.",
+ "filed": "2026-02-02",
+ "url": "https://openstates.org/va/bills/2026/SB552/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Failed to report from Local Government with amendments (7-Y 7-N 1-A)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

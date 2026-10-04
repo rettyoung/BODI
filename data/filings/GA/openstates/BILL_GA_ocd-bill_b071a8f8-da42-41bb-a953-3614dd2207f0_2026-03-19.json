@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/b071a8f8-da42-41bb-a953-3614dd2207f0:2026-03-19",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SR 989",
+ "title": "U.S. Department of Energy (DOE); to reinstate and fully fund radiological and water quality protections for the Savannah River and surrounding communities; urge",
+ "filed": "2026-03-19",
+ "url": "https://openstates.org/ga/bills/2025_26/SR989/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "Senate Read and Referred",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

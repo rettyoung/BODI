@@ -1,0 +1,23 @@
+{
+ "id": "BILL:SC:ocd-bill/c1df970c-61e5-48ea-9e9d-c6895d00b826:2026-01-14",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "S 784",
+ "title": "Energy",
+ "filed": "2026-01-14",
+ "url": "https://openstates.org/sc/bills/2025-2026/S784/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Scrivener's error corrected",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

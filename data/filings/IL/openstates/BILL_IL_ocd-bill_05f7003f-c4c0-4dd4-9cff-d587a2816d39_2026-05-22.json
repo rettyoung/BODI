@@ -1,0 +1,24 @@
+{
+ "id": "BILL:IL:ocd-bill/05f7003f-c4c0-4dd4-9cff-d587a2816d39:2026-05-22",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 3830",
+ "title": "DATA CENTERS-VARIOUS",
+ "filed": "2026-05-22",
+ "url": "https://openstates.org/il/bills/104th/SB3830/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Senate Committee Amendment No. 2 Rule 3-9(a) / Re-referred to Assignments",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

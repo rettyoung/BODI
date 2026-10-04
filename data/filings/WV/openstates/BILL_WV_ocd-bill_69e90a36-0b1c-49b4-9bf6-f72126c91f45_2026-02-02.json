@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/69e90a36-0b1c-49b4-9bf6-f72126c91f45:2026-02-02",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 5032",
+ "title": "Prevention of data center collection of citizen data",
+ "filed": "2026-02-02",
+ "url": "https://openstates.org/wv/bills/2026/HB5032/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To House Judiciary",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

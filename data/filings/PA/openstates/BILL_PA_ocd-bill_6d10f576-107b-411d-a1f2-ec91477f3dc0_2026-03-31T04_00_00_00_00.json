@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/6d10f576-107b-411d-a1f2-ec91477f3dc0:2026-03-31T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1834",
+ "title": "An Act providing for the regulation of commercial data centers;\r\n imposing duties on the Pennsylvania Public Utility\r\n Commission, the Department of Human Services and the\r\n Pennsylvania Energy Development Authority; establishing the\r\n Data Center Low-Income Home Energy Assistance Program\r\n Enhancem",
+ "filed": "2026-03-31",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB1834/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Consumer Protection & Professional Licensure",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

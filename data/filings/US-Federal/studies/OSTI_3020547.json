@@ -1,0 +1,36 @@
+{
+ "id": "OSTI:3020547",
+ "jur": "US-Federal",
+ "source": "studies",
+ "kind": "report",
+ "docket": "None",
+ "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Generator Interconnection Costs to the Transmission System in non-ISO Balancing Authorities [Slides]",
+ "filed": "2026-02-24",
+ "url": "https://www.osti.gov/biblio/3020547",
+ "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
+ "fetch": [
+  {
+   "url": "https://www.osti.gov/servlets/purl/3020547"
+  }
+ ],
+ "meta": {
+  "authors": [
+   "Seel, Joachim [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Manderlink, Nick [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Kemp, Julie Mulvaney [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Rand, Joseph [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Gorman, Will [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Wiser, Ryan H. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]"
+  ],
+  "query": "\"interconnection queue\" OR \"queued up\"",
+  "doi": "10.2172/3020547"
+ },
+ "collected_at": "2026-10-04T23:32:53Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}

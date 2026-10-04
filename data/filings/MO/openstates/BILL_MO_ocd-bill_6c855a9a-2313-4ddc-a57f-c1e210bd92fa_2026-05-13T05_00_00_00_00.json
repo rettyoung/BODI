@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/6c855a9a-2313-4ddc-a57f-c1e210bd92fa:2026-05-13T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2762",
+ "title": "Modifies and creates new provisions relating to solar energy projects",
+ "filed": "2026-05-13",
+ "url": "https://openstates.org/mo/bills/2026/HB2762/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Reported Do Pass (H) - AYES: 7 NOES: 1 PRESENT: 1",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

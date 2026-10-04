@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/04d49887-d6ee-48a1-b0ac-b10e04a54dd6:2026-04-23T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1297",
+ "title": "An Act amending the act of March 4, 1971 (P.L.6, No.2), known as the Tax Reform Code of 1971, in Computer Data Center Equipment Incentive Program, further providing for application for certification and for separation of facilities, providing for additional eligibility requirements, further providin",
+ "filed": "2026-04-23",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1297/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Finance",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,24 @@
+{
+ "id": "BILL:AZ:ocd-bill/e2172aa0-884b-4a30-9cb9-b12d11ba3a81:2026-03-11",
+ "jur": "AZ",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2388",
+ "title": "appropriation; commerce authority; nuclear; study",
+ "filed": "2026-03-11",
+ "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2388/",
+ "fetch": [],
+ "meta": {
+  "session": "57th-2nd-regular",
+  "latest_action": "FAILED",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

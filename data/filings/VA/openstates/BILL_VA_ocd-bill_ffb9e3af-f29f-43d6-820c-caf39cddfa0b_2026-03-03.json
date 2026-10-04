@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/ffb9e3af-f29f-43d6-820c-caf39cddfa0b:2026-03-03",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 897",
+ "title": "Retail Sales and Use Tax; exemption for data centers, delayed effective date.",
+ "filed": "2026-03-03",
+ "url": "https://openstates.org/va/bills/2026/HB897/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Senate committee offered",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

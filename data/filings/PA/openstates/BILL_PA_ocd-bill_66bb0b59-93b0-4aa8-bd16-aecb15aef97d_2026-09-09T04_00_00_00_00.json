@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/66bb0b59-93b0-4aa8-bd16-aecb15aef97d:2026-09-09T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2760",
+ "title": "An Act providing for the protection of water supplies by requiring commercial data centers to restore or replace a polluted or diminutive water supply; and imposing duties on the Department of Environmental Protection.",
+ "filed": "2026-09-09",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2760/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Environmental & Natural Resource Protection",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

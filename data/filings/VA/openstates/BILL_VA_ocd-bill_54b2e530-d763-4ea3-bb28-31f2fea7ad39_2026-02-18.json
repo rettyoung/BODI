@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/54b2e530-d763-4ea3-bb28-31f2fea7ad39:2026-02-18",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 824",
+ "title": "Data centers; energy generation and storage, report.",
+ "filed": "2026-02-18",
+ "url": "https://openstates.org/va/bills/2026/HB824/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Left in Committee Rules",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

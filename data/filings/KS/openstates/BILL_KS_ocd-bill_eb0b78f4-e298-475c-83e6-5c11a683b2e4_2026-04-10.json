@@ -1,0 +1,23 @@
+{
+ "id": "BILL:KS:ocd-bill/eb0b78f4-e298-475c-83e6-5c11a683b2e4:2026-04-10",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 478",
+ "title": "Creating a maximum length of time for an agreement between a utility and law enforcement to install law enforcement equipment on a utility pole or structure and increasing the criminal penalties for assault or battery of a utility or communications employee.",
+ "filed": "2026-04-10",
+ "url": "https://openstates.org/ks/bills/2025-2026/SB478/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/9ca1a0c3-6db3-43c1-a35a-d1fed4ab0a3a:2026-01-29",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 658",
+ "title": "Relating to certified microgrid district projects and certified high impact data center projects",
+ "filed": "2026-01-29",
+ "url": "https://openstates.org/wv/bills/2026/SB658/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To Economic Development",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

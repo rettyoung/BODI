@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/a7e49f1b-5bf3-4ea0-8100-dfb0880e6e5d:2026-01-30",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 695",
+ "title": "Department of Commerce rule relating to certification of microgrid district or certification as high impact data center",
+ "filed": "2026-01-30",
+ "url": "https://openstates.org/wv/bills/2026/SB695/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To Judiciary",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

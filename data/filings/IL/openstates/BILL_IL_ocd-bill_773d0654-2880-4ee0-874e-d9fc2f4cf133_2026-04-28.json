@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/773d0654-2880-4ee0-874e-d9fc2f4cf133:2026-04-28",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 2196",
+ "title": "POWERING UP ILLINOIS ACT",
+ "filed": "2026-04-28",
+ "url": "https://openstates.org/il/bills/104th/SB2196/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Sponsor Removed Sen. Chris Balkema",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

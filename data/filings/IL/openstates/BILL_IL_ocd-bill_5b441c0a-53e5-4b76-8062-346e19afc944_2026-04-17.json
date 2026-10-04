@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/5b441c0a-53e5-4b76-8062-346e19afc944:2026-04-17",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4995",
+ "title": "ELECTRIC TRANSMISSION SITING",
+ "filed": "2026-04-17",
+ "url": "https://openstates.org/il/bills/104th/HB4995/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Rule 19(a) / Re-referred to Rules Committee",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

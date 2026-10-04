@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/0ea7006d-cdf4-4552-9271-7622e1370eb7:2026-02-17",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 465",
+ "title": "Retail Sales and Use Tax; exemption for data centers.",
+ "filed": "2026-02-17",
+ "url": "https://openstates.org/va/bills/2026/SB465/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Left in Finance and Appropriations",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

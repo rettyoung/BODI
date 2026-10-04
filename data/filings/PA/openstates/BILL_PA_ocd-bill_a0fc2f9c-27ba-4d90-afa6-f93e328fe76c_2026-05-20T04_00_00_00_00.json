@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/a0fc2f9c-27ba-4d90-afa6-f93e328fe76c:2026-05-20T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1323",
+ "title": "An Act providing for the regulation of commercial data centers; imposing duties on the Pennsylvania Public Utility Commission, the Department of Human Services and the Pennsylvania Energy Development Authority; establishing the Data Center Low-Income Home Energy Assistance Program Enhancement Accoun",
+ "filed": "2026-05-20",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1323/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Consumer Protection & Professional Licensure",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

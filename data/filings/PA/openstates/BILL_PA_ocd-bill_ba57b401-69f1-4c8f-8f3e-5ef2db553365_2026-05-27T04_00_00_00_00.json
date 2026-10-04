@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/ba57b401-69f1-4c8f-8f3e-5ef2db553365:2026-05-27T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2539",
+ "title": "An Act amending the act of March 4, 1971 (P.L.6, No.2), known as the Tax Reform Code of 1971, in Computer Data Center Equipment Incentive Program, further providing for application for certification, for eligibility requirements relating to Sales and Use Tax Refund Program and for eligibility requir",
+ "filed": "2026-05-27",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2539/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Finance",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

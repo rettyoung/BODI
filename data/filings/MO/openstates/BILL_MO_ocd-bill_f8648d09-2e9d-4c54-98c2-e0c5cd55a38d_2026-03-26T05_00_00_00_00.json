@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/f8648d09-2e9d-4c54-98c2-e0c5cd55a38d:2026-03-26T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3027",
+ "title": "Establishes the Missouri Defense and Energy Independence Act",
+ "filed": "2026-03-26",
+ "url": "https://openstates.org/mo/bills/2026/HB3027/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Reported Do Pass (H) - AYES: 8 NOES: 0 PRESENT: 0",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

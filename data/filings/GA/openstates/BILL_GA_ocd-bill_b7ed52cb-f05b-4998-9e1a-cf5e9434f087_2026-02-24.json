@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/b7ed52cb-f05b-4998-9e1a-cf5e9434f087:2026-02-24",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1384",
+ "title": "Local government; require municipalities to remit a portion of revenue generated through certain franchise agreements to the county in which they are located",
+ "filed": "2026-02-24",
+ "url": "https://openstates.org/ga/bills/2025_26/HB1384/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "House Second Readers",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

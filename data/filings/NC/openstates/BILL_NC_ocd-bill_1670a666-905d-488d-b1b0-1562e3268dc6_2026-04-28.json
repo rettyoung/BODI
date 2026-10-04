@@ -1,0 +1,23 @@
+{
+ "id": "BILL:NC:ocd-bill/1670a666-905d-488d-b1b0-1562e3268dc6:2026-04-28",
+ "jur": "NC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1063",
+ "title": "Ratepayer and Resource Protection Act.",
+ "filed": "2026-04-28",
+ "url": "https://openstates.org/nc/bills/2025/HB1063/",
+ "fetch": [],
+ "meta": {
+  "session": "2025",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

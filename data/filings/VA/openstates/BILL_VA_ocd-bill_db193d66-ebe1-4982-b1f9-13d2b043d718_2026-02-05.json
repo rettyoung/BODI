@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/db193d66-ebe1-4982-b1f9-13d2b043d718:2026-02-05",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 93",
+ "title": "Data centers; taxes on banks that are tenants of a center.",
+ "filed": "2026-02-05",
+ "url": "https://openstates.org/va/bills/2026/SB93/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Continued to next session in Finance and Appropriations (15-Y 0-N)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

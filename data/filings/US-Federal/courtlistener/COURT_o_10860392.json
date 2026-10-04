@@ -1,0 +1,22 @@
+{
+ "id": "COURT:o:10860392",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "25-1012",
+ "title": "Retail Energy Advancement League v. Anthony Brown",
+ "filed": "2026-05-15",
+ "url": "https://www.courtlistener.com/opinion/10860392/retail-energy-advancement-league-v-anthony-brown/",
+ "fetch": [],
+ "meta": {
+  "court": "Court of Appeals for the Fourth Circuit",
+  "query": "\"Retail Energy Advancement League\""
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [
+  "Retail Energy Advancement League"
+ ],
+ "documents": []
+}

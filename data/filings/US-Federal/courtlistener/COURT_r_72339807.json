@@ -1,0 +1,24 @@
+{
+ "id": "COURT:r:72339807",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "26-388",
+ "title": "Sierra Club v. United States Environmental Protection Agency",
+ "filed": "2026-02-20",
+ "url": "",
+ "fetch": [],
+ "meta": {
+  "court": "Court of Appeals for the Second Circuit",
+  "query": "\"data center\" AND (\"public service commission\" OR \"corporation commission\" OR \"public utility commission\")"
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

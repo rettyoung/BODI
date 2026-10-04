@@ -1,0 +1,22 @@
+{
+ "id": "COURT:r:73419502",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "1:26-cv-12449",
+ "title": "Vashi v. Boston University Dermatology, Inc.",
+ "filed": "2026-05-31",
+ "url": "",
+ "fetch": [],
+ "meta": {
+  "court": "District Court, D. Massachusetts",
+  "query": "\"large load\" AND (tariff OR commission OR FERC)"
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

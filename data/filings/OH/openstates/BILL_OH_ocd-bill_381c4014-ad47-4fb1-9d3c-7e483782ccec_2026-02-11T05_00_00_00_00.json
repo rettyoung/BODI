@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/381c4014-ad47-4fb1-9d3c-7e483782ccec:2026-02-11T05:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 303",
+ "title": "Establish community energy program and pilot program",
+ "filed": "2026-02-11",
+ "url": "https://openstates.org/oh/bills/136/HB303/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Referred to committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

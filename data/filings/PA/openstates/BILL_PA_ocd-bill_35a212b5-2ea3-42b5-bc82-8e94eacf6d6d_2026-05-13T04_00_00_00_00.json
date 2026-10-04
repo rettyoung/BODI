@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/35a212b5-2ea3-42b5-bc82-8e94eacf6d6d:2026-05-13T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2516",
+ "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in general provisions, further providing for definitions; in comprehensive plan, providing for comprehensive plan element for commercial data centers; and, in zoning, providing for zon",
+ "filed": "2026-05-13",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2516/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Local Government",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,24 @@
+{
+ "id": "BILL:SC:ocd-bill/a84ae94d-f4cd-48aa-b004-2fcc3691a9c5:2026-02-24",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "H 5215",
+ "title": "Data Center Utility Costs",
+ "filed": "2026-02-24",
+ "url": "https://openstates.org/sc/bills/2025-2026/H5215/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Scrivener's error corrected",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

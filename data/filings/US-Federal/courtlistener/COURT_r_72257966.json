@@ -1,0 +1,22 @@
+{
+ "id": "COURT:r:72257966",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "26-416",
+ "title": "Center for Biological Diversity v. United States Environmental Protection Agency, et al.",
+ "filed": "2026-01-21",
+ "url": "",
+ "fetch": [],
+ "meta": {
+  "court": "Court of Appeals for the Ninth Circuit",
+  "query": "\"large load\" AND (tariff OR commission OR FERC)"
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

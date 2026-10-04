@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/3a9acbc7-96e0-4854-88a2-d841e016898a:2026-03-25",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 108",
+ "title": "Safeguarding American Veteran Empowerment Act or SAVE Act; enact",
+ "filed": "2026-03-25",
+ "url": "https://openstates.org/ga/bills/2025_26/HB108/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "Senate Committee Favorably Reported  By Substitute",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

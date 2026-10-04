@@ -1,0 +1,24 @@
+{
+ "id": "BILL:KS:ocd-bill/ae659306-883e-4832-944c-66cd3eb65fed:2026-04-09",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 92",
+ "title": "Extending the expiration date for provisions that authorize an electric utility to not offer parallel generation service to certain large load customers and exempt certain large load customers from the determination of the utility's peak demand.",
+ "filed": "2026-04-09",
+ "url": "https://openstates.org/ks/bills/2025-2026/SB92/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

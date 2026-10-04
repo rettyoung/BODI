@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OK:ocd-bill/4a8b0751-8d63-40a4-9082-e3c52ed3ff91:2025-02-04",
+ "jur": "OK",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1339",
+ "title": "Counties and county officers; general powers; commissioners; ambulance districts; effective date.",
+ "filed": "2025-02-04",
+ "url": "https://openstates.org/ok/bills/2026/HB1339/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Second Reading referred to Rules",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

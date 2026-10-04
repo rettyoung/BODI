@@ -1,0 +1,27 @@
+{
+ "id": "REGS:comment:EPA-HQ-OW-2009-0819-13847",
+ "jur": "US-Federal",
+ "source": "regulations_gov",
+ "kind": "filing",
+ "docket": "EPA-HQ-OW-2009-0819",
+ "title": "Comment submitted by Talen Energy Corporation (EPA-HQ-OW-2009-0819)",
+ "filed": "2026-06-18",
+ "entity": "Comment submitted by Talen Energy Corporation",
+ "url": "https://www.regulations.gov/comment/EPA-HQ-OW-2009-0819-13847",
+ "fetch": [
+  {
+   "url": "https://downloads.regulations.gov/EPA-HQ-OW-2009-0819-13847/attachment_1.pdf"
+  }
+ ],
+ "meta": {
+  "docket": "EPA-HQ-OW-2009-0819",
+  "agency": "EPA"
+ },
+ "collected_at": "2026-10-04T23:33:51Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [
+  "Talen"
+ ],
+ "documents": []
+}

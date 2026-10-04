@@ -1,0 +1,24 @@
+{
+ "id": "BILL:AZ:ocd-bill/993a2ed4-4aeb-4dab-a81c-803a689b287e:2026-02-26",
+ "jur": "AZ",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2452",
+ "title": "comprehensive plans; data centers; nuclear",
+ "filed": "2026-02-26",
+ "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2452/",
+ "fetch": [],
+ "meta": {
+  "session": "57th-2nd-regular",
+  "latest_action": "PASSED",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

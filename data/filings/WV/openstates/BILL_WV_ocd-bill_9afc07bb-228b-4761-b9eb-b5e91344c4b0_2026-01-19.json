@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/9afc07bb-228b-4761-b9eb-b5e91344c4b0:2026-01-19",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4509",
+ "title": "Relating to restoring local jurisdiction to state political subdivisions over certain electric power facilities.",
+ "filed": "2026-01-19",
+ "url": "https://openstates.org/wv/bills/2026/HB4509/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To House Energy and Public Works",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/35c51b7b-c362-4a56-bf0c-6824c42490cc:2025-07-08T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 500",
+ "title": "An Act amending the act of March 4, 1971 (P.L.6, No.2), known as the Tax Reform Code of 1971,  in Pennsylvania Economic Development for a Growing Economy (PA EDGE) Tax Credits, repealing provisions relating to local resource manufacturing, providing for Reliable Energy Investment Tax Credit, repeali",
+ "filed": "2025-07-08",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB500/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Finance",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

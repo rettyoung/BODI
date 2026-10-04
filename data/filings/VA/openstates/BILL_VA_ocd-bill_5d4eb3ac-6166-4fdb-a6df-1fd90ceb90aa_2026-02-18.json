@@ -1,0 +1,24 @@
+{
+ "id": "BILL:VA:ocd-bill/5d4eb3ac-6166-4fdb-a6df-1fd90ceb90aa:2026-02-18",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 589",
+ "title": "Data centers; certain data from water users, water use consumption.",
+ "filed": "2026-02-18",
+ "url": "https://openstates.org/va/bills/2026/HB589/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Left in Committee Agriculture Chesapeake and Natural Resources",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "ESA",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

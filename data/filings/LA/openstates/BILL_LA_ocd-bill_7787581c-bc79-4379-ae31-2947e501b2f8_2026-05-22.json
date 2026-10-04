@@ -1,0 +1,23 @@
+{
+ "id": "BILL:LA:ocd-bill/7787581c-bc79-4379-ae31-2947e501b2f8:2026-05-22",
+ "jur": "LA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 987",
+ "title": "HIGHER EDUCATION: Realigns energy-related programs by moving the Louisiana Geological Survey under the Louisiana State University Energy Institute (EN NO IMPACT   See Note)",
+ "filed": "2026-05-22",
+ "url": "https://openstates.org/la/bills/2026/HB987/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Read by title.  Lies over under the rules.",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

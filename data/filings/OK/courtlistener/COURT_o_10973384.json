@@ -1,0 +1,20 @@
+{
+ "id": "COURT:o:10973384",
+ "jur": "OK",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "124003",
+ "title": "REDLINE ENERGY, LLC v. RENETTA BENSON, WOODS COUNTY ASSESSOR; WOODS COUNTY BOARD OF TAX ROLL CORRECTIONS",
+ "filed": "2026-08-10",
+ "url": "https://www.courtlistener.com/opinion/10973384/redline-energy-llc-v-renetta-benson-woods-county-assessor-woods-county/",
+ "fetch": [],
+ "meta": {
+  "court": "Court of Civil Appeals of Oklahoma",
+  "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AL:ocd-bill/e884b2f2-4001-4442-9ce1-3bd345716f92:2026-04-09T04:00:00+00:00",
+ "jur": "AL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 265",
+ "title": "Tax abatements for data processing centers, exemption period limited, collection of certain taxes on purchases required, sunset date extended",
+ "filed": "2026-04-09",
+ "url": "https://openstates.org/al/bills/2026rs/SB265/",
+ "fetch": [],
+ "meta": {
+  "session": "2026rs",
+  "latest_action": "Read for the first time and referred to the Senate Committee on Fiscal Responsibility and Economic Development",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

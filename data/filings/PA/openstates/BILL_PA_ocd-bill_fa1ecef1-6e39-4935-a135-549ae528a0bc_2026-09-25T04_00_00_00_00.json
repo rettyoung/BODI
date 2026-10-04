@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/fa1ecef1-6e39-4935-a135-549ae528a0bc:2026-09-25T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1442",
+ "title": "An Act prohibiting data centers from being developed or operated by certain foreign entities; and providing for enforcement by Attorney General.",
+ "filed": "2026-09-25",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1442/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Judiciary",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

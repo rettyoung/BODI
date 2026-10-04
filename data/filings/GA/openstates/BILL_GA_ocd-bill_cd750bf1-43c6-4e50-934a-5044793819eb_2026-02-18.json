@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/cd750bf1-43c6-4e50-934a-5044793819eb:2026-02-18",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1304",
+ "title": "Public utilities; portable solar generation devices; provide",
+ "filed": "2026-02-18",
+ "url": "https://openstates.org/ga/bills/2025_26/HB1304/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "House Second Readers",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

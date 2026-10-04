@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/9f00c4ab-3e56-4478-b8d4-76a412c53ade:2025-06-02",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3499",
+ "title": "NET ELECTRICITY METERING",
+ "filed": "2025-06-02",
+ "url": "https://openstates.org/il/bills/104th/HB3499/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Rule 3-9(a) / Re-referred to Assignments",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

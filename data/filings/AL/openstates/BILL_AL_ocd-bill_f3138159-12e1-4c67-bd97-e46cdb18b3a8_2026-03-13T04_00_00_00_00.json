@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AL:ocd-bill/f3138159-12e1-4c67-bd97-e46cdb18b3a8:2026-03-13T04:00:00+00:00",
+ "jur": "AL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 314",
+ "title": "Morgan County; Municipal Utilities Board of Decatur, scope of operating parameters",
+ "filed": "2026-03-13",
+ "url": "https://openstates.org/al/bills/2026rs/SB314/",
+ "fetch": [],
+ "meta": {
+  "session": "2026rs",
+  "latest_action": "Read for the first time and referred to the Senate Committee on Local Legislation",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

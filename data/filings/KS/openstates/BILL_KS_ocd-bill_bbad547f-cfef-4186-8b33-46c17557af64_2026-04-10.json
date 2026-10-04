@@ -1,0 +1,23 @@
+{
+ "id": "BILL:KS:ocd-bill/bbad547f-cfef-4186-8b33-46c17557af64:2026-04-10",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 417",
+ "title": "Establishing requirements for the development, construction, modification, maintenance, operation and decommissioning of certain industrial energy facilities and providing jurisdiction to the state corporation commission to control and permit such development, construction, modification, operation, ",
+ "filed": "2026-04-10",
+ "url": "https://openstates.org/ks/bills/2025-2026/SB417/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

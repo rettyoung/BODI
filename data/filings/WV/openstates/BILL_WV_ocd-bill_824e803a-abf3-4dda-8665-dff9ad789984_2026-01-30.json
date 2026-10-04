@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/824e803a-abf3-4dda-8665-dff9ad789984:2026-01-30",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 424",
+ "title": "Establishing Affordable Electricity and Economic Growth Act of 2026",
+ "filed": "2026-01-30",
+ "url": "https://openstates.org/wv/bills/2026/SB424/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To Finance",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

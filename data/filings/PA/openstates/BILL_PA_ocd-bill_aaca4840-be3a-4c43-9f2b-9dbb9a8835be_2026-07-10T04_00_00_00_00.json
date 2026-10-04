@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/aaca4840-be3a-4c43-9f2b-9dbb9a8835be:2026-07-10T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2359",
+ "title": "An Act amending the act of March 4, 1971 (P.L.6, No.2), known as the Tax Reform Code of 1971, in computer data center equipment incentive program, further providing for definitions, for application for certification, for eligibility requirements relating to sales and use tax refund program, for noti",
+ "filed": "2026-07-10",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2359/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Finance",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

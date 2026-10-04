@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/7f4fe727-f11d-41b6-ab22-53a9e893398b:2025-03-21",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2712",
+ "title": "UTILITIES-WATER ACQUISITION",
+ "filed": "2025-03-21",
+ "url": "https://openstates.org/il/bills/104th/HB2712/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Rule 19(a) / Re-referred to Rules Committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

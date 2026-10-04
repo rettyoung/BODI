@@ -1,0 +1,210 @@
+{
+ "backfill_since": "2025-11-07",
+ "run_id": "2026-10-04-2316",
+ "started": "2026-10-04T23:16:56Z",
+ "sources": {
+  "congress": {
+   "since": "2025-11-07",
+   "found": 9,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 14.6,
+   "consecutive_failures": 0
+  },
+  "openstates": {
+   "since": "2025-11-07",
+   "found": 352,
+   "new": 336,
+   "baselined_now": 0,
+   "kept": 336,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 689.8,
+   "consecutive_failures": 0
+  },
+  "courtlistener": {
+   "since": "2025-11-07",
+   "found": 76,
+   "new": 75,
+   "baselined_now": 0,
+   "kept": 75,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 169.5,
+   "consecutive_failures": 0
+  },
+  "legistar": {
+   "since": "2025-11-07",
+   "found": 11,
+   "new": 10,
+   "baselined_now": 0,
+   "kept": 10,
+   "status": "ok",
+   "subsources": {
+    "pwcgov": {
+     "status": "ok",
+     "note": "0 matters, 0 on-topic"
+    },
+    "maricopa": {
+     "status": "ok",
+     "note": "391 matters, 0 on-topic"
+    },
+    "phoenix": {
+     "status": "ok",
+     "note": "500 matters, 1 on-topic"
+    },
+    "mesa": {
+     "status": "ok",
+     "note": "500 matters, 2 on-topic"
+    },
+    "columbus": {
+     "status": "ok",
+     "note": "500 matters, 2 on-topic"
+    },
+    "sanantonio": {
+     "status": "ok",
+     "note": "0 matters, 0 on-topic"
+    },
+    "fortworthgov": {
+     "status": "ok",
+     "note": "500 matters, 4 on-topic"
+    },
+    "kansascity": {
+     "status": "ok",
+     "note": "500 matters, 2 on-topic"
+    },
+    "washoe-nv": {
+     "status": "ok",
+     "note": "500 matters, 0 on-topic"
+    }
+   },
+   "notes": [],
+   "seconds": 27.2,
+   "consecutive_failures": 0
+  },
+  "ercot_large_load": {
+   "since": "2025-11-07",
+   "found": 35,
+   "new": 25,
+   "baselined_now": 0,
+   "kept": 25,
+   "status": "ok",
+   "subsources": {
+    "ercot:llwg": {
+     "status": "ok",
+     "note": "read"
+    },
+    "ercot:tac": {
+     "status": "ok",
+     "note": "read"
+    },
+    "ercot:ros": {
+     "status": "ok",
+     "note": "read"
+    },
+    "ercot:board": {
+     "status": "ok",
+     "note": "read"
+    },
+    "ercot:public_api": {
+     "status": "ok",
+     "note": "0 large-load products among 120 in the catalogue"
+    }
+   },
+   "notes": [],
+   "seconds": 46.5,
+   "consecutive_failures": 0
+  },
+  "studies": {
+   "since": "2025-11-07",
+   "found": 7,
+   "new": 4,
+   "baselined_now": 0,
+   "kept": 4,
+   "status": "ok",
+   "subsources": {
+    "osti:\"interconnection queue\" OR \"qu": {
+     "status": "ok",
+     "note": "14 records"
+    },
+    "osti:\"data center\" AND (electricity": {
+     "status": "ok",
+     "note": "20 records"
+    },
+    "osti:\"load growth\" OR \"large loads\"": {
+     "status": "ok",
+     "note": "20 records"
+    }
+   },
+   "notes": [],
+   "seconds": 12.2,
+   "consecutive_failures": 0
+  },
+  "regulations_gov": {
+   "since": "2025-11-07",
+   "found": 54,
+   "new": 27,
+   "baselined_now": 0,
+   "kept": 27,
+   "status": "ok",
+   "subsources": {
+    "regulations_gov": {
+     "status": "ok",
+     "note": "49 documents, 5 watched-party comments, 8 dockets watched"
+    }
+   },
+   "notes": [],
+   "seconds": 54.2,
+   "consecutive_failures": 0
+  }
+ },
+ "docs_fetched": 1,
+ "new_items": 477,
+ "user_agent": "BlueOwl-RegTracker/4.0 (***)",
+ "trigger": {
+  "event": "workflow_dispatch",
+  "cron": null
+ },
+ "finished": "2026-10-04T23:33:51Z",
+ "http_hosts": {
+  "https://api.congress.gov": {
+   "robots": "403",
+   "note": ""
+  },
+  "https://v3.openstates.org": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.courtlistener.com": {
+   "robots": "403",
+   "note": ""
+  },
+  "https://webapi.legistar.com": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.ercot.com": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://api.ercot.com": {
+   "robots": "404",
+   "note": ""
+  },
+  "https://www.osti.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://api.regulations.gov": {
+   "robots": "403",
+   "note": ""
+  }
+ },
+ "seconds": 1014
+}

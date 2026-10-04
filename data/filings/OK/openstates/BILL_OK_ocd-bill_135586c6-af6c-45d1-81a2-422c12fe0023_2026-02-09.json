@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OK:ocd-bill/135586c6-af6c-45d1-81a2-422c12fe0023:2026-02-09",
+ "jur": "OK",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4219",
+ "title": "Data centers; Data Centers Act of 2026; effective date.",
+ "filed": "2026-02-09",
+ "url": "https://openstates.org/ok/bills/2026/HB4219/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Referred to Energy",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/3f5960e1-40bb-4f01-9164-6222cf819ba2:2026-05-15T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2657",
+ "title": "Modifies certain provisions relating to the renewable energy",
+ "filed": "2026-05-15",
+ "url": "https://openstates.org/mo/bills/2026/HB2657/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Referred: Emerging Issues(H)",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

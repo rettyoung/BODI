@@ -1,0 +1,20 @@
+{
+ "id": "COURT:o:10796489",
+ "jur": "OK",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "122360",
+ "title": "VERTICAL EXPLORATION v. AMERICO OIL and CORPORATION COMMISSION",
+ "filed": "2026-08-18",
+ "url": "https://www.courtlistener.com/opinion/10796489/vertical-exploration-v-americo-oil-and-corporation-commission/",
+ "fetch": [],
+ "meta": {
+  "court": "Court of Civil Appeals of Oklahoma",
+  "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/8a9e7c22-1b6c-438a-861f-69e984a06cd8:2025-05-13T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 756",
+ "title": "An Act amending Titles 4 (Amusements), 18 (Crimes and Offenses) and 42 (Judiciary and Judicial Procedure) of the Pennsylvania Consolidated Statutes, in fantasy contests, further providing for definitions, for general and specific powers of board and for prohibitions; in general provisions relating t",
+ "filed": "2025-05-13",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB756/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Community, Economic & Recreational Development",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/539e103a-2922-4234-a279-6ed5881c3164:2026-04-08",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 507",
+ "title": "Data centers; permit requirements, emission limits for certain engine-generator sets.",
+ "filed": "2026-04-08",
+ "url": "https://openstates.org/va/bills/2026/HB507/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Acts of Assembly Chapter text (CHAP0397)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

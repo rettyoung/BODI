@@ -1,0 +1,23 @@
+{
+ "id": "BILL:SC:ocd-bill/37eca8c7-5b9e-409b-9cc0-d9ebbf530072:2025-02-18",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "H 3812",
+ "title": "Commercial Property Assessed Clean Energy Programs (C-PACE)",
+ "filed": "2025-02-18",
+ "url": "https://openstates.org/sc/bills/2025-2026/H3812/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Member(s) request name added as sponsor: Wetmore",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

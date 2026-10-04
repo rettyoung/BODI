@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/538a5dfd-a776-4dc0-ba85-616fa4cdadd9:2026-05-15T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3390",
+ "title": "Creates new provisions related to the construction of data centers",
+ "filed": "2026-05-15",
+ "url": "https://openstates.org/mo/bills/2026/HB3390/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Referred: Emerging Issues(H)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/dde5117e-486e-42d3-913a-4a88cb7c7af7:2025-08-14T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 15",
+ "title": "Amend competitive retail electric service law",
+ "filed": "2025-08-14",
+ "url": "https://openstates.org/oh/bills/136/HB15/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Effective 8/14/25",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

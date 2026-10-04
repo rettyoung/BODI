@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/2d1f3767-cbc7-4b34-a9de-9b4697d994de:2026-06-04T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1344",
+ "title": "An Act amending the act of March 4, 1971 (P.L.6, No.2), known as the Tax Reform Code of 1971, repealing provisions relating to computer data center equipment incentive program; in general provisions, providing for transfer of tax from certain sale of computer data equipment; and establishing a restr",
+ "filed": "2026-06-04",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1344/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Finance",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

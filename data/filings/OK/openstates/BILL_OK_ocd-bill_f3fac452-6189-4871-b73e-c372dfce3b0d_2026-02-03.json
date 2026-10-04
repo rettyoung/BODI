@@ -1,0 +1,24 @@
+{
+ "id": "BILL:OK:ocd-bill/f3fac452-6189-4871-b73e-c372dfce3b0d:2026-02-03",
+ "jur": "OK",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1706",
+ "title": "Foreign ownership of land; prohibiting foreign principals from renting, leasing, or having a controlling interest in data centers. Effective date.",
+ "filed": "2026-02-03",
+ "url": "https://openstates.org/ok/bills/2026/SB1706/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Second Reading referred to Judiciary",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

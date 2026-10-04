@@ -1,0 +1,23 @@
+{
+ "id": "BILL:LA:ocd-bill/fdce300d-998d-4340-805a-c9722fe39189:2026-03-09",
+ "jur": "LA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 922",
+ "title": "UTILITY/RATES: Provides relative to increases for certain utility rates",
+ "filed": "2026-03-09",
+ "url": "https://openstates.org/la/bills/2026/HB922/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Prefiled.",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AL:ocd-bill/c1f73edb-6205-4b6e-9d66-f41349680ff8:2026-04-17T04:00:00+00:00",
+ "jur": "AL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 399",
+ "title": "Tax abatements for data processing centers, exemption period limited, collection of certain taxes on purchases required, sunset date extended",
+ "filed": "2026-04-17",
+ "url": "https://openstates.org/al/bills/2026rs/HB399/",
+ "fetch": [],
+ "meta": {
+  "session": "2026rs",
+  "latest_action": "Read for the first time and referred to the House Committee on Transportation, Utilities and Infrastructure",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

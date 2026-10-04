@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/e9925358-6683-42b3-99c7-f81a3221f95f:2026-07-21",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 393",
+ "title": "Virginia's Great Outdoors Act; established, creates data center land conservation tax.",
+ "filed": "2026-07-21",
+ "url": "https://openstates.org/va/bills/2027/SB393/",
+ "fetch": [],
+ "meta": {
+  "session": "2027",
+  "latest_action": "Continued from last session",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/ce06c7bd-7d8f-44d5-9e9c-25610c681fea:2026-02-21",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1040",
+ "title": "Creating WV Energy Freedom Act",
+ "filed": "2026-02-21",
+ "url": "https://openstates.org/wv/bills/2026/SB1040/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To Energy, Industry, and Mining",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

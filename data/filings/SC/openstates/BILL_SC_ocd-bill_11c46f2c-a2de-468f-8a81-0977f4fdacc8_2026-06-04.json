@@ -1,0 +1,23 @@
+{
+ "id": "BILL:SC:ocd-bill/11c46f2c-a2de-468f-8a81-0977f4fdacc8:2026-06-04",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "H 5282",
+ "title": "Utility Billing Accountability and Consumer Protection Act",
+ "filed": "2026-06-04",
+ "url": "https://openstates.org/sc/bills/2025-2026/H5282/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Scrivener's error corrected",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

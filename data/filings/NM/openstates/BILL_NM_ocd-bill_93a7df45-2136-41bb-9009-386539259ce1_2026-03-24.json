@@ -1,0 +1,23 @@
+{
+ "id": "BILL:NM:ocd-bill/93a7df45-2136-41bb-9009-386539259ce1:2026-03-24",
+ "jur": "NM",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 39",
+ "title": "MICROGRID OVERSIGHT ACT",
+ "filed": "2026-03-24",
+ "url": "https://openstates.org/nm/bills/2026/SB39/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "action postponed indefinitely",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

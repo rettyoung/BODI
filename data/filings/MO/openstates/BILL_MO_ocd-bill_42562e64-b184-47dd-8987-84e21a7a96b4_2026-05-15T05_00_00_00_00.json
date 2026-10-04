@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/42562e64-b184-47dd-8987-84e21a7a96b4:2026-05-15T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3073",
+ "title": "Requires an owner of a utility-scale solar project to provide a proper decommissioning plan to DNR along with financial assurances prior to starting energy production",
+ "filed": "2026-05-15",
+ "url": "https://openstates.org/mo/bills/2026/HB3073/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Referred: Emerging Issues(H)",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

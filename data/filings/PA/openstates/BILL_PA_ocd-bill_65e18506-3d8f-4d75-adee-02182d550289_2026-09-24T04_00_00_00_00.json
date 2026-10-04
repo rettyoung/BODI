@@ -1,0 +1,25 @@
+{
+ "id": "BILL:PA:ocd-bill/65e18506-3d8f-4d75-adee-02182d550289:2026-09-24T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1469",
+ "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in rates and distribution systems, providing for large load hyperscale data center tariffs.",
+ "filed": "2026-09-24",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1469/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Consumer Protection & Professional Licensure",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "hyperscale",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AZ:ocd-bill/407ade10-2b84-43c6-8018-407f4904b632:2026-02-26",
+ "jur": "AZ",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4009",
+ "title": "data centers; state lands; map",
+ "filed": "2026-02-26",
+ "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4009/",
+ "fetch": [],
+ "meta": {
+  "session": "57th-2nd-regular",
+  "latest_action": "FAILED",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

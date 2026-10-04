@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/28f1fee8-862c-4980-b1d9-e1620af53e50:2026-06-22T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 906",
+ "title": "An Act establishing the Pennsylvania Family and Medical Leave Program and the Family and Medical Leave Fund; conferring powers and imposing duties on the Department of Labor and Industry; creating a right of action; and imposing penalties.",
+ "filed": "2026-06-22",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB906/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Re-referred to Rules & Executive Nominations",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

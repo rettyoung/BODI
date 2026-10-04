@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/c8685672-b003-4176-b5bb-e54a272a55d7:2025-04-04T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 542",
+ "title": "An Act amending Title 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in licensing of drivers, further providing for schedule of convictions and points; in rules of the road in general, further providing for speed timing devices; and, in powers of department and local authorities, further p",
+ "filed": "2025-04-04",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB542/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Transportation",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

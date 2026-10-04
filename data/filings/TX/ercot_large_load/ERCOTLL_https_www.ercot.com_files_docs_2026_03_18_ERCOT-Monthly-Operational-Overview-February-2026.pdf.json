@@ -1,0 +1,26 @@
+{
+ "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/03/18/ERCOT-Monthly-Operational-Overview-February-2026.pdf",
+ "jur": "TX",
+ "source": "ercot_large_load",
+ "kind": "report",
+ "docket": null,
+ "title": "ERCOT — ERCOT Monthly Operational Overview February 2026",
+ "filed": "2026-03-18",
+ "url": "https://www.ercot.com/files/docs/2026/03/18/ERCOT-Monthly-Operational-Overview-February-2026.pdf",
+ "entity": "ERCOT",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/03/18/ERCOT-Monthly-Operational-Overview-February-2026.pdf"
+  }
+ ],
+ "meta": {
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/committees/board",
+  "postprocess": "ercot_ll_table"
+ },
+ "collected_at": "2026-10-04T23:32:44Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

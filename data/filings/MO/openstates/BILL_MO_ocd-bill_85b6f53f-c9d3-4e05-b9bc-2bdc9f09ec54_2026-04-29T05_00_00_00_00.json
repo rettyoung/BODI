@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/85b6f53f-c9d3-4e05-b9bc-2bdc9f09ec54:2026-04-29T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2035",
+ "title": "Establishes and modifies provisions relating to artificially generated material",
+ "filed": "2026-04-29",
+ "url": "https://openstates.org/mo/bills/2026/HB2035/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Public Hearing Held (S)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

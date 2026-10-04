@@ -1,0 +1,23 @@
+{
+ "id": "BILL:NM:ocd-bill/f7ad2f03-135b-43e4-859c-e5e81be20567:2026-03-24",
+ "jur": "NM",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HM 41",
+ "title": "STUDY PUBLICLY OWNED UTILITY",
+ "filed": "2026-03-24",
+ "url": "https://openstates.org/nm/bills/2026/HM41/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "action postponed indefinitely",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

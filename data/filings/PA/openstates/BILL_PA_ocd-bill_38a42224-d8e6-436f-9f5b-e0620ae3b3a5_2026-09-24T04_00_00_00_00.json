@@ -1,0 +1,24 @@
+{
+ "id": "BILL:PA:ocd-bill/38a42224-d8e6-436f-9f5b-e0620ae3b3a5:2026-09-24T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1461",
+ "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in general provisions, further providing for definitions; and, in zoning, providing for hyperscale data centers and public input.",
+ "filed": "2026-09-24",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1461/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Local Government",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": []
+}

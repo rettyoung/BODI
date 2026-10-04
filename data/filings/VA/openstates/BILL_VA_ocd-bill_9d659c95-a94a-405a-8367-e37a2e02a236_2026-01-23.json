@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/9d659c95-a94a-405a-8367-e37a2e02a236:2026-01-23",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 511",
+ "title": "Data centers; industrial zoning.",
+ "filed": "2026-01-23",
+ "url": "https://openstates.org/va/bills/2026/HB511/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Incorporated by Counties, Cities and Towns (HB153-Thomas)  (Voice Vote)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

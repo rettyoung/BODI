@@ -1,0 +1,23 @@
+{
+ "id": "BILL:LA:ocd-bill/108bbb65-d84e-46ec-a8a5-25c91bad1cfc:2026-06-01",
+ "jur": "LA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HR 404",
+ "title": "INFRASTRUCTURE: Urges and requests that Louisiana utilities assess their electric grids for vulnerabilities to ground induced currents",
+ "filed": "2026-06-01",
+ "url": "https://openstates.org/la/bills/2026/HR404/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Read by title.  Lies over under the rules.",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

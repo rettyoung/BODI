@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/381d0931-e44d-4645-bba2-600942c16d7c:2026-02-18",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 94",
+ "title": "Public Utilities and Public Transportation; a consumer utility counsel to represent consumers in matters before the Public Service Commission or other agencies concerning public utilities; reestablish",
+ "filed": "2026-02-18",
+ "url": "https://openstates.org/ga/bills/2025_26/SB94/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "Senate Committee Favorably Reported  By Substitute",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

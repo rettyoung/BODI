@@ -1,0 +1,36 @@
+{
+ "id": "OSTI:3376147",
+ "jur": "US-Federal",
+ "source": "studies",
+ "kind": "report",
+ "docket": "None",
+ "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Queued Up: 2026 Edition, Characteristics of Power Plants Seeking Transmission Interconnection As of the End of 2025 [Slides]",
+ "filed": "2026-06-30",
+ "url": "https://www.osti.gov/biblio/3376147",
+ "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
+ "fetch": [
+  {
+   "url": "https://www.osti.gov/servlets/purl/3376147"
+  }
+ ],
+ "meta": {
+  "authors": [
+   "Rand, Joseph [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Cheyette, Anna [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Talley, Chris [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Zhang, Steven [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Gorman, Will [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+   "Wiser, Ryan [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]"
+  ],
+  "query": "\"interconnection queue\" OR \"queued up\"",
+  "doi": "10.2172/3376147"
+ },
+ "collected_at": "2026-10-04T23:32:53Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}

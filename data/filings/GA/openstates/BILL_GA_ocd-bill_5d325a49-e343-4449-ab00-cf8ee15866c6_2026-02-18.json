@@ -1,0 +1,24 @@
+{
+ "id": "BILL:GA:ocd-bill/5d325a49-e343-4449-ab00-cf8ee15866c6:2026-02-18",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1063",
+ "title": "Electric utilities; protect residential and retail electricity customers from costs associated with data center construction and operation; require",
+ "filed": "2026-02-18",
+ "url": "https://openstates.org/ga/bills/2025_26/HB1063/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "Senate Read and Referred",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

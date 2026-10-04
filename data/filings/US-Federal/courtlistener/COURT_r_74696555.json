@@ -1,0 +1,20 @@
+{
+ "id": "COURT:r:74696555",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "26-11324",
+ "title": "80 Acres Urban Agriculture, Inc.",
+ "filed": "2026-08-25",
+ "url": "",
+ "fetch": [],
+ "meta": {
+  "court": "United States Bankruptcy Court, D. Delaware",
+  "query": "Microsoft AND \"State Corporation Commission\""
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

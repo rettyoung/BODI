@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OK:ocd-bill/35214817-47b1-4cdd-98a1-1b9250689124:2026-04-07",
+ "jur": "OK",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3620",
+ "title": "The 2030 Census; 2030 Census Complete Count Committee; duties and responsibilities; State Data Center; report; effective date.",
+ "filed": "2026-04-07",
+ "url": "https://openstates.org/ok/bills/2026/HB3620/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Referred to Appropriations",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

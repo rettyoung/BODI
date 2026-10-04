@@ -1,0 +1,23 @@
+{
+ "id": "BILL:LA:ocd-bill/483cb84a-d613-4865-ab76-a5bcd1203ab1:2026-06-03",
+ "jur": "LA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HR 279",
+ "title": "ENERGY: Recognizes the value of geothermal energy development in the state",
+ "filed": "2026-06-03",
+ "url": "https://openstates.org/la/bills/2026/HR279/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Read by title.  Lies over under the rules.",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

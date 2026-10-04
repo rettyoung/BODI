@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AZ:ocd-bill/b08eb93a-99cf-4160-b996-8638675c4b75:2026-04-14",
+ "jur": "AZ",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2918",
+ "title": "renewable energy equipment; valuation; depreciation",
+ "filed": "2026-04-14",
+ "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2918/",
+ "fetch": [],
+ "meta": {
+  "session": "57th-2nd-regular",
+  "latest_action": "DP",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

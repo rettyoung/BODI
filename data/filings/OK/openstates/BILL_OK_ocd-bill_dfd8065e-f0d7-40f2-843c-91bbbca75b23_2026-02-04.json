@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OK:ocd-bill/dfd8065e-f0d7-40f2-843c-91bbbca75b23:2026-02-04",
+ "jur": "OK",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3917",
+ "title": "Public utilities; defining terms; requiring certain public utilities to make certain filing with Corporation Commission; effective date.",
+ "filed": "2026-02-04",
+ "url": "https://openstates.org/ok/bills/2026/HB3917/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Referred to Appropriations and Budget",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

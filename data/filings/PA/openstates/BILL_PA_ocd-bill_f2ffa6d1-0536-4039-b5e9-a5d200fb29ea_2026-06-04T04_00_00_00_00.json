@@ -1,0 +1,24 @@
+{
+ "id": "BILL:PA:ocd-bill/f2ffa6d1-0536-4039-b5e9-a5d200fb29ea:2026-06-04T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1359",
+ "title": "An Act imposing a Statewide moratorium on hyperscale data center development and permitting; and providing for enforcement.",
+ "filed": "2026-06-04",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1359/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Local Government",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/beb18df4-f2ee-46f9-acfa-5bb9cab4ca70:2026-01-29",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4948",
+ "title": "To create a buffer zone between a data center and residence, school or house of worship",
+ "filed": "2026-01-29",
+ "url": "https://openstates.org/wv/bills/2026/HB4948/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To House Energy and Public Works",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

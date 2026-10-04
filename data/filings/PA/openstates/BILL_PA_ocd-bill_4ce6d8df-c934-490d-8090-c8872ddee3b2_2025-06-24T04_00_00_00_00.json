@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/4ce6d8df-c934-490d-8090-c8872ddee3b2:2025-06-24T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 888",
+ "title": "An Act providing for the use of certain credentialing applications and for credentialing requirements for health insurers; imposing penalties; and conferring powers and imposing duties on the Insurance Department.",
+ "filed": "2025-06-24",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB888/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Banking & Insurance",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

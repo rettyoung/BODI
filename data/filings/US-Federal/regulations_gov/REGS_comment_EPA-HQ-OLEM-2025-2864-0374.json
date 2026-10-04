@@ -1,0 +1,27 @@
+{
+ "id": "REGS:comment:EPA-HQ-OLEM-2025-2864-0374",
+ "jur": "US-Federal",
+ "source": "regulations_gov",
+ "kind": "filing",
+ "docket": "EPA-HQ-OLEM-2025-2864",
+ "title": "Mass comment campaign sponsored by Sierra Club (EPA-HQ-OLEM-2025-2864)",
+ "filed": "2026-02-09",
+ "entity": "Mass comment campaign sponsored by Sierra Club",
+ "url": "https://www.regulations.gov/comment/EPA-HQ-OLEM-2025-2864-0374",
+ "fetch": [
+  {
+   "url": "https://downloads.regulations.gov/EPA-HQ-OLEM-2025-2864-0374/attachment_1.pdf"
+  }
+ ],
+ "meta": {
+  "docket": "EPA-HQ-OLEM-2025-2864",
+  "agency": "EPA"
+ },
+ "collected_at": "2026-10-04T23:33:51Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

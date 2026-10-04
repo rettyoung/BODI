@@ -1,0 +1,22 @@
+{
+ "id": "COURT:r:72320719",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "2:26-cv-00653",
+ "title": "Xtone Inc v. Amazon.com Inc",
+ "filed": "2026-02-19",
+ "url": "",
+ "fetch": [],
+ "meta": {
+  "court": "District Court, W.D. Washington",
+  "query": "Microsoft AND \"State Corporation Commission\""
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [
+  "Amazon"
+ ],
+ "documents": []
+}

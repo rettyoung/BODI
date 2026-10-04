@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/8f3769e1-597f-4d5f-9dda-cb4253dc6d10:2026-02-03",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 130",
+ "title": "Data centers; site assessment, definition of high energy use facility.",
+ "filed": "2026-02-03",
+ "url": "https://openstates.org/va/bills/2026/SB130/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Incorporated by Finance and Appropriations (SB94-Roem)  (13-Y 2-N)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

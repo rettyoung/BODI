@@ -1,0 +1,24 @@
+{
+ "id": "BILL:AL:ocd-bill/3a8a3544-4de4-4d41-8340-1c39f89046df:2026-04-20T04:00:00+00:00",
+ "jur": "AL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HJR 242",
+ "title": "Urging the Governor and relevant state agencies to recognize the value of spent nuclear fuel and take state actions toward its development",
+ "filed": "2026-04-20",
+ "url": "https://openstates.org/al/bills/2026rs/HJR242/",
+ "fetch": [],
+ "meta": {
+  "session": "2026rs",
+  "latest_action": "Received in the House and referred to the House committee on Rules",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

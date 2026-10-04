@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/a86cb1f4-d146-4ed8-a14f-1c146e2e216b:2026-02-16",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 5590",
+ "title": "Create a limited and predictable water-quantity review framework for High Impact Data Centers (HIDCs) in West Virginia.",
+ "filed": "2026-02-16",
+ "url": "https://openstates.org/wv/bills/2026/HB5590/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To House Energy and Public Works",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

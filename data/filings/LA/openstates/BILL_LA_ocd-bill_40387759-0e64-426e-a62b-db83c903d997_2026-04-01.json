@@ -1,0 +1,23 @@
+{
+ "id": "BILL:LA:ocd-bill/40387759-0e64-426e-a62b-db83c903d997:2026-04-01",
+ "jur": "LA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1156",
+ "title": "ENERGY: Enacts safety regulations for carbon dioxide transport and sequestration",
+ "filed": "2026-04-01",
+ "url": "https://openstates.org/la/bills/2026/HB1156/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Read by title.  Lies over under the rules.",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

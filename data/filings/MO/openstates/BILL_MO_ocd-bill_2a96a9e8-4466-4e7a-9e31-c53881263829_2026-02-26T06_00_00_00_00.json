@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/2a96a9e8-4466-4e7a-9e31-c53881263829:2026-02-26T06:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2350",
+ "title": "Modifies certain provisions to include artificially generated visual depictions of a minor",
+ "filed": "2026-02-26",
+ "url": "https://openstates.org/mo/bills/2026/HB2350/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "HCS Reported Do Pass (H) - AYES: 10 NOES: 0 PRESENT: 1",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

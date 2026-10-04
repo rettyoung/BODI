@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/1165b40f-cbac-4fe4-82b8-f3f68fba7358:2026-02-11",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 784",
+ "title": "RS and UT; commercial and industrial exemptions, disclosure of data center operator exemption.",
+ "filed": "2026-02-11",
+ "url": "https://openstates.org/va/bills/2026/HB784/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Incorporated by Finance (HB897-Sullivan)  (Voice Vote)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

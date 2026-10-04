@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/ba28c7fd-fa27-4e40-9025-b60d1c5840f6:2026-01-26",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4822",
+ "title": "To redirect data center tax revenue to PEIA, counties, and schools",
+ "filed": "2026-01-26",
+ "url": "https://openstates.org/wv/bills/2026/HB4822/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To House Energy and Public Works",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

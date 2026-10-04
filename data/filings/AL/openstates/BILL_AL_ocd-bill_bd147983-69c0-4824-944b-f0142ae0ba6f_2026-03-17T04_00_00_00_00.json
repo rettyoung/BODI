@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AL:ocd-bill/bd147983-69c0-4824-944b-f0142ae0ba6f:2026-03-17T04:00:00+00:00",
+ "jur": "AL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 403",
+ "title": "Electric Utilities; review by Public Service Commission of certain contracts with large load customers further provided",
+ "filed": "2026-03-17",
+ "url": "https://openstates.org/al/bills/2026rs/HB403/",
+ "fetch": [],
+ "meta": {
+  "session": "2026rs",
+  "latest_action": "Read for the first time and referred to the House Committee on Transportation, Utilities and Infrastructure",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

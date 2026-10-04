@@ -1,0 +1,24 @@
+{
+ "id": "BILL:SC:ocd-bill/6e46b812-1561-4370-ac27-92806437a818:2026-02-10",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "S 902",
+ "title": "Data Centers",
+ "filed": "2026-02-10",
+ "url": "https://openstates.org/sc/bills/2025-2026/S902/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Committee on Judiciary",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

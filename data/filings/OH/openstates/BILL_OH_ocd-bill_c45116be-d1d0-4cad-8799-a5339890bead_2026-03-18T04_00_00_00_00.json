@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/c45116be-d1d0-4cad-8799-a5339890bead:2026-03-18T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 755",
+ "title": "Regards portable solar generation devices",
+ "filed": "2026-03-18",
+ "url": "https://openstates.org/oh/bills/136/HB755/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Referred to committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,22 @@
+{
+ "id": "COURT:o:10843213",
+ "jur": "GA",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "A26A0274",
+ "title": "SANDERSVILLE RAILROAD COMPANY v. ROBERT DONALD GARRETT, SR.",
+ "filed": "2026-04-15",
+ "url": "https://www.courtlistener.com/opinion/10843213/sandersville-railroad-company-v-robert-donald-garrett-sr/",
+ "fetch": [],
+ "meta": {
+  "court": "Court of Appeals of Georgia",
+  "query": "\"large load\" AND (tariff OR commission OR FERC)"
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,24 @@
+{
+ "id": "BILL:SC:ocd-bill/3a5e1ea3-fe1d-4240-8a11-5687e1f96768:2026-04-14",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "H 5525",
+ "title": "SC Electric Cooperative Consumer Protection & Wholesale Market Access Act",
+ "filed": "2026-04-14",
+ "url": "https://openstates.org/sc/bills/2025-2026/H5525/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Committee on Labor, Commerce and Industry",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "ESA",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

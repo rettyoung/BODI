@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/4aef2ebb-9bdd-41f8-a1a7-36c10bfdbc3a:2026-09-24T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1460",
+ "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in zoning, prohibiting the location of data centers.",
+ "filed": "2026-09-24",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1460/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Local Government",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

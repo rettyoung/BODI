@@ -1,0 +1,23 @@
+{
+ "id": "BILL:NC:ocd-bill/14adcf08-df99-46bb-b9d5-708072abd7af:2026-05-04",
+ "jur": "NC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 957",
+ "title": "Portable-Scale Solar Energy Devices.",
+ "filed": "2026-05-04",
+ "url": "https://openstates.org/nc/bills/2025/SB957/",
+ "fetch": [],
+ "meta": {
+  "session": "2025",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:SC:ocd-bill/aab1d41b-4091-4096-b59b-ef2c0d967e5c:2025-05-19",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "H 3309",
+ "title": "Electrical Utilities",
+ "filed": "2025-05-19",
+ "url": "https://openstates.org/sc/bills/2025-2026/H3309/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Act No. 41",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

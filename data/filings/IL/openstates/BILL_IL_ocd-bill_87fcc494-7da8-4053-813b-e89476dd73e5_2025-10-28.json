@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/87fcc494-7da8-4053-813b-e89476dd73e5:2025-10-28",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4172",
+ "title": "UTILITY-PROJECT COST RECOVERY",
+ "filed": "2025-10-28",
+ "url": "https://openstates.org/il/bills/104th/HB4172/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Referred to Rules Committee",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

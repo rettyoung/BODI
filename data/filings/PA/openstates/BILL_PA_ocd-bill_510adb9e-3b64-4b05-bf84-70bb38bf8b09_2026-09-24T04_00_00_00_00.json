@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/510adb9e-3b64-4b05-bf84-70bb38bf8b09:2026-09-24T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1470",
+ "title": "An Act amending Title 27 (Environmental Resources) of the Pennsylvania Consolidated Statutes, in water resources planning, providing for water conservation requirements for data centers.",
+ "filed": "2026-09-24",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1470/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Environmental Resources & Energy",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

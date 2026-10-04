@@ -1,0 +1,25 @@
+{
+ "id": "BILL:VA:ocd-bill/ae787d06-7790-47af-a15b-281aee206edb:2026-02-18",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 154",
+ "title": "Data centers; use of emergency generation unit, disclosure requirements.",
+ "filed": "2026-02-18",
+ "url": "https://openstates.org/va/bills/2026/HB154/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Left in Agriculture, Chesapeake and Natural Resources",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "ESA",
+  "data center",
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": []
+}

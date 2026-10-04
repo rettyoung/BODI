@@ -1,0 +1,26 @@
+{
+ "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/06/19/Batch-Zero-Readiness-Weekly-Meeting-5_06192026_v2.pptx",
+ "jur": "TX",
+ "source": "ercot_large_load",
+ "kind": "report",
+ "docket": null,
+ "title": "ERCOT — Batch-Zero-Readiness-Weekly-Meeting-5_06192026_v2",
+ "filed": "2026-06-19",
+ "url": "https://www.ercot.com/files/docs/2026/06/19/Batch-Zero-Readiness-Weekly-Meeting-5_06192026_v2.pptx",
+ "entity": "ERCOT",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/06/19/Batch-Zero-Readiness-Weekly-Meeting-5_06192026_v2.pptx"
+  }
+ ],
+ "meta": {
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/calendar/06192026-LLWG-Meeting",
+  "postprocess": "ercot_ll_table"
+ },
+ "collected_at": "2026-10-04T23:32:44Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

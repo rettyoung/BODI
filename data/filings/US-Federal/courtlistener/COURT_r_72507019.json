@@ -1,0 +1,24 @@
+{
+ "id": "COURT:r:72507019",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "26-1056",
+ "title": "Sierra Club v. DOE",
+ "filed": "2026-03-16",
+ "url": "",
+ "fetch": [],
+ "meta": {
+  "court": "Court of Appeals for the D.C. Circuit",
+  "query": "\"large load\" AND (tariff OR commission OR FERC)"
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": []
+}

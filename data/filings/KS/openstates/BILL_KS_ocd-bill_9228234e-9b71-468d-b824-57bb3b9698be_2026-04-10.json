@@ -1,0 +1,23 @@
+{
+ "id": "BILL:KS:ocd-bill/9228234e-9b71-468d-b824-57bb3b9698be:2026-04-10",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2728",
+ "title": "Requiring the state corporation commission to establish uniform siting and permitting standards for certain energy facilities and limiting local governmental actions relating thereto",
+ "filed": "2026-04-10",
+ "url": "https://openstates.org/ks/bills/2025-2026/HB2728/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

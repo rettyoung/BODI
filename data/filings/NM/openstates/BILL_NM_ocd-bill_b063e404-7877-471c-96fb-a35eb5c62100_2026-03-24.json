@@ -1,0 +1,23 @@
+{
+ "id": "BILL:NM:ocd-bill/b063e404-7877-471c-96fb-a35eb5c62100:2026-03-24",
+ "jur": "NM",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 286",
+ "title": "ELECTRIC VEHICLE WEIGHT ALLOWANCE",
+ "filed": "2026-03-24",
+ "url": "https://openstates.org/nm/bills/2026/HB286/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "action postponed indefinitely",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

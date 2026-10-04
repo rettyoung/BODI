@@ -1,0 +1,24 @@
+{
+ "id": "BILL:AZ:ocd-bill/3856605f-a992-44d8-9ac8-3d9c2599b604:2026-01-22",
+ "jur": "AZ",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2467",
+ "title": "data centers; incentives repeal; requirements",
+ "filed": "2026-01-22",
+ "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2467/",
+ "fetch": [],
+ "meta": {
+  "session": "57th-2nd-regular",
+  "latest_action": "W/D",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

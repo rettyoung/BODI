@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/28067a55-a303-4e8a-bc5d-613c29239174:2025-03-26T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 199",
+ "title": "Revise law governing all-purpose vehicles, other utility vehicles",
+ "filed": "2025-03-26",
+ "url": "https://openstates.org/oh/bills/136/HB199/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Referred to committee",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

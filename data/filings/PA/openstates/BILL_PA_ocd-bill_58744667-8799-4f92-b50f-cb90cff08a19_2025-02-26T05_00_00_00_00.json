@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/58744667-8799-4f92-b50f-cb90cff08a19:2025-02-26T05:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 336",
+ "title": "An Act providing for solar energy facilities on certain land; imposing powers and duties on the Department of Agriculture; and providing for a tax credit.",
+ "filed": "2025-02-26",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB336/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Agriculture & Rural Affairs",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

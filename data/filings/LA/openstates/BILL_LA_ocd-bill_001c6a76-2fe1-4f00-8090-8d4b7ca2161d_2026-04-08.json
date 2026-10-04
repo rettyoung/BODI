@@ -1,0 +1,23 @@
+{
+ "id": "BILL:LA:ocd-bill/001c6a76-2fe1-4f00-8090-8d4b7ca2161d:2026-04-08",
+ "jur": "LA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HR 89",
+ "title": "COMMENDATIONS: Commends the \"LIFTOff Louisiana\" team for their role in developing a highly successful response to the Federal Aviation Administration's request for proposals for the Electric Vertical Takeoff and Landing and Advanced Air Mobility Aircraft Integration Pilot Program",
+ "filed": "2026-04-08",
+ "url": "https://openstates.org/la/bills/2026/HR89/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Read by title.  Lies over under the rules.",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

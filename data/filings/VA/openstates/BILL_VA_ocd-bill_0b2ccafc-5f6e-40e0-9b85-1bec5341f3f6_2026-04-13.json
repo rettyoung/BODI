@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/0b2ccafc-5f6e-40e0-9b85-1bec5341f3f6:2026-04-13",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 553",
+ "title": "Certain data from water users; water use consumption for domestic, etc., purposes, data centers.",
+ "filed": "2026-04-13",
+ "url": "https://openstates.org/va/bills/2026/SB553/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Approved by Governor-Chapter 896 (effective 7/1/2026)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

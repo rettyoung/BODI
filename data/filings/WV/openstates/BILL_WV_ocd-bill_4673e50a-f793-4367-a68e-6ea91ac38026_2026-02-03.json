@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/4673e50a-f793-4367-a68e-6ea91ac38026:2026-02-03",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 733",
+ "title": "Establishing Energy Freedom and Fairness Act",
+ "filed": "2026-02-03",
+ "url": "https://openstates.org/wv/bills/2026/SB733/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To Energy, Industry, and Mining",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

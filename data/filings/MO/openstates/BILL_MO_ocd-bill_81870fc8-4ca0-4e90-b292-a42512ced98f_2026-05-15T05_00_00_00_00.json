@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/81870fc8-4ca0-4e90-b292-a42512ced98f:2026-05-15T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2528",
+ "title": "Exempts portable solar generation devices from public service commission regulations",
+ "filed": "2026-05-15",
+ "url": "https://openstates.org/mo/bills/2026/HB2528/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Referred: Emerging Issues(H)",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

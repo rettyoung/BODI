@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/6437c933-58a4-464f-af6d-0b2be9fc7d1a:2025-06-23T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1633",
+ "title": "An Act amending Title 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in special vehicles and pedestrians, providing for shared electric low-speed scooters; and imposing penalties.",
+ "filed": "2025-06-23",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB1633/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Transportation",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

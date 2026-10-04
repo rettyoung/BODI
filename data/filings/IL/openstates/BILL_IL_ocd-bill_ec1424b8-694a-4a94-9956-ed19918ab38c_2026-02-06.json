@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/ec1424b8-694a-4a94-9956-ed19918ab38c:2026-02-06",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4692",
+ "title": "MUNI CD-UTILITY INFO",
+ "filed": "2026-02-06",
+ "url": "https://openstates.org/il/bills/104th/HB4692/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Referred to Rules Committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

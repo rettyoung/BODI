@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/4de54aa0-7fe1-4232-b0a6-42d85d11c0d9:2025-03-31",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HR 755",
+ "title": "House Study Committee on Electric Franchise Fees for Unincorporated Areas; create",
+ "filed": "2025-03-31",
+ "url": "https://openstates.org/ga/bills/2025_26/HR755/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "House Second Readers",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

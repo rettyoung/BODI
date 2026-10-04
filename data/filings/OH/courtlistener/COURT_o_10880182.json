@@ -1,0 +1,20 @@
+{
+ "id": "COURT:o:10880182",
+ "jur": "OH",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "2024-1733",
+ "title": "In re OVEC Generational Purchase Rider Audits Required by R.C. 4928.148",
+ "filed": "2026-06-25",
+ "url": "https://www.courtlistener.com/opinion/10880182/in-re-ovec-generational-purchase-rider-audits-required-by-rc-4928148/",
+ "fetch": [],
+ "meta": {
+  "court": "Ohio Supreme Court",
+  "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

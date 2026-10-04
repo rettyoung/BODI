@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/75a41eff-72d0-4034-9392-b23c552e5f5a:2026-03-31",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1393",
+ "title": "Hospitals; allow rural hospitals to join together to allow further purchasing power with third-party payors but retain their independence",
+ "filed": "2026-03-31",
+ "url": "https://openstates.org/ga/bills/2025_26/HB1393/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "Senate Tabled",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

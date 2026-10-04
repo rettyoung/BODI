@@ -1,0 +1,20 @@
+{
+ "id": "COURT:o:10870633",
+ "jur": "TX",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "24-1060",
+ "title": "The State of Texas v. City of McAllen",
+ "filed": "2026-06-05",
+ "url": "https://www.courtlistener.com/opinion/10870633/the-state-of-texas-v-city-of-mcallen/",
+ "fetch": [],
+ "meta": {
+  "court": "Texas Supreme Court",
+  "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

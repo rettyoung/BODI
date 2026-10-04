@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/d2b36dc8-3e7b-4955-afa7-72d7ea12040e:2025-04-04",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 249",
+ "title": "Public utilities; solar power facility agreements; revise provisions",
+ "filed": "2025-04-04",
+ "url": "https://openstates.org/ga/bills/2025_26/HB249/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "House Withdrawn, Recommitted",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

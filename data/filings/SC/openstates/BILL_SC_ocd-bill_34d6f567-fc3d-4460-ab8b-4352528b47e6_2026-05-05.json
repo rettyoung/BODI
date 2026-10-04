@@ -1,0 +1,24 @@
+{
+ "id": "BILL:SC:ocd-bill/34d6f567-fc3d-4460-ab8b-4352528b47e6:2026-05-05",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "S 936",
+ "title": "Nuclear Lifecycle Innovation Campus",
+ "filed": "2026-05-05",
+ "url": "https://openstates.org/sc/bills/2025-2026/S936/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Committee on Labor, Commerce and Industry",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

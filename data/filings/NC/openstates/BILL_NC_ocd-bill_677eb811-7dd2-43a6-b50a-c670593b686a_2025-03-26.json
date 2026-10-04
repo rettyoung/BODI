@@ -1,0 +1,23 @@
+{
+ "id": "BILL:NC:ocd-bill/677eb811-7dd2-43a6-b50a-c670593b686a:2025-03-26",
+ "jur": "NC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 546",
+ "title": "Clean Energy Workforce and Innovation Act.",
+ "filed": "2025-03-26",
+ "url": "https://openstates.org/nc/bills/2025/SB546/",
+ "fetch": [],
+ "meta": {
+  "session": "2025",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

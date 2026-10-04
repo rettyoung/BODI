@@ -1,0 +1,20 @@
+{
+ "id": "COURT:r:73188902",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "26-1437",
+ "title": "Cameron Johnson v. A. Fleming",
+ "filed": "2026-04-14",
+ "url": "",
+ "fetch": [],
+ "meta": {
+  "court": "Court of Appeals for the Fourth Circuit",
+  "query": "\"Retail Energy Advancement League\""
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

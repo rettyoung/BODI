@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/c3f911c6-5306-4dee-badc-aef267eefd27:2026-03-23T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 501",
+ "title": "An Act amending the act of November 30, 2004 (P.L.1672, No.213), known as the Alternative Energy Portfolio Standards Act, further providing for definitions; providing for force majeure; further providing for alternative energy portfolio standards, for portfolio requirements in other states, for heal",
+ "filed": "2026-03-23",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB501/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Laid on the table (Pursuant to House Rule 71)",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

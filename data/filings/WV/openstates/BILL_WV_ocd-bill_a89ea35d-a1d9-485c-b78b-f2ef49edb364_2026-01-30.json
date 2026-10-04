@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/a89ea35d-a1d9-485c-b78b-f2ef49edb364:2026-01-30",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HCR 4",
+ "title": "Requesting the Joint Committee on Technology & Infrastructure to establish a Genesis Working Group to coordinate statewide planning for artificial intelligence, high-performance computing, digital infrastructure, and energy-based economic development",
+ "filed": "2026-01-30",
+ "url": "https://openstates.org/wv/bills/2026/HCR4/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To House Rules",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

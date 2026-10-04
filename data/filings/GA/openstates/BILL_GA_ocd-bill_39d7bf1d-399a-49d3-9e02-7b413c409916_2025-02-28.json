@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/39d7bf1d-399a-49d3-9e02-7b413c409916:2025-02-28",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 653",
+ "title": "Georgia Public Service Commission; rename as Georgia Public Utilities Commission",
+ "filed": "2025-02-28",
+ "url": "https://openstates.org/ga/bills/2025_26/HB653/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "House Second Readers",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

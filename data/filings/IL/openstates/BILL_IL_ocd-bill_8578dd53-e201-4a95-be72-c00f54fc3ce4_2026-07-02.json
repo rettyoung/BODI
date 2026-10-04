@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/8578dd53-e201-4a95-be72-c00f54fc3ce4:2026-07-02",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 75",
+ "title": "UTILITIES-WATER ACQUISITION",
+ "filed": "2026-07-02",
+ "url": "https://openstates.org/il/bills/104th/SB75/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Senate Floor Amendment No. 2 Pursuant to Senate Rule 3-9(b) / Referred to Assignments",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

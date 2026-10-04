@@ -1,0 +1,24 @@
+{
+ "id": "BILL:AL:ocd-bill/d8fa3672-7dd3-4829-9914-f4bdeb639510:2026-04-08T04:00:00+00:00",
+ "jur": "AL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SJR 88",
+ "title": "Expressing support for the United States Department of Energy's Nuclear Lifecycle Innovation endeavor",
+ "filed": "2026-04-08",
+ "url": "https://openstates.org/al/bills/2026rs/SJR88/",
+ "fetch": [],
+ "meta": {
+  "session": "2026rs",
+  "latest_action": "Received in the Senate and referred to the Senate committee on RULES",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

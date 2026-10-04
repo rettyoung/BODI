@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/aaad1779-85ba-4ff5-9a4a-61632470973b:2026-01-27",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 607",
+ "title": "Aggregate air pollution; Department of Environmental Quality to study, data center generators.",
+ "filed": "2026-01-27",
+ "url": "https://openstates.org/va/bills/2026/HB607/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Continued to next session in Rules (Voice Vote)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

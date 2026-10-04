@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/8703c5cd-d703-40f2-a760-82337fbe1333:2026-03-04",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 981",
+ "title": "Imposing one-year moratorium on approval of certain public utility rate increases",
+ "filed": "2026-03-04",
+ "url": "https://openstates.org/wv/bills/2026/SB981/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Removed from calendar by Rules Committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

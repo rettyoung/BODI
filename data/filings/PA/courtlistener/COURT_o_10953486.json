@@ -1,0 +1,20 @@
+{
+ "id": "COURT:o:10953486",
+ "jur": "PA",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "1232 C.D. 2024",
+ "title": "Williams Companies, Inc. v. PA PUC",
+ "filed": "2026-08-19",
+ "url": "https://www.courtlistener.com/opinion/10953486/williams-companies-inc-v-pa-puc/",
+ "fetch": [],
+ "meta": {
+  "court": "Commonwealth Court of Pennsylvania",
+  "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

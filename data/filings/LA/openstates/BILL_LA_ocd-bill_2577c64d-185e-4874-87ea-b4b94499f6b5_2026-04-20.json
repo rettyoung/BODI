@@ -1,0 +1,23 @@
+{
+ "id": "BILL:LA:ocd-bill/2577c64d-185e-4874-87ea-b4b94499f6b5:2026-04-20",
+ "jur": "LA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SCR 25",
+ "title": "COMMENDATIONS: Commends and congratulates the LIFTOff Louisiana Team in developing a highly successful response to the Federal Aviation Administration's request for proposals for the Electric Vertical Takeoff and Landing and Advanced Air Mobility Aircraft Integration Pilot Program.",
+ "filed": "2026-04-20",
+ "url": "https://openstates.org/la/bills/2026/SCR25/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Introduced in the Senate; read by title.   Rules suspended.  Read second time by title and adopted by a vote of 33 yeas and 0 nays.  Ordered sent to the House.",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,26 @@
+{
+ "id": "BILL:KS:ocd-bill/adeb8793-d1b6-409c-aec4-81484e65b34a:2026-04-10",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 531",
+ "title": "Prohibiting the development or operation of any new large load data center in a county that has had a drought emergency declared for such county pursuant to the Kansas emergency management act within the preceding three years.",
+ "filed": "2026-04-10",
+ "url": "https://openstates.org/ks/bills/2025-2026/SB531/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "electric service agreement",
+  "emergency",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/3879e6ab-f98e-422a-b8db-5bb52c112296:2025-04-11",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3349",
+ "title": "POWERING UP ILLINOIS ACT",
+ "filed": "2025-04-11",
+ "url": "https://openstates.org/il/bills/104th/HB3349/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "House Floor Amendment No. 1 Rule 19(c) / Re-referred to Rules Committee",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

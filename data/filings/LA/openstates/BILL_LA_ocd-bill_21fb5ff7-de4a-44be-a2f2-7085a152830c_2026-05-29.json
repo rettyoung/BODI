@@ -1,0 +1,23 @@
+{
+ "id": "BILL:LA:ocd-bill/21fb5ff7-de4a-44be-a2f2-7085a152830c:2026-05-29",
+ "jur": "LA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 259",
+ "title": "UTILITIES: Provides relative to the repair of damaged infrastructure from certain excavators or demolishers (RE1 NO IMPACT   See Note)",
+ "filed": "2026-05-29",
+ "url": "https://openstates.org/la/bills/2026/HB259/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Prefiled.",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

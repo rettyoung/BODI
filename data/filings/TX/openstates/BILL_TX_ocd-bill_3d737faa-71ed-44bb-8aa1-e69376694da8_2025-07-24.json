@@ -1,0 +1,24 @@
+{
+ "id": "BILL:TX:ocd-bill/3d737faa-71ed-44bb-8aa1-e69376694da8:2025-07-24",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 199",
+ "title": "Relating to the interconnection of the ERCOT power grid to grids outside the ERCOT power region.",
+ "filed": "2025-07-24",
+ "url": "https://openstates.org/tx/bills/891/HB199/",
+ "fetch": [],
+ "meta": {
+  "session": "891",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

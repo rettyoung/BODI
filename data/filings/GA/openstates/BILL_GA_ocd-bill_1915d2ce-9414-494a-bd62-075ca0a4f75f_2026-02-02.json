@@ -1,0 +1,24 @@
+{
+ "id": "BILL:GA:ocd-bill/1915d2ce-9414-494a-bd62-075ca0a4f75f:2026-02-02",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1059",
+ "title": "Data Center Impact Assessment and Development Moratorium Act of 2026; enact",
+ "filed": "2026-02-02",
+ "url": "https://openstates.org/ga/bills/2025_26/HB1059/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "House Second Readers",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

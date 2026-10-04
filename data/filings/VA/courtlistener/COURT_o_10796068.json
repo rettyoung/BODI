@@ -1,0 +1,22 @@
+{
+ "id": "COURT:o:10796068",
+ "jur": "VA",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "Combined case with Record No. 250492, 250494, 250495",
+ "title": "Loudoun County v. SCC",
+ "filed": "2026-02-19",
+ "url": "https://www.courtlistener.com/opinion/10796068/loudoun-county-v-scc/",
+ "fetch": [],
+ "meta": {
+  "court": "Supreme Court of Virginia",
+  "query": "\"data center\" AND (\"public service commission\" OR \"corporation commission\" OR \"public utility commission\")"
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

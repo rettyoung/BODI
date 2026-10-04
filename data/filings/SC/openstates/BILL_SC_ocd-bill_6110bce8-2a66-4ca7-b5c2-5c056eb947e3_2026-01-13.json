@@ -1,0 +1,23 @@
+{
+ "id": "BILL:SC:ocd-bill/6110bce8-2a66-4ca7-b5c2-5c056eb947e3:2026-01-13",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "S 724",
+ "title": "Commercial Data Center Water Usage Report",
+ "filed": "2026-01-13",
+ "url": "https://openstates.org/sc/bills/2025-2026/S724/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Committee on Judiciary",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

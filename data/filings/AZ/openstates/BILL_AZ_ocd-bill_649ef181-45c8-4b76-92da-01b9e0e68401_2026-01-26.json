@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AZ:ocd-bill/649ef181-45c8-4b76-92da-01b9e0e68401:2026-01-26",
+ "jur": "AZ",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2852",
+ "title": "mobile homes; utilities; fraud; hearings",
+ "filed": "2026-01-26",
+ "url": "https://openstates.org/az/bills/57th-2nd-regular/HB2852/",
+ "fetch": [],
+ "meta": {
+  "session": "57th-2nd-regular",
+  "latest_action": "House Second Reading",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

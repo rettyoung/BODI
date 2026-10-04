@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/320800b4-72e4-4dc6-99fd-e4ceaaa08353:2025-02-07",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 2375",
+ "title": "ELECTRIC VEH-EV DEFINITION",
+ "filed": "2025-02-07",
+ "url": "https://openstates.org/il/bills/104th/SB2375/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Referred to Assignments",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

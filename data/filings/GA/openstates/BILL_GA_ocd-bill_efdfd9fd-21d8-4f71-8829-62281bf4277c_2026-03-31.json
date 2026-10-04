@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/efdfd9fd-21d8-4f71-8829-62281bf4277c:2026-03-31",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SR 482",
+ "title": "Georgia Public Service Commission (PSC); create a study committee; urge",
+ "filed": "2026-03-31",
+ "url": "https://openstates.org/ga/bills/2025_26/SR482/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "Senate Passed/Adopted By Substitute",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:SC:ocd-bill/4f8a92ce-a575-4418-957e-550f75506313:2026-01-20",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "S 256",
+ "title": "Commercial Property Assessed Clean Energy Programs (C-PACE)",
+ "filed": "2026-01-20",
+ "url": "https://openstates.org/sc/bills/2025-2026/S256/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Roll call Ayes-17  Nays-27",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

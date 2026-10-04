@@ -1,0 +1,24 @@
+{
+ "id": "BILL:KS:ocd-bill/6964a2b1-f924-4746-acdc-a9eb12ec62b9:2026-04-10",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 400",
+ "title": "Requiring data centers to use closed-loop cooling systems to mitigate water consumption.",
+ "filed": "2026-04-10",
+ "url": "https://openstates.org/ks/bills/2025-2026/SB400/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

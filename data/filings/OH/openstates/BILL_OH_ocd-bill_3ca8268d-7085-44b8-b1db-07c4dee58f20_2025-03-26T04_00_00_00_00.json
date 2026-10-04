@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/3ca8268d-7085-44b8-b1db-07c4dee58f20:2025-03-26T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 2",
+ "title": "Increase power generation; improve Ohio’s electric grid",
+ "filed": "2025-03-26",
+ "url": "https://openstates.org/oh/bills/136/SB2/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Referred to committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

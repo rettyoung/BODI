@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/1f4c11a8-36e5-4f97-8917-39cc0def60c9:2025-05-12T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 504",
+ "title": "An Act providing for community energy facilities; imposing duties on the Pennsylvania Public Utility Commission, electric distribution companies and subscriber organizations; and providing for prevailing wage and labor requirements.",
+ "filed": "2025-05-12",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB504/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Consumer Protection & Professional Licensure",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

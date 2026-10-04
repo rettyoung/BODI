@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/5efba7c8-ed9c-4cb0-adc3-9be05099a918:2026-02-16",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 5620",
+ "title": "To restore local control in the decision making process in regard to data centers",
+ "filed": "2026-02-16",
+ "url": "https://openstates.org/wv/bills/2026/HB5620/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To House Judiciary",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

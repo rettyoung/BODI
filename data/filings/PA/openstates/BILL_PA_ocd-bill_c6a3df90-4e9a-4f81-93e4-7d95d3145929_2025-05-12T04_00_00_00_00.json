@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/c6a3df90-4e9a-4f81-93e4-7d95d3145929:2025-05-12T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 503",
+ "title": "An Act establishing the Pennsylvania Climate Emissions Reduction Program; imposing powers and duties on the Environmental Quality Board, the Pennsylvania Public Utility Commission and the Department of Environmental Protection; and establishing the Consumer Protection Account, the Pennsylvania Energ",
+ "filed": "2025-05-12",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB503/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Environmental Resources & Energy",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

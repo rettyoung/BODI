@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/9334c0a9-78b6-496a-b669-c04dcac85454:2026-05-15T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2239",
+ "title": "Creates the Artificial Intelligence Data Center Environmental Accountability Act",
+ "filed": "2026-05-15",
+ "url": "https://openstates.org/mo/bills/2026/HB2239/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Referred: Emerging Issues(H)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

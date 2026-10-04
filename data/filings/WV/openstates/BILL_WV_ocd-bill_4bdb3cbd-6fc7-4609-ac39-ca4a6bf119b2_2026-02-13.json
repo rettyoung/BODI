@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/4bdb3cbd-6fc7-4609-ac39-ca4a6bf119b2:2026-02-13",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 938",
+ "title": "Clarifying powers, duties, and responsibilities of certain public health officials",
+ "filed": "2026-02-13",
+ "url": "https://openstates.org/wv/bills/2026/SB938/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To Health and Human Resources",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

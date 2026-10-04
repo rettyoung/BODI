@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AL:ocd-bill/1b7179e7-4043-4dcc-bb67-df9343c521cf:2026-03-17T04:00:00+00:00",
+ "jur": "AL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 163",
+ "title": "Property Insurance and Energy Reduction Act; allow financing of projects through private funding",
+ "filed": "2026-03-17",
+ "url": "https://openstates.org/al/bills/2026rs/HB163/",
+ "fetch": [],
+ "meta": {
+  "session": "2026rs",
+  "latest_action": "Read for the first time and referred to the House Committee on County and Municipal Government",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

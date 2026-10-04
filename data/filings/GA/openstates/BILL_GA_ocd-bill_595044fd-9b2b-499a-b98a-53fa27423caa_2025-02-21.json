@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/595044fd-9b2b-499a-b98a-53fa27423caa:2025-02-21",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 559",
+ "title": "Sales and use tax; exemption for certain high-technology data center equipment; revise sunset date",
+ "filed": "2025-02-21",
+ "url": "https://openstates.org/ga/bills/2025_26/HB559/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "House Second Readers",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

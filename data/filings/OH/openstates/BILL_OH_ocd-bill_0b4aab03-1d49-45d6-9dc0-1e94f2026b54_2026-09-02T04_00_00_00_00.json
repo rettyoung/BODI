@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/0b4aab03-1d49-45d6-9dc0-1e94f2026b54:2026-09-02T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 999",
+ "title": "Prohibit property tax exemptions for data centers",
+ "filed": "2026-09-02",
+ "url": "https://openstates.org/oh/bills/136/HB999/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Introduced",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

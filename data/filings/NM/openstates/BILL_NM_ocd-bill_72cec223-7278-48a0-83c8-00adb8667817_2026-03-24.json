@@ -1,0 +1,24 @@
+{
+ "id": "BILL:NM:ocd-bill/72cec223-7278-48a0-83c8-00adb8667817:2026-03-24",
+ "jur": "NM",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 78",
+ "title": "NUCLEAR ENERGY AS RENEWABLE ENERGY",
+ "filed": "2026-03-24",
+ "url": "https://openstates.org/nm/bills/2026/SB78/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "action postponed indefinitely",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

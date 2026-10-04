@@ -1,0 +1,24 @@
+{
+ "id": "BILL:OH:ocd-bill/d1893355-3987-4bc0-8c7f-9ced2452a262:2026-05-13T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 862",
+ "title": "Permit electric distribution utility to operate nuclear facility",
+ "filed": "2026-05-13",
+ "url": "https://openstates.org/oh/bills/136/HB862/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Referred to committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

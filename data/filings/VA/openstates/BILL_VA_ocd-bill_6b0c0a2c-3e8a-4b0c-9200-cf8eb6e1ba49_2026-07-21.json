@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/6b0c0a2c-3e8a-4b0c-9200-cf8eb6e1ba49:2026-07-21",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 521",
+ "title": "Data centers; rainwater harvesting systems.",
+ "filed": "2026-07-21",
+ "url": "https://openstates.org/va/bills/2027/SB521/",
+ "fetch": [],
+ "meta": {
+  "session": "2027",
+  "latest_action": "Continued from last session",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AZ:ocd-bill/1a07378e-3244-482d-9a63-1062802a60e0:2026-01-27",
+ "jur": "AZ",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1380",
+ "title": "large load customers; energy costs",
+ "filed": "2026-01-27",
+ "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1380/",
+ "fetch": [],
+ "meta": {
+  "session": "57th-2nd-regular",
+  "latest_action": "Senate Second Reading",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

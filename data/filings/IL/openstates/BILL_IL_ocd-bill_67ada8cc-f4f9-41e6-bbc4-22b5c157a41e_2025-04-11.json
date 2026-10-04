@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/67ada8cc-f4f9-41e6-bbc4-22b5c157a41e:2025-04-11",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 2310",
+ "title": "NET ELECTRICITY METERING",
+ "filed": "2025-04-11",
+ "url": "https://openstates.org/il/bills/104th/SB2310/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Rule 3-9(a) / Re-referred to Assignments",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

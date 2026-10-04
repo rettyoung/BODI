@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/98ed3bcf-a175-4dee-8ad9-b154d972184e:2026-05-15T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3455",
+ "title": "Repeals and modifies certain provisions relating to the regulation of public utilities",
+ "filed": "2026-05-15",
+ "url": "https://openstates.org/mo/bills/2026/HB3455/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Referred: Emerging Issues(H)",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/2b8edaf1-a34d-4ec2-9a85-1dd5bb0a311d:2026-05-12",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 998",
+ "title": "Public utilities; authorize certain Tier 2 local exchange companies to elect to become subject to rate of return regulation",
+ "filed": "2026-05-12",
+ "url": "https://openstates.org/ga/bills/2025_26/HB998/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "Act 636",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

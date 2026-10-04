@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OK:ocd-bill/25e00516-4990-4f02-aecf-4dae9c25ff51:2026-02-03",
+ "jur": "OK",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 2183",
+ "title": "Wind energy; modifying provisions of the Oklahoma Wind Energy Development Act. Effective date.",
+ "filed": "2026-02-03",
+ "url": "https://openstates.org/ok/bills/2026/SB2183/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Second Reading referred to Energy",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

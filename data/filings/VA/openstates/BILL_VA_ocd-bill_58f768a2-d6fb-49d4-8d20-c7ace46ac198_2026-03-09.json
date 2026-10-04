@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/58f768a2-d6fb-49d4-8d20-c7ace46ac198:2026-03-09",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 591",
+ "title": "Data centers; policy of the Commonwealth.",
+ "filed": "2026-03-09",
+ "url": "https://openstates.org/va/bills/2026/HB591/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Continued to next session in Finance and Appropriations (14-Y 0-N)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

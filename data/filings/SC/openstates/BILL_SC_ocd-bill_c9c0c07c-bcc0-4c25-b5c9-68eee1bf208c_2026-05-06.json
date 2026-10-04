@@ -1,0 +1,24 @@
+{
+ "id": "BILL:SC:ocd-bill/c9c0c07c-bcc0-4c25-b5c9-68eee1bf208c:2026-05-06",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "S 867",
+ "title": "Data Center Development",
+ "filed": "2026-05-06",
+ "url": "https://openstates.org/sc/bills/2025-2026/S867/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Scrivener's error corrected",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

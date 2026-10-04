@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/147a0761-b3a8-4d0f-a467-ff8b8f6f087c:2026-03-25T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 383",
+ "title": "Regards portable solar generation devices",
+ "filed": "2026-03-25",
+ "url": "https://openstates.org/oh/bills/136/SB383/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Referred to committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

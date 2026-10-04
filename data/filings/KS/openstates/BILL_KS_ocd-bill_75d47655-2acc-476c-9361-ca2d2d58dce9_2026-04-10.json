@@ -1,0 +1,23 @@
+{
+ "id": "BILL:KS:ocd-bill/75d47655-2acc-476c-9361-ca2d2d58dce9:2026-04-10",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 81",
+ "title": "Prohibiting large facilities receiving certain tariffs or failing to meet workforce and electric demand requirements from qualifying for economic development electric rates.",
+ "filed": "2026-04-10",
+ "url": "https://openstates.org/ks/bills/2025-2026/SB81/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

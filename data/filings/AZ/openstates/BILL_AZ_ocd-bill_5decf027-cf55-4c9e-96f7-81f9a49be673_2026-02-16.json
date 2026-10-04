@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AZ:ocd-bill/5decf027-cf55-4c9e-96f7-81f9a49be673:2026-02-16",
+ "jur": "AZ",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4097",
+ "title": "large customer energy supply",
+ "filed": "2026-02-16",
+ "url": "https://openstates.org/az/bills/57th-2nd-regular/HB4097/",
+ "fetch": [],
+ "meta": {
+  "session": "57th-2nd-regular",
+  "latest_action": "House Second Reading",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

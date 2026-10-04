@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/62c30331-27ad-40a4-b662-317f6ba356ff:2025-02-04T05:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 154",
+ "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in Public Utility Code, providing for responsible utility customer protection.",
+ "filed": "2025-02-04",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB154/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Consumer Protection, Technology & Utilities",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:KS:ocd-bill/04bc9ade-8e12-4e27-83fd-baaf513658d6:2026-04-10",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2483",
+ "title": "Enacting the transparency and reform of utility expenditures act.",
+ "filed": "2026-04-10",
+ "url": "https://openstates.org/ks/bills/2025-2026/HB2483/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

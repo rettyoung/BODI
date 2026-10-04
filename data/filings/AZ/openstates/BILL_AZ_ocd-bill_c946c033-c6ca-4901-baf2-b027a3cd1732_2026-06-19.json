@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AZ:ocd-bill/c946c033-c6ca-4901-baf2-b027a3cd1732:2026-06-19",
+ "jur": "AZ",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1419",
+ "title": "solar energy; inspection; contractors",
+ "filed": "2026-06-19",
+ "url": "https://openstates.org/az/bills/57th-2nd-regular/SB1419/",
+ "fetch": [],
+ "meta": {
+  "session": "57th-2nd-regular",
+  "latest_action": "Signed by Governor",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

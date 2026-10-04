@@ -1,0 +1,24 @@
+{
+ "id": "BILL:OK:ocd-bill/549cf451-a2f9-48d7-bc81-1985a587eccb:2026-04-09",
+ "jur": "OK",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3175",
+ "title": "Nuclear energy; defining terms; creating the Oklahoma Advanced Nuclear Energy Office; effective date.",
+ "filed": "2026-04-09",
+ "url": "https://openstates.org/ok/bills/2026/HB3175/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Referred to Appropriations",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

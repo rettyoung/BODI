@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/a3a0631f-81db-45be-be99-50affa6ef19f:2026-06-29",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 4983",
+ "title": "Authorizing the Department of Commerce to promulgate a legislative rule relating to certification of a microgrid district or certification as a high impact data center",
+ "filed": "2026-06-29",
+ "url": "https://openstates.org/wv/bills/2026/HB4983/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Chapter 221, Acts, Regular Session, 2026",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

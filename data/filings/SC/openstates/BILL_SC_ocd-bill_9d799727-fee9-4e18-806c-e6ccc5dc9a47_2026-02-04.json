@@ -1,0 +1,23 @@
+{
+ "id": "BILL:SC:ocd-bill/9d799727-fee9-4e18-806c-e6ccc5dc9a47:2026-02-04",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "S 878",
+ "title": "Third-Party Electric Supplier",
+ "filed": "2026-02-04",
+ "url": "https://openstates.org/sc/bills/2025-2026/S878/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Scrivener's error corrected",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

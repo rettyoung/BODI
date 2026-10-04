@@ -1,0 +1,24 @@
+{
+ "id": "BILL:IL:ocd-bill/16a8f60c-9661-44c7-8d01-97702b383336:2026-05-30",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 4016",
+ "title": "HYPERSCALE DATA CENTERS",
+ "filed": "2026-05-30",
+ "url": "https://openstates.org/il/bills/104th/SB4016/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Added as Co-Sponsor Sen. Karina Villa",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": []
+}

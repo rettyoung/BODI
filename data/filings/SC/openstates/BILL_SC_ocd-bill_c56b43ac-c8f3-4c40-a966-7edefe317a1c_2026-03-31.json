@@ -1,0 +1,23 @@
+{
+ "id": "BILL:SC:ocd-bill/c56b43ac-c8f3-4c40-a966-7edefe317a1c:2026-03-31",
+ "jur": "SC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "H 5286",
+ "title": "Data Center Moratorium",
+ "filed": "2026-03-31",
+ "url": "https://openstates.org/sc/bills/2025-2026/H5286/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Member(s) request name removed as sponsor: Gilliam",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/193a7b70-a09e-4f25-8c94-95271a4efced:2026-07-28",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1201",
+ "title": "COUNTIES-WIND & SOLAR ENERGY",
+ "filed": "2026-07-28",
+ "url": "https://openstates.org/il/bills/104th/HB1201/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Added Co-Sponsor Rep. Ryan Spain",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

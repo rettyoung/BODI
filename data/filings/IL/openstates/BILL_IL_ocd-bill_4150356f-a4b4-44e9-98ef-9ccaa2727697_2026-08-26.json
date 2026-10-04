@@ -1,0 +1,24 @@
+{
+ "id": "BILL:IL:ocd-bill/4150356f-a4b4-44e9-98ef-9ccaa2727697:2026-08-26",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 5513",
+ "title": "HYPERSCALE DATA CENTERS",
+ "filed": "2026-08-26",
+ "url": "https://openstates.org/il/bills/104th/HB5513/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Added Co-Sponsor Rep. Suzanne M. Ness",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": []
+}

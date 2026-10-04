@@ -1,0 +1,24 @@
+{
+ "id": "BILL:OH:ocd-bill/ab0f1c1d-2bd6-421e-be0d-8ba3eff55936:2026-02-25T05:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 710",
+ "title": "Prohibit public support, limit construction of, new data centers",
+ "filed": "2026-02-25",
+ "url": "https://openstates.org/oh/bills/136/HB710/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Referred to committee",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

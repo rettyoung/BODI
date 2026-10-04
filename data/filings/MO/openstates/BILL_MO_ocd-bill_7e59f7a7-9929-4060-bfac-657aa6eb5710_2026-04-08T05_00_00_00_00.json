@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/7e59f7a7-9929-4060-bfac-657aa6eb5710:2026-04-08T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2207",
+ "title": "Creates provisions for electrical choice and competition",
+ "filed": "2026-04-08",
+ "url": "https://openstates.org/mo/bills/2026/HB2207/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Motion to Do Pass Failed (H)",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

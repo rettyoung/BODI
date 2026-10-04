@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/4d67aeb6-f7cd-4089-8cf9-ca98aeac0489:2025-06-02",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3312",
+ "title": "UTILITY DATA ACCESS ACT",
+ "filed": "2025-06-02",
+ "url": "https://openstates.org/il/bills/104th/HB3312/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Rule 3-9(a) / Re-referred to Assignments",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

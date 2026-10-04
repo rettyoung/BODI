@@ -1,0 +1,24 @@
+{
+ "id": "BILL:VA:ocd-bill/3fca8151-ea70-47b5-bf40-5ead5c626249:2026-07-21",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 336",
+ "title": "Tier 2 emergency generators; SCC shall evaluate impact of requiring data centers to limit use, etc.",
+ "filed": "2026-07-21",
+ "url": "https://openstates.org/va/bills/2027/SB336/",
+ "fetch": [],
+ "meta": {
+  "session": "2027",
+  "latest_action": "Continued from last session",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center",
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": []
+}

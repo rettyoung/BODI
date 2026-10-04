@@ -1,0 +1,23 @@
+{
+ "id": "BILL:KS:ocd-bill/a9701251-5109-4192-ad8c-80f5632ec59f:2026-04-10",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2664",
+ "title": "Establishing the private energy campus and industrial host-site electric generation act to authorize the provision of energy services to private enterprises located on a private energy campus.",
+ "filed": "2026-04-10",
+ "url": "https://openstates.org/ks/bills/2025-2026/HB2664/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

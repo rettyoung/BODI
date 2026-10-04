@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/ca22fa89-4219-43e5-a2d6-cc51f30a1605:2026-05-07T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1750",
+ "title": "Creates provisions relating to the regulation of large load electric customers",
+ "filed": "2026-05-07",
+ "url": "https://openstates.org/mo/bills/2026/SB1750/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "S First Read",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,20 @@
+{
+ "id": "COURT:o:10881755",
+ "jur": "AZ",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "CV-24-0295-PR",
+ "title": "CENTER FOR AZ v. AZ SECRETARY OF STATE",
+ "filed": "2026-06-29",
+ "url": "https://www.courtlistener.com/opinion/10881755/center-for-az-v-az-secretary-of-state/",
+ "fetch": [],
+ "meta": {
+  "court": "Arizona Supreme Court",
+  "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

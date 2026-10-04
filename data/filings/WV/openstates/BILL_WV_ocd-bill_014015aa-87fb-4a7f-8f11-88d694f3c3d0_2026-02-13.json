@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/014015aa-87fb-4a7f-8f11-88d694f3c3d0:2026-02-13",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 942",
+ "title": "Creating Advanced Baseload Energy Development Act",
+ "filed": "2026-02-13",
+ "url": "https://openstates.org/wv/bills/2026/SB942/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To Energy, Industry, and Mining",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

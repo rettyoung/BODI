@@ -1,0 +1,23 @@
+{
+ "id": "BILL:KS:ocd-bill/59f0a6f8-4cec-4b02-ae9e-1ea45b0c8a10:2026-04-09",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2626",
+ "title": "Directing the capitol preservation committee to develop and approve plans for a registry kiosk of Kansas military forces killed in action or who died of wounds incurred during active duty to be placed within the state capitol, enacting the safeguarding American veteran empowerment (SAVE) act to limi",
+ "filed": "2026-04-09",
+ "url": "https://openstates.org/ks/bills/2025-2026/HB2626/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

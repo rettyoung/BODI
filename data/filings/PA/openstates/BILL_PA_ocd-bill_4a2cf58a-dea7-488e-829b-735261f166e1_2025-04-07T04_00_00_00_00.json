@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/4a2cf58a-dea7-488e-829b-735261f166e1:2025-04-07T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1164",
+ "title": "An Act authorizing the Department of Environmental Protection to conduct a public comment process on and submit to the General Assembly a measure or action intended to abate, control or limit carbon dioxide emissions by imposing a revenue-generating tax or fee on carbon dioxide emissions; and abroga",
+ "filed": "2025-04-07",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB1164/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Environmental & Natural Resource Protection",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

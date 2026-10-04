@@ -1,0 +1,23 @@
+{
+ "id": "BILL:KS:ocd-bill/d66b8e30-9876-4f3d-bd88-ca45fe21bdf9:2026-04-10",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 439",
+ "title": "Enacting the utility railroad crossing act and establishing a process and limitations for utilities to interact with railroad right-of-way.",
+ "filed": "2026-04-10",
+ "url": "https://openstates.org/ks/bills/2025-2026/SB439/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

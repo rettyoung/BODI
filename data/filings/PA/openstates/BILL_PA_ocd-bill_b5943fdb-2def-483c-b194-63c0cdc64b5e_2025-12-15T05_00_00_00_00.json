@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/b5943fdb-2def-483c-b194-63c0cdc64b5e:2025-12-15T05:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1114",
+ "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in restructuring of electric utility industry, providing for large load customers; and making editorial changes.",
+ "filed": "2025-12-15",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1114/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Consumer Protection & Professional Licensure",
+  "query": "large load"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

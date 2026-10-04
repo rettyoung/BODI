@@ -1,0 +1,22 @@
+{
+ "id": "COURT:o:10733855",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "15-25-00104-CV",
+ "title": "Public Utility Commission of Texas and North Fort Bend Water Authority v. City of Fulshear, Texas",
+ "filed": "2025-11-07",
+ "url": "https://www.courtlistener.com/opinion/10733855/public-utility-commission-of-texas-and-north-fort-bend-water-authority-v/",
+ "fetch": [],
+ "meta": {
+  "court": "Texas Court of Appeals, 15th District",
+  "query": "\"data center\" AND (\"public service commission\" OR \"corporation commission\" OR \"public utility commission\")"
+ },
+ "collected_at": "2026-10-04T23:31:30Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

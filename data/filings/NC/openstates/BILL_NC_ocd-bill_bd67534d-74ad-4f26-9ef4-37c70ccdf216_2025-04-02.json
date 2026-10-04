@@ -1,0 +1,23 @@
+{
+ "id": "BILL:NC:ocd-bill/bd67534d-74ad-4f26-9ef4-37c70ccdf216:2025-04-02",
+ "jur": "NC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 638",
+ "title": "Equitable Escalation of Electricity Demand Act.",
+ "filed": "2025-04-02",
+ "url": "https://openstates.org/nc/bills/2025/HB638/",
+ "fetch": [],
+ "meta": {
+  "session": "2025",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/c12ccbc5-1546-4e89-ba04-7288b1cd26ee:2026-04-13",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 153",
+ "title": "Data centers; site assessment, sound profile of the high energy use facility.",
+ "filed": "2026-04-13",
+ "url": "https://openstates.org/va/bills/2026/HB153/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "Acts of Assembly Chapter text (CHAP0567)",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

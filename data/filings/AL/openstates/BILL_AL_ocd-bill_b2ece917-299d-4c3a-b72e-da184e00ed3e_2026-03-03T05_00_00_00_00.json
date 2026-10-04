@@ -1,0 +1,23 @@
+{
+ "id": "BILL:AL:ocd-bill/b2ece917-299d-4c3a-b72e-da184e00ed3e:2026-03-03T05:00:00+00:00",
+ "jur": "AL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 539",
+ "title": "Abatements; local governments, power to abate revised",
+ "filed": "2026-03-03",
+ "url": "https://openstates.org/al/bills/2026rs/HB539/",
+ "fetch": [],
+ "meta": {
+  "session": "2026rs",
+  "latest_action": "Read for the first time and referred to the House Committee on State Government",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

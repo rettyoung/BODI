@@ -1,0 +1,23 @@
+{
+ "id": "BILL:KS:ocd-bill/09aa6677-d827-4c1d-a480-aef62c4d5cd1:2026-04-10",
+ "jur": "KS",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2588",
+ "title": "Providing for statewide electrician licensing by the state fire marshal.",
+ "filed": "2026-04-10",
+ "url": "https://openstates.org/ks/bills/2025-2026/HB2588/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Introduced",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

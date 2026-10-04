@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/ca63bd07-1a38-4705-ac4f-61643c8001fe:2025-09-05T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 991",
+ "title": "An Act providing for a permitting process for data center siting; and imposing powers and duties on the Department of Environmental Protection.",
+ "filed": "2025-09-05",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB991/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Environmental Resources & Energy",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/2c46168a-2237-402d-8d18-093bab774034:2025-02-18",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 3381",
+ "title": "SCH CD-ENERGY CONSERVATION",
+ "filed": "2025-02-18",
+ "url": "https://openstates.org/il/bills/104th/HB3381/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Referred to Rules Committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

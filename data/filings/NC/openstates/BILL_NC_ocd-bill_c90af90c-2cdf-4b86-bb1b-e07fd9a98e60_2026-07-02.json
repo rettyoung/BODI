@@ -1,0 +1,23 @@
+{
+ "id": "BILL:NC:ocd-bill/c90af90c-2cdf-4b86-bb1b-e07fd9a98e60:2026-07-02",
+ "jur": "NC",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1076",
+ "title": "Rocky Mount/Louisburg Utility Rev./Advisory.",
+ "filed": "2026-07-02",
+ "url": "https://openstates.org/nc/bills/2025/SB1076/",
+ "fetch": [],
+ "meta": {
+  "session": "2025",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-04T23:28:41Z",
+ "run_id": "2026-10-04-2316",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}
