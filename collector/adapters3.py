@@ -326,9 +326,22 @@ def _ercot_api(ctx):
             ctx.record("ercot:public_api", "error", "token request returned no id_token")
             return []
         hdr = {"Authorization": f"Bearer {tok}", "Ocp-Apim-Subscription-Key": key}
-        prods = ctx.http.get("https://api.ercot.com/api/public-reports", headers=hdr).json()
-        prods = prods.get("_embedded", {}).get("products", prods.get("products", [])) if isinstance(prods, dict) else prods
-        hits = [p for p in prods if re.search(r"large.?load", json.dumps(p), re.I)]
+        # the product catalogue is paged: follow _links.next, else ?page=N, until no new products appear
+        prods, seen_ids, url = [], set(), "https://api.ercot.com/api/public-reports"
+        for page in range(1, 30):
+            j = ctx.http.get(url, headers=hdr).json()
+            batch = j.get("_embedded", {}).get("products", j.get("products", [])) if isinstance(j, dict) else j
+            fresh = [p for p in batch or [] if p.get("emilId") not in seen_ids]
+            if not fresh:
+                break
+            prods += fresh
+            seen_ids |= {p.get("emilId") for p in fresh}
+            nxt = ((j.get("_links") or {}).get("next") or {}).get("href") if isinstance(j, dict) else None
+            url = nxt if nxt else f"https://api.ercot.com/api/public-reports?page={page + 1}"
+        hits = [p for p in prods if re.search(r"large.?load|\bLLIS?\b|large load interconnection",
+                                              f"{p.get('name')} {p.get('description')}", re.I)]
+        ctx.state["ercot_api_products_seen"] = len(prods)
+        ctx.state["ercot_api_large_load_products"] = [f"{p.get('emilId')}: {p.get('name')}" for p in hits][:20]
         for p in hits[:4]:
             emil = p.get("emilId") or p.get("emil_id")
             arch = ctx.http.get(f"https://api.ercot.com/api/public-reports/archive/{emil}?size=3", headers=hdr).json()
@@ -340,7 +353,7 @@ def _ercot_api(ctx):
                               "url": f"https://www.ercot.com/mp/data-products/data-product-details?id={emil}",
                               "fetch": [], "meta": {"rto": "ERCOT", "emil": emil, "api_doc": did, "postprocess": "ercot_ll_table",
                                                      "api_download": f"https://api.ercot.com/api/public-reports/archive/{emil}?download={did}"}})
-        ctx.record("ercot:public_api", "ok", f"{len(hits)} large-load products")
+        ctx.record("ercot:public_api", "ok", f"{len(hits)} large-load products among {len(prods)} in the catalogue")
     except Exception as e:
         ctx.record("ercot:public_api", "error", repr(e)[:200])
     return items
