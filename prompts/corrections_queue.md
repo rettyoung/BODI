@@ -121,11 +121,12 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   (9 county/city clients, data-center items), ERCOT large-load materials (meeting decks and monthly operational
   overviews) and LBNL studies (OSTI). The lines are in data/backfill/<date>.jsonl with those `source` values and a
   run_id beginning 2026-10-0; most are metadata-only, and C-07's enrichment does not pick them up.
-- Each run, after this week's candidates and C-07, take up to 20 of these not yet in state.backfill_cursor.done, in
-  this order: county/city actions on data centers (legistar), state bills that became law or passed a chamber
+- Volume (pull of 2026-10-04): ~336 state bills, ~75 court decisions, ~27 Regulations.gov items, ~18 ERCOT documents,
+  ~10 county/city items, ~4 studies. Triage EVERY line by title and metadata in the first two runs (cheap — most bills
+  and opinions are dismissed on their title); then read or WebFetch at most 20 per run, in this order: county/city actions on data centers (legistar), state bills that became law or passed a chamber
   (openstates; latest_action shows it), appellate decisions on commission orders (courtlistener), Regulations.gov
-  watched-party comments, then the rest. Triage by title and metadata exactly like Step 3.2; read the filing file or
-  WebFetch the url only for items that pass. Dedupe against the store first — the baseline already covers much of
+  watched-party comments, then the rest. Triage exactly like Step 3.2; read the filing file or WebFetch the url only
+  for items that pass. Dedupe against the store first — the baseline already covers much of
   this. Record processed ids in state.backfill_cursor.done.
 - ERCOT large-load items carry meta.table_metrics (MW approved to energize; observed peak consumption) with the
   sentence each came from: use them to build the ERCOT large-load series in metrics.json back to late 2025 — one
