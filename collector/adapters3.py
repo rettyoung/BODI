@@ -644,6 +644,9 @@ def regulations_gov(ctx):
     terms = rcfg.get("terms", ['"large load"', '"data center"', '"co-location"', '"202(c)"', '"resource adequacy"'])
     parties = ctx.cfg.get("parties", [])
     prx = re.compile(r"\b(" + "|".join(re.escape(p) for p in parties) + r")\b", re.I) if parties else None
+    trx = rcfg.get("title_filter", r"large load|data cent|co-?locat|202\(c\)|resource adequacy|reliab|power plant|"
+                                   r"electric(ity)? generat|fossil fuel-fired|carbon pollution standard|grid|transmission|"
+                                   r"nuclear|reactor|interconnection")
 
     def get(path, params):
         try:
@@ -665,6 +668,8 @@ def regulations_gov(ctx):
         for d in j.get("data", []):
             a = d.get("attributes") or {}
             did, dk = d.get("id"), a.get("docketId")
+            if not re.search(trx, a.get("title") or "", re.I):
+                continue    # full-text search matches incidental mentions; the title must be on the beat
             if dk:
                 dockets[dk] = ctx.today
             items.append({"id": f"REGS:doc:{did}", "jur": "US-Federal", "source": "regulations_gov",

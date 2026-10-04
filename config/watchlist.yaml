@@ -349,3 +349,4 @@ regulations_gov:
   terms: ['"large load"', '"data center"', '"co-location"', '"202(c)"', '"resource adequacy"']
   dockets: []          # add Regulations.gov docket ids (e.g. DOE-HQ-2026-0001) to always watch their comments
   max_dockets: 12
+  title_filter: "large load|data cent|co-?locat|202\\(c\\)|resource adequacy|reliab|power plant|electric(ity)? generat|fossil fuel-fired|carbon pollution standard|grid|transmission|nuclear|reactor|interconnection"
