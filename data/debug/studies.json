@@ -1,35 +1,8 @@
 {
  "adapter": "studies",
  "since": "2026-06-01",
- "items": 49,
+ "items": 5,
  "sample": [
-  {
-   "id": "OSTI:3603573",
-   "jur": "US-Federal",
-   "source": "studies",
-   "kind": "report",
-   "docket": null,
-   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Market participation strategy of hybrid energy resources: A New York ISO case study",
-   "filed": "2027-01-01",
-   "url": "https://www.osti.gov/biblio/3603573",
-   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
-   "fetch": [
-    {
-     "url": "https://www.osti.gov/servlets/purl/3603573"
-    }
-   ],
-   "meta": {
-    "authors": [
-     "Bansal, Rajni Kant",
-     "Singhal, Nikita",
-     "Kemp, Julie Mulvaney",
-     "Ela, Erik",
-     "Heleno, Miguel"
-    ],
-    "query": "\"interconnection queue\" OR \"queued up\"",
-    "doi": "10.1016/j.epsr.2026.113571"
-   }
-  },
   {
    "id": "OSTI:3729385",
    "jur": "US-Federal",
@@ -84,30 +57,6 @@
    }
   },
   {
-   "id": "OSTI:3484631",
-   "jur": "US-Federal",
-   "source": "studies",
-   "kind": "report",
-   "docket": "None",
-   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): From Bricks to Clicks: Mapping the White Space in Building Innovation",
-   "filed": "2026-08-10",
-   "url": "https://www.osti.gov/biblio/3484631",
-   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
-   "fetch": [
-    {
-     "url": "https://www.osti.gov/servlets/purl/3484631"
-    }
-   ],
-   "meta": {
-    "authors": [
-     "Singh, Reshma",
-     "Jain, Yashima"
-    ],
-    "query": "\"interconnection queue\" OR \"queued up\"",
-    "doi": "10.20357/B70033"
-   }
-  },
-  {
    "id": "OSTI:3376147",
    "jur": "US-Federal",
    "source": "studies",
@@ -136,167 +85,60 @@
    }
   },
   {
-   "id": "OSTI:3376044",
-   "jur": "US-Federal",
-   "source": "studies",
-   "kind": "report",
-   "docket": "None",
-   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Distribution System Plan Template and Guide for Electric Utilities for Adaptation by States and Utilities [Slides]",
-   "filed": "2026-06-29",
-   "url": "https://www.osti.gov/biblio/3376044",
-   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
-   "fetch": [
-    {
-     "url": "https://www.osti.gov/servlets/purl/3376044"
-    }
-   ],
-   "meta": {
-    "authors": [
-     "Pereira, Guillermo [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
-     "Martini, Paul De [Newport Consulting Group LLC, Fulton, MD (United States)]",
-     "Mallet Dias, Arthur [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
-     "Schwartz, Lisa C. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]"
-    ],
-    "query": "\"interconnection queue\" OR \"queued up\"",
-    "doi": "10.2172/3376044"
-   }
-  },
-  {
-   "id": "OSTI:3391471",
+   "id": "OSTI:3484962",
    "jur": "US-Federal",
    "source": "studies",
    "kind": "report",
    "docket": null,
-   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): ML–Enabled FPGA Framework for Fast Quantum State Discrimination in Mid-Circuit Measurement Regimes",
-   "filed": "2026-06-22",
-   "url": "https://www.osti.gov/biblio/3391471",
-   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States), National Quantum Information Science (QIS) Research Centers (United States). Quantum Systems Accelerator (QSA)",
+   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Short-term electricity load forecasting: Application-driven evaluation of machine learning models across spatial and temporal scales",
+   "filed": "2026-09-01",
+   "url": "https://www.osti.gov/biblio/3484962",
+   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
    "fetch": [
     {
-     "url": "https://www.osti.gov/servlets/purl/3391471"
+     "url": "https://www.osti.gov/servlets/purl/3484962"
     }
    ],
    "meta": {
     "authors": [
-     "Vora, Neel [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)] (ORCID:0009000204730150)",
-     "Xu, Yilun [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)] (ORCID:000000019284809X)",
-     "Hashim, Akel [University of California, Berkeley, CA (United States)] (ORCID:0000000286110125)",
-     "Fruitwala, Neelay [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)] (ORCID:0000000339004079)",
-     "Nguyen, Nam [University of California, Berkeley, CA (United States)] (ORCID:0000000221892090)",
-     "Goss, Noah [University of California, Berkeley, CA (United States)] (ORCID:0000000233779415)"
+     "Houben, Nikolaus",
+     "Heleno, Miguel",
+     "Li, Han",
+     "Hong, Tianzhen",
+     "Auer, Hans",
+     "Ajanovic, Amela"
     ],
-    "query": "\"interconnection queue\" OR \"queued up\"",
-    "doi": "10.1145/3787109.3816383"
+    "query": "\"load growth\" OR \"large loads\" OR \"electricity demand\"",
+    "doi": "10.1016/j.engappai.2026.115014"
    }
   },
   {
-   "id": "OSTI:3367528",
+   "id": "OSTI:3409217",
    "jur": "US-Federal",
    "source": "studies",
    "kind": "report",
    "docket": "None",
-   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Speed to Power: Solutions for Accelerating Large Load Connections",
-   "filed": "2026-06-09",
-   "url": "https://www.osti.gov/biblio/3367528",
+   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities 2026 Update",
+   "filed": "2026-08-11",
+   "url": "https://www.osti.gov/biblio/3409217",
    "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
    "fetch": [
     {
-     "url": "https://www.osti.gov/servlets/purl/3367528"
+     "url": "https://www.osti.gov/servlets/purl/3409217"
     }
    ],
    "meta": {
     "authors": [
-     "Kahrl, Fredrich [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
-     "Frick, Natalie Mims [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]"
+     "Frick, Natalie Mims [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Cappers, Peter [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Kalvak, Goskin [The Brattle Group, Boston, MA (United States)]",
+     "Lam, Long [The Brattle Group, Boston, MA (United States)]",
+     "Hledik, Ryan [The Brattle Group, Boston, MA (United States)]",
+     "Grove, Jadon [The Brattle Group, Boston, MA (United States)]"
     ],
-    "query": "\"interconnection queue\" OR \"queued up\"",
-    "doi": "10.2172/3367528"
+    "query": "\"load growth\" OR \"large loads\" OR \"electricity demand\"",
+    "doi": "10.2172/3409217"
    }
-  }
- ],
- "fetched": [
-  {
-   "id": "OSTI:3603573",
-   "meta": {
-    "authors": [
-     "Bansal, Rajni Kant",
-     "Singhal, Nikita",
-     "Kemp, Julie Mulvaney",
-     "Ela, Erik",
-     "Heleno, Miguel"
-    ],
-    "query": "\"interconnection queue\" OR \"queued up\"",
-    "doi": "10.1016/j.epsr.2026.113571"
-   },
-   "docs": [
-    {
-     "url": "https://www.osti.gov/servlets/purl/3603573",
-     "name": null,
-     "bytes": 9921063,
-     "sha256": "dba75bb9908976eae0682cc526287d6d9fab2250454baf40cffff05aa1590e9d",
-     "ctype": "application/pdf",
-     "quality": "text_layer",
-     "ocr": false,
-     "pages": 11,
-     "truncated": false,
-     "text": "Lawrence Berkeley National Laboratory\nLBL Publications\n\nTitle\nMarket participation strategy of hybrid energy resources: A New York ISO case study\n\nPermalink\nhttps://escholarship.org/uc/item/81r5w82h\n\nJournal\nElectric Power Systems Research, 262\n\nISSN\n0378-7796\n\nAuthors\nBansal, Rajni Kant\nSinghal, Nikita\nKemp, Julie Mulvaney\net al.\n\nPublication Date\n2027\n\nDOI\n10.1016/j.epsr.2026.113571\n\nCopyright Information\nThis work is made available under the terms of a Creative Commons Attribution\nLicense, available at https://creativecommons.org/licenses/by/4.0/\n\n\nPeer reviewed\n\n\n\n\n eScholarship.org                              Powered by the California Digital Library\n                                                               University of California\n\f                                                                 Electric Power Systems Research 262 (2027) 113571\n\n\n                                                                       Contents lists available at ScienceDirect\n\n\n                                                            Electric Power Systems Research\n                                                               journal homepage: www.elsevier.com/locate/epsr\n\n\n\n\nMarket participation strategy of hybrid energy resources: A New York ISO\ncase study ⋆\nRajni Kant Bansal                    a,∗, Nikita Singhal b , Julie Mulvaney Kemp                               c , Erik Ela b , Miguel Heleno d\n\na\n    Operations and Decision Sciences Area, Indian Institute of Management A"
-    }
-   ]
-  },
-  {
-   "id": "OSTI:3729385",
-   "meta": {
-    "authors": [
-     "Gorman, Will",
-     "Kahrl, Fredrich",
-     "Norris, Tyler",
-     "Patiño-Echeverri, Dalia"
-    ],
-    "query": "\"interconnection queue\" OR \"queued up\"",
-    "doi": "10.1016/j.enpol.2026.115554"
-   },
-   "docs": [
-    {
-     "url": "https://www.osti.gov/servlets/purl/3729385",
-     "name": null,
-     "bytes": 2830237,
-     "sha256": "d6349f73598c70f2bd4ef7549ab01eeb175e22c3e361fb2115546d65d845dd18",
-     "ctype": "application/pdf",
-     "quality": "text_layer",
-     "ocr": false,
-     "pages": 16,
-     "truncated": false,
-     "text": "Lawrence Berkeley National Laboratory\nLBL Publications\n\nTitle\nA review of United States energy-only generator interconnection service policy and\nconsiderations for reform\n\nPermalink\nhttps://escholarship.org/uc/item/3qf216q5\n\nJournal\nEnergy Policy, 219\n\nISSN\n0301-4215\n\nAuthors\nGorman, Will\nKahrl, Fredrich\nNorris, Tyler\net al.\n\nPublication Date\n2026-12-01\n\nDOI\n10.1016/j.enpol.2026.115554\n\nCopyright Information\nThis work is made available under the terms of a Creative Commons Attribution-\nNonCommercial-NoDerivatives License, available at\nhttps://creativecommons.org/licenses/by-nc-nd/4.0/\n\n\nPeer reviewed\n\n\n\n\n eScholarship.org                             Powered by the California Digital Library\n                                                              University of California\n\f                                                                      Energy Policy 219 (2026) 115554\n\n\n                                                                 Contents lists available at ScienceDirect\n\n\n                                                                          Energy Policy\n                                                        journal homepage: www.elsevier.com/locate/enpol\n\n\n\n\nA review of United States energy-only generator interconnection service\npolicy and considerations for reform\nWill Gorman a,* , Fredrich Kahrl a,b , Tyler Norris c , Dalia Patiño-Echeverri c\na\n  Lawrence Berkeley National Laboratory, 1 Cyclotron Road, MS 90-4000, Berkeley, CA, 94720, USA\nb\n  3rdRail In"
-    }
-   ]
-  },
-  {
-   "id": "OSTI:3676872",
-   "meta": {
-    "authors": [
-     "Chelminski, Kathryn [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
-     "Wong, Johnny [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
-     "Schwartz, Lisa C. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
-     "Pigman, Margaret [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
-     "Carlson, Katherine [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]"
-    ],
-    "query": "\"interconnection queue\" OR \"queued up\"",
-    "doi": "10.2172/3676872"
-   },
-   "docs": [
-    {
-     "url": "https://www.osti.gov/servlets/purl/3676872",
-     "name": null,
-     "bytes": 8967258,
-     "sha256": "30c0a14df7f6e5ad3b721a59c626825f9c31fd52f64de330d006aa27c3830859",
-     "ctype": "application/pdf",
-     "quality": "text_layer",
-     "ocr": false,
-     "pages": 66,
-     "truncated": false,
-     "text": "                            DISCLAIMER\nThis report was prepared as an account of work sponsored by an\nagency of the United States Government. Neither the United States\nGovernment nor any agency thereof, nor any of their employees,\nmakes any warranty, express or implied, or assumes any legal liability\nor responsibility for the accuracy, completeness, or usefulness of any\ninformation, apparatus, product, or process disclosed, or represents\nthat its use would not infringe privately owned rights. Reference\nherein to any specific commercial product, process, or service by\ntrade name, trademark, manufacturer, or otherwise does not\nnecessarily constitute or imply its endorsement, recommendation, or\nfavoring by the United States Government or any agency thereof. The\nviews and opinions of authors expressed herein do not necessarily\nstate or reflect those of the United States Government or any agency\nthereof. Reference herein to any social initiative (including but not\nlimited to Diversity, Equity, and Inclusion (DEI); Community Benefits\nPlans (CBP); Justice 40; etc.) is made by the Author independent of\nany current requirement by the United States Government and does\nnot constitute or imply endorsement, recommendation, or support by\nthe United States Government or any agency thereof.\n\fLawrence Berkeley National Laboratory\nLBL Publications\n\nTitle\nInterconnection Timelines and Costs for Distributed Energy Projects in the United States (2000-2025)\n\nPermalink\nhttps://escholarship.org/uc/i"
-    }
-   ]
   }
  ],
  "notes": [],
@@ -350,33 +192,6 @@
    "ctype": "application/json",
    "len": 91955,
    "body": "[\r\n{\"language\":\"English\",\"entry_date\":\"2026-09-11T12:06:34Z\",\"relation\":\"Journal Name: Energy Policy Journal Volume: 219\",\"identifier\":\"AC02-05CH11231\",\"country_publication\":\"United States\",\"journal_type\":\"AM\",\"doi\":\"10.1016/j.enpol.2026.115554\",\"description\":\"Grid interconnection has emerged as a significant obstacle to the development of new electricity resources. There is growing interest in energy-only interconnection, which is an interconnection service option meant to allow the interconnection of new generators without ensuring their energy deliverability during all hours through the transmission system to customers. This approach potentially avoids upfront congestion-related transmission upgrades but could increase curtailment risk. Interest in energy-only interconnection is shaped by incomplete understanding of how interconnection policy functions in different jurisdictions, a knowledge gap that makes it difficult to determine how energy-only interconnection might be better used or re-designed. In this paper, we provide a regulatory review of energy-only interconnection in U.S. interconnection policy and practice, identifying jurisdictions in which rules are close to -or farther from-the theoretical concept of energy-only interconnection service. We find substantial jurisdictional differences in how energy-only interconnection is implemented, driven by differences in resource adequacy frameworks, real-time transmission operations, and state-level procurement practices. U.S. regulators have preferred local jurisdictional flexibility over federal prescription of interconnection study methods and procedures, which also contributes to differences among regions. Such findings raise fundamental questions about whether competition policies in electricity markets should extend beyond spot energy markets and into more prescriptive guidelines around interconnection rules and market entry. This paper sheds light on tensions that energy-only interconnection raises in al"
-  },
-  {
-   "method": "GET",
-   "url": "https://www.osti.gov/servlets/purl/3603573",
-   "req": "None",
-   "status": 200,
-   "ctype": "application/pdf",
-   "len": 9921063,
-   "body": "<pdf>"
-  },
-  {
-   "method": "GET",
-   "url": "https://www.osti.gov/servlets/purl/3729385",
-   "req": "None",
-   "status": 200,
-   "ctype": "application/pdf",
-   "len": 2830237,
-   "body": "<pdf>"
-  },
-  {
-   "method": "GET",
-   "url": "https://www.osti.gov/servlets/purl/3676872",
-   "req": "None",
-   "status": 200,
-   "ctype": "application/pdf",
-   "len": 8967258,
-   "body": "<pdf>"
   }
  ],
  "adapter_state": {}

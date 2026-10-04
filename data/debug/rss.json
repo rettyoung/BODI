@@ -1,7 +1,7 @@
 {
  "adapter": "rss",
  "since": "2026-06-01",
- "items": 167,
+ "items": 180,
  "sample": [
   {
    "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210273",
@@ -167,8 +167,8 @@
    "note": "50 entries"
   },
   "nrc_news": {
-   "status": "error",
-   "note": "Blocked('HTTP 403 for https://www.nrc.gov/public-involve/rss?feed=news')"
+   "status": "ok",
+   "note": "164 entries"
   },
   "grid_strategies": {
    "status": "ok",
@@ -197,10 +197,6 @@
   "meta_news": {
    "status": "ok",
    "note": "10 entries"
-  },
-  "meta_datacenters": {
-   "status": "ok",
-   "note": "0 entries"
   },
   "utilitydive": {
    "status": "ok",
@@ -256,19 +252,19 @@
    "method": "GET",
    "url": "https://www.nrc.gov/robots.txt",
    "req": "None",
-   "status": 403,
-   "ctype": "text/html",
-   "len": 377,
-   "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;nrc&#46;gov&#47;robots&#46;txt\" on this server.<P>\nReference&#32;&#35;18&#46;8b6d3e17&#46;1791072918&#46;9aa34d1\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;8b6d3e17&#46;1791072918&#46;9aa34d1</P>\n</BODY>\n</HTML>\n"
+   "status": 200,
+   "ctype": "text/plain",
+   "len": 543,
+   "body": "user-agent:*\r\nSitemap: https://www.nrc.gov/sitemapindex.xml\r\nDisallow: https://www.nrc.gov/ads.txt/\r\nDisallow: https://www.nrc.gov/autodiscover/autodiscover.xml\r\nDisallow: https://www.nrc.gov/site-help/search\nDisallow: https://www.nrc.gov/site-help/search.html\n\r\nuser-agent: Akamai-SiteSnapshot\r\nDisallow: https://www.nrc.gov/docs/\r\nDisallow: https://www.nrc.gov/site-help/search.html\r\nSitemap: https://www.nrc.gov/sitemapindex.xml\r\n\r\nUser-agent: Amazonbot             # Amazon's user agent\r\nDisallow: /docs/          # disallow this directory"
   },
   {
    "method": "GET",
    "url": "https://www.nrc.gov/public-involve/rss?feed=news",
    "req": "None",
-   "status": 403,
-   "ctype": "text/html",
-   "len": 394,
-   "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;nrc&#46;gov&#47;public&#45;involve&#47;rss&#63;\" on this server.<P>\nReference&#32;&#35;18&#46;8b6d3e17&#46;1791072920&#46;9aa3e79\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;8b6d3e17&#46;1791072920&#46;9aa3e79</P>\n</BODY>\n</HTML>\n"
+   "status": 200,
+   "ctype": "application/rss+xml; charset=UTF-8",
+   "len": 52631,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss xmlns:atom=\"http://www.w3.org/2005/Atom\" version=\"2.0\">\n  <channel>\n    <title>NRC RSS Feed: News Releases</title>\n    <link><![CDATA[ https://www.nrc.gov/public-involve/rss?feed=news ]]></link>\n    <description> </description>\n    <language>en-us</language>\n    <atom:link href=\"https://www.nrc.gov/public-involve/rss?feed=news\" rel=\"self\" type=\"application/rss+xml\"/>\n    <item>\n      <pubDate><![CDATA[ Mon, 14 Sep 2026 08:00:00 GMT ]]></pubDate>\n      <title><![CDATA[ NRC Advisory: NRC to Hold Mandatory Hearing on Proposed Long Mott Generating Station ]]></title>\n      <link><![CDATA[ https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-029-a.pdf ]]></link>\n    </item>\n    <item>\n      <pubDate><![CDATA[ Fri, 11 Sep 2026 08:00:00 GMT ]]></pubDate>\n      <title><![CDATA[ NRC Proposes Broad Overhaul of Nuclear Reactor Regulations ]]></title>\n      <link><![CDATA[ https://www.nrc.gov/sites/default/files/documents/26-077.pdf ]]></link>\n    </item>\n    <item>\n      <pubDate><![CDATA[ Wed, 09 Sep 2026 08:00:00 GMT ]]></pubDate>\n      <title><![CDATA[ NRC Advisory: NRC to Hold Mandatory Hearing on Belews Creek Early Site Permit ]]></title>\n      <link><![CDATA[ https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-028-a.pdf ]]></link>\n    </item>\n    <item>\n      <pubDate><![CDATA[ Tue, 08 Sep 2026 08:00:00 GMT ]]></pubDate>\n      <title><![CDATA[ NRC Advisory: NRC to Hold Public Webinar on New Reactor Licensing Pathways ]]></title>\n      <link><![CDATA[ https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-027-a.pdf ]]></link>\n    </item>\n    <item>\n      <pubDate><![CDATA[ Fri, 04 Sep 2026 08:00:00 GMT ]]></pubDate>\n      <title><![CDATA[ Modern Regulation for a New Nuclear Era ]]></title>\n      <link><![CDATA[ https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/s-26-005.pdf ]]></link>\n    </item>\n    <item>\n      <pubDate><![CDATA[ Thu, 03 Sep 2026 08:00:0"
   },
   {
    "method": "GET",
@@ -367,7 +363,7 @@
    "status": 200,
    "ctype": "application/xml",
    "len": 8875,
-   "body": "<rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=\"2.0\"><channel><atom:link href=\"https://www.aboutamazon.com/rss/feed.rss\" type=\"application/rss+xml\" rel=\"self\"/><title>Amazon News</title><link>https://www.aboutamazon.com/amazon-news-today</link><description>Amazon News RSS Feed</description><language>en</language><lastBuildDate>Sun, 04 Oct 2026 00:12:16 GMT</lastBuildDate><image><title>Amazon News</title><url>https://assets.aboutamazon.com/f2/a4/a07ef04d49df8b93eb283512a0fc/amazon-news-newsletter-beige.png</url><link>https://www.aboutamazon.com/amazon-news-today</link></image><item><title>The race our nation can’t afford to lose, plus a new commitment from us and a fresh set of community investments</title><link>https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together?utm_source=rss</link><description></description><pubDate>Fri, 02 Oct 2026 08:55:14 GMT</pubDate><guid>https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together</guid><category>Company news</category><media:thumbnail url=\"https://assets.aboutamazon.com/dims4/default/eb94cec/2147483647/strip/true/crop/2000x1125+0+0/resize/767x431!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F12%2F26%2F200746cc4971855f5828ce07fb38%2Famazondatacenteremployee-hero-amazonnews-ck92926.png\"/></item><item><title>How Amazon is helping communities impacted by the Nepal flash floods</title><link>https://www.aboutamazon.com/news/community/nepal-floods-amazon-disaster-relief?utm_source=rss</link><description>Amazon is working with aid organizations to help communities recover following flooding and landslides along the Nepal border.</description><pubDate>Fri, 02 Oct 2026 08:34:00 GMT</pubDate><guid>https://www.aboutamazon.com/news/community/nepal-floods-amazon-disaster-relief</guid><category>Community</category><media:thumbnail url=\"https://assets.aboutamazon.com/dims4/de"
+   "body": "<rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=\"2.0\"><channel><atom:link href=\"https://www.aboutamazon.com/rss/feed.rss\" type=\"application/rss+xml\" rel=\"self\"/><title>Amazon News</title><link>https://www.aboutamazon.com/amazon-news-today</link><description>Amazon News RSS Feed</description><language>en</language><lastBuildDate>Sun, 04 Oct 2026 01:22:16 GMT</lastBuildDate><image><title>Amazon News</title><url>https://assets.aboutamazon.com/f2/a4/a07ef04d49df8b93eb283512a0fc/amazon-news-newsletter-beige.png</url><link>https://www.aboutamazon.com/amazon-news-today</link></image><item><title>The race our nation can’t afford to lose, plus a new commitment from us and a fresh set of community investments</title><link>https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together?utm_source=rss</link><description></description><pubDate>Fri, 02 Oct 2026 08:55:14 GMT</pubDate><guid>https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together</guid><category>Company news</category><media:thumbnail url=\"https://assets.aboutamazon.com/dims4/default/eb94cec/2147483647/strip/true/crop/2000x1125+0+0/resize/767x431!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F12%2F26%2F200746cc4971855f5828ce07fb38%2Famazondatacenteremployee-hero-amazonnews-ck92926.png\"/></item><item><title>How Amazon is helping communities impacted by the Nepal flash floods</title><link>https://www.aboutamazon.com/news/community/nepal-floods-amazon-disaster-relief?utm_source=rss</link><description>Amazon is working with aid organizations to help communities recover following flooding and landslides along the Nepal border.</description><pubDate>Fri, 02 Oct 2026 08:34:00 GMT</pubDate><guid>https://www.aboutamazon.com/news/community/nepal-floods-amazon-disaster-relief</guid><category>Community</category><media:thumbnail url=\"https://assets.aboutamazon.com/dims4/de"
   },
   {
    "method": "GET",
@@ -389,24 +385,6 @@
   },
   {
    "method": "GET",
-   "url": "https://datacenters.atmeta.com/robots.txt",
-   "req": "None",
-   "status": 200,
-   "ctype": "text/plain; charset=utf-8",
-   "len": 289,
-   "body": "Sitemap: https://datacenters.atmeta.com/sitemap.xml\nSitemap: https://datacenters.atmeta.com/news-sitemap.xml\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://datacenters.atmeta.com/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK"
-  },
-  {
-   "method": "GET",
-   "url": "https://datacenters.atmeta.com/feed/",
-   "req": "None",
-   "status": 200,
-   "ctype": "text/html; charset=UTF-8",
-   "len": 163104,
-   "body": "<!DOCTYPE html>\n<html lang=\"en-US\" class=\"no-js\">\n\t<head>\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://datacenters.atmeta.com/wp-content/themes/fb-data-centers/assets/images/favicon.ico\">\n\t\t<meta charset=\"UTF-8\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\t\t<script>(function(html){html.className = html.className.replace(/\\bno-js\\b/,'js')})(document.documentElement);</script>\n<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />\n\n\t<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n\t<title>Meta Data Centers</title>\n\t<meta name=\"description\" content=\"Our data centers are part of Meta’s global infrastructure that brings our technologies and services to life, along with future immersive experiences like the metaverse\" />\n\t<link rel=\"canonical\" href=\"https://datacenters.atmeta.com/\" />\n\t<meta property=\"og:locale\" content=\"en_US\" />\n\t<meta property=\"og:type\" content=\"website\" />\n\t<meta property=\"og:title\" content=\"Meta Data Centers\" />\n\t<meta property=\"og:description\" content=\"Our data centers are part of Meta’s global infrastructure that brings our technologies and services to life, along with future immersive experiences like the metaverse\" />\n\t<meta property=\"og:url\" content=\"https://datacenters.atmeta.com/\" />\n\t<meta property=\"og:site_name\" content=\"Meta Data Centers\" />\n\t<meta property=\"article:modified_time\" content=\"2026-03-12T14:40:22+00:00\" />\n\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t<meta name=\"twitter:title\" content=\"Meta Data Centers\" />\n\t<meta name=\"twitter:description\" content=\"Our data centers are part of Meta’s global infrastructure that brings our technologies and services to life, along with future immersive experiences like the metaverse\" />\n\t<meta name=\"twitter:image\" content=\"https://datacenters.atmeta.com/wp-content/uploads/2023/03/PRN-1.jpg\" />\n\t<script type=\"app"
-  },
-  {
-   "method": "GET",
    "url": "https://www.utilitydive.com/robots.txt",
    "req": "None",
    "status": 200,
@@ -420,8 +398,8 @@
    "req": "None",
    "status": 200,
    "ctype": "application/rss+xml; charset=utf-8",
-   "len": 9638,
-   "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\"><channel><title>Utility Dive - Latest News</title><link>https://www.utilitydive.com/news/</link><description>Utility industry news and analysis for energy professionals.</description><atom:link href=\"https://www.utilitydive.com/feeds/news/\" rel=\"self\"/><language>en</language><lastBuildDate>Fri, 02 Oct 2026 10:27:26 -0400</lastBuildDate><item><title>Cities, states sue EPA over power plant emissions rollback</title><link>https://www.utilitydive.com/news/cities-states-sue-epa-over-power-plant-emissions-rollback/832016/</link><description>&lt;figure&gt;&lt;div&gt;&lt;img src=\"https://imgproxy.divecdn.com/nAk94Lh_56THLuBwC_AGbNKQwjWkK256ekY2Yy0NEUY/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjc0MDgxOTMyLmpwZw==.webp\"/&gt;&lt;/div&gt;&lt;/figure&gt;&lt;p&gt;Chicago, Denver and New York City join multistate lawsuits challenging the agency&amp;rsquo;s move to end greenhouse gas emissions standards and failure to enforce requirements on existing gas-fired plants.&lt;/p&gt;</description><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">Robyn Griggs Lawrence</dc:creator><pubDate>Fri, 02 Oct 2026 10:27:26 -0400</pubDate><guid>https://www.utilitydive.com/news/cities-states-sue-epa-over-power-plant-emissions-rollback/832016/</guid></item><item><title>FERC rejects TransAlta 202(c) cost recovery plan for Centralia unit</title><link>https://www.utilitydive.com/news/ferc-transalta-202c-cost-recovery-centralia/832001/</link><description>&lt;p&gt;Only utilities in the Northwest should pay the nearly $20 million in expenses for a 90-day order covering the Centralia unit, and&amp;nbsp; despite the unit&amp;rsquo;s lack of output, payment is due, the agency said.&lt;/p&gt;</description><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">Ethan Howland</dc:creator><pubDate>Fri, 02 Oct 2026 09:28:00 -0400</pubDate><guid>https://www.utilitydive."
+   "len": 9632,
+   "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\"><channel><title>Utility Dive - Latest News</title><link>https://www.utilitydive.com/news/</link><description>Utility industry news and analysis for energy professionals.</description><atom:link href=\"https://www.utilitydive.com/feeds/news/\" rel=\"self\"/><language>en</language><lastBuildDate>Fri, 02 Oct 2026 10:27:26 -0400</lastBuildDate><item><title>Cities, states sue EPA over power plant emissions rollback</title><link>https://www.utilitydive.com/news/cities-states-sue-epa-over-power-plant-emissions-rollback/832016/</link><description>&lt;figure&gt;&lt;div&gt;&lt;img src=\"https://imgproxy.divecdn.com/nAk94Lh_56THLuBwC_AGbNKQwjWkK256ekY2Yy0NEUY/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjc0MDgxOTMyLmpwZw==.webp\"/&gt;&lt;/div&gt;&lt;/figure&gt;&lt;p&gt;Chicago, Denver and New York City joined multistate lawsuits challenging the agency&amp;rsquo;s move to end greenhouse gas emissions standards and failure to enforce requirements on existing gas-fired plants.&lt;/p&gt;</description><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">Robyn Griggs Lawrence</dc:creator><pubDate>Fri, 02 Oct 2026 10:27:26 -0400</pubDate><guid>https://www.utilitydive.com/news/cities-states-sue-epa-over-power-plant-emissions-rollback/832016/</guid></item><item><title>FERC rejects TransAlta 202(c) cost-recovery plan for Centralia unit</title><link>https://www.utilitydive.com/news/ferc-transalta-202c-cost-recovery-centralia/832001/</link><description>&lt;p&gt;Only utilities in the Northwest should pay the nearly $20 million in expenses for a 90-day order covering the Centralia unit, and despite the unit&amp;rsquo;s lack of output, payment is due, the agency said.&lt;/p&gt;</description><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">Ethan Howland</dc:creator><pubDate>Fri, 02 Oct 2026 09:28:00 -0400</pubDate><guid>https://www.utilitydive.com/news"
   },
   {
    "method": "GET",
