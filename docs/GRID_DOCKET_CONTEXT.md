@@ -413,7 +413,7 @@ ERCOT large-load 900, EQR 900, state courts 900, NM 900, Open States 600, Legist
 | VA, SC, IL, OH, NC, WV, NV | P (+W fallbacks) | Refuse automated access — see §10. |
 | RTOs | C + W + M | CAISO, SPP, NYISO, ISO-NE, MISO, WPP pages; ERCOT news and **notice archive** (C); **ERCOT large-load status** — LLWG/TAC/ROS/Board meeting pages, the large-load page and the Monthly Operational Overview, with table extraction (C, adapter `ercot_large_load`, since 3 Oct; these pages now open to the runners); ERCOT planning page (W); PJM newsroom (W). See §11 for ERCOT. |
 | Capacity markets | C (+P) | PJM RPM (119 links), MISO PRA, ISO-NE FCM, SPP RA working. **NYISO ICAP:** the page's documents come from `POST /o/documentlibrary/subitems` (observed 3 Oct), but NYISO answers automated clients with an empty HTTP 202 (bot-management challenge); adapter `nyiso_icap` records it as `refused_known` (a sub-source status, so it never trips the circuit breaker or the Brief's RED) and stops. The manual pass reads the ICAP page monthly (extra page). |
-| Queues | C | MISO `misoenergy.org/api/giqueue/getprojects`; SPP `opsportal.spp.org/Studies/GenerateActiveCSV` (CSV preamble handled). Working. PJM and ERCOT need keys (§9). |
+| Queues | C | MISO `misoenergy.org/api/giqueue/getprojects`; SPP `opsportal.spp.org/Studies/GenerateActiveCSV` (CSV preamble handled); **PJM (4 Oct, no key)** — serial/expedited queue from the static `www.pjm.com/pjmfiles/media/planning/queues-data/PlanningQueues.xml` (~23 MB, refreshed daily) and the cycle queue (TC1, TC2, Cycle 1+) from `POST www.pjm.com/m/ProjectTransition/GenerateXMLTransitionProjectsAll` with the form the Cycle Service Request Status page's "Full Export: XML" button sends (observed in the built-in browser). Serial entries "moved to" a transition cycle and Long-Term Firm Transmission Service requests are skipped. Verified from the runners 4 Oct: baseline 228 serial + 664 cycle active projects in VA, OH, PA, IL, WV, NC. Working. ERCOT's queue needs its API secrets (§9). |
 | Legistar | C | 9 clients: pwcgov, maricopa, phoenix, mesa, columbus, sanantonio, fortworthgov, kansascity, washoe-nv (added 3 Oct). Working. |
 | Local agendas (non-Legistar) | C | Adapter `agendas` (3 Oct): Fairfax BOS meeting pages, Henrico agenda PDFs, Atlanta IQM2 calendar, Tulsa Council / TMAPC / Board of Adjustment, Storey County AgendaCenter. Items kept only when their text matches `agenda_filter`. Loudoun (lfportal robots unreadable; Granicus disallows), Reno (PrimeGov disallows) and Fulton (no static agenda links) are not collectable. |
 | Governors | C (+W) | AL, IL, MO, NM, NV, OK, SC, WV, TX, VA, GA, PA, OH, LA, NC working in C; KS via W; AZ refuses both. |
@@ -471,7 +471,7 @@ adapters can be tested on demand.
 
 | Secret name(s) | Where | What it adds |
 |---|---|---|
-| `PJM_API_KEY` | apiportal.pjm.com (free PJM account, Data Miner subscription) | PJM queue and capacity data feeds; replaces the CAPTCHA-blocked Inside Lines route for data |
+| `PJM_API_KEY` | apiportal.pjm.com (free PJM account, Data Miner subscription) | PJM Data Miner 2 capacity and market data. **Not needed for the queue** (public exports since 4 Oct). On 4 Oct Account Manager offered no Data Miner access on Rett's account and apiportal sign-in looped to Tools home; PJM Member Relations (custsvc@pjm.com) can fix it. Data Miner terms bar redistribution, so any adapter must keep its output out of the public repo |
 | CapIQ (optional, licensed) | Blue Owl's S&P entitlement | Already arriving as mail; an API call would add structure. S&P RRA (state docket content) is a separate entitlement |
 
 **Not needed:** SEC EDGAR (UA only), Federal Register, FERC eLibrary, MISO and SPP queues, Legistar, GitHub (the
@@ -805,7 +805,7 @@ Grid Strategies; Utility Dive, Canary Media, RTO Insider feeds; licensed mail (R
 (full rate); ERCOT Public API (optional).
 
 **Candidates still open, ranked:** (1) agency allowlisting (letters drafted); (2) keys for the built adapters;
-(3) PJM API and ERCOT Public API accounts; (4) CAISO and NYISO queues; (5) S&P RRA / Halcyon / Energy Strategies
+(3) ERCOT Public API secrets (PJM Data Miner low priority — the PJM queue is collected from public exports since 4 Oct); (4) CAISO and NYISO queues; (5) S&P RRA / Halcyon / Energy Strategies
 as cross-checks; (6) earnings call transcripts (CapIQ); (7) Loudoun County through the manual pass; (8) PUDL Form 1
 data tables; (9) direct state bill trackers.
 
@@ -836,7 +836,7 @@ data tables; (9) direct state bill trackers.
 | Docket history before 3 Oct for collector states | Nightly enrichment (~2 weeks) + Sweep C-07 |
 | Arizona documents (ACC PDF host certificate mismatch) | Manual pass requests queued by the Sweep; automatic again if the certificate is fixed |
 | Arizona governor, IR pages for Southern/Evergy/Exelon/OGE/Oncor/BHE | EDGAR exhibits and deck search; manual pass extra pages |
-| ERCOT data products, PJM data | ERCOT Public API / PJM API (accounts needed) |
+| ERCOT data products, PJM market data | ERCOT Public API (secrets); PJM Data Miner (account access pending; low priority). PJM queue: collected since 4 Oct |
 | State bills | Open States key |
 | NRC docket documents (restarts, SMRs) | NRC_APS_KEY; NRC news RSS and Federal Register meanwhile |
 | NYISO ICAP documents (bot-management challenge) | Manual pass monthly; NYISO FERC filings |
@@ -912,3 +912,4 @@ are enabled.
 | 2026-10-04 (am) | Consistency pass: NYISO ICAP refusal recorded as `refused_known` (no false RED); refused IL CUB mirror dropped; corrections item C-05 brought up to date (Arizona documents, ERCOT, New Mexico, NYISO, Texas courts); §3 file and watch-list counts corrected |
 | 2026-10-04 (pm) | Collector schedule hardened after GitHub started the 4 Oct run six hours late: three nightly triggers (04:43, 06:17, 08:41 UTC) with a skip guard, checkout of the newest `main`, `last_full_run` and gap tracking; Sweep reports COLLECTOR_GAP, Brief treats it as amber |
 | 2026-10-04 (pm) | Keys obtained by Rett; Regulations.gov adapter built; secrets wired into the collector and probe workflows; `common.scrub()` keeps keys out of the public repo |
+| 2026-10-04 (eve) | PJM interconnection queue added with no key: serial/expedited `PlanningQueues.xml` and the cycle-queue XML export (adapter `queues` now reads XML and page export forms); verified from the runners (228 + 664 active tracked-state projects, baseline). PJM API key no longer needed for queue data |

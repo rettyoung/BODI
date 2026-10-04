@@ -46,7 +46,7 @@ court lists), because the general keyword list is too loose there.
 
 | RTO | Source | Process | Depth | Notes |
 |---|---|---|---|---|
-| PJM | FERC dockets (EL25-49, EL26-67, ER26-*); RPM capacity page; newsroom (S) | C, S | Full text | Inside Lines RSS serves a CAPTCHA to automated clients — recorded, not bypassed. PJM queue data needs a PJM API key (§3). |
+| PJM | FERC dockets (EL25-49, EL26-67, ER26-*); RPM capacity page; newsroom (S) | C, S | Full text | Inside Lines RSS serves a CAPTCHA to automated clients — recorded, not bypassed. **Interconnection queue — *new 4 Oct*:** monthly snapshot of PJM's two public queue exports, no key (see `queues` in the watchlist): the serial/expedited queue (`PlanningQueues.xml`) and the cycle queue (TC1, TC2, Cycle 1+; the Cycle Service Request Status page's own "Full Export: XML" request). ≥100 MW new projects and MW totals for VA, OH, PA, IL, WV, NC. Data Miner 2 (capacity/market data) still needs `PJM_API_KEY`. |
 | MISO | Media center (rendered); PRA capacity page; interconnection queue API (monthly snapshot, ≥100 MW deltas by tracked state); FERC (EL26-70) | C | Full text / data | |
 | SPP | Newsroom; resource-adequacy page; active queue CSV (monthly); FERC (EL26-68) | C | Full text / data | |
 | ERCOT | Market-notice archive; news releases; PUCT dockets (NPRR/PGRR approvals); **large-load interconnection status — *new 3 Oct*** | C, S | Full text | **Large-load status:** the `ercot_large_load` adapter reads the LLWG, TAC, ROS and Board meeting pages and the large-load integration page (all open to the runners as of 3 Oct), fetches matching `/files/docs/` materials and the Board's Monthly Operational Overview, and extracts the status rows and headline figures (MW approved to energize, observed peak consumption of those loads, large-load requests) with the sentence each came from. ERCOT's MIS data-product servlets are disallowed by its robots.txt and are not called; the ERCOT Public API route is built and switches on with its secrets (§1j). The Sweep's web reader remains the cross-check (planning page, notices). |
@@ -158,7 +158,7 @@ shows each adapter's status: `no_key` / `demo_key` until its secret exists, `ok`
 | `CONGRESS_API_KEY` | congress.gov without the DEMO_KEY rate limit |
 | `REGULATIONS_GOV_API_KEY` — *adapter built 4 Oct* | Regulations.gov: DOE / EPA / NRC documents on the beat, and comments by watched parties in those dockets (runs on DEMO_KEY until the secret exists) |
 | `ERCOT_API_SUBSCRIPTION_KEY` + `ERCOT_API_USERNAME` + `ERCOT_API_PASSWORD` | ERCOT Public API report archives (large-load data products by EMIL id). All three are needed: the API takes the subscription key plus a sign-in token made from the ERCOT account's username and password |
-| `PJM_API_KEY` | PJM queue and capacity data (adapter not built) |
+| `PJM_API_KEY` | PJM Data Miner 2 (capacity and market data; adapter not built). Not needed for the queue, which is collected from PJM's public exports since 4 Oct. Account Manager would not offer Data Miner access on Rett's account (4 Oct); PJM Member Relations can fix that |
 
 **Public-repo safety (4 Oct):** EIA and congress.gov take their key in the URL, so everything the collector writes —
 health, state, candidates, backfill, probe output — passes through `common.scrub()`, which masks every secret value
@@ -204,8 +204,8 @@ moved to §1.
 |---|---|---|---|---|---|
 | 1 | **Agency allowlisting (VA, NC, SC, IL, OH, WV)** | Moves six states from manual to nightly full-text collection | Letters drafted in Outlook (not sent); the commissions said they cannot change their systems | S once granted | Optional: send the drafts. A grant flips that state's `route` to `collector`. |
 | 2 | **Keys already wired** (Open States, NRC ADAMS, CourtListener, EIA) | Switch on built adapters | Free accounts | S | Add as repo secrets (§1j). |
-| 3 | **PJM API** (queue, capacity) and **ERCOT Public API** | Queue positions by county; ERCOT data products by EMIL id | Free accounts + subscriptions | M (PJM) / S (ERCOT, built) | Create accounts; a session with push access builds the PJM adapter. |
-| 4 | **CAISO and NYISO interconnection queues** | Completes queue coverage (MISO and SPP done) | Public spreadsheets | M | Add to `queues` after checking each host admits the runners. |
+| 3 | **PJM Data Miner 2** (capacity, market data) and **ERCOT Public API** | ERCOT data products by EMIL id; PJM market data (the PJM queue is already collected from public exports, 4 Oct) | Free accounts + subscriptions | M (PJM) / S (ERCOT, built) | ERCOT: save the three secrets. PJM: low priority; Data Miner terms bar redistribution, so its output would have to stay out of the public repo. |
+| 4 | **CAISO and NYISO interconnection queues** | Completes queue coverage (MISO, SPP and PJM done) | Public spreadsheets | M | Add to `queues` after checking each host admits the runners. |
 | 5 | **S&P RRA / Halcyon / Energy Strategies / DELTa** | Pre-structured docket tracking; the only fully cloud route into the seven blocked commissions | Licensed | S once licensed | Evaluate as a cross-check, not a replacement for primary filings. |
 | 6 | **Earnings call transcripts** | Management commentary on large-load pipeline not in decks | Licensed (CapIQ) or company-posted | S–M | Use CapIQ transcripts if the licence covers it. |
 | 7 | **Loudoun County** | Largest data-center market in the country | Blocked (§2) | — | Add Loudoun's Board packets to the manual pass, or ask the county about robots access for `lfportal`. |
