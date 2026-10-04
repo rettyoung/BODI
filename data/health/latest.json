@@ -1,20 +1,8 @@
 {
  "backfill_since": null,
- "run_id": "2026-10-04-1940",
- "started": "2026-10-04T19:40:17Z",
+ "run_id": "2026-10-04-2101",
+ "started": "2026-10-04T21:01:09Z",
  "sources": {
-  "al_psc": {
-   "since": "2026-10-01",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 36.5,
-   "consecutive_failures": 0
-  },
   "watch_pages": {
    "since": "2026-10-01",
    "found": 1508,
@@ -205,20 +193,20 @@
     }
    },
    "notes": [],
-   "seconds": 182.1,
+   "seconds": 185.2,
    "consecutive_failures": 0
   },
   "rss": {
    "since": "2026-10-01",
-   "found": 28,
-   "new": 9,
+   "found": 29,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 3,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "pjm_insidelines": {
-     "status": "error",
-     "note": "Blocked('block page (captcha) at https://insidelines.pjm.com/feed/')"
+     "status": "ok",
+     "note": "10 entries"
     },
     "pa_cmwlth": {
      "status": "ok",
@@ -270,7 +258,7 @@
     }
    },
    "notes": [],
-   "seconds": 56.9,
+   "seconds": 57.2,
    "consecutive_failures": 0
   },
   "ir_decks": {
@@ -347,7 +335,7 @@
     }
    },
    "notes": [],
-   "seconds": 225.0,
+   "seconds": 230.4,
    "consecutive_failures": 0
   },
   "mirrors": {
@@ -376,7 +364,7 @@
     }
    },
    "notes": [],
-   "seconds": 12.3,
+   "seconds": 12.5,
    "consecutive_failures": 0
   },
   "eia": {
@@ -393,7 +381,7 @@
     }
    },
    "notes": [],
-   "seconds": 40.5,
+   "seconds": 33.1,
    "consecutive_failures": 0
   },
   "congress": {
@@ -410,7 +398,7 @@
     }
    },
    "notes": [],
-   "seconds": 15.6,
+   "seconds": 17.1,
    "consecutive_failures": 0
   },
   "openstates": {
@@ -512,7 +500,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 3.1,
+   "seconds": 3.2,
    "consecutive_failures": 0
   },
   "agendas": {
@@ -553,7 +541,7 @@
     }
    },
    "notes": [],
-   "seconds": 80.7,
+   "seconds": 80.6,
    "consecutive_failures": 0
   },
   "ercot_large_load": {
@@ -586,7 +574,7 @@
     }
    },
    "notes": [],
-   "seconds": 12.4,
+   "seconds": 12.2,
    "consecutive_failures": 0
   },
   "nyiso_icap": {
@@ -603,7 +591,7 @@
     }
    },
    "notes": [],
-   "seconds": 0.4,
+   "seconds": 0.6,
    "consecutive_failures": 0
   },
   "nrc_adams": {
@@ -637,7 +625,7 @@
     }
    },
    "notes": [],
-   "seconds": 3.1,
+   "seconds": 3.7,
    "consecutive_failures": 0
   },
   "ferc_eqr": {
@@ -654,7 +642,7 @@
     }
    },
    "notes": [],
-   "seconds": 3.2,
+   "seconds": 3.1,
    "consecutive_failures": 0
   },
   "studies": {
@@ -682,6 +670,23 @@
    "seconds": 9.1,
    "consecutive_failures": 0
   },
+  "regulations_gov": {
+   "since": "2026-09-15",
+   "found": 27,
+   "new": 27,
+   "baselined_now": 0,
+   "kept": 27,
+   "status": "ok",
+   "subsources": {
+    "regulations_gov": {
+     "status": "demo_key",
+     "note": "26 documents, 1 watched-party comments, 2 dockets watched"
+    }
+   },
+   "notes": [],
+   "seconds": 27.2,
+   "consecutive_failures": 0
+  },
   "ferc": {
    "since": "2026-10-01",
    "found": 19,
@@ -691,7 +696,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 58.1,
+   "seconds": 58.5,
    "consecutive_failures": 0
   },
   "federal_register": {
@@ -703,7 +708,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 39.0,
+   "seconds": 39.1,
    "consecutive_failures": 0
   },
   "edgar": {
@@ -715,7 +720,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 119.4,
+   "seconds": 129.4,
    "consecutive_failures": 0
   },
   "tx_puct": {
@@ -765,7 +770,7 @@
    "notes": [
     "la: U-37921 not found"
    ],
-   "seconds": 21.2,
+   "seconds": 21.7,
    "consecutive_failures": 0
   },
   "ok_occ": {
@@ -798,7 +803,7 @@
     "ok text 21216943: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "ok text 21205773: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
    ],
-   "seconds": 226.6,
+   "seconds": 222.0,
    "consecutive_failures": 0
   },
   "ks_kcc": {
@@ -826,7 +831,7 @@
     "nm 25-00082-UT: 0 documents in window",
     "nm 26-0000062: 0 documents in window"
    ],
-   "seconds": 36.5,
+   "seconds": 36.2,
    "consecutive_failures": 0
   },
   "mo_efis": {
@@ -838,34 +843,44 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 15.5,
+   "seconds": 15.4,
+   "consecutive_failures": 0
+  },
+  "al_psc": {
+   "since": "2026-10-01",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 36.3,
    "consecutive_failures": 0
   }
  },
- "docs_fetched": 0,
- "new_items": 3,
+ "docs_fetched": 1,
+ "new_items": 27,
  "user_agent": "BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)",
  "trigger": {
   "event": "push",
   "cron": null
  },
- "finished": "2026-10-04T20:48:37Z",
+ "hours_since_previous_full_run": 0.2,
+ "collector_gap": false,
+ "finished": "2026-10-04T22:06:48Z",
  "backfill_text": {
-  "queue": 1323,
-  "enriched": 116,
-  "docs": 244,
-  "errors": 62,
+  "queue": 1200,
+  "enriched": 198,
+  "docs": 400,
+  "errors": 92,
   "status": "ok",
-  "gave_up": 32,
-  "retry_later": 13,
-  "remaining": 1207,
-  "seconds": 2819.1
+  "retry_later": 90,
+  "gave_up": 2,
+  "remaining": 1002,
+  "seconds": 2621.6
  },
  "http_hosts": {
-  "https://www.pscpublicaccess.alabama.gov": {
-   "robots": "404",
-   "note": ""
-  },
   "https://www.grda.com": {
    "robots": "200",
    "note": ""
@@ -1019,15 +1034,15 @@
    "note": ""
   },
   "https://insidelines.pjm.com": {
-   "robots": "202",
-   "note": "no robots.txt (HTML app shell)"
+   "robots": "200",
+   "note": ""
   },
   "https://www.pacourts.us": {
    "robots": "404",
    "note": ""
   },
   "https://www.nrc.gov": {
-   "robots": "200",
+   "robots": "403",
    "note": ""
   },
   "https://gridstrategiesllc.com": {
@@ -1202,6 +1217,14 @@
    "robots": "200",
    "note": ""
   },
+  "https://api.regulations.gov": {
+   "robots": "403",
+   "note": ""
+  },
+  "https://downloads.regulations.gov": {
+   "robots": "403",
+   "note": ""
+  },
   "https://elibrary.ferc.gov": {
    "robots": "404",
    "note": ""
@@ -1246,10 +1269,18 @@
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
   },
+  "https://www.pscpublicaccess.alabama.gov": {
+   "robots": "404",
+   "note": ""
+  },
   "https://images.edocket.azcc.gov": {
    "robots": "error",
    "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
+  },
+  "https://services.psc.ga.gov": {
+   "robots": "404",
+   "note": ""
   }
  },
- "seconds": 4100
+ "seconds": 3939
 }

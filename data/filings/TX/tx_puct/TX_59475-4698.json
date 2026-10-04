@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "co-location"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4698_1644841.ZIP",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "extract_error: BadZipFile('File is not a zip file')",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4698_1644842.PDF",
+   "name": null,
+   "bytes": 133573,
+   "sha256": "006797257cf7062348478e90ac2b33a0409d55834404b0cde12f2d5142faa379",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-05-16 11:07:17 AM\n\nControl Number - 59475\n\nItem Number - 4698\n\f[Your Name]\n[Your Address]\n[Email Address]\n[Date]\nRe: Protest of Proposed 765 kV Transmission Line Project\nApplicant: Oncor Electric Delivery Company / Lower Colorado River Authority\nDocket No.: 59475\n\nTo the Public Utility Commission of Texas:\nI submit this formal protest regarding the proposed 765 kV transmission line project that would\nimpact Concho and McCulloch Counties, Texas.\nAs a person that frequents this area for agritourism purposes, I am directly affected by the\nproposed routing of this project. The intrusion of this transmission line would limit my ability to\npursue activities on the affected properties. This will also have a negative economic impact on\nsurrounding towns and businesses as I would have to take my business elsewhere.\n\nLEGAL BASIS FOR PROTEST\n1. Failure to Satisfy Certificate of Convenience and Necessity (CCN) Requirements\nUnder Texas Utilities Code §37.051-§37.056, a utility must obtain or amend a Certificate of\nConvenience and Necessity (CCN) prior to constructing a transmission line.\nThe Commission is required to evaluate:\n   •   Need for service\n\n   •   Adequacy of existing infrastructure\n\n   •   Community values and environmental integrity\n   •   Use of existing rights-of-way\n   •   Alignment with property boundaries and land use\n\nThere is insufficient evidence that this project meets these statutory criteria, particularly with\nrespect to:\n   •   Use of existing corridors\n   •   Minimization of impacts to rural landowners\n\n   •   Demonstrated necessity versus alternatives\n\n2. Violation of PUC Routing Criteria (Substantive Rule §25.101)\n\nThe Commission must evaluate routing based on:\n\f   •   Prudent avoidance of EMF exposure\n\n   •   Community, aesthetic, and environmental impacts\n   •   Use of compatible rights-of-way\nThe proposed route through Concho and McCulloch Counties appears inconsistent with these\nrequirements by:\n   •   Introducing new corridors rather than co-locating infrastructure\n\n   •   Creating disproportionate burdens on rural landowners\n   •   Failing to adequately mitigate visual and environmental harm\n\n3. Property Rights and Eminent Domain Concerns\nTexas law grants utilities eminent domain authority to acquire easements if negotiations fail.\n\nHowever, this authority is contingent upon lawful CCN approval and proper route selection.\nThe proposed routing:\n\n   •   Imposes long-term restrictions on agricultural land use\n\n   •   Reduces property values\n\n   •   Creates permanent encumbrances on private land\n4. Failure to Adequately Consider Environmental and Agricultural Impacts\n\nPUC rules require consideration of environmental integrity and land use impacts.\nIn Concho and McCulloch Counties, this includes:\n   •   Disruption to ranching, farming, and agritourism operations\n\n   •   Soil erosion risks in fragile rangeland\n   •   Wildlife habitat fragmentation\n\n5. Inadequate Public Participation and Rural Impact Equity\nThe routing process must incorporate meaningful Iandowner input and equitable burden\ndistribution.\nConcho and McCulloch County landowners appear to bear disproportionate impacts relative to\nurban beneficiaries.\nREQUEST FOR RELIEF\nI respectfully request that the Commission:\n\f   1. Deny the proposed routing through Concho and McCulloch Counties.\n   2. Require full evaluation of co-location alternatives along existing corridors.\n\n   3. Mandate a comprehensive Environmental Impact Assessment.\n\n   4. Require demonstration of necessity under §37.056.\n\n   5. Ensure compliance with prudent avoidance standards.\n\nRespectfully submitted,\n[Your Signature]\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T21:45:17Z"
 }

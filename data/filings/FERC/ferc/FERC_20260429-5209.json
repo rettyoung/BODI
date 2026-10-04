@@ -41,14 +41,13 @@
  "keywords": [
   "behind-the-meter",
   "curtailment",
+  "emergency",
   "large load",
   "network upgrade",
   "resource adequacy",
   "transmission service"
  ],
- "party_hits": [
-  "Constellation"
- ],
+ "party_hits": [],
  "documents": [
   {
    "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
@@ -86,5 +85,6 @@
    "truncated": false,
    "text": "FERC rendition of the electronically filed tariff records in Docket No. ER26-01323-001\nFiling Data:\n                                                   Company Filing   Type of Filing     Associated\n   CID                    Filing Title\n                                                     Identifier        Code          Filing Identifier\n\n               Deficiency Response -\n               Conditional High Impact                7191              180              7076\n               Large Load Service\n                                                                     Payment          Suspension\n                          Tariff Title                Tariff ID\nC000771                                                             Confirmation        Motion\n\n               Open Access Transmission\n               Tariff, Sixth Revised Volume              5\n               No. 1\n\n\nTariff Record Data:\n\nRecord Content Description                Part VII\nTariff Record Title                       VII Conditional High Impact Large Load\n                                          Transmission Service\nRecord Version Number                     0.1.0\nOption Code                               A\n                                          Part VII Conditional High Impact Large\nRecord Narrative Name\n                                          Load Transmission Service\nTariff Record ID                          1780\nTariff Record Collation Value             221422744\nTariff Record Parent Identifier           0\nProposed Date                             2026-07-01\nPriority Order                            550\nRecord Change Type                        CHANGE\nRecord Content Type                       4\nAssociated Filing Identifier              7076\n\fPART VII.      CONDITIONAL HIGH IMPACT LARGE LOAD TRANSMISSION\n               SERVICE\nPreamble\n       The Transmission Provider will provide Conditional High Impact Large Load Service\n(CHILLS) pursuant to the applicable terms and conditions of this Tariff. CHILLS is for the transfer\nof energy to designated Point(s) of Delivery to serve the Conditional High Impact Large Load\n(CHILL) of a Transmission Customer or a Network Customer.\n\f"
   }
- ]
+ ],
+ "enriched_at": "2026-10-04T21:51:18Z"
 }

@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "transmission service"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4949_1647441.ZIP",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "extract_error: BadZipFile('File is not a zip file')",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4949_1647442.PDF",
+   "name": null,
+   "bytes": 121093,
+   "sha256": "e6cac9b5ee9c7d3754b405b3119c907fac9b9a49baaf6a08ded2676a1aaf1cad",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-05-22 12:39:59 PM\n\nControl Number - 59475\n\nItem Number - 4949\n\f                                    IN THE MATTER OF THE\n     JOINT APPLICATION OF ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA\nTRANSMISSION SERVICE CORPORATION TO AMEND THEIR CERTIFICATES OF CONVENIENCE\n  AND NECESSITY FOR THE BELL COUNTY EAST SWITCH TO BIG HILL SUBSTATION 765-KV\n TRANSMISSION LINE PROJECT IN BELL, BURNET, CONCHO, CORYELL, LAMPASAS, LLANO,\n MASON, MCCULLOCH, MENARD, MILAM, MILLS, SAN SABA, SCHLEICHER, TOM GREEN, AND\n                             WILLIAMSON COUNTIES\n\n          NOTICE OF INTENT TO APPEAR AT HEARING ON THE MERITS\n\n\nIntel™enor / Party name:             Leah Snell\n\n\n\n\nSection A - In-Person Attendance\nDo you or anyone on your behalf plan to attend IN PERSON?\n\nX No - no one will attend in person on our behalf.\n\nm Yes - fill in the lines below.\n\n\nTotal number attending in person:       0\n\n\n  Attorneys:\n  Witnesses:\n  Observers / other:\n\n\nSection B - Virtual / Remote Attendance\nDo you or anyone on your behalf plan to attend VIRTUALLY (by video or phone)?\n\n\nU No - no one will attend virtually on our behalf.\n\n\nX Yes - fill in the lines below.\n\n\nTotal number attending virtually:       3\n\n\n  Attorneys:\n  Witnesses:           1\n  Observers / other:       2\n\fSection C - Accessibility / Special Accommodations\nDoes anyone attending (in person or virtually) need any special accommodations?\n\n\nX No.\n\nm Yes - please describe:\n\n\n\n\nLeah Snell                                   PO BOX 1288\nSignature                                    Mailing Address\n\n\nLeah Snell                                   Lampasas TX 76550\nPrinted Name                                  City, State, ZIP\n\n\nMay 22,202                                    512 734 1418 megtbloch@gmail.com_\nDate                                         Phone / Email\n\n\n\n\nDue:\nFriday, May 22,2026, by 5:00 p.m.       - Upload to PUC Interchange (interchange.puc.texas.gov) under\nPUC Docket No. 59475.\n\nHow to File This Form:\nFile this form through the PUC Interchange e-filing system at interchange.puc.texas.gov/filer under\nPUC Docket No. 59475. Do not mail or email this form to other parties - per SOAH order, no separate\nservice on parties is required.\n\nNo internet access? Mail to: Public Utility Commission of Texas, Filing Clerk P.O. Box 13326, Austin, TX 78711 -\n3326.\n                                             ATTENDEE LIST\n                           Optional - complete only ifyou know who will attend.\n\f       -List in-person and virtual attendees together. Add a separate sheet ifyou need more rows.\n\nIntervenor / Party name:           Leah Snell\n\n\n                                   Role (attorney /\n              Name                witness / observer   Day(s) attending    In person or virtual?\n                                       / other)\n Leah Snell                       witness               1                   virtual\n\n Meg Bloch                        observer              1                   virtual\n\n Lewis Snell                      observer              1                   virtual\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T21:37:55Z"
 }

@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "large load"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_102_1681366.ZIP",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "extract_error: BadZipFile('File is not a zip file')",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_102_1681367.PDF",
+   "name": null,
+   "bytes": 105464,
+   "sha256": "90c30e0553be663d1446fc824dac47e98abf3a1f8b76b1f1d65d837c19bbcb73",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-09 03:34:28 PM\n\nControl Number - 58796\n\nItem Number - 102\n\f                               SOAH DOCKET NO. 473-26-07507\n                                  PUC DOCKET NO. 58796\n\n APPLICATION OF SOUTHWESTERN                          §\n ELECTRIC POWER COMPANY FOR                           §     BEFORE THE STATE OFFICE\n AUTHORITY TO AMEND TARIFFS FOR                       §                     OF\n RETAIL SERVICE TO INCLUDE NEW                        §    ADMINISTRATIVE HEARINGS\n STANDARD FORM CONTRACT FOR                           §\n ELECTRIC SERVICE - LARGE LOAD\n\n                                   JOINT STATUS REPORT\n\n       In accordance with State Office of Administrative Hearings Order No. 11, Southwestern\n\nElectric Power Company (SWEPCO) respectfully submits this joint status report regarding the\n\nsettlement in principle reached by the parties. The parties continue to work to finalize the\n\nsettlement provisions and propose to file either a settlement agreement or status report on or before\n\nSeptember 16, 2026.\n\n\n\nSeptember 9,2026                              Respectfully submitted,\n\n                                              /s/ Patrick Pearsall\n                                              Patrick Pearsall\n                                              State Bar No. 24047492\n                                              Email: ppearsall@balch.com\n                                              BALCH & BINGHAM LLP\n                                              600 Congress Avenue, Suite 2700\n                                              Austin, Texas 78701\n                                              Telephone: (512) 744-9300\n                                              Facsimile: (512) 744-9399\n\n                                              ATTORNEYS FOR SOUTHWESTERN\n                                              ELECTRIC POWER COMPANY\n\n\n\n\nPUC Docket No. 58796                                                                Joint Status Report\nSOAH Docket No. 473-26-07507\n                                                  1\n\f                                CERTIFICATE OF SERVICE\n\n        I certify that on September 9, 2026, this document was filed with the Public Utility\n\nCommission of Texas, and a true and correct copy was served on all parties of record by electronic\n\nmail.\n\n\n                                             /s/ Patrick Pearsall\n                                             Patrick Pearsall\n\n\n\n\nPUC Docket No. 58796                                                             Joint Status Report\nSOAH Docket No. 473-26-07507\n                                                2\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T22:05:42Z"
 }

@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "co-location"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4831_1646814.ZIP",
+   "name": null,
+   "bytes": 900610,
+   "sha256": "8bb65a630ea53eb624166b583e02baa90a627841b54d3ceb69fe737966bc8067",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4831_1646815.PDF",
+   "name": null,
+   "bytes": 148023,
+   "sha256": "fe9c565c9d2e5713c9fe959084786633fe6c5ca87e1123d2752dbdf26b6e3799",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-05-21 11:54:49 AM\n\nControl Number - 59475\n\nItem Number - 4831\n\f   .   Demonstrated necessity versus alternatives\n\n2. Violation of PUC Routing Criteria (Substantive Rule §25.101)\n\nThe Commission must evaluate routing based on:\n\n   e   Prudent avoidance of EMF exposure\n\n   •   Community, aesthetic, and environmental impacts\n\n   ®   Use of compatible rights-of-way\n\nThe proposed route through Concho and McCulloch Counties appears inconsistent with these\nrequirements by:\n   e   Introducing new corridors rather than co-locating infrastructure\n   .   Creating disproportionate burdens on rural landowners\n\n   e   Failingto adequately mitigate visualand environmentalharm\n3. Property Rights and Eminent Domain Concerns\n\nTexas law grants utilities eminent domain authority to acquire easements if negotiations fail.\n\nHowever, this authority is contingent upon lawful CCN approval and proper route selection. The\nproposed routing:\n   e   Imposes long-term restrictions on agricultural land use\n   *   Reduces property values\n\n   .   Creates permanent encumbrances on private land\n\n4. Failure to Adequately Consider Environmental and Agricultural Impacts\n\nPUC rules require consideration of environmental integrity and land use impacts.\n\nIn Concho and McCulloch Counties, this includes:\n\n   o   Disruption to ranching, farming, and agritourism operations\n\n   e   Soil erosion risks in fragile rangeland\n\n   e   Wildlife habitat fragmentation\n5. Inadequate Public Participation and Rural Impact Equity\n\nThe routing process must incorporate meaningful landowner input and equitable burden\ndistribution.\n\n\n                                                                                                           4\n                                                                                                 5.Qi. :103\n\fConcho and McCulloch County landowners appearto bear disproportionate impacts relative to\nurban beneficiaries.\nREQUEST FOR RELIEF\n\nI respectfully request that the Commission:\n\n   1. Deny the proposed routingthrough Concho and McCulloch Counties.\n\n   2. Require full evaluation of co-location alternatives along existing corridors.\n\n   3. Mandate a comprehensive Environmental Impact Assessment.\n\n   4. Require demonstration of necessity under §37.056.\n\n   5. Ensure compliance with prudent avoidance standards.\n\nRespectfully submitted,\n\n\n\n\n                                           t:5 - (11 . CBD 2 (O\n\fByron Amos\n362 Wacker Ln N\n\nMolbile, AL 36608\nbyronamos89@gmail.com\n5/21/2026\nRe: Protest of Proposed 765 kVTransmission Line Project\nApplicant: Oncor Electric Delivery Company / Lower Colorado River Authority\nDocket No.: 59475\n\nTo the Public Utility Commission of Texas:\n\nI submit this formal protest regarding the proposed 765 kV transmission line project that would\nimpact Concho and McCulloch Counties, Texas.\n\nAs a person that frequents this area for agritourism purposes, l am directly affected by the\nproposed routing of this project. The intrusion of this transmission line would limit my ability to\npursue activities on the affected properties. This will also have a negative economic impact on\nsurroundingtowns and businesses as I would have to take my business elsewhere.\nLEGAL BASIS FOR PROTEST\n\n1. Failure to Satisfy Certificate of Convenience and Necessity (CCN) Requirements\n\nUnder Texas Utilities Code §37.051-§37.056, a utility must obtain or amend a Certificate of\nConvenience and Necessity (CCN) priorto constructing a transmission line.\n\nThe Commission is required to evaluate:\n\n   e   Need for service\n\n   •   Adequacy of existing infrastructure\n\n   •   Community values and environmental integrity\n\n   •   Use of existing rights-of-way\n\n   e   Alignmentwith property boundaries and land use\n\nThere is insufficient evidence that this project meets these statutory criteria, particularly with\nrespect to:\n   •   Use of existing corridors\n\n   •   Minimization of impacts to rural landowners\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T21:39:58Z"
 }

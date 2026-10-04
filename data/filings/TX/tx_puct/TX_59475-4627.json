@@ -19,5 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4627_1644127.ZIP",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "extract_error: BadZipFile('File is not a zip file')",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4627_1644128.PDF",
+   "name": null,
+   "bytes": 86980,
+   "sha256": "4094ad720614bd66cc549283c859edd7a520e8790ad8c3d4b86e179f3aedc0f5",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 2,
+   "truncated": false,
+   "text": "Filing Receipt\n\nFiled Date - 2026-05-14 07:46:36 PM\nControl Number - 59475\n\nItem Number - 4627\n\n\fFiling Party Name (?)\nDo not use PUC Central Records as your filing\nparty name.\n\nHelen Ballard\n\nFiling Type (?)\n\nCOMMENTS\n\nFiling Description )\nFor example, the title of your document.\n\nProtester\n\n"
+  }
+ ],
+ "enriched_at": "2026-10-04T21:47:46Z"
 }

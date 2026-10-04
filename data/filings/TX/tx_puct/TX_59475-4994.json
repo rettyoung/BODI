@@ -19,5 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4994_1647652.ZIP",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "extract_error: BadZipFile('File is not a zip file')",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4994_1647653.PDF",
+   "name": null,
+   "bytes": 121346,
+   "sha256": "be5bc6bdf4605ae9b2a222aa1ef285b01c3a8d98c7c3ec25d79128aaeca14bbb",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-05-22 02:32:50 PM\n\nControl Number - 59475\n\nItem Number - 4994\n\fName:       7on I:32, n n,· .tjs\nAddress :    40-1_ 5 C, Aerr,t L•\nCity, State, Zip: 6,ra.·6 u r*, 732 76, 04 3>\nPhone:      F/7. 5 7 y' 9 ¥4 9\nEmail:       ron :3e n 4, 4~5 1 (F~MA; (• 20•AA\n\n\nDate:\n\nPublic Utility Commission of Texas\nWilliam B Travis Building\n].701 N Congress Avenue, Suite 7-110\nAustin, TX 78701\n\nRE: Protest Letter Against Oneor & LCRA TSC Bell County East to Big Hill 765kV Transmission\nProject (Docket 59475)\n\nDear Chairman Gleeson and Commissioners,\n\nThank you for your service to our state and for your continued commitment to protecting Texas communities\nfrom irresponsible infrastructure projects. I am writing today to express my Protest against the Bell County\nEast to Big Hill 765kV transmission project proposed by Oncor and LCRA TSC.\n\nAs a resident ofthe area, I can confirm that this project does not fit our community values. Our area has\nintentionally pursued measured, deliberate growth, prioritizing rural character, land stewardship, and\ncommunity over rapid or infrastructure-driven expansion. And while it brings no benefit to our area, it also\nposes serious risks, and 1 would like to highlight several specific concerns:\n   • Burden of cost to Texas Ratepayers of the fully financed cost of the line.\n   • Insufficient care giving proper notice to Affected Landowners to have full access to 30-day response time\nfor Intervenor Application.\n   • Ruination ofthe scenic and historic quintessential Texas landscape.\n   • Proximity to homes, parks, livestock and water wells, raising safety, health, and quality-of-life concerns\nfor families who have built their multi-generational lives here.\n   .     Destruction of historic ranches, archaeological sites, and valuable cultural resources that help define the\nlegacy of our region.\n   • Economic impacts, decreased property values, decreased hunting revenues, and increased costs from road\ndegradatioh during construction.\n   • Environmental impact to habitat of all types, and impact on karst limestone due to massive pilings under\nthe unprecedented size of the towers.\n   • Safety concerns, increased wildfire risk and interaction with natural gas pipelines, and inadequately\nprepared and economically strapped volunteer fire departments.\n\nGiven the magnitude of these concerns, and the overwhelming lack of public support, I respectfully request\nthat you denv any CCN amendment applications for this project. Thank you for your time and consideration on\nthis urgent matter.\n\nSincerely,\n               (i*.\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T21:35:27Z"
 }

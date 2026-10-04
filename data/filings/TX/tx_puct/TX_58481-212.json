@@ -17,7 +17,40 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "co-located",
+  "co-location",
+  "interconnection",
+  "large load",
+  "large-load",
+  "load interconnection"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_212_1681184.ZIP",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "extract_error: BadZipFile('File is not a zip file')",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_212_1681185.PDF",
+   "name": null,
+   "bytes": 130286,
+   "sha256": "9e00c3c17c8f5d8c48eeecc1fd5c52e1d75d02804c4415e410902882a7e0f77a",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-09 11:28:39 AM\n\nControl Number - 58481\n\nItem Number - 212\n\f                                      PROJECT NO. 58481\n\n RULEMAKING TO ESTABLISH                          §        PUBLIC UTILITY COMMISSION\n LARGE LOAD INTERCONNECTION                       §\n STANDARDS UNDER PURA §37.0561                    §                       OF TEXAS\n\n                      SOLUNA HOLDINGS, INC. COMMENTS\n                TO PROPOSAL FOR ADOPTION OF NEW 16 TAC § 25.194\n\n        Soluna Holdings, Inc. (\" Soluna\") respectfully submits these additional comments to the\nPublic Utility Commission of Texas (\"Commission\") to request clarification of the Proposal for\nAdoption (\"PFA\") in Project No. 58481 filed on September 3rd\n\n        Soluna operates large computational load facilities, including existing loads that exceed 75\nMW and are co-located behind the meter.          Soluna requests that the Commission clarify the\napplicability of the proposed rule in one specific scenario-for expansions of existing large-loads\nthat are co-located with a generation resource, but where the expansion that is less than 75 MW.\n\n        Specifically, the Proposal for Adoption (PFA) states that it applies as follows:\n\n       (1)     This section applies to a large load customer that has not energized\n               as of the effective date of this section and that seeks:\n               (A) a new interconnection at a single site that is equal to or exceeds\n                   75 megawatts (MW);\n               (B)   an expanded interconnection at a single site that equals or\n                     exceeds 75 MW for the first time;\n               (C)   an expanded interconnection at a single site that exceeds 75\n                     MW and is expanding by 75 MW or more; or\n               (D) to co-locate with a generation resource.\n       (2)     For a large load customer that seeks an expanded interconnection,\n               this section applies to the incremental load addition.\n\n\n        Soluna believes that the blanket application to any large load that will \"co-locate with\na generation resource\" could be read more broadly than intended. As drafted, it is not clear\nwhen an expansion at an existing co-location site would trigger the rule requirements. The\ntriggers should be the same for a standalone large load additions or a co-located load. In other\nwords, subparts (1)(A)-(C)-which describe either exceeding 75 MW for the first time or\nadding 75 MW or more of incremental demand-should also apply to proposed load that is co-\nlocated with a generator. It should not be the case that any additional load at a co-location site\n\f       that is already over 75 MW would be subject to the rules, when that is not true for standalone\n       loads. In other words, the stated applicability to any large load that is \"co-located with a\n       generator\" could mean that any expansion at a site with load that already exceeds 75 MW-\n       even a 1 MW expansion-would be subject to these rules, which does not make sense from a\n       policy or practical standpoint.\n\n                   Soluna respectfully requests clarification, or correction if needed, to avoid future\n       confusion. Specifically, Soluna suggests the following revision to § 25.194(b)(4)\n\n                                  (D)          to co-locate with a generation resource and that otherwise\n                                               meets the standards in subparagraphs (A)-(Cj.\n\n       Soluna thanks Commission Staff for all of the hard work on this challenging rule and appreciates\n       Staff' s and Commission' s attention to clarifying this important issue.\n\n\n                                                                    Respectfully submitted,\n\n\n                                                                    By, John Belizaire\n\n                                                                    John Belizaire\n                                                                    CEO, Soluna Holdings, Inc.\n                                                                    325 Washington Ave. Extension\n                                                                    Albany, NY 12205\n                                                                    Telephone: 516-216-9257\n                                                                    E-mail: john@soluna.io\n\n\nSignature :   Jokpl Eell'ZiU'M\n              John Belizaire (Sep 9,2026 09:15:20 PDT)\n\n    Email: john@soluna.io\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T22:05:17Z"
 }

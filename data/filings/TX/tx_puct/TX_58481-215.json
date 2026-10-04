@@ -17,7 +17,41 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "batch zero",
+  "collateral",
+  "interconnection",
+  "large load",
+  "load interconnection",
+  "minimum bill",
+  "ratepayer protection"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_215_1681540.ZIP",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "extract_error: BadZipFile('File is not a zip file')",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_215_1681541.PDF",
+   "name": null,
+   "bytes": 150267,
+   "sha256": "e6b6fc620f24aee09c413d4aba5b352cd7a049abc835076a281ff0c5eba0f483",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-09 08:31:46 PM\n\nControl Number - 58481\n\nItem Number - 215\n\f                                        PROJECT NO. 58481\n\nRULEMAKING TO                                       §                         PUBLIC UTILITY\nIMPLEMENT                                           §                          COMMISSION\nLARGELOAD                                           §                           OF TEXAS\nINTERCONNECTION\nSTANDARDS UNDER PURA\n§37.0561\n\n                          COMMENTS OF LANCIUM LLC ON\n                      STAFF'S RECOMMENDED ADOPTION ORDER\n\nIntroduction\nLancium LLC appreciates the Commission's and Staffs work to implement Senate Bill 6 and\nestablish consistent large load interconnection standards. These comments address Staffs\nSeptember 3,2026 recommended adoption order for consideration at the September 11 Open\nMeeting.1 We support protecting ratepayers from stranded infrastructure costs while preserving\na predictable path for project development in Texas. Two implementation issues warrant further\nclarity, particularly for projects approaching energization in Q4 2026 and beyond.\nExecutive Summary\n• Establish and publish firm dates for adoption and implementation of the Standard Large Load\n  Interconnection Agreement (SLLIA), with a transition process that allows otherwise eligible\n  Batch Zero base loads to energize without delay attributable to the form's availability.\n• Coordinate Project No. 58000 and the SLLIA proceeding to recognize prior payments and\n   security, address the circumstances of substantially completed projects, and prevent\n   duplicative collateral for the same costs and exposure.\nSLLIA Timing and the Transition for Base Loads\nFor qualifying Batch Zero loads unenergized when the rule takes effect, recommended\n§25.194(h)(3) requires execution of a SLLIA, while subsection (f) ties the execution deadline to\nERCOT's issuance of a capacity-allocation study report. The recommended order leaves\nadoption of the standard form to a future proceeding. This creates uncertainty for base loads\nthat are not subject to additional Batch Zero study and could otherwise be ready to energize\nbefore that study is completed, subject to ERCOT's verification and applicable energization\nrequirements.2\nWe respectfully request Commissioners direct staff to publish an implementation schedule\nidentifying firm dates for SLLIA adoption, availability for execution, and transition from existing\nagreements. The Commission should also clarify the execution deadline applicable to these\nbase loads and provide an interim agreement or other transition mechanism if the standard form\n\n1 Project No. 58481, Commission Staff's Recommended Adoption Order, Item 208 (Sept. 3,2026) (Recommended\nOrder).\n2 Recommended Order at 38,224,248,273; ERCOT Planning Guide §§9.2.1.1,9.6; ERCOT Market Notice M-\nA080326-04 (Sept. 3,2026).\n\n\n\n                                                     1\n\fis unavailable when a project is otherwise eligible to energize. A dependable schedule will\nsupport financing decisions and avoid additional uncertainty for lenders and investors\nsupporting projects already under construction or nearing completion.\nFinancial Security and Recognition of Existing Commitments\nRecommended §25.194(f)(2)(B) requires security equal to the greater of $50,000 per MW of\ncontracted peak demand or allocated system-upgrade costs, and permits additional security\nrelated to minimum billing demand. We appreciate the provisions for returning or crediting\nexisting security and the limited protection for direct interconnection costs under agreements\nexecuted on or before June 1, 2025.3 Even with these protections, the resulting requirements\nmay create substantial incremental commitments late in development.\nFor projects with completed studies and agreements executed before SB 6's enactment,\nsubstantially completed construction, and satisfied interconnection payment and upgrade-\nsecurity obligations, implementation should account for the significant commitments already\nmade. In the SLLIA proceeding and Project No. 58000, the Commission should specify how\napplicable credits and replacement collateral will be coordinated and identify the remaining\nexposure that any incremental security is intended to cover.\nThose proceedings should also prevent overlapping collateral to the extent \"system upgrade\"\nsecurity and any minimum billing demand security cover the same infrastructure costs and risk.\nWhere those costs have already been fully paid or secured, a second collateral requirement for\nthe same exposure provides no additional stranded-cost protection. Any additional requirement\nshould be supported by a distinct, uncovered obligation, with clear crediting and release\nprovisions. This approach would preserve ratepayer protections while improving certainty\nregarding the total financial commitment required to complete and operate a project. \"System\nupgrade\" payments that cover the same costs as the minimum billing demand would be\nduplicative.\nConclusion\nWe appreciate the opportunity to offer these implementation recommendations and request\ncoordinated guidance in the SLLIA proceeding and Project No. 58000 to support timely\nenergization and continued investment in Texas.\nRespectfully submitted,\n\n\nEvan Neel\nSr. Director, Regulatory and Power Services\nLancium LLC\n\n\n\n\n3 Recommended Order §§25.194(f)(2)(A)-(B), (h)(1)(D), (h)(3)(B), at 255-257, 272-273.\n\n\n\n                                                       2\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-04T22:04:09Z"
 }
