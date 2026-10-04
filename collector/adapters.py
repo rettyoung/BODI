@@ -810,3 +810,8 @@ ADAPTERS = {
 # Second-wave adapters (keyed APIs, queues, courts, local government).
 from adapters2 import ADAPTERS2  # noqa: E402
 ADAPTERS.update(ADAPTERS2)
+
+# Third wave (3 Oct 2026): state courts, local agendas, ERCOT large-load status, NYISO ICAP, NRC ADAMS,
+# FERC Form 1 / EQR, LBNL studies.
+from adapters3 import ADAPTERS3, POSTPROCESS  # noqa: E402
+ADAPTERS.update(ADAPTERS3)

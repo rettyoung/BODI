@@ -171,6 +171,8 @@ def main(names):
             save_json(os.path.join(DATA, "debug", "fetch_" + os.path.basename(name[6:])), o)
             print(json.dumps(o)[:2000], flush=True)
             continue
+        with_docs = name.endswith("+docs")
+        name = name[:-5] if with_docs else name
         http = Http(delay=2)
         http.session.headers["User-Agent"] = cfg["user_agent"]
         exchanges = []
@@ -190,11 +192,22 @@ def main(names):
         try:
             items = A.ADAPTERS[name](ctx) or []
             out.update(items=len(items), sample=items[:8])
+            if with_docs:
+                from run import fetch_docs
+                fetched = []
+                for it in [i for i in items if i.get("fetch")][:3]:
+                    docs = fetch_docs(http, it, ctx)
+                    pp = (it.get("meta") or {}).get("postprocess")
+                    if pp:
+                        A.POSTPROCESS[pp](it, docs)
+                    fetched.append({"id": it["id"], "meta": it.get("meta"),
+                                    "docs": [{k: (v[:1500] if isinstance(v, str) else v) for k, v in d.items()} for d in docs]})
+                out["fetched"] = fetched
         except Exception as e:
             out.update(error=repr(e), trace=traceback.format_exc()[-2000:])
         finally:
             ctx.close()
-        out.update(notes=ctx.notes, sub=ctx.sub, exchanges=exchanges[:80], adapter_state=ctx.state)
+        out.update(notes=ctx.notes, sub=ctx.sub, exchanges=[{**x, "body": x["body"][:2000]} for x in exchanges[:60]], adapter_state=ctx.state)
         save_json(os.path.join(DATA, "debug", f"{name}.json"), out)
         print(name, out.get("items"), out.get("error", ""), len(exchanges), "exchanges", flush=True)
 

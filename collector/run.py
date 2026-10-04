@@ -41,7 +41,7 @@ BACKFILL_SINCE = os.environ.get("BACKFILL_SINCE") or None   # one-off history pu
 PRIORITY = re.compile(r"order|tariff|rate schedule|settlement|stipulation|brief|testimony|compliance|agreement|contract|"
                       r"application|petition|complaint|protest|comments|report|notice of hearing|rule|directive|"
                       r"large load|data cent", re.I)
-BASELINE_SOURCES = {"watch_pages", "ir_decks", "mirrors", "agendas"}   # undated lists: first sight = baseline (RSS is dated)
+BASELINE_SOURCES = {"watch_pages", "ir_decks", "mirrors"}   # undated lists: first sight = baseline (RSS is dated)
 LIST_PREFIXES = ("PAGE:", "RSS:", "IR:", "MIRROR:", "AGENDA:")
 
 
@@ -260,6 +260,12 @@ def main(only=None):
                     docs = fetch_docs(http, it, ctx)
                     docs_budget -= len(docs)
                     health["docs_fetched"] += len(docs)
+                pp = (it.get("meta") or {}).get("postprocess")
+                if pp and docs:
+                    try:
+                        A.POSTPROCESS[pp](it, docs)
+                    except Exception as e:
+                        ctx.log(f"postprocess {pp} {it['id']}: {e!r}"[:200])
                 hits = keyword_hit(it, docs, kws)
                 # whole-word party match on title, filer and the first document's cover page
                 from backfill_text import _hits as _party_hits

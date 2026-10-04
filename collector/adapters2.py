@@ -200,6 +200,12 @@ def openstates(ctx):
 
 
 # =========================================================================== CourtListener (key optional)
+# CourtListener court ids for the tracked states' appellate courts (exact id) -> jurisdiction
+STATE_COURTS = {"texapp": "TX", "tex": "TX", "pacommwct": "PA", "pa": "PA", "ohio": "OH", "wva": "WV", "va": "VA",
+                "vactapp": "VA", "ncctapp": "NC", "nc": "NC", "sc": "SC", "scctapp": "SC", "illappct": "IL", "ill": "IL",
+                "ga": "GA", "gactapp": "GA", "ariz": "AZ", "arizctapp": "AZ", "la": "LA", "lactapp": "LA", "mo": "MO",
+                "moctapp": "MO", "kan": "KS", "kanctapp": "KS", "okla": "OK", "oklacivapp": "OK", "nm": "NM",
+                "nmctapp": "NM", "nev": "NV", "nevapp": "NV", "ala": "AL", "alacivapp": "AL"}
 def courtlistener(ctx):
     """Federal and state appellate opinions and RECAP dockets on large-load / tariff matters.
     Keyless use is throttled by CourtListener; with COURTLISTENER_TOKEN it runs at full rate."""
@@ -210,11 +216,14 @@ def courtlistener(ctx):
     if not tok:
         queries = queries[:2]   # keyless use is rate-limited hard; a free token lifts it
     for q in queries:
+        court = None
+        if isinstance(q, dict):     # {q: ..., court: "texapp tex ..."} restricts a query to named courts
+            q, court = q["q"], q.get("court")
         for typ in ("o", "r"):
-            if typ == "r" and not tok:
-                continue   # RECAP docket search needs a token
+            if typ == "r" and (not tok or court):
+                continue   # RECAP docket search needs a token; state courts are not in RECAP
             url = (f"https://www.courtlistener.com/api/rest/v4/search/?type={typ}&order_by=dateFiled%20desc"
-                   f"&filed_after={ctx.since}&q={quote(q)}")
+                   f"&filed_after={ctx.since}&q={quote(q)}" + (f"&court={quote(court)}" if court else ""))
             try:
                 j = ctx.http.get(url, headers=hdr).json()
             except Blocked as e:
@@ -228,7 +237,9 @@ def courtlistener(ctx):
             for r in j.get("results", [])[:40]:
                 cid = r.get("cluster_id") or r.get("docket_id") or r.get("id")
                 abs_url = r.get("absolute_url") or ""
-                items.append({"id": f"COURT:{typ}:{cid}", "jur": "US-Federal", "source": "courtlistener", "kind": "court",
+                cid_court = str(r.get("court_id") or r.get("court") or "")
+                jur = STATE_COURTS.get(cid_court, "US-Federal")
+                items.append({"id": f"COURT:{typ}:{cid}", "jur": jur, "source": "courtlistener", "kind": "court",
                               "docket": r.get("docketNumber"), "title": (r.get("caseName") or r.get("case_name") or "")[:300],
                               "filed": (r.get("dateFiled") or "")[:10] or None,
                               "url": "https://www.courtlistener.com" + abs_url if abs_url.startswith("/") else abs_url,

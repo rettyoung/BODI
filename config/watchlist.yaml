@@ -153,13 +153,14 @@ watch_pages:
   # ---- Recommendation 5: capacity auction results and planning parameters
   - {id: pjm_rpm, jur: FERC, rto: PJM, url: "https://www.pjm.com/markets-and-operations/rpm", link: "\\.pdf|\\.ashx|\\.xlsx", title_filter: "auction|results|planning parameters|BRA", verify: true}
   - {id: miso_pra, jur: FERC, rto: MISO, url: "https://www.misoenergy.org/planning/resource-adequacy/", link: "\\.pdf|auction|PRA", title_filter: "auction|PRA|results", verify: true}
-  - {id: nyiso_icap, jur: FERC, rto: NYISO, url: "https://www.nyiso.com/installed-capacity-market", link: "\\.pdf|\\.xlsx", title_filter: "auction|results|demand curve", verify: true, render: true}
   - {id: isone_fcm, jur: FERC, rto: ISO-NE, url: "https://www.iso-ne.com/markets-operations/markets/forward-capacity-market", link: "\\.pdf|fca|auction", title_filter: "auction|results|FCA|capacity", verify: true}
   - {id: spp_ra, jur: FERC, rto: SPP, url: "https://www.spp.org/engineering/resource-adequacy/", link: "\\.pdf|adequacy", title_filter: "requirement|planning reserve|adequacy|PRM", verify: true}
-  # ---- Recommendation 6: state appellate courts (opinion lists; only utility/commission titles fetched)
+  # ---- Recommendation 6: state appellate courts (opinion lists; only utility/commission titles fetched).
+  # PA Commonwealth Court moved to its RSS feed (rss: pa_cmwlth) on 2026-10-03; the old page rendered 0 links.
+  # NYISO ICAP moved to the nyiso_icap adapter (document-library API) and NRC news to RSS (rss: nrc_news).
   - {id: va_scv, jur: VA, url: "https://www.vacourts.gov/scv/opinions/home", link: "\\.pdf", title_filter: "commission|electric|power|utilit|corporation", verify: true}
+  - {id: wv_sca, jur: WV, url: "https://www.courtswv.gov/appellate-courts/supreme-court-of-appeals/opinions", link: "\\.pdf", title_filter: "Public Service Commission|Power Company|Electric|Edison|Appalachian|Monongahela|Wheeling Power|Mountaineer Gas|data cent|microgrid|utility", verify: true}
   - {id: va_cav, jur: VA, url: "https://www.vacourts.gov/cav/opinions/home", link: "\\.pdf", title_filter: "commission|electric|power|utilit", verify: true}
-  - {id: pa_cmwlth, jur: PA, url: "https://www.pacourts.us/courts/commonwealth-court/court-opinions", link: "\\.pdf|opinion", title_filter: "utility|PUC|Public Utility|electric|PPL|PECO", verify: true, render: true}
   # ---- Recommendation 7: governors' executive orders and newsrooms (remaining states)
   - {id: gov_al, jur: AL, url: "https://governor.alabama.gov/newsroom/", link: "newsroom/", verify: true}
   - {id: gov_il, jur: IL, url: "https://gov.illinois.gov/newsroom.html", link: "news", verify: true}
@@ -180,10 +181,31 @@ watch_pages:
   - {id: doe_news, jur: US-Federal, url: "https://www.energy.gov/newsroom", link: "/articles/", title_filter: "grid|power|electric|202|nuclear|loan|data cent|transmission", verify: true}
   - {id: doe_202c, jur: US-Federal, url: "https://www.energy.gov/ceser/federal-power-act-section-202c", link: "\\.pdf|202", verify: true}
   - {id: doe_lpo, jur: US-Federal, url: "https://www.energy.gov/lpo/lpo-news", link: "/articles/|lpo", verify: true}
-  - {id: nrc_news, jur: US-Federal, url: "https://www.nrc.gov/reading-rm/doc-collections/news/", link: "news|\\.pdf", title_filter: "restart|uprate|license|construction permit|small modular|SMR|Palisades|Crane|Duane Arnold|advanced reactor", verify: true, render: true}
 
 rss:
   - {id: pjm_insidelines, rto: PJM, url: "https://insidelines.pjm.com/feed/"}
+  # ---- Wave 3 (2026-10-03). title_filter screens entries by title+summary; text_filter keeps a fetched entry
+  # only if its text matches; fetch_link downloads the entry's own document.
+  - {id: pa_cmwlth, jur: PA, kind: court, url: "https://www.pacourts.us/Rss/Opinions/Commonwealth/", fetch_link: true,
+     title_filter: "P\\.?U\\.?C\\b|Public Utility|Utility Commission|Consumer Advocate|Electric|Power|PPL|PECO|Duquesne|FirstEnergy|Penelec|Met-Ed|West Penn|Data Cent"}
+  - {id: nrc_news, jur: US-Federal, url: "https://www.nrc.gov/public-involve/rss?feed=news", fetch_link: true,
+     title_filter: "restart|uprate|licen[cs]e|construction permit|early site|small modular|SMR|advanced reactor|Palisades|Crane|Three Mile|Duane Arnold|Clinch River|Long Mott|Kemmerer|Hermes|Natrium|Pioneer|hearing|subsequent license|co-locat|data cent"}
+  - {id: grid_strategies, fetch_link: true, jur: US-Federal, url: "https://gridstrategiesllc.com/feed/",
+     title_filter: "load growth|load forecast|data cent|large load|demand|interconnection|transmission|resource adequacy|capacity"}
+  # Hyperscaler newsrooms: energy / siting announcements only (Oracle's newsroom refuses automated clients
+  # with HTTP 403 and is not read; Oracle arrives through EDGAR 8-Ks and party watch).
+  - {id: msft_issues, fetch_link: true, entity: Microsoft, url: "https://blogs.microsoft.com/on-the-issues/feed/", text_filter: "data ?cent|datacenter|electric|power (grid|purchase|plant)|grid|nuclear|gigawatt|\\bGW\\b|megawatt|\\bMW\\b|utility|ratepayer|community[- ]first|energy",
+     title_filter: "data ?cent|datacenter|energy|power|grid|electric|nuclear|community|infrastructure|invest|campus|AI infrastructure|water|carbon"}
+  - {id: msft_source, fetch_link: true, entity: Microsoft, url: "https://news.microsoft.com/source/feed/", text_filter: "data ?cent|datacenter|electric|power grid|nuclear|gigawatt|\\bGW\\b|megawatt|utility|energy",
+     title_filter: "data ?cent|datacenter|energy|power|grid|electric|nuclear|infrastructure|invest|campus"}
+  - {id: google_blog, fetch_link: true, entity: Google, url: "https://blog.google/rss/", text_filter: "data ?cent|electric|power grid|nuclear|geothermal|gigawatt|\\bGW\\b|megawatt|utility|energy",
+     title_filter: "data ?cent|energy|power|grid|electric|nuclear|geothermal|infrastructure|invest|campus|carbon-free"}
+  - {id: google_sustain, fetch_link: true, entity: Google, url: "https://blog.google/outreach-initiatives/sustainability/rss/", text_filter: "data ?cent|electric|power|grid|nuclear|geothermal|gigawatt|\\bGW\\b|megawatt|utility|PPA"}
+  - {id: amazon_news, fetch_link: true, entity: Amazon, url: "https://www.aboutamazon.com/news/rss", text_filter: "data ?cent|electric|power grid|nuclear|SMR|gigawatt|\\bGW\\b|megawatt|utility|energy",
+     title_filter: "data ?cent|energy|power|grid|electric|nuclear|infrastructure|invest|campus|AWS|billion"}
+  - {id: meta_news, fetch_link: true, entity: Meta, url: "https://about.fb.com/news/feed/", text_filter: "data ?cent|electric|power grid|nuclear|gas plant|gigawatt|\\bGW\\b|megawatt|utility|energy",
+     title_filter: "data ?cent|energy|power|grid|electric|nuclear|infrastructure|invest|campus|Hyperion|Prometheus"}
+  - {id: meta_datacenters, fetch_link: true, entity: Meta, url: "https://datacenters.atmeta.com/feed/", text_filter: "data ?cent|electric|power|grid|nuclear|energy|megawatt|utility"}
   - {id: utilitydive,  url: "https://www.utilitydive.com/feeds/news/"}
   - {id: rtoinsider,   url: "https://www.rtoinsider.com/feed/", note: "cross-check only (~10 items)"}
   - {id: canary,       url: "https://www.canarymedia.com/feed"}
@@ -230,6 +252,11 @@ openstates_queries: ["data center", "large load", "electric service agreement"]
 
 # ---- Recommendation 6: courts (CourtListener; COURTLISTENER_TOKEN secret optional, enables docket search)
 court_queries:
+  # state appellate courts first (keyless runs read only the first two queries). The Texas courts of appeals'
+  # own site (TAMES) disallows crawlers, so their opinions come from here; the 15th Court of Appeals has heard
+  # appeals of state-agency (PUC) decisions since 2024-09-01.
+  - {q: '"Public Utility Commission" OR "Public Utilities Commission" OR "Public Service Commission" OR "Corporation Commission" OR "Electric Reliability Council" OR "Utilities Commission"',
+     court: "texapp tex pacommwct pa ohio wva va vactapp ncctapp nc sc scctapp illappct ill ga gactapp ariz arizctapp la lactapp mo moctapp kan kanctapp okla oklacivapp nm nmctapp nev nevapp ala alacivapp"}
   - '"large load" AND (tariff OR commission OR FERC)'
   - '"data center" AND ("public service commission" OR "corporation commission" OR "public utility commission")'
   - '"co-location" AND (PJM OR FERC)'
@@ -250,3 +277,60 @@ legistar:
   - {client: sanantonio, name: "City of San Antonio, TX", jur: TX}
   - {client: fortworthgov, name: "City of Fort Worth, TX", jur: TX}
   - {client: kansascity, name: "Kansas City, MO", jur: MO}
+  - {client: washoe-nv, name: "Washoe County, NV", jur: NV}    # added 2026-10-03 (Reno-area campuses)
+
+# ---- Wave 3 (2026-10-03): local agendas outside Legistar (adapter: agendas). A new agenda document or meeting
+# page is fetched and kept only if its text matches agenda_filter (or the entry's own text_filter).
+# Not collectable (checked 2026-10-03): Loudoun (packets on lfportal.loudoun.gov, whose robots.txt cannot be read,
+# = disallow; loudoun.granicus.com disallows crawlers), City of Reno (reno.primegov.com disallows crawlers),
+# Fulton County (agenda list is not in the page HTML). Fairfax Planning Commission posts only monthly calendars;
+# its data-center cases reach the Board's land-use agenda, which is read.
+agenda_filter: "data ?cent|datacenter|hyperscale|server farm|data processing|large load|substation|critical facility|technology campus|zoning text amendment"
+agendas:
+  - {id: atlanta, name: "City of Atlanta, GA", jur: GA, url: "https://atlantacityga.iqm2.com/Services/RSS.aspx?Feed=Calendar",
+     heading_pairs: true, link: "Detail_Meeting\\.aspx", title_filter: "(Atlanta City Council|Zoning|Community Development|Utilities|Transportation)[^—]*- Agenda -", max_new: 4}
+  - {id: storey, name: "Storey County, NV", jur: NV, url: "https://www.storeycounty.org/RSSFeed.aspx?ModID=65", rss: true,
+     follow: "AgendaCenter/PreviousVersions", link: "AgendaCenter/ViewFile", title_filter: "Board of County Commissioners|Planning Commission"}
+  - {id: tulsa_council, name: "Tulsa City Council, OK", jur: OK, url: "https://www.tulsacouncil.org/", link: "COTDisplayDocument/\\?DocumentType=Agenda"}
+  - {id: tulsa_tmapc, name: "Tulsa Metropolitan Area Planning Commission, OK", jur: OK, url: "https://tulsaplanning.org/boards/pc/agenda/", link: "tulsaplanning\\.org/agendas/"}
+  - {id: tulsa_boa, name: "Tulsa Board of Adjustment, OK", jur: OK, url: "https://tulsaplanning.org/boards/boa/agenda/", link: "tulsaplanning\\.org/agendas/"}
+  - {id: henrico, name: "Henrico County, VA", jur: VA, url: "https://henrico.gov/supervisors/supervisors-agenda-o-gram/", link: "/pdfs/manager/meetings\\d{4}/\\d{5,6}ag\\.pdf"}
+  - {id: fairfax_bos, name: "Fairfax County Board of Supervisors, VA", jur: VA, url: "https://www.fairfaxcounty.gov/boardofsupervisors/2026-board-meetings",
+     link: "/boardofsupervisors/([a-z]{3,9}-\\d{1,2}-\\d{4}-meeting|board-supervisors-(land-use-policy|environmental)-committee-meeting-[a-z]+-\\d{1,2}-\\d{4})$"}
+
+# ---- Wave 3: Supreme Court of Texas orders filter (adapter: courts_state)
+tx_court_filter: "Public Utility Commission|PUC of Texas|Electric Reliability Council|ERCOT|Oncor|CenterPoint|AEP Texas|Entergy Texas|El Paso Electric|Southwestern Public Service|Texas-New Mexico Power|Lower Colorado River|LCRA|Luminant|Vistra|Calpine|transmission line|large load|data cent"
+
+# ---- Wave 3: NRC ADAMS dockets (adapter: nrc_adams; needs repo secret NRC_APS_KEY)
+nrc_dockets:
+  "05000255": "Palisades (Holtec restart)"
+  "05000289": "Crane Clean Energy Center / TMI-1 (Constellation restart)"
+  "05000331": "Duane Arnold (NextEra restart)"
+  "05000611": "Kairos Hermes 2 unit 1"
+  "05000612": "Kairos Hermes 2 unit 2"
+  "05000613": "TerraPower Kemmerer 1 (Natrium)"
+  "05000614": "Long Mott (Dow / X-energy)"
+  "05000615": "TVA Clinch River BWRX-300"
+  "05000616": "Holtec Pioneer 1 (SMR-300 at Palisades)"
+  "05000617": "Holtec Pioneer 2 (SMR-300 at Palisades)"
+
+# ---- Wave 3: FERC Form 1 / 3-Q / 714 filers beyond the entity aliases above (adapter: ferc_forms)
+ferc_form_filers: ["CenterPoint Energy Houston Electric, LLC", "Texas-New Mexico Power Company", "Cleco Power LLC",
+  "Duke Energy Ohio, Inc.", "PECO Energy Company", "Duquesne Light Company", "West Penn Power Company",
+  "Monongahela Power Company", "The Potomac Edison Company", "Empire District Electric Company", "Entergy New Orleans, LLC",
+  "Kentucky Utilities Company", "Evergy Missouri West, Inc.", "Southwestern Public Service Company", "Arizona Public Service Company",
+  # RTO Form 714s carry planning-area hourly load and the 10-year load forecast
+  "Southwest Power Pool, Inc.", "Midcontinent Independent System Operator, Inc.", "PJM Interconnection, L.L.C.",
+  "Electric Reliability Council of Texas, Inc.", "California Independent System Operator Corporation",
+  "New York Independent System Operator, Inc.", "ISO New England Inc.", "Ameren Services Company"]
+
+# ---- Wave 3: FERC EQR counterparties (adapter: ferc_eqr; PUDL contracts parquet, quarterly)
+eqr_counterparties: [Microsoft, Google, Alphabet, Amazon, AWS, "Amazon Data Services", "Amazon Energy", "Meta Platforms",
+  Facebook, Oracle, OpenAI, CoreWeave, "Digital Realty", Equinix, QTS, "STACK Infrastructure", "Vantage Data Centers",
+  "Aligned Data Centers", CyrusOne, "Compass Datacenters", Crusoe, "Applied Digital", "Data Center", "Datacenter"]
+
+# ---- Wave 3: LBNL and DOE-lab studies via OSTI (adapter: studies). emp.lbl.gov refuses the runners (HTTP 403).
+osti_queries:
+  - {org: LBNL, q: '"interconnection queue" OR "queued up"'}
+  - {org: LBNL, q: '"data center" AND (electricity OR energy)'}
+  - {org: LBNL, q: '"load growth" OR "large loads" OR "electricity demand"'}
