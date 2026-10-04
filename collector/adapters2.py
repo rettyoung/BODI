@@ -250,6 +250,11 @@ def courtlistener(ctx):
 # =========================================================================== Interconnection queues
 def _rows_from(content, ctype, url):
     low = url.lower()
+    if low.endswith(".xml") or "xml" in (ctype or "") or content[:200].lstrip().startswith(b"<?xml"):
+        # flat record lists (PJM: <Projects><Project><Field>…</Field>…</Project>…</Projects>)
+        import xml.etree.ElementTree as ET
+        root = ET.fromstring(content)
+        return [{c.tag: (c.text or "").strip() for c in rec} for rec in root if len(rec)]
     if low.endswith(".json") or "json" in (ctype or ""):
         j = json.loads(content)
         return j if isinstance(j, list) else (j.get("data") or j.get("projects") or j.get("value") or [])
@@ -294,7 +299,12 @@ def queues(ctx):
         if st.get("month") == month and not qd.get("daily"):
             continue
         try:
-            r = ctx.http.get(qd["url"], timeout=180)
+            if qd.get("method", "get").lower() == "post":
+                # the source page's own export request (form fields as the page sends them; no key or session)
+                r = ctx.http.post(qd["url"], data=qd.get("form") or {}, timeout=180,
+                                  headers={"Referer": qd.get("page") or qd["url"]})
+            else:
+                r = ctx.http.get(qd["url"], timeout=180)
             rows = _rows_from(r.content, r.headers.get("content-type", ""), qd["url"])
         except Blocked as e:
             ctx.record(qd["id"], "blocked", str(e))
@@ -307,12 +317,22 @@ def queues(ctx):
             continue
         ids, by_state, new = set(), {}, []
         prev_ids = set(st.get("ids", []))
+        inactive = re.compile(qd.get("exclude_status", r"withdrawn|cancel|commercial operation|in.?service|completed|suspended"), re.I)
+        skip_id = re.compile(qd["skip_id"], re.I) if qd.get("skip_id") else None
+        skip_type = re.compile(qd["exclude_type"], re.I) if qd.get("exclude_type") else None
         for row in rows:
-            status = str(_pick(row, [r"^status$", r"status"]) or "") + " " + str(_pick(row, [r"withdrawn"]) or "")
-            if re.search(r"withdrawn|cancel|commercial operation|in.?service|completed|suspended", status, re.I):
+            if qd.get("status_cols"):
+                status = str(_pick(row, qd["status_cols"]) or "")
+            else:
+                status = str(_pick(row, [r"^status$", r"status"]) or "") + " " + str(_pick(row, [r"withdrawn"]) or "")
+            if inactive.search(status.strip()):
                 continue   # active queue only
+            if skip_type and skip_type.search(str(_pick(row, qd.get("type_cols", [r"projecttype", r"project.?type"])) or "")):
+                continue
             pid = _pick(row, qd.get("id_cols", [r"queue.?(id|number|#|pos)", r"interconnection number", r"^project.?(id|number)",
                                                 r"^inr$", r"^id$", r"projectnumber"]))
+            if skip_id and skip_id.search(str(pid or "")):
+                continue   # e.g. PJM serial entries "AH1-681 - moved to TC2", which the cycle export carries
             state = str(_pick(row, qd.get("state_cols", [r"^state$", r"state"])) or "").strip().upper()[:2]
             if state not in TRACKED_STATES:
                 continue
@@ -320,16 +340,17 @@ def queues(ctx):
                 mw = float(str(_pick(row, qd.get("mw_cols", [r"summer.*mw", r"capacity.*mw", r"^mw", r"\bmw\b", r"capacity"])) or 0).replace(",", ""))
             except ValueError:
                 mw = 0.0
-            fuel = str(_pick(row, [r"fuel", r"type", r"technology", r"generation"]) or "")[:30]
+            fuel = str(_pick(row, qd.get("fuel_cols", [r"fuel", r"type", r"technology", r"generation"])) or "")[:30]
             name = str(_pick(row, [r"project.?name", r"^name", r"facility"]) or "")[:80]
             county = str(_pick(row, [r"county"]) or "")[:30]
+            extra = " / ".join(str(row.get(c)) for c in qd.get("extra_cols", []) if row.get(c))
             key = str(pid) if pid not in (None, "") else hashlib.sha1(f"{name}{county}{mw}".encode()).hexdigest()[:12]
             ids.add(key)
             b = by_state.setdefault(state, [0, 0.0])
             b[0] += 1
             b[1] += mw
             if prev_ids and key not in prev_ids and mw >= 100:
-                new.append(f"{state} {county} — {name} — {fuel} — {mw:,.0f} MW (queue id {key})")
+                new.append(f"{state} {county} — {name} — {fuel} — {mw:,.0f} MW (queue id {key}{'; ' + extra if extra else ''})")
         first = not prev_ids
         prev_tot = st.get("by_state", {})
         st.update(month=month, ids=sorted(ids), by_state={k: [v[0], round(v[1], 1)] for k, v in by_state.items()})

@@ -238,13 +238,51 @@ mirrors:
   - {id: nc_ncuc_main, jur: NC, owner: "NC Utilities Commission (main site)", url: "https://www.ncuc.gov/", link: "\\.pdf"}
 
 # ---- Recommendation 3: interconnection queues (monthly snapshot; deltas for tracked states).
-# PJM and ERCOT publish their queues behind registration (PJM Planning API key; ERCOT MIS); add them once
-# a key exists. MISO and SPP cover KS, OK, NM, LA, MO, IL, TX (non-ERCOT) and parts of others.
+# ERCOT's queue is an MIS data product (robots-disallowed; ERCOT Public API once its secrets exist).
+# MISO and SPP cover KS, OK, NM, LA, MO, IL, TX (non-ERCOT) and parts of others.
+# PJM (added 2026-10-04, no key): the two public exports PJM's own queue pages offer every visitor, observed in
+# the built-in browser. Serial queue = the static PlanningQueues.xml linked from the Serial Service Request Status
+# page (A1-AJ1 and Expedited Process projects; ~23 MB, refreshed daily). Cycle queue = the Cycle Service Request
+# Status page's "Full Export: XML" request (TC1, TC2, Cycle 1+), sent with the form the page itself sends. Serial
+# entries "moved to TC1/TC2" are skipped (the cycle export carries them); Long-Term Firm Transmission Service
+# requests are not generation and are skipped. www.pjm.com robots.txt allows both paths. Not Data Miner.
 queues:
   - {id: miso, name: MISO, rto: MISO, jur: FERC, url: "https://www.misoenergy.org/api/giqueue/getprojects",
      page: "https://www.misoenergy.org/planning/resource-utilization/GI_Queue/gi-interactive-queue/", verify: true}
   - {id: spp, name: SPP, rto: SPP, jur: FERC, url: "https://opsportal.spp.org/Studies/GenerateActiveCSV",
      page: "https://opsportal.spp.org/Studies/GIActive", verify: true}
+  - id: pjm_serial
+    name: "PJM (serial and expedited)"
+    rto: PJM
+    jur: FERC
+    url: "https://www.pjm.com/pjmfiles/media/planning/queues-data/PlanningQueues.xml"
+    page: "https://www.pjm.com/planning/service-requests/serial-service-request-status"
+    status_cols: ["^Status$"]
+    exclude_status: "^(Withdrawn|In Service|Retracted|Annulled|Deactivated|Canceled|Suspended)$"
+    skip_id: "moved to"
+    type_cols: ["^ProjectType$"]
+    exclude_type: "Long-Term Firm"
+    id_cols: ["^ProjectNumber$"]
+    mw_cols: ["^MaximumFacilityOutput$", "^MWEnergy$"]
+    fuel_cols: ["^Fuel$"]
+    extra_cols: [Status, ProjectType, TransmissionOwner, ProjectedInServiceDate]
+  - id: pjm_cycle
+    name: "PJM (transition cycles and Cycle 1+)"
+    rto: PJM
+    jur: FERC
+    url: "https://www.pjm.com/m/ProjectTransition/GenerateXMLTransitionProjectsAll"
+    page: "https://www.pjm.com/planning/m/cycle-service-request-status"
+    method: post
+    form:
+      jsonModel: '{"GridName":"ProjectTransition","ItemType":0,"Items":[{"ItemType":3,"FilterName":"ProjectTypesTabs","IsSingleItem":false,"Filter":["Select%20Project%20Type"]},{"ItemType":1,"FilterName":"HiddenTab","IsSingleItem":true,"Filter":"Desc"},{"ItemType":1,"FilterName":"ReportType","IsSingleItem":true,"Filter":"SISReport"}],"Paginator":{"ItemType":7,"CurrentItmsPerPageValue":"100","CurrentPageIndex":"1"},"Sort":"QueueNumber","SortDirection":"asc","RelatedGridsFilters":""}'
+    status_cols: ["^Status$"]
+    exclude_status: "^(Withdrawn|Retracted|Annulled|Canceled|Terminated)$"
+    type_cols: ["^ProjectType$"]
+    exclude_type: "Long-Term Firm"
+    id_cols: ["^ProjectNumber$"]
+    mw_cols: ["^MWO$", "^MWEnergy$"]
+    fuel_cols: ["^Fuel$"]
+    extra_cols: [Cycle, Stage, Developer, TransmissionOwner, RequestedInServiceDate]
 
 # ---- Recommendation 2: keyed APIs (adapters skip quietly until the repo secret exists)
 openstates_queries: ["data center", "large load", "electric service agreement"]
