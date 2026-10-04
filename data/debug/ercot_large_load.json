@@ -21,24 +21,7 @@
    "meta": {
     "rto": "ERCOT",
     "page": "https://www.ercot.com/committees/board",
-    "postprocess": "ercot_ll_table",
-    "table_rows": [
-     "• | Of the 9,012 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly"
-    ],
-    "table_metrics": {
-     "approved_to_energize_mw": {
-      "mw": 9012.0,
-      "quote": "ified, or the customer cancels the interconnection 9 request. PUBLIC Loads Approved to Energize - Observations • Of the 9,012 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 4,006 MW in",
-      "doc": "https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf"
-     },
-     "observed_peak_consumption_mw": {
-      "mw": 4006.0,
-      "quote": ". PUBLIC Loads Approved to Energize - Observations • Of the 9,012 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 4,006 MW in April 2026, which is a slight decrease since March 2026. – This is calculate",
-      "doc": "https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf"
-     }
-    },
-    "summary": "• | Of the 9,012 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly",
-    "ocr": false
+    "postprocess": "ercot_ll_table"
    }
   },
   {
@@ -59,24 +42,7 @@
    "meta": {
     "rto": "ERCOT",
     "page": "https://www.ercot.com/committees/board",
-    "postprocess": "ercot_ll_table",
-    "table_rows": [
-     "• | Of the 9,062 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly"
-    ],
-    "table_metrics": {
-     "approved_to_energize_mw": {
-      "mw": 9062.0,
-      "quote": "ified, or the customer cancels the interconnection 9 request. PUBLIC Loads Approved to Energize - Observations • Of the 9,062 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 4,145 MW in",
-      "doc": "https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf"
-     },
-     "observed_peak_consumption_mw": {
-      "mw": 4145.0,
-      "quote": ". PUBLIC Loads Approved to Energize - Observations • Of the 9,062 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 4,145 MW in May 2026, which is a slight decrease since April 2026. – This is calculated",
-      "doc": "https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf"
-     }
-    },
-    "summary": "• | Of the 9,062 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly",
-    "ocr": false
+    "postprocess": "ercot_ll_table"
    }
   },
   {
@@ -97,24 +63,7 @@
    "meta": {
     "rto": "ERCOT",
     "page": "https://www.ercot.com/committees/board",
-    "postprocess": "ercot_ll_table",
-    "table_rows": [
-     "• | Of the 8,926 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly"
-    ],
-    "table_metrics": {
-     "approved_to_energize_mw": {
-      "mw": 8926.0,
-      "quote": "ified, or the customer cancels the interconnection 9 request. PUBLIC Loads Approved to Energize - Observations • Of the 8,926 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 3,966 MW in",
-      "doc": "https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf"
-     },
-     "observed_peak_consumption_mw": {
-      "mw": 3966.0,
-      "quote": ". PUBLIC Loads Approved to Energize - Observations • Of the 8,926 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 3,966 MW in June 2026, which is a slight decrease since May 2026. – This is calculated a",
-      "doc": "https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf"
-     }
-    },
-    "summary": "• | Of the 8,926 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly",
-    "ocr": false
+    "postprocess": "ercot_ll_table"
    }
   },
   {
@@ -223,125 +172,6 @@
    }
   }
  ],
- "fetched": [
-  {
-   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf",
-   "meta": {
-    "rto": "ERCOT",
-    "page": "https://www.ercot.com/committees/board",
-    "postprocess": "ercot_ll_table",
-    "table_rows": [
-     "• | Of the 9,012 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly"
-    ],
-    "table_metrics": {
-     "approved_to_energize_mw": {
-      "mw": 9012.0,
-      "quote": "ified, or the customer cancels the interconnection 9 request. PUBLIC Loads Approved to Energize - Observations • Of the 9,012 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 4,006 MW in",
-      "doc": "https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf"
-     },
-     "observed_peak_consumption_mw": {
-      "mw": 4006.0,
-      "quote": ". PUBLIC Loads Approved to Energize - Observations • Of the 9,012 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 4,006 MW in April 2026, which is a slight decrease since March 2026. – This is calculate",
-      "doc": "https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf"
-     }
-    },
-    "summary": "• | Of the 9,012 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly",
-    "ocr": false
-   },
-   "docs": [
-    {
-     "url": "https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf",
-     "name": null,
-     "bytes": 1239697,
-     "sha256": "002e14196894e0f9bd5031243fc95071aea3f8129503a8fede4f58b6c35ca0bd",
-     "ctype": "application/pdf",
-     "quality": "text_layer",
-     "ocr": false,
-     "pages": 27,
-     "truncated": false,
-     "text": "CONFIDENTIAL\n  PUBLIC\n\n\n\n\n                 ERCOT Monthly\n               Operational Overview\n                     (April 2026)\n\n\n                    ERCOT Public\n                    May 18, 2026\n\fPUBLIC   Highlights, Records and Notifications\n\n     • ERCOT’s maximum peak demand for the month of April was 74,603* MW on 4/27/26; this is\n       8,986 MW higher than the April 2025 peak demand of 65,617 MW on 4/14/25.\n\n     • ERCOT issued 3 notifications:\n         – 1 Advisory – Due to ERCOT’s Transient Security Assessment Tool being unavailable on 4/10/2026 18:27 to\n           4/10/2026 18:45.\n         – 1 Watch – Due to a transmission watch for the Del Rio area due to planned and forced outages in the area from\n           4/15/26 11:35 to 4/15/26 15:15.\n         – 1 Advisory – Due to the Space Weather Prediction Center issuing a Geomagnetic Disturbance (GMD) Warning\n           of K-7 on 4/3/26 11:02 until 04/03/2026 19:00.\n\n\n\n\n                                                                               * Preliminary value from May Demand and Energy 2026 report.\n\n                                                                                                                                             2\n\fPUBLIC   Monthly energy generation increased by 3.8% year-over-year to 37,897\n         GWh in April 2026, compared to 36,506 GWh in April 2025\n                    Nuclear   Coal   Wind       Solar       Hydro         Biomass          Other        Net DC/BLT   Gas-CC   Gas\n     "
-    }
-   ]
-  },
-  {
-   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf",
-   "meta": {
-    "rto": "ERCOT",
-    "page": "https://www.ercot.com/committees/board",
-    "postprocess": "ercot_ll_table",
-    "table_rows": [
-     "• | Of the 9,062 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly"
-    ],
-    "table_metrics": {
-     "approved_to_energize_mw": {
-      "mw": 9062.0,
-      "quote": "ified, or the customer cancels the interconnection 9 request. PUBLIC Loads Approved to Energize - Observations • Of the 9,062 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 4,145 MW in",
-      "doc": "https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf"
-     },
-     "observed_peak_consumption_mw": {
-      "mw": 4145.0,
-      "quote": ". PUBLIC Loads Approved to Energize - Observations • Of the 9,062 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 4,145 MW in May 2026, which is a slight decrease since April 2026. – This is calculated",
-      "doc": "https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf"
-     }
-    },
-    "summary": "• | Of the 9,062 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly",
-    "ocr": false
-   },
-   "docs": [
-    {
-     "url": "https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf",
-     "name": null,
-     "bytes": 1228846,
-     "sha256": "7b943dc62a188d859433e50b58bb7268c0ad024f5ef2d3edf60498c64867dfd2",
-     "ctype": "application/pdf",
-     "quality": "text_layer",
-     "ocr": false,
-     "pages": 27,
-     "truncated": false,
-     "text": "CONFIDENTIAL\n  PUBLIC\n\n\n\n\n                 ERCOT Monthly\n               Operational Overview\n                     (May 2026)\n\n\n                    ERCOT Public\n                    June 15, 2026\n\fPUBLIC   Highlights, Records and Notifications\n\n     • ERCOT’s maximum peak demand for the month of May was 77,822* MW on 5/29/26; this is\n       577 MW lower than the May 2025 peak demand of 78,399 MW on 5/23/25.\n\n     • ERCOT issued 1 notification:\n         – 1 Watch – A transmission watch due to storm damage in the Rio Grande Valley of Harlingen, Brownsville and\n           South Padre Island area from 5/9/26 15:46 to 5/10/26 23:55.\n\n\n\n\n                                                                             * Preliminary value from June Demand and Energy 2026 report.\n\n                                                                                                                                            2\n\fPUBLIC   Monthly energy generation increased by 1.6% year-over-year to 41,870\n         GWh in May 2026, compared to 41,212 GWh in May 2025\n                    Nuclear   Coal   Wind       Solar       Hydro         Biomass          Other        Net DC/BLT   Gas-CC   Gas\n                 60,000\n\n                 50,000\n\n                 40,000\n           GWh\n\n\n\n\n                 30,000\n\n                 20,000\n\n                 10,000\n\n                     0\n\n\n\n\n                                            Data for latest two months are based on preliminary settlements.\n       "
-    }
-   ]
-  },
-  {
-   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf",
-   "meta": {
-    "rto": "ERCOT",
-    "page": "https://www.ercot.com/committees/board",
-    "postprocess": "ercot_ll_table",
-    "table_rows": [
-     "• | Of the 8,926 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly"
-    ],
-    "table_metrics": {
-     "approved_to_energize_mw": {
-      "mw": 8926.0,
-      "quote": "ified, or the customer cancels the interconnection 9 request. PUBLIC Loads Approved to Energize - Observations • Of the 8,926 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 3,966 MW in",
-      "doc": "https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf"
-     },
-     "observed_peak_consumption_mw": {
-      "mw": 3966.0,
-      "quote": ". PUBLIC Loads Approved to Energize - Observations • Of the 8,926 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 3,966 MW in June 2026, which is a slight decrease since May 2026. – This is calculated a",
-      "doc": "https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf"
-     }
-    },
-    "summary": "• | Of the 8,926 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly",
-    "ocr": false
-   },
-   "docs": [
-    {
-     "url": "https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf",
-     "name": null,
-     "bytes": 1122925,
-     "sha256": "a967182359f661b8c5f05f4edf5df459fa098da6a7f7d99c6f2e76021b563e67",
-     "ctype": "application/pdf",
-     "quality": "text_layer",
-     "ocr": false,
-     "pages": 27,
-     "truncated": false,
-     "text": "CONFIDENTIAL\n  PUBLIC\n\n\n\n\n                 ERCOT Monthly\n               Operational Overview\n                     (June 2026)\n\n\n                    ERCOT Public\n                    July 16, 2026\n\fPUBLIC   Highlights, Records and Notifications\n\n     • ERCOT set a new record of 82,772 MW* for the month of June on 6/18/2026; This is 5,376\n       MW more than the June 2025 peak demand of 77,396 MW on 6/19/2025.\n\n     • ERCOT issued 9 notifications:\n         – 9 Advisories – ERCOT has postponed the deadline for the posting of the Day-Ahead Market (DAM) solution for\n           Operating Days 06/07/26, 06/10/26, 06/11/26, 06/18/26, 06/19/26, 06/21/26, 06/24/26, 06/25/26, 07/01/26 due to\n           long solution run time.\n\n\n\n\n                                                                                * Preliminary value from June Demand and Energy 2026 report.\n\n                                                                                                                                               2\n\fPUBLIC   Monthly energy generation increased by 4.7% year-over-year to 47,277\n         GWh in June 2026, compared to 45,167 GWh in June 2025\n                    Nuclear   Coal   Wind       Solar       Hydro         Biomass          Other        Net DC/BLT   Gas-CC   Gas\n                 60,000\n\n                 50,000\n\n                 40,000\n           GWh\n\n\n\n\n                 30,000\n\n                 20,000\n\n                 10,000\n\n                     0\n\n\n\n\n                  "
-    }
-   ]
-  }
- ],
  "notes": [],
  "sub": {
   "ercot:llwg": {
@@ -381,8 +211,8 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
-   "len": 77421,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"LLWG,  Large Load Working Group, LFLTF\">\n            <meta name=\"description\" content=\"The Large Load Working Group (LLWG) is non-voting body that reports directly to the ERCOT Technical Advisory Committee (TAC) and provides recommendations to TAC\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Large Load Working Group (LLWG)</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-445556178|rpid=-605054505|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1789657209390|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migr"
+   "len": 77420,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"LLWG,  Large Load Working Group, LFLTF\">\n            <meta name=\"description\" content=\"The Large Load Working Group (LLWG) is non-voting body that reports directly to the ERCOT Technical Advisory Committee (TAC) and provides recommendations to TAC\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Large Load Working Group (LLWG)</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-445556178|rpid=1188484122|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1789657209390|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migr"
   },
   {
    "method": "GET",
@@ -390,8 +220,8 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
-   "len": 73874,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"ercot, TAC\">\n            <meta name=\"description\" content=\"The Technical Advisory Committee (TAC), comprised of stakeholders, makes recommendations to the Board of Directors and is assisted by four subcommittees.\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Technical Advisory Committee</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-2130298699|rpid=3906540|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -"
+   "len": 73875,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"ercot, TAC\">\n            <meta name=\"description\" content=\"The Technical Advisory Committee (TAC), comprised of stakeholders, makes recommendations to the Board of Directors and is assisted by four subcommittees.\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Technical Advisory Committee</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-2130298699|rpid=551197338|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager"
   },
   {
    "method": "GET",
@@ -399,8 +229,8 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
-   "len": 70772,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"TAC, ROS\">\n            <meta name=\"description\" content=\"Reports up to TAC Group. Operating guides and planning criteria.\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Reliability and Operations Subcommittee</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-2130344331|rpid=-1070079394|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1789657209390|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Da"
+   "len": 70771,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"TAC, ROS\">\n            <meta name=\"description\" content=\"Reports up to TAC Group. Operating guides and planning criteria.\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Reliability and Operations Subcommittee</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-2130344331|rpid=-722050606|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Dat"
   },
   {
    "method": "GET",
@@ -408,8 +238,8 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
-   "len": 73434,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"ERCOT boards, board, director \">\n            <meta name=\"description\" content=\"ERCOT boards of directors\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Board of Directors</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_979085541|rpid=-754158351|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.g"
+   "len": 73435,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"ERCOT boards, board, director \">\n            <meta name=\"description\" content=\"ERCOT boards of directors\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Board of Directors</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_979085541|rpid=1218902234|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.g"
   },
   {
    "method": "GET",
@@ -417,8 +247,8 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
-   "len": 89545,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_1307362726|rpid=-1556088617|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gt"
+   "len": 89544,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_1307362726|rpid=-497525013|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm"
   },
   {
    "method": "GET",
@@ -427,7 +257,7 @@
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
    "len": 65943,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_710792297|rpid=-1723544846|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm"
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_710792297|rpid=1617470977|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm."
   },
   {
    "method": "GET",
@@ -435,8 +265,8 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
-   "len": 55297,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_1496323519|rpid=1590882876|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm"
+   "len": 55296,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_1496323519|rpid=350005920|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm."
   },
   {
    "method": "GET",
@@ -444,8 +274,8 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
-   "len": 112869,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-614966850|rpid=1496709704|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1789657209390|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm"
+   "len": 112870,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-614966850|rpid=1370837982|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm"
   },
   {
    "method": "GET",
@@ -453,8 +283,8 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
-   "len": 54550,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-282583622|rpid=-1962698489|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gt"
+   "len": 54549,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-282583622|rpid=720512752|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm."
   },
   {
    "method": "GET",
@@ -462,8 +292,8 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
-   "len": 80851,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_2114119886|rpid=1576852406|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm"
+   "len": 80849,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_2114119886|rpid=790760414|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1789657209390|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm."
   },
   {
    "method": "GET",
@@ -471,8 +301,8 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
-   "len": 63321,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_1465121045|rpid=1207370735|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm"
+   "len": 63322,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_1465121045|rpid=1043678963|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1789657209390|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm"
   },
   {
    "method": "GET",
@@ -480,8 +310,8 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
-   "len": 99381,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_1429990840|rpid=-1763716337|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gt"
+   "len": 99379,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_1429990840|rpid=125142113|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm."
   },
   {
    "method": "GET",
@@ -489,35 +319,8 @@
    "req": "None",
    "status": 200,
    "ctype": "text/html;charset=UTF-8",
-   "len": 99894,
-   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"ERCOT, large load, interconnection, process\">\n            <meta name=\"description\" content=\"Learn more about Large Load interconnection process.\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Large Load Integration</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-406135340|rpid=566206940|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1789657209390|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew"
-  },
-  {
-   "method": "GET",
-   "url": "https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf",
-   "req": "None",
-   "status": 200,
-   "ctype": "application/pdf",
-   "len": 1239697,
-   "body": "<pdf>"
-  },
-  {
-   "method": "GET",
-   "url": "https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf",
-   "req": "None",
-   "status": 200,
-   "ctype": "application/pdf",
-   "len": 1228846,
-   "body": "<pdf>"
-  },
-  {
-   "method": "GET",
-   "url": "https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf",
-   "req": "None",
-   "status": 200,
-   "ctype": "application/pdf",
-   "len": 1122925,
-   "body": "<pdf>"
+   "len": 99895,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"ERCOT, large load, interconnection, process\">\n            <meta name=\"description\" content=\"Learn more about Large Load interconnection process.\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Large Load Integration</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-406135340|rpid=-1030851535|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nn"
   }
  ],
  "adapter_state": {
