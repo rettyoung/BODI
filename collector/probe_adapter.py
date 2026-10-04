@@ -181,7 +181,7 @@ def main(names):
         def rec(method, url, _o=orig, **kw):
             r = _o(method, url, **kw)
             body = kw.get("json") or kw.get("data")
-            exchanges.append({"method": method, "url": url, "req": str(body)[:1500], "status": r.status_code,
+            exchanges.append({"method": method, "url": common.scrub(url), "req": common.scrub(str(body)[:1500]), "status": r.status_code,
                               "ctype": r.headers.get("content-type"), "len": len(r.content),
                               "body": r.text[:6000] if "pdf" not in (r.headers.get("content-type") or "") else "<pdf>"})
             return r
@@ -209,7 +209,7 @@ def main(names):
             ctx.close()
         out.update(notes=ctx.notes, sub=ctx.sub, exchanges=[{**x, "body": x["body"][:2000]} for x in exchanges[:60]], adapter_state=ctx.state)
         save_json(os.path.join(DATA, "debug", f"{name}.json"), out)
-        print(name, out.get("items"), out.get("error", ""), len(exchanges), "exchanges", flush=True)
+        print(common.scrub(f"{name} {out.get('items')} {out.get('error', '')} {len(exchanges)} exchanges"), flush=True)
 
 
 if __name__ == "__main__":

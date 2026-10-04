@@ -145,15 +145,24 @@ and treated as material by the Sweep (`parties` in the watchlist).
 
 ### 1j. Keys and credentials (Rett adds them as repo secrets; Claude never handles them)
 
-| Secret | Status | What it switches on |
-|---|---|---|
-| `OPENSTATES_API_KEY` | Missing — the only wired source still off | State bills in all 18 jurisdictions |
-| `NRC_APS_KEY` — *new* | Missing | NRC ADAMS documents for the ten named nuclear dockets (free: adams-api-developer.nrc.gov → Products → ADAMS Public Search API → Subscribe) |
-| `COURTLISTENER_TOKEN` | Recommended | Full-rate court search (all queries, federal RECAP dockets) |
-| `EIA_API_KEY` | Recommended | Lifts the DEMO_KEY rate limit |
-| `CONGRESS_API_KEY` | Optional | Runs on DEMO_KEY today |
-| `ERCOT_API_USERNAME`, `ERCOT_API_PASSWORD`, `ERCOT_API_SUBSCRIPTION_KEY` | Optional — route built 3 Oct | ERCOT Public API report archives (large-load data products by EMIL id) alongside the meeting-material route |
-| `PJM_API_KEY` | Optional — adapter not built | PJM queue and capacity data |
+Keys obtained by Rett on 4 Oct 2026 for every row except PJM; each switches on as soon as it is saved as a repository
+secret (GitHub → rettyoung/BODI → Settings → Secrets and variables → Actions). Health (`data/health/latest.json`)
+shows each adapter's status: `no_key` / `demo_key` until its secret exists, `ok` after.
+
+| Secret | What it switches on |
+|---|---|
+| `OPENSTATES_API_KEY` | State bills in all 18 jurisdictions |
+| `NRC_APS_KEY` | NRC ADAMS documents for the ten named nuclear dockets |
+| `COURTLISTENER_TOKEN` | Full-rate court search (all queries, federal RECAP dockets) |
+| `EIA_API_KEY` | EIA-860M without the DEMO_KEY rate limit |
+| `CONGRESS_API_KEY` | congress.gov without the DEMO_KEY rate limit |
+| `REGULATIONS_GOV_API_KEY` — *adapter built 4 Oct* | Regulations.gov: DOE / EPA / NRC documents on the beat, and comments by watched parties in those dockets (runs on DEMO_KEY until the secret exists) |
+| `ERCOT_API_SUBSCRIPTION_KEY` + `ERCOT_API_USERNAME` + `ERCOT_API_PASSWORD` | ERCOT Public API report archives (large-load data products by EMIL id). All three are needed: the API takes the subscription key plus a sign-in token made from the ERCOT account's username and password |
+| `PJM_API_KEY` | PJM queue and capacity data (adapter not built) |
+
+**Public-repo safety (4 Oct):** EIA and congress.gov take their key in the URL, so everything the collector writes —
+health, state, candidates, backfill, probe output — passes through `common.scrub()`, which masks every secret value
+and any `api_key=` / `token=` / `password=` parameter before it reaches the repository.
 
 ---
 

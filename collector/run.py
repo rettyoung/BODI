@@ -24,7 +24,7 @@ import traceback
 import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import Http, Blocked, DATA, ROOT, extract, load_json, save_json, sha256, slug, now_utc, today  # noqa
+from common import Http, Blocked, DATA, ROOT, extract, load_json, save_json, scrub, sha256, slug, now_utc, today  # noqa
 import adapters as A  # noqa
 
 STATE = os.path.join(DATA, "state", "collector_state.json")
@@ -63,7 +63,8 @@ class Ctx:
         self._pw = self._browser = None
 
     def log(self, msg):
-        self.notes.append(str(msg)[:400])
+        msg = scrub(str(msg))
+        self.notes.append(msg[:400])
         print("  .", msg, flush=True)
 
     def record(self, sub_id, status, note=""):
@@ -263,7 +264,7 @@ def main(only=None):
                     bl.update(baseline=True, keywords=keyword_hit(it, [], kws), run_id=run_id)
                     if bl["keywords"] or it.get("kind") == "deck":
                         with open(os.path.join(DATA, "backfill", f"baseline_links_{today()}.jsonl"), "a") as f:
-                            f.write(json.dumps(bl, ensure_ascii=False, default=str) + "\n")
+                            f.write(scrub(json.dumps(bl, ensure_ascii=False, default=str)) + "\n")
                     continue
                 docs = []
                 worth = not BACKFILL_SINCE or PRIORITY.search(it.get("title") or "") or it.get("kind") in ("deck", "8-K", "10-Q", "10-K")
@@ -306,7 +307,7 @@ def main(only=None):
                                    "chars": len(d.get("text") or ""), "error": d.get("error")} for d in docs],
                             meta={k: v for k, v in (it.get("meta") or {}).items() if k not in ("raw",)})
                 with open(cand_path, "a") as f:
-                    f.write(json.dumps(line, ensure_ascii=False, default=str) + "\n")
+                    f.write(scrub(json.dumps(line, ensure_ascii=False, default=str)) + "\n")
             if name in BASELINE_SOURCES:
                 seen_keys = {(it.get("meta") or {}).get("bkey", name) for it in items}
                 state["baselined_keys"] = sorted(bkeys | seen_keys)
@@ -335,7 +336,7 @@ def main(only=None):
         rec["consecutive_failures"] = sst.get("consecutive_failures", 0)
         health["sources"][name] = rec
         checkpoint()
-        print(f"  -> {rec.get('status')} found={rec.get('found')} new={rec.get('new')} kept={rec.get('kept')} {rec.get('error', '')}", flush=True)
+        print(scrub(f"  -> {rec.get('status')} found={rec.get('found')} new={rec.get('new')} kept={rec.get('kept')} {rec.get('error', '')}"), flush=True)
 
     # spare time: enrich the docket-history backfill with document text (see backfill_text.py)
     left = RUN_DEADLINE_S - (time.time() - run_t0) - 120

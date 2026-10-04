@@ -81,6 +81,7 @@ jobs:
           OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
           NRC_APS_KEY: ${{ secrets.NRC_APS_KEY }}
+          REGULATIONS_GOV_API_KEY: ${{ secrets.REGULATIONS_GOV_API_KEY }}
           ERCOT_API_USERNAME: ${{ secrets.ERCOT_API_USERNAME }}
           ERCOT_API_PASSWORD: ${{ secrets.ERCOT_API_PASSWORD }}
           ERCOT_API_SUBSCRIPTION_KEY: ${{ secrets.ERCOT_API_SUBSCRIPTION_KEY }}

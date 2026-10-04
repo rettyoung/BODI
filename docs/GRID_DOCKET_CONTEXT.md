@@ -448,6 +448,13 @@ Claude cannot enter keys itself, so Rett creates each account and adds the key a
 → Settings → Secrets and variables → Actions → New repository secret**. Secrets stay private on a public repo
 and are masked in logs.
 
+**Status 4 Oct 2026:** Rett obtained keys for Open States, EIA, CourtListener, congress.gov, Regulations.gov, ERCOT
+(subscription key) and NRC ADAMS. They take effect when saved as repository secrets under the names below; ERCOT also
+needs `ERCOT_API_USERNAME` and `ERCOT_API_PASSWORD` (the ERCOT account sign-in). Because EIA and congress.gov carry the
+key in the URL and the repo is public, every file the collector writes passes through `common.scrub()` (masks secret
+values and `api_key=`/`token=`/`password=` parameters); the probe workflow receives the same secrets so keyed
+adapters can be tested on demand.
+
 **Wired now.** congress.gov runs nightly on api.data.gov's public `DEMO_KEY` (verified 3 Oct); EIA accepts it too but is often rate-limited on GitHub's shared runners, so an `EIA_API_KEY` is recommended. Open States and NRC ADAMS need their keys; CourtListener runs keyless but rate-limited (the workflow did not pass `COURTLISTENER_TOKEN` before 3 Oct — it does now, together with `NRC_APS_KEY` and the three ERCOT secrets):
 
 | Secret name | Where to get it | Cost | What it adds |
@@ -456,6 +463,7 @@ and are masked in logs.
 | `CONGRESS_API_KEY` (optional) | api.congress.gov/sign-up | Free | Federal bills and actions on data centers, permitting, transmission |
 | `OPENSTATES_API_KEY` | open.pluralpolicy.com (account → API key) | Free | State bills matching data-center / large-load queries in the tracked states (replaces LegiScan, which blocks by IP) |
 | `COURTLISTENER_TOKEN` | courtlistener.com (free account → API token) | Free | Removes keyless rate limiting (HTTP 429) on appellate and federal court searches |
+| `REGULATIONS_GOV_API_KEY` | api.data.gov/signup | Free | Adapter `regulations_gov` (4 Oct): DOE/EPA/NRC documents on the beat and comments by watched parties in those dockets; runs on DEMO_KEY until the secret exists |
 | `NRC_APS_KEY` | adams-api-developer.nrc.gov → Sign up → Products → "ADAMS Public Search API" → Subscribe; the key is under "Your Subscriptions" | Free | ADAMS documents added to the ten named nuclear dockets (Palisades, Crane/TMI-1, Duane Arnold, Hermes 2, Kemmerer, Long Mott, Clinch River, Pioneer 1–2) |
 | `ERCOT_API_USERNAME`, `ERCOT_API_PASSWORD`, `ERCOT_API_SUBSCRIPTION_KEY` | apiexplorer.ercot.com (free ERCOT account + Public API subscription) | Free | Route built 3 Oct (adapter `ercot_large_load`, untested until the secrets exist): report archives for ERCOT's large-load data products by EMIL id |
 
@@ -464,7 +472,6 @@ and are masked in logs.
 | Secret name(s) | Where | What it adds |
 |---|---|---|
 | `PJM_API_KEY` | apiportal.pjm.com (free PJM account, Data Miner subscription) | PJM queue and capacity data feeds; replaces the CAPTCHA-blocked Inside Lines route for data |
-| `REGULATIONS_GOV_API_KEY` (optional) | api.data.gov/signup | Federal docket comments (DOE, EPA) |
 | CapIQ (optional, licensed) | Blue Owl's S&P entitlement | Already arriving as mail; an API call would add structure. S&P RRA (state docket content) is a separate entitlement |
 
 **Not needed:** SEC EDGAR (UA only), Federal Register, FERC eLibrary, MISO and SPP queues, Legistar, GitHub (the
@@ -809,10 +816,10 @@ data tables; (9) direct state bill trackers.
 **Nothing else is required from Rett for the system to run.** Optional or recurring:
 1. **Fridays:** keep the desktop app open around 9:04 am PT and click "Run now" (or run `/grid-docket-manual-pass`
    whenever convenient).
-2. **Keys (optional):** `OPENSTATES_API_KEY` (state bills), `NRC_APS_KEY` (NRC ADAMS dockets — new 3 Oct),
-   `EIA_API_KEY` (the public demo key is often rate-limited on GitHub's shared runners), `COURTLISTENER_TOKEN`
-   (full court-search rate). Consider ERCOT Public API (route already built) and PJM API accounts; a session
-   with push access builds the PJM adapter once its secret exists.
+2. **Save the keys as repository secrets** (obtained 4 Oct): `OPENSTATES_API_KEY`, `EIA_API_KEY`, `COURTLISTENER_TOKEN`,
+   `CONGRESS_API_KEY`, `REGULATIONS_GOV_API_KEY`, `NRC_APS_KEY`, `ERCOT_API_SUBSCRIPTION_KEY` plus `ERCOT_API_USERNAME`
+   and `ERCOT_API_PASSWORD` (§9). Then ask a session to run the adapter probe and confirm each reads `ok`. PJM API
+   account still optional; a session with push access builds that adapter once its secret exists.
 3. **Check once:** disable any desktop-local copies of the old tracker tasks (`utility-tracker-sweep`,
    `weekly-utility-brief`) if they still exist — a local Brief would send a second email.
 4. **Optional decisions:** recipients after burn-in (only Rett now; possibly BODIpower@blueowl.com); whether a
@@ -904,3 +911,4 @@ are enabled.
 | 2026-10-04 | Wave 3 sources: Supreme Court of Texas, PA Commonwealth Court RSS, WV Supreme Court, CourtListener state courts; local agendas (Fairfax, Henrico, Atlanta, Tulsa ×3, Storey, Washoe); ERCOT large-load status with table extraction; NYISO ICAP (refused → manual pass); NRC news RSS and ADAMS (key); FERC Form 1/3-Q/714 feed and EQR (PUDL); LBNL via OSTI, Grid Strategies; hyperscaler newsrooms. NM documents repaired. `SOURCES.md` rewritten; §8–§12, §16–§18 updated |
 | 2026-10-04 (am) | Consistency pass: NYISO ICAP refusal recorded as `refused_known` (no false RED); refused IL CUB mirror dropped; corrections item C-05 brought up to date (Arizona documents, ERCOT, New Mexico, NYISO, Texas courts); §3 file and watch-list counts corrected |
 | 2026-10-04 (pm) | Collector schedule hardened after GitHub started the 4 Oct run six hours late: three nightly triggers (04:43, 06:17, 08:41 UTC) with a skip guard, checkout of the newest `main`, `last_full_run` and gap tracking; Sweep reports COLLECTOR_GAP, Brief treats it as amber |
+| 2026-10-04 (pm) | Keys obtained by Rett; Regulations.gov adapter built; secrets wired into the collector and probe workflows; `common.scrub()` keeps keys out of the public repo |

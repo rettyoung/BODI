@@ -623,9 +623,95 @@ def studies(ctx):
     return list({it["id"]: it for it in items}.values())
 
 
+
+# =========================================================================== Regulations.gov (key)
+REGS_API = "https://api.regulations.gov/v4/"
+
+
+def regulations_gov(ctx):
+    """Regulations.gov v4 (api.data.gov key in REGULATIONS_GOV_API_KEY; falls back to the public DEMO_KEY at a
+    low rate). Federal rulemaking dockets that FERC eLibrary and the Federal Register do not carry in full:
+    (1) documents posted in the window by DOE, EPA and NRC matching the beat terms (notices, rules, supporting
+    material); (2) public comments in those dockets and in `regulations_dockets` filed by a watched party
+    (hyperscalers, the Data Center Coalition, IPPs ...), with their attachments for full text."""
+    key = os.environ.get("REGULATIONS_GOV_API_KEY") or "DEMO_KEY"
+    if key == "DEMO_KEY":
+        ctx.record("regulations_gov", "demo_key", "running on the public DEMO_KEY; repo secret REGULATIONS_GOV_API_KEY lifts the limit")
+    http, items = ctx.http, []
+    hdr = {"X-Api-Key": key, "Accept": "application/json"}
+    rcfg = ctx.cfg.get("regulations_gov") or {}
+    agencies = ",".join(rcfg.get("agencies", ["DOE", "EPA", "NRC"]))
+    terms = rcfg.get("terms", ['"large load"', '"data center"', '"co-location"', '"202(c)"', '"resource adequacy"'])
+    parties = ctx.cfg.get("parties", [])
+    prx = re.compile(r"\b(" + "|".join(re.escape(p) for p in parties) + r")\b", re.I) if parties else None
+
+    def get(path, params):
+        try:
+            return http.get(REGS_API + path, params=params, headers=hdr).json()
+        except Blocked as e:
+            if "429" in str(e):
+                ctx.record("regulations_gov", "rate_limited", "api.data.gov rate limit; kept what was read")
+                return None
+            raise
+
+    dockets = dict(ctx.state.get("dockets", {}))          # docketId -> last date it was seen on the beat
+    for d in rcfg.get("dockets", []):
+        dockets.setdefault(d, ctx.today)
+    for t in terms:
+        j = get("documents", {"filter[searchTerm]": t, "filter[agencyId]": agencies, "filter[postedDate][ge]": ctx.since,
+                              "sort": "-postedDate", "page[size]": 100})
+        if j is None:
+            break
+        for d in j.get("data", []):
+            a = d.get("attributes") or {}
+            did, dk = d.get("id"), a.get("docketId")
+            if dk:
+                dockets[dk] = ctx.today
+            items.append({"id": f"REGS:doc:{did}", "jur": "US-Federal", "source": "regulations_gov",
+                          "kind": "rule" if "Rule" in (a.get("documentType") or "") else "notice",
+                          "docket": dk, "title": f"{a.get('agencyId')}: {a.get('title')} [{a.get('documentType')}]"[:300],
+                          "filed": (a.get("postedDate") or "")[:10] or None, "entity": a.get("agencyId"),
+                          "url": f"https://www.regulations.gov/document/{did}", "fetch": [],
+                          "meta": {"term": t, "fr_doc": a.get("frDocNum"), "comment_end": (a.get("commentEndDate") or "")[:10] or None,
+                                   "document_type": a.get("documentType")}})
+    # comments by watched parties in the beat dockets (dockets age out 180 days after last being on the beat)
+    cutoff = (dt.date.fromisoformat(ctx.today) - dt.timedelta(days=180)).isoformat()
+    dockets = {k: v for k, v in dockets.items() if v >= cutoff}
+    n_c = 0
+    for dk in sorted(dockets, key=lambda k: dockets[k], reverse=True)[: rcfg.get("max_dockets", 12)]:
+        j = get("comments", {"filter[docketId]": dk, "filter[postedDate][ge]": ctx.since, "sort": "-postedDate", "page[size]": 250})
+        if j is None:
+            break
+        for c in j.get("data", []):
+            a = c.get("attributes") or {}
+            title = a.get("title") or ""
+            if not (prx and prx.search(title)):
+                continue                     # anonymous and individual comments: never a tracker event
+            cid = c.get("id")
+            fetch = []
+            det = get(f"comments/{cid}", {"include": "attachments"})
+            for inc in (det or {}).get("included", []) or []:
+                for f in (inc.get("attributes") or {}).get("fileFormats") or []:
+                    if (f.get("format") or "").lower() in ("pdf", "docx", "htm", "html", "txt") and f.get("fileUrl"):
+                        fetch.append({"url": f["fileUrl"]})
+                        break
+            n_c += 1
+            items.append({"id": f"REGS:comment:{cid}", "jur": "US-Federal", "source": "regulations_gov", "kind": "filing",
+                          "docket": dk, "title": f"{title} ({dk})"[:300], "filed": (a.get("postedDate") or "")[:10] or None,
+                          "entity": title.replace("Comment from", "").strip()[:120],
+                          "url": f"https://www.regulations.gov/comment/{cid}", "fetch": fetch[:3],
+                          "meta": {"docket": dk, "agency": a.get("agencyId")}})
+    ctx.state["dockets"] = dockets
+    status = ctx.sub.get("regulations_gov", {}).get("status")
+    status = status if status == "rate_limited" else ("demo_key" if key == "DEMO_KEY" else "ok")
+    ctx.record("regulations_gov", status, f"{len(items) - n_c} documents, {n_c} watched-party comments, {len(dockets)} dockets watched")
+    return items
+
+
 POSTPROCESS = {"ercot_ll_table": ercot_ll_table}
 
 ADAPTERS3 = {
     "courts_state": courts_state, "agendas": agendas, "ercot_large_load": ercot_large_load, "nyiso_icap": nyiso_icap,
     "nrc_adams": nrc_adams, "ferc_forms": ferc_forms, "ferc_eqr": ferc_eqr, "studies": studies,
+    "regulations_gov": regulations_gov,
 }

@@ -341,3 +341,11 @@ osti_queries:
   - {org: LBNL, q: '"interconnection queue" OR "queued up"', title_filter: "queue|interconnection"}
   - {org: LBNL, q: '"data center" AND (electricity OR energy)', title_filter: "data cent|datacent"}
   - {org: LBNL, q: '"load growth" OR "large loads" OR "electricity demand"', title_filter: "load growth|large loads?|electricity (demand|use|consumption)|load forecast|data cent"}
+
+# ---- Regulations.gov (adapter regulations_gov; key REGULATIONS_GOV_API_KEY, DEMO_KEY until then). Documents posted by
+# these agencies that match the terms; comments by watched `parties` in those dockets and in `dockets` below.
+regulations_gov:
+  agencies: [DOE, EPA, NRC]
+  terms: ['"large load"', '"data center"', '"co-location"', '"202(c)"', '"resource adequacy"']
+  dockets: []          # add Regulations.gov docket ids (e.g. DOE-HQ-2026-0001) to always watch their comments
+  max_dockets: 12

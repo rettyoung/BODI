@@ -199,8 +199,8 @@ class Http:
     def request(self, method: str, url: str, retries: int = 2, **kw) -> requests.Response:
         hs = self._robots(url)
         if not hs.robots.can_fetch(UA, url):
-            self.log.append({"url": url, "result": "robots_disallow", "note": hs.robots_note})
-            raise Blocked(f"robots.txt disallows {url} ({hs.robots_note or hs.robots_status})")
+            self.log.append({"url": scrub(url), "result": "robots_disallow", "note": hs.robots_note})
+            raise Blocked(f"robots.txt disallows {scrub(url)} ({hs.robots_note or hs.robots_status})")
         kw.setdefault("timeout", self.timeout)
         last_exc = None
         for attempt in range(retries + 1):
@@ -224,8 +224,8 @@ class Http:
                 time.sleep(4 * (attempt + 1))
                 continue
             if r.status_code in (401, 402, 403, 429):
-                self.log.append({"url": url, "result": f"blocked_{r.status_code}"})
-                raise Blocked(f"HTTP {r.status_code} for {url}")
+                self.log.append({"url": scrub(url), "result": f"blocked_{r.status_code}"})
+                raise Blocked(f"HTTP {r.status_code} for {scrub(url)}")
             if r.status_code >= 500 and attempt < retries:
                 time.sleep(5 * (attempt + 1))
                 continue
@@ -345,6 +345,31 @@ def extract(data: bytes, ctype: str = "", url: str = "") -> dict:
         return {"text": "", "pages": None, "ocr": False, "quality": f"extract_error: {e!r}"[:200]}
 
 
+# ---------------- secret scrubbing ----------------
+# The repository is PUBLIC and the collector commits health, state, candidates and probe output. Any key that
+# reaches a URL (EIA and congress.gov take api_key in the query string) could appear in an error message or a
+# request log. Everything the collector writes goes through scrub() first.
+SECRET_ENV = ("EIA_API_KEY", "CONGRESS_API_KEY", "OPENSTATES_API_KEY", "COURTLISTENER_TOKEN", "NRC_APS_KEY",
+              "REGULATIONS_GOV_API_KEY", "ERCOT_API_USERNAME", "ERCOT_API_PASSWORD", "ERCOT_API_SUBSCRIPTION_KEY",
+              "PJM_API_KEY", "GH_TOKEN", "GITHUB_TOKEN")
+_KEY_PARAM = re.compile(r"(?i)\b(api[_-]?key|apikey|subscription[_-]?key|access[_-]?token|token|password|key)=([^&\s\"'<>]+)")
+
+
+def scrub(text: str) -> str:
+    if not text:
+        return text
+    for name in SECRET_ENV:
+        v = os.environ.get(name)
+        if v and len(v) >= 6 and v != "DEMO_KEY":
+            text = text.replace(v, "***")
+    def _mask(m):
+        name, val = m.group(1), m.group(2)
+        if val == "DEMO_KEY" or (name.lower() in ("key", "token") and len(val) < 12):
+            return m.group(0)        # the public demo key, or a short ordinary URL parameter
+        return f"{name}=***"
+    return _KEY_PARAM.sub(_mask, text)
+
+
 # ---------------- storage ----------------
 def load_json(path, default):
     try:
@@ -358,5 +383,5 @@ def save_json(path, obj):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     tmp = path + ".tmp"
     with open(tmp, "w") as f:
-        json.dump(obj, f, indent=1, ensure_ascii=False, default=str)
+        f.write(scrub(json.dumps(obj, indent=1, ensure_ascii=False, default=str)))
     os.replace(tmp, path)

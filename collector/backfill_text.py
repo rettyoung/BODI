@@ -12,7 +12,7 @@ Tiers: 1 = issued by the commission/agency (orders, decisions, staff recommendat
 """
 import glob, json, os, re, time
 
-from common import DATA, ROOT, save_json, load_json, now_utc
+from common import DATA, ROOT, save_json, load_json, now_utc, scrub
 
 SUBSTANTIVE = re.compile(r"brief|testimony|application|order|decision|ruling|tariff|rate schedule|settlement|stipulation|"
                          r"comments|petition|complaint|protest|exceptions|recommend|proposal for (decision|adoption)|"
@@ -145,7 +145,7 @@ def enrich(http, cfg, state, fetch_docs, keyword_hit, ctx_factory, seconds, max_
                         docs=[{"url": d.get("url"), "quality": d.get("quality"), "ocr": d.get("ocr"),
                                "chars": len(d.get("text") or ""), "error": d.get("error")} for d in docs])
             with open(OUT, "a") as f:
-                f.write(json.dumps(line, ensure_ascii=False, default=str) + "\n")
+                f.write(scrub(json.dumps(line, ensure_ascii=False, default=str)) + "\n")
             done.add(it["id"])
             rec["enriched"] += 1
     finally:
