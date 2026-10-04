@@ -185,8 +185,10 @@ def openstates(ctx):
                       r"nuclear|generat|interconnect|public service commission|corporation commission|demand response")
     for st in TRACKED_STATES:
         for q in queries:
+          pages = 3 if os.environ.get("BACKFILL_SINCE") else 1    # a history pull reads deeper than the nightly run
+          for page in range(1, pages + 1):
             url = (f"https://v3.openstates.org/bills?jurisdiction={quote(STATE_NAMES[st])}&q={quote(q)}"
-                   f"&updated_since={ctx.since}&sort=updated_desc&per_page=20&include=actions")
+                   f"&updated_since={ctx.since}&sort=updated_desc&per_page=20&page={page}&include=actions")
             try:
                 try:
                     j = ctx.http.get(url, headers={"X-API-KEY": key}).json()
@@ -202,7 +204,7 @@ def openstates(ctx):
                 raise
             except Exception as e:
                 ctx.log(f"openstates {st} {q}: {e!r}"[:200])
-                continue
+                break
             for b in j.get("results", []):
                 if not re.search(trx, b.get("title") or "", re.I):
                     continue    # full-text search matches budget and tax bills that mention data centers in passing
@@ -212,6 +214,8 @@ def openstates(ctx):
                               "filed": (b.get("latest_action_date") or "")[:10] or None,
                               "url": b.get("openstates_url"), "fetch": [],
                               "meta": {"session": b.get("session"), "latest_action": last.get("description"), "query": q}})
+            if len(j.get("results") or []) < 20:
+                break
     return items
 
 

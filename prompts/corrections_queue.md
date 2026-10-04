@@ -113,3 +113,21 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   Batch Zero RFIs of 9 and 14 September are likely among them). Finish this file in the first two runs.
 - Mark C-07 done when data/health/latest.json shows backfill_text status "complete" and every enriched item is
   processed or skipped.
+
+## C-08 — New-source history backfill (ongoing until empty)
+- On 2026-10-04 the collector pulled history from 2025-11-07 for the sources added after the 2026-09-18 baseline:
+  Open States (state bills), CourtListener (state appellate and federal opinions), congress.gov (federal bills; the
+  most recently updated ~1,000 only), Regulations.gov (DOE/EPA/NRC documents and watched-party comments), Legistar
+  (9 county/city clients, data-center items), ERCOT large-load materials (meeting decks and monthly operational
+  overviews) and LBNL studies (OSTI). The lines are in data/backfill/<date>.jsonl with those `source` values and a
+  run_id beginning 2026-10-0; most are metadata-only, and C-07's enrichment does not pick them up.
+- Each run, after this week's candidates and C-07, take up to 20 of these not yet in state.backfill_cursor.done, in
+  this order: county/city actions on data centers (legistar), state bills that became law or passed a chamber
+  (openstates; latest_action shows it), appellate decisions on commission orders (courtlistener), Regulations.gov
+  watched-party comments, then the rest. Triage by title and metadata exactly like Step 3.2; read the filing file or
+  WebFetch the url only for items that pass. Dedupe against the store first — the baseline already covers much of
+  this. Record processed ids in state.backfill_cursor.done.
+- ERCOT large-load items carry meta.table_metrics (MW approved to energize; observed peak consumption) with the
+  sentence each came from: use them to build the ERCOT large-load series in metrics.json back to late 2025 — one
+  point per Monthly Operational Overview — rather than as event rows.
+- Mark C-08 done when every such line is processed or skipped.

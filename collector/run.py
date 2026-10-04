@@ -38,6 +38,8 @@ BUDGETS = {"ir_decks": 1200, "watch_pages": 1500, "queues": 900, "openstates": 6
            "nm_prc": 900, "nrc_adams": 300, "studies": 300}
 RUN_DEADLINE_S = int(os.environ.get("RUN_DEADLINE_S", str(70 * 60)))   # the job is killed at 90 min; stop well before
 BACKFILL_SINCE = os.environ.get("BACKFILL_SINCE") or None   # one-off history pull: candidates go to data/backfill/
+if BACKFILL_SINCE:
+    BUDGETS.update(openstates=1500, courtlistener=900)      # history pulls page deeper at the APIs' per-minute limits
 PRIORITY = re.compile(r"order|tariff|rate schedule|settlement|stipulation|brief|testimony|compliance|agreement|contract|"
                       r"application|petition|complaint|protest|comments|report|notice of hearing|rule|directive|"
                       r"large load|data cent", re.I)

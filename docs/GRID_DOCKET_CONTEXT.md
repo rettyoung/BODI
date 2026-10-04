@@ -199,7 +199,7 @@ double rows, but a local Brief would send a second email.
 Nightly, with **three scheduled triggers — 04:43, 06:17 and 08:41 UTC** (21:43, 23:17 and 01:41 PDT). GitHub runs scheduled
 events best-effort (its docs: they "can be delayed during periods of high loads" and some "may be dropped"; the 06:17
 run of 4 Oct started at 12:26 UTC). A guard step lets only the first trigger that starts do the work: later triggers
-skip if a complete run finished within 10 hours, so agencies still see one collection a night. Each job checks out
+skip if a complete run finished within 6 hours, so agencies still see one collection a night. Each job checks out
 the newest `main` at start (a queued event otherwise checks out an hours-old commit). Every complete run records
 `last_full_run` in `data/state/collector_state.json` and `hours_since_previous_full_run` / `collector_gap` in its
 health file; the Sweep reports a gap as COLLECTOR_GAP (amber). A missed night loses nothing: adapters re-read from
@@ -442,7 +442,7 @@ ERCOT large-load 900, EQR 900, state courts 900, NM 900, Open States 600, Legist
 | Hyperscaler newsrooms | C | RSS: Microsoft On the Issues and Source, Google (all posts and Sustainability), Amazon, Meta Newsroom; fetched articles kept only if they name data centers, power, grid, nuclear, MW/GW, utilities or PPAs. Oracle's newsroom returns 403. |
 | Investor decks | C | Events pages rendered, PDF links harvested (never guessed). 10 of 16 working; 6 refuse (§10). |
 | Mail | M | Folders "FERC", "ERCOT"; senders `today@rtoinsider.com`, `alerts@newprojectmedia.com`, `alerts@capitaliq.spglobal.com`, NCUC; DCC Bi-Weekly PDF (forwarded to BODIpower@blueowl.com). Internal deal threads are confidential and never sources. |
-| Keyed data | C | EIA and congress.gov running on the public DEMO_KEY; Open States and NRC ADAMS waiting for their keys; CourtListener keyless but rate-limited; ERCOT Public API route built, off until its secrets exist (§9). |
+| Keyed data | C | All keys live since 4 Oct (verified from the runners): EIA, congress.gov, Open States (paced 10/min), CourtListener (paced 5/min), Regulations.gov, NRC ADAMS, ERCOT Public API. Keys never reach the public repo: `common.scrub()` masks them in everything the collector writes. |
 
 **Manual-pass browser methods:** VA SCC Breeze API (`/DocketSearchAPI/breeze/…`; PDFs `/docketsearch/DOCS/<FileName>`);
 WV `http://` + `/scripts/WebDocket/` + `ViewText.cfm` (the Commission's own text layer); SC
@@ -818,13 +818,13 @@ CourtListener for all tracked states' appellate courts; local agendas — 9 Legi
 Atlanta, Tulsa (Council, TMAPC, BOA) and Storey County; utility IRP/RFP pages; DOE; NRC news (RSS); LBNL via OSTI and
 Grid Strategies; Utility Dive, Canary Media, RTO Insider feeds; licensed mail (RTO Insider, NPM, CapIQ, DCC Bi-Weekly).
 
-**Running on the public DEMO_KEY:** EIA, congress.gov. **Waiting on keys:** Open States; NRC ADAMS; CourtListener
-(full rate); ERCOT Public API (optional).
+**Keys:** all live since 4 Oct (EIA, congress.gov, Open States, CourtListener, Regulations.gov, NRC ADAMS, ERCOT Public API).
+History for the new sources since 2025-11-07 was pulled on 4 Oct and is worked through by the Sweep (C-08).
 
-**Candidates still open, ranked:** (1) agency allowlisting (letters drafted); (2) keys for the built adapters;
-(3) ERCOT Public API secrets (PJM Data Miner low priority — the PJM queue is collected from public exports since 4 Oct); (4) CAISO and NYISO queues; (5) S&P RRA / Halcyon / Energy Strategies
-as cross-checks; (6) earnings call transcripts (CapIQ); (7) Loudoun County through the manual pass; (8) PUDL Form 1
-data tables; (9) direct state bill trackers.
+**Candidates still open, ranked:** (1) agency allowlisting (letters drafted); (2) PJM Data Miner 2 (market data; the PJM
+queue is already collected from public exports); (3) CAISO and NYISO queues; (4) S&P RRA / Halcyon / Energy Strategies as
+cross-checks; (5) earnings call transcripts (CapIQ); (6) Loudoun County through the manual pass; (7) PUDL Form 1 data
+tables; (8) direct state bill trackers.
 
 ---
 
@@ -850,9 +850,8 @@ data tables; (9) direct state bill trackers.
 | Docket history before 3 Oct for collector states | Nightly enrichment (~2 weeks) + Sweep C-07 |
 | Arizona documents (ACC PDF host certificate mismatch) | Manual pass requests queued by the Sweep; automatic again if the certificate is fixed |
 | Arizona governor, IR pages for Southern/Evergy/Exelon/OGE/Oncor/BHE | EDGAR exhibits and deck search; manual pass extra pages |
-| ERCOT data products, PJM market data | ERCOT Public API (secrets); PJM Data Miner (account access pending; low priority). PJM queue: collected since 4 Oct |
-| State bills | Open States key |
-| NRC docket documents (restarts, SMRs) | NRC_APS_KEY; NRC news RSS and Federal Register meanwhile |
+| ERCOT large-load data products, PJM market data | ERCOT Public API live 4 Oct (no large-load product published yet; checked nightly); PJM Data Miner (low priority). PJM queue: collected since 4 Oct |
+| History of the new sources before they were added (bills, court decisions, county actions, Regulations.gov, ERCOT large-load series) | Pulled 4 Oct from 2025-11-07; the Sweep works through it 20 items a run (C-08) |
 | NYISO ICAP documents (bot-management challenge) | Manual pass monthly; NYISO FERC filings |
 | Loudoun, Reno, Fulton agendas | Not collectable (§10); Loudoun could join the manual pass |
 | Never published (Kansas ESAs, GRDA terms, Entergy absolute GW, confidential filings) | Company disclosure only, or recorded as known unknowns |
@@ -931,3 +930,4 @@ are enabled; open the console and confirm the Brief republished v8 (sections 01�
 | 2026-10-04 (eve) | Keys live: Open States, EIA, CourtListener, congress.gov, Regulations.gov, NRC ADAMS (ERCOT awaits its password). Open States and CourtListener paced to their per-minute limits; Open States filtered by bill title; NRC per-docket cap 200 |
 | 2026-10-04 (eve) | ERCOT password added; ERCOT Public API sign-in verified; the adapter pages the full 120-product catalogue (no large-load product published yet) |
 | 2026-10-04 (eve) | Console v8 (commit fbcce31): What changed, Matters, load-scenario tariff tester, conversion deltas and CLOA → ESA ratio, activity over time with coverage marks, Parties, Coverage map, period filter and shareable view links. `build_console.py` emits parts/changes/since/coverage/annotations/parties (`--state`, `--manual-dir`, `--since`); `brief.md` downloads state.json and the manual manifests; parity CI installs pyyaml. Published as artifact version 8 |
+| 2026-10-04 (late) | Consistency pass: stale key statements removed; scheduler guard narrowed to 6 h (an afternoon run no longer suppresses the night's collection); history pull for the new sources since 2025-11-07 with corrections item C-08; Open States pages deeper in history pulls |

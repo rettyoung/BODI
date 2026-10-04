@@ -55,7 +55,7 @@ jobs:
               age = (dt.datetime.now(dt.timezone.utc) - fin).total_seconds() / 3600
           except Exception as e:
               print("no usable last_full_run:", repr(e))
-          skip = age is not None and age < 10
+          skip = age is not None and age < 6
           print(f"last full run finished {'?' if age is None else round(age, 1)} h ago -> {'skip' if skip else 'run'}")
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
               f.write(f"skip={'true' if skip else 'false'}\n")

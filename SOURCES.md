@@ -36,11 +36,11 @@ court lists), because the general keyword list is too loose there.
 | NERC news & announcements | Standards, reliability assessments, Level 2/3 alerts | C | Full text | Page watcher. |
 | DOE newsroom, 202(c) orders, Loan Programs Office | Federal financing and emergency-dispatch orders | C | Full text | Page watchers. |
 | **NRC news releases** (RSS) — *repaired 3 Oct* | Restarts, uprates, SMR construction permits, mandatory hearings | C | Full text (filtered) | `nrc.gov/public-involve/rss?feed=news` replaces the old news page, which rendered 0 links. NRC's CDN has returned an occasional HTTP 403 to the runners; health shows it. |
-| **NRC ADAMS** (Public Search API) — *new 3 Oct, needs key* | Every document added to the named dockets: Palisades 50-255, Crane/TMI-1 50-289, Duane Arnold 50-331, Kairos Hermes 2 50-611/612, TerraPower Kemmerer 50-613, Long Mott 50-614, TVA Clinch River 50-615, Holtec Pioneer 50-616/617 | C | Full text | Adapter built; runs once the free key `NRC_APS_KEY` is a repo secret (§1j). The old Web-Based ADAMS host no longer resolves. |
+| **NRC ADAMS** (Public Search API) — *new 3 Oct, live 4 Oct* | Every document added to the named dockets: Palisades 50-255, Crane/TMI-1 50-289, Duane Arnold 50-331, Kairos Hermes 2 50-611/612, TerraPower Kemmerer 50-613, Long Mott 50-614, TVA Clinch River 50-615, Holtec Pioneer 50-616/617 | C | Full text | Adapter built; runs once the free key `NRC_APS_KEY` is a repo secret (§1j). The old Web-Based ADAMS host no longer resolves. |
 | SEC EDGAR (submissions + full-text search) | 8-K (2.02, 7.01, 8.01, 1.01, 2.01), 10-Q, 10-K, 40-F, 6-K for 18 utility issuers and 17 market participants | C | Full text | Declared UA `BlueOwl-RegTracker/4.0 (rett.young@blueowl.com)` per SEC fair-access policy. Hyperscalers, IPPs, data-center REITs, miners, GE Vernova. |
 | FERC/ERCOT mail (Outlook folders "FERC", "ERCOT") | eSubscription notices with accession numbers | S | Full text (PDF attachments via `read_resource`) | Read-only. |
-| congress.gov | Federal bills on data centers, permitting, grid reliability | C | Metadata | Public DEMO_KEY; `CONGRESS_API_KEY` optional. |
-| EIA Open Data v2 (Form 860M) | Planned/under-construction capacity by state; cross-check for GRDA, NOVEC, AEPCO | C | Data | Public DEMO_KEY, often rate-limited on shared runners; `EIA_API_KEY` recommended. |
+| congress.gov | Federal bills on data centers, permitting, grid reliability | C | Metadata | `CONGRESS_API_KEY` (live 4 Oct). |
+| EIA Open Data v2 (Form 860M) | Planned/under-construction capacity by state; cross-check for GRDA, NOVEC, AEPCO | C | Data | `EIA_API_KEY` (live 4 Oct); monthly snapshot, first change reported when EIA posts August data. |
 
 ### 1b. Market operators (all eight tracked as first-class entities)
 
@@ -87,7 +87,7 @@ court lists), because the general keyword list is too loose there.
 | Pennsylvania Commonwealth Court — opinions RSS — *repaired* | PUC appeals (PPL, PECO, Duquesne, FirstEnergy …) | C | Full text (filtered) | `pacourts.us/Rss/Opinions/Commonwealth/` replaces the court-opinions page, which rendered 0 links. Entries screened by caption; matching opinion PDFs fetched. |
 | West Virginia Supreme Court of Appeals — current-term opinions — *new* | PSC appeals (ApCo, Mon Power, Wheeling Power) | C | Full text (filtered) | Page watcher, captions screened. |
 | Virginia Supreme Court and Court of Appeals opinion lists | SCC appeals (e.g. Rider T1) | C | Full text (filtered) | Page watchers. |
-| CourtListener API | State appellate courts in all tracked states (TX, PA, OH, WV, VA, NC, SC, IL, GA, AZ, LA, MO, KS, OK, NM, NV, AL) — a state-court query runs first — plus federal opinions on large-load / tariff / co-location matters | C | Metadata + link | Keyless use is rate-limited (only the first two queries run); `COURTLISTENER_TOKEN` lifts it and adds federal RECAP dockets. The token is now passed to the job (it was not before 3 Oct). |
+| CourtListener API | State appellate courts in all tracked states (TX, PA, OH, WV, VA, NC, SC, IL, GA, AZ, LA, MO, KS, OK, NM, NV, AL) — a state-court query runs first — plus federal opinions on large-load / tariff / co-location matters | C | Metadata + link | `COURTLISTENER_TOKEN` live 4 Oct: every query runs, paced to the search API's 5 requests a minute; federal RECAP dockets included. |
 
 ### 1e. Local government — data-center siting, zoning and moratoria — *expanded 3 Oct*
 
@@ -206,12 +206,11 @@ moved to §1.
 | # | Source | Why it matters | Access | Effort | Recommendation |
 |---|---|---|---|---|---|
 | 1 | **Agency allowlisting (VA, NC, SC, IL, OH, WV)** | Moves six states from manual to nightly full-text collection | Letters drafted in Outlook (not sent); the commissions said they cannot change their systems | S once granted | Optional: send the drafts. A grant flips that state's `route` to `collector`. |
-| 2 | **Keys already wired** (Open States, NRC ADAMS, CourtListener, EIA) | Switch on built adapters | Free accounts | S | Add as repo secrets (§1j). |
-| 3 | **PJM Data Miner 2** (capacity, market data) and **ERCOT Public API** | ERCOT data products by EMIL id; PJM market data (the PJM queue is already collected from public exports, 4 Oct) | Free accounts + subscriptions | M (PJM) / S (ERCOT, built) | ERCOT: save the three secrets. PJM: low priority; Data Miner terms bar redistribution, so its output would have to stay out of the public repo. |
-| 4 | **CAISO and NYISO interconnection queues** | Completes queue coverage (MISO, SPP and PJM done) | Public spreadsheets | M | Add to `queues` after checking each host admits the runners. |
-| 5 | **S&P RRA / Halcyon / Energy Strategies / DELTa** | Pre-structured docket tracking; the only fully cloud route into the seven blocked commissions | Licensed | S once licensed | Evaluate as a cross-check, not a replacement for primary filings. |
-| 6 | **Earnings call transcripts** | Management commentary on large-load pipeline not in decks | Licensed (CapIQ) or company-posted | S–M | Use CapIQ transcripts if the licence covers it. |
-| 7 | **Loudoun County** | Largest data-center market in the country | Blocked (§2) | — | Add Loudoun's Board packets to the manual pass, or ask the county about robots access for `lfportal`. |
-| 8 | **FERC Form 1 data tables** (PUDL) | Sales by rate schedule, large-customer revenue | Public parquet | M | Only if the filing alerts in §1a prove too thin. |
-| 9 | **State legislature bill trackers (direct)** | Fallback if Open States lags | Public | M | Only if Open States proves insufficient. |
-| 10 | ~~Colorado and Oregon~~ | **Out of scope for now (Rett, 3 Oct 2026).** | — | — | — |
+| 2 | **PJM Data Miner 2** (capacity, market data) | PJM market data (the PJM queue is already collected from public exports, and the ERCOT Public API is live, both 4 Oct) | Free account + subscription | M | Create the account; a session with push access builds the adapter. |
+| 3 | **CAISO and NYISO interconnection queues** | Completes queue coverage (MISO, SPP and PJM done) | Public spreadsheets | M | Add to `queues` after checking each host admits the runners. |
+| 4 | **S&P RRA / Halcyon / Energy Strategies / DELTa** | Pre-structured docket tracking; the only fully cloud route into the seven blocked commissions | Licensed | S once licensed | Evaluate as a cross-check, not a replacement for primary filings. |
+| 5 | **Earnings call transcripts** | Management commentary on large-load pipeline not in decks | Licensed (CapIQ) or company-posted | S–M | Use CapIQ transcripts if the licence covers it. |
+| 6 | **Loudoun County** | Largest data-center market in the country | Blocked (§2) | — | Add Loudoun's Board packets to the manual pass, or ask the county about robots access for `lfportal`. |
+| 7 | **FERC Form 1 data tables** (PUDL) | Sales by rate schedule, large-customer revenue | Public parquet | M | Only if the filing alerts in §1a prove too thin. |
+| 8 | **State legislature bill trackers (direct)** | Fallback if Open States lags | Public | M | Only if Open States proves insufficient. |
+| 9 | ~~Colorado and Oregon~~ | **Out of scope for now (Rett, 3 Oct 2026).** | — | — | — |
