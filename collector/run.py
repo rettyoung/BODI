@@ -269,7 +269,10 @@ def main(only=None):
                             f.write(scrub(json.dumps(bl, ensure_ascii=False, default=str)) + "\n")
                     continue
                 docs = []
-                worth = not BACKFILL_SINCE or PRIORITY.search(it.get("title") or "") or it.get("kind") in ("deck", "8-K", "10-Q", "10-K")
+                worth = (not BACKFILL_SINCE or PRIORITY.search(it.get("title") or "")
+                         or it.get("kind") in ("deck", "8-K", "10-Q", "10-K", "report")
+                         or (it.get("meta") or {}).get("postprocess")          # e.g. ERCOT status tables
+                         or re.search(r"\bcomment from\b", it.get("title") or "", re.I))
                 if docs_budget > 0 and it.get("fetch") and worth:
                     docs = fetch_docs(http, it, ctx)
                     docs_budget -= len(docs)
