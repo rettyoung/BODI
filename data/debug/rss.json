@@ -1,0 +1,464 @@
+{
+ "adapter": "rss",
+ "since": "2026-06-01",
+ "items": 167,
+ "sample": [
+  {
+   "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210273",
+   "jur": null,
+   "source": "rss:pjm_insidelines",
+   "kind": "news",
+   "docket": null,
+   "title": "PJM Introduces Default Dashboard to Data Viewer Tool",
+   "filed": "2026-10-02",
+   "url": "https://insidelines.pjm.com/pjm-introduces-default-dashboard-to-data-viewer-tool/",
+   "entity": null,
+   "fetch": [],
+   "meta": {
+    "bkey": "rss:pjm_insidelines",
+    "rto": "PJM",
+    "summary": " PJM has updated its Data Viewer tool to highlight commonly accessed information through a new default dashboard view. Data Viewer is PJM’s tool that allows users to view public operational and market data graphically. Previously, the My Data Viewer dashboard was only available to users signed in to their PJM.com accounts. However, in order to [&#8230;]",
+    "feed": "pjm_insidelines",
+    "keyword_filter": true
+   }
+  },
+  {
+   "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210263",
+   "jur": null,
+   "source": "rss:pjm_insidelines",
+   "kind": "news",
+   "docket": null,
+   "title": "FERC Accepts PJM Reliability Backstop Proposal",
+   "filed": "2026-09-30",
+   "url": "https://insidelines.pjm.com/ferc-accepts-pjm-reliability-backstop-proposal/",
+   "entity": null,
+   "fetch": [],
+   "meta": {
+    "bkey": "rss:pjm_insidelines",
+    "rto": "PJM",
+    "summary": " The Federal Energy Regulatory Commission on Sept. 29 issued an Order on PJM’s proposed Reliability Backstop Procurement (RBP) to secure additional power supply to address short-term reliability concerns. The Order (PDF) accepts PJM’s proposal but suspends it for five months with an effective date of Feb. 28, 2027, subject to refund and outcome of additional [&#8230;]",
+    "feed": "pjm_insidelines",
+    "keyword_filter": true
+   }
+  },
+  {
+   "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210260",
+   "jur": null,
+   "source": "rss:pjm_insidelines",
+   "kind": "news",
+   "docket": null,
+   "title": "Over 600 Projects Enter Phase I of PJM’s New Interconnection Process",
+   "filed": "2026-09-30",
+   "url": "https://insidelines.pjm.com/over-600-projects-enter-phase-1-of-pjms-new-interconnection-process/",
+   "entity": null,
+   "fetch": [],
+   "meta": {
+    "bkey": "rss:pjm_insidelines",
+    "rto": "PJM",
+    "summary": " The first phase of PJM’s new interconnection process started Sept. 28, with 617 projects capable of generating nearly 169 GW of electricity remaining in the study Cycle. This marks the first group of proposed generation resources to be processed under a new approach designed to reduce speculative projects, improve predictability and increase the overall pace [&#8230;]",
+    "feed": "pjm_insidelines",
+    "keyword_filter": true
+   }
+  },
+  {
+   "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210254",
+   "jur": null,
+   "source": "rss:pjm_insidelines",
+   "kind": "news",
+   "docket": null,
+   "title": "PJM Kicks Off Annual Process of Vetting Large Load Requests",
+   "filed": "2026-09-29",
+   "url": "https://insidelines.pjm.com/pjm-kicks-off-annual-process-of-vetting-large-load-requests/",
+   "entity": null,
+   "fetch": [],
+   "meta": {
+    "bkey": "rss:pjm_insidelines",
+    "rto": "PJM",
+    "summary": " PJM has begun its annual review of proposed Large Load adjustments to determine the impact to PJM’s 2027 Long-Term Load Forecast, using updated guidelines designed to better account for how likely proposed projects are to materialize. The review comes as electricity demand is growing rapidly across the PJM region, driven largely by data centers and [&#8230;]",
+    "feed": "pjm_insidelines",
+    "keyword_filter": true
+   }
+  },
+  {
+   "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210245",
+   "jur": null,
+   "source": "rss:pjm_insidelines",
+   "kind": "news",
+   "docket": null,
+   "title": "PJM Membership Elects Janet Dietrich to Board of Managers",
+   "filed": "2026-09-24",
+   "url": "https://insidelines.pjm.com/pjm-membership-elects-janet-dietrich-to-board-of-managers/",
+   "entity": null,
+   "fetch": [],
+   "meta": {
+    "bkey": "rss:pjm_insidelines",
+    "rto": "PJM",
+    "summary": " PJM Interconnection announced today that its Members have elected Janet Dietrich to the PJM Board of Managers. The process for electing Board members is set forth in the FERC-approved PJM Operating Agreement. It is controlled by an eight-person Nominating Committee that recommends candidates to be voted on by the PJM membership. The Nominating Committee is [&#8230;]",
+    "feed": "pjm_insidelines",
+    "keyword_filter": true
+   }
+  },
+  {
+   "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210238",
+   "jur": null,
+   "source": "rss:pjm_insidelines",
+   "kind": "news",
+   "docket": null,
+   "title": "PJM Operations Update – Sept. 17, 2026",
+   "filed": "2026-09-17",
+   "url": "https://insidelines.pjm.com/pjm-operations-update-sept-17-2026/",
+   "entity": null,
+   "fetch": [],
+   "meta": {
+    "bkey": "rss:pjm_insidelines",
+    "rto": "PJM",
+    "summary": " PJM called on demand response resources across different portions of its footprint to maintain reliable system operations through unusually warm September weather and necessary outages for both generation resources and transmission. PJM activated its&#160;Pre-Emergency Demand Response&#160;and Emergency Demand Response customers across different portions of the PJM footprint the afternoon of Sept. 17 to increase reserves [&#8230;]",
+    "feed": "pjm_insidelines",
+    "keyword_filter": true
+   }
+  },
+  {
+   "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210235",
+   "jur": null,
+   "source": "rss:pjm_insidelines",
+   "kind": "news",
+   "docket": null,
+   "title": "PJM Issues Maximum Generation Alert for Sept. 17",
+   "filed": "2026-09-16",
+   "url": "https://insidelines.pjm.com/pjm-issues-maximum-generation-alert-for-sept-17/",
+   "entity": null,
+   "fetch": [],
+   "meta": {
+    "bkey": "rss:pjm_insidelines",
+    "rto": "PJM",
+    "summary": " PJM has issued a Maximum Generation Alert and Load Management Alert for Sept. 17 ahead of unusually warm September weather and planned maintenance outages for both generation resources and transmission. This alert does not require any action from customers. A Maximum Generation Alert is targeted at transmission/generation owners, who then determine if any maintenance or [&#8230;]",
+    "feed": "pjm_insidelines",
+    "keyword_filter": true
+   }
+  },
+  {
+   "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210232",
+   "jur": null,
+   "source": "rss:pjm_insidelines",
+   "kind": "news",
+   "docket": null,
+   "title": "Reminder: PJM GridAdvance Summit One Month Away",
+   "filed": "2026-09-15",
+   "url": "https://insidelines.pjm.com/reminder-pjm-gridadvance-summit-one-month-away/",
+   "entity": null,
+   "fetch": [],
+   "meta": {
+    "bkey": "rss:pjm_insidelines",
+    "rto": "PJM",
+    "summary": " PJM’s inaugural GridAdvance Summit is set to take place on Oct. 15 at the PJM Conference &#38; Training Center and virtually. Centered on the theme “Applying AI to the RTO,” the summit will bring together industry leaders, stakeholders and technology innovators to explore practical applications of artificial intelligence in planning, operations and reliability. The event [&#8230;]",
+    "feed": "pjm_insidelines",
+    "keyword_filter": true
+   }
+  }
+ ],
+ "notes": [],
+ "sub": {
+  "pjm_insidelines": {
+   "status": "ok",
+   "note": "10 entries"
+  },
+  "pa_cmwlth": {
+   "status": "ok",
+   "note": "50 entries"
+  },
+  "nrc_news": {
+   "status": "error",
+   "note": "Blocked('HTTP 403 for https://www.nrc.gov/public-involve/rss?feed=news')"
+  },
+  "grid_strategies": {
+   "status": "ok",
+   "note": "10 entries"
+  },
+  "msft_issues": {
+   "status": "ok",
+   "note": "10 entries"
+  },
+  "msft_source": {
+   "status": "ok",
+   "note": "10 entries"
+  },
+  "google_blog": {
+   "status": "ok",
+   "note": "20 entries"
+  },
+  "google_sustain": {
+   "status": "ok",
+   "note": "20 entries"
+  },
+  "amazon_news": {
+   "status": "ok",
+   "note": "10 entries"
+  },
+  "meta_news": {
+   "status": "ok",
+   "note": "10 entries"
+  },
+  "meta_datacenters": {
+   "status": "ok",
+   "note": "0 entries"
+  },
+  "utilitydive": {
+   "status": "ok",
+   "note": "10 entries"
+  },
+  "rtoinsider": {
+   "status": "ok",
+   "note": "10 entries"
+  },
+  "canary": {
+   "status": "ok",
+   "note": "100 entries"
+  }
+ },
+ "exchanges": [
+  {
+   "method": "GET",
+   "url": "https://insidelines.pjm.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 120,
+   "body": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://insidelines.pjm.com/wp-sitemap.xml\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://insidelines.pjm.com/feed/",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/rss+xml; charset=UTF-8",
+   "len": 49620,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n\t>\n\n<channel>\n\t<title>PJM Inside Lines</title>\n\t<atom:link href=\"https://insidelines.pjm.com/feed/\" rel=\"self\" type=\"application/rss+xml\" />\n\t<link>https://insidelines.pjm.com</link>\n\t<description>Inside Lines informs PJM&#039;s stakeholders of various committee actions, upcoming training and other activities.</description>\n\t<lastBuildDate>Fri, 02 Oct 2026 16:56:28 +0000</lastBuildDate>\n\t<language>en-US</language>\n\t<sy:updatePeriod>\n\thourly\t</sy:updatePeriod>\n\t<sy:updateFrequency>\n\t1\t</sy:updateFrequency>\n\t\n\t<item>\n\t\t<title>PJM Introduces Default Dashboard to Data Viewer Tool</title>\n\t\t<link>https://insidelines.pjm.com/pjm-introduces-default-dashboard-to-data-viewer-tool/</link>\n\t\t\n\t\t<dc:creator><![CDATA[Jason McGovern]]></dc:creator>\n\t\t<pubDate>Fri, 02 Oct 2026 13:55:27 +0000</pubDate>\n\t\t\t\t<category><![CDATA[Operations]]></category>\n\t\t<category><![CDATA[PJM tools]]></category>\n\t\t<category><![CDATA[PJM website]]></category>\n\t\t<guid isPermaLink=\"false\">https://insidelines.pjm.com/?p=210273</guid>\n\n\t\t\t\t\t<description><![CDATA[<img width=\"139\" height=\"81\" src=\"https://insidelines.pjm.com/wp-content/uploads/2023/05/Data-Viewer_Inside-Lines-139x81.jpg\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"float: left; margin-right: 5px;\" link_thumbnail=\"\" decoding=\"async\" />PJM has updated its Data Viewer tool to highlight commonly accessed information through a new default dashboard view. Data Viewer is PJM’s tool that allows users to view public operational and market data graphically. Previously, the My Data Viewer dashboard was only available to users signed in to their PJM.com accounts. However, in order t"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.pacourts.us/robots.txt",
+   "req": "None",
+   "status": 404,
+   "ctype": "text/html",
+   "len": 1245,
+   "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"/>\r\n<title>404 - File or directory not found.</title>\r\n<style type=\"text/css\">\r\n<!--\r\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\r\nfieldset{padding:0 15px 10px 15px;} \r\nh1{font-size:2.4em;margin:0;color:#FFF;}\r\nh2{font-size:1.7em;margin:0;color:#CC0000;} \r\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} \r\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:\"trebuchet MS\", Verdana, sans-serif;color:#FFF;\r\nbackground-color:#555555;}\r\n#content{margin:0 0 0 2%;position:relative;}\r\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\r\n-->\r\n</style>\r\n</head>\r\n<body>\r\n<div id=\"header\"><h1>Server Error</h1></div>\r\n<div id=\"content\">\r\n <div class=\"content-container\"><fieldset>\r\n  <h2>404 - File or directory not found.</h2>\r\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\r\n </fieldset></div>\r\n</div>\r\n</body>\r\n</html>\r\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.pacourts.us/Rss/Opinions/Commonwealth/",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/rss+xml; charset=utf-8",
+   "len": 35354,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\r\n\r\n<rss version=\"2.0\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:pheedo=\"http://www.pheedo.com/namespace/pheedo\">\r\n  <channel>\r\n    <title>Unified Judicial System of Pennsylvania: Commonwealth Court Opinions</title>\r\n    <link>https://www.pacourts.us/Rss/Opinions/Commonwealth/</link>\r\n    <description>Unified Judicial System of Pennsylvania: Commonwealth Court Opinions</description>\r\n    <lastBuildDate>Fri, 02 Oct 2026 19:52:29 GMT</lastBuildDate>\r\n    <language>en-us</language>\r\n    <item>\r\n      <title>T.L. Ayala v. Dept. of State, Bureau of Elections - 1371 C.D. 2026</title>\r\n      <link>https://www.pacourts.us/assets/opinions/Commonwealth/out/1371CD26_10-2-26.pdf</link>\r\n      <guid>https://www.pacourts.us/assets/opinions/Commonwealth/out/1371CD26_10-2-26.pdf</guid>\r\n      <pheedo:origLink>https://www.pacourts.us/assets/opinions/Commonwealth/out/1371CD26_10-2-26.pdf</pheedo:origLink>\r\n      <atom:link href=\"https://www.pacourts.us/assets/opinions/Commonwealth/out/1371CD26_10-2-26.pdf\" />\r\n      <pubDate>Fri, 02 Oct 2026 04:00:00 GMT</pubDate>\r\n      <description><![CDATA[]]></description>\r\n      <dc:creator>Wallace, J.</dc:creator>\r\n    </item>\r\n    <item>\r\n      <title>K. Williams v. UCBR - 780 C.D. 2025</title>\r\n      <link>https://www.pacourts.us/assets/opinions/Commonwealth/out/780CD25_10-2-26.pdf</link>\r\n      <guid>https://www.pacourts.us/assets/opinions/Commonwealth/out/780CD25_10-2-26.pdf</guid>\r\n      <pheedo:origLink>https://www.pacourts.us/assets/opinions/Commonwealth/out/780CD25_10-2-26.pdf</pheedo:origLink>\r\n      <atom:link href=\"https://www.pacourts.us/assets/opinions/Commonwealth/out/780CD25_10-2-26.pdf\" />\r\n      <pubDate>Fri, 02 Oct 2026 04:00:00 GMT</pubDate>\r\n      <description><![CDATA[]]></description>\r\n      <dc:creator>Tsai, J.</dc:creator>\r\n    </item>\r\n    <item>\r\n      <title>C.A. Rogalski v. Com. of PA, Dept. of Ed. (PSPC) - 464 M.D. 2023 (RECONSID"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.nrc.gov/robots.txt",
+   "req": "None",
+   "status": 403,
+   "ctype": "text/html",
+   "len": 377,
+   "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;nrc&#46;gov&#47;robots&#46;txt\" on this server.<P>\nReference&#32;&#35;18&#46;8b6d3e17&#46;1791072918&#46;9aa34d1\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;8b6d3e17&#46;1791072918&#46;9aa34d1</P>\n</BODY>\n</HTML>\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.nrc.gov/public-involve/rss?feed=news",
+   "req": "None",
+   "status": 403,
+   "ctype": "text/html",
+   "len": 394,
+   "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;nrc&#46;gov&#47;public&#45;involve&#47;rss&#63;\" on this server.<P>\nReference&#32;&#35;18&#46;8b6d3e17&#46;1791072920&#46;9aa3e79\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;8b6d3e17&#46;1791072920&#46;9aa3e79</P>\n</BODY>\n</HTML>\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://gridstrategiesllc.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 195,
+   "body": "Crawl-delay: 10\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://gridstrategiesllc.com/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK"
+  },
+  {
+   "method": "GET",
+   "url": "https://gridstrategiesllc.com/feed/",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/rss+xml; charset=UTF-8",
+   "len": 30452,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n\t>\n\n<channel>\n\t<title>Grid Strategies</title>\n\t<atom:link href=\"https://gridstrategiesllc.com/feed/\" rel=\"self\" type=\"application/rss+xml\" />\n\t<link>https://gridstrategiesllc.com/</link>\n\t<description>Power sector economics, engineering, and policy</description>\n\t<lastBuildDate>Tue, 29 Sep 2026 19:09:00 +0000</lastBuildDate>\n\t<language>en-US</language>\n\t<sy:updatePeriod>\n\thourly\t</sy:updatePeriod>\n\t<sy:updateFrequency>\n\t1\t</sy:updateFrequency>\n\t<generator>https://wordpress.org/?v=7.1.2</generator>\n\n<image>\n\t<url>https://gridstrategiesllc.com/wp-content/uploads/2022/12/GS-Emblem.svg</url>\n\t<title>Grid Strategies</title>\n\t<link>https://gridstrategiesllc.com/</link>\n\t<width>32</width>\n\t<height>32</height>\n</image> \n\t<item>\n\t\t<title>Advancing FERC Order No. 1920 Benefit Evaluation Development and Implementation</title>\n\t\t<link>https://gridstrategiesllc.com/advancing-ferc-order-no-1920-benefit-evaluation-development-and-implementation/</link>\n\t\t\n\t\t<dc:creator><![CDATA[Allie Judge]]></dc:creator>\n\t\t<pubDate>Tue, 29 Sep 2026 18:46:56 +0000</pubDate>\n\t\t\t\t<category><![CDATA[Resilience]]></category>\n\t\t<category><![CDATA[Resource Adequacy]]></category>\n\t\t<category><![CDATA[Technology]]></category>\n\t\t<category><![CDATA[Transmission]]></category>\n\t\t<guid isPermaLink=\"false\">https://gridstrategiesllc.com/?p=2277</guid>\n\n\t\t\t\t\t<description><![CDATA[<p>As regional transmission planners and transmission providers prepare to implement FERC Order No. 1920, one of the most significant challenges is developing practical, defensible methodologies to quantify the benefits of long-term regional transmission investments. Building on El"
+  },
+  {
+   "method": "GET",
+   "url": "https://blogs.microsoft.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain",
+   "len": 83,
+   "body": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\ncrawl-delay: 10\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://blogs.microsoft.com/on-the-issues/feed/",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/rss+xml; charset=UTF-8",
+   "len": 175822,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n\t>\n\n<channel>\n\t<title>Microsoft On the Issues</title>\n\t<atom:link href=\"https://blogs.microsoft.com/on-the-issues/feed/\" rel=\"self\" type=\"application/rss+xml\" />\n\t<link>https://blogs.microsoft.com/on-the-issues/</link>\n\t<description>News and perspectives on legal, public policy and citizenship topics</description>\n\t<lastBuildDate>Thu, 01 Oct 2026 16:53:02 +0000</lastBuildDate>\n\t<language>en-US</language>\n\t<sy:updatePeriod>\n\thourly\t</sy:updatePeriod>\n\t<sy:updateFrequency>\n\t1\t</sy:updateFrequency>\n\t<generator>https://wordpress.org/?v=7.0.5</generator>\n\n<image>\n\t<url>https://blogs.microsoft.com/wp-content/uploads/sites/5/2017/08/favicon-599dd744b8cac.jpg</url>\n\t<title>Microsoft On the Issues</title>\n\t<link>https://blogs.microsoft.com/on-the-issues/</link>\n\t<width>32</width>\n\t<height>32</height>\n</image> \n\t<item>\n\t\t<title>Preparing governments for an era of interconnected cyber risk</title>\n\t\t<link>https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/</link>\n\t\t\n\t\t<dc:creator><![CDATA[Mike Yeh]]></dc:creator>\n\t\t<pubDate>Thu, 01 Oct 2026 14:01:14 +0000</pubDate>\n\t\t\t\t<category><![CDATA[Cybersecurity]]></category>\n\t\t<category><![CDATA[Featured]]></category>\n\t\t<category><![CDATA[Microsoft on the Issues]]></category>\n\t\t<category><![CDATA[Digital Defense Report]]></category>\n\t\t<category><![CDATA[Report]]></category>\n\t\t<guid isPermaLink=\"false\">https://blogs.microsoft.com/on-the-issues/?p=67789</guid>\n\n\t\t\t\t\t<description><![CDATA[<p>According to this year’s Microsoft Digital Defense Report, government agencies and services were the sector most impacted by cyber "
+  },
+  {
+   "method": "GET",
+   "url": "https://news.microsoft.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 1363,
+   "body": "Crawl-delay: 10\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://news.microsoft.com/sitemap_index.xml\nSitemap: https://news.microsoft.com/de-de/sitemap_index.xml\nSitemap: https://news.microsoft.com/es-xl/sitemap_index.xml\nSitemap: https://news.microsoft.com/apac/sitemap_index.xml\nSitemap: https://news.microsoft.com/en-in/sitemap_index.xml\nSitemap: https://news.microsoft.com/ja-jp/sitemap_index.xml\nSitemap: https://news.microsoft.com/it-it/sitemap_index.xml\nSitemap: https://news.microsoft.com/ro-ro/sitemap_index.xml\nSitemap: https://news.microsoft.com/en-au/sitemap_index.xml\nSitemap: https://news.microsoft.com/en-gb/sitemap_index.xml\nSitemap: https://news.microsoft.com/ko-kr/sitemap_index.xml\nSitemap: https://news.microsoft.com/europe/sitemap_index.xml\nSitemap: https://news.microsoft.com/transform/sitemap_index.xml\nSitemap: https://news.microsoft.com/life/sitemap_index.xml\nSitemap: https://news.microsoft.com/de-ch/sitemap_index.xml\nSitemap: https://news.microsoft.com/hu-hu/sitemap_index.xml\nSitemap: https://news.microsoft.com/th-th/sitemap_index.xml\nSitemap: https://news.microsoft.com/militaryfamilymonth/sitemap_index.xml\nSitemap: https://news.microsoft.com/innovation-stories/sitemap_index.xml\nSitemap: https://news.microsoft.com/en-cee/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK"
+  },
+  {
+   "method": "GET",
+   "url": "https://news.microsoft.com/source/feed/",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/rss+xml; charset=UTF-8",
+   "len": 21592,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n\t>\n\n<channel>\n\t<title>Source</title>\n\t<atom:link href=\"https://news.microsoft.com/source/feed/\" rel=\"self\" type=\"application/rss+xml\" />\n\t<link>https://news.microsoft.com/source/</link>\n\t<description></description>\n\t<lastBuildDate>Fri, 02 Oct 2026 17:48:06 +0000</lastBuildDate>\n\t<language>en-US</language>\n\t<sy:updatePeriod>\n\thourly\t</sy:updatePeriod>\n\t<sy:updateFrequency>\n\t1\t</sy:updateFrequency>\n\t<generator>https://wordpress.org/?v=7.0.5</generator>\n\n<image>\n\t<url>https://news.microsoft.com/source/wp-content/uploads/2022/10/cropped-Microsoft_logo.svg_-300x300-1-128x120.png</url>\n\t<title>Source</title>\n\t<link>https://news.microsoft.com/source/</link>\n\t<width>32</width>\n\t<height>32</height>\n</image> \n\t<item>\n\t\t<title>Microsoft Digital Defense Report: How AI is reshaping the cybersecurity landscape</title>\n\t\t<link>https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/</link>\n\t\t\n\t\t<dc:creator><![CDATA[sbaynes]]></dc:creator>\n\t\t<pubDate>Fri, 02 Oct 2026 17:45:11 +0000</pubDate>\n\t\t\t\t<category><![CDATA[Company News]]></category>\n\t\t<category><![CDATA[AI]]></category>\n\t\t<category><![CDATA[Security]]></category>\n\t\t<guid isPermaLink=\"false\">https://news.microsoft.com/source/?p=25997</guid>\n\n\t\t\t\t\t<description><![CDATA[<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/\">Microsoft Digital Defense Report: How AI is reshaping the cybersecurity landscape</a> appeared first on <a href=\"https://news.microsoft.com/source\">Source</a>.</p>\n]]></description>\n\t\t\t\t\t\t\t\t\t\t<content:encoded><![CDA"
+  },
+  {
+   "method": "GET",
+   "url": "https://blog.google/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain",
+   "len": 153,
+   "body": "\n\n\n\nUser-agent: *\nDisallow: /search/?\nDisallow: /intl/*/search/?\nDisallow: /search?\nDisallow: /intl/*/search?\n\nSitemap: https://blog.google/sitemap.xml\n\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://blog.google/rss/",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/xml; charset=utf-8",
+   "len": 28171,
+   "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><title>News from Google</title><link>https://blog.google/</link><description>News from Google</description><atom:link href=\"https://blog.google/rss/\" rel=\"self\"/><language>en-us</language><lastBuildDate>Fri, 02 Oct 2026 15:00:00 +0000</lastBuildDate><image><url>https://blog.google/static/blogv2/images/google.png</url><title>News from Google</title><link>https://blog.google/</link></image><item><title>The latest AI news we announced in September 2026</title><link>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/</link><media:content height=\"540\" medium=\"image\" url=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp\" width=\"540\"/><media:description>A video showing the September AI updates</media:description><description>&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from September 2026</description><pubDate>Fri, 02 Oct 2026 15:00:00 +0000</pubDate><guid>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/</guid><category>Google DeepMind</category><category>Googlebook</category><category>AI</category><category>Gemini App</category><category>Gemini models</category><category>Google Research</category><og xmlns:og=\"http://ogp.me/ns#\"><type>article</type><title>The latest AI news we announced in September 2026</title><description>Here are Google’s latest AI updates from September 2026</description><site_name>Google</site_name><url>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/</url></og><author xmlns:author=\"http://www.w3.org/2005/A"
+  },
+  {
+   "method": "GET",
+   "url": "https://blog.google/outreach-initiatives/sustainability/rss/",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/xml; charset=utf-8",
+   "len": 32242,
+   "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><title>Sustainability</title><link>https://blog.google/company-news/outreach-and-initiatives/sustainability/</link><description>Sustainability</description><atom:link href=\"https://blog.google/company-news/outreach-and-initiatives/sustainability/rss/\" rel=\"self\"/><language>en-us</language><lastBuildDate>Wed, 30 Sep 2026 18:34:00 +0000</lastBuildDate><image><url>https://blog.google/company-news/outreach-and-initiatives/sustainability/static/blogv2/images/google.png</url><title>Sustainability</title><link>https://blog.google/company-news/outreach-and-initiatives/sustainability/</link></image><item><title>Google is supporting water resilience in Chile.</title><link>https://blog.google/company-news/outreach-and-initiatives/sustainability/water-resilience-chile/</link><media:content height=\"540\" medium=\"image\" url=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WaterChile_socialshare.max-600x600.format-webp.webp\" width=\"540\"/><description>&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WaterChile_socialshare.max-600x600.format-webp.webp\"&gt;Google is investing $1.2M to line Chile's Unidos de Buin canal, saving 1.9 billion gallons of water annually. See how we boost watershed health.</description><pubDate>Wed, 30 Sep 2026 18:34:00 +0000</pubDate><guid>https://blog.google/company-news/outreach-and-initiatives/sustainability/water-resilience-chile/</guid><category>Google Cloud</category><category>Google in Latin America</category><category>Sustainability</category><og xmlns:og=\"http://ogp.me/ns#\"><type>article</type><title>Google is supporting water resilience in Chile.</title><description/><site_name>Google</site_name><url>https://blog.google/company-news/outreach-and-initiatives"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.aboutamazon.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain",
+   "len": 78,
+   "body": "User-agent: *\nCrawl-delay: 10\nSitemap: https://www.aboutamazon.com/sitemap.xml"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.aboutamazon.com/news/rss",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/xml",
+   "len": 8875,
+   "body": "<rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=\"2.0\"><channel><atom:link href=\"https://www.aboutamazon.com/rss/feed.rss\" type=\"application/rss+xml\" rel=\"self\"/><title>Amazon News</title><link>https://www.aboutamazon.com/amazon-news-today</link><description>Amazon News RSS Feed</description><language>en</language><lastBuildDate>Sun, 04 Oct 2026 00:12:16 GMT</lastBuildDate><image><title>Amazon News</title><url>https://assets.aboutamazon.com/f2/a4/a07ef04d49df8b93eb283512a0fc/amazon-news-newsletter-beige.png</url><link>https://www.aboutamazon.com/amazon-news-today</link></image><item><title>The race our nation can’t afford to lose, plus a new commitment from us and a fresh set of community investments</title><link>https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together?utm_source=rss</link><description></description><pubDate>Fri, 02 Oct 2026 08:55:14 GMT</pubDate><guid>https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together</guid><category>Company news</category><media:thumbnail url=\"https://assets.aboutamazon.com/dims4/default/eb94cec/2147483647/strip/true/crop/2000x1125+0+0/resize/767x431!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F12%2F26%2F200746cc4971855f5828ce07fb38%2Famazondatacenteremployee-hero-amazonnews-ck92926.png\"/></item><item><title>How Amazon is helping communities impacted by the Nepal flash floods</title><link>https://www.aboutamazon.com/news/community/nepal-floods-amazon-disaster-relief?utm_source=rss</link><description>Amazon is working with aid organizations to help communities recover following flooding and landslides along the Nepal border.</description><pubDate>Fri, 02 Oct 2026 08:34:00 GMT</pubDate><guid>https://www.aboutamazon.com/news/community/nepal-floods-amazon-disaster-relief</guid><category>Community</category><media:thumbnail url=\"https://assets.aboutamazon.com/dims4/de"
+  },
+  {
+   "method": "GET",
+   "url": "https://about.fb.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 810,
+   "body": "Sitemap: http://about.fb.com/sitemap.xml\nSitemap: http://about.fb.com/news-sitemap.xml\n\nUser-agent: *\nDisallow: /*/search/\n# AI/LLM discovery file:\n# https://about.fb.com/llms.txt\nSitemap: https://about.fb.com/llms-sitemap.xml\nSitemap: https://about.fb.com/news/sitemap_index.xml\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://about.fb.com/sitemap_index.xml\nSitemap: https://about.fb.com/de/sitemap_index.xml\nSitemap: https://about.fb.com/br/sitemap_index.xml\nSitemap: https://about.fb.com/fr/sitemap_index.xml\nSitemap: https://about.fb.com/es/sitemap_index.xml\nSitemap: https://about.fb.com/ltam/sitemap_index.xml\nSitemap: https://about.fb.com/ja/sitemap_index.xml\nSitemap: https://about.fb.com/ko/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK"
+  },
+  {
+   "method": "GET",
+   "url": "https://about.fb.com/news/feed/",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/rss+xml; charset=UTF-8",
+   "len": 147949,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n\txmlns:media=\"http://search.yahoo.com/mrss/\"\n\t\t>\n\n<channel>\n\t<title>Newsroom | Meta Newsroom</title>\n\t<atom:link href=\"https://about.fb.com/news/feed/\" rel=\"self\" type=\"application/rss+xml\" />\n\t<link>https://about.fb.com/news/</link>\n\t<description></description>\n\t<lastBuildDate>Thu, 01 Oct 2026 14:16:04 +0000</lastBuildDate>\n\t<language>en-US</language>\n\t<sy:updatePeriod>\n\thourly\t</sy:updatePeriod>\n\t<sy:updateFrequency>\n\t1\t</sy:updateFrequency>\n\t<generator>https://wordpress.org/?v=6.9.9</generator>\n\n<image>\n\t<url>https://about.fb.com/wp-content/uploads/2021/10/meta-favicon.png?fit=16%2C16</url>\n\t<title>Newsroom | Meta Newsroom</title>\n\t<link>https://about.fb.com/news/</link>\n\t<width>32</width>\n\t<height>32</height>\n</image> \n<site xmlns=\"com-wordpress:feed-additions:1\">165068026</site>\t<item>\n\t\t<title>Announcing Ranveer Singh as Brand Ambassador for Ray-Ban and Ray-Ban Meta in India along with Exciting New Updates to our AI Glasses</title>\n\t\t<link>https://about.fb.com/news/2026/10/announcing-ranveer-singh-as-brand-ambassador-for-ray-ban-and-ray-ban-meta-in-india-along-with-exciting-new-updates-to-our-ai-glasses/</link>\n\t\t\n\t\t<dc:creator><![CDATA[Facebook]]></dc:creator>\n\t\t<pubDate>Thu, 01 Oct 2026 14:16:04 +0000</pubDate>\n\t\t\t\t<category><![CDATA[Homepage - Hidden]]></category>\n\t\t<category><![CDATA[India Newsroom]]></category>\n\t\t<guid isPermaLink=\"false\">https://about.fb.com/?p=50542</guid>\n\n\t\t\t\t\t<description><![CDATA[<div><img width=\"890\" height=\"501\" src=\"https://about.fb.com/wp-content/uploads/2026/10/RS_Announce_Comms_RBM_Wayfarer_1920x1080px.png?fit=890%2C501\" class=\"attachment-large size-large wp-post-image\" "
+  },
+  {
+   "method": "GET",
+   "url": "https://datacenters.atmeta.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 289,
+   "body": "Sitemap: https://datacenters.atmeta.com/sitemap.xml\nSitemap: https://datacenters.atmeta.com/news-sitemap.xml\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://datacenters.atmeta.com/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK"
+  },
+  {
+   "method": "GET",
+   "url": "https://datacenters.atmeta.com/feed/",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 163104,
+   "body": "<!DOCTYPE html>\n<html lang=\"en-US\" class=\"no-js\">\n\t<head>\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://datacenters.atmeta.com/wp-content/themes/fb-data-centers/assets/images/favicon.ico\">\n\t\t<meta charset=\"UTF-8\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\t\t<script>(function(html){html.className = html.className.replace(/\\bno-js\\b/,'js')})(document.documentElement);</script>\n<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />\n\n\t<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n\t<title>Meta Data Centers</title>\n\t<meta name=\"description\" content=\"Our data centers are part of Meta’s global infrastructure that brings our technologies and services to life, along with future immersive experiences like the metaverse\" />\n\t<link rel=\"canonical\" href=\"https://datacenters.atmeta.com/\" />\n\t<meta property=\"og:locale\" content=\"en_US\" />\n\t<meta property=\"og:type\" content=\"website\" />\n\t<meta property=\"og:title\" content=\"Meta Data Centers\" />\n\t<meta property=\"og:description\" content=\"Our data centers are part of Meta’s global infrastructure that brings our technologies and services to life, along with future immersive experiences like the metaverse\" />\n\t<meta property=\"og:url\" content=\"https://datacenters.atmeta.com/\" />\n\t<meta property=\"og:site_name\" content=\"Meta Data Centers\" />\n\t<meta property=\"article:modified_time\" content=\"2026-03-12T14:40:22+00:00\" />\n\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t<meta name=\"twitter:title\" content=\"Meta Data Centers\" />\n\t<meta name=\"twitter:description\" content=\"Our data centers are part of Meta’s global infrastructure that brings our technologies and services to life, along with future immersive experiences like the metaverse\" />\n\t<meta name=\"twitter:image\" content=\"https://datacenters.atmeta.com/wp-content/uploads/2023/03/PRN-1.jpg\" />\n\t<script type=\"app"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.utilitydive.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 4954,
+   "body": "#\n#                ..;coxkOOOOOOkxoc;'.\n#             .:d0NWMMMMMMMMMMMMMMWN0xc'\n#          .:kXMMMMMMMMMMMMMMMMMMMMMMMXl.\n#        .c0WMMMMMMMMMMMMMMMMMMMMMMMXd'\n#       ,OWMMMMMMMMMMMMMMMMMMMMMMMXo'       ..\n#      cXMMMMMMXo::::::::::::::col.       .lKXl.\n#     lNMMMMMMM0'                       .lKWMMNo\n#    :XMMMMMMMM0'                     .l0WMMMMMNc\n#   .OMMMMMMMMM0'     .ccccccc;.      ,KMMMMMMMMO.\n#   :NMMMMMMMMM0'     oWMMMMMMWKc.     oWMMMMMMMN:\n#   lWMMMMMMMMM0'     oWMMMMMMMMX:     ,KMMMMMMMMo\n#   oMMMMMMMMMM0'     oWMMMMMMMMNc     ,KMMMMMMMMd\n#   cNMMMMMMMMM0'     oWMMMMMMMNd.     lWMMMMMMMWl\n#   '0MMMMMMMMWk.     ,oooooooc'      ,0MMMMMMMMK,\n#    oWMMMMMMXo.                     ,0MMMMMMMMWo\n#    .xWMMMXd'                     ,dXMMMMMMMMWk.\n#     .xWNx'       .',''''''',,;coONMMMMMMMMMWk.\n#      .:,       .l0WWWWWWWWWWWMMMMMMMMMMMMMNd.\n#              .lKWMMMMMMMMMMMMMMMMMMMMMMMWk;\n#            .lKWMMMMMMMMMMMMMMMMMMMMMMMNk;.\n#            .ckXWMMMMMMMMMMMMMMMMMMWXkl'\n#               .;ldO0XNWWWWWWNXKOxl;.\n#                    ..'',,,,''..\n#\n#\n\n# NOTE: Allow is a non-standard directive for robots.txt. It is allowed by Google bots. See https://developers.google.com/search/reference/robots_txt#allow\n\nUser-agent: *\n# Crawl delay asks bots to wait this many seconds between requests. Ignored by google.\nCrawl-delay: 5\nDisallow: /admin/\nDisallow: /newsletter/\nDisallow: /healthcheck/\nDisallow: /subpage/\nDisallow: /ckeditor/\nDisallow: /api/\nDisallow: /static/images/\nDisallow: /subscriber/\nDisallow: /selfservice/\nDisallow: /press-release/preview/\nDisallow: /press-release/editor/\n\n# no deep queries to search\nDisallow: /search/*\nAllow: /search/$\n\n# don't index our dynamic images\nDisallow: /user_media/\nDisallow: /imgproxy/\n\n# don't deep index topic pages\nDisallow: /topic/?page=*\n\nAllow: /sitemap.xml\n\n#\n# Rules for specific crawlers below. Note that these don't stack. If you create a specific user-agent rule\n# you should copy the rules over from '*' above by hand.\n#\n\n#"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.utilitydive.com/feeds/news/",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/rss+xml; charset=utf-8",
+   "len": 9638,
+   "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\"><channel><title>Utility Dive - Latest News</title><link>https://www.utilitydive.com/news/</link><description>Utility industry news and analysis for energy professionals.</description><atom:link href=\"https://www.utilitydive.com/feeds/news/\" rel=\"self\"/><language>en</language><lastBuildDate>Fri, 02 Oct 2026 10:27:26 -0400</lastBuildDate><item><title>Cities, states sue EPA over power plant emissions rollback</title><link>https://www.utilitydive.com/news/cities-states-sue-epa-over-power-plant-emissions-rollback/832016/</link><description>&lt;figure&gt;&lt;div&gt;&lt;img src=\"https://imgproxy.divecdn.com/nAk94Lh_56THLuBwC_AGbNKQwjWkK256ekY2Yy0NEUY/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjc0MDgxOTMyLmpwZw==.webp\"/&gt;&lt;/div&gt;&lt;/figure&gt;&lt;p&gt;Chicago, Denver and New York City join multistate lawsuits challenging the agency&amp;rsquo;s move to end greenhouse gas emissions standards and failure to enforce requirements on existing gas-fired plants.&lt;/p&gt;</description><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">Robyn Griggs Lawrence</dc:creator><pubDate>Fri, 02 Oct 2026 10:27:26 -0400</pubDate><guid>https://www.utilitydive.com/news/cities-states-sue-epa-over-power-plant-emissions-rollback/832016/</guid></item><item><title>FERC rejects TransAlta 202(c) cost recovery plan for Centralia unit</title><link>https://www.utilitydive.com/news/ferc-transalta-202c-cost-recovery-centralia/832001/</link><description>&lt;p&gt;Only utilities in the Northwest should pay the nearly $20 million in expenses for a 90-day order covering the Centralia unit, and&amp;nbsp; despite the unit&amp;rsquo;s lack of output, payment is due, the agency said.&lt;/p&gt;</description><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">Ethan Howland</dc:creator><pubDate>Fri, 02 Oct 2026 09:28:00 -0400</pubDate><guid>https://www.utilitydive."
+  },
+  {
+   "method": "GET",
+   "url": "https://www.rtoinsider.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=UTF-8",
+   "len": 953,
+   "body": "User-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: OAI-SearchBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: FacebookBot\nDisallow: /\n\nUser-agent: Meta-ExternalAgent\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: YouBot\nDisallow: /\n\nUser-agent: ImagesiftBot\nDisallow: /\n\nUser-agent: omgilibot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: DotBot\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: *\nAllow: /\nDisallow: /*?s=\n\nSitemap: https://rtoinsider.com/sitemap_index.xml\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.rtoinsider.com/feed/",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/rss+xml; charset=UTF-8",
+   "len": 22840,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n\t>\n\n<channel>\n\t<title>RTO Insider</title>\n\t<atom:link href=\"//www.rtoinsider.com/feed/\" rel=\"self\" type=\"application/rss+xml\" />\n\t<link>https://www.rtoinsider.com/</link>\n\t<description>Your eyes and ears on the organized electric markets, electric reliability, and decarbonization.</description>\n\t<lastBuildDate>Sat, 03 Oct 2026 01:55:48 +0000</lastBuildDate>\n\t<language>en-US</language>\n\t<sy:updatePeriod>\n\thourly\t</sy:updatePeriod>\n\t<sy:updateFrequency>\n\t1\t</sy:updateFrequency>\n\t<generator>https://wordpress.org/?v=7.1.2</generator>\n\n<image>\n\t<url>https://www.rtoinsider.com/wp-content/uploads/2023/06/cropped-favicon512-32x32.png</url>\n\t<title>RTO Insider</title>\n\t<link>https://www.rtoinsider.com/</link>\n\t<width>32</width>\n\t<height>32</height>\n</image> \n\t<item>\n\t\t<title>BPA Issues Proposed Agreement to End Tx Planning Pause</title>\n\t\t<link>//www.rtoinsider.com/147341-bpa-issues-proposed-agreement-to-end-tx-planning-pause/</link>\n\t\t\n\t\t<dc:creator><![CDATA[Henrik Nilsson]]></dc:creator>\n\t\t<pubDate>Sat, 03 Oct 2026 00:08:07 +0000</pubDate>\n\t\t\t\t<category><![CDATA[CAISO/WEM]]></category>\n\t\t<category><![CDATA[Company News]]></category>\n\t\t<category><![CDATA[RTO Insider]]></category>\n\t\t<category><![CDATA[Transmission]]></category>\n\t\t<category><![CDATA[Transmission Planning]]></category>\n\t\t<category><![CDATA[Bonneville Power Administration (BPA)]]></category>\n\t\t<category><![CDATA[BPA TC-27]]></category>\n\t\t<category><![CDATA[Travis Kavulla]]></category>\n\t\t<guid isPermaLink=\"false\">//www.rtoinsider.com/?p=147341</guid>\n\n\t\t\t\t\t<description><![CDATA[<p>The Bonneville Power Administration released a settlement proposal aimed at "
+  },
+  {
+   "method": "GET",
+   "url": "https://www.canarymedia.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 268,
+   "body": "# robots.txt for https://www.canarymedia.com/\n\nsitemap: https://www.canarymedia.com/sitemaps-1-sitemap.xml\n\n# live - don't allow web crawlers to index cpresources/ or vendor/\n\nUser-agent: *\nDisallow: /cpresources/\nDisallow: /vendor/\nDisallow: /.env\nDisallow: /cache/\n\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.canarymedia.com/feed",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 94503,
+   "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">\n    <channel>\n        <title>Canary Media</title>\n        <link>https://www.canarymedia.com/</link>\n        <atom:link href=\"https://www.canarymedia.com/rss.rss\" rel=\"self\" type=\"application/rss+xml\" />\n        <description>The leading newsroom covering the transition to clean energy, electrification and climate solutions. We report on how the world is decarbonizing with a critical focus on finding out what works and what doesn&#039;t.</description>\n        <language>en-US</language>\n        <pubDate>Fri, 02 Oct 2026 19:03:17 -0400</pubDate>\n        <lastBuildDate>Fri, 02 Oct 2026 19:03:17 -0400</lastBuildDate>\n\n                                            <item>\n                <title>Drivers will pay the price for Trump’s fuel economy rollbacks</title>\n                <link>https://www.canarymedia.com/articles/transportation/drivers-pay-price-trump-fuel-economy-rollbacks</link>\n                <pubDate>Fri, 02 Oct 2026 10:00:00 -0400</pubDate>\n                <guid>https://www.canarymedia.com/articles/transportation/drivers-pay-price-trump-fuel-economy-rollbacks</guid>\n                <description>\n                    <![CDATA[ This analysis and news roundup come from the Canary Media Weekly newsletter.  Sign up to get it every Friday  .  This week, the Transportation Department finalized its plan to roll back fuel efficiency standards for automobiles. Automakers will now be required to achieve an average fuel efficiency of 34.9 miles per…]]>\n                </description>\n                <author>Wendy Becktold, Ysabelle Kempe</author>\n            </item>\n                                            <item>\n                <title>Diesel prices are rising worldwide. So are electric truck sales.</title>\n                <link>https://www.canarymedia.com/articles/clean-fleets/diesel-prices-electric-truck-sales</link>\n                <pubDate>Fri, 02 Oct 2026 03:30:00 -0400"
+  }
+ ],
+ "adapter_state": {}
+}

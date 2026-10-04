@@ -1,0 +1,549 @@
+{
+ "adapter": "ercot_large_load",
+ "since": "2026-06-01",
+ "items": 31,
+ "sample": [
+  {
+   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf",
+   "jur": "TX",
+   "source": "ercot_large_load",
+   "kind": "report",
+   "docket": null,
+   "title": "ERCOT — ERCOT Monthly Operational Overview April 2026",
+   "filed": "2026-05-19",
+   "url": "https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf",
+   "entity": "ERCOT",
+   "fetch": [
+    {
+     "url": "https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf"
+    }
+   ],
+   "meta": {
+    "rto": "ERCOT",
+    "page": "https://www.ercot.com/committees/board",
+    "postprocess": "ercot_ll_table",
+    "table_rows": [
+     "• | There are an additional 36 “Small Generator” projects totaling 323 MW that are going through",
+     "Totals: Solar 163 GW (36.1%), Wind 48 GW (10.7%), Gas 65 GW (14.3%), Battery 171 GW / 411 GWh (37.8%), Other 5 GW (1.2%)",
+     "• | ERCOT is tracking 1,965 active generation interconnection requests totaling 453,168 MW as of",
+     "• | Transmission Projects endorsed in 2026 total $4.751 billion as of April 30, 2026.",
+     "• | All projects (in engineering, routing, licensing and construction) total approximately $32.631 billion",
+     "• | Transmission Projects energized in 2026 total approximately $8.900 million as of February 1, 2026.",
+     "• | Transmission Projects planned to energize during the remainder of 2026 total approximately",
+     "• | Of the 9,012 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly",
+     "PUBLIC | DAM Ancillary Services Allocated to Load for April 2026 totaled $21.06 M",
+     "Total | 2,013,720 | 2,037,319 | 551,147 | 502,577"
+    ],
+    "table_metrics": {
+     "Total": 2013720.0
+    },
+    "summary": "• | There are an additional 36 “Small Generator” projects totaling 323 MW that are going through\nTotals: Solar 163 GW (36.1%), Wind 48 GW (10.7%), Gas 65 GW (14.3%), Battery 171 GW / 411 GWh (37.8%), Other 5 GW (1.2%)\n• | ERCOT is tracking 1,965 active generation interconnection requests totaling 453,168 MW as of\n• | Transmission Projects endorsed in 2026 total $4.751 billion as of April 30, 2026.\n• | All projects (in engineering, routing, licensing and construction) total approximately $32.631 billion\n• | Transmission Projects energized in 2026 total approximately $8.900 million as of February 1, 2026.\n• | Transmission Projects planned to energize during the remainder of 2026 total approximately\n• | Of the 9,012 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly\nPUBLIC | DAM Ancillary Services Allocated to Load for April 2026 totaled $21.06 M\nTotal | 2,013,720 | 2,037,319 | 551,147 | 502,577"
+   }
+  },
+  {
+   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf",
+   "jur": "TX",
+   "source": "ercot_large_load",
+   "kind": "report",
+   "docket": null,
+   "title": "ERCOT — ERCOT Monthly Operational Overview May 2026",
+   "filed": "2026-06-15",
+   "url": "https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf",
+   "entity": "ERCOT",
+   "fetch": [
+    {
+     "url": "https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf"
+    }
+   ],
+   "meta": {
+    "rto": "ERCOT",
+    "page": "https://www.ercot.com/committees/board",
+    "postprocess": "ercot_ll_table",
+    "table_rows": [
+     "• | There are an additional 37 “Small Generator” projects totaling 330 MW that are going through",
+     "Totals: Solar 163 GW (35.6%), Wind 48 GW (10.5%), Gas 71 GW (15.4%), Battery 172 GW / 412 GWh (37.4%), Other 5 GW (1%)",
+     "• | ERCOT is tracking 1,960 active generation interconnection requests totaling 458,301 MW as of",
+     "• | Transmission Projects endorsed in 2026 total $4.925 billion as of May 31, 2026.",
+     "• | All projects (in engineering, routing, licensing and construction) total approximately $32.631 billion",
+     "• | Transmission Projects energized in 2026 total approximately $8.900 million as of February 1, 2026.",
+     "• | Transmission Projects planned to energize during the remainder of 2026 total approximately",
+     "• | Of the 9,062 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly",
+     "There were 386.9 RUC total effective Resource-hours in May. 84.2 hours (22%) were committed",
+     "Total | 386.9 | 10.3 | 73.9 | 29.0 | 273.8",
+     "PUBLIC | DAM Ancillary Services Allocated to Load for May 2026 totaled $17.64 M",
+     "Total Collateral | 6,681 | 6,977 | 7,063 | 6,796 | 6,521 | 6,477 | 6,701 | 6,915 | 11,515 | 7,690 | 7,354 | 7,709 | 7,606",
+     "Total | 2,578,805 | 2,595,152 | 565,085 | 557,833"
+    ],
+    "table_metrics": {
+     "Total": 386.9,
+     "Total Collateral": 6681.0
+    },
+    "summary": "• | There are an additional 37 “Small Generator” projects totaling 330 MW that are going through\nTotals: Solar 163 GW (35.6%), Wind 48 GW (10.5%), Gas 71 GW (15.4%), Battery 172 GW / 412 GWh (37.4%), Other 5 GW (1%)\n• | ERCOT is tracking 1,960 active generation interconnection requests totaling 458,301 MW as of\n• | Transmission Projects endorsed in 2026 total $4.925 billion as of May 31, 2026.\n• | All projects (in engineering, routing, licensing and construction) total approximately $32.631 billion\n• | Transmission Projects energized in 2026 total approximately $8.900 million as of February 1, 2026.\n• | Transmission Projects planned to energize during the remainder of 2026 total approximately\n• | Of the 9,062 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly\nThere were 386.9 RUC total effective Resource-hours in May. 84.2 hours (22%) were committed\nTotal | 386.9 | 10.3 | 73.9 | 29.0 | 273.8\nPUBLIC | DAM Ancillary Services Allocated to Load for May 2026 totaled $17.64 M\nTotal Collateral | 6,681 | 6,977 | 7,063 | 6,796 | 6,521 | 6,477 | 6,701 | 6,915 | 11,515 | 7,690 | 7,354 | 7,709 | 7,606\nTotal | 2,578,805 | 2,595,152 | 565,085 | 557,833"
+   }
+  },
+  {
+   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf",
+   "jur": "TX",
+   "source": "ercot_large_load",
+   "kind": "report",
+   "docket": null,
+   "title": "ERCOT — ERCOT Monthly Operational Overview June 2026",
+   "filed": "2026-07-17",
+   "url": "https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf",
+   "entity": "ERCOT",
+   "fetch": [
+    {
+     "url": "https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf"
+    }
+   ],
+   "meta": {
+    "rto": "ERCOT",
+    "page": "https://www.ercot.com/committees/board",
+    "postprocess": "ercot_ll_table",
+    "table_rows": [
+     "• | There are an additional 35 “Small Generator” projects totaling 310 MW that are going through",
+     "Totals: Solar 162 GW (34.9%), Wind 48 GW (10.4%), Gas 78 GW (16.8%), Battery 171 GW / 410 GWh (36.9%), Other 5 GW (1%)",
+     "• | ERCOT is tracking 1,949 active generation interconnection requests totaling 462,785 MW as of",
+     "• | Transmission Projects endorsed in 2026 total $12.111 billion as of June 30, 2026.",
+     "• | All projects (in engineering, routing, licensing and construction) total approximately $32.631 billion",
+     "• | Transmission Projects energized in 2026 total approximately $8.900 million as of February 1, 2026.",
+     "• | Transmission Projects planned to energize during the remainder of 2026 total approximately",
+     "• | Of the 8,926 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly",
+     "Real-Time congestion rent totals increased 8% in June from May 2026",
+     "There were 436.0 RUC total effective Resource-hours in June. 290.4 (67%) were committed to",
+     "Total | 436.0 | 0.0 | 145.6 | 5.0 | 285.4",
+     "PUBLIC | DAM Ancillary Services for June 2026 totaled $12.03 M",
+     "Total Collateral | 6,977 | 7,063 | 6,796 | 6,521 | 6,477 | 6,701 | 6,915 | 11,515 | 7,690 | 7,354 | 7,709 | 7,606 | 7,647",
+     "Total | 3,206,535 | 3,182,301 | 627,730 | 587,149"
+    ],
+    "table_metrics": {
+     "Real-Time congestion rent totals increased": 8.0,
+     "Total": 436.0,
+     "Total Collateral": 6977.0
+    },
+    "summary": "• | There are an additional 35 “Small Generator” projects totaling 310 MW that are going through\nTotals: Solar 162 GW (34.9%), Wind 48 GW (10.4%), Gas 78 GW (16.8%), Battery 171 GW / 410 GWh (36.9%), Other 5 GW (1%)\n• | ERCOT is tracking 1,949 active generation interconnection requests totaling 462,785 MW as of\n• | Transmission Projects endorsed in 2026 total $12.111 billion as of June 30, 2026.\n• | All projects (in engineering, routing, licensing and construction) total approximately $32.631 billion\n• | Transmission Projects energized in 2026 total approximately $8.900 million as of February 1, 2026.\n• | Transmission Projects planned to energize during the remainder of 2026 total approximately\n• | Of the 8,926 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly\nReal-Time congestion rent totals increased 8% in June from May 2026\nThere were 436.0 RUC total effective Resource-hours in June. 290.4 (67%) were committed to\nTotal | 436.0 | 0.0 | 145.6 | 5.0 | 285.4\nPUBLIC | DAM Ancillary Services for June 2026 totaled $12.03 M\nTotal Collateral | 6,977 | 7,063 | 6,796 | 6,521 | 6,477 | 6,701 | 6,915 | 11,515 | 7,690 | 7,354 | 7,709 | 7,606 | 7,647\nTotal | 3,206,535 | 3,182,301 | 627,730 | 587,149"
+   }
+  },
+  {
+   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/08/17/ERCOT-Monthly-Operational-Overview-July-2026.pdf",
+   "jur": "TX",
+   "source": "ercot_large_load",
+   "kind": "report",
+   "docket": null,
+   "title": "ERCOT — ERCOT Monthly Operational Overview July 2026",
+   "filed": "2026-08-17",
+   "url": "https://www.ercot.com/files/docs/2026/08/17/ERCOT-Monthly-Operational-Overview-July-2026.pdf",
+   "entity": "ERCOT",
+   "fetch": [
+    {
+     "url": "https://www.ercot.com/files/docs/2026/08/17/ERCOT-Monthly-Operational-Overview-July-2026.pdf"
+    }
+   ],
+   "meta": {
+    "rto": "ERCOT",
+    "page": "https://www.ercot.com/committees/board",
+    "postprocess": "ercot_ll_table"
+   }
+  },
+  {
+   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/09/16/ERCOT-Monthly-Operational-Overview-August-2026.pdf",
+   "jur": "TX",
+   "source": "ercot_large_load",
+   "kind": "report",
+   "docket": null,
+   "title": "ERCOT — ERCOT Monthly Operational Overview August 2026",
+   "filed": "2026-09-16",
+   "url": "https://www.ercot.com/files/docs/2026/09/16/ERCOT-Monthly-Operational-Overview-August-2026.pdf",
+   "entity": "ERCOT",
+   "fetch": [
+    {
+     "url": "https://www.ercot.com/files/docs/2026/09/16/ERCOT-Monthly-Operational-Overview-August-2026.pdf"
+    }
+   ],
+   "meta": {
+    "rto": "ERCOT",
+    "page": "https://www.ercot.com/committees/board",
+    "postprocess": "ercot_ll_table"
+   }
+  },
+  {
+   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/09/28/Large-Load-IROL-Mitigation-Plans_ROS.pptx",
+   "jur": "TX",
+   "source": "ercot_large_load",
+   "kind": "report",
+   "docket": null,
+   "title": "ERCOT — 05. Large Load IROL Mitigation Plans_ROS",
+   "filed": "2026-10-01",
+   "url": "https://www.ercot.com/files/docs/2026/09/28/Large-Load-IROL-Mitigation-Plans_ROS.pptx",
+   "entity": "ERCOT",
+   "fetch": [
+    {
+     "url": "https://www.ercot.com/files/docs/2026/09/28/Large-Load-IROL-Mitigation-Plans_ROS.pptx"
+    }
+   ],
+   "meta": {
+    "rto": "ERCOT",
+    "page": "https://www.ercot.com/calendar/10012026-ROS-Meeting",
+    "postprocess": "ercot_ll_table"
+   }
+  },
+  {
+   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/09/16/QSA-Results-and-Large-Load-IROL-Mitigation-Plans_final.pdf",
+   "jur": "TX",
+   "source": "ercot_large_load",
+   "kind": "report",
+   "docket": null,
+   "title": "ERCOT — QSA Results and Large Load IROL Mitigation Plans_final",
+   "filed": "2026-09-17",
+   "url": "https://www.ercot.com/files/docs/2026/09/16/QSA-Results-and-Large-Load-IROL-Mitigation-Plans_final.pdf",
+   "entity": "ERCOT",
+   "fetch": [
+    {
+     "url": "https://www.ercot.com/files/docs/2026/09/16/QSA-Results-and-Large-Load-IROL-Mitigation-Plans_final.pdf"
+    }
+   ],
+   "meta": {
+    "rto": "ERCOT",
+    "page": "https://www.ercot.com/calendar/09172026-LLWG-Meeting",
+    "postprocess": "ercot_ll_table"
+   }
+  },
+  {
+   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/09/17/10-Interconnection-and-Grid-Analysis-Update-REVISED.pdf",
+   "jur": "TX",
+   "source": "ercot_large_load",
+   "kind": "report",
+   "docket": null,
+   "title": "ERCOT — 10 Interconnection and Grid Analysis Update - REVISED",
+   "filed": "2026-09-14",
+   "url": "https://www.ercot.com/files/docs/2026/09/17/10-Interconnection-and-Grid-Analysis-Update-REVISED.pdf",
+   "entity": "ERCOT",
+   "fetch": [
+    {
+     "url": "https://www.ercot.com/files/docs/2026/09/17/10-Interconnection-and-Grid-Analysis-Update-REVISED.pdf"
+    }
+   ],
+   "meta": {
+    "rto": "ERCOT",
+    "page": "https://www.ercot.com/calendar/09142026-Board-of-Directors-Meeting",
+    "postprocess": "ercot_ll_table"
+   }
+  }
+ ],
+ "fetched": [
+  {
+   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf",
+   "meta": {
+    "rto": "ERCOT",
+    "page": "https://www.ercot.com/committees/board",
+    "postprocess": "ercot_ll_table",
+    "table_rows": [
+     "• | There are an additional 36 “Small Generator” projects totaling 323 MW that are going through",
+     "Totals: Solar 163 GW (36.1%), Wind 48 GW (10.7%), Gas 65 GW (14.3%), Battery 171 GW / 411 GWh (37.8%), Other 5 GW (1.2%)",
+     "• | ERCOT is tracking 1,965 active generation interconnection requests totaling 453,168 MW as of",
+     "• | Transmission Projects endorsed in 2026 total $4.751 billion as of April 30, 2026.",
+     "• | All projects (in engineering, routing, licensing and construction) total approximately $32.631 billion",
+     "• | Transmission Projects energized in 2026 total approximately $8.900 million as of February 1, 2026.",
+     "• | Transmission Projects planned to energize during the remainder of 2026 total approximately",
+     "• | Of the 9,012 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly",
+     "PUBLIC | DAM Ancillary Services Allocated to Load for April 2026 totaled $21.06 M",
+     "Total | 2,013,720 | 2,037,319 | 551,147 | 502,577"
+    ],
+    "table_metrics": {
+     "Total": 2013720.0
+    },
+    "summary": "• | There are an additional 36 “Small Generator” projects totaling 323 MW that are going through\nTotals: Solar 163 GW (36.1%), Wind 48 GW (10.7%), Gas 65 GW (14.3%), Battery 171 GW / 411 GWh (37.8%), Other 5 GW (1.2%)\n• | ERCOT is tracking 1,965 active generation interconnection requests totaling 453,168 MW as of\n• | Transmission Projects endorsed in 2026 total $4.751 billion as of April 30, 2026.\n• | All projects (in engineering, routing, licensing and construction) total approximately $32.631 billion\n• | Transmission Projects energized in 2026 total approximately $8.900 million as of February 1, 2026.\n• | Transmission Projects planned to energize during the remainder of 2026 total approximately\n• | Of the 9,012 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly\nPUBLIC | DAM Ancillary Services Allocated to Load for April 2026 totaled $21.06 M\nTotal | 2,013,720 | 2,037,319 | 551,147 | 502,577"
+   },
+   "docs": [
+    {
+     "url": "https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf",
+     "name": null,
+     "bytes": 1239697,
+     "sha256": "002e14196894e0f9bd5031243fc95071aea3f8129503a8fede4f58b6c35ca0bd",
+     "ctype": "application/pdf",
+     "quality": "text_layer",
+     "ocr": false,
+     "pages": 27,
+     "truncated": false,
+     "text": "CONFIDENTIAL\n  PUBLIC\n\n\n\n\n                 ERCOT Monthly\n               Operational Overview\n                     (April 2026)\n\n\n                    ERCOT Public\n                    May 18, 2026\n\fPUBLIC   Highlights, Records and Notifications\n\n     • ERCOT’s maximum peak demand for the month of April was 74,603* MW on 4/27/26; this is\n       8,986 MW higher than the April 2025 peak demand of 65,617 MW on 4/14/25.\n\n     • ERCOT issued 3 notifications:\n         – 1 Advisory – Due to ERCOT’s Transient Security Assessment Tool being unavailable on 4/10/2026 18:27 to\n           4/10/2026 18:45.\n         – 1 Watch – Due to a transmission watch for the Del Rio area due to planned and forced outages in the area from\n           4/15/26 11:35 to 4/15/26 15:15.\n         – 1 Advisory – Due to the Space Weather Prediction Center issuing a Geomagnetic Disturbance (GMD) Warning\n           of K-7 on 4/3/26 11:02 until 04/03/2026 19:00.\n\n\n\n\n                                                                               * Preliminary value from May Demand and Energy 2026 report.\n\n                                                                                                                                             2\n\fPUBLIC   Monthly energy generation increased by 3.8% year-over-year to 37,897\n         GWh in April 2026, compared to 36,506 GWh in April 2025\n                    Nuclear   Coal   Wind       Solar       Hydro         Biomass          Other        Net DC/BLT   Gas-CC   Gas\n     "
+    }
+   ]
+  },
+  {
+   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf",
+   "meta": {
+    "rto": "ERCOT",
+    "page": "https://www.ercot.com/committees/board",
+    "postprocess": "ercot_ll_table",
+    "table_rows": [
+     "• | There are an additional 37 “Small Generator” projects totaling 330 MW that are going through",
+     "Totals: Solar 163 GW (35.6%), Wind 48 GW (10.5%), Gas 71 GW (15.4%), Battery 172 GW / 412 GWh (37.4%), Other 5 GW (1%)",
+     "• | ERCOT is tracking 1,960 active generation interconnection requests totaling 458,301 MW as of",
+     "• | Transmission Projects endorsed in 2026 total $4.925 billion as of May 31, 2026.",
+     "• | All projects (in engineering, routing, licensing and construction) total approximately $32.631 billion",
+     "• | Transmission Projects energized in 2026 total approximately $8.900 million as of February 1, 2026.",
+     "• | Transmission Projects planned to energize during the remainder of 2026 total approximately",
+     "• | Of the 9,062 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly",
+     "There were 386.9 RUC total effective Resource-hours in May. 84.2 hours (22%) were committed",
+     "Total | 386.9 | 10.3 | 73.9 | 29.0 | 273.8",
+     "PUBLIC | DAM Ancillary Services Allocated to Load for May 2026 totaled $17.64 M",
+     "Total Collateral | 6,681 | 6,977 | 7,063 | 6,796 | 6,521 | 6,477 | 6,701 | 6,915 | 11,515 | 7,690 | 7,354 | 7,709 | 7,606",
+     "Total | 2,578,805 | 2,595,152 | 565,085 | 557,833"
+    ],
+    "table_metrics": {
+     "Total": 386.9,
+     "Total Collateral": 6681.0
+    },
+    "summary": "• | There are an additional 37 “Small Generator” projects totaling 330 MW that are going through\nTotals: Solar 163 GW (35.6%), Wind 48 GW (10.5%), Gas 71 GW (15.4%), Battery 172 GW / 412 GWh (37.4%), Other 5 GW (1%)\n• | ERCOT is tracking 1,960 active generation interconnection requests totaling 458,301 MW as of\n• | Transmission Projects endorsed in 2026 total $4.925 billion as of May 31, 2026.\n• | All projects (in engineering, routing, licensing and construction) total approximately $32.631 billion\n• | Transmission Projects energized in 2026 total approximately $8.900 million as of February 1, 2026.\n• | Transmission Projects planned to energize during the remainder of 2026 total approximately\n• | Of the 9,062 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly\nThere were 386.9 RUC total effective Resource-hours in May. 84.2 hours (22%) were committed\nTotal | 386.9 | 10.3 | 73.9 | 29.0 | 273.8\nPUBLIC | DAM Ancillary Services Allocated to Load for May 2026 totaled $17.64 M\nTotal Collateral | 6,681 | 6,977 | 7,063 | 6,796 | 6,521 | 6,477 | 6,701 | 6,915 | 11,515 | 7,690 | 7,354 | 7,709 | 7,606\nTotal | 2,578,805 | 2,595,152 | 565,085 | 557,833"
+   },
+   "docs": [
+    {
+     "url": "https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf",
+     "name": null,
+     "bytes": 1228846,
+     "sha256": "7b943dc62a188d859433e50b58bb7268c0ad024f5ef2d3edf60498c64867dfd2",
+     "ctype": "application/pdf",
+     "quality": "text_layer",
+     "ocr": false,
+     "pages": 27,
+     "truncated": false,
+     "text": "CONFIDENTIAL\n  PUBLIC\n\n\n\n\n                 ERCOT Monthly\n               Operational Overview\n                     (May 2026)\n\n\n                    ERCOT Public\n                    June 15, 2026\n\fPUBLIC   Highlights, Records and Notifications\n\n     • ERCOT’s maximum peak demand for the month of May was 77,822* MW on 5/29/26; this is\n       577 MW lower than the May 2025 peak demand of 78,399 MW on 5/23/25.\n\n     • ERCOT issued 1 notification:\n         – 1 Watch – A transmission watch due to storm damage in the Rio Grande Valley of Harlingen, Brownsville and\n           South Padre Island area from 5/9/26 15:46 to 5/10/26 23:55.\n\n\n\n\n                                                                             * Preliminary value from June Demand and Energy 2026 report.\n\n                                                                                                                                            2\n\fPUBLIC   Monthly energy generation increased by 1.6% year-over-year to 41,870\n         GWh in May 2026, compared to 41,212 GWh in May 2025\n                    Nuclear   Coal   Wind       Solar       Hydro         Biomass          Other        Net DC/BLT   Gas-CC   Gas\n                 60,000\n\n                 50,000\n\n                 40,000\n           GWh\n\n\n\n\n                 30,000\n\n                 20,000\n\n                 10,000\n\n                     0\n\n\n\n\n                                            Data for latest two months are based on preliminary settlements.\n       "
+    }
+   ]
+  },
+  {
+   "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf",
+   "meta": {
+    "rto": "ERCOT",
+    "page": "https://www.ercot.com/committees/board",
+    "postprocess": "ercot_ll_table",
+    "table_rows": [
+     "• | There are an additional 35 “Small Generator” projects totaling 310 MW that are going through",
+     "Totals: Solar 162 GW (34.9%), Wind 48 GW (10.4%), Gas 78 GW (16.8%), Battery 171 GW / 410 GWh (36.9%), Other 5 GW (1%)",
+     "• | ERCOT is tracking 1,949 active generation interconnection requests totaling 462,785 MW as of",
+     "• | Transmission Projects endorsed in 2026 total $12.111 billion as of June 30, 2026.",
+     "• | All projects (in engineering, routing, licensing and construction) total approximately $32.631 billion",
+     "• | Transmission Projects energized in 2026 total approximately $8.900 million as of February 1, 2026.",
+     "• | Transmission Projects planned to energize during the remainder of 2026 total approximately",
+     "• | Of the 8,926 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly",
+     "Real-Time congestion rent totals increased 8% in June from May 2026",
+     "There were 436.0 RUC total effective Resource-hours in June. 290.4 (67%) were committed to",
+     "Total | 436.0 | 0.0 | 145.6 | 5.0 | 285.4",
+     "PUBLIC | DAM Ancillary Services for June 2026 totaled $12.03 M",
+     "Total Collateral | 6,977 | 7,063 | 6,796 | 6,521 | 6,477 | 6,701 | 6,915 | 11,515 | 7,690 | 7,354 | 7,709 | 7,606 | 7,647",
+     "Total | 3,206,535 | 3,182,301 | 627,730 | 587,149"
+    ],
+    "table_metrics": {
+     "Real-Time congestion rent totals increased": 8.0,
+     "Total": 436.0,
+     "Total Collateral": 6977.0
+    },
+    "summary": "• | There are an additional 35 “Small Generator” projects totaling 310 MW that are going through\nTotals: Solar 162 GW (34.9%), Wind 48 GW (10.4%), Gas 78 GW (16.8%), Battery 171 GW / 410 GWh (36.9%), Other 5 GW (1%)\n• | ERCOT is tracking 1,949 active generation interconnection requests totaling 462,785 MW as of\n• | Transmission Projects endorsed in 2026 total $12.111 billion as of June 30, 2026.\n• | All projects (in engineering, routing, licensing and construction) total approximately $32.631 billion\n• | Transmission Projects energized in 2026 total approximately $8.900 million as of February 1, 2026.\n• | Transmission Projects planned to energize during the remainder of 2026 total approximately\n• | Of the 8,926 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly\nReal-Time congestion rent totals increased 8% in June from May 2026\nThere were 436.0 RUC total effective Resource-hours in June. 290.4 (67%) were committed to\nTotal | 436.0 | 0.0 | 145.6 | 5.0 | 285.4\nPUBLIC | DAM Ancillary Services for June 2026 totaled $12.03 M\nTotal Collateral | 6,977 | 7,063 | 6,796 | 6,521 | 6,477 | 6,701 | 6,915 | 11,515 | 7,690 | 7,354 | 7,709 | 7,606 | 7,647\nTotal | 3,206,535 | 3,182,301 | 627,730 | 587,149"
+   },
+   "docs": [
+    {
+     "url": "https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf",
+     "name": null,
+     "bytes": 1122925,
+     "sha256": "a967182359f661b8c5f05f4edf5df459fa098da6a7f7d99c6f2e76021b563e67",
+     "ctype": "application/pdf",
+     "quality": "text_layer",
+     "ocr": false,
+     "pages": 27,
+     "truncated": false,
+     "text": "CONFIDENTIAL\n  PUBLIC\n\n\n\n\n                 ERCOT Monthly\n               Operational Overview\n                     (June 2026)\n\n\n                    ERCOT Public\n                    July 16, 2026\n\fPUBLIC   Highlights, Records and Notifications\n\n     • ERCOT set a new record of 82,772 MW* for the month of June on 6/18/2026; This is 5,376\n       MW more than the June 2025 peak demand of 77,396 MW on 6/19/2025.\n\n     • ERCOT issued 9 notifications:\n         – 9 Advisories – ERCOT has postponed the deadline for the posting of the Day-Ahead Market (DAM) solution for\n           Operating Days 06/07/26, 06/10/26, 06/11/26, 06/18/26, 06/19/26, 06/21/26, 06/24/26, 06/25/26, 07/01/26 due to\n           long solution run time.\n\n\n\n\n                                                                                * Preliminary value from June Demand and Energy 2026 report.\n\n                                                                                                                                               2\n\fPUBLIC   Monthly energy generation increased by 4.7% year-over-year to 47,277\n         GWh in June 2026, compared to 45,167 GWh in June 2025\n                    Nuclear   Coal   Wind       Solar       Hydro         Biomass          Other        Net DC/BLT   Gas-CC   Gas\n                 60,000\n\n                 50,000\n\n                 40,000\n           GWh\n\n\n\n\n                 30,000\n\n                 20,000\n\n                 10,000\n\n                     0\n\n\n\n\n                  "
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "sub": {
+  "ercot:llwg": {
+   "status": "ok",
+   "note": "read"
+  },
+  "ercot:tac": {
+   "status": "ok",
+   "note": "read"
+  },
+  "ercot:ros": {
+   "status": "ok",
+   "note": "read"
+  },
+  "ercot:board": {
+   "status": "ok",
+   "note": "read"
+  },
+  "ercot:public_api": {
+   "status": "no_key",
+   "note": "add ERCOT_API_USERNAME, ERCOT_API_PASSWORD, ERCOT_API_SUBSCRIPTION_KEY repo secrets to enable"
+  }
+ },
+ "exchanges": [
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain",
+   "len": 814,
+   "body": "# Disallowing the following for all agents\nUser-agent: *\nDisallow: /content/contours/\nDisallow: /static-assets/data/help/\nDisallow: /static-assets/css\nDisallow: /static-assets/scripts\nDisallow: /static-assets/js\nDisallow: /misapp\nDisallow: /remote-assets/\nDisallow: /content/wcm\nDisallow: /content/css\nDisallow: /content/news\nDisallow: /content/mkrules\nDisallow: /content/meetings\nDisallow: /content/gridinfo\nDisallow: /content/committees\nDisallow: /content/services\nDisallow: /content/mkinfo\nDisallow: /committeeslboardlsnpc\nDisallow: /widgets\nDisallow: /meetings\nDisallow: /tmaps\nDisallow: /AboutERCOT\nDisallow: /Application%20Data\nDisallow: /MATLAB\nDisallow: /mp/export?\nDisallow: /misdownload\nDisallow: /ical\nDisallow: /about/governance/biography/\n\nSitemap: https://www.ercot.com/static-assets/data/sitemap.xml"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/committees/tac/llwg",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 77421,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"LLWG,  Large Load Working Group, LFLTF\">\n            <meta name=\"description\" content=\"The Large Load Working Group (LLWG) is non-voting body that reports directly to the ERCOT Technical Advisory Committee (TAC) and provides recommendations to TAC\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Large Load Working Group (LLWG)</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-445556178|rpid=2049051648|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migr"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/committees/tac",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 73877,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"ercot, TAC\">\n            <meta name=\"description\" content=\"The Technical Advisory Committee (TAC), comprised of stakeholders, makes recommendations to the Board of Directors and is assisted by four subcommittees.\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Technical Advisory Committee</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-2130298699|rpid=2030807993|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manage"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/committees/ros",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 70768,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"TAC, ROS\">\n            <meta name=\"description\" content=\"Reports up to TAC Group. Operating guides and planning criteria.\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Reliability and Operations Subcommittee</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-2130344331|rpid=4357972|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1789657209390|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date()"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/committees/board",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 73435,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"ERCOT boards, board, director \">\n            <meta name=\"description\" content=\"ERCOT boards of directors\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Board of Directors</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_979085541|rpid=1998709304|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/calendar/10012026-ROS-Meeting",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 89545,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_1307362726|rpid=-1582161711|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gt"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/calendar/09172026-LLWG-Meeting",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 65943,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_710792297|rpid=1696908441|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm."
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/calendar/09152026-Board-of-Directors-Meeting",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 55298,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_1496323519|rpid=-1853005569|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gt"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/calendar/09142026-Board-of-Directors-Meeting",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 112871,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-614966850|rpid=-1427773429|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1789657209390|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gt"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/calendar/09032026-ROS-Meeting",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 54550,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-282583622|rpid=-760271549|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/calendar/08262026-TAC-Meeting-_-Webex",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 80850,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_2114119886|rpid=1996259542|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/calendar/08212026-LLWG-Meeting-_-Webex",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 63321,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_1465121045|rpid=-989485083|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/calendar/08062026-ROS-Meeting",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 99379,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"FFSS, ercot, events, meetings, group meetings\">\n            <meta name=\"description\" content=\"Find more details about event\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Event Details </title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_1429990840|rpid=407410486|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm."
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/services/rq/large-load-integration",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html;charset=UTF-8",
+   "len": 99895,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n    \n    <head>\n            <meta name=\"keywords\" content=\"ERCOT, large load, interconnection, process\">\n            <meta name=\"description\" content=\"Learn more about Large Load interconnection process.\">\n        \n        <link rel=\"stylesheet\" href=\"/static-assets/css/ercot-com.css\">\n  <title>Large Load Integration</title>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n  <meta charset=\"utf-8\"/>\n  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\" data-dtconfig=\"rid=RID_-406135340|rpid=-772785554|domain=ercot.com|reportUrl=/rb_b41ed366-424d-4b61-8d7a-8b07c2fd7a11|app=b4c8ff390fce92cc|owasp=1|featureHash=ICA7NQVfqrux|msl=153600|srsr=1000|rdnt=1|uxrgce=1|cuc=1o2mss9s|srms=2,1,0,0%2Ftextarea%2Cinput%2Cselect%2Coption;0%2Fdatalist;0%2Fform%20button;0%2F%5Bdata-dtrum-input%5D;0%2F.data-dtrum-input;0%2F%5Bcontenteditable%5D%3Anot%28%5Bcontenteditable%3D%22false%22%5D%29;0%2F%5Brole%3D%22textbox%22%5D%2C%5Brole%3D%22checkbox%22%5D%2C%5Brole%3D%22radio%22%5D%2C%5Brole%3D%22option%22%5D%2C%5Brole%3D%22combobox%22%5D%2C%5Brole%3D%22slider%22%5D%2C%5Brole%3D%22searchbox%22%5D%2C%5Brole%3D%22switch%22%5D%2C%5Brole%3D%22spinbutton%22%5D;1%2F%5Edata%28%28%5C-.%2B%24%29%7C%24%29|mel=100000|expw=1|dpvc=1|lastModification=1788461412517|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NQVfqrux_10343260715123811.js\"></script><link rel=\"shortcut icon\" href=\"/static-assets/images/favicon.ico\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/application.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/fontawesome-all.css\">\n<link rel=\"stylesheet\" href=\"/static-assets/css/daterangepicker.css\" />\n<link rel=\"stylesheet\" href=\"/static-assets/css/migration.css\" />\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nne"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/files/docs/2026/05/19/ERCOT-Monthly-Operational-Overview-April-2026.pdf",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/pdf",
+   "len": 1239697,
+   "body": "<pdf>"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/files/docs/2026/06/15/ERCOT-Monthly-Operational-Overview-Final-May-2026.pdf",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/pdf",
+   "len": 1228846,
+   "body": "<pdf>"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ercot.com/files/docs/2026/07/17/ERCOT-Monthly-Operational-Overview-June-2026.pdf",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/pdf",
+   "len": 1122925,
+   "body": "<pdf>"
+  }
+ ],
+ "adapter_state": {
+  "meetings_done": [
+   "https://www.ercot.com/calendar/08062026-ROS-Meeting",
+   "https://www.ercot.com/calendar/08212026-LLWG-Meeting-_-Webex",
+   "https://www.ercot.com/calendar/08262026-TAC-Meeting-_-Webex",
+   "https://www.ercot.com/calendar/09032026-ROS-Meeting",
+   "https://www.ercot.com/calendar/09142026-Board-of-Directors-Meeting",
+   "https://www.ercot.com/calendar/09152026-Board-of-Directors-Meeting",
+   "https://www.ercot.com/calendar/09172026-LLWG-Meeting",
+   "https://www.ercot.com/calendar/10012026-ROS-Meeting"
+  ]
+ }
+}

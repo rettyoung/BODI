@@ -1,8 +1,129 @@
 {
  "adapter": "courtlistener",
  "since": "2026-06-01",
- "items": 0,
- "sample": [],
+ "items": 20,
+ "sample": [
+  {
+   "id": "COURT:o:10988902",
+   "jur": "IL",
+   "source": "courtlistener",
+   "kind": "court",
+   "docket": "3-24-0021",
+   "title": "International Brotherhood of Electrical Workers v. IL Commerce Comm'n",
+   "filed": "2026-09-30",
+   "url": "https://www.courtlistener.com/opinion/10988902/international-brotherhood-of-electrical-workers-v-il-commerce-commn/",
+   "fetch": [],
+   "meta": {
+    "court": "Appellate Court of Illinois",
+    "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+   }
+  },
+  {
+   "id": "COURT:o:10969981",
+   "jur": "TX",
+   "source": "courtlistener",
+   "kind": "court",
+   "docket": "24-0794",
+   "title": "Spectrum Gulf Coast, LLC v. City of San Antonio, Acting by and Through City Public Service Board",
+   "filed": "2026-09-09",
+   "url": "https://www.courtlistener.com/opinion/10969981/spectrum-gulf-coast-llc-v-city-of-san-antonio-acting-by-and-through-city/",
+   "fetch": [],
+   "meta": {
+    "court": "Texas Supreme Court",
+    "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+   }
+  },
+  {
+   "id": "COURT:o:10969020",
+   "jur": "PA",
+   "source": "courtlistener",
+   "kind": "court",
+   "docket": "965 C.D. 2025",
+   "title": "Bessemer and Lake Erie Railroad Co. v. PA PUC",
+   "filed": "2026-09-08",
+   "url": "https://www.courtlistener.com/opinion/10969020/bessemer-and-lake-erie-railroad-co-v-pa-puc/",
+   "fetch": [],
+   "meta": {
+    "court": "Commonwealth Court of Pennsylvania",
+    "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+   }
+  },
+  {
+   "id": "COURT:o:10953486",
+   "jur": "PA",
+   "source": "courtlistener",
+   "kind": "court",
+   "docket": "1232 C.D. 2024",
+   "title": "Williams Companies, Inc. v. PA PUC",
+   "filed": "2026-08-19",
+   "url": "https://www.courtlistener.com/opinion/10953486/williams-companies-inc-v-pa-puc/",
+   "fetch": [],
+   "meta": {
+    "court": "Commonwealth Court of Pennsylvania",
+    "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+   }
+  },
+  {
+   "id": "COURT:o:10953232",
+   "jur": "AZ",
+   "source": "courtlistener",
+   "kind": "court",
+   "docket": "CV-25-0157-PR",
+   "title": "Williams v. ades/lamont",
+   "filed": "2026-08-18",
+   "url": "https://www.courtlistener.com/opinion/10953232/williams-v-adeslamont/",
+   "fetch": [],
+   "meta": {
+    "court": "Arizona Supreme Court",
+    "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+   }
+  },
+  {
+   "id": "COURT:o:10952695",
+   "jur": "OH",
+   "source": "courtlistener",
+   "kind": "court",
+   "docket": "2024-0098",
+   "title": "In re Application of Moraine Wind, L.L.C.",
+   "filed": "2026-08-18",
+   "url": "https://www.courtlistener.com/opinion/10952695/in-re-application-of-moraine-wind-llc/",
+   "fetch": [],
+   "meta": {
+    "court": "Ohio Supreme Court",
+    "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+   }
+  },
+  {
+   "id": "COURT:o:10796489",
+   "jur": "OK",
+   "source": "courtlistener",
+   "kind": "court",
+   "docket": "122360",
+   "title": "VERTICAL EXPLORATION v. AMERICO OIL and CORPORATION COMMISSION",
+   "filed": "2026-08-18",
+   "url": "https://www.courtlistener.com/opinion/10796489/vertical-exploration-v-americo-oil-and-corporation-commission/",
+   "fetch": [],
+   "meta": {
+    "court": "Court of Civil Appeals of Oklahoma",
+    "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+   }
+  },
+  {
+   "id": "COURT:o:10951813",
+   "jur": "US-Federal",
+   "source": "courtlistener",
+   "kind": "court",
+   "docket": "02-25-00430-CV",
+   "title": "Andrea Potter, Individually and as Next Friend of C.P. and H.P., Minors; And Cordell Potter v. Atmos Energy Corporation",
+   "filed": "2026-08-13",
+   "url": "https://www.courtlistener.com/opinion/10951813/andrea-potter-individually-and-as-next-friend-of-cp-and-hp-minors/",
+   "fetch": [],
+   "meta": {
+    "court": "Texas Court of Appeals, 2nd District (Fort Worth)",
+    "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+   }
+  }
+ ],
  "notes": [],
  "sub": {},
  "exchanges": [
@@ -13,20 +134,20 @@
    "status": 403,
    "ctype": "text/html",
    "len": 919,
-   "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could not be satisfied.</H2>\n<HR noshade size=\"1px\">\nRequest blocked.\nWe can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.\n<BR clear=\"all\">\nIf you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.\n<BR clear=\"all\">\n<HR noshade size=\"1px\">\n<PRE>\nGenerated by cloudfront (CloudFront)\nRequest ID: 6U4-0qeGOjdQ_3lN242RVRJeyKaCX-7xMb0mdvae3GwFtpNv8z9izQ==\n</PRE>\n<ADDRESS>\n</ADDRESS>\n</BODY></HTML>"
+   "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could not be satisfied.</H2>\n<HR noshade size=\"1px\">\nRequest blocked.\nWe can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.\n<BR clear=\"all\">\nIf you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.\n<BR clear=\"all\">\n<HR noshade size=\"1px\">\n<PRE>\nGenerated by cloudfront (CloudFront)\nRequest ID: FBjFcKocR8m3GEZAhKZq33KMEIZdzYhw2lrf2y3Z0H5KFkeY6Z90_w==\n</PRE>\n<ADDRESS>\n</ADDRESS>\n</BODY></HTML>"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.courtlistener.com/api/rest/v4/search/?type=o&order_by=dateFiled%20desc&filed_after=2026-06-01&q=%22Public%20Utility%20Commission%22%20OR%20%22Public%20Utilities%20Commission%22%20OR%20%22Public%20Service%20Commission%22%20OR%20%22Corporation%20Commission%22%20OR%20%22Electric%20Reliability%20Council%22%20OR%20%22Utilities%20Commission%22&court=texapp%20tex%20pacommwct%20pa%20ohio%20wva%20va%20vactapp%20ncctapp%20nc%20sc%20scctapp%20illappct%20ill%20ga%20gactapp%20ariz%20arizctapp%20la%20lactapp%20mo%20moctapp%20kan%20kanctapp%20okla%20oklacivapp%20nm%20nmctapp%20nev%20nevapp%20ala%20alacivapp",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 48165,
+   "body": "{\"count\":24,\"next\":\"https://www.courtlistener.com/api/rest/v4/search/?court=texapp+tex+pacommwct+pa+ohio+wva+va+vactapp+ncctapp+nc+sc+scctapp+illappct+ill+ga+gactapp+ariz+arizctapp+la+lactapp+mo+moctapp+kan+kanctapp+okla+oklacivapp+nm+nmctapp+nev+nevapp+ala+alacivapp&cursor=cz0xNzgwNjE3NjAwMDAwJnM9MTA4NzA1NDYmdD1vJmQ9MjAyNi0xMC0wMyZwPTI%3D&filed_after=2026-06-01&order_by=dateFiled+desc&q=%22Public+Utility+Commission%22+OR+%22Public+Utilities+Commission%22+OR+%22Public+Service+Commission%22+OR+%22Corporation+Commission%22+OR+%22Electric+Reliability+Council%22+OR+%22Utilities+Commission%22&type=o\",\"previous\":null,\"results\":[{\"absolute_url\":\"/opinion/10988902/international-brotherhood-of-electrical-workers-v-il-commerce-commn/\",\"attorney\":\"\",\"caseName\":\"International Brotherhood of Electrical Workers v. IL Commerce Comm'n\",\"caseNameFull\":\"\",\"citation\":[\"2026 IL App (3d) 240021\"],\"citeCount\":0,\"cluster_id\":10988902,\"court\":\"Appellate Court of Illinois\",\"court_citation_string\":\"Ill. App. Ct.\",\"court_id\":\"illappct\",\"court_jurisdiction\":\"SA\",\"dateArgued\":\"2026-05-12\",\"dateFiled\":\"2026-09-30\",\"dateReargued\":null,\"dateReargumentDenied\":null,\"docketNumber\":\"3-24-0021\",\"docket_id\":73332345,\"judge\":\"\",\"lexisCite\":\"\",\"meta\":{\"timestamp\":\"2026-09-30T18:27:00.710124Z\",\"date_created\":\"2026-09-30T18:27:00.546302Z\",\"score\":{\"bm25\":null}},\"neutralCite\":\"2026 IL App (3d) 240021\",\"non_participating_judge_ids\":[],\"opinions\":[{\"author_id\":null,\"cites\":[100254,102823,392327,484619,867124,1921011,2000132,2039628,2082946,2087788,2091955,2114200,2241598,2253203,3147585,3147634,4022691,4368127,5830093,6983147,6985064,7025914,7026855,8496898,9419421,9529914,11065796,11331807],\"download_url\":\"https://www.illinoiscourts.gov/resources/52254d63-6969-4717-a902-10788a30d1ec/file\",\"id\":11456566,\"joined_by_ids\":[],\"local_path\":\"pdf/2026/09/30/international_brotherhood_of_electrical_workers_v._il_commerce_commn.pdf\",\"meta\":{\"timestamp\":\"2026-09-30T18:56:00.500240Z\",\"date_created\":\"2026-09-30T18:27:00.57"
   },
   {
    "method": "GET",
    "url": "https://www.courtlistener.com/api/rest/v4/search/?type=o&order_by=dateFiled%20desc&filed_after=2026-06-01&q=%22large%20load%22%20AND%20%28tariff%20OR%20commission%20OR%20FERC%29",
-   "req": "None",
-   "status": 200,
-   "ctype": "application/json",
-   "len": 52,
-   "body": "{\"count\":0,\"next\":null,\"previous\":null,\"results\":[]}"
-  },
-  {
-   "method": "GET",
-   "url": "https://www.courtlistener.com/api/rest/v4/search/?type=o&order_by=dateFiled%20desc&filed_after=2026-06-01&q=%22data%20center%22%20AND%20%28%22public%20service%20commission%22%20OR%20%22corporation%20commission%22%20OR%20%22public%20utility%20commission%22%29",
    "req": "None",
    "status": 200,
    "ctype": "application/json",

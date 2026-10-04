@@ -1,0 +1,383 @@
+{
+ "adapter": "studies",
+ "since": "2026-06-01",
+ "items": 49,
+ "sample": [
+  {
+   "id": "OSTI:3603573",
+   "jur": "US-Federal",
+   "source": "studies",
+   "kind": "report",
+   "docket": null,
+   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Market participation strategy of hybrid energy resources: A New York ISO case study",
+   "filed": "2027-01-01",
+   "url": "https://www.osti.gov/biblio/3603573",
+   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
+   "fetch": [
+    {
+     "url": "https://www.osti.gov/servlets/purl/3603573"
+    }
+   ],
+   "meta": {
+    "authors": [
+     "Bansal, Rajni Kant",
+     "Singhal, Nikita",
+     "Kemp, Julie Mulvaney",
+     "Ela, Erik",
+     "Heleno, Miguel"
+    ],
+    "query": "\"interconnection queue\" OR \"queued up\"",
+    "doi": "10.1016/j.epsr.2026.113571"
+   }
+  },
+  {
+   "id": "OSTI:3729385",
+   "jur": "US-Federal",
+   "source": "studies",
+   "kind": "report",
+   "docket": null,
+   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): A review of United States energy-only generator interconnection service policy and considerations for reform",
+   "filed": "2026-12-01",
+   "url": "https://www.osti.gov/biblio/3729385",
+   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
+   "fetch": [
+    {
+     "url": "https://www.osti.gov/servlets/purl/3729385"
+    }
+   ],
+   "meta": {
+    "authors": [
+     "Gorman, Will",
+     "Kahrl, Fredrich",
+     "Norris, Tyler",
+     "Patiño-Echeverri, Dalia"
+    ],
+    "query": "\"interconnection queue\" OR \"queued up\"",
+    "doi": "10.1016/j.enpol.2026.115554"
+   }
+  },
+  {
+   "id": "OSTI:3676872",
+   "jur": "US-Federal",
+   "source": "studies",
+   "kind": "report",
+   "docket": "None",
+   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Interconnection Timelines and Costs for Distributed Energy Projects in the United States (2000-2025) [Slides]",
+   "filed": "2026-09-03",
+   "url": "https://www.osti.gov/biblio/3676872",
+   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
+   "fetch": [
+    {
+     "url": "https://www.osti.gov/servlets/purl/3676872"
+    }
+   ],
+   "meta": {
+    "authors": [
+     "Chelminski, Kathryn [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Wong, Johnny [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Schwartz, Lisa C. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Pigman, Margaret [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Carlson, Katherine [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]"
+    ],
+    "query": "\"interconnection queue\" OR \"queued up\"",
+    "doi": "10.2172/3676872"
+   }
+  },
+  {
+   "id": "OSTI:3484631",
+   "jur": "US-Federal",
+   "source": "studies",
+   "kind": "report",
+   "docket": "None",
+   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): From Bricks to Clicks: Mapping the White Space in Building Innovation",
+   "filed": "2026-08-10",
+   "url": "https://www.osti.gov/biblio/3484631",
+   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
+   "fetch": [
+    {
+     "url": "https://www.osti.gov/servlets/purl/3484631"
+    }
+   ],
+   "meta": {
+    "authors": [
+     "Singh, Reshma",
+     "Jain, Yashima"
+    ],
+    "query": "\"interconnection queue\" OR \"queued up\"",
+    "doi": "10.20357/B70033"
+   }
+  },
+  {
+   "id": "OSTI:3376147",
+   "jur": "US-Federal",
+   "source": "studies",
+   "kind": "report",
+   "docket": "None",
+   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Queued Up: 2026 Edition, Characteristics of Power Plants Seeking Transmission Interconnection As of the End of 2025 [Slides]",
+   "filed": "2026-06-30",
+   "url": "https://www.osti.gov/biblio/3376147",
+   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
+   "fetch": [
+    {
+     "url": "https://www.osti.gov/servlets/purl/3376147"
+    }
+   ],
+   "meta": {
+    "authors": [
+     "Rand, Joseph [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Cheyette, Anna [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Talley, Chris [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Zhang, Steven [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Gorman, Will [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Wiser, Ryan [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]"
+    ],
+    "query": "\"interconnection queue\" OR \"queued up\"",
+    "doi": "10.2172/3376147"
+   }
+  },
+  {
+   "id": "OSTI:3376044",
+   "jur": "US-Federal",
+   "source": "studies",
+   "kind": "report",
+   "docket": "None",
+   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Distribution System Plan Template and Guide for Electric Utilities for Adaptation by States and Utilities [Slides]",
+   "filed": "2026-06-29",
+   "url": "https://www.osti.gov/biblio/3376044",
+   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
+   "fetch": [
+    {
+     "url": "https://www.osti.gov/servlets/purl/3376044"
+    }
+   ],
+   "meta": {
+    "authors": [
+     "Pereira, Guillermo [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Martini, Paul De [Newport Consulting Group LLC, Fulton, MD (United States)]",
+     "Mallet Dias, Arthur [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Schwartz, Lisa C. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]"
+    ],
+    "query": "\"interconnection queue\" OR \"queued up\"",
+    "doi": "10.2172/3376044"
+   }
+  },
+  {
+   "id": "OSTI:3391471",
+   "jur": "US-Federal",
+   "source": "studies",
+   "kind": "report",
+   "docket": null,
+   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): ML–Enabled FPGA Framework for Fast Quantum State Discrimination in Mid-Circuit Measurement Regimes",
+   "filed": "2026-06-22",
+   "url": "https://www.osti.gov/biblio/3391471",
+   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States), National Quantum Information Science (QIS) Research Centers (United States). Quantum Systems Accelerator (QSA)",
+   "fetch": [
+    {
+     "url": "https://www.osti.gov/servlets/purl/3391471"
+    }
+   ],
+   "meta": {
+    "authors": [
+     "Vora, Neel [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)] (ORCID:0009000204730150)",
+     "Xu, Yilun [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)] (ORCID:000000019284809X)",
+     "Hashim, Akel [University of California, Berkeley, CA (United States)] (ORCID:0000000286110125)",
+     "Fruitwala, Neelay [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)] (ORCID:0000000339004079)",
+     "Nguyen, Nam [University of California, Berkeley, CA (United States)] (ORCID:0000000221892090)",
+     "Goss, Noah [University of California, Berkeley, CA (United States)] (ORCID:0000000233779415)"
+    ],
+    "query": "\"interconnection queue\" OR \"queued up\"",
+    "doi": "10.1145/3787109.3816383"
+   }
+  },
+  {
+   "id": "OSTI:3367528",
+   "jur": "US-Federal",
+   "source": "studies",
+   "kind": "report",
+   "docket": "None",
+   "title": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States): Speed to Power: Solutions for Accelerating Large Load Connections",
+   "filed": "2026-06-09",
+   "url": "https://www.osti.gov/biblio/3367528",
+   "entity": "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
+   "fetch": [
+    {
+     "url": "https://www.osti.gov/servlets/purl/3367528"
+    }
+   ],
+   "meta": {
+    "authors": [
+     "Kahrl, Fredrich [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Frick, Natalie Mims [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]"
+    ],
+    "query": "\"interconnection queue\" OR \"queued up\"",
+    "doi": "10.2172/3367528"
+   }
+  }
+ ],
+ "fetched": [
+  {
+   "id": "OSTI:3603573",
+   "meta": {
+    "authors": [
+     "Bansal, Rajni Kant",
+     "Singhal, Nikita",
+     "Kemp, Julie Mulvaney",
+     "Ela, Erik",
+     "Heleno, Miguel"
+    ],
+    "query": "\"interconnection queue\" OR \"queued up\"",
+    "doi": "10.1016/j.epsr.2026.113571"
+   },
+   "docs": [
+    {
+     "url": "https://www.osti.gov/servlets/purl/3603573",
+     "name": null,
+     "bytes": 9921063,
+     "sha256": "dba75bb9908976eae0682cc526287d6d9fab2250454baf40cffff05aa1590e9d",
+     "ctype": "application/pdf",
+     "quality": "text_layer",
+     "ocr": false,
+     "pages": 11,
+     "truncated": false,
+     "text": "Lawrence Berkeley National Laboratory\nLBL Publications\n\nTitle\nMarket participation strategy of hybrid energy resources: A New York ISO case study\n\nPermalink\nhttps://escholarship.org/uc/item/81r5w82h\n\nJournal\nElectric Power Systems Research, 262\n\nISSN\n0378-7796\n\nAuthors\nBansal, Rajni Kant\nSinghal, Nikita\nKemp, Julie Mulvaney\net al.\n\nPublication Date\n2027\n\nDOI\n10.1016/j.epsr.2026.113571\n\nCopyright Information\nThis work is made available under the terms of a Creative Commons Attribution\nLicense, available at https://creativecommons.org/licenses/by/4.0/\n\n\nPeer reviewed\n\n\n\n\n eScholarship.org                              Powered by the California Digital Library\n                                                               University of California\n\f                                                                 Electric Power Systems Research 262 (2027) 113571\n\n\n                                                                       Contents lists available at ScienceDirect\n\n\n                                                            Electric Power Systems Research\n                                                               journal homepage: www.elsevier.com/locate/epsr\n\n\n\n\nMarket participation strategy of hybrid energy resources: A New York ISO\ncase study ⋆\nRajni Kant Bansal                    a,∗, Nikita Singhal b , Julie Mulvaney Kemp                               c , Erik Ela b , Miguel Heleno d\n\na\n    Operations and Decision Sciences Area, Indian Institute of Management A"
+    }
+   ]
+  },
+  {
+   "id": "OSTI:3729385",
+   "meta": {
+    "authors": [
+     "Gorman, Will",
+     "Kahrl, Fredrich",
+     "Norris, Tyler",
+     "Patiño-Echeverri, Dalia"
+    ],
+    "query": "\"interconnection queue\" OR \"queued up\"",
+    "doi": "10.1016/j.enpol.2026.115554"
+   },
+   "docs": [
+    {
+     "url": "https://www.osti.gov/servlets/purl/3729385",
+     "name": null,
+     "bytes": 2830237,
+     "sha256": "d6349f73598c70f2bd4ef7549ab01eeb175e22c3e361fb2115546d65d845dd18",
+     "ctype": "application/pdf",
+     "quality": "text_layer",
+     "ocr": false,
+     "pages": 16,
+     "truncated": false,
+     "text": "Lawrence Berkeley National Laboratory\nLBL Publications\n\nTitle\nA review of United States energy-only generator interconnection service policy and\nconsiderations for reform\n\nPermalink\nhttps://escholarship.org/uc/item/3qf216q5\n\nJournal\nEnergy Policy, 219\n\nISSN\n0301-4215\n\nAuthors\nGorman, Will\nKahrl, Fredrich\nNorris, Tyler\net al.\n\nPublication Date\n2026-12-01\n\nDOI\n10.1016/j.enpol.2026.115554\n\nCopyright Information\nThis work is made available under the terms of a Creative Commons Attribution-\nNonCommercial-NoDerivatives License, available at\nhttps://creativecommons.org/licenses/by-nc-nd/4.0/\n\n\nPeer reviewed\n\n\n\n\n eScholarship.org                             Powered by the California Digital Library\n                                                              University of California\n\f                                                                      Energy Policy 219 (2026) 115554\n\n\n                                                                 Contents lists available at ScienceDirect\n\n\n                                                                          Energy Policy\n                                                        journal homepage: www.elsevier.com/locate/enpol\n\n\n\n\nA review of United States energy-only generator interconnection service\npolicy and considerations for reform\nWill Gorman a,* , Fredrich Kahrl a,b , Tyler Norris c , Dalia Patiño-Echeverri c\na\n  Lawrence Berkeley National Laboratory, 1 Cyclotron Road, MS 90-4000, Berkeley, CA, 94720, USA\nb\n  3rdRail In"
+    }
+   ]
+  },
+  {
+   "id": "OSTI:3676872",
+   "meta": {
+    "authors": [
+     "Chelminski, Kathryn [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Wong, Johnny [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Schwartz, Lisa C. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Pigman, Margaret [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+     "Carlson, Katherine [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]"
+    ],
+    "query": "\"interconnection queue\" OR \"queued up\"",
+    "doi": "10.2172/3676872"
+   },
+   "docs": [
+    {
+     "url": "https://www.osti.gov/servlets/purl/3676872",
+     "name": null,
+     "bytes": 8967258,
+     "sha256": "30c0a14df7f6e5ad3b721a59c626825f9c31fd52f64de330d006aa27c3830859",
+     "ctype": "application/pdf",
+     "quality": "text_layer",
+     "ocr": false,
+     "pages": 66,
+     "truncated": false,
+     "text": "                            DISCLAIMER\nThis report was prepared as an account of work sponsored by an\nagency of the United States Government. Neither the United States\nGovernment nor any agency thereof, nor any of their employees,\nmakes any warranty, express or implied, or assumes any legal liability\nor responsibility for the accuracy, completeness, or usefulness of any\ninformation, apparatus, product, or process disclosed, or represents\nthat its use would not infringe privately owned rights. Reference\nherein to any specific commercial product, process, or service by\ntrade name, trademark, manufacturer, or otherwise does not\nnecessarily constitute or imply its endorsement, recommendation, or\nfavoring by the United States Government or any agency thereof. The\nviews and opinions of authors expressed herein do not necessarily\nstate or reflect those of the United States Government or any agency\nthereof. Reference herein to any social initiative (including but not\nlimited to Diversity, Equity, and Inclusion (DEI); Community Benefits\nPlans (CBP); Justice 40; etc.) is made by the Author independent of\nany current requirement by the United States Government and does\nnot constitute or imply endorsement, recommendation, or support by\nthe United States Government or any agency thereof.\n\fLawrence Berkeley National Laboratory\nLBL Publications\n\nTitle\nInterconnection Timelines and Costs for Distributed Energy Projects in the United States (2000-2025)\n\nPermalink\nhttps://escholarship.org/uc/i"
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "sub": {
+  "osti:\"interconnection queue\" OR \"qu": {
+   "status": "ok",
+   "note": "9 records"
+  },
+  "osti:\"data center\" AND (electricity": {
+   "status": "ok",
+   "note": "20 records"
+  },
+  "osti:\"load growth\" OR \"large loads\"": {
+   "status": "ok",
+   "note": "20 records"
+  }
+ },
+ "exchanges": [
+  {
+   "method": "GET",
+   "url": "https://www.osti.gov/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 2548,
+   "body": "User-agent: Googlebot\nDisallow: /account\nDisallow: /dataexplorer/account\nDisallow: /dataexplorer/search\nDisallow: /doepatents/search\nDisallow: /etdeweb/results\nDisallow: /opennet/document\nDisallow: /opennet/search-results\nDisallow: /opennetadmin/\nDisallow: /pages/account\nDisallow: /pages/search\nDisallow: /sciencecinema/account\nDisallow: /sciencecinema/search\nDisallow: /search/\nDisallow: /includes\nDisallow: /doestem\n\n\nUser-agent: Bingbot\nDisallow: /account\nDisallow: /dataexplorer/account\nDisallow: /dataexplorer/search\nDisallow: /doepatents/search\nDisallow: /etdeweb/results\nDisallow: /opennet/document\nDisallow: /opennet/search-results\nDisallow: /opennetadmin/\nDisallow: /pages/account\nDisallow: /pages/search\nDisallow: /sciencecinema/account\nDisallow: /sciencecinema/search\nDisallow: /search/\nDisallow: /includes\n\n\nUser-agent: YandexBot\nCrawl-delay: 1\nDisallow: /account\nDisallow: /dataexplorer/account\nDisallow: /dataexplorer/search\nDisallow: /doepatents/search\nDisallow: /etdeweb/results\nDisallow: /opennet/document\nDisallow: /opennet/search-results\nDisallow: /opennetadmin/\nDisallow: /pages/account\nDisallow: /pages/search\nDisallow: /sciencecinema/account\nDisallow: /sciencecinema/search\nDisallow: /search/\nDisallow: /includes\n\n\nUser-agent: Baiduspider\nCrawl-delay: 1\nDisallow: /account\nDisallow: /dataexplorer/account\nDisallow: /dataexplorer/search\nDisallow: /doepatents/search\nDisallow: /etdeweb/results\nDisallow: /opennet/document\nDisallow: /opennet/search-results\nDisallow: /opennetadmin/\nDisallow: /pages/account\nDisallow: /pages/search\nDisallow: /sciencecinema/account\nDisallow: /sciencecinema/search\nDisallow: /search/\nDisallow: /includes\n\n\nUser-agent: dotbot\nDisallow: /\n\n\nUser-agent: MauiBot\nDisallow:/\n\n\nUser-agent: Semrush\nDisallow:/\n\n\nUser-agent: SemrushBot\nDisallow:/\n\n\nUser-Agent: *\nDisallow: /account\nDisallow: /dataexplorer/account\nDisallow: /dataexplorer/search\nDisallow: /doepatents/search\nDisallow: /etdeweb/results\nDisallow: /opennet/document\nDisallow: /opennet/search-re"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.osti.gov/api/v1/records?research_org=LBNL&q=%22interconnection%20queue%22%20OR%20%22queued%20up%22&publication_date_start=05/02/2026&sort=publication_date%20desc&rows=20",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 25373,
+   "body": "[\r\n{\"language\":\"English\",\"entry_date\":\"2026-09-01T12:10:02Z\",\"relation\":\"Journal Name: Electric Power Systems Research Journal Volume: 262\",\"identifier\":\"AC02-05CH11231\",\"country_publication\":\"United States\",\"journal_type\":\"AM\",\"doi\":\"10.1016/j.epsr.2026.113571\",\"description\":\"Drawing on existing market designs with independent resource participation in electricity markets, this study analyzes participation models for hybrid resources combining renewable generation and storage. Two models are considered: in the first, the components operate independently, with the Independent System Operator (ISO) managing the storage state of charge (SoC); in the second, the hybrid resource acts as an integrated unit, submitting offers as a “black box” and managing its SoC internally. Using a production cost model for the zonal New York Bulk Power System, we evaluate trade-offs in system reliability, market efficiency, and asset profitability. Our results provide several key insights for policymakers, showing that the ISO-managed granular model enhances social welfare through explicit SoC management, while the simpler integrated model is more computationally efficient, but may cause more real-time violations and lower overall profits.\",\"title\":\"Market participation strategy of hybrid energy resources: A New York ISO case study\",\"other_number\":\"ark:/13030/qt81r5w82h; https://escholarship.org/uc/item/81r5w82h\",\"contract_number\":\"AC02-05CH11231\",\"publication_date\":\"2027-01-01T00:00:00Z\",\"journal_volume\":\"262\",\"osti_id\":\"3603573\",\"journal_name\":\"Electric Power Systems Research\",\"product_type\":\"Journal Article\",\"authors\":[\"Bansal, Rajni Kant\",\"Singhal, Nikita\",\"Kemp, Julie Mulvaney\",\"Ela, Erik\",\"Heleno, Miguel\"],\"article_type\":\"Accepted Manuscript\",\"format\":\"9819281\",\"doe_contract_number\":\"AC02-05CH11231\",\"subjects\":[],\"sponsor_orgs\":[\"US Department of Energy\",\"United States Department of Energy (USDOE)\"],\"research_orgs\":[\"Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (Unit"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.osti.gov/api/v1/records?research_org=LBNL&q=%22data%20center%22%20AND%20%28electricity%20OR%20energy%29&publication_date_start=05/02/2026&sort=publication_date%20desc&rows=20",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 114407,
+   "body": "[\r\n{\"language\":\"English\",\"entry_date\":\"2026-09-30T12:08:34Z\",\"report_number\":\"None\",\"identifier\":\"AC02-05CH11231\",\"country_publication\":\"United States\",\"doi\":\"10.1007/978-3-032-30491-9_23\",\"description\":\"Data movement remains a major bottleneck in high-performance computing workflows, making GPU-accelerated compression an increasingly important optimization. While NVIDIA platforms benefit from mature compression libraries such as nvCOMP, the performance of practical lossless compression on AMD GPUs remains undercharacterized. This paper addresses that gap by porting LZ4, Snappy, and Cascaded from CUDA to HIP and evaluating them across four AMD GPUs spanning three CDNA generations (MI50, MI210, MI300X) and RDNA 3 (RX 7900 XT), using both synthetic datasets and seismic simulation data. Our study makes three contributions. First, we provide a cross-generational characterization of lossless GPU compression on recent AMD accelerators. Second, we present a functional CUDA-to-HIP port of three widely used algorithms, establishing an open baseline for future AMD-specific optimization. Third, we analyze how architectural differences shape compression and decompression behavior across algorithms and datasets. The results show that the MI300X achieves up to 11×$$11\\\\times $$ higher decompression throughput than the MI50, while RDNA 3 is competitive for compression workloads characterized by irregular memory accesses. We also show that transfers dominate end-to-end execution time on all evaluated platforms, indicating that the main benefits of GPU compression are most likely to emerge in GPU-resident workflows. For realistic seismic floating-point data, lossless compression ratios remain modest (1.03-1.04×$$1.03-1.04\\\\times $$), suggesting that error-bounded lossy compression is a promising direction for future work.\",\"title\":\"Characterizing Lossless GPU Data Compression Across AMD CDNA and RDNA Architectures\",\"other_number\":\"ark:/13030/qt5hs138d9; https://escholarship.org/uc/i"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.osti.gov/api/v1/records?research_org=LBNL&q=%22load%20growth%22%20OR%20%22large%20loads%22%20OR%20%22electricity%20demand%22&publication_date_start=05/02/2026&sort=publication_date%20desc&rows=20",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 91955,
+   "body": "[\r\n{\"language\":\"English\",\"entry_date\":\"2026-09-11T12:06:34Z\",\"relation\":\"Journal Name: Energy Policy Journal Volume: 219\",\"identifier\":\"AC02-05CH11231\",\"country_publication\":\"United States\",\"journal_type\":\"AM\",\"doi\":\"10.1016/j.enpol.2026.115554\",\"description\":\"Grid interconnection has emerged as a significant obstacle to the development of new electricity resources. There is growing interest in energy-only interconnection, which is an interconnection service option meant to allow the interconnection of new generators without ensuring their energy deliverability during all hours through the transmission system to customers. This approach potentially avoids upfront congestion-related transmission upgrades but could increase curtailment risk. Interest in energy-only interconnection is shaped by incomplete understanding of how interconnection policy functions in different jurisdictions, a knowledge gap that makes it difficult to determine how energy-only interconnection might be better used or re-designed. In this paper, we provide a regulatory review of energy-only interconnection in U.S. interconnection policy and practice, identifying jurisdictions in which rules are close to -or farther from-the theoretical concept of energy-only interconnection service. We find substantial jurisdictional differences in how energy-only interconnection is implemented, driven by differences in resource adequacy frameworks, real-time transmission operations, and state-level procurement practices. U.S. regulators have preferred local jurisdictional flexibility over federal prescription of interconnection study methods and procedures, which also contributes to differences among regions. Such findings raise fundamental questions about whether competition policies in electricity markets should extend beyond spot energy markets and into more prescriptive guidelines around interconnection rules and market entry. This paper sheds light on tensions that energy-only interconnection raises in al"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.osti.gov/servlets/purl/3603573",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/pdf",
+   "len": 9921063,
+   "body": "<pdf>"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.osti.gov/servlets/purl/3729385",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/pdf",
+   "len": 2830237,
+   "body": "<pdf>"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.osti.gov/servlets/purl/3676872",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/pdf",
+   "len": 8967258,
+   "body": "<pdf>"
+  }
+ ],
+ "adapter_state": {}
+}

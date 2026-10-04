@@ -1,0 +1,92 @@
+{
+ "adapter": "ferc_forms",
+ "since": "2026-06-01",
+ "items": 3,
+ "sample": [
+  {
+   "id": "FERCFORM:350277",
+   "jur": "FERC",
+   "source": "ferc_forms",
+   "kind": "disclosure",
+   "docket": null,
+   "title": "Ameren Services Company — FERC Form 714 2025 Q4 (Accepted)",
+   "filed": "2026-07-31",
+   "url": "https://ecollection.ferc.gov/api/DownloadDocument/451043/3?filename=350277-C011267-Form_714-2025-Q4_350277.html",
+   "entity": "Ameren Services Company",
+   "fetch": [],
+   "meta": {
+    "form": "Form 714",
+    "year": "2025",
+    "period": "Q4",
+    "cid": "C011267",
+    "filing_id": "350277"
+   }
+  },
+  {
+   "id": "FERCFORM:340140",
+   "jur": "FERC",
+   "source": "ferc_forms",
+   "kind": "disclosure",
+   "docket": null,
+   "title": "California Independent System Operator Corporation — FERC Form 714 2025 Q4 (Accepted)",
+   "filed": "2026-07-08",
+   "url": "https://ecollection.ferc.gov/api/DownloadDocument/440755/3?filename=340140-C001183-Form_714-2025-Q4_340140.html",
+   "entity": "California Independent System Operator Corporation",
+   "fetch": [],
+   "meta": {
+    "form": "Form 714",
+    "year": "2025",
+    "period": "Q4",
+    "cid": "C001183",
+    "filing_id": "340140"
+   }
+  },
+  {
+   "id": "FERCFORM:340119",
+   "jur": "FERC",
+   "source": "ferc_forms",
+   "kind": "disclosure",
+   "docket": null,
+   "title": "Southwest Power Pool, Inc. — FERC Form 714 2025 Q4 (Accepted)",
+   "filed": "2026-07-07",
+   "url": "https://ecollection.ferc.gov/api/DownloadDocument/440712/3?filename=340119-C000771-Form_714-2025-Q4_340119.html",
+   "entity": "Southwest Power Pool, Inc.",
+   "fetch": [],
+   "meta": {
+    "form": "Form 714",
+    "year": "2025",
+    "period": "Q4",
+    "cid": "C000771",
+    "filing_id": "340119"
+   }
+  }
+ ],
+ "notes": [],
+ "sub": {
+  "ecollection": {
+   "status": "ok",
+   "note": "650 filings in feed, 3 tracked Form 1/3-Q/714"
+  }
+ },
+ "exchanges": [
+  {
+   "method": "GET",
+   "url": "https://ecollection.ferc.gov/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html",
+   "len": 1120,
+   "body": "<!doctype html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <title>FERC eForms</title>\r\n  <base href=\"/\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"assets/images/ferc-logo/ferc logo.png\">\r\n  <style></style>\r\n  <!-- <link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap\" rel=\"stylesheet\"> -->\r\n  <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\r\n  <script src=\"assets/scripts/svg4everybody.js\"></script>\r\n  <script>svg4everybody(); // run it now or whenever you are ready</script>\r\n<link rel=\"stylesheet\" href=\"styles.c35952ce580c58319ac0.css\"></head>\r\n\r\n<body>\r\n  <div id=\"pageContainer\">\r\n    <app-root></app-root>\r\n  </div>\r\n<script src=\"runtime.824bae71c2284d7e93cc.js\" defer></script><script src=\"polyfills-es5.d2938263817ddbffa825.js\" nomodule defer></script><script src=\"polyfills.cb4e4a2287d65d893a5f.js\" defer></script><script src=\"scripts.7cb06122467189e3845a.js\" defer></script><script src=\"main.6c69ecbce3fd46f494eb.js\" defer></script></body>\r\n\r\n</html>"
+  },
+  {
+   "method": "GET",
+   "url": "https://ecollection.ferc.gov/api/rssfeed",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/atom+xml; charset=utf-8",
+   "len": 1126700,
+   "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:a10=\"http://www.w3.org/2005/Atom\" version=\"2.0\"><channel><title>Most Recent XBRL Filings Submitted</title><link>http://ferc.gov/</link><description>FERC</description><category>XBRL Filings</category><item><guid isPermaLink=\"false\">37c81b4c-4bb7-4c58-8933-d7d6199133bf</guid><link>https://ferc.gov/</link><title>Navajo Nation Oil &amp; Gas Company</title><description>Form 6Q&lt;br /&gt; Download Files:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://eCollection.ferc.gov/api/DownloadDocument/474623/1?filename=372048-C000644-Form_6Q-2026-Q2.xbrl'&gt;372048-C000644-Form_6Q-2026-Q2.xbrl&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://eCollection.ferc.gov/api/DownloadDocument/474624/3?filename=372048-C000644-Form_6Q-2026-Q2_372048.html'&gt;372048-C000644-Form_6Q-2026-Q2_372048.html&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;</description><pubDate>Mon, 28 Sep 2026 10:11:04 -0400</pubDate><a10:updated>2026-09-28T10:11:04-04:00</a10:updated><ferc:xbrlFiling xmlns:ferc=\"https://ferc.gov\"><ferc:FilingID>372048</ferc:FilingID><ferc:CID>C000644</ferc:CID><ferc:CpaCertRequired>False</ferc:CpaCertRequired><ferc:CpaCertUploaded>False</ferc:CpaCertUploaded><ferc:FormName>Form 6Q</ferc:FormName><ferc:Period>Q2</ferc:Period><ferc:PrivilegedAccessionNumber></ferc:PrivilegedAccessionNumber><ferc:Status>Accepted</ferc:Status><ferc:SubmittedOn>9/28/2026 10:11:04 AM</ferc:SubmittedOn><ferc:Year>2026</ferc:Year><ferc:xbrlFile file=\"372048-C000644-Form_6Q-2026-Q2.xbrl\" type=\"XBRL_INSTANCE_FILE\" url=\"https://ecollection.ferc.gov/api/DownloadDocument/474623/1?filename=372048-C000644-Form_6Q-2026-Q2.xbrl\" availability=\"Public\" /><ferc:xbrlFile file=\"372048-C000644-Form_6Q-2026-Q2_372048.html\" type=\"HTML_RENDERING\" url=\"https://ecollection.ferc.gov/api/DownloadDocument/474624/3?filename=372048-C000644-Form_6Q-2026-Q2_372048.html\" availability=\"Public\" /></ferc:xbrlFiling></item><item><guid isPermaLink=\"false\">02ef7a2c-391c-4962-9868"
+  }
+ ],
+ "adapter_state": {}
+}

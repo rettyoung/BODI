@@ -1,0 +1,15 @@
+{
+ "adapter": "nrc_adams",
+ "since": "2026-06-01",
+ "items": 0,
+ "sample": [],
+ "notes": [],
+ "sub": {
+  "nrc_adams": {
+   "status": "no_key",
+   "note": "add repo secret NRC_APS_KEY (free: adams-api-developer.nrc.gov) to enable"
+  }
+ },
+ "exchanges": [],
+ "adapter_state": {}
+}

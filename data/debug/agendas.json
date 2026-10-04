@@ -1,0 +1,547 @@
+{
+ "adapter": "agendas",
+ "since": "2026-06-01",
+ "items": 16,
+ "sample": [
+  {
+   "id": "AGENDA:atlanta:https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4418",
+   "jur": "GA",
+   "source": "agendas",
+   "kind": "agenda",
+   "docket": null,
+   "title": "City of Atlanta, GA: Atlanta City Council - Agenda - Oct 5, 2026 1:00 PM — View Web Agenda",
+   "filed": "2026-10-05",
+   "url": "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4418",
+   "fetch": [
+    {
+     "url": "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4418"
+    }
+   ],
+   "meta": {
+    "government": "City of Atlanta, GA",
+    "text_filter": "data ?cent|datacenter|hyperscale|server farm|data processing|large load|substation|critical facility|technology campus|zoning text amendment",
+    "list": "https://atlantacityga.iqm2.com/Services/RSS.aspx?Feed=Calendar"
+   }
+  },
+  {
+   "id": "AGENDA:atlanta:https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4380",
+   "jur": "GA",
+   "source": "agendas",
+   "kind": "agenda",
+   "docket": null,
+   "title": "City of Atlanta, GA: Transportation Committee - Agenda - Sep 30, 2026 10:00 AM — View Web Agenda",
+   "filed": "2026-09-30",
+   "url": "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4380",
+   "fetch": [
+    {
+     "url": "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4380"
+    }
+   ],
+   "meta": {
+    "government": "City of Atlanta, GA",
+    "text_filter": "data ?cent|datacenter|hyperscale|server farm|data processing|large load|substation|critical facility|technology campus|zoning text amendment",
+    "list": "https://atlantacityga.iqm2.com/Services/RSS.aspx?Feed=Calendar"
+   }
+  },
+  {
+   "id": "AGENDA:atlanta:https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4336",
+   "jur": "GA",
+   "source": "agendas",
+   "kind": "agenda",
+   "docket": null,
+   "title": "City of Atlanta, GA: Community Development/Human Services Committee - Agenda - Sep 29, 2026 1:30 PM — View Web Agenda",
+   "filed": "2026-09-29",
+   "url": "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4336",
+   "fetch": [
+    {
+     "url": "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4336"
+    }
+   ],
+   "meta": {
+    "government": "City of Atlanta, GA",
+    "text_filter": "data ?cent|datacenter|hyperscale|server farm|data processing|large load|substation|critical facility|technology campus|zoning text amendment",
+    "list": "https://atlantacityga.iqm2.com/Services/RSS.aspx?Feed=Calendar"
+   }
+  },
+  {
+   "id": "AGENDA:tulsa_council:https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32737",
+   "jur": "OK",
+   "source": "agendas",
+   "kind": "agenda",
+   "docket": null,
+   "title": "Tulsa City Council, OK: URBAN & ECON DEV",
+   "filed": null,
+   "url": "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32737",
+   "fetch": [
+    {
+     "url": "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32737"
+    }
+   ],
+   "meta": {
+    "government": "Tulsa City Council, OK",
+    "text_filter": "data ?cent|datacenter|hyperscale|server farm|data processing|large load|substation|critical facility|technology campus|zoning text amendment",
+    "list": "https://www.tulsacouncil.org/"
+   }
+  },
+  {
+   "id": "AGENDA:tulsa_council:https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32735",
+   "jur": "OK",
+   "source": "agendas",
+   "kind": "agenda",
+   "docket": null,
+   "title": "Tulsa City Council, OK: BUDGET",
+   "filed": null,
+   "url": "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32735",
+   "fetch": [
+    {
+     "url": "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32735"
+    }
+   ],
+   "meta": {
+    "government": "Tulsa City Council, OK",
+    "text_filter": "data ?cent|datacenter|hyperscale|server farm|data processing|large load|substation|critical facility|technology campus|zoning text amendment",
+    "list": "https://www.tulsacouncil.org/"
+   }
+  },
+  {
+   "id": "AGENDA:tulsa_council:https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32736",
+   "jur": "OK",
+   "source": "agendas",
+   "kind": "agenda",
+   "docket": null,
+   "title": "Tulsa City Council, OK: PUBLIC WORKS",
+   "filed": null,
+   "url": "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32736",
+   "fetch": [
+    {
+     "url": "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32736"
+    }
+   ],
+   "meta": {
+    "government": "Tulsa City Council, OK",
+    "text_filter": "data ?cent|datacenter|hyperscale|server farm|data processing|large load|substation|critical facility|technology campus|zoning text amendment",
+    "list": "https://www.tulsacouncil.org/"
+   }
+  },
+  {
+   "id": "AGENDA:tulsa_tmapc:https://tulsaplanning.org/agendas/october-7-2026-planning-commission/",
+   "jur": "OK",
+   "source": "agendas",
+   "kind": "agenda",
+   "docket": null,
+   "title": "Tulsa Metropolitan Area Planning Commission, OK: October 7, 2026 Planning Commission",
+   "filed": "2026-10-07",
+   "url": "https://tulsaplanning.org/agendas/october-7-2026-planning-commission/",
+   "fetch": [
+    {
+     "url": "https://tulsaplanning.org/agendas/october-7-2026-planning-commission/"
+    }
+   ],
+   "meta": {
+    "government": "Tulsa Metropolitan Area Planning Commission, OK",
+    "text_filter": "data ?cent|datacenter|hyperscale|server farm|data processing|large load|substation|critical facility|technology campus|zoning text amendment",
+    "list": "https://tulsaplanning.org/boards/pc/agenda/"
+   }
+  },
+  {
+   "id": "AGENDA:tulsa_tmapc:https://tulsaplanning.org/agendas/august-19-2026-tmapc-agenda/",
+   "jur": "OK",
+   "source": "agendas",
+   "kind": "agenda",
+   "docket": null,
+   "title": "Tulsa Metropolitan Area Planning Commission, OK: August 19, 2026 TMAPC Agenda",
+   "filed": "2026-08-19",
+   "url": "https://tulsaplanning.org/agendas/august-19-2026-tmapc-agenda/",
+   "fetch": [
+    {
+     "url": "https://tulsaplanning.org/agendas/august-19-2026-tmapc-agenda/"
+    }
+   ],
+   "meta": {
+    "government": "Tulsa Metropolitan Area Planning Commission, OK",
+    "text_filter": "data ?cent|datacenter|hyperscale|server farm|data processing|large load|substation|critical facility|technology campus|zoning text amendment",
+    "list": "https://tulsaplanning.org/boards/pc/agenda/"
+   }
+  }
+ ],
+ "fetched": [
+  {
+   "id": "AGENDA:atlanta:https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4418",
+   "meta": {
+    "government": "City of Atlanta, GA",
+    "text_filter": "data ?cent|datacenter|hyperscale|server farm|data processing|large load|substation|critical facility|technology campus|zoning text amendment",
+    "list": "https://atlantacityga.iqm2.com/Services/RSS.aspx?Feed=Calendar"
+   },
+   "docs": [
+    {
+     "url": "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4418",
+     "name": null,
+     "bytes": 240246,
+     "sha256": "9c4348c4aa5670b15014d730ac998162a8f079c28f83c080005f625bb132e179",
+     "ctype": "text/html; charset=utf-8",
+     "quality": "html",
+     "ocr": false,
+     "pages": null,
+     "truncated": false,
+     "text": "2026/10/05 01:00 PM Atlanta City Council Regular Meeting - Web Outline - City of Atlanta, Georgia\r\n\n«Back to Main Site\n\nWelcome\n\nMeetings\n\nBrowse\n\nVideos on Demand\n\nNotices\n\nAtlanta City Council and Committees\n\nLog in\n | \nHelp\n\n|\n\nRegister\n\nPrint This Page\n\nAtlanta City Council\n\nRegular Meeting\n\n10/5/2026 1:00 PM\n\n Marvin S. Arrington, Sr. Council Chamber\nAtlanta City Hall   55 Trinity Avenue   Atlanta, GA  30303\n\nDownloads:\n\nAgenda\n\nAgenda Packet\n\nA. \nCall to Order\n\nB. \nRoll Call\n\nRoll Call\n\nC. \nAdoption of Agenda\n\nD. \nInvocation\n\nE. \nPledge of Allegiance\n\nF. \nProclamations, Commendations and Other Special Awards\n\n1. \n26-P-0048 : IN RECOGNITION OF THE RETIREMENT FOR IRENE M. RICHARDSON AND QUALITY LIVING SERVICES INC.\n\nRecognition Printout\n\n2. \n26-P-0049 : In Recognition of The Life & Legacy of Carl B. Trimble\n\nRecognition Printout\n\n3. \n26-P-0050 : In Recognition of Domestic Violence Awareness Month\n\nRecognition Printout\n\n4. \n26-P-0051 : In Recognition of the Keep Atlanta Beautiful Commission, Adopt-a-Spot Volunteers\n\nRecognition Printout\n\nG. \nStatements by Elected Officials\n\nH. \nRemarks by the Public\n\nI. \nReport of the Journal\n\nJ. \nCommunications\n\n1. \n26-C-5090 : A COMMUNICATION FROM COUNCIL PRESIDENT MARCI COLLIER OVERSTREET APPOINTING DR. ANNETTE HALL TO SERVE AS A MEMBER OF THE HUMAN RELATIONS COMMISSION.  THIS APPOINTMENT IS FOR A TERM OF THREE (3) YEARS.\n\nCommunication Printout\n\na. \nAppointment Letter - HRC - Annette Hall\n\nb. \nBACE Info Form - Annette Hall\n\n2. \n26-C-50"
+    }
+   ]
+  },
+  {
+   "id": "AGENDA:atlanta:https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4380",
+   "meta": {
+    "government": "City of Atlanta, GA",
+    "text_filter": "data ?cent|datacenter|hyperscale|server farm|data processing|large load|substation|critical facility|technology campus|zoning text amendment",
+    "list": "https://atlantacityga.iqm2.com/Services/RSS.aspx?Feed=Calendar"
+   },
+   "docs": [
+    {
+     "url": "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4380",
+     "name": null,
+     "bytes": 54988,
+     "sha256": "fb06c878a9e937f22359e1a2385974f4645d4306a274b5f1dd9b7e1f904e3b18",
+     "ctype": "text/html; charset=utf-8",
+     "quality": "html",
+     "ocr": false,
+     "pages": null,
+     "truncated": false,
+     "text": "2026/09/30 10:00 AM Transportation Committee Regular Committee Meeting - Web Outline - City of Atlanta, Georgia\r\n\n«Back to Main Site\n\nWelcome\n\nMeetings\n\nBrowse\n\nVideos on Demand\n\nNotices\n\nAtlanta City Council and Committees\n\nLog in\n | \nHelp\n\n|\n\nRegister\n\nPrint This Page\n\nTransportation Committee\n\nRegular Committee Meeting\n\n9/30/2026 10:00 AM\n\n Larry M. Dingle Committee Room\n55 Trinity Avenue   Second Floor   Atlanta, GA  30303\n\nDownloads:\n\nAgenda\n\nAgenda Packet\n\nMinutes\n\nMinutes Packet\n\nVideo\n\nA. \nCALL TO ORDER\n\nB. \nINTRODUCTION OF MEMBERS\n\nRoll Call\n\nC. \nADOPTION OF AGENDA\n\nD. \nAPPROVAL OF MINUTES\n\nE. \nPUBLIC COMMENT (3 minutes)\n\nCONSENT AGENDA\n\nF. \nORDINANCE(S) FOR FIRST READING\n\n1. \n26-O-1557 : AN ORDINANCE BY TRANSPORTATION COMMITTEE AUTHORIZING THE MAYOR OR HIS DESIGNEE, TO EXECUTE THE FOURTH AMENDMENT TO AGREEMENT: FC-9034, ON-STREET PARKING MANAGEMENT PROGRAM, WITH SP PLUS ALL N ONE JOINT VENTURE, ON BEHALF OF THE ATLANTA DEPARTMENT OF TRANSPORTATION, TO EXTEND THE TERM OF THE AGREEMENT FOR SIX (6) MONTHS, RETROACTIVELY EFFECTIVE FROM OCTOBER 2, 2026, THROUGH APRIL 1, 2027, TO WAIVE CHAPTER 2, ARTICLE X, DIVISION 4 OF THE PROCUREMENT AND REAL ESTATE CODE OF THE CITY OF ATLANTA CODE OF ORDINANCES, INSOFAR AS IT SHALL BE NECESSARY TO AUTHORIZE THE ACTIONS AUTHORIZED HEREBY; AND FOR OTHER PURPOSES.\n\nOrdinance Printout\n\n2. \n26-O-1558 : AN ORDINANCE BY TRANSPORTATION COMMITTEE AUTHORIZING THE CHIEF FINANCIAL OFFICER TO PAY ALL INVOICES TO E-BUILDER, INC., UNDER COMPLETED CO"
+    }
+   ]
+  },
+  {
+   "id": "AGENDA:atlanta:https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4336",
+   "meta": {
+    "government": "City of Atlanta, GA",
+    "text_filter": "data ?cent|datacenter|hyperscale|server farm|data processing|large load|substation|critical facility|technology campus|zoning text amendment",
+    "list": "https://atlantacityga.iqm2.com/Services/RSS.aspx?Feed=Calendar"
+   },
+   "docs": [
+    {
+     "url": "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4336",
+     "name": null,
+     "bytes": 68236,
+     "sha256": "cb3acfad7439770a4ca6f53c74eb77dd6b0b0c1db71b6778ed950278ae74f6de",
+     "ctype": "text/html; charset=utf-8",
+     "quality": "html",
+     "ocr": false,
+     "pages": null,
+     "truncated": false,
+     "text": "2026/09/29 01:30 PM Community Development/Human Services Committee Regular Committee Meeting - Web Outline - City of Atlanta, Georgia\r\n\n«Back to Main Site\n\nWelcome\n\nMeetings\n\nBrowse\n\nVideos on Demand\n\nNotices\n\nAtlanta City Council and Committees\n\nLog in\n | \nHelp\n\n|\n\nRegister\n\nPrint This Page\n\nCommunity Development/Human Services Committee\n\nRegular Committee Meeting\n\n9/29/2026 1:30 PM\n\n Larry M. Dingle Committee Room\n55 Trinity Avenue   Second Floor   Atlanta, GA  30303\n\nDownloads:\n\nAgenda\n\nAgenda Packet\n\nVideo\n\nA. \nCALL TO ORDER\n\nB. \nINTRODUCTION OF MEMBERS\n\nRoll Call\n\nC. \nADOPTION OF AGENDA\n\nD. \nAPPROVAL OF MINUTES\n\nE. \nPUBLIC COMMENT (3 minutes)\n\nPublic Speaker(s)\n\nF. \nPRESENTATION(S)/REPORT(S)/UPDATE(S)\n\n1. Atlanta Housing Quarterly Update\n\n2. Department of Labor and Employment Services Quarterly Update\n\nG. \nCOMMUNICATION(S)\n\n1. \n26-C-5088 : A COMMUNICATION FROM MAYOR ANDRE DICKENS REAPPOINTING DR. ANNIE ADAMS TO SERVE AS A MEMBER OF THE MIDTOWN COMMUNITY IMPROVEMENT DISTRICT (CID) BOARD OF DIRECTORS. THIS APPOINTMENT IS FOR A TERM OF FOUR (4) YEARS TO BEGIN RETROACTIVELY ON JUNE 6, 2026 AND EXPIRE JUNE 5, 2030.\n Favorable [Unanimous] \n\nCommunication Printout\n\na. \nAppointment Letter - Midtown CID - Annie Adams ..\n\nb. \nBACE Info Form - Annie Adams\n\nc. \nAnnie Adams Bio ..\n\nCONSENT AGENDA\n\nH. \nORDINANCE(S) FOR FIRST READING\n\n2. \n26-O-1551 : AN ORDINANCE BY COMMUNITY DEVELOPMENT/HUMAN SERVICES COMMITTEE AUTHORIZING THE MAYOR OR HIS DESIGNEE, OR THE CHIEF PROCUREMENT OFFICER OR"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "agendas storey follow https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1409: Blocked('robots.txt disallows https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1409 (",
+  "agendas storey follow https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1411: Blocked('robots.txt disallows https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1411 ("
+ ],
+ "sub": {
+  "atlanta": {
+   "status": "ok",
+   "note": "27 links, 3 new (first sight)"
+  },
+  "storey": {
+   "status": "ok",
+   "note": "0 links, 0 new (first sight)"
+  },
+  "tulsa_council": {
+   "status": "ok",
+   "note": "5 links, 3 new (first sight)"
+  },
+  "tulsa_tmapc": {
+   "status": "ok",
+   "note": "5 links, 3 new (first sight)"
+  },
+  "tulsa_boa": {
+   "status": "ok",
+   "note": "1 links, 1 new (first sight)"
+  },
+  "henrico": {
+   "status": "ok",
+   "note": "19 links, 3 new (first sight)"
+  },
+  "fairfax_bos": {
+   "status": "ok",
+   "note": "24 links, 3 new (first sight)"
+  }
+ },
+ "exchanges": [
+  {
+   "method": "GET",
+   "url": "https://atlantacityga.iqm2.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 80,
+   "body": "# Robots.txt file for http://www.IQM2.com\r\n#\r\n\r\nuser-agent: *\r\nCrawl-delay: 60\r\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://atlantacityga.iqm2.com/Services/RSS.aspx?Feed=Calendar",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 60656,
+   "body": "<?xml version=\"1.0\" encoding=\"utf-16\"?><html><head><title>RSS Feed</title></head><body style=\" text-align:center;\"><h1>RSS Feed</h1><div><h1>City of Atlanta - Meeting Calendar</h1><h3>City of Atlanta, Georgia - Meeting Calendar of Agendas, Minutes and Media</h3></div><div><h2>Atlanta City Council - Agenda - Oct 5, 2026 1:00 PM</h2><p><p><a href='https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4418'>View Web Agenda</a></p><strong>Downloads: </strong><a href='https://AtlantaCityGA.IQM2.com/Citizens/FileOpen.aspx?Type=14&ID=3942'>Public Agenda</a> | <a href='https://AtlantaCityGA.IQM2.com/Citizens/FileOpen.aspx?Type=1&ID=3942'>Full Agenda</a></p><p><em>\r\n\t\t\t\t\t\t\t\tPublished on: Sat, 03 Oct 2026 00:47:11 GMT</em></p></div><div><h2>Committee on Council - Agenda - Oct 5, 2026 11:30 AM</h2><p><p><a href='https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4403'>View Web Agenda</a></p><strong>Downloads: </strong><a href='https://AtlantaCityGA.IQM2.com/Citizens/FileOpen.aspx?Type=14&ID=3943'>Public Agenda</a> | <a href='https://AtlantaCityGA.IQM2.com/Citizens/FileOpen.aspx?Type=1&ID=3943'>Full Agenda</a></p><p><em>\r\n\t\t\t\t\t\t\t\tPublished on: Fri, 02 Oct 2026 15:23:00 GMT</em></p></div><div><h2>Finance/Executive Committee - Agenda - Sep 30, 2026 1:30 PM</h2><p><p><a href='https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4297'>View Web Agenda</a></p><strong>Downloads: </strong><a href='https://AtlantaCityGA.IQM2.com/Citizens/FileOpen.aspx?Type=14&ID=3937'>Public Agenda</a> | <a href='https://AtlantaCityGA.IQM2.com/Citizens/FileOpen.aspx?Type=1&ID=3937'>Full Agenda</a></p><p><em>\r\n\t\t\t\t\t\t\t\tPublished on: Fri, 25 Sep 2026 16:35:12 GMT</em></p></div><div><h2>Finance/Executive Committee - Minutes - Sep 30, 2026 1:30 PM</h2><p><p><a href='https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4297'>View Web Agenda</a></p><strong>Downloads: </strong><a href='https://AtlantaCityGA.IQM2.com/Citizens/FileOpen.aspx?Type=15&ID=4139'>Public Minutes<"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.storeycounty.org/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 816,
+   "body": "user-agent: Baiduspider\r\nDisallow: /\r\nUser-agent: Yandex\r\nDisallow: /\r\nUser-agent: *\r\nDisallow: /activedit\r\nDisallow: /admin\r\nDisallow: /common/admin/\r\nDisallow: /OJA\r\nDisallow: /support\r\nDisallow: /currenteventsview.asp\r\nDisallow: /search.asp\r\nDisallow: /currenteventsview.aspx\r\nDisallow: /search.aspx\r\nDisallow: /currentevents.aspx\r\nDisallow: /Support\r\nDisallow: /CurrentEventsView.asp\r\nDisallow: /Search.asp\r\nDisallow: /CurrentEventsView.aspx\r\nDisallow: /Search.aspx\r\nDisallow: /Search\r\nDisallow: /CurrentEvents.aspx\r\nDisallow: /Currentevents.aspx\r\nDisallow: /map.aspx\r\nDisallow: /map.asp\r\nDisallow: /Map.aspx\r\nDisallow: /Map.asp\r\nSitemap: /sitemap.xml\r\nDisallow: /RSS.aspx\r\nUser-agent: Siteimprove\r\nCrawl-delay: 20\r\nUser-agent: Siteimprovebot\r\nCrawl-delay: 20\r\nUser-agent: Siteimprovebot-crawler\r\nCrawl-delay: 20"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.storeycounty.org/RSSFeed.aspx?ModID=65",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/xml; charset=utf-8",
+   "len": 2968,
+   "body": "<?xml version=\"1.0\"?><rss version=\"2.0\"><channel>\r\n\t<title>Storey County, NV - Agenda Creator</title>\r\n\t<link>https://nv-storeycounty.civicplus.com/AgendaCenter</link>\r\n\t<lastBuildDate>Sat, 03 Oct 2026 17:09:56 -0800</lastBuildDate>\r\n\t<description>Storey County, NV - Get the latest agendas</description>\r\n\t<language>en-us</language>\r\n\t<item>\r\n\t\t<title>Joint Special Board Meeting of the Storey County Board of County Commissioners and the Regional Transportation Commission of Washoe County Meeting Agenda and Packet</title>\r\n\t\t<link>https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1409</link>\r\n\t\t<pubDate>Thu, 01 Oct 2026 14:46:34 -0800</pubDate>\r\n\t\t<description>Joint Special Board Meeting of the Storey County Board of County Commissioners and the Regional Transportation Commission of Washoe County Meeting Agenda and Packet</description>\r\n\t\t\r\n\t\t<guid isPermaLink=\"false\">https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1409/639264735940000000</guid>\r\n\t</item>\r\n\t<item>\r\n\t\t<title>10/06/2026 Storey County Board of County Commissioners Meeting Agenda and Packet</title>\r\n\t\t<link>https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1411</link>\r\n\t\t<pubDate>Wed, 30 Sep 2026 13:52:12 -0800</pubDate>\r\n\t\t<description>10/06/2026 Storey County Board of County Commissioners Meeting Agenda and Packet</description>\r\n\t\t\r\n\t\t<guid isPermaLink=\"false\">https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1411/639263839320000000</guid>\r\n\t</item>\r\n\t<item>\r\n\t\t<title>Storey County Local Emergency Planning Committee quarterly meeting</title>\r\n\t\t<link>https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1394</link>\r\n\t\t<pubDate>Tue, 29 Sep 2026 09:33:59 -0800</pubDate>\r\n\t\t<description>Storey County Local Emergency Planning Committee quarterly meeting Update: Minutes added or updated</description>\r\n\t\t\r\n\t\t<guid isPermaLink=\"false\">https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1394/63926282039000000"
+  },
+  {
+   "method": "GET",
+   "url": "https://nv-storeycounty.civicplus.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 158,
+   "body": "User-agent: Screaming Frog SEO Spider bde2423e-3cc7-42a6-96a8-d2d5bc7d2a2a\r\nAllow: /\r\nUser-agent: Twitterbot\r\nAllow: /m/newsflash/\r\nUser-agent: *\r\nDisallow: /"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.tulsacouncil.org/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 550,
+   "body": "User-agent: *\nAllow: /\nDisallow: *?lightbox=\n\n# Optimization for Google Ads Bot\nUser-agent: AdsBot-Google-Mobile\nUser-agent: AdsBot-Google\nDisallow: /_partials*\nDisallow: /pro-gallery-webapp/v1/galleries/*\n\n# Block PetalBot\nUser-agent: PetalBot\nDisallow: /\n\n# Crawl delay for overly enthusiastic bots\nUser-agent: dotbot\nCrawl-delay: 10\nUser-agent: AhrefsBot\nCrawl-delay: 10\n\nSitemap: https://www.tulsacouncil.org/sitemap.xml\nSitemap: https://www.tulsacouncil.org/es_es-sitemap.xml\n\n# Auto generated, go to SEO Tools > Robots.txt Editor to change this"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.tulsacouncil.org/",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 2245196,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  \n  <meta charset='utf-8'>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" id=\"wixDesktopViewport\" />\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"generator\" content=\"Wix.com Website Builder\"/>\n\n  <link rel=\"icon\" sizes=\"192x192\" href=\"https://static.wixstatic.com/media/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png\" type=\"image/png\"/>\n  <link rel=\"shortcut icon\" href=\"https://static.wixstatic.com/media/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png\" type=\"image/png\"/>\n  <link rel=\"apple-touch-icon\" href=\"https://static.wixstatic.com/media/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png\" type=\"image/png\"/>\n\n  <!-- Safari Pinned Tab Icon -->\n  <!-- <link rel=\"mask-icon\" href=\"https://static.wixstatic.com/media/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/555e67_680a349433ed4aee87b4509b4712de97%7Emv2.png\"> -->\n\n  <!-- Segmenter Polyfill -->\n  <script>\n    if (!window.Intl || !window.Intl.Segmenter) {\n      (function() {\n        var script = document.createElement('script');\n        script.src = 'https://static.parastorage.com/unpkg/@formatjs/intl-segmenter@11.7.10/polyfill.iife.js';\n        document.head.appendChild(script);\n      })();\n    }\n  </script>\n\n  <!-- Legacy Polyfills -->\n  <script nomodule=\"\" src=\"https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js\"></script>\n  <script nomodule=\"\" src=\"https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js\"></script>\n\n  <!-- Performance API Polyfills -->\n  <script>\n  (function () {\n    var noop = function noop() {};\n    if (\"pe"
+  },
+  {
+   "method": "GET",
+   "url": "https://tulsaplanning.org/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 223,
+   "body": "# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://tulsaplanning.org/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK\nSitemap: https://tulsaplanning.org/sitemap.xml\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://tulsaplanning.org/boards/pc/agenda/",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 228809,
+   "body": "<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t<link rel=\"pingback\" href=\"https://tulsaplanning.org/xmlrpc.php\" />\n\n\t<script type=\"text/javascript\">\n\t\tdocument.documentElement.className = 'js';\n\t</script>\n\n\t<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />\n<script type=\"text/javascript\">\n\t\t\tlet jqueryParams=[],jQuery=function(r){return jqueryParams=[...jqueryParams,r],jQuery},$=function(r){return jqueryParams=[...jqueryParams,r],$};window.jQuery=jQuery,window.$=jQuery;let customHeadScripts=!1;jQuery.fn=jQuery.prototype={},$.fn=jQuery.prototype={},jQuery.noConflict=function(r){if(window.jQuery)return jQuery=window.jQuery,$=window.jQuery,customHeadScripts=!0,jQuery.noConflict},jQuery.ready=function(r){jqueryParams=[...jqueryParams,r]},$.ready=function(r){jqueryParams=[...jqueryParams,r]},jQuery.load=function(r){jqueryParams=[...jqueryParams,r]},$.load=function(r){jqueryParams=[...jqueryParams,r]},jQuery.fn.ready=function(r){jqueryParams=[...jqueryParams,r]},$.fn.ready=function(r){jqueryParams=[...jqueryParams,r]};</script>\n\t<!-- This site is optimized with the Yoast SEO plugin v22.8 - https://yoast.com/wordpress/plugins/seo/ -->\n\t<title>Planning Commission Agenda - Tulsa Planning Office</title>\n\t<link rel=\"canonical\" href=\"https://tulsaplanning.org/boards/pc/agenda/\" />\n\t<meta property=\"og:locale\" content=\"en_US\" />\n\t<meta property=\"og:type\" content=\"article\" />\n\t<meta property=\"og:title\" content=\"Planning Commission Agenda - Tulsa Planning Office\" />\n\t<meta property=\"og:url\" content=\"https://tulsaplanning.org/boards/pc/agenda/\" />\n\t<meta property=\"og:site_name\" content=\"Tulsa Planning Office\" />\n\t<meta property=\"article:modified_time\" content=\"2026-08-27T17:20:10+00:00\" />\n\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t<meta name=\"twitter:label1\" content=\"Est. reading time\" />\n\t<meta name=\"twitter:data1\" content=\"3 min"
+  },
+  {
+   "method": "GET",
+   "url": "https://tulsaplanning.org/boards/boa/agenda/",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 228712,
+   "body": "<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t<link rel=\"pingback\" href=\"https://tulsaplanning.org/xmlrpc.php\" />\n\n\t<script type=\"text/javascript\">\n\t\tdocument.documentElement.className = 'js';\n\t</script>\n\n\t<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />\n<script type=\"text/javascript\">\n\t\t\tlet jqueryParams=[],jQuery=function(r){return jqueryParams=[...jqueryParams,r],jQuery},$=function(r){return jqueryParams=[...jqueryParams,r],$};window.jQuery=jQuery,window.$=jQuery;let customHeadScripts=!1;jQuery.fn=jQuery.prototype={},$.fn=jQuery.prototype={},jQuery.noConflict=function(r){if(window.jQuery)return jQuery=window.jQuery,$=window.jQuery,customHeadScripts=!0,jQuery.noConflict},jQuery.ready=function(r){jqueryParams=[...jqueryParams,r]},$.ready=function(r){jqueryParams=[...jqueryParams,r]},jQuery.load=function(r){jqueryParams=[...jqueryParams,r]},$.load=function(r){jqueryParams=[...jqueryParams,r]},jQuery.fn.ready=function(r){jqueryParams=[...jqueryParams,r]},$.fn.ready=function(r){jqueryParams=[...jqueryParams,r]};</script>\n\t<!-- This site is optimized with the Yoast SEO plugin v22.8 - https://yoast.com/wordpress/plugins/seo/ -->\n\t<title>City of Tulsa BOA Agenda - Tulsa Planning Office</title>\n\t<link rel=\"canonical\" href=\"https://tulsaplanning.org/boards/boa/agenda/\" />\n\t<meta property=\"og:locale\" content=\"en_US\" />\n\t<meta property=\"og:type\" content=\"article\" />\n\t<meta property=\"og:title\" content=\"City of Tulsa BOA Agenda - Tulsa Planning Office\" />\n\t<meta property=\"og:url\" content=\"https://tulsaplanning.org/boards/boa/agenda/\" />\n\t<meta property=\"og:site_name\" content=\"Tulsa Planning Office\" />\n\t<meta property=\"article:modified_time\" content=\"2026-07-16T21:44:51+00:00\" />\n\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t<meta name=\"twitter:label1\" content=\"Est. reading time\" />\n\t<meta name=\"twitter:data1\" content=\"3 minut"
+  },
+  {
+   "method": "GET",
+   "url": "https://henrico.gov/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain",
+   "len": 158,
+   "body": "User-agent: *\nSitemap: https://henrico.gov/sitemap_index.xml\nDisallow: /wp-admin/\nDisallow: /wp-includes/\nDisallow: /cgi-bin/\nDisallow: /tmp/\nDisallow: /sme/\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://henrico.gov/supervisors/supervisors-agenda-o-gram/",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 142630,
+   "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=yes' />\r\n    <!--    <script type=\"application/ld+json\">{ \"@context\": \"http://schema.org\", \"@type\": \"WebSite\", \"name\": \"Henrico\", \"url\": \"http://henrico.gov/\", \"potentialAction\": { \"@type\": \"SearchAction\", \"target\": \"http://henrico.gov/search/?q={search_term}\", \"query-input\": \"required name=search_term\" } }</script>-->\r\n\r\n    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />\n\n\t<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->\n\t<title>Agend-O-Gram &#187; Henrico County, Virginia</title>\n\t<meta name=\"description\" content=\"Agend-O-Gram Henrico, VA :: DateAgendaSummary (Agend-o-Gram)Minutes of Regular MeetingMinutes of Special MeetingTuesday, September 22, 2026Meeting, Agenda and Resume September\" />\n\t<link rel=\"canonical\" href=\"https://henrico.gov/supervisors/supervisors-agenda-o-gram/\" />\n\t<!-- / Yoast SEO plugin. -->\n\n\n<link rel='dns-prefetch' href='//www.google.com' />\n<link rel='dns-prefetch' href='//fonts.googleapis.com' />\n<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />\n<link rel='preconnect' href='https://fonts.googleapis.com' />\n<link rel='preconnect' href='https://fonts.gstatic.com' />\n<link rel=\"alternate\" title=\"oEmbed (JSON)\" type=\"application/json+oembed\" href=\"https://henrico.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhenrico.gov%2Fsupervisors%2Fsupervisors-agenda-o-gram%2F\" />\n<link rel=\"alternate\" title=\"oEmbed (XML)\" type=\"text/xml+oembed\" href=\"https://henrico.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhenrico.gov%2Fsupervisors%2Fsupervisors-agenda-o-gram%2F&#038;format=xml\" />\n<style id=\"wp-img-auto-sizes-contain-inline-css\">\nimg:is([sizes=auto i],[sizes^=\"auto,\" i]){contain-intrinsic-s"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.fairfaxcounty.gov/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain",
+   "len": 1645,
+   "body": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.txt\nDisallow: /web.config\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register/\nDisallow: /user/password/\nDisallow: /user/login/\nDisallow: /user/logout/\nDisallow: /voterinfo/\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password/\nDisallow: /index.php/user/register/\nDisallow: /index.php/user/login/\nDisallow: /index.php/user/logout/\nDisallow: /parks/index.php/*\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.fairfaxcounty.gov/boardofsupervisors/2026-board-meetings",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 133813,
+   "body": "<!DOCTYPE html>\n<html  lang=\"en\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# \">\n  <head><script src=\"/prod_common.js?matcher\"></script><script src=\"/prod_common.js?single\"></script>\n    <meta charset=\"utf-8\" />\n<meta name=\"description\" content=\"Fairfax County, Virginia - This the schedule of 2026 Fairfax County Board of Supervisors and Committee Meetings.\" />\n<meta name=\"keywords\" content=\"BOS\" />\n<meta name=\"Last-Modified\" content=\"2026-09-29T14:41:56-04:00\" />\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-Y0MWKLSD2V\"></script>\n<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag(\"js\", new Date());gtag(\"set\", \"developer_id.dMDhkMT\", true);gtag(\"config\", \"G-Y0MWKLSD2V\", {\"groups\":\"default\",\"page_placeholder\":\"PLACEHOLDER_page_location\"});gtag(\"config\", \"G-P0M7YK9ZWG\", {\"groups\":\"default\",\"page_placeholder\":\"PLACEHOLDER_page_location\"});</script>\n<meta name=\"MobileOptimized\" content=\"width\" />\n<meta name=\"HandheldFriendly\" content=\"true\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<link rel=\"icon\" href=\"/boardofsupervisors/themes/bootstrap-8.x-3.0-rc2/bootstrap/favicon.ico\" type=\"image/vnd.microsoft.icon\" />\n<link rel=\"canonical\" href=\"https://www.fairfaxcounty.gov/boardofsupervisors/2026-board-meetings\" />\n<link rel=\"shortlink\" href=\"https://www.fairfaxcounty.gov/boardofsupervisors/node/2362\" />\n\n    <title>2026 Board of Supervisors Meetings and Committee Meetings | Board Of Supervisors</title>\n\t<script>\n  (function() {\n    var isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);\n    var viewport = document.querySelector('meta[name=\"viewpo"
+  },
+  {
+   "method": "GET",
+   "url": "https://AtlantaCityGA.IQM2.com/robots.txt",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/plain; charset=utf-8",
+   "len": 80,
+   "body": "# Robots.txt file for http://www.IQM2.com\r\n#\r\n\r\nuser-agent: *\r\nCrawl-delay: 60\r\n"
+  },
+  {
+   "method": "GET",
+   "url": "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4418",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 240246,
+   "body": "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\"  xml:lang=\"en\" lang=\"en\">\r\n<head id=\"HeadMain\"><title>\r\n\t2026/10/05 01:00 PM Atlanta City Council Regular Meeting - Web Outline - City of Atlanta, Georgia\r\n</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=9\" />\r\n\r\n    <!-- this fixes a minor rendering issue with tables on the ipad -->\r\n    <meta content=\"width=device-width, initial-scale=1.0;\" name=\"viewport\" />\r\n\r\n    <!-- Agency specific meta tags -->\r\n    <meta name='google-site-verification' content='v8iNp5ToI5384_S9_Exw0F10KJ__b35Fs7jqvTvb0TY' />\r\n<meta name='msvalidate.01' content='8C654B10898A718CB62BCB19E52589CD' />\r\n\r\n\r\n    <!-- open search discovery -->\r\n    <link rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"/Services/GetFederatedSearch.aspx\" title=\"IQM2 search\" />\r\n\r\n    <!-- Icon -->\r\n    <link href=\"/favicon.ico?v=2018\" rel=\"icon\" />\r\n\r\n    <!-- CSS Links -->\r\n    <link type=\"text/css\" href=\"/App_Themes/Main.css?v=86\" rel=\"Stylesheet\" /><link type=\"text/css\" href=\"/lib/jquery-ui.css\" rel=\"stylesheet\" />\r\n \r\n  <script>\r\n      !function () { var a, b, c, d = window, e = document, f = arguments, g = \"script\", h = [\"config\", \"track\", \"trackForm\", \"trackClick\", \"identify\", \"visit\", \"push\", \"call\"], i = function () { var a, b = this, c = function (a) { b[a] = function () { return b._e.push([a].concat(Array.prototype.slice.call(arguments, 0))), b } }; for (b._e = [], a = 0; a < h.length; a++) c(h[a]) }; for (d.__woo = d.__woo || {}, a = 0; a < f.length; a++) d.__woo[f[a]] = d[f[a]] = d[f[a]] || new i; b = e.createElement(g), b.async = 1, b.src = \"//static.woopra.com/js/w.js\", c = e.getElementsByTagName(g)[0], c.parentNode.insertBefore(b, c) }(\"woopra\");\r\n\r\n      woopra.config({\r\n          domain: \"iqm2.com\",\r\n          cookie_name:\"accelaTracker\"\r\n      });\r\n      woopra.track(\"mp_pv\", {\r\n          domain: window.location.hostname,\r\n          title: document.title,\r\n          url: window.location.href,\r\n          uri: wi"
+  },
+  {
+   "method": "GET",
+   "url": "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4380",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 54988,
+   "body": "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\"  xml:lang=\"en\" lang=\"en\">\r\n<head id=\"HeadMain\"><title>\r\n\t2026/09/30 10:00 AM Transportation Committee Regular Committee Meeting - Web Outline - City of Atlanta, Georgia\r\n</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=9\" />\r\n\r\n    <!-- this fixes a minor rendering issue with tables on the ipad -->\r\n    <meta content=\"width=device-width, initial-scale=1.0;\" name=\"viewport\" />\r\n\r\n    <!-- Agency specific meta tags -->\r\n    <meta name='google-site-verification' content='v8iNp5ToI5384_S9_Exw0F10KJ__b35Fs7jqvTvb0TY' />\r\n<meta name='msvalidate.01' content='8C654B10898A718CB62BCB19E52589CD' />\r\n\r\n\r\n    <!-- open search discovery -->\r\n    <link rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"/Services/GetFederatedSearch.aspx\" title=\"IQM2 search\" />\r\n\r\n    <!-- Icon -->\r\n    <link href=\"/favicon.ico?v=2018\" rel=\"icon\" />\r\n\r\n    <!-- CSS Links -->\r\n    <link type=\"text/css\" href=\"/App_Themes/Main.css?v=86\" rel=\"Stylesheet\" /><link type=\"text/css\" href=\"/lib/jquery-ui.css\" rel=\"stylesheet\" />\r\n \r\n  <script>\r\n      !function () { var a, b, c, d = window, e = document, f = arguments, g = \"script\", h = [\"config\", \"track\", \"trackForm\", \"trackClick\", \"identify\", \"visit\", \"push\", \"call\"], i = function () { var a, b = this, c = function (a) { b[a] = function () { return b._e.push([a].concat(Array.prototype.slice.call(arguments, 0))), b } }; for (b._e = [], a = 0; a < h.length; a++) c(h[a]) }; for (d.__woo = d.__woo || {}, a = 0; a < f.length; a++) d.__woo[f[a]] = d[f[a]] = d[f[a]] || new i; b = e.createElement(g), b.async = 1, b.src = \"//static.woopra.com/js/w.js\", c = e.getElementsByTagName(g)[0], c.parentNode.insertBefore(b, c) }(\"woopra\");\r\n\r\n      woopra.config({\r\n          domain: \"iqm2.com\",\r\n          cookie_name:\"accelaTracker\"\r\n      });\r\n      woopra.track(\"mp_pv\", {\r\n          domain: window.location.hostname,\r\n          title: document.title,\r\n          url: window.location.href,\r\n   "
+  },
+  {
+   "method": "GET",
+   "url": "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4336",
+   "req": "None",
+   "status": 200,
+   "ctype": "text/html; charset=utf-8",
+   "len": 68236,
+   "body": "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\"  xml:lang=\"en\" lang=\"en\">\r\n<head id=\"HeadMain\"><title>\r\n\t2026/09/29 01:30 PM Community Development/Human Services Committee Regular Committee Meeting - Web Outline - City of Atlanta, Georgia\r\n</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=9\" />\r\n\r\n    <!-- this fixes a minor rendering issue with tables on the ipad -->\r\n    <meta content=\"width=device-width, initial-scale=1.0;\" name=\"viewport\" />\r\n\r\n    <!-- Agency specific meta tags -->\r\n    <meta name='google-site-verification' content='v8iNp5ToI5384_S9_Exw0F10KJ__b35Fs7jqvTvb0TY' />\r\n<meta name='msvalidate.01' content='8C654B10898A718CB62BCB19E52589CD' />\r\n\r\n\r\n    <!-- open search discovery -->\r\n    <link rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"/Services/GetFederatedSearch.aspx\" title=\"IQM2 search\" />\r\n\r\n    <!-- Icon -->\r\n    <link href=\"/favicon.ico?v=2018\" rel=\"icon\" />\r\n\r\n    <!-- CSS Links -->\r\n    <link type=\"text/css\" href=\"/App_Themes/Main.css?v=86\" rel=\"Stylesheet\" /><link type=\"text/css\" href=\"/lib/jquery-ui.css\" rel=\"stylesheet\" />\r\n \r\n  <script>\r\n      !function () { var a, b, c, d = window, e = document, f = arguments, g = \"script\", h = [\"config\", \"track\", \"trackForm\", \"trackClick\", \"identify\", \"visit\", \"push\", \"call\"], i = function () { var a, b = this, c = function (a) { b[a] = function () { return b._e.push([a].concat(Array.prototype.slice.call(arguments, 0))), b } }; for (b._e = [], a = 0; a < h.length; a++) c(h[a]) }; for (d.__woo = d.__woo || {}, a = 0; a < f.length; a++) d.__woo[f[a]] = d[f[a]] = d[f[a]] || new i; b = e.createElement(g), b.async = 1, b.src = \"//static.woopra.com/js/w.js\", c = e.getElementsByTagName(g)[0], c.parentNode.insertBefore(b, c) }(\"woopra\");\r\n\r\n      woopra.config({\r\n          domain: \"iqm2.com\",\r\n          cookie_name:\"accelaTracker\"\r\n      });\r\n      woopra.track(\"mp_pv\", {\r\n          domain: window.location.hostname,\r\n          title: document.title,\r\n          url: wind"
+  }
+ ],
+ "adapter_state": {
+  "atlanta": {
+   "known": [
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4270",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4271",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4272",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4273",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4274",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4330",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4333",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4334",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4335",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4336",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4355",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4356",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4357",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4358",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4359",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4376",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4377",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4378",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4379",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4380",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4413",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4414",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4415",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4416",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4417",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4418",
+    "https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4429"
+   ]
+  },
+  "storey": {
+   "known": [
+    "https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1408",
+    "https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1409",
+    "https://nv-storeycounty.civicplus.com/AgendaCenter/PreviousVersions/1411"
+   ]
+  },
+  "tulsa_council": {
+   "known": [
+    "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32733",
+    "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32734",
+    "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32735",
+    "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32736",
+    "https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32737"
+   ]
+  },
+  "tulsa_tmapc": {
+   "known": [
+    "https://tulsaplanning.org/agendas/august-19-2026-tmapc-agenda/",
+    "https://tulsaplanning.org/agendas/august-5-2026-tmapc-agenda/",
+    "https://tulsaplanning.org/agendas/july-15-2026-tmapc-meeting/",
+    "https://tulsaplanning.org/agendas/october-7-2026-planning-commission/",
+    "https://tulsaplanning.org/agendas/tmapc/16937/"
+   ]
+  },
+  "tulsa_boa": {
+   "known": [
+    "https://tulsaplanning.org/agendas/september-22-2026-board-of-adjustment-meeting/"
+   ]
+  },
+  "henrico": {
+   "known": [
+    "https://henrico.gov/pdfs/manager/meetings2025/121625ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/052626ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/062326ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/06926ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/072826ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/081126ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/090826ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/092226ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/11326ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/12726ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/21026ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/22426ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/31026ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/31626ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/32426ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/41426ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/42826ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/51226ag.pdf",
+    "https://henrico.gov/pdfs/manager/meetings2026/82526ag.pdf"
+   ]
+  },
+  "fairfax_bos": {
+   "known": [
+    "https://www.fairfaxcounty.gov/boardofsupervisors/apr-14-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/apr-28-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/aug-25-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-environmental-committee-meeting-feb-24-2026",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-environmental-committee-meeting-july-7-2026",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-environmental-committee-meeting-may-12-2026",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-land-use-policy-committee-meeting-feb-10-2026",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-land-use-policy-committee-meeting-july-7-2026",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-land-use-policy-committee-meeting-march-10-2026",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-land-use-policy-committee-meeting-may-12-2026",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-land-use-policy-committee-meeting-sept-1-2026",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/feb-03-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/feb-17-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/jan-13-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/jul-14-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/jun-09-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/jun-23-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/mar-03-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/mar-17-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/may-05-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/may-19-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/oct-13-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/sep-15-2026-meeting",
+    "https://www.fairfaxcounty.gov/boardofsupervisors/sep-29-2026-meeting"
+   ]
+  }
+ }
+}
