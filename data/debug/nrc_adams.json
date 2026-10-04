@@ -1,15 +1,336 @@
 {
  "adapter": "nrc_adams",
  "since": "2026-06-01",
- "items": 0,
- "sample": [],
+ "items": 354,
+ "sample": [
+  {
+   "id": "NRC:ML26149A013",
+   "jur": "US-Federal",
+   "source": "nrc_adams",
+   "kind": "filing",
+   "docket": "05000255",
+   "title": "Palisades (Holtec restart): Palisades Nuclear Plant - Milestone Schedule Update for Generic Letter 2004-02 Remaining Actions [['Letter', 'Schedule and Calendars']]",
+   "filed": "2026-06-01",
+   "entity": [
+    "Holtec Palisades, LLC"
+   ],
+   "url": "https://www.nrc.gov/docs/ML2614/ML26149A013.pdf",
+   "fetch": [
+    {
+     "url": "https://www.nrc.gov/docs/ML2614/ML26149A013.pdf"
+    }
+   ],
+   "meta": {
+    "project": "Palisades (Holtec restart)",
+    "accession": "ML26149A013",
+    "document_date": "2026-05-28"
+   }
+  },
+  {
+   "id": "NRC:ML26149A345",
+   "jur": "US-Federal",
+   "source": "nrc_adams",
+   "kind": "filing",
+   "docket": "05000255",
+   "title": "Palisades (Holtec restart): Memorandum to the Petitioners Regarding Commissioner Bradley R. Crowell's Palisades Nuclear Plant Site Visit on Tuesday, June 2, 2026 [['Legal-Order']]",
+   "filed": "2026-06-01",
+   "entity": [
+    "NRC/OCM/BRC"
+   ],
+   "url": "https://www.nrc.gov/docs/ML2614/ML26149A345.pdf",
+   "fetch": [
+    {
+     "url": "https://www.nrc.gov/docs/ML2614/ML26149A345.pdf"
+    }
+   ],
+   "meta": {
+    "project": "Palisades (Holtec restart)",
+    "accession": "ML26149A345",
+    "document_date": "2026-05-29"
+   }
+  },
+  {
+   "id": "NRC:ML26149A344",
+   "jur": "US-Federal",
+   "source": "nrc_adams",
+   "kind": "filing",
+   "docket": "05000255",
+   "title": "Palisades (Holtec restart): Memorandum to the Petitioners Regarding Commissioner Bradley R. Crowell's Palisades Nuclear Plant Site Visit on Tuesday, June 2, 2026 [['Legal-Order']]",
+   "filed": "2026-06-01",
+   "entity": [
+    "NRC/OCM/BRC"
+   ],
+   "url": "https://www.nrc.gov/docs/ML2614/ML26149A344.pdf",
+   "fetch": [
+    {
+     "url": "https://www.nrc.gov/docs/ML2614/ML26149A344.pdf"
+    }
+   ],
+   "meta": {
+    "project": "Palisades (Holtec restart)",
+    "accession": "ML26149A344",
+    "document_date": "2026-05-29"
+   }
+  },
+  {
+   "id": "NRC:ML26149A341",
+   "jur": "US-Federal",
+   "source": "nrc_adams",
+   "kind": "filing",
+   "docket": "05000255",
+   "title": "Palisades (Holtec restart): Memorandum to the Petitioners Regarding Commissioner Bradley R. Crowell Palisades Nuclear Plant Site Visit on Tuesday, June 2, 2026. [['Legal-Order']]",
+   "filed": "2026-06-01",
+   "entity": [
+    "NRC/OCM/BRC"
+   ],
+   "url": "https://www.nrc.gov/docs/ML2614/ML26149A341.pdf",
+   "fetch": [
+    {
+     "url": "https://www.nrc.gov/docs/ML2614/ML26149A341.pdf"
+    }
+   ],
+   "meta": {
+    "project": "Palisades (Holtec restart)",
+    "accession": "ML26149A341",
+    "document_date": "2026-05-29"
+   }
+  },
+  {
+   "id": "NRC:ML26147A163",
+   "jur": "US-Federal",
+   "source": "nrc_adams",
+   "kind": "filing",
+   "docket": "05000255",
+   "title": "Palisades (Holtec restart): Palisades Nuclear Plant, One-Time Request for Exemption from Requirements of 10 CFR 26.3(a), \"Fitness For Duty Programs - Scope\" [['Letter']]",
+   "filed": "2026-06-04",
+   "entity": [
+    "Holtec Palisades, LLC"
+   ],
+   "url": "https://www.nrc.gov/docs/ML2614/ML26147A163.pdf",
+   "fetch": [
+    {
+     "url": "https://www.nrc.gov/docs/ML2614/ML26147A163.pdf"
+    }
+   ],
+   "meta": {
+    "project": "Palisades (Holtec restart)",
+    "accession": "ML26147A163",
+    "document_date": "2026-05-27"
+   }
+  },
+  {
+   "id": "NRC:ML26159A337",
+   "jur": "US-Federal",
+   "source": "nrc_adams",
+   "kind": "filing",
+   "docket": "05000255",
+   "title": "Palisades (Holtec restart): OEDO-25-00378 2.206 Petition Palisades Steam Generator Sleeving - Meeting with Petitioner and Licensee on Initial Assessment 06/25/2026 [['Meeting Notice', 'Meeting Agenda']]",
+   "filed": "2026-06-08",
+   "entity": [
+    "NRC/NRR"
+   ],
+   "url": "https://www.nrc.gov/docs/ML2615/ML26159A337.pdf",
+   "fetch": [
+    {
+     "url": "https://www.nrc.gov/docs/ML2615/ML26159A337.pdf"
+    }
+   ],
+   "meta": {
+    "project": "Palisades (Holtec restart)",
+    "accession": "ML26159A337",
+    "document_date": "2026-06-08"
+   }
+  },
+  {
+   "id": "NRC:ML26152A046",
+   "jur": "US-Federal",
+   "source": "nrc_adams",
+   "kind": "filing",
+   "docket": "05000255",
+   "title": "Palisades (Holtec restart): Holtec International-Acceptance of Requested Action Re Threshold Determination for Transfer of Control of Licenses-L-2026-DFA-0014 [['E-Mail']]",
+   "filed": "2026-06-09",
+   "entity": [
+    "NRC/NMSS/DDUWP/RDB"
+   ],
+   "url": "https://www.nrc.gov/docs/ML2615/ML26152A046.pdf",
+   "fetch": [
+    {
+     "url": "https://www.nrc.gov/docs/ML2615/ML26152A046.pdf"
+    }
+   ],
+   "meta": {
+    "project": "Palisades (Holtec restart)",
+    "accession": "ML26152A046",
+    "document_date": "2026-05-29"
+   }
+  },
+  {
+   "id": "NRC:ML26159A267",
+   "jur": "US-Federal",
+   "source": "nrc_adams",
+   "kind": "filing",
+   "docket": "05000255",
+   "title": "Palisades (Holtec restart): Request for Confirmatory Information RE: Exemption from Part 26 Scope Requirements L-2026-LLE-0010 [['E-Mail', 'Exemption from NRC Requirements']]",
+   "filed": "2026-06-12",
+   "entity": [
+    "NRC/NRR/DORL/LPLIII"
+   ],
+   "url": "https://www.nrc.gov/docs/ML2615/ML26159A267.pdf",
+   "fetch": [
+    {
+     "url": "https://www.nrc.gov/docs/ML2615/ML26159A267.pdf"
+    }
+   ],
+   "meta": {
+    "project": "Palisades (Holtec restart)",
+    "accession": "ML26159A267",
+    "document_date": "2026-06-04"
+   }
+  }
+ ],
  "notes": [],
  "sub": {
-  "nrc_adams": {
-   "status": "no_key",
-   "note": "add repo secret NRC_APS_KEY (free: adams-api-developer.nrc.gov) to enable"
+  "nrc:05000255": {
+   "status": "ok",
+   "note": "46 documents"
+  },
+  "nrc:05000289": {
+   "status": "ok",
+   "note": "98 documents"
+  },
+  "nrc:05000331": {
+   "status": "ok",
+   "note": "100 documents"
+  },
+  "nrc:05000611": {
+   "status": "ok",
+   "note": "0 documents"
+  },
+  "nrc:05000612": {
+   "status": "ok",
+   "note": "0 documents"
+  },
+  "nrc:05000613": {
+   "status": "ok",
+   "note": "0 documents"
+  },
+  "nrc:05000614": {
+   "status": "ok",
+   "note": "51 documents"
+  },
+  "nrc:05000615": {
+   "status": "ok",
+   "note": "17 documents"
+  },
+  "nrc:05000616": {
+   "status": "ok",
+   "note": "100 documents"
+  },
+  "nrc:05000617": {
+   "status": "ok",
+   "note": "100 documents"
   }
  },
- "exchanges": [],
+ "exchanges": [
+  {
+   "method": "GET",
+   "url": "https://adams-api.nrc.gov/robots.txt",
+   "req": "None",
+   "status": 404,
+   "ctype": "application/json",
+   "len": 54,
+   "body": "{ \"statusCode\": 404, \"message\": \"Resource not found\" }"
+  },
+  {
+   "method": "POST",
+   "url": "https://adams-api.nrc.gov/aps/api/search",
+   "req": "{'q': '', 'filters': [{'field': 'DocketNumber', 'value': '05000255', 'operator': 'starts'}, {'field': 'DateAddedTimestamp', 'value': \"(DateAddedTimestamp ge '2026-06-01')\"}], 'anyFilters': [], 'mainLibFilter': True, 'legacyLibFilter': False, 'sort': 'DateAddedTimestamp', 'sortDirection': 1, 'skip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 91047,
+   "body": "{\"count\":46,\"results\":[{\"score\":7.3592234,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"E2ED4D9D-0399-C373-867E-9E833A800000\",\"Id\":\"{E2ED4D9D-0399-C373-867E-9E833A800000}\",\"Name\":\"Palisades Nuclear Plant - Milestone Schedule Update for Generic Letter 2004-02 Remaining Actions\",\"AccessionNumber\":\"ML26149A013\",\"Availability\":\"Publicly Available\",\"AuthorName\":[\"Schultheis M\"],\"AuthorAffiliation\":[\"Holtec Palisades, LLC\"],\"AddresseeName\":[],\"AddresseeAffiliation\":[\"NRC/NRR\",\"NRC/Document Control Desk\"],\"CaseReferenceNumber\":[\"PNP 2026-037\",\"GL 2004-02\"],\"Comment\":\"EIE-Submittal\",\"ContactPerson\":null,\"DocumentTitle\":\"Palisades Nuclear Plant - Milestone Schedule Update for Generic Letter 2004-02 Remaining Actions\",\"DocumentTitleEquals\":\"Palisades Nuclear Plant - Milestone Schedule Update for Generic Letter 2004-02 Remaining Actions\",\"DocumentTitleWord\":\"Palisades Nuclear Plant - Milestone Schedule Update for Generic Letter 2004-02 Remaining Actions\",\"DateAdded\":\"2026-06-01\",\"DateAddedTimestamp\":\"2026-06-01 08:45\",\"DocumentDate\":\"2026-05-28\",\"DocumentType\":[\"Letter\",\"Schedule and Calendars\"],\"DocumentReportNumber\":[],\"DocketNumber\":[\"05000255\"],\"DistributionListCodes\":\"A116\",\"DocumentsFiledInPackage\":[],\"LicenseNumber\":[\"DPR-020\"],\"Keyword\":[\"EIEAutoPop\",\"jef1\",\"dnd\",\"utsPARS\"],\"PackageNumber\":null,\"PackagesFiledIn\":[],\"Url\":\"https://www.nrc.gov/docs/ML2614/ML26149A013.pdf\",\"content\":\"\",\"IsPackage\":\"No\",\"IsLegacy\":\"No\",\"MicroformAddresses\":null,\"PhysicalFileLocation\":\"ADAMS\",\"EstimatedPageCount\":\"0\",\"DocumentSize\":\"170641\",\"AccessionNumberLower\":\"ml26149a013\",\"ItemType\":\"doc\"}},{\"score\":7.353191,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"B3C86F8F-5D48-C62E-BC8D-9E74C6900001\",\"Id\":\"{B3C86F8F-5D48-C62E-BC8D-9E74C6900001}\",\"Name\":\"Memorandum to the Petitioners Regarding Commissioner Bradley R. Crowell's Palisades Nuclear Plant Site Visit on Tuesday, June 2, 2026\",\"AccessionNumber\""
+  },
+  {
+   "method": "POST",
+   "url": "https://adams-api.nrc.gov/aps/api/search",
+   "req": "{'q': '', 'filters': [{'field': 'DocketNumber', 'value': '05000289', 'operator': 'starts'}, {'field': 'DateAddedTimestamp', 'value': \"(DateAddedTimestamp ge '2026-06-01')\"}], 'anyFilters': [], 'mainLibFilter': True, 'legacyLibFilter': False, 'sort': 'DateAddedTimestamp', 'sortDirection': 1, 'skip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 189924,
+   "body": "{\"count\":98,\"results\":[{\"score\":6.564091,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"4A4F6A56-6BE6-C69C-8519-9E8D79900000\",\"Id\":\"{4A4F6A56-6BE6-C69C-8519-9E8D79900000}\",\"Name\":\"Draft Environmental Assessment and Draft Finding of No Significant Impact for the Christopher M. Crane Clean Energy Center Reauthorization of Power Operations Project\",\"AccessionNumber\":\"ML26120A058\",\"Availability\":\"Publicly Available\",\"AuthorName\":[],\"AuthorAffiliation\":[\"NRC/NMSS/DREFS/EPMB1\"],\"AddresseeName\":[],\"AddresseeAffiliation\":[],\"CaseReferenceNumber\":[\"EAXX-429-00-000-1773009788\",\"DOE/EA-2318\"],\"Comment\":\"jra5 <! KTF1, JRA5 !>\",\"ContactPerson\":null,\"DocumentTitle\":\"Draft Environmental Assessment and Draft Finding of No Significant Impact for the Christopher M. Crane Clean Energy Center Reauthorization of Power Operations Project\",\"DocumentTitleEquals\":\"Draft Environmental Assessment and Draft Finding of No Significant Impact for the Christopher M. Crane Clean Energy Center Reauthorization of Power Operations Project\",\"DocumentTitleWord\":\"Draft Environmental Assessment and Draft Finding of No Significant Impact for the Christopher M. Crane Clean Energy Center Reauthorization of Power Operations Project\",\"DateAdded\":\"2026-06-03\",\"DateAddedTimestamp\":\"2026-06-03 08:31\",\"DocumentDate\":\"2026-06-30\",\"DocumentType\":[\"Environmental Assessment\",\"Finding of No Significant Impact\"],\"DocumentReportNumber\":[],\"DocketNumber\":[\"05000289\"],\"DistributionListCodes\":null,\"DocumentsFiledInPackage\":[],\"LicenseNumber\":[],\"Keyword\":[\"jef1\",\"utsPARS\"],\"PackageNumber\":null,\"PackagesFiledIn\":[],\"Url\":\"https://www.nrc.gov/docs/ML2612/ML26120A058.pdf\",\"content\":\"\",\"IsPackage\":\"No\",\"IsLegacy\":\"No\",\"MicroformAddresses\":null,\"PhysicalFileLocation\":\"ADAMS\",\"EstimatedPageCount\":\"0\",\"DocumentSize\":\"2611291\",\"AccessionNumberLower\":\"ml26120a058\",\"ItemType\":\"doc\"}},{\"score\":4.8448873,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\""
+  },
+  {
+   "method": "POST",
+   "url": "https://adams-api.nrc.gov/aps/api/search",
+   "req": "{'q': '', 'filters': [{'field': 'DocketNumber', 'value': '05000331', 'operator': 'starts'}, {'field': 'DateAddedTimestamp', 'value': \"(DateAddedTimestamp ge '2026-06-01')\"}], 'anyFilters': [], 'mainLibFilter': True, 'legacyLibFilter': False, 'sort': 'DateAddedTimestamp', 'sortDirection': 1, 'skip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 184258,
+   "body": "{\"count\":154,\"results\":[{\"score\":7.9748454,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"BEC0FAA9-6CA0-C123-8B53-9DFD4AC00000\",\"Id\":\"{BEC0FAA9-6CA0-C123-8B53-9DFD4AC00000}\",\"Name\":\"Enclosure 3 - DAEC Restart Area of Potential Effects Map\",\"AccessionNumber\":\"ML26126A048\",\"Availability\":\"Publicly Available\",\"AuthorName\":[],\"AuthorAffiliation\":[\"NRC/NMSS/DREFS/ETRB1\"],\"AddresseeName\":[],\"AddresseeAffiliation\":[],\"CaseReferenceNumber\":[\"20260506-10024\",\"EPID L-2025-LNE-0009\"],\"Comment\":null,\"ContactPerson\":null,\"DocumentTitle\":\"Enclosure 3 - DAEC Restart Area of Potential Effects Map\",\"DocumentTitleEquals\":\"Enclosure 3 - DAEC Restart Area of Potential Effects Map\",\"DocumentTitleWord\":\"Enclosure 3 - DAEC Restart Area of Potential Effects Map\",\"DateAdded\":\"2026-06-01\",\"DateAddedTimestamp\":\"2026-06-01 09:57\",\"DocumentDate\":\"2026-05-14\",\"DocumentType\":[\"Map\"],\"DocumentReportNumber\":[],\"DocketNumber\":[\"05000331\"],\"DistributionListCodes\":null,\"DocumentsFiledInPackage\":[],\"LicenseNumber\":[],\"Keyword\":[\"stt\",\"jef1\",\"utsPARS\"],\"PackageNumber\":\"ML26126A066\",\"PackagesFiledIn\":[\"ML26126A066\"],\"Url\":\"https://www.nrc.gov/docs/ML2612/ML26126A048.pdf\",\"content\":\"\",\"IsPackage\":\"No\",\"IsLegacy\":\"No\",\"MicroformAddresses\":null,\"PhysicalFileLocation\":\"ADAMS\",\"EstimatedPageCount\":\"0\",\"DocumentSize\":\"5083753\",\"AccessionNumberLower\":\"ml26126a048\",\"ItemType\":\"doc\"}},{\"score\":7.9350715,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"B46440D7-08B2-C322-8993-9E837A600000\",\"Id\":\"{B46440D7-08B2-C322-8993-9E837A600000}\",\"Name\":\"Ltr to A. Reider - Flandreau Santee Sioux Tribe - Section 106 Initiation DAEC Restart\",\"AccessionNumber\":\"ML26133A112\",\"Availability\":\"Publicly Available\",\"AuthorName\":[\"Koenick S S\"],\"AuthorAffiliation\":[\"NRC/NMSS/DREFS/ETRB1\"],\"AddresseeName\":[\"Reider A\"],\"AddresseeAffiliation\":[\"Flandreau Santee Lakota Tribe\"],\"CaseReferenceNumber\":[\"20260506-10024\",\"EPID L-2025-LNE-0009\"],\"Comment\":\""
+  },
+  {
+   "method": "POST",
+   "url": "https://adams-api.nrc.gov/aps/api/search",
+   "req": "{'q': '', 'filters': [{'field': 'DocketNumber', 'value': '05000611', 'operator': 'starts'}, {'field': 'DateAddedTimestamp', 'value': \"(DateAddedTimestamp ge '2026-06-01')\"}], 'anyFilters': [], 'mainLibFilter': True, 'legacyLibFilter': False, 'sort': 'DateAddedTimestamp', 'sortDirection': 1, 'skip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 384,
+   "body": "{\"count\":0,\"results\":[],\"facets\":{\"AuthorName\":[],\"AuthorAffiliation\":[],\"AddresseeName\":[],\"AddresseeAffiliation\":[],\"CaseReferenceNumber\":[],\"DocumentType\":[],\"DocketNumber\":[],\"DocumentReportNumber\":[],\"DocumentStatus\":[],\"DistributionListCodes\":[],\"LicenseNumber\":[],\"Keyword\":[],\"PackageNumber\":[],\"IsLegacy\":[],\"IsPackage\":[],\"DateAdded\":[],\"DocumentDate\":[]},\"pageNumber\":null}"
+  },
+  {
+   "method": "POST",
+   "url": "https://adams-api.nrc.gov/aps/api/search",
+   "req": "{'q': '', 'filters': [{'field': 'DocketNumber', 'value': '05000612', 'operator': 'starts'}, {'field': 'DateAddedTimestamp', 'value': \"(DateAddedTimestamp ge '2026-06-01')\"}], 'anyFilters': [], 'mainLibFilter': True, 'legacyLibFilter': False, 'sort': 'DateAddedTimestamp', 'sortDirection': 1, 'skip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 384,
+   "body": "{\"count\":0,\"results\":[],\"facets\":{\"AuthorName\":[],\"AuthorAffiliation\":[],\"AddresseeName\":[],\"AddresseeAffiliation\":[],\"CaseReferenceNumber\":[],\"DocumentType\":[],\"DocketNumber\":[],\"DocumentReportNumber\":[],\"DocumentStatus\":[],\"DistributionListCodes\":[],\"LicenseNumber\":[],\"Keyword\":[],\"PackageNumber\":[],\"IsLegacy\":[],\"IsPackage\":[],\"DateAdded\":[],\"DocumentDate\":[]},\"pageNumber\":null}"
+  },
+  {
+   "method": "POST",
+   "url": "https://adams-api.nrc.gov/aps/api/search",
+   "req": "{'q': '', 'filters': [{'field': 'DocketNumber', 'value': '05000613', 'operator': 'starts'}, {'field': 'DateAddedTimestamp', 'value': \"(DateAddedTimestamp ge '2026-06-01')\"}], 'anyFilters': [], 'mainLibFilter': True, 'legacyLibFilter': False, 'sort': 'DateAddedTimestamp', 'sortDirection': 1, 'skip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 384,
+   "body": "{\"count\":0,\"results\":[],\"facets\":{\"AuthorName\":[],\"AuthorAffiliation\":[],\"AddresseeName\":[],\"AddresseeAffiliation\":[],\"CaseReferenceNumber\":[],\"DocumentType\":[],\"DocketNumber\":[],\"DocumentReportNumber\":[],\"DocumentStatus\":[],\"DistributionListCodes\":[],\"LicenseNumber\":[],\"Keyword\":[],\"PackageNumber\":[],\"IsLegacy\":[],\"IsPackage\":[],\"DateAdded\":[],\"DocumentDate\":[]},\"pageNumber\":null}"
+  },
+  {
+   "method": "POST",
+   "url": "https://adams-api.nrc.gov/aps/api/search",
+   "req": "{'q': '', 'filters': [{'field': 'DocketNumber', 'value': '05000614', 'operator': 'starts'}, {'field': 'DateAddedTimestamp', 'value': \"(DateAddedTimestamp ge '2026-06-01')\"}], 'anyFilters': [], 'mainLibFilter': True, 'legacyLibFilter': False, 'sort': 'DateAddedTimestamp', 'sortDirection': 1, 'skip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 95581,
+   "body": "{\"count\":51,\"results\":[{\"score\":13.124787,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"CD8571C2-1E13-C748-8855-9E8337D00000\",\"Id\":\"{CD8571C2-1E13-C748-8855-9E8337D00000}\",\"Name\":\"2026/05/18 Project Long Mott Docs - The Federal Register Notice ML26104A220 has been signed.\",\"AccessionNumber\":\"ML26138A116\",\"Availability\":\"Publicly Available\",\"AuthorName\":[],\"AuthorAffiliation\":[\"NRC\"],\"AddresseeName\":[],\"AddresseeAffiliation\":[\"NRC/NMSS/DREFS\"],\"CaseReferenceNumber\":[\"+reviewed\"],\"Comment\":null,\"ContactPerson\":null,\"DocumentTitle\":\"2026/05/18 Project Long Mott Docs - The Federal Register Notice ML26104A220 has been signed.\",\"DocumentTitleEquals\":\"2026/05/18 Project Long Mott Docs - The Federal Register Notice ML26104A220 has been signed.\",\"DocumentTitleWord\":\"2026/05/18 Project Long Mott Docs - The Federal Register Notice ML26104A220 has been signed.\",\"DateAdded\":\"2026-06-01\",\"DateAddedTimestamp\":\"2026-06-01 08:44\",\"DocumentDate\":\"2026-05-18\",\"DocumentType\":[\"E-Mail\"],\"DocumentReportNumber\":[],\"DocketNumber\":[\"05000614\"],\"DistributionListCodes\":null,\"DocumentsFiledInPackage\":[],\"LicenseNumber\":[],\"Keyword\":[\"p8_email_capture\",\"utsPARS\"],\"PackageNumber\":null,\"PackagesFiledIn\":[],\"Url\":\"https://www.nrc.gov/docs/ML2613/ML26138A116.pdf\",\"content\":\"\",\"IsPackage\":\"No\",\"IsLegacy\":\"No\",\"MicroformAddresses\":null,\"PhysicalFileLocation\":\"ADAMS\",\"EstimatedPageCount\":\"0\",\"DocumentSize\":\"129961\",\"AccessionNumberLower\":\"ml26138a116\",\"ItemType\":\"doc\"}},{\"score\":13.200256,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"1A1691BB-9F96-C0A3-8727-9EA746600000\",\"Id\":\"{1A1691BB-9F96-C0A3-8727-9EA746600000}\",\"Name\":\"6-2-26 Email from TX Historical Commission Regarding the Final Environmental Assessment and FONSO for the Long Mott Construction Permit Review\",\"AccessionNumber\":\"ML26159A002\",\"Availability\":\"Publicly Available\",\"AuthorName\":[\"Bell J\"],\"AuthorAffiliation\":[\"State of TX, Historical Commissi"
+  },
+  {
+   "method": "POST",
+   "url": "https://adams-api.nrc.gov/aps/api/search",
+   "req": "{'q': '', 'filters': [{'field': 'DocketNumber', 'value': '05000615', 'operator': 'starts'}, {'field': 'DateAddedTimestamp', 'value': \"(DateAddedTimestamp ge '2026-06-01')\"}], 'anyFilters': [], 'mainLibFilter': True, 'legacyLibFilter': False, 'sort': 'DateAddedTimestamp', 'sortDirection': 1, 'skip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 32193,
+   "body": "{\"count\":17,\"results\":[{\"score\":15.144532,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"AA51F66F-2657-C628-858A-9E9377900000\",\"Id\":\"{AA51F66F-2657-C628-858A-9E9377900000}\",\"Name\":\"Clinch River CPA - ASER - Chapter 6 Engineered Safety Features\",\"AccessionNumber\":\"ML26112A090\",\"Availability\":\"Publicly Available\",\"AuthorName\":[\"Tesfaye G\"],\"AuthorAffiliation\":[\"NRC/NRR/DNRL/NRLB\"],\"AddresseeName\":[],\"AddresseeAffiliation\":[],\"CaseReferenceNumber\":[],\"Comment\":\"NWW\",\"ContactPerson\":null,\"DocumentTitle\":\"Clinch River CPA - ASER - Chapter 6 Engineered Safety Features\",\"DocumentTitleEquals\":\"Clinch River CPA - ASER - Chapter 6 Engineered Safety Features\",\"DocumentTitleWord\":\"Clinch River CPA - ASER - Chapter 6 Engineered Safety Features\",\"DateAdded\":\"2026-06-04\",\"DateAddedTimestamp\":\"2026-06-04 12:29\",\"DocumentDate\":\"2026-04-22\",\"DocumentType\":[\"Safety Evaluation Report\"],\"DocumentReportNumber\":[],\"DocketNumber\":[\"05000615\"],\"DistributionListCodes\":null,\"DocumentsFiledInPackage\":[],\"LicenseNumber\":[],\"Keyword\":[\"SUNSI Review Complete\",\"ODS\",\"jef1\",\"utsPARS\",\"OARC20260604jxv1-Replaced with corrected copy user supplied document.\"],\"PackageNumber\":\"ML25363A124\",\"PackagesFiledIn\":[\"ML25363A124\"],\"Url\":\"https://www.nrc.gov/docs/ML2611/ML26112A090.pdf\",\"content\":\"\",\"IsPackage\":\"No\",\"IsLegacy\":\"No\",\"MicroformAddresses\":null,\"PhysicalFileLocation\":\"ADAMS\",\"EstimatedPageCount\":\"64\",\"DocumentSize\":\"659140\",\"AccessionNumberLower\":\"ml26112a090\",\"ItemType\":\"doc\"}},{\"score\":15.744884,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"9CF7D1D8-BE06-C30E-873F-9E9408700000\",\"Id\":\"{9CF7D1D8-BE06-C30E-873F-9E9408700000}\",\"Name\":\"Clinch River CPA - ASER - Chapter 7 Instrumentation and Controls\",\"AccessionNumber\":\"ML26111A189\",\"Availability\":\"Publicly Available\",\"AuthorName\":[\"Vivanco R A\"],\"AuthorAffiliation\":[\"NRC/NRR/DNRL/NRLB\"],\"AddresseeName\":[],\"AddresseeAffiliation\":[],\"CaseReferenceNumber\":[\"202604"
+  },
+  {
+   "method": "POST",
+   "url": "https://adams-api.nrc.gov/aps/api/search",
+   "req": "{'q': '', 'filters': [{'field': 'DocketNumber', 'value': '05000616', 'operator': 'starts'}, {'field': 'DateAddedTimestamp', 'value': \"(DateAddedTimestamp ge '2026-06-01')\"}], 'anyFilters': [], 'mainLibFilter': True, 'legacyLibFilter': False, 'sort': 'DateAddedTimestamp', 'sortDirection': 1, 'skip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 191404,
+   "body": "{\"count\":167,\"results\":[{\"score\":8.787203,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"CA614853-F8DF-CCC1-8676-9EAC77400000\",\"Id\":\"{CA614853-F8DF-CCC1-8676-9EAC77400000}\",\"Name\":\"Holtec International-Acceptance of Requested Action Re Threshold Determination for Transfer of Control of Licenses-L-2026-DFA-0014\",\"AccessionNumber\":\"ML26152A046\",\"Availability\":\"Publicly Available\",\"AuthorName\":[\"Doell M V\"],\"AuthorAffiliation\":[\"NRC/NMSS/DDUWP/RDB\"],\"AddresseeName\":[\"Noval W\"],\"AddresseeAffiliation\":[\"Holtec International\"],\"CaseReferenceNumber\":[],\"Comment\":\"dwh <! MGV, DWH !>\",\"ContactPerson\":null,\"DocumentTitle\":\"Holtec International-Acceptance of Requested Action Re Threshold Determination for Transfer of Control of Licenses-L-2026-DFA-0014\",\"DocumentTitleEquals\":\"Holtec International-Acceptance of Requested Action Re Threshold Determination for Transfer of Control of Licenses-L-2026-DFA-0014\",\"DocumentTitleWord\":\"Holtec International-Acceptance of Requested Action Re Threshold Determination for Transfer of Control of Licenses-L-2026-DFA-0014\",\"DateAdded\":\"2026-06-09\",\"DateAddedTimestamp\":\"2026-06-09 08:58\",\"DocumentDate\":\"2026-05-29\",\"DocumentType\":[\"E-Mail\"],\"DocumentReportNumber\":[],\"DocketNumber\":[\"05000003\",\"05000155\",\"05000219\",\"05000247\",\"05000255\",\"05000286\",\"05000293\",\"05000616\",\"05000617\",\"07200007\",\"07200015\",\"07200043\",\"07200051\",\"07201044\"],\"DistributionListCodes\":null,\"DocumentsFiledInPackage\":[],\"LicenseNumber\":[\"EPID L-2026-DFA-0014\"],\"Keyword\":[\"jrr3\",\"dnd\",\"utsPARS\"],\"PackageNumber\":null,\"PackagesFiledIn\":[],\"Url\":\"https://www.nrc.gov/docs/ML2615/ML26152A046.pdf\",\"content\":\"\",\"IsPackage\":\"No\",\"IsLegacy\":\"No\",\"MicroformAddresses\":null,\"PhysicalFileLocation\":\"ADAMS\",\"EstimatedPageCount\":\"0\",\"DocumentSize\":\"131658\",\"AccessionNumberLower\":\"ml26152a046\",\"ItemType\":\"doc\"}},{\"score\":8.389108,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"FA793724-6299-C077-826B-9E"
+  },
+  {
+   "method": "POST",
+   "url": "https://adams-api.nrc.gov/aps/api/search",
+   "req": "{'q': '', 'filters': [{'field': 'DocketNumber', 'value': '05000617', 'operator': 'starts'}, {'field': 'DateAddedTimestamp', 'value': \"(DateAddedTimestamp ge '2026-06-01')\"}], 'anyFilters': [], 'mainLibFilter': True, 'legacyLibFilter': False, 'sort': 'DateAddedTimestamp', 'sortDirection': 1, 'skip': 0}",
+   "status": 200,
+   "ctype": "application/json; charset=utf-8",
+   "len": 191681,
+   "body": "{\"count\":162,\"results\":[{\"score\":8.864852,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"CA614853-F8DF-CCC1-8676-9EAC77400000\",\"Id\":\"{CA614853-F8DF-CCC1-8676-9EAC77400000}\",\"Name\":\"Holtec International-Acceptance of Requested Action Re Threshold Determination for Transfer of Control of Licenses-L-2026-DFA-0014\",\"AccessionNumber\":\"ML26152A046\",\"Availability\":\"Publicly Available\",\"AuthorName\":[\"Doell M V\"],\"AuthorAffiliation\":[\"NRC/NMSS/DDUWP/RDB\"],\"AddresseeName\":[\"Noval W\"],\"AddresseeAffiliation\":[\"Holtec International\"],\"CaseReferenceNumber\":[],\"Comment\":\"dwh <! MGV, DWH !>\",\"ContactPerson\":null,\"DocumentTitle\":\"Holtec International-Acceptance of Requested Action Re Threshold Determination for Transfer of Control of Licenses-L-2026-DFA-0014\",\"DocumentTitleEquals\":\"Holtec International-Acceptance of Requested Action Re Threshold Determination for Transfer of Control of Licenses-L-2026-DFA-0014\",\"DocumentTitleWord\":\"Holtec International-Acceptance of Requested Action Re Threshold Determination for Transfer of Control of Licenses-L-2026-DFA-0014\",\"DateAdded\":\"2026-06-09\",\"DateAddedTimestamp\":\"2026-06-09 08:58\",\"DocumentDate\":\"2026-05-29\",\"DocumentType\":[\"E-Mail\"],\"DocumentReportNumber\":[],\"DocketNumber\":[\"05000003\",\"05000155\",\"05000219\",\"05000247\",\"05000255\",\"05000286\",\"05000293\",\"05000616\",\"05000617\",\"07200007\",\"07200015\",\"07200043\",\"07200051\",\"07201044\"],\"DistributionListCodes\":null,\"DocumentsFiledInPackage\":[],\"LicenseNumber\":[\"EPID L-2026-DFA-0014\"],\"Keyword\":[\"jrr3\",\"dnd\",\"utsPARS\"],\"PackageNumber\":null,\"PackagesFiledIn\":[],\"Url\":\"https://www.nrc.gov/docs/ML2615/ML26152A046.pdf\",\"content\":\"\",\"IsPackage\":\"No\",\"IsLegacy\":\"No\",\"MicroformAddresses\":null,\"PhysicalFileLocation\":\"ADAMS\",\"EstimatedPageCount\":\"0\",\"DocumentSize\":\"131658\",\"AccessionNumberLower\":\"ml26152a046\",\"ItemType\":\"doc\"}},{\"score\":8.389108,\"highlights\":null,\"semanticSearch\":{\"rerankerScore\":null,\"captions\":null},\"document\":{\"IdT\":\"FA793724-6299-C077-826B-9E"
+  }
+ ],
  "adapter_state": {}
 }

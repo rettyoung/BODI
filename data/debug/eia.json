@@ -6,8 +6,8 @@
  "notes": [],
  "sub": {
   "eia": {
-   "status": "rate_limited",
-   "note": "public DEMO_KEY rate limit (shared runner IP); a repo secret EIA_API_KEY avoids it"
+   "status": "ok",
+   "note": "baseline 2026-07"
   }
  },
  "exchanges": [
@@ -22,7 +22,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&sort[0][column]=period&sort[0][direction]=desc&length=1&api_key=DEMO_KEY",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&sort[0][column]=period&sort[0][direction]=desc&length=1&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -31,7 +31,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=AL&start=2026-07&end=2026-07&offset=0&length=5000&api_key=DEMO_KEY",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=AL&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -40,7 +40,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=AZ&start=2026-07&end=2026-07&offset=0&length=5000&api_key=DEMO_KEY",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=AZ&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -49,7 +49,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=GA&start=2026-07&end=2026-07&offset=0&length=5000&api_key=DEMO_KEY",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=GA&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -58,7 +58,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=IL&start=2026-07&end=2026-07&offset=0&length=5000&api_key=DEMO_KEY",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=IL&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -67,7 +67,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=KS&start=2026-07&end=2026-07&offset=0&length=5000&api_key=DEMO_KEY",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=KS&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -76,7 +76,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=LA&start=2026-07&end=2026-07&offset=0&length=5000&api_key=DEMO_KEY",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=LA&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -85,7 +85,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=MO&start=2026-07&end=2026-07&offset=0&length=5000&api_key=DEMO_KEY",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=MO&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -94,7 +94,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=NC&start=2026-07&end=2026-07&offset=0&length=5000&api_key=DEMO_KEY",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=NC&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -103,7 +103,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=NM&start=2026-07&end=2026-07&offset=0&length=5000&api_key=DEMO_KEY",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=NM&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -112,13 +112,79 @@
   },
   {
    "method": "GET",
-   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=NV&start=2026-07&end=2026-07&offset=0&length=5000&api_key=DEMO_KEY",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=NV&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
    "req": "None",
-   "status": 429,
+   "status": 200,
    "ctype": "application/json",
-   "len": 173,
-   "body": "{\n  \"error\": {\n    \"code\": \"OVER_RATE_LIMIT\",\n    \"message\": \"You have exceeded your rate limit. Try again later or contact us for assistance: https://api.eia.gov:443\"\n  }\n}"
+   "len": 175879,
+   "body": "{\"response\":{\"total\":\"306\",\"dateFormat\":\"YYYY-MM\",\"frequency\":\"monthly\",\"data\":[{\"period\":\"2026-07\",\"stateid\":\"NV\",\"stateName\":\"Nevada\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"2518\",\"entityName\":\"U S Bureau of Reclamation\",\"plantid\":\"154\",\"plantName\":\"Hoover Dam (NV)\",\"generatorid\":\"N0\",\"technology\":\"Conventional Hydroelectric\",\"energy_source_code\":\"WAT\",\"energy-source-desc\":\"Water\",\"prime_mover_code\":\"HY\",\"balancing_authority_code\":\"WALC\",\"balancing-authority-name\":\"Western Area Power Administration - Desert Southwest Region\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"2.4\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"NV\",\"stateName\":\"Nevada\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"2518\",\"entityName\":\"U S Bureau of Reclamation\",\"plantid\":\"154\",\"plantName\":\"Hoover Dam (NV)\",\"generatorid\":\"N1\",\"technology\":\"Conventional Hydroelectric\",\"energy_source_code\":\"WAT\",\"energy-source-desc\":\"Water\",\"prime_mover_code\":\"HY\",\"balancing_authority_code\":\"WALC\",\"balancing-authority-name\":\"Western Area Power Administration - Desert Southwest Region\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"130\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"NV\",\"stateName\":\"Nevada\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"2518\",\"entityName\":\"U S Bureau of Reclamation\",\"plantid\":\"154\",\"plantName\":\"Hoover Dam (NV)\",\"generatorid\":\"N2\",\"technology\":\"Conventional Hydroelectric\",\"energy_source_code\":\"WAT\",\"energy-source-desc\":\"Water\",\"prime_mover_code\":\"HY\",\"balancing_authority_code\":\"WALC\",\"balancing-authority-name\":\"Western Area Power Administration - Desert Southwest Region\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"130\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"NV\",\"stateName\":\"Nevada\",\"sector\":\"electric-utility\",\"sectorNa"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=OH&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 289980,
+   "body": "{\"response\":{\"total\":\"500\",\"dateFormat\":\"YYYY-MM\",\"frequency\":\"monthly\",\"data\":[{\"period\":\"2026-07\",\"stateid\":\"OH\",\"stateName\":\"Ohio\",\"sector\":\"ipp-non-chp\",\"sectorName\":\"IPP Non-CHP\",\"entityid\":\"61412\",\"entityName\":\"Cardinal Operating Company\",\"plantid\":\"2828\",\"plantName\":\"Cardinal\",\"generatorid\":\"1\",\"technology\":\"Conventional Steam Coal\",\"energy_source_code\":\"BIT\",\"energy-source-desc\":\"Bituminous Coal\",\"prime_mover_code\":\"ST\",\"balancing_authority_code\":\"PJM\",\"balancing-authority-name\":\"PJM Interconnection, LLC\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"615.2\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"OH\",\"stateName\":\"Ohio\",\"sector\":\"ipp-non-chp\",\"sectorName\":\"IPP Non-CHP\",\"entityid\":\"61412\",\"entityName\":\"Cardinal Operating Company\",\"plantid\":\"2828\",\"plantName\":\"Cardinal\",\"generatorid\":\"2\",\"technology\":\"Conventional Steam Coal\",\"energy_source_code\":\"BIT\",\"energy-source-desc\":\"Bituminous Coal\",\"prime_mover_code\":\"ST\",\"balancing_authority_code\":\"PJM\",\"balancing-authority-name\":\"PJM Interconnection, LLC\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"615.2\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"OH\",\"stateName\":\"Ohio\",\"sector\":\"ipp-non-chp\",\"sectorName\":\"IPP Non-CHP\",\"entityid\":\"61412\",\"entityName\":\"Cardinal Operating Company\",\"plantid\":\"2828\",\"plantName\":\"Cardinal\",\"generatorid\":\"3\",\"technology\":\"Conventional Steam Coal\",\"energy_source_code\":\"BIT\",\"energy-source-desc\":\"Bituminous Coal\",\"prime_mover_code\":\"ST\",\"balancing_authority_code\":\"PJM\",\"balancing-authority-name\":\"PJM Interconnection, LLC\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"650\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"OH\",\"stateName\":\"Ohio\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"3542\",\"entityName\":\"Duke Energy Ohio Inc\",\"plantid\":\"2830\",\"plantName\":\"Walter C Beckjord\",\"generator"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=OK&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 187679,
+   "body": "{\"response\":{\"total\":\"321\",\"dateFormat\":\"YYYY-MM\",\"frequency\":\"monthly\",\"data\":[{\"period\":\"2026-07\",\"stateid\":\"OK\",\"stateName\":\"Oklahoma\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"7490\",\"entityName\":\"Grand River Dam Authority\",\"plantid\":\"165\",\"plantName\":\"GREC\",\"generatorid\":\"2\",\"technology\":\"Conventional Steam Coal\",\"energy_source_code\":\"SUB\",\"energy-source-desc\":\"Subbituminous Coal\",\"prime_mover_code\":\"ST\",\"balancing_authority_code\":\"SWPP\",\"balancing-authority-name\":\"Southwest Power Pool\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"594\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"OK\",\"stateName\":\"Oklahoma\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"7490\",\"entityName\":\"Grand River Dam Authority\",\"plantid\":\"165\",\"plantName\":\"GREC\",\"generatorid\":\"3CT\",\"technology\":\"Natural Gas Fired Combined Cycle\",\"energy_source_code\":\"NG\",\"energy-source-desc\":\"Natural Gas\",\"prime_mover_code\":\"CT\",\"balancing_authority_code\":\"SWPP\",\"balancing-authority-name\":\"Southwest Power Pool\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"369\",\"unit\":\"CT03\",\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"OK\",\"stateName\":\"Oklahoma\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"7490\",\"entityName\":\"Grand River Dam Authority\",\"plantid\":\"165\",\"plantName\":\"GREC\",\"generatorid\":\"3ST\",\"technology\":\"Natural Gas Fired Combined Cycle\",\"energy_source_code\":\"NG\",\"energy-source-desc\":\"Natural Gas\",\"prime_mover_code\":\"CA\",\"balancing_authority_code\":\"SWPP\",\"balancing-authority-name\":\"Southwest Power Pool\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"231.3\",\"unit\":\"CT03\",\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"OK\",\"stateName\":\"Oklahoma\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"14063\",\"entityName\":\"Oklahoma Gas & Electric Co\",\"plantid\":\"2951\",\"p"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=PA&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 386776,
+   "body": "{\"response\":{\"total\":\"661\",\"dateFormat\":\"YYYY-MM\",\"frequency\":\"monthly\",\"data\":[{\"period\":\"2026-07\",\"stateid\":\"PA\",\"stateName\":\"Pennsylvania\",\"sector\":\"ipp-non-chp\",\"sectorName\":\"IPP Non-CHP\",\"entityid\":\"63032\",\"entityName\":\"Brunot Island Power, LLC\",\"plantid\":\"3096\",\"plantName\":\"Brunot Island\",\"generatorid\":\"1A\",\"technology\":\"Petroleum Liquids\",\"energy_source_code\":\"DFO\",\"energy-source-desc\":\"Disillate Fuel Oil\",\"prime_mover_code\":\"GT\",\"balancing_authority_code\":\"PJM\",\"balancing-authority-name\":\"PJM Interconnection, LLC\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"25.5\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"PA\",\"stateName\":\"Pennsylvania\",\"sector\":\"ipp-non-chp\",\"sectorName\":\"IPP Non-CHP\",\"entityid\":\"63032\",\"entityName\":\"Brunot Island Power, LLC\",\"plantid\":\"3096\",\"plantName\":\"Brunot Island\",\"generatorid\":\"2A\",\"technology\":\"Natural Gas Fired Combined Cycle\",\"energy_source_code\":\"NG\",\"energy-source-desc\":\"Natural Gas\",\"prime_mover_code\":\"CT\",\"balancing_authority_code\":\"PJM\",\"balancing-authority-name\":\"PJM Interconnection, LLC\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"65.3\",\"unit\":\"BICC\",\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"PA\",\"stateName\":\"Pennsylvania\",\"sector\":\"ipp-non-chp\",\"sectorName\":\"IPP Non-CHP\",\"entityid\":\"63032\",\"entityName\":\"Brunot Island Power, LLC\",\"plantid\":\"3096\",\"plantName\":\"Brunot Island\",\"generatorid\":\"2B\",\"technology\":\"Natural Gas Fired Combined Cycle\",\"energy_source_code\":\"NG\",\"energy-source-desc\":\"Natural Gas\",\"prime_mover_code\":\"CT\",\"balancing_authority_code\":\"PJM\",\"balancing-authority-name\":\"PJM Interconnection, LLC\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"65.3\",\"unit\":\"BICC\",\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"PA\",\"stateName\":\"Pennsylvania\",\"sector\":\"ipp-non-chp\",\"sectorName\":\"IPP Non-CHP\",\"entityid\":\"63032\",\"entityName\":\"Brunot Island Power, LLC\",\"plantid\":\"3"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=SC&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 234162,
+   "body": "{\"response\":{\"total\":\"398\",\"dateFormat\":\"YYYY-MM\",\"frequency\":\"monthly\",\"data\":[{\"period\":\"2026-07\",\"stateid\":\"SC\",\"stateName\":\"South Carolina\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"17543\",\"entityName\":\"South Carolina Public Service Authority\",\"plantid\":\"130\",\"plantName\":\"Cross\",\"generatorid\":\"1\",\"technology\":\"Conventional Steam Coal\",\"energy_source_code\":\"BIT\",\"energy-source-desc\":\"Bituminous Coal\",\"prime_mover_code\":\"ST\",\"balancing_authority_code\":\"SC\",\"balancing-authority-name\":\"South Carolina Public Service Authority\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"591.4\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"SC\",\"stateName\":\"South Carolina\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"17543\",\"entityName\":\"South Carolina Public Service Authority\",\"plantid\":\"130\",\"plantName\":\"Cross\",\"generatorid\":\"2\",\"technology\":\"Conventional Steam Coal\",\"energy_source_code\":\"BIT\",\"energy-source-desc\":\"Bituminous Coal\",\"prime_mover_code\":\"ST\",\"balancing_authority_code\":\"SC\",\"balancing-authority-name\":\"South Carolina Public Service Authority\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"556.1\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"SC\",\"stateName\":\"South Carolina\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"17543\",\"entityName\":\"South Carolina Public Service Authority\",\"plantid\":\"130\",\"plantName\":\"Cross\",\"generatorid\":\"3\",\"technology\":\"Conventional Steam Coal\",\"energy_source_code\":\"BIT\",\"energy-source-desc\":\"Bituminous Coal\",\"prime_mover_code\":\"ST\",\"balancing_authority_code\":\"SC\",\"balancing-authority-name\":\"South Carolina Public Service Authority\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"652\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"SC\",\"stateName\":\"South Carolina\",\"sector\":\"electric-utility\",\"secto"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=TX&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 1483566,
+   "body": "{\"response\":{\"total\":\"2480\",\"dateFormat\":\"YYYY-MM\",\"frequency\":\"monthly\",\"data\":[{\"period\":\"2026-07\",\"stateid\":\"TX\",\"stateName\":\"Texas\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"5701\",\"entityName\":\"El Paso Electric Co\",\"plantid\":\"9\",\"plantName\":\"Copper\",\"generatorid\":\"1\",\"technology\":\"Natural Gas Fired Combustion Turbine\",\"energy_source_code\":\"NG\",\"energy-source-desc\":\"Natural Gas\",\"prime_mover_code\":\"GT\",\"balancing_authority_code\":\"EPE\",\"balancing-authority-name\":\"El Paso Electric Company\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"86.9\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"TX\",\"stateName\":\"Texas\",\"sector\":\"ipp-non-chp\",\"sectorName\":\"IPP Non-CHP\",\"entityid\":\"54888\",\"entityName\":\"NRG Texas Power LLC\",\"plantid\":\"298\",\"plantName\":\"Limestone\",\"generatorid\":\"1\",\"technology\":\"Conventional Steam Coal\",\"energy_source_code\":\"SUB\",\"energy-source-desc\":\"Subbituminous Coal\",\"prime_mover_code\":\"ST\",\"balancing_authority_code\":\"ERCO\",\"balancing-authority-name\":\"Electric Reliability Council of Texas, Inc.\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"893\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"TX\",\"stateName\":\"Texas\",\"sector\":\"ipp-non-chp\",\"sectorName\":\"IPP Non-CHP\",\"entityid\":\"54888\",\"entityName\":\"NRG Texas Power LLC\",\"plantid\":\"298\",\"plantName\":\"Limestone\",\"generatorid\":\"2\",\"technology\":\"Conventional Steam Coal\",\"energy_source_code\":\"SUB\",\"energy-source-desc\":\"Subbituminous Coal\",\"prime_mover_code\":\"ST\",\"balancing_authority_code\":\"ERCO\",\"balancing-authority-name\":\"Electric Reliability Council of Texas, Inc.\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"956.8\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"TX\",\"stateName\":\"Texas\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"7751\",\"entityName\":\"Guadalupe Blanco River Authority\",\"plant"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=VA&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 437687,
+   "body": "{\"response\":{\"total\":\"754\",\"dateFormat\":\"YYYY-MM\",\"frequency\":\"monthly\",\"data\":[{\"period\":\"2026-07\",\"stateid\":\"VA\",\"stateName\":\"Virginia\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"733\",\"entityName\":\"Appalachian Power Co\",\"plantid\":\"3772\",\"plantName\":\"Buck Hydro\",\"generatorid\":\"1\",\"technology\":\"Conventional Hydroelectric\",\"energy_source_code\":\"WAT\",\"energy-source-desc\":\"Water\",\"prime_mover_code\":\"HY\",\"balancing_authority_code\":\"PJM\",\"balancing-authority-name\":\"PJM Interconnection, LLC\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"2.8\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"VA\",\"stateName\":\"Virginia\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"733\",\"entityName\":\"Appalachian Power Co\",\"plantid\":\"3772\",\"plantName\":\"Buck Hydro\",\"generatorid\":\"2\",\"technology\":\"Conventional Hydroelectric\",\"energy_source_code\":\"WAT\",\"energy-source-desc\":\"Water\",\"prime_mover_code\":\"HY\",\"balancing_authority_code\":\"PJM\",\"balancing-authority-name\":\"PJM Interconnection, LLC\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"2.8\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"VA\",\"stateName\":\"Virginia\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"733\",\"entityName\":\"Appalachian Power Co\",\"plantid\":\"3772\",\"plantName\":\"Buck Hydro\",\"generatorid\":\"3\",\"technology\":\"Conventional Hydroelectric\",\"energy_source_code\":\"WAT\",\"energy-source-desc\":\"Water\",\"prime_mover_code\":\"HY\",\"balancing_authority_code\":\"PJM\",\"balancing-authority-name\":\"PJM Interconnection, LLC\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"2.8\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"VA\",\"stateName\":\"Virginia\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"733\",\"entityName\":\"Appalachian Power Co\",\"plantid\":\"3773\",\"plantName\":\"Byllesby 2\",\"generatorid\":\""
+  },
+  {
+   "method": "GET",
+   "url": "https://api.eia.gov/v2/electricity/operating-generator-capacity/data/?frequency=monthly&data[0]=nameplate-capacity-mw&facets[stateid][]=WV&start=2026-07&end=2026-07&offset=0&length=5000&api_key=***",
+   "req": "None",
+   "status": 200,
+   "ctype": "application/json",
+   "len": 54916,
+   "body": "{\"response\":{\"total\":\"93\",\"dateFormat\":\"YYYY-MM\",\"frequency\":\"monthly\",\"data\":[{\"period\":\"2026-07\",\"stateid\":\"WV\",\"stateName\":\"West Virginia\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"733\",\"entityName\":\"Appalachian Power Co\",\"plantid\":\"3935\",\"plantName\":\"John E Amos\",\"generatorid\":\"1\",\"technology\":\"Conventional Steam Coal\",\"energy_source_code\":\"BIT\",\"energy-source-desc\":\"Bituminous Coal\",\"prime_mover_code\":\"ST\",\"balancing_authority_code\":\"PJM\",\"balancing-authority-name\":\"PJM Interconnection, LLC\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"816.3\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"WV\",\"stateName\":\"West Virginia\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"733\",\"entityName\":\"Appalachian Power Co\",\"plantid\":\"3935\",\"plantName\":\"John E Amos\",\"generatorid\":\"2\",\"technology\":\"Conventional Steam Coal\",\"energy_source_code\":\"BIT\",\"energy-source-desc\":\"Bituminous Coal\",\"prime_mover_code\":\"ST\",\"balancing_authority_code\":\"PJM\",\"balancing-authority-name\":\"PJM Interconnection, LLC\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"816.3\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"WV\",\"stateName\":\"West Virginia\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"733\",\"entityName\":\"Appalachian Power Co\",\"plantid\":\"3935\",\"plantName\":\"John E Amos\",\"generatorid\":\"3\",\"technology\":\"Conventional Steam Coal\",\"energy_source_code\":\"BIT\",\"energy-source-desc\":\"Bituminous Coal\",\"prime_mover_code\":\"ST\",\"balancing_authority_code\":\"PJM\",\"balancing-authority-name\":\"PJM Interconnection, LLC\",\"status\":\"OP\",\"statusDescription\":\"Operating\",\"nameplate-capacity-mw\":\"1300\",\"unit\":null,\"nameplate-capacity-mw-units\":\"MW\"},{\"period\":\"2026-07\",\"stateid\":\"WV\",\"stateName\":\"West Virginia\",\"sector\":\"electric-utility\",\"sectorName\":\"Electric Utility\",\"entityid\":\"12796\",\"entityName\":\"Monongahela Power Co\",\"planti"
   }
  ],
- "adapter_state": {}
+ "adapter_state": {
+  "planned": {},
+  "last_period": "2026-07"
+ }
 }

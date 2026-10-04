@@ -142,12 +142,7 @@
   }
  ],
  "notes": [],
- "sub": {
-  "congress": {
-   "status": "demo_key",
-   "note": "running on the public DEMO_KEY; a repo secret CONGRESS_API_KEY lifts the rate limit"
-  }
- },
+ "sub": {},
  "exchanges": [
   {
    "method": "GET",
@@ -160,7 +155,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.congress.gov/v3/bill?fromDateTime=2026-06-01T00:00:00Z&sort=updateDate+desc&limit=250&offset=0&format=json&api_key=DEMO_KEY",
+   "url": "https://api.congress.gov/v3/bill?fromDateTime=2026-06-01T00:00:00Z&sort=updateDate+desc&limit=250&offset=0&format=json&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -169,7 +164,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.congress.gov/v3/bill?fromDateTime=2026-06-01T00:00:00Z&sort=updateDate+desc&limit=250&offset=250&format=json&api_key=DEMO_KEY",
+   "url": "https://api.congress.gov/v3/bill?fromDateTime=2026-06-01T00:00:00Z&sort=updateDate+desc&limit=250&offset=250&format=json&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -178,7 +173,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.congress.gov/v3/bill?fromDateTime=2026-06-01T00:00:00Z&sort=updateDate+desc&limit=250&offset=500&format=json&api_key=DEMO_KEY",
+   "url": "https://api.congress.gov/v3/bill?fromDateTime=2026-06-01T00:00:00Z&sort=updateDate+desc&limit=250&offset=500&format=json&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
@@ -187,7 +182,7 @@
   },
   {
    "method": "GET",
-   "url": "https://api.congress.gov/v3/bill?fromDateTime=2026-06-01T00:00:00Z&sort=updateDate+desc&limit=250&offset=750&format=json&api_key=DEMO_KEY",
+   "url": "https://api.congress.gov/v3/bill?fromDateTime=2026-06-01T00:00:00Z&sort=updateDate+desc&limit=250&offset=750&format=json&api_key=***",
    "req": "None",
    "status": 200,
    "ctype": "application/json",
