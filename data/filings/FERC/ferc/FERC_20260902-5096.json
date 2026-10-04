@@ -32,5 +32,11 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': '26A6620F-0C48-C777-85DC-A06366800000', 'name': 'CP26-158 - WBI Energy Responses to an OEP Data Request Dated 8.19.2026 (PRIV).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "enriched_at": "2026-10-04T12:49:19Z"
 }

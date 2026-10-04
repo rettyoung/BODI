@@ -26,5 +26,5 @@
    "error": "blocked: robots.txt disallows https://images.edocket.azcc.gov/docketpdf/E000052155.pdf (SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V)"
   }
  ],
- "enriched_at": "2026-10-03T22:13:31Z"
+ "enriched_at": "2026-10-04T12:48:55Z"
 }
