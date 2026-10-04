@@ -205,7 +205,6 @@ rss:
      title_filter: "data ?cent|energy|power|grid|electric|nuclear|infrastructure|invest|campus|AWS|billion"}
   - {id: meta_news, fetch_link: true, entity: Meta, url: "https://about.fb.com/news/feed/", text_filter: "data ?cent|electric|power grid|nuclear|gas plant|gigawatt|\\bGW\\b|megawatt|utility|energy",
      title_filter: "data ?cent|energy|power|grid|electric|nuclear|infrastructure|invest|campus|Hyperion|Prometheus"}
-  - {id: meta_datacenters, fetch_link: true, entity: Meta, url: "https://datacenters.atmeta.com/feed/", text_filter: "data ?cent|electric|power|grid|nuclear|energy|megawatt|utility"}
   - {id: utilitydive,  url: "https://www.utilitydive.com/feeds/news/"}
   - {id: rtoinsider,   url: "https://www.rtoinsider.com/feed/", note: "cross-check only (~10 items)"}
   - {id: canary,       url: "https://www.canarymedia.com/feed"}
@@ -300,6 +299,11 @@ agendas:
 
 # ---- Wave 3: Supreme Court of Texas orders filter (adapter: courts_state)
 tx_court_filter: "Public Utility Commission|PUC of Texas|Electric Reliability Council|ERCOT|Oncor|CenterPoint|AEP Texas|Entergy Texas|El Paso Electric|Southwestern Public Service|Texas-New Mexico Power|Lower Colorado River|LCRA|Luminant|Vistra|Calpine|transmission line|large load|data cent"
+
+# ---- Wave 3: NYISO ICAP document library (adapter: nyiso_icap). The page builds its folders in the browser from
+# POST /o/documentlibrary/subitems; these identify the library on the ICAP page (observed 2026-10-03).
+nyiso_plid: "165389"
+nyiso_portlet: "portlet_com_liferay_client_extension_web_internal_portlet_ClientExtensionEntryPortlet_20115_LXC_nyiso_document_library_INSTANCE_uYdbAohcci0H"
 
 # ---- Wave 3: NRC ADAMS dockets (adapter: nrc_adams; needs repo secret NRC_APS_KEY)
 nrc_dockets:

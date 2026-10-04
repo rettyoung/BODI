@@ -203,32 +203,44 @@ def agendas(ctx):
 # =========================================================================== ERCOT large-load status
 LL_DOC_RX = (r"large.?load|\bLLI\b|LLIS|batch.?(zero|study)|interconnection.{0,40}(status|queue|update)|"
              r"grid.?analysis|operational.?overview")
-LL_LINE_RX = re.compile(r"(?i)(energi[sz]ed|approved|studies|study|observed|operational|queue|total|batch|ILLE|"
-                        r"submitted|planning|connected|signed|pending|\bLLIS?\b|large load|request)")
-LL_NUM_RX = re.compile(r"\b\d{1,3}(?:,\d{3})+\b|\b\d+(?:\.\d+)?\s*(?:MW|GW)\b|\b\d{3,6}\b")
+LL_LINE_RX = re.compile(r"(?i)(large load|\bLLI\b|LLIS|approval to energi[sz]e|observed|energi[sz]ed|batch (zero|study)|"
+                        r"\bILLE\b|data cent|crypto|load (request|interconnection)|standalone|co-?located)")
+LL_NUM_RX = re.compile(r"\b\d{1,3}(?:,\d{3})+\b|\b\d+(?:\.\d+)?\s*(?:MW|GW)\b")
+LL_METRICS = [   # (label, pattern): first capture group is the MW (or GW, scaled) figure
+    ("approved_to_energize_mw", r"([\d,]+(?:\.\d+)?)\s*(MW|GW)\s*(?:that\s+)?ha(?:ve|s)\s+received\s+approval\s+to\s+energi[sz]e"),
+    ("approved_to_energize_mw", r"approv(?:ed|al)\s+to\s+energi[sz]e[^\d\n]{0,40}?([\d,]+(?:\.\d+)?)\s*(MW|GW)"),
+    ("observed_peak_consumption_mw", r"observed\s+a\s+non-simultaneous[^\d]{0,80}?([\d,]+(?:\.\d+)?)\s*(MW|GW)"),
+    ("large_load_requests_mw", r"large\s+load[^\n]{0,80}?(?:requests?|interconnection)[^\d\n]{0,60}?([\d,]{5,}(?:\.\d+)?)\s*(MW|GW)"),
+    ("large_load_requests_mw", r"([\d,]{5,}(?:\.\d+)?)\s*(MW|GW)\s+of\s+large\s+load"),
+    ("operational_mw", r"(?:operational|energized)\s+large\s+loads?[^\d\n]{0,40}?([\d,]+(?:\.\d+)?)\s*(MW|GW)"),
+]
 
 
 def ercot_ll_table(item, docs):
-    """Table extraction for ERCOT large-load status material: keeps the rows that pair a status word with a
-    MW figure (PDF text layer in layout mode, or spreadsheet rows), and pulls headline totals when labelled."""
+    """Table extraction for ERCOT large-load status material: the rows that pair a large-load status term with a
+    MW figure (PDF text layer in layout mode, or spreadsheet rows), plus labelled headline figures
+    (approved to energize, observed peak consumption, total large-load requests) with the sentence they came from."""
     rows, metrics = [], {}
     for d in docs:
-        for ln in (d.get("text") or "").splitlines():
-            s = re.sub(r"[ \t]{2,}", " | ", ln.strip())
-            if len(s) < 6 or len(s) > 300:
+        text = d.get("text") or ""
+        flat = re.sub(r"\s+", " ", text)
+        for label, pat in LL_METRICS:
+            if label in metrics:
                 continue
-            if LL_LINE_RX.search(s) and LL_NUM_RX.search(s):
+            m = re.search(pat, flat, re.I)
+            if m:
+                try:
+                    v = float(m.group(1).replace(",", "")) * (1000 if m.group(2).upper() == "GW" else 1)
+                    metrics[label] = {"mw": v, "quote": flat[max(0, m.start() - 120): m.end() + 80].strip(), "doc": d.get("url")}
+                except ValueError:
+                    pass
+        for ln in text.splitlines():
+            s = re.sub(r"[ \t]{2,}", " | ", ln.strip())
+            if 6 <= len(s) <= 300 and LL_LINE_RX.search(s) and LL_NUM_RX.search(s):
                 rows.append(s)
-                m = re.match(r"(?i)\s*([A-Za-z][A-Za-z /&()\-]{3,60}?)\s*\|?\s*([\d,]+(?:\.\d+)?)\s*(MW|GW)?\b", s)
-                if m and re.search(r"(?i)energi|approv|stud|observ|total|operational|queue|request", m.group(1)):
-                    try:
-                        v = float(m.group(2).replace(",", ""))
-                        metrics.setdefault(m.group(1).strip(" |"), v * (1000 if (m.group(3) or "").upper() == "GW" else 1))
-                    except ValueError:
-                        pass
     rows = list(dict.fromkeys(rows))
-    item.setdefault("meta", {}).update(table_rows=rows[:120], table_metrics=dict(list(metrics.items())[:40]),
-                                       summary="\n".join(rows[:60]))
+    item.setdefault("meta", {}).update(table_rows=rows[:120], table_metrics=metrics,
+                                       summary="\n".join(rows[:60]), ocr=any(d.get("ocr") for d in docs))
 
 
 def ercot_large_load(ctx):
@@ -511,40 +523,59 @@ def ferc_eqr(ctx):
         ctx.record("pudl_eqr", "error", f"{qs} partition too large to read here ({total/1e6:.0f} MB)")
         return []
     import pyarrow.parquet as pq
-    # hyperscalers and data-center developers only: IPPs on the party list sell to thousands of counterparties
-    parties = [p.lower() for p in ctx.cfg.get("eqr_counterparties", [])]
-    rows = []
-    for k, _ in parts:
-        r = http.get(f"{base}/{k}", timeout=600)
-        t = pq.read_table(io.BytesIO(r.content))
-        cols = t.column_names
-        pick = lambda *c: next((x for x in c if x in cols), None)
-        cust, sell = pick("customer_company_name", "customer_name"), pick("seller_company_name", "seller_name", "company_name")
-        if not cust or not sell:
-            ctx.record("pudl_eqr", "error", f"unexpected columns {cols[:20]}")
-            return []
-        df = t.to_pylist()
-        for row in df:
-            c, s_ = str(row.get(cust) or ""), str(row.get(sell) or "")
-            hay = f"{c} | {s_}".lower()
-            if any(re.search(rf"\b{re.escape(p)}\b", hay) for p in parties if len(p) > 2):
-                rows.append(row)
+    parties = [p.lower() for p in ctx.cfg.get("eqr_counterparties", [])]   # hyperscalers and data-center developers only
+    prx = re.compile(r"\b(" + "|".join(re.escape(p) for p in parties if len(p) > 2) + r")\b", re.I)
+
+    def read(q):
+        rows, cols = [], []
+        for k, _ in quarters.get(q, []):
+            t = pq.read_table(io.BytesIO(http.get(f"{base}/{k}", timeout=600).content))
+            cols = t.column_names
+            pick = lambda *c: next((x for x in c if x in cols), None)
+            cust, sell = pick("customer_company_name", "customer_name"), pick("seller_company_name", "seller_name", "company_name")
+            if not cust or not sell:
+                raise RuntimeError(f"unexpected EQR columns {cols[:25]}")
+            for row in t.to_pylist():
+                if prx.search(f"{row.get(cust) or ''} | {row.get(sell) or ''}"):
+                    rows.append(row)
+        return rows, cols
+
+    def g(r, *ks):
+        return next((r.get(k) for k in ks if r.get(k) not in (None, "")), "")
+
+    def key(r):   # one contract = seller, customer and the contract's own id / execution date
+        return (str(g(r, "seller_company_name", "seller_name")).lower(), str(g(r, "customer_company_name", "customer_name")).lower(),
+                str(g(r, "contract_unique_id", "contract_affiliate", "contract_execution_date", "begin_date")))
+
     def fmt(r):
-        g = lambda *ks: next((r.get(k) for k in ks if r.get(k) not in (None, "")), "")
-        return (f"{g('seller_company_name', 'seller_name')} -> {g('customer_company_name', 'customer_name')} | "
-                f"{g('product_type_name', 'product_name', 'contract_service_agreement')} | {g('rate_description', 'rate')} | "
-                f"term {g('begin_date', 'contract_execution_date')} to {g('end_date', 'contract_termination_date')} | "
-                f"increment {g('increment_name')} | {g('point_of_delivery_balancing_authority', 'point_of_delivery_specific_location')}")
-    lines = list(dict.fromkeys(fmt(r) for r in rows))
+        return (f"{g(r, 'seller_company_name', 'seller_name')} -> {g(r, 'customer_company_name', 'customer_name')} | "
+                f"{g(r, 'product_name', 'product_type_name')} | {str(g(r, 'rate_description', 'rate'))[:160]} | "
+                f"executed {str(g(r, 'contract_execution_date'))[:10]} | term {str(g(r, 'begin_date', 'commencement_date_of_contract_term'))[:10]} "
+                f"to {str(g(r, 'end_date', 'contract_termination_date'))[:10]} | {g(r, 'point_of_delivery_balancing_authority', 'point_of_delivery_specific_location')}")
+    cur, cols = read(latest)
+    prev_q = max((q for q in quarters if q < latest), default=None)
+    prev, _ = read(prev_q) if prev_q else ([], [])
+    old = {key(r) for r in prev}
+    new_rows = [r for r in cur if key(r) not in old]
+    by_cust = {}
+    for r in cur:
+        c = str(g(r, "customer_company_name", "customer_name")).strip() or "?"
+        by_cust.setdefault(c, set()).add(key(r))
+    lines_new = list(dict.fromkeys(fmt(r) for r in new_rows))
     done.add(qs)
     ctx.state["quarters_done"] = sorted(done)
-    ctx.record("pudl_eqr", "ok", f"{qs}: {len(lines)} contracts with watched counterparties ({total/1e6:.0f} MB read)")
-    if not lines:
+    ctx.record("pudl_eqr", "ok", f"{qs}: {len(lines_new)} new contract lines with watched counterparties vs {prev_q}; "
+                                 f"{sum(len(v) for v in by_cust.values())} active ({total/1e6:.0f} MB read)")
+    if not lines_new:
         return []
+    active = "\n".join(f"{c}: {len(v)} contracts" for c, v in sorted(by_cust.items(), key=lambda x: -len(x[1]))[:30])
+    pq_label = f"{prev_q[0]}Q{prev_q[1]}" if prev_q else "none"
     return [{"id": f"EQR:{qs}", "jur": "FERC", "source": "ferc_eqr", "kind": "disclosure", "docket": None,
-             "title": f"FERC EQR {qs}: {len(lines)} contracts with hyperscalers, data-center developers or other watched parties",
+             "title": f"FERC EQR {qs}: {len(lines_new)} new contract lines with hyperscalers or data-center developers (vs {pq_label})",
              "filed": ctx.today, "url": "https://www.ferc.gov/power-sales-and-markets/electric-quarterly-reports-eqr", "fetch": [],
-             "meta": {"summary": "\n".join(lines[:400]), "quarter": qs, "source_data": "Catalyst Cooperative PUDL (core_ferceqr__contracts)"}}]
+             "meta": {"summary": "NEW THIS QUARTER:\n" + "\n".join(lines_new[:300]) + "\n\nACTIVE CONTRACTS BY CUSTOMER:\n" + active,
+                      "quarter": qs, "previous_quarter": pq_label,
+                      "source_data": "Catalyst Cooperative PUDL build of FERC EQR (core_ferceqr__contracts)", "columns": cols[:40]}}]
 
 
 # =========================================================================== studies (LBNL via OSTI)
