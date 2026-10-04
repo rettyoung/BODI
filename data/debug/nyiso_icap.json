@@ -1,10 +1,28 @@
 {
  "adapter": "nyiso_icap",
  "since": "2026-06-01",
- "error": "RuntimeError('NYISO document-library portlet id not found on the ICAP page')",
- "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/BODI/BODI/collector/probe_adapter.py\", line 193, in main\n    items = A.ADAPTERS[name](ctx) or []\n            ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/BODI/BODI/collector/adapters3.py\", line 352, in nyiso_icap\n    raise RuntimeError(\"NYISO document-library portlet id not found on the ICAP page\")\nRuntimeError: NYISO document-library portlet id not found on the ICAP page\n",
+ "items": 0,
+ "sample": [],
+ "fetched": [],
  "notes": [],
- "sub": {},
+ "sub": {
+  "nyiso:ICAP Auctions": {
+   "status": "ok",
+   "note": "1 folders read"
+  },
+  "nyiso:Announcements": {
+   "status": "ok",
+   "note": "1 folders read"
+  },
+  "nyiso:Monthly Reports": {
+   "status": "ok",
+   "note": "1 folders read"
+  },
+  "nyiso:Reference Documents": {
+   "status": "ok",
+   "note": "1 folders read"
+  }
+ },
  "exchanges": [
   {
    "method": "GET",
@@ -19,6 +37,42 @@
    "method": "GET",
    "url": "https://www.nyiso.com/installed-capacity-market",
    "req": "None",
+   "status": 202,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 0,
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.nyiso.com/o/documentlibrary/subitems",
+   "req": "{'plid': '165389', 'portletId': 'portlet_com_liferay_client_extension_web_internal_portlet_ClientExtensionEntryPortlet_20115_LXC_nyiso_document_library_INSTANCE_uYdbAohcci0H', 'uuid': 'e5dd9226-d299-90bb-b450-163ad506338d', 'folderLevel': 2}",
+   "status": 202,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 0,
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.nyiso.com/o/documentlibrary/subitems",
+   "req": "{'plid': '165389', 'portletId': 'portlet_com_liferay_client_extension_web_internal_portlet_ClientExtensionEntryPortlet_20115_LXC_nyiso_document_library_INSTANCE_uYdbAohcci0H', 'uuid': '3f8f5187-bdda-fc3f-e2ab-463d750e28e9', 'folderLevel': 2}",
+   "status": 202,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 0,
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.nyiso.com/o/documentlibrary/subitems",
+   "req": "{'plid': '165389', 'portletId': 'portlet_com_liferay_client_extension_web_internal_portlet_ClientExtensionEntryPortlet_20115_LXC_nyiso_document_library_INSTANCE_uYdbAohcci0H', 'uuid': 'bf4a7458-f2c7-a0e7-9fb6-548ee52a3dca', 'folderLevel': 2}",
+   "status": 202,
+   "ctype": "text/html; charset=UTF-8",
+   "len": 0,
+   "body": ""
+  },
+  {
+   "method": "POST",
+   "url": "https://www.nyiso.com/o/documentlibrary/subitems",
+   "req": "{'plid': '165389', 'portletId': 'portlet_com_liferay_client_extension_web_internal_portlet_ClientExtensionEntryPortlet_20115_LXC_nyiso_document_library_INSTANCE_uYdbAohcci0H', 'uuid': '07e17f2c-1449-05a9-bd9f-31ed7a290c3f', 'folderLevel': 2}",
    "status": 202,
    "ctype": "text/html; charset=UTF-8",
    "len": 0,
