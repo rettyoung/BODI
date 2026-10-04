@@ -1,7 +1,7 @@
 {
  "schema": "grid-docket-rows-manifest-v1",
  "mirror_of": "OneDrive /GridDocket/rows.json",
- "note": "Repo mirror of the immutable row-store parts in OneDrive /GridDocket/. rows_p1-p4 (the 2026-09-18 baseline) were reconstructed on 2026-10-02 from Grid_Docket_Tracker_MASTER.xlsx plus the final console data, and verified against the OneDrive parts (row order, part boundaries, 11 field spot-checks). Later parts are written by the Sweep to OneDrive and here in the same run, byte-identical. OneDrive is the system of record; each run checks this mirror against the OneDrive manifest.",
+ "note": "Frozen copy of the 2026-09-18 baseline (rows_p1-p4), kept for tests and CI. NOT a mirror: OneDrive /GridDocket/ is the system of record and holds later parts (rows_p5 onward); scheduled runs download the live store into store_live/. rows_p1-p4 were reconstructed on 2026-10-02 from Grid_Docket_Tracker_MASTER.xlsx plus the final console data and verified against the OneDrive parts.",
  "parts": [
   {
    "file": "rows_p1.json",
