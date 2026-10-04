@@ -124,7 +124,7 @@ in repo secrets, which stay private on a public repo.
 | `data/` | Collector output: `candidates/<date>.jsonl`, `filings/<jur>/<source>/<id>.json` (full text), `health/`, `state/`, `backfill/`, `debug/`, `tests/` |
 | `store/` | Frozen copy of the 2026-09-18 baseline (`rows_p1..p4`) for tests and CI. Not a mirror: scheduled runs download the live store from OneDrive into `store_live/` |
 | `tracker/` | `vocab.py`, `rowstore.py` (load, overlays, validation CLI), `build_tracker.py` (canonical Excel), `build_console.py` (console package), `narrative.py` (PDF/DOCX) |
-| `console/` | `index.html` (console page), `tracker_xlsx.js` (in-browser Excel builder) |
+| `console/` | `index.html` (console page), `tracker_xlsx.js` (in-browser Excel builder), `annotations.json` (hand-maintained coverage marks, matter labels, party groups, per-state coverage notes, console URL) |
 | `prompts/` | `sweep.md`, `brief.md` (**the live instructions** — the scheduled tasks read these at run time), `trigger_sweep.txt`, `trigger_brief.txt` (the bootstrap prompts loaded into the tasks), `corrections_queue.md` |
 | `manual/SKILL.md` | Copy of the manual-pass skill |
 | `deliverables/` | Weekly Excel master and narrative when built from a session that can push (scheduled runs cannot) |
@@ -133,11 +133,26 @@ in repo secrets, which stay private on a public repo.
 
 ### Console
 
-Published artifact **https://claude.ai/artifact/JJ8FYdvfZ2WPg6r4UpFXbW** — **version 7** (3 Oct 2026). Private to
-Rett until shared. Declares the `downloads` capability so a reader can save the Excel tracker (built in the
-page), the narrative PDF and the narrative markdown. Supporting files: `data.json` (events + full 26-column
-table), `metrics.json`, `tariff_terms.json`, `status.json`, `narrative.md`, narrative PDF. Republished to the
-same URL by each Brief; `icon` and `capabilities` carry forward and are never re-passed.
+Published artifact **https://claude.ai/artifact/JJ8FYdvfZ2WPg6r4UpFXbW** — **version 8** (4 Oct 2026; repo commit
+fbcce31). Private to Rett until shared. Declares the `downloads` capability so a reader can save the Excel tracker
+(built in the page), the narrative PDF and the narrative markdown. Supporting files: `data.json` (events + full
+26-column table + the store's change history, coverage, annotations and party list), `metrics.json`,
+`tariff_terms.json`, `status.json`, `narrative.md`, narrative PDF. Republished to the same URL by each Brief; `icon`
+and `capabilities` carry forward and are never re-passed.
+
+Sections (v8): 01 Status · 02 **What changed** (new events, overlays before → after with reason, supersessions and
+moved milestones since the previous brief or any earlier run, replayed from the parts by `build_console.py`) · 03 This
+week (narrative) · 04 Decision calendar · 05 **Matters** (per-docket chronologies read from the Document column; labels
+in `annotations.json`) · 06 **Load-scenario tariff tester** (MW, load factor, state, optional $/kW-month assumption →
+applies?, minimum billed MW, MW-years, collateral estimate, notice, deviation from the median; the full terms matrix
+beneath) · 07 Conversion (levels, **quarter-over-quarter deltas**, Dominion ladder and **CLOA → ESA ratio**) · 08
+**Activity over time** (weekly, by subject or state, by event or discovery date, with numbered coverage marks) · 09
+Where the pressure is · 10 **Parties** (watched parties found in row text — a mention is not necessarily a filing) ·
+11 **Coverage** (tile map: route, days since last successful read, explicit negatives, open gaps, "quiet or blind
+spot" verdict; nightly collector strip) · 12 Console (adds a period filter and **Copy link to this view** — filter
+state in a plain `#v1.<base64url>` anchor, the only form an artifact link passes to the page). Every view degrades
+gracefully on the repo-less path. When a source family starts, stops or is backfilled, add a dated line to
+`annotations.json` → `coverage_marks` (needs a session that can push).
 
 The four v1 artifacts (Grid Docket Protocol, Docket Watch Live, Docket Facet Schema, Grid Docket Watch) were deleted on 3 Oct 2026.
 
@@ -250,7 +265,8 @@ manual + web only) if the clone fails.
 Setup (clone; download store) → preconditions (>3 days stale = short `[No sweep]` notice only; zero new events
 and green = three-line "nothing moved") → STATUS CHECK (GREEN/AMBER/RED) → **30-day milestones, never omitted**
 (URGENT inside 7 days; past-dated without outcome = "outcome needed") → synthesis by Subject → `narrative.md`
-(700–1,200 words) → build into `out/deliverables/` → publish console → email → `/GridDocket/briefs/<date>.json`;
+(700–1,200 words) → build into `out/deliverables/` (with `--state store_live/state.json --manual-dir store_live/manual`,
+before `last_brief_date` changes) → publish console → email → `/GridDocket/briefs/<date>.json`;
 update only `state.last_brief_date`. **REPO-LESS PATH** if the clone fails: build from OneDrive alone.
 
 **Email:** subject `Grid Docket — <D Mon> · <N> high-impact · <three shortest descriptors>` (prefix `[Status] ` when
@@ -844,7 +860,8 @@ data tables; (9) direct state bill trackers.
 **Next session should first:** read the 5 Oct Sweep run record (`/GridDocket/runs/`) and Brief record
 (`/GridDocket/briefs/`); confirm the Sweep ran FULL (not degraded) and read the 2–3 Oct candidates; apply any
 repair proposals; check `data/health/latest.json` → `backfill_text` progress; confirm all three scheduled tasks
-are enabled.
+are enabled; open the console and confirm the Brief republished v8 (sections 01–12, "What changed" showing the
+5 Oct run, Coverage filled from the full state.json); add a `coverage_marks` line for the first full Sweep.
 
 ---
 
@@ -913,3 +930,4 @@ are enabled.
 | 2026-10-04 (eve) | PJM interconnection queue added with no key: serial/expedited `PlanningQueues.xml` and the cycle-queue XML export (adapter `queues` now reads XML and page export forms); verified from the runners (228 + 664 active tracked-state projects, baseline). PJM API key no longer needed for queue data |
 | 2026-10-04 (eve) | Keys live: Open States, EIA, CourtListener, congress.gov, Regulations.gov, NRC ADAMS (ERCOT awaits its password). Open States and CourtListener paced to their per-minute limits; Open States filtered by bill title; NRC per-docket cap 200 |
 | 2026-10-04 (eve) | ERCOT password added; ERCOT Public API sign-in verified; the adapter pages the full 120-product catalogue (no large-load product published yet) |
+| 2026-10-04 (eve) | Console v8 (commit fbcce31): What changed, Matters, load-scenario tariff tester, conversion deltas and CLOA → ESA ratio, activity over time with coverage marks, Parties, Coverage map, period filter and shareable view links. `build_console.py` emits parts/changes/since/coverage/annotations/parties (`--state`, `--manual-dir`, `--since`); `brief.md` downloads state.json and the manual manifests; parity CI installs pyyaml. Published as artifact version 8 |
