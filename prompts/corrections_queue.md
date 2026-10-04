@@ -77,12 +77,18 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   2026-10-03); "MIRROR_PENDING" (the repo store/ folder is a frozen baseline copy, not a mirror — scheduled runs
   cannot push); "FLAG RECOUNT NEEDED" (done above).
 - state.ACCESS_METHOD_FINDINGS — replace stale entries: "GitHub repo rettyoung/BODI" → "WORKING since 2026-10-03:
-  the repo is public; scheduled runs `git clone --depth 1` it read-only (no push)". "Arizona ACC" → "WORKING in
-  the collector (eDocket API + PDFs from images.edocket.azcc.gov, AIA chain completion). docket.images.azcc.gov is
-  robots-disallowed: never use it." "PUCT Interchange" → "WORKING in the collector; only WebFetch gets HTTP 402."
+  the repo is public; scheduled runs `git clone --depth 1` it read-only (no push)". "Arizona ACC" → "Listings WORKING in
+  the collector (eDocket API). Documents NOT reachable from the cloud since 2026-10-03: images.edocket.azcc.gov
+  presents a certificate for another hostname and docket.images.azcc.gov is robots-disallowed — documents go to the
+  manual pass (sweep.md 6.2)." "PUCT Interchange" → "WORKING in the collector; only WebFetch gets HTTP 402."
   "Oklahoma OCC" → "WORKING in the collector (Laserfiche search; 8 newest hits per watched cause kept unconfirmed;
-  confirm from the PDF text)". Add "ERCOT": "notice archive in the collector and WebFetch; large-load, planning and
-  board pages by WebFetch only (sweep.md 6.4/6.6)".
+  confirm from the PDF text)". Add "ERCOT": "notice archive in the collector and WebFetch; since 2026-10-03 the large-load page and the
+  LLWG/TAC/ROS/Board meeting pages open to the collector too (adapter ercot_large_load, status tables extracted);
+  planning page by WebFetch (sweep.md 6.4)". "New Mexico PRC" → "WORKING in the collector since 2026-10-03:
+  casepublicdocument/getAll with searchTerm beside caseId; downloads via the portal's anonymous downloadToken →
+  previewDocument; history backfilled from 2025-11-07 into data/backfill/". Add "NYISO ICAP library": "refused —
+  empty HTTP 202 bot-management challenge to automated clients; manual pass reads it monthly". Add "Texas courts of
+  appeals (search.txcourts.gov)": "robots-disallowed; CourtListener only".
 - seen_index.json entries E-126..E-161 are out of date order — harmless; leave them.
 
 ## C-06 — Texas text quality

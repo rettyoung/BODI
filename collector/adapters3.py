@@ -361,8 +361,12 @@ def nyiso_icap(ctx):
     r0 = http.get(page)
     if r0.status_code == 202 and not r0.content.strip():
         # NYISO's bot management answers non-browser clients with an empty HTTP 202. That is a refusal: it is
-        # recorded, never worked around (no headless browser is used to pass it).
-        raise Blocked("NYISO answers automated clients with an empty HTTP 202 (bot-management challenge)")
+        # recorded, never worked around (no headless browser is used to pass it). It is a KNOWN refusal, covered
+        # by the manual pass, so it is reported as a sub-source status rather than a nightly failure (which would
+        # open the circuit breaker and turn the Brief red every week). If NYISO admits the collector, this
+        # adapter starts returning documents with no change.
+        ctx.record("nyiso:library", "refused_known", "empty HTTP 202 (bot-management challenge); covered by the manual pass")
+        return []
     html = r0.text
     pm = re.search(r"(portlet_com_liferay_client_extension_web_internal_portlet_ClientExtensionEntryPortlet_\w+?_LXC_nyiso_document_library_INSTANCE_[A-Za-z0-9]+)", html)
     plid = (re.search(r'getPlid\s*\(\)\s*\{\s*return\s*"?(\d+)', html) or re.search(r'"plid"\s*:\s*"?(\d+)', html))

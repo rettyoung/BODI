@@ -51,7 +51,7 @@ court lists), because the general keyword list is too loose there.
 | SPP | Newsroom; resource-adequacy page; active queue CSV (monthly); FERC (EL26-68) | C | Full text / data | |
 | ERCOT | Market-notice archive; news releases; PUCT dockets (NPRR/PGRR approvals); **large-load interconnection status — *new 3 Oct*** | C, S | Full text | **Large-load status:** the `ercot_large_load` adapter reads the LLWG, TAC, ROS and Board meeting pages and the large-load integration page (all open to the runners as of 3 Oct), fetches matching `/files/docs/` materials and the Board's Monthly Operational Overview, and extracts the status rows and headline figures (MW approved to energize, observed peak consumption of those loads, large-load requests) with the sentence each came from. ERCOT's MIS data-product servlets are disallowed by its robots.txt and are not called; the ERCOT Public API route is built and switches on with its secrets (§1j). The Sweep's web reader remains the cross-check (planning page, notices). |
 | CAISO | News releases (rendered); FERC (EL26-71) | C | Full text | |
-| NYISO | Press releases; FERC (EL26-69); **ICAP document library — *see §2*** | C, M | Full text | The ICAP page's documents load from NYISO's document-library API, which answers automated clients with an empty HTTP 202 (bot-management challenge). The `nyiso_icap` adapter records that refusal and stops; ICAP auction summaries and demand-curve documents come from the manual pass (monthly extra page) and NYISO's FERC filings. |
+| NYISO | Press releases; FERC (EL26-69); **ICAP document library — *see §2*** | C, M | Full text | The ICAP page's documents load from NYISO's document-library API, which answers automated clients with an empty HTTP 202 (bot-management challenge). The `nyiso_icap` adapter records that refusal as `refused_known` (not a nightly failure) and stops; ICAP auction summaries and demand-curve documents come from the manual pass (monthly extra page) and NYISO's FERC filings. |
 | ISO-NE | Press releases; FCM page; FERC (EL26-72) | C | Full text | |
 | Western Power Pool / WRAP | News | C | Full text | |
 
@@ -72,7 +72,7 @@ court lists), because the general keyword list is too loose there.
 | VA | SCC docket search (Breeze API) | M + S fallback | Full text (M) | robots.txt admits named search engines only. Cloud fallback: utility/intervenor copies, FERC/SEC attachments, search. |
 | NC | NCUC (`starw1`) | M + S fallback | Full text (M) | Cloudflare challenge. Fallback: NCUC main-site PDFs (C, mirror), NCUC subscription mail (S), `site:starw1.ncuc.gov` GUID search (S). |
 | SC | PSC DMS | M + S fallback | Full text (M) | `Disallow: /`. Fallback: PSC latest-publications and ORS electric pages (C, mirror). |
-| IL | ICC e-Docket | M + S fallback | Full text (M) | `Disallow: /` + CAPTCHA. The CUB mirror also returns 403; ComEd/Exelon EDGAR and IPA pages are the cloud fallback. |
+| IL | ICC e-Docket | M + S fallback | Full text (M) | `Disallow: /` + CAPTCHA. The CUB mirror returns 403 and was dropped; ComEd/Exelon EDGAR and IPA pages are the cloud fallback. |
 | OH | PUCO DIS | M + S fallback | Full text (M) | Firewall rejects automated clients. Fallback: Ohio Consumers' Counsel filings (C, mirror). |
 | WV | PSC WebDocket | M + S fallback | Full text (M) | 403 to automated clients. WebDocket's own text layer (ViewText) is the best source when reached by M. |
 | NV | PUCN (`puc.nv.gov`, `pucweb1`) | M + S fallback | Metadata (no text layer on any document) | robots.txt disallows all bots. |
@@ -179,7 +179,7 @@ these is bypassed; the alternative is listed.
 | PJM Inside Lines | CAPTCHA on the RSS | FERC dockets; RTO Insider mail; PJM newsroom (S) |
 | IR pages: Southern, Evergy, Exelon, OGE, Oncor, BHE | Incapsula, robots.txt, CAPTCHA | EDGAR exhibits; deck PDFs on the permitted CDN (S) |
 | Arizona governor | 403 to collector and web reader | Manual pass extra page; mail; ACC dockets |
-| IL Citizens Utility Board (mirror) | 403 | Manual pass for ICC |
+| IL Citizens Utility Board (mirror) | 403 (removed from the watchlist 4 Oct) | Manual pass for ICC |
 | Fairfax County Planning Commission | Publishes monthly calendars only, no per-meeting agendas | Its data-center cases reach the Board of Supervisors' land-use agenda, which is read |
 
 ---
