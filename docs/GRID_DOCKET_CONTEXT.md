@@ -742,6 +742,31 @@ minimum take, 10–15 year terms, exit fees, collateral, cost-shift bars; West V
   whole-word after "AWS" matched "Dawson's"; EIA's public DEMO_KEY is rate-limited on shared runners (congress.gov
   works) — an `EIA_API_KEY` secret would avoid it.
 
+**3–4 October, evening — wave 3 sources (verified from the runners):**
+- Probed ~80 candidate URLs from GitHub Actions (`probe_adapter.py urls:<list>`, results in `data/debug/`), then built
+  `collector/adapters3.py` and tested every adapter from the runners before a full collector run (run
+  2026-10-04-0022: 48 new items, 62 documents, all new sources `ok` except NYISO ICAP, recorded as refused).
+- **New Mexico documents repaired.** The e360 page's own requests were read in the built-in browser on Rett's
+  computer: the list call needs `searchTerm` beside `caseId`, and documents download through an anonymous
+  per-document ticket. From the runners: 84 + 81 + 2 documents in the window on 25-00079-UT, 25-00082-UT and
+  26-0000062, text layers extracted. A docket-history backfill for NM (since 2025-11-07, up to 450 documents) was
+  dispatched on 4 Oct; its items land in `data/backfill/` for the Sweep's C-07 queue.
+- **ERCOT large-load status:** the large-load page and the LLWG/TAC/ROS/Board meeting pages now open to the runners;
+  approved-to-energize and observed-peak figures extracted from the April–August 2026 Monthly Operational Overviews
+  (e.g. 9,456 MW approved to energize, observed peak 4,316 MW, August 2026). ERCOT's MIS servlets are
+  robots-disallowed and were not called.
+- Working: Supreme Court of Texas orders, PA Commonwealth Court RSS, WV Supreme Court page, CourtListener state-court
+  query, 7 local agenda lists (Atlanta's data-center incentive resolution and Storey County's data-center
+  correspondence surfaced on the first run), Washoe County Legistar, NRC news RSS, FERC eCollection feed (Form 1 /
+  3-Q / 714), FERC EQR via PUDL (10 new hyperscaler contract lines in 2026 Q2 vs Q1), LBNL via OSTI, Grid
+  Strategies and four hyperscaler newsrooms.
+- Refused and recorded (never worked around): `search.txcourts.gov` (robots), NYISO document library (empty
+  HTTP 202 challenge), `emp.lbl.gov` / `eta.lbl.gov` (403), Oracle newsroom (403), Loudoun `lfportal` (robots
+  unreadable) and `loudoun.granicus.com` (robots), Reno PrimeGov (robots), Storey's CivicPlus host (robots — the
+  county's own AgendaCenter is used), ERCOT `/misapp/` (robots).
+- Fixed along the way: `COURTLISTENER_TOKEN` was never passed to the collector job; robots.txt Crawl-delay is now
+  honoured; Fairfax pages carry a "Data Centers" menu item, so their filter requires a land-use action nearby.
+
 **Not yet verified end to end:** a scheduled Sweep reading collector data through the public clone — first test
 **Monday 5 Oct, 03:54 PT**.
 
@@ -865,3 +890,4 @@ are enabled.
 | 2026-10-03 (pm) | Full review: collector cursor fix, nightly backfill enrichment, manual pass catch-up and new-case discovery, Friday reminder task, DEMO_KEY for EIA/congress.gov, cleanup of obsolete files, docs and artifacts |
 | 2026-10-03 | Colorado and Oregon ruled out of scope for now. Off-schedule verification runs (degraded Sweep → `rows_p5`; Brief → console v7 + email); repo made public; prompts clone read-only; compact task bootstraps; second-wave sources; ERCOT archive; WebFetch fallback pages; backfill re-dispatched; this document rewritten |
 | 2026-10-03 (eve) | Schedules changed by Rett: Sweep Mon 03:54 PT, Brief Mon 08:54 PT, manual-pass reminder Fri 09:04 PT (all `CRON_TZ=America/Los_Angeles`); §3, §4, §12, §16, §18 and `SOURCES.md` updated to match |
+| 2026-10-04 | Wave 3 sources: Supreme Court of Texas, PA Commonwealth Court RSS, WV Supreme Court, CourtListener state courts; local agendas (Fairfax, Henrico, Atlanta, Tulsa ×3, Storey, Washoe); ERCOT large-load status with table extraction; NYISO ICAP (refused → manual pass); NRC news RSS and ADAMS (key); FERC Form 1/3-Q/714 feed and EQR (PUDL); LBNL via OSTI, Grid Strategies; hyperscaler newsrooms. NM documents repaired. `SOURCES.md` rewritten; §8–§12, §16–§18 updated |
