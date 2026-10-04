@@ -17,6 +17,8 @@ on:
     paths:
       - 'collector/run.py'
       - 'collector/adapters.py'
+      - 'collector/adapters2.py'
+      - 'collector/adapters3.py'
       - 'config/watchlist.yaml'
 permissions:
   contents: write
