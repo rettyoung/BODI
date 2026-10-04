@@ -1,6 +1,6 @@
 ---
 name: grid-docket-manual-pass
-description: Run the Grid Docket manual pass on this computer: read new filings and new cases from the commissions that block automation (VA, NC, SC, IL, OH, WV, NV), plus Arizona and New Mexico documents and the Arizona governor page the cloud cannot open, catching up from the last run, and drop them in OneDrive for the Monday Sweep.
+description: Run the Grid Docket manual pass on this computer: read new filings and new cases from the commissions that block automation (VA, NC, SC, IL, OH, WV, NV), plus Arizona documents, the Arizona governor page and the NYISO ICAP page the cloud cannot open, catching up from the last run, and drop them in OneDrive for the Monday Sweep.
 ---
 
 # Grid Docket — manual pass
@@ -53,7 +53,8 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    - Skip queue requests the cloud can already read (PUCT documents, Pennsylvania, Oklahoma). Arizona documents
      are queued because the cloud cannot open the ACC's PDF host: open the request's item-detail page on
      `edocket.azcc.gov` and use the document link that page itself presents.
-   - If the queue has no NM entry or no `extra_pages`, add the **always-on items** at the end of this file.
+   - If the queue has no `extra_pages`, add the **always-on items** at the end of this file. Read New Mexico
+     documents only when the queue has an NM entry (the cloud collects them again since 3 Oct 2026).
    - Read `state.json` → `ACCESS_METHOD_FINDINGS` for each portal's working method (including any
      `new_case_route` an earlier run recorded).
 2. **Open the browser.** Use the built-in browser pane (read its skill first). If it is unavailable, use
@@ -162,8 +163,7 @@ Vantage, STACK, Aligned, Constellation, Vistra, NRG, Talen.
 
 ## Always-on items (add them whenever the queue omits them)
 
-- NM (documents only — the cloud lists the cases but its document list returns nothing): 25-00079-UT,
-  25-00082-UT, 26-0000062 on `e360.prc.nm.gov`, plus any new NM case the queue names. While there, note the
-  request the page makes to list a case's documents (URL and body) in the NM state file's `new_case_route` so
-  the collector can be repaired.
-- Extra pages: the Arizona governor's newsroom (azgovernor.gov — news since the since-date).
+- Extra pages: the Arizona governor's newsroom (azgovernor.gov — news since the since-date), and on the first
+  pass of each month the NYISO ICAP page (https://www.nyiso.com/installed-capacity-market — open "ICAP Auctions"
+  for the current year and "Announcements"; record documents published since the since-date with their links;
+  NYISO refuses the cloud collector with a bot-management challenge).

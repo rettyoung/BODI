@@ -194,16 +194,16 @@ rss:
      title_filter: "load growth|load forecast|data cent|large load|demand|interconnection|transmission|resource adequacy|capacity"}
   # Hyperscaler newsrooms: energy / siting announcements only (Oracle's newsroom refuses automated clients
   # with HTTP 403 and is not read; Oracle arrives through EDGAR 8-Ks and party watch).
-  - {id: msft_issues, fetch_link: true, entity: Microsoft, url: "https://blogs.microsoft.com/on-the-issues/feed/", text_filter: "data ?cent|datacenter|electric|power (grid|purchase|plant)|grid|nuclear|gigawatt|\\bGW\\b|megawatt|\\bMW\\b|utility|ratepayer|community[- ]first|energy",
+  - {id: msft_issues, fetch_link: true, entity: Microsoft, url: "https://blogs.microsoft.com/on-the-issues/feed/", text_filter: "\\b\\d[\\d,.]*\\s*(GW|MW|gigawatts?|megawatts?)\\b|power purchase agreement|\\bPPAs?\\b|nuclear|small modular|geothermal|electric(ity)? (utility|grid|rates?|supply|demand)|utility (company|commission|partner|bills?|rates?)|grid (connection|capacity|interconnection|upgrades?)|transmission (lines?|upgrades?)|substation|ratepayers?|pay (our|its|their) (own|full) (way|share)|(new|build|building|announc\\w*|invest\\w*)[^.]{0,80}(data ?cent(er|re)s?|datacenters?) (campus|site|project|region)",
      title_filter: "data ?cent|datacenter|energy|power|grid|electric|nuclear|community|infrastructure|invest|campus|AI infrastructure|water|carbon"}
-  - {id: msft_source, fetch_link: true, entity: Microsoft, url: "https://news.microsoft.com/source/feed/", text_filter: "data ?cent|datacenter|electric|power grid|nuclear|gigawatt|\\bGW\\b|megawatt|utility|energy",
+  - {id: msft_source, fetch_link: true, entity: Microsoft, url: "https://news.microsoft.com/source/feed/", text_filter: "\\b\\d[\\d,.]*\\s*(GW|MW|gigawatts?|megawatts?)\\b|power purchase agreement|\\bPPAs?\\b|nuclear|small modular|geothermal|electric(ity)? (utility|grid|rates?|supply|demand)|utility (company|commission|partner|bills?|rates?)|grid (connection|capacity|interconnection|upgrades?)|transmission (lines?|upgrades?)|substation|ratepayers?|pay (our|its|their) (own|full) (way|share)|(new|build|building|announc\\w*|invest\\w*)[^.]{0,80}(data ?cent(er|re)s?|datacenters?) (campus|site|project|region)",
      title_filter: "data ?cent|datacenter|energy|power|grid|electric|nuclear|infrastructure|invest|campus"}
-  - {id: google_blog, fetch_link: true, entity: Google, url: "https://blog.google/rss/", text_filter: "data ?cent|electric|power grid|nuclear|geothermal|gigawatt|\\bGW\\b|megawatt|utility|energy",
+  - {id: google_blog, fetch_link: true, entity: Google, url: "https://blog.google/rss/", text_filter: "\\b\\d[\\d,.]*\\s*(GW|MW|gigawatts?|megawatts?)\\b|power purchase agreement|\\bPPAs?\\b|nuclear|small modular|geothermal|electric(ity)? (utility|grid|rates?|supply|demand)|utility (company|commission|partner|bills?|rates?)|grid (connection|capacity|interconnection|upgrades?)|transmission (lines?|upgrades?)|substation|ratepayers?|pay (our|its|their) (own|full) (way|share)|(new|build|building|announc\\w*|invest\\w*)[^.]{0,80}(data ?cent(er|re)s?|datacenters?) (campus|site|project|region)",
      title_filter: "data ?cent|energy|power|grid|electric|nuclear|geothermal|infrastructure|invest|campus|carbon-free"}
-  - {id: google_sustain, fetch_link: true, entity: Google, url: "https://blog.google/outreach-initiatives/sustainability/rss/", text_filter: "data ?cent|electric|power|grid|nuclear|geothermal|gigawatt|\\bGW\\b|megawatt|utility|PPA"}
-  - {id: amazon_news, fetch_link: true, entity: Amazon, url: "https://www.aboutamazon.com/news/rss", text_filter: "data ?cent|electric|power grid|nuclear|SMR|gigawatt|\\bGW\\b|megawatt|utility|energy",
+  - {id: google_sustain, fetch_link: true, entity: Google, url: "https://blog.google/outreach-initiatives/sustainability/rss/", text_filter: "\\b\\d[\\d,.]*\\s*(GW|MW|gigawatts?|megawatts?)\\b|power purchase agreement|\\bPPAs?\\b|nuclear|small modular|geothermal|electric(ity)? (utility|grid|rates?|supply|demand)|utility (company|commission|partner|bills?|rates?)|grid (connection|capacity|interconnection|upgrades?)|transmission (lines?|upgrades?)|substation|ratepayers?|pay (our|its|their) (own|full) (way|share)|(new|build|building|announc\\w*|invest\\w*)[^.]{0,80}(data ?cent(er|re)s?|datacenters?) (campus|site|project|region)"}
+  - {id: amazon_news, fetch_link: true, entity: Amazon, url: "https://www.aboutamazon.com/news/rss", text_filter: "\\b\\d[\\d,.]*\\s*(GW|MW|gigawatts?|megawatts?)\\b|power purchase agreement|\\bPPAs?\\b|nuclear|small modular|geothermal|electric(ity)? (utility|grid|rates?|supply|demand)|utility (company|commission|partner|bills?|rates?)|grid (connection|capacity|interconnection|upgrades?)|transmission (lines?|upgrades?)|substation|ratepayers?|pay (our|its|their) (own|full) (way|share)|(new|build|building|announc\\w*|invest\\w*)[^.]{0,80}(data ?cent(er|re)s?|datacenters?) (campus|site|project|region)",
      title_filter: "data ?cent|energy|power|grid|electric|nuclear|infrastructure|invest|campus|AWS|billion"}
-  - {id: meta_news, fetch_link: true, entity: Meta, url: "https://about.fb.com/news/feed/", text_filter: "data ?cent|electric|power grid|nuclear|gas plant|gigawatt|\\bGW\\b|megawatt|utility|energy",
+  - {id: meta_news, fetch_link: true, entity: Meta, url: "https://about.fb.com/news/feed/", text_filter: "\\b\\d[\\d,.]*\\s*(GW|MW|gigawatts?|megawatts?)\\b|power purchase agreement|\\bPPAs?\\b|nuclear|small modular|geothermal|electric(ity)? (utility|grid|rates?|supply|demand)|utility (company|commission|partner|bills?|rates?)|grid (connection|capacity|interconnection|upgrades?)|transmission (lines?|upgrades?)|substation|ratepayers?|pay (our|its|their) (own|full) (way|share)|(new|build|building|announc\\w*|invest\\w*)[^.]{0,80}(data ?cent(er|re)s?|datacenters?) (campus|site|project|region)",
      title_filter: "data ?cent|energy|power|grid|electric|nuclear|infrastructure|invest|campus|Hyperion|Prometheus"}
   - {id: utilitydive,  url: "https://www.utilitydive.com/feeds/news/"}
   - {id: rtoinsider,   url: "https://www.rtoinsider.com/feed/", note: "cross-check only (~10 items)"}
@@ -295,7 +295,9 @@ agendas:
   - {id: tulsa_tmapc, name: "Tulsa Metropolitan Area Planning Commission, OK", jur: OK, url: "https://tulsaplanning.org/boards/pc/agenda/", link: "tulsaplanning\\.org/agendas/"}
   - {id: tulsa_boa, name: "Tulsa Board of Adjustment, OK", jur: OK, url: "https://tulsaplanning.org/boards/boa/agenda/", link: "tulsaplanning\\.org/agendas/"}
   - {id: henrico, name: "Henrico County, VA", jur: VA, url: "https://henrico.gov/supervisors/supervisors-agenda-o-gram/", link: "/pdfs/manager/meetings\\d{4}/\\d{5,6}ag\\.pdf"}
+  # Fairfax meeting pages carry a site menu that says "Data Centers", so the match must sit next to a land-use action.
   - {id: fairfax_bos, name: "Fairfax County Board of Supervisors, VA", jur: VA, url: "https://www.fairfaxcounty.gov/boardofsupervisors/2026-board-meetings",
+     text_filter: "(rezoning|special exception|zoning ordinance amendment|\\bZOA\\b|public hearing|proffer|plan amendment|moratorium)[^.]{0,250}data ?cent|data ?cent[^.]{0,250}(rezoning|special exception|zoning ordinance|\\bZOA\\b|public hearing|proffer|plan amendment|moratorium)",
      link: "/boardofsupervisors/([a-z]{3,9}-\\d{1,2}-\\d{4}-meeting|board-supervisors-(land-use-policy|environmental)-committee-meeting-[a-z]+-\\d{1,2}-\\d{4})$"}
 
 # ---- Wave 3: Supreme Court of Texas orders filter (adapter: courts_state)
@@ -336,6 +338,6 @@ eqr_counterparties: [Microsoft, Google, Alphabet, Amazon, AWS, "Amazon Data Serv
 
 # ---- Wave 3: LBNL and DOE-lab studies via OSTI (adapter: studies). emp.lbl.gov refuses the runners (HTTP 403).
 osti_queries:
-  - {org: LBNL, q: '"interconnection queue" OR "queued up"'}
-  - {org: LBNL, q: '"data center" AND (electricity OR energy)'}
-  - {org: LBNL, q: '"load growth" OR "large loads" OR "electricity demand"'}
+  - {org: LBNL, q: '"interconnection queue" OR "queued up"', title_filter: "queue|interconnection"}
+  - {org: LBNL, q: '"data center" AND (electricity OR energy)', title_filter: "data cent|datacent"}
+  - {org: LBNL, q: '"load growth" OR "large loads" OR "electricity demand"', title_filter: "load growth|large loads?|electricity (demand|use|consumption)|load forecast|data cent"}

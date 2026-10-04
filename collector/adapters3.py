@@ -605,6 +605,8 @@ def studies(ctx):
             ctx.record(f"osti:{q['q'][:30]}", "blocked" if isinstance(e, Blocked) else "error", repr(e)[:200])
             continue
         for r in recs if isinstance(recs, list) else []:
+            if q.get("title_filter") and not re.search(q["title_filter"], r.get("title") or "", re.I):
+                continue   # OSTI full-text search is broad: the title must be on the beat
             links = {l.get("rel"): l.get("href") for l in r.get("links", [])}
             full = links.get("fulltext") or links.get("citation")
             items.append({"id": f"OSTI:{r.get('osti_id')}", "jur": "US-Federal", "source": "studies", "kind": "report",
@@ -614,7 +616,7 @@ def studies(ctx):
                           "fetch": [{"url": full}] if full else [],
                           "meta": {"authors": (r.get("authors") or [])[:6], "query": q["q"], "doi": r.get("doi")}})
         ctx.record(f"osti:{q['q'][:30]}", "ok", f"{len(recs) if isinstance(recs, list) else 0} records")
-    return items
+    return list({it["id"]: it for it in items}.values())
 
 
 POSTPROCESS = {"ercot_ll_table": ercot_ll_table}
