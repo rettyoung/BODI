@@ -21,5 +21,31 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_65_1679004.ZIP",
+   "name": null,
+   "bytes": 11301,
+   "sha256": "43dbf36d02fe0e2c79085b59e73dbb02665681501ea25fddd2819fd2c52a1515",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== The 90th Data Center Comments.docx ===\nThe 90th should pass legislation to secure the critical infrastructure of data centers from AI cyber-attacks similar to the Lone Star Infrastructure Protection Act (LSIPA) and its amendments the last two sessions to secure the critical electric grid equipment from adversary nations. \nImprovements in supply-chain management are needed in both cases to verify attestation claims. \nCybersecurity experts assigned to the commission’s independent organization should advise as to a list of components on critical equipment such as servers, storage devices, networking equipment, power/cooling infrastructure, and security systems. Chain of custody documentation from origin of each component traceable to the end user compiled into a verifiable record for systematic auditing should be mandated and enforced. \nIn my opinion, rushing to build data centers across this great state to compete with China on the AI front is playing into their hands without taking cautionary steps prohibiting any adversary nation components imbedded into critical data center equipment having an external connection. \nThanks for this opportunity to comment on-line and God Bless Texas."
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_65_1679005.PDF",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "empty",
+   "ocr": false,
+   "pages": 0,
+   "truncated": false,
+   "text": ""
+  }
+ ],
+ "enriched_at": "2026-10-05T07:42:08Z"
 }

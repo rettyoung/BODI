@@ -18,8 +18,40 @@
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
  "keywords": [
-  "data center"
+  "data center",
+  "interconnection"
  ],
- "party_hits": [],
- "documents": []
+ "party_hits": [
+  "Amazon",
+  "Google",
+  "Meta",
+  "Microsoft"
+ ],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_42_1676516.ZIP",
+   "name": null,
+   "bytes": 13750,
+   "sha256": "f5b1c5dcc4c7f5232db437e4935c84a5a8bc9a8029d0e087769b9b3d5da49b17",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== State Affairs.docx ===\nTestimony Before the Texas House Committee Regarding Data Centers as Critical Infrastructure and Enforcement of the Lone Star Infrastructure Protection Act:\nChairman, Members of the Committee:\n\nThank you for the opportunity to testify today on a matter of immediate importance to Texas security and economic strength: the rapid expansion of data centers and their status as critical infrastructure under the Lone Star Infrastructure Protection Act.\n\nData centers have become critical infrastructure. They house the computing power that trains and runs artificial intelligence systems essential to national competitiveness, economic growth, and security. Texas is building these facilities at an unprecedented scale precisely because of the AI race with China. That purpose makes compliance with the Lone Star Infrastructure Protection Act not optional, it is essential.\n\nLISPA was enacted to prevent companies owned, controlled by, or headquartered in China, Iran, North Korea, Russia, or other designated foreign adversaries from obtaining direct or remote access to or control of critical infrastructure in this state. The law covers communication systems, cybersecurity systems, the electric grid, and related facilities. Data centers that connect to the Texas grid and process the data and models that power AI clearly fall within the spirit and practical reach of this protection.\n\nTwo related concerns demand attention. First, questions persist about the sources of capital funding these massive projects and whether foreign adversary interests are present in ownership or financing structures. Second, and more urgently, open-source and open-weight software developed by Chinese entities with ties to the Chinese Communist Party is already in use inside facilities operated or utilized by major American companies.\n\nDocumented examples include Alibaba’s Qwen models and DeepSeek systems that have been integrated or studied by Meta, Google, Microsoft, Amazon, and others. These tools originate in China and operate within the very data centers Texas is expanding to compete with China.\nThe enforcement mechanism for LISPA currently falls short of the threat. On April 1, 2026, ERCOT presented to the Senate Committee on Business and Commerce and made clear that its compliance process relies primarily on self-attestations submitted by market participants. Evaluation consists of desktop reviews, Dun & Bradstreet reports, comparisons against affiliate lists, and requests for information when inconsistencies appear. There is no independent boots-on-the-ground verification. No routine on-site inspections of facilities, equipment, or software environments. Compliance rests on the honor system.\n\nThis gap is unacceptable for critical infrastructure. Self-attestation cannot adequately protect against sophisticated foreign adversary influence, particularly when the software itself originates from entities connected to the Chinese Communist Party. At the July 29, 2026 Business and Commerce hearing, questions about foreign funding from adversarial countries were met with incomplete answers, further underscoring the need for stronger transparency and verification.\n\nThe Texas Cyber Command, headquartered in San Antonio, was created to defend the state against cyber threats from foreign adversaries. It should play a central role in assessing software supply-chain risks in these facilities. Quantity of data centers will not overcome quality and security failures. Building more capacity while leaving CCP-linked open-source software in place and relying on paper attestations does not advance Texas or American interests in the AI competition, it undermines them.\n\nI respectfully urge the Committee to take the following actions:\n\n️ First, ensure that LISPA’s protections fully apply to data centers and large computational loads as federally designated critical infrastructure, so that the Act’s prohibitions on foreign adversary access and control are enforced without ambiguity.\n\n️ Second, require independent verification of compliance (beyond self-attestation) including authority for on-site review of ownership, financing, and software environments where foreign adversary risks are present.\n\n️ Third, direct coordination between ERCOT, the Public Utility Commission, the Attorney General, and the Texas Cyber Command to develop practical standards for software provenance and access controls in facilities seeking grid interconnection, state incentives, or general operation in Texas.\n\n️ Fourth, condition further major project approvals on demonstrated compliance until baseline reviews can be completed.\n\nTexas has already shown leadership by enacting LISPA and establishing the Texas Cyber Command. The next step is to enforce the law as written and intended, especially for the infrastructure that will shape the next generation of American technological power. Data centers are critical infrastructure. They must meet the standards of the Lone Star Infrastructure Protection Act.\n\nSelf-attestation is not enough when the software and potential influence trace back to China and the Chinese Communist Party.\n\nThank you for your attention. I am prepared to answer any questions.\n\nNancy White\n469-595-1691"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_42_1676517.PDF",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "empty",
+   "ocr": false,
+   "pages": 0,
+   "truncated": false,
+   "text": ""
+  }
+ ],
+ "enriched_at": "2026-10-05T07:43:28Z"
 }

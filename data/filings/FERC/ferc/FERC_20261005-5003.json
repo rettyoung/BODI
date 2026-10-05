@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261005-5003",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-80",
+ "title": "Comment of Christopher Lish in Docket(s)/Project(s) CP26-80-000\nSubmission Date: 10/4/2026\n",
+ "filed": "2026-10-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261005-5003",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "8783DC39-25C5-CFF0-93A9-A109CC500000",
+   "name": "151457.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-04"
+ },
+ "collected_at": "2026-10-05T06:52:45Z",
+ "run_id": "2026-10-05-0638",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151457.txt",
+   "bytes": 2440,
+   "sha256": "ebcb382ed9f3afe55008ed77e566d9d7a0da7acc400c93d5137832f048ab9db4",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nChristopher Lish, San Rafael, CA.\nSunday, October 4, 2026\r\n\r\nSubject: Please reject approvals for the Green Chile Project -- Transwestern Pipeline Company, LLC; Notice of Availability of the Environmental Assessment for the Proposed Green Chile Project (Docket No. CP26-80-000)\r\n\r\nTo the Federal Energy Regulatory Commission:\r\n\r\nI am deeply concerned by the disregard shown by the Federal Energy Regulatory Commission toward the climate crisis and New Mexico communities as expressed through its Environmental Assessment of the Green Chile Project, proposed by Transwestern Pipeline Company, LLC.\r\n\r\n\"It is horrifying that we have to fight our own government to save the environment.\"\r\n-- Ansel Adams\r\n\r\nThe project in question will further entrench polluting gas infrastructure that negatively impacts communities and our planet by incentivizing continued and expanding fossil fuel use. At a time when the climate crisis is worsening, we should be looking to embrace sustainable forms of energy like wind or solar rather than doubling down on dirty forms of energy that pollute our communities and contribute to climate chaos.\r\n\r\n\"As we peer into society's future, we—you and I, and our government—must avoid the impulse to live only for today, plundering for our own ease and convenience the precious resources of tomorrow. We cannot mortgage the material assets of our grandchildren without risking the loss also of their political and spiritual heritage. We want democracy to survive for all generations to come, not to become the insolvent phantom of tomorrow.\"\r\n-- Dwight D. Eisenhower\r\n\r\nFurthermore, communities across the country are being impacted by the completely unregulated deployment of massive data center projects that are straining our water resources, spiking our energy bills, worsening the climate crisis, and disrupting the fabric of our communities. This pipeline would enable a data center project in New Mexico that could have serious consequences for local communities. \r\n\r\n\"The ultimate test of a moral society is the kind of world that it leaves to its children.\"\r\n-- Dietrich Bonhoeffer\r\n\r\nPlease protect New Mexico residents and the planet by rejecting the Green Chile Project.\r\n\r\nThank you for your consideration of my comments. Please do NOT add my name to your mailing list. I will learn about future developments on this issue from other sources.\r\n\r\nSincerely,\r\nChristopher Lish\r\nSan Rafael, CA\r\n\r\n"
+  }
+ ]
+}

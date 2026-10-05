@@ -17,7 +17,37 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
- "party_hits": [],
- "documents": []
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [
+  "Texas Industrial Energy Consumers"
+ ],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_98_1677755.ZIP",
+   "name": null,
+   "bytes": 52944,
+   "sha256": "567d9e1264c076299b2d5d9b5894312dd838880bda5c561b311fa7b4d5a7262b",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 58796 Agreed Motion to Extend Briefing Deadlines.pdf ===\n                                SOAH DOCKET NO. 473-26-07507\n                                   PUC DOCKET NO. 58796\n\n APPLICATION OF SOUTHWESTERN                            §\n ELECTRIC POWER COMPANY FOR                             §     BEFORE THE STATE OFFICE\n AUTHORITY TO AMEND TARIFFS FOR                         §               OF\n RETAIL SERVICE TO INCLUDE NEW                          §     ADMINISTRATIVE HEARINGS\n STANDARD FORM CONTRACT FOR                             §\n ELECTRIC SERVICE - LARGE LOAD\n\n                    AGREED MOTION TO EXTEND BRIEFING DEADLINES\n\n         Southwestern Electric Power Company (SWEPCO) submits, on behalf of all the parties to\n\nthis proceeding, this agreed motion to extend the current briefing deadlines approved in SOAH\n\nOrder No. 5. Counsel for SWEPCO has conferred with counsel for Commission Staff, the Office\n\nof Public Utility Counsel, Texas Industrial Energy Consumers, Eastman Chemical Company, and\n\nCities Advocating Reasonable Deregulation, and is authorized to state that those parties agree to\n\nan extension of the current briefing deadlines to allow the parties additional time to negotiate a\n\npotential settlement without simultaneously continuing litigation.\n\n         In the event the parties cannot reach an agreement during this time, the parties agree to file\n\ntheir briefs in accordance with the following revised deadlines:\n\n           Initial Briefs                             September 3, 2026\n\n           Reply Briefs                               September 11, 2026\n\n         SWEPCO requests that the ALJ enter an order adopting the above agreed to briefing\n\ndeadlines for this proceeding and granting SWEPCO any additional relief to which it may be\n\nentitled.\n\n\n\n\n_____________________________________________________________________________________\nPUC Docket No. 58796                                            Agreed Motion to Extend Briefing Deadlines\nSOAH Docket No. 473-26-07507\n                                                   1\n\fAugust 27, 2026                              Respectfully submitted,\n                                             /s/ Patrick Pearsall\n                                             Laura Bradshaw Kennedy\n                                             State Bar No. 24041234\n                                             400 West 15th Street, Suite 1700\n                                             Austin, Texas 78701\n                                             Telephone: (512) 481-4545\n                                             Email: lkennedy@aep.com\n                                             Service: aepaustintx@aep.com\n                                             AMERICAN ELECTRIC POWER SERVICE\n                                             CORPORATION\n\n                                             Patrick Pearsall\n                                             State Bar No. 24047492\n                                             Email: ppearsall@balch.com\n                                             BALCH & BINGHAM LLP\n                                             600 Congress Avenue, Suite 2700\n                                             Austin, Texas 78701\n                                             Telephone: (512) 744-9300\n                                             Facsimile: (512) 744-9399\n\n                                             ATTORNEYS FOR SOUTHWESTERN\n                                             ELECTRIC POWER COMPANY\n\n\n\n                                CERTIFICATE OF SERVICE\n\n        I certify that on August 27, 2026, this document was filed with the Public Utility\n\nCommission of Texas, and a true and correct copy was served on all parties of record by electronic\n\nmail.\n\n                                             /s/ Patrick Pearsall\n                                             Patrick Pearsall\n\n\n\n\n_____________________________________________________________________________________\nPUC Docket No. 58796                                        Agreed Motion to Extend Briefing Deadlines\nSOAH Docket No. 473-26-07507\n                                                2\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_98_1677756.PDF",
+   "name": null,
+   "bytes": 1208,
+   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
+   "ctype": "text/html",
+   "quality": "empty",
+   "ocr": false,
+   "pages": 0,
+   "truncated": false,
+   "text": ""
+  }
+ ],
+ "enriched_at": "2026-10-05T07:42:49Z"
 }
