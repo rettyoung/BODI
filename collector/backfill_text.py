@@ -12,7 +12,7 @@ Tiers: 1 = issued by the commission/agency (orders, decisions, staff recommendat
 """
 import glob, json, os, re, time
 
-from common import DATA, ROOT, save_json, load_json, now_utc, scrub
+from common import DATA, ROOT, save_json, load_json, now_utc, scrub, retryable_doc
 
 SUBSTANTIVE = re.compile(r"brief|testimony|application|order|decision|ruling|tariff|rate schedule|settlement|stipulation|"
                          r"comments|petition|complaint|protest|exceptions|recommend|proposal for (decision|adoption)|"
@@ -26,6 +26,8 @@ ISSUED = re.compile(r"\border\b|decision|ruling|proposal for decision|recommende
 FILED_BRIEF = re.compile(r"brief|testimony|application|petition|tariff|rate schedule|settlement|stipulation|exceptions|"
                          r"complaint|protest", re.I)
 OUT = os.path.join(DATA, "backfill", "enriched.jsonl")
+MAX_DOC_RETRY_NIGHTS = 4     # a document that keeps failing is given up after this many nights
+MAX_DOC_RETRY_FILINGS = 60   # per night, so retries never starve new enrichment
 
 
 def _hits(text, terms):
@@ -62,15 +64,49 @@ def tier(item, parties):
     return 4
 
 
-def _has_text(it):
+def _filing(it):
     try:
-        f = json.load(open(os.path.join(ROOT, it["filing"])))
+        return json.load(open(os.path.join(ROOT, it["filing"])))
     except Exception:
+        return None
+
+
+def _has_text(it):
+    f = _filing(it)
+    if f is None:
         return True   # no filing file: nothing to enrich
     return not f.get("fetch") or any(d.get("text") for d in f.get("documents") or [])
 
 
-def shortlist(parties, done):
+def _needs_doc_retry(it):
+    """True when the filing has text for some documents but others failed in a way worth retrying (for example
+    the PUCT answering one .ZIP of a filing with an HTML page). Before 2026-10-05 such filings were marked done."""
+    f = _filing(it)
+    return bool(f) and any(retryable_doc(d) for d in f.get("documents") or [])
+
+
+def shortlist(parties, done, doc_retries=None):
+    """Queue of (tier, filed, item). Items already done come back once a night (tier 0) when some of their
+    documents failed retryably, until MAX_DOC_RETRY_NIGHTS."""
+    doc_retries = doc_retries or {}
+    out = shortlist_new(parties, done)
+    seen = {t[2]["id"] for t in out}
+    for f in sorted(glob.glob(os.path.join(DATA, "candidates", "*.jsonl")))[-21:] + \
+            sorted(f for f in glob.glob(os.path.join(DATA, "backfill", "*.jsonl")) if re.search(r"/\d{4}-\d{2}-\d{2}\.jsonl$", f)):
+        from_candidates = "/candidates/" in f
+        for line in open(f):
+            it = json.loads(line)
+            if from_candidates:
+                it["_candidate"] = True
+            if (it["id"] in done or from_candidates) and it["id"] not in seen and it.get("filing") \
+                    and doc_retries.get(it["id"], 0) < MAX_DOC_RETRY_NIGHTS and _needs_doc_retry(it):
+                it["_doc_retry"] = True
+                seen.add(it["id"])
+                out.insert(0, (0, it.get("filed") or "", it))
+    return out
+
+
+def shortlist_new(parties, done):
     out = []
     # tier 0: this window's collector candidates whose documents did not extract (they feed the next Sweep)
     for f in sorted(glob.glob(os.path.join(DATA, "candidates", "*.jsonl")))[-21:]:
@@ -94,7 +130,7 @@ def shortlist(parties, done):
     return out
 
 
-def enrich(http, cfg, state, fetch_docs, keyword_hit, ctx_factory, seconds, max_docs):
+def enrich(http, cfg, state, fetch_docs, keyword_hit, ctx_factory, seconds, max_docs, fetch_one=None):
     """Spend up to `seconds` and `max_docs` documents enriching backfill items. Returns a health record."""
     t0 = time.time()
     st = state.setdefault("backfill_text", {"done": []})
@@ -102,7 +138,8 @@ def enrich(http, cfg, state, fetch_docs, keyword_hit, ctx_factory, seconds, max_
     attempts = st.setdefault("attempts", {})
     tried_tonight = set()
     parties, kws = cfg.get("parties", []), cfg.get("keywords", [])
-    queue = shortlist(parties, done)
+    doc_retries = st.setdefault("doc_retries", {})
+    queue = shortlist(parties, done, doc_retries)
     rec = {"queue": len(queue), "enriched": 0, "docs": 0, "errors": 0, "status": "ok"}
     if not queue:
         rec["status"] = "complete"
@@ -120,9 +157,42 @@ def enrich(http, cfg, state, fetch_docs, keyword_hit, ctx_factory, seconds, max_
             if not filing or not filing.get("fetch"):
                 done.add(it["id"])
                 continue
+            if it.get("_doc_retry") and (not fetch_one or rec.get("doc_retry_filings", 0) >= MAX_DOC_RETRY_FILINGS):
+                continue
+            if it.get("_doc_retry"):
+                rec["doc_retry_filings"] = rec.get("doc_retry_filings", 0) + 1
+                # re-fetch only the documents that failed; keep the ones that already have text
+                doc_retries[it["id"]] = doc_retries.get(it["id"], 0) + 1
+                docs, refetched, fixed = [], 0, 0
+                for d in filing.get("documents") or []:
+                    if retryable_doc(d) and str(d.get("url") or "").startswith("http"):
+                        nd = fetch_one(http, d["url"], d.get("name"))
+                        refetched += 1
+                        fixed += 0 if retryable_doc(nd) else 1
+                        docs.append(nd)
+                    else:
+                        docs.append(d)
+                rec["docs"] += refetched
+                rec["doc_retry_fixed"] = rec.get("doc_retry_fixed", 0) + fixed
+                rec["doc_retry_still_failing"] = rec.get("doc_retry_still_failing", 0) + refetched - fixed
+                if fixed:
+                    hits = keyword_hit(filing, docs, kws)
+                    phits = _hits(f"{it.get('title') or ''} {it.get('entity') or ''} "
+                                  + " ".join((d.get("text") or "")[:3000] for d in docs[:1]), parties)
+                    filing.update(documents=docs, keywords=hits, party_hits=phits, enriched_at=now_utc())
+                    save_json(path, filing)
+                    if not it.get("_candidate"):
+                        line = {k: it.get(k) for k in ("id", "jur", "source", "kind", "docket", "title", "filed", "url", "entity", "filing")}
+                        line.update(tier=tier(it, parties), keywords=hits, party_hits=phits, enriched_at=now_utc(), refetched=True,
+                                    docs=[{"url": d.get("url"), "quality": d.get("quality"), "ocr": d.get("ocr"),
+                                           "chars": len(d.get("text") or ""), "error": d.get("error")} for d in docs])
+                        with open(OUT, "a") as f:
+                            f.write(scrub(json.dumps(line, ensure_ascii=False, default=str)) + "\n")
+                continue
             docs = fetch_docs(http, filing, ctx)
             rec["docs"] += len(docs)
             rec["errors"] += sum(1 for d in docs if d.get("error"))
+            rec["not_document"] = rec.get("not_document", 0) + sum(1 for d in docs if d.get("quality") == "not_document")
             if not any(d.get("text") for d in docs):
                 # nothing extracted (fetch error, or no document link found): retry on later nights, give up after 3
                 n = attempts.get(it["id"], 0) + 1
@@ -152,6 +222,7 @@ def enrich(http, cfg, state, fetch_docs, keyword_hit, ctx_factory, seconds, max_
         ctx.close()
         st["done"] = sorted(done)
         st["attempts"] = {k: v for k, v in attempts.items() if k not in done}
+        st["doc_retries"] = {k: v for k, v in doc_retries.items() if v < MAX_DOC_RETRY_NIGHTS + 1}
     rec["remaining"] = max(0, len(queue) - rec["enriched"])
     rec["seconds"] = round(time.time() - t0, 1)
     return rec

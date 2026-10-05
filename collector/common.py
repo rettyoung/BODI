@@ -228,6 +228,13 @@ class Http:
                 last_exc = e
                 time.sleep(4 * (attempt + 1))
                 continue
+            if r.status_code == 429 and attempt < retries:
+                # rate limit, not a refusal: wait as the server asks (capped at 90 s) and try again
+                ra = r.headers.get("Retry-After", "")
+                wait = min(90, int(ra)) if ra.isdigit() else 30 * (attempt + 1)
+                self.log.append({"url": scrub(url), "result": "rate_limited_429", "wait": wait})
+                time.sleep(wait)
+                continue
             if r.status_code in (401, 402, 403, 429):
                 self.log.append({"url": scrub(url), "result": f"blocked_{r.status_code}"})
                 raise Blocked(f"HTTP {r.status_code} for {scrub(url)}")
@@ -290,6 +297,25 @@ def pdf_text(data: bytes) -> dict:
             "truncated": len(txt) > MAX_TEXT}
 
 
+def pdf_page1_text(data: bytes) -> dict:
+    """Text of page 1 only (text layer, else OCR of that one page). For cheap identity checks such as
+    confirming a case number on a cover page; an OCR result is flagged and is never used as a fact."""
+    if data[:4] != b"%PDF":
+        return {"text": "", "ocr": False, "quality": "not_pdf"}
+    with tempfile.TemporaryDirectory() as td:
+        path = os.path.join(td, "d.pdf")
+        open(path, "wb").write(data)
+        txt = _run(["pdftotext", "-f", "1", "-l", "1", "-layout", path, "-"], timeout=60).stdout.decode("utf-8", "replace")
+        if len(txt.strip()) >= 50:
+            return {"text": txt, "ocr": False, "quality": "text_layer"}
+        _run(["pdftoppm", "-r", "200", "-f", "1", "-l", "1", "-png", path, os.path.join(td, "p")], timeout=120)
+        imgs = sorted(f for f in os.listdir(td) if f.endswith(".png"))
+        if not imgs:
+            return {"text": txt, "ocr": False, "quality": "empty"}
+        r = _run(["tesseract", os.path.join(td, imgs[0]), "-", "--psm", "1"], timeout=120)
+        return {"text": r.stdout.decode("utf-8", "replace"), "ocr": True, "quality": "ocr"}
+
+
 def html_text(html: str) -> str:
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(html, "html.parser")
@@ -319,14 +345,36 @@ def docx_text(data: bytes) -> str:
     return "\n".join(p.text for p in d.paragraphs)[:MAX_TEXT]
 
 
+BINARY_EXT = (".pdf", ".zip", ".xlsx", ".xls", ".docx", ".doc", ".pptx")
+RETRYABLE_QUALITY = ("not_document",)
+
+
+def retryable_doc(d: dict) -> bool:
+    """A document worth fetching again on a later night: a fetch error, an HTML page served in place of the
+    file, or (records written before 2026-10-05) a ZIP 'extract_error' whose body was really HTML."""
+    q = str(d.get("quality") or "")
+    if d.get("error") and not str(d.get("error")).startswith(("too large", "blocked: robots")):
+        return True
+    return q in RETRYABLE_QUALITY or (q.startswith("extract_error") and "html" in str(d.get("ctype") or ""))
+
+
 def extract(data: bytes, ctype: str = "", url: str = "") -> dict:
     """Best-effort text extraction for any document type."""
     ctype = (ctype or "").lower()
     low = url.lower().split("?")[0]
     try:
-        if data[:4] == b"%PDF" or "pdf" in ctype or low.endswith(".pdf"):
+        head = data[:1024].lstrip().lower()
+        binary_expected = low.endswith(BINARY_EXT) or any(t in ctype for t in ("pdf", "zip", "officedocument", "msword"))
+        magic = data[:4] == b"%PDF" or data[:2] == b"PK" or data[:4] == b"\xd0\xcf\x11\xe0"
+        if binary_expected and not magic and (head.lstrip(b"\xef\xbb\xbf").startswith(b"<") or "html" in ctype):
+            # The host answered a document URL with an HTML page (an error, "not available" or throttle page)
+            # instead of the file. This is a fetch failure to retry later, not an extraction failure.
+            sample = re.sub(r"\s+", " ", html_text(data.decode("utf-8", "replace")))[:300]
+            return {"text": "", "pages": None, "ocr": False, "quality": "not_document",
+                    "error": f"html_instead_of_document ({len(data)} bytes)", "sample": sample}
+        if data[:4] == b"%PDF" or (("pdf" in ctype or low.endswith(".pdf")) and data[:2] != b"PK"):
             return pdf_text(data)
-        if data[:2] == b"PK" or "zip" in ctype or low.endswith((".zip", ".xlsx", ".docx")):
+        if data[:2] == b"PK":
             zf = zipfile.ZipFile(io.BytesIO(data))
             names = zf.namelist()
             if "word/document.xml" in names:

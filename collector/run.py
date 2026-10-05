@@ -151,11 +151,25 @@ def fetch_docs(http, item, ctx):
     return docs
 
 
+def fetch_one(http, url, name=None):
+    """Fetch and extract one document URL again (used by the enrichment retry)."""
+    try:
+        r = http.get(url, stream=False)
+        if len(r.content) > MAX_BYTES:
+            return {"url": url, "error": f"too large ({len(r.content)} bytes)"}
+        return _doc(url, r.content, r.headers.get("content-type", ""), name)
+    except Blocked as e:
+        return {"url": url, "error": f"blocked: {e}"}
+    except Exception as e:
+        return {"url": url, "error": repr(e)[:300]}
+
+
 def _doc(url, content, ctype, name):
     ex = extract(content, ctype, url)
     return {"url": url, "name": name, "bytes": len(content), "sha256": sha256(content), "ctype": ctype,
             "quality": ex.get("quality"), "ocr": ex.get("ocr", False), "pages": ex.get("pages"),
-            "truncated": ex.get("truncated", False), "text": ex.get("text", "")}
+            "truncated": ex.get("truncated", False), "text": ex.get("text", ""),
+            **({"error": ex["error"], "sample": ex.get("sample")} if ex.get("error") else {})}
 
 
 def keyword_hit(item, docs, kws):
@@ -351,7 +365,7 @@ def main(only=None):
         try:
             health["backfill_text"] = backfill_text.enrich(http, cfg, state, fetch_docs, keyword_hit,
                                                            lambda: Ctx(cfg, state, http), left,
-                                                           int(os.environ.get("BF_DOCS", "400")))
+                                                           int(os.environ.get("BF_DOCS", "400")), fetch_one=fetch_one)
         except Timeout:
             health["backfill_text"] = {"status": "PARTIAL", "error": "time budget exceeded"}
         except Exception as e:

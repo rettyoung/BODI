@@ -25,7 +25,7 @@ import time
 import re
 from urllib.parse import urljoin, quote
 
-from common import Blocked, html_text
+from common import Blocked, html_text, pdf_page1_text
 
 FMT = "%Y-%m-%d"
 
@@ -431,6 +431,7 @@ def ok_occ(ctx):
             "repoName": "OCC", "searchSyn": q, "searchUuid": "", "sortColumn": "", "startIdx": 0, "endIdx": 100,
             "getNewListing": True, "sortOrder": 2, "displayInGridView": False})).json().get("data", {}) or {}
 
+    confirm_how, diag_logged = {}, False
     for case in ctx.cfg["dockets"].get("OK", []):
         # the ECF case-number field format is unconfirmed: try the forms the OCC uses, keep the first with hits
         m_ = re.match(r"([A-Z]+)\s*(\d{4})-?0*(\d+)", case)
@@ -467,26 +468,54 @@ def ok_occ(ctx):
             eid = rec.get("entryId") or rec.get("Id") or rec.get("id")
             if not eid or str(eid) in rejected:
                 continue
-            if str(eid) not in accepted:
+            if str(eid) not in accepted or accepted[str(eid)] == "UNCONFIRMED":   # re-check the unconfirmed
                 if checked >= 25:
                     break     # the rest next night
                 checked += 1
+                accepted.pop(str(eid), None)
+                page1, how = None, None
                 try:
-                    t = http.post(base + "DocumentService.aspx/GetTextHtmlForPage", headers=hdr, retries=0, timeout=20,
-                                  data=json.dumps({"repoName": "OCC", "documentId": eid, "pageNum": 1,
-                                                   "showAnn": True, "searchUuid": ""})).json()
-                    page1 = re.sub(r"<[^>]+>", " ", json.dumps(t))
+                    r_ = http.post(base + "DocumentService.aspx/GetTextHtmlForPage", headers=hdr, retries=0, timeout=20,
+                                   data=json.dumps({"repoName": "OCC", "documentId": eid, "pageNum": 1,
+                                                    "showAnn": True, "searchUuid": ""}))
+                    try:
+                        page1, how = re.sub(r"<[^>]+>", " ", json.dumps(r_.json())), "page_text"
+                    except ValueError:
+                        # the page-text service answered with no JSON (empty body / HTML): note what it sent, once
+                        if not diag_logged:
+                            diag_logged = True
+                            ctx.log(f"ok page-text non-JSON: HTTP {r_.status_code} {r_.headers.get('content-type', '')} "
+                                    f"{len(r_.content)} bytes {r_.text[:120]!r}"[:300])
                 except Blocked:
                     raise
                 except Exception as e:
-                    # page-text service unavailable for this entry: keep the newest few unconfirmed; the
-                    # downloaded PDF's own text lets the Sweep confirm or discard them
                     ctx.log(f"ok text {eid}: {e!r}"[:200])
+                if page1 is None:
+                    # fallback: download the document itself and read page 1 (what a visitor's Download button gets)
+                    try:
+                        r_ = http.get(f"{base}ElectronicFile.aspx?docid={eid}&dbid=0&repo=OCC", timeout=60)
+                        p1 = pdf_page1_text(r_.content)
+                        if p1["text"].strip():
+                            page1, how = p1["text"], "pdf_page1" + ("_ocr" if p1["ocr"] else "")
+                    except Blocked:
+                        raise
+                    except Exception as e:
+                        ctx.log(f"ok pdf {eid}: {e!r}"[:200])
+                if page1 is None:
+                    # neither route gave page 1: keep the newest few unconfirmed for the Sweep, and stop asking
+                    # about an entry after three nights rather than retrying it for ever
+                    fails = ctx.state.setdefault("text_fail", {})
+                    fails[str(eid)] = fails.get(str(eid), 0) + 1
                     if sum(1 for v in accepted.values() if v == "UNCONFIRMED") < 8:
                         accepted[str(eid)] = "UNCONFIRMED"
+                    elif fails[str(eid)] >= 3:
+                        rejected.add(str(eid))
+                        ctx.log(f"ok {eid}: page 1 unreadable on 3 nights; set aside")
+                        continue
                     else:
                         continue
-                    page1 = None
+                else:
+                    confirm_how[how] = confirm_how.get(how, 0) + 1
                 if page1 is not None and not cause_rx.search(page1):
                     rejected.add(str(eid))
                     continue
@@ -503,6 +532,8 @@ def ok_occ(ctx):
         ctx.state["rejected"] = sorted(rejected)[-5000:]
         if not lst:
             ctx.log(f"ok: empty listing for {case}")
+    if confirm_how:
+        ctx.log(f"ok page-1 confirmations by route: {confirm_how}")
     return items
 
 
