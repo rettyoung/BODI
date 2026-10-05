@@ -4,14 +4,15 @@
  "coverage_marks": [
   {"date": "2026-09-18", "label": "Baseline loaded", "detail": "Everything dated before 18 Sep was collected retrospectively in one pass that followed known docket numbers; docket activity was never enumerated filing by filing."},
   {"date": "2026-09-21", "label": "Two Mondays missed", "detail": "The weekly tasks were disabled on 21 and 28 Sep; nothing was collected live until 3 Oct."},
-  {"date": "2026-10-02", "label": "Nightly collector starts", "detail": "Commission portals, FERC, EDGAR, RTO pages and governors' newsrooms read every night from 2 Oct; docket-history backfill to 7 Nov 2025 dispatched 3 Oct."}
+  {"date": "2026-10-02", "label": "Nightly collector starts", "detail": "Commission portals, FERC, EDGAR, RTO pages and governors' newsrooms read every night from 2 Oct; docket-history backfill to 7 Nov 2025 dispatched 3 Oct."},
+  {"date": "2026-10-05", "label": "First full Sweep", "detail": "The Monday Sweep read the collector's candidates for the first time (653 since 2 Oct, including the 506 the degraded 3 Oct run never saw). From the same day, Texas documents the PUCT had answered with an error page are fetched again nightly, so some older Texas filings will be read late."}
  ],
  "jurisdiction_notes": {
   "AZ": "Filing lists are read nightly; the documents themselves only through the manual pass (the ACC image host presents a certificate for another hostname).",
   "TX": "ERCOT notices and large-load status pages are read nightly as well as PUCT projects; executive actions arrive through the governor's newsroom.",
   "PA": "The commission refuses the collector, so the Monday Sweep reads it with the web reader.",
   "NV": "No text layer on PUCN documents, so Nevada rows are Reported at most.",
-  "OK": "OCC page-text service errors; the Sweep confirms from the PDF text.",
+  "OK": "Each OCC search hit is matched to its case on page 1 — from WebLink's page-text service, or from the PDF itself when that service fails.",
   "VA": "Between manual passes: Dominion, ApCo and NOVEC disclosures on EDGAR, the DCC Bi-Weekly and trade mail.",
   "NC": "Between manual passes: NCUC main-site PDFs, NCUC mail and Duke on EDGAR.",
   "SC": "Between manual passes: PSC publications and ORS pages (collector) and Duke and Dominion on EDGAR.",

@@ -3,7 +3,7 @@
 Three lists: **scoped in** (collected today, by which process), **refused** (sources that turn automated
 clients away, and what covers them instead) and **candidates** (worth adding, ranked). The watchlist
 (`config/watchlist.yaml`) is the operative list; this file explains it. Live health for every collector source
-is in `data/health/latest.json`, refreshed nightly. Last full revision: 4 October 2026 (wave 3).
+is in `data/health/latest.json`, refreshed nightly. Last full revision: 4 October 2026 (wave 3); extraction-retry and Oklahoma fallback notes 5 October 2026.
 
 **Processes.**
 
@@ -61,12 +61,12 @@ court lists), because the general keyword list is too loose there.
 |---|---|---|---|---|
 | AZ | ACC eDocket JSON API (`efiling.azcc.gov/api/edocket`) | C (listings), M (documents) | Metadata (C); full text (M) | Docket search and full filing lists work; consumer-comment letters skipped. The PDF host `images.edocket.azcc.gov` presents a certificate for another hostname (since ≥3 Oct) and `docket.images.azcc.gov` is robots-disallowed, so documents go to the manual pass (queued by the Sweep). Rechecked weekly. |
 | GA | GA PSC docket facts + document download API | C | Full text | |
-| TX | PUCT Interchange filing lists + `/Documents/*.PDF` | C | Full text (OCR on scanned filings) | Absolute document links fixed 3 Oct; TX figures from OCR stay *Reported*. |
+| TX | PUCT Interchange filing lists + `/Documents/*.PDF` / `*.ZIP` | C | Full text (OCR on scanned filings) | Absolute document links fixed 3 Oct; TX figures from OCR stay *Reported*. Interchange sometimes answers a document link with a small HTML page instead of the file (152 `.ZIP`s on 3–5 Oct, all the same 1,208-byte page; probably what the web reader sees as a 402). Since 5 Oct these are recorded as `not_document` (with a sample of the page) and only the failed files are fetched again on later nights — up to 60 filings a night for 4 nights. |
 | LA | LPSC Valence portal (DocketSearch, Docket_Documents, RecentOrders) | C | Full text | Ligature-corrupted text is summarized, never quoted. |
 | MO | PSC EFIS (case search → filing display) | C | Full text | |
 | NM | PRC e360 (CaseX API) | C | **Full text — *repaired 3 Oct*** | Document list fixed (the request now matches the portal's own, with `searchTerm`, newest first, paged) and documents downloaded through the portal's anonymous per-document download ticket (`casex/cms/downloadToken` → `previewDocument`), exactly as a visitor's browser does. Verified on 25-00079-UT, 25-00082-UT and 26-0000062 (text layers extracted). Confidentiality agreements and non-public documents skipped. NM leaves the manual queue unless health shows empty lists. |
 | KS | KCC meeting minutes PDFs + kcc.ks.gov documents | C | Full text | Evergy ESAs under the LLPS tariff are never docketed — investor disclosure covers them. |
-| OK | OCC Laserfiche WebLink (case documents); GRDA board agendas/minutes | C | Full text | Each WebLink hit confirmed against the PUD cause number on page 1. GRDA has no commission docket; board pages are the record. |
+| OK | OCC Laserfiche WebLink (case documents); GRDA board agendas/minutes | C | Full text | Each WebLink hit confirmed against the PUD cause number on page 1 — from WebLink's page-text service, or, when that service returns no JSON (the same 20 documents on 3–5 Oct), from page 1 of the document's own PDF (`ElectronicFile.aspx`; text layer, OCR of page 1 only for the match, never as a fact). Entries unreadable both ways are set aside after 3 nights. GRDA has no commission docket; board pages are the record. |
 | AL | PSC public-access RSS (documents, hearings); docket pages | C, S | Full text | RSS returned HTTP 500 (server fault) from 2 Oct; the Sweep's web reader covers the docket pages until it recovers. |
 | PA | PUC docket pages | S | Full text | Runners are refused at TLS; Claude's web reader works. |
 | VA | SCC docket search (Breeze API) | M + S fallback | Full text (M) | robots.txt admits named search engines only. Cloud fallback: utility/intervenor copies, FERC/SEC attachments, search. |
@@ -150,7 +150,7 @@ NRC ADAMS, and the ERCOT Public API (sign-in verified 4 Oct; its catalogue of 12
 loads yet — the adapter checks nightly and picks one up automatically when ERCOT publishes it, e.g. the NPRR1267
 status report). Health (`data/health/latest.json`) shows each adapter's status; the probe workflow
 records which secret names exist (never values) in `data/debug/secret_presence.json`. Open States (10 requests a
-minute) and CourtListener search (5 a minute) are paced to their limits, with one retry after a 429.
+minute) and CourtListener search (5 a minute) are paced to their limits, with one retry after a 429. Since 5 Oct every host gets that treatment: a 429 waits as long as Retry-After asks (at most 90 s) before one more try, and only then counts as a refusal.
 
 | Secret | What it switches on |
 |---|---|

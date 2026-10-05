@@ -1,8 +1,8 @@
 # Grid Docket — context document
 
 **Weekly large-load and generation regulatory tracker for Blue Owl Digital Infrastructure (BODI).**
-Owner: Rett Young (rett.young@blueowl.com). Rewritten 3 October 2026; supersedes all earlier handoff, session and
-context files.
+Owner: Rett Young (rett.young@blueowl.com). Rewritten 3 October 2026, updated 5 October 2026; supersedes all earlier
+handoff, session and context files.
 
 This is the single reference for anyone (person or Claude session) picking up the project: what it is, the
 rules Rett has set, where everything lives, how it runs, the state of the data, how each source is reached,
@@ -97,19 +97,20 @@ webUrl        https://blueowlcap-my.sharepoint.com/personal/rett_young_blueowl_c
 | File | What it is |
 |---|---|
 | `state.json` | **Read first.** Window (`last_successful_sweep`), `last_brief_date`, registry corrections, structural findings, access methods, explicit negatives, remaining gaps, watch signals, standing facts, pipeline baselines, milestone calendar, `manual_ingested`, `corrections_done`, `backfill_cursor`. The Sweep owns it; the Brief changes only `last_brief_date`. |
-| `rows.json` | **A manifest, not rows** (v2). Lists the part files in order: `rows_p1..p5`. |
+| `rows.json` | **A manifest, not rows** (v2). Lists the part files in order: `rows_p1..p6`. |
 | `rows_p1..p4.json` | The 229 baseline rows (58/58/58/55). 26-element positional arrays; column names once, in `rows_p1.columns`. |
 | `rows_p5.json` | First v3 part (3 Oct, degraded run): 19 events / 24 rows plus 2 overlays on `E-20260918-098`. |
+| `rows_p6.json` | First full Sweep (5 Oct): 33 events / 36 rows (25 Verified, 11 Reported), 6 supersessions, 15 overlays. |
 | `seen_index.json` | Dedupe index, time-bounded at 180 days. |
 | `metrics.json` | Pipeline series (43 points, 11 issuers) — drives the conversion charts. This OneDrive copy is authoritative. |
 | `tariff_terms.json` | Structured tariff terms (10 tariffs) — drives the comparison matrix. |
 | `backfill_state.json` | The original v1 backfill queue. Stale; corrected by corrections item C-05. |
 | `sweep_lock.json` | Single-writer lock. |
 | `manual_queue.json` | What the next manual pass should read (written by each Sweep). |
-| `runs/2026-10-03-0019.json`, `briefs/2026-10-03.json` | Records of the 3 Oct verification runs. |
+| `runs/<run_id>.json`, `briefs/<date>.json` | One record per run: `2026-10-03-0019` / `2026-10-03` (degraded verification runs), `2026-10-05-1055` / `2026-10-05` (first full scheduled runs). |
 | `README.md` | Folder guide. |
 
-**Why parts:** a single Graph write is capped at 1,048,576 bytes. Each Sweep writes a **new** part (`rows_p6.json`
+**Why parts:** a single Graph write is capped at 1,048,576 bytes. Each Sweep writes a **new** part (`rows_p7.json`
 next) and appends it to the manifest. It never rewrites an existing part.
 
 ### GitHub — `rettyoung/BODI` (public since 3 Oct 2026)
@@ -133,8 +134,9 @@ in repo secrets, which stay private on a public repo.
 
 ### Console
 
-Published artifact **https://claude.ai/artifact/JJ8FYdvfZ2WPg6r4UpFXbW** — **version 8** (4 Oct 2026; repo commit
-fbcce31). Private to Rett until shared. Declares the `downloads` capability so a reader can save the Excel tracker
+Published artifact **https://claude.ai/artifact/JJ8FYdvfZ2WPg6r4UpFXbW** — built from the v8 page (4 Oct 2026; repo
+commit fbcce31); republished by the 5 Oct Brief as artifact version 9, and on 5 Oct with refreshed annotations as
+version 10. Private to Rett until shared. Declares the `downloads` capability so a reader can save the Excel tracker
 (built in the page), the narrative PDF and the narrative markdown. Supporting files: `data.json` (events + full
 26-column table + the store's change history, coverage, annotations and party list), `metrics.json`,
 `tariff_terms.json`, `status.json`, `narrative.md`, narrative PDF. Republished to the same URL by each Brief; `icon`
@@ -160,8 +162,8 @@ The four v1 artifacts (Grid Docket Protocol, Docket Watch Live, Docket Facet Sch
 
 | Task | ID | Schedule | State |
 |---|---|---|---|
-| Utility Tracker Sweep | `trig_01DA4N9G8Qv1zeggHuN9eQ3g` | Mon 03:54 PT (`CRON_TZ=America/Los_Angeles 54 3 * * 1`) | Enabled, auto-approve, M365 + Box. Next run 2026-10-05. |
-| Weekly Utility Tracker (Brief) | `trig_01X19jgn9aMSPL5ov1TQ7bvj` | Mon 08:54 PT (`CRON_TZ=America/Los_Angeles 54 8 * * 1`) | Enabled, auto-approve, M365 + Box. Next run 2026-10-05. |
+| Utility Tracker Sweep | `trig_01DA4N9G8Qv1zeggHuN9eQ3g` | Mon 03:54 PT (`CRON_TZ=America/Los_Angeles 54 3 * * 1`) | Enabled, auto-approve, M365 + Box. First full run 2026-10-05 (run `2026-10-05-1055`); next 2026-10-12. |
+| Weekly Utility Tracker (Brief) | `trig_01X19jgn9aMSPL5ov1TQ7bvj` | Mon 08:54 PT (`CRON_TZ=America/Los_Angeles 54 8 * * 1`) | Enabled, auto-approve, M365 + Box. Ran 2026-10-05 (console v9, email sent); next 2026-10-12. |
 | Grid Docket manual pass (reminder) | `trig_015r1jt1qtx7CEYiyehWzSV2` | Fri 09:04 PT (`CRON_TZ=America/Los_Angeles 4 9 * * 5`) | Runs **on Rett's computer** (desktop app must be open). Push notification; asks "Run now / Skip this week" and does nothing without "Run now". First fires 2026-10-09. |
 | Current Events Digest (unrelated) | `trig_01Q57Hm8Enb4TFRrhTZRbpc7` | weekdays 07:28 PT | Not part of this project |
 
@@ -207,7 +209,12 @@ their last success minus three days. Writes only to the repo's `data/`. Never cl
 store. Manual dispatch accepts `backfill_since` (docket history from a date). Spare time at the end of each night
 (up to the 70-minute deadline, ~150 documents) goes to **backfill enrichment**: fetching and extracting the
 documents behind the docket-history backfill, tiered (1 commission-issued, 2 watched party — matched on the
-cover page, 3 briefs/testimony/applications/tariffs, 4 other) into `data/backfill/enriched.jsonl`.
+cover page, 3 briefs/testimony/applications/tariffs, 4 other) into `data/backfill/enriched.jsonl`. Since 5 Oct a
+filing is finished only when none of its documents failed retryably: a document the host answered with an HTML
+page (quality `not_document`) or a fetch error is fetched again on later nights — only that document, up to 60
+filings a night, for 4 nights (`backfill_text.doc_retries` in `collector_state.json`) — and the recovered filing is
+written again to `enriched.jsonl` with `"refetched": true`. HTTP 429 now waits as Retry-After asks (≤90 s) once
+before counting as a refusal.
 
 ---
 
@@ -338,24 +345,29 @@ Term | Speed | Curtailment | Deliverability | Supply/Demand | Market Participati
 
 ---
 
-## 6. Current state of the data (3 Oct 2026)
+## 6. Current state of the data (5 Oct 2026)
 
-**Store: 180 events / 253 rows** across `rows_p1..p5`.
+**Store: 213 events / 289 rows** across `rows_p1..p6` (validator: 0 problems). Superseded 14 rows across 8 events;
+on appeal 4 rows.
 
 - **Baseline v2 (loaded 2026-09-18): 161 events / 229 rows**, 2025-11-07 to 2026-09-18, 18 jurisdictions, 33
   entities. Confidence 185 Verified / 42 Reported / 2 Unverified. Materiality 149 High / 80 Medium. On appeal: 4
-  rows. Superseded: 3 rows across 2 events (E-20260918-035 ×2 Duke NC+SC; E-20260918-110 APS).
+  rows (E-20260918-120, -125, -145, -148).
 - **`rows_p5` (3 Oct, degraded Sweep): 19 events / 24 rows, all Reported**, plus 2 overlays on E-20260918-098.
   Contents include PUCT adoption of 16 TAC §25.194 (Project 58481); the Governor's TCEQ permit halt
   (E-20261003-002); the ERCOT Batch Zero audit sequence (E-20261003-011 community-impact RFI, -012 verification
   RFI, -013 directive and delay notice, -014 provisional classifications); five FERC §206 rehearing dismissals;
   the PJM backstop order; a Senate permitting proposal; PUCT 58000 and 58482; ICC 26-0364 and the Illinois Joint
   IRP; two PA model-tariff reconsideration orders.
-- **Gap:** the Mondays of 21 and 28 September passed silently (tasks were disabled). The 3 Oct run covered the
-  window from mail and the web; the first full run (5 Oct) adds collector material and upgrades the Reported
-  Texas rows to Verified where the primary documents confirm them (C-01).
-- **Flags recounted 3 Oct:** superseded 3 rows (2 events), on appeal 4 rows; `state.json` and `rows.json` still carry
-  older values until the Sweep applies C-05. The repo's `store/` is a frozen baseline copy, not a mirror.
+- **`rows_p6` (5 Oct, first full Sweep, run 2026-10-05-1055): 33 events / 36 rows (25 Verified, 11 Reported)**, 6
+  supersessions (11 rows) and 15 overlays. Read 653 collector candidates (including the 506 of 2–3 Oct), 33
+  documents and the first manual drop (`2026-10-04-2342`, 21 documents). Batch Zero chronology verified at ERCOT
+  primary sources (E-20261005-002..005, superseding E-20261003-011/-012/-014); Microsoft's APS closing brief
+  Verified (E-20261005-020); OG&E PUD2026-000031 confirmed (three Google ESAs plus two CPAs; E-20260918-115
+  superseded); 16 TAC §25.194 re-recorded for Oncor, AEP Texas and ERCOT only (it applies to the ERCOT system).
+- **Gap:** the Mondays of 21 and 28 September passed silently (tasks were disabled). The 3 Oct run covered that
+  window from mail and the web; the 5 Oct run added the collector material.
+- The repo's `store/` is a frozen baseline copy, not a mirror.
 
 ---
 
@@ -391,9 +403,11 @@ newsletter canary; corrections queue.
    on watched pages when the collector first saw them (and were silently baselined). The Sweep triages by title
    and treats on-beat ones as candidates.
 4. **Corrections queue** (`prompts/corrections_queue.md`, verified at source before writing, ≤6 per run):
-   C-01 Texas directive / Batch Zero (partly done 3 Oct as Reported; upgrade and overlay the stale baseline row) ·
-   C-02 Microsoft APS brief · C-03 Arizona XHLF eligibility · C-04 Louisiana U-37882 milestone · C-05 store
-   housekeeping · C-06 Texas text quality · C-07 backfill (ongoing until exhausted).
+   C-01 Texas directive / Batch Zero · C-02 Microsoft APS brief · C-04 Louisiana U-37882 milestone · C-05 store
+   housekeeping · C-06 Texas text quality — **all done 5 Oct** (C-04's 2026-12-16 vote kept but UNCONFIRMED;
+   C-01 left the Governor's 2026-08-03 directive text and the 58317 good-cause filing unverified) · C-03 Arizona
+   XHLF eligibility — **open**, queued to the manual pass · C-07 backfill and C-08 new-source history (ongoing
+   until exhausted; not reached on 5 Oct because the 6-item cap was spent).
 5. **New-source history** (4 Oct): bills, court decisions, county actions, Regulations.gov items, ERCOT large-load
    materials and LBNL studies since 2025-11-07, pulled once the sources existed; the Sweep works through them 20 a run
    (C-08) and rebuilds the ERCOT large-load series from the monthly overviews.
@@ -418,14 +432,14 @@ ERCOT large-load 900, EQR 900, state courts 900, NM 900, Open States 600, Legist
 | FERC | C | eLibrary JSON API (`POST elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch`; `File/DownloadP8File`; `Docket/GetSingleDocketSheet`). Working. |
 | Federal Register | C | API with agency + term filters. Working. |
 | SEC EDGAR | C | Declared UA opens it. 8-K (2.02, 7.01, 8.01, 1.01, 2.01), 10-Q, 10-K, 40-F, 6-K. CIKs: Fortis 0001666175, TXNM 0001108426, Oncor 0001193311, Nevada Power 0000071180. Working. |
-| TX PUCT | C | Interchange filing lists; documents `interchange.puc.texas.gov/Documents/{ctrl}_{item}_{id}.PDF/ZIP`; watches 58317, 58481, 59142, 58000, 58482. **Document links were silently missed until 3 Oct** (the site switched to absolute links); fixed, and the nightly enrichment back-fills text for the candidates and backfill items that lacked it. (WebFetch gets 402 on ~1 in 3 files; the collector doesn't.) |
+| TX PUCT | C | Interchange filing lists; documents `interchange.puc.texas.gov/Documents/{ctrl}_{item}_{id}.PDF/ZIP`; watches 58317, 58481, 59142, 58000, 58482. **Document links were silently missed until 3 Oct** (the site switched to absolute links); fixed, and the nightly enrichment back-fills text for the candidates and backfill items that lacked it. Interchange intermittently answers a document link with a small HTML page instead of the file (WebFetch sees a 402 on ~1 in 3 files; the collector gets HTTP 200 and the page — 152 `.ZIP`s on 3–5 Oct, all the same 1,208-byte page, mostly 59475 and 58482). Since 5 Oct those are `not_document` and re-fetched on later nights (§3, Collector). |
 | AZ ACC | C (listings) + P (documents) | `POST efiling.azcc.gov/api/edocket/searchByDocketDetailRequest` (exactly the documented fields) and `GET /api/edocket/docket/{id}` list every filing. **Documents: not reachable from the cloud since at least 3 Oct** — `images.edocket.azcc.gov` presents a certificate for another hostname (collector and WebFetch both refuse; never work around a certificate error), and `docket.images.azcc.gov` is robots-disallowed. The Sweep queues the AZ documents it needs for the manual pass (item-detail URL `edocket.azcc.gov/search/document-search/item-detail/<id>`). |
 | GA PSC | C | `psc.ga.gov/search/service-facts-docket/?docketId=…`; documents via `services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/…`. Working. |
 | LA LPSC | C | Valence portal (`DocketSearch` → MatterId; `Docket_Documents`; `RecentOrders`; `ViewFile`). Ligature-corrupted text: summarize, never quote. Working (U-37921 not found by number). |
 | MO PSC | C | EFIS with anti-forgery token; `Case/Display/{id}`, `Case/FilingDisplay/{id}`. Working (one case id, ET-2025-0184, unresolved). |
 | NM PRC | C | e360 CaseX API. **Documents repaired 3 Oct:** the list request now matches the portal's own (`casepublicdocument/getAll` with `searchTerm` alongside `caseId`, 100 a page, newest first), observed in the built-in browser; downloads use the portal's anonymous per-document ticket (`POST casex/cms/downloadToken {context: File, documentId, isPreview}` → `GET document/v1/previewDocument?token=`), the same calls a visitor's browser makes. Verified from the runners on 25-00079-UT, 25-00082-UT and 26-0000062 (text layers). Confidentiality agreements and non-public documents are skipped. |
 | KS KCC | C | Commission minutes PDFs; `kcc-connect` is Salesforce (15-char id). Working. |
-| OK OCC | C | Laserfiche WebLink search; 8 newest hits kept unconfirmed (page-text service errors); the Sweep confirms from PDF text. Never `ecf.public.occ.ok.gov`. |
+| OK OCC | C | Laserfiche WebLink search; each hit confirmed against the PUD cause on page 1 — from WebLink's page-text service (`DocumentService.aspx/GetTextHtmlForPage`) or, when that returns no JSON (the same 20 documents on 3–5 Oct), from page 1 of the PDF itself (`ElectronicFile.aspx`; text layer, OCR of that page only for the match). Hits unreadable both ways: up to 8 kept unconfirmed for the Sweep, the rest set aside after 3 nights. Never `ecf.public.occ.ok.gov`. |
 | GRDA | C | Board agendas/minutes. Working. |
 | AL PSC | C + W | RSS returns HTTP 500 (server fault); docket pages readable by WebFetch (`ViewFile.aspx?Id=<GUID>`; Act 610 docket 33709). |
 | PA PUC | W | Runners get a TLS failure and 5xx robots; WebFetch works (`puc.pa.gov/docket/<n>`, `/pcdocs/<id>.pdf`). |
@@ -536,9 +550,9 @@ route**.
 | ERCOT MIS data-product servlets | robots.txt disallows `/misapp/` | Meeting materials + Monthly Operational Overview (C) | ERCOT Public API (§9) | — |
 
 **Faults and limits, not refusals:** AL PSC RSS (HTTP 500 — docket pages via WebFetch); CourtListener keyless
-(429 — add token); PUCT Interchange via WebFetch (402 on some files — collector unaffected); LegiScan (blocks by
-IP — Open States instead); NM documents endpoint (empty until 3 Oct — repaired, see §8); OK page-text service (errors — Sweep
-reads the PDF); Ohio Supreme Court opinion list (ASP.NET postback paging — CourtListener instead).
+(429 — add token); PUCT Interchange (402 to WebFetch, an HTML page to the collector, on some files — retried on later nights); LegiScan (blocks by
+IP — Open States instead); NM documents endpoint (empty until 3 Oct — repaired, see §8); OK page-text service (no JSON for some
+documents — the collector reads page 1 of the PDF instead); Ohio Supreme Court opinion list (ASP.NET postback paging — CourtListener instead).
 
 ---
 
@@ -613,13 +627,20 @@ writes the row store. Skill copy at `manual/SKILL.md`; the saved skill on Rett's
 | Duke Q4 2025 was one event | Recorded twice — `E-20260918-035` (wrong date, Reported; now superseded) and `E-20260918-132` (Verified). |
 | AZ XHLF threshold "not established" | Established in the record: ≥5,000 kW, ≥92% LF in 9 of 12 months (C-03 writes it). |
 | Batch Zero "effective 2026-07-11, next Batch 1 2027-06-30" | Stale — paused since 2026-08-10 pending verification (C-01). |
+| 16 TAC §25.194 applies to SWEPCO, Entergy, EPE and SPS | The adopted rule applies to the ERCOT system only — recorded for Oncor, AEP Texas and ERCOT (5 Oct). |
+| OG&E PUD2026-000031 hearing 2026-09-30; one special contract | Hearing held 2026-09-08/09; three ESAs with Alliance Site & Grid (Google) plus two CPAs; stipulation 2026-09-09 (5 Oct). |
+| Batch Zero Verification RFI "responses due within ten days" | Not found at source; dropped (5 Oct). |
+| MISO BPM-032 v1.0 due 2026-10-01 | MISO instead filed tariffed Interconnection Reliability Requirements at FERC (ER26-3650, 2026-08-28, proposed effective 2026-12-04). |
+| Duke NC "formal tariff filing" due 2026-09-30 | No such filing; the tariff is in a comment round inside E-7 Sub 1329 / E-2 Sub 1380, replies due 2026-10-06. |
 
-**Louisiana U-37882 — unresolved conflict, queued as C-04.** One session read the LPSC order as decided at
-the 2026-04-15 B&E session, order issued 2026-05-14. Another established that the LPSC took original
-jurisdiction on 2026-05-14 and set a **2026-12-16** vote on certifying ~5,200 MW for Entergy/Meta. The Sweep
-reads the docket's newest orders and keeps or corrects the 2026-12-16 milestone. Background: filed 2026-03-25
-for Evest LLC, Richland Parish, adjacent to the Laidley facility (U-37425), under the LPSC "Lightning
-Directive" of 2025-12-17; claims ~$2.67bn of benefits to other ELL customers.
+**Louisiana U-37882 — C-04 done 5 Oct, vote date unconfirmed.** The LPSC order of 2026-09-17 (U-37882-A) was
+read: the application adds **5,278 MW** for Evest LLC (Meta), Richland Parish, adjacent to the Laidley facility
+(U-37425), filed **2026-03-26** under the Lightning Initiative (earlier carried as ~5,200 MW, filed 2026-03-25). The
+2026-04-29 schedule set the hearing for 2026-10-07 to 10-20 and was later modified (the modification notices have
+no text). The **2026-12-16** certification vote was not found in any collected LPSC text: kept as a milestone,
+flagged UNCONFIRMED. Earlier background: one session read the order as decided at the 2026-04-15 B&E session
+(order issued 2026-05-14); another that the LPSC took original jurisdiction on 2026-05-14; the application claims
+~$2.67bn of benefits to other ELL customers.
 
 ---
 
@@ -704,10 +725,13 @@ minimum take, 10–15 year terms, exit fees, collateral, cost-shift bars; West V
 
 | Date | Item | Note |
 |---|---|---|
-| 2026-09-30 | Duke NC large-load tariff filing due; Ameren Missouri triennial IRP (~3 GW requested); OG&E reported hearing (unconfirmed) | past — outcome needed |
-| 2026-10-01 | Alabama Act 610 effective (review at 150 MW+); MISO BPM-032 v1.0 due | past — outcome needed |
+| 2026-09-30 | Ameren Missouri triennial IRP (~3 GW requested) | past — outcome needed. (Duke NC "filing due" and the OG&E 30 Sep hearing were refuted 5 Oct, §13) |
+| 2026-10-01 | Alabama Act 610 effective (review at 150 MW+) | past — outcome needed (MISO BPM-032 item replaced by ER26-3650, §13) |
+| 2026-10-06 | Duke NC reply comments, E-7 Sub 1329 / E-2 Sub 1380 | added 5 Oct |
+| 2026-10-07 | LPSC U-37882 hearing opens (to 10-20; schedule later modified) | 5 Oct |
 | 2026-10-08 | Illinois Joint IRP workshop comments due | recorded 3 Oct |
-| 2026-10-12 | ERCOT State and Community Impact RFI responses due (5 pm CT) | recorded 3 Oct (Reported) |
+| 2026-10-08 | 16 TAC §25.194 effective | added 5 Oct |
+| 2026-10-12 | ERCOT State and Community Impact RFI responses due (5 pm CT); PJM IRAS requested effective (ER26-3515) | RFI verified at ERCOT 5 Oct |
 | 2026-10-14 | GRDA board (Google LGS-Industrial schedule; WP-SS rider) | |
 | 2026-10-20 | ApCo Virginia rate case hearing, PUR-2026-00044 | |
 | 2026-10-26 | SC large-load workshop 2026-138-E (26–27 Oct); WV MARL 500 kV hearing 26-0075-E-CN (to 2 Nov) | |
@@ -717,17 +741,22 @@ minimum take, 10–15 year terms, exit fees, collateral, cost-shift bars; West V
 | 2026-11-17 | Dominion GS-5 compliance filing due | |
 | 2026-11-20 | FERC §206 abeyance ends — SPP | |
 | 2026-11-30 | OG&E Extra Large Power & Light hearing | reported; docket and name unverified |
-| 2026-12-16 | LPSC vote on ~5,200 MW Entergy/Meta, U-37882 | under review (C-04) |
+| 2026-12-02 | MISO LARS requested effective (ER27-25) | added 5 Oct |
+| 2026-12-04 | MISO IRR requested effective (ER26-3650) | added 5 Oct |
+| 2026-12-10 | ERCOT Batch Zero reports | added 5 Oct |
+| 2026-12-16 | LPSC vote on 5,278 MW Entergy/Meta, U-37882 | UNCONFIRMED (C-04, 5 Oct) |
 | 2026-12-31 | PJM Connect-and-Manage load-shed allocation rules due; NYISO board approval and FERC filing targeted | |
 | 2027-01-01 | Dominion GS-5 takes effect | |
 | 2027-03-06 | WV MARL decision due | |
 | 2027-04-21 | NOVEC tariff hearing, PUR-2026-00114 | |
 
-**Remaining gaps (as carried in `state.json`, with v3 status):** Oklahoma's two Unverified rows
-(PUD2026-000031, reported OG&E special contract, counterparty reported as Google; PUD2026-000046, reported
-"Extra Large Power & Light" tariff) — portal now reachable, confirmation in progress; Arizona XHLF — closable
-(C-03); Virginia CIAC docket number — watch; Kansas `26-EKCE-148-STG` (133-mile Buffalo Flats–Delaware 345 kV)
-— excluded on materiality; Texas "capped at Reported" — under review (C-06).
+**Remaining gaps (as carried in `state.json`, 5 Oct):** Oklahoma PUD2026-000046 (the "XLPL" tariff — only that
+abbreviation appears; still Unverified, no document collected; PUD2026-000031 was confirmed 5 Oct); Arizona XHLF
+(C-03, queued to the manual pass); Virginia CIAC docket number — watch; Kansas `26-EKCE-148-STG` (133-mile Buffalo
+Flats–Delaware 345 kV) — excluded on materiality; Texas — not OCR-capped (593 clean text layers vs 37 OCR, C-06);
+the real gap was 152 documents the PUCT answered with an HTML page, re-fetched since 5 Oct. The full milestone list
+the 5 Oct Sweep added (SC merger dates, RBP briefs, MISO cost-shift filing, Dominion/ODEC, Evergy MO, PJM RBP) is in
+`state.json`.
 
 ---
 
@@ -802,8 +831,23 @@ minimum take, 10–15 year terms, exit fees, collateral, cost-shift bars; West V
 - Fixed along the way: `COURTLISTENER_TOKEN` was never passed to the collector job; robots.txt Crawl-delay is now
   honoured; Fairfax pages carry a "Data Centers" menu item, so their filter requires a land-use action nearby.
 
-**Not yet verified end to end:** a scheduled Sweep reading collector data through the public clone — first test
-**Monday 5 Oct, 03:54 PT**.
+**5 October — first full scheduled runs (verified end to end):**
+- **Sweep** (run `2026-10-05-1055`, FULL, 30 minutes) cloned the public repo, read 653 collector candidates
+  (`collector_cursor` from 2026-09-18, so the 2–3 Oct items the degraded run missed were included), mail, the first
+  manual drop and the web routes; wrote `rows_p6` (§6); validator 0 problems; no source failing on consecutive
+  nights; no repair proposals. It flagged three items for interactive review: EIA's 429 on 3 Oct (DEMO_KEY, before
+  the key went live; recovered 4 Oct), 152 Texas BadZipFile errors and Oklahoma page-text JSONDecodeErrors.
+- **Brief** cloned the repo, rebuilt the store, built Excel and narrative, republished the console (version 9) and
+  sent the email (`Grid Docket — 5 Oct · 14 high-impact events · PJM IRAS · MISO LARS · OG&E–Google`; AMBER).
+- **Diagnosis and fix (interactive, same morning, commit on `main`):** all 152 Texas failures were one 1,208-byte
+  HTML page served with HTTP 200 for `.ZIP` links; the collector trusted the extension, recorded an extraction
+  error that health never counted, and marked the filing done because its other documents had text. Oklahoma's
+  were the same 20 documents every night, for which WebLink's page-text service returns no JSON (not OCR). Fixes:
+  byte sniffing (`not_document`, with a page sample), per-document re-fetch for up to 4 nights (60 filings a
+  night), the OCC PDF page-1 fallback, and Retry-After handling for 429. Tested offline (sample pages, the stored
+  Texas records, a two-night simulation of the retry queue); first live test is the nightly collector of 6 Oct
+  (04:43 UTC). `prompts/sweep.md`, `corrections_queue.md` (C-06 closed; re-fetched C-07 lines), `SOURCES.md`,
+  `console/annotations.json` and this document were updated to match, and the console republished (version 10).
 
 ---
 
@@ -861,11 +905,12 @@ tables; (8) direct state bill trackers.
 | Loudoun, Reno, Fulton agendas | Not collectable (§10); Loudoun could join the manual pass |
 | Never published (Kansas ESAs, GRDA terms, Entergy absolute GW, confidential filings) | Company disclosure only, or recorded as known unknowns |
 
-**Next session should first:** read the 5 Oct Sweep run record (`/GridDocket/runs/`) and Brief record
-(`/GridDocket/briefs/`); confirm the Sweep ran FULL (not degraded) and read the 2–3 Oct candidates; apply any
-repair proposals; check `data/health/latest.json` → `backfill_text` progress; confirm all three scheduled tasks
-are enabled; open the console and confirm the Brief republished v8 (sections 01–12, "What changed" showing the
-5 Oct run, Coverage filled from the full state.json); add a `coverage_marks` line for the first full Sweep.
+**Next session should first:** read `data/health/latest.json` for the 6 Oct night — `backfill_text.doc_retry_fixed`
+should be rising and `doc_retry_still_failing` falling; open one `not_document` record's `sample` to see what the
+PUCT page says (if it is a throttle message, slow `tx_puct` rather than retrying); `ok_occ` notes should include
+"ok page-1 confirmations by route" and no "set aside" for the newest PUD2026-000046 documents. Then: check the
+12 Oct Sweep picked up `"refetched": true` lines (C-07); C-03 Arizona XHLF still open (manual pass); IL, NC E-100
+Sub 190 and OH documents were DEFERRED_NEEDS_MANUAL on 5 Oct.
 
 ---
 
@@ -915,6 +960,13 @@ are enabled; open the console and confirm the Brief republished v8 (sections 01�
   start. (4 Oct: the 06:17 UTC run started at 12:26 and was first misreported here as skipped — check the run list
   again before calling a run missed.)
 - **The manual pass depends on Rett being present.** The Friday task asks first and never browses unattended.
+- **Trust the bytes, not the extension.** A host can answer a `.ZIP` or `.PDF` link with HTTP 200 and an HTML error
+  page. Treated as a broken ZIP it looked like an extraction problem, health never counted it and nothing retried
+  it (152 Texas documents). Sniff magic bytes first; an HTML page in place of a document is a fetch failure.
+- **A filing is done only when every document is.** "Any document has text" marked filings finished while other
+  documents in them had failed.
+- **A failure that recurs on the same item every night is a bug, not noise.** Oklahoma re-asked the same 20
+  documents nightly and silently dropped 12 of them; remember failures and fall back to another route.
 
 ---
 
@@ -936,3 +988,4 @@ are enabled; open the console and confirm the Brief republished v8 (sections 01�
 | 2026-10-04 (eve) | ERCOT password added; ERCOT Public API sign-in verified; the adapter pages the full 120-product catalogue (no large-load product published yet) |
 | 2026-10-04 (eve) | Console v8 (commit fbcce31): What changed, Matters, load-scenario tariff tester, conversion deltas and CLOA → ESA ratio, activity over time with coverage marks, Parties, Coverage map, period filter and shareable view links. `build_console.py` emits parts/changes/since/coverage/annotations/parties (`--state`, `--manual-dir`, `--since`); `brief.md` downloads state.json and the manual manifests; parity CI installs pyyaml. Published as artifact version 8 |
 | 2026-10-04 (late) | Consistency pass: stale key statements removed; scheduler guard narrowed to 6 h (an afternoon run no longer suppresses the night's collection); history pull for the new sources since 2025-11-07 with corrections item C-08; Open States pages deeper in history pulls |
+| 2026-10-05 | First full scheduled Sweep and Brief (`rows_p6`, console v9, email). Collector fixes: HTML-instead-of-document detection and per-document re-fetch (152 PUCT files), OCC page-1 PDF fallback, 429 Retry-After. `sweep.md`, `corrections_queue.md`, `SOURCES.md`, `annotations.json` (coverage mark, OK note) and §3, §6–§8, §10, §13, §15, §16, §18–§20 updated; console republished (v10) |

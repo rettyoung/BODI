@@ -97,6 +97,10 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   HTTP 402s and ZIP-wrapped spreadsheets, which the collector handles. Confirm from three recent TX
   documents' quality flags in data/filings/TX/, then replace that REMAINING_GAPS line with the confirmed
   finding.
+- Done 2026-10-05 (run 2026-10-05-1055): 593 clean text layers vs 37 OCR; the real gap was 152 `.ZIP` links answered
+  with a 1,208-byte HTML page, recorded as BadZipFile. Remedied in the collector on 2026-10-05 (quality
+  `not_document`, failed documents re-fetched nightly for up to 4 nights). Nothing further for the Sweep here;
+  recovered documents arrive through C-07.
 
 ## C-07 — Docket-activity backfill (ongoing until empty)
 - data/backfill/enriched.jsonl: the docket-history backfill (filings since 2025-11-07 in the collector states) with
@@ -107,6 +111,9 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   tier 1–2 items first (newest first), then tier 3–4 items only when keywords or party_hits are non-empty. Treat
   each exactly like a candidate (discovery-date Event IDs). Most will already be in the store — dedupe first; a
   confirmed duplicate is simply marked done. Record processed ids in state.backfill_cursor.done (ids only).
+- A line with `"refetched": true` (from 2026-10-05) is a filing whose documents failed earlier (an HTML page served
+  instead of the file) and have now been read. Take it even if its id is already in backfill_cursor.done, read only
+  the documents that now have text, and record it in backfill_cursor.refetched_done so it is taken once.
 - data/backfill/baseline_links_<date>.jsonl lists links that were already on watched pages (RTO notices,
   governors, agencies, IR decks, mirrors) when the collector first saw them — metadata only. Triage by title; for
   any that could postdate 2026-09-18 and look on-beat, WebFetch the link and treat it as a candidate (the ERCOT
