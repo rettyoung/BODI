@@ -136,8 +136,10 @@ in repo secrets, which stay private on a public repo.
 
 Published artifact **https://claude.ai/artifact/JJ8FYdvfZ2WPg6r4UpFXbW** — built from the v8 page (4 Oct 2026; repo
 commit fbcce31); republished by the 5 Oct Brief as artifact version 9, and on 5 Oct with refreshed annotations as
-version 10. Readable by anyone in the Blue Owl organization (found 5 Oct; earlier versions of this note said private) — sharing is changed from the page's Share menu. Declares the `downloads` capability so a reader can save the Excel tracker
-(built in the page), the narrative PDF and the narrative markdown. Supporting files: `data.json` (events + full
+version 10, and on 5 Oct with direct-download links as version 11. Readable by anyone in the Blue Owl organization (found 5 Oct; earlier versions of this note said private) — sharing is changed from the page's Share menu. Declares the `downloads` capability so a reader can save the Excel tracker
+(built in the page), the narrative PDF and the narrative markdown. **Direct-download links:** `<console>#dl.xlsx`, `#dl.pdf`
+and `#dl.md` open the page and ask the reader to save that file at once (the same confirmation as the header button;
+the anchor is then cleared so a refresh does not ask again). The weekly email uses the first two. Supporting files: `data.json` (events + full
 26-column table + the store's change history, coverage, annotations and party list), `metrics.json`,
 `tariff_terms.json`, `status.json`, `narrative.md`, narrative PDF. Republished to the same URL by each Brief; `icon`
 and `capabilities` carry forward and are never re-passed.
@@ -277,9 +279,13 @@ before `last_brief_date` changes) → publish console → email → `/GridDocket
 update only `state.last_brief_date`. **REPO-LESS PATH** if the clone fails: build from OneDrive alone.
 
 **Email:** subject `Grid Docket — <D Mon> · <N> high-impact · <three shortest descriptors>` (prefix `[Status] ` when
-RED, `[No sweep] ` for the failure notice). HTML, 400-word target, 600 ceiling. Sections: STATUS CHECK (amber/red
-only) · UPCOMING MILESTONES (always) · THIS WEEK (3–5 high items) · ALSO MOVING (≤6 medium) · LINKS (console
-only) · one-line footer. Fewer than three high items never licenses promoting medium ones.
+RED, `[No sweep] ` for the failure notice). HTML, 400-word target, 600 ceiling. Sections, in this order since 5 Oct
+2026 (Rett): **LINKS** (Excel tracker `#dl.xlsx`, narrative PDF `#dl.pdf`, console; "Links open in Claude for anyone at
+Blue Owl; each download asks once to confirm") · UPCOMING MILESTONES (always; URGENT first) · THIS WEEK (3–5 high
+items) · ALSO MOVING (≤6 medium) · **STATUS CHECK** (amber/red only, last — a RED run is still flagged by the
+`[Status] ` subject prefix) · one-line footer. The console is shared with the Blue Owl organization, so the links work
+for forwarded readers signed in to Claude with a Blue Owl account; a reader not signed in sees a Claude sign-in page
+first. The email cannot carry a real attachment: the Outlook connector's send tools have no attachment field. Fewer than three high items never licenses promoting medium ones.
 
 **Excel delivery mechanics:** binaries can't round-trip through the Graph text/base64 tool path (a 71 KB
 workbook ≈ 385k tokens, silently truncated), and artifacts can't serve .xlsx as a static file. So the console
@@ -989,3 +995,4 @@ Sub 190 and OH documents were DEFERRED_NEEDS_MANUAL on 5 Oct.
 | 2026-10-04 (eve) | Console v8 (commit fbcce31): What changed, Matters, load-scenario tariff tester, conversion deltas and CLOA → ESA ratio, activity over time with coverage marks, Parties, Coverage map, period filter and shareable view links. `build_console.py` emits parts/changes/since/coverage/annotations/parties (`--state`, `--manual-dir`, `--since`); `brief.md` downloads state.json and the manual manifests; parity CI installs pyyaml. Published as artifact version 8 |
 | 2026-10-04 (late) | Consistency pass: stale key statements removed; scheduler guard narrowed to 6 h (an afternoon run no longer suppresses the night's collection); history pull for the new sources since 2025-11-07 with corrections item C-08; Open States pages deeper in history pulls |
 | 2026-10-05 | First full scheduled Sweep and Brief (`rows_p6`, console v9, email). Collector fixes: HTML-instead-of-document detection and per-document re-fetch (152 PUCT files), OCC page-1 PDF fallback, 429 Retry-After. `sweep.md`, `corrections_queue.md`, `SOURCES.md`, `annotations.json` (coverage mark, OK note) and §3, §6–§8, §10, §13, §15, §16, §18–§20 updated; console republished (v10) |
+| 2026-10-05 (am) | Email reordered at Rett's request: LINKS first with direct Excel (`#dl.xlsx`) and narrative PDF (`#dl.pdf`) download links plus the console, STATUS CHECK last. Console gains the `#dl.*` anchors (`console/index.html`, `dlFromHash`); published as version 11. `brief.md`, `trigger_brief.txt` (fallback line) and §3, §4 updated |

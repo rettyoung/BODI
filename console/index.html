@@ -1263,6 +1263,7 @@ $('share').onclick=()=>{
 function fromHash(){
   const h=decodeURIComponent(location.hash.slice(1));
   if(!h)return;
+  if(dlFromHash())return;
   if(h.startsWith('v1.')){applyView(h);return;}
   const el=$(h);if(el)setTimeout(()=>el.scrollIntoView(),50);
 }
@@ -1357,6 +1358,28 @@ async function downloads(d){
     wire('dl-md',files.md&&files.md.name,files.md?fetchBlob(files.md.path):null)
   ].some(Boolean);
   row.hidden=!any;
+  DL_WIRED=true;dlFromHash();
+}
+/* Direct-download links (the weekly email): <console>#dl.xlsx, #dl.pdf or #dl.md opens the page and asks the
+   viewer to save that file at once — the same confirmation as pressing the header button. The anchor is then
+   cleared so a refresh does not ask again. */
+const DLHASH={'dl.xlsx':'dl-xlsx','dl.pdf':'dl-pdf','dl.md':'dl-md'};
+let DL_WIRED=false,DL_TIMER=null;
+function dlFromHash(){
+  const id=DLHASH[decodeURIComponent(location.hash.slice(1))];
+  if(!id)return false;
+  if(!DL_WIRED){
+    /* downloads() has not resolved yet; if the capability never answers, say so rather than doing nothing */
+    if(!DL_TIMER)DL_TIMER=setTimeout(()=>{if(!DL_WIRED){const r=$('dlrow');r.hidden=false;
+      $('dlmsg').textContent='Downloads are not available in this view. Open the console in claude.ai to save the file.';}},12000);
+    return true;
+  }
+  const b=$(id),row=$('dlrow');
+  try{history.replaceState(null,'',location.pathname+location.search);}catch(_){}
+  setTimeout(()=>row.scrollIntoView({block:'center'}),50);
+  if(b&&!b.hidden){b.click();}
+  else{row.hidden=false;$('dlmsg').textContent='That file is not published with this week\'s console.';}
+  return true;
 }
 /* Minimal markdown for the weekly narrative: ### headings, paragraphs, - bullets, **bold**, [text](url). */
 function mdInline(t){

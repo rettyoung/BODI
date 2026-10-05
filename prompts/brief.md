@@ -47,13 +47,13 @@ STEP 2 — STATUS CHECK
 ============================================================
 From the last 4 run records (/GridDocket/runs/) and data/health/ for the last 7 nights in the clone:
   GREEN all reporting | AMBER deferrals (DEFERRED_NEEDS_MANUAL), OCR backlog, read backlog, CANARY_MISS or COLLECTOR_GAP (a night with no complete collector run; caught up the next night), but nothing silent | RED URL drift, SUSPECT_ZERO, ACCESS_REGRESSION on a primary source, open circuit, COLLECTOR_STALE, or a source failing every night.
-RED goes at the very top, above all substance. Name the likely cause of any SUSPECT_ZERO (including a renamed filing entity: Westar → Evergy, PNM Resources → TXNM). Never report a source listed in state.EXPLICIT_NEGATIVES as a gap. Report state.REMAINING_GAPS items while they persist. Name a manual-route state that went without a manual drop for more than 14 days.
+In the EMAIL the status check is the LAST section, just above the footer (Rett, 5 Oct 2026); a RED status is still flagged up front by the subject prefix "[Status] ". In narrative.md and the console it stays first. Name the likely cause of any SUSPECT_ZERO (including a renamed filing entity: Westar → Evergy, PNM Resources → TXNM). Never report a source listed in state.EXPLICIT_NEGATIVES as a gap. Report state.REMAINING_GAPS items while they persist. Name a manual-route state that went without a manual drop for more than 14 days.
 Write status.json for the console: {"level": "green"|"amber"|"red", "label": "<one line>", "items": [{"b": "<bold lead>", "t": "<sentence>"}]} — at most 7 items.
 
 ============================================================
 STEP 3 — UPCOMING MILESTONES (mandatory, never omitted)
 ============================================================
-There is no same-day alert by design; this section carries all deadline risk. Scan EVERY open row (not only new ones) for Next Date within the next 30 days, merge state.near_term_milestones, dedupe, sort ascending: date, jurisdiction, docket, what happens, days remaining. Inside 7 days = URGENT, placed directly below the status check. A past-dated milestone with no recorded outcome is listed as "outcome needed". None → "No milestones inside 30 days."
+There is no same-day alert by design; this section carries all deadline risk. Scan EVERY open row (not only new ones) for Next Date within the next 30 days, merge state.near_term_milestones, dedupe, sort ascending: date, jurisdiction, docket, what happens, days remaining. Inside 7 days = URGENT, listed first and marked URGENT. A past-dated milestone with no recorded outcome is listed as "outcome needed". None → "No milestones inside 30 days."
 
 ============================================================
 STEP 4 — SYNTHESIS AND THE NARRATIVE
@@ -90,12 +90,17 @@ STEP 7 — EMAIL
 ============================================================
 To rett.young@blueowl.com only. No cc, no bcc.
 SUBJECT: Grid Docket — <D Mon> · <N> high-impact · <three shortest item descriptors>. Prefix "[Status] " when RED; "[No sweep] " for the P1 failure notice.
-BODY: HTML, phone-readable, 400 words target, 600 ceiling.
-  1. STATUS CHECK — only when amber or red.
-  2. UPCOMING MILESTONES — next 30 days, dated list. Always present.
+BODY: HTML, phone-readable, 400 words target, 600 ceiling (the LINKS block does not count toward it). Sections in this order (Rett, 5 Oct 2026):
+  1. LINKS — first, always, exactly these three lines (C = https://claude.ai/artifact/JJ8FYdvfZ2WPg6r4UpFXbW):
+       <a href="C#dl.xlsx">Excel tracker (.xlsx)</a> — direct download of the full master workbook
+       <a href="C#dl.pdf">Weekly narrative (.pdf)</a> — direct download of this week's report
+       <a href="C">Console</a> — the interactive tool over all history
+     then one short line: "Links open in Claude for anyone at Blue Owl; each download asks once to confirm."
+     The #dl.* anchors make the console ask the reader to save that file as soon as it opens (console/index.html, dlFromHash). If Step 5 built no narrative PDF (R4 skipped it), drop the PDF line and say so in the footer. If the workbook sanity check failed, keep the Excel line (the in-browser workbook still builds from the full table) and say so in the status check.
+  2. UPCOMING MILESTONES — next 30 days, dated list, URGENT items first. Always present.
   3. THIS WEEK — High / near-term, three to five maximum: bold headline, the takeaway, "Next: <milestone>, <date>", confidence label, linked document.
   4. ALSO MOVING — Medium / long-term, one line each, maximum six.
-  5. LINKS — the console, where the Excel tracker and the narrative PDF download from the header.
+  5. STATUS CHECK — only when amber or red; last section. When RED it opens with the RED label and the likely cause.
   6. One-line footer: 25 utilities · 8 RTOs · 18 jurisdictions · events this week / rows this week · anything deferred.
 Fewer than three high items does NOT license promoting medium ones. A short brief is a true brief.
 
@@ -119,4 +124,4 @@ R2. data.json for the console, written with a short Python script:
 R2a. The page renders without parts, changes, coverage, annotations and parties: What changed then falls back to Event ID discovery dates, and the coverage view says it has no data. Add "since": state.last_brief_date to data.json so the change view has its baseline.
 R3. Artifact action "read" on the console URL; it names the saved file holding the current page. Publish to the SAME url with that saved file as file_path (unchanged — it already contains the in-browser Excel builder) and files {data.json, status.json, narrative.md, metrics.json, tariff_terms.json} (metrics and tariffs read from OneDrive). No icon, no capabilities.
 R4. Narrative PDF: if pandoc and a PDF engine are available, render narrative.md to Grid_Docket_Weekly_<D>.pdf and add it to files and to data.json "files.pdf"; otherwise skip the PDF and say so in the email footer.
-R5. The Excel tracker is then available from the console's header button (built in the browser from data.json).
+R5. The Excel tracker is then available from the console's header button and the email's C#dl.xlsx link (built in the browser from data.json).
