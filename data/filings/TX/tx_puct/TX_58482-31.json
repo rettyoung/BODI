@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "ESA"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58482_31_1669825.ZIP",
+   "name": null,
+   "bytes": 139103,
+   "sha256": "ebc50951d74efe2a4910acff36e207119e52a821367c9f728e62fb520b6310b9",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 58482 TEXAS REGISTER ACKNOWLEDGMENT OF RECEIPT -Comment Deadline 09.04.2026.pdf ===\nFrom:            register@sos.texas.gov on behalf of Texas Secretary of State\nTo:              Katelyn Lewis\nSubject:         TEXAS REGISTER ACKNOWLEDGMENT OF RECEIPT - SUBMISSION TRD 202603227\nDate:            Thursday, July 30, 2026 1:05:34 PM\n\n\n\n\n                                  CAUTION - EXTERNAL EMAIL\n                             Phishing? Click the PUC Phish Report button.\n\n\n\n\n           ACKNOWLEDGEMENT OF RECEIPT\n\n           Please note that this email acknowledges receipt of your submission only. If we find\n           that the document or submission form does not conform to statutory filing\n           requirements or our administrative rules, we may refuse to accept it for filing and\n           publication. We will notify you if your submission is refused.\n\n           TRD Number: 202603227\n           For Issue of: 08/14/2026\n\n           Submitted Date/Time: 07/30/2026 01:04 PM CDT\n\n           Proposed Rulemaking Submission\n\n           Agency: Public Utility Commission of Texas\n           Certifying Official’s Name: Katelyn Lewis\n           Certifying Official’s Title: Rules Coordinator\n           Phone # for Public Inquiries: 15129367044\n           Liaison: katelyn.lewis@puc.texas.gov\n\n           Title: 16\n           Title Name: ECONOMIC REGULATION\n           Part: 2\n           Part Name: PUBLIC UTILITY COMMISSION OF TEXAS\n           Chapter: 25\n           Chapter Name: SUBSTANTIVE RULES APPLICABLE TO ELECTRIC\n           SERVICE PROVIDERS\n           Subchapter: S\n           Subchapter Name: WHOLESALE MARKETS\n           Division: N/A\n           Division Name: N/A\n           TAC Rule Number(s): 25.521\n\n           Action: New\n\n           Comments: Please email me directly if you have any questions or concerns! :)\n\f\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58482_31_1669826.PDF",
+   "name": null,
+   "bytes": 185811,
+   "sha256": "1d530849a6b9c9351b3f17101b5b937a1b213139a8e3fb373dc4ea69d0782c6b",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-07-30 08:10:27 PM\n\nControl Number - 58482\n\nItem Number - 31\n\fFronn:            reaister@sos.texas.aov on behalf of Texas Secretary of State\nTo:               Katelyn Lewis\nSubject:          TEXAS REGISTER ACKNOWLEDGMENT OF RECEIPT - SUBMISSION TRD 202603227\nDate:             Thursday, July 30,2026 1:05:34 PM\n\n\n\n\n                                    CAUTION - EXTERNAL EMAIL\n                              Phishing? Click the PUC Phish Report button.\n\n\n\n\n                          m\n\n           ACKNOWLEDGEMENT OF RECEIPT\n\n           Please note that this email acknowledges receipt ofyour submission only. If we find\n           that the document or submission form does not conform to statutory filing\n           requirements or our administrative rules, we may refuse to accept it for filing and\n           publication. We will notify you ifyour submission is refused.\n\n           TRD Number: 202603227\n           For Issue of: 08/14/2026\n\n           Submitted Date/Time: 07/30/2026 01:04 PM CDT\n\n           Proposed Rulemaking Submission\n\n           Agency: Public Utility Commission of Texas\n           Certifying Official's Name: Katelyn Lewis\n           Certifying Official's Title: Rules Coordinator\n           Phone # for Public Inquiries: 15129367044\n           Liaison: katelyn.lewis@puc.texas.gov\n\n           Title: 16\n           Title Name: ECONOMIC REGULATION\n           Part: 2\n           Part Name: PUBLIC UTILITY COMMISSION OF TEXAS\n           Chapter: 25\n           Chapter Name: SUBSTANTIVE RULES APPLICABLE TO ELECTRIC\n           SERVICE PROVIDERS\n           Subchapter: S\n           Subchapter Name: WHOLESALE MARKETS\n           Division: N/A\n           Division Name: N/A\n           TAC Rule Number(s): 25.521\n\n           Action: New\n\n           Comments: Please email me directly ifyou have any questions or concerns! :)\n\f\f"
+  }
+ ],
+ "enriched_at": "2026-10-05T17:54:00Z"
 }

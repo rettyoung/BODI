@@ -17,7 +17,38 @@
  ],
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "curtailment",
+  "emergency",
+  "interconnection",
+  "large load"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58482_33_1670662.ZIP",
+   "name": null,
+   "bytes": 216011,
+   "sha256": "c26c77ee213d145896d9028f8662f6f4b5474892ae0e16cc935c065600c3f1be",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== pUCT 58482.docx ===\nPUBLIC COMMENT OF HELEN BRYANT\n\nPUCT PROJECT NO. 58482\n\nLARGE LOAD DEMAND MANAGEMENT SERVICE\n\nPROPOSED NEW 16 TAC §25.521\n\nTo the Public Utility Commission of Texas\n\n• Large loads should not be paid to reduce demand they voluntarily placed on the grid.\n\n• Emergency demand reduction should be required through binding interconnection agreements.\n\n• Large loads should pay the cost of their own curtailment equipment, testing, metering, and compliance.\n\n• Residential customers and small businesses should not subsidize the program.\n\n• Large customers that refuse or fail to curtail should face substantial penalties.\n\n• Serious or repeated failure should result in suspension from the ERCOT grid.\n\n• Companies should not be allowed to collect overlapping payments from multiple programs for the same reduction.\n\n• ERCOT should independently verify actual performance.\n\n• All payments, failures, penalties, waivers, and delivered megawatts should be publicly reported.\n\n• A “critical load” exemption should require proof of a genuine public-health or public-safety need—not mere financial inconvenience."
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58482_33_1670663.PDF",
+   "name": null,
+   "bytes": 96596,
+   "sha256": "c8bb4cb9a9c323e2adf3e6ea291b99bc5f890433f0a0081ab0841c594f6250b5",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-08-03 08:04:26 PM\n\nControl Number - 58482\n\nItem Number - 33\n\fPUBLIC COMMENT OF HELEN BRYANT\n\nPUCT PROJECT NO. 58482\n\nLARGE LOAD DEMAND MANAGEMENT SERVICE\n\nPROPOSED NEW 16 TAC §25.521\n\nTo the Public Utility Commission of Texas\n\n• Large loads should not be paid to reduce demand they voluntarily placed on the grid.\n\n• Emergency demand reduction should be required through binding interconnection agreements.\n\n• Large loads should pay the cost oftheir own curtailment equipment, testing, metering, and\ncompliance.\n\n• Residential customers and small businesses should not subsidize the program.\n\n• Large customers that refuse or fail to curtail should face substantial penalties.\n\n• Serious or repeated failure should result in suspension from the ERCOT grid.\n\n• Companies should not be allowed to collect overlapping payments from multiple programs for\nthe same reduction.\n\ne ERCOT should independently verify actual performance.\n\n• All payments, failures, penalties, waivers, and delivered megawatts should be publicly\nreported.\n\n• A \"critical load\" exemption should require proof of a genuine public-health or public-safety\nneed-not mere financial inconvenience.\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-05T17:53:32Z"
 }

@@ -17,7 +17,36 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "data center",
+  "large-load"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6493_1680485.ZIP",
+   "name": null,
+   "bytes": 567772,
+   "sha256": "2da55a43f452af552eff219e3a2be561a073c2847910975afbfd69f8d9eec5a4",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Public Comment Regarding the 765-kV Strategic Transmission Expansion Plan.pdf ===\nSeptember 1st, 2026\n\nTo the Commissioners of the Public Utility Commission of Texas:\n\nMy name is Clayton Tucker. I am a rancher from Lampasas, Secretary of the Texas Farmers Union,\nand a candidate for Texas Agriculture Commissioner. I urge the Public Utility Commission to halt the\nproposed 765-kV Strategic Transmission Expansion Plan until the Texas Legislature expressly\nauthorizes these projects and stronger protections are put in place for Texas landowners and\nratepayers.\n\nThis issue is personal to me. A few years ago, my family had to fight the Lower Colorado River\nAuthority over plans to put massive transmission lines through our family farm. I know firsthand what\nit is like for a family to fight to protect its land.\n\nThe proposed 765-kV expansion could take productive farms and ranches out of use, reduce\nproperty values, disturb soil, and leave landowners fighting to protect their own property. Texans\ndeserve meaningful input before projects of this size move forward. Landowners should be involved\nfrom the beginning, rather than after major decisions have already been made.\n\nWe also need to be clear about who will pay for this expansion. Texas is facing enormous new\nelectricity demand from AI data centers and other large-load customers. Rural Texans should not\nlose their land while working families across the state are stuck with higher electric bills to build\ninfrastructure serving some of the wealthiest corporations in the world.\n\nTexas needs a reliable electric grid, but we should build it responsibly and with the consent of the\npeople it affects. I urge the PUC to halt the 765-kV STEP projects until the Legislature expressly\nauthorizes this expansion, landowners have a meaningful seat at the table, and safeguards ensure\nordinary Texans are not forced to shoulder the costs created by massive new corporate loads.\n\nOur electric grid should serve Texans. Texans should not be forced to serve the grid.\n\nRespectfully,\n\n\n\n\nClayton Tucker​\nCandidate for Texas Agriculture Commissioner​\nRancher, Lampasas, Texas\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6493_1680486.PDF",
+   "name": null,
+   "bytes": 109109,
+   "sha256": "501289e2f80134e68259012196122cacbeeb240db1e6dbccf61251c939318d87",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-05 01:41:37 PM\n\nControl Number - 59475\n\nItem Number - 6493\n\f                                O CLAYTON\n                           1OCKER\n                             FOR AG COMMISSIONER\nSeptember 1st, 2026\n\nTo the Commissioners of the Public Utility Commission of Texas:\n\nMy name is Clayton Tucker. I am a rancher from Lampasas, Secretary of the Texas Farmers Union,\nand a candidate for Texas Agriculture Commissioner. I urge the Public Utility Commission to halt the\nproposed 765-kV Strategic Transmission Expansion Plan until the Texas Legislature expressly\nauthorizes these projects and stronger protections are put in place for Texas landowners and\nratepayers.\n\nThis issue is personal to me. A few years ago, my family had to fight the Lower Colorado River\nAuthority over plans to put massive transmission lines through our family farm. I know firsthand what\nit is like for a family to fight to protect its land.\n\nThe proposed 765-kV expansion could take productive farms and ranches out of use, reduce\nproperty values, disturb soil, and leave landowners fighting to protect their own property. Texans\ndeserve meaningful input before projects of this size move forward. Landowners should be involved\nfrom the beginning, rather than after major decisions have already been made.\n\nWe also need to be clear about who will pay for this expansion. Texas is facing enormous new\nelectricity demand from AI data centers and other large-load customers. Rural Texans should not\nlose their land while working families across the state are stuck with higher electric bills to build\ninfrastructure serving some of the wealthiest corporations in the world.\n\nTexas needs a reliable electric grid, but we should build it responsibly and with the consent of the\npeople it affects. I urge the PUC to halt the 765-kV STEP projects until the Legislature expressly\nauthorizes this expansion, landowners have a meaningful seat at the table, and safeguards ensure\nordinary Texans are not forced to shoulder the costs created by massive new corporate loads.\n\nOur electric grid should serve Texans. Texans should not be forced to serve the grid.\n\nRespectfully,\n\n\n\n\nClayton Tucker\nCandidate for Texas Agriculture Commissioner\nRancher, Lampasas, Texas\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-05T17:37:57Z"
 }

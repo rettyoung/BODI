@@ -1,0 +1,53 @@
+{
+ "id": "TX:59611-42",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59611",
+ "title": "10/5/2026 | EL PASO ELECTRIC COMPANY | RFI | EPE's Response to TIEC's 2nd RFI",
+ "filed": "2026-10-05",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59611&itemNumber=42",
+ "fetch": [
+  {
+   "tx_item": [
+    "59611",
+    "42"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-05T17:12:33Z",
+ "run_id": "2026-10-05-1653",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [
+  "Texas Industrial Energy Consumers"
+ ],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_42_1689924.ZIP",
+   "name": null,
+   "bytes": 817696,
+   "sha256": "c6a9affe6c01d0e33e024e20c46f898ae65a7294cc15deaece975d9f1ca0a284",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== EPE's Response to TIEC's 2nd RFI.pdf ===\n                             SOAH DOCKET NO. 473-26-24718\n                                PUC DOCKET NO. 59611\n\nAPPLICATION OF EL PASO                          §        BEFORE THE STATE OFFICE\nELECTRIC COMPANY FOR APPROVAL                   §\nOF A HIGH LOAD FACTOR LARGE                     §                       OF\nPOWER SERVICE TARIFF                            §\n                                                §       ADMINISTRATIVE HEARINGS\n\n                    EL PASO ELECTRIC COMPANY'S RESPONSE TO\n                     TEXAS INDUSTRIAL ENERGY CONSUMERS’\n                        SECOND REQUEST FOR INFORMATION\n                              QUESTION NO. TIEC 2-1\n\nTIEC 2-1:\n\n      Referring to page 3 of the Application:\n\n      a.    Please define the term “advanced manufacturing customers” and identify examples\n\n            of types of customers that would qualify under EPE’s definition. In responding,\n\n            please provide EPE’s reasoning for selecting that definition.\n\n      b.    Please explain how EPE selected 85% annual load factor as a threshold for eligibility\n\n            under the proposed tariff.\n\n\n\nRESPONSE:\n\n      a.    Advanced manufacturing is the production of physical goods using highly automated,\n\n            digitally integrated, precision, or technologically innovative processes, or the\n\n            manufacture of technologically advanced products or materials, typically involving\n\n            substantial application of computing, robotics, advanced materials, process controls,\n\n            or other emerging technologies.\n\n                   This definition is broad enough to encompass semiconductors, batteries,\n\n            aerospace, advanced energy technologies and precision manufacturing, while\n\n            avoiding the tendency to label virtually every modern industrial or commercial\n\n\n                                                                                                    1\n\f                                                             SOAH DOCKET NO. 473-26-24718\n                                                                    PUC DOCKET NO. 59611\n                                                                  TIEC's 2nd, Q. No. TIEC 2-1\n                                                                                   Page 2 of 2\n\n            facility “advanced manufacturing.” Customers meeting this definition also share\n\n            electrical characteristics with data centers, such as –\n\n            •     Large, concentrated loads — semiconductor fabricators and battery plants can\n\n                  reach hundreds of MW.\n\n            •     High load factors — many operate continuously or nearly continuously.\n\n            •     High reliability/power-quality requirements — voltage excursions or\n\n                  momentary interruptions can destroy work-in-process or disrupt highly\n\n                  controlled processes.\n\n            •     Long-lived infrastructure requirements — transmission, substations and\n\n                  generation may need to be developed specifically to accommodate a facility.\n\n            •     Rapid load ramps — a facility can add several hundred MW much faster than\n\n                  traditional industrial or manufacturing load.\n\n      b.    EPE elected the 85% threshold for the proposed high-load factor tariff to establish a\n\n            consistent load profile across eligible customers. EPE’s existing large load rate class\n\n            has an average load factor on the order of 60%-70%, with customers significantly\n\n            smaller than what is expected with data centers. The threshold is intended to\n\n            encompass inference data center characteristics while also capturing AI-training and\n\n            advanced manufacturing. Experience going forward may inform a revised threshold\n\n            or potentially require addition of another class for very large customers not meeting\n\n            the 85% threshold.\n\n\n\nPreparer: James Schichtl                       Title:   VP – Regulatory Strategy\n\nSponsor: James Schichtl                        Title:   VP – Regulatory Strategy\n\n\n                                                                                                      2\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59611_42_1689925.PDF",
+   "name": null,
+   "bytes": 122717,
+   "sha256": "c678bad2db95e96099b30dee9835466f4281c71bbf5b030a3788b1f2d26773dc",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-10-05 08:30:40 AM\n\nControl Number - 59611\n\nItem Number - 42\n\f                             SOAH DOCKET NO. 473-26-24718\n                                PUC DOCKET NO. 59611\n\n\nAPPLICATION OF EL PASO                           §        BEFORE THE STATE OFFICE\nELECTRIC COMPANY FOR APPROVAL                    §\nOF A HIGH LOAD FACTOR LARGE                      §                           OF\nPOWER SERVICE TARIFF                             §\n                                                 §       ADMINISTRATIVE HEARINGS\n\n\n                    EL PASO ELECTRIC COMPANY'S RESPONSE TO\n                     TEXAS INDUSTRIAL ENERGY CONSUMERS'\n                        SECOND REQUEST FOR INFORMATION\n                              QUESTION NO. TIEC 2-1\n\n\nTIEC 2-1:\n\n      Referring to page 3 of the Application:\n\n      a.    Please define the term \"advanced manufacturing customers\" and identify examples\n\n            of types of customers that would qualify under EPE' s definition. In responding,\n\n            please provide EPE' s reasoning for selecting that definition.\n\n      b.    Please explain how EPE selected 85% annual load factor as a threshold for eligibility\n\n            under the proposed tariff.\n\n\n\nRESPONSE:\n\n      a.    Advanced manufacturing is the production ofphysical goods using highly automated,\n\n            digitally integrated, precision, or technologically innovative processes, or the\n\n            manufacture of technologically advanced products or materials, typically involving\n\n            substantial application of computing, robotics, advanced materials, process controls,\n\n            or other emerging technologies.\n\n                   This definition is broad enough to encompass semiconductors, batteries,\n\n            aerospace, advanced energy technologies and precision manufacturing, while\n\n            avoiding the tendency to label virtually every modern industrial or commercial\n\f                                                               SOAH DOCKET NO. 473-26-24718\n                                                                      PUC DOCKET NO. 59611\n                                                                    TIEC's 2nd, Q. No. TIEC 2-1\n                                                                                     Page 2 of 2\n\n             facility \"advanced manufacturing.\" Customers meeting this definition also share\n\n             electrical characteristics with data centers, such as -\n\n              •    Large, concentrated loads - semiconductor fabricators and battery plants can\n\n                    reach hundreds of MW.\n\n              •    High load factors - many operate continuously or nearly continuously.\n\n              •    High reliability/power-quality requirements - voltage excursions or\n\n                    momentary interruptions can destroy work-in-process or disrupt highly\n\n                    controlled processes.\n\n              •    Long-lived infrastructure requirements - transmission, substations and\n\n                    generation may need to be developed specifically to accommodate a facility.\n\n              •    Rapid load ramps - a facility can add several hundred MW much faster than\n\n                   traditional industrial or manufacturing load.\n\n       b.    EPE elected the 85% threshold for the proposed high-load factor tariff to establish a\n\n             consistent load profile across eligible customers. EPE' s existing large load rate class\n\n             has an average load factor on the order of 60%-70%, with customers significantly\n\n             smaller than what is expected with data centers.          The threshold is intended to\n\n             encompass inference data center characteristics while also capturing AI-training and\n\n             advanced manufacturing. Experience going forward may inform a revised threshold\n\n             or potentially require addition of another class for very large customers not meeting\n\n             the 85% threshold.\n\n\n\nPreparer:   James Schichtl                      Title:   VP - Regulatory Strategy\n\nSponsor:    James Schichtl                      Title:   VP - Regulatory Strategy\n\f"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "OK:21299331",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000031",
+ "title": "OCC PUD2026-000031 document PUD2026-000031_131_Coversheet_Confidential_Testimony_Summary_of_Gwin_Cash_filed_on_behalf_of_O (0 pages - 99 KB): CASE PUD 2026-000031 ENTRY NO. 131 FILED IN OCC COURT CLERK'S OFFICE ON 08/31/2026 - PAGE 1 OF 1 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN T",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21299331&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21299331&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21299331,
+  "pages": "0 pages - 99 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-05T17:20:30Z",
+ "run_id": "2026-10-05-1653",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21299331&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 101406,
+   "sha256": "f5086e6f0057b916092531b1439f72cb5e42975bb9409dbf36eaeb2703d9d6da",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "CASE PUD 2026-000031 ENTRY NO. 131 FILED IN OCC COURT CLERK'S OFFICE ON 08/31/2026 - PAGE 1 OF 1\n\n\n\n\n           BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n          IN THE MATTER OF THE APPLICATION OF                  )\n          OKLAHOMA GAS AND ELECTRIC COMPANY                    ) Case No. PUD2026-000031\n          FOR COMMISSION APPROVAL OF ELECTRIC                  )\n          SERVICE AGREEMENTS AND PREAPPROVAL                   )\n          OF CAPACITY PURCHASE AGREEMENTS                      )\n          PURSUANT TO 17 O.S. § 286(C)                         )\n\n\n                        Coversheet Confidential Testimony Summary of Gwin Cash\n\n         Direct Testimony\n\n\n\n\n         Coversheet Confidential Testimony Summary of Gwin Cash                         Page 1 of 1\n         Case No. PUD2026-000031\n\f"
+  }
+ ]
+}

@@ -19,5 +19,19 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6401_1662739.PDF",
+   "name": null,
+   "bytes": 15806,
+   "sha256": "0be54f12f4851978d49483426efbe2a3490b4114348c1e8822507476e9b2b72d",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 1,
+   "truncated": false,
+   "text": "MULT\n\nControl Number: 59475\n\nSU\n\nItem Number: 6401\n\nTRANSCRIPT\n"
+  }
+ ],
+ "enriched_at": "2026-10-05T17:57:57Z"
 }

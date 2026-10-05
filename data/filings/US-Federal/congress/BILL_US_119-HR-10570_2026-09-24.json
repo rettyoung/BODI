@@ -1,0 +1,25 @@
+{
+ "id": "BILL:US:119-HR-10570:2026-09-24",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 10570",
+ "title": "No Secrets for Data Centers Act of 2026",
+ "filed": "2026-09-24",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/10570",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committees on Energy and Commerce, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+  "keywords": [
+   "data center",
+   "data centers"
+  ]
+ },
+ "collected_at": "2026-10-05T16:54:00Z",
+ "run_id": "2026-10-05-1653",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

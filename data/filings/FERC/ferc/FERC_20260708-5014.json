@@ -98,5 +98,6 @@
    "truncated": false,
    "text": "GPI Transient Analysis: Internal vs. Grid Current\n\nCurrent (A)\n\n—— Motor Current (Internal)\n* Capacitor Current (Internal)\n=== Grid Current (Source)\n\n2.90 2.92\n\n3.00\n\nData Source: Plotted directly from raw Xyce transient simulation output:\nGPI_Master_Netlist.txt.csv (Interval: 2.90s to 3.00s).\n\nMotor RMS Current (A)\n\n$.2750\n\nMotor Workload Stability Across +20% Capacitor Degradation\n\n§,2745\n\n§.2740 +\n\n§.2735\n\n$.2730 4\n\n§.2725\n\n§.2720\n\n5.2715\n\n§.2710\n\n=@= hternal Motor Current (A)\n=== Min: 5.2724 A\n~~ Max:5.2741A\n\nTotal Variance: 0.032%\n(1.68 mA delta)\n\n90 100 110 120 130\nManifold Capacitance Drift (uF)\n\n\fVAR Offloading Efficiency (%)\n\nUpstream Grid Current (A)\n\n13\n\nNv\n\n°\n\n09\n\n08\n\nVAR Virtualization Efficiency vs. Component Degradation\n\n—-- 80% Efficiency Threshold\n\nThe Resonance V-Curve: System Response to Capacitance Drift\n\nWI4%\n\nMaster (0%)\n\nCapacitance Degradation State\n\n+10%\n\n1\n\n640\n\nf 620\n\nf 600\n\nf 580\n\nf 560\n\ng\nco}\n\nF 520\n\nno\nCapacitance (UF)\n\n120\n\n130\n\nVARs Offloaded from Grid\n\n"
   }
- ]
+ ],
+ "enriched_at": "2026-10-05T17:56:57Z"
 }

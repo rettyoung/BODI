@@ -1,0 +1,41 @@
+{
+ "id": "OK:21395315",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000031",
+ "title": "OCC PUD2026-000031 document PUD2026-000031_156_Public_Comment_of_State_Representative_Tom_Gann (0 pages - 1020 KB): CASE PUD 2026-000031 ENTRY NO. 156 FILED IN OCC COURT CLERK'S OFFICE ON 10/05/2026 - PAGE 1 OF 2 ",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21395315&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21395315&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21395315,
+  "pages": "0 pages - 1020 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-05T17:19:54Z",
+ "run_id": "2026-10-05-1653",
+ "keywords": [
+  "data center",
+  "large-load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21395315&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 1046121,
+   "sha256": "b76dc9a784bf0f7c82a3b592ef38e4892c47b448bbf282c23e9a68aff642c66a",
+   "ctype": "application/octet-stream",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 2,
+   "truncated": false,
+   "text": "CASE PUD 2026-000031 ENTRY NO. 156 FILED IN OCC COURT CLERK'S OFFICE ON 10/05/2026 - PAGE 10F 2\n\nTHE OKLAHOMAN #2 FILE\n\nGUEST | Opinion This piece expresses the views of its author(s), separate from those of this publication.\n\nOK utility customers have rare legal rights\nworth defending | Opinion\n\nBob Anthony Guest columnist\nSept. 30, 2026, 6:30 a.m. CT\n\nAs they grapple with legitimate issues involving data centers, water, transmission lines,\nan aluminum smelter, utility rates, the environment and basic affordability, Oklahoma\nutility customers are fortunate that the framers of the Oklahoma Constitution provided\nthem with some of the strongest consumer protections of any state in the nation. They\nshould immediately be skeptical of any effort to curtail ratepayers’ legal rights —\nespecially a constitutional convention seeking to amend them.\n\nWritten at the turn of the 20th century by trust-busting leaders seeking to rein in the\npower of monopolies, Article 9 of the Oklahoma Constitution establishes a state\nCorporation Commission with more than just the power to regulate. Commissioners have\nmandatory constitutional duties, including “to inspect the books and papers” of regulated\ncompanies, to set rates that are “reasonable and just,” to “correct abuses” and to “prevent\nunjust discrimination.” That includes making sure that existing customers don’t unfairly\npay for new generation, transmission and other infrastructure upgrades required to serve\ndata centers and other large-load customers as they come online.\n\nAnd in case the Corporation Commission fails to do its duty, the Constitution gives any\n“aggrieved” utility customer the right to appeal a commission utility order directly to the\nOklahoma Supreme Court.\n\nIn every such appeal, Article 9, Section 20 requires the Supreme Court to determine\nwhether the commission’s order is sustained by the law and substantial evidence. The\ncourt is also required to determine whether the commission has regularly pursued its\nauthority — not just, did it keep within the limits of its powers, but did the commission\n\n\fCASE PUD 2026-000031 ENTRY NO. 156 FILED IN OCC COURT CLERK'S OFFICE ON 10/05/2026 - PAGE 20F 2\n\nfulfill its regulatory duties required by the constitution. Thus, any individual ratepayer\ncan hold the Corporation Commission accountable.\n\nAppeal of certain commission orders “shall be to the Supreme Court only” and “such\nappeal shall be of right,” and I believe ratepayers are entitled to due process of law,\nincluding notice and hearing. Furthermore, the Oklahoma Constitution states, “All such\nappeals, affecting rates, charges, practices, rules or regulations of any public utility, or\nany public service corporation, or any individual, person, firm, corporation, receiver or\ntrustee engaged in the public utility business, shall have precedence upon the docket of\nthe Supreme Court, irrespective of its place of session, next after habeas corpus cases, to\nthe end that a plain, speedy, and efficient remedy may be afforded the parties to such\nappeals.”\n\nLove crosswords? Explore the Crossword page and play the new MidGrid Crossword.\n\nSome may think there have been too many ratepayer-led commission utility appeals in\nrecent years. I disagree. The attorney general has a statutory duty to represent the\ncollective interests of utility customers in commission utility cases, but by my count, the\nlast attorney general to bring an appeal of a commission utility case on behalf of\nconsumers was Susan Loving in 1992!\n\nWhen Corporation Commissioners and the attorney general both fail to do their duty to\nprotect the public, aggrieved utility customers should exercise their constitutional right to\nask the Supreme Court to step in. The solution to having too many Supreme Court\nappeals is not to eliminate that constitutional consumer protection; the solution is for\nelected officials to do their duty and follow the law.\n\nIn 1989, some constitutional convention advocates proposed to dramatically alter Article\ng. I opposed it then, and I would oppose it again today. Before considering any changes to\nour Constitution, Oklahomans should make sure they understand the specific legal\nprotections that currently exist to protect customers from monopoly public utilities as\nwell as to ensure an open regulatory process with just results in the public interest.\n\nBob Anthony was an Oklahoma Corporation Commissioner from 1989-2025.\n"
+  }
+ ]
+}

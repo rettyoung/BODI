@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "transmission service"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6469_1679647.ZIP",
+   "name": null,
+   "bytes": 113458,
+   "sha256": "57df062e7ca4dcacb162bb5ac4122ed4d35b0d5731daa2d061f7107b6f0bb756",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 59475 CE Stephens Properties' Exceptions to the PFD 9.02.26.pdf ===\n             HERRERA LAW\n                           PLLC\n             & ASSOCIATES,\n\n              4400 Medical Parkway                                             o 512.474.1492 / m 512.653.6462\n              Austin, Texas 78756                                                 aherrera@herreralawpllc.com\n              P.O. Box 302799\n              Austin, Texas 78703\n\n\nSeptember 2, 2026\n\n\nRon Olson\nCommission Counsel\nPublic Utility Commission of Texas\n1701 N. Congress Avenue\n\nRe:     PUC Docket No. 59475; SOAH Docket No. 473-26-16349 – Joint Application of Oncor\n        Electric Delivery Company LLC and LCRA Transmission Service Corporation to Amend\n        Their Certificates of Convenience and Necessity for the Bell County East Switch to Big Hill\n        Substation 765-kV Transmission Line Project in Bell, Burnet, Concho, Coryell, Lampasas,\n        Llano, Mason, McCulloch, Menard, Milam, Mills, San Saba, Schleicher, Tom Green, and\n        Williamson Counties\n\nDear Mr. Olson,\n\nOn August 20, 2026, the SOAH Administrative Law Judges filed a Proposal for Decision to be\nconsidered by the Commissioners. On that same date, Commission Counsel filed a memorandum\nin Docket No. 59475 setting the deadline for parties to file exceptions to the Proposal for Decision\non September 2, 2026. The memorandum also set a deadline for filing replies to exceptions on\nSeptember 9, 2026.\n\nIn lieu of filing exceptions to the Proposal for Decision, CE Stephens Properties LLC (CE\nStephens) files this letter to express its support for the Proposal for Decision’s recommendation to\ndeny the application. In the alternative, if the Commission determines otherwise, CE Stephens\nsupports the selection of Route 894 for the 765-kV transmission line for the portion of Import Path\n2.\n\nRespectfully submitted,\n\n/s Sergio E. Herrera\nSergio E. Herrera\nState Bar No. 24109999\nHerrera Law and Associates, PLLC\n4400 Medical Parkway\nAustin, Texas 78756\n\nAttorney for the CE Stephens Properties LLC\n\ncc: All Parties of Record\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6469_1679648.PDF",
+   "name": null,
+   "bytes": 107929,
+   "sha256": "ad14ba135d7fe61d55e03eb6c860ef1dd6c89307a73c351e6e105e4491acfbb0",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-02 04:12:44 PM\n\nControl Number - 59475\n\nItem Number - 6469\n\f             HERRERA LAW\n                                     PLLC\n             & ASSOCIATES,\n\n              4400 Medical Parkway                                              o 512.474.1492 /m 512.653.6462\n              Austin, Texas 78756                                                 aherrera(@herreralawpllc.com\n              P.O. Box 302799\n              Austin, Texas 78703\n\n\n\nSeptember 2,2026\n\n\nRon Olson\nCommission Counsel\nPublic Utility Commission of Texas\n1701 N. Congress Avenue\n\nRe :    PUC Docket No . 59475 ; SOAH Docket No . 473 - 26 - 16349 - Joint Application of Oncor\n        Electric Delivery Company LLC and LCRA Transmission Service Corporation to Amend\n        Their Certificates of Convenience and Necessity for the Bell County East Switch to Big Hill\n        Substation 765-kV Transmission Line Project in Bell, Burnet, Concho, Coryell, Lampasas,\n        Llano, Mason, McCulloch, Menard, Milam, Mills, San Saba, Schleicher, Tom Green, and\n        Williamson Counties\n\nDear Mr. Olson,\n\nOn August 20,2026, the SOAH Administrative Law Judges filed a Proposal for Decision to be\nconsidered by the Commissioners. On that same date, Commission Counsel filed a memorandum\nin Docket No. 59475 setting the deadline for parties to file exceptions to the Proposal for Decision\non September 2,2026. The memorandum also set a deadline for filing replies to exceptions on\nSeptember 9,2026.\n\nIn lieu of filing exceptions to the Proposal for Decision, CE Stephens Properties LLC (CE\nStephens) files this letter to express its support for the Proposal for Decision' s recommendation to\ndeny the application. In the alternative, if the Commission determines otherwise, CE Stephens\nsupports the selection ofRoute 894 for the 765-kV transmission line for the portion of Import Path\n2.\n\nRespectfully submitted,\n\n/s Sergio E. Herrera\nSergio E. Herrera\nState Bar No. 24109999\nHerrera Law and Associates, PLLC\n4400 Medical Parkway\nAustin, Texas 78756\n\nAttorney for the CE Stephens Properties LLC\n\ncc: All Parties of Record\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-05T17:39:54Z"
 }

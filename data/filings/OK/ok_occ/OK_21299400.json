@@ -1,0 +1,38 @@
+{
+ "id": "OK:21299400",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000031",
+ "title": "OCC PUD2026-000031 document PUD2026-000031_140_OSN_Witness_List_filed_on_behalf_of_OKLAHOMA_SUSTAINABILITY_NETWORK (0 pages - 287 KB): CASE PUD 2026-000031 ENTRY NO. 140 FILED IN OCC COURT CLERK'S OFFICE ON 08/31/2026 - PAGE 1 OF 3 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN T",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21299400&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21299400&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21299400,
+  "pages": "0 pages - 287 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-05T17:20:07Z",
+ "run_id": "2026-10-05-1653",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21299400&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 293378,
+   "sha256": "40fbcc3d6a832ea3f32606a2c5af885dbd90294535657c2b5674cee2c38adb88",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "CASE PUD 2026-000031 ENTRY NO. 140 FILED IN OCC COURT CLERK'S OFFICE ON 08/31/2026 - PAGE 1 OF 3\n\n\n\n\n               BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n          IN THE MATTER OF THE APPLICATION OF                      )\n          OKLAHOMA GAS AND ELECTRIC COMPANY                        ) Case No. PUD2026-000031\n          FOR COMMISSION APPROVAL OF ELECTRIC                      )\n          SERVICE AGREEMENTS AND PREAPPROVAL                       )\n          OF CAPACITY PURCHASE AGREEMENTS                          )\n          PURSUANT 17 O.S. § 286(C)                                )\n\n                     OKLAHOMA SUSTAINABILITY NETWORK’S WITNESS LIST\n\n                COMES NOW Oklahoma Sustainability Network (“OSN”) pursuant to Order No. 758317\n\n         and provides this witness list. OSN does not intend to call any witness during the Hearing on the\n\n         Merits. OSN reserves the right to cross examine any and all witnesses of any other party.\n\n                                                             Respectfully submitted,\n\n\n                                                             ________________________________\n                                                             Adam J. Singer, OBA # 33272\n                                                             Derryberry & Naifeh, LLP\n                                                             4800 North Lincoln Boulevard\n                                                             Oklahoma City, OK 73105\n                                                             (405) 528-6569\n                                                             asinger@derryberrylaw.com\n                                                             Attorney for Oklahoma Sustainability\n                                                             Network\n\fCASE PUD 2026-000031 ENTRY NO. 140 FILED IN OCC COURT CLERK'S OFFICE ON 08/31/2026 - PAGE 2 OF 3\n\n\n\n\n                                           CERTIFICATE OF SERVICE\n\n                 I hereby certify that a true and correct copy of the foregoing has been mailed electronically\n         to all parties of record on this 31st day of August, 2026.\n\n          Natasha Scott                                      Ashley Youngblood\n          EJ Thomas                                          Michael Velez\n          Michael Ryan                                       Utility Regulation Unit\n          Kyle Vazquez                                       Oklahoma Attorney General\n          Oklahoma Corporation Commission\n                                                             313 NE 21st St.\n          P.O. Box 52000\n          Oklahoma City, Oklahoma 73152\n                                                             Oklahoma City, OK 73105\n          natasha.scott@occ.ok.gov                           ashley.youngblood@oag.ok.gov\n          ej.thomas@occ.ok.gov                               Michael.Velez@oag.ok.gov\n          michael.ryan@occ.ok.gov                            utilityregulation@oag.ok.gov\n          kyle.vazquez@occ.ok.gov\n          pudenergy@occ.ok.gov                               Office of The Attorney General\n                                                             of Oklahoma\n\n          Attorneys for the Public Utility Division\n          Thomas P. Schreodter                               A. Chase Snodgrass\n          Hall, Estill, Hardwick, Gable, Golden & Nelson     OKLAHOMA GAS & ELECTRIC\n          320 S. Boston Ave., Ste. 200                       COMPANY\n          Tulsa, OK 74103                                    321 N. Harvey Ave. M/C 300\n          tschroedter@hallestill.com                         Oklahoma City, OK 73102\n                                                             (405) 553-3129\n          Eric C. Money                                      snodgrcc@oge.com\n          Hall, Estill, Hardwick, Gable,                     reginfor@oge.com\n          Golden & Nelson, P.C.\n          100 N. Broadway, Suite 2900                        Deborah Thompson\n          Oklahoma City, OK 73102-8865                       Thompson Tillotson, PLLC\n          emoney@hallestill.com                              PO Box 54632\n                                                             Oklahoma City, OK 73154\n                                                             deborah@ttfirm.com\n          Attorneys for OIEC\n                                                             Attorneys for OG&E\n          James A. Roth                                      J. David Jacobson\n          Phillips Murrah PC                                 Jacobson & Laasch\n          424 NW 10th St., Ste. 300                          212 E. 2nd St.\n          Oklahoma City, OK 73103                            Edmond, OK 73034\n          jaroth@phillipsmurrah.com                          Jdj8788@aoll.com\n          jim@anewenergy.com\n                                                             Attorney for the Petroleum Alliance of\n          Lindsey Pever\n          Niles Stuck                                        Oklahoma\n          Cole Peters\n          A New Energy, LLC\n          312 NW 13th St.\n          Oklahoma City, OK 73103\n          lindsey@anewenergylaw.com\n\fCASE PUD 2026-000031 ENTRY NO. 140 FILED IN OCC COURT CLERK'S OFFICE ON 08/31/2026 - PAGE 3 OF 3\n\n\n\n\n          niles@anewenergylaw.com\n          cole@anewenergylaw.com\n\n          Attorneys for Google\n\n\n\n\n                                                               ______________________________\n                                                               Adam J. Singer\n\f"
+  }
+ ]
+}

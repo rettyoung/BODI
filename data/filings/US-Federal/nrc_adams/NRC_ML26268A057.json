@@ -1,0 +1,46 @@
+{
+ "id": "NRC:ML26268A057",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000289",
+ "title": "Crane Clean Energy Center / TMI-1 (Constellation restart): Christopher M. Crane Clean Energy Center - Request for U.S. NRC to Rescind Approved Exemption Related to the Suspension of Security Measures in an Emergency or During Severe Weather [['Letter']]",
+ "filed": "2026-10-05",
+ "entity": [
+  "Constellation Energy Generation, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2626/ML26268A057.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2626/ML26268A057.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Crane Clean Energy Center / TMI-1 (Constellation restart)",
+  "accession": "ML26268A057",
+  "document_date": "2026-09-24"
+ },
+ "collected_at": "2026-10-05T17:06:37Z",
+ "run_id": "2026-10-05-1653",
+ "keywords": [
+  "emergency",
+  "nuclear"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2626/ML26268A057.pdf",
+   "name": null,
+   "bytes": 184620,
+   "sha256": "0013b3750d8226c647c39573e2374f57126539b6f0b7884745d55775ced338d5",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                                                                                         200 Energy Way\n                                                                                                Kennett Square, PA 19348\n                                                                                                   www.constellation.com\n\n\nRS-26-149\n                                                                                             10 CFR 73.55(p)(1)(i)\n                                                                                             10 CFR 73.55(p)(1)(ii)\nSeptember 24, 2026\n\nU.S. Nuclear Regulatory Commission\nATTN: Document Control Desk\nWashington, DC 20555-0001\n\n                  Christopher M. Crane Clean Energy Center\n                  Renewed Facility License No. DPR-50\n                  NRC Docket No. 50-289\n\nSubject:          Request for U.S. NRC to Rescind Approved Exemption Related to the Suspension\n                  of Security Measures in an Emergency or During Severe Weather\n\nIn Reference 1, Constellation Energy Generation (CEG) stated that CEG would request rescission\nof NRC-approved decommissioning-related exemptions as part of the Christopher M. Crane Clean\nEnergy Center (CCEC) transition out of decommissioning. This letter provides CEG’s request for\nNRC to rescind the exemption related to required approvals of the suspension of security\nmeasures in an emergency or during severe weather for Three Mile Island Nuclear Station1\n(TMINS) by either a licensed senior operator or a Certified Fuel Handler (CFH) before taking action\n(Reference 2). This exemption was approved in Reference 3.\n\nCEG requests NRC to rescind this exemption no later than docketing withdrawal of the\n10 CFR 50.82(a)(1) certifications per the exemption requested in Reference 4. Rescission of the\nexemption would restore the approval authority to suspend security measures in an emergency or\nduring severe weather for TMINS to a licensed senior operator, in accordance with\n10 CFR 73.55(p)(1)(i) and 10 CFR 73.55(p)(1)(ii).\n\nThere are no new or revised regulatory commitments contained in this submittal.\n\nFor questions regarding this submittal, please contact Hannah Pell, Regulatory Specialist, CCEC,\nat hannah.pell@constellation.com.\n\nRespectfully,\nMoore, Digitally  signed by\n         Moore, Dennis M\n\nDennis M Date: 2026.09.24\n         13:53:23 -04'00'\nDennis M Moore\nSenior Manager, Licensing\nConstellation Energy Generation, LLC\n\ncc:      USNRC Regional Administrator – Region I\n         USNRC Project Manager – Crane Clean Energy Center\n         USNRC Senior Resident Inspector – Crane Clean Energy Center\n\n1 Three Mile Island Nuclear Station is inclusive of both the Christopher M. Crane Clean Energy Center and Three Mile\n\nIsland, Unit 2.\n\fSeptember 24, 2026\nU.S. Nuclear Regulatory Commission\nPage 2\n\n\n       Director, Bureau of Radiation Protection – Pennsylvania Dept of Environmental Protection\n       Chairman, Board of County Commissioners of Dauphin County\n       Chairman, Board of Supervisors of Londonderry Township\n\nReferences:\n\n1. Letter RS-24-121 from Constellation Energy Generation, LLC, to U.S. Nuclear Regulatory\n   Commission, “Regulatory Path to Reauthorize Power Operations,” dated November 4, 2024\n   (ML24310A104)\n\n2. Letter TMI-17-066 from Exelon Generation Company, LLC, to U.S. Nuclear Regulatory\n   Commission, “Request for Exemption from Specific Provisions in 10 CFR 73.55(p)(1)(i) and\n   (p)(1)(ii) Related to the Suspension of Security Measures in an Emergency or During Severe\n   Weather,” dated August 1, 2017 (ML17213A097)\n\n3. Letter from U.S. Nuclear Regulatory Commission to Exelon Generation Company, LLC, “Three\n   Mile Island Nuclear Station, Units 1 and 2 – Exemption from the Requirements of\n   10 CFR 73.55(p)(1)(i) and (ii) Related to the Suspension of Security Measures in an\n   Emergency or During Severe Weather (CAC No. MG0049; EPID L-2017-LLE-0018),” dated\n   June 7, 2018 (ML18019A019)\n\n4. Letter RS-24-124 from Constellation Energy Generation, LLC, to U.S. Nuclear Regulatory\n   Commission, “Request for Exemption from Certain Termination of License Requirements of\n   10 CFR 50.82,” dated November 19, 2024 (ML24324A048)\n\f"
+  }
+ ]
+}

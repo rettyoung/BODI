@@ -1,0 +1,29 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Amazon, Constellation sign 20-year PPA to expand Maryland nuclear plant",
+ "filed": "2026-10-05",
+ "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      The tech giant and energy producer are backing improvements and renovations at the 1,790-MW Calvert Cliffs Clean Energy Center, the state&rsquo;s largest source of clean energy. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-05T17:28:36Z",
+ "run_id": "2026-10-05-1653",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [
+  "Amazon",
+  "Constellation"
+ ],
+ "documents": []
+}

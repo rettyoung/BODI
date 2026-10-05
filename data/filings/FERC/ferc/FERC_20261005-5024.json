@@ -1,0 +1,101 @@
+{
+ "id": "FERC:20261005-5024",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-80",
+ "title": "Comments of the Hold the Line Campaign with Exhibit Nos. 1–4 re the Environmental Assessment of the Green Chile Project under CP26-80.",
+ "filed": "2026-10-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261005-5024",
+ "entity": "Hold the Line Campaign",
+ "fetch": [
+  {
+   "ferc_file": "9FE957D7-8DF1-CE01-9228-A10C14200000",
+   "name": "HTLC Cover Letter for EA comments.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "A0D8A5A9-EF27-CF67-9A04-A10C14200000",
+   "name": "Exhibit 1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "EADEF88F-C2CB-CB7E-A01E-A10C14200000",
+   "name": "Exhibit 2.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "CAE19421-2028-C5C8-A904-A10C14200000",
+   "name": "Exhibit 3.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-05"
+ },
+ "collected_at": "2026-10-05T17:09:04Z",
+ "run_id": "2026-10-05-1653",
+ "keywords": [
+  "ESA",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "HTLC Cover Letter for EA comments.pdf",
+   "bytes": 70904,
+   "sha256": "33c7b3bc55cf88137f4cbd38a8c95b86c081ef62a5e0716c835ae902beae04f2",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "            219 E Mills Ave., Unit 2319 · El Paso, TX 79910 · jon@hold-the-line.org\n\n\nOctober 5, 2026\nDebbie-Anne A. Reese, Secretary\nFederal Energy Regulatory Commission\n888 First Street NE, Room 1A\nWashington, DC 20426\n\nRe: Transwestern Pipeline Company, LLC, Green Chile Project, Docket No. CP26-80-000:\nComments of Hold the Line Campaign on the Environmental Assessment\nDear Secretary Reese:\nHold the Line Campaign (“HTLC”) submits the enclosed comments on the Environmental\nAssessment for the Green Chile Project, which Commission staff issued on September 4, 2026 in\nthe above-referenced docket.\nIn addition to this letter, the submission consists of the following five files, all of which are\npublic:\n   1. HTLC EA Comments.pdf: Comments on the Environmental Assessment, with Certificate\n      of Service (17 pages)\n   2. Exhibit 1.pdf: New Mexico Environment Department, Legal Notice and Preliminary\n      Determination, Air Quality Permit No. 10883 (3 pages)\n   3. Exhibit 2.pdf: New Mexico Rare Plant Technical Council, Opuntia arenaria (Sand\n      Prickly-Pear) (excerpts) (1 page)\n   4. Exhibit 3.pdf: EPA, 89 Fed. Reg. 55136 (July 3, 2024) (proposed rule) (excerpts) (2\n      pages)\n   5. Exhibit 4.pdf: La Paz Agreement (Aug. 14, 1983) and Annex V (Oct. 3, 1989) (excerpts)\n      (3 pages)\nThe submission contains no privileged material and no Critical Energy/Electric Infrastructure\nInformation.\nPlease contact the undersigned with any questions regarding this submission.\nRespectfully submitted,\n/s/ Jonathan Copeland\nJonathan Copeland\nRepresentative, Hold the Line Campaign\n\n\n\n\n                          HTLC Cover Letter, Docket No. CP26-80-000 | Page 1 of 1\n\f"
+  },
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Exhibit 1.pdf",
+   "bytes": 53943,
+   "sha256": "08b26db31fa58910c0ef964376bfd3b818c84e9802f0f6a7c1dfdeae09a8d579",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                                     EXHIBIT 1\n               New Mexico Environment Department, Air Quality Bureau\nLegal Notice and Preliminary Determination for an Air Quality Permit for Yucca Growth\n                                 Infrastructure, LLC\n                  Permit No. 10883; TEMPO Agency Interest No. 41351\n   Text of the public notice issued by the New Mexico Environment Department, Air Quality Bureau, for\n   Permit No. 10883, reproduced below (pollutant subscripts rendered in line). The emission estimates\n   also appear in this docket at Accession No. 20260720-5107, Ex. 1 at 12.\n\n\n\n Legal Notice and Preliminary Determination for an Air Quality Permit for Yucca Growth\n                                          Infrastructure, LLC\nYucca Growth Infrastructure, LLC at 600 Congress Ave, Suite 15041, Austin, TX has submitted\nan air quality permit application to the Air Quality Bureau (AQB), New Mexico Environment\nDepartment (NMED) for an air quality permit to construct the “YGI Microgrid.” The application\nfile has been assigned Permit No. 10883 and TEMPO Agency Interest No. 41351. The exact\nlocation of the facility will be at latitude and longitude decimal degrees: 31.8183, -106.6792\nDatum: WGS 84. To aid in locating this facility, the approximate location is 3.6 miles South of\nSanta Teresa in Doña Ana County, NM.\nThis application is for a microgrid power generation facility. This application is an initial NSR\napplication being submitted under 20.2.72.200.A(1) NMAC. The proposed construction will\nconsist of microgrid power generation facility consisting of a Bloom Energy Server System as\nemissions sources. This system is a type of solid oxide fuel cell system (SOFC) which converts\nnatural gas into electricity. The site will be a major source for Title V (20.2.70 NMAC).\nTotal air pollutant emissions to the atmosphere are estimated to be approximately: Nitrogen\nOxides (NOx) at 37.2 tons per year (tpy); Carbon Monoxide (CO) at 161.2 tpy; Volatile Organic\nCompounds (VOC) at 124.0 tpy; Sulfur Dioxide (SO2) at 0.1 tpy; Particulate Matter 10 microns\nor less (PM10) at 75.4 tpy; and Particulate Matter 2.5 microns or less (PM2.5) at 75.4 tpy; total\nHazardous Air Pollutants (HAPs) at 1.4 tpy; and greenhouse gas (CO2e) >75,000 tpy. These\nemission estimates could change slightly during the course of the Department’s review of the\napplication.\nThe NMED has conducted a preliminary review of the information submitted with the permit\napplication. The preliminary review and applicant’s analysis of ambient air quality impacts\nindicates that the facility’s air emissions will meet the air quality standards for NOx, CO, SO2,\nPM10, and PM2.5. VOCs are a pre-cursor to ozone and the NMED does not require an\nindividual ozone ambient impact analysis for each application. To determine compliance with\nnational ambient air quality standards for ozone, NMED uses air monitors to monitor ozone\nconcentrations. A full review will evaluate the estimated emission rates for the pollutants listed\nin this public notice and determine compliance with ambient air quality requirements and\nstandards.\nBased on the applicant’s analysis, a preliminary determination is that this facility will comply\nwith the requirements of Title 20, New Mexico Administrative Code (NMAC), Chapter 2, Parts\n1, 7, 23, 70, 72, 73, 75 and 80; and the New Mexico Air Quality Control Act. Therefore, the\npreliminary intent of NMED is to issue the air quality permit on or before August 25, 2026.\n\n\n\n                 Exhibit 1 to HTLC Comments on the EA, Docket No. CP26-80-000 | Page 1 of 3\n\fTo ensure compliance with state and federal air regulations, the permit is expected to include\nconditions that limit the emissions, hours of operation, production rate, and conditions that will\nrequire record keeping and reporting to the Department.\nThe permit application is available for review on the AQB Public Notices of Permitting Actions\nwebsite www.env.nm.gov/public-notices.\nAll interested persons have thirty (30) days from the date this notice is published, to notify the\nDepartment in writing of their interest in the permit application. The written comments should\nrefer to the company name, facility name and Permit No. (or send a copy of this notice along\nwith your comments). The written comments shall state the nature of the issues raised and how it\nrelates to the requirements of applicable state and federal air quality regulations and the Clean\nAir Act. The written comments should be mailed to New Mexico Environment Dept., Air\nQuality Bureau, Permit Section, 525 Camino de los Marquez Suite 1, Santa Fe, NM 87505-1816\nor submitted electronically via the NMED public comment portal online at:\nhttps://nmed.commentinput.com/comment/search.\nThe Department will notify all persons who have provided written comments as to when and\nwhere the Department’s analysis may be reviewed. Although all written comments will be made\npart of the public record, any person who does not express interest in writing before the end of\nthis first thirty (30) day period will not receive such notification.\nIf the Department receives written public comment before the end of the Department’s thirty (30)\nday public notice, the Department’s analysis will be made available for review for thirty (30)\ndays at the NMED district or field office nearest to the source before the permit will be issued.\nWritten comments on the analysis or permit application may be submitted to the Department\nduring this second thirty (30) day period or at any time before the permit is issued or denied.\nGeneral information about air quality and the permitting process can be found at the Air Quality\nBureau’s web site. The regulation dealing with public participation in the permit review process\nis 20.2.72.206 NMAC. This regulation can be found in the “Permits” section of this web site.\nAtención\nEste es un aviso de la oficina de Calidad del Aire del Departamento del Medio Ambiente de\nNuevo México, acerca de las emisiones producidas por un establecimiento en esta área. Si usted\ndesea información en español, por favor comuníquese con esa oficina al teléfono (505) 629-\n7748.\nNotice of Non-Discrimination\nNMED does not discriminate on the basis of race, color, national origin, disability, age or sex in\nthe administration of its programs or activities, as required by applicable laws and regulations.\nNMED is responsible for coordination of compliance efforts and receipt of inquiries concerning\nnon-discrimination requirements implemented by 40 C.F.R. Part 7, including Title VI of the\nCivil Rights Act of 1964, as amended; Section 504 of the Rehabilitation Act of 1973; the Age\nDiscrimination Act of 1975, Title IX of the Education Amendments of 1972, and Section 13 of\nthe Federal Water Pollution Control Act Amendments of 1972. If you have any questions about\nthis notice or any of NMED’s non-discrimination programs, policies or procedures, or if you\nbelieve that you have been discriminated against with respect to a NMED program or activity,\nyou may contact: Non-Discrimination Coordinator, NMED, 1190 St. Francis Dr., Suite N4050,\nP.O. Box 5469, Santa Fe, NM 87502, (505) 827-2855, nd.coordinator@env.nm.gov. You may\n\n\n                 Exhibit 1 to HTLC Comments on the EA, Docket No. CP26-80-000 | Page 2 of 3\n\falso visit our website at https://www.env.nm.gov/non-employee-discrimination-complaint-page/\nto learn how and where to file a complaint of discrimination.\n\n\n\n\n                Exhibit 1 to HTLC Comments on the EA, Docket No. CP26-80-000 | Page 3 of 3\n\f"
+  },
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Exhibit 2.pdf",
+   "bytes": 51256,
+   "sha256": "2c7f96afa63443bc62010df7007d4d65c1d56bc72a860149e7f66accdbc97023",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                        EXHIBIT 2\n            New Mexico Rare Plant Technical Council, New Mexico Rare Plants\n                            Opuntia arenaria (Sand Prickly-Pear)\n              https://nmrareplants.unm.edu/node/122 (accessed October 3, 2026)\n   Excerpts from the species account. Agency status entries are as shown on the New Mexico Rare\n   Plants Doña Ana County listing filed as Exhibit A to HTLC’s April 13, 2026 Motion to Intervene\n   (Accession No. 20260413-5021).\n\n\n\nDescription (excerpt). “Stem consisting of loosely attached flattened joints up to 8 cm in length\nby 2-3 cm in width, the joints highly varied in size and shape, bearing areoles with dense clumps\nof yellowish glochids; …”\nFlowering. “Flowers in May to June.”\nDistinguishing characteristics (excerpt). “Opuntia arenaria is the only pricklypear with dry\nfruits and glochids on the roots.”\nAgency status (Doña Ana County listing). State of New Mexico: E. BLM: SEN. Global rank:\nG2. State rank: S2.\nCitation (as given by the source). New Mexico Rare Plant Technical Council. 1999. New\nMexico Rare Plants. Albuquerque, NM: New Mexico Rare Plants Home Page.\nhttps://nmrareplants.unm.edu.\n\n\n\n\n                 Exhibit 2 to HTLC Comments on the EA, Docket No. CP26-80-000 | Page 1 of 1\n\f"
+  },
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Exhibit 3.pdf",
+   "bytes": 50991,
+   "sha256": "4f6ff1a3408cc52b0afe345da964ace12499134ea52ef9664e0ffeb0cfaba07b",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                        EXHIBIT 3\n                          U.S. Environmental Protection Agency\n Air Plan Approval; New Mexico; Periodic Emission Inventory SIP for the Sunland Park\n                    Nonattainment Area for the 2015 Ozone NAAQS\n           89 Fed. Reg. 55136 (July 3, 2024) (proposed rule); FR Doc. 2024-14434\n   Excerpts. Page numbers of the Federal Register are shown in brackets.\n\n\n\n[55136] Federal Register / Vol. 89, No. 128 / Wednesday, July 3, 2024 / Proposed Rules\nENVIRONMENTAL PROTECTION AGENCY\n40 CFR Part 52\n[EPA–R06–OAR–2023–0648; FRL–11992–01–R6]\nAir Plan Approval; New Mexico; Periodic Emission Inventory SIP for the Sunland Park\nNonattainment Area for the 2015 Ozone NAAQS\nAGENCY: Environmental Protection Agency (EPA).\nACTION: Proposed rule.\nSUMMARY: Pursuant to the Federal Clean Air Act (CAA or the Act), the Environmental\nProtection Agency (EPA) is proposing to approve State Implementation Plan (SIP) revisions\nrelated to the 2015 8-hour ozone National Ambient Air Quality Standards (NAAQS) for the\nSunland Park New Mexico marginal nonattainment area.\n                                                  * * *\n[55137] I. Background\nOzone is a gas that is formed by the reaction of Volatile Organic Compounds (VOC) and Oxides\nof Nitrogen (NOX) in the atmosphere in the presence of sunlight. Therefore, an emission\ninventory for ozone focuses on the emissions of VOC and NOX referred to as ozone precursors.\nThese precursors (VOC and NOX) are emitted by many types of pollution sources, including\npoint sources such as power plants and industrial emissions sources; on-road and off-road mobile\nsources (motor vehicles and engines); and smaller residential and commercial sources, such as\ndry cleaners, auto body shops, and household paints, collectively referred to as nonpoint sources\n(also called area sources).\n                                                  * * *\nOn June 4, 2018, the EPA classified the Sunland Park area in southern Doña Ana County, New\nMexico as a marginal nonattainment area for 2015 ozone NAAQS with an attainment deadline of\nAugust 3, 2021. (See 83 FR 25776).\n                                                  * * *\n[55139] V. Environmental Justice Considerations\nThe EPA reviewed demographic data, which provides an assessment of individual demographic\ngroups of the populations living within the approximate 13.86 square miles contained in the\n\n\n                 Exhibit 3 to HTLC Comments on the EA, Docket No. CP26-80-000 | Page 1 of 2\n\fportion of the ozone nonattainment area within Sunland Park, New Mexico. The complete report\nis available in the public docket for this action. The Environmental Justice Index for eight of the\ntwelve EJScreen indicators exceed the 80th percentile in the United States; seven of the twelve\nEJScreen indicators exceed the 80th percentile in the State of New Mexico. Five of the twelve\nindicators exceed the 90th percentile in both the State of New Mexico and the United States,\nincluding indices for particulate matter 2.5, ozone, air toxics cancer risk, air toxics respiratory,\nand wastewater discharge. This analysis showed an approximate population of 17,408 residents\nbased on the 2017–2021 Census. Within this area, EJScreen identified that approximately 95%\nof the population are people of color with 58% identified as low income. Additionally,\napproximately 34% of the population is linguistically isolated and 30% of the population has less\nthan a high school education.\n                                                  * * *\n[55139–40] EPA performed an environmental justice analysis, as is described above in the\nsection titled, “Environmental Justice Considerations.” The analysis was done for the purpose of\nproviding additional context and information about this rulemaking to the public, not as a basis\nof the action.\n                                                  * * *\n[55140] Dated: June 25, 2024. Earthea Nance, Regional Administrator, Region 6. [FR Doc.\n2024–14434 Filed 7–2–24; 8:45 am]\n\n\n\n\n                 Exhibit 3 to HTLC Comments on the EA, Docket No. CP26-80-000 | Page 2 of 2\n\f"
+  }
+ ]
+}

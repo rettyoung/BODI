@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "transmission service"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6470_1679649.ZIP",
+   "name": null,
+   "bytes": 114650,
+   "sha256": "d85e8e4374da86fc3d21aff9595b9982dfe5e12e5e1ff61dc12f048138a450bb",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 59475 Theon-Voss-Davis Exceptions to the PFD 9.02.26.pdf ===\n             HERRERA LAW\n                           PLLC\n             & ASSOCIATES,\n\n              4400 Medical Parkway                                             o 512.474.1492 / m 512.653.6462\n              Austin, Texas 78756                                                 aherrera@herreralawpllc.com\n              P.O. Box 302799\n              Austin, Texas 78703\n\n\nSeptember 2, 2026\n\n\nRon Olson\nCommission Counsel\nPublic Utility Commission of Texas\n1701 N. Congress Avenue\n\nRe:     PUC Docket No. 59475; SOAH Docket No. 473-26-16349 – Joint Application of Oncor\n        Electric Delivery Company LLC and LCRA Transmission Service Corporation to Amend\n        Their Certificates of Convenience and Necessity for the Bell County East Switch to Big Hill\n        Substation 765-kV Transmission Line Project in Bell, Burnet, Concho, Coryell, Lampasas,\n        Llano, Mason, McCulloch, Menard, Milam, Mills, San Saba, Schleicher, Tom Green, and\n        Williamson Counties\n\nDear Mr. Olson,\n\nOn August 20, 2026, the SOAH Administrative Law Judges filed a Proposal for Decision to be\nconsidered by the Commissioners. On that same date, Commission Counsel filed a memorandum\nin Docket No. 59475 setting the deadline for parties to file exceptions to the Proposal for Decision\non September 2, 2026. The memorandum also set a deadline for filing replies to exceptions on\nSeptember 9, 2026.\n\nIn lieu of filing exceptions to the Proposal for Decision, the Theon Ranches, LP, Daniel and\nKathryn Voss, (Theon-Voss) and D & M Davis Land And Cattle, L.P. (D & M Davis) files this\nletter to express its support for the Proposal for Decision’s recommendation to deny the\napplication. In the alternative, if the Commission determines otherwise, Theon-Voss and D&M\nDavis supports the selection of Route 894 for the 765-kV transmission line for the portion of\nImport Path 2.\n\nRespectfully submitted,\n\n/s Alfred R. Herrera\nAlfred R. Herrera\nState Bar No. 09529600\nHerrera Law and Associates, PLLC\n4400 Medical Parkway\nAustin, Texas 78756\n\nAttorney for the Theon-Voss and D&M Davis\ncc: All Parties of Record\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6470_1679650.PDF",
+   "name": null,
+   "bytes": 108984,
+   "sha256": "217acd8c5e5bff4dbde197e3975921c78b5c1a1baf965c44d2ae9a283e4e8aef",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-02 04:15:14 PM\n\nControl Number - 59475\n\nItem Number - 6470\n\f             HERRERA LAW\n                                     PLLC\n             & ASSOCIATES,\n\n              4400 Medical Parkway                                             o 512.474.1492 /m 512.653.6462\n              Austin, Texas 78756                                                aherrera(@herreralawpllc.com\n              P.O. Box 302799\n              Austin, Texas 78703\n\n\n\nSeptember 2,2026\n\n\nRon Olson\nCommission Counsel\nPublic Utility Commission of Texas\n1701 N. Congress Avenue\n\nRe :    PUC Docket No . 59475 ; SOAH Docket No . 473 - 26 - 16349 - Joint Application of Oncor\n        Electric Delivery Company LLC and LCRA Transmission Service Corporation to Amend\n        Their Certificates of Convenience and Necessity for the Bell County East Switch to Big Hill\n        Substation 765-kV Transmission Line Project in Bell, Burnet, Concho, Coryell, Lampasas,\n        Llano, Mason, McCulloch, Menard, Milam, Mills, San Saba, Schleicher, Tom Green, and\n        Williamson Counties\n\nDear Mr. Olson,\n\nOn August 20,2026, the SOAH Administrative Law Judges filed a Proposal for Decision to be\nconsidered by the Commissioners. On that same date, Commission Counsel filed a memorandum\nin Docket No. 59475 setting the deadline for parties to file exceptions to the Proposal for Decision\non September 2,2026. The memorandum also set a deadline for filing replies to exceptions on\nSeptember 9,2026.\n\nIn lieu of filing exceptions to the Proposal for Decision, the Theon Ranches, LP, Daniel and\nKathryn Voss, (Theon-Voss) and D&M Davis Land And Cattle, L.P. (D &M Davis) files this\nletter to express its support for the Proposal for Decision' s recommendation to deny the\napplication. In the alternative, if the Commission determines otherwise, Theon-Voss and D&M\nDavis supports the selection of Route 894 for the 765-kV transmission line for the portion of\nImport Path 2.\n\nRespectfully submitted,\n\n/s Alfred R. Herrera\nAlfred R. Herrera\nState Bar No. 09529600\nHerrera Law and Associates, PLLC\n4400 Medical Parkway\nAustin, Texas 78756\n\nAttorney for the Theon-Voss and D&M Davis\ncc: All Parties of Record\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-05T17:39:45Z"
 }

@@ -1,0 +1,48 @@
+{
+ "id": "SEC:0001140361-26-038468",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Vistra 8-K 8-K items 1.01,2.03,9.01",
+ "filed": "2026-10-05",
+ "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/",
+ "entity": "Vistra",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_8k.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "1.01",
+   "2.03",
+   "9.01"
+  ],
+  "cik": "0001692819",
+  "market_participant": true
+ },
+ "collected_at": "2026-10-05T17:11:57Z",
+ "run_id": "2026-10-05-1653",
+ "keywords": [
+  "collateral"
+ ],
+ "party_hits": [
+  "Vistra"
+ ],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_8k.htm",
+   "name": null,
+   "bytes": 33889,
+   "sha256": "f1a9b1992786d1896fae1f61818bf929d04b47433f0adc6ee686b120b7db30d5",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "false\n0001692819\n0001692819\n2026-09-30\n2026-09-30\n\nUNITED STATES\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, DC 20549\n\nFORM \n8-K\n\nCURRENT REPORT\n\nPursuant to Section 13 or 15(d)\n\nof the Securities Exchange Act of 1934\n\nDate of Report (Date of earliest event reported): \nSeptember 30, 2026\n\nVISTRA CORP.\n\n(Exact name of registrant as specified in its charter)\n\nDelaware\n\n001-38086\n\n36-4833255\n\n(State or other jurisdiction of incorporation or organization)\n\n(Commission File Number)\n\n(I.R.S. Employer Identification No.)\n\n6555 Sierra Drive\n\nIrving\n, \nTX\n\n75039\n\n(Address of principal executive offices)\n\n(Zip Code)\n\n(\n214\n) \n812-4600\n\n(Registrant’s telephone number, including area code)\n\nN/A\n\n(Former name or former address, if changed since last report)\n\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n\n☐\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n☐\n\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.l4a-12)\n\n☐\n\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240. 14d-2(b))\n\n☐\n\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\nTitle of Each Class\n\nTrading Symbol(s)\n\nName of Each Exchange on Which Registered\n\nCommon stock, par value $0.01 per share\n\nVST\n\nNew York Stock Exchange\n\nNYSE Texas\n\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (\n§\n230.405\n\n      of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (\n§\n240.12b-2 of this chapter).\n\nEmerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised\n      financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.       ☐\n\nItem 1.01.\n\nEntry into a Material Definitive Agreement.\n\nOn September 30, 2026, Vistra Operations Company LLC (“Borrower”), an indirect, wholly owned subsidiary of Vistra Corp. (the “Company”), entered into an amendment (the\n      “Credit Agreement Amendment”) to that certain credit agreement (as amended, including by the Credit Agreement Amendment, the “Commodity-Linked Credit Agreement”), dated as of February 4, 2022, by and among Borrower, the lenders party thereto and\n      Citibank, N.A., as administrative agent.\n\nPursuant to the Credit Agreement Amendment, effective as of September 30, 2026, the Credit Agreement was amended to, among other things, (i) extend the Revolving Credit\n      Maturity Date (as defined in the Commodity-Linked Credit Agreement) from September 30, 2026 to September 29, 2027 and (ii) make certain other amendments consistent with the terms of the Borrower’s Corporate Credit Agreement (as defined in the\n      Commodity-Linked Credit Agreement).\n\nA copy of the Credit Agreement Amendment is filed as Exhibit 10.1 to this Current Report on Form 8-K (this “Current Report”) and is incorporated herein\n      by reference. The foregoing summary of the Credit Agreement Amendment does not purport to be complete and is subject to, and qualified in its entirety by, the full text of the Credit Agreement Amendment.\n\nItem 2.03.\n\nCreation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant.\n\nThe information contained in Item 1.01 of this Current Report concerning the Company’s direct financial obligations under the Credit Agreement Amendment\n      is incorporated by reference herein.\n\nItem 9.01.\n\nFinancial Statements and Exhibits.\n\n(d) Exhibits\n\nExhibit No.\n\nDescription\n\n10.1\n\nEleventh Amendment to Credit Agreement, dated September 30, 2026, by and among Vistra Operations Company LLC (as Borrower), the lenders party thereto and\n                Citibank, N.A. (as Administrative Agent and Collateral Agent)\n\n104\n\nCover Page Interactive Data File (embedded with the Inline XBRL document)\n\nSIGNATURES\n\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the\n      undersigned thereunto duly authorized.\n\nVistra Corp.\n\nDated: October 2, 2026\n\n/s/ William M. Quinn\n\nName:\n\nWilliam M. Quinn\n\nTitle:\n\nSenior Vice President and Treasurer"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "OK:21299323",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000031",
+ "title": "OCC PUD2026-000031 document PUD2026-000031_128_Coversheet_Confidential_Testimony_Summary_of_Jason_Thenmadathil_filed_on_be (0 pages - 99.2 KB): CASE PUD 2026-000031 ENTRY NO. 128 FILED IN OCC COURT CLERK'S OFFICE ON 08/31/2026 - PAGE 1 OF 1 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN T",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21299323&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21299323&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21299323,
+  "pages": "0 pages - 99.2 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-05T17:20:36Z",
+ "run_id": "2026-10-05-1653",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21299323&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 101572,
+   "sha256": "b1c67a11e396aa97e21eea3211800d9ad37f127615fd39f2749bba39258ab101",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "CASE PUD 2026-000031 ENTRY NO. 128 FILED IN OCC COURT CLERK'S OFFICE ON 08/31/2026 - PAGE 1 OF 1\n\n\n\n\n           BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n          IN THE MATTER OF THE APPLICATION OF                  )\n          OKLAHOMA GAS AND ELECTRIC COMPANY                    ) Case No. PUD2026-000031\n          FOR COMMISSION APPROVAL OF ELECTRIC                  )\n          SERVICE AGREEMENTS AND PREAPPROVAL                   )\n          OF CAPACITY PURCHASE AGREEMENTS                      )\n          PURSUANT TO 17 O.S. § 286(C)                         )\n\n\n                  Coversheet Confidential Testimony Summary of Jason J. Thenmadathil\n\n         Direct Testimony\n\n\n\n         Rebuttal Testimony\n\n\n\n\n         Coversheet Confidential Testimony Summary of Jason J. Thenmadathil             Page 1 of 1\n         Case No. PUD2026-000031\n\f"
+  }
+ ]
+}

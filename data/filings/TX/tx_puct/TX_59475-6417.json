@@ -17,7 +17,36 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6417_1668468.ZIP",
+   "name": null,
+   "bytes": 57312,
+   "sha256": "6f401e01c72b6c8d5374d2662b65f6f1684511f9d450c073fe544494094920e4",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Letter of Support to PUC State Reps.pdf ===\nJohn B. Bradley\nLazy S Ranch\n16767 Crows Ranch Road\nSalado, TX 76571\n\n\nJuly 26th, 2026\n\n\nThe Honorable Thomas Gleeson, Chair\nCommissioners of the Public Utility Commission of Texas\n1701 N. Congress Avenue\nAustin, TX 78701\n\nSUBJECT: Support for Legislative Request to Delay 765-kV Transmission Line Decision\n\nDear Chairman Gleeson and Commissioners,\n\nI am writing to formally express my strong support for the recent letter submitted by our\nState Representatives, which requests a necessary delay in the final decision regarding the\nproposed 765-kV transmission line segments until after the 90th Legislative Session.\n\nAs an active-duty senior Army leader, my profession requires evaluating complex, high-\nstakes environments where decisions carry generational consequences. In military\noperations, when faced with rapidly changing variables, a lack of informed clarity, and\nincomplete intelligence, the most prudent course of action is to exercise tactical patience.\n\nCurrently, the landscape of Texas power generation is shifting drastically—most notably\nwith the massive surge of natural gas generation entering the interconnection queue and\nthe evolving energy demands of new technology sectors. Moving forward with a permanent,\nmulti-billion-dollar cross-state transmission project based on outdated assumptions fails\nto establish the shared understanding required for an infrastructure commitment of this\nmagnitude.\n\nCommitting to this 765-kV buildout right now introduces an unacceptable level of strategic\nand economic risk. By rushing this timeline, we are bypassing the opportunity to fully\nassess viable alternatives, specifically the expansion of localized, reliable power\ngeneration that could secure our grid without relying on vulnerable, cross-state\ntransmission corridors that permanently impact thousands of Texas landowners.\n\nI urge the Commission to heed the Representatives' call. Pausing this decision to allow\nERCOT and the Legislature to conduct a modernized, comprehensive reappraisal is not a\n\fdelay of progress; it is a necessary tactical pause to ensure we execute the most effective,\nresilient plan for the future of Texas.\n\nThank you for your time, your service to the State of Texas, and your careful consideration of\nthis matter.\n\nSincerely,\n\n\n\nJohn B. Bradley\nPro se Intervenor\nLazy S Ranch\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6417_1668469.PDF",
+   "name": null,
+   "bytes": 114446,
+   "sha256": "156e77ab03714b9431663261c0c39b3f2a0513404d5e674680427793b2ca7cf6",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-07-26 06:34:52 PM\n\nControl Number - 59475\n\nItem Number - 6417\n\fJohn B. Bradley\nLazy S Ranch\n16767 Crows Ranch Road\nSalado, TX 76571\n\n\nJuly 26th,2026\n\n\nThe Honorable Thomas Gleeson, Chair\nCommissioners of the Public Utility Commission of Texas\n1701 N. Congress Avenue\nAustin, TX 78701\n\nSUBJECT: Support for Legislative Requestto Delay 765-kV Transmission Line Decision\n\nDear Chairman Gleeson and Commissioners,\n\nI am writingto formally express my strong support forthe recent letter submitted by our\nState Representatives, which requests a necessary delay in the final decision regardingthe\nproposed 765-kV transmission line segments until afterthe 90th Legislative Session.\n\nAs an active-duty seniorArmy leader, my profession requires evaluating complex, high-\nstakes environments where decisions carry generationalconsequences. In military\noperations, when faced with rapidly changing variables, a lack of informed clarity, and\nincomplete intelligence, the most prudent course of action is to exercise tactical patience.\n\nCurrently, the landscape of Texas power generation is shifting drastically-most notably\nwith the massive surge of natural gas generation enteringthe interconnection queue and\nthe evolving energy demands of new technology sectors. Moving forward with a permanent,\nmulti-billion-dollar cross-state transmission project based on outdated assumptions fails\nto establish the shared understanding required for an infrastructure commitment of this\nmagnitude.\n\nCommittingto this 765-kV buildout right now introduces an unacceptable level of strategic\nand economic risk. Byrushingthistimeline, we are bypassingtheopportunityto fully\nassess viable alternatives, specificallythe expansion of localized, reliable power\ngeneration that could secure our grid without relying on vulnerable, cross-state\ntransmission corridors that permanentlyimpactthousands of Texas landowners.\n\nI urge the Commission to heed the Representatives' call. Pausingthis decision to allow\nERCOT and the Legislature to conduct a modernized, comprehensive reappraisal is not a\n\f delay of progress; it is a necessary tactical pause to ensure we execute the most effective,\n resilient plan forthe future of Texas.\n\n Thankyou foryour time, your service to the State of Texas, and your careful consideration of\n this matter.\n\n Sincerely,\n\n\n(34 5~..acl&«-\n/John B. Bradley /\n  Pro se Intervenor\n  Lazy S Ranch\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-05T17:54:52Z"
 }

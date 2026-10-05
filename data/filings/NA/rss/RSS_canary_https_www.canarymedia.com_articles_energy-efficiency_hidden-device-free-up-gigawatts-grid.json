@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/energy-efficiency/hidden-device-free-up-gigawatts-grid",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "This hidden device could free up gigawatts of power for the US grid",
+ "filed": "2026-10-05",
+ "url": "https://www.canarymedia.com/articles/energy-efficiency/hidden-device-free-up-gigawatts-grid",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "America’s energy supply crunch is driving a surge of federal and private investment in new electricity generation — from polluting gas turbines to cleaner developments like solar farms and geothermal plants. But gigawatts of power are already available for the taking across the U.S. economy in the form of wasted…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-05T17:28:36Z",
+ "run_id": "2026-10-05-1653",
+ "keywords": [
+  "gas turbine"
+ ],
+ "party_hits": [],
+ "documents": []
+}

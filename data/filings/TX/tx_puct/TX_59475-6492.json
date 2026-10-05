@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "data center"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6492_1680461.ZIP",
+   "name": null,
+   "bytes": 13274,
+   "sha256": "585d7d9783e7511d9ec14a1dc91c66f2b965891c0ebec73d51d13372aa25d55b",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Public Comment Docket .docx ===\nDOCKET NO. 59475\n\nPUBLIC COMMENT AND STATEMENT OF PROTEST REGARDING THE CERTIFICATE OF CONVENIENCE AND NECESSITY (CCN) APPLICATION\n\n\n\nName: Richard Rovinelli \nAffected Property Address: Property #4767, 4401 FM 580, San Saba, TX \nDate: 08/24/26\n\n\n\nI. STATEMENT OF STANDING AND STATUTORY NON-COMPLIANCE My name is Richard  Rovinelli, and I am a directly impacted landowner filing a formal statement of protest against the Certificate of Convenience and Necessity (CCN) application for the Bell County East to Big Hill 765-kV Transmission Project (Docket No. 59475) submitted by Oncor and LCRA. The proposed right-of-way physically crosses my entire deeded north property line, approximately 1000 feet from my ranch residence and active workspaces. I respectfully request that the Public Utility Commission of Texas (PUCT) deny this application, as thrusting a 765-kV corridor of this magnitude into this immediate proximity explicitly fails to satisfy the statutory routing criteria established in the Public Utility Regulatory Act (PURA) § 37.056(c). The applicants have failed to demonstrate compliance with the state's policy of prudent avoidance. The extreme proximity of these lattice towers will permanently degrade the aesthetic values of my property, endanger my cattle and wildlife, destroy the rural character of our community, and severely disrupt the environmental integrity of my ranch.\n\nII. FAILURE TO PROTECT WORKING LAND AND DAILY OPERATIONS: The proposed route creates a catastrophic disruption to the established use of my property, as well as the quiet enjoyment, 20+ mile views and usability of my land.\n\nEnvironmental Disruption: The immense scale of this infrastructure introduces severe visual encroachment and environmental disruption that destroys the usability of our ranch. Poison sprayed to maintain the right-of-way always poses significant risks to my cattle and wildlife. The continuous corona discharge noise and industrial presence degrade the baseline rural environment.\n\nIII. VIOLATION OF PRUDENT AVOIDANCE REGARDING HABITABLE STRUCTURES The applicants have failed to exercise prudent avoidance by pushing 765-kV infrastructure too close to existing habitable structures and active workspaces.\nThe sheer scale of a 150-foot lattice tower at this proximity destroys the aesthetic value of my property and imposes an unacceptable industrial footprint directly onto my ranch.\n\nIV. LACK OF PROBABLE IMPROVEMENT OF SERVICE FOR CONSUMERS Under PURA § 37.056(c), the PUCT must consider the probable improvement of service or lowering of cost to consumers.\n\n* This project is designed specifically to support extreme load demands from corporate data centers and industrial expansion in other regions.\n* It provides zero reliability improvements for the residential ratepayers and rural property owners being forced to shoulder the physical burden of its construction.\n\n"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6492_1680462.PDF",
+   "name": null,
+   "bytes": 126428,
+   "sha256": "acf8377681a9c311e063ef87ba5ea733aa5fc0607bf9c75851c3b39db8637a26",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-09-04 08:24:54 PM\n\nControl Number - 59475\n\nItem Number - 6492\n\fDOCKET NO. 59475\n\nPUBLIC COMMENT AND STATEMENT OF PROTEST REGARDING THE CERTIFICATE\nOF CONVENIENCE AND NECESSITY (CCN) APPLICATION\n\n\n\n\nName: Richard Rovinelli\n\nAffected Property Address: Property #4767, 4401 FM 580, San Saba, TX\n\nDate: 08/24/26\n\n\n\n\nI. STATEMENT OF STANDING AND STATUTORY NON-COMPLIANCE My name is\nRichard Rovinelli, and I am a directly impacted landowner filing a formal statement\nof protest against the Certificate of Convenience and Necessity (CCN) application for\nthe Bell County East to Big Hill 765-kV Transmission Project (Docket No. 59475)\nsubmitted by Oncor and LCRA. The proposed right-of-way physically crosses my\nentire deeded north property line, approximately 1000 feet from my ranch\nresidence and active workspaces. I respectfully request that the Public Utility\nCommission of Texas (PUCT) deny this application, as thrusting a 765-kV corridor of\nthis magnitude into this immediate proximity explicitly fails to satisfy the statutory\nrouting criteria established in the Public Utility Regulatory Act (PURA) § 37.056(c).\nThe applicants have failed to demonstrate compliance with the state's policy of\nprudent avoidance. The extreme proximity o f these lattice towers will permanently\ndegrade the aesthetic values of my property, endanger my cattle and wildlife,\ndestroy the rural character of our community, and severely disrupt the\nenvironmental integrity of my ranch.\n\nII. FAILURE TO PROTECT WORKING LAND AND DAILY OPERATIONS: The proposed\nroute creates a catastrophic disruption to the established use of my property, as\nwell as the quiet enjoyment, 20+ mile views and usability of my land.\n\nEnvironmental Disruption: The immense scale o f this infrastructure introduces\nsevere visual encroachment and environmental disruption that destroys the\n\fusability of our ranch. Poison sprayed to maintain the right-of-way always poses\nsignificant risks to my cattle and wildlife. The continuous corona discharge noise\nand industrial presence degrade the baseline rural environment.\n\nIII. VIOLATION OF PRUDENT AVOIDANCE REGARDING HABITABLE STRUCTURES\nThe applicants have failed to exercise prudent avoidance by pushing 765-kV\ninfrastructure too close to existing habitable structures and active workspaces.\nThe sheer scale of a 150-foot lattice tower at this proximity destroys the aesthetic\nvalue of my property and imposes an unacceptable industrial footprint directly onto\nmy ranch.\n\nIV. LACK OF PROBABLE IMPROVEMENT OF SERVICE FOR CONSUMERS Under PURA\n§ 37.056(c), the PUCT must consider the probable improvement of service or\nlowering of cost to consumers.\n\n* This project is designed specifically to support extreme load demands from\ncorporate data centers and industrial expansion in other regions.\n* It provides zero reliability improvements for the residential ratepayers and rural\nproperty owners being forced to shoulder the physical burden of its construction.\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-05T17:38:06Z"
 }

@@ -1,0 +1,40 @@
+{
+ "id": "OK:21362458",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000046",
+ "title": "OCC PUD2026-000046 document PUD2026-000046_44_Notice_of_Hearing_on_OG_E_s_Motion_to_Strike_Portions_of_Kimbrough_Testimon (0 pages - 166 KB): CASE PUD 2026-000046 ENTRY NO. 44 FILED IN OCC COURT CLERK'S OFFICE ON 09/22/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN TH",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21362458&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21362458&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21362458,
+  "pages": "0 pages - 166 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-05T17:21:12Z",
+ "run_id": "2026-10-05-1653",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21362458&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 169774,
+   "sha256": "7733bfb50ca8cfa974e6058e63820780a4e43796b6860e4a3c69c88ad30cf0a4",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "CASE PUD 2026-000046 ENTRY NO. 44 FILED IN OCC COURT CLERK'S OFFICE ON 09/22/2026 - PAGE 1 OF 2\n\n\n\n\n           BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n         IN THE MATTER OF THE APPLICATION OF                      )\n         OKLAHOMA GAS AND ELECTRIC COMPANY                        )\n         FOR AN ORDER OF THE COMMISSION                           )\n         APPROVING ITS NEW EXTRA LARGE LOAD                       )\n         TARIFF AND TERMS AND CONDITIONS OF                       )     CASE NO. PUD2026-0000XX\n         SERVICE FOR EXTRA LARGE LOAD                             )\n         CUSTOMERS AND A REGULATORY ASSET TO                      )\n         RECOVER COSTS ASSOCIATED WITH                            )\n         PORTFOLIO OPTIMIZATION SOFTWARE                          )\n\n                                            NOTICE OF HEARING\n\n                NOTICE IS HEREBY GIVEN that Oklahoma Gas and Electric Company has filed a\n         Motion to Strike Portions of the Responsive Testimony of Adrian J. Kimbrough in the above-\n         captioned case.\n\n                NOTICE IS FURTHER GIVEN that the Motion will be heard before the Administrative\n         Law Judge on October 1, 2026, at 8:30 a.m., in the Concourse Theater, Suite C50, Will Rogers\n         Memorial Building in the Capitol Complex at 2401 N. Lincoln Blvd., Oklahoma City, OK 73105.\n         The Concourse Theater is located in the tunnel between the Will Rogers Memorial Office Building\n         and the Sequoyah Office Building.\n\n                NOTICE IS FURTHER GIVEN that all interested persons may appear and be heard\n         regarding the Motion, and after hearing and consideration of the recommendations of the\n         Administrative Law Judge, the Commission will issue such orders and grant such relief as it deems\n         reasonable, fair, necessary, proper and equitable, whether or not specifically prayed for in the\n         Motion.\n\n                 NOTICE IS FURTHER GIVEN for information concerning this Motion, contact A. Chase\n         Snodgrass, Deborah R. Thompson, or Kenneth A. Tillotson, Thompson Tillotson PLLC, P.O. Box\n         54632, Oklahoma City, Oklahoma, 73154, (405) 213-1000, attorneys for Oklahoma Gas and\n         Electric Company.\n\n\n         OKLAHOMA CORPORATION COMMISSION\n\n         KIM DAVID, Chairman\n         J. TODD HIETT, Commissioner\n         BRIAN BINGMAN, Commissioner\n\fCASE PUD 2026-000046 ENTRY NO. 44 FILED IN OCC COURT CLERK'S OFFICE ON 09/22/2026 - PAGE 2 OF 2\n\n\n\n\n                                        CERTIFICATE OF SERVICE\n               I hereby certify that on the 22nd day of September 2026, a true and correct copy of the\n        foregoing was electronically served via the Electronic Case Filing System to those on the Official\n        Electronic Case Filing Service List, and via electronic mail to the following persons:\n\n         Oklahoma Corporation Commission               Oklahoma Attorney General\n         Fairo Mitchell                                Ashley Youngblood\n         Natasha Scott                                 ashley.youngblood@oag.ok.gov\n         Kyle Vazquez                                  Utility.regulation@oag.ok.gov\n         Mike Ryan\n         E.J. Thomas                                   Petroleum Alliance of Oklahoma, LLC\n         Fairo.Mitchell@occ.ok.gov                     J. David Jacobson\n         natasha.scott@occ.ok.gov                      jdj8788@aol.com\n         kyle.vazquez@occ.ok.gov\n         michael.ryan@occ.ok.gov                       Oklahoma Sustainability Network\n         ej.thomas@occ.ok.gov                          Adam Singer\n         pudenergy@occ.ok.gov                          asinger@derryberrylaw.com\n\n         Google, LLC                                   AARP\n         James Roth                                    Adam Singer\n         Lindsey Pever                                 asinger@derryberrylaw.com\n         Niles Stuck\n         Cole Peters                                   Walmart, Inc.\n         jim@anewenergylaw.com                         Rick Chamberlain\n         lindsey@anewenergylaw.com                     RDC.Law@gmail.com\n         niles@anewenergylaw.com\n         cole@anewenergylaw.com\n\n\n\n\n                                                            ________________________________\n                                                            A. Chase Snodgrass\n\f"
+  }
+ ]
+}
