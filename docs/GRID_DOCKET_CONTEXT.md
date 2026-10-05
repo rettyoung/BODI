@@ -445,7 +445,7 @@ ERCOT large-load 900, EQR 900, state courts 900, NM 900, Open States 600, Legist
 | MO PSC | C | EFIS with anti-forgery token; `Case/Display/{id}`, `Case/FilingDisplay/{id}`. Working (one case id, ET-2025-0184, unresolved). |
 | NM PRC | C | e360 CaseX API. **Documents repaired 3 Oct:** the list request now matches the portal's own (`casepublicdocument/getAll` with `searchTerm` alongside `caseId`, 100 a page, newest first), observed in the built-in browser; downloads use the portal's anonymous per-document ticket (`POST casex/cms/downloadToken {context: File, documentId, isPreview}` → `GET document/v1/previewDocument?token=`), the same calls a visitor's browser makes. Verified from the runners on 25-00079-UT, 25-00082-UT and 26-0000062 (text layers). Confidentiality agreements and non-public documents are skipped. |
 | KS KCC | C | Commission minutes PDFs; `kcc-connect` is Salesforce (15-char id). Working. |
-| OK OCC | C | Laserfiche WebLink search; each hit confirmed against the PUD cause on page 1 — from WebLink's page-text service (`DocumentService.aspx/GetTextHtmlForPage`) or, when that returns no JSON (the same 20 documents on 3–5 Oct), from page 1 of the PDF itself (`ElectronicFile.aspx`; text layer, OCR of that page only for the match). Hits unreadable both ways: up to 8 kept unconfirmed for the Sweep, the rest set aside after 3 nights. Never `ecf.public.occ.ok.gov`. |
+| OK OCC | C | Laserfiche WebLink search; each hit confirmed against the PUD cause on page 1 — from WebLink's page-text service (`DocumentService.aspx/GetTextHtmlForPage`) or, when that fails (HTTP 500 `ObjectNotFoundException` — no text object for the document; the same 20 on 3–5 Oct), from page 1 of the PDF itself (`ElectronicFile.aspx`; text layer, OCR of that page only for the match). Hits unreadable both ways: up to 8 kept unconfirmed for the Sweep, the rest set aside after 3 nights. Never `ecf.public.occ.ok.gov`. |
 | GRDA | C | Board agendas/minutes. Working. |
 | AL PSC | C + W | RSS returns HTTP 500 (server fault); docket pages readable by WebFetch (`ViewFile.aspx?Id=<GUID>`; Act 610 docket 33709). |
 | PA PUC | W | Runners get a TLS failure and 5xx robots; WebFetch works (`puc.pa.gov/docket/<n>`, `/pcdocs/<id>.pdf`). |
@@ -851,8 +851,12 @@ the 5 Oct Sweep added (SC merger dates, RBP briefs, MISO cost-shift filing, Domi
   were the same 20 documents every night, for which WebLink's page-text service returns no JSON (not OCR). Fixes:
   byte sniffing (`not_document`, with a page sample), per-document re-fetch for up to 4 nights (60 filings a
   night), the OCC PDF page-1 fallback, and Retry-After handling for 429. Tested offline (sample pages, the stored
-  Texas records, a two-night simulation of the retry queue); first live test is the nightly collector of 6 Oct
-  (04:43 UTC). `prompts/sweep.md`, `corrections_queue.md` (C-06 closed; re-fetched C-07 lines), `SOURCES.md`,
+  Texas records, a two-night simulation of the retry queue). **Live test the same day:** the push started a full
+  collector run (`2026-10-05-1653`, 67 minutes, every source `ok`). Texas: 60 filings re-fetched, **60 recovered, 0
+  still failing**, so the PUCT's error page was transient; the remaining ~120 come back over the next two nights.
+  Oklahoma: WebLink's page-text service answers these documents with HTTP 500 (Laserfiche
+  `ObjectNotFoundException` — it has no text object for them), and the PDF fallback confirmed **50 hits from page 1**;
+  PUD2026-000046's remaining hits reached the time box and continue nightly. `prompts/sweep.md`, `corrections_queue.md` (C-06 closed; re-fetched C-07 lines), `SOURCES.md`,
   `console/annotations.json` and this document were updated to match, and the console republished (version 10).
 
 ---
@@ -911,10 +915,10 @@ tables; (8) direct state bill trackers.
 | Loudoun, Reno, Fulton agendas | Not collectable (§10); Loudoun could join the manual pass |
 | Never published (Kansas ESAs, GRDA terms, Entergy absolute GW, confidential filings) | Company disclosure only, or recorded as known unknowns |
 
-**Next session should first:** read `data/health/latest.json` for the 6 Oct night — `backfill_text.doc_retry_fixed`
-should be rising and `doc_retry_still_failing` falling; open one `not_document` record's `sample` to see what the
-PUCT page says (if it is a throttle message, slow `tx_puct` rather than retrying); `ok_occ` notes should include
-"ok page-1 confirmations by route" and no "set aside" for the newest PUD2026-000046 documents. Then: check the
+**Next session should first:** check that `backfill_text.doc_retry_still_failing` stays near 0 over the next two
+nights as the remaining ~120 Texas retries run (if `not_document` reappears in new fetches, open its `sample` — a
+throttle message means slow `tx_puct`, not retry harder); `ok_occ` should keep logging "page-1 confirmations by
+route" until PUD2026-000046's hits are all checked. Then: check the
 12 Oct Sweep picked up `"refetched": true` lines (C-07); C-03 Arizona XHLF still open (manual pass); IL, NC E-100
 Sub 190 and OH documents were DEFERRED_NEEDS_MANUAL on 5 Oct.
 
@@ -996,3 +1000,4 @@ Sub 190 and OH documents were DEFERRED_NEEDS_MANUAL on 5 Oct.
 | 2026-10-04 (late) | Consistency pass: stale key statements removed; scheduler guard narrowed to 6 h (an afternoon run no longer suppresses the night's collection); history pull for the new sources since 2025-11-07 with corrections item C-08; Open States pages deeper in history pulls |
 | 2026-10-05 | First full scheduled Sweep and Brief (`rows_p6`, console v9, email). Collector fixes: HTML-instead-of-document detection and per-document re-fetch (152 PUCT files), OCC page-1 PDF fallback, 429 Retry-After. `sweep.md`, `corrections_queue.md`, `SOURCES.md`, `annotations.json` (coverage mark, OK note) and §3, §6–§8, §10, §13, §15, §16, §18–§20 updated; console republished (v10) |
 | 2026-10-05 (am) | Email reordered at Rett's request: LINKS first with direct Excel (`#dl.xlsx`) and narrative PDF (`#dl.pdf`) download links plus the console, STATUS CHECK last. Console gains the `#dl.*` anchors (`console/index.html`, `dlFromHash`); published as version 11. `brief.md`, `trigger_brief.txt` (fallback line) and §3, §4 updated |
+| 2026-10-05 (pm) | Live collector run after the fix: Texas 60/60 re-fetched filings recovered; Oklahoma 50 hits confirmed from PDF page 1 (page-text service returns HTTP 500 for them); §8, §16, §18 updated |
