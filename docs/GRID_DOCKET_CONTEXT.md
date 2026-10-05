@@ -136,7 +136,7 @@ in repo secrets, which stay private on a public repo.
 
 Published artifact **https://claude.ai/artifact/JJ8FYdvfZ2WPg6r4UpFXbW** — built from the v8 page (4 Oct 2026; repo
 commit fbcce31); republished by the 5 Oct Brief as artifact version 9, and on 5 Oct with refreshed annotations as
-version 10. Private to Rett until shared. Declares the `downloads` capability so a reader can save the Excel tracker
+version 10. Readable by anyone in the Blue Owl organization (found 5 Oct; earlier versions of this note said private) — sharing is changed from the page's Share menu. Declares the `downloads` capability so a reader can save the Excel tracker
 (built in the page), the narrative PDF and the narrative markdown. Supporting files: `data.json` (events + full
 26-column table + the store's change history, coverage, annotations and party list), `metrics.json`,
 `tariff_terms.json`, `status.json`, `narrative.md`, narrative PDF. Republished to the same URL by each Brief; `icon`
