@@ -19,5 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5887_1653828.ZIP",
+   "name": null,
+   "bytes": 9800,
+   "sha256": "97273b3ce07f79a899da79e8cb7e9eacee69d29752137a4d1018d5d548020bb9",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Stacy Correction.docx ===\n\nSOAH Order 30- Addressing Routes to be admitted and order of Presentation Docket #59475\n\n(B)Routes\nStacy Randolph-211 is listed on Route E-13 and should be listed on F-20 only.  We were told by the Judge in the PUC meeting to submit this for correction so please make the correction.\n\nWith Regards,\n\ns/s Stacy Randolph\nStacy Randolph\n2519 Indian Mills Dr.\nSalado, Texas 76571\nrandstay@gmail.com\n512-966-5099"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5887_1653829.PDF",
+   "name": null,
+   "bytes": 87687,
+   "sha256": "bf1ed7c41a554e39746d31528c14f4c39ca618219616601613642fcaee94eda9",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-05 06:49:21 PM\n\nControl Number - 59475\n\nItem Number - 5887\n\f    SOAH Order 30- Addressing Routes to be admitted and order of\n                    Presentation Docket #59475\n\n(B)Routes\nStacy Randolph-211 is listed on Route E-13 and should be listed on F-20\nonly. We were told by the Judge in the PUC meeting to submit this for\ncorrection so please make the correction.\n\nWith Regards,\n\ns/s Stacy Ra ndol ph\nStacy Randolph\n2519 Indian Mills Dr.\nSalado, Texas 76571\nrandstay@gmail.com\n512-966-5099\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-06T05:47:14Z"
 }

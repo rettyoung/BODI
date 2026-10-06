@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147430",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Powering the Grid from Both Ends: Why Big Tech’s Nuclear Gamble Needs Energy Efficiency",
+ "filed": "2026-10-05",
+ "url": "//www.rtoinsider.com/147430-powering-grid-both-ends-why-big-techs-nuclear-gamble-needs-energy-efficiency/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Data centers are sprouting everywhere, bringing massive demands for electricity. In response, Google recently partnered with Georgia Power to finance capacity uprates at a nuclear power through a new subscription program. \n The post  Powering the Grid from Both Ends: Why Big Tech’s Nuclear Gamble Needs Energy Efficiency  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-06T05:26:23Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "data center",
+  "nuclear",
+  "uprate"
+ ],
+ "party_hits": [],
+ "documents": []
+}

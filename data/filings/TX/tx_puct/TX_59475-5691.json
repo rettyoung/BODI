@@ -18,6 +18,34 @@
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
  "keywords": [],
- "party_hits": [],
- "documents": []
+ "party_hits": [
+  "Office of Public Utility Counsel"
+ ],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5691_1652686.ZIP",
+   "name": null,
+   "bytes": 212053,
+   "sha256": "9b119c74b30cd1dcb50725dcfa146972d5ad0ee91d3a7fc2ac39cc5a79d9ee40",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Protective Order Certifications. Shanklin.pdf ===\n                                      ATTACHMENT A\n\n                                 Protective Order Certification\n\n       I certify my understanding that the Protected Materials are provided to me under the terms\nof the Protective Order in this proceeding, which I have read and hereby agree to be bound by. I\nunderstand that the contents of the Protected Materials, including any information derived from\nthem, must not be disclosed to anyone except in accordance with the Protective Order and, unless\nI am an employee of the Commission or the Office of Public Utility Counsel (OPUC), will be\nused only for the purpose of the proceeding in Docket No. 59475. I acknowledge that the\nobligations imposed by this certification are pursuant to such Protective Order.\n\n\n\n                                                        Patience Shanklin Estate Trust and Brandon\n /s/Anson B. Howard                                     Shanklin Trust\n Signature                                             Party Represented\n\n  Anson B. Howard                                         6.3.2026\n Printed Name                                          Date\n\n\nI certify that I am eligible to review Highly Sensitive Protected Materials under the Protective\nOrder in this proceeding. I further certify my understanding that the Highly Sensitive Protected\nMaterials provided to me may include information designated as critical energy infrastructure\ninformation (CEII), and I agree to treat such CEII confidentially in accordance with the terms of\nthe Protective Order.\n\n\n\n                                                      Patience Shanklin Estate Trust and Brandon Shanklin\n /s/Anson B. Howard                                   Trust\n Signature                                             Party Represented\n Anson B. Howard                                        6.3.2026\n\n Printed Name                                          Date\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5691_1652687.PDF",
+   "name": null,
+   "bytes": 100665,
+   "sha256": "c42e2c25d430bdb5b745508d363e18a22ee40659f609acdb5b050a4cf35c5724",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-03 04:52:39 PM\n\nControl Number - 59475\n\nItem Number - 5691\n\f                                       ATTACHMENT A\n\n                                 Protective Order Certification\n\n       I certify my understanding that the Protected Materials are provided to me under the terms\nof the Protective Order in this proceeding, which I have read and hereby agree to be bound by. I\nunderstand that the contents of the Protected Materials, including any information derived from\nthem, must not be disclosed to anyone except in accordance with the Protective Order and, unless\nI am an employee of the Commission or the Office of Public Utility Counsel (OPUC), will be\nused only for the purpose of the proceeding in Docket No. 59475.           I acknowledge that the\nobligations imposed by this certification are pursuant to such Protective Order.\n\n\n\n                                                        Patience Shanklin Estate Trust and Brandon\n /s/Anson B. Howard                                     Shanklin Trust\n Signature                                             Party Represented\n\n  Anson B. Howard                                         6.3.2026\n\n Printed Name                                          Date\n\n\n\nI certify that I am eligible to review Highly Sensitive Protected Materials under the Protective\nOrder in this proceeding. I further certify my understanding that the Highly Sensitive Protected\nMaterials provided to me may include information designated as critical energy infrastructure\ninformation (CEII), and I agree to treat such CEII confidentially in accordance with the terms of\nthe Protective Order.\n\n\n\n                                                      Patience Shanklin Estate Trust and Brandon Shanklin\n /s/Anson B. Howard                                   Trust\n Signature                                             Party Represented\n\n Anson B. Howard                                         6.3.2026\n\n\n Printed Name                                          Date\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-06T05:54:33Z"
 }

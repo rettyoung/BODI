@@ -1,0 +1,40 @@
+{
+ "id": "OK:21396006",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000046",
+ "title": "OCC PUD2026-000046 document PUD2026-000046_60_Transcript_Completion_Notice_October_1_2026_Reporter_Lindsey_Muecke_Complet (0 pages - 19 KB): CASE PUD 2026-000046 ENTRY NO. 60 FILED IN OCC COURT CLERK'S OFFICE ON 10/05/2026 - PAGE 1 OF 1 1 BEFORE THE CORPORATION COMMISSION 2 OF THE STATE OF OKLAHOMA 3",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21396006&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21396006&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21396006,
+  "pages": "0 pages - 19 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-06T05:19:05Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21396006&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 19426,
+   "sha256": "63aa0e8c78235795087690b0dd6a54533c0ae7a219682e7ed92807fea9a9e3ff",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "CASE PUD 2026-000046 ENTRY NO. 60 FILED IN OCC COURT CLERK'S OFFICE ON 10/05/2026 - PAGE 1 OF 1\n\n\n\n\n          1                       BEFORE THE CORPORATION COMMISSION\n\n          2                             OF THE STATE OF OKLAHOMA\n\n          3\n\n          4\n               IN THE MATTER OF THE APPLICATION OF                    )\n          5    OKLAHOMA GAS AND ELECTRIC COMPANY                      )\n               FOR AN ORDER OF THE COMMISSION                         )\n          6    APPROVING ITS NEW EXTRA LARGE LOAD                     )\n               TARIFF AND TERMS AND CONDITIONS OF                     )   CASE NUMBER:\n          7    SERVICE FOR EXTRA LARGE LOAD                           )   PUD2026-000046\n               CUSTOMERS AND A REGULATORY ASSET TO                    )\n          8    RECOVER COSTS ASSOCIATED WITH                          )\n               PORTFOLIO OPTIMIZATION SOFTWARE                        )\n          9\n\n         10\n\n         11    * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n\n         12               TRANSCRIPT OF REQUESTED COURTROOM PROCEEDINGS\n\n         13                      HAD ON THE 1ST DAY OF OCTOBER 2026\n\n         14                      BEFORE THE HONORABLE LINDA FOREMAN\n\n         15                             ADMINISTRATIVE LAW JUDGE\n\n         16    * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n\n         17\n\n         18\n\n         19    CHAIRWOMAN KIM DAVID\n\n         20    COMMISSIONER BRIAN BINGMAN\n\n         21    COMMISSIONER TODD HIETT\n\n         22\n\n         23\n\n         24    OFFICIAL COURT REPORTER:\n               LINDSEY MUECKE, RPR, CSR\n         25\n\n                   OKLAHOMA CORPORATION COMMISSION - OFFICIAL TRANSCRIPT\n\f"
+  }
+ ]
+}

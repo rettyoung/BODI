@@ -18,6 +18,34 @@
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
  "keywords": [],
- "party_hits": [],
- "documents": []
+ "party_hits": [
+  "Office of Public Utility Counsel"
+ ],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5688_1652681.ZIP",
+   "name": null,
+   "bytes": 239029,
+   "sha256": "df7dad1f53e634184b40317c7ecb20d4d9517378a9895333359fa1294cf9f1f4",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Protective Order Certifications. Yates.pdf ===\n                                      ATTACHMENT A\n\n                                 Protective Order Certification\n\n       I certify my understanding that the Protected Materials are provided to me under the terms\nof the Protective Order in this proceeding, which I have read and hereby agree to be bound by. I\nunderstand that the contents of the Protected Materials, including any information derived from\nthem, must not be disclosed to anyone except in accordance with the Protective Order and, unless\nI am an employee of the Commission or the Office of Public Utility Counsel (OPUC), will be\nused only for the purpose of the proceeding in Docket No. 59475. I acknowledge that the\nobligations imposed by this certification are pursuant to such Protective Order.\n\n\n\n                                                         Yates Ranches, Ltd.\n /s/Anson B. Howard\n Signature                                             Party Represented\n\n  Anson B. Howard                                         6.3.2026\n Printed Name                                          Date\n\n\nI certify that I am eligible to review Highly Sensitive Protected Materials under the Protective\nOrder in this proceeding. I further certify my understanding that the Highly Sensitive Protected\nMaterials provided to me may include information designated as critical energy infrastructure\ninformation (CEII), and I agree to treat such CEII confidentially in accordance with the terms of\nthe Protective Order.\n\n\n\n\n /s/Anson B. Howard                                    Yates Ranches, Ltd.\n Signature                                             Party Represented\n Anson B. Howard                                        6.3.2026\n\n Printed Name                                          Date\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5688_1652682.PDF",
+   "name": null,
+   "bytes": 99656,
+   "sha256": "dad20bd3fcfcab6eeacc6c0d5f8321624d9ff236b2a8509905e894b347350945",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-03 04:51:50 PM\n\nControl Number - 59475\n\nItem Number - 5688\n\f                                       ATTACHMENT A\n\n                                 Protective Order Certification\n\n       I certify my understanding that the Protected Materials are provided to me under the terms\nof the Protective Order in this proceeding, which I have read and hereby agree to be bound by. I\nunderstand that the contents of the Protected Materials, including any information derived from\nthem, must not be disclosed to anyone except in accordance with the Protective Order and, unless\nI am an employee of the Commission or the Office of Public Utility Counsel (OPUC), will be\nused only for the purpose of the proceeding in Docket No. 59475.           I acknowledge that the\nobligations imposed by this certification are pursuant to such Protective Order.\n\n\n\n\n                                                          Yates Ranches, Ltd.\n /s/Anson B. Howard\n\n Signature                                             Party Represented\n\n  Anson B. Howard                                         6.3.2026\n\n Printed Name                                          Date\n\n\n\nI certify that I am eligible to review Highly Sensitive Protected Materials under the Protective\nOrder in this proceeding. I further certify my understanding that the Highly Sensitive Protected\nMaterials provided to me may include information designated as critical energy infrastructure\ninformation (CEII), and I agree to treat such CEII confidentially in accordance with the terms of\nthe Protective Order.\n\n\n\n\n /s/Anson B. Howard                                    Yates Ranches , Ltd .\n\n Signature                                             Party Represented\n\n Anson B. Howard                                         6.3.2026\n\n\n Printed Name                                          Date\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-06T05:54:51Z"
 }

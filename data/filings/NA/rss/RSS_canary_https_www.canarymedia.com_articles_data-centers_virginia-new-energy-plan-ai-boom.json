@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/data-centers/virginia-new-energy-plan-ai-boom",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Virginia’s new energy plan: Make the AI boom work for — not against — us",
+ "filed": "2026-10-05",
+ "url": "https://www.canarymedia.com/articles/data-centers/virginia-new-energy-plan-ai-boom",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "For well over a year, the twin problems of rising utility bills and soaring electric demand spurred by the AI boom have consumed the energy policy debate in Virginia, the data center capital of the world.  Clean energy foes — mostly Republicans — say the state’s landmark zero-carbon mandate should be scaled back or…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-06T05:26:23Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

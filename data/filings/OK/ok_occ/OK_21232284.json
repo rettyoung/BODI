@@ -1,0 +1,38 @@
+{
+ "id": "OK:21232284",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000031",
+ "title": "OCC PUD2026-000031 document PUD2026-000031_100_Notice_Of_Hearing_filed_on_behalf_of_OKLAHOMA_GAS_AND_ELECTRIC_COMPANY (0 pages - 406 KB): CASE PUD 2026-000031 ENTRY NO. 100 FILED IN OCC COURT CLERK'S OFFICE ON 08/05/2026 - PAGE 1 OF 1 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN T",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21232284&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21232284&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21232284,
+  "pages": "0 pages - 406 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-06T05:18:35Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21232284&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 415948,
+   "sha256": "f950f1ef0263e5cabf5db8abdcb5457cc8aef19d2fec980575cea76b56e09961",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "CASE PUD 2026-000031 ENTRY NO. 100 FILED IN OCC COURT CLERK'S OFFICE ON 08/05/2026 - PAGE 1 OF 1\n\n\n\n\n           BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n          IN THE MATTER OF THE APPLICATION OF                      )\n          OKLAHOMA GAS AND ELECTRIC COMPANY                        ) Case No. PUD2026-000031\n          FOR COMMISSION APPROVAL OF ELECTRIC                      )\n          SERVICE AGREEMENTS AND PREAPPROVAL                       )\n          OF CAPACITY PURCHASE AGREEMENTS                          )\n          PURSUANT 17 O.S. § 286(C)                                )\n\n                                            NOTICE OF HEARING\n\n                 NOTICE IS HEREBY GIVEN that Oklahoma Gas and Electric Company (“OG&E”) has\n         filed an Objections to Discovery Requests in the above-captioned case.\n\n                NOTICE IS FURTHER GIVEN that the Motion will be heard before the Administrative\n         Law Judge on August 13, 2026, at 8:30 a.m., in the Concourse Theater, Suite C50, Will Rogers\n         Memorial Building in the Capitol Complex at 2401 N. Lincoln Blvd., Oklahoma City, OK 73105.\n         The Concourse Theater is located in the tunnel between the Will Rogers Memorial Office Building\n         and the Sequoyah Office Building.\n\n                NOTICE IS FURTHER GIVEN that all interested persons may appear and be heard\n         regarding the Objections, and after hearing and consideration of the recommendations of the\n         Administrative Law Judge, the Commission will issue such orders and grant such relief as it deems\n         reasonable, fair, necessary, proper and equitable, whether or not specifically prayed for in the\n         Motion.\n\n                 NOTICE IS FURTHER GIVEN that for information concerning this Objection, contact\n         A. Chase Snodgrass, Oklahoma Gas and Electric Company, 321 N. Harvey Ave, Oklahoma City,\n         Oklahoma, 73102, (405) 553-3129, or Deborah R. Thompson, Thompson Tillotson PLLC, P.O.\n         Box 54632, Oklahoma City, Oklahoma, 73154, (405) 213-1000, attorneys for Oklahoma Gas and\n         Electric Company.\n\n\n         OKLAHOMA CORPORATION COMMISSION\n\n         KIM DAVID, Chairman\n         J. TODD HIETT, Commissioner\n         BRIAN BINGMAN, Commissioner\n\n\n\n\n                                                     Deborah R. Thompson, OBA No. 16700\n\f"
+  }
+ ]
+}

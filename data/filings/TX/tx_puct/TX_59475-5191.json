@@ -23,10 +23,10 @@
   {
    "url": "https://interchange.puc.texas.gov/Documents/59475_5191_1649281.ZIP",
    "name": null,
-   "bytes": 1208,
-   "sha256": "e1b0a10649c4b92f828523efc2ebe135ea9488179a2816888d1e84f786202dbf",
-   "ctype": "text/html",
-   "quality": "extract_error: BadZipFile('File is not a zip file')",
+   "bytes": 445307,
+   "sha256": "a5c8da371c2e2ac97ee512e7f167a05b4db7514bd073125aca0ff6bc027f1ba6",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
    "ocr": false,
    "pages": null,
    "truncated": false,
@@ -45,5 +45,5 @@
    "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-05-27 06:22:07 PM\n\nControl Number - 59475\n\nItem Number - 5191\n\f           0 ,\n\n\n\n     Q Search here                                   I\n                                                     V                G?\n~Ci Ask Maps 1 lf| Restaurants ~ @0 Gas J                                  *I\n\n\n       .\n\n\n\n\n                                                                           A•'\n\n                                              .\n\n\n\n\n                                                                                /d\n                       .~.\n\n                                             r, -I       i.......P\n\n\n\n\n                             -r\n                         O{d*#Intrl'J[#WL#I* i\n                                        ..\n\n\n\n\n..\n\n\n\n\n4                                                                    P,.\n\n                                                           ..\n\n\n                                                                 .\n\n\n\n\n                                                           .\n\n\n           .\n           K\n               '\n               4   .                                                        .\n\n\n           f1\n\n\n\n                                                     .\n\n     Local vibe                                                                 . j\n\f"
   }
  ],
- "enriched_at": "2026-10-04T20:44:18Z"
+ "enriched_at": "2026-10-06T05:31:56Z"
 }

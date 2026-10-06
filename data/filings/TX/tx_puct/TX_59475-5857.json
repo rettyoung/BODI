@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "transmission service"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5857_1653724.ZIP",
+   "name": null,
+   "bytes": 12187,
+   "sha256": "2c7a8d7af844bc9d700e885147aed9fa0d11157387d61f88586bd7aba5562633",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Paul Macek-Correction to Attachment A of SOAH order 30.docx ===\nSOAH DOCKET NO. 473-26-16349\nPUC DOCKET NO. 59475\nJOINT APPLICATION OF ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA TRANSMISSION SERVICE CORPORATION TO AMEND THEIR CERTIFICATES OF CONVENIENCE AND NECESSITY FOR THE BELL COUNTY EAST SWITCH TO BIG HILL SUBSTATION 765-KV TRANSMISSION LINE PROJECT IN BELL, BURNET, CONCHO, CORYELL, LAMPASAS, LLANO, MASON, MCCULLOCH, MENARD, MILAM, MILLS, SAN SABA, SCHLEICHER, TOM GREEN, AND WILLIAMSON COUNTIES\n§\n§\n§\n§\n§\n§\n§\n§\n§\n§\n§\nBEFORE THE\nAdministrative Law Judges\nCorrection to Attachment A SOAH order NO 30\nTO THE HONORABLE  JUDGES:\nMy name is Paul Macek. Party No 186, and I am an intervenor in this proceeding. I submitted my Direct Testimony on 5/12/26.  I also submitted my Direct Testimony as Exhibit 1 to Kiteworks and Egnyte the morning of 06/03/26.  I believe my testimony is not included on Attachment A in error.  I request it be included.  I have also resubmitted to Kiteworks on 6/5 per the Judges instructions on the prehearing conf call.\nI also request to be included on the attendance poll as I was on the voice call version of zoom which did not include an allowance to complete the attendance poll.\n"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5857_1653725.PDF",
+   "name": null,
+   "bytes": 97884,
+   "sha256": "e7ad6e0835d5f8698cf67ae0c4f4b6e2863fcbd297011a234a15265fa8d30d2c",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-05 04:14:09 PM\n\nControl Number - 59475\n\nItem Number - 5857\n\fSOAH DOCKET NO. 473-26-16349\nPUC DOCKET NO. 59475\n\nJOINT APPLICATION OF ONCOR ELECTRIC DELIVERY COMPANY LLC AND\nLCRA TRANSMISSION SERVICE CORPORATION TO AMEND THEIR\nCERTIFICATES OF CONVENIENCE AND NECESSITY FOR THE BELL COUNTY\nEAST SWITCH TO BIG HILL SUBSTATION 765-KV TRANSMISSION LINE\nPROJECT IN BELL, BURNET, CONCHO, CORYELL, LAMPASAS, LLANO, MASON,\nMCCULLOCH, MENARD, MILAM, MILLS, SAN SABA, SCHLEICHER, TOM\nGREEN, AND WILLIAMSON COUNTIES\n\n\n\n\nBEFORE THE\nAdministrative Law Judges\n\n\nCorrection to Attachment A SOAH order NO 30\nTO THE HONORABLE JUDGES:\n\nMy name is Paul Macek. Party No 186, and I am an intervenor in this proceeding. I submitted\nmy Direct Testimony on 5/12/26. I also submitted my Direct Testimony as Exhibit 1 to\nKiteworks and Egnyte the morning of 06/03/26. I believe my testimony is not included on\nAttachment A in error. I request it be included. I have also resubmitted to Kiteworks on 6/5 per\nthe Judges instructions on the prehearing conf call.\n\nI also request to be included on the attendance poll as I was on the voice call version of zoom\nwhich did not include an allowance to complete the attendance poll.\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-06T05:49:38Z"
 }

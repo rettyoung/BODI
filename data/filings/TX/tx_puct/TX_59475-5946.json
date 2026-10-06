@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "transmission service"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5946_1653966.ZIP",
+   "name": null,
+   "bytes": 76902,
+   "sha256": "ae3e94ff8e1e3ffdf15ad566ae222af70c0ff5af85b2d3ccd6ded26923ddd965",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Response to Applicants Objections_59745_807_Exhibit 1.pdf ===\n      ONCOR and LCRA TSC Bell County East to Big Hill 765 kV Transmission Project\n                          SOAH Docket 473-26-16349\n                            PUC TX Docket #59475\n\nRESPONSE TO ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA\nTRANSMISSION SERVICE CORPORATION OBJECTIONS IN PUCT FILING #5936 TO\nEXHIBITS LISTED IN ATTACHMENT A OF SOAH ORDER NO. 30\n\nIntervenors M Rex and Kelli A Emerson respectfully urge the Court to deny Applicant’s\nobjection to Exhibit 1, # 807.\n\n   1. It is our understanding that in the June 5, 2026 hearing, applicants did not object to any of\n      the exhibits pre-filed on the Court’s SOAH Order 30 exhibit A, subject to the opportunity\n      to object to the late-filed exhibits not previously included in Exhibit A or not filed in the\n      Egnyte portal. Exhibit 1, #807 was timely filed in all three portals and was included in the\n      Court’s Order; therefore, Applicant’s objection is untimely.\n   2. Applicant filed her objections after the Court ordered time limit of June 7, 2026, 12 noon;\n      therefore, her objections are untimely.\n   3. The primary difference between intervenor’s original filing and Exhibit 1 is a party\n      introduction and the addition of a jurat that was inadvertently left off the previously filed\n      Position and Testimony document. There are no substantive additions to the testimony,\n      and no surprises.\n\n   For the above-stated reasons, the Intervenor respectfully urges the Court to deny Applicant’s\n   objection to Exhibit 1, #807 and allow Intervenor’s testimony to stand as previously\n   admitted.\n\n   Respectfully submitted,\n\n   M Rex Emerson\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5946_1653967.PDF",
+   "name": null,
+   "bytes": 101859,
+   "sha256": "2c8c4ca14e0bcce0cf00b1bb94fbd78fcb13da6d3b3608778cf66266842dba5b",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-07 02:59:35 PM\n\nControl Number - 59475\n\nItem Number - 5946\n\f      ONCOR and LCRA TSC Bell County East to Big Hill 765 kV Transmission Project\n                          SOAH Docket 473-26-16349\n                                     PUC TX Docket #59475\n\nRESPONSE TO ONCOR ELECTRIC DELIVERY COMPANY LLC AND LCRA\nTRANSMISSION SERVICE CORPORATION OBJECTIONS IN PUCT FILING #5936 TO\nEXHIBITS LISTED IN ATTACHMENT A OF SOAH ORDER NO. 30\n\nIntervenors M Rex and Kelli A Emerson respectfully urge the Court to deny Applicant' s\nobjection to Exhibit 1, # 807.\n\n   1. It is our understanding that in the June 5,2026 hearing, applicants did not object to any of\n      the exhibits pre-filed on the Court' s SOAH Order 30 exhibit A, subject to the opportunity\n      to obj ect to the late-filed exhibits not previously included in Exhibit A or not filed in the\n      Egnyte portal. Exhibit 1, #807 was timely filed in all three portals and was included in the\n      Court' s Order; therefore, Applicant's objection is untimely.\n   2. Applicant filed her obj ections after the Court ordered time limit of June 7,2026, 12 noon;\n      therefore, her obj ections are untimely.\n   3. The primary difference between intervenor' s original filing and Exhibit 1 is a party\n       introduction and the addition of a jurat that was inadvertently left off the previously filed\n       Position and Testimony document. There are no substantive additions to the testimony,\n       and no surprises.\n\n   For the above-stated reasons, the Intervenor respectfully urges the Court to deny Applicant' s\n   obj ection to Exhibit 1, #807 and allow Intervenor' s testimony to stand as previously\n   admitted.\n\n   Respectfully submitted,\n\n   M Rex Emerson\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-06T05:42:03Z"
 }

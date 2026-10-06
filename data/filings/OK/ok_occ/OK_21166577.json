@@ -1,0 +1,42 @@
+{
+ "id": "OK:21166577",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000046",
+ "title": "OCC PUD2026-000046 document PUD2026-000046_23_Entry_of_Appearance_of_The_Petroleum_Alliance_of_Oklahoma_filed_on_behalf_o (0 pages - 330 KB): CASE PUD 2026-000046 ENTRY NO. 23 FILED IN OCC COURT CLERK'S OFFICE ON 07/14/2026 - PAGE 1 OF 2 ",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21166577&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21166577&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21166577,
+  "pages": "0 pages - 330 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-06T05:19:19Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [
+  "Walmart"
+ ],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21166577&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 338200,
+   "sha256": "d3be09e7d748fd9a4febd21037f898e669edd5b1289c373d9e2120093e60fedb",
+   "ctype": "application/octet-stream",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 2,
+   "truncated": false,
+   "text": "CASE PUD 2026-000046 ENTRY NO. 23 FILED IN OCC COURT CLERK'S OFFICE ON 07/14/2026 - PAGE 10F 2\n\nBEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\nIN THE MATTER OF THE APPLICATION OF _ )\n\nOKLAHOMA GAS AND ELECTRIC COMPANY )\n\nFOR AN ORDER OF THE COMMISSION )\n\nAPPROVING ITS NEW EXTRA LARGELOAD ) CASE NO. PUD2026-000046\nTARIFF AND TERMS AND CONDITIONS OF\nSERVICE FOR EXTRA LARGE LOAD\nCUSTOMERS AND A REGULATORY ASSET\nTO RECOVER COSTS ASSOCIATED WITH\nPORTFOLIO OPTIMIZATION SOFTWARE\n\nENTRY OF APPEARANCE OF THE PETROLEUM ALLIANCE OF OKLAHOMA\nCOMES NOW, The Petroleum Alliance of Oklahoma, by and through the undersigned\nattorney, and pursuant to OAC 165:5-9-4(d), hereby enters an appearance as a party of record in\nthe above styled and number Case with the agreement of the Applicant, all parties of record and\n\nthe Administrative Law Judge.\n\nRespectfully submitted,\n\nWot.\n\n{L David Jacobson __JOBA No. 12717\nJACOBSON & LAASCH\n\n212 East Second Street\n\nEdmond, Oklahoma 73034\n\n(405) 341-3303\n\njdj8788@aol.com\n\nAttorneys for The Petroleum Alliance of\nOklahoma\n\n\fCASE PUD 2026-000046 ENTRY NO. 23 FILED IN OCC COURT CLERK'S OFFICE ON 07/14/2026 - PAGE 2 0F 2\n\nCERTIFICATE OF SERVICE\n\nThe undersigned certifies that on the 14\" day of July, 2026, a true and correct copy of the above and foregoing\nwas delivered via electronic mail addressed to the following:\n\nPublic Utility Division\n\nMike S. Ryan\n\nNatasha Scott\n\nEJ Thomas\n\nOffice of Judicial and Legislative Services\nOklahoma Corporation Commission\nmike.ryan@occ.ok.gov\nnatash.scott@occ.ok. gov\nej.thomas@occ.ok.gov\n\npudenergy@occ.ok.gov\n\nOffice of the Attorney General\nThomas L. Grossnicklaus\n\nAshley N. Youngblood\n\nMeghan Wan\n\nMichael L. Velez\nthomas.grossnicklaus@oag.ok.gov\nashley.youngblood@oag.ok.gov\nmeghan. wan@oag.ok.gov\nmichale.velez@oag.ok. gov\n\nUtility regulation@oag.ok.gov\n\nOklahoma Gas & Electric Company\nA. Chase Snodgrass\nsnodgrec@oge.com\nreginfor@oge.com\n\nKenneth A. Tillotson\nDeborah R. Thompson\nThompson & Tillotson, PLLC\nke! @ttfirm.com\n\ndeborah@ttfirm.com\n\nOklahoma Industrial Energy Consumers\nThomas P. Schroedter\n\nEric C. Money\n\nHall, Estill, Hardwick, Gable, Golden & Nelson, PC\ntschroedter@hallestill.com\n\nemoney@hallestill.com\n\nWalmart, Inc.\nRick D. Chamberlain\nRdc.law@gmail.com\n\n"
+  }
+ ]
+}

@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "transmission service"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5770_1652868.ZIP",
+   "name": null,
+   "bytes": 13160,
+   "sha256": "7beab95550f2b533be994cd3d4f94f71225bf9157d37bff1fb8906aa3e365ce9",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Request to Submit Testimony and Exhibits into Egnyte.docx ===\n9SOAH DOCKET NUMBER 473-26-16349  \nPUC DOCKET NUMBER 59475\nAPPLICATION OF ONCOR ELECTRIC DELIVERY COMPANY LLC FOR A CERTIFICATE OF CONVENIENCE AND NECESSITY FOR THE BELL COUNTY EAST TO BIG HILL 765 kV TRANSMISSION LINE\nDIRECT TESTIMONY OF LOREN & CHARLES POWELL ON BEHALF OF THEMSELVES\nLoren and Charles Powell\nFor Oran Creek Ranch, LLC\nI filed the Direct Testimony and Exhibits of Loren and Charles Powell on June 2, 2026 to the SOAH Docket Number 473-26-16349 on the Kiteworks and a copy of the Exhibits on site PUC interchange filing site number 5367.\nI did not receive an invitation from ONCR’S Egnyte site by 5:00 PM as stated in the documents and therefore could not upload the Direct Testimony and Exhibits to be considered as evidence. \nWhy did I not receive and email with an invitation?  We respectfully request that we be given an opportunity to submit our Testimony and Exhibits into evidence to ONCOR.\nLoren and Charles Powell\nOran Creek Ranch, LLC"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5770_1652869.PDF",
+   "name": null,
+   "bytes": 108770,
+   "sha256": "196f8eccb0b10d089dcfd8555602057f0a63e2ac890ebe868543d8f56fc5bf9b",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-03 08:30:03 PM\n\nControl Number - 59475\n\nItem Number - 5770\n\f                 9SOAH DOCKET NUMBER 473-26-16349\n\n                     PUC DOCKET NUMBER 59475\n\nJOINT APPLICATION OF ONCOR      §\nELECTRIC DELIVERY COMPANY LLC   §              Before the State\nAND LCRA TRANSMISSION SERVICE   §\nCORPORATION TO AMEND THEIR      §\nCERTIFICATES OF CONVENIENCE AND\n                                §                   Office of\nNECESSITY FOR THE BELL COUNTY   §\n                                §\nEAST SWITCH TO BIG HILL         §               Administrative\nSUBSTATION 765-KV TRANSMISSION  §\nLINE PROJECT IN BELL, BURNET,   §\nCONCHO, CORYELL, LAMPASAS,         §                Hearings.\nLLANO, MASON, MCCULLOCH,\nMENARD, MILAM, MILLS, SAN SABA,    §\nSCHLEICHER, TOM GREEN, AND\nWILLIAMSON COUNTIES\n\n\n\n\nAPPLICATION OF ONCOR ELECTRIC DELIVERY COMPANY LLC FOR A\nCERTIFICATE OF CONVENIENCE AND NECESSITY FOR THE BELL COUNTY EAST\nTO BIG HILL 765 kV TRANSMISSION LINE,\n\nDIRECT TESTIMONY OF LOREN & CHARLES POWELL ON BEHALF OF THEMSELVES\n\nLoren and Charles Powell\nFor Oran Creek Ranch, LLC\nI filed the Direct Testimony and Exhibits of Loren and Charles\nPowell on June 2,2026 to the SOAH Docket Number 473-26-\n16349 on the Kiteworks and a copy of the Exhibits on site PUC\ninterchange filing site number 5367.\n\fI did not receive an invitation from ONCR'S Egnyte site by\n5:00 PM as stated in the documents and therefore could\nnot upload the Direct Testimony and Exhibits to be\nconsidered as evidence.\nWhy did I not receive and email with an invitation? We\nrespectfully request that we be given an opportunity to\nsubmit our Testimony and Exhibits into evidence to\nONCOR.\nLoren and Charles Powell\nOran Creek Ranch, LLC\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-06T05:53:57Z"
 }

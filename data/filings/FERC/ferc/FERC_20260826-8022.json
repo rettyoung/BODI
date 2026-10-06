@@ -32,5 +32,11 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': 'AE25DEFA-B0C1-CE55-9386-A03F17F00000', 'name': '361012-C000038-Form_3Q_Electric-2026-Q2_361012.html', 'type': 'HTML'}",
+   "error": "RuntimeError('FERC DownloadP8File returned application/octet-stream (2741544 bytes)')"
+  }
+ ],
+ "enriched_at": "2026-10-06T05:35:05Z"
 }

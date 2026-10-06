@@ -19,5 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5853_1653699.ZIP",
+   "name": null,
+   "bytes": 21249,
+   "sha256": "ad88e298b0b75f290e64404bf7b09914adb60216a779cc5be73002e44ceee83a",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== SOAH #30 correction letter.docx ===\n\n\nG31 Landowners\nc/o Susan Warren \n800 CR 222 Florence, TX 76527 \n512-799-1579     smwarren2025@gmail.com\n\nJune 5, 2026\n\nTo: Administrative Law Judges Cassandra Quinn, Linda Brite, and Linda J. Burgess\n\nRE: PUC Docket No. 59475 – Notice of Corrections to SOAH Order No. 30 Addressing Exhibits to be Admitted and Order of Presentation \n\nThe following corrections should be made to Attachment B:\n\n\n\nRespectfully Submitted\n\nG31 Landowners\nc/o Susan Warren"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5853_1653700.PDF",
+   "name": null,
+   "bytes": 90831,
+   "sha256": "df2f90e4484c489782868b89d0cbfc4cb4912a9bf8c61264c7d3d25d5b317c12",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-05 03:56:23 PM\n\nControl Number - 59475\n\nItem Number - 5853\n\fG31 Landowners\ndo Susan Warren\n800 CR 222 Florence, TX 76527\n512-799-1579 smwarren2025@qmail.com\n\nJune 5,2026\n\nTo: Administrative Law Judges Cassandra Quinn, Linda Brite, and Linda J. Burgess\n\nRE: PUC Docket No. 59475 - Notice of Corrections to SOAH Order No. 30 Addressing\nExhibits to be Admitted and Order of Presentation\n\nThe following corrections should be made to Attachment B:\n\n No.                         Name                           First Link\n 227                         Jessica L'erin Begley          G31\n 228                         Jonathan Begley                G31\n 701                         Brenda & Scott Thompson        G31\n 725                         Cory Vales                     G31\n\n\nRespectfully Submitted\n 1223 ve-,o-Zb  UCbo-«CZb\nG31 Landowners\ndo Susan Warren\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-06T05:49:56Z"
 }

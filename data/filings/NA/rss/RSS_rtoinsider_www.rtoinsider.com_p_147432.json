@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147432",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "ISO-NE Developers Challenge Cluster Study After ‘Project-killing Costs’",
+ "filed": "2026-10-05",
+ "url": "//www.rtoinsider.com/147432-iso-ne-developers-challenge-cluster-study-after-project-killing-costs/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " A group of project developers filed a complaint with FERC about ISO-NE’s first cluster study conducted under Order 2023 rules, arguing that structural issues with the study methodology led to exorbitant interconnection cost estimates. \n The post  ISO-NE Developers Challenge Cluster Study After ‘Project-killing Costs’  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-06T05:26:23Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

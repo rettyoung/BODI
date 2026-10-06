@@ -1,0 +1,40 @@
+{
+ "id": "OK:21042894",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000046",
+ "title": "OCC PUD2026-000046 document PUD2026-000046_15_Entry_of_Appearance_of_Oklahoma_Industrial_Energy_Consumers_filed_on_behalf (0 pages - 1.09 MB): CASE PUD PUD2026-000046 ENTRY NO. 15 FILED IN OCC COURT CLERK'S OFFICE ON 06/23/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21042894&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21042894&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21042894,
+  "pages": "0 pages - 1.09 MB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-06T05:19:26Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21042894&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 1140404,
+   "sha256": "57a11b3e0e591cdb6c8ba8e44323fbaa6af9d17175e9acf70448135d738939a9",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "CASE PUD PUD2026-000046 ENTRY NO. 15 FILED IN OCC COURT CLERK'S OFFICE ON 06/23/2026 - PAGE 1 OF 2\n\n\n\n\n          BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n         IN THE MATTER OF THE APPLICATION OF                )\n         OKLAHOMA     GAS    AND    ELECTRIC                )\n         COMPANY FOR AN ORDER OF THE                        )\n         COMMISSION APPROVING ITS NEW                       )      CASE NO. PUD 2026-000046\n         EXTRA LARGE LOAD TARIFF AND                        )\n         TERMS AND CONDITIONS OF SERVICE                    )\n         FOR EXTRA LARGE LOAD CUSTOMERS                     )\n         AND A REGULATORY ASSET TO                          )\n         RECOVER COSTS ASSOCIATED WITH                      )\n         PORTFOLIO OPTIMIZATION SOFTWARE                    )\n\n          ENTRY OF APPEARANCE OF OKLAHOMA INDUSTRIAL ENERGY CONSUMERS\n\n               COMES NOW, Oklahoma Industrial Energy Consumers (OIEC), by and through the\n\n        undersigned attorneys and pursuant to OAC 165:5-9-4(d), hereby enters an appearance as a party\n\n        of record in the above styled and numbered case with the agreement of the Applicant, all parties\n\n        of record and the Administrative Law Judge.\n\n                                                      Respectfully submitted,\n\n\n\n                                                      Thomas P. Schroedter, OBA #7988\n                                                      Hall, Estill Hardwick, Gable,\n                                                       Golden & Nelson, P.C.\n                                                      521 East 2nd Street, Suite 1200\n                                                      Tulsa, Oklahoma 73102-8865\n                                                      Telephone (918) 594-0400\n                                                      tschroedter@hallestill.com\n\n                                                      and\n\n                                                      Eric C. Money, OBA #22654\n                                                      Hall, Estill Hardwick, Gable,\n                                                      Golden & Nelson, P.C,\n                                                      100 North Broadway, Suite 2900\n                                                      Oklahoma City, Oklahoma 73102-8865\n                                                      Telephone (405) 553-2870\n                                                      emoney@hallestill.com\n\n                                                      ATTORNEYS FOR OKLAHOMA\n                                                      INDUSTRIAL ENERGY CONSUMERS\n\fCASE PUD PUD2026-000046 ENTRY NO. 15 FILED IN OCC COURT CLERK'S OFFICE ON 06/23/2026 - PAGE 2 OF 2\n\n\n\n\n                                          CERTIFICATE OF SERVICE\n\n              This is to certify that on this 23rd day of June, 2026, a true and correct copy of the above and\n        foregoing was served by electronic mail to:\n\n         Deborah R. Thompson                               Mike S. Ryan\n         Kenneth A. Tillotson                              Natasha Scott\n         Thompson Tillotson PLLC                           E.J. Thomas\n         P.O. Box 54632                                    Office of General Counsel\n         Oklahoma City, OK 73154                           Public Utility Division\n         deborah@ttf rm .com                               Oklahoma Corporation Commission\n         kenneth@ttfirm.com                                P.O. Box 171\n                                                           Oklahoma City, OK 73101\n         A. Chase Snodgrass                                m i e h ae l. ry a n ( oc C. o k. go v\n         Oklahoma Gas and Electric Company                 natasha.scott@occ.okgov\n         321 N. Havey Ave. M/C 300                         ej.thomas@occ.ok.gov\n         Oklahoma City, OK 73102                           pudcncrgv@occ.ok.gov\n         snodgrec@oge.com\n         reginfor@oge.com                                  Attorneys for Public Utility Division\n\n         Attorneys for Oklahoma Gas and Electric\n         Company\n\n         Thomas Grossnicklaus\n         Ashley Youngblood\n         Meghan Wan\n         Michael J. Velez\n         Utility Regulation Unit\n         Oklahoma Attorney General\n         313 NE 21st St.\n         Oklahoma City, OK 73105\n         thomas.grossnicklaus@oag.ok.gov\n         ashley.youngblood@oag.ok.gov\n         meghan.wan@oag.ok.gov\n         michael.velez@occ.ok.gov\n         utilityregulation@oag.ok.gov\n\n         Office of The Attorney General of Oklahoma\n\n\n                                                               Thomas P. Schroedter\n\n\n\n\n                                                           2\n\n        22372474.1:620435.01539\n\f"
+  }
+ ]
+}

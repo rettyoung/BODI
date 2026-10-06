@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26278A322",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): Transcript of the Advisory Committee on Reactor Safeguards - Long Mott Generating Station Xe-100 Power Reactor Construction Permit Application Subcommittee Meeting, September 15, 2026, Pages 1-291 (Open) [['Meeting Briefing Package/Handouts', 'Meeting Transcript', 'Slides",
+ "filed": "2026-10-05",
+ "entity": [
+  "NRC/ACRS"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2627/ML26278A322.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26278A322.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26278A322",
+  "document_date": "2026-09-15"
+ },
+ "collected_at": "2026-10-06T05:04:17Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26278A322.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2627/ML26278A322.pdf"
+  }
+ ]
+}

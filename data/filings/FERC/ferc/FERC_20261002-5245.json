@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261002-5245",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-166",
+ "title": "Supplement to 10/01/2026, Response to 09/23/2026, Deficiency Letter of GSP Newington, LLC, et al. under EC26-166.",
+ "filed": "2026-10-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261002-5245",
+ "entity": "Gate City Power Holdings LLC",
+ "fetch": [
+  {
+   "ferc_file": "58F4A941-E74E-C826-91CF-A10D3F800000",
+   "name": "PRData.xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "5D8D4710-79C3-CB06-9982-A10D3F800000",
+   "name": "PRIV_1. ISONE load destination hour map.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "2F91F682-13B6-C50B-A0C5-A10D3F800000",
+   "name": "PRIV_2. ISONE Historical Prices by DPT periods.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "B5D783ED-F84C-C04C-8A8B-A10D3FC00000",
+   "name": "0. master run do files.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-02"
+ },
+ "collected_at": "2026-10-06T05:06:33Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '58F4A941-E74E-C826-91CF-A10D3F800000', 'name': 'PRData.xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '5D8D4710-79C3-CB06-9982-A10D3F800000', 'name': 'PRIV_1. ISONE load destination hour map.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '2F91F682-13B6-C50B-A0C5-A10D3F800000', 'name': 'PRIV_2. ISONE Historical Prices by DPT periods.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'B5D783ED-F84C-C04C-8A8B-A10D3FC00000', 'name': '0. master run do files.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

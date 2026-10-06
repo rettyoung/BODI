@@ -19,5 +19,31 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5886_1653826.ZIP",
+   "name": null,
+   "bytes": 9825,
+   "sha256": "ca3c377f8740c356520aa4890b52cb2d0e3c1c5109c095fd47d6fa5d17407c1f",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Corrections for Nelda.docx ===\n\n\n\n\nSOAH Order 30 Addressing Exhibits to be admitted and order of Presentation- 59475\n\nIn A submission in the listing of testimonies.\nNelda Howton- 251\nNelda Jane Howton- 251\nThe above admissions are the same and were accidently duplicated.  Please remove the Nelda Jane Howton- 251 as it was in error.\nThe judge asked that we turn in corrections so please correct.\n\nWith regard,\ns/sNelda Howton\nNelda Howton\n12600 FM 2843\nSalado, Texas 76571\n\n"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5886_1653827.PDF",
+   "name": null,
+   "bytes": 86979,
+   "sha256": "41adb0e4101ffb5ef79a394b5c5daccad7621d613d9c911533ed97df1439bd49",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-05 06:41:53 PM\n\nControl Number - 59475\n\nItem Number - 5886\n\f    SOAH Order 30 Addressing Exhibits to be admitted and order of\n                       Presentation- 59475\n\nIn A submission in the listing of testimonies.\nNelda Howton- 251\nNelda Jane Howton- 251\nThe above admissions are the same and were accidently duplicated.\nPlease remove the Nelda Jane Howton- 251 as it was in error.\nThe judge asked that we turn in corrections so please correct.\n\nWith regard,\ns/sNelda Howton\nNelda Howton\n12600 FM 2843\nSalado, Texas 76571\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-06T05:47:23Z"
 }

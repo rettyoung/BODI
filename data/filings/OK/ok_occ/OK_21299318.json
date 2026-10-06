@@ -1,0 +1,38 @@
+{
+ "id": "OK:21299318",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000031",
+ "title": "OCC PUD2026-000031 document PUD2026-000031_125_Coversheet_Confidential_Testimony_Summary_of_Matthew_Schuermann_filed_on_be (0 pages - 101 KB): CASE PUD 2026-000031 ENTRY NO. 125 FILED IN OCC COURT CLERK'S OFFICE ON 08/31/2026 - PAGE 1 OF 1 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN T",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21299318&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21299318&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21299318,
+  "pages": "0 pages - 101 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-06T05:17:32Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21299318&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 103728,
+   "sha256": "362d9744a30008e9b57acd37ccaa9db54d3706d018d5618c6bc908858129d5fa",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "CASE PUD 2026-000031 ENTRY NO. 125 FILED IN OCC COURT CLERK'S OFFICE ON 08/31/2026 - PAGE 1 OF 1\n\n\n\n\n           BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n          IN THE MATTER OF THE APPLICATION OF                  )\n          OKLAHOMA GAS AND ELECTRIC COMPANY                    ) Case No. PUD2026-000031\n          FOR COMMISSION APPROVAL OF ELECTRIC                  )\n          SERVICE AGREEMENTS AND PREAPPROVAL                   )\n          OF CAPACITY PURCHASE AGREEMENTS                      )\n          PURSUANT TO 17 O.S. § 286(C)                         )\n\n\n\n                 Coversheet Confidential Testimony Summary of Matthew J. Schuermann\n\n         Direct Testimony\n\n\n\n\n         Rebuttal Testimony\n\n\n\n\n         Coversheet Confidential Testimony Summary of Matthew J. Schuermann             Page 1 of 1\n         Case No. PUD2026-000031\n\f"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "OK:21054005",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000046",
+ "title": "OCC PUD2026-000046 document PUD2026-000046_16_Entry_of_Appearance_filed_on_behalf_of_PUBLIC_UTILITY_DIVISION (0 pages - 236 KB): CASE PUD PUD2026-000046 ENTRY NO. 16 FILED IN OCC COURT CLERK'S OFFICE ON 06/25/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21054005&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21054005&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21054005,
+  "pages": "0 pages - 236 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-06T05:19:23Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21054005&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 241412,
+   "sha256": "f5acb81eccbcc84857f87e5e360f770f390c00bd9ec44c34193bb3057feed2b2",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "CASE PUD PUD2026-000046 ENTRY NO. 16 FILED IN OCC COURT CLERK'S OFFICE ON 06/25/2026 - PAGE 1 OF 2\n\n\n\n\n           BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n        IN THE MATTER OF THE APPLICATION OF                 )\n        OKLAHOMA GAS AND ELECTRIC COMPANY                   )\n                                                                CASE NO. PUD2026-000046\n        FOR AN ORDER OF THE COMMISSION                      )\n        APPROVING ITS NEW EXTRA LARGE LOAD                  )\n        TARIFF AND TERMS AND CONDITIONS OF                  )\n        SERVICE FOR EXTRA LARGE LOAD                        )\n        CUSTOMERS AND A REGULATORY ASSET                    )\n        TO RECOVER COSTS ASSOCIATED WITH                    )\n        PORTFOLIO OPTIMIZATION SOFTWARE                     )\n\n\n                   ENTRY OF APPEARANCE OF THE PUBLIC UTILITY DIVISION\n\n               The undersigned counsel hereby appears on behalf of the Public Utility Division of the\n\n        Oklahoma Corporation Commission and hereby enters an appearance as a party of the record in\n\n        the above-styled case.\n\n                                                         Respectfully submitted,\n\n\n                                                         /s/Mike S. Ryan\n                                                         MIKE S. RYAN, OBA #14126\n                                                         Deputy General Counsel\n                                                         E.J. THOMAS, OBA #34848\n                                                         Deputy General Counsel\n                                                         NATASHA M. SCOTT, OBA #21351\n                                                         Chief Legal Counsel\n                                                         Office of General Counsel\n                                                         OKLAHOMA CORPORATION COMMISSION\n                                                         P.O. Box 171\n                                                         Oklahoma City, Oklahoma 73101-9918\n                                                         Telephone: 405-522-8088\n                                                         michael.ryan@occ.ok.gov\n                                                         ej.thomas@occ.ok.gov\n                                                         natasha.scott@occ.ok.gov\n\n                                                         Attorneys for the Public Utility Division\n\fCASE PUD PUD2026-000046 ENTRY NO. 16 FILED IN OCC COURT CLERK'S OFFICE ON 06/25/2026 - PAGE 2 OF 2\n\n        Case No. PUD2026-000046                                                                  Page 2 of 2\n        Public Utility Division Entry of Appearance\n\n\n                                          CERTIFICATE OF SERVICE\n\n                This is to certify that on June 25, 2026, a true and correct copy of the above and foregoing\n        Entry of Appearance was electronically served via the Electronic Case Filing System to those on\n        the Official Electronic Case Filing Service List, or via electronic mail to the following persons:\n\n             A. Chase Snodgrass                                  Thomas Grossnicklaus\n             Oklahoma Gas & Electric Company                     Ashley Youngblood\n             321 N. Harvey Ave. M/C 300                          Meghan Wan\n             Oklahoma City, OK 73102                             Michael Velez\n             snodgrcc@oge.com                                    Utility Regulation Unit\n             reginfor@oge.com                                    Oklahoma Attorney General\n                                                                 313 NE 21st Street\n                                                                 Oklahoma City, Oklahoma 73105\n             Deborah R. Thompson\n                                                                 thomas.grossnicklaus@oag.ok.gov\n             Kenneth A. Tillotson                                ashley.youngblood@oag.ok.gov\n             Thompson Tillotson PLLC                             meghan.wan@oag.ok.gov\n             P.O. Box 54632                                      michael.velez@oag.ok.gov\n             Oklahoma City, Oklahoma 73154                       Office of The Attorney General of Oklahoma\n             deborah@ttfirm.com\n             kenneth@ttfirm.com                                  Thomas P. Schroedter\n             Attorneys for Oklahoma Gas and Electric             Hall, Estill, Hardwick, Gable,\n             Company                                               Golden & Nelson, P.C.\n                                                                 521 East 2nd Street, Suite 1200\n                                                                 Tulsa, Oklahoma 73102-8865\n                                                                 tschroedter@hallestill.com\n\n                                                                 Eric C. Money, OBA #22654\n                                                                 Hall, Estill, Hardwick, Gable,\n                                                                  Golden & Nelson, P.C.\n                                                                 100 North Broadway, Suite 2900\n                                                                 Oklahoma City, Oklahoma 73102-8865\n                                                                 emoney@hallestill.com\n                                                                 Attorneys for Oklahoma Industrial Energy\n                                                                 Consumers\n\n\n\n                                                               Juliane Alexander, Paralegal\n                                                               OKLAHOMA CORPORATION COMMISSION\n\f"
+  }
+ ]
+}

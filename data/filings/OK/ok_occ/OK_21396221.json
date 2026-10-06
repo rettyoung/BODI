@@ -1,0 +1,40 @@
+{
+ "id": "OK:21396221",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000046",
+ "title": "OCC PUD2026-000046 document PUD2026-000046_61_Notice_of_Hearing_filed_on_behalf_of_OKLAHOMA_INDUSTRIAL_ENERGY_CONSUMERS (0 pages - 738 KB): CASE PUD 2026-000046 ENTRY NO. 61 FILED IN OCC COURT CLERK'S OFFICE ON 10/05/2026 - PAGE 1 OF 1 BEFORE THE CORPORATION COMMISSION OF OKLAHOMA IN THE MATTER OF T",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21396221&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21396221&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21396221,
+  "pages": "0 pages - 738 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-06T05:19:02Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21396221&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 755754,
+   "sha256": "69ee2ddcdf16a6efe4155df3cf31df71bde9314ecd6ef9a89c0bd02e24d9831e",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "CASE PUD 2026-000046 ENTRY NO. 61 FILED IN OCC COURT CLERK'S OFFICE ON 10/05/2026 - PAGE 1 OF 1\n\n\n\n\n                             BEFORE THE CORPORATION COMMISSION OF OKLAHOMA\n\n         IN THE MATTER OF THE APPLICATION OF\n         OKLAHOMA GAS AND ELECTRIC COMPANY\n         FOR AN ORDER OF THE COMMISSION\n         APPROVING ITS NEW EXTRA LARGE LOAD\n         TARIFF AND TERMS AND CONDITIONS OF\n         SERVICE FOR EXTRA LARGE LOAD                         CAUSE NO. PUD2026-000046\n         CUSTOMERS AND A REGULATORY ASSET\n         TO RECOVER COSTS ASSOCIATED WITH\n         PORTFOLIO OPTIMIZATION SOFTWARE\n\n\n\n                                           NOTICE OF HEARING\n\n                NOTICE IS HEREBY GIVEN that Oklahoma Industrial Energy Consumers (\"OIEC\")\n         filed Objections to Certain of Oklahoma Gas and Electric Company's Data Requests in this case.\n\n               NOTICE IS FURTHER GIVEN that a hearing on the Objections to Certain of Oklahoma\n         Gas and Electric Company's Data Requests shall be set before an Administrative Law Judge on\n         October 8, 2026, at 8:30am, at Will Rogers Memorial Office Building, 2401 N. Lincoln Blvd., in\n         the Capitol Complex, Oklahoma City, Oklahoma 73 105.\n\n                NOTICE IS FURTHER GIVEN that the undersigned counsel has conferred with\n         representatives of all parties to this matter and all have agreed to waive notice requirements\n         concerning the above-setting.\n\n                 NOTICE IS FURTHER GIVEN that all interested persons may appear and be heard and\n         that after hearing and consideration of the recommendations of the Administrative Law Judge, the\n         Commission shall issue such order and grant such relief as it deems reasonable, fair, necessary,\n         proper, and equitable in the premises, whether or not specifically prayed for in the Motion.\n\n                NOTICE IS FURTHER GIVEN that for further information concerning this Motion,\n         contact Eric C. Money, HALL, ESTILL, HARDWICK, GABLE, GOLDEN & NELSON, P.C.,\n         100 North Broadway, Suite 2900, Telephone: (405) 553-2870. Email: emonev@hallestill.com\n\n                  OKLAHOMA CORPORATION COMMISSION\n\n                  KIM DAVID, Chairman\n                  BRIAN BINGMAN, Commissioner\n                  J. TODD HIETT, Commissioner\n\n\n                                                     Eric C. Money, OBA No. 22654\n\n\n\n         23081467.1:017849.00001\n\f"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147440",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "DOE to Loan Vistra up to $4.2B for Nuclear Upgrades",
+ "filed": "2026-10-05",
+ "url": "//www.rtoinsider.com/147440-doe-to-loan-vistra-nuclear-plant-upgrades/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The Department of Energy will loan Vistra up to $4.2 billion to upgrade and uprate three of its nuclear power plants in Ohio and Pennsylvania. \n The post  DOE to Loan Vistra up to $4.2B for Nuclear Upgrades  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-06T05:26:23Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "nuclear",
+  "uprate"
+ ],
+ "party_hits": [
+  "Vistra"
+ ],
+ "documents": []
+}

@@ -1,0 +1,42 @@
+{
+ "id": "OK:21144036",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000046",
+ "title": "OCC PUD2026-000046 document PUD2026-000046_17_Entry_Of_Appearance_for_Walmart_Inc_filed_on_behalf_of_WALMART_INC (0 pages - 109 KB): CASE PUD PUD2026-000046 ENTRY NO. 17 FILED IN OCC COURT CLERK'S OFFICE ON 07/07/2026 - PAGE 1 OF 1 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21144036&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21144036&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21144036,
+  "pages": "0 pages - 109 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-06T05:19:20Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [
+  "Walmart"
+ ],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21144036&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 111109,
+   "sha256": "91a6aae18a1cfe76a162006e75f82533f202c00e50181d5212c518c469e94d9f",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "CASE PUD PUD2026-000046 ENTRY NO. 17 FILED IN OCC COURT CLERK'S OFFICE ON 07/07/2026 - PAGE 1 OF 1\n\n\n\n\n            BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n          IN THE MATTER OF THE APPLICATION OF                   )\n          OKLAHOMA GAS AND ELECTRIC COMPANY                     )\n          FOR AN ORDER OF THE COMMISSION                        )\n          APPROVING ITS NEW EXTRA LARGE LOAD                    )\n          TARIFF AND TERMS AND CONDITIONS OF                    )   CAUSE NO. PUD 202600046\n          SERVICE FOR EXTRA LARGE LOAD                          )\n          CUSTOMERS AND A REGULATORY ASSET TO                   )\n          RECOVER COSTS ASSOCIATED WITH                         )\n          PORTFOLIO OPTIMIZATION SOFTWARE                       )\n\n                             ENTRY OF APPEARANCE OF WALMART INC.\n\n                Walmart Inc. enters its appearance as a party of record pursuant to OAC 165: 5-\n\n         9-4 with the agreement of the applicant, parties of record and the Administrative Law\n\n         Judge.\n\n                                                   Respectfully submitted,\n\n\n                                                   /s/ Rick D. Chamberlain\n                                                   Rick D. Chamberlain\n                                                   Attorney at Law\n                                                   Oklahoma Bar Association No. 11255\n                                                   State Bar of Texas No. 24081827\n                                                   P.O. Box 206\n                                                   Jones, OK 73049\n                                                   Tel.:        (405) 229-4154\n                                                   Email:       RDC.Law@GMail.com\n\n                                                   ATTORNEY FOR WALMART INC.\n\n                                       CERTIFICATE OF SERVICE\n\n                I hereby certify that on the 7th day of July 2026 a true and correct copy of the\n         foregoing was served upon all parties of record by means of the U.S. mail, postage\n         prepaid, electronic mail and/or hand-delivery.\n\n\n                                                   /s/ Rick D. Chamberlain\n\f"
+  }
+ ]
+}

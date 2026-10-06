@@ -1,0 +1,40 @@
+{
+ "id": "OK:21033648",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000046",
+ "title": "OCC PUD2026-000046 document PUD2026-000046_11_Attorney_General_s_Entry_of_Appearance_filed_on_behalf_of_OKLAHOMA_ATTORNEY (0 pages - 345 KB): CASE PUD PUD2026-000046 ENTRY NO. 11 FILED IN OCC COURT CLERK'S OFFICE ON 06/18/2026 - PAGE 1 OF 3 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21033648&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21033648&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21033648,
+  "pages": "0 pages - 345 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-06T05:19:29Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21033648&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 353567,
+   "sha256": "3c9545a0fb965c71bbe552d7d127d153c19c09ff4d6d0a02eccdfe18f7c0ea12",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "CASE PUD PUD2026-000046 ENTRY NO. 11 FILED IN OCC COURT CLERK'S OFFICE ON 06/18/2026 - PAGE 1 OF 3\n\n\n\n\n         BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n          IN THE MATTER OF THE APPLICATION OF\n          OKLAHOMA GAS AND ELECTRIC\n          COMPANY FOR AN ORDER OF THE\n          COMMISSION APPROVING ITS NEW                                PUD 2026-000046\n          EXTRA LARGE LOAD TARIFF AND TERMS\n          AND CONDITIONS OF SERVICE FOR\n          EXTRA LARGE LOAD CUSTOMERS AND A\n          REGULATORY ASSET TO RECOVER\n          COSTS ASSOCIATED WITH PORTFOLIO\n          OPTIMIZATION SOFTWARE\n\n\n                           ATTORNEY GENERAL’S ENTRY OF APPEARANCE\n\n                The undersigned counsel appears on behalf of Gentner F. Drummond, Attorney General of\n\n         Oklahoma, to protect the interests of utility customers in the above-referenced proceeding pursuant\n\n         to 74 O.S. § 18b(A)(21) and OAC 165:5-9-4(d).\n\n                Please provide service of any filings, discovery requests, or discovery responses\n\n         electronically to utility.regulation@oag.ok.gov. For all other communications regarding this\n\n         matter, please contact the undersigned counsel.\n\n\n\n\n                                                           1\n\fCASE PUD PUD2026-000046 ENTRY NO. 11 FILED IN OCC COURT CLERK'S OFFICE ON 06/18/2026 - PAGE 2 OF 3\n\n         PUD 2026-000046                                                              Page 2 of 3\n         Attorney General’s Entry of Appearance\n\n                                                  Respectfully submitted,\n\n                                                  GENTNER F. DRUMMOND\n                                                  ATTORNEY GENERAL OF OKLAHOMA\n\n\n                                                  _____________________________________\n                                                  THOMAS L. GROSSNICKLAUS, OBA #34317\n                                                  Deputy Attorney General\n                                                  ASHLEY N. YOUNGBLOOD, OBA #35784\n                                                  Assistant Attorney General\n                                                  MEGHAN WAN, OBA #36982\n                                                     Assistant Attorney General\n                                                  MICHAEL L. VELEZ, OBA #19963\n                                                     Assistant Attorney General\n                                                  UTILITY REGULATION UNIT\n                                                  OKLAHOMA ATTORNEY GENERAL\n                                                  313 NE 21st Street\n                                                  Oklahoma City, Oklahoma 73105\n                                                  Telephone: (405) 521-3921\n                                                  Facsimile: (405) 522-0608\n                                                  thomas.grossnicklaus@oag.ok.gov\n                                                  ashley.youngblood@oag.ok.gov\n                                                  meghan.wan@oag.ok.gov\n                                                  michael.velez@occ.ok.gov\n\fCASE PUD PUD2026-000046 ENTRY NO. 11 FILED IN OCC COURT CLERK'S OFFICE ON 06/18/2026 - PAGE 3 OF 3\n\n        PUD 2026-000046                                                                       Page 3 of 3\n        Attorney General’s Entry of Appearance\n\n                                        CERTIFICATE OF SERVICE\n\n               On this 18th day of June 2026, a true and correct copy of the above and foregoing Attorney\n\n        General’s Entry of Appearance was sent via electronic mail to the following interested parties:\n\n        Fairo Mitchell\n        Acting Director, Public Utility Division\n        OKLAHOMA CORP. COMM’N\n        Jim Thorpe Building\n        2101 N. Lincoln. Blvd.\n        Oklahoma City, OK 73105\n        pudenergy@occ.ok.gov\n\n        E.J. Thomas\n        Natasha Scott\n        Kyle Vazquez\n        Mike Ryan\n        Deputy General Counsel\n        OKLAHOMA CORP. COMM’N\n        Jim Thorpe Building\n        2101 N. Lincoln. Blvd.\n        Oklahoma City, OK 73105\n        ej.thomas@occ.ok.gov\n        natasha.scott@occ.ok.gov\n        kyle.vazquez@occ.ok.gov\n        michael.ryan@occ.ok.gov\n\n        A. Chase Snodgrass\n        OKLAHOMA GAS & ELECTRIC CO.\n        321 N. Harvey Ave., M/C 300\n        Oklahoma City, OK 73102\n        snodgrcc@oge.com\n        reginfor@oge.com\n\n        Deborah R. Thompson\n        Kenneth A. Tillotson\n        THOMPSON TILLOTSON PLLC\n        Oklahoma City, OK 73154\n        deborah@ttfirm.com\n        kenneth@ttfirm.com\n\n\n        ___________________________________\n        MICHAEL L. VELEZ\n          Assistant Attorney General\n\f"
+  }
+ ]
+}

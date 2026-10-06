@@ -1,0 +1,38 @@
+{
+ "id": "OK:21266618",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000031",
+ "title": "OCC PUD2026-000031 document PUD2026-000031_103_Withdrawal_filed_on_behalf_of_PUBLIC_SERVICE_COMPANY_OF_OKLAHOMA (0 pages - 25.3 KB): CASE PUD 2026-000031 ENTRY NO. 103 FILED IN OCC COURT CLERK'S OFFICE ON 08/18/2026 - PAGE 1 OF 1 ",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21266618&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21266618&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21266618,
+  "pages": "0 pages - 25.3 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-06T05:18:30Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21266618&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 25859,
+   "sha256": "9b5d6204d91ae1b1f3ee970f89ba105b2eaf5f643cc5b78a55db072caeeda23c",
+   "ctype": "application/octet-stream",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 1,
+   "truncated": false,
+   "text": "CASE PUD 2026-000031 ENTRY NO. 103 FILED IN OCC COURT CLERK'S OFFICE ON 08/18/2026 - PAGE 10F 1\n\nBEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\nIN THE MATTER OF THE APPLICATION OF )\nOKLAHOMA GAS AND ELECTRIC COMPANY )\nFOR COMMISSION APPROVAL OF ELECTRIC ) Cause No. PUD 2026-000031\nSERVICE AGREEMENTS AND PREAPPROVAL )\nOF CAPACITY PURCHASE AGREEMENTS )\nPURSUANT TO 17 O.S. SEC 286(c) )\n\nWITHDRAWAL\n\nCOMES NOW Public Service Company of Oklahoma (PSO) and hereby withdraws from\nthis proceeding. After reviewing the testimony and Statements of Position filed by other parties\nin this proceeding, PSO has chosen to not file testimony. a Statement of Position, nor does it\nintend to participate in the hearing on the merits.\n\nJack P. Fite. OBA No. 2949\n\n9520 N. May Ave.. Suite 211\nOklahoma City. Oklahoma 73120\nTelephone: (405) 627-6790\n[teeéweeMaw.com\n\nCERTIFICATE OF ELECTRONIC SERVICE\n\nThis is to certify that a true and correct copy of the above and foregoing was e-mailed\nparties of record.\n\nJack P.Fite\nJack P. Fite\n"
+  }
+ ]
+}

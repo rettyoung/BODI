@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "transmission service"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5941_1653956.ZIP",
+   "name": null,
+   "bytes": 95164,
+   "sha256": "10e81c3facb9d8bda5b158aff794c415e09cadb2864acdda1c04b4ed6b038be9",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== INTERVENOR HENDERCO^J LLC'S RESPONSE TO ONCOR AND LCRA'S OBJECTIONS.pdf ===\n                              SOAH DOCKET NO. 473-26-16349\n                                 PUC DOCKET NO. 59475\n\nJOINT APPLICATION OF ONCOR                            §       BEFORE THE STATE OFFICE\nELECTRIC DELIVERY COMPANY                             §\nLLC AND LCRA TSC TO AMEND                             §\nTHEIR CERTIFICATES OF                                 §\nCONVENIENCE AND NECESSITY                             §\nFOR THE BELL COUNTY EAST                              §\nSWITCH TO BIG HILL SUBSTATION                         §                       OF\n765-KV TRANSMISSION LINE IN                           §\nBELL, BURNET, CONCHO,                                 §\nCORYELL, LAMPASSAS, LLANO,                            §\nMASON, MCCULLOCH, MENARD,                             §\nMILAM, MILES, SAN SABA,                               §\nSCHLEICHER, TOM GREEN, AND                            §\nWILLIAMSON COUNTIES                                   §       ADMINISTRATIVE HEARINGS\n\n\n\nHENDERCO LLC\nJune 7, 2026\n\nINTERVENOR HENDERCO LLC'S RESPONSE TO ONCOR AND LCRA'S\nOBJECTIONS TO CERTAIN INTERVENORS' EXHIBITS LISTED IN ATTACHMENT A\nOF SOAH ORDER NO. 30\n\nOncor Electric Delivery Company LLC and LCRA Transmission Services Corporation (together,\n\"Applicants\") filed objections to Intervenor Henderco, LLC's exhibits listed in Attachment A to\nSOAH Order No. 30. Henderco, LLC (Intervenor No. 800) submits this response in support of\nadmitting its exhibits into evidence at the outset of the hearing on the merits. Contrary to the\nApplicants' arguments, Henderco, LLC's Exhibits 1 and 2 were included with James Henderson’s\nDirect Testimony filed on the Interchange on behalf of Henderco, LLC. See Item No. 3891. No\nparty objected to these exhibits at the time of filing. I addition, Henderco LLC’s exhibits were filed\non SOAH’s Kiteworks and Oncor’s Egnyte. Accordingly, Henderco LLC's exhibits should be\nadmitted into evidence. Date: June 7,2026\n\nRespectfully submitted,\n\nJames Henderson\nHenderco LLC\nManaging Member\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_5941_1653957.PDF",
+   "name": null,
+   "bytes": 103875,
+   "sha256": "c039f29891190a1744c37a781ce2938163ce02942dd0a5391592f72c79487f9f",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-06-07 02:07:57 PM\n\nControl Number - 59475\n\nItem Number - 5941\n\f                               SOAH DOCKET NO. 473-26-16349\n                                  PUC DOCKET NO. 59475\n\nJOINT APPLICATION OF ONCOR                            §       BEFORE THE STATE OFFICE\nELECTRIC DELIVERY COMPANY                             §\nLLC AND LCRA TSC TO AMEND                             §\nTHEIR CERTIFICATES OF                                 §\nCONVENIENCE AND NECESSITY                             §\nFOR THE BELL COUNTY EAST                              §\nSWITCH TO BIG HILL SUBSTATION                         §                       OF\n765-KV TRANSMISSION LINE IN                           §\nBELL, BURNET, CONCHO,                                 §\nCORYELL, LAMPASSAS, LLANO,                            §\nMASON, MCCULLOCH, MENARD,                             §\nMILAM, MILES, SAN SABA,                               §\nSCHLEICHER, TOM GREEN, AND                            §\nWILLIAMSON COUNTIES                                   §       ADMINISTRATIVE HEARINGS\n\n\n\nHENDERCO LLC\nJune 7,2026\n\nINTERVENOR HENDERCO LLC'S RESPONSE TO ONCOR AND LCRA'S\nOBJECTIONS TO CERTAIN INTERVENORS' EXHIBITS LISTED IN ATTACHMENT A\nOF SOAH ORDER NO. 30\n\nOncor Electric Delivery Company LLC and LCRA Transmission Services Corporation (together,\n\"Applicants\") filed objections to Intervenor Henderco, LLC's exhibits listed in Attachment A to\nSOAH Order No. 30. Henderco, LLC (Intervenor No. 800) submits this response in support of\nadmitting its exhibits into evidence at the outset of the hearing on the merits. Contrary to the\nApplicants' arguments, Henderco, LLC's Exhibits 1 and 2 were included with James Henderson's\nDirect Testimony filed on the Interchange on behalf of Henderco, LLC. See Item No. 3891. No\nparty objected to these exhibits at the time of filing. I addition, Henderco LLC's exhibits were filed\non SOAH's Kiteworks and Oncor's Egnyte. Accordingly, Henderco LLC's exhibits should be\nadmitted into evidence. Date: June 7,2026\n\nRespectfully submitted,\n\nJames Henderson\nHenderco LLC\nManaging Member\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-06T05:42:11Z"
 }

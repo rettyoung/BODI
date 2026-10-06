@@ -1,0 +1,25 @@
+{
+ "id": "BILL:US:119-S-5418:2026-09-16",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "S 5418",
+ "title": "No Tax Breaks for Data Centers Act",
+ "filed": "2026-09-16",
+ "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5418",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Read twice and referred to the Committee on Finance.",
+  "keywords": [
+   "data center",
+   "data centers"
+  ]
+ },
+ "collected_at": "2026-10-06T05:31:05Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

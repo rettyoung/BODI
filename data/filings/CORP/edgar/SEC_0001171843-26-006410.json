@@ -1,0 +1,40 @@
+{
+ "id": "SEC:0001171843-26-006410",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Fortis 6-K FORM 6-K items",
+ "filed": "2026-10-05",
+ "url": "https://www.sec.gov/Archives/edgar/data/1666175/000117184326006410/",
+ "entity": "Fortis",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1666175/000117184326006410/f6k_100526.htm"
+  }
+ ],
+ "meta": {
+  "form": "6-K",
+  "items": [],
+  "cik": "0001666175",
+  "market_participant": false
+ },
+ "collected_at": "2026-10-06T05:10:06Z",
+ "run_id": "2026-10-06-0452",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1666175/000117184326006410/f6k_100526.htm",
+   "name": null,
+   "bytes": 7463,
+   "sha256": "c0bc06c0bb78167622335f829fb73b966a1b987b751cfb72b1512fceb164d565",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "6-K\n\n1\n\nf6k_100526.htm\n\nFORM 6-K\n\nUNITED STATES\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nFORM 6-K\n\nREPORT OF FOREIGN PRIVATE ISSUER \n\nPURSUANT TO RULE 13a-16 OR 15d-16\n\nOF THE SECURITIES EXCHANGE ACT OF 1934\n\nFor the month of October, 2026\n\nCommission File Number: 001-37915\n\nFortis Inc.\n\nFortis Place, Suite 1100\n\n5 Springdale Street\n\nSt. John's, Newfoundland and Labrador\n\nCanada, A1E 0E4 \n\n(Address of Principal Executive Office)\n\nIndicate by check mark whether the registrant files or will file annual reports under cover\nof Form 20-F or Form 40-F:\n\nForm 20-F ☐ Form 40-F ☑\n\nEXHIBITS\n\nExhibit\n\nDescription\n\n99.1\n\nFortis Inc. Press Release, dated October 5, 2026.\n\nSIGNATURES\n\nPursuant to the requirements of the Securities Exchange Act of 1934, the\nregistrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.\n\nFortis Inc.\n\n(Registrant)\n\nDate: October 5, 2026\n\n /s/ James R. Reid\n\nBy: \n\nJames R. Reid\n\nTitle:\n\nExecutive Vice President, Sustainability and Chief Legal Officer"
+  }
+ ]
+}
