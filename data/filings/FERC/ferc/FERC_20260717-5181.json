@@ -32,5 +32,11 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': 'B2BE05FB-E274-C01A-B891-9F71AD200000', 'name': '2026 07 17 OBPR SS Rehab Redesign SDR4 Submittal Package.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "enriched_at": "2026-10-07T05:30:49Z"
 }

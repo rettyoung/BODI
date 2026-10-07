@@ -1,0 +1,30 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147527",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Google, Constellation Sign PPAs Totaling 3,590 MW",
+ "filed": "2026-10-06",
+ "url": "//www.rtoinsider.com/147527-constellation-google-plan-890mw-nuclear-uprates-pjm-territory/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The power purchase agreements entail 890 MW from nuclear uprates and 2,700 MW from existing power generation in the PJM grid. \n The post  Google, Constellation Sign PPAs Totaling 3,590 MW  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-07T05:18:16Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "nuclear",
+  "uprate"
+ ],
+ "party_hits": [
+  "Constellation",
+  "Google"
+ ],
+ "documents": []
+}

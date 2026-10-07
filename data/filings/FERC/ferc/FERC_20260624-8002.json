@@ -37,5 +37,6 @@
    "url": "{'ferc_file': '835C947B-807A-C945-92D8-9EFC26500000', 'name': '340035-C001132-Form_1-2025-Q4_340035.html', 'type': 'HTML'}",
    "error": "RuntimeError('FERC DownloadP8File returned application/octet-stream (13420933 bytes)')"
   }
- ]
+ ],
+ "enriched_at": "2026-10-07T05:30:54Z"
 }

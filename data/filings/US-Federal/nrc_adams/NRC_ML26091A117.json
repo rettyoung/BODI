@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26091A117",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): Analysis Of Holtec Decommissioning International, LLC's Updated DFPS For Oyster Creek, Pilgrim, Indian Point, Palisades, And Big Rock Point Independent Spent Fuel Storage Installations [['E-Mail']]",
+ "filed": "2026-10-06",
+ "entity": [
+  "NRC/NMSS/DFM/STLB"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2609/ML26091A117.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2609/ML26091A117.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26091A117",
+  "document_date": "2026-03-30"
+ },
+ "collected_at": "2026-10-07T05:00:57Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2609/ML26091A117.pdf",
+   "name": null,
+   "bytes": 179012,
+   "sha256": "e18157c140ec382e06a6d78db0fbc5d75979426019ffc761e2c53d8ba6df3876",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:            Tilda Liu\nTo:              ext_William_Noval; t.lacroix@holtec.com\nCc:              Yoira Diaz Sanabria; Chris Markley\nSubject:         ANALYSIS OF HOLTEC DECOMMISSIONING INTERNATIONAL, LLC’S UPDATED DECOMMISSIONING FUNDING\n                 PLANS FOR OYSTER CREEK NUCLEAR GENERATING STATION, PILGRIM NUCLEAR POWER STATION, INDIAN\n                 POINT NUCLEAR GENERATING STATION, PALISADES NUCLEAR PLANT, AND BIG ROCK POINT,\nDate:            Monday, March 30, 2026 3:49:21 PM\n\n\nNOTE THAT THIS EMAIL WILL BE ENTERED INTO NRC ADAMS AS PUBLICLY\nAVAILABLE DOCUMENT.\n\n\nTO:                  William Noval, Director of Regulatory Affairs\n                    Holtec Decommissioning International, LLC\n                    Krishna P. Singh Technology Campus\n                    1 Holtec Blvd.\n                    Camden, NJ 08104\n\n                Thomas LaCroix, ISFSI Site Project Manager\n                Holtec Decommissioning International, LLC\n                Big Rock Point\n\nSUBJECT:      ANALYSIS OF HOLTEC DECOMMISSIONING INTERNATIONAL, LLC’S\n              UPDATED DECOMMISSIONING FUNDING PLANS FOR OYSTER CREEK\n              NUCLEAR GENERATING STATION, PILGRIM NUCLEAR POWER\n              STATION, INDIAN POINT NUCLEAR GENERATING STATION,\n              PALISADES NUCLEAR PLANT, AND BIG ROCK POINT, INDEPENDENT\n              SPENT FUEL STORAGE INSTALLATIONS\n\nBy letter dated March 31, 2025 (ML25090A172), Holtec Decommissioning International,\nLLC (HDI), on behalf of Oyster Creek Nuclear Generating Station (Oyster Creek), Pilgrim\nNuclear Power Station (Pilgrim), Indian Point Nuclear Generating Station, Units 1, 2, and 3\n(IPEC), Palisades Nuclear Plant (PNP), and Big Rock Point (BRP), submitted updated\ndecommissioning funding plans (DFP) for Oyster Creek, Pilgrim, IPEC, PNP and BRP\nIndependent Spent Fuel Storage Installations (ISFSIs), respectively for U.S. Nuclear\nRegulatory Commission (NRC) staff review.\n\nPursuant to Title 10 of Code of Federal Regulations (10 CFR) 72.30(c), at the time of\nlicense renewal and at intervals not to exceed 3 years, the initial DFP required to be\nsubmitted by 10 CFR 72.30(b) must be resubmitted with adjustments as necessary to\naccount for changes in costs and the extent of contamination in an updated DFP. The\nupdated DFP must update the information submitted with the original or prior approved\nplan. In addition, the updated DFP must also specifically consider the effect of the following\nevents on decommissioning costs, as required by 10 CFR 72.30(c)(1)-(4): (1) spills of\nradioactive material producing additional residual radioactivity in onsite subsurface material,\n(2) facility modifications, (3) changes in authorized possession limits, and (4) actual\nremediation costs that exceed the previous cost estimate.\n\nThe NRC staff reviewed HDI’s 2025 updated DFP, including the updated decommissioning\ncost estimate (DCE) and the method of assuring funds for decommissioning, in accordance\nwith 10 CFR 72.30(c) and NUREG-1757, Vol. 3, Rev. 1, “Consolidated Decommissioning\n\fGuidance.” Based on the review, the NRC staff finds that the updated DFP contains the\ninformation required by 10 CFR 72.30(c) and that HDI has provided reasonable assurance\nby which funds will be available to decommission the ISFSIs at Oyster Creek, Pilgrim,\nIPEC, PNP and BRP, respectively. Therefore, the NRC staff finds that the DCEs\nadequately estimated the cost, at this time, to carry out required ISFSI decommissioning\nactivities prior to license termination, and that the DCEs are reasonable.\n\nIf you have any questions regarding this matter, please contact me at 404-997-4730 or via\nemail to tilda.liu@nrc.gov.\n\nOyster Creek Nuclear Generating Station\nDocket No. 50-219 and 72-15\nEPID No.: L-2017-FPR-0049\n\nPilgrim Nuclear Power Station\nDocket Nos. 50-293 and 72-1044\nEPID No.: L-2017-FPR-0054\n\nIndian Point Nuclear Generating Stations 1, 2, and 3\nDocket Nos. 50-003, 50-247, 50-286, and 72-051\nEPID No.: L-2017-FPR-0035\n\nPalisades Nuclear Plant\nDocket No. 50-255 and 72-007\nEPID No.: L-2017-FPR-0050\n\nBig Rock Point\nDocket Nos: 72-64, 50-305\nEPID No.: L-2017-FPR-0007\n\nThank you,\nTilda Liu, Senior Project Manager\nStorage and Transportation Licensing Branch (STLB)\nDivision of Fuel Management (DFM)\nOffice of Nuclear Material Safety and Safeguards\nUSNRC\n* R-II | ( 404-997-4730 | Tilda.Liu@nrc.gov\n\f"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/32cd04d2-e2b4-4972-87c6-c2a4ff92f604:2026-10-05T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1328",
+ "title": "An Act requiring automated external defibrillators at utility or electrical worksites; imposing duties on the Department of Labor and Industry; and imposing penalties.",
+ "filed": "2026-10-05",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1328/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Labor & Industry",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-07T05:28:34Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

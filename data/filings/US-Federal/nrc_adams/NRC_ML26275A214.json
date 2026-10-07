@@ -1,0 +1,36 @@
+{
+ "id": "NRC:ML26275A214",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): Palisades Nuclear Plant - Response to Request for Additional Information Regarding Emergency License Amendment Request: One-Time-Use Amendment to Allow Alternative Fuel Handling Method for the Recovery of Fuel Assembly DD41 [['Letter', 'Response to Request for Additional ",
+ "filed": "2026-10-06",
+ "entity": [
+  "Holtec Palisades, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2627/ML26275A214.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26275A214.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26275A214",
+  "document_date": "2026-10-02"
+ },
+ "collected_at": "2026-10-07T05:01:00Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "emergency",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26275A214.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2627/ML26275A214.pdf"
+  }
+ ]
+}

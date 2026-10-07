@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/c2912bce-7172-457d-a7dd-711e338c9f7b:2026-10-06T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2674",
+ "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in general provisions relating to Public Utility Code, further providing for definitions.",
+ "filed": "2026-10-06",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2674/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Removed from table",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-07T05:28:34Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

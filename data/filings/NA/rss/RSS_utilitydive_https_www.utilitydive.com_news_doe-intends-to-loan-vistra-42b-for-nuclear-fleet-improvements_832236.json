@@ -1,0 +1,29 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "DOE intends to loan Vistra $4.2B for nuclear fleet improvements",
+ "filed": "2026-10-06",
+ "url": "https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      The loan would cover&nbsp;433 MW of uprates at Vistra&rsquo;s nuclear plants, and&nbsp;preserve around 4 GW of existing capacity, to help meet growing demand in the PJM region, said the U.S. Department of Energy. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-07T05:18:16Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "nuclear",
+  "uprate"
+ ],
+ "party_hits": [
+  "Vistra"
+ ],
+ "documents": []
+}

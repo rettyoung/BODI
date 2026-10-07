@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20261005-5204",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-80,CP82-534",
+ "title": "Comments of the New Mexico Department of Justice and Attorney General Raul Torrez on the Environmental Assessment re the proposed Green Chile Gas Pipeline Project under CP26-80 et al.",
+ "filed": "2026-10-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261005-5204",
+ "entity": "New Mexico Department of Justice",
+ "fetch": [
+  {
+   "ferc_file": "07E6318A-EB24-CB63-A3B1-A1111E600000",
+   "name": "NMDOJ Comment on Green Chile Pipeline (Final).docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Government Agency Submittal"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-05"
+ },
+ "collected_at": "2026-10-07T05:04:00Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "certificate of public convenience",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "NMDOJ Comment on Green Chile Pipeline (Final).docx",
+   "bytes": 26989,
+   "sha256": "7bfd050e55fe6c95a98bbb4ee3c7aa39a795c1d13a31c31b7ba7c1a77d1dd354",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "UNITED STATES OF AMERICA\nDEPARTMENT OF ENERGY\nFEDERAL ENERGY REGULATORY COMMISSION\n\nCOMMENTS OF THE ATTORNEY GENERAL OF THE STATE OF NEW MEXICO\nThe New Mexico Department of Justice (NMDOJ) submits these comments on the Federal Energy Regulatory Commission’s (FERC or the Commission) Environmental Assessment (EA) for Transwestern Pipeline Company, LLC’s (Transwestern) proposed Green Chile Project (Pipeline or Project). \nAccording to filings by Transwestern and FERC’s own EA, the Project will be capable of delivering up to 400,000 dekatherms per day of gas to Green Chile Ventures, LLC. This gas would fuel a 700-megawatt power plant that would provide electricity for Project Jupiter, a massive data center complex being constructed in Doña Ana County, New Mexico. Gas provided by the Green Chile Project would enable this power plant is anticipated to release up to 2.7 million metric tons of CO₂ annually—more than the cities of Albuquerque and Las Cruces combined.\nOn September 4, 2026, FERC released an EA evaluating the environmental impacts of the Pipeline. The EA is inadequate and fails to satisfy FERC’s obligations under the National Environmental Policy Act (NEPA), including by failing to consider reasonably foreseeable impacts and unlawfully limiting review. FERC must either revise its EA or issue a full Environmental Impact Statement (EIS) to address these inadequacies. \n FERC’s EA Does Not to Satisfy Its Obligations Under NEPA.\nFERC fails to justify its decision to prepare an EA, instead of a full EIS. Per NEPA, an EA is appropriate only when an action does not have a reasonably foreseeable significant effect on the quality of the human environment, or if the agency finds that the proposed action is excluded pursuant to a categorical exclusion. See 42 U.S.C. § 4336(b). In its EA, FERC does not indicate an applicable categorical exclusion, instead summarily asserting that it has determined that the Pipeline would not have a reasonably foreseeable significant effect to incorrectly argue that an EA is appropriate. \nFERC reaches this conclusion by asserting that its jurisdiction begins and ends with the Pipeline itself, despite the fact that it is required to evaluate a proposed construction’s end use under the Natural Gas Act, and NEPA requires that interrelated projects be evaluated together when neither project has independent utility. Under the Natural Gas Act, all projects are required to have a Certificate of Public Convenience and Necessity. See 15 U.S.C. § 717f. This certification requires that an operator must demonstrate that a proposed project is or will be required by the present or future public convenience and necessity. Id. An applicant for a Certificate of Public Convenience and Necessity must provide the facts relied upon to show that the proposed construction is or will be required by the present or future public convenience and necessity. 18 C.F.R. § 157.5 (b)(2).  \nIn its Request for Prior Notice Authorization Pursuant to Blanket Certificate, Transwestern provides, at pages 8–9:\nThe Green Chile Project is required by the public convenience and necessity because it will provide 400,000 MMBtu/d of natural gas transportation capacity to GCV [Green Chile Ventures], who is the sole shipper contracting for 100% of the capacity of the Project in accordance with the Precedent Agreement. The natural gas will be utilized for power generation by an AI/data center campus in Doña Ana County, New Mexico. (emphasis added). \nFERC is required to determine whether a proposed construction is required by present or future public convenience and necessity. Here, Transwestern asserts that the public necessity for this pipeline is Project Jupiter itself via some nebulous public interest related to the Trump Administration’s Project Stargate and public funding for Artificial Intelligence (AI) development. FERC cannot make a determination that providing Project Jupiter with its required fuel resources is a public necessity—thereby encapsulating the end use in its analysis—and then claim that the end use is nevertheless irrelevant to analyzing the environmental effects of the Pipeline. \nAs indicated in other comment letters in this docket, NEPA requires that interrelated projects be evaluated together when neither project has independent utility. In justifying the brevity of its analysis, FERC hangs its hat largely on the recent case, Seven County Infrastructure Coalition v. Eagle County, Colorado, 605 U.S. 168 (2025). However, FERC’s reading of that case is overbroad and relies more on policy preferences than established legal precedent. \nDespite FERC’s insistence on the limits of its own jurisdiction, the Court in Seven County merely stated that courts should not require that agencies in their NEPA analyses “address[] effects from another project that is separate in time or place from the project at hand—particularly when it would require the agency to speculate about the effects of a separate project that is outside its regulatory jurisdiction.” Seven Cnty., 605 U.S. at 188-89 (citations omitted). The Court recognized that “other projects may be interrelated and close in time and place to the project at hand—a residential development next door to and built at the same time as a ski resort, for example” and thus require analysis in a NEPA document for a project. Id. at 190.\nThis pipeline and Project Jupiter are being built at the same time, in the same place, and fit hand-in-glove to supply the fuel necessary to generate electricity for the data center campus. Yet, despite Seven County’s assertion that some projects may be so closely situated in time and space as to require NEPA analysis of all interrelated projects, there is nonetheless no analysis of Project Jupiter’s environmental effects. Instead, the Commission is asking us essentially to consider the fuel line from a car’s gas tank to its engine wholly separate from the rest of the vehicle and to completely ignore the emissions coming out of the tailpipe. In doing so, FERC seeks to ignore the immediate, proximal effects of its own actions—Project Jupiter is not a project “separate in time or place.” Seven County does not excuse agencies from NEPA’s command to consider “reasonably foreseeable” impacts, including indirect and cumulative impacts.\nProject Jupiter is both the client and the catalyst for the Pipeline. Project Jupiter in its current form cannot function without this pipeline, and this pipeline has no reason to exist other than to provide fuel for Project Jupiter. Yet FERC’s EA seeks to treat the Pipeline as if it were wholly independent from Project Jupiter, asking us to pretend that Transwestern is building a pipeline large enough to supply a city that connects to nothing, merely terminating in the desert. That is unacceptable to New Mexico. FERC’s EA does not adequately account for the 400,000 dekatherms of gas that will be combusted as a result of the pipeline, and the resulting air pollution and climate-warming greenhouse gas emissions. \nConclusion\nFERC’s EA suffers from multiple inadequacies, including a failure to adequately evaluate the Projects date center client, Project Jupiter. The Commission must either revise its EA or issue a full Environmental Impact Statement to address these inadequacies. \n \nRespectfully submitted,\nRAÚL TORREZ\nATTORNEY GENERAL OF NEW MEXICO\n By: /s/ J. Spenser Lotz\nJ. Spenser Lotz\nAssistant Attorney General\nEnvironmental Protection Bureau\n201 Third St. NW, Suite 300\n Albuquerque, NM 87102\n (505) 616-7560\n slotz@nmdoj.gov\n\n\n"
+  }
+ ]
+}

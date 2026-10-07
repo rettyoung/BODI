@@ -17,7 +17,35 @@
  ],
  "collected_at": "2026-10-03T21:17:50Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "transmission service"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4966_1647497.ZIP",
+   "name": null,
+   "bytes": 82772,
+   "sha256": "2e4275e1dfde0ef81828859453f7c69515bf007569f8b5b15273eb5310003359",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== notice of hearing attendance .pdf ===\n                           SOAH DOCKET NUMBER 473-26-16349\n\n                                PUC DOCKET NUMBER 59475\n\n JOINT APPLICATION OF ONCOR                          §\n ELECTRIC DELIVERY COMPANY LLC                       §             BEFORE THE STATE\n AND LCRA TRANSMISSION SERVICE                       §\n CORPORATION TO AMEND THEIR                          §                    OFFICE OF\n CERTIFICATES OF CONVENIENCE AND                     §\n NECESSITY FOR THE BELL COUNTY                       §              ADMINISTRATIVE\n                                                     §\n EAST SWITCH TO BIG HILL\n                                                     §\n SUBSTATION 765-KV TRANSMISSION                                           HEARINGS\n                                                     §\n LINE PROJECT IN BELL, BURNET,                       §\n CONCHO, CORYELL, LAMPASAS,                          §\n LLANO, MASON, MCCULLOCH,                            §\n MENARD, MILAM, MILLS, SAN SABA,                     §\n SCHLEICHER, TOM GREEN, AND                          §\n WILLIAMSON COUNTIES                                 §\n\n           NOTICE OF INTENT TO APPEAR AT HEARING ON THE MERITS\n\nJeff Whiting, as of the date of this notice, intends to attend the hearing in person, with as many as\n4 additional people to potentially include counsel’s other represented parties or other pro se land\nowner intervenors not planning on filing a similar notice of in person attendance. Jeff Whiting\nreserves the right to change and amend his attendance method and numbers.\n\n                                              Respectfully submitted,\n                                              /s Jeffrey M. Whiting\n                                              Jeffrey M. Whiting\n                                              Texas State Bar Number 24051517\n                                              ATTORNEY FOR JEFF AND ARIANA WHITING\n\n\n                                 CERTIFICATE OF SERVICE\n\nI, Jeffrey M. Whiting, certify that pursuant to the orders in this Docket suspending traditional\nservice, notice of the filing of this document was posted on the Public Utility Commission’s\nInterchange System on the 22nd day of May, 2026.\n                                              By: /s Jeffrey M. Whiting\n                                              Jeffrey M. Whiting\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4966_1647498.PDF",
+   "name": null,
+   "bytes": 104132,
+   "sha256": "f315a7444f75260a770e7eac80c52f5fa48e5b73c4c391d2a7077eb24d96587c",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-05-22 01:19:14 PM\n\nControl Number - 59475\n\nItem Number - 4966\n\f                           SOAH DOCKET NUMBER 473-26-16349\n\n                                PUC DOCKET NUMBER 59475\n\n JOINT APPLICATION OF ONCOR                          §\n ELECTRIC DELIVERY COMPANY LLC                       §             BEFORE THE STATE\n AND LCRA TRANSMISSION SERVICE                       §\n CORPORATION TO AMEND THEIR                          ~                    OFFICE OF\n CERTIFICATES OF CONVENIENCE AND                     ~\n NECESSITY FOR THE BELL COUNTY                       ~               ADMINISTRATIVE\n EAST SWITCH TO BIG HILL                             §\n SUBSTATION 765-KV TRANSMISSION                      §                    HEARINGS\n LINE PROJECT IN BELL, BURNET,\n                                                     §\n CONCHO, CORYELL, LAMPASAS,\n                                                     §~\n LLANO, MASON, MCCULLOCH,\n MENARD, MILAM, MILLS, SAN SABA,                     §\n SCHLEICHER, TOM GREEN, AND                          §\n WILLIAMSON COUNTIES                                 §\n\n           NOTICE OF INTENT TO APPEAR AT HEARING ON THE MERITS\n\nJeff Whiting, as of the date of this notice, intends to attend the hearing in person, with as many as\n4 additional people to potentially include counsel's other represented parties or other pro se land\nowner intervenors not planning on filing a similar notice of in person attendance. Jeff Whiting\nreserves the right to change and amend his attendance method and numbers.\n\n                                              Respectfully submitted,\n\n                                              /s Jeffrey M. Whiting\n                                              Jeffrey M. Whiting\n                                              Texas State Bar Number 24051517\n                                              ATTORNEY FOR JEFF AND ARIANA WHITING\n\n\n                                 CERTIFICATE OF SERVICE\n\nI, Jeffrey M. Whiting, certify that pursuant to the orders in this Docket suspending traditional\nservice, notice of the filing of this document was posted on the Public Utility Commission's\nInterchange System on the 22nd day of May, 2026.\n\n                                              By: /s Jeffrey M. Whiting\n                                              Jeffrey M. Whiting\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-07T05:37:28Z"
 }

@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26271A113",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000615",
+ "title": "TVA Clinch River BWRX-300: Transmittal of Tennessee Valley Authority (TVA) New Nuclear Quality Assurance Program (NNQAP) Revision 3 and Notification of NNQAP Implementation [['Letter']]",
+ "filed": "2026-10-06",
+ "entity": [
+  "Tennessee Valley Authority"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2627/ML26271A113.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26271A113.pdf"
+  }
+ ],
+ "meta": {
+  "project": "TVA Clinch River BWRX-300",
+  "accession": "ML26271A113",
+  "document_date": "2026-09-28"
+ },
+ "collected_at": "2026-10-07T05:01:21Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26271A113.pdf",
+   "name": null,
+   "bytes": 288305,
+   "sha256": "bc311e15b765787dd784dfbb1fae6e127d77bb72360ed06d03e2274a70246724",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "           TENNESSEE\n1\\14       VALLEY\n           AUTHORITY\n\n1101 Market Street, Chattanooga, Tennessee 37402\n\n\n\nNNP-26-012\n\nSeptember 28, 2026\n\n                                                                               10 CFR 50.30\n                                                                               10 CFR 50.34\n\n\nATTN: Document Control Desk\nU.S. Nuclear Regulatory Commission\nWashington, D.C. 20555-001\n\n\n\n\nSubject:      Transmittal of Tennessee Valley Authority (TVA) New Nuclear Quality\n              Assurance Program (NNQAP) Revision 3 and Notification of NNQAP\n              Implementation\n\nReferences     1. Revision to Approved \"-A\" Version of the Quality Assurance Program\n                  Description for Tennessee Valley Authority (TVA) New Nuclear, Revision 2\n                  (ML25258A031)\n\nThe Tennessee Valley Authority (TVA) hereby notifies the United States Nuclear Regulatory\nCommission (USNRC) of its intent to implement the updated New Nuclear Quality\nAssurance Program Description (NNQAP), NNP-TR-001-NP-A (Reference 1), for the TVA\nNew Nuclear Program and related projects. TVA plans to implement the revised version of\nthis revision within 30 days of this notification.\n\nNNP-TR-001 -NP-A has been revised as Revision 3 to incorporate organizational changes\nwithin the TVA fleet and the TVA New Nuclear organization. The updated program\ndescription is provided as Enclosure 1. In accordance with the requirements of 10 CFR\n50.54(a)(3)(i through vi), TVA has completed the required screening and determined that\nRevision 3 does not reduce any of the regulatory commitments established in Reference 1.\n\nPlease address any questions regarding this application to Mr. Ray Schiele, Director -\nLicensing and Planning, New Nuclear Program, at rjschiele@tva.gov.\n\fU.S. Nuclear Regulatory Commission\nNNP-26-012\nPage 2\nSeptember 28, 2026\n\n\n\nI declare under penalty of perjury that the foregoing is true and correct. Executed on this\n28th day of September 2026.\n\n\n\n\nJ7t{~\nScott W. Hunnewell\nVice President, New Nuclear Program\n\fU.S. Nuclear Regulatory Commission\nNNP-26-012\nPage 3\nSeptember 28, 2026\n\n\n\nEnclosure:\n\n       1. NNP-TR-001-NP, New Nuclear Quality Assurance Program Description, Revision\n          3 (Public Version)\n\n\ncc:\n\nLaurel Bower, Branch Chief, Advanced Reactor Licensing Branch 5\nMeraj Rahimi, Branch Chief, Advanced Reactor Licensing Branch 3\nTony Brown, Branch Chief, Advanced Reactor Oversight Branch\nSean Peters, Branch Chief, Advanced Reactor Environmental Review Branch\nRicky Vivanco, Senior Project Manager, Advanced Reactor Licensing Branch 5\nStephen Philpott, Senior Project Manager, Advanced Reactor Licensing Branch 3\nMadelyn Nagel, Environmental Scientist, Advanced Reactor Environmental Review Branch\nPatricia Vokoun, Environmental Project Manager, Advanced Reactor Environmental Review\nBranch\n\fU.S. Nuclear Regulatory Commission\nNNP-26-012\nPage 4\nSeptember 28, 2026\n\n\n\nKM:RJS\n\nbee:\n\nR. C. Dreke\nJ. E. Dufner\nM. J. Durr\nD. A. Fegley\nJ. H. Holcomb\nJ. Hopson\nM. Hunter\nE. C. Meade\nM. M. Rasmussen\nR. J. Schiele\nN. N. Shukla\nM. D. Skaggs\nW. P. Trombley\nECM\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-07T05:30:27Z"
+}

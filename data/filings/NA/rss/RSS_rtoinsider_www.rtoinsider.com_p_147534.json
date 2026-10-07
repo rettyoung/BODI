@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147534",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Alabama Regulators Greenlight Framework for Data Center Decisions",
+ "filed": "2026-10-07",
+ "url": "//www.rtoinsider.com/147534-alabama-regulators-greenlight-framework-data-center-decisions/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The Alabama Public Service Commission approved a framework for handling large load contracts that requires Alabama Power to disclose data centers’ names and their expected peak power demands, but does not include an actual tariff template. \n The post  Alabama Regulators Greenlight Framework for Data Center Decisions  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-07T05:18:16Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

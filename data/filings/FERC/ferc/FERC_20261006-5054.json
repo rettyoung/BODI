@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20261006-5054",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15411",
+ "title": "Comments of Ransom Township Municipal Building on the Pre-Application Document and Notice of Intent re the proposed Old Forge Bore Hole Pumped Storage Project under P-15411.",
+ "filed": "2026-10-06",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261006-5054",
+ "entity": "Ransom Township Municipal Building",
+ "fetch": [
+  {
+   "ferc_file": "A3DFA272-4BF3-C60C-9EC9-A111B5700000",
+   "name": "VIA FERC EFILE 10.5.2026.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Government Agency Submittal"
+   },
+   {
+    "documentClass": "Report/Form",
+    "documentType": "ILP Comments or Study Request"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-06"
+ },
+ "collected_at": "2026-10-07T05:04:02Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "data center",
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "VIA FERC EFILE 10.5.2026.pdf",
+   "bytes": 155445,
+   "sha256": "c750da89e4bc9ed8bac1c0546054dbb4a713c3aca87b393c9a3c9cd8d7013c95",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "VIA FERC E-FILING\n\nDebbie-Anne A. Reese, Secretary,\nFederal Energy Regulatory Commission\n888 First Street, NE\nWashington, DC 20426\n\nRE: Old Forge Pumped Storage Project, Project No. P-15411-001Comments of\nRansom Township, Lackawanna County, Pennsylvania, Regarding the Notice of\nIntent (NOI), Pre-Application Document (PAD), and Request for the Integrated\nLicensing Process (ILP)\n\nDear Secretary Reese,\n\nThe Board of Supervisors of Ransom Township, Lackawanna County, Pennsylvania,\nrespectfully submits these comments regarding the Pre-Application Document (PAD) and\nNotice of Intent (NOI) filed by Renewable Energy Aggregators, Inc. for the proposed Old\nForge Pumped Storage Project (Project No. P-15411-001).A substantial portion of the\nproposed 1,300-acre project boundary and its primary infrastructure, including massive\nreservoir within Agricultural and Open Space/Conservation Zoning Districts, natural gas\ngeneration units, and connecting pipelines, falls directly within the borders of Ransom\nTownship. As a rural community heavily dependent on the protection of its natural\ntopography and residential zoning, Ransom Township expresses severe concerns\nregarding the scale, environmental hazards, and localized disruptions presented by this\nproject. Under the Integrated Licensing Process (ILP), Ransom Township requests that\nthe Commission compel the applicant to perform rigorous, independent, and exhaustive\nenvironmental, engineering, and socioeconomic studies on the following matters before\na final license application is considered:\n\n1. Scope of Municipal Notification and Lack of Consultation\nRansom Township formally objects to any prior characterizations that have sidelined our\nlocal government from early formal notices or consultations under the assumption of our\nsmaller population size. Because our township bears the physical burden of the proposed\nfootprint, we request that Ransom Township be explicitly integrated as a core consulting\nlocal agency in all upcoming scoping meetings, site visits, and study plan developments.\n\f2. Critical Risk to Public Health and Private Water Supply\nRansom Township possesses absolutely no municipal or public water supply\ninfrastructure. Every household, farm, and business within our borders relies entirely on\nprivate groundwater wells for drinking water and daily consumption. The applicant's\nproposal to move, agitate, and store millions of gallons of toxic acid mine drainage (AMD)\nfrom local boreholes into massive reservoirs within Agricultural and Open\nSpace/Conservation Zoning Districts poses an existential threat to our residents' public\nhealth. Any subterranean leaching, bedrock fracturing of existing mine voids, or systemic\ngroundwater table disturbance could permanently contaminate or collapse our township's\nsole drinking water source. We demand a mandatory, long-term independent hydrological\nimpact study, alongside a binding baseline testing and monitoring framework for all\nprivate residential wells within a multi-mile radius of the project.\n\n\n3. Incompatibility with Rural Infrastructure and Local Road Constraints\nThe transportation network throughout Ransom Township consists strictly of narrow,\nrural, non-highway local roads. These secondary corridors are designed for low-volume\nresidential traffic and agricultural use, not heavy industrial payloads. They possess\nneither the structural grading, lane widths, nor geometric configurations necessary to\nsustain continuous, multi-year industrial construction vehicles. The introduction of heavy\nmachinery, multi-ton equipment hauling, and extensive workforce transit will rapidly\ndegrade our road surfaces, compromise local bridges, and create severe public safety\nhazards for emergency response vehicles. FERC must require a comprehensive Traffic\nImpact Assessment and compel the applicant to enter into a legally binding infrastructure\nmitigation and road maintenance agreement with Ransom Township before any permit or\nlicense approval moves forward.\n\n4. Zoning Preemption, Land Use, and Property Value Devaluation\nWhile federal licensing under FERC can preempt local zoning, the Commission must\nevaluate the extensive harm this project poses to Ransom Township’s master land use\nplans and the property values of our adjacent residents. The construction of massive\nreservoirs, industrial piping, and a 200-megawatt natural gas generator directly conflicts\nwith our rural zoning character. The applicant must be required to provide a complete\nproperty impact study detailing how industrial noise pollution, visual blights on the\nmountain ridge, and construction vibrations will impact surrounding residential\nlandowners.\n\n5. Ecological Fragmentation and Mountain Wildlife Impacts\nContrary to statements suggesting an absence of wildlife in the targeted mountain and\nridge areas, the area hosts thriving, diverse ecosystems. Clearing large swaths of\nforestland will cause severe wildlife habitat fragmentation, disrupt native migratory\nspecies, and increase rainwater runoff and soil erosion down the mountain slopes.\nRansom Township requests multi-season ecological and biodiversity studies to fully map\nthe environmental toll of the footprint.\n\f6. Cumulative Infrastructure Impacts (Data Center Speculation)\nPublicly available documentation and local community consensus indicate that this power\ninfrastructure is intended to supply massive data center developments in the immediate\nvicinity. Ransom Township urges FERC to expand its NEPA review to include a\ncumulative impact assessment of both the pumped storage facility and any secondary,\ninterdependent high-density industrial data facilities being planned concurrently.\n\nConclusion: Ransom Township strongly urges the Commission to prioritize the health,\nsafety, and property rights of our residents during the Integrated Licensing Process. The\napplicant must not be allowed to fast-track a project that threatens to fundamentally alter\nour Township's environment and ruin our essential local infrastructure without satisfying\na strict, transparent, and multi-year environmental study plan.Thank you for your time and\ncareful consideration of our community's concerns.\n\n                                                 Respectfully submitted,\n\n\n                                                 David Bird\n                                                 Chairman, Board of Supervisors\n                                                 Ransom Township, Pennsylvania\n\f"
+  }
+ ]
+}

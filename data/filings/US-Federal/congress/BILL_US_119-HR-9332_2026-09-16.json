@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:119-HR-9332:2026-09-16",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 9332",
+ "title": "Load Forecasting Enhancement Act",
+ "filed": "2026-09-16",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/9332",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+  "keywords": [
+   "load forecast"
+  ]
+ },
+ "collected_at": "2026-10-07T05:23:02Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "load forecast"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,32 @@
+{
+ "id": "REGS:comment:EPA-HQ-OAR-2025-0124-3062",
+ "jur": "US-Federal",
+ "source": "regulations_gov",
+ "kind": "filing",
+ "docket": "EPA-HQ-OAR-2025-0124",
+ "title": "Comment submitted by SIerra Club and PCUSA (EPA-HQ-OAR-2025-0124)",
+ "filed": "2026-10-06",
+ "entity": "Comment submitted by SIerra Club and PCUSA",
+ "url": "https://www.regulations.gov/comment/EPA-HQ-OAR-2025-0124-3062",
+ "fetch": [
+  {
+   "url": "https://downloads.regulations.gov/EPA-HQ-OAR-2025-0124-3062/attachment_1.pdf"
+  }
+ ],
+ "meta": {
+  "docket": "EPA-HQ-OAR-2025-0124",
+  "agency": "EPA"
+ },
+ "collected_at": "2026-10-07T05:02:30Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": [
+  {
+   "url": "https://downloads.regulations.gov/EPA-HQ-OAR-2025-0124-3062/attachment_1.pdf",
+   "error": "blocked: HTTP 403 for https://downloads.regulations.gov/EPA-HQ-OAR-2025-0124-3062/attachment_1.pdf"
+  }
+ ]
+}

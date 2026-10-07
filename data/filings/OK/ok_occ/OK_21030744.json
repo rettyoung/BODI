@@ -1,0 +1,40 @@
+{
+ "id": "OK:21030744",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000046",
+ "title": "OCC PUD2026-000046 document PUD2026-000046_6_Notice_of_Hearing_Motion_for_Order_Prescribing_Notice_filed_on_behalf_of_OK (0 pages - 172 KB): CASE PUD PUD2026-000046 ENTRY NO. 6 FILED IN OCC COURT CLERK'S OFFICE ON 06/17/2026 - PAGE 1 OF 1 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN ",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21030744&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21030744&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21030744,
+  "pages": "0 pages - 172 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-07T05:11:40Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21030744&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 175777,
+   "sha256": "736d89495122d1911256d127e797b3cd4db0618f4701d3c60498a8bff7f53b14",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "CASE PUD PUD2026-000046 ENTRY NO. 6 FILED IN OCC COURT CLERK'S OFFICE ON 06/17/2026 - PAGE 1 OF 1\n\n\n\n\n           BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n         IN THE MATTER OF THE APPLICATION OF                      )\n         OKLAHOMA GAS AND ELECTRIC COMPANY                        )\n         FOR AN ORDER OF THE COMMISSION                           )\n         APPROVING ITS NEW EXTRA LARGE LOAD                       )\n         TARIFF AND TERMS AND CONDITIONS OF                       )     CASE NO. PUD2026-000046\n         SERVICE FOR EXTRA LARGE LOAD                             )\n         CUSTOMERS AND A REGULATORY ASSET TO                      )\n         RECOVER COSTS ASSOCIATED WITH                            )\n         PORTFOLIO OPTIMIZATION SOFTWARE                          )\n\n                                            NOTICE OF HEARING\n\n               NOTICE IS HEREBY GIVEN that Oklahoma Gas and Electric Company has filed a\n         Motion for Order Prescribing Notice in the above-captioned case.\n\n                NOTICE IS FURTHER GIVEN that the Motion will be heard before the Administrative\n         Law Judge on June 25, 2026, at 8:30 a.m., in the Concourse Theater, Suite C50, Will Rogers\n         Memorial Building in the Capitol Complex at 2401 N. Lincoln Blvd., Oklahoma City, OK 73105.\n         The Concourse Theater is located in the tunnel between the Will Rogers Memorial Office Building\n         and the Sequoyah Office Building.\n\n                NOTICE IS FURTHER GIVEN that all interested persons may appear and be heard\n         regarding the Motion, and after hearing and consideration of the recommendations of the\n         Administrative Law Judge, the Commission will issue such orders and grant such relief as it deems\n         reasonable, fair, necessary, proper and equitable, whether or not specifically prayed for in the\n         Motion.\n\n                 NOTICE IS FURTHER GIVEN for information concerning this Motion, contact A. Chase\n         Snodgrass, Deborah R. Thompson, or Kenneth A. Tillotson, Thompson Tillotson PLLC, P.O. Box\n         54632, Oklahoma City, Oklahoma, 73154, (405) 213-1000, attorneys for Oklahoma Gas and\n         Electric Company.\n\n\n         OKLAHOMA CORPORATION COMMISSION\n\n         KIM DAVID, Chairman\n         J. TODD HIETT, Commissioner\n         BRIAN BINGMAN, Commissioner\n\n\n\n\n                                                     A. Chase Snodgrass\n\f"
+  }
+ ]
+}

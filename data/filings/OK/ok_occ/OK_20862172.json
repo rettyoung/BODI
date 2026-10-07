@@ -1,0 +1,38 @@
+{
+ "id": "OK:20862172",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000031",
+ "title": "OCC PUD2026-000031 document PUD2026-000031_25_Confidential_Coversheet_Confidential_Direct_Testimony_John_Laws_filed_on_be (0 pages - 129 KB): CASE PUD PUD2026-000031 ENTRY NO. 25 FILED IN OCC COURT CLERK'S OFFICE ON 05/01/2026 - PAGE 1 OF 1 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=20862172&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=20862172&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 20862172,
+  "pages": "0 pages - 129 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-07T05:11:37Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=20862172&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 132127,
+   "sha256": "8898195330106885a548b09f6362f60da0d0483d41fa22e60d128c2572c10be8",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "CASE PUD PUD2026-000031 ENTRY NO. 25 FILED IN OCC COURT CLERK'S OFFICE ON 05/01/2026 - PAGE 1 OF 1\n\n\n\n\n           BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n          IN THE MATTER OF THE APPLICATION OF                   )\n          OKLAHOMA GAS AND ELECTRIC COMPANY                     ) Case No. PUD2026-000031\n          FOR COMMISSION APPROVAL OF ELECTRIC                   )\n          SERVICE AGREEMENTS AND PREAPPROVAL                    )\n          OF CAPACITY PURCHASE AGREEMENTS                       )\n          PURSUANT TO 17 O.S. § 286(C)                          )\n\n\n\n\n                                          Confidential Coversheet\n\n                                             Direct Testimony\n\n                                                    of\n\n                                                John Laws\n\n                                               on behalf of\n\n                                   Oklahoma Gas and Electric Company\n\n\n\n\n                                               May 1, 2026\n\f"
+  }
+ ]
+}

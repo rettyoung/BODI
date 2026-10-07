@@ -1,0 +1,24 @@
+{
+ "id": "BILL:PA:ocd-bill/854754e3-460f-4e70-b097-a63dfd3c2f38:2026-10-05T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1408",
+ "title": "An Act providing for data center transparency; prohibiting certain nondisclosure agreements between public agencies and data centers; providing for data centers and public input; prohibiting data centers from being developed or operated by certain foreign entities; and providing for enforcement by A",
+ "filed": "2026-10-05",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1408/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Re-reported as amended",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-07T05:28:34Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

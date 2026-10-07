@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26271A096",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): U.S. Nuclear Regulatory Commission Establishing Fixed Fee Cap for Ongoing Long Mott Generating Station Construction Permit Application Review (EPIDs: L-2025-CPS-0000, L-2025-CPE-0000, and L-2026-HRG-0002) [['Letter']]",
+ "filed": "2026-10-06",
+ "entity": [
+  "NRC/OAR/DDES/DARE/AREB1"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2627/ML26271A096.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26271A096.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26271A096",
+  "document_date": "2026-09-28"
+ },
+ "collected_at": "2026-10-07T05:01:18Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26271A096.pdf",
+   "name": null,
+   "bytes": 158254,
+   "sha256": "ee00d202bad30d7665d277da60e75a1a9d1204e28158b6a9356d14e46040af88",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                                       September 28, 2026\n\n\nMark Feltner\nTechnology Principal, Nuclear Power\nLong Mott Energy, LLC\n530 Gaither Road, Suite 700\nRockville, MD 20850\n\nSUBJECT:       U.S. NUCLEAR REGULATORY COMMISSION ESTABLISHING FIXED FEE\n               CAP FOR ONGOING LONG MOTT GENERATING STATION CONSTRUCTION\n               PERMIT APPLICATION REVIEW (EPIDS: L-2025-CPS-0000,\n               L-2025-CPE-0000, AND L-2026-HRG-0002)\n\nDear Mr. Feltner:\n\nIn preparation for the Executive Order 14300 fixed fee caps to take effect on October 1, 2026, a\nfixed fee cap must be established by September 30, 2026, for each requested activity for which\na complete application has been accepted for review by the U.S. Nuclear Regulatory\nCommission (NRC) before October 1, 2026, if the review will continue past October 1, 2026.\n\nIn accordance with Title 10 of the Code of Federal Regulations (10 CFR) 170.33, this\ncommunication establishes the fixed cap on service fees (fixed fee cap) for the NRC’s review of\nthe Long Mott Generating Station (LMGS) construction permit (CP) application. The fixed fee\ncap for the NRC’s review of this requested activity is $6,806,000. The NRC considered various\nfactors when establishing this fixed fee cap, such as the quality and complexity of the\napplication, technology type, and any pre-application engagement. The Reduced Hourly Rate\nas established in 10 CFR 170.20(b) applies to this requested activity as of the statutory effective\ndate for the Reduced Hourly Rate (October 1, 2025).\n\nThe fixed fee cap represents the maximum amount that the NRC may charge for service fees\nfor this requested activity following acceptance of the complete application. The fixed fee cap\nwill not be increased except in instances of applicant failure, as defined in 10 CFR 170.3. If\napplicant failure occurs, the NRC will notify Long Mott Energy, LLC., in writing of the new fixed\nfee cap, which will be set at the lowest practicable amount determined by the NRC to account\nfor the applicant failure and complete the review.\n\nThe NRC will track service fees against the fixed fee cap beginning on May 12, 2025, which is\nthe date a complete application was accepted for review by the NRC for this requested activity.\n\fM, Feltner                                   2\n\n\nDisputes associated with a fixed fee cap must be submitted in accordance with 10 CFR 15.31\nand 170.33(f) and NRC Form 529 procedures.\n\n                                          Sincerely,\n\n\n                                                         Signed by Alissa Neuhausen on 09/28/26\n\n\n\n                                          Alissa Neuhausen, Chief\n                                          Advanced Reactor Engineering Branch 1\n                                          Division of Advanced Reactor Engineering\n                                          Office of Advanced Reactors\n\nProject No.: 50-614\n\fM. Feltner                             3\n\nSUBJECT:     U.S. NUCLEAR REGULATORY COMMISSION ESTABLISHING FIXED FEE CAP\n             FOR ONGOING LONG MOTT GENERATING STATION CONSTRUCTION\n             PERMIT APPLICATION REVIEW (EPIDS: L-2025-CPS-0000, L-2025-CPE-0000\n             AND L-2026-HRG-0002) REVIEW\n\nDATED:       September 28, 2026\n\n\nDISTRIBUTION:\nPUBLIC\nMSampson, OAR\nMReisiFard, OAR\nJBorromeo, OAR\nAMuñiz, OAR\nODukes, OAR\nRRivera, OAR\nSDevlin-Gill, OAR\nTRadel, OAR\nSBhatt, OAR\nANeuhausen, OAR\nTTate, OAR\nSTonsfeldt, OAR\nJO’Hara, NMSS\nRHoffman, NMSS\nDBarnhurst, NMSS\nJPetrucelli, NSIR\nSBurnell, OPA\nAMoreno, OCA\nNChandran, NMSS\nRAlexander, R4\n\n\n\n\nADAMS Accession Nos.:\nPkg: ML26271A089\nLetter: ML26271A096\ne-concurrence case: 20260928-02624\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-07T05:30:24Z"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20261005-5216",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PF27-1",
+ "title": "Elba Express Company, L.L.C. submits supplement to the Request to Initiate Pre–Filing Review for the Bridge Project under PF27-1.",
+ "filed": "2026-10-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261005-5216",
+ "entity": "Elba Express Company, L.L.C.",
+ "fetch": [
+  {
+   "ferc_file": "808503FC-6BDC-CBBF-9471-A11128200000",
+   "name": "PRIV Appendix F - Third Party Environmental Contractor - Bridge Project.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Pre-Filing Process"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-05"
+ },
+ "collected_at": "2026-10-07T05:03:53Z",
+ "run_id": "2026-10-07-0455",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '808503FC-6BDC-CBBF-9471-A11128200000', 'name': 'PRIV Appendix F - Third Party Environmental Contractor - Bridge Project.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}
