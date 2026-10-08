@@ -1,0 +1,45 @@
+{
+ "id": "SEC:0001144879-26-000057",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Applied Digital 8-K 8-K items 2.02,9.01",
+ "filed": "2026-10-07",
+ "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/",
+ "entity": "Applied Digital",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/apld-20261007.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "9.01"
+  ],
+  "cik": "0001144879",
+  "market_participant": true
+ },
+ "collected_at": "2026-10-08T05:02:51Z",
+ "run_id": "2026-10-08-0454",
+ "keywords": [],
+ "party_hits": [
+  "Applied Digital"
+ ],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000057/apld-20261007.htm",
+   "name": null,
+   "bytes": 28107,
+   "sha256": "611744880bbc6d681425f347dc7e6f8296b56f37ed39e72aa53d1a67a14d4dca",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "apld-20261007\n0001144879\nFALSE\n0001144879\n2026-10-07\n2026-10-07\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, DC 20549\nFORM \n8-K\nCURRENT REPORT\nPursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934\nOctober 7, 2026\n(Date of earliest event reported\n)\nAPPLIED DIGITAL CORPORATION\n(Exact name of registrant as specified in its charter)\nNevada\n001-31968\n95-4863690\n(State or other jurisdiction of incorporation)\n(Commission File Number)\n(IRS Employer Identification No.)\n3811 Turtle Creek Boulevard,\nSuite 2100,\nDallas,\nTexas\n75219\n(Address of principal executive offices)\n(Zip Code)\n214\n-\n427-1704\n(Registrant’s telephone number, including area code)\nN/A\n(Former name or former address, if changed since last report)\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (\nsee \nGeneral Instruction A.2. below):\no\n    Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\no\n    Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\no\n    Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\no\n    Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).\no\n    Emerging growth company\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \no\nSecurities registered pursuant to Section 12(b) of the Act:\nTitle of each class\nTrading Symbol(s)\nName of each exchange on which registered\nCommon Stock\nAPLD\nNasdaq Global Select Market\nItem 2.02.\nResults of Operations and Financial Condition\nOn \nOctober 7, 2026\n, Applied Digital Corporation (the “Company”) issued a press release announcing its financial results for the first fiscal quarter ended August 31, 2026.\nA copy of such press release is attached as Exhibit 99.1 hereto and incorporated herein by reference.\nThe information in this Item 2.02 of Form 8-K and Exhibit 99.1 attached hereto shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”) or otherwise subject to the liabilities of that section, nor shall it be deemed incorporated by reference in any filing under the Securities Act of 1933, as amended or the Exchange Act, regardless of any general incorporation language in such filing.\nItem 9.01\nFinancial Statements and Exhibits\nEXHIBIT INDEX\nExhibit No.\nDescription\n99.1\nPress Release dated October 7, 2026\n104\nCover Page Interactive Data File (embedded within the Inline XBRL document).\n2\nSIGNATURE\nPursuant to the requirements of Section 13 or 15 (d) of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.\nDated:    \nOctober 7, 2026\nBy: \n/s/ Saidal Mohmand\nName:\nSaidal Mohmand\nTitle:\nChief Financial Officer\n3"
+  }
+ ]
+}

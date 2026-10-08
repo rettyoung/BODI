@@ -64,5 +64,6 @@
    "url": "{'ferc_file': 'B5D783ED-F84C-C04C-8A8B-A10D3FC00000', 'name': '0. master run do files.txt', 'type': 'TXT'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-08T05:31:09Z"
 }

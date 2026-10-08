@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147635",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Mixed Reactions at FERC to MISO’s One-time Amnesty Plan for 2022 Queue Cycle, Restudy Cap",
+ "filed": "2026-10-07",
+ "url": "//www.rtoinsider.com/147635-mixed-reactions-at-ferc-miso-one-time-amnesty-plan/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " MISO’s proposal before FERC to introduce a one-shot exit option for developers that entered projects in 2022 and limit restudies bogging down its interconnection queue drew support and concerns over how upgrade costs could be reassigned. \n The post  Mixed Reactions at FERC to MISO’s One-time Amnesty Plan for 2022 Queue Cycle, Restudy Cap  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-08T05:17:28Z",
+ "run_id": "2026-10-08-0454",
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}

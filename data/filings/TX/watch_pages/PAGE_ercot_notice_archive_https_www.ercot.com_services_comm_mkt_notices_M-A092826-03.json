@@ -1,0 +1,42 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A092826-03",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-A092826-03 Planned system maintenance with impacted services",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-A092826-03",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A092826-03"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-08T05:15:34Z",
+ "run_id": "2026-10-08-0454",
+ "keywords": [
+  "ESA",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A092826-03",
+   "name": null,
+   "bytes": 8611,
+   "sha256": "18365071983b92feca0f4db44bff0e53a0e341ae50c93b0c38a75107c4da27fb",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com,Notice_Outages_Retail@lists.ercot.com,Notice_Outages_Wholesale@lists.ercot.com,Notice_Extracts_Retail@lists.ercot.com,Notice_Extracts_Wholesale@lists.ercot.com\n\nSent:\n\n10/7/26, 12:57 PM\n\nSubject:\n\nM-A092826-03 Planned system maintenance with impacted services\n\nNOTICE DATE:\n October 7, 2026\n\nNOTICE TYPE:\n M-A092826-03 Outage - Retail/Wholesale\n\nSHORT DESCRIPTION:\n Planned system maintenance with impacted services\n\nINTENDED AUDIENCE:\n ERCOT Market Participants\n\nDAYS AFFECTED:\n October 8, 2026, 07:00 - 19:30 \n\nLONG DESCRIPTION:\n ERCOT will be performing planned system maintenance of several databases and applications on October 8, 2026.\n\nDuring the October 8, 2026, 07:00 - 08:00 outage window, CRR Market User Interface (MUI) will be unavailable to CRR Account Holders and Counter-Parties.\n\nDuring the October 8, 2026, 11:00 - 15:00 outage window, Market Participants may experience intermittent issues with the following services:\n\nFind ESIID\n\nDuring the October 8, 2026, 13:30 - 15:00 outage window, Market Participants may experience intermittent issues with the following services:\n\nERCOT.com\nRIOO-RS\n\nDuring the October 8, 2026, 17:30 - 19:30 outage window, all services available through the Market Information System (MIS) will be unavailable, including the following:\n\nReport publishing to the ERCOT MIS\nDownloading of extracts and reports from the MIS and EWS\nNet Dependable Capability and Reactive Capability (NDCRC)\nCongestion Revenue Right (CRR) Market User Interface\nFind ESIID and Find Transaction\nMarket Participant Identity Manager (MPIM)\nMarket Data Transparency (MDT) Web Services\nExtract Subscriber\nService Requests\n\nDuring this outage window, please use the following URLs to directly access the Market Manager, CRR Market User Interface, and Outage Scheduler: \n\nhttps://mis.ercot.com/mmsui/mmsui/displayTradesLanding.action\nhttps://mis.ercot.com/mui-ercot-ihedge/\nhttps://mis.ercot.com/osrui/osrui/Summary.action\n\nDuring the October 8, 2026, 16:30 - 18:00 outage window, Market Participants may experience intermittent issues with the following services:\n\nMarket Participant Identity Manager (MPIM)\nThe following ERCOT internet services:\nRenewable Energy Credit -  \nhttps://sa.ercot.com/rec/home\nERCOT Interconnection Services (GINR) -  \nhttps://sa.ercot.com/ginr/\nNet Dependable Capability and Reactive Capability (NDCRC)\n\nNote that the outage start times may be delayed depending on the current system conditions.\n\nADDITIONAL INFORMATION:\n Reports will be rerun and reposted as applicable. ERCOT.com dashboard displays will not be populated with data during the October 8, 2026, 17:30 - 19:30 timeframe.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n\ndg"
+  }
+ ]
+}

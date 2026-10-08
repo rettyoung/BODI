@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/75571b52-eff1-478b-9e28-297c2d296921:2026-10-02",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 5818",
+ "title": "LOC GOVT-DATA CENTER",
+ "filed": "2026-10-02",
+ "url": "https://openstates.org/il/bills/104th/HB5818/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Filed with the Clerk by Rep. Christopher \"C.D.\" Davidsmeyer",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-08T05:27:32Z",
+ "run_id": "2026-10-08-0454",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

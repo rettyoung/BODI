@@ -19,5 +19,19 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58796_50_1585065.PDF",
+   "name": null,
+   "bytes": 15490,
+   "sha256": "eefff3f1d4abec5c52fa4999cadc5266292f2655da3f0a280b7ef1dba5de7288",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 1,
+   "truncated": false,
+   "text": "Control Number: 58796\n\nItem Number: 50\n\nTRANSCRIPT\n"
+  }
+ ],
+ "enriched_at": "2026-10-08T05:42:02Z"
 }

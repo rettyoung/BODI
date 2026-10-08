@@ -1,0 +1,33 @@
+{
+ "id": "MO:655427",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "323",
+ "filed": "2026-10-07",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/655427",
+ "fetch": [
+  {
+   "mo_filing": "655427"
+  }
+ ],
+ "collected_at": "2026-10-08T05:10:57Z",
+ "run_id": "2026-10-08-0454",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/893172",
+   "name": null,
+   "bytes": 164679,
+   "sha256": "e6cac6f4238a4b983cac65ee8dd2caffc07f8d724952eafe651aac3d79bce022",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                      BEFORE THE PUBLIC SERVICE COMMISSION\n                            OF THE STATE OF MISSOURI\n\n In the Matter of Evergy Metro, Inc. d/b/a    )\n Evergy Missouri Metro’s Request for          )\n Authority to Implement a General Rate        )             Case No. ER-2026-0143\n Increase for Electric Service                )\n\n\n                    PUBLIC COUNSEL’S OPPOSITION TO\n            NON-UNANIMOUS PARTIAL SETTLEMENT – RATE DESIGN\n\n       COMES NOW the Office of Public Counsel (“Public Counsel”) and opposes Evergy\n\nMetro, Inc. d/b/a Evergy Missouri Metro (“EMM” or the “Company”) and Midwest Energy\n\nConsumers Group (“MECG”), (individually “Signatory” and collectively “Signatories”) to a Non-\n\nUnanimous Partial Settlement – Rate Design filed October 5, 2026, as follows:\n\n       1.     Public Counsel opposes how EMM and MECG propose that rate revenues\n\nresponsibilities be shifted among EMM’s customer classes.\n\n       2.     Public Counsel opposes the intra-class responsibility shifts proposed without\n\ncustomer education.\n\n       3.     Public Counsel opposes reallocating rate revenue responsibilities among customer\n\nclasses without a rate mitigation study as Staff recommends.\n\n       4.     Public Counsel opposes each and every one of the following:\n\n       Default non-LLPS rates\n              - Adopt Company’s proposed demand thresholds.\n              - Adopt Company’s proposed transition from 30-minute to 15-minute billing\n              demand measurement.\n              - Reactive Demand will be removed from Medium and Large General Service\n              - The Company agrees to review voltage differentiated rates in the next EMM\n              general rate case to appropriately reflect voltage cost differences.\n              Optional Time of Use\n              - Adopt Company’s proposal, as modified:\n\f                      o Incorporating the resolving items from the standard rate\n       All Electric Rates\n               - C&I All Electric Rates will be eliminated.\n               TRP Rate\n               - TRP rate should be frozen for current customers using this rate in the non-\n               residential classes.\n                      o In this case, the components of this rate will increase 1.1 times the system\n                      average rate increase.\n       Rules & Reg acceptance\n       Parties and Company agree to the proposed conversion of the General Rules and\n       Regulations to Book 3, subject to the changes and corrections identified in the final error\n       log dated September 25th (or attached to this settlement whichever is preferred).\n       Paragraph 2.05, Temporary Service will be revised to state, “Applications for temporary\n       service will be reviewed by Company, as received, and subject to the applicable rates for\n       permanent service, rules, regulations, terms, conditions, and orders of all governmental\n       authorities having jurisdiction.”\n       Non-Standard Metering Service terms will be revised to align with language approved for\n       Evergy Missouri West in JE-2026-0139 and consistent with the requirements of 20 CSR\n       4240-10.0035.\n\n       WHEREFORE, Public Counsel opposes Evergy Metro, Inc. d/b/a Evergy Missouri Metro\n\nand Midwest Energy Consumers Group’s Non-Unanimous Partial Settlement – Rate Design filed\n\nOctober 5, 2026, as set forth above.\n\n                                                     Respectfully,\n                                                            /s/ Nathan Williams\n                                                     Nathan Williams\n                                                     Chief Deputy Public Counsel\n                                                     Missouri Bar No. 35512\n\n                                                     Office of the Public Counsel\n                                                     Post Office Box 2230\n                                                     Jefferson City, MO 65102\n                                                     (573) 526-4975 (Voice)\n                                                     (573) 751-5562 (FAX)\n                                                     Nathan.Williams@opc.mo.gov\n\n\n\n\n                                                2\n\f                                  CERTIFICATE OF SERVICE\n\nI hereby certify that copies of the foregoing have been mailed, hand-delivered, transmitted by\nfacsimile or electronically mailed to all counsel of record this 7th day of October 2026.\n\n                                                  /s/ Nathan Williams\n\n\n\n\n                                              3\n\f"
+  }
+ ]
+}

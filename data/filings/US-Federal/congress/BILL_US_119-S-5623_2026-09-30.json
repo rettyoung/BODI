@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:119-S-5623:2026-09-30",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "S 5623",
+ "title": "Reaffirming Extended Nuclear Deterrence Act of 2026",
+ "filed": "2026-09-30",
+ "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5623",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+  "keywords": [
+   "nuclear"
+  ]
+ },
+ "collected_at": "2026-10-08T05:22:01Z",
+ "run_id": "2026-10-08-0454",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

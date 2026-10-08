@@ -1,0 +1,50 @@
+{
+ "id": "TX:58317-103",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "10/7/2026 | Robert McLeod | PC | Data Center Permitting & Enforcement",
+ "filed": "2026-10-07",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=103",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "103"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-08T05:07:03Z",
+ "run_id": "2026-10-08-0454",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_103_1690837.ZIP",
+   "name": null,
+   "bytes": 13911,
+   "sha256": "d02df75d6ea9c1caf4354da7c677b81d234881af9661c908b91d0ca94cdbab62",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== PUCT Filing.pdf ===\nData Center Permitting & Enforcement\nWe’ve heard via Governor Abbott”s executive order that all new data\ncenters will be audited by the Public Utilities Commission of Texas with\nrespect to their impact on the electrical grid, water usage and quality of life\nfor nearby neighborhoods, prior to permits being issued. I have inquired,\nbut not yet heard what parameters will be measured with respect to\nminimum setbacks from private property, noise levels, vibrations, and air\nquality. Do we know what are healthy levels regarding these things? Will\nthere be before-and-after measurements to insure compliance? And how\nwill the requirements be enforced during implementation?\n\nIt would seem that data centers and their attendant noise and pollution\nshould be required to be located at least 1/2 mile from residential\nneighborhoods, perhaps further for larger facilities.\n\nHopefully, reasonable and responsible data center regulations will be\ndeveloped, written and enforced in order to preserve nearby\nneighborhoods’ quality of life and property values. In the meantime please\nrestrict new data center permitting until these issues are resolved.\n\nRobert McLeod\n521 Llano Court\nKeller, TX 76248\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_103_1690838.PDF",
+   "name": null,
+   "bytes": 98680,
+   "sha256": "9209ce6d08845819f91dfce5eee5069eb5dfa4e89899f0b87fb7ca9d0c2e68bf",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-10-07 02:57:38 PM\n\nControl Number - 58317\n\nItem Number - 103\n\fData Center Permitting & Enforcement\nWe've heard via Governor Abbott\"s executive order that all new data\ncenters will be audited by the Public Utilities Commission of Texas with\nrespect to their impact on the electrical grid, water usage and quality of life\nfor nearby neighborhoods, prior to permits being issued. I have inquired,\nbut not yet heard what parameters will be measured with respect to\nminimum setbacks from private property, noise levels, vibrations, and air\nquality Do we know what are healthy levels regarding these things? Will\nthere be before-and-after measurements to insure compliance? And how\nwill the requirements be enforced during implementation?\n\nIt would seem that data centers and their attendant noise and pollution\nshould be required to be located at least 1/2 mile from residential\nneighborhoods, perhaps further for larger facilities.\n\nHopefully, reasonable and responsible data center regulations will be\ndeveloped, written and enforced in order to preserve nearby\nneighborhoods' quality of life and property values. In the meantime please\nrestrict new data center permitting until these issues are resolved.\n\nRobert McLeod\n521 Llano Court\nKeller, TX 76248\n\f"
+  }
+ ]
+}

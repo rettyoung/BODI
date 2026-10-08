@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20261007-5182",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-108",
+ "title": "(doc-less) Motion to Intervene of Illinois Municipal Electric Agency under EL26-108.",
+ "filed": "2026-10-07",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261007-5182",
+ "entity": "Illinois Municipal Electric Agency; Illinois Municipal Electric Agency",
+ "fetch": [
+  {
+   "ferc_file": "FE697CF4-D83E-CBFB-9AC0-A11809400000",
+   "name": "1796140_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-10-07"
+ },
+ "collected_at": "2026-10-08T05:00:09Z",
+ "run_id": "2026-10-08-0454",
+ "keywords": [
+  "collateral",
+  "cost allocation",
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1796140_Interv.txt",
+   "bytes": 3394,
+   "sha256": "d3839e361a32325e08c3cfb5e0a648b3436b832c769c7000042c6eba4f85242c",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Illinois Municipal Electric Agency under EL26-108-000.\r\n\r\nSubmission Date:        10/7/2026 4:18:15 PM\r\n\r\nFiled Date:             10/7/2026 4:18:15 PM\r\n\r\nDockets\r\n-------\r\nEL26-108-000         PJM Interconnection, L.L.C.\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nIllinois Municipal Electric Agency       tfodor@imea.org                                                                  \r\nIllinois Municipal Electric Agency       dchung@imea.org                                                                  \r\n\r\nBasis for Intervening:\r\nIllinois Municipal Electric Agency (“IMEA”) is a municipal joint action agency organized under Illinois law as a municipal corporation and unit of local government of the State of Illinois (65 ILCS 5/11-119.1-1 et seq.).  IMEA is comprised of thirty-two municipal members, all of which own and operate their own municipal electric systems in the State of Illinois and provide electricity to end use customers.  IMEA provides a fully bundled and delivered, full-requirements service to each of its members and as such is the Load Serving Entity (“LSE”) responsible for meeting certain obligations imposed by the regional transmission organizations.  IMEA uses the transmission systems of Ameren Illinois Company, Commonwealth Edison Company, and other transmission owners that are controlled by, and the capacity, energy, and ancillary service markets operated by, Midcontinent Independent System Operator, Inc. (“MISO”) and PJM Interconnection, L.L.C. (“PJM”), along with generating resources that IMEA owns or has under long-term contract and other bilateral transactions and market purchases, to serve the load obligations of its members located in MISO and PJM.  IMEA’s aggregate load is split roughly evenly between the MISO and PJM.\r\n\r\nThis proceeding stemmed from PJM’s proposal to revise its Tariff and Reliability Assurance Agreement to establish its Reliability Backstop Procurement (“RBP”) rules.  Specifically, PJM seeks to establish a backstop auction, as a supplement to its Reliability Pricing Model-based auctions, in order to alleviate its capacity shortfall for Delivery Years 2027/2028 and 2028/2029.  The Commission subsequently accepted PJM’s proposal but suspended it for five months, effective February 28, 2027, subject to refund, and established paper hearing procedures.  The Commission also established a Federal Power Act section 206 (“Section 206”) proceeding.  IMEA is the Market Participant for four small load serving entities in the ComEd Zone that do not have any qualifying large loads.  IMEA is also a participant of PJM’s capacity market.  As such, IMEA and its certain member municipal utilities will be subject to any change made to PJM’s RBP filing as a result of the Section 206 proceeding, including changes to PJM’s proposed cost allocation methodology and LSE collateral requirements.  Therefore, IMEA has interests directly affected by this proceeding and the outcome thereof.  For such reason, IMEA requests that it be granted intervention in this docket with full rights as a party."
+  }
+ ]
+}

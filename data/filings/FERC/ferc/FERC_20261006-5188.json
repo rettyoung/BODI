@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261006-5188",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-89,ER18-2511",
+ "title": "Response to 08/07/2026, Show Cause Order of NorthWestern Corporation under ER18-2511, et al.",
+ "filed": "2026-10-06",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261006-5188",
+ "entity": "NorthWestern Corporation",
+ "fetch": [
+  {
+   "ferc_file": "B6935720-36A1-C48D-9682-A116F4100000",
+   "name": "Read Me - Contracts.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "81CC7574-578A-CE60-A6FD-A116F4100000",
+   "name": "PRIV_NWMT EQR Short_term Non-Affiliates Sales 2020-2025.xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "4DB00847-011F-C398-AC45-A116F4100000",
+   "name": "Read Me - Availability.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "D4DF4B21-909A-C25E-8E5C-A116F4400000",
+   "name": "Read Me - Emissions.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-06"
+ },
+ "collected_at": "2026-10-08T05:00:00Z",
+ "run_id": "2026-10-08-0454",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'B6935720-36A1-C48D-9682-A116F4100000', 'name': 'Read Me - Contracts.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '81CC7574-578A-CE60-A6FD-A116F4100000', 'name': 'PRIV_NWMT EQR Short_term Non-Affiliates Sales 2020-2025.xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '4DB00847-011F-C398-AC45-A116F4100000', 'name': 'Read Me - Availability.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'D4DF4B21-909A-C25E-8E5C-A116F4400000', 'name': 'Read Me - Emissions.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

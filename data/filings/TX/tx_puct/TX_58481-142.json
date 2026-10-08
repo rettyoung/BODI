@@ -18,8 +18,35 @@
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
  "keywords": [
-  "data center"
+  "data center",
+  "hyperscale"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_142_1621431.ZIP",
+   "name": null,
+   "bytes": 328728,
+   "sha256": "8348d7ec81251d43e4281241ddb64c80e27d06e363713a2e8225de2db1917d40",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_142_1621432.PDF",
+   "name": null,
+   "bytes": 99394,
+   "sha256": "8d3034cdbafa727cb886aca121a3b358eb0de9b19a4e2ab81f036cf0c6f4ce81",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-04-14 03:33:02 AM\n\nControl Number - 58481\n\nItem Number - 142\n\f        of Texas (PUCT) is finalizing Rule\n      ' §25.194 (under SB 6). This rule\n  O I would force data centers over 75\n       MW to finally disclose their water\n       and gas studies-the very ones our\n  -= I City Council keeps hidden behind\n  kj NDAs.\n0 /\n\n~ 0~ How to act now:\n~f     Go to the PUCT Interchange\n       Portal for Project No. 58481:\n       https://interchange.puc.texas.gov/\n\n       File a public comment (Reference\n       Project 58481 / Rule 25.194).\n\n       Demand that Temple's hyperscale\n       projects be subject to the highest\n       level of transparency regarding\n       their \"84-degree\" water spikes and\n       total grid load.\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-08T05:31:45Z"
 }

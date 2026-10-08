@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147554",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Analysis: Election Results Could Slow Data Centers",
+ "filed": "2026-10-07",
+ "url": "//www.rtoinsider.com/147554-cleanview-analysis-nov-election-results-could-slow-data-centers/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Politics plays a major role in where Big Tech companies choose to site data center projects, and a report concludes the fate of proposed hyperscale projects in 14 states may hinge on the outcome of the midterm elections. \n The post  Analysis: Election Results Could Slow Data Centers  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-08T05:17:28Z",
+ "run_id": "2026-10-08-0454",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": []
+}

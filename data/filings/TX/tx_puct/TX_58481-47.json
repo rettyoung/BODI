@@ -17,7 +17,42 @@
  ],
  "collected_at": "2026-10-03T21:17:49Z",
  "run_id": "2026-10-03-2044",
- "keywords": [],
+ "keywords": [
+  "crypto",
+  "curtailment",
+  "data center",
+  "emergency",
+  "firm load shed",
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_47_1568499.ZIP",
+   "name": null,
+   "bytes": 15976,
+   "sha256": "60779ccf723e6750bf367aa10f5376fc3f242a6698d5ba83914faa38501858ac",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Dallas County Public Works Comments SB6 Implementation_1.docx ===\nProtecting Local Ratepayers\nDallas County Public Works supports economic development associated with Data Centers.  However, the costs associated with upgrading transmission lines and substations for \"Large Loads\" (75 MW+) should not be subsidized by existing residents.\nThe \"Fair Share\" Argument: The PUCT should strictly enforce the SB 6 provision that requires Large Load customers to pay for their own interconnection costs.\nPreventing Stranded Costs: Dallas County Public Works has concerns about \"ghost loads\"—companies that reserve capacity but never actually build. Dallas County Public Works advocates for high, non-refundable security deposits.  This will prevent over-building of infrastructure that local residents might eventually be forced to pay for through higher rates.\nMandatory Curtailment for Non-Critical Loads\nDallas County Public Works supports the PUCT’s draft rule requiring new large industrial customers to have remote-disconnect technology.\nResidential Priority: In an emergency, \"firm load shed\" events (similar to Winter Storm Uri), large data centers and crypto miners should be the first to be disconnected to keep the lights on in residential neighborhoods and for critical services and facilities (hospitals, water treatment).\nVerification: Dallas County Public Works requests that ERCOT perform annual testing of these curtailment protocols to ensure they work during a real grid emergency.\nLowering the \"Large Load\" Threshold\nWhile SB 6 sets a default threshold of 75 MW, Dallas County Public Works supports the PUCT staff’s recommendation to lower this to 25 MW.\nLocal Impact: In a dense urban area like Dallas, even a 25–50 MW facility can significantly strain a local distribution substation. Lowering the threshold ensures more of these projects are subject to the heightened planning and financial standards of SB 6.\nTransmission Planning and \"4CP\" Reform\nDallas County Public Works supports the reform of the Four Coincident Peak (4CP) methodology.\nThe Issue: Currently, many large industrial loads \"dodge\" transmission costs by lowering their usage for a few hours during summer peaks.\nThe Comment: This places an unfair burden on residential consumers who cannot easily shift their load. Dallas County Public Works supports a new cost-allocation model that reflects total grid usage, ensuring Large Loads contribute more to the multi-billion-dollar transmission upgrades currently underway in North Texas.\nProtecting County and State Roadways\nDallas County Public Works supports protection of County roads and Infrastructure \nSection 37.101 states that a municipality may require an electric utility to relocate the utility’s facility at the utility’s expense to permit the widening or straightening of a street – this should be extended to County governments and to the State to protect infrastructure in general.  \nThe large loads for the interconnection is damaging County roadways and Farm-to Market Roads significantly Therefore, County governments should be allowed to require deposits or cost recovery fees for permits associated with Large Load interconnection.  \n"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58481_47_1568500.PDF",
+   "name": null,
+   "bytes": 126960,
+   "sha256": "b125fce863da4792e5714f36a66c1441b30f01e4093dbcbdeb7d74abc1d8daba",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2025-12-19 11:51:17 AM\n\nControl Number - 58481\n\nItem Number - 47\n\fProtecting Local Ratepayers\nDallas County Public Works supports economic development associated with Data Centers.\nHowever, the costs associated with upgrading transmission lines and substations for \"Large Loads\"\n(75 MW+) should not be subsidized by existing residents.\n\n   •   The \"Fair Share\" Argument: The PUCT should strictly enforce the SB 6 provision that\n       requires Large Load customers to pay for their own interconnection costs.\n   •   Preventing Stranded Costs: Dallas County Public Works has concerns about \"ghost\n       loads\"-companies that reserve capacity but never actually build. Dallas County Public\n       Works advocates for high, non-refundable security deposits. This will prevent over-\n       building of infrastructure that local residents might eventually be forced to pay for through\n       higher rates.\n\nMandatory Curtailment for Non-Critical Loads\nDallas County Public Works supports the PUCT's draft rule requiring new large industrial\ncustomers to have remote-disconnect technology.\n\n   •   Residential Priority: In an emergency, \"firm load shed\" events (similar to Winter Storm\n       Uri), large data centers and crypto miners should be the first to be disconnected to keep the\n       lights on in residential neighborhoods and for critical services and facilities (hospitals,\n       water treatment).\n   •   Verification: Dallas County Public Works requests that ERCOT perform annual testing of\n       these curtailment protocols to ensure they work during a real grid emergency.\n\nLowering the \"Large Load\" Threshold\nWhile SB 6 sets a default threshold of 75 MW, Dallas County Public Works supports the PUCT\nstaff' s recommendation to lower this to 25 MW.\n\n   •   Local Impact: In a dense urban area like Dallas, even a 25-50 MW facility can\n       significantly strain a local distribution substation. Lowering the threshold ensures more of\n       these projects are subject to the heightened planning and financial standards of SB 6.\n\nTransmission Planning and \"4CP\" Reform\nDallas County Public Works supports the reform of the Four Coincident Peak (4CP)\nmethodology.\n\n   •   The Issue: Currently, many large industrial loads \"dodge\" transmission costs by lowering\n       their usage for a few hours during summer peaks.\n   •   The Comment: This places an unfair burden on residential consumers who cannot easily\n       shift their load. Dallas County Public Works supports a new cost-allocation model that\n\f       reflects total grid usage, ensuring Large Loads contribute more to the multi-billion-dollar\n       transmission upgrades currently underway in North Texas.\n\nProtecting County and State Roadways\nDallas County Public Works supports protection of County roads and Infrastructure\n\nSection 37.101 states that a municipality may require an electric utility to relocate the utility' s\nfacility at the utility' s expense to permit the widening or straightening of a street - this should be\nextended to County governments and to the State to protect infrastructure in general.\n\nThe large loads for the interconnection is damaging County roadways and Farm-to Market Roads\nsignificantly Therefore, County governments should be allowed to require deposits or cost\nrecovery fees for permits associated with Large Load interconnection.\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-08T05:50:10Z"
 }

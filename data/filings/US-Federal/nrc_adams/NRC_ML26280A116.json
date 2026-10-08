@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26280A116",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000331",
+ "title": "Duane Arnold (NextEra restart): Pre-Submittal Meeting for Subsequent License Renewal Application for Duane Arnold Energy Center (DAEC) 10/21/2026 [['Meeting Notice', 'Meeting Agenda']]",
+ "filed": "2026-10-07",
+ "entity": [
+  "NRC/NRR"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26280A116.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26280A116.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Duane Arnold (NextEra restart)",
+  "accession": "ML26280A116",
+  "document_date": "2026-10-07"
+ },
+ "collected_at": "2026-10-08T04:57:30Z",
+ "run_id": "2026-10-08-0454",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26280A116.pdf",
+   "name": null,
+   "bytes": 106612,
+   "sha256": "e2b5cd7f93055e61feda1f791ca440133c6eea602e62509ef943e6278aa326d6",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                 PUBLIC MEETING ANNOUNCEMENT\n\nTitle:                  Pre-Submittal Meeting for Subsequent License Renewal Application for Duane\n                        Arnold Energy Center (DAEC)\n\nDate(s) and Time(s):\n                         October 21, 2026, 01:00 PM to 03:00 PM\n\n\nLocation:               Hybrid\n                        15555 Rockville Pike OWFN - 08B04\n\n                        Rockville MD\n\nCategory:               This is an Observation Meeting. This is a meeting in which attendees will have an\n                        opportunity to observe the NRC performing its regulatory function or discussing\n                        regulatory issues. Attendees will have an opportunity to ask questions of the\n                        NRC staff or make comments about the issues discussed following the business\n                        portion of the meeting; however, the NRC is not actively soliciting comments\n                        towards regulatory decisions at this meeting.\n\nPurpose:                NRC will meet with NextEra Energy to discuss the preparation of subsequent\n                        license renewal application for Duane Arnold Energy Center.\n\nContact(s):\n                         Kevin Folk\n                         301-415-6944\n                         Kevin.Folk@nrc.gov\n\n                         Vaughn Thomas\n                         301-415-5897\n                         Vaughn.Thomas@nrc.gov\n\n\nParticipants:\n                         NRC                                     External\n                         Nuclear Reactor Regulation              NextEra Energy Duane Arnold, LLC\n\nDocket No:\n                         05000331\n\n\nIf you need a reasonable accommodation due to a disability to participate in this meeting or need meeting\nmaterials in another format (e.g. braille, large print), please email\nReasonable_Accommodations.Resource@nrc.gov. Determinations on requests for reasonable\naccommodation will be made on a case-by-case basis and the agency may choose between which\neffective accommodations to provide. At least ten (10) days advance notice is recommended in order for a\nrequest to be processed and implemented if approved. However, every effort will be made to address any\nreasonable accommodations requests received with less notice.\n\nIf you have difficulty understanding and/or communicating in English, free language assistance or other\naids and services may be available, upon request. Please email lepresources@nrc.gov. Determinations\non requests will be made on a case-by-case basis. At least ten (10) days advance notice is recommended\nin order for a request to be processed and implemented if approved. However, every effort will be made to\naddress any reasonable accommodations requests received with less notice.\n\f                                 PUBLIC MEETING AGENDA\n\nPre-Submittal Meeting for Subsequent License Renewal Application for Duane Arnold Energy Center\n                                            (DAEC)\n\n                            October 21, 2026, 01:00 PM to 03:00 PM\n\n                                            Hybrid\n                             15555 Rockville Pike OWFN - 08B04\n\n                                         Rockville MD\n\n\n           Time                             Topic                           Speaker\n\n          1:00 PM                     Opening Remarks /              NRC & NextEra Energy\n                                        Introductions\n\n          1:05 PM               NRC & Applicant Presentations -      NRC & NextEra Energy\n                                           Safety\n\n          1:55 PM                           Break\n\n          2:05 PM               NRC & Applicant Presentations -      NRC & NextEra Energy\n                                       Environmental\n\n          2:45 PM                Public Comment Opportunity               NRC & Public\n\n          3:00 PM                 Closing Remarks / Adjourn                   NRC\n\f"
+  }
+ ]
+}

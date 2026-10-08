@@ -32,5 +32,11 @@
   "data center"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': 'EB9CDE9F-0BEF-C399-9326-9E7043700000', 'name': '20260528_P-1394 Bishop Intake 2_CA PIPR_final.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ],
+ "enriched_at": "2026-10-08T05:31:18Z"
 }

@@ -32,5 +32,11 @@
   "large load"
  ],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "{'ferc_file': 'CDB320E5-69B1-CE5C-9917-9E7553200000', 'name': '329272-C005475-Form_3Q_Electric-2026-Q1_329272.html', 'type': 'HTML'}",
+   "error": "RuntimeError('FERC DownloadP8File returned application/octet-stream (2479874 bytes)')"
+  }
+ ],
+ "enriched_at": "2026-10-08T05:31:13Z"
 }
