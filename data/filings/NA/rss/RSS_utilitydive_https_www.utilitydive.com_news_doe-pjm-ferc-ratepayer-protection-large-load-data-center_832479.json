@@ -1,0 +1,27 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/doe-pjm-ferc-ratepayer-protection-large-load-data-center/832479/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "DOE presses PJM on ratepayer protections from large load costs",
+ "filed": "2026-10-08",
+ "url": "https://www.utilitydive.com/news/doe-pjm-ferc-ratepayer-protection-large-load-data-center/832479/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      &ldquo;A capability to continuously track whether a project enters into service ... or is delayed, reduced, or cancelled, can help assign costs for new generation to the customers responsible for those investments,&rdquo; the DOE said in a rare filing at FERC. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-09T05:13:00Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "large load",
+  "ratepayer protection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

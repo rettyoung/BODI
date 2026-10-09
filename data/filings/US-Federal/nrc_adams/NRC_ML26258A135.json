@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26258A135",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000617",
+ "title": "Holtec Pioneer 2 (SMR-300 at Palisades): Holtec International - Submittal of the SMR-300 Concrete Strengthened Steel Structures Design and Analysis Methodology Licensing Topical Report, Revision 1 [['Letter']]",
+ "filed": "2026-10-08",
+ "entity": [
+  "Holtec International"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2625/ML26258A135.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2625/ML26258A135.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Holtec Pioneer 2 (SMR-300 at Palisades)",
+  "accession": "ML26258A135",
+  "document_date": "2026-09-14"
+ },
+ "collected_at": "2026-10-09T04:58:13Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "SMR",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2625/ML26258A135.pdf",
+   "name": null,
+   "bytes": 323433,
+   "sha256": "0fa10384397d6ab4dde870af21328383ee9356a364a9b40e27b6f60cdafff5a1",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                                    SMR, LLC. A Holtec International Company\n                     Krishna P. Singh Technology Campus,1 Holtec Blvd., Camden, NJ 08104\n                                                                Telephone (856) 797-0900\n                                                                              Fax (856) 797-0909\n\n\n\nOctober 7, 2026\n\nU.S. Nuclear Regulatory Commission\nATTN: Document Control Desk\nWashington, DC 20555-0001\n\nSubject:     Holtec International – Submittal of the SMR-300 Concrete Strengthened Steel\n             Structures Design and Analysis Methodology Licensing Topical Report, Revision 1\n             (Project No. 99902049)\n\nReferences:\n   1. SMR, LLC Submittal of SMR-300 Concrete Strengthened Steel Structures Design and\n      Analysis Methodology Licensing Topical Report (Project No. 99902049)\n   2. Email from NRC to P. Lashley, “Topical Report Completeness Determination for Report\n      Number HI- 2251825 Revision 0,” dated January 27, 2026 (ML26007A004, part of\n      package ML26007A003)\n   3. Audit Plan for the Regulatory Audit of “SMR-300 Concrete Strengthened Steel Structures\n      Design and Analysis Methodology Licensing Topical Report,” (ML26033A013)\n\nBy letter dated December 2, 2025 (ML25336A060), SMR, LLC, a Holtec International Company\n(Holtec), submitted Licensing Topical Report (LTR) HI-2251825, Revision 0, “SMR-300\nConcrete Strengthened Steel Structures Design and Analysis Methodology Licensing Topical\nReport” (Reference 1) to the U.S. Nuclear Regulatory Commission (NRC). The NRC accepted\nthe LTR for review (Reference 2) and issued the audit plan (Reference 3).\n\nThe purpose of this letter is to submit Revision 1 of this licensing topical report.\n\nEnclosure 1 contains the non-public proprietary information version of the LTR Revision 1, and\nHoltec requests that such information be withheld from public disclosure in accordance with the\naffidavit provided in Enclosure 3. Enclosure 2 contains the public redacted version of\nEnclosure 1.\n\nIf you have any questions or require any additional information, please contact Jacob Dolecki,\nSenior Manager – Licensing & Engineering Programs, jdolecki@holtec.com or 856-797-0900.\n\n\n\n\nTransmittal No. 300-USNRC-26015                                            Page 1 of 2\n\f                                                     SMR, LLC. A Holtec International Company\n                        Krishna P. Singh Technology Campus,1 Holtec Blvd., Camden, NJ 08104\n                                                                   Telephone (856) 797-0900\n                                                                          Fax (856) 797-0909\n\n\n\n\nRespectfully,\n                Digitally signed by Jacob (Jake)\nJacob (Jake)    Dolecki\n                DN: cn=Jacob (Jake) Dolecki, c=US,\n                o=Holtec International, ou=SMR,\n  Dolecki       email=j.dolecki@holtec.com\n                Date: 2026.10.07 18:56:32 -04'00'\n\n\n\nJacob Dolecki\nSenior Manager – Licensing & Engineering Programs\nHoltec International\n\n\nEnclosures:\n   1. “SMR-300 Concrete Strengthened Steel Structures Design and Analysis Methodology\n      Licensing Topical Report,” HI-2251825 Rev.1, Proprietary\n   2. “SMR-300 Concrete Strengthened Steel Structures Design and Analysis Methodology\n      Licensing Topical Report,” HI-2251825 Rev.1, Nonproprietary\n   3. Affidavit Pursuant to 10 CFR 2.390 to Withhold Information from Public Disclosure\n\nCC:\nK. Manzione (Holtec, Executive Director of Licensing & Regulatory Affairs)\nM. Hayes (USNRC, DNRL, NLIB, Branch Chief)\nV. Huckabay (USNRC, DNRL, NLIB, Senior Project Manager)\nA. Johnson (USNRC, DNRL, NLIB, Project Manager)\n\n\n\n\nTransmittal No. 300-USNRC-26015                                         Page 2 of 2\n\f"
+  }
+ ]
+}

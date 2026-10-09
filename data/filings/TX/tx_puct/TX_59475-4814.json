@@ -19,5 +19,15 @@
  "run_id": "2026-10-03-2044",
  "keywords": [],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4814_1646688.ZIP",
+   "error": "too large (80579666 bytes)"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_4814_1646689.PDF",
+   "error": "too large (151167508 bytes)"
+  }
+ ],
+ "enriched_at": "2026-10-09T05:27:10Z"
 }

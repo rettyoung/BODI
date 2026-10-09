@@ -1,0 +1,30 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/nuclear/constellation-google-nuclear-uprates",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Constellation and Google go in on nuclear uprates to unlock clean power",
+ "filed": "2026-10-08",
+ "url": "https://www.canarymedia.com/articles/nuclear/constellation-google-nuclear-uprates",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "The Trump administration wants to add 5 gigawatts of carbon-free nuclear power capacity by 2029 without deploying a single new reactor. An announcement this week by the United States’ biggest nuclear power plant operator brings that lofty goal a bit closer to reality.  On Tuesday, Constellation Energy said it would…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-09T05:13:00Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "nuclear",
+  "uprate"
+ ],
+ "party_hits": [
+  "Constellation",
+  "Google"
+ ],
+ "documents": []
+}

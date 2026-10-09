@@ -1,0 +1,27 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/power-system-plans-to-meet-large-load-demand-miss-near-term-solutions-some/832508/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Power system plans to meet large-load demand miss near-term solutions: analysts",
+ "filed": "2026-10-08",
+ "url": "https://www.utilitydive.com/news/power-system-plans-to-meet-large-load-demand-miss-near-term-solutions-some/832508/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      Major work by regional planners is focused on flexible access to existing transmission. Some say greater emphasis on advanced transmission technologies can quickly and cost-effectively create room for new large loads. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-09T05:13:00Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "large load",
+  "large-load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

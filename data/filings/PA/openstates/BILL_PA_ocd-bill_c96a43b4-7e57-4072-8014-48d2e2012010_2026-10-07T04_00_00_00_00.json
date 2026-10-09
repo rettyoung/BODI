@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/c96a43b4-7e57-4072-8014-48d2e2012010:2026-10-07T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1260",
+ "title": "An Act providing for licensure of electrical contractors, electricians, residential electricians, apprentice electricians and probationary electricians; establishing the State Board of Electrical Licensure; providing for powers and duties of the board; establishing fees, fines and penalties; and mak",
+ "filed": "2026-10-07",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1260/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Re-referred to Appropriations",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-09T05:23:27Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

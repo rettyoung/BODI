@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/496861b9-5ef2-4955-b95a-89c1cc1105d1:2026-10-08",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 841",
+ "title": "Data centers; public hearing and notice requirements.",
+ "filed": "2026-10-08",
+ "url": "https://openstates.org/va/bills/2027/SB841/",
+ "fetch": [],
+ "meta": {
+  "session": "2027",
+  "latest_action": "Referred to Committee on Local Government",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-09T05:23:27Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

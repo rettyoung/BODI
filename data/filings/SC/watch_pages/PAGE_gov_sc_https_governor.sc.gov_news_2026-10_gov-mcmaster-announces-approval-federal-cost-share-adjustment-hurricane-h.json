@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:gov_sc:https://governor.sc.gov/news/2026-10/gov-mcmaster-announces-approval-federal-cost-share-adjustment-hurricane-helene",
+ "jur": "SC",
+ "source": "page:gov_sc",
+ "kind": "news",
+ "docket": null,
+ "title": "Gov. McMaster Announces Approval of Federal Cost Share Adjustment for Hurricane Helene",
+ "filed": null,
+ "url": "https://governor.sc.gov/news/2026-10/gov-mcmaster-announces-approval-federal-cost-share-adjustment-hurricane-helene",
+ "fetch": [
+  {
+   "url": "https://governor.sc.gov/news/2026-10/gov-mcmaster-announces-approval-federal-cost-share-adjustment-hurricane-helene"
+  }
+ ],
+ "meta": {
+  "bkey": "page:gov_sc",
+  "rto": null,
+  "page": "https://governor.sc.gov/news",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-09T05:11:55Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://governor.sc.gov/news/2026-10/gov-mcmaster-announces-approval-federal-cost-share-adjustment-hurricane-helene",
+   "name": null,
+   "bytes": 104106,
+   "sha256": "7356527afe8cf5b6687e5bfccf2459f8a26372ed95665316575198bf8a0250cf",
+   "ctype": "text/html; charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Gov. McMaster Announces Approval of Federal Cost Share Adjustment for Hurricane Helene | S.C. Governor Henry McMaster\n\n      Skip to main content\n\nOnline Services\n\nAgency Listing\n\nCybersecurity Tips\n\nSouth Carolina Office of the Governor\n\nHenry McMaster\n\nSearch\n\nSearch\n\nMenu\n\nMain navigation\n\nThe Governor\n\nThe First Lady\n\nGovernor's Mansion\n\nLace House\n\nCaldwell-Boylston House\n\nLieutenant Governor\n\nNewsroom\n\nPhotos\n\nFOIA\n\nExecutive Branch\n\nAwards\n\nAppointments\n\nVeto Messages\n\nExecutive Orders\n\nExecutive Budget\n\nExtraditions\n\nSigning Statements\n\nDomestic Violence Task Force\n\nCARES Act\n\nSouth Carolina Floodwater Commission\n\nContact\n\nContact Us\n\nInternship Program\n\nPardons & Expungements\n\nReport State Agency Fraud\n\nBreadcrumb\n\nHome\n\nRecent News\n\n                  Gov. McMaster Announces Approval of Federal Cost Share Adjustment for Hurricane Helene\n\nGov. McMaster Announces Approval of Federal Cost Share Adjustment for Hurricane Helene\n\n           October 8, 2026\n\nCOLUMBIA, S.C. –\n Governor Henry McMaster today announced that President Donald J. Trump has approved South Carolina’s request to increase the Federal Emergency Management Agency’s (FEMA) federal cost share for Public Assistance following Hurricane Helene from 75% to 90%.\n\n\"South Carolina has worked tirelessly to recover and rebuild following the devastation caused by Hurricane Helene in 2024,\" said Gov. McMaster. \"This increased federal cost share will help reduce the financial burden on South Carolina and our communities as we continue recovery work. We are grateful for this additional federal support and will continue working to ensure South Carolinians have the resources they need to rebuild stronger communities.\"\n\n\"South Carolina communities have made significant progress in recovering from Hurricane Helene, but the work is not finished,\" said South Carolina Emergency Management Division Director Kim Stenson. \"The increased federal cost share provides important financial relief as state and local governments continue completing eligible recovery projects.\"\n\nFEMA’s\n Public Assistance program \nprovides reimbursement to eligible state and local governments, as well as certain private nonprofit organizations, for disaster-related costs. Eligible expenses may include debris removal, emergency protective measures, road and bridge repairs, repairs to public buildings and infrastructure, utility repairs, equipment, and disaster management costs.\n\nFEMA’s Hazard Mitigation Assistance helps South Carolina and local communities reduce or eliminate the risk of future disaster damage as they rebuild. Eligible projects may include elevating homes and buildings in flood-prone areas and voluntary property acquisitions when rebuilding is not feasible.\n\nFEMA’s Individual Assistance programs have provided $334 million to more than 250,000 disaster survivors to support recovery and rebuilding. State, local, and nonprofit programs are supporting more than 1,000 residential repair projects.\n﻿\n-###-\n\nExecutive Orders\n\nGovernor McMaster's Executive Orders\n\nLearn More\n\nBoards & Commissions\n\nInformation on SC Boards & Commissions\n\nLearn More\n\nFloodwater Commission\n\nSC Floodwater Commission\n\nLearn More\n\nThe Honorable Henry McMaster\n\nState House\n\n1100 Gervais Street\n\nColumbia, SC 29201\n\nFooter menu\n\nThe Governor\n\nThe First Lady\n\nLieutenant Governor\n\nNewsroom\n\nExecutive Branch\n\nNews Archive\n\nContact\n\nSC.GOV Home\n\nSC.GOV Privacy & Security Policy\n\nHelp Center\n\nContact SC.GOV\n\nDownload Adobe Reader\n\n\t\t\tCopyright ©\n\n State of South Carolina"
+  }
+ ]
+}

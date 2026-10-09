@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26275A154",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000331",
+ "title": "Duane Arnold (NextEra restart): Analysis of Nextera Energy Duane Arnold, LLC's Updated Decommissioning Funding Plan for Duane Arnold Energy Center Independent Spent Fuel Storage Installation [['E-Mail']]",
+ "filed": "2026-10-08",
+ "entity": [
+  "NRC/NMSS/DDFSTE/DSFST/STMLB"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2627/ML26275A154.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26275A154.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Duane Arnold (NextEra restart)",
+  "accession": "ML26275A154",
+  "document_date": "2026-09-29"
+ },
+ "collected_at": "2026-10-09T04:57:13Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26275A154.pdf",
+   "name": null,
+   "bytes": 179054,
+   "sha256": "68739128bd7caba060c5679e473daf0f08ad412b365b2173103bc3ae2f2737f5",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:            Tilda Liu\nTo:              Both, Justin; \"Tracy.Weaver@nexteraenergy.com\"; \"James.Davis@nexteraenergy.com\"; \"Paul.hansen@fpl.com\"\nCc:              Yoira Diaz Sanabria; Chris Markley\nSubject:         ANALYSIS OF NEXTERA ENERGY DUANE ARNOLD, LLC’S UPDATED DECOMMISSIONING FUNDING PLAN FOR\n                 DUANE ARNOLD ENERGY CENTER INDEPENDENT SPENT FUEL STORAGE INSTALLATION\nDate:            Tuesday, September 29, 2026 4:44:00 PM\nAttachments:     image001.png\n\n\nNOTE THAT THIS EMAIL WILL BE ENTERED INTO NRC ADAMS AS PUBLICLY\nAVAILABLE DOCUMENT.\n\nJustin Both\nDecommissioning Director\nDuane Arnold Energy Center\nNextEra Energy Duane Arnold, LLC\n3277 DAEC Road\nPalo, IA 52324\n\nSUBJECT:      ANALYSIS OF NEXTERA ENERGY DUANE ARNOLD, LLC’S UPDATED\n              DECOMMISSIONING FUNDING PLAN FOR DUANE ARNOLD ENERGY\n              CENTER INDEPENDENT SPENT FUEL STORAGE INSTALLATION\n\nDear Mr. Both:\n\nBy letter dated March 18, 2026 (ML26083A301), NextEra Energy Duane Arnold, LLC\n(NEDA) submitted an updated decommissioning funding plan (DFP) for Duane Arnold\nEnergy Center (DAEC) Independent Spent Fuel Storage Installation (ISFSI), for U.S.\nNuclear Regulatory Commission (NRC) staff review.\n\nPursuant to Titla 10 of Code of Federal Regulations (10 CFR) 72.30(c), at the time of\nlicense renewal and at intervals not to exceed 3 years, the initial DFP required to be\nsubmitted by 10 CFR 72.30(b) must be resubmitted with adjustments as necessary to\naccount for changes in costs and the extent of contamination in an updated DFP. The\nupdated DFP must update the information submitted with the original or prior approved\nplan. In addition, the updated DFP must also specifically consider the effect of the following\nevents on decommissioning costs, as required by 10 CFR 72.30(c)(1)-(4): (1) spills of\nradioactive material producing additional residual radioactivity in onsite subsurface material,\n(2) facility modifications, (3) changes in authorized possession limits, and (4) actual\nremediation costs that exceed the previous cost estimate.\n\nThe NRC staff reviewed the 2026 updated DFP provided by NEDA, including the updated\ndecommissioning cost estimate (DCE) and the method of assuring funds for\ndecommissioning, in accordance with 10 CFR 72.30(c) and NUREG-1757, Vol. 3, Rev. 1,\n“Consolidated Decommissioning Guidance.” Based on the review, the NRC staff finds that\nthe updated DFP contains the information required by 10 CFR 72.30(c) and that NEDA has\nprovided reasonable assurance by which funds will be available to decommission the ISFSI\nat DAEC. Therefore, the NRC staff finds that the DCE adequately estimated the cost, at this\ntime, to carry out required ISFSI decommissioning activities prior to license termination, and\nthat the DCE is reasonable.\n\nIf you have any questions regarding this matter, please contact me at 404-997-4730 or via\n\femail to tilda.liu@nrc.gov.\n\nSincerely,\nTilda Liu, Senior Project Manager\nStorage and Transportation Licensing Branch\nDivision of Storage of Fuel, Transportation & Environmental\nOffice of Nuclear Material Safety and Safeguards\nUSNRC\n* R-II | ( 404-997-4730 | Tilda.Liu@nrc.gov\nDocket No.: 72-32\nEPID No.: L-2017-FPR-0023\n\nCc:      Tracy Weaver, Principal Licensing Engineer\n         James (Mike) Davis, Licensing Projects Manager\n         Paul Hansen, Engineering Director\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-09T05:26:30Z"
+}

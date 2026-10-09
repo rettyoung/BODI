@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261007-5237",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC27-3",
+ "title": "Application for Authorization Under Section 203 of the Federal Power Act of Astoria Energy II LLC under EC27-3.",
+ "filed": "2026-10-07",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261007-5237",
+ "entity": "Astoria Energy II LLC",
+ "fetch": [
+  {
+   "ferc_file": "99295518-66F1-C318-BAA8-A11BC0900000",
+   "name": "Astoria Energy II - Application under FPA Section 203 CUI-PRIV.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "249EE8F4-184D-CA4E-88F5-A11BC0A00000",
+   "name": "Table of Contents-Confidential Workpapers-AE2 (EC26-___).xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "4CE7458D-82D5-C874-93C1-A11BC0A00000",
+   "name": "PRIV-DPT Model AE2 Transaction (ER26___).xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "B7065875-5678-CB4E-9866-A11BC0A00000",
+   "name": "PRIV-DPT Model AE2_Counterfactual (ER26___).xlsx",
+   "type": "XLSX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Disposition of Facilities Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-07"
+ },
+ "collected_at": "2026-10-09T05:00:44Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '99295518-66F1-C318-BAA8-A11BC0900000', 'name': 'Astoria Energy II - Application under FPA Section 203 CUI-PRIV.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '249EE8F4-184D-CA4E-88F5-A11BC0A00000', 'name': 'Table of Contents-Confidential Workpapers-AE2 (EC26-___).xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '4CE7458D-82D5-C874-93C1-A11BC0A00000', 'name': 'PRIV-DPT Model AE2 Transaction (ER26___).xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'B7065875-5678-CB4E-9866-A11BC0A00000', 'name': 'PRIV-DPT Model AE2_Counterfactual (ER26___).xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

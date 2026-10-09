@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:119-HR-9613:2026-07-14",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 9613",
+ "title": "Nuclear Advisory Committee Reform Act",
+ "filed": "2026-07-14",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/9613",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
+  "keywords": [
+   "nuclear"
+  ]
+ },
+ "collected_at": "2026-10-09T05:17:45Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

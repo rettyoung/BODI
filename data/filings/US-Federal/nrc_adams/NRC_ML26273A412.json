@@ -1,0 +1,45 @@
+{
+ "id": "NRC:ML26273A412",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000617",
+ "title": "Holtec Pioneer 2 (SMR-300 at Palisades): Holtec International - Submittal of the Construction Permit Application for Pioneer Units 1 and 2 [['Letter']]",
+ "filed": "2026-10-08",
+ "entity": [
+  "Holtec International",
+  "SMR, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2627/ML26273A412.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26273A412.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Holtec Pioneer 2 (SMR-300 at Palisades)",
+  "accession": "ML26273A412",
+  "document_date": "2026-09-30"
+ },
+ "collected_at": "2026-10-09T04:57:58Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "SMR",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26273A412.pdf",
+   "name": null,
+   "bytes": 1184696,
+   "sha256": "cd9024ff3f4223fead4f7a5a8d6c7e73b07f58f10a5e7884ac2faa0adc6d31bf",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                          Holtec Technology Campus, One Holtec Blvd, Camden, NJ 08104\n                                                               Telephone (856) 797-0900\n                                                                     Fax (856) 797-0909\n\n\n\n\nSeptember 30, 2026\n\nU.S. Nuclear Regulatory Commission\nATTN: Document Control Desk\nWashington, DC 20555-0001\n\nDocket Nos: 05000616 and 05000617\n\nSubject:    Holtec International - Submittal of the Construction Permit Application\n            for Pioneer Units 1 and 2\n\nReferences: [1] 300-USNRC123 \"Submittal of Pioneer Units 1 and 2 Limited Work\n            Authorization Application (ADAMS Accession No. ML26009A012)\n\n            [2] \"Final Safety Evaluation for the 'Topical Report on the Quality Assurance\n            Program for Holtec lnternational's Small Modular Reactor (SMR) Design\n            and Construction' (EPID No. L-2023-TOP-0049)\" (ADAMS Accession No.\n            ML24228A060)\n\nIn accordance with the requirements of Title 10 of the Code of Federal Regulations (10\nCFR) Part 50, SMR, LLC is pleased to submit, on behalf of Palisades SMR, LLC the\nenclosed application requesting the US Nuclear Regulatory Commission (NRC) review\nand approve a Construction Permit (CP) for the construction of a dual-unit SMR-300\nplant located at the Palisades Energy Center (PEC) in Covert, Michigan. The units are\nindividually named Pioneer Unit 1 and Pioneer Unit 2.\n\nBy letter dated December 31, 2025 (ML26009A012), SMR, LLC, a Holtec International\ncompany, submitted the first part of a phased construction permit application to the U.S.\nNuclear Regulatory Commission (NRC) for the proposed dual-unit SMR-300 facility at\nthe Palisades Energy Center (PEC) in Covert, Michigan. This submittal is the second\npart (Part 2) of the construction permit application.\n\nEnclosure I contains the proprietary version of the complete preliminary safety analysis\nreport (PSAR) to support the CPA and Enclosure II contains the corresponding non-\nproprietary, redacted version. The application information has been prepared in\naccordance with the applicable requirements of 10 CFR Part 50 and is consistent,\nwhere applicable, with the format and content guidance provided in Regulatory Guide\n1.206, \"Applications for Nuclear Power Plants.\"\n\n\n\nTransmittal No. 300-USNRC-26018                                   Page 1 of 3\n\f                           Holtec Technology Campus, One Holtec Blvd, Camden, NJ 08104\n                                                                Telephone (856) 797-0900\n                                                                      Fax (856) 797-0909\n\n\n\n\n Enclosure Ill contains an updated version of the Quality Assurance Topical Report that\n was previously approved by the N RC staff [2]. Holtec requests review of this revised\n topical report to support the CPA.\n\n Enclosure IV contains a set of exemption requests which address aspects of the CPA\n that require exemption from the existing rules, with appropriate justification for each\n request.\n\n SMR respectfully requests that the NRC docket and review this Construction Permit\n Application. Enclosure V is provided in support of SMR's request to withhold proprietary\n information from public disclosure pursuant to 10 CFR 2.390.\n\n The Part 1 submittal [1] included the Environmental Report supporting the project, the\n site redress plan, and a proposed license condition related to funding sources. These\n items are unchanged with this Part 2 submittal. Similarly, the general and financial\n information submitted with the LWA is incorporated by reference into this Part 2 CP\n application. That information is currently under NRC review and any updates would\n apply equally to this application.\n\n If you have any questions or require any additional information, please contact Kimberly\n Manzione, Executive Director of Licensing and Regulatory Affairs,\n k.manzione@holtec.com or 856-797-0900 ext. 3951.\n\n I declare under penalty of perjury that the foregoing is true and correct. Executed on\n September 30, 2026.\n\n\n\n\n'°' ~\n Respectfully submitted,\n\n\n         0\\/\\/\\ 9 G_'\n Dr. Krisha P. Singh\n Chairman & CEO\n Holtec International\n\n\n\n\n Transmittal No. 300-USNRC-26018                                   Page 2 of 3\n\f                          Holtec Technology Campus, One Holtec Blvd, Camden, NJ 08104\n                                                              Telephone (856) 797-0900\n                                                                    Fax (856) 797-0909\n\n\n\n\nEnclosures:\n\n   I. Pioneer Units 1 and 2 Preliminary Safety Analysis Report (Proprietary)\n  II. Pioneer Units 1 and 2 Preliminary Safety Analysis Report Redacted Version (Non-\n       Proprietary)\n Ill. Quality Assurance Topical Report (Non-Proprietary)\nIV. Exemption Requests (Non-Proprietary)\n V. Affidavit Pursuant to 10 CFR 2.390 to Withhold Information from Public Disclosure\n\n\nCC:\nK. Manzione (Holtec, Executive Director of Licensing, Regulatory Affairs, and\n             Environmental)\nJ. Dolecki (Holtec, Senior Manager of Engineering Programs)\nS. Hanson (Holtec, Licensing Manager)\nM. Hayes (USNRC, DNRL, NUB, Branch Chief)\nV. Huckabay (USNRC, DNRL, NUB, Senior Project Manager)\nA. Johnson (USNRC, DNRL, NUB, Project Manager)\n\n\n\n\nTransmittal No. 300-USNRC-26018                                  Page 3 of 3\n\f"
+  }
+ ]
+}

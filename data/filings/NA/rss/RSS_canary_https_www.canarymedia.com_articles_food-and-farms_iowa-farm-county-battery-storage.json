@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "How a reluctant Iowa farming county undid a ban on battery storage",
+ "filed": "2026-10-08",
+ "url": "https://www.canarymedia.com/articles/food-and-farms/iowa-farm-county-battery-storage",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "The soil in northwest Iowa is so fertile it’s referred to as “black gold.”  “It’s incredibly rich, wonderful topsoil from thousands of years of silty deposits from the Missouri River,” said Luke Seaberg, a researcher at Iowa State University’s extension program. So rich that some counties restrict development on land…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-09T05:13:00Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "battery storage"
+ ],
+ "party_hits": [],
+ "documents": []
+}

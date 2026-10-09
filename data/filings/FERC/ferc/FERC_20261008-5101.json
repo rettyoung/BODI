@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20261008-5101",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-108",
+ "title": "(doc-less) Motion to Intervene of East Kentucky Power Cooperative, Inc. under EL26-108.",
+ "filed": "2026-10-08",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261008-5101",
+ "entity": "East Kentucky Power Cooperative, Inc.; East Kentucky Power Cooperative, Inc.; East Kentucky Power Cooperative, Inc.; East Kentucky Power Cooperative, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "48AAFFF2-D6A8-C496-A8AA-A11CB7800000",
+   "name": "1796373_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-10-08"
+ },
+ "collected_at": "2026-10-09T05:00:47Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "ESA",
+  "interconnection",
+  "large load",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1796373_Interv.txt",
+   "bytes": 2329,
+   "sha256": "a29b5b8259d8d8de4cff4dba50b69186c9f7d816298e9e7266f932d7304aa452",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of East Kentucky Power Cooperative, Inc. under EL26-108-000.\r\n\r\nSubmission Date:        10/8/2026 12:47:25 PM\r\n\r\nFiled Date:             10/8/2026 12:47:25 PM\r\n\r\nDockets\r\n-------\r\nEL26-108-000         PJM Interconnection, L.L.C.\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nEast Kentucky Power Cooperative, Inc.    anasantana@eversheds-sutherland.com      denise.cronin@ekpc.coop                 \r\nEast Kentucky Power Cooperative, Inc.    AllisonSalvia@eversheds-sutherland.com                                           \r\nEast Kentucky Power Cooperative, Inc.    kellycuthbertson@eversheds-sutherland.com                                         \r\nEast Kentucky Power Cooperative, Inc.    DanielFrank@eversheds-sutherland.com                                             \r\n\r\nBasis for Intervening:\r\nEast Kentucky Power Cooperative, Inc. (“EKPC”) is a not-for-profit generation and transmission cooperative headquartered in Winchester, Kentucky. EKPC generates and transmits wholesale energy to its 16 owner-member cooperatives and is a member of the PJM Interconnection, L.L.C. (“PJM”).\r\n\r\nThis proceeding involves a Section 206 proceeding initiated by the Commission regarding PJM’s proposed Reliability Backstop Procurement (“RBP”), a one-time procurement of new capacity with commitment terms of up to 15 years to address resource adequacy challenges primarily driven by an influx of large loads. As a generation and transmission owner in the PJM region, customer under the PJM Tariff, and load-serving entity in the PJM region, EKPC may be affected by the outcome of this proceeding. As a result, EKPC has a direct and substantial interest in the outcome of this proceeding. Therefore, EKPC is an interested party and its intervention and participation will be in the public interest. EKPC is not now, and will not be, adequately represented by any other party in this proceeding, and may be bound or adversely affected by the Commission’s action herein. EKPC therefore moves to intervene with full rights as a party hereto."
+  }
+ ]
+}

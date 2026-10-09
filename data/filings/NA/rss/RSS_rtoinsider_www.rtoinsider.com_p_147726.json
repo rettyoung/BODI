@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147726",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Google’s Corio Says Data Centers are Future of Power",
+ "filed": "2026-10-09",
+ "url": "//www.rtoinsider.com/147726-google-corio-says-data-centers-future-of-power/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The head of Google’s infrastructure and strategy division says she isn't tired of talking about data centers and that they are the future of the power industry. \n The post  Google’s Corio Says Data Centers are Future of Power  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-09T05:13:00Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "Google"
+ ],
+ "documents": []
+}

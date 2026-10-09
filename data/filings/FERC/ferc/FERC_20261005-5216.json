@@ -37,5 +37,6 @@
    "url": "{'ferc_file': '808503FC-6BDC-CBBF-9471-A11128200000', 'name': 'PRIV Appendix F - Third Party Environmental Contractor - Bridge Project.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-09T05:27:00Z"
 }

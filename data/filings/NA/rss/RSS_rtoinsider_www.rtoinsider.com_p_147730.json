@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147730",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC Upholds 11 Years of Refunds for PJM in Linden VFT Cases",
+ "filed": "2026-10-08",
+ "url": "//www.rtoinsider.com/147730-ferc-upholds-11-years-refunds-pjm-linden-vft-cases/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " FERC upheld an earlier decision requiring 11 years of refunds in a long-running dispute over cost allocation for projects that export power from PJM to New York. \n The post  FERC Upholds 11 Years of Refunds for PJM in Linden VFT Cases  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-09T05:13:00Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "cost allocation"
+ ],
+ "party_hits": [],
+ "documents": []
+}

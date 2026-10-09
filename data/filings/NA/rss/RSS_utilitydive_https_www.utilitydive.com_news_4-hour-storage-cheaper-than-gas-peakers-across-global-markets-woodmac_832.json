@@ -1,0 +1,27 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/4-hour-storage-cheaper-than-gas-peakers-across-global-markets-woodmac/832489/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "4-hour storage cheaper than gas peakers across global markets: WoodMac",
+ "filed": "2026-10-08",
+ "url": "https://www.utilitydive.com/news/4-hour-storage-cheaper-than-gas-peakers-across-global-markets-woodmac/832489/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": " In North America, data centers are boosting the long-term investment case for energy storage and renewables as gas turbine backlogs and rising fuel volatility drive up peaking costs, according to a Thursday note from Wood Mackenzie. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-09T05:13:00Z",
+ "run_id": "2026-10-09-0454",
+ "keywords": [
+  "data center",
+  "gas turbine"
+ ],
+ "party_hits": [],
+ "documents": []
+}
