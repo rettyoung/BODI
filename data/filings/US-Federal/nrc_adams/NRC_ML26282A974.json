@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26282A974",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Palisades - Public Notice NRC Staff Proposes a One-Time Amendment to the Licensing Basis for The Palisade Nuclear Plant to Address Tipped Fuel [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "Don't Waste Michigan"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A974.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A974.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A974",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:02:53Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A974.pdf",
+   "name": null,
+   "bytes": 141064,
+   "sha256": "419fe791301a38647934e50d8355f9c3e1f9b9fcf6022aed6f2838a69d36164b",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:         Michael J Keegan\nTo:           Marlayna Doell\nCc:           Justin Poole; mkeeganj\nSubject:      [External_Sender] Palisades - PUBLIC NOTICE NRC STAFF PROPOSES A ONE-TIME AMENDMENT TO THE\n              LICENSING BASIS FOR THE PALISADED NUCLEAR PLANT TO ADDRESS TIPPED FUEL\nDate:         Thursday, October 8, 2026 4:01:29 PM\n\n\nDear Marlayna Doell,\nNRC Project Manager\nOperating Reactor Licensing Branch 3\nRegarding: PALISADES - PUBLIC NOTICE NRC STAFF PROPOSES A ONE-TIME\nAMENDMENT TO THE LICENSING BASIS FOR THE PALISADED NUCLEAR\nPLANT TO ADDRESS TIPPED FUEL\nDon't Waste Michigan goes on record in oppositon to: 1) Process of Public\nNotification and 2) Proposed License Amendment Request to remove the\nfuel bundle(s).  \nOn 10/6/2026 at 8:20pm NRC posts at webpage a link to a Public Notice with Mlive\nmedia outlet announcing a 44 hour Comment Period to NRC about proposed LAR.\nThe NRC did not post in ADAMS, did not post in Federal Register instead posted in\nobscure location in very tiny print. The Public was not noticed by design.  \nDon't Waste Michigan requests that Comment Period be reposted, placed in Federal\nRegister and ADAMS and be expanded 30 days to allow adequate review of fuel load\nrecovery. The fuel is reported as stable and monitored. Taking action now puts the\nPublic in peril unnecessarily.\nThe NRC recently granted the fifth exemption to Holtec at Palisades to exceed worker\nfatigue requirements and work long extended hours to meet the workload. This\ncoupled with notorious poor Quality Assurance and missing documentation has now\nled to this most recent fuel SNAFU. Please do review the documents below as they\nare contributing factors which have lead to this unprecidented empasse.\nFor over three weeks Holtec sat on fuel load SNAFU, for over three weeks the NRC\nhas gone along. Now since fuel load SNAFU has been outed by social media comes\nthis wham bam unprecidented proposal. The NRC has too much to loose by\nrailroading the Public and stonewalling expert critique.\nThese are only partial comments of Don't Waste Michigan\nThank you for review and addressing these Comments before proceeding.\nPlease see documents below, as they will be of value to you.\nPlease confirm you have received my Comments\nRespectfully Submitted\nMichael J. Keegan\nDon't Waste Michigan\nmkeeganj@comcast.net\n(734) 770-1441\nThere have been five exemptions on Worker Fatigue to date.\n\n                       Palisades Nuclear Plant -                 2026-\n                       One-Time Exemption                        06-29          2026-\n                       from the Requirements of                  08:44                        05000255\n  ML26156A017                                                                   06-18\n                       10 CFR 26.3(a) (EPID L-                   AM\n                       2026-LLE-0025) (L                         EST\n\f                    Palisades Nuclear Plant -   2026-\n                    One-Time Exemption          06-29     2026-\n                    from the Requirements of    08:44               05000255\n  ML26156A018                                             06-18\n                    10 CFR 26.3(a) (EPID L-     AM\n                    2026-LLE-0025) (E           EST\n                    Palisades Nuclear Plant -   2026-\n                    One-Time Exemption          06-25     2026-\n                    from the Requirements of    10:04               05000255\n  ML26156A019                                             06-18\n                    10 CFR 26.3(a) (EPID L-     AM\n                    2026-LLE-0025) (F           EST\n\nPalisades Exemption from Records Retention Package Contents\n(https://www.nrc.gov/docs/ML2119/ML21195A368.html Parent zip of 3 below)\n\n     ML21195A367 - Exemption-Palisades Nuclear Plant (PNP) Record Retention-L-\n     2021-LLE-0033 (13 page(s), 11/23/2021)\n     ML21195A369 - FRN - PNP Records Retention Exemption FRN- L-2021-LLE-\n     0033 (16 page(s), 11/23/2021)\n     ML21195A372 - Palisades Nuclear Plant - Partial Exemption From Record\n     Retention Requirements (EPID L-2021-LLE-0033) (16 page(s), 11/23/2021)\n     Palisades Simulator Inspection Report – Violation Missing QA\n     https://adamswebsearch2.nrc.gov/webSearch2/main.jsp?\n     AccessionNumber=ML24078A31\n\f"
+  }
+ ]
+}

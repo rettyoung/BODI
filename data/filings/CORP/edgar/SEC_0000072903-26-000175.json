@@ -1,0 +1,45 @@
+{
+ "id": "SEC:0000072903-26-000175",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Xcel 8-K 8-K items 8.01",
+ "filed": "2026-10-09",
+ "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000175/",
+ "entity": "Xcel",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000175/xel-20261009.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01"
+  ],
+  "cik": "0000072903",
+  "market_participant": false
+ },
+ "collected_at": "2026-10-10T05:09:02Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "battery storage",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000175/xel-20261009.htm",
+   "name": null,
+   "bytes": 35426,
+   "sha256": "5433822651c017001acfbc61950ec3f28b20460ece263533ee8dbd567e54b6c7",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "xel-20261009\nFALSE\n10/9/2026\nXCEL ENERGY INC\n0000072903\nMN\nNORTHERN STATES POWER CO\n0001123852\nMN\n0000072903\n2026-10-09\n2026-10-09\n0000072903\nxel:NorthernStatesPowerCoMNMember\n2026-10-09\n2026-10-09\n0000072903\nus-gaap:CommonStockMember\n2026-10-09\n2026-10-09\n0000072903\nus-gaap:JuniorSubordinatedDebtMember\n2026-10-09\n2026-10-09\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM \n8-K\n\nCURRENT REPORT\nPursuant to Section 13 or 15(d) of\nthe Securities Exchange Act of 1934\nDate of Report (Date of earliest event reported) October 9, 2026\nCommission File Number\nExact Name of Registrant as Specified in its Charter; State of Incorporation; Address of Principal Executive Offices; and Telephone Number\nIRS Employer Identification Number\n001-3034\nXCEL ENERGY INC.\n41-0448030\n(a Minnesota corporation)\n414 Nicollet Mall\nMinneapolis\nMinnesota\n55401\n(612)\n330-5500\n001-31387\nNORTHERN STATES POWER COMPANY\n41-1967505\n(a Minnesota corporation)\n414 Nicollet Mall\nMinneapolis\nMinnesota\n55401\n(612)\n330-5500\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n☐\n\n Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n☐\n Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n☐\n Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n☐\n Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\nSecurities registered pursuant to Section 12(b) of the Act:\nTitle of each class\nTrading Symbol\nName of each exchange on which registered\nCommon Stock, $2.50 par value per share\nXEL\nNasdaq Stock Market LLC\n6.25% Junior Subordinated Notes due 2085\nXELLL\nNasdaq Stock Market LLC\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (17 CFR §230.405) or Rule 12b-2 of the Securities Exchange Act of 1934 (17 CFR §240.12b-2).\nEmerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \n£\nItem 8.01. Other Events\n2027 Minnesota Electric Rate Case\nOn Oct. 9th, 2026, Northern States Power Company, a Minnesota corporation and a wholly owned subsidiary of Xcel Energy, Inc. (NSP-Minnesota) filed an Electric Customer Rate Stability Plan with the Minnesota Public Utilities Commission (MPUC), as an alternative to the planned upcoming rate case filing. \nThe terms of the proposed plan are as follows:\n•\nCustomer base rate freeze for calendar years 2027 and 2028.\n•\nAccelerated recognition of federal Investment Tax Credit benefits related to five battery storage projects over two years. This acceleration will act as an offset to the incremental revenue requirement impact of ongoing necessary capital improvements. \n•\nContinuation of other true-up and tracker mechanisms as approved in NSP-Minnesota’s most recent Electric Rate Case. \nA MPUC decision on the proposed Rate Stability Plan has been requested by January 2027. If not approved, NSP-Minnesota expects to file an electric rate case in early 2027. \nCertain information discussed in this Current Report on Form 8-K is forward-looking information that involves risks, uncertainties and assumptions. Such forward-looking statements, including those relating to\n our expectations and intentions regarding regulatory proceedings and base rates,\n as well as assumptions and other statements are intended to be identified in this document by the words “anticipate,” “believe,” “could,” “estimate,” “expect,” “intend,” “may,” “objective,” “outlook,” “plan,” “project,” “possible,” “potential,” “should,” “will,” “would” and similar expressions. Actual results may vary materially. Forward-looking statements speak only as of the date they are made, and we expressly disclaim any obligation to update any forward-looking information. The following factors, in addition to those discussed in NSP-Minnesota’s Annual Report on Form 10-K for the fiscal year ended Dec. 31, 2025, and subsequent filings with the SEC, could cause actual results to differ materially from management expectations as suggested by such forward-looking information: operational safety, including our nuclear generation facilities and other utility operations; successful long-term operational planning; commodity risks associated with energy markets and production; rising energy prices and fuel costs; qualified employee workforce and third-party contractor factors; violations of our Codes of Conduct; our ability to recover costs; changes in regulation; reductions in our credit ratings and the cost of maintaining certain contractual relationships; general economic conditions, including recessionary conditions, inflation rates, monetary fluctuations, supply chain constraints and their impact on capital expenditures and/or the ability of NSP-Minnesota to obtain financing on favorable terms; availability or cost of capital; our customers’ and counterparties’ ability to pay their debts to us; assumptions and costs relating to funding our employee benefit plans and health care benefits; tax laws; uncertainty regarding epidemics; effects of geopolitical events, including war and acts of terrorism; cybersecurity threats and data security breaches; seasonal weather patterns; changes in environmental laws and regulations; climate change and other weather events; natural disaster and resource depletion, including compliance with any accompanying legislative and regulatory changes; costs of potential regulatory penalties and wildfire damages in excess of liability insurance coverage; regulatory changes and/or limitations related to the use of natural gas as an energy source; challenging labor market conditions and our ability to attract and retain a qualified workforce; and our ability to execute on our strategies or achieve expectations related to environmental, social and governance matters including as a result of evolving legal, regulatory and other standards, processes, and assumptions, the pace of scientific and technological developments, increased costs, the availability of requisite financing, and changes in carbon markets.\nSIGNATURES\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.\nOctober 9, 2026\nXcel Energy Inc. \n(a Minnesota corporation)\nNorthern States Power Company \n(a Minnesota corporation)\nBy:\n/s/ BRIAN J. VAN ABEL\nBrian J. Van Abel\nExecutive Vice President, Chief Financial Officer"
+  }
+ ]
+}

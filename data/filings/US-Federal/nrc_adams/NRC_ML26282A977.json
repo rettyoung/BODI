@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26282A977",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Palisades Nuclear Power Plant [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "Dominican Sisters"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A977.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A977.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A977",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:03:08Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A977.pdf",
+   "name": null,
+   "bytes": 105152,
+   "sha256": "8f9f93d22664baac986135e1520e568282c1f0d731b75e26522d3bc3676891e5",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "From:             Ardeth/Carol\nTo:               Marlayna Doell\nSubject:          [External_Sender] Palisades Nuclear Power plant\nDate:             Thursday, October 8, 2026 3:50:50 PM\n\n\nDear Ms. Doell,\n\nI am writing to express my opposition to the reopening of Palisades Nuclear Power Plant.\nSitting on the shores of Lake MI this is a disaster waiting to happen.\nGiven Holtec’s failures to date and probable future failures the NRC should terminate the\nrestart attempt and require closure and clean up.\nI speak for many citizens in MI where I was born and will retire to on a few years.\nThank you!\nSincerely,\nCarol Gilbert, OP\nGrand Rapids MI Dominican Sister\n503 Rock Creek Church Rd. NW\nWashington, DC 20010\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-10T05:31:13Z"
+}

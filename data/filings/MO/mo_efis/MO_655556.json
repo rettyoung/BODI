@@ -1,0 +1,33 @@
+{
+ "id": "MO:655556",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0291",
+ "title": "55",
+ "filed": "2026-10-09",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/655556",
+ "fetch": [
+  {
+   "mo_filing": "655556"
+  }
+ ],
+ "collected_at": "2026-10-10T05:13:11Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/893427",
+   "name": null,
+   "bytes": 92149,
+   "sha256": "3daa8d9551f7308de23fd3ba22c0c05c33f2c43060dd674cd0da89b0b316d6ae",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                      BEFORE THE PUBLIC SERVICE COMMISSION\n                                STATE OF MISSOURI\n\nIn the Matter of Union Electric Company       )\nd/b/a Ameren Missouri's Tariffs to Adjust Its )                           File No. ER-2026-0291\nRevenues for Electric Service                 )\n\n                  JOINTLY PROPOSED LOCAL PUBLIC HEARING SCHEDULE\n\n        COME NOW Staff of the Missouri Public Service Commission (“Staff”),\n\nUnion Electric Company d/b/a Ameren Missouri (“Company” or “Ameren Missouri”),\n\nand the Office of the Public Counsel (“OPC”),1 and for their Jointly Proposed Local Public\n\nHearing Schedule, suggest the following:\n\n                                       In-Person Public Hearings\n               Date                               Location                            Start Time\n        January 19, 2027              Osage Centre                                     6:00 p.m.\n                                      Room 1AB\n                                      1625 N Kingshighway\n                                      Cape Girardeau, MO 63701\n        January 20, 2027              St. Charles                                        Noon\n                                      Lindenwood University\n        January 20, 2027              St. Louis                                        6:00 p.m.\n                                      University of Missouri St.\n                                      Louis\n        January 21, 2027              Governor Office Building                         6:00 p.m.\n                                      4th Floor Ballroom\n                                      200 Madison Street\n                                      Jefferson City, MO 65101\n        January 25, 2027              Sunset Hills, MO 2                                 Noon\n\n\n\n\n1\n  Though the OPC supports the Local Public Hearings requested in this filing, it will also be filing a separate\nmotion requesting an additional Local Public Hearing.\n2\n  Movants recommend the Commission find an alternate location versus the location used in File No. ER-2024-\n0319 given that the Council Chambers facility used in that case was too small to accommodate the number of\nattendees.\n\n                                                          1\n\f                                 Virtual Public Hearings\n                   Date                                      Start Time\n              January 21, 2027                                  Noon\n\n\n              January 26, 2027                                6:00 p.m.\n\n\n\n      WHEREFORE, Staff, OPC, and Ameren Missouri respectfully submit the\n\nJointly Proposed Local Public Hearing Schedule as detailed above and request a\n\nCommission order regarding Local Public Hearings no later than November 9, 2026, so that\n\nrequired notice(s) may be prepared and circulated.\n\n                                                Respectfully submitted,\n\n                                                /s/ Alexandra Klaus\n                                                Senior Counsel\n                                                Missouri Bar No. 67196\n                                                200 Madison Street\n                                                P.O. Box 360\n                                                Jefferson City, MO 65102\n                                                Phone: 573-522-6279\n                                                Fax: 573-751-9285\n                                                lexi.klaus@psc.mo.gov\n\n                                                /s/ Mark Johnson\n                                                Mark Johnson\n                                                Missouri Bar No. 64940\n                                                Chief Staff Counsel\n                                                Missouri Public Service Commission\n                                                P.O. Box 360\n                                                Jefferson City, MO 65102\n                                                573-751-7431 (Voice)\n                                                573-751-9285 (Fax)\n                                                mark.johnson@psc.mo.gov\n\n                                                Attorneys for Staff of the Missouri\n                                                Public Service Commission\n\n\n\n                                               2\n\f                                CERTIFICATE OF SERVICE\n\nI hereby certify that copies of the foregoing have been mailed, hand-delivered, or\ntransmitted by facsimile or electronic mail to counsel of record as reflected on the certified\nservice list maintained by the Commission in its Electronic Filing Information System on this\n9th day of October, 2026.\n\n                                                                 /s/ Alexandra Klaus\n\n\n\n\n                                                 3\n\f"
+  }
+ ]
+}

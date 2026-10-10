@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26282A967",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Holtec Determination of no Significant Hazards Consideration [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "- No Known Affiliation"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A967.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A967.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A967",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:02:26Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A967.pdf",
+   "name": null,
+   "bytes": 210283,
+   "sha256": "f8d200f4b716b5052a86b4eda8d4126d19598a7d25797bfd07b53c514d2869c3",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "From:            JOHN LaFORGE\nTo:              Marlayna Doell\nSubject:         [External_Sender] Holtec determination of no significant hazards consideration\nDate:            Thursday, October 8, 2026 5:16:31 PM\n\n\nComment to: Marlayna.Doell@nrc.gov\n\nMarlayna Doell\nNRC\n\nRe\nComments on the proposed determination of no significant hazards consideration may be (1)\ntelephoned to Marlayna Doell, Project Manager, Operating Reactor Licensing Branch 3, at\n301-415-3178, (2) e-mailed to Marlayna.Doell@nrc.gov, or (3) submitted in writing to the\nOffice of Nuclear Material Safety and Safeguards, Mail Stop: TWFN-5-A85, U.S. Nuclear\nRegulatory Commission, Washington, DC 20555-0001, ATTN: Guidance and Publications\nBranch. All comments must be received by 4:15 p.m. Eastern Time (ET) on October 8, 2026.\n\nDeaer Marlayna Doell,.\n\nI object that the NRC provides only a 44 hour window to make a comment on this\nmatter.\n\nThe link at the NRC webpage notice of public notice is in tiny print and nearly illegible\nformat.\n\nIt appears that the Public is being railroaded into creating the appearance of ability to\nComment, when in all practicality, Public Comment will be a farce.\n\nReal public notice is lacking and this process is a railroad. Additional time is needed\nto allow experts to be heard.\n\n\nThank you\nJOHN LaFORGE\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-10T05:31:04Z"
+}

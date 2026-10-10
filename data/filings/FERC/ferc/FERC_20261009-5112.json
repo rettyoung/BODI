@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261009-5112",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Zachary Sauve in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/9/2026\n",
+ "filed": "2026-10-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261009-5112",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "4FA27208-39C2-CCFE-9CE2-A121B8000000",
+   "name": "151494.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-09"
+ },
+ "collected_at": "2026-10-10T05:06:07Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151494.txt",
+   "bytes": 687,
+   "sha256": "b896ff80423143641478cfd573958bb67745dd2d158e7131a0e728f6f0dc4011",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nZachary Sauve, Anchorage, AK.\nThe proposed data center in Cook Inlet would have unknown effects on local Salmon and Beluga populations in an area that heavily relies on commercial fishing, and sports fishing tourism to sustain its local economy. The jobs created by this project would not come anywhere close to offsetting the jobs destroyed by impacts on Cook inlet salmon. The amount of heat created by the ocean cooling of this data center, as well as the underwater noise would likely effect fish populations, that need cool ocean temperatures to thrive, as well as impact the migration routes of endangered marine mammals such as the dwindling cook inlet beluga population. \r\n\r\n"
+  }
+ ]
+}

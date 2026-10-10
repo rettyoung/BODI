@@ -1,0 +1,45 @@
+{
+ "id": "NRC:ML26282A980",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Public Comment Re: https://www.nrc.gov/docs/ML2627/ML26275A214 and https://www.nrc.gov/docs/ML2627/ML26273A469 [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "Physicians for Social Responsibility Wisconsin"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A980.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A980.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A980",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:03:11Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "emergency",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A980.pdf",
+   "name": null,
+   "bytes": 91093,
+   "sha256": "bb583b6e978e62abc61b899a4e93762de137d8ab86e6b481d1fad14d68084411",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "From:               Alfred Meyer\nTo:                 Marlayna Doell\nSubject:            [External_Sender] Public Comment Re: https://www.nrc.gov/docs/ML2627/ML26275A214.pdf and\n                    https://www.nrc.gov/docs/ML2627/ML26273A469.pdf\nDate:               Thursday, October 8, 2026 4:12:49 PM\n\n\nTo Marlayna Doell, Project Manager, Operating Radiation Licensing Branch 3\n\nMarlayna.Doell@nrc.gov\n\nRe: https://www.nrc.gov/docs/ML2627/ML26275A214.pdf and\nhttps://www.nrc.gov/docs/ML2627/ML26273A469.pdf\n\nDear Ms. Doell,\n\nI urge the U.S. Nuclear Regulatory Commission (NRC) to NOT issue a waiver of normal procedures regarding the\nsituation of the tilted fuel assembly now stuck at the Palisades nuclear plant. This is a very serious situation which\ndemands a full and comprehensive review, with public participation, and the development of a plan of action for\ngoing forward - it is not an emergency that justifies divergence from sound operating procedures.\n\nThe NRC was formed to advocate for and protect public health and to ensure safe operation of inherently\ndangerous nuclear reactors, not to promote and support industry entities such as Holtec. Of course any delay\nresulting from this operational accident is disadvantageous for Holtec and its owners, but they are not the\nconstituency you are meant to serve and protect. And the accident occurred under their management.\n\nEspecially in light of Holtec’s numerous mistakes at Palisades, even more careful attention should be paid as to\nresolving this significant problem which could potentially be catastrophic. Holtec is new to and inexperienced in\nreactor operation, as evidenced by their lack of proper ‘wet layup’ of the steam generators when they first acquired\nthe plant. Consequently, more review and oversight is called for, rather than exempting them from normal\nprocedures.\n\nShould there be a major accident at Palisades, the Great Lakes (20% of the world’s fresh water and the source of\ndrinking water for 40 million people), midwestern agricultural production, and the large cities of Milwaukee and\nChicago as well as many smaller communities, will be adversely impacted.\n\nFurthermore, such an occurrence will stop nuclear power development. Whether one is for or against the use of\nnuclear energy for power production, absolute safety is needed for this industry and the U.S. population.\n\nI urge the NRC to fulfill its mission to protect the public and the environment.\n\nSincerely,\nAlfred Meyer\nPhysicians for Social Responsibility - Wisconsin\nNew York, New York, USA\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-10T05:31:16Z"
+}

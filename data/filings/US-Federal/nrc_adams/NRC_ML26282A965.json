@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26282A965",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Comment Re. Emergency License Amendment Request: One-Time-Use Amendment to Allow Alternative Fuel Handling Method for the Recovery of Fuel Assembly DD41 [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "Snake River Alliance"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A965.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A965.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A965",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:02:38Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "emergency",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A965.pdf",
+   "name": null,
+   "bytes": 96356,
+   "sha256": "48f4375e5837375d75303eb52a7643f8f83d99cbc9148354d6dde04745e4d2fa",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:           Leigh Ford\nTo:             Marlayna Doell\nSubject:        [External_Sender] Comment Re. Emergency License Amendment Request: One-Time-Use Amendment to Allow\n                Alternative Fuel Handling Method for the Recovery of Fuel Assembly DD41\nDate:           Thursday, October 8, 2026 2:57:56 PM\n\n\nGreetings, Ms. Doell.\n\nWe urge the Nuclear Regulatory Commission to deny Holtec's\n\"Emergency License Amendment Request\" to allow an alternative fuel\nhandling method at Palisades.\n\nHoltec's accident while loading fuel rods needs to be addressed before any\nwork continues, and the community needs to be fully informed and given\ntime to comment. Experts, let alone the public, need more time than 44\nhours to consider the risks of this amendment to workers and the\ncommunity, and to return substantive comments.\n\nIf communities are to accept nuclear energy, transparency is key and we\nneed our regulators to be on the side of communities.\n\nPlease deny the amendment request and open up a longer comment\nperiod with time for sufficient community outreach.\n\nThank you for your consideration,\n\nLeigh Ford\n\n\n\nLeigh Ford (she/her)\n\nExecutive Director\n\nSnake River Alliance\n\nOn Shoshone, Northern Paiute, and Bannock land\n\n(208) 344-9161 (office)\n\nsnakeriveralliance.org\n\n    “It is an eternal reminder to a generation depending on nuclear and atomic energy, a\n\n    generation depending on physical violence, that love is the only creative, redemptive,\n\n                               transforming power in the universe.”\n\f~Dr. Martin Luther King Jr.~\n\f"
+  }
+ ]
+}

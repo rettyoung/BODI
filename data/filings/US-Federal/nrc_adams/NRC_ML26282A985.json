@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26282A985",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender To NRC: Palisades: Opposed to Restart/Tipped Fuel Rod Assembly/Plans [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "- No Known Affiliation"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A985.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A985.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A985",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:02:44Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A985.pdf",
+   "name": null,
+   "bytes": 108182,
+   "sha256": "fc85037ff3d5246e83bf28d4a981739b8786cd422f37e7908b44dbf68c85ca80",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:             Kary Love\nTo:               Marlayna Doell\nSubject:          [External_Sender] To NRC: Palisades: Opposed to Restart/Tipped Fuel Rod Assembly/Plans\nDate:             Thursday, October 8, 2026 8:53:34 AM\n\n\nDear Ms. Doell: I reside and work within the \"evacuation zone\" of Palisades Nuclear Plant. I oppose\nHoltec's proposed fuel rod assembly loading plan.\n\nHoltec International officials said that on Aug. 30 workers were loading fuel assemblies into the reactor\nwhen one tilted and the fuel-handling grapple machine disengaged.\n\nAs you are aware this is only the most recent \"problem\" encountered in this \"experiment\" in nuclear plant\nresurrection:\n\n\n              The fuel assembly incident is the most recent delay in Holtec’s effort to restart\n              Palisades, which could become the first U.S. nuclear plant to return to\n              generating electricity after entering the decommissioning process.\n\n              Earlier delays in the restart were caused by extensive repairs to steam\n              generators required after inspectors found defects in the equipment.\n\n\nAn NRC inspection report issued Aug. 31 cited Holtec for other low-level violations involving work done\nbetween December 2025 and March 2026. Inspectors found that Palisades failed to properly control\nradioactive contamination and evaluate potential internal radiation doses to workers.\n\nThe demonstrated history above supports the conclusion “systemic quality assurance shortfalls” at\nPalisades exist under Holtec's unprecedented attempts to \"restart\" the aged plant that has exceeded by\nmany years its engineered \"safety lifetime.\"\n\nThe NRC has documented this danger and potential damage should the \"restart\" continue its checkered\nrun:\n\n\n                     A 1982 NRC report (CRAC-II, short for Calculation of Reactor\n                     Accident Consequences, also known as the 1982 Sandia Siting\n                     Study or NUREG/CR-2239) estimated Palisades' meltdown\n                     would cause: a thousand acute radiation poisoning deaths;\n                     7,000 radiation injuries; 10,000 latent cancer deaths; and more\n                     than $50 billion in property damage downwind and downstream.\n                     Adjusting for inflation alone, property damage would now\n                     surmount $175 billion in current dollar figures. And the\n                     Associated Press has warned that, given population growth\n                     near American atomic reactors like Palisades over the past\n                     several decades, a proportional increase in casualty figures\n                     would also result, given more people live, work, and recreate in\n                     harm's way. AP also cited neutron-embrittlement of the reactor\n                     pressure vessel (RPV), and risk of through-wall fracture from\n                     pressurized thermal shock, as a top example of NRC\n                     weakening safety regulations to accommodate continued\n                     operations at age-degraded reactors. NRC has admitted that\n                     Palisades, and the Point Beach Unit 2 reactor, also on Lake\n                     Michigan's shore in Wisconsin, are the two worst-embrittled\n                     RPVs in the country. Watchdogs have warned about Palisades'\n                     embrittlement for more than three decades.\n\fGiven the potential downsides to Holtec's failures to date and probable future failures given the\ncomplexity of issues facing the \"restart\" and the fact a nuclear plant has never been successfully\nresurrected, the NRC ought terminate the attempt and require closure and clean up. Thank you.\n\n\n\nKary Love\n17344 Wood Drift Drive\nWest Olive, MI 49460\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-10T05:31:10Z"
+}

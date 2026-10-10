@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26282A972",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Holtec's Problem at Palisades and Lack of Public Process [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "Ecological Options Network (EON)",
+  "San Onofre Nuclear Generating Station Community Engagement Panel"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A972.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A972.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A972",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:03:02Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A972.pdf",
+   "name": null,
+   "bytes": 132427,
+   "sha256": "ebc5a2c2329198b67bf3717fec97963359e92c549f74bc5d15ba1d409b568efe",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "From:             MBBrangan@protonmail.com\nTo:               Marlayna Doell\nSubject:          [External_Sender] Holtec\"s problem at Palisades and lack of public process\nDate:             Thursday, October 8, 2026 2:28:24 PM\nAttachments:      ATT00001.txt\n\n\nTo Marlayna Doell, Project Manager, Operating Radiation Licensing Branch 3\nMarlayna.Doell@nrc.gov\n\nRe: https://www.nrc.gov/docs/ML2627/ML26275A214.pdf and\nhttps://www.nrc.gov/docs/ML2627/ML26273A469.pdf\n\nOctober 8, 2026\n\nDear Ms Doell,\n\nI'm writing to express dismay at the lack of public process for the uniquely troubling drop of an\nirradiated fuel assembly into a reactor vessel by Holtec at Palisades.\n\nThough I realize that Executive Order 14300 instructed NRC to essentially 'rubber stamp' any\nrequest from a nuclear corporation no matter what the situation is, the response to this particularly\negregious accident must be to protect workers and the public, not to allow more hasty moves that\nmight exacerbate the problem.  \n\nPlease realize that you personally have a responsibility to morally respond to this. Holtec must not\nbe allowed to continue to act without sensible safety measures and careful consideration of how\nto next deal with this problem.  \n\nThe public is underwriting this travesty via the billions in Federal and state support paid to Holtec\nfor its attempted restart of this already long unmaintained and deficient nuclear reactor. We must\nbe kept informed and allowed to have independent experts participate in a public facing process\nregarding this situation. Please don't allow Holtec's rushed mismanagement to continue. This is\nyet another in a long string of Holtec's mistakes that can adversely affect our public health and\nwelfare at Palisades.\n\nThanks for your consideration,\nMary Beth Brangan\n\n\nMary Beth Brangan\nProducer/Director\nSOS - The San Onofre Syndrome: Nuclear Power's Legacy\nEcological Options Network\nP.O. Box 1047, Bolinas, CA 94924\n415-868-1900 - office\n\f"
+  }
+ ]
+}

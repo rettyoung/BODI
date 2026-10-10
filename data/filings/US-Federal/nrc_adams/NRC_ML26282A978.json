@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26282A978",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Palisades Nuclear Power Plant - no Significant Hazards Considerations [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "- No Known Affiliation"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A978.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A978.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A978",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:02:41Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A978.pdf",
+   "name": null,
+   "bytes": 156017,
+   "sha256": "d5ff8d4f6f6613b87b3b26189089b1bbd1b10a0886413aa3b4ed58e0e15562be",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:         Pamela Richard\nTo:           Marlayna Doell\nSubject:      [External_Sender] Pallisades Nuclear Power Plant- No Significant Hazards Considerations\nDate:         Thursday, October 8, 2026 2:42:03 PM\n\n\nMy name is Pam Richard and I live on the shore of Lake Michigan in\nMilwaukee, WI, vacation in Door County on Lake Michigan\n\n I have passed Point Beach Power plant many times, just across the water, not\nthat far from Palisades. Palisades and the Point Beach Unit 2 reactor,\nwhich are the two worst-embrittled RPVs in the country. Watchdogs\nhave warned about Palisades' embrittlement for more than three\ndecades. A meltdown would cause: a thousand acute radiation\npoisoning deaths; 7,000 radiation injuries; 10,000 latent cancer deaths;\nand billions in property damage downwind and downstream.\nNeutron-embrittlement of the reactor pressure vessel (RPV), and risk\nof through-wall fracture from pressurized thermal shock, are large. No\nNRC weakening safety regulations to accommodate continued\noperations at age-degraded reactors and endangering our drinking\nwater and air.\n\nI speak for many of us in Wisconsin, opposing Holtec International's\nunprecedented, unwise effort to restart the long closed Palisades\natomic reactor and we object to their refueling plans.\n\n\n\"Viktoria Mitlyng, a senior public affairs officer for the NRC,\nconfirmed that the fuel assembly tipped and did not drop inside\nthe reactor vessel. She also said no radioactive materials were\nreleased as a result.\n\n“The incident is under review and the NRC’s conclusions will be\ndocumented in a future inspection report. There has been no\nradiological release and no workers or the public have been\naffected,” Mitlyng said. ( Sheri McWhirter | smcwhirter@mlive.com )\n\nI am skeptical about this assurance, we've heard this before, and\nlater it turns out there was harm caused and it indicates that in\nthe rush to reopen the reactor safety precautions are being\ndisregarded.\n\nPlease protect us from a potential disaster which could affect all\n\fresidents on the shore of Lake Michigan.\n\nPamela Richard\n\n3302 N Bremen St\n\nMilwaukee, WI 53212\n\f"
+  }
+ ]
+}

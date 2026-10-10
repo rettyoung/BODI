@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261009-5113",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "(doc-less) Motion to Intervene of Enchanted Rock, LLC under ER27-25.",
+ "filed": "2026-10-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261009-5113",
+ "entity": "Enchanted Rock, LLC; Enchanted Rock, LLC",
+ "fetch": [
+  {
+   "ferc_file": "B3EB42AA-70FB-C694-A48B-A121C0B00000",
+   "name": "1796807_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-09"
+ },
+ "collected_at": "2026-10-10T05:05:52Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1796807_Interv.txt",
+   "bytes": 2578,
+   "sha256": "0ca882713d87dd88bc5e689385a3276c14c30447af5b3bbc891699596d129a93",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Enchanted Rock, LLC under ER27-25-000.\r\n\r\nSubmission Date:        10/9/2026 1:34:09 PM\r\n\r\nFiled Date:             10/9/2026 1:34:09 PM\r\n\r\nDockets\r\n-------\r\nER27-25-000          Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-10-02_Large Load Addition Resource Study (LARS) submitted on 10/2/2026 12:03:09 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nEnchanted Rock, LLC                      sshparber@mintz.com                                                              \r\nEnchanted Rock, LLC                      OBustami@mintz.com                                                               \r\n\r\nBasis for Intervening:\r\nPursuant to Rules 212 and 214 of the Federal Energy Regulatory Commission’s (“Commission”) Rules of Practice and Procedure, 18 C.F.R. §§ 385.212, 385.214 (2026), Enchanted Rock, LLC (“ERock”) respectfully files this motion to intervene (“Motion”) in Docket No. ER27-25-000.\r\n\r\nERock serves data centers, hospitals, water treatment plants, manufacturing facilities and other high load customers and their communities, providing electrical resiliency to this critical infrastructure.  To date, ERock has commissioned more than 700 megawatts across more than 300 sites, with hundreds of additional megawatts under development.  ERock’s multi-purpose microgrids have served customers through severe weather events such as Hurricane Harvey and Winter Storm Uri and during unexpected long-duration outages on days unaffected by weather, with over 14,000 hours of utility outages covered and 99.9998% combined reliability.\r\n\r\nOn October 2, 2026, pursuant to section 205 of the Federal Power Act, the Midcontinent Independent System Operator, Inc. (“MISO”) submitted proposed revisions to its existing Open Access Transmission, Energy and Operating Reserve Markets Tariff to establish a Large Load Addition Resource Study (“LARS”) process. \r\n\r\nGood cause exists to grant the Motion.  As an entity that may be impacted by the outcome of this proceeding, ERock has an interest in this proceeding that cannot be adequately represented by any other party.  Accordingly, and since it is in the public interest, ERock respectively requests that the Commission grant the Motion.\r\n"
+  }
+ ]
+}

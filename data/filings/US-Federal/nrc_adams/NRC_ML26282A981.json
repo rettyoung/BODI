@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26282A981",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Public Comment RE: Palisades Nuclear Plant - Emergency License Amendment Request [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "- No Known Affiliation"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A981.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A981.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A981",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:03:14Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "emergency",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A981.pdf",
+   "name": null,
+   "bytes": 87883,
+   "sha256": "4ff26083ec0ae4ba3278ef8f9660cdca842e68bf2adc5ebffd44c76c73a34cd4",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "From:         sjguu@aol.com\nTo:           Marlayna Doell\nSubject:      [External_Sender] Public Comment RE: Palisades Nuclear Plant - Emergency License Amendment Request\nDate:         Thursday, October 8, 2026 4:29:46 PM\n\n\n\nFirst and foremost, we need a real public comment period—60 days preferably, 30\nacceptable, but certainly more than 8 days! This does not give enough time for\nthose who know way more than I, and on whose expertise I rely, to analyze in\ndepth and make a substantial comment.\nFor myself, I am very concerned after hearing about the tilted canister—it brings\nback memories of the whistleblower at a public hearing letting the cat out of the\nbag about Holtec’s dropped canister at San Onofre years ago.\nThis is a company led by an arrogant CEO that had to pull back its proposed IPO,\nthat has a record of cheap, unsafe operations, that was banned from government\ncontracts based on their questionable actions with a Canadian company and lied\nabout it to get a tax break in New Jersey—where, sadly, they are so tied into the\npolitical machine that they got away with it and got the break anyway. They seem\nto be unrealistically suggesting multiple small reactors at Oyster Creek, ignoring\nthe hydrology and leaked tritiated water that would make such underground\nreactors virtually, possibly completely, impossible.\n\nIn short, do not give Holtec any breaks, any license modifications, hold them to\nthe most stringent standards, as\nthey cannot be trusted to do the right thing on their own. A closed reactor,\ndangerous to restart, is better served by delay than by rushing to take action.\n\nSally Gellert\nWoodcliff Lake, N.J.\n201 449 8077\n\f"
+  }
+ ]
+}

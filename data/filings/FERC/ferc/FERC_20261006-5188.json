@@ -64,5 +64,6 @@
    "url": "{'ferc_file': 'D4DF4B21-909A-C25E-8E5C-A116F4400000', 'name': 'Read Me - Emissions.txt', 'type': 'TXT'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-10T05:31:43Z"
 }

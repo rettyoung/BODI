@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26282A976",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Palisades Fuel Damage LAR Public Comment [['E-Mail', 'Letter']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "- No Known Affiliation"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A976.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A976.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A976",
+  "document_date": "2026-10-07"
+ },
+ "collected_at": "2026-10-10T05:03:05Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A976.pdf",
+   "name": null,
+   "bytes": 499562,
+   "sha256": "711015b3a6e0c1c25ba3990d2160cbb25505c97b09281994431d26929611e5b8",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "From:          Arnie Gundersen\nTo:            Marlayna Doell\nSubject:       [External_Sender] Palisades Fuel Damage LAR Public Comment\nDate:          Wednesday, October 7, 2026 10:35:09 PM\nAttachments:   IMG_5936.PNG\n\n\n\n\nDear Protectors of the Public’s Health and Safety at the NRC,\n\nWHY ARE YOU IN SUCH A RUSH TO HELP HOLTEC RESURRECT\nPALISADES????\n\nAs a formerly licensed AEC Reactor Operator, I view safely loading any nuclear\nreactor core as a sacred duty the public entrusted me with. The repeated \"one-over-\nM\" calculations to avoid inadvertent criticality that are required as fuel is loaded\nhave been deeply impressed into my soul.\n\nFuel Loading should not be trivialized as a marketing photo op, yet that is exactly\nwhat Holtec did at Palisades by filming the first eight fuel elements loaded into the\nPalisades core and bragging about it on their Facebook page on August 31, 2026.\n  \n\n      : The official Palisades Energy Facebook Page posted the specific image\n      capturing the milestone of the first eight nuclear fuel bundles entering\n      the reactor vessel. * Facebook • Holtec Palisades\n\n\nYet as soon as Holtec turned the cameras off, they managed to drop one of the next\nfuel bundles. According to Reddit, Holtec’s own employees have viewed photos\nof the dropped fuel bundle and believe it is a “BIG uh-oh” and “the worst fuel\nhandling fuck up I’ve ever seen… its ugly”. (See below)\n\nThat Holtec widely disseminated video of its first eight successful bundle insertions\ntrivializes the safety significance and shows a the lack of a safety conscious work\nenvironment at Palisades. Trivializing fuel load show the lack of appreciation for\nits safety significance and is likely the root cause of the bundle drop. Neither the\nNRC nor Holtec acknowledged that failure until three weeks later when the press\nhad already identified it from Holtec’s employee concerns posted on Reddit. And\nthe photos of the bundle are still not provided to the public.\n\nWhat is your rush to restart Palisades by a rookie owner, Holtec??? AT LEAST\nTHREE ISSUES NEED TO BE ADDRESSED:\n1. There is absolutely nothing on the record to explain the root cause of why and\n\fhow the fuel bundle was dropped and how such an event will be avoided in the\nfuture.\n2. Nor is there anything on the record to analyze what damage might have been\ncaused when the fuel bundle fell.\n3. A safety conscious workplace needs to be created, not a photo op culture.\n\nRunning a nuclear power plant should not be a photo op! I understand that both the\nNRC staff and Holtec staff are under pressure for their respective managements to\nquickly resurrect Palisades, but maintaining an adequate safety culture is not open\nfor negotiation.\n\nArnie Gundersen\nAEC Reactor License #OP-3014\n\fSent from my iPhone\n\f"
+  }
+ ]
+}

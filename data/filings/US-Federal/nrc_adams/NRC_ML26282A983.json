@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26282A983",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Re: Holtec Palisades Request for Deviation of Nuclear Safety Rules [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "- No Known Affiliation"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A983.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A983.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A983",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:03:26Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "emergency",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A983.pdf",
+   "name": null,
+   "bytes": 103722,
+   "sha256": "489f53a5fb6096e343d4e95a0c489cba966004754770de45f9764cdc62d1dbce",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "From:           C & A Bowman\nTo:             Marlayna Doell\nSubject:        [External_Sender] Re: Holtec Palisades Request for deviation of nuclear safety rulles\nDate:           Thursday, October 8, 2026 1:34:21 PM\n\n\nHello,\nI object to approving Holtec's request to bend the ALARA rules and remove the tilted fuel\nassembly bundle (DD41) using never-before-tested methods. It's my understanding that this\nrefueling accident has never been experienced before in the history of nuclear power. There has\nbeen no time for outside nuclear experts to weigh in on this untested method of fuel bundle\nremoval. As such, please do not approve Holtec's request until outside nuclear experts have\nassessed this situation, and until the public allowed sufficient time to comment.\n\nThank you.\nCharles Bowman\n48 Sandelwood Dr\nGetzville NY 14068\ntel: 716-908-8227\n\nReferences\nML26273A469 Palisades Nuclear Plant - Emergency License Amendment Request: One-Time-\nUse Amendment to Allow Alternative Fuel\nML26275A214 Palisades Nuclear Plant - Response to Request for Additional Information\nRegarding Emergency License Amendment\n\n\n\nSent with Proton Mail secure email.\n\f"
+  }
+ ]
+}

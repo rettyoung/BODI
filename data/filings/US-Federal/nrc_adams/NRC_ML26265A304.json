@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26265A304",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000331",
+ "title": "Duane Arnold (NextEra restart): NextEra Fleet PreApplication Meeting Summary Operator Licensing (L-2026-LRM-0111) [['Meeting Summary']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "NRC/NRR/DDLP/DLP1/ORLB2"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2626/ML26265A304.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2626/ML26265A304.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Duane Arnold (NextEra restart)",
+  "accession": "ML26265A304",
+  "document_date": "2026-10-01"
+ },
+ "collected_at": "2026-10-10T05:03:32Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "ESA",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2626/ML26265A304.pdf",
+   "name": null,
+   "bytes": 434080,
+   "sha256": "13bf5cbb811dfdd8ef896963c29c90cbfaa20c35a2a52aae23a78e18b9edf2a0",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "                                           October 1, 2026\n\n\n\nLICENSEE:       NextEra Energy\n\nFACILITIES: Turkey Point Nuclear Plant, Unit Nos. 3 and 4\n            St. Lucie Nuclear Plant, Unit Nos. 1 and 2\n            Point Beach Nuclear Plant, Units s 1 and 2\n            Seabrook Station, Unit No. 1\n            Duane Arnold Energy Center\n\nSUBJECT:        SUMMARY OF SEPTEMBER 15, 2026, PUBLIC MEETING REGARDING\n                PROPOSED LICENSE REQUEST TO MODIFY QUALITY ASSUANCE\n                TOPICAL REPORT REGARDING ELIGIBILITY PATHWAYS FOR REACTOR\n                OPERATORS (EPID L-2026-LRM-0111)\n\n\nOn September 15, 2026, the U.S. Nuclear Regulatory Commission (NRC) staff held an\nObservation pre-submittal public meeting1 with representatives from NextEra Energy (NextEra).\nThe purpose of the meeting was for NextEra to discuss its plans to submit a change to the\nQuality Assurance Topical Report (QATR), and to receive NRC staff feedback on what\ninformation would be needed to support the NRC staff review of the submittal. The NextEra\nrequest would allow supplemental eligibility pathways for use alongside existing pathways for\nReactor Operator and Senior Reactor Operator candidates.\n\nDuring the meeting, NextEra staff presented slides2 that described the proposed change.\n\nThe NRC staff provided the following comments on information and considerations that would\nsupport its review of the proposed change:\n\n    •   NRC staff stated that the submittal should articulate clearly whether the proposed\n        change will remain Institute of Nuclear Power Operations (INPO) accredited;\n    •   NRC staff stated that the submittal should clarify what is meant by Systems Approach to\n        Training (SAT)-based rigor and how it supports acceptability of the program; and\n    •   NRC staff asked if there was a common QATR document for all sites. Next Era indicated\n        that a common fleet, QATR was used for the operating plants. Further, NextEra clarified\n        that plants undergoing restart would transition to the same QATR as part of the restart\n        process.\n\nThen, the meeting transitioned to the closed session. During the closed portion of the meeting\nadditional details were discussed regarding the INPO accreditation aspect of the approach.\n\n\n1 The meeting notice is available under Agencywide Documents Access and Management System (ADAMS)\n\nAccession No. ML26247A002.\n2 The slides are available under ML26257A311.\n\f                                              -2-\n\n\nThe NRC staff did not make any regulatory decisions at the meeting. Following the open\ndiscussion and prior to the closed session an opportunity was afforded to any other participants\nwho wished to ask questions or make comments. No questions or comments were received\nfrom the public.\n\nPlease direct any inquiries regarding this meeting to me at 301-415-2481 or Ed.Miller@nrc.gov.\n\n\n\n                                            /RA/\n\n                                            G. Edward Miller, Senior Project Manager\n                                            Operating Reactor Licensing Branch 2\n                                            Division of Licensing Projects 1\n                                            Office of Nuclear Reactor Regulation\n\nDocket Nos. 50-250, 50-251, 50-335,\n             50-389, 50-266, 50-301,\n             50-443, and 50-331\n\nEnclosure:\nList of Attendees\n\ncc: Listserv\n\f                                    -3-\n\n\nSUBJECT:    SUMMARY OF SEPTEMBER 15, 2026, PUBLIC MEETING REGARDING\n            PROPOSED LICENSE REQUEST TO MODIFY QUALITY ASSUANCE\n            TOPICAL REPORT REGARDING ELIGIBILITY PATHWAYS FOR REACTOR\n            OPERATORS (EPID L-2026-LRM-0111) DATED: October 1, 2026\n\n\n\n\nDISTRIBUTION:\nPUBLIC\nRidsNrrOrlb1 Resource\nRidsNrrOrlb2 Resource\nRidsNrrLACAdams Resource\nRidsRgn1MailCenter Resource\nRidsRgn2MailCenter Resource\nRidsNrrPMTurkeyPoint Resource\nRidsNrrPMStLucie Resource\nRidsNrrPMPointBeach Resource\nRidsNrrPMSeabrook Resource\n\n\nADAMS Accession Nos.:\nPackage: ML26265A278\nSummary: ML26265A304\nSCD: ML26265A305\neConcurrence Case: 20260922-02550\n\f                                 LIST OF ATTENDEES\n\n                         SEPTEMBER 15, 2026, PUBLIC MEETING\n\n                  TURKEY POINT NUCLEAR PLANT, UNIT NOS. 3 AND 4\n\n                    ST. LUCIE NUCLEAR PLANT, UNIT NOS. 1 AND 2\n\n                    POINT BEACH NUCLEAR PLANT, UNITS. 1 AND 2\n\n                           SEABROOK STATION, UNIT NO. 1\n\n                          DUANE ARNOLD ENERGY CENTER\n\n      PLANNED REQUEST TO MODIFY OPERATOR LICENSING REQUIREMENTS\n\n\n                  Name                                 Organization\nTheresa Buchanan                        U.S. Nuclear Regulatory Commission (NRC)\nJoey McPherson                          NRC\nDaniel Fanella                          NRC\nIjaz Hafeez                             NRC\nEric Nour                               NRC\nEd Miller                               NRC\nMichael Markley                         NRC\nBlake Purnell                           NRC\nScott Wall                              NRC\nV Sreenivas                             NRC\nAnderson Wolfe                          NRC\nMaribel Valdez                          NextEra\nJarrett Mack                            NextEra\nJesse Seymour                           NextEra\nJoshua Reuer                            NextEra\nKenneth Mack                            NextEra\nSheryl Sweet                            NextEra\n\n\n\n\n                                                                          Enclosure\n\f"
+  }
+ ]
+}

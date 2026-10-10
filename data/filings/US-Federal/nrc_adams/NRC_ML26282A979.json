@@ -1,0 +1,45 @@
+{
+ "id": "NRC:ML26282A979",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Proposed Determination of no Significant Hazards Consideration [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "Sierra Club Nuclear Free Campaign"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A979.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A979.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A979",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:03:23Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A979.pdf",
+   "name": null,
+   "bytes": 123029,
+   "sha256": "1967bd3ac68e9ad75bee8014faf886719f07592fd54f1b4b65a06636d2a3bacd",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "From:          Steven Sondheim\nTo:            Marlayna Doell\nCc:            Michael Keegan mkeeganj@comcast.net\nSubject:       [External_Sender] proposed determination of no significant hazards consideration\nDate:          Thursday, October 8, 2026 12:31:35 PM\n\n\nPlease extend the deadline!\nPublic Notice is lacking and this process is a railroad. Time is needed to allow our\nExperts to weight in.  \nI voice objection to this bum rush.\n\n\nStevenSondheim\nSierra Nuclear Free Team\n\f"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26282A975",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Palisades DD41 Recovery LAR - Comments Regarding Accident Dose and Personnel Protection [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "- No Known Affiliation"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A975.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A975.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A975",
+  "document_date": "2026-10-06"
+ },
+ "collected_at": "2026-10-10T05:02:56Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "emergency",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A975.pdf",
+   "name": null,
+   "bytes": 189273,
+   "sha256": "827e8ce3d0d674bb39f7ad2cc8135016d0f576877eac88b3e973aacbb25c96f6",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "From:           Alan Blind\nTo:             PalisadesRestartProject\nSubject:        [External_Sender] Palisades DD41 Recovery LAR — Comments Regarding Accident Dose and Personnel\n                Protection\nDate:           Tuesday, October 6, 2026 5:11:30 PM\n\n\n\n\nSubject: Palisades DD41 Recovery LAR — Comments Regarding Accident Dose and\nPersonnel Protection\n\nNRC Palisades Restart Team,\n\nI have reviewed the radiological consequence calculation, HI-2261348, Revision 1,\n“Radiological Consequences of DD41 FHA at Palisades,” included with Holtec’s\nemergency license amendment request for recovery of fuel assembly DD41.\n\nAt this point, I am not aware of a regulatory pathway available to me to formally submit\ncomments on the amendment while the NRC is completing its determination regarding\nwhether the proposed amendment involves a significant hazards consideration. I also do not\nknow whether the NRC intends to process or approve this request under the emergency\nprovisions requested by Holtec, potentially before the normal public-comment process\noccurs. Accordingly, I am submitting the following comments directly to the Palisades\nRestart Team so that they may be considered as part of the NRC’s ongoing review.\n\nThe calculation raises several questions that I believe warrant NRC consideration before\napproval of the proposed fuel-transfer evolution.\n\nFirst, the Control Room is clearly the limiting receptor relative to its applicable\nacceptance criterion. Holtec calculates a Control Room dose of 3.0402 rem TEDE,\nconsisting of 2.7462 rem from fuel damage and 0.294 rem from shine. This represents\napproximately 61 percent of the 5-rem Control Room acceptance criterion. By\ncomparison, the calculated EAB and LPZ doses are only approximately 9 percent and 1\npercent, respectively, of the 6.3-rem criteria used in the analysis. ML26273A469\n\nThis is particularly noteworthy at Palisades because of the physical relationship between the\nControl Room ventilation system and plant release points. The calculation itself shows a\nsubstantial difference between the atmospheric dispersion factors assumed for the Control\nRoom normal and emergency ventilation intakes. The initial χ/Q for the normal intake is 6.1 ×\n10⁻³ sec/m³, compared with 8.32 × 10⁻⁴ sec/m³ for the emergency intake. ML26273A469\n\nGiven that the calculated Control Room dose already uses approximately 61 percent of the\nacceptance criterion, I believe NRC should specifically identify what equipment, ventilation\nalignments, isolation actions, filtration, operator actions, response times, unfiltered in-\nleakage assumptions, and atmospheric-dispersion assumptions are credited to maintain\nthe Control Room dose below 5 rem.\n\nI also do not see the LAR clearly explaining what additional operational or compensatory\nmeasures will be established during the DD41 recovery and transfer to manage this relatively\nsignificant Control Room consequence. Considering the proximity of the Control Room\nventilation system to plant release points, I believe the assumptions regarding release location,\natmospheric dispersion, Control Room isolation, and ventilation configuration deserve\nparticular NRC scrutiny.\n\fSecond, I am concerned about an apparent omission from the radiological consequence\nanalysis. HI-2261348 evaluates dose to three receptors: the EAB, LPZ, and Control Room. It\ndoes not appear to provide an accident-dose analysis for personnel performing or directly\nsupporting the DD41 recovery and Fuel Transfer Canister movement. ML26273A469\n\nThese are the personnel who could be closest to the source if the postulated fuel-handling\naccident actually occurred. The LAR describes an unusual evolution involving the Fuel\nMovement Device, chain falls and rigging, placement of DD41 into the Fuel Transfer\nCanister, removal of the loaded canister from the water, movement through containment,\ntransfer through the equipment hatch, re-rigging and upending of the canister, and subsequent\nmovement into the spent-fuel-pool area. ML26273A469\n\nAccordingly, I sugest it prudent that NRC determine:\n\n   1. What is the calculated accident dose to personnel operating and supporting the DD41\n      recovery and Fuel Transfer Canister movement?\n\n   2. Does that evaluation include direct radiation, airborne activity, shine, and dose received\n      while personnel evacuate the immediate work area following a postulated fuel-handling\n      accident?\n\n   3. What assumptions are made regarding worker location, evacuation time, dosimetry,\n      radiation monitoring, respiratory protection, stay-time limitations, access controls, and\n      other radiation-protection measures?\n\n   4. What specific measures will be in place to protect the Control Room, given that its\n      calculated dose is already approximately 61 percent of its acceptance criterion?\n\n   5. Has NRC independently verified that the atmospheric-dispersion and Control Room\n      ventilation assumptions used in HI-2261348 appropriately represent the actual release\n      points and Control Room intake configuration applicable during this one-time fuel-\n      transfer evolution?\n\nI recognize that the LAR demonstrates that the calculated EAB, LPZ, and Control Room doses\nremain below the applicable design-basis accident acceptance criteria. My concern is\ndifferent: the Control Room is the most affected analyzed receptor relative to its\nacceptance criterion, yet the submittal does not clearly identify the measures that will\nmanage that consequence, while the accident dose to personnel closest to the proposed\nfuel-transfer operation does not appear to be presented at all.\n\nThis recovery and transfer evolution is a first-of-a-kind, infrequently performed\ntask involving damaged fuel, specially designed equipment, multiple lifting and rigging\nevolutions, and movement of the fuel assembly outside its normal fuel-handling path. Nuclear\nmanagement practice for activities of this nature is to approach them deliberately and with\nparticular rigor, supported by well-developed plans, procedures, training, contingency\nplanning, and demonstrated personnel proficiency before the evolution begins.\n\nThat rigor is especially important here because the personnel performing and supporting the\nfuel-transfer movement would be among those closest to the source should the postulated fuel-\nhandling accident occur. Yet the radiological consequence analysis provided with the LAR\ndoes not appear to quantify their potential accident exposure.\n\fTaking the time necessary to get the plans, procedures, training, radiation-protection\nmeasures, contingency actions, and personnel preparation right before beginning this\nfirst-of-a-kind evolution is imperative, particularly given the potentially significant\nradiological consequences to the workers directly involved. The urgency associated with\nthe Palisades restart schedule should not displace that fundamental nuclear-safety principle.\n\nGiven Holtec’s request for emergency processing, I respectfully ask that the NRC consider\nthese matters before making a final determination on the requested amendment and\nbefore authorizing the DD41 recovery and transfer evolution.\n\nRegards,\n\nAlan Blind\nBaroda, Michigan\n\f"
+  }
+ ]
+}

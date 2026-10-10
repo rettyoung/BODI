@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26282A964",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender: Docket #50-225. Public Comment on Opposition to Palisades Restart [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "- No Known Affiliation"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A964.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A964.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A964",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:02:29Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "emergency",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A964.pdf",
+   "name": null,
+   "bytes": 209481,
+   "sha256": "e0485f36295bb0bfff655077ca49fd21e47fcadd5c8c24446c763f2fd852e456",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "From:          Jan Boudart\nTo:            Marlayna Doell\nSubject:       [External_Sender] :Docket #50-225. Public Comment on Opposition to Palisades Restart\nDate:          Thursday, October 8, 2026 3:26:53 PM\n\n\n\n\nMarlayna.Doell@nrc.gov\n\nRe: https://www.nrc.gov/docs/ML2627/ML26275A214.pdf and\nhttps://www.nrc.gov/docs/ML2627/ML26273A469.pdf\n\nOctober 8, 2026\nU.S. Nuclear Regulatory Commission\nATTN: Document Control Desk\nWashington, DC 20555-0001\nRe: Palisades Nuclear Plant, Docket No. 50-255 — Opposition to\nexpedited approval of\nDD41 fuel recovery amendment\n\nDear NRC Commissioners and Staff:  \n\n   I urge the NRC to proceed with caution and deliberation in responding to the\nfuel-rod accident at Palisades NPP around August 3, 2026. If Holtec be allowed a\none-time fuel-handling amendment, what would that look like when the situation is\nso enigmatic?\n   Lay people know almost nothing of items like “transfer canisters,” “the normal\nunderwater transfer route”, “the equipment hatch”, “the North Tilt Pit”and the\nspent-fuel pool. With many explanations in order, both utility and government have\ntaken refuge in a 50-59 procedure of complete secrecy.\n   That the re-start schedule has been delayed again is OK because the NRC is\ncharged with public health and safety; not conforming to a dubious schedule for\nrestarting the plant. To prioritize the re-start schedule is putting the cart (restart\nschedule) before the biological horse (human, animal, plant, soil & air —\nenvironmental safety, perhaps involving evacuation advice or compulsory\ninstructions.)\n   Questions:\n\n       Is the situation being monitored with dependable and accurate radiation\n       measurements at standard distances from the plant? If so, is the public being\n       honestly informed about any increased radiation? — without consideration of\n       whether Holtec or the NRC has advice regarding the possible danger.\n       Is it true that Holtec stated that complete loss of canister shielding was\n       removed from the finalized radiological consequences analysis after a drop\n\f     analysis deemed that event not to be credible? If so, did that “in”credible\n     event take place in reality at Palisades in early August 2026?\n\n\n   An immediate public safety watch should have been declared in early August.\nInstead, either Holtec did not report the incident to the NRC — or the NRC\ncollaborated with the company they should have been regulating — to postpone\nbroadcast of almost all information for at least 3 weeks. This does not sit well\namong those of us who have been concerned about Palisades’ safety and have been\nfollowing Palisades events for several years. I think maybe present safety\nnecessitates emergency authorization now. Maybe ongoing progress/safety reports\nto the public are more important and imminent than waiting until after careful\ninvestigation and review.\n   A rogue fuel rod, probably partly spent, is a danger to all — witness that fact that\nnow special robots must be fabricated to reach the wandering rod because the\nsituation is too dangerous for the intervention of a human body. And recall that all\nrobotic devices for several years after the Fukushima explosions were defeated by\nthe intense radiation in the reactor vessels. But after 25 years of great ingenuity and\neffort about 0.6 gram of corium was removed for examination (out of 880tons. I\ngoogled it.) I, personally, think that comparisons to the Fukushima efforts to enter a\ndangerous reactor vessel are very appropriate.\n   (This evokes the unfortunate individual who fell into the reactor vessel [water?]\nprevious to this accident. That event, too, was glossed over.)\n   The event presently in question (a misplaced, partially irradiated fuel rod in the\nPalisades reactor vessel) is a significant abnormal event during core loading. It\nshould trigger greater scrutiny of operational readiness — not a presumption that\nthe licensee’s own recovery calculations and timetable are sufficient. After all, the\nNRC is regulating Holtec — not vice-versa.\n   When Holtec has fabricated a contraption it believes can alleviate this situation,\nNRC should demand independent expert review of the lifting device, canister,\nrigging, load path, drop analyses, shielding assumptions, and contingency\nprocedures. This should include experts who can evaluate drops over the North Tilt\nPit, including consequences for stored fuel and spent fuel pool structural and water-\nretention integrity.\n\n   The NRC must disclose the basis for excluding complete shielding loss and\nexplain how fuel integrity, radiation exposure, and stop-work criteria will be\nmonitored.\n   In addition, Holtec should be held accountable for the broader restart safety\nrecord.\n\n                                   Conclusion\n     Finally and very importantly: NRC and the PRESENT EXECUTIVE in our\n\fnation’s capital must provide a meaningful opportunity for public participation\nbefore authorizing this unusual operation.\n\n  Respectfully,\n\n  Jan Boudart,\n  1132 W Lunt Ave. Apt 7D\n  Chicago IL 60626\n\f"
+  }
+ ]
+}

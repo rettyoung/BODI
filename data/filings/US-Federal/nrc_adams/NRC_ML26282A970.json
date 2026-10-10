@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26282A970",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Holtec Palisades Emergency License Amendment Request for Alternative Fuel Handling Method [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "Nuclear Information & Resource Service (NIRS)"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A970.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A970.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A970",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:02:32Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [
+  "emergency",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A970.pdf",
+   "name": null,
+   "bytes": 105387,
+   "sha256": "f92d226d09e6bcf297869341bf77ba299af8faf2ed8fb2b00d1b68f9a0d2822f",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "From:           Tim Judson\nTo:             Marlayna Doell\nCc:             Diane D\"Arrigo\nSubject:        [External_Sender] Holtec Palisades Emergency License Amendment Request for Alternative Fuel Handling Method\nDate:           Thursday, October 8, 2026 4:12:51 PM\n\n\n\nDear Ms. Doell,\n\nThe Nuclear Information and Resource Service opposes the request of Holtec Palisades\nto bypass, on an “emergency” basis, procedures for environmental reviews, technical\nreviews, cost analysis, and post-accident review for a license amendment that would\nallow for use of an “alternative fuel handling method” following the mishandling of an\nirradiated fuel assembly during fuel loading several weeks ago. There is no emergency\njustification for the requested amendment, and NRC should deny it. Either the fuel\nassembly in question is undamaged and no alternative procedure is necessary; or it is\ndamaged and its condition should be thoroughly examined before it is loaded into the\nreactor.\n\nSincerely,\nTimothy Judson\n\nExecutive Director\nNuclear Information and Resource Service\nP.O. Box 8, Mount Rainier, MD, 20712\n301-270-6477\ntimj@nirs.org\nwww.nirs.org\n\f"
+  }
+ ]
+}

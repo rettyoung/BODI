@@ -1,0 +1,41 @@
+{
+ "id": "NRC:ML26282A971",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): External_Sender Holtec's Fuel Handling Accident and Rushed Comment Period [['E-Mail']]",
+ "filed": "2026-10-09",
+ "entity": [
+  "Ohio Green Party"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A971.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A971.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26282A971",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-10T05:02:47Z",
+ "run_id": "2026-10-10-0454",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A971.pdf",
+   "name": null,
+   "bytes": 98582,
+   "sha256": "9a3b564d34aff05b7412bb6f57fdf71219edc1fd71a59b91dead0c9039087bee",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "From:         daryl237@yahoo.com\nTo:           Marlayna Doell\nSubject:      [External_Sender] Holtec\"s fuel handling accident and rushed comment period\nDate:         Thursday, October 8, 2026 3:58:24 PM\n\n\nDear Marlayna Doell,\nThe tilting of previously irradiated fuel assembly DD41 should not result in a rush to\ndeclare a finding of no significant hazards as a basis for a solution to an\nunprecedented endeavor.\nThe stunning lack of information that has been provided to the public after more than\na month and this rushed comment period for our consent, reeks of a complicit\nrelationship with Holtec.\nThat Holtec has allowed this to happen is another example of their lax oversight of an\noperation that it has no experience in practice.\nThat the NRC has continuously enabled Holtec to advance to this \"oops\" situation is\nunacceptable. Now the public is expected to suspend its disbelief of Holtec's\ncompetence with no more, or very little more, information than its original press\nrelease and with about 44 hours' notice.\nI do not consent to this proposal. Please allow more time to consider it and with more\ninformation about the condition of fuel assembly and the predicament that Holtec has\nfallen into.\n\nSincerely,\nDaryl Davis\nOhio Green Party\n216-848-6912\n\f"
+  }
+ ]
+}
