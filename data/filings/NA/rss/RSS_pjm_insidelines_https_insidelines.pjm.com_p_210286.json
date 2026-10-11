@@ -1,0 +1,26 @@
+{
+ "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210286",
+ "jur": null,
+ "source": "rss:pjm_insidelines",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM Capacity Advisory Issued for Oct. 12-13",
+ "filed": "2026-10-09",
+ "url": "https://insidelines.pjm.com/pjm-capacity-advisory-issued-for-oct-12-13/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:pjm_insidelines",
+  "rto": "PJM",
+  "summary": " PJM has issued a Capacity Advisory for Monday, Oct. 12, and Tuesday, Oct. 13, ahead of expected tight system conditions caused by relatively warm fall weather and equipment outages needed for maintenance and construction. It is the first use of the Capacity Advisory, a new Emergency Procedure endorsed by PJM Members in June. It was [&#8230;]",
+  "feed": "pjm_insidelines",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-11T05:09:17Z",
+ "run_id": "2026-10-11-0453",
+ "keywords": [
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": []
+}

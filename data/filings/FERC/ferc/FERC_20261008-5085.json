@@ -46,5 +46,6 @@
    "url": "{'ferc_file': '9DBBED29-DCD9-C3E1-9A24-A11C80300000', 'name': 'PGE20261008_2310_UpperPeakLakeDam_STID_Enc2.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-11T05:21:59Z"
 }

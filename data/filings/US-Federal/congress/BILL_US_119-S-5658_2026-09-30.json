@@ -1,0 +1,25 @@
+{
+ "id": "BILL:US:119-S-5658:2026-09-30",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "S 5658",
+ "title": "A bill to prohibit the construction of data centers on Federal land, and for other purposes.",
+ "filed": "2026-09-30",
+ "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5658",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Read twice and referred to the Committee on Energy and Natural Resources.",
+  "keywords": [
+   "data center",
+   "data centers"
+  ]
+ },
+ "collected_at": "2026-10-11T05:12:57Z",
+ "run_id": "2026-10-11-0453",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

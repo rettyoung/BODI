@@ -64,5 +64,6 @@
    "url": "{'ferc_file': 'B7065875-5678-CB4E-9866-A11BC0A00000', 'name': 'PRIV-DPT Model AE2_Counterfactual (ER26___).xlsx', 'type': 'XLSX'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-11T05:22:11Z"
 }

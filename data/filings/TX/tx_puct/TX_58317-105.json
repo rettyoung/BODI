@@ -1,0 +1,48 @@
+{
+ "id": "TX:58317-105",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "10/10/2026 | Amanda Hood | COM | I support 58317-96",
+ "filed": "2026-10-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=105",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "105"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-11T05:01:38Z",
+ "run_id": "2026-10-11-0453",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_105_1691781.ZIP",
+   "name": null,
+   "bytes": 1060066,
+   "sha256": "e12f24cc45473d5a338bc26275ddec61da97cf155aef6c9674955b6bf67fd63f",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_105_1691782.PDF",
+   "name": null,
+   "bytes": 106074,
+   "sha256": "917eb96d3bd9d8fb0019f48318606e98a3511fed554dcf6f1dd404094a0cbf01",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 2,
+   "truncated": false,
+   "text": "Filing Receipt\n\nFiled Date - 2026-10-10 04:23:05 PM\nControl Number - 58317\n\nItem Number - 105\n\n\f'M IN FAVOR\nADOPTION\n\nA STANDARD\n\nGRUS_STD_60084\n\nPROPOSED UNDER CONTROL NUMBER\n\n58317-96\n@ | ADOPTION\n\n"
+  }
+ ]
+}

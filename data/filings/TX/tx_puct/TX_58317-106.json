@@ -1,0 +1,48 @@
+{
+ "id": "TX:58317-106",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "10/10/2026 | Tanner Carlock | COM | In support of 58317-96",
+ "filed": "2026-10-10",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=106",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "106"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-11T05:01:29Z",
+ "run_id": "2026-10-11-0453",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_106_1691783.ZIP",
+   "name": null,
+   "bytes": 1060066,
+   "sha256": "1ebe89e39dfd649c5c8a84bf6df03f5ab8048362c66a65c9080516660dbf316c",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_106_1691784.PDF",
+   "name": null,
+   "bytes": 106080,
+   "sha256": "6704382ffc3e1b2b348898fd9aa8a1a225286f1b5aac383346195aa83ae2c912",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 2,
+   "truncated": false,
+   "text": "Filing Receipt\n\nFiled Date - 2026-10-10 04:26:08 PM\nControl Number - 58317\n\nItem Number - 106\n\n\f'M IN FAVOR\nADOPTION\n\nA STANDARD\n\nGRUS_STD_60084\n\nPROPOSED UNDER CONTROL NUMBER\n\n58317-96\n@ | ADOPTION\n\n"
+  }
+ ]
+}

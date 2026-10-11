@@ -1,0 +1,27 @@
+{
+ "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210281",
+ "jur": null,
+ "source": "rss:pjm_insidelines",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM Accepts First Expedited Interconnection Track Projects",
+ "filed": "2026-10-08",
+ "url": "https://insidelines.pjm.com/pjm-accepts-first-expedited-interconnection-track-projects/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:pjm_insidelines",
+  "rto": "PJM",
+  "summary": " PJM has accepted the first three projects in a new, temporary process designed to get large generation resources online quickly to address the urgent growth in demand for electricity. The projects are two battery storage projects and one natural gas generator upgrade with more than 2,100 MW in combined nameplate capacity. Nameplate capacity refers to [&#8230;]",
+  "feed": "pjm_insidelines",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-11T05:09:17Z",
+ "run_id": "2026-10-11-0453",
+ "keywords": [
+  "battery storage",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}
