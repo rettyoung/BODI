@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147732",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Why PJM’s Proposed Backstop Auction Is a Bad Idea",
+ "filed": "2026-10-11",
+ "url": "//www.rtoinsider.com/147732-why-pjms-proposed-backstop-auction-is-a-bad-idea/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " It’s no secret that data centers are putting enormous strain on our nation’s aging electric grid. But PJM's proposed backstop auction is not a good option, write two members of the NYU Law School's Institute of Policy Integrity. \n The post  Why PJM’s Proposed Backstop Auction Is a Bad Idea  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-12T05:12:52Z",
+ "run_id": "2026-10-12-0457",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}
