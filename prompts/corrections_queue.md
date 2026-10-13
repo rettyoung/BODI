@@ -15,7 +15,7 @@ here must be added to obligations.json by the next Sweep (Step 1.6a).
 |---|---|---|
 | C-07-baseline-links — finish the baseline-links file | 2026-10-12 | **OVERDUE** (missed by runs 2026-10-05 and 2026-10-12) — first thing in the 19 Oct run |
 | C-08-triage — triage every new-source history line | 2026-10-12 | **OVERDUE** (same) — first thing in the 19 Oct run |
-| C-07-quota — 15 enriched items a run | every run | open |
+| C-07-quota — 50 enriched items a run (was 15 until 2026-10-13) | every run | open |
 | C-08-reads — 20 items a run | every run | open |
 | C-03 — APS XHLF terms | 2026-10-26 | blocked (ACC certificate; manual pass) |
 | AZ-E000054293 — resolve the APS-54 / reply-brief image | 2026-10-26 | open (manual pass) |
@@ -122,7 +122,7 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   document text, added a few hundred documents per night by the collector (collector/backfill_text.py). Each line
   carries a tier: 1 = issued by the commission/agency, 2 = filed by a watched party (matched on the cover page — a
   party's brief is often filed under its attorney's name), 3 = briefs/testimony/applications/tariffs, 4 = other.
-  Each run, after this week's candidates, take up to 15 enriched items not yet in state.backfill_cursor.done: all
+  Each run, after this week's candidates, take at least 50 enriched items (all that remain, if fewer) not yet in state.backfill_cursor.done: all
   tier 1–2 items first (newest first), then tier 3–4 items only when keywords or party_hits are non-empty. Treat
   each exactly like a candidate (discovery-date Event IDs). Most will already be in the store — dedupe first; a
   confirmed duplicate is simply marked done. Record processed ids in state.backfill_cursor.done (ids only).
