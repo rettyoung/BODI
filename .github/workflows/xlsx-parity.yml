@@ -28,7 +28,7 @@ jobs:
       - name: Compare
         run: |
           mkdir -p data/tests
-          python tests/xlsx_parity.py out/py/Grid_Docket_Tracker_MASTER.xlsx out/exceljs.xlsx data/tests/xlsx_parity.json
+          python tests/xlsx_parity.py out/py/Utility_Tracker_MASTER.xlsx out/exceljs.xlsx data/tests/xlsx_parity.json
       - name: Record result
         if: always()
         run: |

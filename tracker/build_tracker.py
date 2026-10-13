@@ -1,4 +1,4 @@
-"""Build Grid_Docket_Tracker_MASTER.xlsx from the row store.
+"""Build Utility_Tracker_MASTER.xlsx from the row store.
 
 Reproduces the established workbook exactly: Tracker sheet (26 columns, Arial 9,
 centre/middle, wrap, freeze C2, autofilter, materiality by font colour,
@@ -16,7 +16,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 
 import rowstore
-from vocab import COLUMNS, LEVERS, SUBJECTS, VENUES, MATERIALITY, CONFIDENCE, JURISDICTIONS
+from vocab import COLUMNS, HEADERS, LEVERS, SUBJECTS, VENUES, MATERIALITY, CONFIDENCE, JURISDICTIONS
 
 WIDTHS = [11, 16, 16, 12, 22, 21, 16, 36, 44, 66, 20, 24, 12, 16, 12, 9, 11,
           11, 11, 11, 11, 11, 11, 11, 11, 38]
@@ -42,7 +42,7 @@ def build(rows, out, asof=None, baseline_note=None):
     wb = Workbook()
     ws = wb.active
     ws.title = "Tracker"
-    ws.append(COLUMNS)
+    ws.append(HEADERS)
     ws.row_dimensions[1].height = 34
     for c in ws[1]:
         c.font = Font(name="Arial", size=9, bold=True, color="FFFFFF")
@@ -100,7 +100,7 @@ def build(rows, out, asof=None, baseline_note=None):
 
     distinct = len({r[1] for r in rows})
     baseline = sum(1 for r in rows if str(r[1]).startswith("E-20260918"))
-    put("GRID DOCKET — MASTER TRACKER", bold=True, size=13)
+    put("UTILITY TRACKER — MASTER TRACKER", bold=True, size=13)
     put(baseline_note or (
         f"Row store through {asof or rows[0][0]}: {distinct} events / {len(rows)} rows. "
         f"Baseline 7 Nov 2025 to 18 Sep 2026 ({baseline} rows), all three phases plus the gap-closing second pass; "

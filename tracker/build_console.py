@@ -45,7 +45,7 @@ import build_tracker  # noqa
 import narrative as narr  # noqa
 import subtables  # noqa
 
-XLSX = "Grid_Docket_Tracker_MASTER.xlsx"
+XLSX = "Utility_Tracker_MASTER.xlsx"
 
 
 def page(out):
@@ -199,8 +199,8 @@ def main():
     files, notes = {}, {}
     if a.narrative:
         shutil.copy(a.narrative, os.path.join(a.outdir, "narrative.md"))
-        files["md"] = {"path": "narrative.md", "name": f"Grid_Docket_Weekly_{a.asof}.md"}
-        pdf = f"Grid_Docket_Weekly_{a.asof}.pdf"
+        files["md"] = {"path": "narrative.md", "name": f"Utility_Tracker_Weekly_{a.asof}.md"}
+        pdf = f"Utility_Tracker_Weekly_{a.asof}.pdf"
         notes["pdf"] = narr.to_pdf(a.narrative, os.path.join(a.outdir, pdf), a.asof)
         files["pdf"] = {"path": pdf, "name": pdf}
     table = [[("" if v is None else v) for v in r[:26]] for r in rows]
@@ -232,9 +232,9 @@ def main():
         xres = build_tracker.build(rows, os.path.join(a.deliverables, XLSX), asof=a.asof)
         problems += xres.get("problems", [])
         if a.narrative:
-            narr.to_docx(a.narrative, os.path.join(a.deliverables, f"Grid_Docket_Weekly_{a.asof}.docx"))
+            narr.to_docx(a.narrative, os.path.join(a.deliverables, f"Utility_Tracker_Weekly_{a.asof}.docx"))
             shutil.copy(os.path.join(a.outdir, files["pdf"]["path"]), a.deliverables)
-            shutil.copy(a.narrative, os.path.join(a.deliverables, f"Grid_Docket_Weekly_{a.asof}.md"))
+            shutil.copy(a.narrative, os.path.join(a.deliverables, f"Utility_Tracker_Weekly_{a.asof}.md"))
     out = {"events": len(ev), "rows": len(rows), "problems": problems, "notes": notes,
            "files": sorted(os.listdir(a.outdir)),
            "deliverables": sorted(os.listdir(a.deliverables)) if a.deliverables else None}

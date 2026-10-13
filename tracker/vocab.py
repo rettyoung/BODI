@@ -10,6 +10,9 @@ COLUMNS = [
     "Upfront Costs", "Rates", "Term", "Speed", "Curtailment", "Deliverability",
     "Supply/Demand", "Market Participation", "Source URL",
 ]
+# Header text shown in the workbook and CSV (Rett, 13 Oct 2026: "Utility" reads as
+# "Entity"). The row store keeps the column name "Utility"; only the label changes.
+HEADERS = ["Entity" if c == "Utility" else c for c in COLUMNS]
 LEVERS = COLUMNS[17:25]
 
 SUBJECTS = [

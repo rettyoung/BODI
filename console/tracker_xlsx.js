@@ -1,10 +1,12 @@
-/* Grid Docket master workbook, built in the browser with ExcelJS.
+/* Utility Tracker master workbook, built in the browser with ExcelJS.
    A line-for-line port of tracker/build_tracker.py; parity is tested in CI
    (.github/workflows/xlsx-parity.yml) against the Python build. Keep them in step. */
 (function (root) {
   const COLUMNS = ["Date","Event ID","Utility","Jurisdiction","Subject","Venue","Instrument","Document","Headline",
     "Takeaway","Status","Next Milestone","Next Date","Materiality","Confidence","Appeal","Superseded","Upfront Costs",
     "Rates","Term","Speed","Curtailment","Deliverability","Supply/Demand","Market Participation","Source URL"];
+  // Header labels: the store's "Utility" column is shown as "Entity" (13 Oct 2026); matches vocab.HEADERS
+  const HEADERS = COLUMNS.map(c => c === "Utility" ? "Entity" : c);
   const LEVERS = COLUMNS.slice(17, 25);
   const SUBJECTS = ["Large Load Customer Terms","Generation Supply","Rates & Cost Allocation","Law & Governance",
     "Interconnection Queue","Commercial Activity","Transmission & Delivery","Self-Supply & Colocation","Market Structure","Technology"];
@@ -39,7 +41,7 @@
     const n = rows.length + 1;
     const wb = new ExcelJS.Workbook();
     const ws = wb.addWorksheet("Tracker", {views: [{state: "frozen", xSplit: 2, ySplit: 1}]});
-    ws.addRow(COLUMNS);
+    ws.addRow(HEADERS);
     ws.getRow(1).height = 34;
     ws.getRow(1).eachCell({includeEmpty: true}, c => {
       c.font = {name: "Arial", size: 9, bold: true, color: {argb: "FFFFFFFF"}};
@@ -84,7 +86,7 @@
     const blank = () => { s.getCell(r, 1).font = {name: "Arial", size: 11}; r++; };
     const distinct = new Set(rows.map(x => x[1])).size;
     const baseline = rows.filter(x => String(x[1]).startsWith("E-20260918")).length;
-    put("GRID DOCKET — MASTER TRACKER", null, {bold: true, size: 13});
+    put("UTILITY TRACKER — MASTER TRACKER", null, {bold: true, size: 13});
     put(`Row store through ${asof || rows[0][0]}: ${distinct} events / ${rows.length} rows. ` +
         `Baseline 7 Nov 2025 to 18 Sep 2026 (${baseline} rows), all three phases plus the gap-closing second pass; ` +
         `weekly sweeps thereafter. Materiality floor High and Medium only.`, null, {size: 9, italic: true, color: GREY});

@@ -30,12 +30,16 @@ power procurement.
 actions; earnings and investor presentations; major customer and market-participant activity.
 
 **Deliverables, every Monday:**
-1. **The Excel master tracker** (`Grid_Docket_Tracker_MASTER.xlsx`) — the **primary deliverable**. Rett: "I
+1. **The Excel master tracker** (`Utility_Tracker_MASTER.xlsx`; `Grid_Docket_Tracker_MASTER.xlsx` before 13 Oct 2026) — the **primary deliverable**. Rett: "I
    like the excel tracker template we built; don't discard that, it should be the primary deliverable."
 2. **A narrative report** accompanying each delivery (PDF and Word, from markdown).
 3. **The console** — an interactive filtering tool over all history (a published Artifact), with status,
    milestones, the narrative and the Excel download.
 4. **An email brief** to rett.young@blueowl.com, written for the BODI deal team and forwardable unedited.
+
+**Name (Rett, 13 Oct 2026):** reader-facing, the product is the **Utility Tracker** — email subject, narrative,
+workbook title and file names, and console. "Grid Docket" survives only internally (the OneDrive folder
+`/GridDocket/`, store schema names, the `grid-docket-manual-pass` skill, this document's file name).
 
 ---
 
@@ -294,7 +298,7 @@ and green = three-line "nothing moved") → **Sweep audit** (re-runs `check_run.
 before `last_brief_date` changes) → publish console → email → `/GridDocket/briefs/<date>.json`;
 update only `state.last_brief_date`. **REPO-LESS PATH** if the clone fails: build from OneDrive alone.
 
-**Email:** subject `Grid Docket — <D Mon> · <N> high-impact · <three shortest descriptors>` (prefix `[Status] ` when
+**Email:** subject `Utility Tracker — <D Mon> · <N> high-impact · <three shortest descriptors>` (prefix `[Status] ` when
 RED, `[No sweep] ` for the failure notice). HTML, 400-word target, 600 ceiling. A bold "Sweep incomplete: …" line goes above everything when the audit finds one (13 Oct). Sections, in this order since 5 Oct
 2026 (Rett): **LINKS** (Excel tracker `#dl.xlsx`, narrative PDF `#dl.pdf`, console; "Links open in Claude for anyone at
 Blue Owl; each download asks once to confirm") · UPCOMING MILESTONES (always; URGENT first) · THIS WEEK (3–5 high
@@ -320,6 +324,8 @@ Status | Next Milestone | Next Date | Materiality | Confidence | Appeal | Supers
 Term | Speed | Curtailment | Deliverability | Supply/Demand | Market Participation | Source URL
 ```
 
+- **Header label (13 Oct 2026):** the workbook and CSV head the third column **"Entity"** (`vocab.HEADERS`);
+  the row store, validator and prompts keep the column name **Utility**. Never rename it in the store.
 - **Grain: one row per (event × entity × jurisdiction).** Utility and Jurisdiction are single-valued. Explode
   combined items (SWEPCO TX/LA, Entergy LA/TX, EPE TX/NM, SPS TX/NM, ApCo VA/WV, Evergy KS/MO, Duke NC/SC) and
   keep them adjacent. Combined cells break sorting and filtering, the primary way the workbook is used.
@@ -1030,4 +1036,5 @@ Sub 190 and OH documents were DEFERRED_NEEDS_MANUAL on 5 Oct.
 | 2026-10-13 | Completeness guards after the 12 Oct Sweep skipped required work and misreported itself: `tracker/check_run.py` (gate; tests replay 12 Oct; CI `checks.yml`), `obligations.json` (deadlines and quotas; C-08 triage and baseline links overdue), append-only tariff terms (`tracker/subtables.py`, `tariff_terms_p1.json`; console merges them), `sweep.md` I9/I10, 1.6, 8.5–8.8, 9.3, 11; `brief.md` I10, 2.0 audit, email line; `corrections_queue.md` deadline table; both task prompts updated to match `trigger_*.txt`; the Brief fallback's links-first order restored. §3, §4, §19, §20 |
 | 2026-10-13 (eve) | Byte-exact store loading: `tracker/store_sync.py` (+ tests, CI), `prompts/store_io.md`, the private STORE MIRROR artifact (seeded and verified against the OneDrive listing), `/GridDocket/store_manifest.json`; `sweep.md` 1.1–1.3, 9 (expectedBytes), new 9.5; `brief.md` 0.2–0.3, 2.0 mirror audit, Step 8. Stale prompt facts fixed: baseline vs store size, footer "18 jurisdictions plus federal", Oklahoma I5 (both causes confirmed), new I11 on superlatives. `.gitignore` covers scheduled-run scratch (stop hook). Correction of the 12 Oct GS-5 "heaviest collateral" claim queued in `prompts/brief_corrections.json` for the 19 Oct brief (Step 7 item 1a). Both task prompts updated to match `trigger_*.txt`. |
 | 2026-10-13 (pm) | C-07 backfill quota raised from 15 to 25 items per Sweep (Rett; briefly set to 50, then 25): `sweep.md` 8.7, `corrections_queue.md`, `obligations.json` C-07-quota. Overdue C-08 triage and baseline links left to the 19 Oct Sweep (Rett). |
+| 2026-10-13 (pm) | Rett: tracker column "Utility" relabelled **"Entity"** in the workbook and CSV (`vocab.HEADERS`; store column name unchanged), and the reader-facing name changed from "Grid Docket" to **"Utility Tracker"**: email subject, narrative title and masthead, `Utility_Tracker_MASTER*.xlsx`, `Utility_Tracker_Weekly_<date>.*`, console title. `brief.md` I12, `trigger_brief.txt` I14; §1, §4, §5 |
 | 2026-10-05 (pm) | Live collector run after the fix: Texas 60/60 re-fetched filings recovered; Oklahoma 50 hits confirmed from PDF page 1 (page-text service returns HTTP 500 for them); §8, §16, §18 updated |

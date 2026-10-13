@@ -36,7 +36,7 @@ td { border-bottom: 1px solid #D9D9D9; padding: 3pt 5pt; vertical-align: top; }
 def _html(md_path, asof):
     frag = subprocess.run(["pandoc", md_path, "-f", "gfm", "-t", "html5"], check=True,
                           capture_output=True, text=True).stdout
-    title = "Grid Docket — weekly update"
+    title = "Utility Tracker — weekly update"
     first = open(md_path, encoding="utf-8").readline().strip()
     if first.startswith("#"):
         title = first.lstrip("#").strip()
@@ -45,7 +45,7 @@ def _html(md_path, asof):
         if i >= 0:
             frag = frag[i + 5:]
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body>
-<div class="mast"><p class="eyebrow">Blue Owl Digital Infrastructure · Grid Docket</p>
+<div class="mast"><p class="eyebrow">Blue Owl Digital Infrastructure · Utility Tracker</p>
 <h1>{html.escape(title)}</h1><div class="sub">Week to {html.escape(asof)} · prepared for the BODI deal team</div></div>
 {frag}
 <div class="foot">Verified = primary document read; Reported = secondary source; Unverified figures are never published.

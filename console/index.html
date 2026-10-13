@@ -1,4 +1,4 @@
-<title>Grid Docket Console</title>
+<title>Utility Tracker Console</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: one 1180px reading column of numbered sections under a sticky jump bar; every view is computed
@@ -319,7 +319,7 @@ tr.det td{background:var(--surface-2);padding:.9rem 1.1rem}
 
 <header>
   <p class="eyebrow">Blue Owl Digital Infrastructure</p>
-  <h1>Grid Docket Console</h1>
+  <h1>Utility Tracker Console</h1>
   <div class="meta"><span id="hdrdate">—</span><span>25 UTILITIES · 8 RTOs · 18 JURISDICTIONS</span><span id="hdrcount">—</span></div>
   <div class="dlrow" id="dlrow" hidden><span class="dllbl">Downloads</span><button class="btn" type="button" id="dl-xlsx" hidden>Excel tracker (.xlsx)</button><button class="btn" type="button" id="dl-pdf" hidden>Weekly narrative (.pdf)</button><button class="btn" type="button" id="dl-md" hidden>Narrative (.md)</button><span class="dlmsg" id="dlmsg" role="status"></span></div>
 </header>
@@ -1270,7 +1270,7 @@ function fromHash(){
 window.addEventListener('hashchange',fromHash);
 
 function buildCSV(){
-  const H=["Date","Event ID","Utility","Jurisdiction","Subject","Venue","Instrument","Document",
+  const H=["Date","Event ID","Entity","Jurisdiction","Subject","Venue","Instrument","Document",
     "Headline","Takeaway","Status","Next Milestone","Next Date","Materiality","Confidence",
     "Appeal","Superseded",...LEVORDER,"Source URL"];
   const q=s=>'"'+String(s==null?'':s).replace(/"/g,'""')+'"';
@@ -1291,7 +1291,7 @@ function buildCSV(){
   btn.onclick=async()=>{
     const was=btn.textContent; btn.textContent='Saving…'; btn.disabled=true;
     try{
-      await dl.save({filename:'grid_docket_filtered.csv', data:buildCSV()});
+      await dl.save({filename:'utility_tracker_filtered.csv', data:buildCSV()});
       btn.textContent='Saved';
     }catch(err){
       btn.textContent = err && err.code==='cancelled' ? was : 'Save failed';
@@ -1348,7 +1348,7 @@ async function downloads(d){
     return true;
   };
   const fetchBlob=p=>()=>fetch(p).then(r=>{if(!r.ok)throw new Error('not found');return r.blob();});
-  const xname='Grid_Docket_Tracker_MASTER_'+(d.asof||TODAY)+'.xlsx';
+  const xname='Utility_Tracker_MASTER_'+(d.asof||TODAY)+'.xlsx';
   const any=[
     wire('dl-xlsx',xname,d.table&&window.GridDocketXlsx?async()=>{
       const wb=GridDocketXlsx.build(await excelJS(),d.table,d.asof);
