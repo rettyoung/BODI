@@ -267,7 +267,7 @@ SUSPECT_ZERO after checking explicit negatives) → collector candidates (metada
 NCUC, DCC Bi-Weekly; **newsletter canary**: every newsletter event either gets a row or is recorded
 `CANARY_MISS`) → manual drops → WebFetch routes (6.1 PA; 6.2 AZ PDFs; 6.3 manual-route fallbacks; 6.4 ERCOT
 notices, large-load and planning pages; 6.5 PJM; 6.6 runner-refused pages that open to WebFetch) →
-grain/identity/supersession/dedupe → classify → **required follow-ups before the commit**: tariff-terms delta (8.5), corrections queue (8.6, up to 6 one-off items), C-07 backfill (8.7, 50/run), C-08 new-source history (8.8, 20/run)
+grain/identity/supersession/dedupe → classify → **required follow-ups before the commit**: tariff-terms delta (8.5), corrections queue (8.6, up to 6 one-off items), C-07 backfill (8.7, 25/run), C-08 new-source history (8.8, 20/run)
 → commit (part, manifest, seen index, metrics, tariff delta, obligations) → **completeness gate** (`tracker/check_run.py`, 9.3) → run record → state → repair proposals → report. Target 30 minutes; past 30, only new-candidate reading may be cut. Degraded mode (mail +
 manual + web only) if the clone fails.
 
@@ -416,7 +416,7 @@ newsletter canary; corrections queue.
    metadata only — and party briefs are often filed under an attorney's name (the Microsoft brief reads "Albert H.
    Acken, Atty."). Fix: the collector now enriches ~1,800 substantive items with document text over the next
    ~2 weeks of nightly runs, matching watched parties on the cover page, into `data/backfill/enriched.jsonl`; the
-   Sweep processes 50 per run (15 until 13 Oct), tiers 1–2 first (C-07).
+   Sweep processes 25 per run (15 until 13 Oct), tiers 1–2 first (C-07).
 3. **Baseline-links file** (`data/backfill/baseline_links_2026-10-03.jsonl`, 304 links): links that were already
    on watched pages when the collector first saw them (and were silently baselined). The Sweep triages by title
    and treats on-beat ones as candidates.
@@ -1020,5 +1020,5 @@ Sub 190 and OH documents were DEFERRED_NEEDS_MANUAL on 5 Oct.
 | 2026-10-05 | First full scheduled Sweep and Brief (`rows_p6`, console v9, email). Collector fixes: HTML-instead-of-document detection and per-document re-fetch (152 PUCT files), OCC page-1 PDF fallback, 429 Retry-After. `sweep.md`, `corrections_queue.md`, `SOURCES.md`, `annotations.json` (coverage mark, OK note) and §3, §6–§8, §10, §13, §15, §16, §18–§20 updated; console republished (v10) |
 | 2026-10-05 (am) | Email reordered at Rett's request: LINKS first with direct Excel (`#dl.xlsx`) and narrative PDF (`#dl.pdf`) download links plus the console, STATUS CHECK last. Console gains the `#dl.*` anchors (`console/index.html`, `dlFromHash`); published as version 11. `brief.md`, `trigger_brief.txt` (fallback line) and §3, §4 updated |
 | 2026-10-13 | Completeness guards after the 12 Oct Sweep skipped required work and misreported itself: `tracker/check_run.py` (gate; tests replay 12 Oct; CI `checks.yml`), `obligations.json` (deadlines and quotas; C-08 triage and baseline links overdue), append-only tariff terms (`tracker/subtables.py`, `tariff_terms_p1.json`; console merges them), `sweep.md` I9/I10, 1.6, 8.5–8.8, 9.3, 11; `brief.md` I10, 2.0 audit, email line; `corrections_queue.md` deadline table; both task prompts updated to match `trigger_*.txt`; the Brief fallback's links-first order restored. §3, §4, §19, §20 |
-| 2026-10-13 (pm) | C-07 backfill quota raised from 15 to 50 items per Sweep (Rett): `sweep.md` 8.7, `corrections_queue.md`, `obligations.json` C-07-quota. Overdue C-08 triage and baseline links left to the 19 Oct Sweep (Rett). |
+| 2026-10-13 (pm) | C-07 backfill quota raised from 15 to 25 items per Sweep (Rett; briefly set to 50, then 25): `sweep.md` 8.7, `corrections_queue.md`, `obligations.json` C-07-quota. Overdue C-08 triage and baseline links left to the 19 Oct Sweep (Rett). |
 | 2026-10-05 (pm) | Live collector run after the fix: Texas 60/60 re-fetched filings recovered; Oklahoma 50 hits confirmed from PDF page 1 (page-text service returns HTTP 500 for them); §8, §16, §18 updated |
