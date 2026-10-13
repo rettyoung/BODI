@@ -1,0 +1,14 @@
+{
+ "schema": "grid-docket-brief-corrections-v1",
+ "_doc": "Corrections to statements already SENT in a weekly brief email or narrative. The Brief (brief.md Step 7, item 1a) prints every item here that no earlier brief record lists in corrections_published, once, then records its id. Added only by an interactive session after checking the claim against the store; each item names what was wrong and what the data supports. Never remove an item; its id in a brief record is the proof it went out.",
+ "items": [
+  {
+   "id": "BC-2026-10-12-01",
+   "brief": "2026-10-12",
+   "added": "2026-10-13",
+   "was": "Dominion GS-5: 'Lowest threshold and heaviest collateral in the tracker.'",
+   "line": "Correction to the 12 Oct brief: Dominion's GS-5 collateral ($1.5 million per MVA, 70% waivable) is among the heaviest in the tracker, not the heaviest — APCo's Schedule L.P.S. (24 times the maximum monthly non-fuel bill) and OG&E's proposed XLPL tariff (credit support for 60 months of minimum charges) ask for comparable security. GS-5's 25 MW threshold is the lowest among the tariffs whose terms are recorded; Arizona's XHLF eligibility terms are still being confirmed.",
+   "basis": "tariff_terms.json + tariff_terms_p1.json: Dominion GS-5 (E-20261012-009), ApCo Schedule L.P.S. (E-20260918-145), OG&E XLPL (E-20261012-004); APS XHLF threshold null pending corrections item C-03; obligations AZ-E000054293 (APS reply brief cites an LCA screen of >=25 MW or >=92% load factor)."
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 # Grid Docket — context document
 
 **Weekly large-load and generation regulatory tracker for Blue Owl Digital Infrastructure (BODI).**
-Owner: Rett Young (rett.young@blueowl.com). Rewritten 3 October 2026, updated 13 October 2026; supersedes all earlier
+Owner: Rett Young (rett.young@blueowl.com). Rewritten 3 October 2026, updated 13 October 2026 (evening: byte-exact store loading); supersedes all earlier
 handoff, session and context files.
 
 This is the single reference for anyone (person or Claude session) picking up the project: what it is, the
@@ -108,9 +108,12 @@ webUrl        https://blueowlcap-my.sharepoint.com/personal/rett_young_blueowl_c
 | `obligations.json` | **Deadlines and per-run quotas** carried between Sweeps (schema `grid-docket-obligations-v1`): due date, status (open / done / blocked + evidence), progress per run. The Sweep does anything due or overdue first; `tracker/check_run.py` fails a run that leaves one open. |
 | `backfill_state.json` | The original v1 backfill queue. Stale; corrected by corrections item C-05. |
 | `sweep_lock.json` | Single-writer lock. |
+| `store_manifest.json` | Bytes and a 16-hex sha256 prefix for every store file as last written (schema `grid-docket-store-manifest-v1`). Written last by every run that writes the store (Sweep 9.5; Brief Step 8 after its `last_brief_date` change); loaders check the STORE MIRROR against it and the folder listing (§4, "Byte-exact store I/O"). First written 13 Oct (`by: seed-2026-10-13-interactive`). |
 | `manual_queue.json` | What the next manual pass should read (written by each Sweep). |
 | `runs/<run_id>.json`, `briefs/<date>.json` | One record per run: `2026-10-03-0019` / `2026-10-03` (degraded verification runs), `2026-10-05-1055` / `2026-10-05` (first full scheduled runs). |
 | `README.md` | Folder guide. |
+
+**STORE MIRROR** — private artifact **https://claude.ai/artifact/GiAXCPsEF9zoeT5A8dQjVG** (page `console/store_mirror.html`, files under `store/`): byte-exact copies of every store file above plus `store_manifest.json`, published by each run that writes the store. Transport only: OneDrive stays the record, and nothing is used from the mirror unless it matches the OneDrive listing and manifest. Seeded 13 Oct from two independent transcriptions of each small file (identical sha256), the saved read of `rows_p6`, and the repo's byte-identical `rows_p1..p4`; every file checked against the OneDrive listing sizes.
 
 **Why parts:** a single Graph write is capped at 1,048,576 bytes. Each Sweep writes a **new** part (`rows_p7.json`
 next) and appends it to the manifest. It never rewrites an existing part.
@@ -246,6 +249,7 @@ Any time   Manual pass (desktop app, Rett present) ──► OneDrive /GridDocke
   conflict-fail.
 - **Commit order:** new part → manifest → seen index → metrics/tariffs → run record → `state.json` last. A run
   that dies repeats its window safely (identity + seen index + `manual_ingested` make it idempotent).
+- **Byte-exact store I/O (13 Oct 2026; `prompts/store_io.md`, `tracker/store_sync.py`).** The M365 connector returns a file over ~50 KB as a saved tool result (exact bytes) but a smaller one only inline, so on 12 Oct both runs retyped store files: the Sweep "structurally rebuilt" `rows_p5` with abbreviated prose and the Brief retyped parts 5 and 7, metrics, tariff terms and state, dropping the provenance stamps. Now every load reads the OneDrive listings and `store_manifest.json`, pulls the STORE MIRROR with one Artifact read (files saved to disk byte-exact), runs `store_sync.py verify` (bytes = listing, sha16 = manifest) and reads from OneDrive only what fails — saved results via `extract`, inline ones written exactly and confirmed with `check` (which restores the final newline every inline read drops). Nothing is ever parsed and re-dumped. A CRITICAL file (rows.json, a part, state.json, obligations.json) that cannot be loaded exactly stops the Sweep before any write and makes the Brief RED without republishing the console. Every upload is the text of a local file sent with `expectedBytes`. The Brief audits the mirror: `store_manifest.json` "by" must equal the Sweep's run_id, else an AMBER item.
 - **Immutable parts with overlays.** `supersedes` [{old_event_id, new_event_id, reason}] marks all old rows
   Superseded = Yes; `overlays` [{event_id, column, value, reason}] may change only Status, Next Milestone, Next
   Date, Appeal, Superseded. `tracker/rowstore.py` applies them at load. A substantive change is a new event.
@@ -927,6 +931,8 @@ tables; (8) direct state bill trackers.
 | Loudoun, Reno, Fulton agendas | Not collectable (§10); Loudoun could join the manual pass |
 | Never published (Kansas ESAs, GRDA terms, Entergy absolute GW, confidential filings) | Company disclosure only, or recorded as known unknowns |
 
+**After the 19 Oct runs, check:** the Sweep's report names a new mirror version and `store_manifest.json` "by" = its run_id; the Brief's `store_load` shows `fetched` holding only the Friday manual-pass manifest (anything else means the mirror fell behind); the email carries the BC-2026-10-12-01 correction line once and the brief record lists it in `corrections_published`.
+
 **Next session should first:** check that `backfill_text.doc_retry_still_failing` stays near 0 over the next two
 nights as the remaining ~120 Texas retries run (if `not_document` reappears in new fetches, open its `sample` — a
 throttle message means slow `tx_puct`, not retry harder); `ok_occ` should keep logging "page-1 confirmations by
@@ -981,6 +987,8 @@ Sub 190 and OH documents were DEFERRED_NEEDS_MANUAL on 5 Oct.
   schedule. Use several off-the-hour triggers with a guard so only one does the work, and check out `main` at job
   start. (4 Oct: the 06:17 UTC run started at 12:26 and was first misreported here as skipped — check the run list
   again before calling a run missed.)
+- **Never retype what you can copy.** Small OneDrive reads come back inline only, and both 12 Oct runs "rebuilt" store files by hand, losing prose and stamps without anyone noticing. Keep a byte-exact transport copy (the STORE MIRROR) and verify every file against sizes and hashes the writer recorded; an inline read also silently drops the file's final newline.
+- **The stop hook is the platform's, not ours.** It nags about uncommitted or untracked files in any checkout. The fix is to keep scratch git-ignored (`store_live/`, `work/`, `out/`, root `status.json`, `narrative.md`, `run_record*.json`) and to tell scheduled runs never to commit or push in answer to it.
 - **A run must not grade its own homework.** On 12 Oct the Sweep skipped the tariff update to avoid one more OneDrive
   write, never started two deadline items, blamed "time" at 19 of 30 minutes, and recorded "completed". Nothing outside
   it checked. Now: obligations with due dates, DONE/BLOCKED-with-evidence per step, a mechanical gate
@@ -1020,5 +1028,6 @@ Sub 190 and OH documents were DEFERRED_NEEDS_MANUAL on 5 Oct.
 | 2026-10-05 | First full scheduled Sweep and Brief (`rows_p6`, console v9, email). Collector fixes: HTML-instead-of-document detection and per-document re-fetch (152 PUCT files), OCC page-1 PDF fallback, 429 Retry-After. `sweep.md`, `corrections_queue.md`, `SOURCES.md`, `annotations.json` (coverage mark, OK note) and §3, §6–§8, §10, §13, §15, §16, §18–§20 updated; console republished (v10) |
 | 2026-10-05 (am) | Email reordered at Rett's request: LINKS first with direct Excel (`#dl.xlsx`) and narrative PDF (`#dl.pdf`) download links plus the console, STATUS CHECK last. Console gains the `#dl.*` anchors (`console/index.html`, `dlFromHash`); published as version 11. `brief.md`, `trigger_brief.txt` (fallback line) and §3, §4 updated |
 | 2026-10-13 | Completeness guards after the 12 Oct Sweep skipped required work and misreported itself: `tracker/check_run.py` (gate; tests replay 12 Oct; CI `checks.yml`), `obligations.json` (deadlines and quotas; C-08 triage and baseline links overdue), append-only tariff terms (`tracker/subtables.py`, `tariff_terms_p1.json`; console merges them), `sweep.md` I9/I10, 1.6, 8.5–8.8, 9.3, 11; `brief.md` I10, 2.0 audit, email line; `corrections_queue.md` deadline table; both task prompts updated to match `trigger_*.txt`; the Brief fallback's links-first order restored. §3, §4, §19, §20 |
+| 2026-10-13 (eve) | Byte-exact store loading: `tracker/store_sync.py` (+ tests, CI), `prompts/store_io.md`, the private STORE MIRROR artifact (seeded and verified against the OneDrive listing), `/GridDocket/store_manifest.json`; `sweep.md` 1.1–1.3, 9 (expectedBytes), new 9.5; `brief.md` 0.2–0.3, 2.0 mirror audit, Step 8. Stale prompt facts fixed: baseline vs store size, footer "18 jurisdictions plus federal", Oklahoma I5 (both causes confirmed), new I11 on superlatives. `.gitignore` covers scheduled-run scratch (stop hook). Correction of the 12 Oct GS-5 "heaviest collateral" claim queued in `prompts/brief_corrections.json` for the 19 Oct brief (Step 7 item 1a). Both task prompts updated to match `trigger_*.txt`. |
 | 2026-10-13 (pm) | C-07 backfill quota raised from 15 to 25 items per Sweep (Rett; briefly set to 50, then 25): `sweep.md` 8.7, `corrections_queue.md`, `obligations.json` C-07-quota. Overdue C-08 triage and baseline links left to the 19 Oct Sweep (Rett). |
 | 2026-10-05 (pm) | Live collector run after the fix: Texas 60/60 re-fetched filings recovered; Oklahoma 50 hits confirmed from PDF page 1 (page-text service returns HTTP 500 for them); §8, §16, §18 updated |

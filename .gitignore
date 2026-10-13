@@ -2,3 +2,12 @@
 __pycache__/
 node_modules/
 out/
+# Scheduled-run scratch (prompts/store_io.md "Scratch and the stop hook"): never committed
+store_live/
+work/
+/status.json
+/narrative.md
+/run_record*.json
+/report*.md
+/rows_p*.json
+/tariff_terms_p*.json

@@ -1,0 +1,53 @@
+<title>Grid Docket Store Mirror</title>
+<style>
+/* Layout: one narrow column — what this page is, then the file register as a table. */
+:root{
+  --bg:#f6f7f8; --surface:#ffffff; --ink:#1f3243; --muted:#5b6b78; --rule:#d9dee3; --ok:#2f6b4a; --warn:#8a6414;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12181e; --surface:#19212a; --ink:#e3e9ef; --muted:#93a2af; --rule:#2c3742; --ok:#7cc29a; --warn:#d9b45f; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12181e; --surface:#19212a; --ink:#e3e9ef; --muted:#93a2af; --rule:#2c3742; --ok:#7cc29a; --warn:#d9b45f; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:860px;margin:0 auto;padding-inline:16px;padding-block:28px 40px;display:grid;gap:20px}
+h1{font-size:1.5rem;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.eyebrow{font:600 .72rem/1 var(--f-mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+p{margin:0;max-width:65ch;color:var(--muted)}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;font:.85rem var(--f-mono);color:var(--muted)}
+.meta b{color:var(--ink);font-weight:600}
+.tbl{overflow-x:auto;background:var(--surface);border:1px solid var(--rule);border-radius:6px}
+table{border-collapse:collapse;width:100%;font:.85rem var(--f-mono);font-variant-numeric:tabular-nums}
+th,td{padding:7px 12px;text-align:left;border-bottom:1px solid var(--rule);white-space:nowrap}
+th{font-family:var(--f-body);font-weight:600;font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+td.n{text-align:right}
+tr:last-child td{border-bottom:0}
+.state{color:var(--warn)}
+.state.ok{color:var(--ok)}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<div class="wrap">
+  <div class="eyebrow">Grid Docket · /GridDocket transport copy</div>
+  <h1>Store mirror</h1>
+  <p>Byte-exact copies of the OneDrive row store, published by each Sweep (and the Brief, for state.json) so the next scheduled run can load every file without retyping it. OneDrive remains the system of record: every load checks these copies against the OneDrive folder listing and store_manifest.json, and reads from OneDrive anything that does not match.</p>
+  <div class="meta" id="meta"><span>Loading the manifest…</span></div>
+  <div class="tbl"><table>
+    <thead><tr><th>File</th><th class="n">Bytes</th><th>sha256 (first 16)</th></tr></thead>
+    <tbody id="rows"><tr><td colspan="3">Loading…</td></tr></tbody>
+  </table></div>
+</div>
+<script>
+(function(){
+  var meta=document.getElementById('meta'), rows=document.getElementById('rows');
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  fetch('store/store_manifest.json').then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(function(m){
+    var f=m.files||{}, names=Object.keys(f).sort(), total=0;
+    rows.innerHTML=names.map(function(n){total+=f[n].bytes||0;
+      return '<tr><td>'+esc(n)+'</td><td class="n">'+(f[n].bytes||0).toLocaleString()+'</td><td>'+esc(f[n].sha16||'')+'</td></tr>'}).join('');
+    meta.innerHTML='<span>Written <b>'+esc(m.written||'?')+'</b></span><span>by <b>'+esc(m.by||'?')+'</b></span><span><b>'+names.length+'</b> files · <b>'+total.toLocaleString()+'</b> bytes</span>';
+  }).catch(function(e){
+    meta.innerHTML='<span class="state">The manifest could not be read ('+esc(e.message)+'). Loaders will fall back to OneDrive.</span>';
+    rows.innerHTML='<tr><td colspan="3">No files listed.</td></tr>';
+  });
+})();
+</script>

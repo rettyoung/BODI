@@ -1,6 +1,6 @@
 name: checks
 # Unit tests for the Sweep completeness gate (tracker/check_run.py) and the append-only
-# tariff terms merge (tracker/subtables.py). The replay test must keep failing the 12 Oct run.
+# tariff terms merge (tracker/subtables.py), and byte-exact store loading (tracker/store_sync.py). The replay test must keep failing the 12 Oct run.
 on:
   workflow_dispatch:
   push:
@@ -16,6 +16,9 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: python tests/test_check_run.py
+      - run: python tests/test_store_sync.py
+      - name: Brief corrections file is valid
+        run: python -c "import json; d=json.load(open('prompts/brief_corrections.json')); ids=[i['id'] for i in d['items']]; assert len(ids)==len(set(ids)); assert all(i.get('line') for i in d['items']); print(len(ids), 'corrections')"
       - name: Every required step is named in sweep.md
         run: |
           python - <<'EOF'
