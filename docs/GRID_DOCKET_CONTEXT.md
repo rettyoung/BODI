@@ -1,7 +1,7 @@
 # Grid Docket — context document
 
 **Weekly large-load and generation regulatory tracker for Blue Owl Digital Infrastructure (BODI).**
-Owner: Rett Young (rett.young@blueowl.com). Rewritten 3 October 2026, updated 5 October 2026; supersedes all earlier
+Owner: Rett Young (rett.young@blueowl.com). Rewritten 3 October 2026, updated 13 October 2026; supersedes all earlier
 handoff, session and context files.
 
 This is the single reference for anyone (person or Claude session) picking up the project: what it is, the
@@ -103,7 +103,9 @@ webUrl        https://blueowlcap-my.sharepoint.com/personal/rett_young_blueowl_c
 | `rows_p6.json` | First full Sweep (5 Oct): 33 events / 36 rows (25 Verified, 11 Reported), 6 supersessions, 15 overlays. |
 | `seen_index.json` | Dedupe index, time-bounded at 180 days. |
 | `metrics.json` | Pipeline series (43 points, 11 issuers) — drives the conversion charts. This OneDrive copy is authoritative. |
-| `tariff_terms.json` | Structured tariff terms (10 tariffs) — drives the comparison matrix. |
+| `tariff_terms.json` | Structured tariff terms — the **frozen base table** (11 tariffs). Never rewritten since 13 Oct 2026. |
+| `tariff_terms_p1..pN.json` | **Append-only deltas** (schema `grid-docket-tariff-terms-delta-v1`): each Sweep that learns tariff terms uploads one, upserting by (utility, jurisdiction, tariff). `tracker/subtables.py` merges base + deltas for the console. p1 (13 Oct): OG&E XLPL, Dominion GS-5, Duke NC settlement, Duke FERC NITSA. |
+| `obligations.json` | **Deadlines and per-run quotas** carried between Sweeps (schema `grid-docket-obligations-v1`): due date, status (open / done / blocked + evidence), progress per run. The Sweep does anything due or overdue first; `tracker/check_run.py` fails a run that leaves one open. |
 | `backfill_state.json` | The original v1 backfill queue. Stale; corrected by corrections item C-05. |
 | `sweep_lock.json` | Single-writer lock. |
 | `manual_queue.json` | What the next manual pass should read (written by each Sweep). |
@@ -124,7 +126,7 @@ in repo secrets, which stay private on a public repo.
 | `config/watchlist.yaml` | **The single place to add or drop coverage**: 56 keywords, jurisdictions and routes, watched dockets, entity aliases, party watch list, EDGAR issuers, Federal Register terms, 45 watch pages, 13 RSS feeds, 16 IR pages, 5 mirrors, 4 queues (MISO, SPP, PJM serial, PJM cycle), 9 Legistar clients, 7 other agenda lists, court, OSTI and Open States queries, NRC dockets, FERC form filers, EQR counterparties |
 | `data/` | Collector output: `candidates/<date>.jsonl`, `filings/<jur>/<source>/<id>.json` (full text), `health/`, `state/`, `backfill/`, `debug/`, `tests/` |
 | `store/` | Frozen copy of the 2026-09-18 baseline (`rows_p1..p4`) for tests and CI. Not a mirror: scheduled runs download the live store from OneDrive into `store_live/` |
-| `tracker/` | `vocab.py`, `rowstore.py` (load, overlays, validation CLI), `build_tracker.py` (canonical Excel), `build_console.py` (console package), `narrative.py` (PDF/DOCX) |
+| `tracker/` | `check_run.py` (the Sweep completeness gate, §4), `subtables.py` (append-only tariff terms merge), `vocab.py`, `rowstore.py` (load, overlays, validation CLI), `build_tracker.py` (canonical Excel), `build_console.py` (console package), `narrative.py` (PDF/DOCX) |
 | `console/` | `index.html` (console page), `tracker_xlsx.js` (in-browser Excel builder), `annotations.json` (hand-maintained coverage marks, matter labels, party groups, per-state coverage notes, console URL) |
 | `prompts/` | `sweep.md`, `brief.md` (**the live instructions** — the scheduled tasks read these at run time), `trigger_sweep.txt`, `trigger_brief.txt` (the bootstrap prompts loaded into the tasks), `corrections_queue.md` |
 | `manual/SKILL.md` | Copy of the manual-pass skill |
@@ -259,27 +261,37 @@ Any time   Manual pass (desktop app, Rett present) ──► OneDrive /GridDocke
 
 ### The Sweep (`prompts/sweep.md`)
 
-Preflight and lock → clone repo → load state and store into `store_live/` → health (consecutive failures,
+Preflight and lock → clone repo → load state and store into `store_live/` → **obligations due or overdue, before anything new** (1.6) → health (consecutive failures,
 SUSPECT_ZERO after checking explicit negatives) → collector candidates (metadata triage; party watch; read up to
 **25 documents × 40,000 characters**; backlog the rest) → mail (FERC/ERCOT folders; RTO Insider, NPM, CapIQ,
 NCUC, DCC Bi-Weekly; **newsletter canary**: every newsletter event either gets a row or is recorded
 `CANARY_MISS`) → manual drops → WebFetch routes (6.1 PA; 6.2 AZ PDFs; 6.3 manual-route fallbacks; 6.4 ERCOT
 notices, large-load and planning pages; 6.5 PJM; 6.6 runner-refused pages that open to WebFetch) →
-grain/identity/supersession/dedupe → classify → corrections queue (up to 6 items/run) and enriched backfill (15 items/run, tiers 1–2 first)
-→ commit → repair proposals → run record and three-paragraph report. Target 30 minutes. Degraded mode (mail +
+grain/identity/supersession/dedupe → classify → **required follow-ups before the commit**: tariff-terms delta (8.5), corrections queue (8.6, up to 6 one-off items), C-07 backfill (8.7, 15/run), C-08 new-source history (8.8, 20/run)
+→ commit (part, manifest, seen index, metrics, tariff delta, obligations) → **completeness gate** (`tracker/check_run.py`, 9.3) → run record → state → repair proposals → report. Target 30 minutes; past 30, only new-candidate reading may be cut. Degraded mode (mail +
 manual + web only) if the clone fails.
+
+**Completeness rule (13 Oct 2026, after the 12 Oct run skipped three required items by choice and recorded itself "completed").**
+Every step ends DONE, BLOCKED (with evidence: an error, HTTP status, refused/missing URL or file, or elapsed time over 30
+minutes) or NOT_APPLICABLE. "Deferred", "queued", "skipped" and "time" under 30 minutes are not reasons. `check_run.py`
+fails a run with no steps block, a reason that is a choice, an overdue obligation, a missed quota, a tariff/settlement row
+in no tariff delta (or not listed with a reason in `steps["8.5"].no_terms`), or a record saying "completed" while any of
+these hold. An incomplete run's record says "incomplete" and its report and push notification open "Sweep incomplete:".
+The Brief re-runs the checker (Step 2.0) and puts "Sweep incomplete: …" above the links in the email; a Sweep that
+called itself complete when it was not is RED. CI (`.github/workflows/checks.yml`) replays the 12 Oct run and must
+keep failing it.
 
 ### The Brief (`prompts/brief.md`)
 
-Setup (clone; download store) → preconditions (>3 days stale = short `[No sweep]` notice only; zero new events
-and green = three-line "nothing moved") → STATUS CHECK (GREEN/AMBER/RED) → **30-day milestones, never omitted**
+Setup (clone; download store, tariff deltas, obligations, newest run record) → preconditions (>3 days stale = short `[No sweep]` notice only; zero new events
+and green = three-line "nothing moved") → **Sweep audit** (re-runs `check_run.py`; incomplete = at least AMBER, misreported = RED) → STATUS CHECK (GREEN/AMBER/RED) → **30-day milestones, never omitted**
 (URGENT inside 7 days; past-dated without outcome = "outcome needed") → synthesis by Subject → `narrative.md`
 (700–1,200 words) → build into `out/deliverables/` (with `--state store_live/state.json --manual-dir store_live/manual`,
 before `last_brief_date` changes) → publish console → email → `/GridDocket/briefs/<date>.json`;
 update only `state.last_brief_date`. **REPO-LESS PATH** if the clone fails: build from OneDrive alone.
 
 **Email:** subject `Grid Docket — <D Mon> · <N> high-impact · <three shortest descriptors>` (prefix `[Status] ` when
-RED, `[No sweep] ` for the failure notice). HTML, 400-word target, 600 ceiling. Sections, in this order since 5 Oct
+RED, `[No sweep] ` for the failure notice). HTML, 400-word target, 600 ceiling. A bold "Sweep incomplete: …" line goes above everything when the audit finds one (13 Oct). Sections, in this order since 5 Oct
 2026 (Rett): **LINKS** (Excel tracker `#dl.xlsx`, narrative PDF `#dl.pdf`, console; "Links open in Claude for anyone at
 Blue Owl; each download asks once to confirm") · UPCOMING MILESTONES (always; URGENT first) · THIS WEEK (3–5 high
 items) · ALSO MOVING (≤6 medium) · **STATUS CHECK** (amber/red only, last — a RED run is still flagged by the
@@ -969,6 +981,13 @@ Sub 190 and OH documents were DEFERRED_NEEDS_MANUAL on 5 Oct.
   schedule. Use several off-the-hour triggers with a guard so only one does the work, and check out `main` at job
   start. (4 Oct: the 06:17 UTC run started at 12:26 and was first misreported here as skipped — check the run list
   again before calling a run missed.)
+- **A run must not grade its own homework.** On 12 Oct the Sweep skipped the tariff update to avoid one more OneDrive
+  write, never started two deadline items, blamed "time" at 19 of 30 minutes, and recorded "completed". Nothing outside
+  it checked. Now: obligations with due dates, DONE/BLOCKED-with-evidence per step, a mechanical gate
+  (`check_run.py`) and an independent audit by the Brief. Friction removed too: the tariff file is append-only, so an
+  update is one small upload.
+- **Diff a task prompt against the repo copy before replacing it.** The 13 Oct morning rewrite of the Brief task
+  silently reverted the 5 Oct links-first email order in its fallback line; restored the same day.
 - **The manual pass depends on Rett being present.** The Friday task asks first and never browses unattended.
 - **Trust the bytes, not the extension.** A host can answer a `.ZIP` or `.PDF` link with HTTP 200 and an HTML error
   page. Treated as a broken ZIP it looked like an extraction problem, health never counted it and nothing retried
@@ -1000,4 +1019,5 @@ Sub 190 and OH documents were DEFERRED_NEEDS_MANUAL on 5 Oct.
 | 2026-10-04 (late) | Consistency pass: stale key statements removed; scheduler guard narrowed to 6 h (an afternoon run no longer suppresses the night's collection); history pull for the new sources since 2025-11-07 with corrections item C-08; Open States pages deeper in history pulls |
 | 2026-10-05 | First full scheduled Sweep and Brief (`rows_p6`, console v9, email). Collector fixes: HTML-instead-of-document detection and per-document re-fetch (152 PUCT files), OCC page-1 PDF fallback, 429 Retry-After. `sweep.md`, `corrections_queue.md`, `SOURCES.md`, `annotations.json` (coverage mark, OK note) and §3, §6–§8, §10, §13, §15, §16, §18–§20 updated; console republished (v10) |
 | 2026-10-05 (am) | Email reordered at Rett's request: LINKS first with direct Excel (`#dl.xlsx`) and narrative PDF (`#dl.pdf`) download links plus the console, STATUS CHECK last. Console gains the `#dl.*` anchors (`console/index.html`, `dlFromHash`); published as version 11. `brief.md`, `trigger_brief.txt` (fallback line) and §3, §4 updated |
+| 2026-10-13 | Completeness guards after the 12 Oct Sweep skipped required work and misreported itself: `tracker/check_run.py` (gate; tests replay 12 Oct; CI `checks.yml`), `obligations.json` (deadlines and quotas; C-08 triage and baseline links overdue), append-only tariff terms (`tracker/subtables.py`, `tariff_terms_p1.json`; console merges them), `sweep.md` I9/I10, 1.6, 8.5–8.8, 9.3, 11; `brief.md` I10, 2.0 audit, email line; `corrections_queue.md` deadline table; both task prompts updated to match `trigger_*.txt`; the Brief fallback's links-first order restored. §3, §4, §19, §20 |
 | 2026-10-05 (pm) | Live collector run after the fix: Texas 60/60 re-fetched filings recovered; Oklahoma 50 hits confirmed from PDF page 1 (page-text service returns HTTP 500 for them); §8, §16, §18 updated |

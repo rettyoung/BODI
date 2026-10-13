@@ -3,7 +3,22 @@
 Read by the Sweep (Step 8.6). Each item is a finding from an earlier session. **None of it is to be
 written as fact on this page's say-so**: verify each claim at source, then write the rows / overlays /
 state changes it calls for, or record it REFUTED with the reason. Add the item id to
-`state.corrections_done` either way. Up to 6 items per run, in order.
+`state.corrections_done` either way. Up to 6 items per run, in order (one-off items only; C-07 and C-08 have their
+own per-run quotas, sweep.md 8.7–8.8, and never use up the six).
+
+**Deadlines live in `/GridDocket/obligations.json`** (sweep.md Step 1.6), not only in this file. Every deadline
+below ("in the first two runs", a due date) has an obligation item with a `due_by`; the Sweep does anything due or
+overdue BEFORE new candidates, and `tracker/check_run.py` fails a run that leaves one open. A new deadline added
+here must be added to obligations.json by the next Sweep (Step 1.6a).
+
+| Obligation | Due | State at 2026-10-13 |
+|---|---|---|
+| C-07-baseline-links — finish the baseline-links file | 2026-10-12 | **OVERDUE** (missed by runs 2026-10-05 and 2026-10-12) — first thing in the 19 Oct run |
+| C-08-triage — triage every new-source history line | 2026-10-12 | **OVERDUE** (same) — first thing in the 19 Oct run |
+| C-07-quota — 15 enriched items a run | every run | open |
+| C-08-reads — 20 items a run | every run | open |
+| C-03 — APS XHLF terms | 2026-10-26 | blocked (ACC certificate; manual pass) |
+| AZ-E000054293 — resolve the APS-54 / reply-brief image | 2026-10-26 | open (manual pass) |
 
 ---
 
@@ -118,6 +133,7 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   governors, agencies, IR decks, mirrors) when the collector first saw them — metadata only. Triage by title; for
   any that could postdate 2026-09-18 and look on-beat, WebFetch the link and treat it as a candidate (the ERCOT
   Batch Zero RFIs of 9 and 14 September are likely among them). Finish this file in the first two runs.
+  **OVERDUE since 2026-10-12** (obligation C-07-baseline-links).
 - Mark C-07 done when data/health/latest.json shows backfill_text status "complete" and every enriched item is
   processed or skipped.
 
@@ -128,6 +144,7 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   (9 county/city clients, data-center items), ERCOT large-load materials (meeting decks and monthly operational
   overviews) and LBNL studies (OSTI). The lines are in data/backfill/<date>.jsonl with those `source` values and a
   run_id beginning 2026-10-0; most are metadata-only, and C-07's enrichment does not pick them up.
+- **Triage OVERDUE since 2026-10-12** (obligation C-08-triage); the per-run reads are obligation C-08-reads.
 - Volume (pull of 2026-10-04): ~336 state bills, ~75 court decisions, ~27 Regulations.gov items, ~18 ERCOT documents,
   ~10 county/city items, ~4 studies. Triage EVERY line by title and metadata in the first two runs (cheap — most bills
   and opinions are dismissed on their title); then read or WebFetch at most 20 per run, in this order: county/city actions on data centers (legistar), state bills that became law or passed a chamber

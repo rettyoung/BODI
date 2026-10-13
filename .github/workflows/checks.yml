@@ -1,0 +1,28 @@
+name: checks
+# Unit tests for the Sweep completeness gate (tracker/check_run.py) and the append-only
+# tariff terms merge (tracker/subtables.py). The replay test must keep failing the 12 Oct run.
+on:
+  workflow_dispatch:
+  push:
+    paths: ["tracker/**", "tests/**", "prompts/**", ".github/workflows/checks.yml"]
+concurrency: { group: checks, cancel-in-progress: true }
+permissions: { contents: read }
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python tests/test_check_run.py
+      - name: Every required step is named in sweep.md
+        run: |
+          python - <<'EOF'
+          import re, sys
+          sys.path.insert(0, "tracker")
+          import check_run
+          txt = open("prompts/sweep.md", encoding="utf-8").read()
+          missing = [s for s in check_run.REQUIRED_STEPS if not re.search(rf'(^|\n)(STEP {re.escape(s)} |{re.escape(s)} )', txt)]
+          print("missing from sweep.md:", missing); sys.exit(1 if missing else 0)
+          EOF

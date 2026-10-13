@@ -5,7 +5,8 @@ usage: python build_console.py OUTDIR --asof YYYY-MM-DD [--status status.json] [
 
 OUTDIR receives what the Artifact tool can serve: index.html (with the in-browser
 workbook builder inlined), data.json (events for the views + the full 26-column
-row table the workbook is built from), metrics.json, tariff_terms.json,
+row table the workbook is built from), metrics.json, tariff_terms.json (the base table merged with
+every tariff_terms_pN.json delta in --store, see subtables.py),
 status.json and, with --narrative, narrative.md and the narrative PDF.
 
 The Excel tracker itself cannot be served as an artifact file, so the page builds
@@ -42,6 +43,7 @@ sys.path.insert(0, HERE)
 import rowstore  # noqa
 import build_tracker  # noqa
 import narrative as narr  # noqa
+import subtables  # noqa
 
 XLSX = "Grid_Docket_Tracker_MASTER.xlsx"
 
@@ -215,8 +217,11 @@ def main():
             "coverage": coverage(state, a.manual_dir, a.asof),
             "annotations": ann, "parties": wl.get("parties") or []}
     json.dump(data, open(os.path.join(a.outdir, "data.json"), "w"), ensure_ascii=False)
-    for f in ("metrics.json", "tariff_terms.json"):
-        shutil.copy(os.path.join(a.store, f), os.path.join(a.outdir, f))
+    shutil.copy(os.path.join(a.store, "metrics.json"), os.path.join(a.outdir, "metrics.json"))
+    # tariff_terms.json is append-only: the base table plus every tariff_terms_pN.json delta (subtables.py)
+    merged = subtables.merge(a.store)
+    json.dump(merged, open(os.path.join(a.outdir, "tariff_terms.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    notes["tariff_deltas"] = merged.get("deltas_applied", [])
     page(os.path.join(a.outdir, "index.html"))
     status = json.load(open(a.status)) if a.status else None
     json.dump(status, open(os.path.join(a.outdir, "status.json"), "w"), ensure_ascii=False)
