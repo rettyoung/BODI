@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20261013-5010",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Bartow D Daniel III in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/11/2026\n",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5010",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "1E500699-7933-C0DC-9271-A12D64400000",
+   "name": "151524.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-11"
+ },
+ "collected_at": "2026-10-13T05:00:31Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "Microsoft"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151524.txt",
+   "bytes": 4423,
+   "sha256": "613e8c8ada9ef476b1e835349033ccf716da6a6e675ef3806edb102013af72f7",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nBartow D Daniel III, Wasilla, Ak, AK.\nAlaska Is Our Home, Not Someone Else’s Ecological Disneyland\r\n\r\nI support the responsible development of underwater data centers in Cook Inlet. Alaska deserves the opportunity to investigate new industries, develop its resources intelligently, and participate in the technological economy. I resent attempts to shut down that opportunity through alarming predictions presented as established facts before the necessary studies have been completed.\r\n\r\nThe proposed Cook Inlet project deserves a fair hearing. DeepGreen’s preliminary permit application describes an arrangement of approximately 330 to 350 tidal turbines and 66 underwater data center modules, combining tidal power with subsea cooling. The notice concerns a preliminary permit application; it does not authorize construction. Rejecting the proposal at this stage would mean opposing the opportunity to investigate its feasibility before that investigation produces answers.\r\n\r\nThere is a credible technological basis for exploring the idea. Microsoft’s Project Natick operated an underwater data center off Scotland for two years and reported a server failure rate one-eighth that of its land-based comparison facility. That experiment demonstrated that underwater computing can work. It did not establish that every location, design, or commercial proposal will succeed, but it provides a reason to investigate rather than dismiss the concept.\r\n\r\nThe commercial questions also deserve honest treatment. Reuters reported that Microsoft did not pursue commercial deployment because of customer demand and economic limitations, according to sources familiar with the project. Supporters should acknowledge that experience and demand a credible business plan. Alaska should welcome innovation while requiring developers to substantiate their promises.\r\n\r\nMy objection is to fearmongering: treating a possible adverse outcome as an inevitable catastrophe. Questions about heat, underwater noise, fisheries, marine mammals, and equipment failures deserve investigation. Those questions should lead to baseline measurements, independent analysis, and enforceable operating conditions. A concern identifies something to study; evidence establishes whether, where, and how seriously it threatens the inlet.\r\n\r\nThe same standard must apply to the developer. Claims about clean energy, jobs, public revenue, or benefits to Alaska’s electrical system require documentation. I want to know how much electricity the project would consume, what happens when tidal generation falls, who pays for supporting infrastructure, and what lasting benefits remain in Alaska. Any development should include financial responsibility for removal and restoration. Supporting development means insisting on a project that earns its place here.\r\n\r\nI also resent the attitude, wherever it appears among Lower 48 environmentalists, that Alaska should become their ecological Disneyland: a place preserved according to their preferences while the people who live here bear the economic consequences. Alaska is home to families, workers, businesses, and communities that need affordable energy, dependable infrastructure, and opportunities for the next generation. Our future cannot be reduced to scenery for someone else’s vacation.\r\n\r\nPeople outside Alaska have every right to offer evidence and express concern. Geography does not determine whether an argument is sound. But an outside organization’s preferred vision should not outweigh the lived needs and informed judgment of Alaskans. Local fishermen, Alaska Native communities, coastal residents, and other people whose livelihoods depend on Cook Inlet deserve meaningful influence over the decision.\r\n\r\nEnvironmental protection and economic opportunity both belong in Alaska’s future. I favor a staged approach: study the proposal, test its assumptions, establish safeguards, and permit development if the evidence supports it. Serious findings of unacceptable harm should change the project or stop it. Speculation alone should not close the door.\r\n\r\nI support underwater data centers in Cook Inlet because Alaska deserves the freedom to explore what is possible. Demand proof from developers and critics alike. Protect the inlet through measurable standards and accountability. And respect Alaska as a living state whose residents deserve a voice in building its future.\r\n\r\n"
+  }
+ ]
+}

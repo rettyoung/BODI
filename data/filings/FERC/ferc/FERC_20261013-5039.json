@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261013-5039",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Lisa Radl in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/12/2026\n",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5039",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "5DAF0383-B535-CFA4-9C2F-A132FB300000",
+   "name": "151553.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-12"
+ },
+ "collected_at": "2026-10-13T05:00:19Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151553.txt",
+   "bytes": 809,
+   "sha256": "bb88afad0236504a7ac7ae2277a6bb2983ddad5a0f976777fdb0846b40e8b712",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nLisa Radl, Anchorage, AK.\nPlease do not allow the damaging installment of the proposed DeepGreen Data Center at Cook Inlet. Please preserve the safe waters for wildlife and our community and not spend community energy on data centers. If we were to put something in Coon Inlet it should benefit the community such as a hydroelectric dam to provide energy to Alaska at less damaging and less polluting ways. We do not need an AI data center here but if they have to be built they should be next to the people's homes that are directly benefitting shortterm from them (financially or through agreements for power) and not sacrificing public lands and other people's livelihoods that did not ask not give permission for this. Thank you for your consideration to block the DeepGreen Data Center proposal. \r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261013-5026",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Caroline Berberian in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/12/2026\n",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5026",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "7FFBB1A9-D8D3-CDC5-9DC8-A13189E00000",
+   "name": "151543.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-12"
+ },
+ "collected_at": "2026-10-13T05:00:16Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151543.txt",
+   "bytes": 2452,
+   "sha256": "a9a10f3515db0b6c13807e0976ac51d5cf5fda52c14367d207f32a268784c7dd",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nCaroline Berberian, West Hartford, CT.\nI. Interest of the commenter: My name is Caroline Berberian, and I'm a resident of Connecticut who recently spent five weeks living in Anchorage, just minutes away from the Cook Inlet. The Cook Inlet is a pristine body of water with its own thriving ecosystem. I'm writing today to express my clear concern and opposition towards the Cook Inlet data center, which I believe will threaten both marine life and commercial fishing reliant upon this body of water. \r\n\r\nII: Comments/concerns: \r\nEndangered beluga whales\r\nThe Cook inlet is home to a subset of Beluga whales, of which approximately 400 remain. I am concerned that the 330-350 marine hydrokinetic tidal turbines that the company plans to install and operate will create noise pollution in this body of water, affecting the ability of the beluga whales to communicate with one another. The increased vessel traffic required to place these turbines will likely also cause disruptions in beluga whale navigation and feeding, further affecting this already dwindling population. \r\nCommercial fishing industries\r\nThe Upper and Lower Cook Inlet commercial salmon fisheries represent a multi-million dollar economic endeavor in Alaska, and this body of water supports an estimated 1,300 active commercial fishing permits. In recent years, there have been extremely strong sock eye salmon runs, with harvests generating more than 40 million dollars in total commercial value across different species of salmon in the Cook Inlet. As such, even as a tourist, it is obvious that commercial fishing is essential to the Alaskan way of life. For this reason, I am concerned that the data center would represent a threat to commercial fishing gear, and salmon migration corridors. DeepGreen also failed to mention how their data center may affect salmon runs, especially during slack tides.\r\n\r\nOverall, I worry that this company from the east coast will commodify and irreversibly alter this body of water, profiting from it without having to face any of the environmental consequences that Alaskans will have to deal with daily.\r\n\r\nIII: Conclusions:\r\nFor the reasons stated above, I respectfully request that the Commission prevent any future action with the DeepGreen Cook Inlet data center. \r\n\r\nRespectfully submitted,\r\n\r\nDated: 10/12/2026\r\n\r\nby Caroline Berberian\r\n3 Arnoldale Rd, Apt B2, West Hartford CT, 06119\r\n203-530-5389\r\ncarolineberberian@gmail.com\r\n\r\n\r\n"
+  }
+ ]
+}

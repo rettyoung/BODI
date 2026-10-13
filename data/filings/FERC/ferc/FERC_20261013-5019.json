@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261013-5019",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Elliott Stark in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/12/2026\n",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5019",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "6436BED8-980C-CAE9-9DD3-A130C4500000",
+   "name": "151536.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-12"
+ },
+ "collected_at": "2026-10-13T05:00:25Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151536.txt",
+   "bytes": 795,
+   "sha256": "6ec2f3f3d9b3947ba4f5803622309347109578d52f2f1fc6f47f352534408dc0",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nElliott Stark, Eagle River, AK.\nI stand in staunch opposition to furthering the development of the DeepGreen Cook Inlet Data Center. This project will cause irreparable harm to a fragile ecosystem, and its economic benefits are short-sighted. Will there be an increase in jobs for the community during the duration of construction? Maybe? But this isn't a pipeline; it's technical data center work that will 100% be outsourced out of state.  But what about after that? Are you gonna scuba a hundred people out daily for their shift at the subsea data center? No. The jobs start and end with the raping of our seas. It is disgusting and inconceivable to me that this is even being considered, with how many people recreate within the Cook Inlet and the connecting waterways. Shame on you.\r\n\r\n"
+  }
+ ]
+}

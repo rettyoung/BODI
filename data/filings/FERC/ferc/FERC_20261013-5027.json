@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261013-5027",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of bradley allen pierson in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/12/2026\n",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5027",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "9AABB38B-CE0A-C457-9F66-A1318CC00000",
+   "name": "151545.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-12"
+ },
+ "collected_at": "2026-10-13T05:00:37Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151545.txt",
+   "bytes": 840,
+   "sha256": "c132a16ab8a996ea11b4fe9a86c1a141458f87d6ac9c218fb894429e3e534d20",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nbradley allen pierson, Anchor Point, AK.\nThe short sighted nature of this data center proposal is concerning. Any proposed data center must be above ground and have the following characteristics:\r\nFully independent power source\r\nIndependent water source\r\nGreen belt around the facility to reduce light & sound pollution\r\nReverse osmosis (or similar) water filtration prior to releasing water from containment into the environment\r\nAll potential environmental clean up expenses must be fully funded & in a 3rd party, interest accruing account\r\nZero tax dollars used in development\r\nZero tax exemptions going forward\r\n\r\nI am not inherently opposed to data centers, but the small short term gain the community might receive should not over shadow the ongoing hazards presented. Proper mitigation of the hazards is the only way forward.\r\n\r\n"
+  }
+ ]
+}

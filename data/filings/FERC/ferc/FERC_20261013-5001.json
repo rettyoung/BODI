@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261013-5001",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Sarah julig in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/10/2026\n",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5001",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "0C2B3582-0A34-C492-9DF3-A12426600000",
+   "name": "151504.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-10"
+ },
+ "collected_at": "2026-10-13T05:00:34Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151504.txt",
+   "bytes": 524,
+   "sha256": "61ad1c7e5002fc4f7954f2e2447ec39cf49bdcfabea457ee80a3f998b07f8555",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nSarah julig, anchor point, AK.\nI oppose all data centers in Alaska. But this underwater one has to be the most foolish I have ever heard proposed.  Why would we destroy the most valuable resources ALaska has- animals, nature, quality of life, for a speculative experiment by out of state investors? \r\nAI is a bubble, and will collapse.  We need to work to create real, sustainable long term local economies and greater food and small business security in alaska. We do not need this data center, or any data center. \r\n\r\n"
+  }
+ ]
+}

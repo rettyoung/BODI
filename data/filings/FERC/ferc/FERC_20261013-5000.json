@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261013-5000",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Diane Taylor in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/10/2026\n",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5000",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "39C48AFD-90A7-CC82-90AE-A12410600000",
+   "name": "151503.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-10"
+ },
+ "collected_at": "2026-10-13T05:00:52Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151503.txt",
+   "bytes": 790,
+   "sha256": "c6b2e764bcb7a97fffef589e3033394bf833345b9779ca2aead9e4203104e428",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nDiane Taylor, Kasilof, AK.\nI am strongly opposed to Deepgreens Underwater Data Center Project.  The marine life in Cook Inlet is unique, fragile, and already at risk of extinction.  From the Kenai River King Salmon to the Cook Inlet Beluga Whales, the datacenter would directly conflict with the migration bottle neck for  salmon and belugas. Noise, heat, and copper pollution from this project would add more pressure to this already overburdened habitat. I have lived near Cook Inlet for nearly fifty years and have witnessed first hand how this fragile ecosystem has been impacted. It’s imperative that humanity—you and I—own the stewardship and responsibilities of caring for this amazing place. In conclusion, the Data Center project is NOT a good fit for the Cook Inlet!\r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147912",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC OKs Duke Energy Carolinas’ Large Load Network Upgrade Rules",
+ "filed": "2026-10-13",
+ "url": "//www.rtoinsider.com/147912-ferc-oks-duke-energy-carolinas-large-load-network-upgrade-rules/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " FERC accepted rule changes from Duke Energy Carolinas to cut the risk of cost shifts from network upgrades to serve large loads, but three commissioners agreed that the industry needs more reforms to ensure that does not happen. \n The post  FERC OKs Duke Energy Carolinas’ Large Load Network Upgrade Rules  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-13T05:12:52Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "cost shift",
+  "large load",
+  "network upgrade"
+ ],
+ "party_hits": [],
+ "documents": []
+}

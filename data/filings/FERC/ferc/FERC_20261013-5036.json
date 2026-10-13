@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261013-5036",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Sharon Winter in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/12/2026\n",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5036",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "1E844D8B-38E7-C300-9FAE-A13241F00000",
+   "name": "151529.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-12"
+ },
+ "collected_at": "2026-10-13T05:00:58Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151529.txt",
+   "bytes": 1083,
+   "sha256": "6de9b863b4b806c97a071f6ff358f5a44559cbb05637367fbcd24bbbaab2ab98",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nSharon Winter, Eagle River, AK.\nI have knowledge of folks that have worked for several oil & gas companies that were FERC regulated.  The FERC regulations we followed protected people, property and especially the environment in the area that we produced and transported both natural gas and liquids.  The concern I have with this proposal to install a data center utilizing the cold waters of Alaska's Cook Inlet is extremely detrimental to the entire Alaskan ecosystem.  The cooling requirements of this project will most certainly warm up the waters in Cook Inlet, where we have Beluga and Humpback whales that frequent these waters for feeding.  Any additional water temperature increases will most definitely negatively affect the production of Krill and other food necessary for sustenance of our ocean mammals (Toothed & Baleen Whales, Walruses, Sea Lions, Seals & Sea Otters), in addition to negatively affecting the runs of King, Sockeye, Coho, Pink & Chum salmon.  Subsistence is a way of life here in Alaska and any threat to that way of living cannot be tolerated.\r\n\r\n"
+  }
+ ]
+}

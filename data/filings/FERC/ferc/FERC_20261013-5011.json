@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261013-5011",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Julia Duchan in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/11/2026\n",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5011",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "824EC67B-7773-C866-919A-A12DEEA00000",
+   "name": "151526.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-11"
+ },
+ "collected_at": "2026-10-13T05:00:46Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151526.txt",
+   "bytes": 2785,
+   "sha256": "bdf9c0f303cd3d7e80605f87edb2ea9969df05ffdeb57424edf1f11020c87c17",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJulia Duchan, Huntington Woods, MI.\nOptional: Thank you for the opportunity to comment on docket no. P-15423-000. My name is Julia and I am a 16 year old environmental activist from Detroit, Michigan.\r\n\r\nI urge the Federal Energy Regulatory Commission to deny the preliminary permit for the DeepGreen Cook Inlet Subsea-Compute & Infrastructure Hub (docket no. P-15423-000). The permit would authorize activities that pose a risk to salmon, plankton, the endangered Cook Inlet beluga whales, and other marine life. \r\n\r\nAlthough this application seeks a preliminary permit, the surveys and studies undertaken to evaluate the project could themselves affect belugas through vessel traffic, underwater noise, and other disturbances. Beluga whales in this area are highly endangered, with less than 400 remaining, it is vital to consider the necessity of this species in future construction plans. Cook Inlet belugas are extremely sensitive to impacts in their habitat and continue to face such significant cumulative threats. \r\n\r\nThe technology of DeepGreen Cook Inlet Subsea-Compute & Infrastructure Hub poses a risk to all marine life. Construction in the Forelands bottleneck will create waste heat whether passive cooling technology is introduced or not. This may affect the health or behavior of organisms in the area. There is a lack of information on how the heat produced by the data center could influence salmon runs. The passive cooling technology also includes the use of PFAs and copper that will be detrimental to salmon and additional marine life. Copper is extremely toxic to salmon which in turn could affect the $10 million dollar fishing industry of the Alaskan Community. \r\n\r\nWhen hearing how the belugas in Cook Inlet are being neglected, I feel concerned for how the community may also be neglected in the process and production of this data center. The world deserves better than destroying the environments of animals and organisms that have done nothing but exist and it is a tragedy that it has come down to public comments to create change. As people that are creating things that alter the lives of more than just other humans but animals too, it must be necessary to consider how what we are doing impacts not only the fisheries and other humans but the animals on which ecosystems thrive. While advancements may seem exciting, we must ask what it will cost those who have no say in how their habitats change\r\n\r\nFor these reasons, the commission should *not* approve the permit. If FERC nevertheless proceeds, it must ensure robust measures to avoid impacts to marine organisms and their environment–including but not limited to salmon, plankton, and beluga whales– and ensure full compliance with applicable environmental laws.\r\n\r\nThanks,\r\nJulia\r\n\r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261013-5008",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Kaitlyn Mentzer in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/11/2026\n",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5008",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "0A434B63-D2E9-C37E-922C-A12CE4600000",
+   "name": "151522.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-11"
+ },
+ "collected_at": "2026-10-13T05:00:49Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151522.txt",
+   "bytes": 2999,
+   "sha256": "f08fbb9940afaad58b799326801de5c7c26f84e04b850d65be053bb8f54ffbfa",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nKaitlyn Mentzer, Veneta, OR.\nRe: Opposition to DeepGreen Western Passage Preliminary Permit Application, Project No. P-15424-000\r\n\r\nTo the Federal Energy Regulatory Commission:\r\n\r\nI am writing to express my opposition to the preliminary permit application for the proposed DeepGreen Western Passage underwater data center and tidal energy project near Eastport, Maine.\r\n\r\nAlthough I live in Oregon, I believe the protection of endangered marine species and the health of our nation's coastal ecosystems are matters of national concern. I am particularly troubled by the proposal to install submerged data center infrastructure in waters used by the critically endangered North Atlantic right whale.\r\n\r\nI recognize the need for technological innovation and more energy-efficient computing infrastructure. However, innovation should not come at the expense of vulnerable wildlife or ecosystems that we do not yet fully understand.\r\n\r\nBefore allowing this project to advance, I urge the Commission to carefully consider the following concerns:\r\n\r\n- Underwater noise and vibration: The potential effects of construction, tidal turbines, and ongoing equipment operation on whale communication, navigation, feeding, and behavior.\r\n- Thermal pollution: How heat released from submerged servers could affect local water temperatures, marine habitats, and the organisms that depend on them.\r\n- Vessel traffic and collision risks: Whether construction and maintenance activities would increase risks to whales and other marine mammals.\r\n- Cumulative environmental impacts: How this project could interact with existing vessel traffic, fisheries, industrial activities, and other pressures on the Bay of Fundy ecosystem.\r\n- Safer alternatives: Whether the project's objectives could be achieved through land-based facilities or other locations with fewer ecological risks.\r\n\r\nNorth Atlantic right whales are already facing an extremely precarious future. Their remaining habitat should not become a testing ground for industrial infrastructure without compelling scientific evidence that the risks can be adequately prevented.\r\n\r\nI respectfully request that FERC decline the preliminary permit unless the environmental concerns raised here can be appropriately addressed. I also urge the Commission to require a comprehensive, scientifically rigorous environmental review, including meaningful consultation with relevant wildlife agencies, before considering any future construction authorization.\r\n\r\nIf the developer cannot demonstrate that the proposed activities would avoid unacceptable harm to protected species and the marine environment, the project should not proceed at this location.\r\n\r\nTechnological progress and environmental stewardship do not have to be competing priorities. We should demand solutions that accomplish both, particularly when the survival of an endangered species may be at stake.\r\n\r\nThank you for considering my comments.\r\n\r\nSincerely,\r\n\r\nKaitlyn Mentzer\r\nVeneta, Oregon\r\n\r\n"
+  }
+ ]
+}

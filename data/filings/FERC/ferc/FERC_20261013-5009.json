@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261013-5009",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Danielle Moll in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/11/2026\n",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5009",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "E55D07C4-2C56-C307-9EE6-A12D09D00000",
+   "name": "151523.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-11"
+ },
+ "collected_at": "2026-10-13T05:00:28Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151523.txt",
+   "bytes": 633,
+   "sha256": "839e2b5e015453d1cd42c88706c92ac3e8434d03e5b7ebfc3c2c25a167bee1fd",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nDanielle Moll, Palmer, AK.\nTo whom it may concern,\r\nI am an Alaskan who is very much against this proposed data center in the Cook Inlet! There is 0 benefit to Alaskans for this hyperscale underwater data center to be built. This will be devastating for the whole state in general when it comes to our salmon fishing, the endangered beluga whales that frequent the Cook Inet, & our waters. This will bring pollution, EMF that will harm aquatic wildlife, & who knows what other ecological issues. Alaska is not a state for data centers at all. We do not want them here! There is 0 need for AI hyperscale data centers anywhere!\r\n\r\n"
+  }
+ ]
+}

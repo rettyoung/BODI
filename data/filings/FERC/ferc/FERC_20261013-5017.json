@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261013-5017",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Cynthia Pickard in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/12/2026\n",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5017",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "34EDD316-7697-C4F2-919E-A130AF400000",
+   "name": "151534.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-12"
+ },
+ "collected_at": "2026-10-13T05:00:43Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "community impact",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151534.txt",
+   "bytes": 1973,
+   "sha256": "45f4e514f21e49960708b3bace4d1f18dccd746adf94c8f235dca5d9cf04c428",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nCynthia Pickard, Wasilla, AK.\nOpposition to DeepGreen Cook Inlet Subsea Data Center and Tidal Turbine Project P-15423   \r\nTo: Federal Energy Regulatory Commission (FERC)\r\nDear FERC Secretary and Commissioners,\r\nI am writing to express my strong opposition to the preliminary permit application submitted by DeepGreen Cook Inlet for a 100-megawatt subsea artificial intelligence data center and tidal turbine installation in Upper Cook Inlet. [1, 2]\r\nThis project poses severe and unacceptable risks to Alaska’s environment, wildlife, and commercial fisheries:\r\nThreats to Endangered Species: The project area overlaps directly with critical habitat for the endangered Cook Inlet beluga whale, as well as other marine mammals. Industrializing the seafloor with up to 350 underwater turbines, 66 AI server \"hives,\" subsea cables, and scour-protection infrastructure threatens to disrupt marine life through noise, electromagnetic fields, and physical entanglement or displacement. [1, 2]\r\nImpacts on Commercial and Subsistence Fisheries: Cook Inlet supports vital commercial, sport, and subsistence salmon and marine fisheries. Massive tidal turbine arrays and large-scale water diversion for cooling risk damaging fragile benthic and pelagic habitats upon which local fishing economies and indigenous cultures depend. [1]\r\nPrecedential and Environmental Concerns: Allowing private developers to stake claims over public waters for speculative, high-energy-demand AI infrastructure—without a comprehensive cumulative review of ecological and community impacts—sets a dangerous precedent for Alaska's marine ecosystems.\r\nFor these reasons, I urge the Federal Energy Regulatory Commission to deny the preliminary permit application for DeepGreen Cook Inlet and prioritize the protection of Cook Inlet’s marine life, fishing communities, and public waters over private tech infrastructure.\r\nSincerely,\r\nCynthia Pickard \r\nWasilla, Alaska\r\nI_be_sam2010@hotmail.com\r\n\r\n"
+  }
+ ]
+}

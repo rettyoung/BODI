@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147920",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC Rejects PJM Interim Resource Adequacy Service Proposal",
+ "filed": "2026-10-13",
+ "url": "//www.rtoinsider.com/147920-ferc-rejects-pjm-interim-resource-adequacy-service-proposal/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " FERC rejected PJM’s Interim Resource Adequacy Service framework for requiring new large loads to either bring their own new capacity or be subject to curtailment. \n The post  FERC Rejects PJM Interim Resource Adequacy Service Proposal  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-13T05:12:52Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "curtailment",
+  "large load",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": []
+}

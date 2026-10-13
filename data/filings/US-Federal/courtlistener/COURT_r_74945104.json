@@ -1,0 +1,22 @@
+{
+ "id": "COURT:r:74945104",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "1:26-cv-00518",
+ "title": "CENTRAL MAINE POWER COMPANY v. BARTLETT",
+ "filed": "2026-10-09",
+ "url": "",
+ "fetch": [],
+ "meta": {
+  "court": "District Court, D. Maine",
+  "query": "\"data center\" AND (\"public service commission\" OR \"corporation commission\" OR \"public utility commission\")"
+ },
+ "collected_at": "2026-10-13T05:25:14Z",
+ "run_id": "2026-10-13-0457",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}
