@@ -86,6 +86,25 @@ def test_round_trip_verifies_and_flags_changes():
         assert "runs/2026-10-03-0019.json" not in v["fetch"], "only the newest four run records are required"
 
 
+def test_listing_parses_run_together_entries():
+    # The connector printed the /GridDocket/ listing this way on 2026-10-13: no separator between entries.
+    d = "file:///b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmmeISO/"
+    text = ("briefs (folder, 9159 bytes) " + d + "01MLUCMYPB3OSQIZONA5FLUGQHMAZGKC3U"
+            "manual_queue.json (file, 8145 bytes) " + d + "01MLUCMYID6L7WWXZPNBHZ2GD6KTPJP7SI"
+            "rows_p7.json (file, 32167 bytes) " + d + "01MLUCMYKRTKKOA3Z3NRAKFZZOII7TOGCX"
+            "store_manifest.json (file, 2024 bytes) " + d + "01MLUCMYPYYNOS4JJFD5HLCNUNWS6PWVME")
+    with tempfile.TemporaryDirectory() as tmp:
+        for name, body in (("joined.txt", text), ("lines.txt", text.replace("01MLUCMYPB3OSQIZONA5FLUGQHMAZGKC3U",
+                                                                              "01MLUCMYPB3OSQIZONA5FLUGQHMAZGKC3U\n"))):
+            t, out = os.path.join(tmp, name), os.path.join(tmp, name + ".json")
+            open(t, "w").write(body)
+            assert run("listing", t, "--out", out).returncode == 0
+            got = json.load(open(out))
+            assert got == {"manual_queue.json": {"bytes": 8145, "uri": d + "01MLUCMYID6L7WWXZPNBHZ2GD6KTPJP7SI"},
+                           "rows_p7.json": {"bytes": 32167, "uri": d + "01MLUCMYKRTKKOA3Z3NRAKFZZOII7TOGCX"},
+                           "store_manifest.json": {"bytes": 2024, "uri": d + "01MLUCMYPYYNOS4JJFD5HLCNUNWS6PWVME"}}, got
+
+
 def test_extract_saved_result_is_exact():
     with tempfile.TemporaryDirectory() as tmp:
         body = '{"a": "§ — \\n é"}\n'

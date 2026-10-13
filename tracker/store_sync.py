@@ -62,8 +62,12 @@ MANUAL_MANIFEST_RE = re.compile(r"^manual_[^_]+\.json$")
 # Files a build cannot do without. A failure on one of these stops the run (sweep I1 / brief I1).
 CRITICAL = ["rows.json", "rows_p*.json", "state.json", "obligations.json"]
 
-LIST_RE = re.compile(r"^\s*(?P<name>[^\s()][^()]*?)\s+\((?P<kind>file|folder),\s*(?P<bytes>\d+)\s+bytes\)"
-                     r"(?:\s+(?P<uri>file:///\S+))?", re.M)
+# One entry per "name (file|folder, N bytes) file:///<driveId>/<itemId>". The connector sometimes prints the
+# entries one per line and sometimes runs them together with no separator (seen 13 Oct), so entries are not
+# anchored to line starts: a Graph item id is always "01" + 32 upper-case letters/digits, which is where the
+# previous entry ends and the next name begins.
+LIST_RE = re.compile(r"(?P<name>[^\n()]+?)\s+\((?P<kind>file|folder),\s*(?P<bytes>\d+)\s+bytes\)"
+                     r"(?:[ \t]*(?P<uri>file:///[^/\s]+/01[0-9A-Z]{32}))?")
 
 
 def sha16(path):
