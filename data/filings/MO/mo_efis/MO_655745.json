@@ -1,0 +1,37 @@
+{
+ "id": "MO:655745",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "329",
+ "filed": "2026-10-13",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/655745",
+ "fetch": [
+  {
+   "mo_filing": "655745"
+  }
+ ],
+ "collected_at": "2026-10-14T05:25:53Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/893801",
+   "error": "blocked: block page (incapsula) at https://www.efis.psc.mo.gov/Document/Display/893801"
+  },
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/893802",
+   "name": null,
+   "bytes": 79187,
+   "sha256": "cc6d7d3fc4bb29666a990b27c8b4f377675e47ccfe45d08aed6ef28a2bdccf51",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                 BEFORE THE PUBLIC SERVICE COMMISSION\n                       OF THE STATE OF MISSOURI\n\nIn the Matter of Evergy Metro, Inc. d/b/a Evergy      )\nMissouri Metro’s Request for Authority to Implement   )      File No. ER-2026-0143\na General Rate Increase for Electric Service          )\n\n                    NOTICE OF SARAH L.K. LANGE ERRATA SHEET\n\n1.    Exhibit 177, Conforming Direct Testimony of Sarah L.K. Lange\n      Page 7, Line 8: “MW” should be “kW”.\n\n2.    Exhibit 167, Surrebuttal/True Up Direct Testimony of Sarah L.K. Lange\n      Page 8, Line 18: ***            *** should be ***            ***.\n      Page 38, Line 19: ***             *** should be ****            ***.\n      Page 39, Line 4: ***             *** should be ***           ***.\n      Page 39, Line 10: ***             *** should be ***            ***.\n      Page 39, Line 20: ***             *** should be ***            ***.\n      Page 40, Lines 6-8: With the change in numbers above, the chart on page 40 should\n      be the chart below:\n\n\n\n\n                                           1\n\n                     *** Denotes Highly Confidential Information ***\n\f***\n\n\n\n\n***\n\n\n3.    Exhibit 170, True-Up Rebuttal Testimony of Sarah L.K. Lange\n      Page 4, Line 18: ***           *** should be ***            ***.\n      Page 7, Line 4: ***           *** should be ***            ***.\n\n      WHEREFORE, Staff submits this Notice of Errata to the Commission.\n\n\n\n\n                                         2\n\f                                                      Respectfully submitted,\n\n                                                      /s/ Tracy D. Johnson\n                                                      Tracy D. Johnson\n                                                      Deputy Counsel\n                                                      Missouri Bar No. 65991\n\n                                                      Travis J. Pringle\n                                                      Chief Deputy Counsel\n                                                      Missouri Bar No. 71128\n\n                                                      Attorneys for the Staff of the\n                                                      Missouri Public Service Commission\n                                                      P.O. Box 360\n                                                      Jefferson City, Mo 65102-0360\n                                                      (573) 526-5343 (Telephone)\n                                                      (573) 526-1500 (Facsimile)\n                                                      (Email) tracy.johnson@psc.mo.gov\n\n\n                              CERTIFICATE OF SERVICE\n\n      I hereby certify that copies of the foregoing have been mailed, hand-delivered,\ntransmitted by facsimile or electronically mailed to all counsel of record this 13th day\nof October 2026.\n\n                                                 /s/ Tracy D. Johnson\n\n\n\n\n                                           3\n\f"
+  }
+ ]
+}

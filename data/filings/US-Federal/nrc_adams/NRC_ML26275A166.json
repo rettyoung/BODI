@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26275A166",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): Submittal of Letter from the Department of Energy to Long Mott Energy, LLC Confirmation of Active and Good Faith Negotiations for Disposal Contract with Long Mott Energy, LLC for Project Long Mott, X-energy Xe-100 Reactors, to be located at Dow Chemical [['Letter']]",
+ "filed": "2026-10-13",
+ "entity": [
+  "Long Mott Energy, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2627/ML26275A166.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26275A166.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26275A166",
+  "document_date": "2026-10-02"
+ },
+ "collected_at": "2026-10-14T05:08:28Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26275A166.pdf",
+   "name": null,
+   "bytes": 133609,
+   "sha256": "060dafad9b1793281673e012ba275b71b5cc098525a59aa223e1fc0b3bf0a376",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "\u000e\u0018\u0012\u001b\u001a\u0015\u0014\u0017\u0001\u000f\u0017\u001c\u0013\u0016\u0018\u0019\u0013\u0001\u0011\u000e \u0001\u0003\u0003\u0005\u0005\u0010 \u0003\u0007\u0002\u0006\u0004\u000f \u0002 \u0005\u000e\u0007\u0002 \u0006 \u0005\u0002   \b\u0005\u0006\b\u0003 \u0006 \b\u0005\n\n\n\n                                                                                         Long Mott Energy, LLC\n                                                        Long Mott Energy®                   221 H. H. Dow Way\n                                                                                            Midland, MI 48674\n\n             October 2, 2026                                                              2026-PLM-NRC-016\n             Docket No. 50-614\n\n             ATTN: Document Control Desk\n             U.S. Nuclear Regulatory Commission\n             Washington, DC 20555-0001\n\n             Subject:          Submittal of Letter from the Department of Energy to Long Mott Energy, LLC\n                               “Confirmation of Active and Good Faith Negotiations for Disposal Contract with\n                               Long Mott Energy, LLC for Project Long Mott, X-energy Xe-100 Reactors, to be\n                               located at Dow Chemical Company's Seadrift, Texas facility”\n\n\n             Long Mott Energy, LLC (LME), hereby submits a letter from the Department of Energy to Long\n             Mott Energy, LCC (LME) on November 6, 2024 confirming LME is actively and in good faith\n             negotiations with the Secretary of Energy for a contract under section 302(b) of the Nuclear\n             Waste Policy Act of 1982, as amended (“NWPA”).\n             This letter contains no commitments. Should you have any questions or require additional\n             information, please contact Mark Feltner at mfeltner@dow.com.\n             I declare under penalty of perjury that the foregoing is true and accurate. Executed on this 2nd day\n             of October 2026.\n\n             Sincerely,\n\n\n\n             Charles R. O’Connor\n             Sr. Director, Engineering and Projects\n             Long Mott Energy, LLC\n\n             Enclosures:\n             1) Letter from the Department of Energy to Long Mott Energy, LLC “Confirmation of Active and\n                Good Faith Negotiations for Disposal Contract with Long Mott Energy, LLC for Project Long\n                Mott, X-energy Xe-100 Reactors, to be located at Dow Chemical Company's Seadrift, Texas\n                facility”\n\n\n\n\n                                                              General Business\n\f\u000e\u0018\u0012\u001b\u001a\u0015\u0014\u0017\u0001\u000f\u0017\u001c\u0013\u0016\u0018\u0019\u0013\u0001\u0011\u000e \u0001\u0003\u0003\u0005\u0005\u0010 \u0003\u0007\u0002\u0006\u0004\u000f \u0002 \u0005\u000e\u0007\u0002 \u0006 \u0005\u0002   \b\u0005\u0006\b\u0003 \u0006 \b\u0005\n\n\n\n                                                                                              Long Mott Energy, LLC\n                                                        Long Mott Energy®                        221 H. H. Dow Way\n                                                                                                 Midland, MI 48674\n\n\n\n                  cc:\n                  Long Mott Energy, LLC:                                U.S. Department of Energy:\n                  Kreshka Young                                         Mark Natale\n                  Charles O’Connor                                      David Yarwood\n                  Mark Feltner\n                  Wayne Blaylock\n                  Edward Stones\n                  Evan Blankenau\n                  Andrew Switalski\n\n\n\n\n                  X Energy, LLC:                                        U.S. Nuclear Regulatory Commission:\n\n                  David Bannister                                       Alissa Neuhausen\n                  Dragan Popovic                                        Travis Tate\n                  Steve Miller                                          Adrian Muñiz\n                  Rob Taylor                                            Ondra Dukes\n                  David Royer                                           Richard Rivera\n                  Steve Vaughn                                          Kristin McElwee\n                  Jessica Maddocks                                      Stephanie Devlin-Gill\n                                                                        John Monninger, NRC Region IV\n\n\n\n\n                                                              General Business\n\f"
+  }
+ ]
+}

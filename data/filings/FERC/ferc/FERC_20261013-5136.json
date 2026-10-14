@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261013-5136",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67",
+ "title": "(doc-less) Out-of-Time Motion to Intervene of Advantage Capital Renewables, LLC under EL26-67.",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5136",
+ "entity": "Advantage Capital Renewables, LLC; Advantage Capital Renewables, LLC",
+ "fetch": [
+  {
+   "ferc_file": "41BF1830-E9FA-C16F-9EBE-A1359E000000",
+   "name": "1797181_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-10-12"
+ },
+ "collected_at": "2026-10-14T05:18:43Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1797181_Interv.txt",
+   "bytes": 3310,
+   "sha256": "0cbc5988a599ea284ba7a51e56a6138fd47a112aa66a8fb97a45696a8929396a",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Out-of-Time Motion to Intervene of Advantage Capital Renewables, LLC under EL26-67-000.\r\n\r\nSubmission Date:        10/12/2026 3:51:33 PM\r\n\r\nFiled Date:             10/13/2026 8:30:00 AM\r\n\r\nDockets\r\n-------\r\nEL26-67-000          206 Investigation\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nAdvantage Capital Renewables, LLC        sshparber@mintz.com                                                              \r\nAdvantage Capital Renewables, LLC        OBustami@mintz.com                                                               \r\n\r\nBasis for Intervening:\r\nPursuant to Rules 212 and 214 of the Federal Energy Regulatory Commission’s (“Commission”) Rules of Practice and Procedure, 18 C.F.R. §§ 385.212, 385.214 (2026), Advantage Capital Renewables, LLC (“Advantage Renewables”) respectfully files this motion to intervene out-of-time (“Motion”) in Docket No. EL26-67-000.\r\n\r\nAdvantage Renewables aims to bring businesses, jobs, and technologies to communities that have historically lacked access to investment by financing and developing high-impact, utility-scale solar and energy storage projects that expand access to clean energy solutions.\r\n\r\nOn June 18, 2026 the Commission instituted a show cause proceeding pursuant to section 206 of the Federal Power Act based on its finding that PJM Interconnection, L.L.C.’s existing Open Access Transmission Tariff appears to be unjust, unreasonable, or unduly discriminatory or preferential.  This proceeding will address issues that materially affect how large loads obtain access to electric infrastructure, the timelines and process applicable to such service, and the allocation of costs associated with serving growing electricity demand.\r\n\r\nGood cause exists to grant the Motion and permit Advantage Renewables to intervene out-of-time. Advantage Renewables’ members develop, own, operate, support, power, interconnect, and/or rely upon facilities whose operations, investments, and future development may be directly and materially affected by the Commission’s action in this proceeding. Accordingly, Advantage Renewables has a substantial and direct interest in the issues presented, and Advantage Renewables’ participation will assist the Commission by providing the perspective of an entity whose business activities are closely tied to reliable, timely, and nondiscriminatory access to electric infrastructure.\r\n\r\nGranting Advantage Renewables’ intervention out-of-time will not disrupt this proceeding, cause prejudice to any party, or impose any additional burden upon the Commission or any participant. The proceeding remains at an early stage such that Advantage Renewables’ participation can be accommodated without delay, and Advantage Renewables agrees to accept the record of the proceeding as it exists as of the date of its intervention. Additionally, Advantage Renewables’ interests are not adequately represented by any other party. Advantage Renewables respectfully requests that the Commission grant its Motion in this proceeding.\r\n"
+  }
+ ]
+}

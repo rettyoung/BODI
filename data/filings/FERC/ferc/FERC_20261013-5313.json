@@ -1,0 +1,60 @@
+{
+ "id": "FERC:20261013-5313",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-6509",
+ "title": "PacifiCorp submits Board of Consultants Meeting No. 10 Report re the Emergency Spillway Replacement Project of the Viva Naughton Hydroelectric Project under P-6509.",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5313",
+ "entity": "PacifiCorp",
+ "fetch": [
+  {
+   "ferc_file": "8CFA3955-3B69-C816-93F4-A13689A00000",
+   "name": "Viva Naughton Dam BOC Report for Meeting #10 V11 - Final.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "801D712C-03ED-C365-9887-A13689A00000",
+   "name": "VVN BOC Mtg No.10 Presentation.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "D34836AF-1205-CF49-A101-A13689A00000",
+   "name": "VVN BOC Mtg No.10 Transcript.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-10-13"
+ },
+ "collected_at": "2026-10-14T05:19:49Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "emergency",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '8CFA3955-3B69-C816-93F4-A13689A00000', 'name': 'Viva Naughton Dam BOC Report for Meeting #10 V11 - Final.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '801D712C-03ED-C365-9887-A13689A00000', 'name': 'VVN BOC Mtg No.10 Presentation.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'D34836AF-1205-CF49-A101-A13689A00000', 'name': 'VVN BOC Mtg No.10 Transcript.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

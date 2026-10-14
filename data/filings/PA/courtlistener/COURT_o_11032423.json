@@ -1,0 +1,20 @@
+{
+ "id": "COURT:o:11032423",
+ "jur": "PA",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "16 WAP 2026",
+ "title": "Hommrich, D., Aplt. v. PUC",
+ "filed": "2026-10-13",
+ "url": "https://www.courtlistener.com/opinion/11032423/hommrich-d-aplt-v-puc/",
+ "fetch": [],
+ "meta": {
+  "court": "Supreme Court of Pennsylvania",
+  "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+ },
+ "collected_at": "2026-10-14T05:44:40Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

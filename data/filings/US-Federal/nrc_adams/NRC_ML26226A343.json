@@ -1,0 +1,35 @@
+{
+ "id": "NRC:ML26226A343",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000617",
+ "title": "Holtec Pioneer 2 (SMR-300 at Palisades): FRN - Pioneer Units 1 and 2 Limited Work Authorization Application - First Notice [['Federal Register Notice']]",
+ "filed": "2026-10-13",
+ "entity": [
+  "NRC/OAR/DDLP/DARL/ARLB2"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2622/ML26226A343.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2622/ML26226A343.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Holtec Pioneer 2 (SMR-300 at Palisades)",
+  "accession": "ML26226A343",
+  "document_date": "2026-10-01"
+ },
+ "collected_at": "2026-10-14T05:16:40Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "SMR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2622/ML26226A343.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2622/ML26226A343.pdf"
+  }
+ ]
+}

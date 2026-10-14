@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=148184",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Virginia Decides Who Pays for Data Center Hookups but not the Upgrades",
+ "filed": "2026-10-13",
+ "url": "//www.rtoinsider.com/148184-virginia-decides-who-pays-data-center-hookups-but-not-upgrades/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Virginia regulators have settled the simple part of who pays for the power lines that data centers need and put off the expensive part. The simple part is the hookup, says opinion writer Tommy Turner. \n The post  Virginia Decides Who Pays for Data Center Hookups but not the Upgrades  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-14T05:31:19Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

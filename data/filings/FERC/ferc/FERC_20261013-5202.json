@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261013-5202",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP23-129",
+ "title": "Corpus Christi Liquefaction, LLC, et al. submit documentation in compliance with Conditions 24-26, 58, and 62-64 of the Order re the Corpus Christi Liquefaction Midscale Trains 8 & 9 Project under CP23-129.",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5202",
+ "entity": "Corpus Christi Liquefaction, LLC; CCL Midscale 8-9, LLC",
+ "fetch": [
+  {
+   "ferc_file": "810CEA87-ED50-C056-9931-A135D5D00000",
+   "name": "101326_ Compliance Statements_CUI-PRIV.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "486380EB-5077-CC32-A3AD-A135D5D00000",
+   "name": "Attachment 24_CUI-PRIV.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "9B4A0119-4CB2-C240-A96A-A135D5D00000",
+   "name": "Attachment 25_CUI-PRIV.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "81F72CA5-09B1-C200-B1C3-A135D5D00000",
+   "name": "Attachment 58_CUI-PRIV.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Certificate of Compliance Report"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-13"
+ },
+ "collected_at": "2026-10-14T05:19:13Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '810CEA87-ED50-C056-9931-A135D5D00000', 'name': '101326_ Compliance Statements_CUI-PRIV.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '486380EB-5077-CC32-A3AD-A135D5D00000', 'name': 'Attachment 24_CUI-PRIV.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '9B4A0119-4CB2-C240-A96A-A135D5D00000', 'name': 'Attachment 25_CUI-PRIV.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '81F72CA5-09B1-C200-B1C3-A135D5D00000', 'name': 'Attachment 58_CUI-PRIV.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

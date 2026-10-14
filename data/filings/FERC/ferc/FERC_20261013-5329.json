@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20261013-5329",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-80",
+ "title": "Comments of STACK Infrastructure, Inc. in support of the Green Chile Gas Pipeline Project under CP26-80.",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5329",
+ "entity": "STACK Infra",
+ "fetch": [
+  {
+   "ferc_file": "F660BEE8-C501-C92D-9D14-A13698600000",
+   "name": "STACK Infra FERC Docket No. CP26-80.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-13"
+ },
+ "collected_at": "2026-10-14T05:19:37Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "STACK Infrastructure"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "STACK Infra FERC Docket No. CP26-80.pdf",
+   "bytes": 163265,
+   "sha256": "b02158d21a6e3f38fa049bfe23f4684b36ef7ab0cf89284d61f827ed67e2eeeb",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "Docusign Envelope ID: 68A6917E-AE67-83ED-83AB-E862A0396427\n\n\n\n\n        October 12, 2026\n\n        Re:      Transwestern Pipeline Company, LLC, Docket No. CP26-80-000\n\n                                        COMMENTS OF STACK INFRASTRUCTURE, INC.\n\n                STACK Infrastructure, Inc. (“STACK”) writes in support of Transwestern Pipeline Company's Green\n        Chile Project, currently before the Federal Energy Regulatory Commission (“FERC” or the “Commission”).\n        This project will provide natural gas infrastructure to support Project Jupiter, the data center and microgrid\n        campus that is under development in Doña Ana County, New Mexico.\n\n                 As a proven developer and operator of digital infrastructure, including Project Jupiter, STACK\n        recognizes that large-scale infrastructure development requires thoughtful planning around the supply,\n        reliability, and the impacts on the surrounding community. On-site generation at Project Jupiter, through the\n        Green Chile Project, will allow the campus to independently meet its power needs. That approach helps\n        protect the reliability of service and the electric bills of families and businesses across southern New Mexico.\n\n               Project Jupiter is already generating significant economic activity in New Mexico. As of September\n        30, 2026, more than 1,200 New Mexico residents, including 630 from Doña Ana County, worked on the\n        campus, and nearly $1 billion in contracts have been awarded to 30 New Mexico firms. These figures are\n        expected to grow as construction progresses.\n\n                Project Jupiter’s contributions extend beyond construction. Through partnerships with Doña Ana\n        Community College and other programs, residents are gaining skills to fill the 1,500 long-term jobs that\n        Project Jupiter is expected to create. The project has also committed $360 million in payments supporting\n        local schools, infrastructure, and local services. In addition to covering the costs of water and wastewater\n        infrastructure required for its operations, the project is investing an additional $50 million in local water\n        infrastructure improvements that will benefit the broader community.\n\n               Unlocking these benefits depends in large part on timely decisions. A project of this scale requires\n        close coordination. Delays in the authorization of critical infrastructure will disrupt project schedules,\n        increase costs, and create uncertainty for the contractors, suppliers, and workers involved.\n\n                For these reasons, STACK respectfully requests that the Commission authorize the Green Chile\n        Project as expeditiously as possible, consistent with its regulatory obligations. Prompt action will help\n        ensure that Project Jupiter continues to deliver lasting benefits for Doña Ana County and the state of New\n        Mexico.\n\n                                                                       Sincerely,\n\n\n\n                                                                       Mike Casey\n                                                                       Chief Operating Officer\n                                                                       STACK Infrastructure, Inc.\n\n\n\n\n                                                   AMERICAS   | APAC | EMEA                                       1\n\f"
+  }
+ ]
+}

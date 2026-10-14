@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261013-5306",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "(doc-less) Motion to Intervene of American Electric Power Service Corporation under ER27-25.",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5306",
+ "entity": "American Electric Power Service Corporation",
+ "fetch": [
+  {
+   "ferc_file": "E5DDE37A-8AE6-C6F1-9169-A13686600000",
+   "name": "1797464_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-13"
+ },
+ "collected_at": "2026-10-14T05:19:16Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "ESA",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1797464_Interv.txt",
+   "bytes": 2629,
+   "sha256": "46e34c83200b7a8d2dadb48cc60a9747ea3f11b7cb7dc92600660ed502fc0926",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of American Electric Power Service Corporation under ER27-25-000.\r\n\r\nSubmission Date:        10/13/2026 2:22:24 PM\r\n\r\nFiled Date:             10/13/2026 2:22:24 PM\r\n\r\nDockets\r\n-------\r\nER27-25-000          Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-10-02_Large Load Addition Resource Study (LARS) submitted on 10/2/2026 12:03:09 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nAmerican Electric Power Service Corporation clbumgarner@aep.com                      jcstewart@aep.com                       \r\nAmerican Electric Power Service Corporation                                          lturner@aep.com                         \r\n\r\nBasis for Intervening:\r\nPursuant to Rules 212 and 214 of the Commission’s Rules of Practice and Procedure, 18 C.F.R. §§ 385.212, 214, American Electric Power Service Corporation (“AEPSC”), on behalf of its affiliate AEP Indiana Michigan Transmission Company, Inc., (“I&M Transco”) and AESP Energy Partners Inc., and AEP Energy Retail Partners LLC (collectively “AEP Energy Partners”) move to intervene in this proceeding.\r\n\r\nAmerican Electric Power Company, Inc. is a multi-state electric utility holding company system providing electric service at retail and wholesale. AEP Indiana Michigan Transmission Company, Inc. is a Midcontinent Independent System Operator, Inc. (“MISO”) transmission owner and member. AEP Energy Partners are MISO market participants.\r\n\r\nOn October 2, 2026, MISO submitted proposed revisions to its Tariff to establish a Large Load Addition Resource Study (“LARS”) process, including associated application and operational requirements, to facilitate the joint study of large load and generation resources. The proposed LARS process would leverage existing MISO processes to facilitate timely access to the study process and provide for expedited review of large load additions of 200 MW or greater in conjunction with electrically proximate new generation resources.\r\n\r\nAs a MISO transmission owner and member and MISO market participants, AEP Indiana Michigan Transmission Company, Inc. and AEP Energy Partners have interests in this proceeding that cannot adequately be represented by any other party and respectfully requests that the Commission grant this motion to intervene.\r\n"
+  }
+ ]
+}

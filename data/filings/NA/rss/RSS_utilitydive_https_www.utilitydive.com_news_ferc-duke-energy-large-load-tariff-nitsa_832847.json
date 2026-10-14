@@ -1,0 +1,26 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/ferc-duke-energy-large-load-tariff-nitsa/832847/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC approves Duke large load transmission rules despite cost-shift concerns",
+ "filed": "2026-10-13",
+ "url": "https://www.utilitydive.com/news/ferc-duke-energy-large-load-tariff-nitsa/832847/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      Commissioner David Rosner said that Duke Energy Carolinas&rsquo; proposal&nbsp;offers &ldquo;meaningful, if imperfect, new protections,&rdquo; adding that consumer protections are &ldquo;inadequate across the country&rdquo; and FERC may need to take further action. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-14T05:31:19Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

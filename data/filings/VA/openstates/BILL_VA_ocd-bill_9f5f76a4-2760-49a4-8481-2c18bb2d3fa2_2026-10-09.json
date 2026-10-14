@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/9f5f76a4-2760-49a4-8481-2c18bb2d3fa2:2026-10-09",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 843",
+ "title": "Data centers; state permitting, local approval, moratorium, sunset.",
+ "filed": "2026-10-09",
+ "url": "https://openstates.org/va/bills/2027/SB843/",
+ "fetch": [],
+ "meta": {
+  "session": "2027",
+  "latest_action": "Referred to Committee on Local Government",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-14T05:41:51Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

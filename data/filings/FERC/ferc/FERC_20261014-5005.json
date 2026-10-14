@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261014-5005",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Susan Carver in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/13/2026\n",
+ "filed": "2026-10-14",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261014-5005",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "71473D15-7786-CC8E-9DC3-A137AC200000",
+   "name": "151581.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-13"
+ },
+ "collected_at": "2026-10-14T05:19:34Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151581.txt",
+   "bytes": 416,
+   "sha256": "04577a5f82deba3852b9c3937f768ea4990256777dc40b4b81db457f4c315916",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nSusan Carver, Wasilla, AK.\nI am an Alaskan opposed to the data center in Cook Inlet. This will be devastating to salmon fishing, endangered beluga whales that frequent Cook Inlet and our waters. It will bring pollution, EMF that will harm aquatic wildlife, who knows what other damaging ecological issues. Alaska is not the state for centers at all. There is no need for AI hyperscale data centers anywhere. \r\n\r\n"
+  }
+ ]
+}

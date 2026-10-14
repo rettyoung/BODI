@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20261013-5125",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2883",
+ "title": "Aquenergy Systems, LLC submits updated Upstream Coffer Dam Design Package in response to FERC's 10/02/2026 comments re the Fries Hydroelectric Project under P-2883.",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5125",
+ "entity": "Aquenergy Systems, LLC",
+ "fetch": [
+  {
+   "ferc_file": "5FA5033A-8737-CB9C-923A-A1358F100000",
+   "name": "FERC US Cofferdam Comment Response_10122026.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Dam Safety Compliance Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-12"
+ },
+ "collected_at": "2026-10-14T05:19:28Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '5FA5033A-8737-CB9C-923A-A1358F100000', 'name': 'FERC US Cofferdam Comment Response_10122026.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

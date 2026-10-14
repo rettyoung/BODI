@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=148199",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "States Increase Policy Actions for New Nuclear in 2026",
+ "filed": "2026-10-14",
+ "url": "//www.rtoinsider.com/148199-nccetc-on-recent-state-nuclear-policies/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The NC Clean Energy Technology Center says the vast majority of states in the U.S. have taken policy actions in 2026 to advance nuclear power. \n The post  States Increase Policy Actions for New Nuclear in 2026  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-14T05:31:19Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

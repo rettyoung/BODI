@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147967",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC: MISO Zero-injection Gen Plan for Large Loads Incomplete",
+ "filed": "2026-10-14",
+ "url": "//www.rtoinsider.com/147967-ferc-miso-zero-inject-gen-plan-large-loads-incomplete/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " FERC said MISO’s plan to accelerate interconnections for large loads to be served exclusively by generators that pledge not to inject power onto the larger system is unfinished as filed. \n The post  FERC: MISO Zero-injection Gen Plan for Large Loads Incomplete  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-14T05:31:19Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

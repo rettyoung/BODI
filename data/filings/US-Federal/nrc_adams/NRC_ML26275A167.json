@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26275A167",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): Confirmation of Active and Good Faith Negotiations for Disposal Contract with Long Mott Energy, LLC for Project Long Mott, X-energy Xe-100 Reactors, to be located at Dow Chemical Company's Seadrift, Texas facility [['Letter']]",
+ "filed": "2026-10-13",
+ "entity": [
+  "US Dept of Energy, Office of General Counsel"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2627/ML26275A167.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26275A167.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26275A167",
+  "document_date": "2024-11-06"
+ },
+ "collected_at": "2026-10-14T05:08:31Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26275A167.pdf",
+   "name": null,
+   "bytes": 126226,
+   "sha256": "5c196463d2aa594255a81b0de54f2c89d5c134d171a80e1ef7d070aa96e63383",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                 Department of Energy\n                                      Washington, DC 20585\n\n\n                                       November 6, 2024\n\n\nVIA ELECTRONIC MAIL\n\nKreshka Young\nVice President\nLong Mott Energy, LLC\n1254 Enclave Parkway\nHouston, TX 77077\nKyoung2@dow.com\n\nRe: Confirmation of Active and Good Faith Negotiations for Disposal Contract with Long Mott\nEnergy, LLC for Project Long Mott, X-energy Xe-100 Reactors, to be located at Dow Chemical\nCompany's Seadrift, Texas facility\n\nDear Ms. Young:\n\nI am writing to affirm that Long Mott Energy, LLC (LME) is actively and in good faith\nnegotiating with the Secretary of Energy for a contract under section 302(b) of the Nuclear\nWaste Policy Act of 1982, as amended (“NWPA”).\n\nAlthough section 302(b)(1)(A)(ii) of the NWPA assigns to the Secretary of Energy the function\nof making the above affirmation, section 304(b) of the NWPA further provides that the director\nof the Office of Civilian Radioactive Waste Management (OCRWM) “shall be responsible for\ncarrying out the functions of the Secretary under [the NWPA], subject to the general supervision\nof the Secretary.” In 2010, OCRWM was closed and the functions relating to the Standard\nContract were assigned to the Office of the General Counsel. Those functions were later\nassigned by the General Counsel to my office.\n\nDOE is reviewing the issue of the appropriate contract mechanism and will be in contact for\nfurther discussions.\n\n\n                                     Sincerely,\n\n                                     /s/ Constance A. Barton\n\n                                     Constance A. Barton\n                                     Contracting Officer, Director\n                                     Office of Standard Contract Management\n                                     Office of the General Counsel\n\ncc via email:\nFeltner, Mark (M) <MFeltner@dow.com\nBlaylock, Wayne (WW) <DWBlaylock@dow.com>\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-14T05:46:58Z"
+}

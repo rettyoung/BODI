@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261013-5338",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "(doc-less) Motion to Intervene of Michigan Public Power Agency under ER27-25.",
+ "filed": "2026-10-13",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261013-5338",
+ "entity": "Michigan Public Power Agency; Michigan Public Power Agency; Michigan Public Power Agency; Michigan Public Power Agency",
+ "fetch": [
+  {
+   "ferc_file": "30F8950F-7C14-C901-A9E8-A136AD400000",
+   "name": "1797500_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-13"
+ },
+ "collected_at": "2026-10-14T05:19:19Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1797500_Interv.txt",
+   "bytes": 2183,
+   "sha256": "cefb448255cf601faf0292dc4b06f6ec8040f5bd4e61fe5793495ae7ba16f500",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Michigan Public Power Agency under ER27-25-000.\r\n\r\nSubmission Date:        10/13/2026 3:08:36 PM\r\n\r\nFiled Date:             10/13/2026 3:08:36 PM\r\n\r\nDockets\r\n-------\r\nER27-25-000          Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-10-02_Large Load Addition Resource Study (LARS) submitted on 10/2/2026 12:03:09 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nMichigan Public Power Agency             arobbins@washingtonenergylaw.com         pbowland@mpower.org                     \r\nMichigan Public Power Agency             droby@washingtonenergylaw.com                                                    \r\nMichigan Public Power Agency             tsteiger@washingtonenergylaw.com                                                 \r\nMichigan Public Power Agency             pcolvin@washingtonenergylaw.com                                                  \r\n\r\nBasis for Intervening:\r\nOn October 2, 2026, in Docket No. ER27-25-000, Midcontinent Independent System Operator, Inc. (“MISO”) filed proposed revisions to its Open Access Transmission, Energy and Operating Reserve Markets Tariff (“Tariff”) to establish a Large Load Addition Resource Study process. MISO requested an effective date of December 2, 2026, for these proposed Tariff revisions.\r\n\r\nMichigan Public Power Agency (“MPPA”) is a Michigan municipal power agency and public body politic and corporate organized by its member municipalities under Michigan law. MPPA arranges for bulk power supply and transmission for its member municipal electric systems and is a Market Participant in MISO. As such, MPPA has direct and immediate interests in this proceeding that no other party can adequately represent, and intervention of MPPA is in the public interest. MPPA accordingly requests that the Commission grant this timely Motion to Intervene.\r\n"
+  }
+ ]
+}

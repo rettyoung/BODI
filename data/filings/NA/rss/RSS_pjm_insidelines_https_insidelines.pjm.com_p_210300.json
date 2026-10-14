@@ -1,0 +1,26 @@
+{
+ "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210300",
+ "jur": null,
+ "source": "rss:pjm_insidelines",
+ "kind": "news",
+ "docket": null,
+ "title": "Operations Update: PJM Extends Maximum Generation Alert to Oct. 14, Calls on Demand Response",
+ "filed": "2026-10-13",
+ "url": "https://insidelines.pjm.com/operations-update-extends-maximum-generation-alert-calls-on-demand-response/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:pjm_insidelines",
+  "rto": "PJM",
+  "summary": " PJM has extended a Maximum Generation Alert and Load Management Alert, originally issued for Oct. 13, to remain in effect through Oct. 14. This alert does not require any action from customers. PJM continues to proactively implement procedures to reliably serve increased electricity demand caused by unusually warm fall weather amid planned equipment outages required [&#8230;]",
+  "feed": "pjm_insidelines",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-14T05:31:18Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [
+  "demand response"
+ ],
+ "party_hits": [],
+ "documents": []
+}

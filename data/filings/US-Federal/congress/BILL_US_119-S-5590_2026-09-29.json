@@ -1,0 +1,22 @@
+{
+ "id": "BILL:US:119-S-5590:2026-09-29",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "S 5590",
+ "title": "Electric Grid Supply Chain Security Act",
+ "filed": "2026-09-29",
+ "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5590",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Read twice and referred to the Committee on Armed Services.",
+  "keywords": [
+   "electric grid"
+  ]
+ },
+ "collected_at": "2026-10-14T05:35:23Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

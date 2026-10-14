@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26282A024",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): (PUBLIC) DRAFT SE Chapter 4 -LMGS CPA - Integrated Evaluation [['Safety Evaluation']]",
+ "filed": "2026-10-13",
+ "entity": [
+  "NRC/OAR/DDLP/DARL/ARLB5"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A024.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A024.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26282A024",
+  "document_date": "2026-10-08"
+ },
+ "collected_at": "2026-10-14T05:10:46Z",
+ "run_id": "2026-10-14-0507",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A024.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2628/ML26282A024.pdf"
+  }
+ ]
+}
