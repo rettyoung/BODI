@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=148459",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Oregon Pauses Data Center Permitting Until July 2027",
+ "filed": "2026-10-14",
+ "url": "//www.rtoinsider.com/148459-oregon-pauses-data-center-permitting-until-july-2027/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Oregon Gov. Tina Kotek has dealt a major blow to Big Tech developers looking to build or expand data centers in the state. She directed the Department of Environmental Quality to pause issuing any new air or water quality permits associated with data center projects until July 2027. \n The post  Oregon Pauses Data Center Permitting Until July 2027  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-15T05:21:13Z",
+ "run_id": "2026-10-15-0506",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

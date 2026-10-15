@@ -1,0 +1,45 @@
+{
+ "id": "MO:655934",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0291",
+ "title": "57",
+ "filed": "2026-10-14",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/655934",
+ "fetch": [
+  {
+   "mo_filing": "655934"
+  }
+ ],
+ "collected_at": "2026-10-15T05:16:02Z",
+ "run_id": "2026-10-15-0506",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/894051",
+   "name": null,
+   "bytes": 489966,
+   "sha256": "fde554b09577f2b4515f776ab96058afac7675c7976e158eb679bb9e2b107e0d",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 1,
+   "truncated": false,
+   "text": "NONDISCLOSURE AGREEMENT\nFor Case No.: ER-2026-0291\n(To Access Confidential Information)\n\nI, Greg R. Meyer, have reviewed the Commission's Rule at 20 CSR 4240-2.135 on the 7\" day of\nOctober, 2026.\n\nIhave requested review of the confidential information produced in Case No. ER-2026-0291 on\nbehalf of the Midwest Energy Consumers Group (“MECG”).\n\nThereby certify that:\n\n(a) Only employees of a party that are acting as an expert for that party or that have been\nretained for this case as an outside expert for that party may receive confidential\ninformation;\n\n(b) An employee is a person in the service of his or her employer whose services are\ncontrollable by the employer.\n\n(c) Lam an outside expert for MECG retained to provide expert consultation or testimony\nin this docket; and\n\n(d) I have read and agree to abide by the Commission's Rule at 20 CSR 4240-2.135.\n\nDated this 7\" day of October, 2026.\n\n0 Wiper\n\nSignature & Title: Greg R. Meyer, Of Counsel Consultant\n\nEmployer: Brubaker & Associates, Inc.\n\nParty: Midwest Energy Consumers Group (““MECG”)\n\nAddress: 16690 Swingley Ridge Road, Suite 140\nChesterfield, MO 63017\n\nTelephone: (636) 898-6725, Ext. 116\n\nE-Mail Address: gmeyer@consultbai.com\n\n"
+  },
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/894052",
+   "name": null,
+   "bytes": 529201,
+   "sha256": "939cb32bfbd5d23142cbc6a6a8a4276c350e32d3e546074f9c138f9c2f485744",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 1,
+   "truncated": false,
+   "text": "NONDISCLOSURE AGREEMENT\nFor Case No.: ER-2026-0291\n(To Access Highly Confidential Information)\n\nI, Greg R. Meyer, have reviewed the Commission's Rule at 20 CSR 4240-2.135 on the 7 day of\nOctober, 2026.\n\nIhave requested review of the highly confidential information produced in Case\nNo. ER-2026-0291 on behalf of the Midwest Energy Consumers Group (“MECG”).\n\nThereby certify that:\n\n(a) Only certain persons may receive Highly Confidential information. These persons\ninclude outside attorneys of record for a party in the case and in-house attorneys of record\nfor the Company. Such persons also include outside consultants retained by a party in\nthis case and Company experts and/or employees who intend to file testimony in this\ndocket. Persons authorized to receive highly confidential information, other than the\nabove-referenced attorneys or Commission Staff and Office of Public Counsel employees\nmust submit this form in order receive highly confidential information;\n\n(b) Lam an outside consultant retained by MECG and fall within the category of persons\nauthorized to receive highly confidential information specified in paragraph (a) above;\nand\n\n(c) [have read and agree to abide by the Commission's Rule at 20 CSR 4240-2.135 and all\nterms of the Protective Order issued by the Commission in this docket.\n\nDated this 7\" day of October, 2026.\n\nKlay KW igen\n\nSignature & Title: Greg R. Meyer, Of Counsel Consultant\n\nEmployer: Brubaker & Associates, Inc.\n\nParty:\n\nMidwest Energy Consumers Group (“MECG”\n\nAddress: 16690 Swingley Ridge Road, Suite 140\n\nChesterfield, MO 63017\n\nTelephone: (636) 898-6725, Ext. 116\n\nE-Mail Address: gmeyer@consultbai.com\n\n"
+  }
+ ]
+}

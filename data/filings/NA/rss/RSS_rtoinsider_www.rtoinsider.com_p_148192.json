@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=148192",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "CPUC Delays Google Data Center Vote for 4th Time",
+ "filed": "2026-10-15",
+ "url": "//www.rtoinsider.com/148192-cpuc-delays-vote-on-google-data-center-again/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " For the fourth month in a row, the California Public Utilities Commission has postponed its vote on an “exceptional” case agreement for a large Google data center in San Jose. \n The post  CPUC Delays Google Data Center Vote for 4th Time  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-15T05:21:13Z",
+ "run_id": "2026-10-15-0506",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "Google"
+ ],
+ "documents": []
+}

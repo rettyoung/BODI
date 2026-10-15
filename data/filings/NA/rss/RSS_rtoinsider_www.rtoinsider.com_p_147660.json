@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147660",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Large Loads a Force Behind Nearly $15B in MTEP 26",
+ "filed": "2026-10-14",
+ "url": "//www.rtoinsider.com/147660-large-load-related-projects-force-behind-15b-mtep-26/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " MISO’s 2026 Transmission Expansion Plan has dropped to $14.74 billion from an earlier $17 billion portfolio and remains driven by large load additions. \n The post  Large Loads a Force Behind Nearly $15B in MTEP 26  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-15T05:21:13Z",
+ "run_id": "2026-10-15-0506",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

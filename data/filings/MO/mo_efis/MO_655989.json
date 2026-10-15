@@ -1,0 +1,33 @@
+{
+ "id": "MO:655989",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "330",
+ "filed": "2026-10-14",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/655989",
+ "fetch": [
+  {
+   "mo_filing": "655989"
+  }
+ ],
+ "collected_at": "2026-10-15T05:15:51Z",
+ "run_id": "2026-10-15-0506",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/894145",
+   "name": null,
+   "bytes": 114099,
+   "sha256": "5c5ae565213ef29680f1198f40abe0c3505dfe4671f7bde51f5e6fb90016038d",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                  BEFORE THE PUBLIC SERVICE COMMISSION\n                        OF THE STATE OF MISSOURI\n\nIn the Matter of Evergy Metro, Inc. d/b/a Evergy         )\nMissouri Metro’s Request for Authority to Implement      )      File No. ER-2026-0143\na General Rate Increase for Electric Service             )\n\n                         NOTICE KAREN LYONS ERRATA SHEET\n\n1.    Exhibit 140, Rebuttal Testimony of Karen Lyons\n        i.   Removal of the confidential designation per agreement by Evergy Missouri\n             Metro. Removal of this designation impacts the table on Page 10. The full\n             contents of the table are included here. The are no other confidential\n             markings in the Rebuttal Testimony of Karen Lyons, filed on August 11, 2026.\n\n              Please note the updates further below include immaterial changes to the\n              numbers in this table as originally included and pictured here.\n\n\n\n\n        ii.   Page 10, Line 18: “2018-2023” should be “2023-June 2026”.\n\n       iii.   Page 10, Line 23: removal of confidential designation for the table included at\n              lines 24-25 (pictured above).\n\n       iv.    Page 10, Line 25: “$4,217,097” should be “$4,216,892”.\n\n        v.    Page 10, Line 25: column heading of “2026 through May” should be “2026\n              through June”; and “$1,802,088” should be “$1,958,815”.\n\n       vi.    Page 10, line 26: removal of confidential designation for the table included at\n              lines 24-25 (pictured above).\n\n       vii.   Page 11, Line 1: “$4,491,948” should be “$4,491,745”.\n\n\n\n\n                                             1\n\f                                                      Respectfully submitted,\n\n                                                      /s/ Tracy D. Johnson\n                                                      Tracy D. Johnson\n                                                      Deputy Counsel\n                                                      Missouri Bar No. 65991\n\n                                                      Attorney for the Staff of the\n                                                      Missouri Public Service Commission\n                                                      P.O. Box 360\n                                                      Jefferson City, Mo 65102-0360\n                                                      (573) 526-5343 (Telephone)\n                                                      (573) 526-1500 (Facsimile)\n                                                      (Email) tracy.johnson@psc.mo.gov\n\n\n                              CERTIFICATE OF SERVICE\n\n      I hereby certify that copies of the foregoing have been mailed, hand-delivered,\ntransmitted by facsimile or electronically mailed to all counsel of record this 14th day\nof October 2026.\n\n                                                 /s/ Tracy D. Johnson\n\n\n\n\n                                           2\n\f"
+  }
+ ]
+}

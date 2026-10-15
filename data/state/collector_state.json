@@ -8515,19 +8515,80 @@
   "BILL:US:119-S-5588:2026-09-29": "2026-10-14",
   "BILL:PA:ocd-bill/657e9e24-7151-4879-ab92-44f27236b184:2026-10-13T04:00:00+00:00": "2026-10-14",
   "BILL:VA:ocd-bill/9f5f76a4-2760-49a4-8481-2c18bb2d3fa2:2026-10-09": "2026-10-14",
-  "COURT:o:11032423": "2026-10-14"
+  "COURT:o:11032423": "2026-10-14",
+  "FERC:20261013-5440": "2026-10-15",
+  "FERC:20261014-5171": "2026-10-15",
+  "FERC:20261014-5068": "2026-10-15",
+  "FERC:20261013-5494": "2026-10-15",
+  "FERC:20261014-5053": "2026-10-15",
+  "FERC:20261013-5446": "2026-10-15",
+  "FERC:20261014-5112": "2026-10-15",
+  "FERC:20261013-5443": "2026-10-15",
+  "FR:2026-21074": "2026-10-15",
+  "FR:2026-21050": "2026-10-15",
+  "FR:2026-20998": "2026-10-15",
+  "FR:2026-20957": "2026-10-15",
+  "TX:58317-108": "2026-10-15",
+  "AZDKT:E-01787A-26-0429": "2026-10-15",
+  "GA:229126": "2026-10-15",
+  "LA:order:182521": "2026-10-15",
+  "NM:DOC-000519818-26": "2026-10-15",
+  "NMDKT:26-0000179": "2026-10-15",
+  "MODKT:EA-2027-0113": "2026-10-15",
+  "MO:655989": "2026-10-15",
+  "MO:655934": "2026-10-15",
+  "PAGE:grda_board:https://grda.com/special-board-meeting-november-18-19-2026/": "2026-10-15",
+  "PAGE:grda_board:https://grda.com/2026-november-board-meeting/": "2026-10-15",
+  "PAGE:gov_tx:https://gov.texas.gov/news/post/governor-abbott-appoints-wetsel-to-texas-veterans-commission-10-14": "2026-10-15",
+  "PAGE:gov_ga:https://gov.georgia.gov/press-releases/2026-10-14/gov-kemp-september-net-tax-revenues-23": "2026-10-15",
+  "PAGE:gov_nc:https://governor.nc.gov/news/press-releases/2026/10/14/governor-stein-announces-105-new-jobs-utility-manufacturer-expands-catawba-county-operations": "2026-10-15",
+  "PAGE:gov_nc:https://governor.nc.gov/news/press-releases/2026/10/14/governor-stein-celebrates-exceptional-north-carolinians-long-leaf-pine-presentation": "2026-10-15",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/2026/10/fourth-supplemental-state-of-emergency-hurricane-isaias/": "2026-10-15",
+  "PAGE:gov_sc:https://governor.sc.gov/news/2026-10/gov-mcmaster-issues-decision-regarding-charleston-county-school-trustee-darlene": "2026-10-15",
+  "RSS:pa_cmwlth:https://www.pacourts.us/assets/opinions/Commonwealth/out/237CD25_10-14-26.pdf": "2026-10-15",
+  "RSS:msft_source:https://news.microsoft.com/source/?p=26065": "2026-10-15",
+  "RSS:google_blog:https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models/": "2026-10-15",
+  "RSS:amazon_news:https://www.aboutamazon.com/news/sustainability/right-now-climate-fund": "2026-10-15",
+  "RSS:utilitydive:https://www.utilitydive.com/news/fossil-generation-pipeline-rebounds-while-new-clean-generation-slows-edf/832978/": "2026-10-15",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148240": "2026-10-15",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148398": "2026-10-15",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148192": "2026-10-15",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148242": "2026-10-15",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148459": "2026-10-15",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148248": "2026-10-15",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148254": "2026-10-15",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148263": "2026-10-15",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148252": "2026-10-15",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=147660": "2026-10-15",
+  "RSS:canary:https://www.canarymedia.com/articles/data-centers/utah-carbon-county-opposition-nuclear-gas-valar": "2026-10-15",
+  "RSS:canary:https://www.canarymedia.com/articles/solar/how-one-chicago-program-is-diversifying-the-solar-workforce": "2026-10-15",
+  "RSS:canary:https://www.canarymedia.com/articles/batteries/how-to-counter-californians-grid-battery-fears-with-safety-facts": "2026-10-15",
+  "BILL:US:119-HR-10809:2026-10-13": "2026-10-15",
+  "BILL:IL:ocd-bill/57af337b-bd80-45e2-866a-06fa37e0d945:2026-10-13": "2026-10-15",
+  "AGENDA:storey:https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_10202026-1413": "2026-10-15",
+  "AGENDA:tulsa_tmapc:https://tulsaplanning.org/agendas/october-21-2026-planning-commission/": "2026-10-15",
+  "AGENDA:tulsa_tmapc:https://tulsaplanning.org/agendas/tmapc/september-2-2026-tmapc-agenda/": "2026-10-15",
+  "ERCOTLL:https://www.ercot.com/files/docs/2026/10/14/RFI_Verification_C_D_Question_Reference_13102026.pdf": "2026-10-15",
+  "NRC:ML26286A267": "2026-10-15",
+  "NRC:ML26287A105": "2026-10-15",
+  "NRC:ML26282A040": "2026-10-15",
+  "NRC:ML26285A034": "2026-10-15",
+  "NRC:ML26286A006": "2026-10-15",
+  "NRC:ML26287A173": "2026-10-15",
+  "NRC:ML26246A952": "2026-10-15",
+  "NRC:ML26282B035": "2026-10-15"
  },
  "sources": {
   "ferc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "edgar": {
@@ -18971,13 +19032,13 @@
     },
     "ciks_date": "2026-10"
    },
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "az_acc": {
@@ -18986,18 +19047,18 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "ga_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "ok_occ": {
@@ -19130,19 +19191,19 @@
      "21480631": "CASE PUD 2026-000031 ENTRY NO. 157 FILED IN OCC COURT CLERK'S OFFICE ON 10/13/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF OKLAHOMA GAS AND ELECTRIC COMPANY FOR COMMISSION APPROVAL OF ELECTRIC SERVICE AGREEMENTS AND PREAPPROVAL PUD"
     }
    },
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "mo_efis": {
@@ -19866,40 +19927,41 @@
      "EA-2024-0212": "84159",
      "ER-2024-0189": "83704",
      "EC-2027-0105": "109736",
-     "EA-2027-0112": "109854"
+     "EA-2027-0112": "109854",
+     "EA-2027-0113": "109873"
     }
    },
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "al_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-14",
+   "last_ok": "2026-10-15",
    "last_error": null
   },
   "eia": {
@@ -19909,25 +19971,25 @@
     "last_period": "2026-07"
    },
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -21891,13 +21953,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -21913,7 +21975,7 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -22002,7 +22064,8 @@
       "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_09292026-1409",
       "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_10062026-1411",
       "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_10142026-1410",
-      "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_10152026-1412"
+      "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_10152026-1412",
+      "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_10202026-1413"
      ]
     },
     "tulsa_council": {
@@ -22024,9 +22087,11 @@
       "https://tulsaplanning.org/agendas/august-19-2026-tmapc-agenda/",
       "https://tulsaplanning.org/agendas/august-5-2026-tmapc-agenda/",
       "https://tulsaplanning.org/agendas/july-15-2026-tmapc-meeting/",
+      "https://tulsaplanning.org/agendas/october-21-2026-planning-commission/",
       "https://tulsaplanning.org/agendas/october-7-2026-planning-commission/",
       "https://tulsaplanning.org/agendas/pc/october-7-2026-planning-commission/",
-      "https://tulsaplanning.org/agendas/tmapc/16937/"
+      "https://tulsaplanning.org/agendas/tmapc/16937/",
+      "https://tulsaplanning.org/agendas/tmapc/september-2-2026-tmapc-agenda/"
      ]
     },
     "tulsa_boa": {
@@ -22089,7 +22154,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -22108,25 +22173,25 @@
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
@@ -22136,13 +22201,13 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -22159,7 +22224,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-10-14"
+   "last_ok": "2026-10-15"
   }
  },
  "baselined": [
@@ -22167,8 +22232,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 26,
- "last_run": "2026-10-14T05:49:34Z",
+ "runs": 27,
+ "last_run": "2026-10-15T05:37:41Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -23396,6 +23461,7 @@
    "NMDKT:26-0000159",
    "NMDKT:26-0000163",
    "NMDKT:26-0000165",
+   "NRC:ML26226A343",
    "NRC:ML26244A231",
    "NRC:ML26244A233",
    "NRC:ML26271A096",
@@ -23410,6 +23476,7 @@
    "NRC:ML26278A328",
    "NRC:ML26279A094",
    "NRC:ML26281A371",
+   "NRC:ML26282A024",
    "NRC:ML26282A042",
    "NRC:ML26282A967",
    "NRC:ML26282A977",
@@ -24580,12 +24647,10 @@
    "TX:59611-8"
   ],
   "attempts": {
-   "NRC:ML26282A024": 1,
-   "NRC:ML26226A343": 1,
-   "FERC:20261013-5202": 1,
-   "FERC:20261013-5125": 1,
-   "FERC:20261013-5313": 1,
-   "AZ:470555": 1
+   "FERC:20261013-5202": 2,
+   "FERC:20261013-5125": 2,
+   "FERC:20261013-5313": 2,
+   "AZ:470555": 2
   },
   "doc_retries": {
    "TX:58482-36": 1,
@@ -24794,15 +24859,15 @@
    "FERC:20261005-5216": 4,
    "REGS:comment:EPA-HQ-OAR-2025-0124-3062": 4,
    "FERC:20261006-5188": 4,
-   "FERC:20261007-5237": 3,
-   "FERC:20261008-5085": 3,
-   "MO:655745": 1
+   "FERC:20261007-5237": 4,
+   "FERC:20261008-5085": 4,
+   "MO:655745": 2
   }
  },
  "last_full_run": {
-  "run_id": "2026-10-14-0507",
-  "started": "2026-10-14T05:07:43Z",
-  "finished": "2026-10-14T05:49:34Z",
+  "run_id": "2026-10-15-0506",
+  "started": "2026-10-15T05:06:07Z",
+  "finished": "2026-10-15T05:37:41Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }

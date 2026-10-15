@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26287A105",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): Palisades - Request for Additional Information Re: DD41 Exigent Amendment [['E-Mail', 'Request for Additional Information (RAI)']]",
+ "filed": "2026-10-14",
+ "entity": [
+  "NRC/NRR/DDLP/DLP1/ORLB3"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26287A105.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26287A105.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26287A105",
+  "document_date": "2026-10-07"
+ },
+ "collected_at": "2026-10-15T05:36:56Z",
+ "run_id": "2026-10-15-0506",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26287A105.pdf",
+   "name": null,
+   "bytes": 726093,
+   "sha256": "6c7bb6696978687e74b98a6b4424856ac62494274db53323070ce9c84a9d81c4",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "Brent Ballard\n\nFrom:                            Brent Ballard\nSent:                            Wednesday, October 7, 2026 1:31 PM\nTo:                              ext_KYLE_STEFFIC; 'Kami Miller'\nCc:                              Justin Poole; Marlayna Doell\nSubject:                         RE: Palisades - Request for Additional Information DD41\n\n\nHi Kyle,\n\nApologize, but there is a second part to question 1, related to operation of the crane as it related to a cask drop\naccident. I’m restating the complete questions below and the new text is highlighted:\n\n    1. Is there an analysis of a cask drop over the spent fuel pool? If so, does the cask drop over the spent fuel\n       pool bound a drop of DD41 (in the FTC) onto the fuel. Please supplement the LAR to include a section\n       discussing how a hypothetical drop of the Fuel Transfer Canister onto spent fuel in the spent fuel pool is\n       bounded by existing analysis. Section 9.11.4.3 (Item 6) of the FSAR indicates, “The Fuel Building Crane may\n       be operated in a non-single failure proof manner following site-speciﬁc heavy load requirements. Non-\n       single failure proof modes of operation typically involve trolley and bridge speed increases and multiple\n       direction movement control, and are only used when single failure proof operation is not required. Section\n       14.11 describes postulated cask drop accidents.” Section 14.11.1 of FSAR indicates “In these situations,\n       the crane no longer meets single failure proof requirements, and load drops are postulated.” Since fuel\n       transfer canister will be travelling over spent fuel within the fuel building and load drop analysis has not\n       been performed, conﬁrm FB crane is operated in single failure proof manner. In event the crane is not\n       handled in single failure proof manner, is an impact limiting pad required as indicated in Section\n       14.11.2.3.1 of FSAR?\n\n    2. NRC sta understands that fuel assembly DD41 exhibits signiﬁcant bowing. Based on the fuel transfer\n       canister (FTC) drawings made available on the portal, it does not appear that the FTC design\n       accommodates this degree of bowing. Once DD41 is placed in the FTC, will measurements be taken to\n       conﬁrm the actual extent of bowing? The sta ’s concern is that when the FTC lid is installed, any existing\n       bowing will be essentially forced into a straighter conﬁguration, which could result in additional damage to\n       the assembly and/or fuel rods. Please describe what evaluations or controls have been implemented to\n       ensure that no further damage will occur when DD41 is enclosed in the FTC. Additionally, are contingency\n       actions established in the event that the assembly is adversely a ected when the FTC lid is secured?\n\nThanks,\nBrent\n\nFrom: Brent Ballard\nSent: Wednesday, October 7, 2026 1:05 PM\nTo: ext_KYLE_STEFFIC <K.Steffic@holtec.com>; Kami Miller <k.miller1@holtec.com>\nCc: Justin Poole <Justin.Poole@nrc.gov>; Marlayna Doell <marlayna.doell@nrc.gov>\nSubject: Palisades - Request for Additional Information DD41\n\nHi Kyle,\n\nPlease see below for two additional requests for additional information. These are more involved than RCIs and\nwill require response. One is an outcome of us now understanding you do intend to move the loaded FTC over\nspent fuel. The other relates to bowing of the assembly and how that may impact loading in the FTC:\n                                                           1\n\f   1. Is there an analysis of a cask drop over the spent fuel pool? If so, does the cask drop over the spent fuel\n      pool bound a drop of DD41 (in the FTC) onto the fuel. Please supplement the LAR to include a section\n      discussing how a hypothetical drop of the Fuel Transfer Canister onto spent fuel in the spent fuel pool is\n      bounded by existing analysis.\n\n   2. NRC sta understands that fuel assembly DD41 exhibits signiﬁcant bowing. Based on the fuel transfer\n      canister (FTC) drawings made available on the portal, it does not appear that the FTC design\n      accommodates this degree of bowing. Once DD41 is placed in the FTC, will measurements be taken to\n      conﬁrm the actual extent of bowing? The sta ’s concern is that when the FTC lid is installed, any existing\n      bowing will be essentially forced into a straighter conﬁguration, which could result in additional damage to\n      the assembly and/or fuel rods. Please describe what evaluations or controls have been implemented to\n      ensure that no further damage will occur when DD41 is enclosed in the FTC. Additionally, are contingency\n      actions established in the event that the assembly is adversely a ected when the FTC lid is secured?\n\nAs of now, I think we were able to internally resolve the RCIs I mentioned but we may still have some before we\nwrap this up. I didn’t want to hold up on the RAIs since the response will be more involved. Please let me know if\nyou want to discuss either of these with the sta .\n\nThanks,\nBrent\n\nBrent Ballard\nProject Manager\nOperating Reactor Licensing Branch 3\nDivision of Licensing Projects 1\nOffice of Nuclear Reactor Regulation\nU.S. Nuclear Regulatory Commission\n301-415-0680\n\n\n\n\n                                                          2\n\f"
+  }
+ ]
+}

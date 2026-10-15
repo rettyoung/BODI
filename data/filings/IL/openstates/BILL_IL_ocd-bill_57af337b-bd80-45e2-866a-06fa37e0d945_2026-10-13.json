@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/57af337b-bd80-45e2-866a-06fa37e0d945:2026-10-13",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 3078",
+ "title": "LOC GOV-ENERGY STORAGE SYSTEMS",
+ "filed": "2026-10-13",
+ "url": "https://openstates.org/il/bills/104th/SB3078/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Added as Co-Sponsor Sen. Sally J. Turner",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-15T05:30:54Z",
+ "run_id": "2026-10-15-0506",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

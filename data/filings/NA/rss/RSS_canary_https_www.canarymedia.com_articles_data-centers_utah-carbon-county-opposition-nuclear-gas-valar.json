@@ -1,0 +1,28 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/data-centers/utah-carbon-county-opposition-nuclear-gas-valar",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Nuclear-powered data centers? It’s a tough sell in Utah coal country.",
+ "filed": "2026-10-14",
+ "url": "https://www.canarymedia.com/articles/data-centers/utah-carbon-county-opposition-nuclear-gas-valar",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "This story was originally published by Grist . Sign up for Grist&#039;s weekly newsletter .  Cindy O’Neil understands the boom-and-bust cycles of industry. Her husband spent years working in Carbon County’s namesake coal mines. In this pocket of central Utah, energy and the economy have long been intrinsically linked, at…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-15T05:21:13Z",
+ "run_id": "2026-10-15-0506",
+ "keywords": [
+  "ESA",
+  "data center",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

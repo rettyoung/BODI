@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261014-5112",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Jessica Dullinger in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/14/2026\n",
+ "filed": "2026-10-14",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261014-5112",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "303310AC-AC9E-CF17-907D-A13B9B900000",
+   "name": "151586.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-14"
+ },
+ "collected_at": "2026-10-15T05:08:57Z",
+ "run_id": "2026-10-15-0506",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151586.txt",
+   "bytes": 3530,
+   "sha256": "4f52387a1c9f8a86b0235dfaea4209ae984e85485b6e06b63ffb29a562ca33d0",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJessica Dullinger, Anchorage, AK.\n10/14/26\r\nTo: Federal Energy Regulatory Commission (FERC)\r\nFrom: Jessica Dullinger \r\nAddress: 7960 Resurrection Dr\r\nEmail: healinghandsbyjessi@gmail.com\r\nSubject: Formal Opposition to the Proposed Cook Inlet, Alaska Data Center Project\r\nDear FERC Commissioners and Review Board,\r\nI am writing to express my strong opposition to the proposed development of an underwater or coastal data center within Cook Inlet, Alaska. While technology infrastructure is critical, placing a data center in this highly volatile and ecologically sensitive marine environment poses unacceptable risks to our local ecosystem, native wildlife, commercial fisheries, and maritime safety.\r\nI urge the Commission to deny approvals for this project based on the following critical concerns:\r\n\r\n1. Severe Threat to Endangered Marine Life and Fisheries\r\n\r\nCook Inlet is home to the critically endangered Cook Inlet beluga whale, as well as vital runs of wild Pacific salmon and other marine species.\r\n• Electromagnetic Fields (EMFs) & Noise Pollution: Data centers generate significant EMFs and continuous acoustic noise. Marine mammals depend heavily on echolocation for navigation, communication, and foraging. Introducing these disruptions could permanently displace or harm the fragile beluga population.\r\n• Thermal Pollution: Discharging heated cooling water back into the inlet risks altering localized water temperatures. This can disrupt salmon migration patterns, degrade spawning environments, and accelerate glacier-melt impacts on the regional marine climate.\r\n\r\n2. High Risk of Extreme Weather and Pan Ice Damage\r\n\r\nThe upper Cook Inlet experiences extreme environmental conditions that threaten the structural integrity of underwater infrastructure.\r\n• Moving Pan Ice: During the winter, thick pan ice combined with intense, fast-moving outgoing flood tides generates immense physical force. This ice routinely snaps mooring lines on massive commercial ships.\r\n• Structural Failure Risks: There is a high probability that shifting ice columns will collide with or damage underwater data modules. Any structural failure risks catastrophic water pollution, chemical leaks, or electronic debris directly entering our food supply chain and fisheries.\r\n\r\n3. Seismic and Volcanic Activity Hazards\r\n\r\nPlacing multi-million dollar infrastructure in an active tectonic zone defies sound planning principles.\r\n• Earthquake Fault Lines: Cook Inlet sits directly on major fault lines and experienced the devastating effects of the historic 1964 Alaska earthquake.\r\n• Volcanic Threats: The region is flanked by active volcanoes (including Mt. Redoubt and Mt. Spurr). Subsea mudslides, seismic shifts, or volcanic activity could instantly compromise the facility, leading to unpredictable environmental fallout at the expense of Alaskan taxpayers and communities.\r\n\r\nConclusion and Request for Action\r\n\r\nThe short-term corporate benefits of utilizing Cook Inlet's cold waters for data cooling do not outweigh the permanent, high-consequence risks to Alaska's natural resources, marine life, and coastal safety.\r\nI request that FERC thoroughly evaluate these unique northern hazards and issue a \"No Action\" alternative during the environmental review process to protect Cook Inlet from industrial data center encroachment.\r\nThank you for your time, consideration, and dedication to safeguarding our public waters and communities.\r\n\r\nSincerely,\r\nJessi Dullinger \r\n7960 Resurrection Dr\r\nAnchorage, AK 99504\r\n\r\n"
+  }
+ ]
+}
