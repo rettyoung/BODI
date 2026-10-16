@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26278A307",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): 2026/09/29 - Comment (3) E-mail regarding LMGS CP Hearing [['General FR Notice Comment Letter']]",
+ "filed": "2026-10-15",
+ "entity": [
+  "Public Commenter"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2627/ML26278A307.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26278A307.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26278A307",
+  "document_date": "2026-09-29"
+ },
+ "collected_at": "2026-10-16T05:38:44Z",
+ "run_id": "2026-10-16-0507",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26278A307.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2627/ML26278A307.pdf"
+  }
+ ]
+}

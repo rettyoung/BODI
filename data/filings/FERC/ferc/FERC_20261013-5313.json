@@ -56,5 +56,6 @@
    "url": "{'ferc_file': 'D34836AF-1205-CF49-A101-A13689A00000', 'name': 'VVN BOC Mtg No.10 Transcript.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-16T05:39:56Z"
 }

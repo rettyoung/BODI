@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=148536",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Northwest Cautiously Awaits BPA’s ‘Open Season’ Proposal",
+ "filed": "2026-10-15",
+ "url": "//www.rtoinsider.com/148536-bpa-seeks-to-connect-large-loads-under-open-season/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Stakeholders responded with cautious optimism to the Bonneville Power Administration’s proposal to connect large loads to the grid faster through an open season process, with the Public Power Council saying money shouldn’t be the only determinant of who gets transmission. \n The post  Northwest Cautiously Awaits BPA’s ‘Open Season’ Proposal  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-16T05:22:47Z",
+ "run_id": "2026-10-16-0507",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

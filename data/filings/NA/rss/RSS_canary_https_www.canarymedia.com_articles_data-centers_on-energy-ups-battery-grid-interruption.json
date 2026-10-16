@@ -1,0 +1,27 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/data-centers/on-energy-ups-battery-grid-interruption",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "A new class of batteries helps data centers play nicely with the grid",
+ "filed": "2026-10-15",
+ "url": "https://www.canarymedia.com/articles/data-centers/on-energy-ups-battery-grid-interruption",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "Lithium-ion batteries could do so much for AI data centers and the power grid. They’re cheaper than the fossil-gas turbines that tech giants are building at gigawatt scale for their “AI factories.” They can cushion the cost of building out grid infrastructure and power plants just to serve data centers’ peak energy…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-16T05:22:47Z",
+ "run_id": "2026-10-16-0507",
+ "keywords": [
+  "data center",
+  "gas turbine"
+ ],
+ "party_hits": [],
+ "documents": []
+}

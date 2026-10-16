@@ -37,5 +37,6 @@
    "url": "{'ferc_file': '5FA5033A-8737-CB9C-923A-A1358F100000', 'name': 'FERC US Cofferdam Comment Response_10122026.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-16T05:39:47Z"
 }

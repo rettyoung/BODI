@@ -1,0 +1,41 @@
+{
+ "id": "NRC:ML26278A281",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): 2026/10/02 - Comment (2) E-mail regarding LMGS CP Hearing [['General FR Notice Comment Letter']]",
+ "filed": "2026-10-15",
+ "entity": [
+  "Public Commenter"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2627/ML26278A281.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26278A281.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26278A281",
+  "document_date": "2026-10-02"
+ },
+ "collected_at": "2026-10-16T05:38:47Z",
+ "run_id": "2026-10-16-0507",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26278A281.pdf",
+   "name": null,
+   "bytes": 281043,
+   "sha256": "d95987197437d7290a1508fbcb7b694d0a88250b50275d74b3845a7ec03c452c",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:                  Max Chang <maxpchang@gmail.com>\nSent:                  Friday, October 2, 2026 11:17 AM\nTo:                    LMGS-CPHearing Resource\nSubject:               [External_Sender] Docket No. 05-614; NRC-2025-0079 Comments\n\nHonorable NRC Staff:\n\nPlease find below my comments regarding the proposed Long Mott Generating Station\ncurrently before the NRC.\n\nThat X-Energy and LME have not provided public estimates of the cost of the proposed\nplant since the initial award of the 50% ARDP cost share program is disturbing.\n\nRecently, X-Energy received an additional $1 billion of DOE funding. That the ARDP DOE\nfunding is now up to $2.15 billion implies that the project cost has not increased to $4.3\nbillion up from ~$2.4 billion implied cost when X-Energy was first awarded the ARDP in\n2021. It is also concerning that there does not appear to be any cap to the Federal funding\ncurrently.\n\nSadly, the additional $1 billion in DOE funding had been taken from other DOE grantees.\n\nSincerely,\n\nMax Chang\n\fFederal Register Notice:      91FR53900\nComment Number:               2\n\nMail Envelope Properties    (CAPDfzDVnj2Kx_K3f8SurDR8NJtoJes=6aFukDJnkDjJ4GpGTFA)\n\nSubject:               [External_Sender] Docket No. 05-614; NRC-2025-0079 Comments\nSent Date:             10/2/2026 11:17:13 AM\nReceived Date:         10/2/2026 11:17:35 AM\nFrom:                  Max Chang\n\nCreated By:            maxpchang@gmail.com\n\nRecipients:\n\"LMGS-CPHearing Resource\" <LMGS-CPHearing.Resource@nrc.gov>\nTracking Status: None\n\nPost Office:           mail.gmail.com\n\nFiles                         Size                   Date & Time\nMESSAGE                       796                    10/2/2026 11:17:35 AM\n\nOptions\nPriority:                     Normal\nReturn Notification:          No\nReply Requested:              No\nSensitivity:                  Normal\nExpiration Date:\n\f"
+  }
+ ]
+}

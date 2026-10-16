@@ -64,5 +64,6 @@
    "url": "{'ferc_file': '81F72CA5-09B1-C200-B1C3-A135D5D00000', 'name': 'Attachment 58_CUI-PRIV.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-16T05:39:44Z"
 }

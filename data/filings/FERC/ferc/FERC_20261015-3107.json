@@ -1,0 +1,53 @@
+{
+ "id": "FERC:20261015-3107",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "AD06-6",
+ "title": "Notice of Joint Meeting of The Federal Energy Regulatory Commission and The Nuclear Regulatory Commission under AD06-6. ",
+ "filed": "2026-10-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261015-3107",
+ "entity": "SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "2CBD7B74-9891-C5B6-95EE-A14130200000",
+   "name": "AD06-6-000-Notice-Agenda-2026 Joint FERC-NRC Meeting.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-15"
+ },
+ "collected_at": "2026-10-16T05:10:07Z",
+ "run_id": "2026-10-16-0507",
+ "keywords": [
+  "data center",
+  "interconnection",
+  "large load",
+  "nuclear",
+  "uprate"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "AD06-6-000-Notice-Agenda-2026 Joint FERC-NRC Meeting.docx",
+   "bytes": 63084,
+   "sha256": "4f613cfb52393da8a2170740e43dcfd69e271c10d18939ee7223b65911613152",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "UNITED STATES OF AMERICA\nFEDERAL ENERGY REGULATORY COMMISSION\n\n\nJoint Meeting of the Nuclear Regulatory Commission \t\tDocket No. AD06-6-000\nand the Federal Energy Regulatory Commission\n\nNOTICE OF JOINT MEETING OF THE FEDERAL ENERGY REGULATORY\nCOMMISSION AND THE NUCLEAR REGULATORY COMMISSION\n\n(October 15, 2026)\n\nThe Federal Energy Regulatory Commission (FERC) and the Nuclear Regulatory Commission (NRC) will hold a joint open meeting on Thursday, October 22, 2026, from 1:00 p.m. to 3:30 p.m. Eastern Standard Time. The meeting will be held in-person at the U.S. Nuclear Regulatory Commission’s headquarters, One White Flint North, 11555 Rockville Pike, Rockville, MD 20852-2738 in the Commissioners Hearing Room.  Commissioners from both agencies are expected to participate.\n\nThe format for the joint meeting will consist of discussions between the two sets of Commissioners following presentations by their respective staffs. In addition, a representative of the North American Electric Reliability Corporation (NERC) will attend and participate in this meeting.  \n\nThe meeting is not for the purpose of discussing the merits of any specific proceedings before FERC, and any such discussions will be curtailed.  Proceedings before FERC raising possibly relevant issues include, but are not limited to:\n\n\nThe meeting will be open for the public to attend.  Pre-registration is not required and there is no fee for attendance.  Information on this meeting will also be posted on the Calendar of Events on the Commission’s website, www.ferc.gov, prior to the event. The meeting will also be transcribed.  Transcripts will be available on NRC’s website at: https://www.nrc.gov/documents-reports/document-collections/commission-documents/commission-meetings-agendas-slides-transcripts-meeting-srms-and-full-written-explanation-for-closed-meetings/2026transcribe.   \n\nCommission meetings are accessible under section 508 of the Rehabilitation Act of 1973.  For accessibility accommodations, please send an e-mail to accessibility@ferc.gov, call toll-free (866) 208-3372 (voice) or (202) 208-8659 (TTY), or send a fax to (202) 208-2106 with the required accommodations. \n\nAll interested persons are invited to the meeting.  Questions about the meeting should be directed to Lodie White at Lodie.White@ferc.gov or by phone at (202) 502-8453.\n\n\n\nDebbie-Anne A. Reese,\nSecretary.\n\n\n\nAGENDA \n\nTitle:\t\tJOINT MEETING OF THE FEDERAL ENERGY REGULATORY COMMISSION (FERC) AND THE NUCLEAR REGULATORY COMMISSION (NRC) \n\t\t(Public Meeting)\n\t\t\t\t\nScheduled:\t\tThursday, October 22, 2026\n1:00 p.m. to 3:30 p.m. \n\nDuration:\tApprox. 2.5 hours \n\nLocation:\t\tU.S. Nuclear Regulatory Commission\n1st Fl. Conference Room and O2B2\nOne White Flint North\n11555 Rockville Pike\nRockville, MD 20852-2738\n\nParticipants:\t\n\t\t\t\t\t\n\nFERC Chairman and Commissioners:\nChairman Laura V. Swett\nCommissioner David Rosner\nCommissioner Lindsay S. See\nCommissioner Judy W. Chang\nCommissioner David LaCerte\nNRC Chair and Commissioners:\nChairman Ho K. Nieh\nCommissioner David A. Wright\nCommissioner Bradley R. Crowell\nCommissioner Matthew J. Marzano\nCommissioner Douglas W. Weaver\n\nFERC Directors and Staff\nDeepak Ramlatchan, Deputy Director, Office of Electric Reliability (OER)\nJoseph McClellan, Director, Office of Energy Infrastructure Security (OEIS)\nAlan Herd, Deputy Director of the Division of Cyber Security, OER\nJason Feuerstein, Senior Technical Advisor, OER\nJames Dawson, General Counsel \n\nOther FERC staff attending \nDebbie-Anne Reese, Secretary of the Commission\nEmmett Barnes, Legal Advisor, Office of the Chairman\nAlexander De Taboada, Technical Advisor, Commissioner Rosner\nMelanie Steele, Legal Advisor, Commissioner See\nSteven Wellner, Senior Legal Advisor, Commissioner Chang \nChloe Koseff, Strategic Advisor, Commissioner Chang \nMichael Purdie, Senior Technical Advisor, Commissioner LaCerte\nMark Hegerle, Director, Division of Engineering and Logistics, OER\nJonathan First, Senior Reliability Counsel, Office of the General Counsel\nLodie White, Energy Industry Analyst, OER\n\n\nNorth American Electric Reliability Corporation (NERC) Staff\nMark Lauby, Chief Engineer and NERC Fellow\t\nFritz Hirst, Vice President, Government Affairs\n\n\nNRC Staff\nMatt Pociask, General Counsel \nJody Martin, Secretary of the Commission\nJacob Zimmerman, Deputy Office Director for Licensing Programs, Office of Nuclear Reactor Regulation (NRR)\nJen Whitman, Director, Division of Risk Assessment and Safety Systems, NRR \nMahmoud (MJ) Jardaneh, Director, Division of Licensing Projects  \nJosh Borromeo, Director, Division of Advanced Reactor Licensing, Office of Advanced Reactors (OAR)\nJim Beardsley, Chief, Physical and Cyber Security Licensing Branch, NRR \nAlex Brown, Chief Intel, Liaison, Threat Assessment Branch, NRR\t\n\n\n\n\n\nAGENDA\n\n1:00pm\tIntroductions and Opening Statements\t\t          \t       \t15 mins.\n\n1:15pm\tGrid Reliability, Nuclear Power Plants (NPPs) & Other Topics \t        \n\t\t\t\t\t\t\t\t\t\t        \nNERC\t\t\t\t\t\t\t\t\t 20 mins.\nMark Lauby, Chief Engineer and NERC Fellow, NERC\t      \t       \nTopic: \nUpdate on data center; registration and \nReliability Standards\nQ&A\t\t\t\t\t\t\t\t\t 15 mins.\n\n\nFERC \t\t\t\t\t\t\t\t\t 20 mins.\nDeepak Ramlatchan, Deputy Director, \nOffice of Electric Reliability \nJason Feuerstein, Senior Technical Advisor, OER\n\tTopics: \t\t\t\t\t\t\t\t       \nManaging Large Loads\nGenerator Interconnection Procedures \nQ&A\t\t\t\t\t\t\t\t\t 15 mins.\n\n\nNRC\t\t\t\t\t\t\t\t\t\t 20 mins.\nJacob Zimmerman, Deputy Office Director for Licensing Programs, \nOffice of Nuclear Reactor Regulation (NRR)\nTopic:\nIntroduction\nNRC Reorganization\n\nJen Whitman, Director, Division of Risk Assessment and \nSafety Systems, NRR\nTopic:\nEO14300 Activities and NRC Reform Efforts\n\nMahmoud (MJ) Jardaneh, Director, Division of Licensing Projects I, NRR\n\t\tTopic:\nPower Reactor Program Overview \nStatus of the Operating Reactor Fleet\nRestarting Decommissioning Nuclear Power Plants\nReadiness for Power Uprates\nEnhancements and Efficiencies in License Renewal and Subsequent License Renewal Reviews\n\nJosh Borromeo, Director, Division of Advanced Reactor Licensing, OAR\nTopic:\nUpdate on Advanced Reactor Licensing\nOptimizing Reviews for Advanced Reactors\nQ&A\t\t\t\t\t\t\t15 mins.\n\n\n3:00pm\tCyber Security Activities\t\t\t\t\t\t       \t     \t         \nFERC \t\t\t\t\t\t\t\t\t10 mins.\nAlan Herd, Deputy Director, Division of Cyber Security, OER\nTopics:\nCybersecurity updates\nCritical Infrastructure Protection (CIP) Audits \nLesson Learned Report\n\nNRC \t\t\t\t\t\t\t\t\t\t 10 mins.\nJim Beardsley, Chief, Physical and Cyber Security Licensing Branch, NRR\nTopics:\nUpdate on cybersecurity program guidance \nResearch activities related to emerging cyber issues\nTrends observed in cybersecurity inspection and oversight\n\tQ&A\t\t\t\t\t\t\t15 mins.\n\n"
+  }
+ ]
+}

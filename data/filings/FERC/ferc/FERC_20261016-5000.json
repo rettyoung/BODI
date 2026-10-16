@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261016-5000",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Cynthia Morelli in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/15/2026\n",
+ "filed": "2026-10-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261016-5000",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "5A080F97-EE30-C667-92CC-A14286C00000",
+   "name": "151604.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-15"
+ },
+ "collected_at": "2026-10-16T05:10:04Z",
+ "run_id": "2026-10-16-0507",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151604.txt",
+   "bytes": 980,
+   "sha256": "b750d50a8507cf47cd7377c238caa2096358ecf68c66dffb021b1c8a4811cad3",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nCynthia Morelli, Homer, AK.\nOctober 15, 2026\r\n\r\nTo whom it may concern,\r\n\r\nI am writing to oppose development of a data center in Cook Inlet by DeepGreen. The dumping of heat into Cook Inlet waters will harm temperature sensitive fish such as salmon, leaching of heavy metals such as copper and nickel into Cook Inlet waters will harm all living creatures there. The proposed location is in one of the siltiest salt waters with enormous tidal variation, waters with ice pack in winter and huge movement of massive amount of water with tidal fluctuations twice daily. What could possibly go wrong? \r\n\r\nThe area is also home to Beluga Whales, and would cut their calving grounds into a separate area from their feeding grounds. \r\n\r\nWe have one earth. Water, life, food sources are critical to our survival. Data centers are not. I strongly oppose the DeepGreen Cook Inlet data center proposal. Please do not permit this project.\r\n\r\nSincerely,\r\nCynthia Morelli\r\nHomer, Alaska\r\n\r\n"
+  }
+ ]
+}

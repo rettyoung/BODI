@@ -1,0 +1,47 @@
+{
+ "id": "FERC:20261015-5085",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AD16-16,AD19-15,AD25-7,CP18-46,CP21-94,EC23-59,EL16-49,EL19-15,EL19-47,EL19-63,EL22-34,EL23-105,EL23-19,EL24-113,EL24-118,EL24-12,EL25-44,EL25-46,EL26-67,EL26-81,ER18-1314,ER18-178,ER19-511,ER20-2046,ER20-2308,ER21-253,ER21-2582,ER21-265,ER21-39,ER22-2110,ER22-2984,ER22-902,ER22-962,ER23-1609,ER24-119,ER24-1242,ER24-148,ER24-149,ER24-2172,ER24-2336,ER24-2338,ER24-2893,ER24-843,ER24-98,ER24-99,ER25",
+ "title": "Pennsylvania Public Utility Commission submits request to update the service list under AD16-16 et al.",
+ "filed": "2026-10-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261015-5085",
+ "entity": "Pennsylvania Public Utility Commission",
+ "fetch": [
+  {
+   "ferc_file": "E2C921EA-7A2E-CF20-91D7-A1407B500000",
+   "name": "PA PUC Letter request to update service lists.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-10-15"
+ },
+ "collected_at": "2026-10-16T05:09:40Z",
+ "run_id": "2026-10-16-0507",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "PA PUC Letter request to update service lists.pdf",
+   "bytes": 255380,
+   "sha256": "803f188bea3ef3af39d01cede56143ad372ed56c97c58e0ae81322e80b7e2555",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                           COMMONWEALTH OF PENNSYLVANIA\n                        PENNSYLVANIA PUBLIC UTILITY COMMISSION\n                                 400 NORTH STREET\n                                HARRISBURG, PA 17120\n\n                                    October 15, 2026\n\nVia Electronic Filing\nThe Honorable Debbie-Anne A. Reese, Secretary\nFederal Energy Regulatory Commission\n888 First Street, N.E.\nWashington, D.C. 20426\n\n       Re:    Request to Update Information and Official Service List\n\nSecretary Reese:\n\n        Pursuant to Rules 2010 and 2101 of the Rules of Practice and Procedure of the\nFederal Energy Regulatory Commission (“FERC”), the Pennsylvania Public Utility\nCommission notifies the FERC of a change in appearance and requests that FERC\nmodify the existing service list for each proceeding identified in Appendix A to reflect\nthe following:\n\nPLEASE REMOVE AS COUNSEL\n\nElizabeth H. Barnes, Esquire\nPennsylvania Public Utility Commission\n400 North Street, Third Floor\nHarrisburg, PA 17120\nebarnes@pa.gov\n\n      If you have any questions regarding this request, please contact the undersigned.\nThank you for your attention to this matter.\n\n\n       Respectfully submitted,\n\n       /s/ Elizabeth Barnes\n       Elizabeth H. Barnes\n\n\n\n\n                                             1\n\f            APPENDIX A\n\nAD16-16\nAD19-15\nAD25-7\nEL16-49\nCP18-46\nCP21-94\nEC23-59\nPL18-1\nER18-1314\nEL18-178\nER19-511\nEL19-47\nRM19-15\nPL19-3\nIS19-277\nIS19-278\nEL19-63\nRM20-10\nER20-2046\nER20-2308\nER21-253\nER21-265\nEL21-39\nRM21-17\nER21-2582\nER22-902\nER22-962\nEL22-34\nRM22-14\nER22-2110\nRM22-19\nER22-2984\nEL23-13\nER23-729\nEL23-19\nER23-1609\nEL23-105\nER24-98\nER24-99\nEL24-12\nER24-843\n\n\n                2\n\fER24-1242\nRD24-5\nEL24-113\nER24-2172\nEL24-118\nER24-2336\nEL24-119\nER24-2338\nER24-2893\nEL24-148\nEL24-149\nEL25-18\nEL25-20\nER25-612\nER25-682\nEL25-44\nER25-785\nOR25-6\nEL25-46\nER25-1357\nER25-3492\nRM26-4\nER26-455\nER26-1734\nER26-1800\nER26-2294\nEL26-67\nEL26-81\nER26-3380\nER26-3515\n\n\n\n\n            3\n\f"
+  }
+ ]
+}
