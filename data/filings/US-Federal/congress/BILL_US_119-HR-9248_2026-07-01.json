@@ -1,0 +1,22 @@
+{
+ "id": "BILL:US:119-HR-9248:2026-07-01",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 9248",
+ "title": "Recreation Permitting Improvement Act",
+ "filed": "2026-07-01",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/9248",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Subcommittee Hearings Held",
+  "keywords": [
+   "permitting"
+  ]
+ },
+ "collected_at": "2026-10-17T05:23:17Z",
+ "run_id": "2026-10-17-0503",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

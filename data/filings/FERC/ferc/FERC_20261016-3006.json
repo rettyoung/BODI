@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20261016-3006",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3752",
+ "title": "Letter informing Dayton Power and Light Company that the 09/10/2026 filing is deficient and requesting additional information to be filed within 30 days to assist in processing etc. under ER26-3752. ",
+ "filed": "2026-10-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261016-3006",
+ "entity": "OFFICE OF ENERGY MARKET REGULATION",
+ "fetch": [
+  {
+   "ferc_file": "D516F584-7035-C0B7-9784-A144ABF00000",
+   "name": "Deficiency Letter ER26-3752.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "FERC Correspondence With Applicant",
+    "documentType": "Deficiency Letter"
+   },
+   {
+    "documentClass": "FERC Correspondence With Applicant",
+    "documentType": "Request for Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-16"
+ },
+ "collected_at": "2026-10-17T05:06:03Z",
+ "run_id": "2026-10-17-0503",
+ "keywords": [
+  "data center",
+  "network upgrade"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Deficiency Letter ER26-3752.docx",
+   "bytes": 49996,
+   "sha256": "d42e26776a0646280a61de0ff3386c12d3fa4d487fe102699dc97844d33e8174",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "FEDERAL ENERGY REGULATORY COMMISSION\nWASHINGTON, DC 20426\n\nOFFICE OF ENERGY MARKET REGULATION\n\nDayton Power and Light Company\nDocket No.\tER26-3752-000\n\nIssued: 10/16/2026\n\n\tOn September 10, 2026, Dayton Power and Light Company d/b/a AES Ohio (AES Ohio) filed an executed New or Upgraded High Voltage Distribution Service Construction Service Agreement (CSA) between AES Ohio and J5, LLC d/b/a SHAYTURA LLC (J5).  AES Ohio states that the CSA is a bilateral agreement governing the construction of new transmission facilities that are necessary to provide retail service using transmission facilities for a proposed J5 data center to be located in Piqua, Ohio.\n\n\tPlease be advised that your submittal is deficient and that additional information is necessary to process the filing.  Please provide the information requested below. \n\nIn AES Ohio’s transmittal and the CSA, Transmission Facilities appear to be defined to include both Network Upgrades and Direct Connection Facilities.  The transmittal and CSA state that the Customer will be responsible for the costs of Direct Connection Facilities.  The CSA also states that the “Utility agrees that it will take positions in favor of rolled-in transmission pricing for the Transmission Facilities before the applicable regulatory jurisdiction.    \n\nPlease clarify whether, pursuant to section 6(D) of the CSA, AES Ohio intends to seek rolled-in rate treatment for Direct Connection Facilities, given that Transmission Facilities appears to include both Network Upgrades and Direct Connection Facilities, rather than the Customer being responsible for such costs, pursuant to section 6(C) of the CSA.  If so, please provide support for the rolled-in rate treatment of the Direct Connection Facilities. \n\nThis letter is issued pursuant to 18 C.F.R. § 375.307 (2025) and is interlocutory.  This letter is not subject to rehearing pursuant to 18 C.F.R. § 385.713 (2025).  A response to this letter must be filed with the Secretary of the Commission within 30 days of the date of this letter by making a deficiency filing in accordance with the Commission’s electronic tariff requirements.  To the extent that some of the requested information may include privileged information or other confidential information, please submit a non-public version in addition to a public version for Commission review, in accordance with 18 C.F.R. § 388.112 (2025).  For your response, please use Type of Filing Code 180, Deficiency Filing.  The information requested in this letter will constitute an amendment to your filing, and a new filing date will be established.  A notice will be issued upon receipt of your filing. \n \nFailure to respond to this letter within the time period specified may result in a \nfurther order rejecting your filing. \n\nIssued by: Leanne Khammal, Acting Director, Division of Electric Power Regulation – East"
+  }
+ ]
+}

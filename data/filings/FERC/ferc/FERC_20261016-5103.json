@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261016-5103",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP17-117",
+ "title": "Louisiana LNG Infrastructure LLC submits supplemental information to the 09/04/2026 response to FERC's 08/25/2026 engineering information request re Implementation Plan Volume 229 re the Woodside Louisiana LNG Project under CP17-117.",
+ "filed": "2026-10-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261016-5103",
+ "entity": "Louisiana LNG Infrastructure LLC",
+ "fetch": [
+  {
+   "ferc_file": "BC67BE38-7586-C5A3-B24E-A145F3700000",
+   "name": "Louisiana LNG IP V229 Suppl Response (CUI_CEII_PRIV).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "2432D243-D683-CB16-B8AC-A145F3700000",
+   "name": "Att V229-7 (CUI-CEII).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Certificate of Compliance Report"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-10-16"
+ },
+ "collected_at": "2026-10-17T05:06:15Z",
+ "run_id": "2026-10-17-0503",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'BC67BE38-7586-C5A3-B24E-A145F3700000', 'name': 'Louisiana LNG IP V229 Suppl Response (CUI_CEII_PRIV).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '2432D243-D683-CB16-B8AC-A145F3700000', 'name': 'Att V229-7 (CUI-CEII).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

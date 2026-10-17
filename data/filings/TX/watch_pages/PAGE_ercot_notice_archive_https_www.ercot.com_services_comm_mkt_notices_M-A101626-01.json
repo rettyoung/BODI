@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A101626-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-A101626-01 PUCT hosting Weather Emergency Preparedness and Emergency Operations Plan (EOP) Workshop 12/08/2026",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-A101626-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A101626-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-17T05:17:05Z",
+ "run_id": "2026-10-17-0503",
+ "keywords": [
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A101626-01",
+   "name": null,
+   "bytes": 8084,
+   "sha256": "1074a969101d85689d2f4f345959fcc63deb1ba755cfa6fb5e48ddcadaff9503",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com\n\nSent:\n\n10/16/26, 4:00 PM\n\nSubject:\n\nM-A101626-01 PUCT hosting Weather Emergency Preparedness and Emergency Operations Plan (EOP) Workshop 12/08/2026\n\nNOTICE DATE:\n October 16, 2026\n\nNOTICE TYPE:\n M-A101626-01 General\n\nSHORT DESCRIPTION: \nPUCT hosting Weather Emergency Preparedness and Emergency Operations Plan (EOP) Workshop 12/08/2026\n\nINTENDED AUDIENCE:\n All Market Participants\n\nDAYS AFFECTED:\n December 8, 2026, 9:00 AM - 12:45 PM\n\nLONG DESCRIPTION:\n The Public Utility Commission of Texas (PUCT) is hosting a workshop on December 8, 2026 from 9:00 AM to 12:45 PM in the Commissioners' Hearing Room located on the seventh floor of the William B. Travis Building, 1701 N. Congress Avenue, Austin, Texas 78701.\n\nThe workshop will review the PUCT's findings from its biannual Weather Emergency Preparedness Report and suggested best practices for Emergency Operations Plans (EOPs) to incorporate in the upcoming 2027 annual EOP filings required of electric utilities, transmission and distribution utilities (TDUs), power generation companies (PGCs), municipally owned utilities (MOUs), electric cooperatives, and retail electric providers (REPs).  The workshop agenda also includes:\n\nTexas emergency response overview;\n\nupdate from the PUCT's Division of Compliance and Enforcement (DICE); and\n\nelectric entity spotlight panel discussion.\n\nThe target audience of this workshop includes any entities required by \n16 Texas Administrative Code Section 25.53\n to file an EOP.\n\nIn-person attendance is encouraged to allow for an opportunity to ask questions.  The meeting will also be broadcast live at: \nhttps://www.puc.texas.gov/agency/calendar/broadcasts/\n\nADDITIONAL INFORMATION:\n The PUCT's Weather Emergency Preparedness Report was filed on September 24, 2026 in PUCT Project No. 53385 and is available on the \nPUCT's Interchange\n.\n\nPlease refer to PUCT Project No. 53385 for additional filings related to the workshop.\n\nCONTACT:\n If you have any questions, please contact Sherryhan Ghanem, Project Manager in the Public Utility Commission of Texas Infrastructure Division, at \nsherryhan.ghanem@puc.texas.gov\n or (512) 936-7355.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\nkg\n\nAttachments:\n\n53385_5328 PUCT Weather Emergency Preparedness Report (2026.09.02).pdf\n\nOct 16, 2026 - pdf - 78.8 MB"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A101626-02",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-A101626-02 PUCT hosting Weather Emergency Preparedness and Emergency Operations Plan (EOP) Workshop 12/08/2026",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-A101626-02",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A101626-02"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-17T05:17:03Z",
+ "run_id": "2026-10-17-0503",
+ "keywords": [
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A101626-02",
+   "error": "blocked: block page (incapsula) at https://www.ercot.com/services/comm/mkt_notices/M-A101626-02"
+  }
+ ]
+}

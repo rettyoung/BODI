@@ -1,0 +1,26 @@
+{
+ "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210320",
+ "jur": null,
+ "source": "rss:pjm_insidelines",
+ "kind": "news",
+ "docket": null,
+ "title": "Operations Update: PJM Issues Capacity Advisory for Oct. 19",
+ "filed": "2026-10-16",
+ "url": "https://insidelines.pjm.com/operations-update-pjm-issues-capacity-advisory-for-oct-19/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:pjm_insidelines",
+  "rto": "PJM",
+  "summary": " PJM has issued a Capacity Advisory for Monday, Oct. 19, ahead of expected tight system conditions due to equipment outages needed for maintenance and construction. The PJM load forecast is estimated at about 94,573 MW against expected generation outages of about 72,000 MW as well as planned transmission outages. A Capacity Advisory is a new [&#8230;]",
+  "feed": "pjm_insidelines",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-17T05:18:24Z",
+ "run_id": "2026-10-17-0503",
+ "keywords": [
+  "load forecast"
+ ],
+ "party_hits": [],
+ "documents": []
+}

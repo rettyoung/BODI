@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20261016-5127",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3663",
+ "title": "ALLETE, Inc. submits tariff filing per 35.17(b): Corrected 2nd Amended & Restated CMA - Northland Reliability Proj. (ER26-3663-) to be effective 7/31/2026 under ER26-3663 Filing Type : 130",
+ "filed": "2026-10-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261016-5127",
+ "entity": "ALLETE, Inc.; ALLETE, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "96B44557-B62F-CDFE-B2B2-A14620100000",
+   "name": "Tab B - Non-Public 2nd CMA - refile.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "12D8A022-B8E5-C323-8B90-A14620200000",
+   "name": "Tab C - Redlined 2nd CMA.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-10-16"
+ },
+ "collected_at": "2026-10-17T05:06:09Z",
+ "run_id": "2026-10-17-0503",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '96B44557-B62F-CDFE-B2B2-A14620100000', 'name': 'Tab B - Non-Public 2nd CMA - refile.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '12D8A022-B8E5-C323-8B90-A14620200000', 'name': 'Tab C - Redlined 2nd CMA.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

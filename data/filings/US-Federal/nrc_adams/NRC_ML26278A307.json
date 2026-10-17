@@ -27,7 +27,16 @@
  "documents": [
   {
    "url": "https://www.nrc.gov/docs/ML2627/ML26278A307.pdf",
-   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2627/ML26278A307.pdf"
+   "name": null,
+   "bytes": 746730,
+   "sha256": "100a9d9e116cb6ea636a1dde6a50ae65318c7bafd590dfc9b4b5ceada59d726f",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "From:                      Russell Cain <rc@russellcain.com>\nSent:                      Tuesday, September 29, 2026 11:29 AM\nTo:                        LMGS-CPHearing Resource\nSubject:                   [External_Sender] Long Mott Generation Station\nAttachments:               doc03653720260929102746.pdf\n\nSee attached. Call me if you have any questions.\nRussell\n361-920-6313\n\nRussell Cain\nBroker #163380\nRussell Cain Real Estate\n2025 N Highway 35\nPort Lavaca, TX 77979\n361-552-6313 (Office)\n361-920-6313 (Cell)\n361-552-1919 (Fax)\nrc@russellcain.com\n\nhttp://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-2.pdf\n\nhttps://netorg11719973-\nmy.sharepoint.com/:b:/g/personal/lisa_russellcain_com/EatYwsgBkShKhrHkLklNb08BwR5E0Ewu\nvuTTSIzdtRQqVw?e=U3bGbF\n\fFederal Register Notice:      91FR53900\nComment Number:               3\n\nMail Envelope Properties    (DM3PPF1939049CF8201B2F452C9CFAD4DFAC38C2)\n\nSubject:               [External_Sender] Long Mott Generation Station\nSent Date:             9/29/2026 11:29:08 AM\nReceived Date:         9/29/2026 11:29:26 AM\nFrom:                  Russell Cain\n\nCreated By:            rc@russellcain.com\n\nRecipients:\n\"LMGS-CPHearing Resource\" <LMGS-CPHearing.Resource@nrc.gov>\nTracking Status: None\n\nPost Office:           DM3PPF1939049CF.namprd11.prod.outlook.com\n\nFiles                       Size                        Date & Time\nMESSAGE                     586                         9/29/2026 11:29:26 AM\ndoc03653720260929102746.pdf                           452226\n\nOptions\nPriority:                     Normal\nReturn Notification:          No\nReply Requested:              No\nSensitivity:                  Normal\nExpiration Date:\n\f\f"
   }
- ]
+ ],
+ "enriched_at": "2026-10-17T05:36:29Z"
 }

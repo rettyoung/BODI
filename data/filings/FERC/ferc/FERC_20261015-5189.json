@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20261015-5189",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "OR22-5,OR24-9",
+ "title": "Reply Brief of Colonial Pipeline Company Regarding Monetary Sanctions under OR22-5, et al.",
+ "filed": "2026-10-15",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261015-5189",
+ "entity": "Colonial Pipeline Company",
+ "fetch": [
+  {
+   "ferc_file": "2A829D79-336E-C20C-9C6C-A144AD200000",
+   "name": "OR22-5-001 Colonial Reply Brief - Sanctions - Final (10.15.26) CUI--PRIV-HC.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Briefing/Arguments of Law",
+    "documentType": "Brief"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-15"
+ },
+ "collected_at": "2026-10-17T05:05:57Z",
+ "run_id": "2026-10-17-0503",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '2A829D79-336E-C20C-9C6C-A144AD200000', 'name': 'OR22-5-001 Colonial Reply Brief - Sanctions - Final (10.15.26) CUI--PRIV-HC.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}
