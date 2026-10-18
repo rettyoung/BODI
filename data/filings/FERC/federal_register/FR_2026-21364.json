@@ -1,0 +1,45 @@
+{
+ "id": "FR:2026-21364",
+ "jur": "FERC",
+ "source": "federal_register",
+ "kind": "notice",
+ "docket": "Docket No. EL26-112-000",
+ "title": "Moraga Storage, LLC, River Mill Storage, LLC, Hecate Energy Medway Energy Center LLC, Brough Storage, LLC, Partridge Storage, LLC v. ISO New England Inc.; Notice on Comment Periods",
+ "filed": "2026-10-19",
+ "url": "https://www.federalregister.gov/documents/2026/10/19/2026-21364/moraga-storage-llc-river-mill-storage-llc-hecate-energy-medway-energy-center-llc-brough-storage-llc",
+ "entity": "energy-department, federal-energy-regulatory-commission",
+ "fetch": [
+  {
+   "url": "https://www.federalregister.gov/documents/full_text/text/2026/10/19/2026-21364.txt"
+  }
+ ],
+ "meta": {
+  "type": "Notice",
+  "action": null,
+  "abstract": null,
+  "comments_close_on": null,
+  "effective_on": null,
+  "term": "interconnection"
+ },
+ "collected_at": "2026-10-18T05:06:50Z",
+ "run_id": "2026-10-18-0504",
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.federalregister.gov/documents/full_text/text/2026/10/19/2026-21364.txt",
+   "name": null,
+   "bytes": 2121,
+   "sha256": "a18d90240a118ce8b2a866ce66ec13081c4104c79f10ae3bddc12b58cdfb52eb",
+   "ctype": "text/plain",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Federal Register, Volume 91 Issue 200 (Monday, October 19, 2026)\n\n[Federal Register Volume 91, Number 200 (Monday, October 19, 2026)]\n[Notices]\n[Page 66127]\nFrom the Federal Register Online via the Government Publishing Office [\nwww.gpo.gov\n]\n[FR Doc No: 2026-21364]\n\n-----------------------------------------------------------------------\n\nDEPARTMENT OF ENERGY\n\nFederal Energy Regulatory Commission\n\n[Docket No. EL26-112-000]\n\nMoraga Storage, LLC, River Mill Storage, LLC, Hecate Energy \nMedway Energy Center LLC, Brough Storage, LLC, Partridge Storage, LLC \nv. ISO New England Inc.; Notice on Comment Periods\n\n    On September 30, 2026, Moraga Storage, LLC; River Mill Storage, \nLLC; Hecate Energy Medway Energy Center LLC; Brough Storage, LLC; and \nPartridge Storage, LLC (collectively, Project Companies) filed a \ncomplaint and waiver request in the above-referenced docket. Project \nCompanies request a shortened 10-day comment period because they must \ndecide whether to execute a Large Generator Interconnection Agreement \n(LGIA), seek to file an unexecuted LGIA, or withdraw from the ISO New \nEngland Inc. (ISO-NE) interconnection queue by October 20, 2026.\n    On October 1, 2026, ISO-NE filed a motion in opposition to a \nshortened comment period, requesting the full 30-day comment period to \nrespond to the complaint. On October 2, 2026, Project Companies filed \nan answer requesting a 10-day comment period for the waiver request and \na 20-day answer period for the complaint.\n    Upon consideration, notice is hereby given that Project Companies' \nrequest for shortened comment period is partially granted. The deadline \nfor filing comments pertaining to the waiver request is hereby \nshortened to 5:00 p.m. EDT on Tuesday, October 13, 2026.\n    The deadline for filing ISO-NE's answer or comments pertaining to \nthe complaint is 5:00 p.m. EDT on Friday, October 30, 2026.\n\n    Dated: October 5, 2026.\nDebbie-Anne A. Reese,\nSecretary.\n[FR Doc. 2026-21364 Filed 10-16-26; 8:45 am]\nBILLING CODE 6717-01-P"
+  }
+ ]
+}

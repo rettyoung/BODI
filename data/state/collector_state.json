@@ -8699,19 +8699,22 @@
   "AGENDA:fairfax_bos:https://www.fairfaxcounty.gov/boardofsupervisors/oct-27-2026-meeting": "2026-10-17",
   "ERCOTLL:https://www.ercot.com/files/docs/2026/10/16/ERCOT-Monthly-Operational-Overview-September.pdf": "2026-10-17",
   "NRC:ML26289A141": "2026-10-17",
-  "NRC:ML26286A083": "2026-10-17"
+  "NRC:ML26286A083": "2026-10-17",
+  "FR:2026-21364": "2026-10-18",
+  "FR:2026-21282": "2026-10-18",
+  "RSS:utilitydive:https://www.utilitydive.com/news/nexteras-4m-trump-ballroom-donation-muddies-debate-over-dominion-merger/833201/": "2026-10-18"
  },
  "sources": {
   "ferc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "edgar": {
@@ -19155,13 +19158,13 @@
     },
     "ciks_date": "2026-10"
    },
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "az_acc": {
@@ -19170,18 +19173,18 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "ga_psc": {
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "data": {},
    "last_ok": "2026-10-17",
-   "last_error": null
+   "last_error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "ok_occ": {
@@ -19314,19 +19317,19 @@
      "21480631": "CASE PUD 2026-000031 ENTRY NO. 157 FILED IN OCC COURT CLERK'S OFFICE ON 10/13/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF OKLAHOMA GAS AND ELECTRIC COMPANY FOR COMMISSION APPROVAL OF ELECTRIC SERVICE AGREEMENTS AND PREAPPROVAL PUD"
     }
    },
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "mo_efis": {
@@ -20054,37 +20057,37 @@
      "EA-2027-0113": "109873"
     }
    },
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "al_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "last_error": null
   },
   "eia": {
@@ -20094,25 +20097,25 @@
     "last_period": "2026-07"
    },
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -22076,13 +22079,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -22099,7 +22102,7 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -22285,7 +22288,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -22305,25 +22308,25 @@
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
@@ -22333,13 +22336,13 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -22356,7 +22359,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   }
  },
  "baselined": [
@@ -22364,8 +22367,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 29,
- "last_run": "2026-10-17T05:36:30Z",
+ "runs": 30,
+ "last_run": "2026-10-18T05:32:56Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -24787,12 +24790,12 @@
    "TX:59611-8"
   ],
   "attempts": {
-   "FERC:20261016-5149": 1,
-   "FERC:20261016-5012": 1,
-   "FERC:20261016-5127": 1,
-   "FERC:20261016-5103": 1,
-   "FERC:20261015-5189": 1,
-   "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A101626-02": 1
+   "FERC:20261016-5149": 2,
+   "FERC:20261016-5012": 2,
+   "FERC:20261016-5127": 2,
+   "FERC:20261016-5103": 2,
+   "FERC:20261015-5189": 2,
+   "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A101626-02": 2
   },
   "doc_retries": {
    "TX:58482-36": 1,
@@ -25004,15 +25007,15 @@
    "FERC:20261007-5237": 4,
    "FERC:20261008-5085": 4,
    "MO:655745": 4,
-   "FERC:20261013-5313": 1,
-   "FERC:20261013-5125": 1,
-   "FERC:20261013-5202": 1
+   "FERC:20261013-5313": 2,
+   "FERC:20261013-5125": 2,
+   "FERC:20261013-5202": 2
   }
  },
  "last_full_run": {
-  "run_id": "2026-10-17-0503",
-  "started": "2026-10-17T05:03:27Z",
-  "finished": "2026-10-17T05:36:30Z",
+  "run_id": "2026-10-18-0504",
+  "started": "2026-10-18T05:04:32Z",
+  "finished": "2026-10-18T05:32:56Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }
