@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=148676",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "ISO-NE Generators Raise Concerns About Treatment of Large Loads",
+ "filed": "2026-10-18",
+ "url": "//www.rtoinsider.com/148676-iso-ne-generators-raise-concerns-treatment-large-loads/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " New England generators have raised concerns about potential legal issues with ISO-NE’s proposed treatment of new large loads, taking issue with the redispatch price threshold for those with non-firm service. \n The post  ISO-NE Generators Raise Concerns About Treatment of Large Loads  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-19T05:25:34Z",
+ "run_id": "2026-10-19-0513",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

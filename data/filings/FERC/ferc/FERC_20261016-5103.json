@@ -46,5 +46,6 @@
    "url": "{'ferc_file': '2432D243-D683-CB16-B8AC-A145F3700000', 'name': 'Att V229-7 (CUI-CEII).pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-19T05:42:08Z"
 }

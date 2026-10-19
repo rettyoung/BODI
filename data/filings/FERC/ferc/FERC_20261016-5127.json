@@ -47,5 +47,6 @@
    "url": "{'ferc_file': '12D8A022-B8E5-C323-8B90-A14620200000', 'name': 'Tab C - Redlined 2nd CMA.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-19T05:42:02Z"
 }

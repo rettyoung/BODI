@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=147861",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Editor’s Note: ‘Volatility’ Describes Market Reforms, Demand, Transmission in 2026",
+ "filed": "2026-10-18",
+ "url": "//www.rtoinsider.com/147861-editors-note-volatility-describes-market-reforms/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Market reform in PJM and the Western markets can be described with one word: volatility. Meanwhile, public opposition to data centers is growing across North America, with at least 500 local governments in the U.S. approving moratoria or bans on data centers. \n The post  Editor&#8217;s Note: ‘Volatility’ Describes Market Reforms, Demand, Transmission in 2026  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-19T05:25:34Z",
+ "run_id": "2026-10-19-0513",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

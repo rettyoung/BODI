@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261019-5002",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Colette Bazylinski in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/16/2026\n",
+ "filed": "2026-10-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261019-5002",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "BD60D043-6ADA-C776-9CE5-A14761E00000",
+   "name": "151619.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-16"
+ },
+ "collected_at": "2026-10-19T05:14:44Z",
+ "run_id": "2026-10-19-0513",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151619.txt",
+   "bytes": 1044,
+   "sha256": "dcc56a67d57ad5eda21b444971c861d93b6d9f42da4ef0f7e1933e074799c16d",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nColette Bazylinski, Bangor, ME.\nI am a resident of Bangor, ME and I strongly oppose the DeepGreen underwater data center project proposed for the coast off Eastport, ME. The Bay of Fundy is used by endangered North Atlantic right whales, minke whales, and many other marine animals. Preliminary studies, as well as construction and operation of an underwater data center, will certainly pollute the ocean, increase vessel traffic, and increase underwater noise, which will disturb whales and other marine animals and their prey, alter marine habitats, and put them at risk of death. \r\n\r\nIn addition, the Maine economy will suffer. People come to Maine because it's a beautiful state with numerous outdoor activities. Our state relies on tourism and on industries like fishing, which are dependent on the health of our ocean. An underwater data center threatens that. \r\n\r\nWe do not need more data centers. We need regulatory agencies that actually protect our environment. I urge FERC to reject this application for a preliminary permit.\r\n\r\n"
+  }
+ ]
+}

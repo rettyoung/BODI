@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261019-5020",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Kathy Matta in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261019-5020",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "6E0B036B-3BDF-CD6F-92D0-A15271800000",
+   "name": "151638.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-19T05:14:47Z",
+ "run_id": "2026-10-19-0513",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151638.txt",
+   "bytes": 1124,
+   "sha256": "6826a44af9320fa3f47e6e631057e12de3ba651982523e8c130c21f4e9485263",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nKathy Matta, Soldotna, AK.\nCook Inlet is not an industrial playground. It is a living marine ecosystem that supports endangered  beluga whales,(whale sensitivity to vibrations and sounds as seen in many deaths in the state of NJ)salmon, and countless other marine species. The proposal to place a data center underwater raises serious concerns about the impact of turbines, underwater noise, water circulation, and disruption of this fragile environment.\r\n\r\nBeluga whales depend on sound to navigate, communicate, and find food. Salmon and other marine life depend on healthy waters and functioning ecosystems. Introducing large industrial infrastructure into these waters without fully understanding the consequences is an unacceptable risk.\r\n\r\nWhy should we jeopardize Alaska’s wildlife and natural heritage for a data center? Technology should serve society without sacrificing the ecosystems that sustain us. Before any such project moves forward, the public deserves independent environmental assessments, full transparency, and convincing evidence that marine life will not be harmed.\r\nThank you\r\nKathy Matta\r\n\r\n"
+  }
+ ]
+}

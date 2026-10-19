@@ -37,5 +37,6 @@
    "url": "{'ferc_file': '02E06447-B544-C1EF-A37F-A14645300000', 'name': '2026-10-16 IMM Market Power Report - CUI-PRIV-HC.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-19T05:41:51Z"
 }

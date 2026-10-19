@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=148657",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "MISO Stakeholders Want Large Load-Driven Tx Project Traceability Before MTEP 27",
+ "filed": "2026-10-18",
+ "url": "//www.rtoinsider.com/148657-miso-stakeholders-want-large-load-driven-tx-project-traceability/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Stakeholders have asked MISO to develop a way to assign data center developers the costs of reliability projects they trigger with their massive demand ahead of the RTO’s 2027 transmission planning cycle. \n The post  MISO Stakeholders Want Large Load-Driven Tx Project Traceability Before MTEP 27  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-19T05:25:34Z",
+ "run_id": "2026-10-19-0513",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

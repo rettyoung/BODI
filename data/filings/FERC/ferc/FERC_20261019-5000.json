@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261019-5000",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Donald Winslow in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/16/2026\n",
+ "filed": "2026-10-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261019-5000",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "C970EA5A-7228-C881-9DAE-A146AE700000",
+   "name": "151613.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-16"
+ },
+ "collected_at": "2026-10-19T05:14:53Z",
+ "run_id": "2026-10-19-0513",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151613.txt",
+   "bytes": 1943,
+   "sha256": "91438f763330527fad30d5385715b398e5abcf3cee2c468fc45b3d9925b1b9ca",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nDonald Winslow, Hagerstown, IN.\nFederal Energy Regulatory Commission\r\n12225 Wilkins Avenue\r\nRockville, MD 20852\r\n\r\nAttn: Debbie-Anne A. Reese, Secretary\r\n\r\nDear FERC,\r\n\r\nPlease consider my comments on the planned development of a tidal-powered data center in Cook Inlet. Docket # P-15423-000. Please deny the preliminary permit application for the DeepGreen Cook Inlet Subsea-Compute & Infrastructure Hub..\r\n\r\nThe exploration and studies necessary to develop a plan for the project would have severe impacts on the marine ecosystems in and around Cook Inlet. These activities would disturb wildlife and their critical habitat. Marine mammals are especially sensitive to sounds, so I am particularly concerned about the population of belugas in the Inlet. The Cook Inlet beluga is listed as an endangered species, and the Cook Inlet is critical habitat. Therefore, the investigations necessary to plan the proposed project would jeopardize this species. If the studies were evenutally completed, they would only show that the construction of an underwater data center in the Inlet would cause unacceptable impacts on the marine ecosystem. Therefore, undertaking the surveys and studies necessary to plan the project would be a waste of resources and cause unacceptable harm.\r\n\r\nThe vessel traffic, underwater noise, and other disturbances necessary to complete surveys and studies would harm beluga whales. Belugas depend on sound for everything that they do, so unnatural and loud noises interfere with their navigation, foraging, etc.  These impacts would add to the cumulative threats experienced by beluga whales throughout their range.\r\n\r\nThe Commission should not approve the permit. However, if FERC does proceed to greenlight the preliminary permit, please ensure that robust measures are in place to protect wildlife and their habitats and that all environmental laws are followed.\r\n\r\nThank you,\r\n\r\nDonald Edward Winslow, Ph.D.\r\n\r\n"
+  }
+ ]
+}

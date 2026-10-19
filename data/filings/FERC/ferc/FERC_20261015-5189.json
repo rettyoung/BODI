@@ -37,5 +37,6 @@
    "url": "{'ferc_file': '2A829D79-336E-C20C-9C6C-A144AD200000', 'name': 'OR22-5-001 Colonial Reply Brief - Sanctions - Final (10.15.26) CUI--PRIV-HC.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-19T05:42:11Z"
 }

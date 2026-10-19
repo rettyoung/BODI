@@ -46,5 +46,6 @@
    "url": "{'ferc_file': 'AD547884-4540-C637-AD4E-A144DA400000', 'name': 'PGE20261015_2310_ KiddLake_STID_R3Closure_Enc2.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-19T05:41:56Z"
 }

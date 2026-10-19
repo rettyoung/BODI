@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261019-5013",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Christopher Lish in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/18/2026\n",
+ "filed": "2026-10-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261019-5013",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "238115F0-3AA4-C63F-9071-A14F49600000",
+   "name": "151630.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-18"
+ },
+ "collected_at": "2026-10-19T05:14:38Z",
+ "run_id": "2026-10-19-0513",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151630.txt",
+   "bytes": 3264,
+   "sha256": "39057ce57ed992744570a2c1bbb330f231577b2e3cb1163ad3ce0be6da9e91b1",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nChristopher Lish, San Rafael, CA.\nSunday, October 18, 2026\r\n\r\nDebbie-Anne A. Reese\r\nSecretary\r\nFederal Energy Regulatory Commission\r\n888 First Street NE, Room 1A\r\nWashington, DC 20426\r\n\r\nSubject: Reject the preliminary permit application for the DeepGreen Western Passage underwater data center [docket no. P-15424-000]\r\n\r\nTo FERC Chair Laura Swett and FERC Project Coordinator Justin R. Robbins:\r\n\r\nI strongly oppose the preliminary permit for the DeepGreen Western Passage underwater data center off the coast of Maine. The project poses a risk to wildlife, and even its preliminary activities may disturb endangered species and their habitats.\r\n\r\n\"Our duty to the whole, including to the unborn generations, bids us to restrain an unprincipled present-day minority from wasting the heritage of these unborn generations. The movement for the conservation of wildlife and the larger movement for the conservation of all our natural resources are essentially democratic in spirit, purpose and method.\"\r\n-- Theodore Roosevelt\r\n\r\nThe proposed project to build an underwater AI data center off the coast of Eastport, Maine would span at least 27 acres within the Bay of Fundy. The bay is a vital feeding area, nursery, and migratory corridor for endangered species like North Atlantic right whales—who number fewer than 400—and Atlantic sturgeons. This exceptionally important, biodiverse marine ecosystem is no place for a data center.\r\n\r\n\"As we peer into society’s future, we—you and I, and our government—must avoid the impulse to live only for today, plundering for our own ease and convenience the precious resources of tomorrow. We cannot mortgage the material assets of our grandchildren without risking the loss also of their political and spiritual heritage. We want democracy to survive for all generations to come, not to become the insolvent phantom of tomorrow.\"\r\n-- Dwight D. Eisenhower\r\n\r\nEven the early exploratory studies for the project could pollute the water and put right whales, fin whales, sturgeons, and other ocean wildlife at risk. More vessel traffic would boost the chance of ship strikes—a leading cause of death for large whales—while testing equipment could disturb seafloor habitats. And underwater noise from surveys and engines could disrupt the lives of animals who rely on sound for foraging and communication.\r\n\r\n\"A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise.\"\r\n-- Aldo Leopold\r\n\r\nPrioritizing a license for an underwater data center is not in the public interest, and any preliminary activities should be required to avoid harming wildlife and their home. I strongly urge you to reject this preliminary permit application. At a minimum, the Federal Energy Regulatory Commission must not let activities proceed without ensuring full compliance with our environmental laws.\r\n\r\n\"The ultimate test of a moral society is the kind of world that it leaves to its children.\"\r\n-- Dietrich Bonhoeffer\r\n\r\nThank you for your consideration of my comments. Please do NOT add my name to your mailing list. I will learn about future developments on this issue from other sources.\r\n\r\nSincerely,\r\nChristopher Lish\r\nSan Rafael, CA\r\n\r\n"
+  }
+ ]
+}
