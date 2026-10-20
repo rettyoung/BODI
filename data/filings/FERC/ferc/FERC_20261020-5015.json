@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5015",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Jacinda Cotton in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5015",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "3068BE5D-7BB6-C0C6-9EFD-A15731200000",
+   "name": "151692.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:44:42Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151692.txt",
+   "bytes": 1635,
+   "sha256": "67fc4d25222fd6234515b91325c2745d566630e729015d3642345f2646d0a302",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJacinda Cotton, Eastport, ME.\nThe proposal before us is not just another development project. It is an unprecedented combination of an underwater AI data center and tidal energy infrastructure in one of the most productive and ecologically significant marine environments in North America.\r\n\r\nOur waters are not vacant industrial space. They support fishermen, aquaculture, marine wildlife, tourism, and generations of families whose livelihoods depend on a healthy Bay of Fundy. \r\n\r\nThese are not theoretical values. They are the foundation of Eastport's economy and identity.\r\n\r\nWe are told this project could bring jobs and investment. But AI data centers often create far fewer permanent jobs than people expect after construction is complete. \r\n\r\nOnce our marine environment is altered, once industrial infrastructure is established, and once the character of this place changes, there will be no practical way to reverse those decisions. \r\n\r\nWe have inherited something extraordinary: clean waters, a working waterfront, thriving fisheries, and a community that has endured because it respects the sea rather than takes it for granted. We have an obligation to pass those same resources to the next generation—not diminished, but protected.\r\n\r\nInnovation should never come at the cost of sacrificing the very resources that define Eastport. If this project cannot demonstrate, through transparent science and independent review, that it will protect our environment, our economy, and our community, then the right decision is to reject it.\r\n\r\nI am in opposition of this or any AI data center project in Eastport, Maine.\r\n\r\n"
+  }
+ ]
+}

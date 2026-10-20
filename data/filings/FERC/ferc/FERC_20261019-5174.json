@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261019-5174",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Mikayla Jones-Vincent in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261019-5174",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "AD48DB8F-149C-C10F-92BC-A155F2000000",
+   "name": "151651.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:45:18Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151651.txt",
+   "bytes": 1823,
+   "sha256": "249af41756b4a2752725e0c7b709e6398b7dd62343f04af0be12217791bcb8ea",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nMikayla Jones-Vincent, Arlington, VA.\nGood afternoon, \r\n\r\nTo Whom It May Concern,\r\n\r\nI am writing to express my strong objection to the preliminary permit approval process for the proposed data center in the Bay of Fundy. As someone whose family is rooted in East Machias and who frequently visits Eastport, I possess a deep personal connection to this region and a firsthand understanding of its invaluable ecological and community worth.\r\n\r\nThe proposed preliminary surveys present a severe threat to the environmental stability of the Bay of Fundy and the socioeconomic well-being of the surrounding communities. The industrial disruptions caused by these surveys will directly impact local residents, the fishing industry, and the tourism economy that draws visitors to Eastport.\r\n\r\nFurthermore, there is a clear and overwhelming lack of community consent for this project, evidenced by widespread public outcry and the Eastport City Council’s enactment of a 180-day moratorium. Proceeding with approvals would directly disregard formal actions of the local municipality.\r\n\r\nCritically, the ecological stakes of this decision cannot be overstated. With fewer than 400 North Atlantic right whales remaining, the Bay of Fundy is a critical habitat for species on the brink of extinction. Just this past summer, I witnessed the area's rich biodiversity firsthand when spotting a Minke whale in the bay. Introducing industrial noise, vessel traffic, and habitat encroachment for preliminary surveys—and the potential data center to follow—is an unacceptable ecological risk.\r\n\r\nI urge the regulatory body to deny this preliminary permit, respect the community’s moratorium, and protect this fragile marine ecosystem from industrial encroachment.\r\n\r\nSincerely, \r\n\r\nMikayla Jones-Vincent\r\nmikayla.jv@gmail.com\r\n\r\n"
+  }
+ ]
+}

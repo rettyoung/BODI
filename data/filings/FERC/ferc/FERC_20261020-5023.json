@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5023",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Coleen Borrego in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5023",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "D6DFB6A2-451F-C705-9240-A15743500000",
+   "name": "151700.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:44:33Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151700.txt",
+   "bytes": 1369,
+   "sha256": "02713840e3c1117b2eb09c889d62880e27acc47449ae024d33bc5017cce44f96",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nColeen Borrego, Davis, CA.\nI am opposed to any data center in Cook Inlet, Alaska.\r\n\r\nThere are several reasons, including:\r\n\r\n1) Hydroacoustic noise from tidal generators\r\n\r\nAccording to its FERC filing, DeepGreen’s installation would be powered by between 330 and 350 tidal turbine generators, an unproven technology. It is certain that the noise from the generators would disturb the ocean life, including the endangered Cook Inlet beluga whales, whose population is dangerously low.  Every species is critical to the health of its local habitat, and by necessity, the health of the people and businesses who rely on that environment.\r\n\r\n\r\n2) Water warming impacts\r\n\r\nThe data center will necessarily create a warm-water plume in this relatively confined and important area, and this would impact the health or behavior of salmon, plankton, or other marine life. It is a question that should merit serious analysis.\r\n\r\n3) Copper pollution\r\n\r\nIn addition to waste heat, the fact that the cooling system would include copper-nickel cooling fins directly exposed to seawater, strong currents, and silt is a concern. Even small amounts of copper can be toxic to salmon.\r\n\r\n\r\nThe communities of Cook Inlet and the local indigenous population deserve thoughtful, sustainable solutions that truly serve local needs.\r\n\r\nI am opposed to any data center in the ocean.\r\n\r\n"
+  }
+ ]
+}

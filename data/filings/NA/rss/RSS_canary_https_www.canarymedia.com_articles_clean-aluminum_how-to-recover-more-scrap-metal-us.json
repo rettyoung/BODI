@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/clean-aluminum/how-to-recover-more-scrap-metal-us",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "A cleaner solution to America’s aluminum crunch is hiding in landfills",
+ "filed": "2026-10-19",
+ "url": "https://www.canarymedia.com/articles/clean-aluminum/how-to-recover-more-scrap-metal-us",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "A global supply shortage and U.S. tariffs have roiled the aluminum market this year, putting greater pressure on the United States to produce more of its own metal. Plans to build or reopen giant smelters are moving forward , but they all hinge on securing huge amounts of cheap power — at a time when data centers are…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-20T05:23:54Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

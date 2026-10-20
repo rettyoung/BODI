@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5024",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Nicole Olson in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5024",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "AA5E0B42-4D8D-CFA1-91BD-A15745300000",
+   "name": "151699.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:44:30Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151699.txt",
+   "bytes": 1094,
+   "sha256": "d60176cf069ed031cbb7e443b2ebe4599751b27530cae3388b8aae705128bf31",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nNicole Olson, Lake Forest, CA.\nI am writing in strong opposition to docket no P-15424-000 which elects to build a data center in the Bay of Fundy. The ocean is a delicate ecosystem, home to many incredible creatures some of which are endangered. The last thing needed is to a build a powerhouse data center that uses up resources beyond our planet’s capacity and has the chance to end the marine wildlife as we know it. The ocean is already seeing vast changes due to global warming and adding a data center to yet further progress its demise is a serious and unnecessary risk. We should be protecting this ecosystem. Nature provides so much to our humanity, our way of life, and without the ocean we would simply not exist. Oceans cover 70% of our planet, absorb 90% of excess heat, and a third of carbon emissions. Without them, our planet turns into an unyielding wasteland. We do not need more data centers, and we especially do not need one in the ocean. The negative impact to nature and the surrounding communities would be irreparable. Please do not proceed with this docket. \r\n\r\n"
+  }
+ ]
+}

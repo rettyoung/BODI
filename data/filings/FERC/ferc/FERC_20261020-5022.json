@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5022",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Elizabeth Ray in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5022",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "AB8D636D-8438-CEE8-912A-A1573D200000",
+   "name": "151677.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:44:15Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151677.txt",
+   "bytes": 1109,
+   "sha256": "7bba6955d1c404cdce429a1962110959e8ae8c79a8a33fedd44cded82e6f87e3",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nElizabeth Ray, New Gloucester, ME.\nI am deeply opposed to the proposed data center that is being projected to be put at Eastport Maine. This part of the world is amazing and pristine and untouched.  It is egregious and disgusting that anybody should think a data center should go into this amazing part of our country. It is so pristine and almost untouched by the modern world. The peace the serenity the Beauty and the animals that live there would be deeply impacted. Not only the ocean animals and mammals and fish but the peninsula and the island are so narrow that any person animal or rodent living on the land would be completely impacted.  this is an incredible community that love and care about each other and the animals and the ocean around them. Going there and seeing this place in person without being able to see the beauty and the serenity and how that would be completely upturned by such a disgusting noisy atrocious thing such as a data center is Unthinkable and unbelievable I do not believe a data center should be put in the ocean I do not believe this is okay I oppose it 100%\r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5019",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Coleen Borrego in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5019",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "8E4F83D9-2D2A-C043-9D0C-A15733C00000",
+   "name": "151691.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:44:18Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151691.txt",
+   "bytes": 656,
+   "sha256": "8e34a559315fd73fdfd339d15ceb7adfc950b7a4d706bf7addab9e08be1e8c5c",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nColeen Borrego, Davis, CA.\nI am opposed to any underwater data center in Maine's Bay of Fundy. This is critical habitat for endangered species, including the North Atlantic Right Whales, fin whales, sturgeon, and other wildlife.\r\n\r\nConstruction would cause deadly vessel traffic and noise pollution, and once the data center is running, the continuous noise, heat, and water pollution will be permanent and incredibly destructive.\r\n\r\nSuch a data center also has the potential to create many knock-on effects for the environment, for humans, and for other businesses that live near or depend on the Bay.\r\n\r\nNO to any data center in the Bay of Fundy.\r\n\r\n"
+  }
+ ]
+}

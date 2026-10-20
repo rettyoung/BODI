@@ -1,0 +1,28 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/aep-signs-advanced-960-mw-nuclear-amazon-x-energy/833341/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "AEP signs 960-MW Indiana nuclear pact with Amazon, X-energy",
+ "filed": "2026-10-19",
+ "url": "https://www.utilitydive.com/news/aep-signs-advanced-960-mw-nuclear-amazon-x-energy/833341/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      If the project is developed, Amazon would purchase the power under a long-term contract that covers the cost of the facility and its operations, the companies said. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-20T05:23:54Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [
+  "Amazon"
+ ],
+ "documents": []
+}

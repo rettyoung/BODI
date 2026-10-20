@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20261019-5066",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Motion to Intervene of Eastport Port Authority, Maine under P-15424. \"Filed erroneously\" ",
+ "filed": "2026-10-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261019-5066",
+ "entity": "Eastport Port Authority",
+ "fetch": [
+  {
+   "ferc_file": "E603705E-E522-CDD6-9C39-A154BBF00000",
+   "name": "Eastport Port Authority, Maine - Motion to Intervene.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:45:03Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'E603705E-E522-CDD6-9C39-A154BBF00000', 'name': 'Eastport Port Authority, Maine - Motion to Intervene.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26289A202",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): Fixed Fee Cap for Palisades Nuclear Plant Exigent License Amendment Request Review (EPID L-2026-LLA-0201) [['E-Mail']]",
+ "filed": "2026-10-19",
+ "entity": [
+  "NRC/NRR/DDLP/DLP1/ORLB3"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26289A202.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26289A202.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26289A202",
+  "document_date": "2026-10-13"
+ },
+ "collected_at": "2026-10-20T05:40:13Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26289A202.pdf",
+   "name": null,
+   "bytes": 276676,
+   "sha256": "4c97e3169353be63b53c9d4f795271bab408dcff5e84a2755b4b7fab0ea5ded1",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "Brent Ballard\n\nFrom:                             Brent Ballard\nSent:                             Tuesday, October 13, 2026 7:29 AM\nTo:                               ext_KYLE_STEFFIC; Kami Miller\nCc:                               Justin Poole; Marlayna Doell; Ilka Berrios\nSubject:                          Fixed Fee Cap for Palisades Nuclear Plant Exigent License Amendment Request Review\n                                  (L-2026-LLA-0201)\n\n\nLicensee: Palisades Energy, LLC\nPlant: Palisades Nuclear Plant\nLicense No.: DPR-20\nDocket No.: 50-255\nEPID: L-2026-LLA-0201\n\nIn accordance with 10 CFR 170.33, this communication establishes the ﬁxed cap on service fees (ﬁxed fee cap) for\nthe NRC’s review of Palisades Energy, LLC’s application dated September 30, 2026 (ML26273A469), as\nsupplemented by letters dated October 2, 2026, October 8, 2026, and October 12, 2026 (ML26275A214,\nML26281A333, and ML26285A034 respectively), for the Palisades Nuclear Plant exigent license amendment.\n\nThe ﬁxed fee cap for the NRC’s review of this requested activity is $185,000. The NRC considered various factors\nwhen establishing this ﬁxed fee cap, such as the quality and complexity of the application, technology type, and\nany pre-application engagement. The professional hourly rate applies to this requested activity.\n\nThe ﬁxed fee cap represents the maximum amount that the NRC may charge for service fees for this requested\nactivity. The ﬁxed fee cap will not be increased except in instances of applicant failure, as deﬁned in 10 CFR 170.3.\nIf applicant failure occurs, the NRC will notify the licensee in writing of the new ﬁxed fee cap, which will be set at\nthe lowest practicable amount determined by the NRC to account for the applicant failure and complete the\nreview.\n\nThe NRC will track service fees against the ﬁxed fee cap beginning on September 30, 2026, which is the date of the\nlicensee’s application.\n\nDisputes associated with a ﬁxed fee cap must be submitted in accordance with 10 CFR 15.31 and 170.33(f) and\nNRC Form 529 procedures.\n\n\nBrent Ballard\nProject Manager\nOperating Reactor Licensing Branch 3\nDivision of Licensing Projects 1\nOffice of Nuclear Reactor Regulation\nU.S. Nuclear Regulatory Commission\n301-415-0680\n\n\n\n\n                                                          1\n\f"
+  }
+ ]
+}

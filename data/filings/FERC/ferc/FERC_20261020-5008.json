@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5008",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Janet Johnson in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5008",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "8541D9ED-3374-C10B-9816-A15722100000",
+   "name": "151675.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:45:57Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151675.txt",
+   "bytes": 769,
+   "sha256": "ab042f604c1a027894386e86f4fc4e8f4c90b897f747ab4eb1243c3060fc3409",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJanet Johnson, Heber City, UT.\nI strongly oppose any data center in the Bay of Funday. The Bay of Fundy is critical habitat for endangered North Atlantic Right Whales.  They are highly sensitive to sound and this would be a devastating blow to the already threatened specie. This would put critical wildlife habitats at great risk with no know limit to the potential damage.  No one gains from this proposal but the developer, while all the people affected and wildlife lose. This puts so much at risk for AI that has the potential to destroy the human race.  This would disrupt traditional fisheries that provide a living for many local people. It would threaten seafloor habitats.  Overall, this is a horrific proposal that hurts the greater good of humanity.\r\n\r\n"
+  }
+ ]
+}

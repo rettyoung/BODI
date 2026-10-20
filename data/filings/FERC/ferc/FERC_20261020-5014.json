@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5014",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Bonnie Gantz in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5014",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "FDAD2AD2-7617-C383-98EE-A15730A00000",
+   "name": "151688.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:45:33Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151688.txt",
+   "bytes": 385,
+   "sha256": "c227382f699d4fb95ca337316f6cfb2b8470d305453724ad9023231092b9945f",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nBonnie Gantz, Readfield, ME.\nI am writing tonight to ask that the underwater data center in Maine’s Bay of Fundy is rejected. This area is a necessary for the endangered North Atlantic right whale.\r\n\r\nData centers are a plight on democracy and the environment. The citizens of Maine do not want them in the warming waters of the Bay.\r\n\r\nThank you for your time and attention.\r\n\r\n"
+  }
+ ]
+}

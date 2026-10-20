@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5030",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Andrea Walker in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5030",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "35470850-58EB-CF1E-9C78-A1575D400000",
+   "name": "151703.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:45:21Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151703.txt",
+   "bytes": 866,
+   "sha256": "013f3b2d1a8dd8660198951dacc5edd062ca886ee113283aa261724081504ec7",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nAndrea Walker, Abbeville, MS.\nI object to a data center being built in the Bay of Fundy as it is home to the Atlantic Right Whales, an endangered species. Data Centers produce low frequency noise continuously which will disrupt their communication. It will also disrupt other marine mammals such as the seals and dolphins in the area. Data centers also produce heat which will further increase the warming Atlantic Ocean which is already seeing a decline in the lobster populations. Warming oceans will impact other species also. \r\nI don't want to see any other creatures go extinct. We have the knowledge and the ability to prevent this, but corporations ignore the knowledge. \r\nAs a taxpayer, I do not support industrial development that ignores its adverse environmental impacts. Have we not learned anything other the last 50 years?????\r\n\r\nAndrea Walker \r\n\r\n"
+  }
+ ]
+}

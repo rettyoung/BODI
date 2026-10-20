@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5039",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of C in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/20/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5039",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "B7BCADB5-8021-C32E-9D0C-A157A2600000",
+   "name": "151725.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-20"
+ },
+ "collected_at": "2026-10-20T05:44:54Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151725.txt",
+   "bytes": 964,
+   "sha256": "8fd7fe6f571bb64795d28e8bd882655c18db7f0c4727caf94e8f128a9d8783fc",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nC, San Luis Obispo, CA.\nDo not allow any underwater data centers. This will irreparably harm the Bay of Fundy. People come from all over to see wild life and experience the beautiful area. A data center would ruin it entirely. It would also destroy the animals and ecosystem that has given so much to the people and state of Maine. This is the equivalent of shooting yourself in the foot. The ocean takes care of us and we must also take care of it. Data centers are loud, wasteful, and undesirable. Only fools would destroy the ocean by approving something like this. How disgusting that we even have to fight against this and prove why this is so worth saving. How can we disregard the way this would result in the end of the North Atlantic right whale. Why are those who do these things so tone deaf and evil? \r\n\r\nDo not approve of this project. Reject it fully and forever. We don’t want any data centers. Protect our beautiful bay from desecration. \r\n\r\n"
+  }
+ ]
+}

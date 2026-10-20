@@ -1,0 +1,51 @@
+{
+ "id": "TX:58317-110",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "10/19/2026 | Sandra Heart | PC | Data centers and grid infrastructure",
+ "filed": "2026-10-19",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=110",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "110"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-20T05:15:46Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_110_1694615.ZIP",
+   "name": null,
+   "bytes": 57491,
+   "sha256": "0668263a5d02eee44a6c2512d41d91afbf5c7f58e3939ec2d474f54db93428bd",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Gmail - PUBLIC COMMENT.PDF ===\nPUBLIC COMMENT\n1 message\n\nSandra Heart <sandraheart52@gmail.com>                                                            Mon, Oct 19, 2026 at 6:11 PM\nTo: Sandra Heart <sandraheart52@gmail.com>\n\n PUBLIC COMMENT\n BEFORE THE PUBLIC UTILITY COMMISSION OF TEXAS\n PROJECT NO. 58317: SB 6 IMPLEMENTATION\n TO THE HONORABLE PUBLIC UTILITY COMMISSION OF TEXAS:\n I am writing as a Texas resident, utility ratepayer, and senior citizen regarding Project No. 58317. My goal is not to oppose\n the development of data centers in our state, but to urge the Commission to protect vulnerable consumers from absorbing\n the massive infrastructure costs required to support them.\n Specifically, the rising delivery fees on my monthly electricity bills are becoming a severe financial burden. As a senior\n citizen living on a fixed income, I cannot afford to see my delivery fees continuously increase to pay for the massive power\n lines and grid upgrades that large-scale data centers require to operate.\n These data centers must completely fund their own grid integrations, interconnection costs, and dedicated infrastructure.\n Texas families and seniors should not be asked to subsidize the immense infrastructure demands of private data center\n corporations through inflated delivery charges. I urge the Commission to establish strict cost-allocation rules that require\n these data center developers to pay for 100% of their own grid impact, ensuring that Texas residents are fully insulated\n from these unfair fee increases.\n Respectfully submitted,\n Name: Sandra Heart\n City/County: Hurst / Tarrant County\n Date: October 19, 2026\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_110_1694616.PDF",
+   "name": null,
+   "bytes": 99573,
+   "sha256": "e3a4262478b9c0687dbf5847225b672cedd2cc742abfbec6c7d78650aa57c82d",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-10-19 11:53:52 PM\n\nControl Number - 58317\n\nItem Number - 110\n\fPUBLIC COMMENT\n1 message\nSandra Heart <sandraheart52@gmail.com>                                                            Mon, Oct 19,2026 at 6:11 PM\nTo: Sandra Heart <sandraheart52@gmail.com>\n PUBLIC COMMENT\n BEFORE THE PUBLIC UTILITY COMMISSION OF TEXAS\n PROJECT NO. 58317: SB 6 IMPLEMENTATION\n TO THE HONORABLE PUBLIC UTILITY COMMISSION OF TEXAS:\n I am writing as a Texas resident, utility ratepayer, and senior citizen regarding Project No. 58317. My goal is not to oppose\n the development of data centers in our state, but to urge the Commission to protect vulnerable consumers from absorbing\n the massive infrastructure costs required to support them.\n Specifically, the rising delivery fees on my monthly electricity bills are becoming a severe financial burden. As a senior\n citizen living on a fixed income, I cannot afford to see my delivery fees continuously increase to pay for the massive power\n lines and grid upgrades that large-scale data centers require to operate.\n These data centers must completely fund their own grid integrations, interconnection costs, and dedicated infrastructure.\n Texas families and seniors should not be asked to subsidize the immense infrastructure demands of private data center\n corporations through inflated delivery charges. I urge the Commission to establish strict cost-allocation rules that require\n these data center developers to pay for 100% of their own grid impact, ensuring that Texas residents are fully insulated\n from these unfair fee increases.\n Respectfully submitted,\n Name: Sandra Heart\n City/County: Hurst / Tarrant County\n Date: October 19,2026\n\f"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=148476",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Before the Grid Relies on New Load, What Evidence is Required?",
+ "filed": "2026-10-19",
+ "url": "//www.rtoinsider.com/148476-before-the-grid-relies-on-new-load-what-evidence-is-required/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " To connect large loads, speed matters. But it does not answer a more fundamental question: What evidence justifies relying on a forecast, proposed project, or assumed operating arrangement in the first place? \n The post  Before the Grid Relies on New Load, What Evidence is Required?  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-20T05:23:54Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

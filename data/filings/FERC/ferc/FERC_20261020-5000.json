@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5000",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of John Bottorff in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5000",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "076658EC-6198-C4E3-99AE-A15698600000",
+   "name": "151632.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:45:00Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151632.txt",
+   "bytes": 971,
+   "sha256": "8dfe26ff230e6cab8a9c009a10727e3dda46b31945a34f8cd278c63f98691684",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJohn Bottorff, Oceanside, CA.\nCleanEarth4Kids.org opposes the proposed underwater data center in the Bay of Fundy off the coast of Eastport, Maine.\r\n\r\nWe ask FERC to deny DeepGreen's permit request.\r\n\r\nThe Bay of Fundy is the summer home of the North Atlantic right whale, one of the most endangered whales in the world, along with many other whale and dolphin species, like Minke Whales, Humpback Whales, endangered Finback Whales, White-sided Dolphins, and Harbour Porpoises.\r\n\r\nThere are only 70 breeding female North Atlantic right whales left.\r\n\r\nDeepGreen is proposing to use over 20 acres of seafloor, with a second phase at 400 acres to build a data center. This will expose sensitive and endangered marine life to noise, heat, pollution, and ship traffic that will cause irreparable harm.\r\n\r\nNoise and boat traffic will impact how whales call to each other, find food, and move through the area, and right whales are at a high risk for boat collisions.\r\n\r\n\r\n"
+  }
+ ]
+}

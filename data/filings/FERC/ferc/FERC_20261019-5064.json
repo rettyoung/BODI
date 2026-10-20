@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261019-5064",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Crystal D in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261019-5064",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "5E62AB5D-352E-CCBD-9F79-A154B4200000",
+   "name": "151643.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:45:39Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151643.txt",
+   "bytes": 1995,
+   "sha256": "0616dd08e87e6b6ec93e20c230f3f35fed21d99d1dd7cb81fb925c483afdc119",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nCrystal D, Arlington, VA.\nI write as a member of the public to urge the Commission to deny the preliminary permit application of DeepGreen Western Passage SPV LLC for a proposed subsea data center project in the Western Passage of the Bay of Fundy, near Eastport, Maine.\r\n\r\nI am a conservation professional based in Arlington, Virginia. I hold a B.Sc. in Environmental Studies from the SUNY College of Environmental Science and Forestry and a Master's in Public Administration from Baruch College, CUNY. \r\n\r\nMy concerns are as follows:\r\n\r\nFirst, the Western Passage supports marine mammals, fish, and habitat that fall under federal protection. The National Marine Fisheries Service, Greater Atlantic Region, has itself moved to intervene in this proceeding. That step by the responsible federal wildlife agency warrants the Commission's close attention before any priority is granted to study and develop this site.\r\n\r\nSecond, the host community has acted decisively against this project. The City of Eastport has filed a motion to intervene and has enacted a ban on large-scale data centers. The Washington County Commission has stated that it does not support the application. Save Passamaquoddy Bay, an alliance of United States and Canadian citizens alongside the Passamaquoddy Tribe, has also sought to intervene. The weight of local, tribal, and binational opposition is substantial.\r\n\r\nThird, granting priority to a project that the host community has moved to prohibit risks committing agency and public resources to a proposal with no viable local path forward.\r\n\r\nI respectfully request that the Commission deny the application. In the alternative, I ask that the Commission require full consultation with the National Marine Fisheries Service and with the Passamaquoddy Tribe, and that it require public disclosure of all study plans affecting protected species and their habitat before any permit is issued.\r\n\r\nThank you for considering these comments.\r\n\r\nCrystal DiMiceli\r\n\r\n\r\n"
+  }
+ ]
+}

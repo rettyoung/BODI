@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261019-5021",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Beth Astley in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261019-5021",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "93FED21F-2C18-C324-9F04-A15298C00000",
+   "name": "151519.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:46:06Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151519.txt",
+   "bytes": 1454,
+   "sha256": "c0d5b9500dac6ddeb7cdc94f46f00baa079b553efb925541dc2fd9376fb010c8",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nBeth Astley, Anchorage, AK.\nThis project does not show any significant direct benefit to the Southcentral Alaska region and would impose significant risks to the region and the state.  This proposed project risks degradation of natural resources, fisheries, potential releases of contamination, and would increase pressure on the remaining Southcentral AK gas supplies during construction and during episodes when the proposed tidal generation system is not operational.  The magnitude of this project and the impacts to salmon, beluga whales, fisherman, and other species need further study to determine if the DeepGreen installation of up to 350 tidal turbines would have a significant effect on the environment or the commercial and subsistence fishing industries.  Any plan needs to include a removal and remediation strategy for the data center complex and turbines so that Alaska doesn’t wind up paying for environmental remediation costs if the technology does not work under the harsh conditions in Cook Inlet or when the facility closes or goes bankrupt in the future. The company should be required to hold an insurance policy that would cover the full cost of any required removal, environmental remediation, and restoration. Construction and remediation in Alaska is many times more expensive than the Lower 48 and this needs to be accounted for when determining the liability insurance and bonding level required for this project. \r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261019-5029",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Shannon Conti in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261019-5029",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "C72441C9-0271-C59B-90E4-A15439700000",
+   "name": "151640.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:45:24Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151640.txt",
+   "bytes": 1328,
+   "sha256": "076a22765199f253fe82ed8802e4f5fe4eafdc8d3b38da73bf41f4425aacaf5a",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nShannon Conti, Perry, ME.\nI have lived in Maine my entire life and have been coming to the Eastport area for several years now, having recently purchased property in nearby Perry. This Western Passage data center project is deeply concerning and I urge FERC to deny DeepGreen's application for the following reasons.\r\n1. The noise pollution this project will potentially cause could significantly impact the marine life that resides in Passamaquoddy Bay which in turn would significantly impact the livelihoods of a significant portion of Eastport and surrounding areas residents. \r\n2. The thermal pollution this project will potentially cause could have similar, if not more drastic effects than the noise pollution.\r\n3. Collision risk for marine life as well as large boats - depending on how deep the center is located in the Bay. \r\n4. Decommissioning of the project once it's end of life is reached - Will the components be left to rot and pollute the waters of the Bay further? Does DeepGreen have a feasible plan for that eventuality?\r\nThis is not a comprehensive list of concerns that I, and many other people, have, but they are hopefully enough to give pause to this 'subsea computing infrastructure' that DeepGreen is proposing. Again, I reiterate my point to urge FERC to deny this application. \r\n\r\nThank you.\r\n\r\n"
+  }
+ ]
+}

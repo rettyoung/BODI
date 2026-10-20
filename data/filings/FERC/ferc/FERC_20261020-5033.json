@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5033",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Carolyn Bassin in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5033",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "FCEFEE4F-0D9F-C713-93AD-A15772500000",
+   "name": "151712.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:44:27Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151712.txt",
+   "bytes": 1290,
+   "sha256": "19e9083feaf33197393a8f32e24eb0dd76b40311bb58d916fbb34bec102a246e",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nCarolyn Bassin, Cranberry Township, PA.\nDear FERC:\r\n\r\nI am writing to comment on docket P-15424-000, the proposal to build a data center in the Bay of Fundy off the coast of Maine. \r\nI am adamantly opposed to this terrible idea.  \r\nThe main reason for my opposition is perhaps the most obvious; the clear and present danger and destruction to  ocean wildlife  and their habitat. \r\nMost concerning is that the critically endangered North Atlantic Right Whale lives in this area.  With less than 400 members of this species alive and only approximately 70 breeding females alive, this species needs EVERY member alive and thriving.  The Right Whale is already being harmed and killed by human activity in the form of rising ocean temperatures, loss of food, boat strikes, pollution and fishing net entanglements.  The noise, pollution and heat produced by an underwater data center could be the additional stressor that pushes this incredible species to extinction.    \r\nI guarantee that the vast majority of Americans do not want more data centers and they certainly do not want their beloved ocean life killed by them. \r\nI urge you to deny this and any other proposed ocean data center in this area or any other.   We  cannot afford the potential risk to the oceans. \r\n\r\nThank you. \r\n\r\n"
+  }
+ ]
+}

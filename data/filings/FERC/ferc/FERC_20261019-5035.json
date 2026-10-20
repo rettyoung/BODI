@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20261019-5035",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-63",
+ "title": "Comments of Nathan C. Grafton in support of the Complaint filed by the Maryland Office of People’s Counsel v. PJM Interconnection, LLC under EL26-63.",
+ "filed": "2026-10-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261019-5035",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "5F22770C-C2FD-C548-9F7E-A15453600000",
+   "name": "Comments_Nathan_Grafton_EL26-63.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-17"
+ },
+ "collected_at": "2026-10-20T05:44:51Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "cost allocation",
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Comments_Nathan_Grafton_EL26-63.txt",
+   "bytes": 2401,
+   "sha256": "d3ac791a0b1a359691c9c775ffe3810d1cd8a1e5a61002c96a82142428c6000c",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Re: Docket No. EL26-63, Comments in Support of the Maryland Office of People's Counsel Complaint\n\nI am a residential Baltimore Gas and Electric customer in Ellicott City, Maryland, writing in support of the complaint filed by the Maryland Office of People's Counsel challenging PJM's transmission cost allocation rules.\n\nMy September 2026 BGE bill shows the problem in concrete terms. I used 1,139 kWh that month. My Standard Offer Service supply rate was 14.609 cents per kWh through September 30, 2026, and is now 15.223 cents per kWh from October 1, 2026 through May 31, 2027. My adjusted annual usage is 18,489 kWh, so the supply rate increase alone adds roughly $114 per year to my supply cost. My Budget Billing amount has risen from $147 to $183 and now to $227 per month. I already use the tools available to me: Budget Billing, Community Solar, and BGE's Connected Rewards program. I cannot shop my way out of this increase, because Maryland's official comparison site listed no residential supplier offers for BGE territory when checked October 17, 2026.\n\nI am not asking the Commission to set Maryland's retail rates. I am asking it to fix the federal cost allocation rules that push costs onto customers who did not cause them. PJM has advanced about $22 billion in transmission projects driven principally by data center load, and under current rules roughly $2 billion of that has been assigned to Maryland ratepayers. Maryland's congressional delegation has estimated this will cost Maryland customers about $1.6 billion over ten years, including about $823 million from residential customers, or roughly $345 per residential customer. Most of the data center load driving these projects is not in Maryland, and Maryland customers will not meaningfully benefit from much of this buildout.\n\nThat is not cost causation. The Federal Power Act requires rates to be just and reasonable, and longstanding ratemaking principle assigns costs to those who cause them. I respectfully ask the Commission to grant the complaint and reform PJM's cost allocation rules so that transmission and capacity costs driven by large new loads, including data centers, are assigned to the loads and zones that cause them, rather than spread across residential customers who did not.\n\nThank you for considering my comments.\n\nNathan Chaz Grafton\n3501 N Chatham Rd\nEllicott City, MD 21042\nngrafton2006@gmail.com\n"
+  }
+ ]
+}

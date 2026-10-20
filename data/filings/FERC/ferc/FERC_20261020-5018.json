@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5018",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Cassandra Allison in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5018",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "8092E093-ACEA-C139-9167-A15733200000",
+   "name": "151694.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:45:27Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151694.txt",
+   "bytes": 711,
+   "sha256": "dcbde9939885166d0f2f96bae771cd3318d9d20ae1d0a5a508c46b9be1fbe5d3",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nCassandra Allison, Orlando, FL.\nPlease do not allow the construction of an underwater data center in the Bay of Fundy. Along with many other amazing aquatic life, the Bay is home to the endangered Atlantic Right Whale. Whales are known to be sensitive to loud sounds and disruptions to their habitat, both things data centers are known for, and there is no way to know how their sound pollution and high temperatures will effect a vulnerable population until it is too late. Growing up in New Hampshire, I would always visit Maine to admire their beautiful scenic nature and diverse wildlife. Please do not allow a corporation to consume and destroy what makes Maine so unique and disrupt an ecosystem. \r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5035",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Kandy Watson in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/20/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5035",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "75286479-C13F-C1A1-9259-A15779000000",
+   "name": "151718.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-20"
+ },
+ "collected_at": "2026-10-20T05:45:42Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151718.txt",
+   "bytes": 610,
+   "sha256": "f3a4828a9db666d14fae89eb521c1bd018863f789a6d51177c610a0ded00c187",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nKandy Watson, Edgerton, WI.\nI strongly urge the US Government to cease contaminating its own wildernesses and people for profit. The Bay of Fundy is no place for a data center, and Trump and company need to stop selling out We The People’s resources to the highest bidder. He is not a god and senate needs to stop treating him like one! This is utterly abhorrent! Does no one signing this deal have children or grandchildren? Will you all be wealthy enough to live in underground bunkers while the earth above you burns? No! So stop allowing such asinine decisions to be made! We have only one Earth!\r\n\r\n"
+  }
+ ]
+}

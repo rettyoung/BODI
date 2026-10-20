@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5028",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Nathan Gittelman in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5028",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "03D6EE53-1CFD-CB06-946F-A15757300000",
+   "name": "151710.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:44:39Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151710.txt",
+   "bytes": 944,
+   "sha256": "d99f592d8c006321c9cfa9489a4fb310812bdf8ca58c6d833e60d7aee1ccbfca",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nNathan Gittelman, Phoenixville, PA.\nHello. Though I am a resident of Pennsylvania, not Maine, I have many cherished memories in Maine from trips with my fiancé. She and I go to Maine (Bar Harbor, Acadia, etc.) every Labor Day weekend. Together, we have witnessed so much natural beauty in and off the coast of Maine. The data center proposed would functionally destroy critical habitat for endangered right whales, as well as other marine wildlife that call the coasts of Maine home. If you look at the voice of the people, you’ll understand that the vast vast vast majority of US citizens oppose data centers. Period. If our voices that scream valid concerns continue to be ignored for the interest of billionaires and massive corporations, there will be escalation and pushback. Do the right thing now and deny the permits for this underwater data center that will undoubtedly cause irreparable harm to endangered species in Maine.\r\n\r\n"
+  }
+ ]
+}

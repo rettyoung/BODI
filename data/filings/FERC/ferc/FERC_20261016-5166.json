@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261016-5166",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-131",
+ "title": "NextEra Energy, Inc, et al. submit supplemental workpapers re the response to FERC’s 09/23/2026 deficiency letter re the Joint Application for Authorization under Section 203 of the Federal Power Act under EC26-131. Part 1 of 3.",
+ "filed": "2026-10-16",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261016-5166",
+ "entity": "NextEra Energy, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "ABCFD3AF-92AC-CB5C-AE17-A14674000000",
+   "name": "build_manifest.json.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "0AF7552C-5E3D-CADD-B78E-A14674000000",
+   "name": "core_ferc714__respondent_id.parquet.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "B8D60CB3-9270-CABF-BD54-A14674000000",
+   "name": "data_ingest__data__silver__pjm__load__year_2020__month_12__part-0.parquet.txt",
+   "type": "TXT"
+  },
+  {
+   "ferc_file": "F2CD933E-5239-C121-852D-A14674000001",
+   "name": "data_ingest__data__silver__pjm__load__year_2021__month_10__part-0.parquet.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Deficiency Letter/Data Response"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-16"
+ },
+ "collected_at": "2026-10-20T05:43:58Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'ABCFD3AF-92AC-CB5C-AE17-A14674000000', 'name': 'build_manifest.json.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '0AF7552C-5E3D-CADD-B78E-A14674000000', 'name': 'core_ferc714__respondent_id.parquet.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'B8D60CB3-9270-CABF-BD54-A14674000000', 'name': 'data_ingest__data__silver__pjm__load__year_2020__month_12__part-0.parquet.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'F2CD933E-5239-C121-852D-A14674000001', 'name': 'data_ingest__data__silver__pjm__load__year_2021__month_10__part-0.parquet.txt', 'type': 'TXT'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

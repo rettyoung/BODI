@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261019-5118",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Motion to Intervene of Eastport Port Authority under P-15424.",
+ "filed": "2026-10-19",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261019-5118",
+ "entity": "Eastport Port Authority",
+ "fetch": [
+  {
+   "ferc_file": "7CADC94D-E249-CA4F-B92A-A15589B00000",
+   "name": "Eastport Port Authority  - Motion to Intervene.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:45:06Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "behind-the-meter",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Eastport Port Authority  - Motion to Intervene.pdf",
+   "bytes": 302979,
+   "sha256": "126c0dd92e7c5338989355d78a42ccaacb50813ce199381fa4829715394a3796",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "                                         BEFORE THE\n\n                   FEDERAL ENERGY REGULATORY COMMISSION\n\n\n\n\n                                              ]\nIn the Matter of the Application of:          ]\n                                              ]\nDeepGreen Western Passage SPV LLC             ]              P-15424-000\n                                              ]\n\n\n\n\n                          EASTPORT PORT AUTHORITY, MAINE\n\n                                  MOTION TO INTERVENE\n\n       Pursuant to Rule 214 of the Federal Energy Regulatory Commission’s (“FERC”) Rules of\n\nPractice and Procedure, the Eastport Port Authority (“Port Authority”), by and through its\n\nundersigned counsel, Rudman Winchell, moves to intervene in the above-referenced proceeding\n\nregarding the DeepGreen Western Passage SPV LLC (“DeepGreen”) preliminary permit\n\napplication for the proposed Subsea-Compute and Infrastructure Hub Project (“Project”). 18\n\nC.F.R. § 385.214. By this motion, the Port Authority seeks to ensure that their interests are\n\nadequately represented during FERC’s evaluation of the Project. In support of its motion, the\n\nPort Authority states the following:\n\n                                  CONTACT INFORMATION\n\n       Pursuant to Rule 2010 of the Commission’s Rules of Practice and Procedure, 18 C.F.R. §\n\n385.2010, all filings, orders, and correspondence regarding this proceeding should be served as\n\nfollows:\n\n\n\n\n                                                                                                  1\n\fChristopher Gardner                                            Timothy A. Pease, Esq.\nExecutive Director                                             Attorney for Eastport Port Authority\nEastport Port Authority                                        Rudman Winchell\n141 Water Street                                               P.O. Box 1401\nEastport, ME 04631                                             Bangor, ME 04402\nTel: (207) 853-4614                                            Tel: (207) 947-4501\nFax: (207) 853-9584                                            tpease@rudmanwinchell.com\ninfo@portofeastport.org\n\n\n                               DESCRIPTION OF INTERVENOR\n\n        The Eastport Port Authority was created by act of Maine State Legislature in 1977. P. &\n\nS.L. 1977, Ch. 14. The Port Authority has the authority to acquire, construct, operate, maintain,\n\nrepair and replace piers, terminal and warehouse facilities on the land and in the waters within\n\nthe limits of the City of Eastport. Id.\n\n                                   THE PROPOSED PROJECT\n\n        On February 11, 2026, and supplemented and amended on June 8, 2026, and July 30,\n\n2026, DeepGreen filed an application pursuant to Section 4(f) of the Federal Power Act (FPA)\n\nfor a preliminary permit in order to study the feasibility of the proposed underwater data center\n\nProject. If approved, the Project would be located in the Western Passage of the Bay of Fundy in\n\nthe North Atlantic Ocean in and adjacent to the waters of the City of Eastport, Washington\n\nCounty, Maine. On August 25, 2026, FERC published Notice of this Project in the Federal\n\nRegister and set deadlines for filing comments, motions to intervene, competing applications\n\n(without notices of intent), or notices of intent to file competing applications.\n\n        The proposed Project would consist of the following new features: (1) a 3.5-meter-high\n\nand 24-meter-wide subsea modular universal docking cradle; (2) thirty-four 12-meter-long and\n\n4.2-meter-diameter subsea compute pods; (3) a 1.8-meter-diameter spherical and elevated tidal\n\nsensing power platform; (4) up to 16 marine hydrokinetic turbine-generator units, each rated at\n\n                                                                                                    2\n\f300-kilowatt (kW); and (5) a 1.5-mile-long hybrid power-and-fiber subsea cable operating at\n\n13.8 kilovolts (kV). The proposed Project would be configured as a behind-the-meter captive\n\ngeneration loop without a grid connection. The Project would be situated in the Western Passage\n\nof the Bay of Fundy. The Project would include a single, armored 1.5-mile hybrid power-and-\n\nfiber subsea cable, which lands at a shore-based facility on Kendall Head. The Project boundary\n\nwould be restricted to 27.1 acres.\n\n                       THE PORT AUTHORITY HAS AN INTEREST\n\n                          IN THE OUTCOME OF THE PROCEEDING\n\n        The Port Authority states the following in compliance with Rule 214(b) of the\n\nCommission’s Rules of Practice and Procedure, 18 C.F.R. § 385.214(b):\n\ni. 18 C.F.R. § 385.214(b)(1) Position of Movant:\n\n        The Port Authority opposes the Project. The Port Authority further reserves the right to\n\nsupplement this position based on additional anticipated submissions by DeepGreen or other\n\ninterested parties.\n\nii. 18 C.F.R. § 385.214(b)(2) Right to Participate and Representation of an Interest Affected\n\nby the Proceeding:\n\n        The Port Authority has a right to seek intervention to become a party as conferred in 18\n\nC.F.R. § 385.214(a)(3).\n\n        In this proceeding, DeepGreen proposes a hybrid tidal-energy/data-center facility in the\n\nWestern Passage of the Bay of Fundy. The Project location includes and is adjacent to the waters\n\nwithin the limits of the City of Eastport, where the Port Authority has the authority to acquire,\n\nconstruct, operate, maintain, repair and replace piers, terminal and warehouse facilities. The\n\nproposed Project may impact the Port Authority’s infrastructure. Therefore, the Port Authority\n\n\n\n                                                                                                    3\n\fhas a direct and substantial interest in this proceeding that cannot adequately be represented by\n\nany other party. Additionally, the siting and the construction of the proposed Project would have\n\nthe potential to significantly affect the citizens and businesses that rely on the Port Authority’s\n\ninfrastructure. Therefore, the Port Authority seeks to intervene to ensure it receives sufficient\n\nnotice and is afforded the opportunity to comment, as necessary, as more details about the Project\n\nbecome available.\n\n                                          CONCLUSION\n\n       The Port Authority has a substantial interest in this proceeding due to the fact that the\n\nProject is proposed to be located within and adjacent to waters the Port Authority has the\n\nauthority to acquire, construct, operate, maintain, repair and replace piers, terminal and\n\nwarehouse facilities. The Port Authority respectfully requests that the Commission grant the Port\n\nAuthority’s Motion to Intervene in the DeepGreen Western Passage Subsea-Compute &\n\nInfrastructure Hub Project No. 15424-000.\n\n\n\nDATED: October 19, 2026                                Respectfully submitted,\n\n                                                       /s/ Timothy A. Pease\n                                                       Timothy A. Pease, Esq. (ME #9268)\n                                                       Rudman Winchell\n                                                       Attorney for the Eastport Port Authority\n                                                       P.O. Box 1401\n                                                       Bangor, ME 04402\n                                                       Tel: (207) 947-4501\n                                                       tpease@rudmanwinchell.com\n\n\n\n\n                                                                                                      4\n\f"
+  }
+ ]
+}

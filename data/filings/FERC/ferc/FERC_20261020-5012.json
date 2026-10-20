@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5012",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Sophia Casasanta in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5012",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "32545524-1454-C543-85E4-A1572FF00000",
+   "name": "151683.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:44:06Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151683.txt",
+   "bytes": 1534,
+   "sha256": "3c7d401ea406116f876650001b4fc2b2bb0806d022b28e4a3225e9e670128595",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nSophia Casasanta, Bellingham, WA.\nI am writing to express my opposition DeepGreen Western Passage SPV LLC submits Application for Preliminary Permit for the DeepGreen Western Passage Subsea-Compute &amp; Infrastructure Hub Project under P-15424. The Bay of Fundy is home to the endangered Right whales and building an AI data center in the bay would drastically harm the underwater life for all of the animals that call the Bay of Fundy their home. Especially because Right whales are extremely susceptible to noise and data centers are notorious for their terrible ghastly noises and for warming water. Our waters are already warmer than they should be and this data center would continue to warm up the water in the Bay of Fundy even more. We\"ve already see the harn data centers cause on land, polluting drinkable water, stealing farm land, increasing energy costs and water usage, etc. and placing a data center in the Bay of Fundy may cause even more irreversible damage to our waters. Why are we placing a data center in the Bay of Fundy when we don't know what will happen to the Bay of Fundy especially when it puts the endangered species and the ecosystem at risk for data centers that one day may try to eliminate all of humanity? No one in the community wants these data centers and it doesn't benefit communities at all. Please, I implore you to reject this proposal so everyone from the communities in Maine to the tourists from the West coast can enjoy and bask in the beauty that is the Bay of Fundy. Thank you.\r\n\r\n"
+  }
+ ]
+}

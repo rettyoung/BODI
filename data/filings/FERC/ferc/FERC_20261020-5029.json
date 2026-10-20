@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5029",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Mara Leverett in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5029",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "26BC2A8B-2DF3-C1A8-9C72-A15757D00000",
+   "name": "151652.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:44:57Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151652.txt",
+   "bytes": 1798,
+   "sha256": "a821547f7bf8b4470503a35a78686d2e484a927a816fc7722b4aa229102a11bb",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nMara Leverett, New York, NY.\nI'm writing to OPPOSE the permit for DeepGreen to conduct a survey for a potential AI data center. \r\n\r\n\r\nf the data center is built, marine life could face construction noise, pollution, heated water released into the bay, and the danger of getting trapped. DeepGreen has even floated a second phase that could grow the project to as much as 400 acres.\r\n\r\n\r\nRight whales cannot afford that. Only a few hundred are still alive, fewer than 400 in total, and getting hit by boats is already one of the top threats they face. Fin whales, the second biggest whales on the planet, are endangered too. Sturgeon and other wildlife also depend on these waters. Extinction is forever\r\n\r\n\r\nFERC should deny DeepGreen's permit and keep this project out of right whale habitat for good.\r\n\r\n\r\nAs President Theodore Roosevelt said:\r\n\r\n\r\n“The United States at this moment occupies a lamentable position as being perhaps the chief offender among civilized nations in permitting the destruction and pollution of nature. Our whole modern civilization is at fault in the matter. But we in America are probably most at fault … We treasure pictures and sculpture. We regard Attic temples and Roman triumphal arches and Gothic cathedrals as of priceless value.\r\n\r\n“But we are, as a whole, still in that low state of civilization where we do not understand that it is also vandalism wantonly to destroy or permit the destruction of what is beautiful in nature, whether it be a cliff, a forest, or a species of mammal or bird. Here in the United States we turn our rivers and streams into sewers and dumping-grounds, we pollute the air, we destroy forests and exterminate fishes, birds and mammals, not to speak of vulgarizing charming landscapes with hideous advertisements.”\r\n\r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/batteries/illinois-storage-procurement-incentives-results",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Illinois needs batteries. Will a new incentive program help?",
+ "filed": "2026-10-19",
+ "url": "https://www.canarymedia.com/articles/batteries/illinois-storage-procurement-incentives-results",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "Illinois has built out large amounts of renewables in the past decade to reach its mandate of 100% clean energy by 2050 . So far, though, it has lagged on building battery storage, which advocates say is especially necessary now as data center development drives up energy demand.  Last fall, Illinois passed an…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-20T05:23:54Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "battery storage",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

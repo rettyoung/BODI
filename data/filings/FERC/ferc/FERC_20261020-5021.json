@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5021",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Julia Rose Meeks in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5021",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "B1BCC78F-01B4-CBB4-91F0-A1573C000000",
+   "name": "151682.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:45:30Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151682.txt",
+   "bytes": 2905,
+   "sha256": "5cc0c6ed5a2a4f573fdd2d04b7c75ad96f7c3ea8ebd09dbfeaa346dce0f51c9d",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJulia Rose Meeks, Brooklyn, NY.\nDear Maine, our representatives and our hope.  I hope this message finds resonance with you at this critical time, one where if we are not careful in not further disturbing the patterns of the earth, species of all kinds, including ours, will be in peril.  These data centers, don’t only bare the warnings of tech execs and billionaires for the possibility of an AI takeover, threatening not only our, but all Sovereign nations national security… but also bare the very real reality of moving further and further from any kind of global agreement towards stabilizing our global temperatures.  The oceans are vast and wise, holding the key to so much life for this planet and a multi-species survival.  Placing a data center beneath its shores, should alarm us, not just pass us by as an infrastructure project baring the promise of financial return.  We must be smarter than that, not being passive to this very temporary dangling carrot. Have we not all heard again and again that our children’s children depend on it? Must we even say something so known inside us? I and so many more, who didn’t see this chance to pose their comment, beg of you to take pause here and feel into the gravity of this decision.  Please do not take lightly this time we are living in, where so much, so strong and seemingly here forever is in a place of such immense vulnerability to our choices.  The artificial world was made for those few in power to retain it over all, and for what? And for whom? For your constituents? For all our  Global Citizens? For the many species that inhabit this planet? For the planet itself? Is it not time to be braver than that? Unafraid, unflinching, unrelenting in fighting for life? Not artificial intelligence. Is it not right there in the name?  I know these comments can feel desperate, shame blaming, trying to appeal to your better selves, your children,  I know how hard it must be to stand in a position of public service, upholding the economy, public option, your position… but know that history and god (however you relate to that which is greater that just you) stands with those brave enough to do the right thing especially when it is as critical as this.  So please, we implore you, don’t shrink here, don’t disassociate or shut off, don’t turn away form yourself and this moment.  We need you, you were made for this kind of bravery, this kind of stance.  And we all need to fight like hell to get the privilege of continuing to live on this beautiful planet.  Which really at this point is no longer just a catch phrase but soon to be a lived reality.  Please, help us all in making the better choice.  Julia Rose- someone who grew up on the Maine coast with my 13 cousins, 9 aunts and uncles and grandparents every summer, one of the most special places in the world to me. I thank you for you and your service. \r\n\r\n"
+  }
+ ]
+}

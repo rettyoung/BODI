@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A101926-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-A101926-01 Update to Transmission-Voltage Customers Opt-Out List Maintained Pursuant to PURA section 39.653(d)",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-A101926-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A101926-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-20T05:22:38Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "NPRR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A101926-01",
+   "name": null,
+   "bytes": 8666,
+   "sha256": "b01fe45fb383bd6bb22571b2308fe6f3cf084c98ae10bd1818fed93844976cb1",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Settlements@lists.ercot.com,Notice_Credit@lists.ercot.com,RMS@lists.ercot.com\n\nSent:\n\n10/19/26, 4:01 PM\n\nSubject:\n\nM-A101926-01  Update to Transmission-Voltage Customers Opt-Out List Maintained Pursuant to PURA section 39.653(d)\n\nNOTICE DATE:\n October 19, 2026\n\nNOTICE TYPE:\n M-A101926-01 Settlements\n\nSHORT DESCRIPTION:\n Update to Transmission-Voltage Customers Opt-Out List Maintained Pursuant to PURA section 39.653(d)\n\nINTENDED AUDIENCE:\n All Market Participants; \nERCOT Retail Market Subcommittee \n\nDAYS AFFECTED:\n October 19, 2026\n\nLONG DESCRIPTION: \nUnder the Public Utility Commission of Texas's (PUCT) \nDebt Obligation Order\n in Docket No. 52322, issued October 13, 2021 (the Subchapter N Order), ERCOT was authorized to issue securitization bonds under Public Utility Regulatory Act (PURA) chapter 39, subchapter N, in an amount up to $2.1 billion. The Subchapter N Order also, among other things, created a process that enabled transmission-voltage customers (TVCs) who had paid all of their invoices incurred during Winter Storm Uri to opt out of securitization uplift charges under PURA section 39.653(d). A current list of TVCs who have opted out of securitization uplift charges is maintained on ERCOT's Subchapter N Uplift Balance Securitization \nwebpage\n under the \"ERCOT Protocols and NPRRs\" heading.  \n\nOn August 29, 2024, the PUCT issued a \nDeclaratory Order\n in Docket No. 56125 clarifying, among other things, that a TVC opt-out under PURA section 39.653(d) and the Subchapter N Order is not transferable to other entities. On August 20, 2025, PUCT Staff filed a petition in Docket No. 58531 seeking to update the TVC opt-out list. Specifically, in that petition, PUCT Staff sought the removal of 18 Electric Service Identifiers (ESI IDs) from the opt-out list. PUCT Staff's request to remove one of those ESI IDs was severed into a separate proceeding, Docket No. 59763.  \n\nOn October 1, 2026, the PUCT issued its final \nOrder\n in Docket No. 59763 (Order) directing ERCOT to remove ESI ID No. 10400519455430001 from the current TVC opt-out list.  The Order directed ERCOT to select an effective date for the removal of this ESI ID at least seven and no more than 21 days after the date of the Order.  ERCOT accordingly designated an effective date of October 19, 2026.  \n\nUnder the Order, ERCOT must issue a Market Notice to the Retail Market Subcommittee (RMS) on the effective date indicating that ESI ID No. 10400519455430001 has been removed from the TVC opt-out list.  This Market Notice, which will be sent to the RMS e-mail listserv, serves as notice that, \neffective today, October 19, 2026, ESI ID No. 10400519455430001 has been removed from the TVC opt-out list maintained by ERCOT\n. \n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\nkg"
+  }
+ ]
+}

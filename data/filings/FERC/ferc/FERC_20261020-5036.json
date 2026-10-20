@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5036",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Liza Eng in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/20/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5036",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "C9BD9D56-4DEC-CAB7-9C8D-A1577C400000",
+   "name": "151715.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-20"
+ },
+ "collected_at": "2026-10-20T05:45:09Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151715.txt",
+   "bytes": 512,
+   "sha256": "d5bb0321adb834a2e784bd74780054d111a381e3b6debb2d5ec0fdbab8970ab0",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nLiza Eng, Winona, MN.\nI find the very idea of a Data Center being built in our oceans to be pretty disturbing. We know for a fact that endangered North Atlantic Right Whales are suffering right now. I believe the lower speed limits in this area are completely voluntary. So, these whales are dying from boat strikes simply because industry has decided that keeping these whales safe isn't important. I urge you to deny any permit that would allow an underwater Data Center in the Bay of Fundy. Thank you.\r\n\r\n"
+  }
+ ]
+}

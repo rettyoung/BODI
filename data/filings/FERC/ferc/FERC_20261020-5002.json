@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5002",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Bethany Salvon in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/19/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5002",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "E3EDCEA4-0C6E-CC51-9F9E-A156F6500000",
+   "name": "151664.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-20T05:46:03Z",
+ "run_id": "2026-10-20-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151664.txt",
+   "bytes": 2469,
+   "sha256": "faac0867a210ea24f426153acc5fffc9a5f272c3e4c2207184af9eda350bcbc8",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nBethany Salvon, Barnstable, MA.\nTo the Commission:\r\nI urge you to deny the preliminary permit for the DeepGreen Western Passage Subsea-Compute & Infrastructure Hub near Eastport, Maine.\r\nA preliminary permit exists to give its holder priority to file a license application. Granting one means choosing this applicant, for this site, ahead of everyone else. The record does not justify that choice.\r\nThe application has had serious problems from the start. The Commission itself found deficiencies in the original filing, including questions about the project’s “400-acre operational envelope” against a stated 27-acre footprint. The application has also been amended more than once, and the project’s reported scale has shifted along the way. The applicant is a recently formed special purpose vehicle with no track record building anything like this. The application names Ocean Renewable Power Company’s turbines, yet ORPC has said it has no affiliation with the project.\r\nThe site is too sensitive to hand to an unproven developer. The Western Passage sits at the mouth of Passamaquoddy Bay, in waters important to endangered North Atlantic right whales and to Maine’s fishing economy. Local fishermen and aquaculture operators have warned of unmitigated thermal pollution, and the effects of noise, heat discharge, and seafloor disturbance have not been adequately studied.\r\nTribal consultation has not been meaningful. The Passamaquoddy Tribe at Sipayik has rejected any partnership with DeepGreen, including its offered Memorandum of Understanding and Community Benefits Agreement, and has said it will not collaborate on this project. The bay’s fisheries and cultural resources are central to the Tribe’s way of life. The Commission should not advance this application without government-to-government consultation with the Passamaquoddy Tribe and other Wabanaki nations.\r\nThe community has spoken. Eastport’s City Council unanimously enacted a 180-day moratorium on data center development, and residents, commercial fishermen, and county officials have publicly opposed the project.\r\nI respectfully ask the Commission to deny the permit. If it does not, I ask that any permit be conditioned on full Endangered Species Act consultation, independent thermal and acoustic impact studies, and genuine consultation with the Passamaquoddy Tribe, Eastport residents, and the fishing community.\r\nRespectfully,\r\nBethany Salvon\r\nCenterville, MA\r\n\r\n"
+  }
+ ]
+}
