@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5173",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Melissa Youngquist in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/20/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5173",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "7E4C2C65-5042-CC9A-9D0C-A15AF5D00000",
+   "name": "151769.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-20"
+ },
+ "collected_at": "2026-10-21T05:40:44Z",
+ "run_id": "2026-10-21-0510",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151769.txt",
+   "bytes": 314,
+   "sha256": "931352cd922fdd38f20dc4105e22c881a1db32652f8bd40090562ced42fa1bcf",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nMelissa Youngquist, Chicago, IL.\nI am against building underwater data centers, especially in areas used by threatened and endangered species (eg, Right Whale). Data centers are harmful to our natural areas, ecosystems, and wildlife. Protect our remaining natural resources. Do not permit this data center.\r\n\r\n"
+  }
+ ]
+}

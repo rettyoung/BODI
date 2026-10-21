@@ -1,0 +1,42 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A102026-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-A102026-01 Request for data concerning Demand Response capabilities - Q3 2026",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-A102026-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A102026-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-21T05:20:13Z",
+ "run_id": "2026-10-21-0510",
+ "keywords": [
+  "demand response",
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A102026-01",
+   "name": null,
+   "bytes": 7823,
+   "sha256": "8e8d5920eeae5bf1679e1f00ab24db7d8231807ba13b36c2d185b63d3eb568ae",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com\n\nSent:\n\n10/20/26, 11:24 AM\n\nSubject:\n\nM-A102026-01 Request for data concerning Demand Response capabilities - Q3 2026\n\nNOTICE DATE:\n October 20, 2026\n\nNOTICE TYPE:\n M-A102026-01 Operations\n\nSHORT DESCRIPTION:\n Request for data concerning Demand Response capabilities - Q3 2026\n\nINTENDED AUDIENCE:\n REPs (LSEs) and TDSPs\n\nDAYS AFFECTED:\n July 1 - September 30, 2026\n\nLONG DESCRIPTION: \nUnder 16 Texas Administrative Code (TAC) Section 25.186 (Goal for Average Total Residential Load Reduction), a Retail Electric Provider (REP) with a responsive device program must submit quarterly data to ERCOT. REPs must use ERCOT's prescribed form and submit within 45 days after each calendar quarter ends. The required data includes:\n\nthe electric service identifier (ESI ID) for each residential customer with smart appliances or devices enrolled in each responsive device program offered by the REP; and\n\ndetails of each demand response event, specifically the date, the start time, the stop time, and the ESI IDs deployed for each event.\n\nERCOT must file an annual report with the Public Utility Commission of Texas summarizing REP smart appliance and device program data.   REPs may not enroll a residential customer in a responsive device program if that customer is also enrolled in an emergency program, such as a Transmission and Distribution Utility load management program under 16 TAC Sections 25.181-183. Therefore, to complete this report, ERCOT requires data from both REPs and Transmission and Distribution Service Providers (TDSPs). \n\nERCOT posts the applicable forms and instructional documents for quarterly data submission for REPs and TDSPs at \nhttps://www.ercot.com/services/programs/load\n under \"Key Documents\".  Detailed formatting instructions are in \nERCOT Protocols Section 22, Attachment T\n.\n\nACTION REQUIRED: \nERCOT will send initial email notices (via \nDRSURVEY@ercot.com\n) to Authorized Representatives and associated contacts of REPs and TDSPs by the end of this week (October 23, 2026). \n\nREPs that receive a notice email must respond to ERCOT's email upon receipt, stating whether they have a responsive device program.  REPs with programs must submit Q3 2026 data to ERCOT by November 14, 2026.\n\nTDSPs that receive a notice email must respond to ERCOT's email upon receipt, stating whether they have a load management program.  TDSPs with programs must submit Q3 2026 data to ERCOT by November 14, 2026.\n\nADDITIONAL INFORMATION:\n 16 TAC Section 25.186 is available here: \n25.186.pdf\n\nCONTACT:\n Contact \nDRSURVEY@ercot.com\n if you need assistance with the demand response data submission process. If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\nkg/dg"
+  }
+ ]
+}

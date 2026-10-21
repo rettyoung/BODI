@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261020-5040",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Rebecca Lambourn in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/20/2026\n",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5040",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "1F10C564-25AC-C99D-9CC6-A157C6200000",
+   "name": "151726.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-20"
+ },
+ "collected_at": "2026-10-21T05:40:47Z",
+ "run_id": "2026-10-21-0510",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151726.txt",
+   "bytes": 1696,
+   "sha256": "8116daf3708a56abf2db84a36863ac0ae0e1a0617bdf0eefdca2bd78b915494a",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nRebecca Lambourn, Kenai, AK.\nThis Deep Green Water underwater data center is a dangerous boondoggle. Much smaller pilot projects have failed and companies withdrawn support in Scotland and China.\r\nThe proposed location is terrible in that it is at a bottleneck (the Forelands) the Cook Inlet where large salmon runs and migrating sea mammals need space. It also separates portions of an endangered species of beluga whales.\r\nLarge migrations of  bird flocks ( geese / ducks) also land and flock up and rest on the water here. Eagles feed on the beaches. \r\nOther potential impacts include underwater hydro acoustic noise, warming water temperature, toxic copper pollution,  habitat fragmentation, ratepayer energy burden especially with slack tides. And the underwater equipment reportably gets very nasty and dirty. Oh, it would be green alright!\r\nNo data centers are needed or wanted in the Cook Inlet Watershed. Too much is at stake.\r\nA beautiful and bountiful ecosystem, that supports fishing industry, sport fishing, tourism, Alaska Native subsistence and non-native subsistence especially at Kenai River is threatened by a technological fantasy that could cause irreparable damage.\r\nMy family, including husband, children and grandchildren oppose this permitting process and the whole concept.\r\n\r\nInstead, lets encourage alternative energy investment in the area. Scotland has achieved nearly 100% alternative energy with smart well placed tidal turbines, (not with underwater data centers) manufactured in Scotland, hydro, wind, solar. Lets develop, but develop smart and with an eye to the future quality of beauty and life that the Cook Inlet has to offer for generations. \r\n\r\n \r\n\r\n\r\n"
+  }
+ ]
+}

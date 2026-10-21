@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149063",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "BLM to Revisit Approval of Controversial Data Center in Nevada",
+ "filed": "2026-10-20",
+ "url": "//www.rtoinsider.com/149063-blm-revisit-approval-controversial-data-center-nevada-blm/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " A hotly contested data center project proposed on federal land in Nevada is going back to the drawing board. \n The post  BLM to Revisit Approval of Controversial Data Center in Nevada  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-21T05:21:14Z",
+ "run_id": "2026-10-21-0510",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

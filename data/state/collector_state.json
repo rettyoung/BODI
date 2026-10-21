@@ -8832,19 +8832,81 @@
   "FERC:20261020-5008": "2026-10-20",
   "FERC:20261020-5009": "2026-10-20",
   "FERC:20261020-5002": "2026-10-20",
-  "FERC:20261019-5021": "2026-10-20"
+  "FERC:20261019-5021": "2026-10-20",
+  "SEC:0001213900-26-110826": "2026-10-21",
+  "TX:59475-6665": "2026-10-21",
+  "OK:21707782": "2026-10-21",
+  "OK:21707772": "2026-10-21",
+  "KS:minutes:20261020": "2026-10-21",
+  "NM:DOC-000526951-26": "2026-10-21",
+  "NM:DOC-000525435-26": "2026-10-21",
+  "MODKT:EF-2024-0021": "2026-10-21",
+  "PAGE:la_news:https://lpsc.louisiana.gov/docs/agenda/Oct_22_2026_Agenda_Revised.pdf": "2026-10-21",
+  "PAGE:la_news:https://lpsc.louisiana.gov/docs/agenda/Oct_2026_Supp_Agenda_Revised.pdf": "2026-10-21",
+  "PAGE:gov_tx:https://gov.texas.gov/news/post/texas-leads-all-states-for-12-month-job-gains": "2026-10-21",
+  "PAGE:gov_nc:https://governor.nc.gov/news/press-releases/2026/10/20/governor-stein-celebrates-opening-whiskey-project-groups-north-american-manufacturing-facility": "2026-10-21",
+  "PAGE:gov_nc:https://governor.nc.gov/news/press-releases/2026/10/20/governor-stein-highlights-skilled-trades-apprenticeship-program-hertford-county": "2026-10-21",
+  "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A093026-02": "2026-10-21",
+  "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A102026-01": "2026-10-21",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/2026/10/governor-ivey-announces-60-million-nucor-corp-manufacturing-expansion-in-morgan-county/": "2026-10-21",
+  "PAGE:gov_sc:https://governor.sc.gov/news/2026-10/gov-henry-mcmaster-lt-gov-pamela-s-evette-and-first-lady-peggy-mcmasters-weekly-1": "2026-10-21",
+  "PAGE:doe_news:https://www.energy.gov/articles/energy-department-announces-new-investments-strengthen-americas-power-grid-and-lower": "2026-10-21",
+  "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210324": "2026-10-21",
+  "RSS:msft_source:https://news.microsoft.com/source/?p=26107": "2026-10-21",
+  "RSS:amazon_news:https://www.aboutamazon.com/company-news/amazon-germany-investment": "2026-10-21",
+  "RSS:utilitydive:https://www.utilitydive.com/news/georgia-electric-cooperative-plans-50-mw-home-battery-deployment/833492/": "2026-10-21",
+  "RSS:utilitydive:https://www.utilitydive.com/news/virginia-governor-seeks-6-year-rate-freeze-if-dominion-nextera-merger-is-ap/833478/": "2026-10-21",
+  "RSS:utilitydive:https://www.utilitydive.com/news/ls-power-gas-renewables-transmission-equity-fund/833466/": "2026-10-21",
+  "RSS:utilitydive:https://www.utilitydive.com/news/12-actions-tackle-energy-affordability-grid-forward/832673/": "2026-10-21",
+  "RSS:utilitydive:https://www.utilitydive.com/news/grid-equipment-manufacturer-abb-sees-us-orders-rise-82/833452/": "2026-10-21",
+  "RSS:utilitydive:https://www.utilitydive.com/news/schneider-electric-data-center-earnings/833358/": "2026-10-21",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148957": "2026-10-21",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148540": "2026-10-21",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=149076": "2026-10-21",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=149050": "2026-10-21",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=149063": "2026-10-21",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=149074": "2026-10-21",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148950": "2026-10-21",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=148854": "2026-10-21",
+  "RSS:canary:https://www.canarymedia.com/articles/clean-energy/eugene-ballot-measure-tax-companies-climate-fund": "2026-10-21",
+  "RSS:canary:https://www.canarymedia.com/articles/offshore-wind/floating-turbine-global-collaboration-research": "2026-10-21",
+  "BILL:IL:ocd-bill/341f411e-c03e-4f12-8bef-5d2b03fd7a0b:2026-10-19": "2026-10-21",
+  "BILL:PA:ocd-bill/6437c933-58a4-464f-af6d-0b2be9fc7d1a:2026-10-20T04:00:00+00:00": "2026-10-21",
+  "BILL:PA:ocd-bill/f7773b68-8ae6-4030-8c9b-0d96f85a5aed:2026-10-20T04:00:00+00:00": "2026-10-21",
+  "BILL:PA:ocd-bill/facd508c-bfb6-4da9-8697-63f9da53ccd5:2026-10-19T04:00:00+00:00": "2026-10-21",
+  "COURT:r:74992637": "2026-10-21",
+  "NRC:ML26292A382": "2026-10-21",
+  "NRC:ML26293A228": "2026-10-21",
+  "NRC:ML26293A231": "2026-10-21",
+  "NRC:ML26293A232": "2026-10-21",
+  "NRC:ML26261A423": "2026-10-21",
+  "FERC:20261020-5050": "2026-10-21",
+  "FERC:20261020-5159": "2026-10-21",
+  "FERC:20261019-5183": "2026-10-21",
+  "FERC:20261020-5091": "2026-10-21",
+  "FERC:20261021-5004": "2026-10-21",
+  "FERC:20261020-5044": "2026-10-21",
+  "FERC:20261020-5173": "2026-10-21",
+  "FERC:20261020-5040": "2026-10-21",
+  "FERC:20261020-5041": "2026-10-21",
+  "FERC:20261020-3038": "2026-10-21",
+  "FR:2026-21489": "2026-10-21",
+  "FR:2026-21487": "2026-10-21",
+  "FR:2026-21438": "2026-10-21",
+  "FR:2026-21435": "2026-10-21",
+  "FR:2026-21434": "2026-10-21"
  },
  "sources": {
   "ferc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "edgar": {
@@ -19288,13 +19350,13 @@
     },
     "ciks_date": "2026-10"
    },
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "az_acc": {
@@ -19303,18 +19365,18 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "ga_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "ok_occ": {
@@ -19444,22 +19506,24 @@
      "21030697": "CASE PUD PUD2026-000046 ENTRY NO. 3 FILED IN OCC COURT CLERK'S OFFICE ON 06/17/2026 - PAGE 1 OF 67 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF ) OKLAHOMA GAS AND ELECTRIC COMPANY ) FOR AN ORDER OF THE COMMISSION ) APPROVING ITS NEW EXTRA LARGE LOAD ",
      "21030670": "CASE PUD PUD2026-000046 ENTRY NO. 2 FILED IN OCC COURT CLERK'S OFFICE ON 06/17/2026 - PAGE 1 OF 22 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF ) OKLAHOMA GAS AND ELECTRIC COMPANY ) FOR AN ORDER OF THE COMMISSION ) APPROVING ITS NEW EXTRA LARGE LOAD ",
      "21030643": "CASE PUD PUD2026-000046 ENTRY NO. 1 FILED IN OCC COURT CLERK'S OFFICE ON 06/17/2026 - PAGE 1 OF 4 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF ) OKLAHOMA GAS AND ELECTRIC COMPANY ) FOR AN ORDER OF THE COMMISSION ) APPROVING ITS NEW EXTRA LARGE LOAD )",
-     "21480631": "CASE PUD 2026-000031 ENTRY NO. 157 FILED IN OCC COURT CLERK'S OFFICE ON 10/13/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF OKLAHOMA GAS AND ELECTRIC COMPANY FOR COMMISSION APPROVAL OF ELECTRIC SERVICE AGREEMENTS AND PREAPPROVAL PUD"
+     "21480631": "CASE PUD 2026-000031 ENTRY NO. 157 FILED IN OCC COURT CLERK'S OFFICE ON 10/13/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF OKLAHOMA GAS AND ELECTRIC COMPANY FOR COMMISSION APPROVAL OF ELECTRIC SERVICE AGREEMENTS AND PREAPPROVAL PUD",
+     "21707782": "CASE PUD 2026-000046 ENTRY NO. 102 FILED IN OCC COURT CLERK'S OFFICE ON 10/20/2026 - PAGE 1 OF 42 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF ) OKLAHOMA GAS AND ELECTRIC COMPANY ) FOR AN ORDER OF THE COMMISSION ) APPROVING NEW EXTRA LARGE LOAD ) TAR",
+     "21707772": "CASE PUD 2026-000046 ENTRY NO. 101 FILED IN OCC COURT CLERK'S OFFICE ON 10/20/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF ) OKLAHOMA GAS AND ELECTRIC COMPANY ) FOR AN ORDER OF THE COMMISSION ) APPROVING NEW EXTRA LARGE LOAD ) TARI"
     }
    },
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "mo_efis": {
@@ -20184,40 +20248,41 @@
      "ER-2024-0189": "83704",
      "EC-2027-0105": "109736",
      "EA-2027-0112": "109854",
-     "EA-2027-0113": "109873"
+     "EA-2027-0113": "109873",
+     "EF-2024-0021": "10206"
     }
    },
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "al_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-20",
+   "last_ok": "2026-10-21",
    "last_error": null
   },
   "eia": {
@@ -20227,25 +20292,25 @@
     "last_period": "2026-07"
    },
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -22209,13 +22274,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -22232,7 +22297,7 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -22418,7 +22483,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -22438,25 +22503,25 @@
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
@@ -22466,13 +22531,13 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -22489,7 +22554,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-10-20"
+   "last_ok": "2026-10-21"
   }
  },
  "baselined": [
@@ -22497,8 +22562,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 32,
- "last_run": "2026-10-20T05:46:21Z",
+ "runs": 33,
+ "last_run": "2026-10-21T05:42:05Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -23763,6 +23828,7 @@
    "NRC:ML26282B022",
    "NRC:ML26282B040",
    "NRC:ML26289A141",
+   "NRC:ML26293A228",
    "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A101626-02",
    "PAGE:puct_news:https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2023/PUCT_Texas_Advanced_Nuclear_Reactor_Working_Group_Named.pdf",
    "PAGE:puct_news:https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2023/PUCT_to_Host_First_Public_Workshop_on_Advanced_Nuclear_Reactors.pdf",
@@ -24927,9 +24993,10 @@
    "TX:59611-8"
   ],
   "attempts": {
-   "AZ:470854": 1,
-   "FERC:20261019-5066": 1,
-   "FERC:20261016-5166": 1
+   "AZ:470854": 2,
+   "FERC:20261019-5066": 2,
+   "FERC:20261016-5166": 2,
+   "NRC:ML26261A423": 1
   },
   "doc_retries": {
    "TX:58482-36": 1,
@@ -25144,18 +25211,18 @@
    "FERC:20261013-5313": 4,
    "FERC:20261013-5125": 4,
    "FERC:20261013-5202": 4,
-   "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A101626-02": 1,
-   "FERC:20261016-5103": 1,
-   "FERC:20261016-5127": 1,
-   "FERC:20261015-5189": 1,
-   "FERC:20261016-5012": 1,
-   "FERC:20261016-5149": 1
+   "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A101626-02": 2,
+   "FERC:20261016-5103": 2,
+   "FERC:20261016-5127": 2,
+   "FERC:20261015-5189": 2,
+   "FERC:20261016-5012": 2,
+   "FERC:20261016-5149": 2
   }
  },
  "last_full_run": {
-  "run_id": "2026-10-20-0509",
-  "started": "2026-10-20T05:09:21Z",
-  "finished": "2026-10-20T05:46:21Z",
+  "run_id": "2026-10-21-0510",
+  "started": "2026-10-21T05:10:20Z",
+  "finished": "2026-10-21T05:42:05Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=148540",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "NV Energy’s Standard Large Load Agreement Scrutinized",
+ "filed": "2026-10-21",
+ "url": "//www.rtoinsider.com/148540-nv-energy-standard-large-load-agreement-raises-questions/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Debate is swirling around NV Energy’s proposal for a standard energy supply agreement for large load customers, with some parties saying regulators should scrap the idea and focus on a large load tariff instead. \n The post  NV Energy&#8217;s Standard Large Load Agreement Scrutinized  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-21T05:21:14Z",
+ "run_id": "2026-10-21-0510",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20261020-5050",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "AD26-8",
+ "title": "Comments of Justin Trout on the 2026 Reliability Technical Conference held on 10/21/2026 under AD26-8.",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5050",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "0613D84C-D609-CFB2-9C05-A1594F300000",
+   "name": "Wolf_Meridian_FERC_Reliability_Comments_AD26-8-000.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-19"
+ },
+ "collected_at": "2026-10-21T05:40:23Z",
+ "run_id": "2026-10-21-0510",
+ "keywords": [
+  "data center",
+  "large load",
+  "large-load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Wolf_Meridian_FERC_Reliability_Comments_AD26-8-000.pdf",
+   "bytes": 64051,
+   "sha256": "5b2293650fcdadcc4086f3b9ae047e237810b8d1b153da367f400d0407dd89e6",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "WOLF MERIDIAN GROUP LLC                                                               POWER | COMPUTE | INFRASTRUCTURE\n\n\n\n                                BEFORE THE FEDERAL ENERGY REGULATORY COMMISSION\n                                                    Docket No. AD26-8-000\n                                   2026 Reliability Technical Conference | October 21, 2026\n\n                                 WRITTEN COMMENTS OF JUSTIN TROUT\n                   Strategic Infrastructure Planning, Large-Load Integration, and National Grid Security\n\nCommissioners:\nThe rapid expansion of artificial intelligence, data centers, and other large electrical loads presents a challenge extending\nbeyond generation capacity. The United States is attempting to accommodate unprecedented computational demand\nwithin an electrical system that was not designed around the geographic concentration, operating characteristics, or\ninfrastructure requirements of these emerging facilities.\nMy concern is that we continue addressing individual projects without adequately evaluating the cumulative\nconsequences for national infrastructure reliability and security.\nBased on my research involving energy infrastructure, strategic site selection, and power-to-compute planning, I\nrespectfully submit four recommendations for consideration.\n1. Establish a National Large-Load Site Readiness Framework.\nBefore committing to major computational developments, utilities and developers should evaluate actual deliverable\nelectrical capacity, transmission constraints, generation availability, substation capability, infrastructure upgrade\nrequirements, and realistic time-to-power. Proximity to existing transmission infrastructure must never be mistaken for\navailable capacity.\n2. Prioritize Existing Infrastructure Before New Construction.\nFormer industrial facilities, energy-producing regions, brownfields, and underutilized industrial properties deserve\nsystematic evaluation. Where engineering assessments support reuse, existing infrastructure may reduce development\ntimelines, unnecessary duplication, environmental impacts, and costs ultimately borne by consumers.\n3. Integrate National Security Into Reliability Planning.\nLarge-load integration introduces additional operational and security considerations. Planning should evaluate dynamic\nload behavior, correlated outages, cybersecurity, physical protection, fuel availability, and interdependencies involving\nwater, communications, and essential services. Reliability cannot be measured solely by whether sufficient megawatts\nexist under normal operating conditions.\n4. Improve Coordination Across Energy, Technology, and Government.\nFederal regulators, utilities, system operators, technology developers, and state authorities should adopt common\nscreening criteria and planning assumptions. These should address electrical capacity, water consumption, cooling\nrequirements, grid resilience, infrastructure investment, and the allocation of costs and operational risks.\nClosing Recommendation\nThe Commission should consider advancing a coordinated, evidence-based framework for evaluating large\ncomputational loads before development commitments create avoidable reliability problems.\nThe central question should not simply be how quickly America can build computational infrastructure, but whether\nwe are building it in locations our electrical system can responsibly and securely support.\nRespectfully submitted,\nJustin Trout, M.S.\nFounder & Principal | Wolf Meridian Group LLC\nwww.wolfmeridian.com | jttrout38@gmail.com\n\n\n\n\nWOLF MERIDIAN GROUP LLC | FERC DOCKET AD26-8-000                                                                  PAGE 1 OF 1\n\f"
+  }
+ ]
+}

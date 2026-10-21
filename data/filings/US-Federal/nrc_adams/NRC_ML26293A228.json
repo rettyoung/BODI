@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26293A228",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000331",
+ "title": "Duane Arnold (NextEra restart): Duane Arnold Energy Center - Subsequent License Renewal Application (SLRA) - Pre-Application Meeting [['Meeting Briefing Package/Handouts', 'Slides and Viewgraphs']]",
+ "filed": "2026-10-20",
+ "entity": [
+  "NRC/NRR/DDLP/DLP2/LRSB"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2629/ML26293A228.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26293A228.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Duane Arnold (NextEra restart)",
+  "accession": "ML26293A228",
+  "document_date": "2026-10-20"
+ },
+ "collected_at": "2026-10-21T05:36:54Z",
+ "run_id": "2026-10-21-0510",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26293A228.pdf",
+   "name": null,
+   "bytes": 1959228,
+   "sha256": "b553a73657d9987cbc9f0a43a53c3efd3fcd9a1ca3a39e8a4c44a893ce9e913a",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 10,
+   "truncated": false,
+   "text": "            Duane Arnold Energy Center\n     Subsequent License Renewal Application (SLRA)\n                          Pre-Application Meeting\n                                   October 21, 2026\n\n         Vaughn Thomas                                    Kevin Folk\n      Safety Project Manager                     Environmental Project Manager\n\n  License Renewal Safety Branch               License Renewal Environmental Branch\n   Division of Licensing Projects II               Division of Licensing Projects II\nOffice of Nuclear Reactor Regulation            Office of Nuclear Reactor Regulation\n\f                      Meeting Agenda\n\n Subsequent License Renewal Review Process &\n  Inputs into NRC Licensing Decision\n\n   Safety Review\n\n   Environmental Review\n\n NRC Contact Information\n\n Conclusion / Questions\n\f                               Subsequent License Renewal\n                                     Review Process +\n                            Inputs into NRC Licensing Decision\n\n\n                          Environmental\n                        Review (10 CFR 51)\n\n\n\nSubsequent License                                                        NRC Renewal\nRenewal Application           Hearings                                       Decision\n                              per 10 CFR 2.309\n (SLRA) Accepted                                                          (10 CFR 54.29)\n\n\n                         Safety                       ACRS\n                        Review                   Recommendation\n                      (10 CFR 54)                (10 CFR 54.25)*\n\n                                  *Only if novel, safety-significant concerns are identified\n\f                                                               Safety Review\n               Environmental                                    Milestones\n                                              NRC\n  SLRA              Hearings                Renewal\nAccepted\n                                            Decision\n\n                               ACRS\n           Safety\n\n\n\n\n                                                         In-Office\n                                      Acceptance\n                                                        Technical     On-Site Audit   Breakout Audit\n                                        Review\n                                                       Review Audit\n\n\n\n\n                                                                      Issue Safety     Issue Audit\n                                                                       Evaluation         Report\n\f                                         The New SLR Safety Review\n\n                      Will Review                                 NRC Will Not Reviewreview\n\n Aging management that does not align with NRC                  Aging management that aligns with\n  guidance:                                                       NRC guidance:\n\n     AMPs with exceptions (just the exceptions)                 AMPs consistent with guidance\n     AMRs not consistent with, or not fully covered, by NRC     AMPs consistent with guidance plus\n      guidance (Notes E-J)                                        enhancements\n     AMR results for which further evaluation is recommended    AMP elements consistent with guidance\n                                                                  (including AMPs with exceptions)\n\n Plant-specific operating experience                            Previously-approved approaches\n Scoping & screening activities\n Time-limited aging analyses\n\f                                Tentative Review\n                                   Schedule\n              Note: The review schedule below is tentative and subject to change.\n      The schedule is only finalized once the application has been accepted forreview and is\n                                             docketed.\n\n                         Activity                                        Estimated Date\nApplication Submission Date                                               February 2027\nAcceptance Date (Project Start Date)                                       March 2027\nSafety Audit                                                              April/May 2027\nIssuance Draft SEIS/EA                                                    Oct/Nov 2027\nIssuance of Final SEIS/EA                                              Dec 2027/Jan 2028\n\nSafety Evaluation Report                                                  Jan/Feb 2028\nLicensing Decision                                                          March 2028\n\f                                Level of Environmental Review\n\n\n     Initial Assessment               Preliminary FONSI                    Decision\n                                           Evaluation\n• Define Agency Action                                             NRC makes determination of\n• Assemble team                     Based on its acceptance           EA or EIS at time of\n                                 review, could the staff reach a         acceptance\n• Pre-application/                  preliminary finding of no\n  Acceptance Review               significant impact (FONSI)?\n\n\n\nIn cases where a FONSI appears likely:\n• The staff will prepare an EA that will be used to determine whether an EIS is necessary, or\n  a FONSI is warranted to satisfy the NRC's NEPA obligations\n• The EA would supplement the LR GEIS (NUREG-1437, Rev. 2)\n• Exemptions to the 10 CFR Part 51 requirements to prepare an EIS would be required\n\f                           Environmental Review: Process\n\nEnvironmental Assessment    Environmental Impact\n          (EA)                Statement (EIS)\n                                                    Required Consultations\n    Environmental Audit            Scoping          NRC coordinates and consults with\n                                                    various local, Federal, and Tribal\n                                                    officials to gather pertinent information\n      Provide Draft EA\n                              Environmental Audit\n      for State Review                              •   National Historic Preservation Act\n                                                        Section 106 consultations\n    Issue Final EA/FONSI         Issue Draft EIS\n         (if warranted)       for Public Comment    •   Ecological consultations (e.g.,\n        or Prepare EIS                                  Endangered Species Act Section 7)\n                                Consider Public\n                                  Comments\n\n\n                                Issue Final EIS\n\n\n                              Record of Decision\n\fNRC Contact Information\n Safety Project Manager\n   • 301-415-5897\n   • Vaughn Thomas (Vaughn.Thomas@nrc.gov)\n\n Environmental Project Manger\n   • 301-415-6944\n   • Kelvin Folk (Kelvin.Folk@nrc.gov)\n\n Operating Reactor Project Manager\n   • 301-415-2048\n   • Justin Poole (Justin.Poole@nrc.gov)\n\f\f"
+  }
+ ],
+ "enriched_at": "2026-10-21T05:41:49Z"
+}

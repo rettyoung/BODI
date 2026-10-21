@@ -1,0 +1,27 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/georgia-electric-cooperative-plans-50-mw-home-battery-deployment/833492/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Georgia electric cooperative plans 50-MW home battery deployment",
+ "filed": "2026-10-20",
+ "url": "https://www.utilitydive.com/news/georgia-electric-cooperative-plans-50-mw-home-battery-deployment/833492/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": " Central Georgia Electric Membership Corporation plans to use the batteries to reduce system peaks and energy costs as hyperscale data centers seek to connect to its grid. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-21T05:21:14Z",
+ "run_id": "2026-10-21-0510",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": []
+}

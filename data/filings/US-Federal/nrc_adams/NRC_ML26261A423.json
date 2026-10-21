@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26261A423",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): Long Mott Energy, LLC, Rev. 1, Construction Permit Application, Part II, Preliminary Safety Analysis Report [['Preliminary Safety Analysis Report (PSAR)']]",
+ "filed": "2026-10-20",
+ "entity": [
+  "Long Mott Energy, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2626/ML26261A423.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2626/ML26261A423.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26261A423",
+  "document_date": "2026-09-18"
+ },
+ "collected_at": "2026-10-21T05:37:08Z",
+ "run_id": "2026-10-21-0510",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2626/ML26261A423.pdf",
+   "error": "too large (123582729 bytes)"
+  }
+ ]
+}

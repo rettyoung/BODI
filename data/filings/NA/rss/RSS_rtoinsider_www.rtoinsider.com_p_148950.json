@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=148950",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "CEC Boosts VPP Funding Amidst Accelerated AI Data Center Growth",
+ "filed": "2026-10-20",
+ "url": "//www.rtoinsider.com/148950-cec-boosts-vpp-funding-wildfire-mitigation/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The California Energy Commission approved funding for two large virtual power plant projects as the state tries to offset a huge increase in AI data center demand. \n The post  CEC Boosts VPP Funding Amidst Accelerated AI Data Center Growth  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-21T05:21:14Z",
+ "run_id": "2026-10-21-0510",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

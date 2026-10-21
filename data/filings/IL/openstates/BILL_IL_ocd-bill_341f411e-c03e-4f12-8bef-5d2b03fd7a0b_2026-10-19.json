@@ -1,0 +1,24 @@
+{
+ "id": "BILL:IL:ocd-bill/341f411e-c03e-4f12-8bef-5d2b03fd7a0b:2026-10-19",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 5826",
+ "title": "DATA CENTER ENERGY ACCOUNT",
+ "filed": "2026-10-19",
+ "url": "https://openstates.org/il/bills/104th/HB5826/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Filed with the Clerk by Rep. Jay Hoffman",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-21T05:30:44Z",
+ "run_id": "2026-10-21-0510",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}
