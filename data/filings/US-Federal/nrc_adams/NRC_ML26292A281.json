@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26292A281",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): Holtec Internation, Key Leadership Changes [['Letter']]",
+ "filed": "2026-10-21",
+ "entity": [
+  "Holtec International"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2629/ML26292A281.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26292A281.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26292A281",
+  "document_date": "2026-10-19"
+ },
+ "collected_at": "2026-10-22T05:38:05Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "emergency",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26292A281.pdf",
+   "name": null,
+   "bytes": 119753,
+   "sha256": "1156b8aa2308669ab9c8cdf8b9970aa02712eb7a0a857d80ef0d7257ae890571",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                        KPS Technology Campus, 1 Holtec Blvd., Camden, NJ 08104\n                                                    Telephone (856) 797-0900 – Fax (856) 797-0909\n                                                                       www.holtecinternational.com\n\nOctober 19, 2026\n\nU. S. Nuclear Regulatory Commission\nATTN: Document Control Desk\nWashington, DC 20555-0001\n\n\n       Palisades Nuclear Plant\n       Renewed Facility Operating License No. DPR-20\n       Docket Nos. 50-255 and 72-007\n\n       Oyster Creek Nuclear Generating\n       Station Renewed Facility Operating License No. DPR-16\n       NRC Docket Nos. 50-219 and 72-15\n\n       Pilgrim Nuclear Power Station\n       Renewed Facility License No. DPR-35 NRC\n       Docket No. 50-293 and 72-1044\n\n       Indian Point Nuclear Generating Unit Nos. 1,2 & 3\n       Provisional Operating License No. DPR-5\n       Renewed Facility License No. DPR-26 & DPR-64\n       Docket Nos. 50-003, 50-247, 50-286 and 72-051\n\n       Big Rock Point\n       License No. DPR-6\n       Docket Nos. 50-155 and 72-043\n\n\nSubject: Holtec Key Leadership Changes\n\nDear Sir or Madam:\n\nPlease be advised of several key leadership changes within Holtec International and\nHoltec Decommissioning International, effective October 19, 2026.\n\nAs part of these changes, Matthew Johnson has assumed the position of Site Vice\nPresident of Indian Point Energy Center (IPEC), where he will provide leadership and\noversight of site operations and activities in support of the facility’s ongoing\ndecommissioning.\n\nAdditionally, Dr. Kris Singh, Chief Executive Officer of Holtec International, will assume\nthe additional role of President of Holtec International, succeeding Dr. Rick Springman\n\n\n                                             1\n\f                                                  KPS Technology Campus, 1 Holtec Blvd., Camden, NJ 08104\n                                                             Telephone (856) 797-0900 – Fax (856) 797-0909\n                                                                               www.holtecinternational.com\n\nin that capacity. This transition represents an important change in the company’s\nexecutive leadership structure, with Dr. Singh serving in both leadership roles.\n\nThese leadership changes reflect the continued evolution of the management structure\nacross Holtec International and Holtec Decommissioning International’s Indian Point\nEnergy Center facility.\n\nWe appreciate your attention to these appointments and ask that you update your\nrecords accordingly, as appropriate.\n\nMr. Johnson can be reached at m.johnson1@holtec.com. Should you have any\nquestions or require additional information, please contact me at (856) 797-0900 x\n3587.\n              Digitally signed by William Noval\n  William     DN: C=US, CN=William Noval ,\n              OU=Regulatory Affairs , O=Holtec\n              International ,\n  Noval       E=w.noval@holtec.com\n              Date: 2026.10.19 13:25:15 -04'00'\n\n\n\nWilliam Noval\nSr. Director Licensing, Regulatory Affairs and Global Trade Compliance\nHoltec International\n\ncc:\n  USNRC Regional Administrator, Region 1\n  USNRC Regional Administrator, Region 3\n  USNRC Senior Project Manager, NMSS - Oyster Creek\n  USNRC Senior Project Manager, NMSS – Pilgrim Nuclear Power Station\n  USNRC Senior Project Manager, NMSS – Indian Point Units 1, 2 & 3\n  USNRC Senior Project Manager, NMSS – BRP\n  USNRC Resident Inspectors – Palisades Nuclear Plant\n  NRC Region 1 Lead Decommissioning Inspector – Oyster Creek\n  NRC Region 1 Lead Decommissioning Inspector – Pilgrim Nuclear Power Station\n  NRC Region 1 Lead Decommissioning Inspector, Indian Point Units 1, 2 & 3\n  NRC Region 3 Chief, Operations Branch - Palisades Nuclear Plant\n  New York State Department of Public Service\n  New York State Liaison Officer Designee, NYSERDA\n  New Jersey DEP - Assistant Commissioner, Air Quality, Energy and Sustainability\n  New Jersey Bureau of Nuclear Engineering, Assistant Director Radiation Protection Element\n  Commonwealth of Massachusetts, Executive Office of Environmental Affairs\n  Commonwealth of Massachusetts, Department of Public Health\n  Commonwealth of Massachusetts, Department of Environmental Protection\n  Commonwealth of Massachusetts, Director, Massachusetts Emergency Management Agency\n  State of Michigan\n\n\n\n\n                                                      2\n\f"
+  }
+ ]
+}

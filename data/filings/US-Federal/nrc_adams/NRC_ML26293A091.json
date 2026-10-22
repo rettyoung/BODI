@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26293A091",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000615",
+ "title": "TVA Clinch River BWRX-300: News Release-26-079: NRC Approves Construction of Nation's First Small Modular Reactor [['Press Release']]",
+ "filed": "2026-10-21",
+ "entity": [
+  "NRC/OPA"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2629/ML26293A091.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26293A091.pdf"
+  }
+ ],
+ "meta": {
+  "project": "TVA Clinch River BWRX-300",
+  "accession": "ML26293A091",
+  "document_date": "2026-09-29"
+ },
+ "collected_at": "2026-10-22T05:38:23Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26293A091.pdf",
+   "name": null,
+   "bytes": 440824,
+   "sha256": "2c21abdf6e96e0563325fe31038c412d39ab37cfd32f7b3fa8b2caf171973e55",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                           P T bA#y               P T 6bA#y\n                                                                                                     P T 8bA#y\n                                                      P T 9bA#y               P T bA#y   P T 7bA#y               P1TB3bA#y1\n                                                                                                                              P T 4bA#y       P T 5bA#y\n\n\n\n\nNo: 26-079                                                                                                                                September 29, 2026\nCONTACT: Office of Public Affairs, 301-415-8200\n\n          NRC Approves Construction of Nation’s First Small Modular Reactor\n        TVA’s Clinch River Project Receives Construction Permit After 14-Month NRC Review\n\n          ROCKVILLE, Md. — The Nuclear Regulatory Commission approved a construction\n  permit for the Tennessee Valley Authority to build a small modular nuclear reactor at its Clinch\n  River site in Oak Ridge, Tennessee, clearing the way for the nation’s first commercial small\n  modular reactor and completing the NRC’s review in 14 months. This is the agency’s second\n  major reactor approval this year.\n\n         “Four months ahead of schedule is what the new NRC looks like,” NRC Chairman\n  Ho K. Nieh said. “Today’s Clinch River decision demonstrates that the new NRC can make\n  rigorous and credible safety decisions that enable major American nuclear projects to move\n  forward.”\n\n         The NRC formally began its review in July 2025 and completed its licensing decision in\n  14 months, ahead of schedule. The approval follows a comprehensive safety evaluation\n  completed by the NRC staff in June 2026, which found that TVA’s construction permit\n  application met all regulatory requirements. The NRC also held a public hearing in Oak Ridge,\n  Tennessee, in August as part of its modernized mandatory hearing process.\n\n          TVA plans to build a 300-megawatt GE Vernova Hitachi boiling-water reactor to help\n  meet growing regional power demand. Before loading fuel and starting operations, TVA will\n  need a separate operating license from the NRC. TVA previously received an early site permit\n  for the Clinch River site in 2019.\n\n          More information on advanced reactor licensing is available at nrc.gov.\n\n\n\n\n  The U.S. Nuclear Regulatory Commission was created as an expert, technical agency to protect public\n  health, safety, and security, and regulate the civilian use of nuclear materials, including enabling the\n  deployment of nuclear power for the benefit of society. Among other responsibilities, the agency issues\n  licenses, conducts inspections, initiates and enforces regulations, and plans for incident response. The NRC\n  is collaborating with interagency partners to implement reforms outlined in new Executive Orders and the\n  ADVANCE Act to streamline agency activities and enhance efficiency.\n\f"
+  }
+ ]
+}

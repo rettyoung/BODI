@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26293A339",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000331",
+ "title": "Duane Arnold (NextEra restart): RE-Duane Arnold Energy Center - Fixed Fee Caps for Ongoing Licensing Actions [['E-Mail']]",
+ "filed": "2026-10-21",
+ "entity": [
+  "NRC/NRR/DDLP/DLP1/ORLB3"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2629/ML26293A339.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26293A339.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Duane Arnold (NextEra restart)",
+  "accession": "ML26293A339",
+  "document_date": "2026-09-29"
+ },
+ "collected_at": "2026-10-22T05:38:14Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26293A339.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2629/ML26293A339.pdf"
+  }
+ ]
+}

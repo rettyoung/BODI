@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20261021-5133",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "(doc-less) Motion to Intervene of RWE Americas, LLC under ER27-25.",
+ "filed": "2026-10-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261021-5133",
+ "entity": "RWE Americas, LLC",
+ "fetch": [
+  {
+   "ferc_file": "F1959989-6359-C27B-B4AE-A15FFB000000",
+   "name": "1801625_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-21"
+ },
+ "collected_at": "2026-10-22T05:40:58Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "battery storage",
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1801625_Interv.txt",
+   "bytes": 2400,
+   "sha256": "42bcb38d63a9158ee155dd56d6f37d56e1ebf2d0625a3148da149b4ce10b1d72",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of RWE Americas, LLC under ER27-25-000.\r\n\r\nSubmission Date:        10/21/2026 3:22:35 PM\r\n\r\nFiled Date:             10/21/2026 3:22:35 PM\r\n\r\nDockets\r\n-------\r\nER27-25-000          Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-10-02_Large Load Addition Resource Study (LARS) submitted on 10/2/2026 12:03:09 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nRWE Americas, LLC                        paul.varnado@rwe.com                     tomas.rodriguez@rwe.com                 \r\n\r\nBasis for Intervening:\r\nBasis for Intervening:\r\nDESCRIPTION OF RWE AMERICAS, LLC (“RWEA”):  RWEA is a Delaware limited liability company which, through various affiliated and subsidiary project companies, is in the business of owning, operating, and developing electric generation facilities throughout the United States, including in the territory of Midcontinent Independent System Operator, Inc. (“MISO”). RWEA owns and operates a renewable energy portfolio of about 12 gigawatts (GW) installed capacity of onshore wind, solar, and battery storage throughout the United States, and is an indirect wholly-owned subsidiary of RWE AG, a German company.\r\nNATURE OF THE PROCEEDINGS: On October 2, 2026, MISO filed its proposed tariff revision to establish a Large Load Addition Resource Study (\"LARS\") process.  \r\nGROUNDS FOR INTERVENTION: Pursuant to Rules 212 and 214 of the Federal Energy Regulatory Commission’s Rules of Practice and Procedure, 18 C.F.R. §§ 385.212, 214, RWEA herby moves to intervene in this proceeding.  RWEA is the owner and developer of generation resources that would be impacted by the proposed reform as contemplated in MISO’s LARS proposal, which is intended to \"help streamline the MISO generator and load interconnection process,\" according to page 1 of the LARS transmittal letter. Therefore, RWEA has a material interest in this proceeding that cannot be adequately represented by any other party. RWEA respectfully requests that the Commission grant it full rights associated with party status in this proceeding.\r\n"
+  }
+ ]
+}

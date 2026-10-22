@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149047",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Ontario Data Center Developers Focus on Grid Access as Province Weighs Higher Rates",
+ "filed": "2026-10-22",
+ "url": "//www.rtoinsider.com/149047-ontario-data-center-developers-focus-grid-access/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Data center developers at the Ontario Energy Conference expressed more concern about potential restrictions on grid access than the prospect of higher electricity rates, as the province considers new requirements for large facilities. \n The post  Ontario Data Center Developers Focus on Grid Access as Province Weighs Higher Rates  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-22T05:20:49Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

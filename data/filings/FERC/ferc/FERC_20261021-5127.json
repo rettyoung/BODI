@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261021-5127",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Arianna Bellizzi in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/21/2026\n",
+ "filed": "2026-10-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261021-5127",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "6B1C803D-A73C-CC18-93DA-A15FF6400000",
+   "name": "151789.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-21"
+ },
+ "collected_at": "2026-10-22T05:41:58Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151789.txt",
+   "bytes": 2119,
+   "sha256": "cf6a4fd57583f3623e14d6ab7917ecaf7684794021dc714071940b3dab18594c",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nArianna Bellizzi, Anchorage, AK.\nUnderwater data centers are a novel concept, and there are none in operation at this scale. To developers, the chief selling point is that the massive amounts of waste heat can be cooled by the surrounding seawater, reducing or eliminating the need for cooling equipment. That waste heat would be absorbed into the ecosystem, risking harm to the entire marine food web- from plankton to fish, to mammals like the endangered Cook Inlet Beluga. DeepGreen proposes to power the 100 MW data center with more than 300 tidal generators. It has not shared any plan for where it would source power during daily slack tides, when the  DeepGreen project could draw 100 MW of power from the grid, twice the average peak demand for the entire Kenai Peninsula. The proposed infrastructure includes 66 server hives with exterior copper-nickel cooling fins, raising serious questions about erosion and heavy metal contamination.A hyperscale data center underwater in the Cook Inlet Forelands area would disrupt fisheries, aquatic life, and ship traffic between Anchorage and the Gulf of Alaska. The DeepGreen project is proposed in the deepest channel of the Forelands, a natural bottleneck between upper and lower Cook Inlet, just north of the community of Nikiski. Any infrastructure exposed to the Inlet’s strong currents would face relentless, year-round abrasion, persistent wear, and ongoing operational risks. These waters are opaque with fine volcanic ash, sand, and glacial silt; and home to some of the largest tidal ranges in the world. Its powerful currents act like a giant blender, constantly churning up shifting sand and silt from the seafloor and mudflats and keeping heavy sediments in suspension. Cook Inlet experiences frequent earthquakes, which would shake and vibrate sensitive equipment like data center servers, causing damage and requiring maintenance. The project raises serious questions of long-term reliability and cost. Its infrastructure is made up of many moving parts and would require frequent maintenance underwater in an area that is difficult to access.\r\n\r\n"
+  }
+ ]
+}

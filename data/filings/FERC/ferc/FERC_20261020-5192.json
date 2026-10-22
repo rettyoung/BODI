@@ -1,0 +1,70 @@
+{
+ "id": "FERC:20261020-5192",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP27-9",
+ "title": "Columbia Gulf Transmission, LLC submits Abbreviated Application for Certificate of Public Convenience and Necessity to construct approximately 8.68 miles of 30-inch diameter pipeline, etc. located in Kentucky re the Clark Project under CP27-9.",
+ "filed": "2026-10-20",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261020-5192",
+ "entity": "Columbia Gulf Transmission, LLC",
+ "fetch": [
+  {
+   "ferc_file": "669F1206-0F74-C837-9CB0-A15E64400000",
+   "name": "CUI-PRIV - Exh F1-Appendix 1A.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "958C5A23-F23D-CA84-A799-A15E64400000",
+   "name": "CUI-PRIV - Exh F1-Appendix 1F.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "74C8605B-85A3-C23C-AC6B-A15E64400000",
+   "name": "CUI-PRIV - Exh F1-Appendix 4A.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "60DBAE5A-6F57-CE32-8BEF-A15E64500000",
+   "name": "CUI-PRIV - Exh I - Clark PA.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Certificate of Public Convenience and Necessity"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-10-20"
+ },
+ "collected_at": "2026-10-22T05:43:17Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "certificate of public convenience",
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '669F1206-0F74-C837-9CB0-A15E64400000', 'name': 'CUI-PRIV - Exh F1-Appendix 1A.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '958C5A23-F23D-CA84-A799-A15E64400000', 'name': 'CUI-PRIV - Exh F1-Appendix 1F.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '74C8605B-85A3-C23C-AC6B-A15E64400000', 'name': 'CUI-PRIV - Exh F1-Appendix 4A.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '60DBAE5A-6F57-CE32-8BEF-A15E64500000', 'name': 'CUI-PRIV - Exh I - Clark PA.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

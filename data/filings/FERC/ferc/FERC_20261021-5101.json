@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261021-5101",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Kaia Pearson in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/21/2026\n",
+ "filed": "2026-10-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261021-5101",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "0FBD7D53-7433-C5B4-9DD7-A15FACB00000",
+   "name": "151787.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-21"
+ },
+ "collected_at": "2026-10-22T05:42:01Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151787.txt",
+   "bytes": 1196,
+   "sha256": "d4e3bdb11dab86e22c25885d1b5118a450d343f6fb20407dff58ac8865a47d4b",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nKaia Pearson, Anchorage, AK.\nThank you for offering this public comment period on the proposed DeepGreen Cook Inlet data center. \r\n\r\nI am a 10 year resident of Anchorage Alaska.  I strongly and vehemently oppose this project.  An underwater data center in Cook Inlet is likely to lead to irrevocable changes and damage to an ecosystem that we Alaskans rely upon, all for the profit of an out of state company.  I depend on fish that I harvest from Kenai rivers to feed my family through the winter, and this project threatens the Kenai fisheries.  I believe it is my responsibility to advocate for the Beluga whales, other fish, birds, and entire ecosystems whose health would be threatened by noise pollution, heat pollution, and potential leaking of toxic chemicals.  And DeepGreen's proposal does not adequately account for practical issues like energy sourcing during slack tide nor how it intends to provide the maintenance and operational updates needed in a subarctic environment. \r\n\r\nIt may be that in years to come, scientists and engineers come up with a safe and viable way to build a data center under water.  This is not that proposal.  I urge you not to issue this permit.  \r\n\r\n"
+  }
+ ]
+}

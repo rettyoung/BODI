@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149155",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC Tech Conference Explores the Nitty Gritty of Data Center Flexibility",
+ "filed": "2026-10-21",
+ "url": "//www.rtoinsider.com/149155-ferc-tech-conference-explores-nitty-gritty-data-center-flexibility/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " A FERC reliability technical conference turned into a lengthy discussion on how to reliably integrate flexible data centers onto the grid. \n The post  FERC Tech Conference Explores the Nitty Gritty of Data Center Flexibility  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-22T05:20:49Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

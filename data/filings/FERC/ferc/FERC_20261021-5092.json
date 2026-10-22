@@ -1,0 +1,59 @@
+{
+ "id": "FERC:20261021-5092",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2685",
+ "title": "New York Power Authority submits updated plan and schedule in response to FERC’s 08/24/2026 letter re the Probable Maximum Flood Study, et al. re the Blenheim-Gilboa Pumped Storage Project under P-2685.",
+ "filed": "2026-10-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261021-5092",
+ "entity": "New York Power Authority",
+ "fetch": [
+  {
+   "ferc_file": "D79A6BDF-7B12-CAC5-9FED-A15F8F400000",
+   "name": "BGN10212026 - Respond to FERC Letter Attachment.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "E2335287-F230-C8F9-A696-A15F8F400000",
+   "name": "BOC Review of October 2026 Revised PMF Report for Blenheim Gilboa Project Final.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "927D8E38-6BC3-CB9C-874E-A15F8F500000",
+   "name": "Blenheim-Gilboa Probable Maximum Flood Study Revision Final Report_Revised10202026.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Dam Safety Compliance Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-21"
+ },
+ "collected_at": "2026-10-22T05:41:37Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'D79A6BDF-7B12-CAC5-9FED-A15F8F400000', 'name': 'BGN10212026 - Respond to FERC Letter Attachment.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'E2335287-F230-C8F9-A696-A15F8F400000', 'name': 'BOC Review of October 2026 Revised PMF Report for Blenheim Gilboa Project Final.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '927D8E38-6BC3-CB9C-874E-A15F8F500000', 'name': 'Blenheim-Gilboa Probable Maximum Flood Study Revision Final Report_Revised10202026.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

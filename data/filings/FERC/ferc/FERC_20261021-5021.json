@@ -1,0 +1,53 @@
+{
+ "id": "FERC:20261021-5021",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-108",
+ "title": "(doc-less) Out-of-Time Motion to Intervene of EQUINIX INC. under EL26-108.",
+ "filed": "2026-10-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261021-5021",
+ "entity": "EQUINIX INC.",
+ "fetch": [
+  {
+   "ferc_file": "A889E6FE-0385-CFA0-9CEC-A15E80700000",
+   "name": "1801213_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion to Intervene Out of Time"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-20"
+ },
+ "collected_at": "2026-10-22T05:42:16Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "colocation",
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [
+  "Equinix"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1801213_Interv.txt",
+   "bytes": 1328,
+   "sha256": "dfd22f0cf4c8512f1b34caaafc5875c373da2e31c22fd5856c7f84f4048a31ae",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Out-of-Time Motion to Intervene of EQUINIX INC. under EL26-108-000.\r\n\r\nSubmission Date:        10/20/2026 8:57:21 PM\r\n\r\nFiled Date:             10/21/2026 8:30:00 AM\r\n\r\nDockets\r\n-------\r\nEL26-108-000         PJM Interconnection, L.L.C.\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nEQUINIX INC.                             ahaubenstock@equinix.com                 cmcgeady@equinix.com                    \r\n\r\nBasis for Intervening:\r\nEquinix is one of the oldest and largest data center developers, owners and operators in the world, with numerous data centers throughout the PJM footprint, including both colocation data centers and larger data centers with a single or limited number of customers.  Its interest would be directly affected by the outcome of this proceeding, and its interests could not be adequately represented by any other party.   As Equinix is submitting this motion to intervene after hours on the date twenty-one days after this proceeding was instituted, there would be no negative effect on the interests of any party by its intervention."
+  }
+ ]
+}

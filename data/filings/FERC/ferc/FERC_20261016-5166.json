@@ -64,5 +64,6 @@
    "url": "{'ferc_file': 'F2CD933E-5239-C121-852D-A14674000001', 'name': 'data_ingest__data__silver__pjm__load__year_2021__month_10__part-0.parquet.txt', 'type': 'TXT'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-22T05:47:04Z"
 }

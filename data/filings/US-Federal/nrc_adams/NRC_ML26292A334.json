@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26292A334",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000617",
+ "title": "Holtec Pioneer 2 (SMR-300 at Palisades): Request for Withholding Information from Public Disclosure for Revision 1 of Enclosures to Holtec Pioneer Units 1 and 2 Limited Work Authorization Application [['E-Mail', 'Proprietary Information Review']]",
+ "filed": "2026-10-21",
+ "entity": [
+  "NRC/OAR/DDLP/DARL/ARLB2"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2629/ML26292A334.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26292A334.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Holtec Pioneer 2 (SMR-300 at Palisades)",
+  "accession": "ML26292A334",
+  "document_date": "2026-10-13"
+ },
+ "collected_at": "2026-10-22T05:38:38Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "SMR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26292A334.pdf",
+   "name": null,
+   "bytes": 149924,
+   "sha256": "a2f5a6a356a16903df925284442eb118f2f81032a28a6025843c239586c72b78",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:           Victoria Huckabay\nTo:             Jake Dolecki\nCc:             Miriam Matthew; Anthony Konecni; Michelle Hayes\nSubject:        Request for Withholding Determination from Public Disclosure - Revision 1 of Enclosures to the LWA Application\nDate:           Tuesday, October 13, 2026 10:07:00 PM\n\n\nTo: Jake Dolecki\nSr. Manager, SMR Licensing and Engineering Programs\nHoltec International\n\nBy letter subject “Submittal of Pioneer Units 1 and 2 Limited Work Authorization\nApplication” dated September 29, 2026 (Agencywide Documents Access and Management\nSystem (ADAMS) Accession No. ML26272A332, part of package ML26272A331), Holtec\nsubmitted an affidavit (ADAMS Accession No. ML26272A339, part of package\nML26272A331) requesting that the information contained in the following document be\nwithheld from public disclosure pursuant to Section 2.390, “Public inspections, exemptions,\nrequests for withholding,” of Title 10 of the Code of Federal Regulations (10 CFR):\n\n       Enclosure I, General and Financial Information, Revision 1 (ADAMS Accession No.\n       ML26272A333, part of package ML26272A331)\n\n       Enclosure III, HI-2252191, “Pioneer Units 1 and 2 Preliminary Safety Analysis Report\n       for Limited Work Authorization,” Revision 1 (ADAMS Accession No. ML26272A335,\n       part of package ML26272A331)\n\n       Enclosure V, Exemptions, Revision 1 (ADAMS Accession No. ML26272A337, part of\n       package ML26272A331)\n\nThe NRC staff reviewed the affidavit and information provided in the letter in accordance\nwith the requirements of 10 CFR 2.390. Based on the statements in the affidavit, the staff\ndetermined that the information sought to be withheld contains proprietary commercial\ninformation and should be withheld from public disclosure. Therefore, the submitted\ninformation marked as proprietary will be withheld from public disclosure pursuant to 10\nCFR 2.390(b)(5) and Section 103(b) of the Atomic Energy Act of 1954, as amended.\n\nIf the basis for withholding this information from public inspection should change in the\nfuture such that the information could then be made available for public inspection, you\nshould promptly notify the NRC. You also should understand that the NRC may have\ncause to review this determination in the future, for example, if the scope of a Freedom of\nInformation Act request includes your information. In all review situations, if the NRC\nmakes a determination adverse to the above, you will be notified in advance of any public\ndisclosure.\n\nIf you have any questions regarding this matter, please do not hesitate to contact me.\n\nThank you,\nVictoria Huckabay\n\nDockets: 05000616 and 05000617\n\fVictoria V. Huckabay\nSenior Project Manager\nOAR/DARL/ARLB2\n(301) 415-5183\n\f"
+  }
+ ]
+}

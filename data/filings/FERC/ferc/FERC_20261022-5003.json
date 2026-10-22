@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261022-5003",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Nina Faust in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/22/2026\n",
+ "filed": "2026-10-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261022-5003",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "4E0D2929-03A9-C77A-982E-A16200600000",
+   "name": "151798.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-22"
+ },
+ "collected_at": "2026-10-22T05:41:43Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151798.txt",
+   "bytes": 3019,
+   "sha256": "8389209912c4e2eceb850140f41a8f560885088b798be81dcf651e032eb339a9",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nNina Faust, Homer, AK.\n\r\nHomer AK 99603\r\n\r\nOctober 21, 2026\r\n\r\nTo:  Federal Energy Regulatory Commission\r\n\r\nRE: Docket number: P-15423, DeepGreen Cook Inlet LLC, Hyperscale Data Center\r\n\r\nTo Whom it May Concern:\r\n\r\nI am concerned about putting an untested hyperscale underwater data center near Nikiski’s Forelands region. This area is part of the habitat for endangered Cook Inlet Beluga whales.  Important salmon runs go through this area. The tides and currents in Cook Inlet can be severe, possibly creating conditions that could tear out this infrastructure.\r\n\r\nIt is absurd to assume that a massive data center with over 300 tidal generators and waste heat that will be generated in huge amounts won’t have consequential effects on surrounding waters, since the ocean is coolant.  What will this do to the fish, plankton, beluga whales, and other creatures using this area?  How will the data center affect fish runs and other marine mammals?  It could affect the area’s whole food chain as the heat will likely disperse beyond the center’s footprint.  How much acreage will be affected?\r\n\r\nThis project, especially at this scale, is unprecedented.  Building in the heavy silt water of Cook Inlet also brings up the question of what effect the silt will have on the turbines? How much noise will travel through the water and what effect will it have on the marine life?  These turbines have not yet been tested so we do not know how much one generator would make, let alone 300.  That needs to be calculated to determine if the amount of noise is safe for marine life, especially Beluga whales who are acoustically sensitive. Another question is where would the facility get energy when there is slack tides? The facility power draw would be beyond what communities could provide.\r\n\r\nHas the company calculated the amount of heavy metal erosion will occur with all exposed exterior metal?  Heavy metals can be toxic to sealife. Ionized nickel could be ingested by benthic organisms. Copper is highly toxic to salmon and tiny amounts can interfere with their olfactory system, making it harder for them to find food, avoid predators, or find their way to their spawning grounds. Copper and nickel would also be abraded from the turbine fins by coarse sand and silt, increasing the pollution in the area.  These are questions that need answers before we can even think about building a facility like this.\r\n\r\nAI data centers throughout the country are very controversial.  To think that just plopping one into one of the most extreme tidal basins in the world is going to solve all the problems of cooling, excessive energy use, water pollution, and excessive noise because they will be tucked away neatly under water is rather pretentious. The problems are the same categories as on land but now present more extreme challenges because of the extreme underwater environment. I do not support this project at all, anywhere on the Kenai Peninsula. \r\n\r\nRespectfully,\r\n\r\nNina Faust \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+  }
+ ]
+}

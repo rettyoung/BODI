@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149147",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "NERC Committee Approves Next Large Loads Project",
+ "filed": "2026-10-22",
+ "url": "//www.rtoinsider.com/149147-nerc-standards-committee-approves-large-load-project/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " NERC's Standards Committee approved a new standards project focused on ride-through and active power recovery requirements for computational loads. \n The post  NERC Committee Approves Next Large Loads Project  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-22T05:20:49Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

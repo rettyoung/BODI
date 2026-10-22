@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B102126-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-B102126-01 Settlement extract posting schedule issues have been resolved and will now adhere to the required delivery timeline.",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-B102126-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B102126-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-22T05:19:31Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B102126-01",
+   "name": null,
+   "bytes": 6866,
+   "sha256": "08e74e758d105dd21dfd83251296939339ee5e12c01610d82158de75806c14dd",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Settlements@lists.ercot.com,Notice_Extracts_Retail@lists.ercot.com,Notice_Extracts_Wholesale@lists.ercot.com,Notice_Operations@lists.ercot.com\n\nSent:\n\n10/21/26, 11:00 AM\n\nSubject:\n\nM-B102126-01 Settlement extract posting schedule issues have been resolved and will now adhere to the required delivery timeline.\n\nNOTICE DATE:\n October 21, 2026\n\nNOTICE TYPE:\n M-B102126-01 Settlement Extracts\n\nSHORT DESCRIPTION:\n\nSettlement extract posting schedule issues have been resolved and will now adhere to the required delivery timeline.\n\nINTENDED AUDIENCE:\n Settlement Extract Recipients\n\nDAYS AFFECTED:\n Monday, October 19, 2026\n\nLONG DESCRIPTION: \nWhile investigating the issues covered in \nM-B082026-01\n, ERCOT identified a long standing operational issue that occasionally affected extract generation, causing some postings to fall behind their expected delivery schedule. The extracts listed below were delayed by at least two extract runs.\nERCOT has corrected the issue and implemented additional monitoring to help identify and prevent similar delays going forward. To bring the affected extracts back to their required delivery schedule, ERCOT performed additional reruns. All impacted extracts have returned to their expected delivery timeframe\n\nESI ID Service History & Usage Extract | ZP12-245 | Rpt ID 210\n\nSupplemental AMS Interval Data Extract | COMS-456 | Rpt ID 1040\n\nSupplemental IDR Required Interval Data Extract | COMS-457 | Rpt ID 1041\n\nRecorder Extract | ZP11-489 | Rpt ID 232\n\nResource ID Extract | ZP11-532 | Rpt ID 231 \n\nACTION REQUIRED:\n\nMarket Participants will see the additional extracts posted in their associated folders on the Market Information System (MIS). The filenames will end with Rerun1, Rerun2, or Rerun3, depending on the number of reruns required. Market Participants should download and process the rerun files in sequential order, beginning with Rerun1, followed by Rerun2, and then Rerun3, if applicable.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

@@ -37,5 +37,6 @@
    "url": "{'ferc_file': 'E603705E-E522-CDD6-9C39-A154BBF00000', 'name': 'Eastport Port Authority, Maine - Motion to Intervene.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-22T05:46:52Z"
 }

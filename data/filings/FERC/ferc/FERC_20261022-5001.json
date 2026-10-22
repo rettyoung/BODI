@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261022-5001",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15424",
+ "title": "Comment of Neilly A Buckalew in Docket(s)/Project(s) P-15424-000\nSubmission Date: 10/21/2026\n",
+ "filed": "2026-10-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261022-5001",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "89640EF9-82E5-CD85-90E0-A16078100000",
+   "name": "151793.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-21"
+ },
+ "collected_at": "2026-10-22T05:42:22Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151793.txt",
+   "bytes": 2827,
+   "sha256": "589860f9211acc9a6ee975aab8f1a43ef0f8bce5ab6ed550b98a36ac1e829531",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nNeilly A Buckalew, Hauser, ID.\n**Oppose the proposed underwater AI data center in Maine’s Western Passage.** This project risks turning critical habitat for endangered North Atlantic right whales and fin whales into an industrial zone. With fewer than 400 North Atlantic right whales remaining, additional vessel traffic, underwater noise, turbine operation, construction disturbance, and potential entanglement or contamination pose unacceptable risks to already vulnerable marine life.\r\n\r\nThe consequences extend beyond whales. Eastport’s fishing industry, marine ecosystems, and coastal tourism depend on healthy, productive waters. Industrial infrastructure could disrupt marine food webs, affect fisheries, undermine whale-related tourism, and threaten the ecological and cultural resources valued by the Passamaquoddy people. Heated-water discharge, underwater noise, and equipment failures also require rigorous, independent assessment before any approval.\r\n\r\n**The burden of proof must rest with the developer—not the endangered species or local community.** FERC should require a comprehensive, independent environmental impact assessment, meaningful consultation with Indigenous communities, transparent analysis of cumulative impacts, and proof that less harmful alternatives are inadequate. Given the potentially irreversible consequences, the project should not advance without compelling evidence that endangered wildlife, local livelihoods, and the Bay of Fundy ecosystem can be protected.\r\n\r\nWhy this location deserves particular protection\r\nEndangered whales: The Western Passage overlaps habitat used by North Atlantic right whales and fin whales. Survey vessels and underwater noise may interfere with communication, feeding, and normal behavior. Even small additional risks matter for a population as critically depleted as the right whale.\r\n\r\nLocal economy: Commercial fishing, marine-dependent businesses, and nature tourism depend on a healthy Bay of Fundy. Ecological damage or reduced confidence in the area's environmental quality could create costs that outweigh the project's local economic benefits.\r\nEnvironmental impacts: The proposal includes 34 subsea computing pods, up to 16 tidal turbine-generator units, and a 1.5-mile underwater power-and-fiber cable. These components warrant careful assessment of underwater noise, marine habitat disturbance, collision or entanglement risks, thermal pollution, contamination, and cumulative effects.\r\n\r\nCommunity and Indigenous interests: Eastport's city council has adopted an ordinance prohibiting large-scale data centers in the city, and Passamaquoddy officials have opposed the development. Federal review should meaningfully consider local concerns and Indigenous rights rather than treating the ocean as an empty industrial site. \r\n\r\n\r\n"
+  }
+ ]
+}

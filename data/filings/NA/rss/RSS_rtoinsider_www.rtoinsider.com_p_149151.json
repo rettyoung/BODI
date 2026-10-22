@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149151",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "BPA Kickstarts Large Load Initiative Under ‘Aggressive’ Schedule",
+ "filed": "2026-10-21",
+ "url": "//www.rtoinsider.com/149151-bpa-kickstarts-large-load-initiative-under-aggressive-schedule/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The Bonneville Power Administration provided more details on its plan to speed up the connection of large loads, with the goal of having a final record of decision by Spring 2027. \n The post  BPA Kickstarts Large Load Initiative Under ‘Aggressive’ Schedule  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-22T05:20:49Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

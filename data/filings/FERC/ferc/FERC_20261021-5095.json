@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261021-5095",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "AD26-8",
+ "title": "Comments of Rehmana Younis on Large AI Data Center Loads and Continuous Reliability Decision-Making under AD26-8.",
+ "filed": "2026-10-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261021-5095",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "9E440A8C-747F-CFE4-86EC-A15F9E700000",
+   "name": "ferc_comments (1).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-21"
+ },
+ "collected_at": "2026-10-22T05:41:40Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "data center",
+  "load forecast"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "ferc_comments (1).pdf",
+   "bytes": 153492,
+   "sha256": "029efc39bc5e99fe0da97c45e5d9cc7c9cedbdf55f6c0d18e7a62d59fed486ee",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                             ​UNITED STATES OF AMERICA​\n                    ​BEFORE THE FEDERAL ENERGY REGULATORY COMMISSION​\n\n\n                                   ​Commissioner-led Reliability Technical Conference​\n                                                     ​Docket No. AD26-8-000​\n\n\n            ​COMMENTS​​OF​​REHMANA​​YOUNIS​​ON​​LARGE​​AI​​DATA​​CENTER​​LOADS​\n            ​AND CONTINUOUS RELIABILITY DECISION-MAKING​\n\n\n              I​ ​ ​respectfully​ ​submit​ ​these​ ​comments​ ​in​ ​connection​ ​with​ ​the​ ​Commission’s​ ​October​ ​21,​ ​2026​\n ​reliability​ ​technical​​conference.​​The​​discussion​​of​​growing​​electricity​​demand​​from​​AI​​data​​centers​​raises​\n  ​an​ ​important​ ​operational​ ​question:​ ​due​ ​to​​variable​​load​​demand​​of​​a​​data​​center,​​how​​can​​grid​​operators​\n   ​reassess​​power​​resources​​to​​achieve​​reliable​​predictive​​modelling?​​My​​research​ ​focus​​also​​tackles​​the​​same​\n    ​challenge​ ​with​ ​advanced​ ​tools,​ ​i.e.​ ​machine-learning-based​ ​electricity​ ​demand​ ​forecasting​ ​and​ ​the​\n     ​monitoring​​of​​critical​​energy​ ​infrastructure.​​I​​have​​published​​work​​on​​short-term​​load​​forecasting​​using​​a​\n      ​combined​ ​convolutional​ ​neural​ ​networks​ ​and​ ​bidirectional​ ​long​ ​short-term​ ​memory​ ​approach​ ​[1].​ ​The​\n​recommendation below draws on that research direction.​\n\n                ​Large​​computing​​facilities​​can​​change​​their​​electricity​​use​​as​​computing​​jobs​​begin,​​end,​​or​​move​\n ​ etween​ ​systems.​ ​Their​ ​cooling​ ​requirements​​can​​also​​change​​with​​ambient​​temperature,​​humidity,​​and​\n b\n ​equipment​ ​activity.​​These​​effects​​may​​occur​​together,​​so​​the​​demand​​that​​is​​plausible​​during​​one​​part​​of​\n  ​the​ ​day​ ​may​ ​be​ ​quite​ ​different​ ​a​ ​short​ ​time​ ​later.​ ​Grid​ ​operators​ ​already​ ​update​ ​forecasts​ ​and​ ​make​\n   ​operating​ ​decisions​ ​as​ ​conditions​ ​change.​ ​My​ ​recommendation​ ​is​ ​to​ ​examine​ ​whether​ ​these​ ​decisions​\n    ​could​ ​be​ ​improved​ ​by​ ​combining​ ​autoregressive,​ ​uncertainty-aware​ ​forecasts​ ​of​​large​​computing​​loads​\n     ​with​​a​​method​​that​​explicitly​ ​evaluates​​the​​consequences​​of​​alternative​​reserve​​and​​flexibility​​actions​​over​\n​the next several hours.​\n\n​Proposed Approach​\n                I​ n​ ​a​ ​limited​ ​research​ ​pilot,​ ​the​ ​system​ ​could​ ​update​ ​its​ ​assessment​ ​every​ ​five​ ​minutes​ ​using​\n ​metered​ ​demand,​ ​weather​ ​and​ ​cooling​ ​information,​ ​the​ ​operating​ ​state​ ​of​ ​available​ ​resources,​ ​and​\n  ​information​ ​about​ ​anticipated​ ​changes​ ​in​ ​computing​ ​activity​ ​(if​ ​provided​ ​by​ ​the​ ​data​ ​center).​ ​It​ ​would​\n   ​estimate​​a​​range​​of​​possible​​demand​​changes​​over​​the​​next​​hour​​or​​several​​hours,​​including​​sharp​​increases​\n    ​and​​decreases,​​rather​​than​​relying​​on​​a​​single​​expected​​value.​​It​​would​​then​​assess​​whether​​the​​reserves​​and​\n     ​flexible​ ​resources​ ​available​ ​at​ ​that​ ​moment​ ​are​ ​sufficient​ ​under​ ​several​ ​credible​ ​conditions.​ ​When​ ​the​\n      ​assessment​ ​indicates​ ​a​ ​change​ ​in​ ​risk,​ ​it​ ​could​ ​recommend​ ​an​​appropriate​​response,​​such​​as​​maintaining​\n       ​additional​ ​reserves,​ ​preparing​ ​available​ ​storage,​ ​or​ ​requesting​ ​a​ ​voluntary​ ​adjustment​ ​to​ ​deferrable​\n        ​computing​ ​demand.​ ​The​ ​operator​ ​would​ ​remain​ ​responsible​ ​for​ ​deciding​ ​what​ ​action​ ​is​ ​authorized​ ​and​\n​appropriate.​\n\n            ​One​ ​method​ ​worth​​testing​​is​​reinforcement​​learning,​​in​​which​​a​​computer-based​​decision​​system​\nl​earns​ ​from​​repeated​​simulated​​situations​​how​​present​​actions​​affect​​later​​conditions.​​This​​may​​be​​useful​\n ​because​ ​a​ ​decision​ ​that​ ​appears​ ​economical​ ​now,​ ​e.g.​ ​using​ ​stored​ ​energy,​ ​can​ ​leave​ ​fewer​ ​options​\n  ​available​ ​if​ ​demand​ ​rises​ ​unexpectedly​ ​later.​ ​A​ ​useful​ ​study​ ​should​​compare​​the​​reinforcement​​learning​\n   ​based​​gains​​against​​current​​operating​​practices​​and​​a​ ​conventional​​optimization​​method​​that​​also​​updates​\n\f i​ts​ ​decisions​ ​as​ ​new​ ​information​ ​arrives.​ ​Any​ ​learned​ ​recommendation​ ​would​ ​have​​to​​pass​​independent​\n  ​checks​ ​against​ ​operating​ ​limits,​ ​reserve​ ​requirements,​ ​equipment​ ​restrictions,​ ​and​ ​applicable​ ​reliability​\n​standards before it could be considered for use.​\n\n​Evaluation and Safeguards​\n             ​I​ ​recommend​ ​that​ ​a​ ​pilot​ ​be​ ​evaluated​ ​under​ ​ordinary​ ​operations,​ ​rapid​ ​workload​ ​changes,​\n ​ igh-temperature​​conditions,​​forecast​​errors,​​and​​combinations​​of​​events​​that​​are​​individually​​unlikely​​but​\n h\n ​potentially​ ​serious​ ​together.​ ​The​ ​central​ ​measures​ ​should​ ​be​ ​whether​ ​the​ ​approach​ ​maintains​ ​required​\n  ​reliability,​ ​how​ ​often​ ​it​ ​proposes​​actions​​that​​fail​​safety​​checks,​​whether​​it​​improves​​the​​use​​of​​available​\n   ​reserves,​ ​and​ ​whether​ ​it​ ​provides​ ​decisions​ ​quickly​ ​enough​ ​to​ ​be​ ​useful.​ ​It​ ​should​ ​also​ ​be​ ​tested​​when​\n    ​computing-workload​ ​information​​is​​incomplete​​or​​unavailable.​​A​​method​​that​​performs​​well​​only​​when​​it​\n​receives perfect information would have limited operational value.​\n\n              ​The​ ​same​ ​monitoring​ ​process​ ​could​ ​provide​ ​a​ ​secondary​ ​benefit​ ​for​ ​operational​ ​security.​ ​If​\n ​ easured​ ​electricity​ ​use​ ​differs​ ​sharply​ ​from​ ​what​ ​the​ ​facility​ ​and​ ​forecasting​ ​system​ ​expected,​ ​the​\n m\n ​difference​ ​could​ ​prompt​ ​review​ ​of​ ​workload​ ​changes,​ ​cooling-system​​behavior,​​equipment​​faults,​​data​\n  ​quality,​ ​or​ ​possible​ ​cybersecurity​ ​concerns.​ ​An​ ​unexpected​ ​load​​pattern​​is​​not,​​by​​itself,​​evidence​​of​​a​\n   ​cyber​ ​incident.​ ​Any​ ​exchange​ ​of​ ​computing​ ​or​ ​operational​ ​information​ ​would​ ​require​ ​appropriate​\n​security controls and protection of commercially sensitive data.​\n\n​Request for consideration​\n               I​ ​ ​encourage​ ​the​ ​Commission​ ​to​ ​consider​ ​whether​ ​voluntary​ ​research​ ​pilots​ ​involving​ ​utilities,​\n ​system​ ​operators,​​and​​large​​computing​​facilities​​could​​establish​​the​​value​​and​​limitations​​of​​this​​approach.​\n  ​The​​aim​​is​​not​​to​​replace​​conservative​​planning​​assumptions,​​reduce​​mandatory​​safety​​margins,​​or​​delegate​\n   ​control​ ​of​ ​critical​ ​infrastructure​ ​to​ ​an​ ​unverified​ ​model.​ ​It​ ​is​ ​to​ ​determine,​ ​through​ ​measurable​\n    ​comparisons,​ ​whether​​continuously​​reassessing​​the​​consequences​​of​​reserve​​and​​flexibility​​decisions​​can​\n     ​help​​operators​ ​respond​​to​​the​​unusual​​variability​​of​​large​​AI​​computing​​loads​​while​​preserving​​reliability.​​I​\n​appreciate the Commission’s consideration of these comments.​\n\n\n\n\n​ ehmana Younis​\nR\n​Load Forecasting Researcher​\n ​October 21, 2026​\n\n\n\n\n​[1]​ ​SM​ ​Hasanat,​ ​R​ ​Younis,​ ​et​ ​al.​ ​\"Enhancing​ ​load​ ​forecasting​ ​accuracy​ ​in​​smart​​grids:​​a​​novel​​parallel​\n​multichannel​ ​network​ ​approach​ ​using​ ​1D​ ​CNN​ ​and​ ​Bi‐LSTM​ ​models.\"​ ​International​ ​Journal​ ​of​ ​Energy​\n​ esearch​​2024.1 (2024): 2403847​​https://doi.org/10.1155/2024/2403847​\nR\n\f"
+  }
+ ]
+}

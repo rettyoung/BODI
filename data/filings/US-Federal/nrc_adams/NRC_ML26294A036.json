@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26294A036",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): Palisades - Second Request for Additional Information (Draft) re DD41 Exigent Amendment (EPID L-2026-LLA-0201) [['Request for Additional Information (RAI)', 'E-Mail']]",
+ "filed": "2026-10-21",
+ "entity": [
+  "NRC/NRR/DDLP/DLP1/ORLB3"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2629/ML26294A036.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26294A036.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26294A036",
+  "document_date": "2026-10-09"
+ },
+ "collected_at": "2026-10-22T05:38:08Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26294A036.pdf",
+   "name": null,
+   "bytes": 599917,
+   "sha256": "54d49080b4e5f0919bc555359a57c4a7f8e035620b7ada1e617f3fa6b6a6a2c6",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "Brent Ballard\n\nFrom:                          Justin Poole\nSent:                          Friday, October 9, 2026 8:30 PM\nTo:                            ext_Kami_Miller; ext_KYLE_STEFFIC\nCc:                            Ilka Berrios; Brent Ballard; Marlayna Doell\nSubject:                       DRAFT RAIs on Exigent Fuel Amendment Request.\nAttachments:                   DRAFT RAI - Palisades Exigent Fuel Amendment.pdf\n\n\nBy letter dated September 30, 2026 (Agencywide Documents Access and Management System (ADAMS)\nAccession Nos. ML26273A469), as supplemented by letters dated October 2, 2026, and October 8, 2026\n(ML26275A214 and ML26281A333, respectively), to the U.S. Nuclear Regulatory Commission (NRC or the\nCommission), Palisades Energy, LLC (the licensee), submitted a license amendment request (LAR) to make\ncertain changes to the Renewed Facility Operating License DPR-20 for Palisades Nuclear Plant (Palisades,\nPNP).\n\nIn reviewing the submitted information, the NRC staff has developed DRAFT request for additional information\n(RAIs). Please review these DRAFT RAIs to ensure that the questions are understandable, the regulatory\nbasis is clear, they don’t contain proprietary information, and to determine if the information was previously\ndocketed. Please let us know if a call to clarify any of the questions is needed.\n\nJustin C. Poole\nSr. Project Manager\nPalisades, Crane, Duane Arnold Restart\nNRR/DLP-1/ORLB 3\nU.S. Nuclear Regulatory Commission\n(301)415-2048\n\n\n\n\n                                                       1\n\f1) In response to RAI 3 in the October 8, 2026, supplement, it was stated that “Once DD41 is\n   placed on the FTC pedestals, the extent of plastic deformation and overall assembly\n   alignment will be confirmed using cameras before lowering the canister lid.” Please describe\n   the specific acceptance criteria that will be applied to determine whether the observed\n   residual bowing and deformation are acceptable prior to lid installation. In addition, provide\n   the supporting technical basis, including any engineering analyses, calculations, or vendor\n   evaluations, demonstrating that assemblies meeting these acceptance criteria will not\n   experience fuel rod damage during the subsequent lid-lowering and recovery activities.\n\n   In addition, the response to RAI 3 states “Based on a review by our fuel vendor, the\n   assembly is expected to straighten out without risk of fuel cladding failure inside the FTC”\n   and “As long as the fuel rods remain within the envelope defined by the inner surface of the\n   FTC lid, there is no potential for fuel rod failure during lowering of the lid.” Given that the full\n   extent of assembly damage may not be completely characterized, on what basis can it be\n   concluded that there is “no potential” for fuel rod failure during installation of the FTC lid?\n   Please describe the analytical, empirical, or vendor-supported justification underlying these\n   two statements.\n\n2) Provide information, including supporting calculations, characterizing the potential\n   radiological conditions during removal of the cask from the reactor cavity water, to which\n   workers in containment and the fuel handling building may be exposed assuming a fraction\n   of the fuel rods fail when the fuel transfer cask lid is lowered onto the assembly. The\n   response should specifically address the expected airborne contamination conditions\n   associated with this scenario.\n\n   Describe what immediate actions are planned if there are unexpected airborne monitor\n   alarms when the FTC is removed from the reactor cavity water.\n\n3) Describe the FTC design features related to water and air infill, as well as drainage, as\n   these functions are important to ensuring that the 133-hour limit on FTC out-of-pool time\n   adequately protects fuel rod oxidation limits and maintains cladding integrity. Specifically,\n   when the FTC lid is installed while the FTC remains underwater, is there any potential for air\n   to become entrapped within the canister such that portions of the fuel rods may not remain\n   fully submerged? If air entrapment is possible, describe any design features or operational\n   mechanisms used to remove trapped air and ensure complete water coverage.\n\n   Further, if there is any condition under which trapped air could expose fuel rods to air once\n   the lid is placed, clarify whether the 133-hour out-of-water time limit would initiate at that\n   point. Provide technical and procedural basis supporting the response.\n\f"
+  }
+ ]
+}

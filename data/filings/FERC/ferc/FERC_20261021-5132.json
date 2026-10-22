@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261021-5132",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-67",
+ "title": "Southern California Edison submits design drawings et al. re the Shaver Lake Dam Low Level Outlet Physical Protection Installation Project of the Big Creek No. 2a, No. 8, and Eastwood Project under P-67.",
+ "filed": "2026-10-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261021-5132",
+ "entity": "Southern California Edison",
+ "fetch": [
+  {
+   "ferc_file": "F6FFC9F0-8080-C1FE-926B-A15FFA300000",
+   "name": "20261021 P-67_Shaver Project Description Encl1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "C5ABA5CE-179B-CBA3-9B0B-A15FFA300000",
+   "name": "20261021 P-67_Shaver Design Drawings IFC Encl 2.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "1A78592B-D73F-C66C-A25E-A15FFA300000",
+   "name": "20261021 P-67_Shaver QCIP and Appendices IFC Encl 4.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "6C71B786-13C3-C814-A897-A15FFA300000",
+   "name": "20261021 P-67_Shaver Calculation Package_IFC Encl 3.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Dam Safety Compliance Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-21"
+ },
+ "collected_at": "2026-10-22T05:41:55Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'F6FFC9F0-8080-C1FE-926B-A15FFA300000', 'name': '20261021 P-67_Shaver Project Description Encl1.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'C5ABA5CE-179B-CBA3-9B0B-A15FFA300000', 'name': '20261021 P-67_Shaver Design Drawings IFC Encl 2.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '1A78592B-D73F-C66C-A25E-A15FFA300000', 'name': '20261021 P-67_Shaver QCIP and Appendices IFC Encl 4.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '6C71B786-13C3-C814-A897-A15FFA300000', 'name': '20261021 P-67_Shaver Calculation Package_IFC Encl 3.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

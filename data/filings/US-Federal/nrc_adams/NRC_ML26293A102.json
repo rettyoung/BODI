@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26293A102",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): Media Advisory-26-029-A: NRC to Hold Mandatory Hearing on Proposed Long Mott Generating Station [['Press Release']]",
+ "filed": "2026-10-21",
+ "entity": [
+  "NRC/OPA"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2629/ML26293A102.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26293A102.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26293A102",
+  "document_date": "2026-09-14"
+ },
+ "collected_at": "2026-10-22T05:38:20Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26293A102.pdf",
+   "name": null,
+   "bytes": 417137,
+   "sha256": "d26fdec38821062177f529e6ee10340b88d05e0e63716d3e7eeb192ae41e946f",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                                                                                       P1TB7bA#y1\n                                         P T bA#y                P T 5bA#y   P1TB2bA#y1\n                                                    P1TB8bA#y1                            P1TB6bA#y1\n\n                                                                                                                    P T 3bA#y       P T 4bA#y\n\n\n\n\nNo: 26-029-A                                                                                                                    September 14, 2026\nCONTACT: Office of Public Affairs, 301-415-8200\n\n  NRC to Hold Mandatory Hearing on Proposed Long Mott Generating Station\nROCKVILLE, Md. — The NRC will hold a mandatory hearing Sept. 22 in Port Lavaca, Texas,\non Long Mott Energy LLC's application to build an advanced reactor at the Dow Chemical\nSeadrift site in Calhoun County. Details: nrc.gov.\n\nWhat: NRC staff will present its safety and environmental reviews and take public comments\nand questions. An open house precedes the hearing.\n\nWhen: Tuesday, Sept. 22. Open house 5–5:30 p.m.; hearing 5:30–9 p.m. Central time.\n\nWhere: Bauer Community Center, 2300 Highway 35 Bypass North, Port Lavaca.\n\nNote: Written comments/questions due to LMGS-CPHearing@nrc.gov by Oct. 6, 2026.\nFull details in the Aug. 20 Federal Register notice.\n\n\n\n\nThe U.S. Nuclear Regulatory Commission was created as an expert, technical agency to protect public\nhealth, safety, and security, and regulate the civilian use of nuclear materials, including enabling the\ndeployment of nuclear power for the benefit of society. Among other responsibilities, the agency issues\nlicenses, conducts inspections, initiates and enforces regulations, and plans for incident response. The NRC\nis collaborating with interagency partners to implement reforms outlined in new Executive Orders and the\nADVANCE Act to streamline agency activities and enhance efficiency.\n\f"
+  }
+ ]
+}

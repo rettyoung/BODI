@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20261021-3034",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3591",
+ "title": "Letter informing Southwest Power Pool, Inc. that the 08/24/2026 filing of revisions to its Open Access Transmission Tariff etc. is deficient and requesting additional information within 30 days under ER26-3591. ",
+ "filed": "2026-10-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261021-3034",
+ "entity": "OFFICE OF ENERGY MARKET REGULATION",
+ "fetch": [
+  {
+   "ferc_file": "C8F076B0-1338-C0AE-932C-A15F85400000",
+   "name": "ER26-3591-000 Deficiency Letter.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "FERC Correspondence With Applicant",
+    "documentType": "Deficiency Letter"
+   },
+   {
+    "documentClass": "FERC Correspondence With Applicant",
+    "documentType": "Request for Additional Information"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-21"
+ },
+ "collected_at": "2026-10-22T05:41:13Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "emergency",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "ER26-3591-000 Deficiency Letter.docx",
+   "bytes": 80068,
+   "sha256": "9f4697d4caf001a79617d40a41d16296c1e6b48b7f22e564452707e3a591d74e",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\nFEDERAL ENERGY REGULATORY COMMISSION\nWASHINGTON, DC  20426\n\nOFFICE OF ENERGY MARKET REGULATION\n\n\nIn Reply Refer To:\nSouthwest Power Pool, Inc.\nDocket No. ER26-3591-000\n\nIssued:  October 21, 2026\n\t\t\t\t\nSouthwest Power Pool, Inc.\n201 Worthen Drive\nLittle Rock, AR  72223-4936\n\nAttention:  Emon O. Mahony\n\nReference:  Deficiency Letter\n\nDear Mr. Mahony:\n\nOn August 24, 2026, Southwest Power Pool, Inc. (SPP) submitted revisions to its Open Access Transmission Tariff (Tariff) to modify Conditional High Impact Large Load (CHILL) provisions to accommodate planned outages.  \n\nPlease be advised that the submittal is deficient and that additional information is necessary to process the filing.  Please provide the information requested below. \n\nSPP explains that, currently, under section 2.22.1(d) of Attachment AE of the Tariff, a CHILL can be curtailed when the sum of the available capacity of its supporting Resources is less than the CHILL.  SPP proposes to revise its Tariff to provide that a “CHILL will not be curtailed solely due to supporting Resource insufficiency” when its supporting resource takes a Scheduled Resource Outage that is scheduled at least 14 days in advance of the planned start time.  Please explain whether there are limitations on how long a CHILL can stay online while all or some of its supporting Resources are on a Scheduled Resource Outage or otherwise unavailable to the SPP Integrated Marketplace.\n\nSPP proposes to incentivize Resources supporting CHILLs to be available during Emergency Conditions by allowing them to receive compensation for deferring Scheduled Resource Outages in certain circumstances.  Specifically, the proposed revisions state that “Scheduled Resource Outages for supporting Resources for a [CHILL] . . . are solely Qualified [for compensation] if, in addition to the criteria in this Section B, the Outage is rescheduled at the request of the Transmission Provider to make the Resource available in Emergency Conditions . . . and the Resource was made available. . . .”  SPP contends that this is the same compensation offered to other Resources on approved Scheduled Resource Outages. \n \nPlease explain whether and, if so, how SPP will consider whether a Resource is supporting a CHILL in its determination of which approved Scheduled Resource Outage it will request to be rescheduled.  \n\nPlease describe the circumstances in which SPP will request that “the Resource [be made] available in Emergency Conditions.”  For example, please clarify whether a Resource supporting a CHILL would only be eligible for compensation if it rescheduled its approved Scheduled Resource Outage in Emergency Conditions.\n\nPlease confirm whether the circumstances in which SPP may offer compensation to a Resource supporting a CHILL are the same as for other Resources.  If not, please describe and support that difference.\n\nThis letter is issued pursuant to 18 C.F.R. § 375.307 (2025) and is interlocutory.  This letter is not subject to rehearing pursuant to 18 C.F.R. § 385.713 (2025).  A response to this letter must be filed with the Secretary of the Commission within 30 days of the date of this letter by making a deficiency filing in accordance with the Commission’s electronic tariff requirements.  For your response, please use Type of Filing Code 180, Deficiency Filing.  The information requested in this letter will constitute an amendment to your filing, and a new filing date will be established.  A notice will be issued upon receipt of your filing.\n\nFailure to respond to this letter within the time period specified may result in a further order rejecting your filing.\n\nIssued by:  Natalie Y. Tingle-Stewart, Director, Division of Electric Power Regulation – Central"
+  }
+ ]
+}

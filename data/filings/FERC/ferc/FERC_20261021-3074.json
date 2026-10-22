@@ -1,0 +1,42 @@
+{
+ "id": "FERC:20261021-3074",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2671",
+ "title": "Dam Safety Inspection Report by New York Regional Office for Brookfield Kennebec Water Power Co., Moosehead Lake Project, for the period of 06/26/2025 to 08/18/2026 under P-2671. ",
+ "filed": "2026-10-21",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261021-3074",
+ "entity": "NEW YORK REGIONAL OFFICE",
+ "fetch": [
+  {
+   "ferc_file": "17816AC3-5B98-C527-92FE-A16030800000",
+   "name": "P-2671-000 2026 DSIR Moosehead Gale.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "FERC Report/Study",
+    "documentType": "Dam Safety Inspection Report/Operation Report"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-10-21"
+ },
+ "collected_at": "2026-10-22T05:43:05Z",
+ "run_id": "2026-10-22-0512",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '17816AC3-5B98-C527-92FE-A16030800000', 'name': 'P-2671-000 2026 DSIR Moosehead Gale.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}
