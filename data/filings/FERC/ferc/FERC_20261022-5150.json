@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261022-5150",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Jane Miles in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/22/2026\n",
+ "filed": "2026-10-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261022-5150",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "87F28F14-9F66-CA30-8C91-A16519200000",
+   "name": "151806.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-22"
+ },
+ "collected_at": "2026-10-23T05:39:01Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151806.txt",
+   "bytes": 508,
+   "sha256": "0e9c2cf42d1195a8945bf8e8466a09966aacabab78924854c5789000b8032cc3",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJane Miles, Homer, AK.\nI oppose Deep Greens plans for an underwater data center.  This project will alter local ecosystems by altering water temperatures which could disrupt marine species breading and feeding patterns. Additional, they could contribute to thermal pollution and imperil biodiversity.  Deep Green doesn't care about Alaskans or our environment.  This is shown by the lack of a plan to address backup power, maintenance or fisheries impact.  No to Deep Green data center in Cook Inlet.\r\n\r\n"
+  }
+ ]
+}

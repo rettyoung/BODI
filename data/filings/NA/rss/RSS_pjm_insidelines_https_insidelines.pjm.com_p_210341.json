@@ -1,0 +1,27 @@
+{
+ "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210341",
+ "jur": null,
+ "source": "rss:pjm_insidelines",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM, FERC Focus on Large Load Challenges at Tech Conference",
+ "filed": "2026-10-22",
+ "url": "https://insidelines.pjm.com/pjm-ferc-focus-on-large-load-challenges-at-tech-conference/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:pjm_insidelines",
+  "rto": "PJM",
+  "summary": " PJM joined industry leaders Wednesday to discuss the novel and significant operating and planning challenges associated with the accelerating growth and energy use patterns of data centers. Mounting supply concerns caused by the demand growth from these large load customers, combined with the lag in development of new generation and transmission facilities required to serve [&#8230;]",
+  "feed": "pjm_insidelines",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-23T05:17:13Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

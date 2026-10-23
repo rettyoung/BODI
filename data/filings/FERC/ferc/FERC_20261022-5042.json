@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261022-5042",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "(doc-less) Motion to Intervene of American Municipal Power, Inc. under ER27-25.",
+ "filed": "2026-10-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261022-5042",
+ "entity": "American Municipal Power, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "AD4F779D-7209-C3F7-9CCA-A163F4B00000",
+   "name": "1801954_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-22"
+ },
+ "collected_at": "2026-10-23T05:37:53Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1801954_Interv.txt",
+   "bytes": 1878,
+   "sha256": "8dc62c07b51cdc09ebb56cf81a56e7505e69936ef010873ecb368a91b53cfba8",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of American Municipal Power, Inc. under ER27-25-000.\r\n\r\nSubmission Date:        10/22/2026 9:33:31 AM\r\n\r\nFiled Date:             10/22/2026 9:33:31 AM\r\n\r\nDockets\r\n-------\r\nER27-25-000          Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-10-02_Large Load Addition Resource Study (LARS) submitted on 10/2/2026 12:03:09 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nAmerican Municipal Power, Inc.           lmcalister@amppartners.org               ghull@amppartners.org                   \r\nAmerican Municipal Power, Inc.                                                    cnorton@amppartners.org                 \r\n\r\nBasis for Intervening:\r\nAmerican Municipal Power, Inc. (\"AMP\") is a nonprofit Ohio corporation with Members in Delaware, Indiana, Kentucky, Maryland, Michigan, Ohio, Pennsylvania, Virginia, and West Virginia. To meet its Members' load service responsibilities, AMP purchases transmission and related services in part from Midcontinent Independent System Operator, Inc. (\"MISO\"), and also purchases and sells electricity products in the markets operated by MISO. On October 2, 2026, MISO submitted proposed revisions to its Open Access Transmission, Energy and Operating Reserve Markets Tariff to establish a Large Load Addition Resource Study process. As entities that may be impacted by these revisions, AMP and its Members have an interest in this proceeding that cannot be adequately represented by any other party. Accordingly, and since it is in the public interest, AMP moves to intervene herein."
+  }
+ ]
+}

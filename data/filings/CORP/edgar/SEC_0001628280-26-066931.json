@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001628280-26-066931",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "Bloom Energy Corp  (BE)  (CIK 0001664703) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-10-22",
+ "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066931/",
+ "entity": "Bloom Energy Corp  (BE)  (CIK 0001664703)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-10-23T05:42:26Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

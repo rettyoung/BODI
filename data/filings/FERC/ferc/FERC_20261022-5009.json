@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20261022-5009",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "(doc-less) Motion to Intervene of Citizens Utility Board of Minnesota under ER27-25.",
+ "filed": "2026-10-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261022-5009",
+ "entity": "Citizens Utility Board of Minnesota",
+ "fetch": [
+  {
+   "ferc_file": "5902BC2D-4A1A-C3C1-93E5-A163B7500000",
+   "name": "1801802_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-21"
+ },
+ "collected_at": "2026-10-23T05:37:46Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "network upgrade"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1801802_Interv.txt",
+   "bytes": 3069,
+   "sha256": "06fcf1de3339169632414cd69fcd6ecf69e66326ebbd0155cbc5e17123888491",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Citizens Utility Board of Minnesota under ER27-25-000.\r\n\r\nSubmission Date:        10/21/2026 5:28:23 PM\r\n\r\nFiled Date:             10/22/2026 8:30:00 AM\r\n\r\nDockets\r\n-------\r\nER27-25-000          Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-10-02_Large Load Addition Resource Study (LARS) submitted on 10/2/2026 12:03:09 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nCitizens Utility Board of Minnesota      brandonc@cubminnesota.org                                                        \r\n\r\nBasis for Intervening:\r\nThe Citizens Utility Board of Minnesota (“CUB Minnesota”), pursuant to Rules 212 and 214 of the Federal Energy Regulatory Commission’s (“FERC” or “Commission”) Rules of Practice and Procedures, 18 C.F.R. §§ 385.212 and 385.214, respectfully moves to intervene in Docket No. ER27-25-000. CUB Minnesota has an interest that will be directly affected by the outcome of this proceeding. \r\n\r\nCUB Minnesota is a nonprofit organization that represents the interests of residential customers of regulated gas and electric utilities in Minnesota. We regularly advocate at the state legislature and before the Minnesota Public Utilities Commission for just, reasonable, affordable, and reliable utility service. Our engagement spans multiple different dockets and issues, including those related to transmission and large load projects proposed for development in Minnesota. \r\n\r\nCUB Minnesota has an interest in ensuring residential Minnesotans pay just and reasonable rates for electricity service, which includes transmission, capacity, and energy costs incurred as a result of utilities’ participation in the Midcontinent Independent System Operator, Inc. (“MISO”) market. The proposed revisions to the Open Access Transmission, Energy, and Operating Reserve Markets Tariff (“Tariff”) offered by MISO in the instant proceeding relate to the development and implementation of a Large Load Addition Resource Study (“LARS”) process, which will be used to facilitate the interconnection of large loads and new generation onto the MISO system, as well as categorize and assign the costs of network upgrades. To the extent sufficient protections are not incorporated into the Tariff, certain expenses driven by the introduction of new large loads could be shifted onto other ratepayers. MISO’s proposed tariff revisions therefore have the potential to impact the rates paid by Minnesotans and other end-use customers throughout the MISO region, and CUB Minnesota has an interest in such outcome. \r\n\r\nFor these reasons, CUB Minnesota’s participation in this matter is in the public interest and we respectfully request the Commission grant this motion to intervene. \r\n"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261022-5156",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3265",
+ "title": "American Transmission Company LLC submits tariff filing per 35.17(b): 2026-10-22_SA 4200-4202, 4205, 4810 Deficiency ATC-WEPCo Revised LLPCAs & MTCA to be effective 7/1/2026 under ER26-3265 Filing Type : 180",
+ "filed": "2026-10-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261022-5156",
+ "entity": "Midcontinent Independent System Operator, Inc.; American Transmission Company LLC",
+ "fetch": [
+  {
+   "ferc_file": "A576264B-23E9-C1C8-9973-A16524D00000",
+   "name": "Tab E - Clean Non-Public MTCA.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "FA9B4572-0DE2-CCE5-A3A3-A16524D00000",
+   "name": "Tab E - Redline Non-Public Sub MTCA.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-22"
+ },
+ "collected_at": "2026-10-23T05:37:28Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'A576264B-23E9-C1C8-9973-A16524D00000', 'name': 'Tab E - Clean Non-Public MTCA.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'FA9B4572-0DE2-CCE5-A3A3-A16524D00000', 'name': 'Tab E - Redline Non-Public Sub MTCA.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

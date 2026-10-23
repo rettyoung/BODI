@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149149",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Majority of New Projects in ISO-NE Transitional Cluster have Withdrawn",
+ "filed": "2026-10-22",
+ "url": "//www.rtoinsider.com/149149-new-iso-ne-projects-transitional-cluster-study-withdrawn/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Facing interconnection cost estimates averaging over $100 million, most new projects and the majority of new capacity participating in ISO-NE’s Transitional Cluster Study have withdrawn from the RTO’s interconnection queue. \n The post  Majority of New Projects in ISO-NE Transitional Cluster have Withdrawn  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-23T05:17:13Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}

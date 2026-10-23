@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261022-3044",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-34,ER23-2309,ER24-1394",
+ "title": "Certification of Initial Decision and Official Record re DCR Transmission, L.L.C. under ER23-2309 et al. Part 1 of 2 (ADMITTED EXHIBITS) (PRIVILEGED) ",
+ "filed": "2026-10-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261022-3044",
+ "entity": "ADMINISTRATIVE LAW JUDGES",
+ "fetch": [
+  {
+   "ferc_file": "EFE21491-4289-CF3E-8A4D-A16450D00000",
+   "name": "CDN-0008 REV2 PRIV (DCRT Revised Bid).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "D5F3C1E9-B663-C1DE-91EB-A16450D00000",
+   "name": "CDN-0027 PRIV SixCities-DCRT-7.001.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "11992BE0-BF48-C581-9AD7-A16450D00000",
+   "name": "CDN-0031 PRIV SixCities-DCRT-5.026.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "0FB09257-D564-CD3D-885F-A16450E00000",
+   "name": "CDN-0043 PRIV CPUC-DCRT-5.003.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "ALJ Issuance",
+    "documentType": "Certification of Initial Decision and Record"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-22"
+ },
+ "collected_at": "2026-10-23T05:38:25Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'EFE21491-4289-CF3E-8A4D-A16450D00000', 'name': 'CDN-0008 REV2 PRIV (DCRT Revised Bid).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'D5F3C1E9-B663-C1DE-91EB-A16450D00000', 'name': 'CDN-0027 PRIV SixCities-DCRT-7.001.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '11992BE0-BF48-C581-9AD7-A16450D00000', 'name': 'CDN-0031 PRIV SixCities-DCRT-5.026.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '0FB09257-D564-CD3D-885F-A16450E00000', 'name': 'CDN-0043 PRIV CPUC-DCRT-5.003.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

@@ -22,12 +22,23 @@
  },
  "collected_at": "2026-10-22T05:38:14Z",
  "run_id": "2026-10-22-0512",
- "keywords": [],
+ "keywords": [
+  "nuclear"
+ ],
  "party_hits": [],
  "documents": [
   {
    "url": "https://www.nrc.gov/docs/ML2629/ML26293A339.pdf",
-   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2629/ML26293A339.pdf"
+   "name": null,
+   "bytes": 122941,
+   "sha256": "b329cec2f0060a7612cda3499b1285567044cf580894c3b1e552ef23d6ba2b34",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:            Justin Poole\nTo:              ext_ROBERT_MURRELL; Davis, James\nCc:              Ilka Berrios; Brent Ballard\nSubject:         RE: Duane Arnold Energy Center - Fixed Fee Caps for Ongoing Licensing Actions\nDate:            Tuesday, September 29, 2026 11:36:20 AM\n\n\n\nBob/Mike,\n\nIn accordance with 10 CFR 170.33, which becomes effective on October 1, 2026, this communication\nestablishes the fixed cap on service fees (fixed fee cap) for NextEra Energy Duane Arnold, LLC for the\nDuane Arnold Energy Center licensing actions listed in the table below. The table lists the fixed fee\ncaps for the NRC’s review of ongoing licensing actions that have been accepted for review that will be\nwithin the scope of 10 CFR 170.33. Fixed fee caps for other licensing actions, such as those currently\nunder acceptance review, will be communicated by separate correspondence. The NRC considered\nvarious factors when establishing these fixed fee caps, such as the quality and complexity of the\napplication, technology type, and any pre-application engagement. The Professional Hourly Rate\nestablished at 10 CFR 170.20(a) applies to these licensing actions.\n\nApplication Date     Acceptance            EPID                                                  Fixed Fee\n(ADAMS               Date                                                                        Cap\nAccession No.)\n 5/12/2026            6/11/2026            L-2026-LLL-0011, Request for Approval of Glass $48,000.00\n(ML26132A285)                              Panel Simulation Facility\n 5/12/2026            6/11/2026            L-2026-LLE-0023, Request Exemption to 10 CFR $23,000.00\n(ML26132A285)                              55.46(c) to Support Use of Glass Panel Simulator\n\nThe fixed fee cap represents the maximum amount that the NRC may charge for service fees for each\nof the requested licensing actions following acceptance of the complete application. The fixed fee cap\nwill not be increased except in instances of applicant failure, as defined in 10 CFR 170.3. If applicant\nfailure occurs, the NRC will notify NextEra Energy Duane Arnold, LLC, in writing of the new fixed fee\ncap, which will be set at the lowest practicable amount determined by the NRC to account for the\napplicant failure and complete the review.\n\nFor each licensing action, the NRC will track service fees against the fixed fee cap beginning on the\nacceptance date listed above.  \n\nDisputes associated with a fixed fee cap must be submitted in accordance with 10 CFR 15.31 and\n170.33(f) and NRC Form 529 procedures. If you have any questions, please contact me.\n\nJustin C. Poole\nSr. Project Manager\nPalisades, Crane, Duane Arnold Restart\nNRR/DLP-1/ORLB 3\nU.S. Nuclear Regulatory Commission\n\f(301)415-2048\n\f"
   }
- ]
+ ],
+ "enriched_at": "2026-10-23T05:43:35Z"
 }

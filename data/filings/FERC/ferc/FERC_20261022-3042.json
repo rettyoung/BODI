@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261022-3042",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL26-34,ER23-2309,ER24-1394",
+ "title": "Certification of Initial Decision and Official Record re DCR Transmission, L.L.C. under ER23-2309 et al. Part 1 of 1 (ADMITTED EXHIBITS) (PRIVILEGED-HC)",
+ "filed": "2026-10-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261022-3042",
+ "entity": "ADMINISTRATIVE LAW JUDGES",
+ "fetch": [
+  {
+   "ferc_file": "CF78FF75-0115-C597-8A18-A16448800000",
+   "name": "CDN-0019 REV2 PRIV HC (Staff-CAISO-2.01 Resp.).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "8E7E7D49-1152-C872-9141-A16448800000",
+   "name": "CIT-0028-REV-PRIV-HC-SixCities-DCRT-6-003Att2.xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "A5082D98-E2B4-CF8E-9BFD-A16448800000",
+   "name": "CIT-0033-REV-PRIV-HC-SixCities-DCRT-1-010Att3.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "9B9524F4-9EBF-CC1F-A22B-A16448800000",
+   "name": "CSO-0427 PRIV-HC Starwood Collinsville Bid.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "ALJ Issuance",
+    "documentType": "Certification of Initial Decision and Record"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-22"
+ },
+ "collected_at": "2026-10-23T05:38:37Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'CF78FF75-0115-C597-8A18-A16448800000', 'name': 'CDN-0019 REV2 PRIV HC (Staff-CAISO-2.01 Resp.).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '8E7E7D49-1152-C872-9141-A16448800000', 'name': 'CIT-0028-REV-PRIV-HC-SixCities-DCRT-6-003Att2.xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'A5082D98-E2B4-CF8E-9BFD-A16448800000', 'name': 'CIT-0033-REV-PRIV-HC-SixCities-DCRT-1-010Att3.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '9B9524F4-9EBF-CC1F-A22B-A16448800000', 'name': 'CSO-0427 PRIV-HC Starwood Collinsville Bid.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

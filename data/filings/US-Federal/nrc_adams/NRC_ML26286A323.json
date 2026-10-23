@@ -24,13 +24,23 @@
  "collected_at": "2026-10-22T05:38:44Z",
  "run_id": "2026-10-22-0512",
  "keywords": [
-  "SMR"
+  "SMR",
+  "nuclear"
  ],
  "party_hits": [],
  "documents": [
   {
    "url": "https://www.nrc.gov/docs/ML2628/ML26286A323.pdf",
-   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2628/ML26286A323.pdf"
+   "name": null,
+   "bytes": 161830,
+   "sha256": "bbe8a2dd0ea6bee608bca058d47ade9a8b296e4183ce76a6a2b366cfd923da7b",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                                  SMR, LLC. A Holtec International Company\n                   Krishna P. Singh Technology Campus,1 Holtec Blvd., Camden, NJ 08104\n                                                                   Telephone (856) 797-0900\n                                                                          Fax (856) 797-0909\n\nOctober 13, 2026\n\nU.S. Nuclear Regulatory Commission\nATTN: Document Control Desk\nWashington, DC 20555-0001\n\nDocket Nos: 05000616 and 05000617\n\nSubject: Holtec International - Submittal of “Pioneer Units 1 and 2 Limited Work\n         Authorization Application” Audit Question and Responses\n         (Project No. 99902049)\n\nReferences:\n   [1] 300-USNRC-123 “Submittal of Pioneer Units 1 and 2 Limited Work Authorization\n       Application (ADAMS Accession No. ML26009A012)\n   [2] U.S. Nuclear Regulatory Commission (2026, February 13). Acceptance review\n       results for a limited work authorization application for SMR-300 Pioneer Units 1\n       and 2 (ADAMS Accession No. ML 26041A223).\n\nBy the letter dated December 31, 2025 (ML26009A012), SMR, LLC a Holtec International\nCompany, submitted the first part of a phased construction permit application to the U.S.\nNuclear Regulatory Commission (NRC) for the proposed dual-unit SMR-300 facility at the\nPalisades Energy Center (PEC) in Covery, Michigan. The application included a request\nfor a limited work authorization (LWA) pursuant to Title 10 of Code of Federal Regulations\n(10 CFR) 50.10, “License required; limited work authorization.” The proposed units are\ndesignated as Pioneer Unit 1 and Pioneer Unit 2.\nThe purpose of this letter is to provide responses to NRC audit questions and associated\nchanges to the “Pioneer Units 1 and 2 Limited Work Authorization Application” as a result\nof those responses.\nEnclosure 1 contains the proprietary version of the NRC audit questions and Holtec\nresponses, and associated markups to the LWA R0. Enclosure 2 contains the\ncorresponding non-proprietary version of Enclosure 1.\nSMR, LLC requests that Enclosure 1 be withheld from public disclosure in accordance\nwith 10 CFR 2.390. An Affidavit is also included with this letter as Enclosure 3.\nIf you have any questions or require any additional information, please contact Jacob\nDolekci, Senior Manager – Licensing & Engineering Programs, SMR, at\njdolecki@holtec.com, 856-559-3783.\n\n\n\n\nTransmittal No. 300-USNRC-26020                                                  Page 1 of 2\n\f                                                        SMR, LLC. A Holtec International Company\n                         Krishna P. Singh Technology Campus,1 Holtec Blvd., Camden, NJ 08104\n                                                                       Telephone (856) 797-0900\n                                                                             Fax (856) 797-0909\n\nRespectfully,\n                Digitally signed by Jacob (Jake)\nJacob (Jake)    Dolecki\n                DN: C=US, OU=SMR, CN=Jacob\n                (Jake) Dolecki, O=Holtec\n  Dolecki       International, E=j.dolecki@holtec.com\n                Date: 2026.10.13 15:25:39 -04'00'\n\n\nJacob Dolecki\nSenior Manager – Licensing & Engineering Programs, SMR, LLC\n\n\nEnclosures:\n   1. SMR-300 LWA/CPA1 Select NRC Audit Question Responses (Proprietary)\n   2. SMR-300 LWA/CPA1 Select NRC Audit Question Responses (Non-Proprietary)\n   3. Affidavit Pursuant to 10 CFR 2.390 to Withhold Information from Public\n      Disclosure\n\n\nCC:\nK. Manzione (Holtec, Executive Director of Licensing & Regulatory Affairs)\nM. Hayes (USNRC, DRNL, NLIB, Branch Chief)\nV. Huckabay (USNRC, DRNL, NLIB, Senior Project Manager)\nA. Johnson (USNRC, DRNL, NLIB, Project Manager)\n\n\n\n\nTransmittal No. 300-USNRC-26020                                                     Page 2 of 2\n\f"
   }
- ]
+ ],
+ "enriched_at": "2026-10-23T05:43:38Z"
 }

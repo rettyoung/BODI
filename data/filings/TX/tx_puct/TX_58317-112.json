@@ -1,0 +1,50 @@
+{
+ "id": "TX:58317-112",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "10/22/2026 | Robert McLeod | RFI | New Data Center Audits & Permitting",
+ "filed": "2026-10-22",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=112",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "112"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-23T05:43:02Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_112_1695442.ZIP",
+   "name": null,
+   "bytes": 17774,
+   "sha256": "784bfab6aa50329ee58dd1b1a3eec9f3bc00fe35adb27ccfa743ec24be5c3eb5",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== PUCT Data Center.pdf ===\nNew Data Center Proposal Audits\n\nIn a recent interview with the Epoch Times, Governor Abbott said that the PUCT would\nbe conducting audits of water & electricity along with impacts on nearby\nneighborhoods prior to allowing new data centers to be built.\n\nAs a resident of Keller whose property is approximately 500 feet from the proposed\nnew 300MW Circle T Data Center, I am concerned about how this proposed Data\nCenter will impact my quality of life and property value. Can you please tell me how\nthis will be measured?\n\nAnd please refer me to the proper department if this issue is not your responsibility.\n\nThank you for your assistance.\n\nRobert McLeod\n521 Llano Ct.\nKeller, TX 76248\n\nbobmcleod21@gmail.com\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_112_1695443.PDF",
+   "name": null,
+   "bytes": 90135,
+   "sha256": "4ade8e022223115fc2c228999213124439964380f1a8d8d0895ff21db2e7dd58",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-10-22 10:28:16 AM\n\nControl Number - 58317\n\nItem Number - 112\n\fNew Data Center Proposal Audits\n\nIn a recent interview with the Epoch Times, Governor Abbott said that the PUCT would\nbe conducting audits of water & electricity along with impacts on nearby\nneighborhoods prior to allowing new data centers to be built.\n\nAs a resident of Keller whose property is approximately 500 feet from the proposed\nnew 300MW Circle T Data Center, I am concerned about how this proposed Data\nCenter will impact my quality of life and property value. Can you please tell me how\nthis will be measured?\n\nAnd please refer me to the proper department if this issue is not your responsibility.\n\nThank you for your assistance.\n\nRobert McLeod\n521 Llano Ct.\nKeller, TX 76248\n\nbobmcleod21@gmail.com\n\f"
+  }
+ ]
+}

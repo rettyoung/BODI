@@ -1,0 +1,45 @@
+{
+ "id": "NRC:ML26267A204",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000289",
+ "title": "Crane Clean Energy Center / TMI-1 (Constellation restart): American Nuclear Insurers - Secondary Financial Protection (SFP) Program [['Financial Assurance Document', 'Letter']]",
+ "filed": "2026-10-22",
+ "entity": [
+  "American Nuclear Insurers"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2626/ML26267A204.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2626/ML26267A204.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Crane Clean Energy Center / TMI-1 (Constellation restart)",
+  "accession": "ML26267A204",
+  "document_date": "2026-09-01"
+ },
+ "collected_at": "2026-10-23T05:32:35Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2626/ML26267A204.pdf",
+   "name": null,
+   "bytes": 617214,
+   "sha256": "a7eac3af3f968bde658fe87d3c89f30d0349d88471f060f1fb7baf7b13f0042b",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                                                  Jason Martinez, CPCU, ARM, ARe\n                                                                          Vice President, Underwrit ing\n\n\n\n\nSeptember 1, 2026\n\n\n\n\nAttn: Document Control Desk\nU.S. Nuclear Regulatory Comm ission\n11555 Rockville Pike\nRockville, MD 20852-2738\n\nRe:    Secondary Financial Protection (SFP) Program\n\nTo Whom It May Concern:\n\nEnclosed is the Notification of Change in the Number of Power Reactors in the Secondary\nFinancial Protection (SFP) Program . As a result of this change the total number of participants in\nthe SFP program has increased 95 to 96.\n\nSincerely,\n\n\n\n\nJason Martinez, CPCU, ARM, ARe\nVice President, Underwriting\n\n\n\n\n               American N uclear Insurers 95 Glastonbury Blvd Suite 300 Glastonbury, CT 06033-4453\n                   Jmart1nezJvamnuc1ns.com Vrnce (860) 6821341 Ext. 245    Fax: (860) 659-0002\n\f                                                                   Jason Martinez, CPCU, ARM, ARe\n                                                                          Vice President. Underwriting\n\n\n\n\nSeptember 1, 2026\n\n\n  MEMORANDUM TO OPERATING POWER REACTOR RISK MANAGERS AND THEIR BROKERS\n\n     Notification of Change in the Number of Power Reactors in the Secondary Financial\n                                   Protection (SFP) Program\n\n\nFurther to our memorandum dated December 1, 2023, we have been advised that the Nuclear\nRegulatory Commission has authorized Constellation Energy Generation, LLC to bring nuclear fuel\nonsite at the Christopher M. Crane Clean Energy Center {Crane Clean Energy Center or CCEC),\neffective September 1, 2026. At the request of Constellation Energy Generation, LLC, American\nNuclear Insurers {ANI) has reinstated CCEC's previously cancelled certificate underthe Secondary\nFinancial Protection {SFP) Master Policy, effective September 1, 2026. As a result, the total\nnumber of participants in the SFP program has increased from 95 to 96.\n\nThe total amount of financial protection available for a nuclear incident is now $16,429,020,800*\nwhich is determined as follows :\n\n\n                           Primary Limit:                       $500,000,000\n\n                          ~\n\n                          Total Amount available\n                          under the SFP Program :            $15,929,020,800**\n\n\n* Does not include any additional funds from foreign Convention on Supplementary\nCompensation for Nuclear Damage (CSC) Contracting States.\n\n**Maximum retrospective premium is $165,927,300 per reactor which includes the 5%\nadditional assessment pursuant to 42 U.S.C.A. § 2210(o)(l){E). $165,927,300 x 96 reactors=\n$15,929,020,800.\n\nIf you have any questions, please don't hesitate to contact me or your account underwriter.\n\nRegards,\n\n\n\n~~\nc: Nuclear Regulatory Commission - Document Control\n\n\n\n\n               American Nuclear Insurers 95 Glastonbury Blvd.. Suite 300 Glastonbury, CT 06033-4453\n                    jmartinez@nuclearinsurance.com Voice: (860] 682-1341   Fax: [860) 659-0002\n\f"
+  }
+ ]
+}

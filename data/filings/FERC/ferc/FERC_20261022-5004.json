@@ -1,0 +1,55 @@
+{
+ "id": "FERC:20261022-5004",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "AD26-8",
+ "title": "Post-Conference Comments of Hamza Yousaf on the Annual Commissioner-Led Reliability Technical Conference under AD26-8.",
+ "filed": "2026-10-22",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261022-5004",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "733A2C98-DCB6-CEE2-9C9D-A163A5F00000",
+   "name": "FERC_Comment_AD26-8-000_Hamza_Yousaf.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-21"
+ },
+ "collected_at": "2026-10-23T05:37:31Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "data center",
+  "demand response",
+  "hyperscale",
+  "interconnection",
+  "large load",
+  "load forecast",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "FERC_Comment_AD26-8-000_Hamza_Yousaf.pdf",
+   "bytes": 235899,
+   "sha256": "fba31efb8c80463cca73134d8713c0446dd11ae59dd93a9762127271c315c7e7",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "October 21, 2026\n\nMs. Debbie-Anne A. Reese\nSecretary\nFederal Energy Regulatory Commission\n888 First Street, NE\nWashington, DC 20426\n\nRe: Docket No. AD26-8-000 — Post-Conference Comments on the Annual Commissioner-Led\nReliability Technical Conference (October 21, 2026)\n\nDear Secretary Reese:\n\nI respectfully submit these comments in response to the Annual Commissioner-Led Reliability\nTechnical Conference convened on October 21, 2026, which I attended in person at the Commission’s\nheadquarters in Washington, DC. I write as a data scientist and doctoral candidate whose research is\ndirectly focused on the reliability challenges discussed at this conference.\n\nI hold a Master of Science in Data Analytics from Mercer University and am currently pursuing a\nDoctor of Business Administration at National Louis University, where my dissertation research\nevaluates deep learning architectures for AI-driven demand forecasting in U.S. energy utility\noperations. I also serve as a Data Scientist at beMatrix USA, where I develop machine learning models\nand advanced analytics solutions. My comments draw on both my academic research and\nprofessional experience in applied artificial intelligence.\n\nI. The Urgency of Advanced Load Forecasting for AI-Driven Data Center Loads\nThe conference underscored that load forecasting has become the single most critical reliability\nchallenge facing the Bulk-Power System. As NERC President and CEO Jim Robb emphasized during\nthe conference, accurate load forecasting is essential so that grid operators can anticipate what to\nexpect in both near-term and longer planning horizons. Multiple panelists confirmed that the\ndemand patterns from data centers are highly unpredictable: loads can rise and drop suddenly, and\nstated capacity plans often diverge substantially from actual utilization.\n\nMy doctoral research directly addresses this challenge. Traditional statistical forecasting methods\n(e.g., ARIMA, exponential smoothing) were designed for demand patterns that follow seasonal and\ncyclical regularities. The volatile, non-linear load profiles introduced by AI compute campuses and\nhyperscale data centers fundamentally violate these assumptions. Deep learning architectures,\nincluding Long Short-Term Memory (LSTM) networks, Temporal Convolutional Networks (TCNs), and\nTransformer-based models, offer the ability to capture complex temporal dependencies, sudden\nregime shifts, and non-stationary patterns that characterize these new loads.\n\nI respectfully urge the Commission to consider encouraging investment in and adoption of AI-based\nforecasting tools by utilities, RTOs, and ISOs as a component of reliability planning. Specifically:\n\f    • The Commission should consider whether existing reliability standards adequately address the\n    need for validated, data-driven forecasting models that can accommodate the rapid emergence\n    and volatile nature of AI-driven loads.\n    • NERC and regional entities should evaluate the incorporation of machine learning-based\n    forecasting benchmarks into model validation requirements, ensuring that planning models\n    reflect the operational reality of non-firm, flexible, and curtailable loads.\n\nII. Load Classification and Prioritization of AI Data Center Workloads\nA key insight from the conference was the distinction drawn by Dr. Varun Sivaram of Emerald AI\nbetween traditional data center loads and the emerging class of AI compute loads. Dr. Sivaram noted\nthat AI-driven data center loads are fundamentally different from traditional data center operations:\nAI workloads can be categorized by criticality and temporal flexibility. For instance, batch inference\nand model training workloads can tolerate interruption or geographic rerouting, whereas mission-\ncritical real-time inference cannot.\n\nThis classification framework has direct implications for grid reliability and resource adequacy\nplanning. If grid operators and data center operators can jointly categorize AI workloads by their\ndeferability and curtailability, it becomes possible to design demand response programs tailored to\nthe computational characteristics of these loads rather than applying a one-size-fits-all approach.\n\nI recommend that the Commission encourage the development of a standardized taxonomy for AI\nand data center load classifications. Such a taxonomy would support more granular load modeling,\nenable targeted demand response, and improve the accuracy of resource adequacy assessments. AI-\nbased classification models could automate this categorization in real time, dynamically adjusting\nload priority based on grid conditions.\n\nIII. Capacity Commitments, Utilization Gaps, and Financial Accountability\nPanelists noted a significant gap between committed capacity and actual utilization by data center\noperators. It was observed that many data centers operate at approximately 60% capacity while\nplanning for 90%, creating misalignment between infrastructure investment by utilities and actual\ndemand. This utilization gap imposes real costs on ratepayers and grid operators who must provision\ngeneration and transmission resources based on stated, rather than realized, demand.\n\nThe suggestion that financial commitment mechanisms, such as capacity deposits or take-or-pay\narrangements, could align incentives is well-founded. I further suggest that predictive analytics could\nhelp quantify the probability of load materialization for specific interconnection requests, providing\nboth utilities and regulators with a data-driven basis for evaluating whether stated capacity needs\nare likely to be realized. Such models could draw on historical patterns of data center ramp-up\ntimelines, utilization trajectories, and technology-specific load factors.\n\nIV. Integration of Renewable and Ancillary Resources as Variable-Load Complements\n\fThe conference highlighted that as loads become more variable, resources must also become more\nvariable and responsive. Panelists discussed the increasing importance of integrating renewable\nenergy sources, particularly solar photovoltaic systems, as contributors to grid reliability. The role of\nancillary services, including fast-frequency response and synthetic inertia from battery energy\nstorage systems, was discussed as essential to managing the grid dynamics introduced by both large\nintermittent loads and inverter-based resources.\n\nFrom a forecasting perspective, the co-optimization of variable generation and variable demand\nrequires advanced modeling capabilities that can simultaneously forecast both supply-side\nrenewable output and demand-side AI workload fluctuations. Multi-output deep learning models,\nincluding attention-based architectures, are well-suited to this task and represent a meaningful area\nfor research and operational deployment.\n\nV. Communication, Coordination, and Risk Acceptance\nThe discussion on improving communication between utilities, RTOs/ISOs, and large load customers\nis critical. Mr. Robb’s call for good models, good data, better planning, model validation, and\nimproved communication across entities captures the essential requirements. I would add that\nstandardized data-sharing frameworks between data center operators and grid operators,\npotentially facilitated through secure API-based telemetry, would significantly improve both\nforecasting accuracy and operational coordination.\n\nThe question of acceptable risk levels raised during the conference is fundamentally a question that\ncan be informed by probabilistic modeling. AI-based risk assessment tools can provide grid operators\nwith probabilistic forecasts and confidence intervals rather than point estimates, enabling more\ninformed decision-making about resource commitments and operational reserves.\n\nVI. Conclusion\nThe challenges discussed at this conference, including volatile and unpredictable data center loads,\nthe integration of inverter-based resources, declining system inertia, and the need for improved load\nforecasting, are precisely the challenges that advanced AI and deep learning methods are designed\nto address. I commend the Commission for convening this important discussion and respectfully urge\ncontinued attention to the role that artificial intelligence and machine learning can play in enhancing\nthe reliability and security of the Bulk-Power System.\n\nI appreciate the opportunity to participate in and comment on these proceedings.\n\nRespectfully submitted,\n\n\nHamza Yousaf\nPhD data Sciences, Harrisburg University of Science and Technology\nM.S. Business Analytics, Mercer University\nData Analyst, beMatrix USA\n\f"
+  }
+ ]
+}

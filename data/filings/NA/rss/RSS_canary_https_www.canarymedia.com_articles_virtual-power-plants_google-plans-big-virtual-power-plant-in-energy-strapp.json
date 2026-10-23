@@ -1,0 +1,29 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/virtual-power-plants/google-plans-big-virtual-power-plant-in-energy-strapped-pjm-grid",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Google plans big virtual power plant in energy-strapped PJM grid",
+ "filed": "2026-10-22",
+ "url": "https://www.canarymedia.com/articles/virtual-power-plants/google-plans-big-virtual-power-plant-in-energy-strapped-pjm-grid",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "Google just upped the ante on its plans to leverage the energy use of thousands of homes and businesses to free up space on the grid for data centers. The tech giant and the California-based firm  Voltus announced Thursday that they are going after a gigawatt of virtual-power-plant capacity in PJM Interconnection,…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-23T05:17:13Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [
+  "Google"
+ ],
+ "documents": []
+}

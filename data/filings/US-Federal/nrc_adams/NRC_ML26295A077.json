@@ -1,0 +1,46 @@
+{
+ "id": "NRC:ML26295A077",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000289",
+ "title": "Crane Clean Energy Center / TMI-1 (Constellation restart): 10-21-26 Letter from B. Frederick, PHMC (PA SHPO) - Concurrence with Agency Findings - CCEC Restart Final EA [['Letter']]",
+ "filed": "2026-10-22",
+ "entity": [
+  "State of PA, State Historic Preservation Office"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2629/ML26295A077.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26295A077.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Crane Clean Energy Center / TMI-1 (Constellation restart)",
+  "accession": "ML26295A077",
+  "document_date": "2026-10-21"
+ },
+ "collected_at": "2026-10-23T05:32:38Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "ESA",
+  "nuclear"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26295A077.pdf",
+   "name": null,
+   "bytes": 51813,
+   "sha256": "7e2662aaf7e15b5e76dbf5ca7415a19acceb7eb743df30d5a4b074cad076d98c",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "October 21, 2026\n\nSent Via PA-SHARE\n\nRE: ER Project # 2026PR00595.006, Christopher M. Crane Clean Energy Center (CCEC)\nRestart Project , Nuclear Regulatory Commission, Londonderry Township, Dauphin County\n\nDear Submitter,\n\nThank you for submitting information concerning the above referenced project. The\nPennsylvania State Historic Preservation Office (PA SHPO) reviews projects in accordance\nwith state and federal laws. Section 106 of the National Historic Preservation Act of 1966,\nand the implementing regulations (36 CFR Part 800) of the Advisory Council on Historic\nPreservation, is the primary federal legislation. The Environmental Rights amendment,\nArticle 1, Section 27 of the Pennsylvania Constitution and the Pennsylvania History Code, 37\nPa. Cons. Stat. Section 500 et seq. (1988) is the primary state legislation. These laws\ninclude consideration of the project’s potential effects on both historic and archaeological\nresources.\n\nAbove Ground Resources\nNo Above Ground Concerns - Environmental Review - No Adverse Effect - Above Ground\n\nBased on the information received and available within our files, we concur with the finding\nof the agency that the proposed project will have No Adverse Effect on the following\nhistoric properties: Three Mile Island: Unit 2 (Resource # 2010RE03382). We also agree with\nthe findings of the Final Environmental Assessment and Final Finding of No Significant\nImpact for the Christopher M. Crane Clean Energy Center Reauthorization of Power\nOperations Project, dated June 2026. Should the scope of the project change and/or\nshould you be made aware of historic property concerns, you will need to reinitiate\nconsultation with our office using PA-SHARE.\n\n\nFor questions concerning above ground resources, please contact Barbara Frederick at\nbafrederic@pa.gov.\n\nArchaeological Resources\nNo Archaeological Concerns - Environmental Review - No Effect - Historic Properties\nPresent - Archaeological\n\nThank you for providing the Final ESA and FONSI for the above mentioned project. The\nfollowing archaeological resources are located near the project area: 36DA0050,\n36DA0096, 36DA0097, 36DA0052, 36DA0098, 36DA0235, and 36DA0101. Based on the\ninformation received and available in our files, in our opinion, the proposed project will have\nNo Effect on such resources. Should the scope of the project change and/or should you be\nmade aware of historic property concerns, please reinitiate consultation with our office\nusing PA-SHARE. PA SHPO looks forward to continued consultation on this project.\n\fER Project # 2026PR00595.006\nPage 2 of 2\n\n\n\nFor questions concerning archaeological resources, please contact Kristen Walczesky at\nkwalczesky@pa.gov.\n\n\nSincerely,\n\n\n\n\nBarbara Frederick\nEnvironmental Review Division Manager\n\f"
+  }
+ ]
+}

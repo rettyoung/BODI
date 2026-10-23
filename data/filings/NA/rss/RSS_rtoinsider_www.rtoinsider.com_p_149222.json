@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149222",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Lukewarm Stakeholder Support for NYISO Large Load Interconnection Framework",
+ "filed": "2026-10-23",
+ "url": "//www.rtoinsider.com/149222-nyiso-large-load-reform-framework-passes-bic-fails-oc/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " NYISO’s proposed framework to comply with FERC’s Order to Show Cause on large load interconnections does not have the full endorsement of stakeholders, with most abstaining from votes recommending its approval and some state agencies in opposition. \n The post  Lukewarm Stakeholder Support for NYISO Large Load Interconnection Framework  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-23T05:17:13Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

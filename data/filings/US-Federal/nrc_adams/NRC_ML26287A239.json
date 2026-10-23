@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26287A239",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): Palisades Steam Generator Tube Inspection Report [['Inservice/Preservice Inspection and Test Report', 'Letter']]",
+ "filed": "2026-10-22",
+ "entity": [
+  "Holtec Palisades, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26287A239.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26287A239.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26287A239",
+  "document_date": "2026-10-12"
+ },
+ "collected_at": "2026-10-23T05:32:29Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26287A239.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2628/ML26287A239.pdf"
+  }
+ ]
+}

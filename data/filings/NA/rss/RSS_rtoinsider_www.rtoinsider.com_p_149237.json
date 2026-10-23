@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149237",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "MISO, SPP Say JTIQ Portfolio ‘Fully Subscribed’",
+ "filed": "2026-10-23",
+ "url": "//www.rtoinsider.com/149237-miso-spp-say-jtiq-portfolio-now-fully-subscribed/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " MISO and SPP say their mutual transmission planning initiative to relieve congestion and connect new generation projects along their seam — the Joint Targeted Interconnection Queue — has been fully subscribed. \n The post  MISO, SPP Say JTIQ Portfolio ‘Fully Subscribed’  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-23T05:17:13Z",
+ "run_id": "2026-10-23-0509",
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}
