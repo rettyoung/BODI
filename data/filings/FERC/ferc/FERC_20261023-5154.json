@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20261023-5154",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "Motion to Intervene of Anna Farrar under ER27-25.",
+ "filed": "2026-10-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261023-5154",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "1CBADFFD-A380-CE19-909E-A16A46000000",
+   "name": "FERC_ER27-25-000_MOTION_WITH_SERVICE_CERTIFICATE_Anna_Farrar.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-23"
+ },
+ "collected_at": "2026-10-24T05:41:16Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [
+  "cost allocation",
+  "interconnection",
+  "large load",
+  "large-load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "FERC_ER27-25-000_MOTION_WITH_SERVICE_CERTIFICATE_Anna_Farrar.pdf",
+   "bytes": 92760,
+   "sha256": "296e0e161596e6089a9a98ddf6e58b4c64835fd5af8e703280d745a90f2dbe1c",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                        UNITED STATES OF AMERICA\n                               BEFORE THE\n                 FEDERAL ENERGY REGULATORY COMMISSION\n\n\nMidcontinent Independent System Operator, Inc.                Docket No. ER27-25-000\n\n\n                     MOTION TO INTERVENE OF ANNA FARRAR\n\n\n Pursuant to Rule 214 of the Federal Energy Regulatory Commission’s Rules of Practice\n\n and Procedure, 18 C.F.R. § 385.214, I, Anna Farrar, respectfully move to intervene in this\n\n proceeding in my individual capacity.\n\n\n I am a resident of Warren County, Missouri, and a residential electricity customer of\n\n Ameren Missouri (Union Electric Company), a utility participating in the Midcontinent\n\n Independent System Operator (MISO) region. I have a consumer interest in the\n\n affordability and reliability of electric service and in the allocation of costs for transmission\n\n facilities associated with major new loads. My interest may be directly affected within the\n\n meaning of Rule 214(b)(2)(ii)(A), and my participation would also serve the public interest\n\n under Rule 214(b)(2)(iii).\n\n\n My interest is specific to infrastructure in my region. MISO has reviewed a proposed\n\n 200-MW data-center load addition at the Rootbeer 345-kV substation in Warren County\n\n (EPR Project P50616) and a separate proposed 250-MW data-center load addition at the\n\n Montgomery 161-kV substation in Montgomery County (EPR Project P50086). Ameren\n\n Missouri has identified the existing Montgomery–Rootbeer 345-kV line in sworn\n\n testimony before the Missouri Public Service Commission (File No. EA-2026-0058).\n\n These records illustrate why I am concerned about cumulative large-load studies,\n\n network-upgrade attribution, and possible shifting of shared transmission costs to existing\n\n customers. I do not claim either project has applied through LARS or that any improper\n\n cost allocation has already occurred.\n\n\nDocket No. ER27-25-000                                                                               1\n\f My preliminary position is that accelerated coordinated study of large loads and associated\n\n generation may provide efficiencies, but the proposed Large Load Addition Resource\n\n Study (LARS) tariff should maintain reliable cumulative analyses, transparent\n\n identification of project-attributable costs, and appropriate financial accountability.\n\n MISO’s filing raises questions about coordination between LARS, the Definitive Planning\n\n Phase (DPP) generator-interconnection studies, and subsequent MISO Transmission\n\n Expansion Plan (MTEP) projects. I seek to participate in the proceeding and address\n\n whether the proposed rules adequately protect existing transmission customers from costs\n\n they did not cause.\n\n\n I am requesting party status only on my own behalf, not on behalf of any organization or\n\n other person. I respectfully request that the Commission grant this motion to intervene in\n\n Docket No. ER27-25-000 and include me on the official service list at the contact\n\n information below.\n\n\n Respectfully submitted,\n\n /s/ Anna Farrar\n Anna Farrar\n Individual Movant, appearing pro se\n P.O. Box 161\n Warrenton, MO 63383\n Email for service: anna.farrar@wccrd.com\n Telephone: 636-235-6889\n\n October 23, 2026\n\n Referenced public records: MISO CTSTF, Apr. 7, 2025, Rootbeer Project P50616, slides 2–3; MISO\n CSPM, Feb. 5, 2024, Montgomery Project P50086, slide 3; Justin D. Wenk, Direct Testimony, Missouri\n PSC File No. EA-2026-0058, p. 4; MISO FERC tariff filing, ER27-25-000, Oct. 2, 2026.\n\n\n\n\nDocket No. ER27-25-000                                                                                2\n\f                         UNITED STATES OF AMERICA\n                                 BEFORE THE\n           FEDERAL ENERGY REGULATORY COMMISSION\n\n\nMidcontinent Independent System Operator, Inc.                         Docket No. ER27-25-000\n\n\n                          CERTIFICATE OF SERVICE\n\nI hereby certify that on October 23, 2026, I served a complete copy of the\n\nforegoing Motion to Intervene of Anna Farrar in Docket No. ER27-25-000 upon\n\nthe applicant, Midcontinent Independent System Operator, Inc. (MISO), by\n\nelectronic mail, with the Motion to Intervene PDF attached, addressed to the\n\nfollowing MISO service contacts identified in the service list for this proceeding:\n\n     misolegal@misoenergy.org\n     csupino@misoenergy.org\n     dkaminski@misoenergy.org\n     mkessler@misoenergy.org\n\n\nDated October 23, 2026.\n\n/s/ Anna Farrar\nAnna Farrar\nIndividual Movant, appearing pro se\nP.O. Box 161\nWarrenton, MO 63383\nanna.farrar@wccrd.com\n636-235-6889\n\n\n\n\nDocket No. ER27-25-000                                                                     3\n\f"
+  }
+ ]
+}

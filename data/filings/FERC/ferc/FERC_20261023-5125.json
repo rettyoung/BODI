@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261023-5125",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Laura Kelm in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/23/2026\n",
+ "filed": "2026-10-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261023-5125",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "5170FE2B-3C14-CF38-9A32-A16A11900000",
+   "name": "151808.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-23"
+ },
+ "collected_at": "2026-10-24T05:42:06Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151808.txt",
+   "bytes": 3400,
+   "sha256": "f690b05ad907c0043e5e63774ae07693d34d57fc0fe3aa28854d0f1542e33f53",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nLaura Kelm, Homer, AK.\nI am deeply opposed to DeepGreen’s Cook Inlet SPV LLC proposed 66 modular underwater data server pods/data center. This is not a local entity that knows our values and lifestyle, or has an understanding of our partnership with the land and ocean in Alaska. It’s another outside entity that wants to profit from our possible downfall by putting unvetted technology in another part of the world/country that won’t impact them.\r\nI am extremely concerned about possible environmental impacts to include underwater noise, underwater pollution, water temperature effects, sea floor impact, silt displacement and sea life impacts.\r\nUndersea machinery will fail at some point and could potentially pollute our ocean and beaches, and that will always be a possibility/probability.\r\nWe have no idea how the noise pollution, turbine effects and silt disturbance will impact our already endangered/near endangered sea life. We are already living with the Cook Inlet beluga whale population being “listed as an endangered species under the Endangered Species Act.” And as “one of NOAA Fisheries’ Species in the Spotlight - an initiative that includes animals considered most at risk for extinction and prioritizes their recovery efforts,” per the NOAA Fisheries Species Directory, fisheries.noaa.gov, last updated by NOAA Fisheries on 09/01/2026.\r\nBeluga whales are vulnerable to many stressors and threats, including climate change, contaminants, disease, habitat degradation, harassment, ocean noise, predation, and prey limitations, and we have no idea how they will react to this new, huge stressor. Do we wait and see how it impacts them at the risk of driving them to the brink of or over the edge of extinction for the sake of AI Technology? They are already struggling to survive.\r\nIn addition to our Belugas, let’s consider the impact of our salmon runs and impacts to all the other species in the inlet to include clams, already significantly declined, halibut and all the other fish in the food chain.                                                     \r\nCook Inlet king salmon stocks have faced prolonged low productivity over the last several years per the Alaska Department of Fish and Game and King Salmon fisheries have shut down all around Alaska, especially in Cook Inlet. Also, below-average coho abundance led to sport bag limit reductions on the Kenai River and varied returns across Northern Cook Inlet systems. NOAA Fisheries closed commercial salmon fishing in the Cook Inlet EEZ on August 5, 2026, to manage coho catch limits per National Fisherman Article August 4, 2026 and Alaska Department of Fish and Game.  Other fisheries in the Cook Inlet area are suffering significantly and putting in these underwater data centers will likely contribute to their downfall and possible extinction because we have no idea how this will impact them. Not only are we endangering our wildlife and oceans, but our way of life for so many up here.\r\nIs an AI Data center worth this? I say NO!!!  I am not willing to do this kind of damage to our environment, our sea life, fisheries and our children!!!\r\nTechnology at the expense of our environment, oceans, life in general is unacceptable!  \r\nKeep Data Centers out of Alaska!  We have too much at stake and money will not fix or save extinct species, polluted oceans and land or our Alaskan lifestyle!\r\n\r\n"
+  }
+ ]
+}

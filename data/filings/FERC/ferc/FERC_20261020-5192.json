@@ -66,5 +66,6 @@
    "url": "{'ferc_file': '60DBAE5A-6F57-CE32-8BEF-A15E64500000', 'name': 'CUI-PRIV - Exh I - Clark PA.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-24T05:47:14Z"
 }

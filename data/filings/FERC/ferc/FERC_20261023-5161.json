@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20261023-5161",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "Comments of DTE Electric Company in support of Midcontinent Independent System Operator, Inc.'s filing to establish the Large Load Addition Resource Study under ER27-25.",
+ "filed": "2026-10-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261023-5161",
+ "entity": "DTE Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "3D0601D1-6748-CEC6-91C0-A16A4ED00000",
+   "name": "DTE Electric_LARS_Support Comments.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-23"
+ },
+ "collected_at": "2026-10-24T05:40:52Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [
+  "co-located",
+  "interconnection",
+  "large load",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "DTE Electric_LARS_Support Comments.pdf",
+   "bytes": 152106,
+   "sha256": "028911d8552e41a25b5364d8b07b70954defc9c8c5a7865b7f5370197fe91f88",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 5,
+   "truncated": false,
+   "text": "                              UNITED STATES OF AMERICA\n                                     BEFORE THE\n                       FEDERAL ENERGY REGULATORY COMMISSION\n\n\nMidcontinent Independent System                              )                Docket No. ER27-25-000\nOperator, Inc                                                )\n\n\n\n                           COMMENTS OF DTE ELECTRIC COMPANY\n\n\n        Pursuant to Rules 212 and 214 of the Federal Energy Regulatory Commission’s\n\n(“Commission”) Rules of Practice and Procedure, 18 CFR §§ 385.212 and 385.214 (2013), DTE\n\nElectric Company (“DTE Electric”, “DTE”, or the “Company”) hereby submits its comments\n\nregarding the filing submitted by Midcontinent Independent System Operator, Inc. (\"MISO\") on\n\nOctober 2, 2026, in the above-captioned docket proposing to establish a Large Load Addition\n\nResource Study (\"LARS\") process.1 DTE Electric supports MISO's proposal and believes the\n\nLARS framework represents a reasonable approach to evaluating the transmission, operational,\n\nand resource adequacy impacts associated with significant new load additions and associated\n\ngeneration resources within the MISO footprint.\n\nI.      Background\n\n        In this proceeding, MISO proposes revisions to its Tariff to establish the LARS framework.\n\nMISO states that the proposal is intended to facilitate the timely and reliable integration of\n\nsignificant new load additions and associated generation resources through a coordinated study\n\nprocess that evaluates transmission, operational, and resource adequacy impacts. Under the\n\n\n        1\n            Midcontinent Independent System Operator, Inc., Large Load Addition Resource Study (“LARS”) Process,\n\nDocket No. ER27-25-000 (October 2, 2026). (“LARS Filing.”)\n\fproposal, eligible load-generation pairings may request a LARS evaluation, allowing MISO and\n\nstakeholders to assess the combined impacts of associated load and generation resources, improve\n\nplanning certainty, and support more efficient use of the transmission system. MISO requests that\n\nthe Commission accept the proposed tariff revisions and permit the LARS framework to become\n\neffective as proposed.\n\nII.     COMMENTS\n\n        DTE Electric supports the LARS filing and respectfully requests that the Commission\n\naccept the filing as proposed. As the load-serving entity responsible for serving approximately two\n\nmillion customers in Michigan, DTE Electric has a direct interest in ensuring that significant new\n\nload additions are integrated through processes that appropriately account for associated\n\ngeneration, transmission needs, and effects on other customers.\n\n        A. The LARS filing is a just and reasonable solution to integrate new large loads\n\n            while maintaining resource adequacy and reliability and supports MISO's\n\n            compliance with the Commission's Show Cause Order.\n\n        The LARS Filing directly responds to the Commission’s directive to create “a just and\n\nreasonable framework for addressing these concerns and ensuring the timely, efficient, and reliable\n\nintegration of large and co-located loads onto the transmission system.”2 By allowing large loads\n\nand associated generation resources to be studied together, the proposal recognizes that jointly\n\nplanned and electrically proximate resources may produce materially different system impacts than\n\ntraditional stand-alone studies. This coordinated approach provides MISO with a more complete\n\nassessment of the net impacts of load and generation pairings and supports more informed planning\n\nand operational decision-making.\n\n\n2\n Midcontinent Independent System Operator, Inc., Order Instituting Proceeding Under Section 206 of the Federal\nPower Act, 195 FERC ¶ 61,212 (2026) (“Show Cause Order”) at P 2.\n                                                          2\n\f       The proposal also contains meaningful safeguards designed to ensure participation is\n\nlimited to qualifying projects and to discourage speculative requests. Participating projects must\n\nsatisfy applicable deposit, minimum size, site control, and commercial operation requirements. In\n\naddition, load and generation pairings must demonstrate a qualifying contractual relationship,\n\nremain within the same Local Resource Zone, and maintain a long-term commitment to remain\n\npaired. These requirements provide reasonable assurance that participating projects represent\n\ndurable load-generation relationships and help mitigate potential impacts to the transmission\n\nsystem and other customers.\n\n       The LARS filing also preserves an open and non-discriminatory framework by permitting\n\nthe interconnection customer responsible for the generation component to be any eligible entity.\n\nThis approach maintains flexibility for loads, generators, and load-serving entities while\n\npreserving the technical, financial, and operational safeguards necessary to protect reliability and\n\nother customers.\n\n       Taken together, these provisions establish a targeted and balanced framework that\n\nfacilitates the efficient integration of significant new loads while preserving appropriate customer\n\nand reliability protections. Accordingly, DTE Electric respectfully requests that the Commission\n\napprove the LARS Filing as proposed.\n\nIII.   COMMUNICATIONS\n\n       DTE Electric requests that all communications, correspondence, documents, and other\n\nmaterials related to this proceeding be addressed to the following persons:\n\n\n\n\n                                                     3\n\f Tristin Rojeck                                 Andrea E. Hayden\n Regulatory Affairs                             Office of the General Counsel\n DTE Electric Company                           DTE Electric Company\n One Energy Plaza                               One Energy Plaza\n Detroit, Michigan 48226                        Detroit, Michigan 48226\n (313) 235-1041                                 (313) 235-6205\n tristin.rojeck@dteenergy.com                   andrea.hayden@dteenergy.com\n\n\nIV.    CONCLUSION\n\n       DTE Electric believes the LARS Filing constitutes a reasonable and targeted response to\n\nthe concerns identified by the Commission in the Show Cause Order. The proposal establishes an\n\nappropriately tailored framework for the coordinated study of large loads and associated\n\ngeneration resources while maintaining important reliability safeguards. Accordingly, DTE\n\nElectric respectfully requests that the Commission accept the LARS Filing as proposed.\n\n                                                   Respectfully submitted,\n\n                                                   /s/Andrea E. Hayden\n                                                   Andrea E. Hayden\n                                                   Office of the General Counsel\n                                                   DTE Electric Company\n                                                   One Energy Plaza\n                                                   Detroit, Michigan 48226-1279\n                                                   (734)546-0179\n                                                   andrea.hayden@dteenergy.com\n                                                   Counsel for DTE Electric Company\nFiled: October 23, 2026\n\n\n\n\n                                                  4\n\f                                CERTIFICATE OF SERVICE\n\n\n\n       In accordance with 18 C.F.R. § 385.2010, I hereby certify that I have, on this 23rd day of\n\nOctober 2026, caused a copy of the foregoing Comments of DTE Electric Company to be served\n\non each person designated on the official service list compiled by the Secretary of the Commission\n\nin Docket No. ER27-25.\n\n\n\n       /s/ Andrea Hayden\n\f"
+  }
+ ]
+}

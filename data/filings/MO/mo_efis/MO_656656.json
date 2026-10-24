@@ -1,0 +1,35 @@
+{
+ "id": "MO:656656",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0291",
+ "title": "61",
+ "filed": "2026-10-23",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/656656",
+ "fetch": [
+  {
+   "mo_filing": "656656"
+  }
+ ],
+ "collected_at": "2026-10-24T05:12:58Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/895075",
+   "name": null,
+   "bytes": 178298,
+   "sha256": "2aa8644ea323b0c6d11a4c90f915671d9a620cbe6193912be0cfc06d808f0a64",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                    BEFORE THE PUBLIC SERVICE COMMISSION\n                          OF THE STATE OF MISSOURI\n\nIn the Matter of Union Electric Company             )\nd/b/a Ameren Missouri’s Tariffs to Adjust           )      File No. ER-2026-0291\nIts Revenues for Electric Service.          )\n\n                                 ENTRY OF APPEARANCE\n\n       COMES NOW Nicole Mers, being a member in good standing of the Missouri Bar, and\n\nenters her appearance in the above-captioned matter on behalf of Sierra Club.\n\n                                            Respectfully Submitted,\n\n                                                    /s/ Nicole Mers\n                                                    Nicole Mers, Bar No. 66766\n                                                    501 Fay Street\n                                                    Suite 206\n                                                    Columbia, MO 65201\n                                                    T:314-308-2729\n                                                    nicole@renewmo.org\n\n\n\n\n                                       Certificate of Service\n\n   I hereby certify that copies of the foregoing have been emailed to all counsel of record this\n23rd day of October 2026.\n\n                                     /s/ Nicole Mers\n\f"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B102326-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-B102326-01 Market Participants (MPs) using shared email addresses for Authorized Representatives (ARs) and Backup ARs must submit a Notice of Change of Information (NCI) before NPRR1302 is implemented.",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-B102326-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B102326-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-24T05:16:45Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [
+  "NPRR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B102326-01",
+   "error": "blocked: block page (incapsula) at https://www.ercot.com/services/comm/mkt_notices/M-B102326-01"
+  }
+ ]
+}

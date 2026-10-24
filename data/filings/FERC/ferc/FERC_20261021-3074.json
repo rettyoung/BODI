@@ -38,5 +38,6 @@
    "url": "{'ferc_file': '17816AC3-5B98-C527-92FE-A16030800000', 'name': 'P-2671-000 2026 DSIR Moosehead Gale.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-24T05:47:02Z"
 }

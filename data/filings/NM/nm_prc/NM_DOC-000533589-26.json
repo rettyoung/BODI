@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000533589-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "Coalition for Clean Affordable Energy Notice of Filing Direct Testimony [Notices]",
+ "filed": "2026-10-23",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "62539d5f-e1a9-4320-8f00-b4ec0161140f",
+   "name": "DOC-000533589-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000533589-26",
+  "filed_by": "Robert Rigonan",
+  "document_type": "Notices",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-24T05:10:54Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000533589-26",
+   "name": "DOC-000533589-26",
+   "bytes": 143375,
+   "sha256": "54b875f6a335587d4c365d8417c394d83bde75112709dec237d072a316e042e6",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": " BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\nIN THE MATTER OF THE       )\nAPPLICATION OF EL PASO     )\nELECTRIC COMPANY FOR       ) Docket No. 25-00082-UT\nREVISION OF ITS RETAIL     )\nELECTRIC RATES PURSUANT TO )\nADVICE NOTICE              )\nNO. 317                    )\n\n          COALITION FOR CLEAN AFFORDABLE ENERGY’S\n             NOTICE OF FILING DIRECT TESTIMONY\n\n        Coalition for Clean Affordable Energy (“CCAE”) hereby files this Notice\nof Filing Direct Testimony in the above-captioned matter. CCAE files the\nfollowing:\n\n   1. The Direct Testimony and Exhibits of Courtney Fieldman\n\n   2. The Direct Testimony and Exhibits of Ron Nelson\n\nRespectfully submitted this 23rd Day of October, 2026\n\n\n                                           /s/ Robert V. Rigonan\n                                           Robert Rigonan (Pro Hac Vice)\n                                           Colorado Reg. No. 53544\n                                           Earthjustice\n                                           311 S. Wacker Dr., Suite 1400\n                                           Chicago, IL 60606\n                                           Phone: (702) 403-3769\n                                           Email: rrigonan@earthjustice.org\n\n\n\n\n                                       1\n\f                       CERTIFICATE OF SERVICE\n\nI, Robert V. Rigonan, attorney for CCAE, hereby certify that a copy of CCAE’s\nNotice of Filing Direct Testimony was served on all parties of record in this\nproceeding on October 23, 2026, by electronic mail.\n\n\n                                           /s/ Robert V. Rigonan\n                                           Robert Rigonan (Pro Hac Vice)\n\f"
+  }
+ ]
+}

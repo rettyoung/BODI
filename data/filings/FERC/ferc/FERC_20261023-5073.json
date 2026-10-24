@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20261023-5073",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "Comments of Mississippi Public Service Commission et al. in support of the Midcontinent Independent System Operator, Inc.’s filing to establish the Large Load Addition Resource Study under ER27-25.",
+ "filed": "2026-10-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261023-5073",
+ "entity": "Mississippi Public Service Commission; Louisiana Public Service Commission",
+ "fetch": [
+  {
+   "ferc_file": "4B817B2A-F0A9-C4F3-9B33-A16981900000",
+   "name": "ER27-25 southern regulator comments.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Government Agency Submittal"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-23"
+ },
+ "collected_at": "2026-10-24T05:40:55Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "ER27-25 southern regulator comments.pdf",
+   "bytes": 403292,
+   "sha256": "14ad7911b2bb9743f6ecebfbe8e058f2eedc308d994d7b9845f352b9b0114330",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 5,
+   "truncated": false,
+   "text": "                                  UNITED STATES OF AMERICA\n                                         BEFORE THE\n                           FEDERAL ENERGY REGULATORY COMMISSION\n\n          Midcontinent Independent System             )   Docket No. ER27-25-000\n                   Operator, Inc                      )\n\n     COMMENTS ON BEHALF OF THE SOUTHERN REGULATORS IN SUPPORT OF\n                          MISO APPLICATION\n\n           Pursuant to Rule 212 of the Commission’s Rules of Practice and Procedure 1, and the\n\nCommission’s October 2, 2026, notice in the above-captioned docket, the Mississippi Public\n\nService Commission and the Louisiana Public Service Commission (together, the Southern\n\nRegulators) hereby submit comments in support of the Midcontinent Independent System\n\nOperator, Inc.’s (“MISO’s”) filing to establish the Large Load Addition Resource Study\n\n(“LARS”). The LARS proposal seeks to revise MISO’s Open Access Transmission, Energy, and\n\nOperating Reserves Markets Tariff to establish a process to enable load and generation to be\n\nstudied together. The LARS proposal also is intended to address the Commission’s June 18, 2026\n\nShow Cause Order finding that MISO’s Tariff may be unjust and unreasonable because it does\n\nnot provide generator interconnection study procedures and services that account for serving\n\nelectrically proximate Large Loads.\n\n           The Southern Regulators support MISO’s filing to establish the LARS process and\n\nrespectfully request that the Commission accept it. It is designed to coordinate and expedite the\n\nanalyses needed to interconnect large loads above 200 MW and the new generation resources\n\nidentified to support that new load. The LARS process may also reduce overall interconnection\n\ncosts and provide more certainty for interconnection customers.\n\n\n\n\n1\n    18 C.F.R. § 385.212.\n\n\n                                                  1\n\f          Large Loads are seeking interconnection with the MISO system in ever increasing\n\nnumbers. Studying these loads along with the generation that is planned to serve those loads\n\nmay reduce the need for and the costs of transmission upgrades that might otherwise needed if\n\nonly the generation or only the load were interconnecting. LARS provides for a 120-day parallel\n\nstudy of eligible large loads and their paired generation resources.\n\n          LARS should be accepted by the Commission because it is just and reasonable. By\n\nstudying load and its paired generation together, MISO can identify combined transmission\n\nsolutions, avoid duplicative and costly upgrades, and produce an outcome in approximately 120\n\ndays. This is not currently possible across the separate MISO transmission interconnection\n\ntransmission study processes. Making LARS a permanent process is reasonable because it\n\nprovides certainty needed to site and finance large load-and-generation pairings. LARS is a\n\nreasonable response to and aligns with the requirements of the Commission’s Show Cause\n\nOrder.2\n\n          LARS limits the total number of projects studied in a year to ensure that MISO can\n\nadministratively support the new process; it allows no more than ten generation/load pairs per\n\nstudy period to be evaluated, and allows for only three study periods per year. 3 MISO’s tariff\n\nrevisions propose eligibility requirements that deter speculative interconnection requests and not\n\ninterfere with the normal DPP process, including a 150% generation to load ceiling, a $250,000\n\ndeposit, a three-year commercial operation date, and a same-Local-Resource-Zone requirement. 4\n\n\n\n\n2\n   Show Cause Midcontinent Independent System Operator, Inc., 195 FERC ¶ 61,212, (issued June 18, 2026)\n(Docket No. EL26-70-000) (“Show Cause Order”) at P 113.\n3\n  MISO Transmittal at 9.\n4\n  Id. at 10, 28.\n\n\n                                                      2\n\fMISO’s proposal is transparent, competitive, fuel agnostic, and it does not adversely affect DPP\n\nparticipants.5 It is non-discriminatory and serves a legitimate public purpose.\n\n          Therefore, the Southern Regulators respectfully request that the Commission accept\n\nMISO’s LARS filing.\n\n\n                                                          Respectfully submitted,\n\n                                                          /s/ William D. Booth\n\n    Barton Norfleet                                       William D. Booth\n    Special Counsel; Federal Energy Affairs               Orrie A. Walsvik\n    Mississippi Public Service Commission                 Michael Best & Friedrich LLP\n    501 N. West Street, Suite 201-A                       1000 Maine Avenue, S.W.\n    P.O. Box 1174                                         Suite 400\n    Jackson, MS 39215-1174                                Washington, D.C. 20024\n    Phone: (601) 961-5821                                 Phone: (202) 747-9560\n    barton.norfleet@psc.ms.gov                            wdbooth@michaelbest.com\n                                                          orrie.walsvik@michaelbest.com\n\n                                                          Attorneys for the Mississippi Public Service\n                                                          Commission\n\n\n\n\n5\n Midcontinent Independent System Operator, Inc., 192 FERC ¶ 61,064 at Para. 2 (July 21, 2025) (Docket No. ER\n25-2454-000); see also MISO Transmittal at 10.\n\n\n                                                      3\n\f                                           /s/ Noel J. Darce\nKathryn Bowman                             Noel J. Darce\nExecutive Counsel                          Dana M. Shelton\nLauren Evans                               Justin A. Swaim\nDeputy General Counsel                     Fishman Haygood LLP\nLouisiana Public Service Commission        601 St. Charles Ave. Suite 4600\n602 North Fifth Street, Baton Rouge,       New Orleans LA 70170\nLouisiana 70802                            Phone: (504) 586-5252\nPhone: (225) 342-9888                      ndarce@fishmanhaygood.com\nKathryn.bowman@la.gov                      dshelton@fishmanhaygood.com\nLauren.evans@la.gov                        jswaim@fishmanhaygood.com\n\n                                           Attorneys for the Louisiana Public Service\n                                           Commission\n\n\n\n\n                                       4\n\f                                CERTIFICATE OF SERVICE\n\n   I hereby certify that I have this day served the foregoing document upon the parties designated\n\non the official service list for the above-captioned docket in accordance with the requirements of\n\nRule 2010 of the Commission’s Rules of Practice and Procedure.\n\n       Dated at New Orleans, Louisiana on this 23rd day of October, 2026.\n\n\n\n                                             /s/ Noel J. Darce\n\n\n\n\n                                                5\n\f"
+  }
+ ]
+}

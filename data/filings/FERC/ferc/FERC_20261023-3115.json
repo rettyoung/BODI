@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20261023-3115",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-549",
+ "title": "Notice of Schedule for the Preparation of an Environmental Assessment for the Franklin Farms Project re ETC Tiger Pipeline, LLC under CP26-549. ",
+ "filed": "2026-10-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261023-3115",
+ "entity": "SECRETARY OF THE COMMISSION, FERC; SECRETARY OF THE COMMISSION, FERC",
+ "fetch": [
+  {
+   "ferc_file": "385F59E4-2CA9-C0D1-950B-A16A23D00000",
+   "name": "CP26-549 Notice of Schedule_FINAL.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-23"
+ },
+ "collected_at": "2026-10-24T05:42:15Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [
+  "certificate of public convenience",
+  "data center"
+ ],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "CP26-549 Notice of Schedule_FINAL.docx",
+   "bytes": 48397,
+   "sha256": "c677947ae9854986ee25658fa88f0a3da4c39f98e40600aeff8a1c443018b461",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\n\nFEDERAL ENERGY REGULATORY COMMISSION\n\nETC Tiger Pipeline, LLC\t\t\t\t\t            Docket No. CP26-549-000\n\t\t\t\t\t\t\t\t\t\t  \n\nNOTICE OF SCHEDULE FOR THE PREPARATION OF AN \nENVIRONMENTAL ASSESSMENT FOR THE \nFRANKLIN FARMS PROJECT\n\n(October 23, 2026)\n\nOn July 1, 2026, ETC Tiger Pipeline, LLC (ETC Tiger) filed an application in Docket No. CP26-61-000 requesting a Certificate of Public Convenience and Necessity pursuant to Section 7c of the Natural Gas Act to construct and operate certain natural gas facilities.  The proposed project, known as the Franklin Farms Project (Project), would enable ETC Tiger to provide Entergy Louisiana, LLC with 250,000 dekatherms per day of firm transportation service mainline capacity and 1,000,000 dekatherms per day of capacity on a newly constructed lateral for a new artificial intelligence data center campus in Richland Parish, Louisiana.\n\nOn July 16, 2026, the Federal Energy Regulatory Commission (Commission or FERC) issued its Notice of Application for the Project.  Among other things, that notice alerted agencies issuing federal authorizations of the requirement to complete all necessary reviews and to reach a final decision on a request for a federal authorization within 90 days of the date of issuance of the Commission staff’s environmental document for the Project.  \n\nThis notice identifies Commission staff’s intention to prepare an environmental assessment (EA) for the Project and the planned schedule for the completion of the environmental review.   The EA will be issued for a 30-day comment period.\n\nSchedule for Environmental Review \n\n\tIssuance of EA\t\t\t\t\t\t\t       January 8, 2027\n\t90-day Federal Authorization Decision Deadline \t\t\tApril 8, 2027\nIf a schedule change becomes necessary, additional notice will be provided so that the relevant agencies are kept informed of the Project’s progress. \n\nProject Description \n\nETC Tiger is proposing to construct and operate the following facilities in Richland Parish, Louisiana: \n\napproximately 13.2 miles of new 36-inch-diameter greenfield pipeline (Franklin Farms Lateral);\napproximately 1.75 miles of 20-inch-diameter pipeline lateral (Franklin Farms Trio Farm Lateral);\nthe Franklin Farms, Bee Bayou, and Trio Farm Delivery Meter Stations;\nthe Midcontinent Express, Gulf South, and Gulf Crossing Receipt Meter Stations and the Gulf Run Bi-directional Meter Station;\nthe Franklin Farms Interconnect; and \nthree new mainline valves and other related appurtenant facilities.  \n\nBackground\n\nOn August 25, 2026, the Commission issued a Notice of Scoping Period Requesting Comments on Environmental Issues for the Proposed Franklin Farms Project (Notice of Scoping).  The Notice of Scoping was sent to affected landowners; federal, state, and local government agencies; elected officials; Native American tribes; environmental and public interest groups; other interested parties; local libraries, and media outlets.  To date, the Commission has received comments from the Sierra Club, one individual, the U.S. Environmental Protection Agency, and Restore Explicit Symmetry To Our Ravaged Earth (RESTORE).  The primary issues raised by the Sierra Club are concerns regarding alternatives, adverse effects on land use, water resources and water quality, wetlands, wildlife habitats, migratory birds, endangered species, soil erosion, air quality, and noise.  The individual filed a comment opposed to the project and raised concerns about increased energy costs consumers.  The U.S. Environmental Protection Agency recommended that the environmental document address water quality, groundwater, National Pollutant Discharge Elimination System permit coverage, ambient air conditions and air quality effects, and solid and hazardous waste generated.  RESTORE filed comments regarding concerns of geological hazards impacting the pipeline and related impacts from the new Data Center in the project area.  All substantive comments will be addressed in the EA.\n\nAdditional Information \n\nIn order to receive notification of the issuance of the EA and to keep track of formal issuances and submittals in specific dockets, the Commission offers a free service called eSubscription.  This service provides automatic notification of filings made to subscribed dockets, document summaries, and direct links to the documents.  Go to https://www.ferc.gov/ferc-online/overview to register for eSubscription.\n\nFor public inquiries and assistance with making filings such as interventions, comments, or requests for rehearing, contact the Office of Public Participation at (202) 502-6595 or OPP@ferc.gov. \n\n\tAdditional information about the Project is available from the FERC website (www.ferc.gov).  Using the “eLibrary” link, select “General Search” from the eLibrary menu, enter the selected date range and “Docket Number” excluding the last three digits (i.e., CP26-549), and follow the instructions.  For assistance with access to eLibrary, the helpline can be reached at (866) 208-3676, TTY (202) 502-8659, or at FERCOnlineSupport@ferc.gov.  The eLibrary link on the FERC website also provides access to the texts of formal documents issued by the Commission, such as orders, notices, and rule makings. \n\n(Authority: 18 CFR 2.1)\t \n\n\n\n\n\n\nDebbie-Anne A. Reese,\nSecretary.\n"
+  }
+ ]
+}

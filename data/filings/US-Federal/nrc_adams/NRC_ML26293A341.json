@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26293A341",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): LMGS CPA Audit Report Cover Letter [['Audit Report', 'Letter']]",
+ "filed": "2026-10-23",
+ "entity": [
+  "NRC/OAR/DDLP/DARL/ARLB5"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2629/ML26293A341.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26293A341.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26293A341",
+  "document_date": "2026-10-23"
+ },
+ "collected_at": "2026-10-24T05:38:18Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26293A341.pdf",
+   "name": null,
+   "bytes": 183502,
+   "sha256": "4d2c9450832c448213b328956f126c5512a2fb663a9c4afeac96fca412880ff4",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                                        October 23, 2026\n\n\nMark Feltner\nTechnology Principal, Nuclear Power\nLong Mott Energy, LLC\n530 Gaither Road, Suite 700\nRockville, MD 20850\n\nSUBJECT:             LONG MOTT ENERGY, LLC – SUMMARY REPORT FOR THE AUDITS\n                     OF THE LONG MOTT GENERATING STATION CONSTRUCTION\n                     PERMIT APPLICATION (EPID NO. L-2025-CPS-0000)\n\nDear Mr. Feltner:\n\nBy letter dated March 31, 2025 (Agencywide Documents Access and Management System\n(ADAMS) Package Accession No. ML25090A057), Long Mott Energy, LLC (LME) submitted a\nconstruction permit (CP) application for a reactor facility pursuant to Title 10 of the Code of\nFederal Regulations (10 CFR) Part 50, “Domestic Licensing of Production and Utilization\nFacilities,” to the U.S. Nuclear Regulatory Commission (NRC) for review and approval. The\nfacility, referred to as Long Mott Generating Station (LMGS), would be constructed in Calhoun\nCounty, Texas. By letter dated May 12, 2025, the NRC staff (the staff) accepted the CP\napplication for detailed review (ML25115A247). The NRC staff conducted a detailed review of\nthe LMGS CP application and engaged in regulatory audits as described below to assist the\nNRC staff in its review. Revision 1 of the CP application was submitted by LME on September\n18, 2026.\n\n\nTo assist with the detailed technical review of the CP application, the NRC staff conducted\nregulatory audits via LME’s electronic reading room (eRR), in-person, and through a series of\nvideo teleconference audit discussions. The audits focused on the review of the CP application\nsupporting documents associated with questions identified within the audit plans\n(ML25128A332, ML25156A350, ML26048A641) and additional questions identified while\nreviewing the CP application. The enclosures as described below, provide details pertaining to\nthe activities associated with these audits. Enclosure 1 of this letter is a memorandum detailing\nkey aspects of the audits. Enclosure 2 (Proprietary) details the staff’s audit questions and LME’s\nresolutions relating to the general audit. Enclosure 3 (Proprietary) details the staff’s audit\nquestions and LME’s resolutions relating to the probabilistic risk assessment audit. Enclosure 4\n(Proprietary) details the staff’s audit questions and LME’s resolutions relating to the chapter 2\nand structures audit. Enclosure 5 lists the documents provided by LME in the eRR for the NRC\nstaff to audit.\n\nThis summary report does not make any licensing conclusions or findings, but it is part of the\nadministrative record of the NRC staff’s review of the CP application and may provide\n\fM. Feltner\n\n\ninformation supporting the NRC staff’s safety evaluation. The NRC staff exited the audits on\nOctober 23, 2026.\n\nIf you have questions about this matter, please contact me at (301)-415-4093 or via email at\nAdrian.Muniz@nrc.gov.\n\n\n                                            Sincerely,\n\n\n\n                                                           Signed by Adrian Muniz Gonzalez on\n                                            10/23/26\n\n                                            Adrian Muñiz, Senior Project Manager\n                                            Advanced Reactor Licensing Branch 5\n                                            Division of Advanced Reactor Licensing\n                                            Office of Advanced Reactors\n\n\nDocket No.: 50-0614\n\nEnclosures:\nAs stated\n\ncc: Long Mott Generating Station via Granicus\n    mfeltner@dow.com\n    oconnocr@dow.com\n    svaughn@x-energy.com\n    jmaddocks@x-energy.com\n\n\n\n\n                                                2\n\fSUBJECT:    LONG MOTT ENERGY, LLC – SUMMARY REPORT FOR THE AUDITS OF\n            THE LONG MOTT GENERATING STATION CONSTRUCTION PERMIT\n            APPLICATION (EPID NO. L-2025-CPS-0000) DATED: OCTOBER 23, 2026\n\nDISTRIBUTION:\nPublic\n\n\n\n\nADAMS Accession Nos.\nPackage: ML26293A340\nLetter: ML26293A341\nSCD: ML26296A175\nEnclosure 1 (Public): ML26293A342\nEnclosure 2 (Non-Public): ML26293A346\nEnclosure 3 (Non-Public): ML26293A344\nEnclosure 4 (Non-Public): ML26293A345\nEnclosure 5 (Public): ML26293A343\n\n                             OFFICIAL RECORD COPY\n\f"
+  }
+ ]
+}

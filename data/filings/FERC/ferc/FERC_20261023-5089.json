@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261023-5089",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "(doc-less) Motion to Intervene of Citizens Action Coalition of Indiana, Inc. under ER27-25.",
+ "filed": "2026-10-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261023-5089",
+ "entity": "Citizens Action Coalition of Indiana, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "59C7D491-6731-C125-92CC-A169B6A00000",
+   "name": "1802783_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-23"
+ },
+ "collected_at": "2026-10-24T05:41:34Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1802783_Interv.txt",
+   "bytes": 2001,
+   "sha256": "7a260215a702e3c24504b414882af5fc385a79160c62e848a68041507844de3b",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Citizens Action Coalition of Indiana, Inc. under ER27-25-000.\r\n\r\nSubmission Date:        10/23/2026 12:56:02 PM\r\n\r\nFiled Date:             10/23/2026 12:56:02 PM\r\n\r\nDockets\r\n-------\r\nER27-25-000          Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-10-02_Large Load Addition Resource Study (LARS) submitted on 10/2/2026 12:03:09 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nCitizens Action Coalition of Indiana, Inc. kolson@citact.org                        jwashburn@citact.org                    \r\n\r\nBasis for Intervening:\r\nCitizens Action Coalition of Indiana, Inc. (“CAC”), is Indiana’s oldest and largest consumer and environmental advocacy organization. Since 1974, CAC has helped Hoosiers save more than $10 billion in excess utility charges by advocating on energy policy and utility reform, including by creating public awareness, lobbying legislators, intervening in utility cases before the Indiana Utility Regulatory Commission, and litigating when necessary. CAC includes among its members numerous individuals and families who are residential retail customers of Indiana electric utilities and have a substantial interest in the proceeding.  They pay Indiana rates and charges for residential electric service, which will be impacted if MISO's revisions are allowed proceed.  Massive electric growth from large load customers, namely data centers, is impacting CAC's customer members who are also dependent upon Indiana facilities, equipment, DSM programs, and personnel for the reliability of their electric service; thus, any changes would impact them. CAC therefore has a substantial interest in this proceeding."
+  }
+ ]
+}

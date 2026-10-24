@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26293A343",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): LMGS CPA Audit_List of Documents Reviewed in ERR [['Audit Report']]",
+ "filed": "2026-10-23",
+ "entity": [
+  "NRC/OAR/DDLP/DARL/ARLB5"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2629/ML26293A343.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26293A343.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26293A343",
+  "document_date": "2026-10-23"
+ },
+ "collected_at": "2026-10-24T05:38:24Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26293A343.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2629/ML26293A343.pdf"
+  }
+ ]
+}

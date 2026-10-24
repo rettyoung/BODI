@@ -1,0 +1,56 @@
+{
+ "id": "FERC:20261023-5096",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "Comments of Alliant Energy Corporate Services, Inc. and Consumer Energy Company in Support of Midcontinent Independent System Operator, Inc.’s Tariff Revisions under ER27-25.",
+ "filed": "2026-10-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261023-5096",
+ "entity": "Alliant Energy Corporate Services, Inc.; Consumer Energy Company",
+ "fetch": [
+  {
+   "ferc_file": "279F2A37-CBCE-CF92-8DEE-A169C9000000",
+   "name": "AECS Consumers Comments ER27-25.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-23"
+ },
+ "collected_at": "2026-10-24T05:40:28Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [
+  "curtailment",
+  "interconnection",
+  "large load",
+  "large-load",
+  "network upgrade",
+  "queue",
+  "resource adequacy",
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "AECS Consumers Comments ER27-25.pdf",
+   "bytes": 146496,
+   "sha256": "c8105774a3c9cc6018285a1bc0052793e920d0b740921107843a757a9a26964f",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 5,
+   "truncated": false,
+   "text": "                             UNITED STATES OF AMERICA\n                                    BEFORE THE\n                      FEDERAL ENERGY REGULATORY COMMISSION\n\n\nMidcontinent Independent System Operator, Inc.                        )                 Docket No. ER27-25\n\n       COMMENTS OF ALLIANT ENERGY CORPORATE SERVICES, INC. AND\n    CONSUMERS ENERGY COMPANY IN SUPPORT OF MISO’S PROPOSED TARIFF\n                             REVISIONS\n\n        Pursuant to Rule 212 of the Federal Energy Regulatory Commission’s (“FERC” or\n\n“Commission”) Rules of Practice and Procedure, 1 18 C.F.R. § 385.212, Alliant Energy Corporate\n\nServices, Inc (“AECS”) and Consumers Energy Company (“Consumers Energy”) 2 respectfully\n\nsubmit these comments in support of the Midcontinent Independent System Operator, Inc.’s\n\n(“MISO”) Large Load Addition Resource Study (LARS) Proposal (“Proposal”) in the above-\n\ncaptioned docket. AECS and its affiliates, 3 and Consumers Energy, as load-serving entities\n\n(“LSEs”) support the need for an interconnection process that facilitates the timely study of\n\ngeneration paired with an associated large load(s) to arrive at optimized transmission solutions.\n\nLarge loads increasingly seek service on accelerated timelines, creating a need for study processes\n\ncapable of evaluating load, generation, and associated transmission requirements on a more\n\ncoordinated basis. The LARS Proposal offers a practical approach to meeting load growth while\n\nhelping to maintain resource adequacy and supporting a cost-effective mix of generating resources.\n\n\n\n\n1\n  18 C.F.R. § 385.212 (2025).\n2\n  Consumers Energy is a Load Serving Entity (LSE) and active participant in the MISO generation interconnection\nqueue process. Consumers Energy is a public utility serving over 1.9 million residential, commercial, and industrial\nelectric customers in the Michigan Joint Zone of the MISO footprint.\n3\n  AECS affiliates include Wisconsin Power & Light Company and Interstate Power & Light Company (collectively,\nthe “Alliant Energy Operating Companies”). The Alliant Energy Operating Companies are LSEs and active\nparticipants in the MISO generation interconnection queue process. The companies have and continue to support\nMISO improvements to interconnection processes and believe that while queue process enhancements are needed\nand helpful, the benefits will take years to realize given the current status of queue cycles.\n\n                                                         1\n\fAECS and Consumers Energy respectfully request that the Commission accept the LARS\n\nProposal.\n\nSupport for LARS as a Just and Reasonable Study Pathway\n\n           LARS offers an opportunity to plan transmission around the combined needs of new large\n\nloads and paired generation, rather than evaluating each through separate processes. This\n\nintegrated approach will enable MISO to identify optimized transmission solutions, eliminate\n\nduplicative or unnecessarily expensive upgrades, and help deliver lower-cost outcomes for\n\ncustomers. The LARS Proposal provides a path to avoid studying qualifying large loads and\n\nassociated generation through separate processes using different assumptions and on different\n\nschedules that may produce different transmission solutions. MISO has proposed using consistent\n\nassumptions and rigorous methodologies to study the load and generation in parallel, with the\n\nobjective of completing the process within approximately 120 days. 4 This approach has the\n\npotential to provide greater certainty regarding generation interconnection requirements,\n\ntransmission service, and the network upgrades necessary to support reliable service. MISO’s\n\nfiling further explains that LARS responds directly to the Commission’s Show Cause Order by\n\nallowing MISO to account for the operational dynamics of serving electrically proximate large\n\nloads. 5 These benefits support acceptance of LARS as just and reasonable.\n\n           The Commission should support reforms that allow credible, commercially mature large\n\nload projects to move forward efficiently while maintaining appropriate reliability protections.\n\nMISO’s broader framework for integrating large loads onto its system appropriately recognizes\n\nthat acceleration must be coupled with operational capabilities such as telemetry, coordination,\n\ncurtailment capability, ride-through, stability controls, resilience, and security.\n\n\n4\n    LARS Proposal at 11-12, 18.\n5\n    Id. at 3.\n\n                                                  2\n\f            An expedited process should be available to projects demonstrating a high degree of\n\ncommercial and development certainty. MISO has emphasized that LARS is intended for specific\n\nload-generation pairings with contractual arrangements and shovel-ready conditions, rather than\n\nas an alternative fast-track interconnection queue for generators serving general system load. 6\n\nStrong readiness requirements are therefore an appropriate safeguard against speculative projects\n\nconsuming scarce study resources or affecting transmission solutions for projects that are prepared\n\nto proceed.\n\n            AECS and Consumers Energy therefore support LARS as a practical response to the\n\nplanning challenges presented by new large-load development. Its value extends beyond a shorter\n\nstudy schedule: evaluating load and generation together creates an opportunity to optimize\n\ntransmission investments and achieve lower-cost solutions for customers. By combining that\n\nopportunity with reliable study practices and clear participation safeguards, LARS provides a\n\ndisciplined framework suited to the needs of the MISO footprint.\n\nContinued Stakeholder Collaboration on Implementation\n\n            AECS and Consumers Energy expect MISO will continue working with stakeholders to\n\nrefine LARS implementation details, including providing greater certainty regarding the\n\nconditions under which projects may retain interconnection rights over time. Large load\n\ndevelopment is evolving rapidly, and the industry is still gaining experience with the operating\n\ncharacteristics, development timelines, and transmission implications of these facilities.\n\nAccordingly, AECS and Consumers Energy support implementation of LARS with sufficient\n\ntransparency and stakeholder engagement to allow MISO to refine the framework as practical\n\nexperience identifies opportunities for improvement. Continued stakeholder engagement will be\n\n\n\n6\n    Id. at 11, 25, and 28.\n\n                                                 3\n\fimportant to realizing the benefits of LARS while maintaining reliable service and the integrity of\n\nthe interconnection process.\n\n       For these reasons, AECS and Consumers Energy respectfully request that the Commission\n\nfind MISO’s LARS Proposal is a just and reasonable approach to coordinating the study of large\n\nloads and paired generation, optimizing transmission solutions, and facilitating timely, reliable\n\nservice at lower costs for customers, and accept the LARS Proposal.\n\n\n\n\n                                                    Respectfully submitted,\n\n\n\n                                                   /s/ Mitchel Myhre\n                                                  Mitchel Myhre\n                                                  Director of Grid Planning and RTO Relations\n                                                  Alliant Energy Corporate Services, Inc.\n                                                  4902 N. Biltmore Lane\n                                                  Madison, WI 54718\n                                                  Tel.: (608) 458-6273\n                                                  Email: MitchellMyhre@alliantenergy.com\n\n                                                  /s/ Rachael Moore\n                                                  Rachael H. Moore\n                                                  Principal Attorney\n                                                  Consumers Energy Company\n                                                  One Energy Plaza\n                                                  Jackson, MI 49201\n                                                  Phone: (517) 788-1147\n                                                  Email: rachael.moore@cmsenergy.com\n\n\n\n\n                                                4\n\f                                 CERTIFICATE OF SERVICE\n\n       I hereby certify I have this day served the foregoing document upon each person designated\n\non the official service list compiled by the Secretary in these proceedings.\n\n       Dated at Cedar Rapids, Iowa, this 23 day of October 2026.\n\n\n                                                      /s/ Dezirae Fisher\n                                                      Dezirae Fisher\n                                                      Senior Paralegal\n                                                      Alliant Energy Corporate Services, Inc.\n                                                      200 1st St SE\n                                                      Cedar Rapids, IA 52401\n                                                      Tel: (319) 786-4113\n                                                      Email: deziraefisher@alliantenergy.com\n\n\n\n\n                                                 5\n\f"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000532533-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "The United States Department of Defense and all other Federal Executive Agencies' Notice of Filing Direct Testimony [Notices]",
+ "filed": "2026-10-23",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "8887bcb3-e2cb-4a8a-89a9-b4ec01459683",
+   "name": "DOC-000532533-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000532533-26",
+  "filed_by": "Kyle Smith",
+  "document_type": "Notices",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-24T05:12:18Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000532533-26",
+   "name": "DOC-000532533-26",
+   "bytes": 176178,
+   "sha256": "5ad8690132f1c082f55b3095418d16aec7975245a456ac83f1ada3c39c2edbec",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "        BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n IN   THE   MATTER      OF   THE\n APPLICATION OF EL PASO ELECTRIC\n COMPANY FOR REVISION OF ITS                               Case No. 25-00082-UT\n RETAIL ELECTRIC RATES PURSUANT\n TO ADVICE NOTICE NO. 317\n\n\n       THE UNITED STATES DEPARTMENT OF DEFENSE AND ALL OTHER\n            FEDERAL EXECUTIVE AGENCIES’ NOTICE OF FILING\n                          DIRECT TESTIMONY\n\n       The United States Department of Defense and all other Federal Executive Agencies\n\n(“DoD/FEA”) hereby files this Notice of Filing Direct Testimony in the above captioned matter.\n\nDoD/FEA files the following:\n\n\n\n       1. The Direct Testimony and Exhibits of Larry Blank\n\n       2. The Direct Testimony and Exhibits of Maureen Reno\n\n\n\n\n       October 23, 2026                            Respectfully submitted,\n\n                                                   /s/ Kyle J. Smith_______________\n                                                   Kyle J. Smith\n                                                   Utility Regulatory Counsel\n                                                   U.S. Department of the Army\n                                                   Office of the General Counsel\n                                                   Environmental Law Division\n                                                   9275 Gunston Road\n                                                   Fort Belvoir, VA 22060-4446\n                                                   Telephone: (703) 693 -1274\n                                                   Email: kyle.j.smith124.civ@army.mil\n\n\n\n\n                                          Page 1 of 2\n\f                              CERTIFICATE OF SERVICE\n\n        I, Kyle J Smith, attorney for DoD/FEA, hereby certify that a copy of DoD/FEA’s Notice\nof Filing Direct Testimony, along with the Direct Testimony and Exhibits of Larry Blank and\nMaureen Reno, was served on all parties of record in this proceeding on October 23, 2026 by\nelectronic mail.\n\n                                                         /s/ Kyle J. Smith_______________\n                                                         Kyle J Smith\n\n\n\n\n                                         Page 2 of 2\n\f"
+  }
+ ]
+}

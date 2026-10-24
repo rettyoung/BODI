@@ -1,0 +1,29 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/google-voltus-vpp-virtual-power-pjm/833717/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Google supersizes PJM virtual power plant to more than 1 GW",
+ "filed": "2026-10-22",
+ "url": "https://www.utilitydive.com/news/google-voltus-vpp-virtual-power-pjm/833717/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      Such contracts&nbsp;signal a turning point for distributed resources in energy markets, industry sources say. Demand response revenue in PJM jumped 240% from 2024 to 2025, reaching $523.6 million; emergency demand response accounted for 88% of that. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-24T05:18:06Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [
+  "demand response",
+  "emergency"
+ ],
+ "party_hits": [
+  "Google"
+ ],
+ "documents": []
+}

@@ -1,0 +1,53 @@
+{
+ "id": "FERC:20261023-5180",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "Comments of Arkansas Public Service Commission re Midcontinent Independent System Operator, Inc’s filing to establish the Large Load Addition Resource Study under ER27-25.",
+ "filed": "2026-10-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261023-5180",
+ "entity": "Arkansas Public Service Commission",
+ "fetch": [
+  {
+   "ferc_file": "890A3C79-BE81-C229-9BF8-A16A73400000",
+   "name": "ER27-25-000 AR LARS comments.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Other Submittal",
+    "documentType": "Government Agency Submittal"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-23"
+ },
+ "collected_at": "2026-10-24T05:41:31Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "ER27-25-000 AR LARS comments.docx",
+   "bytes": 22196,
+   "sha256": "482698d52fe64b7cc338fc1df3c5f5c5eb60606f73a1e392f8b89281675fda2b",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "UNITED STATES OF AMERICA\nBEFORE THE\nFEDERAL ENERGY REGULATORY COMMISSION\n\n\nCOMMENTS ON BEHALF OF THE SOUTHERN REGULATORS IN SUPPORT OF MISO APPLICATION\n\nPursuant to Rule 212 of the Federal Energy Regulatory Commission’s (“Commission” or “FERC”) Rules of Practice and Procedure, the Arkansas Public Service Commission (“APSC”) respectfully submits these comments regarding the Midcontinent Independent System Operator, Inc.’s (“MISO”) proposed revisions to its Open Access Transmission, Energy and Operating Reserve Markets Tariff (“Tariff” or “MISO’s Tariff”) to establish the Large Load Addition Resource Study (“LARS”).  \nThe APSC supports MISO’s filing to establish the LARS process, and agrees with the comments made by the Mississippi Public Service Commission and the Louisiana Public Service Commission.  LARS should be accepted by the Commission because it is just and reasonable.  Further, AR agrees that LARS is a reasonable response to and aligns with the requirements of the Commission’s Show Cause Order. \nTherefore, the APSC respectfully request that the Commission accept MISO’s LARS filing.\t\n\n\nRespectfully submitted,\n/s/ Luke Kinder\nBridgette Frazier \nLuke Kinder\nCommission Counsel \nArkansas Public Service Commission \n1000 Center Street \nP.O. Box 400 \nLittle Rock, AR 72201-4314 \nTelephone: (501) 682-5816\n(501) 682-5766 \nbridgette.frazier@arkansas.gov \nluke.kinder@arkansas.gov\n\n\n\n\n\n\n\n\n\n\n\n\n\nCERTIFICATE OF SERVICE\nI, hereby certify that I have this day, the 23rd of October, 2026, of served the foregoing document upon each person designated on the official service list compiled by the Secretary of the Federal Energy Regulatory Commission in this proceeding. \n \n           /s/ Luke Kinder \nLuke Kinder\nBridgette Frazier\nCommission Counsel\nArkansas Public Service Commission\n1000 Center Street\nP.O. Box 400\nLittle Rock, AR 72201-4314\nTelephone: (501) 682-5766\nE-mail: luke.kinder@arkansas.gov \n\n  "
+  }
+ ]
+}

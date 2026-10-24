@@ -1,0 +1,29 @@
+{
+ "id": "AZ:471089",
+ "jur": "AZ",
+ "source": "az_acc",
+ "kind": "filing",
+ "docket": "E-01345A-25-0105",
+ "title": "Response",
+ "filed": "2026-10-23",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+ "entity": "Abhay Padgaonkar",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000055206.pdf"
+  }
+ ],
+ "meta": {
+  "docketID": 29551
+ },
+ "collected_at": "2026-10-24T05:46:07Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000055206.pdf",
+   "error": "blocked: robots.txt disallows https://images.edocket.azcc.gov/docketpdf/E000055206.pdf (SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V)"
+  }
+ ]
+}

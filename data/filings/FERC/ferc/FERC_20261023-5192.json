@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20261023-5192",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-25",
+ "title": "(doc-less) Motion to Intervene and Comments of Electricity Customer Alliance in support of the Midcontinent Independent System Operator, Inc.’s filing to establish the Large Load Addition Resource Study under ER27-25.",
+ "filed": "2026-10-23",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261023-5192",
+ "entity": "Electricity Customer Alliance",
+ "fetch": [
+  {
+   "ferc_file": "FE21B633-AE66-CA0B-9F38-A16A8F900000",
+   "name": "1802974_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   },
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-23"
+ },
+ "collected_at": "2026-10-24T05:41:13Z",
+ "run_id": "2026-10-24-0507",
+ "keywords": [
+  "large load",
+  "ratepayer protection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1802974_Interv.txt",
+   "bytes": 2672,
+   "sha256": "11268c7436602251da3cdd676b82400163d9a7b3bc1e616ba7b087260df74574",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene and Comment in Support of Electricity Customer Alliance under ER27-25-000.\r\n\r\nSubmission Date:        10/23/2026 4:15:19 PM\r\n\r\nFiled Date:             10/23/2026 4:15:19 PM\r\n\r\nDockets\r\n-------\r\nER27-25-000          Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii): 2026-10-02_Large Load Addition Resource Study (LARS) submitted on 10/2/2026 12:03:09 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nElectricity Customer Alliance            Dennis@co2efficient.com                                                          \r\n\r\nBasis for Intervening:\r\nThe Electricity Customer Alliance (ECA) respectfully moves to intervene in this proceeding. ECA is a growing national coalition dedicated to advancing customer-centric solutions that modernize the grid, support economic growth and the development of digital infrastructure and advanced manufacturing, and keep electricity affordable and reliable for all users. Members and participants in ECA include a diverse range of customers, from large customers in the technology, industrial, and manufacturing segments, to smaller commercial customers and residential ratepayer advocates. ECA works to elevate customer perspectives and align customer segments to identify and advance common ground approaches to the challenges of load growth, grid expansion and modernization, electricity market governance and accountability, and rising electricity affordability concerns. ECA members and participants are current or potential future electricity customers in the Midcontinent Independent System Operator Inc. (MISO) region and will be directly impacted by the outcome of this proceeding, which concerns MISO's proposal to establish a Large Load Addition Resource Study (LARS) process. \r\n\r\nECA strongly supports processes through which new large loads and associated generation intended to support them can be studied on an accelerated and coordinated basis. Such processes protect reliability and existing customers by facilitating the ability of new large loads to bring their own power, consistent with the commitments many have made in the Ratepayer Protection Pledge. ECA brings a unique collected perspective of a wide variety of customers to this issue that cannot be represented by any other entity. Thus, ECA has a strong interest justifying intervention in this proceeding."
+  }
+ ]
+}

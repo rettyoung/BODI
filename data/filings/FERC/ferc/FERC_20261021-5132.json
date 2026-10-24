@@ -64,5 +64,6 @@
    "url": "{'ferc_file': '6C71B786-13C3-C814-A897-A15FFA300000', 'name': '20261021 P-67_Shaver Calculation Package_IFC Encl 3.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-24T05:46:59Z"
 }
