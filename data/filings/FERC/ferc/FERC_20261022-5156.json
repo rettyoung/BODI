@@ -46,5 +46,6 @@
    "url": "{'ferc_file': 'FA9B4572-0DE2-CCE5-A3A3-A16524D00000', 'name': 'Tab E - Redline Non-Public Sub MTCA.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-25T05:37:44Z"
 }

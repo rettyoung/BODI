@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/d7d1d343-f277-4e0a-9e84-d2aa5c35e0fe:2026-10-21T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2880",
+ "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in general provisions, further providing for definitions; in comprehensive plan, further providing for preparation of comprehensive plan; in subdivision and land development, further p",
+ "filed": "2026-10-21",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2880/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Consumer Protection, Technology & Utilities",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-25T05:26:15Z",
+ "run_id": "2026-10-25-0509",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

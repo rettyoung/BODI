@@ -64,5 +64,6 @@
    "url": "{'ferc_file': '0FB09257-D564-CD3D-885F-A16450E00000', 'name': 'CDN-0043 PRIV CPUC-DCRT-5.003.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-25T05:37:56Z"
 }

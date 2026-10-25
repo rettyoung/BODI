@@ -64,5 +64,6 @@
    "url": "{'ferc_file': '9B9524F4-9EBF-CC1F-A22B-A16448800000', 'name': 'CSO-0427 PRIV-HC Starwood Collinsville Bid.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-25T05:38:08Z"
 }
