@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149647",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "SPP Confident of Compliance with FERC Show Cause",
+ "filed": "2026-10-25",
+ "url": "//www.rtoinsider.com/149647-spp-confident-compliance-with-ferc-show-cause/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " SPP says it is 90% compliant with FERC’s show-cause order on large load interconnection processes, pointing to its development of a new participation model for flexible price-sensitive loads as a major reason why. \n The post  SPP Confident of Compliance with FERC Show Cause  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-26T05:21:24Z",
+ "run_id": "2026-10-26-0514",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

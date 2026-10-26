@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149615",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Local Governments Step in to Tighten Data Center Regs",
+ "filed": "2026-10-25",
+ "url": "//www.rtoinsider.com/149615-local-governments-tighten-data-center-regs/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Counties and municipalities across the West are not waiting for state leaders to address growing public concern about data centers during upcoming legislative sessions that start in January 2027. \n The post  Local Governments Step in to Tighten Data Center Regs  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-26T05:21:24Z",
+ "run_id": "2026-10-26-0514",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

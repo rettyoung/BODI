@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261026-5005",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Abigail Rizzo in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/24/2026\n",
+ "filed": "2026-10-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261026-5005",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "60BC4072-0B70-CA1A-9E20-A16DF7800000",
+   "name": "151829.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-24"
+ },
+ "collected_at": "2026-10-26T05:38:50Z",
+ "run_id": "2026-10-26-0514",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151829.txt",
+   "bytes": 1167,
+   "sha256": "040cd94d8ff4a98867a8b0c28a04f70aef7cb8f46b13d59f31442248c25053b5",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nAbigail Rizzo, Chico, CA.\nThank you for the opportunity to comment on docket no. P-15423-000. As someone who cares deeply about marine wildlife, I am writing to urge the Federal Energy Regulatory Commission to deny the preliminary permit for the DeepGreen Cook Inlet Subsea-Compute & Infrastructure Hub (docket no. P-15423-000). This permit could put marine wildlife at grave risk, including the endangered Cook Inlet beluga whales, as well as endanger the ecosystem services that depend on a stable and healthy coastal environment.\r\nA preliminary permit for this data center should not be issued, as even the noise associated with evaluating whether the process should proceed could harm this dwindling beluga whale population. Beluga whales are highly sensitive to disruptive noise, and Cook Inlet beluga whales are already at risk, with fewer than 400 individuals remaining. It is vital to consider the necessity of this species to the ecosystem in future construction plans.\r\nBecause of the impact of this permit on the Cook Inlet beluga whale population, FERC should not approve the preliminary permit for the DeepGreen Cook Inlet data center. Thank you.\r\n\r\n"
+  }
+ ]
+}

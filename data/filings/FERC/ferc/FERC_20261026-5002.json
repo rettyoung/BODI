@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261026-5002",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Megan ONeill in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/23/2026\n",
+ "filed": "2026-10-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261026-5002",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "ED645C9E-ED13-C971-86C0-A16AF8200000",
+   "name": "151824.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-23"
+ },
+ "collected_at": "2026-10-26T05:38:44Z",
+ "run_id": "2026-10-26-0514",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151824.txt",
+   "bytes": 987,
+   "sha256": "b2d451569fa9299c10b2e37a13561825aa0055ac9b53a746bb23ec211493bcab",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nMegan ONeill, Homer, AK.\nFERC Docket P-15423 Comments\r\nRe: DeepGreen’s Underwater Data Center Project in Alaska\r\n\r\nMy name is Megan O’Neill and I live in Homer, Alaska.\r\n\r\nI am against the proposed underwater data center in Cook Inlet.  Let DeepGreen build the data center in the Delaware Bay or Atlantic Ocean near their homes.  Alaska waters are too critical to our livelihood to be the guinea pigs for big tech!\r\n\r\nThe hyperscale underwater data center in Cook Inlet by Nikiski will directly interfere with the salmon and beluga whale migration.  Daily slack tides will require the mega data center to draw from our power grid and we have a very limited energy supply.  Heat, noise and copper pollution will endanger our fisheries and wildlife population. Destroying our way of life and greatly impacting our economy.\r\n\r\nListen to Alaskans not billionaires.  We don’t want the DeepGreen’s Underwater Data Center in Alaska.\r\n\r\nThank you for your time and consideration.\r\n\r\n"
+  }
+ ]
+}

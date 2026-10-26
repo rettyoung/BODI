@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149303",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "MISO to Raise Member Rates, Requests Largest-ever $550M Budget in 2027",
+ "filed": "2026-10-25",
+ "url": "//www.rtoinsider.com/149303-miso-raise-member-rates-requests-550m-2027-budget/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " MISO is raising the rates it collects on members in 2027, mostly due to the interest refunds it owes to the large number of interconnection customers leaving its queue. \n The post  MISO to Raise Member Rates, Requests Largest-ever $550M Budget in 2027  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-26T05:21:24Z",
+ "run_id": "2026-10-26-0514",
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}

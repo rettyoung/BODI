@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261026-5001",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Peek Ehlinger in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/23/2026\n",
+ "filed": "2026-10-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261026-5001",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "84ED8420-C0A2-C041-8536-A16AB9E00000",
+   "name": "151823.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-23"
+ },
+ "collected_at": "2026-10-26T05:38:56Z",
+ "run_id": "2026-10-26-0514",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151823.txt",
+   "bytes": 502,
+   "sha256": "ff552d6f683522b3f68bf87fc3cbec9ea7cdd1dfe12a2b8d0aefdd70e73ce277",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nPeek Ehlinger, Anchorage, AK.\nI have lived in Anchorage for 10 years, and I strongly oppose the DeepGreen Cook Inlet data center proposal.  For one thing, I am skeptical the project could even function, given our extreme tides, earthquakes, power shortages, and abrasive sea water.  Even if it could, its waste products, heat, and noise pollution threaten the entire ecosystem of the Cook Inlet, from plankton to belugas to salmon.  This is a terribly conceived project that must be rejected.  \r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261026-5008",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Jordan E. Jackinsky in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/25/2026\n",
+ "filed": "2026-10-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261026-5008",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "0134DB58-CEB4-C25B-9266-A17464100000",
+   "name": "151602.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-25"
+ },
+ "collected_at": "2026-10-26T05:38:53Z",
+ "run_id": "2026-10-26-0514",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151602.txt",
+   "bytes": 1422,
+   "sha256": "6e7ee32c002373a4646808e35cd962ba61ca7d2d44cbf4cf1f847d8b78f137a1",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJordan E. Jackinsky, Homer, AK.\nI am writing with concern over the dangerous impacts of the DeepGreen project. \r\nTo developers, the chief selling point is that the massive amounts of waste heat can be cooled by the surrounding seawater, reducing or eliminating the need for cooling equipment. That waste heat would be absorbed into the ecosystem, risking harm to the entire marine food web- from plankton to fish, to mammals like the endangered Cook Inlet Beluga. DeepGreen proposes to power the 100 MW data center with more than 300 tidal generators. It has not shared any plan for where it would source power during daily slack tides, when the DeepGreen project could draw 100 MW of power from the grid, twice the average peak demand for the entire Kenai Peninsula. The proposed infrastructure includes 66 server hives with exterior copper-nickel cooling fins, raising serious questions about erosion and heavy metal contamination.\r\n\r\nProtecting our marine life is crucial at a tipping point where all systems could collapse without proper management. All humans could suffer from any wrong choices made at this time. Not to mention our ability as Alaskans to actually get by day to day with affordable energy costs. This infrastructure could strain regional resources or drive up local energy and operational pressures.\r\n\r\nThank you for your time and attention as concerned citizens and stewards of this land.\r\n\r\n\r\n"
+  }
+ ]
+}

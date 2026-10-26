@@ -1,24 +1,10 @@
 {
  "backfill_since": null,
- "run_id": "2026-10-25-0509",
- "started": "2026-10-25T05:09:40Z",
+ "run_id": "2026-10-26-0514",
+ "started": "2026-10-26T05:14:55Z",
  "sources": {
-  "la_lpsc": {
-   "since": "2026-10-21",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [
-    "la: U-37921 not found"
-   ],
-   "seconds": 21.3,
-   "consecutive_failures": 0
-  },
   "ok_occ": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 99,
    "new": 0,
    "baselined_now": 0,
@@ -29,11 +15,11 @@
     "ok PUD2026-000031: hitCount 169 after 5 variants",
     "ok PUD2026-000046: hitCount 131 after 5 variants"
    ],
-   "seconds": 96.4,
+   "seconds": 65.5,
    "consecutive_failures": 0
   },
   "ks_kcc": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 1,
    "new": 0,
    "baselined_now": 0,
@@ -41,12 +27,12 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 3.1,
+   "seconds": 3.8,
    "consecutive_failures": 0
   },
   "nm_prc": {
-   "since": "2026-10-21",
-   "found": 34,
+   "since": "2026-10-22",
+   "found": 33,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -54,15 +40,15 @@
    "subsources": {},
    "notes": [
     "nm 25-00079-UT: 1 documents in window",
-    "nm 25-00082-UT: 31 documents in window",
+    "nm 25-00082-UT: 30 documents in window",
     "nm 26-0000062: 0 documents in window"
    ],
-   "seconds": 22.5,
+   "seconds": 21.4,
    "consecutive_failures": 0
   },
   "mo_efis": {
-   "since": "2026-10-21",
-   "found": 64,
+   "since": "2026-10-22",
+   "found": 51,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -73,7 +59,7 @@
    "consecutive_failures": 0
   },
   "al_psc": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -81,15 +67,15 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 36.5,
+   "seconds": 37.0,
    "consecutive_failures": 0
   },
   "watch_pages": {
-   "since": "2026-10-21",
-   "found": 1507,
-   "new": 2,
+   "since": "2026-10-22",
+   "found": 1509,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 2,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "grda_board": {
@@ -246,7 +232,7 @@
     },
     "irp_aps": {
      "status": "ok",
-     "note": "0 links"
+     "note": "2 links"
     },
     "rfp_entergy": {
      "status": "ok",
@@ -274,15 +260,15 @@
     }
    },
    "notes": [],
-   "seconds": 190.2,
+   "seconds": 188.8,
    "consecutive_failures": 0
   },
   "rss": {
-   "since": "2026-10-21",
-   "found": 32,
-   "new": 0,
+   "since": "2026-10-22",
+   "found": 26,
+   "new": 9,
    "baselined_now": 0,
-   "kept": 0,
+   "kept": 5,
    "status": "ok",
    "subsources": {
     "pjm_insidelines": {
@@ -339,11 +325,11 @@
     }
    },
    "notes": [],
-   "seconds": 56.5,
+   "seconds": 57.0,
    "consecutive_failures": 0
   },
   "ir_decks": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 233,
    "new": 0,
    "baselined_now": 0,
@@ -416,11 +402,11 @@
     }
    },
    "notes": [],
-   "seconds": 186.7,
+   "seconds": 185.0,
    "consecutive_failures": 0
   },
   "mirrors": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 27,
    "new": 0,
    "baselined_now": 0,
@@ -445,11 +431,11 @@
     }
    },
    "notes": [],
-   "seconds": 12.8,
+   "seconds": 12.4,
    "consecutive_failures": 0
   },
   "eia": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -462,11 +448,11 @@
     }
    },
    "notes": [],
-   "seconds": 9.7,
+   "seconds": 10.1,
    "consecutive_failures": 0
   },
   "congress": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 1,
    "new": 0,
    "baselined_now": 0,
@@ -474,35 +460,35 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 11.1,
+   "seconds": 8.0,
    "consecutive_failures": 0
   },
   "openstates": {
-   "since": "2026-10-21",
-   "found": 16,
-   "new": 4,
-   "baselined_now": 0,
-   "kept": 4,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 331.7,
-   "consecutive_failures": 0
-  },
-  "courtlistener": {
-   "since": "2026-10-21",
-   "found": 1,
+   "since": "2026-10-22",
+   "found": 15,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 196.5,
+   "seconds": 371.1,
+   "consecutive_failures": 0
+  },
+  "courtlistener": {
+   "since": "2026-10-22",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 170.1,
    "consecutive_failures": 0
   },
   "queues": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -514,7 +500,7 @@
    "consecutive_failures": 0
   },
   "legistar": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -531,15 +517,15 @@
     },
     "phoenix": {
      "status": "ok",
-     "note": "1 matters, 0 on-topic"
+     "note": "0 matters, 0 on-topic"
     },
     "mesa": {
      "status": "ok",
-     "note": "1 matters, 0 on-topic"
+     "note": "0 matters, 0 on-topic"
     },
     "columbus": {
      "status": "ok",
-     "note": "12 matters, 0 on-topic"
+     "note": "8 matters, 0 on-topic"
     },
     "sanantonio": {
      "status": "ok",
@@ -551,11 +537,11 @@
     },
     "kansascity": {
      "status": "ok",
-     "note": "4 matters, 0 on-topic"
+     "note": "2 matters, 0 on-topic"
     },
     "washoe-nv": {
      "status": "ok",
-     "note": "5 matters, 0 on-topic"
+     "note": "3 matters, 0 on-topic"
     }
    },
    "notes": [],
@@ -563,7 +549,7 @@
    "consecutive_failures": 0
   },
   "courts_state": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -575,7 +561,7 @@
    "consecutive_failures": 0
   },
   "agendas": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -612,12 +598,12 @@
     }
    },
    "notes": [],
-   "seconds": 88.7,
+   "seconds": 88.0,
    "consecutive_failures": 0
   },
   "ercot_large_load": {
-   "since": "2026-10-21",
-   "found": 8,
+   "since": "2026-10-22",
+   "found": 7,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -645,11 +631,11 @@
     }
    },
    "notes": [],
-   "seconds": 19.0,
+   "seconds": 18.7,
    "consecutive_failures": 0
   },
   "nyiso_icap": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -666,8 +652,8 @@
    "consecutive_failures": 0
   },
   "nrc_adams": {
-   "since": "2026-10-21",
-   "found": 28,
+   "since": "2026-10-22",
+   "found": 12,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -675,15 +661,15 @@
    "subsources": {
     "nrc:05000255": {
      "status": "ok",
-     "note": "5 documents"
+     "note": "2 documents"
     },
     "nrc:05000289": {
      "status": "ok",
-     "note": "4 documents"
+     "note": "3 documents"
     },
     "nrc:05000331": {
      "status": "ok",
-     "note": "2 documents"
+     "note": "0 documents"
     },
     "nrc:05000611": {
      "status": "ok",
@@ -699,19 +685,19 @@
     },
     "nrc:05000614": {
      "status": "ok",
-     "note": "6 documents"
+     "note": "5 documents"
     },
     "nrc:05000615": {
      "status": "ok",
-     "note": "1 documents"
+     "note": "0 documents"
     },
     "nrc:05000616": {
      "status": "ok",
-     "note": "5 documents"
+     "note": "1 documents"
     },
     "nrc:05000617": {
      "status": "ok",
-     "note": "5 documents"
+     "note": "1 documents"
     }
    },
    "notes": [],
@@ -719,7 +705,7 @@
    "consecutive_failures": 0
   },
   "ferc_forms": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -732,11 +718,11 @@
     }
    },
    "notes": [],
-   "seconds": 4.2,
+   "seconds": 3.8,
    "consecutive_failures": 0
   },
   "ferc_eqr": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -753,7 +739,7 @@
    "consecutive_failures": 0
   },
   "studies": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 1,
    "new": 0,
    "baselined_now": 0,
@@ -778,7 +764,7 @@
    "consecutive_failures": 0
   },
   "regulations_gov": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -791,24 +777,24 @@
     }
    },
    "notes": [],
-   "seconds": 40.2,
+   "seconds": 39.1,
    "consecutive_failures": 0
   },
   "ferc": {
-   "since": "2026-10-21",
-   "found": 82,
-   "new": 0,
+   "since": "2026-10-22",
+   "found": 65,
+   "new": 5,
    "baselined_now": 0,
-   "kept": 0,
+   "kept": 5,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 58.1,
+   "seconds": 72.7,
    "consecutive_failures": 0
   },
   "federal_register": {
-   "since": "2026-10-21",
-   "found": 5,
+   "since": "2026-10-22",
+   "found": 3,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -819,8 +805,8 @@
    "consecutive_failures": 0
   },
   "edgar": {
-   "since": "2026-10-21",
-   "found": 5,
+   "since": "2026-10-22",
+   "found": 3,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -831,8 +817,8 @@
    "consecutive_failures": 0
   },
   "tx_puct": {
-   "since": "2026-10-21",
-   "found": 2,
+   "since": "2026-10-22",
+   "found": 1,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -843,19 +829,19 @@
    "consecutive_failures": 0
   },
   "az_acc": {
-   "since": "2026-10-21",
-   "found": 7,
+   "since": "2026-10-22",
+   "found": 4,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 15.0,
+   "seconds": 15.1,
    "consecutive_failures": 0
   },
   "ga_psc": {
-   "since": "2026-10-21",
+   "since": "2026-10-22",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -865,39 +851,48 @@
    "notes": [],
    "seconds": 6.2,
    "consecutive_failures": 0
+  },
+  "la_lpsc": {
+   "since": "2026-10-22",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "la: U-37921 not found"
+   ],
+   "seconds": 21.2,
+   "consecutive_failures": 0
   }
  },
- "docs_fetched": 2,
- "new_items": 6,
+ "docs_fetched": 5,
+ "new_items": 10,
  "user_agent": "BlueOwl-RegTracker/4.0 (***)",
  "trigger": {
   "event": "schedule",
   "cron": "43 4 * * *"
  },
- "hours_since_previous_full_run": 23.4,
+ "hours_since_previous_full_run": 23.6,
  "collector_gap": false,
- "finished": "2026-10-25T05:38:08Z",
+ "finished": "2026-10-26T05:42:42Z",
  "backfill_text": {
-  "queue": 16,
+  "queue": 13,
   "enriched": 0,
-  "docs": 17,
-  "errors": 16,
+  "docs": 4,
+  "errors": 3,
   "status": "ok",
-  "doc_retry_filings": 6,
-  "doc_retry_fixed": 0,
+  "doc_retry_filings": 10,
+  "doc_retry_fixed": 1,
   "doc_retry_still_failing": 0,
   "not_document": 0,
-  "gave_up": 6,
-  "candidates_filled": 7,
-  "retry_later": 3,
-  "remaining": 16,
-  "seconds": 31.4
+  "gave_up": 3,
+  "candidates_filled": 3,
+  "remaining": 13,
+  "seconds": 2.3
  },
  "http_hosts": {
-  "https://lpscpubvalence.lpsc.louisiana.gov": {
-   "robots": "200",
-   "note": "no robots.txt (HTML app shell)"
-  },
   "https://public.occ.ok.gov": {
    "robots": "404",
    "note": ""
@@ -1048,7 +1043,7 @@
   },
   "https://www.aps.com": {
    "robots": "200",
-   "note": "no robots.txt (HTML app shell)"
+   "note": ""
   },
   "https://spofossil.entergy.com": {
    "robots": "404",
@@ -1075,7 +1070,7 @@
    "note": ""
   },
   "https://www.nrc.gov": {
-   "robots": "403",
+   "robots": "200",
    "note": ""
   },
   "https://gridstrategiesllc.com": {
@@ -1298,10 +1293,14 @@
    "robots": "404",
    "note": ""
   },
+  "https://lpscpubvalence.lpsc.louisiana.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  },
   "https://images.edocket.azcc.gov": {
    "robots": "error",
    "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
   }
  },
- "seconds": 1708
+ "seconds": 1667
 }
