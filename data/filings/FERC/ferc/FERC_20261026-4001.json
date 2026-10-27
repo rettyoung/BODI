@@ -1,0 +1,55 @@
+{
+ "id": "FERC:20261026-4001",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EL26-67,EL26-68,EL26-69,EL26-70,EL26-71,EL26-72",
+ "title": "Comments of the National Congress of American Indians urging FERC for a Moratorium on Hyperscale Data Center Approvals Pending Comprehensive Grid Reliability and Ratepayer Impact Assessments under EL26-67 et al. ",
+ "filed": "2026-10-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261026-4001",
+ "entity": "NATIONAL CONGRESS OF AMERICAN INDIANS",
+ "fetch": [
+  {
+   "ferc_file": "47EF5BAD-0B80-C044-AF97-A17901800000",
+   "name": "Federal Energy Regulatory Commission - Transmittal of NCAI Resolution #MEM-26-016.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-10-05"
+ },
+ "collected_at": "2026-10-27T05:37:21Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "ESA",
+  "cost allocation",
+  "data center",
+  "hyperscale",
+  "interconnection",
+  "ratepayer protection",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Federal Energy Regulatory Commission - Transmittal of NCAI Resolution #MEM-26-016.pdf",
+   "bytes": 364335,
+   "sha256": "5b693489a159013d93a342e494e5f3fda2659ac06a5da309b1883709a17e30c0",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "    National Congress of American Indians | 1516 P St NW, Washington, DC 20005 | (202) 466-7767 | www.ncai.org\n\n\n                   October 5, 2026\n\n                   The Honorable Laura V. Swett, Chairman\n                   Federal Energy Regulatory Commission\n                   888 First Street NE\n                   Washington, DC 20426\n\n                   RE: Transmittal of NCAI Resolution #MEM-26-016 – Urgent Request for a FERC\n                   Moratorium on Hyperscale Data Center Approvals Pending Comprehensive\n                   Grid Reliability and Ratepayer Impact Assessments\n\n                   Dear Chairman Swett:\n\n                   On behalf of the National Congress of American Indians (NCAI), the oldest and\n                   largest national organization composed of American Indian and Alaska Native Tribal\n                   governments, I am writing to formally transmit NCAI Resolution #MEM-26-016,\n                   \"Calling for a Moratorium on Hyperscale Data Center Permits Pending\n                   Comprehensive Environmental and Tribal Impact Assessment.\"\n\n                   This resolution was enacted at the 2026 NCAI Mid Year Convention in Memphis,\n                   Tennessee. It represents the unified stance of Tribal Nations regarding the rapid\n                   proliferation of hyperscale data centers and their unprecedented impact on the bulk\n                   power system and transmission infrastructure overseen by the Federal Energy\n                   Regulatory Commission (FERC).\n\n                   While Tribal Nations support responsible economic and digital development, we are\n                   deeply concerned about the immense grid demands associated with hyperscale\n                   data centers requiring 100 megawatts or greater of power continuously. The rapid\n                   interconnection of these massive load centers places extreme pressure on regional\n                   electrical grids, accelerates the need for costly interstate transmission upgrades,\n                   and threatens bulk power system reliability. Furthermore, without proper regulatory\n                   safeguards, the substantial costs of these infrastructure upgrades are frequently\n                   shifted onto existing residential and Tribal ratepayers.\n\n                   The implementation of Executive Order 14318, \"Accelerating Federal Permitting of\n                   Data Center Infrastructure\" (2025) exacerbates these risks. By directing federal\n                   agencies to fast-track infrastructure approvals through new National Environmental\n                   Policy Act (NEPA) categorical exclusions and streamlined FAST-41 processes, the\n                   directive bypasses mandatory, government-to-government Tribal consultation and\n                   undermines thorough evaluation of the cumulative impacts on energy transmission\n                   networks.\n\n\n\n\n​                                                       ​                                                        1\n\fTo uphold the federal trust responsibility and protect the integrity of the power grid, NCAI formally calls\nupon the FERC to impose an immediate moratorium on the issuance of any related certificates,\ntransmission approvals, or regulatory authorizations supporting hyperscale data centers until a\ncomprehensive, independent impact assessment is completed.\n\nConsistent with the FERC’s statutory authority over interstate electricity transmission, reliability, and\nwholesale rates, we urge the Commission to ensure the following:\n\n    ●​ Cost allocation and ratepayer protection: Before any transmission planning approvals or\n       cost-allocation agreements are finalized for data center loads, binding conditions must guarantee\n       that all grid and infrastructure upgrade costs attributable to data center demand are borne entirely\n       by the facility operators, not passed on to existing Tribal or residential ratepayers.\n    ●​ Grid reliability and impact assessment: The FERC must require rigorous, independent, and\n       conflict-free assessments of how these facilities impact regional resource adequacy and\n       transmission congestion, ensuring transparent economic analysis of the true costs required to\n       support their operations.\n    ●​ Mandatory Tribal consultation: The FERC must engage Tribal Nations as sovereign partners at\n       the outset of any transmission planning or interconnection process related to these\n       developments, ensuring that routing and infrastructure decisions do not negatively impact treaty\n       rights, cultural resources, or sacred sites.\n\nThe Commission has a legal and moral obligation to conduct genuine consultation before making\nregulatory decisions that affect the economic and energy security of Tribal Nations. Proper respect for\nthese sovereign interests will result in a more reliable, just, and resilient energy grid for all Americans.\n\nWe welcome the opportunity to meet with you and the Commission to discuss the implementation of this\nmoratorium.\n\nA full copy of Resolution #MEM-26-016 can be accessed and reviewed in its entirety at:\nqrco.de/MEM-26-016.\n\nSincerely,\n\n\n\n\nLarry Wright, Jr.\nExecutive Director\nNational Congress of American Indians\n\ncc:\nThe Honorable Chris Wright, Secretary, U.S. Department of Energy\nThe Honorable Doug Burgum, Secretary, U.S. Department of the Interior\nNicole Sitaraman, Director, Office of Public Participation, Federal Energy Regulatory Commission\n\n\n\n\n                                                                                                               2\n\f"
+  }
+ ]
+}

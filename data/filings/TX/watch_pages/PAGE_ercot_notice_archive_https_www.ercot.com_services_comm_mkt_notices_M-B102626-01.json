@@ -1,0 +1,42 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B102626-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-B102626-01 Planned system maintenance with impacted services",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-B102626-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B102626-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-27T05:18:40Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "ESA",
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B102626-01",
+   "name": null,
+   "bytes": 7152,
+   "sha256": "a034d45dedfa529bdfec26d67c5eeb33e9e66759ab8c28a4417ff03d8f0cbb10",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com,Notice_Outages_Retail@lists.ercot.com,Notice_Outages_Wholesale@lists.ercot.com,Notice_Extracts_Retail@lists.ercot.com,Notice_Extracts_Wholesale@lists.ercot.com\n\nSent:\n\n10/26/26, 3:02 PM\n\nSubject:\n\nM-B102626-01 Planned system maintenance with impacted services\n\nNOTICE DATE:\n October 26, 2026\n\nNOTICE TYPE:\n M-B102626-01 Retail/Wholesale\n\nSHORT DESCRIPTION:\n Planned system maintenance with impacted services\n\nINTENDED AUDIENCE:\n All Market Participants\n\nDAYS AFFECTED:\n November 5, 2026, 15:30 - 18:00\n\nLONG DESCRIPTION:  \nERCOT will be performing planned system maintenance of Energy and Market Management systems (EMS, MMS, ITRON, and EIN) applications and databases on November 5, 2026, during a maintenance window of 15:30 - 18:00.\n\nDuring the maintenance window on November 5, 2026, Market Participants will experience an outage on the following services from 15:30 until 15:55.\n\nMarket Management System (MMS) - Security-Constrained Economic Dispatch (SCED)/Look- Ahead SCED applications may be unavailable for 3 SCED intervals during the 15:30 to 15:55 timeframe.\n\nBase Points from SCED may not be created for 3 SCED intervals during the 15:30 to 15:55 timeframe. During this period, Qualified Scheduling Entities (QSEs) with Resources may be required to follow Emergency Base Points from ERCOT Load Frequency Control.\n\nMarket submissions and requests via Web Services, Market Manager, and Outage Scheduler may be unavailable.\n\nCurrent Day Report (CDR) publishing and downloading, which may cause the following reports to be unavailable: \n\nSCED and Real-Time Dispatch (RTD) Reports\n\nNSA Active and Inactive Constraint Reports\n\nState Estimator Reports\n\nReal-Time Dynamic Rating Data Reports\n\nWind Power Production - Actual 5-Minute Averaged Values\n\nSolar Power Production - Actual 5-Minute Averaged Values\n\nSOL Exceedance Report\n\nThe \nPublic Dashboards\n and \nERCOT.com\n price displays will not be populated.\n\nNote: Start and completion times of this maintenance may be delayed depending on system conditions at that time. A Hotline call to Market Participants will be executed prior to and following completion of the maintenance.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

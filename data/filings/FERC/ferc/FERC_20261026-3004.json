@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261026-3004",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "ER26-1323",
+ "title": "Letter order accepting Southwest Power Pool, Inc.'s 07/06/2026 filing of revisions to Schedule 15, sections 44.3 and 44.4 of Part VII, section 2.22.2 of Attachment AE, section 17.0 of the pro forma etc. under ER26-1323. ",
+ "filed": "2026-10-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261026-3004",
+ "entity": "OFFICE OF ENERGY MARKET REGULATION",
+ "fetch": [
+  {
+   "ferc_file": "28DDF634-6EA4-C48E-944D-A1785F900000",
+   "name": "ER26-1323-002 DLO.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Delegated Order"
+   }
+  ],
+  "why": "watched docket ER26-1323",
+  "issued": "2026-10-26"
+ },
+ "collected_at": "2026-10-27T05:37:23Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "ER26-1323-002 DLO.docx",
+   "bytes": 46385,
+   "sha256": "1892019fa7560ea4803e05cb5daeaa323706212ee94e9ffdfc3b79e52371059d",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "FEDERAL ENERGY REGULATORY COMMISSION\nWASHINGTON, DC  20426\n\nOFFICE OF ENERGY MARKET REGULATION\n\nSouthwest Power Pool, Inc.\nDocket No. ER26-1323-002\n\nIssued:  October 26, 2026\n\nOn July 6, 2026, Southwest Power Pool, Inc. (SPP) submitted revisions to Schedule 15, sections 44.3 and 44.4 of Part VII, section 2.22.2 of Attachment AE, section 17.0 of the pro forma Conditional High Impact Large Load Service Agreement, and sections 1.0 and 2.2 of Attachment BC of its Open Access Transmission Tariff (Tariff) in compliance with the directives in a June 5, 2026 Commission order.  Pursuant to authority delegated to the Director, Division of Electric Power Regulation – Central, under 18 C.F.R. § 375.307, the submittal is accepted for filing, effective July 1, 2026, as requested.\nThe filing was publicly noticed.  No protests or adverse comments were filed.  Pursuant to Rule 214 of the Commission’s regulations (18 C.F.R. § 385.214), notices of intervention, timely-filed motions to intervene, and any unopposed motions to intervene out-of-time filed before the issuance date of this order are granted.  \nThis action does not constitute approval of any service, rate, charge, classification, or any rule, regulation, contract, or practice affecting such rate or service provided for in the filed document(s); nor shall such action be deemed as recognition of any claimed contractual right or obligation affecting or relating to such service or rate; and such action is without prejudice to any findings or orders which have been or may hereafter be made by the Commission in any proceeding now pending or hereafter instituted by or against the applicant(s).\nThis order constitutes final agency action.  Requests for rehearing by the Commission may be filed within 30 days of the date of issuance of this order, pursuant to 18 C.F.R. § 385.713.\nIssued by:  Natalie Y. Tingle-Stewart, Director, Division of Electric Power Regulation – Central\n\nAppendix – Tariff Records\n\nSouthwest Power Pool, Inc.\nOpen Access Transmission Tariff, Sixth Revised Volume No. 1\nSection 44.3, 44.3 Service Agreements (0.1.0)\n\nSection 44.4, 44.4 Classification of Conditional High Impact Large Load… (0.1.0)\t\n\nSchedule 15, Schedule 15 Conditional High Impact Large Load Service (0.1.0)\n\nAtt. AE (MPL) 2.22.2, Attachment AE (MPL) Section 2.22.2 (1.1.0)\n\nAtt. BA. Add. 1, Attachment BA Addendum 1 (0.1.0)\n\nAtt. BC Section 1, Attachment BC Section 1 (0.1.0)\n\nAtt. BC Section 2, Attachment BC Section 2 (0.1.0)\n"
+  }
+ ]
+}

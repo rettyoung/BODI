@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/cc86f77e-9221-4fd6-9152-1c5e3375cfc2:2026-10-26T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1497",
+ "title": "An Act amending Title 15 (Corporations and Unincorporated Associations) of the Pennsylvania Consolidated Statutes, in general provisions, further providing for definitions; in corporate powers, duties and safeguards, repealing provisions relating to general powers and providing for revocation and re",
+ "filed": "2026-10-26",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB1497/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to State Government",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-27T05:29:05Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

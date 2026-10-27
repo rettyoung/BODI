@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149777",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC Approves New Rules, Penalties for Demand Response in MISO",
+ "filed": "2026-10-26",
+ "url": "//www.rtoinsider.com/149777-ferc-approves-new-rules-penalties-demand-response-miso/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " FERC approved new penalties designed to ensure demand response shows up when called upon by MISO. \n The post  FERC Approves New Rules, Penalties for Demand Response in MISO  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-27T05:19:54Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "demand response"
+ ],
+ "party_hits": [],
+ "documents": []
+}

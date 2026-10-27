@@ -1,0 +1,59 @@
+{
+ "id": "FERC:20261026-5156",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-275",
+ "title": "Commonwealth Edison Company submits tariff filing per 35.15: Cancellation of TSA with Red Energy (October 2026) to be effective 10/27/2026 under ER27-275 Filing Type : 260",
+ "filed": "2026-10-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261026-5156",
+ "entity": "Commonwealth Edison Company; Commonwealth Edison Company",
+ "fetch": [
+  {
+   "ferc_file": "B1CF47B9-1E5D-CC23-9951-A179FC000000",
+   "name": "CUI_PRIV_HC_NOC_ComEd-Edged.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "BC9D8528-BE07-CDD5-8AFA-A179FC100000",
+   "name": "CUI_PRIV_HC_Attachment A.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "7FFF16FE-3CE7-CF5E-91A4-A179FC100000",
+   "name": "CUI_PRIV_HC_Attachment B.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Tariff Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-26"
+ },
+ "collected_at": "2026-10-27T05:38:38Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'B1CF47B9-1E5D-CC23-9951-A179FC000000', 'name': 'CUI_PRIV_HC_NOC_ComEd-Edged.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'BC9D8528-BE07-CDD5-8AFA-A179FC100000', 'name': 'CUI_PRIV_HC_Attachment A.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '7FFF16FE-3CE7-CF5E-91A4-A179FC100000', 'name': 'CUI_PRIV_HC_Attachment B.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

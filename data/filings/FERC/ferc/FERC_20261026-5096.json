@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20261026-5096",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-126",
+ "title": "(doc-less) Motion to Intervene of the Office of the Ohio Consumers' Counsel under ER27-126.",
+ "filed": "2026-10-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261026-5096",
+ "entity": "Office of the Ohio Consumers' Counsel; Office of the Ohio Consumers' Counsel",
+ "fetch": [
+  {
+   "ferc_file": "57C6BE6F-C84E-CB15-99F7-A17965200000",
+   "name": "1803703_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-26"
+ },
+ "collected_at": "2026-10-27T05:38:57Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "data center",
+  "interconnection",
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1803703_Interv.txt",
+   "bytes": 2892,
+   "sha256": "dcc4a43a0809a08a5e7060cc9d52aba64e667a678f2b00cbb945aba0d6339d62",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Office of the Ohio Consumers' Counsel under ER27-126-000.\r\n\r\nSubmission Date:        10/26/2026 1:59:25 PM\r\n\r\nFiled Date:             10/26/2026 1:59:25 PM\r\n\r\nDockets\r\n-------\r\nER27-126-000         PJM Interconnection, L.L.C. submits tariff filing per 35.13(a)(2)(iii): Study Agreement in Furtherance of Ohio’s State Agreement Approach Request submitted on 10/13/2026 4:35:57 PM, Filing Type code: 10\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nOffice of the Ohio Consumers' Counsel    angela.obrien@occ.ohio.gov                                                       \r\nOffice of the Ohio Consumers' Counsel    dgoulet@mccarter.com                                                             \r\n\r\nBasis for Intervening:\r\nUnder Ohio R.C. Chapter 4911, the Office of the Ohio Consumers’ Counsel (“OCC”) is the authorized representative of approximately 4.5 million Ohio residential utility consumers. OCC actively participates in numerous state and federal regulatory proceedings and represents Ohio residential consumers who may be impacted by the Federal Energy Regulatory Commission (“FERC”) decision in this proceeding.  Under Rule 214 of FERC’s Rules of Practice and Procedure, 18 CFR § 385.214, OCC seeks to intervene in this case. \r\n\r\nOn October 13, 2026, PJM Interconnection, L.L.C. filed a “Study Agreement in Furtherance of the State of Ohio’s State Agreement Approach Request.”  The study agreement will allow PJM to study Ohio’s proposal to sponsor transmission facilities needed to advance an 800 MW integrated artificial intelligence data center, related generation and related transmission facilities (known as the “Flagship Project”) located at and around the former United States Department of Energy Portsmouth Gaseous Diffusion Plant in Pike County, Ohio.    \r\n  \r\nOn October 14, 2026, FERC published Notice of this filing and established November 3, 2026 as the deadline for filing motions to intervene, protests and comments.  \r\n\r\nOCC is the statutory representative of the Ohio residential consumers that pay the bills for the electric energy and transmission services they receive in PJM.  FERC’s ruling in this case could affect the bills and rates paid for those services.  OCC thus has a direct and material interest in the outcome of this proceeding. OCC’s interest cannot be represented adequately by any other party. This intervention is timely filed. As such, OCC’s intervention in this proceeding is in the public interest. OCC respectfully requests that it be granted intervention, allowing it to have all the rights belonging to a party.\r\n"
+  }
+ ]
+}

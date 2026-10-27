@@ -1,0 +1,46 @@
+{
+ "id": "NRC:ML26294A040",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000289",
+ "title": "Crane Clean Energy Center / TMI-1 (Constellation restart): Crane Clean Energy Center - Fixed Fee Caps for Ongoing Licensing Actions [['E-Mail']]",
+ "filed": "2026-10-26",
+ "entity": [
+  "NRC/NRR/DDLP/DLP1/ORLB3"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2629/ML26294A040.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26294A040.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Crane Clean Energy Center / TMI-1 (Constellation restart)",
+  "accession": "ML26294A040",
+  "document_date": "2026-09-29"
+ },
+ "collected_at": "2026-10-27T05:35:17Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "emergency",
+  "nuclear"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26294A040.pdf",
+   "name": null,
+   "bytes": 124057,
+   "sha256": "5e6bf8b48cd5ab598086194a492534dc48a44a24a6e47617539c4b892e9583e9",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:            Justin Poole\nTo:              ext_Dennis_Moore; ext_Christian_Williams\nCc:              Ilka Berrios; Brent Ballard\nSubject:         Crane Clean Energy Center – Fixed Fee Caps for Ongoing Licensing Actions\nDate:            Tuesday, September 29, 2026 8:47:44 AM\n\n\n\nDennis,\n\nIn accordance with 10 CFR 170.33, which becomes effective on October 1, 2026, this communication\nestablishes the fixed cap on service fees (fixed fee cap) for the Constellation Energy Generation, LLC\n(CEG) licensing actions for the Christopher M. Crane Clean Energy Center listed in the table below.\nThe table lists the fixed fee caps for the NRC’s review of ongoing licensing actions that have been\naccepted for review that will be within the scope of 10 CFR 170.33. Fixed fee caps for other licensing\nactions, such as those currently under acceptance review, will be communicated by separate\ncorrespondence. The NRC considered various factors when establishing these fixed fee caps, such as\nthe quality and complexity of the application, technology type, and any pre-application engagement.\nThe Professional Hourly Rate established at 10 CFR 170.20(a) applies to these licensing actions.\n\nApplication Date     Acceptance            EPID                                             Fixed Fee\n(ADAMS               Date                                                                   Cap\nAccession No.)\n 11/19/2024           12/20/2024            L-2024-LLE-0031, TMI-1/Crane Exemption to    $121,000.00\n(ML24324A048)                              50.82(a)(2) to Support Restart\n7/31/2025            9/4/2025              L-2025-LLA-0123, License Amendment to         $263,000.00\n(ML25212A076)                              Restore Operating License and Technical\n                                           Specifications\n 10/24/2025           12/2/2025             L-2025-LLA-0161, LAR to Revise Security Plan $132,000.00\n(ML25300A118)                              to Support Restart\n 10/31/2025           12/9/2025             L-2025-LLA-0162, License Amendment to        $189,000.00\n(ML25304A097)                              Restore Emergency Plan to Support Potential\n                                           Restart\n\nThe fixed fee cap represents the maximum amount that the NRC may charge for service fees for each\nof the requested licensing actions following acceptance of the complete application. The fixed fee cap\nwill not be increased except in instances of applicant failure, as defined in 10 CFR 170.3. If applicant\nfailure occurs, the NRC will notify CEG in writing of the new fixed fee cap, which will be set at the\nlowest practicable amount determined by the NRC to account for the applicant failure and complete\nthe review.\n\nFor each licensing action, the NRC will track service fees against the fixed fee cap beginning on the\nacceptance date listed above.  \n\nDisputes associated with a fixed fee cap must be submitted in accordance with 10 CFR 15.31 and\n170.33(f) and NRC Form 529 procedures. If you have any questions, please contact me.\n\fJustin C. Poole\nSr. Project Manager\nPalisades, Crane, Duane Arnold Restart\nNRR/DLP-1/ORLB 3\nU.S. Nuclear Regulatory Commission\n(301)415-2048\n\f"
+  }
+ ]
+}

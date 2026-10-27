@@ -1,0 +1,27 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/miso-large-load-lars-ferc-google-oms/849887/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Clean energy groups, states oppose MISO’s large load-generation study plan",
+ "filed": "2026-10-26",
+ "url": "https://www.utilitydive.com/news/miso-large-load-lars-ferc-google-oms/849887/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      The grid operator&rsquo;s&nbsp;proposed fast-track for colocated load and generation lacks ratepayer protections and favors vertically integrated utilities over independent power producers, critics said. Utilities, including Duke and Entergy subsidiaries, voiced support for it. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-27T05:19:54Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "large load",
+  "ratepayer protection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149724",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "NERC Trustees Approve Large Loads Standards in Special Meeting",
+ "filed": "2026-10-26",
+ "url": "//www.rtoinsider.com/149724-nerc-trustees-approve-large-loads-standards/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " NERC's board agreed to send five new standards addressing computational loads to FERC for final approval. \n The post  NERC Trustees Approve Large Loads Standards in Special Meeting  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-27T05:19:54Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,24 @@
+{
+ "id": "NMDKT:26-0000185",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "keyword_hit",
+ "docket": "26-0000185",
+ "title": "IN THE MATTER OF AN INQUIRY INTO EL PASO ELECTRIC COMPANY’S EDDY TIE, PUBLIC SERVICE COMPANY OF NEW MEXICO’S BLACKWATER TIE, AND SOUTHWEST POWER POOL’S WESTERN AND EASTERN INTERCONNECTION CAPACITY EXPANSION HIGH-PRIORITY STUDY",
+ "filed": "2026-10-26",
+ "entity": "PUBLIC REGULATION COMMISSION",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+ "fetch": [],
+ "meta": {
+  "new_docket": true,
+  "category": "Investigation/Show Cause",
+  "type": "Utility"
+ },
+ "collected_at": "2026-10-27T05:13:23Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

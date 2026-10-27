@@ -1,0 +1,36 @@
+{
+ "id": "NRC:ML26273A418",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000617",
+ "title": "Holtec Pioneer 2 (SMR-300 at Palisades): Enclosure II: Pioneer Units 1 and 2 Preliminary Safety Analysis Report Redacted Version (Non-Proprietary) [['Preliminary Safety Analysis Report (PSAR)']]",
+ "filed": "2026-10-26",
+ "entity": [
+  "Holtec International",
+  "SMR, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2627/ML26273A418.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26273A418.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Holtec Pioneer 2 (SMR-300 at Palisades)",
+  "accession": "ML26273A418",
+  "document_date": "2026-09-30"
+ },
+ "collected_at": "2026-10-27T05:35:22Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "SMR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2627/ML26273A418.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2627/ML26273A418.pdf"
+  }
+ ]
+}

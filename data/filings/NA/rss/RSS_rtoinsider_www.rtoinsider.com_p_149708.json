@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149708",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "LaCerte Lauds Southeast, Decries Politics-driven Energy Decisions",
+ "filed": "2026-10-27",
+ "url": "//www.rtoinsider.com/149708-lacerte-lauds-southeast-decries-politics-energy-decisions/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Speaking before a conference of energy traders, FERC Commissioner David LaCerte praised the Southeastern states for enabling infrastructure and data center buildout while criticizing New England and Texas for making decisions based on politics. \n The post  LaCerte Lauds Southeast, Decries Politics-driven Energy Decisions  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-27T05:19:54Z",
+ "run_id": "2026-10-27-0512",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}
