@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149914",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "PG&E Data Center Applications Increase, Completed Projects Lag",
+ "filed": "2026-10-27",
+ "url": "//www.rtoinsider.com/149914-pge-data-center-applications-increase-completed-projects-not-as-substantial/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Pacific Gas and Electric continues to add new data centers to its project queue, but the number of facilities coming online in the past two years has been lighter than one might think. \n The post  PG&#038;E Data Center Applications Increase, Completed Projects Lag  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-28T05:25:49Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "data center",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}

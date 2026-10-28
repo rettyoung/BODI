@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26282A966",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000331",
+ "title": "Duane Arnold (NextEra restart): Memo from K. Conway, NRR, to S. Koenick, NRR - Meeting Summary of 10-5-26 between NRC and Flandreau Santee Sioux Tribe Regarding the Potential Reauthorization of Power Operations at Duane Arnold Energy Center [['Meeting Summary', 'Memoranda']]",
+ "filed": "2026-10-27",
+ "entity": [
+  "NRC/NMSS/DDNMUDFR/DECAF/RDB"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26282A966.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A966.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Duane Arnold (NextEra restart)",
+  "accession": "ML26282A966",
+  "document_date": "2026-10-19"
+ },
+ "collected_at": "2026-10-28T05:40:58Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26282A966.pdf",
+   "name": null,
+   "bytes": 176691,
+   "sha256": "9edc073bc44e2bfe470cabc414c0d789891e558d143f508bd06fe634c8167733",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "                                  UNITED STATES\n                          NUCLEAR REGULATORY COMMISSION\n                             WASHINGTON, D.C. 20555-0001\n\n\n                                       October 19, 2026\n\n\nMEMORANDUM TO:               Stephen S. Koenick, Chief\n                             License Renewal Environmental Branch\n                             Division of Licensing Projects II\n                             Office of Nuclear Reactor Regulation\n\n\n\n\nFROM:                        Kim Conway, Senior Project Manager                    Signed by Kim Conway on\n                                                                                                 10/19/26\n                             Reactor Decommissioning Branch\n                             Division of Decommissioning, Closure, Analysis,\n                              and Financial Oversight\n                             Office of Nuclear Material Safety and Safeguards\n\nSUBJECT:                     MEETING SUMMARY BETWEEN THE U.S. NUCLEAR\n                             REGULATORY COMMISSION AND THE FLANDREAU SANTEE\n                             SIOUX TRIBE REGARDING THE POTENTIAL\n                             REAUTHORIZATION OF POWER OPERATIONS AT DUANE\n                             ARNOLD ENERGY CENTER (EPID NUMBER: L-2025-LNE-0009)\n                             (DOCKET NUMBER: 50-331)\n\nOn October 5, 2026, U.S. Nuclear Regulatory Commission (NRC) staff held a virtual\ninformational meeting with the Assistant Tribal Historic Preservation Officer (THPO) for the\nFlandreau Santee Sioux Tribe. The purpose of the meeting was to provide an overview of the\nNRC’s National Environmental Policy Act of 1969, as amended (NEPA), and Section 106\nNational Historic Preservation Act of 1966, as amended (NHPA), review processes and final\ndeterminations regarding the proposed reauthorization of power operations at Duane Arnold\nEnergy Center (DAEC) in Palo, Iowa. This staff-level information session offered the Tribal\nrepresentative an opportunity to discuss the submitted licensing and regulatory requests, the\nNRC’s Section 106 analysis, determination, and findings, and to ask questions of NRC staff.\nThe meeting was not recorded, transcribed, or open to the public.\n\n\nCONTACT:      Jennifer Davis, OAR/ARERB\n              301-415-3835\n\fS. Koenick                                     -2-\n\n\nThe meeting began with introductions, followed by an overview of the NRC’s environmental\nreview and NHPA Section 106 process for the proposed DAEC restart project. As part of this\noverview, the NRC staff described the defined area of potential effects (APE) for the Section\n106 undertaking and summarized historic and cultural resource surveys conducted within the\nAPE since the issuance of the NRC’s 2010 supplemental environmental impact statement for\ninitial license renewal for DAEC (NUREG-1437, Supplement 42). The presentation also included\na review of historic aerial imagery and Iowa state LiDAR imaging for the DAEC site and\nsurrounding region. The meeting concluded with a timeline of next steps in the environmental\nreview and upcoming and future potential licensing actions at DAEC.\n\nThe Assistant THPO inquired about onsite waste management, historic and cultural resources\nonsite and within a 6-mile radius of the DAEC site, and ecological information and surveys from\nthe Wickiup Hill Natural Area.\n\nThe meeting concluded with an acknowledgement that the Tribe would follow up with their\ninternal staff and the applicant (NextEra Energy Duane Arnold, LLC) and may have more\nquestions, concerns, or information to share at a future date. The NRC staff reiterated its\navailability to answer questions and meet at any point during this review.\n\fS. Koenick                                     -3-\n\n\n\nLIST OF ATTENDEES\n\nU.S. Nuclear Regulatory Commission\nSteve Koenick, Environmental Branch Chief\nKim Conway, Senior Project Manager\nJennifer Davis, Senior Environmental Project Manager, Archaeologist\nKevin Folk, Senior Environmental Project Manager\n\nFlandreau Santee Sioux Tribe\nSara Childers, Assistant Tribal Historic Preservation Officer\n\nPacific Northwest National Laboratory\nCyler Conrad, Pacific Northwest National Laboratory Team Lead and Archaeologist\n\fS. Koenick                                  -4-\n\n\nSUBJECT:     MEETING SUMMARY BETWEEN THE U.S. NUCLEAR REGULATORY\n             COMMISSION AND THE FLANDREAU SANTEE SIOUX TRIBE REGARDING\n             THE POTENTIAL REAUTHORIZATION OF POWER OPERATIONS AT DUANE\n             ARNOLD ENERGY CENTER (EPID NUMBER: L-2025-LNE-0009) (DOCKET\n             NUMBER: 50-331)\n\n\nDATED:       October 19, 2026\n\nDISTRIBUTION\nPUBLIC\nRidsNrrDlp1Orlb3\nRidsNrrPMDuaneArnold Resource\nRidsNmssRefs Resource\nRidsNmssDuwpRdb Resource\nRidsRgn3MailCenter Resource\nRidsOgcMailCenter Resource\nS. Burnell, HQ/OPA\nC. Wolf, OCA\nC. Conrad, PNNL (Cyler.N.Conrad@pnnl.gov)\n\n\n\nADAMS Accession No.\nPackage: ML26282A956\nMain: ML26282A966\ne-Concurrence Case: 20261009-02828\n\f"
+  }
+ ]
+}

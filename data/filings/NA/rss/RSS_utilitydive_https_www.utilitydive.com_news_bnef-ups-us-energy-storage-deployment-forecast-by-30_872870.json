@@ -1,0 +1,26 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/bnef-ups-us-energy-storage-deployment-forecast-by-30/872870/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "BNEF ups US energy storage deployment forecast by 30%",
+ "filed": "2026-10-27",
+ "url": "https://www.utilitydive.com/news/bnef-ups-us-energy-storage-deployment-forecast-by-30/872870/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": " Hyperscalers&rsquo; interest in on-site and nearby energy storage has converted into firm orders this year, the global energy consultancy said last week in its latest industry outlook. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-28T05:25:49Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261027-5076",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-10676",
+ "title": "CRP MA Red Bridge, LLC resubmits Site-Specific Probable Maximum Precipitation Study re the Red Bridge Hydroelectric Project under P-10676.",
+ "filed": "2026-10-27",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261027-5076",
+ "entity": "CRP MA RED BRIDGE LLC",
+ "fetch": [
+  {
+   "ferc_file": "97870BBA-038D-C611-92C5-A17E6EA00000",
+   "name": "Red Bridge Dam Final PMP Report_Part1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "39C4C3D9-4301-C0EE-9A93-A17E6EA00000",
+   "name": "Red Bridge Dam Final PMP Report_Part2.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "FA6B6FB0-43FF-CE0D-8A7F-A17E6EB00000",
+   "name": "Red Bridge Dam Final PMP Report_Part3.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "65594FB3-682E-C542-900B-A17E6EB00000",
+   "name": "Red Bridge Dam Final PMP Report_Part4.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Dam Safety Compliance Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-27"
+ },
+ "collected_at": "2026-10-28T05:44:00Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '97870BBA-038D-C611-92C5-A17E6EA00000', 'name': 'Red Bridge Dam Final PMP Report_Part1.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '39C4C3D9-4301-C0EE-9A93-A17E6EA00000', 'name': 'Red Bridge Dam Final PMP Report_Part2.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'FA6B6FB0-43FF-CE0D-8A7F-A17E6EB00000', 'name': 'Red Bridge Dam Final PMP Report_Part3.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '65594FB3-682E-C542-900B-A17E6EB00000', 'name': 'Red Bridge Dam Final PMP Report_Part4.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

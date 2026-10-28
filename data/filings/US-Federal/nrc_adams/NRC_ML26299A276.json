@@ -1,0 +1,35 @@
+{
+ "id": "NRC:ML26299A276",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): Palisades Nuclear Plant, Report of Changes to Palisades Nuclear Plant Security Plan, Revision 22 [['Letter']]",
+ "filed": "2026-10-27",
+ "entity": [
+  "Holtec Palisades, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2629/ML26299A276.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26299A276.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26299A276",
+  "document_date": "2026-10-21"
+ },
+ "collected_at": "2026-10-28T05:40:55Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2629/ML26299A276.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2629/ML26299A276.pdf"
+  }
+ ]
+}

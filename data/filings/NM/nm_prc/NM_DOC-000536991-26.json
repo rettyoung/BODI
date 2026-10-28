@@ -1,0 +1,44 @@
+{
+ "id": "NM:DOC-000536991-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "Motion to file testimony out of time. [Motion]",
+ "filed": "2026-10-27",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "a648f1f0-63cd-4cc5-83f0-b4f00142a1a9",
+   "name": "DOC-000536991-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000536991-26",
+  "filed_by": "Mark Ellis",
+  "document_type": "Motion",
+  "source": "Online"
+ },
+ "collected_at": "2026-10-28T05:19:19Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [],
+ "party_hits": [
+  "Walmart"
+ ],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000536991-26",
+   "name": "DOC-000536991-26",
+   "bytes": 124026,
+   "sha256": "db12eb32255d0f8fa60b5c0f6992e37312c008702ed772561c9823eefcabf34c",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n\nIN THE MATTER OF THE APPLICATION OF                                       )\n                                                                          ) Docket No. 25-00082-UT\nEL PASO ELECTRIC COMPANY BEFORE FOR REVISION                              )\nOF ITS RETAIL ELECTRIC RATES PURSUANT                                     )\n                                                                          )\nTO ADVICE NOTICE NO. 317\n\n\n\n\n             Stephen Fischmann’s Motion to File Testimony Out of Time\n\n Pursuant to 1.2.2.12 NMAC Stephen Fischmann requests the Commission to allow him to file\n\n the Testimony of Joel Hornstein and Mark Ellis on behalf of Pro Se intervenor Stephen\n\n Fischmann out of time. In support of this Motion Mr. Fischmann states as follows:\n\n\n    1. Mr. Fischmann and witnesses inadvertently missed the filing deadline because of\n\n        miscommunication over who would make the filing on the E 360 system.\n\n    2. No party is prejudiced by granting this Motion.\n\n    3. Unique and important data and perspectives important to the public interest are presented\n\n        in this testimony.\n\n    4. The positions of the parties are as follows: Support: City of Las Cruces, Dona Ana County,\n\n        CCAE, WRA, Phil Simpson, Dwight Eggers; Do not Oppose: EPE, DoD/FEA, Staff,\n\n        Walmart; Oppose: None.\n\n\n\n\n Wherefore, for the reasons stated herein, Stephen Fischmann respectfully requests the\n\n Commission to allow Mr. Fischmann to file the Testimony of Joel Hornstein and Mark Ellis on\n\n his behalf out of time and for such other relief as is just and reasonable.\n\n\n Respectfully submitted this 26th day of October 2026.\n\f/s/ Stephen Fischmann\n4848 Deadwood Camp Court\nLas Cruces, NM 88011\n505 273 4956\nStephen.fischmann@gmail.com\n\f"
+  }
+ ]
+}

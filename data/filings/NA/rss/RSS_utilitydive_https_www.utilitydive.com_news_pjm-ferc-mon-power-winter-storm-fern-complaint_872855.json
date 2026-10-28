@@ -1,0 +1,26 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/pjm-ferc-mon-power-winter-storm-fern-complaint/872855/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM urges FERC to dismiss Mon Power ‘fishing expedition’ seeking to recoup $145M",
+ "filed": "2026-10-27",
+ "url": "https://www.utilitydive.com/news/pjm-ferc-mon-power-winter-storm-fern-complaint/872855/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": " FirstEnergy&rsquo;s Monongahela Power contends that the PJM Interconnection&rsquo;s advanced scheduling of gas-fired power plants during Winter Storm Fern may have violated the grid operator&rsquo;s rules. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-28T05:25:49Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

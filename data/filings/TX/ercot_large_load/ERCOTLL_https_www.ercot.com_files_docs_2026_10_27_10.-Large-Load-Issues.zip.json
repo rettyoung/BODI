@@ -1,0 +1,45 @@
+{
+ "id": "ERCOTLL:https://www.ercot.com/files/docs/2026/10/27/10.-Large-Load-Issues.zip",
+ "jur": "TX",
+ "source": "ercot_large_load",
+ "kind": "report",
+ "docket": null,
+ "title": "ERCOT — 10. Large Load Issues",
+ "filed": "2026-10-28",
+ "url": "https://www.ercot.com/files/docs/2026/10/27/10.-Large-Load-Issues.zip",
+ "entity": "ERCOT",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/10/27/10.-Large-Load-Issues.zip"
+  }
+ ],
+ "meta": {
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/calendar/10282026-TAC-Meeting",
+  "postprocess": "ercot_ll_table",
+  "table_rows": [],
+  "table_metrics": {},
+  "summary": "",
+  "ocr": false
+ },
+ "collected_at": "2026-10-28T05:40:24Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/files/docs/2026/10/27/10.-Large-Load-Issues.zip",
+   "name": null,
+   "bytes": 2853998,
+   "sha256": "5838a95666b9e4745c5f2fcf0e57d9651873cd01985c55f7e02ec6b547eb8e8c",
+   "ctype": "application/zip",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  }
+ ]
+}

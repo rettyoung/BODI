@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149906",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "ISO-NE Stakeholders Debate Treatment of Large Loads",
+ "filed": "2026-10-27",
+ "url": "//www.rtoinsider.com/149906-iso-ne-stakeholders-debate-large-load-design/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Prior to an upcoming vote on ISO-NE’s proposed large load tariff changes, substantial disagreements remain about the RTO’s proposed price-based curtailment method for flexible large loads. \n The post  ISO-NE Stakeholders Debate Treatment of Large Loads  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-28T05:25:49Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "curtailment",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

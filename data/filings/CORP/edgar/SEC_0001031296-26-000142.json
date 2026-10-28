@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001031296-26-000142",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "FIRSTENERGY CORP  (FE)  (CIK 0001031296) 8-K — full-text hit \"co-location\" FERC",
+ "filed": "2026-10-27",
+ "url": "https://www.sec.gov/Archives/edgar/data/1031296/000103129626000142/",
+ "entity": "FIRSTENERGY CORP  (FE)  (CIK 0001031296)",
+ "fetch": [],
+ "meta": {
+  "query": "\"co-location\" FERC",
+  "form": "8-K"
+ },
+ "collected_at": "2026-10-28T05:48:39Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

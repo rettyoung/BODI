@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20261026-5175",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC27-9",
+ "title": "Joint Application for Authorization Under Section 203 of the Federal Power Act of Genesee Power Station Limited Partnership, et al. under EC27-9.",
+ "filed": "2026-10-26",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261026-5175",
+ "entity": "Genesee Power Station Limited Partnership; Grayling Generating Station Limited Partnership",
+ "fetch": [
+  {
+   "ferc_file": "B769638C-34B3-CA98-9988-A17F1BE00000",
+   "name": "Genesee and Grayling FPA 203 Application (CUI-PRIV).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Disposition of Facilities Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-26"
+ },
+ "collected_at": "2026-10-28T05:44:03Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'B769638C-34B3-CA98-9988-A17F1BE00000', 'name': 'Genesee and Grayling FPA 203 Application (CUI-PRIV).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

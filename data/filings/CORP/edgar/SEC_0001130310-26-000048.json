@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001130310-26-000048",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "CENTERPOINT ENERGY INC  (CNP)  (CIK 0001130310), CENTERPOINT ENERGY HOUSTON ELECTRIC LLC  (CIK 0000048732) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-10-27",
+ "url": "https://www.sec.gov/Archives/edgar/data/1130310/000113031026000048/",
+ "entity": "CENTERPOINT ENERGY INC  (CNP)  (CIK 0001130310), CENTERPOINT ENERGY HOUSTON ELECTRIC LLC  (CIK 0000048732)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-10-28T05:48:39Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

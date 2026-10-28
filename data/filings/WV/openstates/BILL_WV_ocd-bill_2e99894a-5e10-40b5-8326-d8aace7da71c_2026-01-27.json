@@ -1,0 +1,23 @@
+{
+ "id": "BILL:WV:ocd-bill/2e99894a-5e10-40b5-8326-d8aace7da71c:2026-01-27",
+ "jur": "WV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 623",
+ "title": "Establishing economic incentives for data centers to locate within WV",
+ "filed": "2026-01-27",
+ "url": "https://openstates.org/wv/bills/2026/SB623/",
+ "fetch": [],
+ "meta": {
+  "session": "2026",
+  "latest_action": "To Economic Development",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-28T05:35:05Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

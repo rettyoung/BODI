@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149915",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Brattle, ESIG Drill Down on Large Loads’ Effect on Rates",
+ "filed": "2026-10-27",
+ "url": "//www.rtoinsider.com/149915-brattle-esig-report-assesses-large-loads-rate-impact/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The authors conclude grid headroom, market structure, load forecast accuracy, tariff structure and cost allocation each have bearing on whether existing customers see rate increases or decreases after the new load comes online. \n The post  Brattle, ESIG Drill Down on Large Loads’ Effect on Rates  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-28T05:25:49Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "cost allocation",
+  "large load",
+  "load forecast"
+ ],
+ "party_hits": [],
+ "documents": []
+}

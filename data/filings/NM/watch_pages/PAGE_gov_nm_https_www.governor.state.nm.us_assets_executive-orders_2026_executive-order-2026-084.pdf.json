@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-084.pdf",
+ "jur": "NM",
+ "source": "page:gov_nm",
+ "kind": "news",
+ "docket": null,
+ "title": "Executive Order 2026-084",
+ "filed": null,
+ "url": "https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-084.pdf",
+ "fetch": [
+  {
+   "url": "https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-084.pdf"
+  }
+ ],
+ "meta": {
+  "bkey": "page:gov_nm",
+  "rto": null,
+  "page": "https://www.governor.state.nm.us/about-the-governor/executive-orders/",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-28T05:24:21Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-084.pdf",
+   "name": null,
+   "bytes": 733650,
+   "sha256": "a80ac1c90f3378e795321e11a01595dee4451f4ce52bdca691a9dfdd719d25d1",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                                      State of New Mexico\nMichelle Lujan Grisham\n       Governor\n\n\n\n\n                                      EXECUTIVE ORDER 2026-084\n\n              AUTHORIZING ADDITIONAL EMERGENCY FUNDS FOR THE\n        DEPARTMENT OF HOMELAND SECURITY AND EMERGENCY MANAGEMENT\n                     DUE TO FLOODING ACROSS NEW MEXCO\n\n               WHEREAS, heavy rainfall has resulted in flooding and flash flooding in multiple areas of\n\n      New Mexico, and additional rainfall is forecast to create continued flooding conditions across the\n\n      State;\n\n               WHEREAS, flooding has damaged public infrastructure, disrupted transportation routes,\n\n      threatened homes and businesses, and endangered public health and safety;\n\n               WHEREAS, local emergency response agencies have committed substantial resources to\n\n      flooding response operations;\n\n               WHEREAS, flooding conditions may continue to develop in additional communities,\n\n      requiring rapid deployment of State resources; and\n\n               WHEREAS, this disaster is of such magnitude as to be beyond local control and requires\n\n      the resources of the State of New Mexico to minimize economic and physical harm and to take\n\n      actions necessary to protect the public health, safety, and welfare;\n\n               WHEREAS, I initially declared a state of emergency due to flooding across New Mexico\n\n      on July 23, 2026, and released emergency funding to the Department of Homeland Security and\n\n      Emergency Management and the New Mexico National Guard; and\n\n\n\n           State Capitol    •    Room 400     •   Santa Fe, New Mexico 87501      •   505-476-2200\n\f\f\f"
+  }
+ ]
+}

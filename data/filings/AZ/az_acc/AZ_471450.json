@@ -1,0 +1,29 @@
+{
+ "id": "AZ:471450",
+ "jur": "AZ",
+ "source": "az_acc",
+ "kind": "filing",
+ "docket": "E-01345A-25-0105",
+ "title": "Utilities Division Response",
+ "filed": "2026-10-27",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+ "entity": "Maureen A. Scott, Senior Associate General Counsel and Chief of Litigation & Appeals",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000055270.pdf"
+  }
+ ],
+ "meta": {
+  "docketID": 29551
+ },
+ "collected_at": "2026-10-28T05:49:31Z",
+ "run_id": "2026-10-28-0518",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000055270.pdf",
+   "error": "blocked: robots.txt disallows https://images.edocket.azcc.gov/docketpdf/E000055270.pdf (SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V)"
+  }
+ ]
+}
