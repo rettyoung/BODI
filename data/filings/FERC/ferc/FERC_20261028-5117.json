@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261028-5117",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Janet L Rhodes in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/28/2026\n",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-5117",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "9DB59E4A-A695-CB13-90C8-A183C5500000",
+   "name": "151897.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:50:25Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151897.txt",
+   "bytes": 2507,
+   "sha256": "3e516fd4d7bdfd210ff42f0ceb1bc3e812ed2fecfb5ed7f7c7114789c885bc60",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJanet L Rhodes, Temecula, CA.\nPlease stop DeepGreen's underwater data center.\r\n\r\nThe proposed project would span 1,400-1,650 offshore acres near Nikiski, including up to 350 tidal turbines, 66 subsea data-center pods, and a 3.5-mile underwater sea cable.\r\nBeluga whales are already competing with commercial shipping, port and coastal development, oil and gas exploration and production, and other anthropogenic activities, like fishing.\r\nThere are only an estimated 331 beluga whales left in the Cook Inlet; a 75% decline from their historic population of about 1,300 in 1979.\r\nThat's where National Oceanic and Atmospheric Administration (NOAA) designates 7,800 sq kilometers as beluga’s ‘critical habitat.’\r\nBelugas are among NOAA’s marine species at greatest near-term extinction risk.\r\nA study published in Frontiers found that thermal discharge from power plants can alter oxygen and pH levels and sediment composition, which ultimately reduces the number and variety of creatures that live nearby and on the seabed.\r\nThese cumulative impacts coalescing is what spells trouble. NOAA identifies “cumulative and synergistic stressors\" as a \"high-concern threat\" to beluga recovery.\r\nAdditionally,beluga whales are echolocators, meaning they use a biological sonar system to “see” in Cook Inlet’s dark, icy waters. They rely on sound to communicate, navigate, find food, and detect danger, making underwater noise a serious concern for their survival and recovery.\r\n\r\nDeepGreen’s proposed project could contribute to hearing impairment, separation of family groups, loss of prey or habitat, disruption of biologically important feeding and mating areas, physical injury, and behavioral changes. We cannot afford to make an already challenging environment even harsher for these belugas.\r\n\r\nIn a five-year review, NOAA actually reported that several anthropogenic noise sources were found at levels with the potential to chronically mask beluga communication and hearing, and that shipping and dredging sounds exceeded behavioral-harassment levels daily in some monitored settings.\r\n\r\nAnd that was found before a 100-megawatt data center right in the middle of their critical habitat was proposed.\r\n\r\nAnd for a species like the beluga, with only an estimated 331 remaining in the Cook Inlet, the loss of even one Cook Inlet beluga whale should be considered devastating to the current population, as well as to the recovery of this magnificent species.\r\n\r\nThanks for your time.\r\n\r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "SEC:0001101239-26-000178",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Equinix 8-K 8-K items 2.02,9.01",
+ "filed": "2026-10-28",
+ "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000178/",
+ "entity": "Equinix",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000178/eqix-20261028.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "9.01"
+  ],
+  "cik": "0001101239",
+  "market_participant": true
+ },
+ "collected_at": "2026-10-29T05:55:23Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [],
+ "party_hits": [
+  "Equinix"
+ ],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000178/eqix-20261028.htm",
+   "name": null,
+   "bytes": 45335,
+   "sha256": "6a9cc898adddc070d7a35d625ad7487150f9de9a9e86d87412b60cdba9a00194",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "eqix-20261028\n0001101239\nfalse\n0001101239\n2026-10-28\n2026-10-28\n0001101239\nus-gaap:CommonClassAMember\n2026-10-28\n2026-10-28\n0001101239\neqix:ZeroPointTwoFiveZeroSeniorNotesDueTwoThousandTwentySevenMember\n2026-10-28\n2026-10-28\n0001101239\neqix:ThreePointTwoFiveZeroSeniorNotesDueTwentyTwentyNineMember\n2026-10-28\n2026-10-28\n0001101239\neqix:ThreePointTwoFiveZeroSeniorNotesDueTwoThousandThirtyOneMember\n2026-10-28\n2026-10-28\n0001101239\neqix:OnePointZeroZeroZeroSeniorNotesDueTwoThousandThirtyThreeMember\n2026-10-28\n2026-10-28\n0001101239\neqix:ThreePointSixFiveZeroSeniorNotesDueTwoThousandThirtyThreeMember\n2026-10-28\n2026-10-28\n0001101239\neqix:FourPointZeroSeniorNotesDueTwentyThirtyFourMember\n2026-10-28\n2026-10-28\n0001101239\neqix:ThreePointSixTwoFiveSeniorNotesDueTwoThousandThirtyFourMember\n2026-10-28\n2026-10-28\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, DC 20549\n\nFORM \n8-K\n\nCURRENT REPORT\nPursuant to Section 13 or 15(d) of the\nSecurities Exchange Act of 1934\nDate of report (Date of earliest event reported): \nOctober 28, 2026\nEQUINIX, INC.\n(Exact Name of Registrant as Specified in Charter)\n\nDelaware\n001-40205\n77-0487526\n(State or Other Jurisdiction\nof Incorporation)\n(Commission\nFile Number)\n(I.R.S. Employer\nIdentification No.)\n\nOne Lagoon Drive\nRedwood City,\n\nCA\n\n94065\n(Address of Principal Executive Offices, and Zip Code)\n\n(\n650\n) \n598-6000\nRegistrant’s Telephone Number, Including Area Code\n(Former Name or Former Address, if Changed Since Last Report)\n\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (\nsee\n General Instruction A.2. below):\n\n☐\nWritten communication pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n☐\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n\n☐\nPre-commencement communication pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n\n☐\nPre-commencement communication pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\nTitle of each class\nTrading Symbol(s)\nName of each exchange on which registered\nCommon stock, par value $0.001 per share\n\nEQIX\nThe Nasdaq Stock Market LLC\n0.250% Senior Notes due 2027\nThe Nasdaq Stock Market LLC\n3.250% Senior Notes due 2029\nThe Nasdaq Stock Market LLC\n3.250% Senior Notes due 2031\nThe Nasdaq Stock Market LLC\n1.000% Senior Notes due 2033\nThe Nasdaq Stock Market LLC\n3.650% Senior Notes due 2033\nThe Nasdaq Stock Market LLC\n4.000% Senior Notes due 2034\nThe Nasdaq Stock Market LLC\n3.625% Senior Notes due 2034\nThe Nasdaq Stock Market LLC\n\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).\nEmerging growth company \n☐\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \n☐\n\nItem 2.02. Results of Operations and Financial Condition\nOn October 28, 2026, Equinix, Inc. (“Equinix”) issued a press release and will hold a conference call regarding its financial results for the third quarter ended September 30, 2026. A copy of the press release is furnished as Exhibit 99.1 to this report.\nThis information shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as shall be expressly set forth by specific reference in such a filing.\nEquinix is making reference to certain non-GAAP financial information in both the press release and the conference call. A reconciliation of these non-GAAP financial measures to the comparable GAAP financial measures is contained in the attached press release.\nItem 9.01\nFinancial Statements and Exhibits. \n(d) Exhibits \nExhibit No.\nDescription\n99.1\nPress Release of Equinix, Inc. dated October 28, 2026.\n104\nCover Page Interactive Data File - the cover page iXBRL tags are embedded within the Inline XBRL document\nSIGNATURES\n    Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.\nEQUINIX, INC.\nDATE:  October 28, 2026\nBy: \n/s/ Olivier Leonetti                    \n      Olivier Leonetti\n      Chief Financial Officer"
+  }
+ ]
+}

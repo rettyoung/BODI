@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261028-5051",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of MARGARET MCGINNIS in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/28/2026\n",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-5051",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "E3F2AD89-E432-CB96-905D-A182E4D00000",
+   "name": "151866.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:50:22Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151866.txt",
+   "bytes": 1690,
+   "sha256": "b19375a6d9425cd18f3b018429b8a2ed64a9e96aaea7a696f79e813e946d7154",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nMARGARET MCGINNIS, Hull, MA.\nI am writing to express my opposition to the proposed DeepGreen's massive, 100-megawatt underwater AI data center project right in the Alaska Cook Inlet where beluga whales live.   This proposal is shocking in of itself - an underwater data center?\r\n\r\nBeluga whales are echolocators, meaning they use a biological sonar system to “see” in Cook Inlet’s dark, icy waters. They rely on sound to communicate, navigate, find food, and detect danger, making underwater noise a serious concern for their survival and recovery.\r\n\r\n\r\nDeepGreen’s proposed project could contribute to hearing impairment, separation of family groups, loss of prey or habitat, disruption of biologically important feeding and mating areas, physical injury, and behavioral changes. We cannot afford to make an already challenging environment even harsher for these belugas.\r\n\r\n\r\nIn a five-year review, NOAA actually reported that several anthropogenic noise sources were found at levels with the potential to chronically mask beluga communication and hearing, and that shipping and dredging sounds exceeded behavioral-harassment levels daily in some monitored settings.\r\n\r\n\r\nAnd that was found before a 100-megawatt data center right in the middle of their critical habitat was proposed.\r\n\r\n\r\nAnd for a species like the beluga, with only an estimated 331 remaining in the Cook Inlet, the loss of even one Cook Inlet beluga whale should be considered devastating to the current population, as well as to the recovery of this magnificent species.\r\n\r\nPlus, all of the other marine species living in this area.   This project must be scuttled before it even begins.\r\n\r\nThank you.\r\n\r\n"
+  }
+ ]
+}

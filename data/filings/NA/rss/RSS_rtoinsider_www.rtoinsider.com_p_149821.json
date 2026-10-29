@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=149821",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "CAISO Board Approves Large Loads Proposal",
+ "filed": "2026-10-28",
+ "url": "//www.rtoinsider.com/149821-caiso-board-approves-large-loads-proposal/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " CAISO’s Board of Governors approved a large loads proposal designed to accommodate growing artificial intelligence data center demand in the ISO. \n The post  CAISO Board Approves Large Loads Proposal  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-29T05:31:50Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

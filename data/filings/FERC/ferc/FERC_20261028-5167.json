@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261028-5167",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2310",
+ "title": "Pacific Gas and Electric Company submits updated Supporting Technical Information Document, summaries and conclusions of efforts to address FERC's 05/29/2009 comments et al. re the Halsey Afterbay Dam of the Drum-Spaulding Project under P-2310.",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-5167",
+ "entity": "Pacific Gas and Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "FACE12A3-012D-CA95-9357-A1843D300000",
+   "name": "PGE20261028_2310_ HalseyAB_STID_Update_Enc1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "FB63FD23-4568-CEA2-9BEA-A1843D300000",
+   "name": "PGE20261028_2310_ HalseyAB_STID_Update_Enc2.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:49:49Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'FACE12A3-012D-CA95-9357-A1843D300000', 'name': 'PGE20261028_2310_ HalseyAB_STID_Update_Enc1.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'FB63FD23-4568-CEA2-9BEA-A1843D300000', 'name': 'PGE20261028_2310_ HalseyAB_STID_Update_Enc2.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

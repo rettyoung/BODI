@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001021635-26-000036",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "OGE ENERGY CORP.  (OGE)  (CIK 0001021635), OKLAHOMA GAS & ELECTRIC CO  (CIK 0000074145) 10-Q — full-text hit \"co-location\" FERC",
+ "filed": "2026-10-28",
+ "url": "https://www.sec.gov/Archives/edgar/data/1021635/000102163526000036/",
+ "entity": "OGE ENERGY CORP.  (OGE)  (CIK 0001021635), OKLAHOMA GAS & ELECTRIC CO  (CIK 0000074145)",
+ "fetch": [],
+ "meta": {
+  "query": "\"co-location\" FERC",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-10-29T05:55:29Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

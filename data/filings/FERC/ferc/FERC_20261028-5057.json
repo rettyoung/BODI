@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261028-5057",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Diane Kastel in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/28/2026\n",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-5057",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "BC5DF3AB-953C-CB0B-91C5-A18301F00000",
+   "name": "151871.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:49:58Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151871.txt",
+   "bytes": 3298,
+   "sha256": "ff138a562a4d40b28d0279f97fe96aebeac54d445d1ddbabd72fbc676abe51ff",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nDiane Kastel, Wheaton, IL.\nOur family is submitting comments to the FERC\" in opposition of \"DeepGreen\"’s, proposed, project!  Stop your, massive, industrial, project proposed, directly, within beluga whales' critical, habitat!\r\n\r\n\"FERC\" MUST evaluate what this project adds to the belugas, existing, burden; NOT pretend it is being developed in a vacuum!\r\n\r\nFor a species, like the beluga, with, only, an, estimated, 331, remaining in the \"Cook Inlet\", the loss of, even, one, \"Cook Inlet\", beluga whale MUST be considered devastating to the, current, population, as well as to the recovery of this, magnificent, species!\r\n\r\nIn a, five-year, review, \"NOAA\", actually, reported that several, anthropogenic, noise, sources were found at levels with the potential to, chronically, mask, beluga, communication, and, hearing, and, that shipping, and, dredging, sounds exceeded, behavioral-harassment, levels, daily, in, some, monitored, settings!  And, that was found before a, 100-megawatt, data, center right in the middle of their, critical, habitat was proposed!\r\n\r\nBeluga whales are, already, competing with, commercial, shipping, port, and, coastal, development, oil, and, gas, exploration, and, production, and, other, anthropogenic, activities, like fishing.\r\n\r\n\"DeepGreen\"’s, proposed, project would contribute to, hearing, impairment, separation of, family, groups, loss of prey, or, habitat, disruption of, biologically, important, feeding, and, mating, areas, physical, injury, and, behavioral, changes! We cannot afford to make an, already, challenging, environment, even, harsher for these belugas!\r\n\r\nBeluga whales are echolocators, meaning they use a, biological, sonar, system to “see” in \"Cook Inlet\" ’s dark, icy, waters. They rely on sound to communicate, navigate, find food, and, detect danger, making, underwater, noise a, serious, concern for their survival and recovery!\r\n\r\nSTOP \"DeepGreen\"'s, underwater, data, center directly, in, critical, beluga habitat! Alaska’s \"Cook Inlet\" is under threat, along with its remaining, endangered, 331, beluga whales who call it home!\r\n\r\nOur family objects to \"DeepGreen\"'s, a, Delaware-based, company, proposal of a, massive, 100-megawatt, underwater, AI\", data, center project right in the beluga’s home!\r\n\r\nYour, proposed, project would span 1,400-1,650, offshore, acres near Nikiski, including up to, 350, tidal, turbines, 66, subsea, data-center, pods, and, a, 3.5-mile, underwater, sea, cable.\r\n\r\nThere are, only, an, estimated, 331, beluga whales left in the \"Cook Inlet\"; a 75% decline from their, historic, population of about 1,300 in 1979!\r\nThat is where the \"National Oceanic and Atmospheric Administration\" designates 7,800 sq kilometers as beluga’s ‘critical habitat’!\r\n\r\nBelugas are among \"NOAA\"’s, marine, species at, greatest, near-term, extinction, risk!\r\n\r\nA study, published in \"Frontiers\", found that, thermal, discharge, from, power, plants, can alter oxygen, and, pH, levels, and, sediment, composition, which, ultimately, reduces the number, and, variety of creatures that live nearby, and, on the seabed!\r\n\r\nThese, cumulative, impacts coalescing is what spells trouble! \"NOAA\" identifies “cumulative, and, synergistic, stressors\" as a \"high-concern, threat\" to, beluga, recovery!\r\n\r\n\r\n\r\n"
+  }
+ ]
+}

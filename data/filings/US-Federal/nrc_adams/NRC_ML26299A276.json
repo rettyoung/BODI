@@ -29,7 +29,16 @@
  "documents": [
   {
    "url": "https://www.nrc.gov/docs/ML2629/ML26299A276.pdf",
-   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2629/ML26299A276.pdf"
+   "name": null,
+   "bytes": 606077,
+   "sha256": "2a2af44e091c67eb4c55fbbaee303de9d9689d2fc62c1b44459cfc2e55f3c860",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                      SAFEGUARDS INFORMATION\n\n■■■■■                                                       27780 Blue Star Highway, Covert, MI 49043\n\nHOLTEC\nPALISADES\nPNP 2026-029                                                                  10 CFR 50 .54(p )(2)\n\nOctober 21 , 2026\n\nU.S. Nuclear Regulatory Commission\nATTN: Document Control Desk\nWashington, DC 20555-0001\n\n                Palisades Nuclear Plant\n                Docket No. 50-255\n                Renewed Facility Operating License No. DPR-20\n\n\nSubject:        Report of Changes to Palisades Nuclear Plant Security Plan , Revision 22\n\nIn accordance with Title 10 of the Code of Federal Regulations Part 50 (10 CFR 50), Section 54,\nConditions of licenses, paragraph (p)(2), (10 CFR 50.54(p)(2)), Holtec Palisades , LLC (Holtec\nPalisades) hereby submits Revision 22 to the Palisades Nuclear Plant (PNP) Physical Security\nPlan (PSP). The Enclosure contains a description and basis for each change included in PSP\nRevision 21 B. Revision 22 of the PSP is provided as an Attachment to the Enclosure.\n\nThe changes made to the PSP were analyzed as required by 10 CFR 50.54(p)(2) . The analysis\nconcluded that the changes do not decrease the safeguards effectiveness of the PSP.\nAccordingly, this revision is submitted under the provisions of 10 CFR 50.54(p)(2) .\n\nInformation contained in the Enclosure and Attachment to this document has been classified as\nSafeguards information. Therefore, Holtec Palisades requests that this information be withheld\nfrom public disclosure in accordance with 10 CFR 73.22 , Protection of Safeguards Information:\nSpecific Requirements.\n\nThis letter contains no new commitments and no revised commitments.\n\nShould you have any questions or require additional information, please contact me at\n(269) 764-2375.\n\nRespectfully,\n\n                Oigitalty aigned by Kamt J _ M1Uer\n  KamiJ         DN C=US, CN=Kami J. Miller,\n                0-Holtec Pallsades,\n                Ezkrmller1@holtec.com\n  Miller        O1rect0f Regulator;\n                Date · 2028 10.21 15:20:29-04'00'\n\n\n\n\nKami Miller\nDirector, Regulatory\nHoltec Palisades\n\n\nNOTICE: The Enclosure and Attachment to this letter contains \"Safeguards Information.\" Upon\nseparation of the Enclosure and Attachment from this letter this page becomes\n\"DECONTROLLED,\"\n\n                                           SAFEGUARDS INFORMATION\n\f                            SAFEGUARDS INFORMATION\nPNP 2026-029\nPage 2 of 2\n\n\nEnclosure:     Palisades Nuclear Plant Physical Security Plan Change Summary\n\n              Attachment: Palisades Nuclear Plant Physical Security Plan, Revision 22\n\n\ncc:    NRC Region Ill Regional Administrator, without Enclosure and Attachment\n       NRC Senior Resident Inspector - Palisades Nuclear Plant, without Enclosure and\n       Attachment\n       NRC NMSS Project Manager - Palisades Nuclear Plant, without Enclosure and\n       Attachment\n\n\n\n\nNOTICE: The Enclosure and Attachment to this letter contains \"Safeguards Information.\" Upon\nseparation of the Enclosure and Attachment from this letter this page becomes\n\"DECONTROLLED.\"\n\n                        SAFEGUARDS INFORMATION\n\f"
   }
- ]
+ ],
+ "enriched_at": "2026-10-29T05:59:35Z"
 }

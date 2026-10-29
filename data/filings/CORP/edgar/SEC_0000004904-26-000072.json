@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0000004904-26-000072",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "AMERICAN ELECTRIC POWER CO INC  (AEP)  (CIK 0000004904), INDIANA MICHIGAN POWER CO  (CIK 0000050172) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-10-28",
+ "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000072/",
+ "entity": "AMERICAN ELECTRIC POWER CO INC  (AEP)  (CIK 0000004904), INDIANA MICHIGAN POWER CO  (CIK 0000050172)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-10-29T05:55:29Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

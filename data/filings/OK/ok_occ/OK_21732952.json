@@ -1,0 +1,41 @@
+{
+ "id": "OK:21732952",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000046",
+ "title": "OCC PUD2026-000046 document PUD2026-000046_107_Entry_of_Appearance_of_Counsel_filed_on_behalf_of_OKLAHOMA_ATTORNEY_GENERAL (0 pages - 241 KB): CASE PUD 2026-000046 ENTRY NO. 107 FILED IN OCC COURT CLERK'S OFFICE ON 10/28/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN T",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21732952&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21732952&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21732952,
+  "pages": "0 pages - 241 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-10-29T05:57:48Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21732952&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 247212,
+   "sha256": "e35c38092f62dae5dfe3bc36fcdcdc20302b04188e31c38d3abac6d66db8fdde",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "CASE PUD 2026-000046 ENTRY NO. 107 FILED IN OCC COURT CLERK'S OFFICE ON 10/28/2026 - PAGE 1 OF 2\n\n\n\n\n         BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n         IN THE MATTER OF THE APPLICATION OF\n         OKLAHOMA GAS AND ELECTRIC\n         COMPANY FOR AN ORDER OF THE                                     PUD 2026-000046\n         COMMISSION APPROVING ITS NEW EXTRA\n         LARGE LOAD TARIFF AND TERMS AND\n         CONDITIONS OF SERVICE FOR EXTRA\n         LARGE LOAD CUSTOMERS AND A\n         REGULATORY ASSET TO RECOVER COSTS\n         ASSOCIATED WITH PORTFOLIO\n         OPTIMIZATION SOFTWARE\n\n                                 ENTRY OF APPEARANCE OF COUNSEL\n\n                The undersigned counsel, Stefani Cillessen, hereby appears on behalf of Gentner F.\n\n         Drummond, the Attorney General of Oklahoma, in addition to counsel already appearing in this\n\n         case. The Attorney General requests that service of any filings, discovery requests, or discovery\n\n         responses   be   provided    electronically    to       utilityregulation@oag.ok.gov,   while   other\n\n         communications should be directed to counsel listed below.\n\n                                                       Respectfully submitted,\n\n                                                       GENTNER F. DRUMMOND\n                                                       ATTORNEY GENERAL OF OKLAHOMA\n\n\n                                                       _________________________________________\n                                                       STEFANI CILLESSEN, OBA #36078\n                                                           Assistant Attorney General\n                                                       UTILITY REGULATION UNIT\n                                                       OKLAHOMA ATTORNEY GENERAL\n                                                       313 NE 21st Street\n                                                       Oklahoma City, Oklahoma 73105\n                                                       Telephone: (405) 522-4405\n                                                       Facsimile: (405) 522-0608\n                                                       Stefani.Cillessen@oag.ok.gov\n\n\n\n\n                                                             1\n\fCASE PUD 2026-000046 ENTRY NO. 107 FILED IN OCC COURT CLERK'S OFFICE ON 10/28/2026 - PAGE 2 OF 2\n\n         PUD 2026-000046                                                                       Page 2 of 2\n         Entry of Appearance of Counsel\n\n                                         CERTIFICATE OF SERVICE\n\n                On this 28th day of October 2026, a true and correct copy of the above and foregoing Entry\n\n         of Appearance of Counsel was sent via electronic mail to the following interested parties:\n\n         Fairo Mitchell\n         Acting Director, Public Utility Division\n         OKLAHOMA CORP. COMM’N\n         Jim Thorpe Building\n         2101 N. Lincoln. Blvd.\n         Oklahoma City, OK 73105\n         pudenergy@occ.ok.gov\n\n         E.J. Thomas\n         Natasha Scott\n         Kyle Vazquez\n         Mike Ryan\n         Deputy General Counsel\n         OKLAHOMA CORP. COMM’N\n         Jim Thorpe Building\n         2101 N. Lincoln. Blvd.\n         Oklahoma City, OK 73105\n         ej.thomas@occ.ok.gov\n         natasha.scott@occ.ok.gov\n         kyle.vazquez@occ.ok.gov\n         michael.ryan@occ.ok.gov\n\n         A. Chase Snodgrass\n         OKLAHOMA GAS & ELECTRIC CO.\n         321 N. Harvey Ave., M/C 300\n         Oklahoma City, OK 73102\n         snodgrcc@oge.com\n         reginfor@oge.com\n\n         Deborah R. Thompson\n         Kenneth A. Tillotson\n         THOMPSON TILLOTSON PLLC\n         Oklahoma City, OK 73154\n         deborah@ttfirm.com\n         kenneth@ttfirm.com\n\n                                                             ___________________________________\n                                                             STEFANI CILLESSEN\n                                                               Assistant Attorney General\n\n\n                                                         2\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-29T06:00:04Z"
+}

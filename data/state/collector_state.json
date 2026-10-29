@@ -9302,19 +9302,181 @@
   "TX:58317-113": "2026-10-28",
   "AZ:471450": "2026-10-28",
   "LA:order:182624": "2026-10-28",
-  "KS:minutes:20261027": "2026-10-28"
+  "KS:minutes:20261027": "2026-10-28",
+  "MO:656904": "2026-10-29",
+  "MO:656836": "2026-10-29",
+  "MO:656835": "2026-10-29",
+  "PAGE:caiso_news:https://www.caiso.com/about/news/news-releases/caiso-board-advances-new-procedures-for-connecting-large-loads-quickly-and-reliably": "2026-10-29",
+  "PAGE:miso_news:https://www.misoenergy.org/meet-miso/media-center/2026---news-releases/miso-releases-winter-readiness-assessment-for-the-2026-2027-season/": "2026-10-29",
+  "PAGE:miso_news:https://cdn.misoenergy.org/20261028%20Winter%20Readiness%20Workshop%20Presentation790983.pdf": "2026-10-29",
+  "PAGE:miso_news:https://cdn.misoenergy.org/SO-P-EOP-11-002%20Rev%2025%20MISO%20Market%20Capacity%20Emergency757883.pdf": "2026-10-29",
+  "PAGE:gov_nc:https://governor.nc.gov/news/press-releases/2026/10/28/governor-stein-ncdmva-encourage-employers-hire-veterans-and-military-spouses-wilmington-roadshow": "2026-10-29",
+  "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A102826-01": "2026-10-29",
+  "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B101526-02": "2026-10-29",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/2026/10/governor-ivey-joins-hyundai-to-celebrate-major-investment-in-alabama-manufacturing/": "2026-10-29",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/2026/10/governor-ivey-proclaims-first-responders-day-honors-alabamians-who-answer-the-call/": "2026-10-29",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/2026/10/first-responders-day-2/": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-146.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-145.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-144.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-143.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-142.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-141.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-140.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-139.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-138.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-137.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-136.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-135.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-134.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-133.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-132.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-131.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-130.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-129.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-128.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-127.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-126.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-125.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-124.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-123.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-122.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-121.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-120.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-119.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-118.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-117.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-116.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-115.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-114.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-113.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-112.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-111.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-110.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-109.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-108.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-107.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-106.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-105.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-104.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-103.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-102.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-101.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-100.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-099.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-098.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-097.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-096.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-095.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-094.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-093.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-092.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-091.pdf": "2026-10-29",
+  "PAGE:gov_nm:https://www.governor.state.nm.us/assets/executive-orders/2026/executive-order-2026-090.pdf": "2026-10-29",
+  "PAGE:gov_sc:https://governor.sc.gov/news/2026-10/brose-sitech-selects-richland-county-first-us-manufacturing-facility": "2026-10-29",
+  "PAGE:gov_sc:https://governor.sc.gov/news/2026-10/amick-farms-expands-south-carolina-footprint-new-edgefield-county-operations": "2026-10-29",
+  "PAGE:irp_evergy:https://www.evergy.com/ways-to-save/resources-link/energy-tips": "2026-10-29",
+  "PAGE:doe_news:https://www.energy.gov/articles/energy-department-closes-51-billion-loan-lower-electricity-costs-and-strengthen-grid": "2026-10-29",
+  "RSS:pa_cmwlth:https://www.pacourts.us/assets/opinions/Commonwealth/out/419CD25_10-28-26.pdf": "2026-10-29",
+  "RSS:msft_source:https://news.microsoft.com/source/?p=26251": "2026-10-29",
+  "RSS:amazon_news:https://www.aboutamazon.com/news/innovation/trainium-ai-chip-prime-360-nba-highlights": "2026-10-29",
+  "RSS:amazon_news:https://www.aboutamazon.com/news/devices/new-alexa-devices-2026": "2026-10-29",
+  "RSS:utilitydive:https://www.utilitydive.com/news/cms-energy-ceo-predicts-data-center-progress-after-midterms/873057/": "2026-10-29",
+  "RSS:utilitydive:https://www.utilitydive.com/news/california-utilities-aggregators-and-customers-to-benefit-from-new-der-law/873048/": "2026-10-29",
+  "RSS:utilitydive:https://www.utilitydive.com/news/ferc-miso-penalties-demand-side-resource-lmr/873006/": "2026-10-29",
+  "RSS:utilitydive:https://www.utilitydive.com/news/doe-loans-constellation-alliant-nuclear-gas/873011/": "2026-10-29",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150020": "2026-10-29",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150040": "2026-10-29",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=149821": "2026-10-29",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=149785": "2026-10-29",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150022": "2026-10-29",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150031": "2026-10-29",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150026": "2026-10-29",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=149910": "2026-10-29",
+  "RSS:canary:https://www.canarymedia.com/articles/nuclear/doe-5b-loan-constellation-energy": "2026-10-29",
+  "RSS:canary:https://www.canarymedia.com/articles/fossil-fuels/trump-pro-coal-policies-costing-us": "2026-10-29",
+  "RSS:canary:https://www.canarymedia.com/articles/heat-pumps/more-heat-pumps-good-for-grid": "2026-10-29",
+  "IR:https://docs.aep.com/docs/newsroom/resources/earnings/2026-10/2026_09_IR_Package.pdf": "2026-10-29",
+  "IR:https://docs.aep.com/docs/newsroom/resources/earnings/2026-10/3Q26EarningsReleasePresentation.pdf": "2026-10-29",
+  "IR:https://docs.aep.com/docs/newsroom/resources/earnings/2026-10/3rdqtr26earnings.pdf": "2026-10-29",
+  "BILL:IL:ocd-bill/1f4d97c9-07c6-44dc-8ad9-8f863a04855b:2025-06-02": "2026-10-29",
+  "TXSC:orders:2026-10-28": "2026-10-29",
+  "AGENDA:tulsa_tmapc:https://tulsaplanning.org/agendas/pc/november-4-2026-planning-commission-agenda/": "2026-10-29",
+  "FERC:20261028-5027": "2026-10-29",
+  "FERC:20261028-5169": "2026-10-29",
+  "FERC:20261028-5128": "2026-10-29",
+  "FERC:20261028-5082": "2026-10-29",
+  "FERC:20261028-5093": "2026-10-29",
+  "FERC:20261029-5010": "2026-10-29",
+  "FERC:20261028-5167": "2026-10-29",
+  "FERC:20261028-5135": "2026-10-29",
+  "FERC:20261028-5057": "2026-10-29",
+  "FERC:20261028-5052": "2026-10-29",
+  "FERC:20261028-5123": "2026-10-29",
+  "FERC:20261028-5115": "2026-10-29",
+  "FERC:20261028-5083": "2026-10-29",
+  "FERC:20261028-5051": "2026-10-29",
+  "FERC:20261028-5117": "2026-10-29",
+  "FERC:20261028-5055": "2026-10-29",
+  "FERC:20261029-5012": "2026-10-29",
+  "FERC:20261028-5109": "2026-10-29",
+  "FERC:20261028-5125": "2026-10-29",
+  "FERC:20261029-5016": "2026-10-29",
+  "FERC:20261028-5129": "2026-10-29",
+  "FERC:20261028-5067": "2026-10-29",
+  "FERC:20261028-5064": "2026-10-29",
+  "FERC:20261028-5096": "2026-10-29",
+  "FERC:20261028-5091": "2026-10-29",
+  "FERC:20261028-5072": "2026-10-29",
+  "FERC:20261028-5164": "2026-10-29",
+  "FERC:20261028-5070": "2026-10-29",
+  "FERC:20261028-5046": "2026-10-29",
+  "FERC:20261029-5013": "2026-10-29",
+  "FERC:20261029-5001": "2026-10-29",
+  "FERC:20261028-5172": "2026-10-29",
+  "FERC:20261028-5049": "2026-10-29",
+  "FERC:20261028-5009": "2026-10-29",
+  "FERC:20261028-5063": "2026-10-29",
+  "FERC:20261028-5174": "2026-10-29",
+  "FERC:20261028-3052": "2026-10-29",
+  "FR:2026-21989": "2026-10-29",
+  "FR:2026-21987": "2026-10-29",
+  "SEC:0000004904-26-000072": "2026-10-29",
+  "SEC:0000004904-26-000069": "2026-10-29",
+  "SEC:0001104659-26-119649": "2026-10-29",
+  "SEC:0001021635-26-000038": "2026-10-29",
+  "SEC:0001021635-26-000036": "2026-10-29",
+  "SEC:0001108426-26-000064": "2026-10-29",
+  "SEC:0001111711-26-000100": "2026-10-29",
+  "SEC:0001111711-26-000099": "2026-10-29",
+  "SEC:0001031296-26-000144": "2026-10-29",
+  "SEC:0001193125-26-436149": "2026-10-29",
+  "SEC:0001193125-26-436122": "2026-10-29",
+  "SEC:0001652044-26-000080": "2026-10-29",
+  "SEC:0001193125-26-435853": "2026-10-29",
+  "SEC:0001101239-26-000178": "2026-10-29",
+  "SEC:0001996810-26-000162": "2026-10-29",
+  "TX:58796-109": "2026-10-29",
+  "TX:59475-6666": "2026-10-29",
+  "TX:58317-115": "2026-10-29",
+  "TX:58317-114": "2026-10-29",
+  "GA:229284": "2026-10-29",
+  "OK:21732952": "2026-10-29",
+  "NM:DOC-000538486-26": "2026-10-29",
+  "NM:DOC-000538211-26": "2026-10-29",
+  "NM:DOC-000538203-26": "2026-10-29"
  },
  "sources": {
   "ferc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "edgar": {
@@ -19758,13 +19920,13 @@
     },
     "ciks_date": "2026-10"
    },
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "az_acc": {
@@ -19773,18 +19935,18 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "ga_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "ok_occ": {
@@ -19918,22 +20080,23 @@
      "21030643": "CASE PUD PUD2026-000046 ENTRY NO. 1 FILED IN OCC COURT CLERK'S OFFICE ON 06/17/2026 - PAGE 1 OF 4 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF ) OKLAHOMA GAS AND ELECTRIC COMPANY ) FOR AN ORDER OF THE COMMISSION ) APPROVING ITS NEW EXTRA LARGE LOAD )",
      "21480631": "CASE PUD 2026-000031 ENTRY NO. 157 FILED IN OCC COURT CLERK'S OFFICE ON 10/13/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF OKLAHOMA GAS AND ELECTRIC COMPANY FOR COMMISSION APPROVAL OF ELECTRIC SERVICE AGREEMENTS AND PREAPPROVAL PUD",
      "21707782": "CASE PUD 2026-000046 ENTRY NO. 102 FILED IN OCC COURT CLERK'S OFFICE ON 10/20/2026 - PAGE 1 OF 42 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF ) OKLAHOMA GAS AND ELECTRIC COMPANY ) FOR AN ORDER OF THE COMMISSION ) APPROVING NEW EXTRA LARGE LOAD ) TAR",
-     "21707772": "CASE PUD 2026-000046 ENTRY NO. 101 FILED IN OCC COURT CLERK'S OFFICE ON 10/20/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF ) OKLAHOMA GAS AND ELECTRIC COMPANY ) FOR AN ORDER OF THE COMMISSION ) APPROVING NEW EXTRA LARGE LOAD ) TARI"
+     "21707772": "CASE PUD 2026-000046 ENTRY NO. 101 FILED IN OCC COURT CLERK'S OFFICE ON 10/20/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF ) OKLAHOMA GAS AND ELECTRIC COMPANY ) FOR AN ORDER OF THE COMMISSION ) APPROVING NEW EXTRA LARGE LOAD ) TARI",
+     "21732952": "CASE PUD 2026-000046 ENTRY NO. 107 FILED IN OCC COURT CLERK'S OFFICE ON 10/28/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF OKLAHOMA GAS AND ELECTRIC COMPANY FOR AN ORDER OF THE PUD 2026-000046 COMMISSION APPROVING ITS NEW EXTRA LAR"
     }
    },
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "mo_efis": {
@@ -20664,37 +20827,37 @@
      "EC-2027-0121": "110097"
     }
    },
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "al_psc": {
-   "consecutive_failures": 1,
+   "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-27",
-   "last_error": "robots.txt disallows https://www.pscpublicaccess.alabama.gov/pscpublicaccess/RSS/PSC/DocumentSearchRssfeed.aspx (ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='www.pscpublicaccess.alabama.gov', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPSConnec"
+   "last_ok": "2026-10-29",
+   "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-10-28",
+   "last_ok": "2026-10-29",
    "last_error": null
   },
   "eia": {
@@ -20704,25 +20867,25 @@
     "last_period": "2026-08"
    },
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -22686,13 +22849,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -22706,11 +22869,12 @@
      "2026-10-02",
      "2026-10-09",
      "2026-10-16",
-     "2026-10-23"
+     "2026-10-23",
+     "2026-10-28"
     ]
    },
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -22840,6 +23004,7 @@
       "https://tulsaplanning.org/agendas/july-15-2026-tmapc-meeting/",
       "https://tulsaplanning.org/agendas/october-21-2026-planning-commission/",
       "https://tulsaplanning.org/agendas/october-7-2026-planning-commission/",
+      "https://tulsaplanning.org/agendas/pc/november-4-2026-planning-commission-agenda/",
       "https://tulsaplanning.org/agendas/pc/october-7-2026-planning-commission/",
       "https://tulsaplanning.org/agendas/tmapc/16937/",
       "https://tulsaplanning.org/agendas/tmapc/september-2-2026-tmapc-agenda/"
@@ -22908,7 +23073,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -22922,31 +23087,32 @@
      "https://www.ercot.com/calendar/09152026-Board-of-Directors-Meeting",
      "https://www.ercot.com/calendar/09172026-LLWG-Meeting",
      "https://www.ercot.com/calendar/10012026-ROS-Meeting",
-     "https://www.ercot.com/calendar/10152026-LLWG-Meeting"
+     "https://www.ercot.com/calendar/10152026-LLWG-Meeting",
+     "https://www.ercot.com/calendar/10282026-TAC-Meeting"
     ],
     "ercot_api_products_seen": 120,
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
@@ -22956,13 +23122,13 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -22979,7 +23145,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-10-28"
+   "last_ok": "2026-10-29"
   }
  },
  "baselined": [
@@ -22987,8 +23153,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 40,
- "last_run": "2026-10-28T05:51:50Z",
+ "runs": 41,
+ "last_run": "2026-10-29T06:00:04Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -23820,6 +23986,7 @@
    "FERC:20261022-3042",
    "FERC:20261022-3044",
    "FERC:20261022-5156",
+   "FERC:20261026-5156",
    "FR:2026-18843",
    "FR:2026-18868",
    "FR:2026-18988",
@@ -23860,6 +24027,7 @@
    "GA:228973",
    "GA:228974",
    "GA:228981",
+   "GA:229284",
    "KS:minutes:20260915",
    "KS:minutes:20260917",
    "KS:minutes:20260922",
@@ -23941,6 +24109,7 @@
    "MIRROR:https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--Docket%20No.%202026-138-E.pdf",
    "MIRROR:https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--Docket%20No.%202026-231-E%20Hearing.pdf",
    "MO:655234",
+   "MO:656752",
    "NM:1241928",
    "NM:1241931",
    "NM:1241932",
@@ -24194,6 +24363,9 @@
    "NM:DOC-000500763-26",
    "NM:DOC-000501935-26",
    "NM:DOC-000503101-26",
+   "NM:DOC-000538203-26",
+   "NM:DOC-000538211-26",
+   "NM:DOC-000538486-26",
    "NMDKT:26-0000077",
    "NMDKT:26-0000078",
    "NMDKT:26-0000079",
@@ -24251,6 +24423,7 @@
    "NRC:ML26271A113",
    "NRC:ML26272A334",
    "NRC:ML26272A339",
+   "NRC:ML26273A418",
    "NRC:ML26275A060",
    "NRC:ML26275A153",
    "NRC:ML26275A154",
@@ -24279,6 +24452,8 @@
    "NRC:ML26293A339",
    "NRC:ML26293A343",
    "NRC:ML26294A026",
+   "NRC:ML26299A276",
+   "OK:21732952",
    "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A101626-02",
    "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B102326-01",
    "PAGE:puct_news:https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2023/PUCT_Texas_Advanced_Nuclear_Reactor_Working_Group_Named.pdf",
@@ -24372,6 +24547,8 @@
    "TX:58317-100",
    "TX:58317-101",
    "TX:58317-11",
+   "TX:58317-114",
+   "TX:58317-115",
    "TX:58317-12",
    "TX:58317-14",
    "TX:58317-15",
@@ -24637,6 +24814,7 @@
    "TX:58796-103",
    "TX:58796-104",
    "TX:58796-105",
+   "TX:58796-109",
    "TX:58796-19",
    "TX:58796-26",
    "TX:58796-27",
@@ -25420,6 +25598,7 @@
    "TX:59475-6613",
    "TX:59475-6614",
    "TX:59475-6615",
+   "TX:59475-6666",
    "TX:59611-1",
    "TX:59611-19",
    "TX:59611-2",
@@ -25444,15 +25623,15 @@
    "TX:59611-8"
   ],
   "attempts": {
-   "MO:656752": 2,
-   "NRC:ML26273A418": 2,
-   "FERC:20261026-5156": 2,
-   "ERCOTLL:https://www.ercot.com/files/docs/2026/10/27/10.-Large-Load-Issues.zip": 1,
-   "NRC:ML26299A276": 1,
-   "FERC:20261027-5117": 1,
-   "FERC:20261027-5076": 1,
-   "AZ:471450": 1,
-   "FERC:20261026-5175": 1
+   "ERCOTLL:https://www.ercot.com/files/docs/2026/10/27/10.-Large-Load-Issues.zip": 2,
+   "FERC:20261027-5117": 2,
+   "FERC:20261027-5076": 2,
+   "AZ:471450": 2,
+   "FERC:20261026-5175": 2,
+   "FERC:20261028-5027": 1,
+   "FERC:20261028-5093": 1,
+   "FERC:20261028-5167": 1,
+   "FERC:20261028-5135": 1
   },
   "doc_retries": {
    "TX:58482-36": 1,
@@ -25679,17 +25858,17 @@
    "FERC:20261021-3074": 4,
    "FERC:20261021-5132": 4,
    "FERC:20261021-5092": 4,
-   "FERC:20261022-3042": 3,
-   "FERC:20261022-3044": 3,
-   "FERC:20261022-5156": 3,
+   "FERC:20261022-3042": 4,
+   "FERC:20261022-3044": 4,
+   "FERC:20261022-5156": 4,
    "NRC:ML26287A239": 1,
-   "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B102326-01": 2
+   "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B102326-01": 3
   }
  },
  "last_full_run": {
-  "run_id": "2026-10-28-0518",
-  "started": "2026-10-28T05:18:51Z",
-  "finished": "2026-10-28T05:51:50Z",
+  "run_id": "2026-10-29-0521",
+  "started": "2026-10-29T05:21:37Z",
+  "finished": "2026-10-29T06:00:04Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }

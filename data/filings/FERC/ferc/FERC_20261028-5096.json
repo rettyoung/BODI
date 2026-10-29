@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261028-5096",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Hannah Williams in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/28/2026\n",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-5096",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "1196EFBB-68F3-C129-9379-A183A2D00000",
+   "name": "151892.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:50:52Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151892.txt",
+   "bytes": 5374,
+   "sha256": "ebcd5ded8634646d163a25750e8330bf85b349bc93bac34f3485eaf35f2e6f01",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nHannah Williams, Pasadena, CA.\nOn behalf of In Defense of Animals, an international animal protection organization representing more than 250,000 supporters, I strongly oppose DeepGreen Cook Inlet SPV, LLC's application for a preliminary permit to develop a massive underwater data center and tidal energy installation in Alaska's Cook Inlet. We urge the Federal Energy Regulatory Commission (FERC) to deny the application and prioritize the protection and recovery of Cook Inlet's endangered beluga whales.\r\n\r\nCook Inlet is home to one of the world's most vulnerable beluga whale populations. Listed as endangered under the Endangered Species Act since 2008, these whales have suffered a devastating population decline. According to NOAA Fisheries, the population fell by nearly 80% between 1979 and 2018, and the best current abundance estimate is approximately 331 individuals. Although recent estimates offer some hope of stabilization, their future remains highly uncertain. Every surviving whale matters to the recovery of this irreplaceable population.\r\n\r\nDeepGreen's proposal would introduce an extraordinary concentration of industrial infrastructure into this sensitive marine environment, including approximately 330 to 350 underwater turbines, 66 submerged data center pods and a 3.5-mile underwater power and fiber-optic cable. These installations raise serious questions about underwater noise, habitat disturbance, vessel activity, altered water temperatures, electromagnetic fields, contamination and impacts on the fish populations that sustain belugas and other marine animals.\r\n\r\nBeluga whales depend on sound to navigate, communicate, find food and maintain social bonds, particularly in Cook Inlet's naturally turbid waters. NOAA has identified human-generated underwater noise as a significant threat to their survival and recovery. The installation and potential operation of hundreds of turbines, along with associated maintenance activities, could introduce additional disturbances into an already stressed ecosystem. These impacts cannot be dismissed without rigorous, independent scientific evaluation.\r\n\r\nWe are also deeply concerned about the potential release of waste heat from the underwater computing equipment. The possibility of localized temperature changes, particularly during periods of reduced tidal flow, raises questions about impacts on salmon and other essential prey species. Potential copper contamination from cooling components and electromagnetic effects associated with underwater electrical infrastructure also warrant careful investigation. The cumulative consequences of these disturbances must be evaluated rather than considering each impact in isolation.\r\n\r\nCook Inlet belugas are already struggling with habitat degradation, pollution, underwater noise and limitations in prey availability. Their endangered status demands particular caution before introducing another major industrial development into their habitat. Any activity that further compromises their ability to feed, communicate, reproduce or raise their calves risks undermining decades of conservation efforts.\r\n\r\nWe recognize that the preliminary permit under consideration would not itself authorize construction. However, granting DeepGreen priority to pursue a future license would advance a proposal whose potential consequences for endangered marine life remain insufficiently understood. FERC should not grant this preferential position without first addressing fundamental questions about the project's compatibility with beluga recovery and the protection of designated critical habitat.\r\n\r\nWe therefore urge FERC to:\r\n\r\nDeny DeepGreen's preliminary permit application and refrain from advancing this industrial development in sensitive Cook Inlet beluga habitat.\r\n\r\nSeek substantive input from NOAA Fisheries regarding potential impacts on endangered belugas, their designated critical habitat and the objectives of the Cook Inlet Beluga Whale Recovery Plan.\r\n\r\nRequire independent examination of underwater noise, turbine interactions, thermal discharge, electromagnetic fields, contamination, habitat disturbance and potential impacts on salmon and other prey species before any future authorization is considered.\r\n\r\nEvaluate the cumulative effects of this proposal alongside existing industrial activities and other environmental pressures throughout Cook Inlet.\r\n\r\nEnsure meaningful consultation with Alaska Native communities and opportunities for local communities, fisheries representatives, scientists and conservation organizations to participate in future proceedings.\r\n\r\nThe possibility of technological innovation or renewable energy generation does not justify placing an endangered whale population at further risk. Protecting biodiversity and preventing extinction must remain central considerations in decisions affecting this extraordinary marine environment.\r\n\r\nCook Inlet's belugas have already lost far too much. Their survival depends on protecting the habitat they need, not introducing additional industrial pressures whose consequences may be difficult or impossible to reverse.\r\n\r\nIn Defense of Animals urges FERC to reject DeepGreen's preliminary permit application and uphold its responsibility to consider the protection of endangered wildlife and their habitats.\r\n\r\nThank you for considering our comments.\r\n\r\n"
+  }
+ ]
+}

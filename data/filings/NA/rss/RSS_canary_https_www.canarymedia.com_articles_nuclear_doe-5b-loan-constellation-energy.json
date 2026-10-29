@@ -1,0 +1,29 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/nuclear/doe-5b-loan-constellation-energy",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "The DOE announces $5B loan to Constellation for nuclear uprates",
+ "filed": "2026-10-28",
+ "url": "https://www.canarymedia.com/articles/nuclear/doe-5b-loan-constellation-energy",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "The pro-nuclear Trump administration continues to put its money where its mouth is. On Tuesday, the U.S. Department of Energy announced a conditional loan commitment of  up to $5 billion to boost the output of  15 reactors at eight nuclear power plants in Illinois, Maryland, and Pennsylvania by a combined 1.1…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-29T05:31:50Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "nuclear",
+  "uprate"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

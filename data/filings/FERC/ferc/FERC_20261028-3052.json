@@ -1,0 +1,53 @@
+{
+ "id": "FERC:20261028-3052",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-3593",
+ "title": "Letter order accepting Southwest Power Pool, Inc.'s 08/24/2026 filing of proposed revisions to its Open Access Transmission Tariff to allow it to dispatch resources that are co-located behind the same point of interconnection etc. under ER26-3593. ",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-3052",
+ "entity": "SECRETARY OF THE COMMISSION, FERC; COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION); SECRETARY OF THE COMMISSION, FERC",
+ "fetch": [
+  {
+   "ferc_file": "8B54B405-9036-C0B9-88DD-A183FC200000",
+   "name": "ER26-3593-000.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Commission Order/Opinion"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:51:31Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "ESA",
+  "co-located",
+  "co-location",
+  "interconnection",
+  "network upgrade"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "ER26-3593-000.docx",
+   "bytes": 57736,
+   "sha256": "8e57abb91c43ca094f0b64292791cf8d406840630713b8b9f87730e3c64333fc",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "197 FERC ¶ 61,062\nFEDERAL ENERGY REGULATORY COMMISSION\nWASHINGTON, DC  20426\n\nOctober 28, 2026\n\n\t\t\t\t\t\t\t\tIn Reply Refer To:\nSouthwest Power Pool, Inc. \nDocket No. ER26-3593-000\n\t\t\t\t\t\nSouthwest Power Pool, Inc.\n201 Worthen Drive\nLittle Rock, AR  72223-4936\n\nAttention:  Rachel Hildebrand Kane\n\nDear Ms. Hildebrand Kane:\n\nOn August 24, 2026, Southwest Power Pool, Inc. (SPP) filed, pursuant to section 205 of the Federal Power Act and Part 35 of the Commission’s regulations, proposed revisions to its Open Access Transmission Tariff (Tariff) to allow SPP to dispatch resources that are co-located behind the same point of interconnection consistent with their shared Interconnection Service Limit at a point of interconnection.  We accept SPP’s filing, effective 12/31/9998, as requested, and direct SPP to submit a compliance filing notifying the Commission of the actual effective date no less than seven days prior to the date SPP implements the proposed Tariff revisions, as discussed below.\nSPP states that the current design of its Integrated Marketplace does not accommodate the aggregate capabilities of resources that are co-located behind the same point of interconnection.  SPP explains that each resource is treated separately, with each submitting separate bids and offers and each receiving market dispatch instructions independent of the other co-located resources.  SPP explains that this design limits the optimal use of available capacity and that this limitation has become more apparent with the rise of variable energy resources, shared equipment savings (e.g., inverters), and the ability to use storage to capture energy that would otherwise be curtailed.  \nSPP asserts that its proposal establishes market rules that will allow the market     to better use the aggregate capacity of resources co-located behind the same point of interconnection.  SPP contends that this mechanism will:  (1) render the market capable of realizing a co-located resource’s full capability; (2) promote market efficiency by allowing co-located resources to manage the sum of their maximum capabilities without the need for additional interconnection upgrades; (3) improve wholesale market competition by increasing use of existing interconnection facilities and network upgrades; and (4) establish a market mechanism for allowing excess generation of one co-located resource to be used by another.  \nSPP proposes several revisions to Attachment AE of its Tariff to implement its proposal.  First, SPP proposes revisions in section 1.1 (Definitions and Acronyms) to define “Interconnection Service Limit.”  SPP states that currently, both the day-ahead market and the real-time balancing market are relatively untethered from the generator interconnection process, such that no formal market mechanism recognizes Interconnection Service Limits.  SPP explains that, instead, each market participant is responsible for offering into the market in a way that does not result in a breach of its generator interconnection agreement.  SPP asserts that adding this definition to the Tariff will allow SPP to embed an Interconnection Service Limit to its day-ahead and real-time balancing market software engines, and, in doing so, SPP will commit and dispatch the portion of co-located resources that most efficiently addresses system needs, consistent with the co-located resources’ shared Interconnection Service Limit.  \nSPP further proposes revisions to add new section 4.1.2.7 (Co-Located Resources) in Attachment AE to provide that market participants representing resources that are    co-located behind the same point of interconnection using the same Interconnection Service Limit may elect to have their individual resources jointly optimized and dispatched within their Interconnection Service Limit.  SPP states that this proposed joint optimization will allow market participants, upon satisfying certain requirements,    to register their units such that the combined capability may exceed the Interconnection Service Limit at the point of interconnection.\nSpecifically, SPP proposes that market participants must:  (1) during registration, state an intent for individual resources to be jointly optimized and dispatched during registration; (2) individually register each resource in the market; and (3) submit separate meter data for each resource.  Proposed section 4.1.2.7 also states that market participants must continue to comply with all effective generator interconnection agreement requirements.  In addition, SPP proposes revisions to sections 5 and 6 of Attachment AE of its Tariff to add the Interconnection Service Limit to the list of inputs considered by the SPP day-ahead market, day-ahead reliability unit commitment, intra-day reliability unit commitment, and real-time balancing market.  \nSPP asserts that its proposal is similar to the California Independent System Operator Corporation’s aggregate capability constraint and the Midcontinent Independent System Operator, Inc.’s interconnection service limit for co-located resources. \nSPP requests a 12/31/9998 effective date for the proposed Tariff revisions and waiver of the Commission’s prior notice requirement to allow SPP staff to develop, test, and move the proposed revisions into the production phase of SPP’s software systems.  SPP states that implementation is targeted for the third quarter of 2027, and it will submit a filing with the Commission specifying a precise effective date prior to implementation.\nNotice of SPP’s filing was published in the Federal Register, 91 Fed. Reg. 55329 (Aug. 27, 2026), with interventions and protests due on or before September 14, 2026.  Timely motions to intervene were filed by:  American Electric Power Service Corporation, on behalf of its affiliates Public Service Company of Oklahoma, Southwestern Electric Power Company, AEP Oklahoma Transmission Company, Inc., and AEP Southwestern Transmission Company, Inc.; Grid Reform; Oklahoma Gas and Electric Company; Sunflower Electric Power Corporation; and Western Farmers Electric Cooperative.  \nOn September 16, 2026, Omaha Public Power District filed an out-of-time motion to intervene.  \nPursuant to Rule 214 of the Commission’s Rules of Practice and Procedure,         18 C.F.R. § 385.214 (2025), the timely, unopposed motions to intervene serve to make the entities that filed them parties to this proceeding.  \nPursuant to Rule 214(d) of the Commission’s Rules of Practice and Procedure,    18 C.F.R. § 385.214(d), we grant Omaha Public Power District’s late-filed motion to intervene given its interest in the proceeding, the early stage of the proceeding, and the absence of undue prejudice or delay.  \nWe find SPP’s proposed Tariff revisions to be just and reasonable and not     unduly discriminatory or preferential and therefore accept them, with an effective       \ndate of 12/31/9998, as requested.  Specifically, we find that, by incorporating the Interconnection Service Limit into SPP’s day-ahead and real-time energy balancing market software engines, the proposal will enhance market efficiency by allowing co-located resources to offer their maximum capabilities while allowing SPP to jointly optimize and dispatch the portion of co-located resources that SPP states “most efficiently addresses SPP’s system needs, consistent with the co-located resources’ shared Interconnection Service Limit.”\nWe grant SPP’s request for waiver of the Commission’s prior notice requirement for good cause shown, and we accept the proposed Tariff revisions with an effective date of 12/31/9998, as requested.  No less than seven days prior to the date that SPP implements the proposed Tariff revisions with a 12/31/9998 effective date, SPP is required to make a compliance filing in this docket through the Commission’s eTariff system with the accepted tariff record text that establishes the actual effective date of the Tariff records and designates the records accepted in this order as OBE (overtaken by events).  \nBy direction of the Commission. \n\n\t\t\t\t\t\t\t\t\t\n\n\n\nCarlos D. Clay,\nDeputy Secretary.\n\n\nAppendix – Tariff Records\nSouthwest Power Pool, Inc.\nOpen Access Transmission Tariff, Sixth Revised Volume No. 1\n\nAtt. AE (MPL) 1.1 I, Attachment AE (MPL) Section 1.1 I (8.0.0)\t\nAtt. AE (MPL) 4.1.2, Attachment AE (MPL) Section 4.1.2 (15.0.0)\t\nAtt. AE (MPL) 5.1.1, Attachment AE (MPL) Section 5.1.1 (10.0.0)\t\nAtt. AE (MPL) 5.2.1, Attachment AE (MPL) Section 5.2.1 (9.0.0)\t\nAtt. AE (MPL) 6.1.1, Attachment AE (MPL) Section 6.1.1 (8.0.0)\t\nAtt. AE (MPL) 6.2.1, Attachment AE (MPL) Section 6.2.1 (10.0.0)\t\n\n\n\n\n"
+  }
+ ]
+}

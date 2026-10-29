@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261028-5055",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Aiden James in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/28/2026\n",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-5055",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "21BB0F93-B879-C66D-9309-A182FC200000",
+   "name": "151877.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:50:28Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151877.txt",
+   "bytes": 1486,
+   "sha256": "9ebc108db07ab53fc4b94b15f28657619999f8faadc299b99a718c015b92b34b",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nAiden James, Philadelphia, PA.\nI strongly oppose DeepGreen’s proposed 100-megawatt underwater AI data center in Cook Inlet (docket P-15423-000).\r\n\r\nThis project would put up to 350 tidal turbines, 66 subsea data-center pods, and a long underwater cable directly in critical habitat for Cook Inlet beluga whales. NOAA estimates only about 331 belugas remain there — a roughly 75% drop from historic levels — and lists them among marine species at greatest near-term extinction risk.\r\n\r\nBelugas are echolocators. They depend on sound to navigate, find food, communicate, and stay with their groups in dark, icy water. Extra underwater noise and industrial activity can mean hearing damage, family separation, loss of prey or habitat, disruption of feeding and mating areas, injury, and lasting behavior changes. NOAA has already found anthropogenic noise at levels that can chronically mask beluga communication, with shipping and dredging sometimes exceeding behavioral-harassment levels daily. Stacking a 100 MW underwater data center on top of shipping, ports, oil and gas, and fishing is exactly the kind of cumulative stress NOAA calls a high-concern threat to recovery.\r\n\r\nFERC should evaluate what this project adds to the burden these whales already carry — not treat it as if the inlet were empty. With so few animals left, losing even one is a serious blow to the population and to recovery. Please deny or halt this proposal as sited in critical beluga habitat.\r\n\r\n"
+  }
+ ]
+}

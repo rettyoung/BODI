@@ -55,5 +55,6 @@
    "url": "{'ferc_file': '7FFF16FE-3CE7-CF5E-91A4-A179FC100000', 'name': 'CUI_PRIV_HC_Attachment B.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-29T06:00:01Z"
 }

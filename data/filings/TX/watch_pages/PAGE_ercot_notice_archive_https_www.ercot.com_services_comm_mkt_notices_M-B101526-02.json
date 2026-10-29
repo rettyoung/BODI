@@ -1,0 +1,42 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B101526-02",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-B101526-02 Implementation Details of NPRR1198, Congestion Mitigation Using Topology Reconfigurations, and related NOGRR258 and PGRR113",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-B101526-02",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B101526-02"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-29T05:25:58Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "NPRR",
+  "PGRR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B101526-02",
+   "name": null,
+   "bytes": 7181,
+   "sha256": "93408f73bd8b6d223e3d6494a7625533799e184f5634be016a975d17e8d3a7e7",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com\n\nSent:\n\n10/28/26, 9:29 AM\n\nSubject:\n\nM-B101526-02 Implementation Details of NPRR1198, Congestion Mitigation Using Topology Reconfigurations, and related NOGRR258 and PGRR113\n\nNOTICE DATE:\n October 28, 2026\n\nNOTICE TYPE:\n M-B101526-02 NPRR/SCR\n\nSHORT DESCRIPTION:\n Implementation Details of NPRR1198, Congestion Mitigation Using Topology Reconfigurations, and related NOGRR258 and PGRR113\n\nINTENDED AUDIENCE:\n All Market Participants\n\nDAYS AFFECTED:\n October 29, 2026\n\nLONG DESCRIPTION: \nOn October 29, 2026, Nodal Protocol language associated with Nodal Protocol Revision Request \n(NPRR) 1198\n, Congestion Mitigation Using Topology Reconfigurations; Nodal Operating Guide language associated with Nodal Operating Guide Revision Request \n(NOGRR) 258\n, Related to NPRR1198, Congestion Mitigation Using Topology Reconfiguration; and Planning Guide language associated with Planning Guide Revision Request \n(PGRR) 113\n, Related to NPRR1198, Congestion Mitigation Using Topology Reconfiguration, will be implemented. \n\nNPRR1198 and related NOGRR258 and PGRR113, define Extended Action Plan (EAP), add EAP as a type of Constraint Management Plan (CMP) suitable for managing congestion that is resolvable by Security-Constrained Economic Dispatch (SCED), and remove language limiting the application of EAPs to congestion issues for which there exists no feasible SCED solution.\n\nStarting October 29, 2026, Market Participants may submit EAP proposals to ERCOT at \nras_cmp@ercot.com\n. EAP is a new type of CMP which allows transmission reconfiguration to remain in place for a pre-defined period of time for reliability or economic reasons. Please refer to Nodal Operating Guide Section 11.8, Extended Action Plans (EAPs), for EAP criteria and requirements.\n\nADDITIONAL INFORMATION:\n\nInitial Market Notice\n was sent out on October 15, 2026. This is a follow-up Market Notice in accordance with the Business Practice Manual Market Notice Communication Process Section 3.2.1.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261028-5135",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2310",
+ "title": "Pacific Gas and Electric Company submits updated Supporting Technical Information Document and request for extension of time to address Recommendations 26 et al. from Part 12D Inspection et al. re Kelly Lake Dam of the Drum-Spaulding Project under P-2310.",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-5135",
+ "entity": "Pacific Gas and Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "9019284B-82FF-CFC8-91C4-A183F9300000",
+   "name": "PGE20261028_2310_KellyLake_STID_Enc1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "89C15920-3F82-CE50-9A70-A183F9300000",
+   "name": "PGE20261028_2310_KellyLake_STID_Enc2.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:49:55Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '9019284B-82FF-CFC8-91C4-A183F9300000', 'name': 'PGE20261028_2310_KellyLake_STID_Enc1.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '89C15920-3F82-CE50-9A70-A183F9300000', 'name': 'PGE20261028_2310_KellyLake_STID_Enc2.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

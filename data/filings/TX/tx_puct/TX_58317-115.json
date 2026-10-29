@@ -1,0 +1,52 @@
+{
+ "id": "TX:58317-115",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "10/28/2026 | Matthew Lobdell | COM | Hyperscale data centers.",
+ "filed": "2026-10-28",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=115",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "115"
+   ]
+  }
+ ],
+ "collected_at": "2026-10-29T05:55:56Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_115_1697271.ZIP",
+   "name": null,
+   "bytes": 644,
+   "sha256": "ac5ebbb5fa5614ae626ed9dae247d401782ca25919fa2bcd73e011b1937a1369",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": ""
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_115_1697272.PDF",
+   "name": null,
+   "bytes": 83777,
+   "sha256": "5b43cd36be138275c03ca0dd35e0496b8e6af8eb07e59917f80930866756eafa",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-10-28 02:24:08 PM\n\nControl Number - 58317\n\nItem Number - 115\n\fThe following files are not convertible:\n\n                                  Hyperscale data centers.md\n\n\nPlease see the ZIP file for this Filing on the PUC Interchange in order to\naccess these files.\n\nContact centralrecords@puc.texas.gov if you have any questions.\n\f"
+  }
+ ],
+ "enriched_at": "2026-10-29T05:59:05Z"
+}

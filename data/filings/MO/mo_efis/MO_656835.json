@@ -1,0 +1,35 @@
+{
+ "id": "MO:656835",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0291",
+ "title": "63",
+ "filed": "2026-10-28",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/656835",
+ "fetch": [
+  {
+   "mo_filing": "656835"
+  }
+ ],
+ "collected_at": "2026-10-29T05:22:10Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/895473",
+   "name": null,
+   "bytes": 300617,
+   "sha256": "eaa5af5fbf530c51c8182cb66210dbfda441b39caf61d123b4e881a63872a9a1",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                              NONDISCLOSURE AGREEMENT\n                                  For Case No.: ER-2026-0291\n                              (To Access Confidential Information)\n\n\n     I, Sunil Bector , have reviewed the Commission's Rule at 20 CSR 4240-2.135 on the\n\n26th day of Oct., 2026.\n\n\n     I have requested review of the confidential information produced in Case No. ER-2026-\n\n0291 on behalf of Sierra Club        .\n\n     I hereby certify that:\n\n     (a)   Only employees of a party that are acting as an expert for that party or that\n\n     have been retained for this case as an outside expert for that party may receive\n\n     confidential information;\n\n     (b)   An employee is a person in the service of his or her employer whose services\n\n     are controllable by the employer.\n\n     (c)   I am employee of Sierra Club acting as its in-house counsel and non-\n\n     testifying expert; and\n\n     (d)   I have read and agree to abide by the Commission's Rule at 20 CSR\n\n     4240-2.135.\n\n\n\n\n     Dated this      26th        day of     October         , 2026.\n\n\n\n\n                                                                                   EXHIBIT A\n\f                      Senior Attorney\nSignature & Title\n\nSierra Club\n\nEmployer\n\nSierra Club\nParty\n\n2101 Webster Street, Suite 1300\n\nOakland, CA 94612\n\nAddress\n\n 415-977-5759\nTelephone\n\nsunil.bector@sierraclub.org\nE-Mail Address\n\n\n\n\n                              EXHIBIT A\n\f"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261028-5164",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Robert Bock in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/28/2026\n",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-5164",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "DF5DAF84-1D75-CAF1-938E-A1843B600000",
+   "name": "151901.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:51:01Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151901.txt",
+   "bytes": 1149,
+   "sha256": "819df732b10092cdbba60166a47b1fb1ecc7c88fb886ad0597a5c5fc829fe099",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nRobert Bock, Hamden, CT.\nThe proposed project would span 1,400-1,650 offshore acres near Nikiski, including up to 350 tidal turbines, 66 subsea data-center pods, and a 3.5-mile underwater sea cable.\r\nBeluga whales are already competing with commercial shipping, port and coastal development, oil and gas exploration and production, and other anthropogenic activities, like fishing.\r\nThere are only an estimated 331 beluga whales left in the Cook Inlet; a 75% decline from their historic population of about 1,300 in 1979.\r\nThat's where National Oceanic and Atmospheric Administration (NOAA) designates 7,800 sq kilometers as beluga’s ‘critical habitat.’\r\nBelugas are among NOAA’s marine species at greatest near-term extinction risk.\r\nA study published in Frontiers found that thermal discharge from power plants can alter oxygen and pH levels and sediment composition, which ultimately reduces the number and variety of creatures that live nearby and on the seabed.\r\nThese cumulative impacts coalescing is what spells trouble. NOAA identifies “cumulative and synergistic stressors\" as a \"high-concern threat\" to beluga recovery.\r\n\r\n\r\n"
+  }
+ ]
+}

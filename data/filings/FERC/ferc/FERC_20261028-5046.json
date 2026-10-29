@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261028-5046",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Tracey A Laszloffy in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/28/2026\n",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-5046",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "F719FF2A-0F1E-C17C-99BD-A182DFF00000",
+   "name": "151867.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:51:07Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151867.txt",
+   "bytes": 1384,
+   "sha256": "8a5dae69cced88323b1109e49f61045a9986d99fdb871dbff6a8389fe3092e4a",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nTracey A Laszloffy, Wilmington, NC.\nI am writing to speak against the proposed DeepGreen Cook Inlet SPV LLC.\r\nBeluga whales are echolocators, meaning they use a biological sonar system to “see” in Cook Inlet’s dark, icy waters. They rely on sound to communicate, navigate, find food, and detect danger, making underwater noise a serious concern for their survival and recovery.\r\n\r\nDeepGreen’s proposed project could contribute to hearing impairment, separation of family groups, loss of prey or habitat, disruption of biologically important feeding and mating areas, physical injury, and behavioral changes. We cannot afford to make an already challenging environment even harsher for these belugas.\r\n\r\nIn a five-year review, NOAA actually reported that several anthropogenic noise sources were found at levels with the potential to chronically mask beluga communication and hearing, and that shipping and dredging sounds exceeded behavioral-harassment levels daily in some monitored settings. This was found before a proposal was made for a 100-megawatt data center right in the middle of their critical habitat.\r\n\r\nFor a species like the beluga, with only an estimated 331 remaining in the Cook Inlet, the loss of even one Cook Inlet beluga whale should be considered devastating to the current population, as well as to the recovery of this magnificent species.\r\n\r\n\r\n\r\n"
+  }
+ ]
+}

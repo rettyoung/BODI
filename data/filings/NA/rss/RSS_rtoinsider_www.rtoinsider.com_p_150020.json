@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150020",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Report Examines SPP’s Western BAA Energy Alerts",
+ "filed": "2026-10-29",
+ "url": "//www.rtoinsider.com/150020-report-examines-spp-energy-alerts-in-western-baa/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " A report from SPP’s Market Monitoring Unit digs into energy emergency alerts issued for the RTO’s West balancing authority area on three days over the summer, concluding that the West BAA’s reliability issues extend beyond a capacity shortage. \n The post  Report Examines SPP&#8217;s Western BAA Energy Alerts  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-29T05:31:50Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": []
+}

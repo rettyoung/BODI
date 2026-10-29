@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001031296-26-000144",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "FIRSTENERGY CORP  (FE)  (CIK 0001031296), FirstEnergy Pennsylvania Electric Co  (CIK 0002152026) 10-Q — full-text hit \"co-location\" FERC",
+ "filed": "2026-10-28",
+ "url": "https://www.sec.gov/Archives/edgar/data/1031296/000103129626000144/",
+ "entity": "FIRSTENERGY CORP  (FE)  (CIK 0001031296), FirstEnergy Pennsylvania Electric Co  (CIK 0002152026)",
+ "fetch": [],
+ "meta": {
+  "query": "\"co-location\" FERC",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-10-29T05:55:29Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

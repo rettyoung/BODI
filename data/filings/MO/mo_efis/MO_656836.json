@@ -1,0 +1,35 @@
+{
+ "id": "MO:656836",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0291",
+ "title": "64",
+ "filed": "2026-10-28",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/656836",
+ "fetch": [
+  {
+   "mo_filing": "656836"
+  }
+ ],
+ "collected_at": "2026-10-29T05:22:04Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [],
+ "party_hits": [
+  "Sierra Club"
+ ],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/895474",
+   "name": null,
+   "bytes": 73230,
+   "sha256": "a3052f1eaf924866fdee5ff39e327c0940e9c45d31634b3036acc2afa612b297",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                            NONDISCLOSURE AGREEMENT\n                                For Case No.: ER-2026-0291\n\n                        (To Access Highly Confidential Information)\n\n\n     I Philip Fracica, have reviewed the Commission's Rule at 20 CSR 4240-2.135 on the\n\n23rdday of 0ctober          2026.\n\n\n      I have requested review of the highly confidential information produced in Case No.\n\n\nER-2026-0291 on behalf of Slerra Club\n\n\n       I hereby certify that:\n\n\n       (a) Only certain persons may receive Highly Confidential information. These\n\n          persons include outside attorneys of record for a party in the case and in-\n\n\n          house attorneys of record for the Company.      Such persons also include\n\n          outside consultants retained by a party in this case and Company experts\n\n           and/or employees who intend to file testimony in this docket. Persons\n\n          authorized to receive highly confidential    information, other than the\n\n          above-referenced attorneys or Commission Staff and Office of Public\n\n          Counsel employees must submit this form in order receive highly\n\n          confidential information;\n\n\n      (b) I am an employee of       Reneir Missouri Advocntes and fall\n          within the category of persons authorized to receive highly confidential\n\n\n          information specified in paragraph (a) above; and\n\n\n      (c) I have read and agree to abide by the Commission's Rule at 20 CSR 4240-2.135\n\n          and all terms of the Protective Order issued by the Commission in this docket.\n\n\n\n                                                                                   EXHIBIT B\n\fDated this 23rd   day of OCtober       _, 2026.\n\n\n                               Signature & Title\n\n                                   Consultant\n\n                               Employerfenewr Missouri Advocates\n                               Party\n\n\n                                   Sierra Club\n\n                               Sol Fay St, Ste. 206, (dumbia,m0 65201\n                               Address\n\n\n                                   818-752-6630\n                               Telephone\n\n                                   Philip @renermo, Drge\n                               E-Mail Address\n\n\n\n\n                                                           ЕХНIВІТ В\n\f"
+  }
+ ]
+}

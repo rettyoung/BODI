@@ -1,0 +1,54 @@
+{
+ "id": "FERC:20261028-5093",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2310",
+ "title": "Pacific Gas and Electric Company submits summary and conclusion of efforts to address Recommendations R-2 and R-7 from the 12th Part 12D Safety Inspection Report, extension of time request, et al. re for Fuller Lake Dam, Drum-Spaulding Project, P-2310.",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-5093",
+ "entity": "Pacific Gas and Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "35CF40BA-779F-CF55-9341-A18397900000",
+   "name": "PGE20261028_2310_FullerLake_STID_Enc1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "3D66BC21-832A-C4DB-9984-A18397900000",
+   "name": "PGE20261028_2310_FullerLake_STID_Enc2.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   },
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Request for Delay of Action/Extension of Time"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:49:40Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '35CF40BA-779F-CF55-9341-A18397900000', 'name': 'PGE20261028_2310_FullerLake_STID_Enc1.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '3D66BC21-832A-C4DB-9984-A18397900000', 'name': 'PGE20261028_2310_FullerLake_STID_Enc2.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

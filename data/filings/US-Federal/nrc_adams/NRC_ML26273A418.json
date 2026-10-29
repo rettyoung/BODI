@@ -30,7 +30,8 @@
  "documents": [
   {
    "url": "https://www.nrc.gov/docs/ML2627/ML26273A418.pdf",
-   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2627/ML26273A418.pdf"
+   "error": "too large (80235447 bytes)"
   }
- ]
+ ],
+ "enriched_at": "2026-10-29T05:59:55Z"
 }

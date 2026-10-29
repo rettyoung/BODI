@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/1f4d97c9-07c6-44dc-8ad9-8f863a04855b:2025-06-02",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 1805",
+ "title": "REVENUE-ELECTRIC VEHICLES",
+ "filed": "2025-06-02",
+ "url": "https://openstates.org/il/bills/104th/SB1805/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Rule 3-9(a) / Re-referred to Assignments",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-10-29T05:41:11Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

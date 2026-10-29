@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261029-5013",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Marie Wakefield in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/28/2026\n",
+ "filed": "2026-10-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261029-5013",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "567ADAE0-487A-C523-92F4-A1851D000000",
+   "name": "151904.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:51:10Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151904.txt",
+   "bytes": 1213,
+   "sha256": "89c4c84e4906f250f5be3ea5a8fa84306f50fa35a3bcf24477da2833735622fd",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nMarie Wakefield, Newport, OR.\n Beluga whales are echolocators. They rely on sound to communicate, navigate, find food, and detect danger, making underwater noise a serious concern for their survival and recovery.\r\n\r\nDeepGreen’s proposed project could contribute to hearing impairment, separation of family groups, loss of prey or habitat, disruption of biologically important feeding and mating areas, physical injury, and behavioral changes. We cannot afford to make an already challenging environment even harsher for these belugas.\r\n\r\nIn a five-year review, NOAA actually reported that several anthropogenic noise sources were found at levels with the potential to chronically mask beluga communication and hearing, and that shipping and dredging sounds exceeded behavioral-harassment levels daily in some monitored settings.\r\n\r\nAnd that was found before a 100-megawatt data center right in the middle of their critical habitat was proposed.\r\n\r\nAnd for a species like the beluga, with only an estimated 331 remaining in the Cook Inlet, the loss of even one Cook Inlet beluga whale should be considered devastating to the current population, as well as to the recovery of this magnificent species.\r\n\r\n\r\n\r\n"
+  }
+ ]
+}

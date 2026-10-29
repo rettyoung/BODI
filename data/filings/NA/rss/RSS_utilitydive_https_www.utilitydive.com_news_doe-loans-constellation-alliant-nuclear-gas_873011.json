@@ -1,0 +1,28 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/doe-loans-constellation-alliant-nuclear-gas/873011/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "DOE announces $10.1B in loans to Constellation, Alliant, for 3.7 GW",
+ "filed": "2026-10-28",
+ "url": "https://www.utilitydive.com/news/doe-loans-constellation-alliant-nuclear-gas/873011/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": " Both loan packages could be used to finance uprates at existing generation facilities, which Energy Secretary Chris Wright called &ldquo;commonsense&rdquo; energy policy. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-29T05:31:50Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "uprate"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

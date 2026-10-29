@@ -1,0 +1,42 @@
+{
+ "id": "SEC:0001108426-26-000064",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "TXNM Energy 8-K 8-K items 7.01",
+ "filed": "2026-10-28",
+ "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000064/",
+ "entity": "TXNM Energy",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000064/pnm-20261027.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "7.01"
+  ],
+  "cik": "0001108426",
+  "market_participant": false
+ },
+ "collected_at": "2026-10-29T05:54:44Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1108426/000110842626000064/pnm-20261027.htm",
+   "name": null,
+   "bytes": 27264,
+   "sha256": "c5864147f7f44234f54e5b291e8a557230ac50348b0d75b004830385dff06020",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "pnm-20261027\n0001108426\nfalse\n0001108426\n2026-10-27\n2026-10-27\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C.  20549\nFORM\n8-K\nCURRENT REPORT\nPursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934\nDate of Report (Date of earliest event reported)\nOctober 27, 2026\n(October 27, 2026)\nName of Registrant\n, \nState of Incorporation\n, \nAddress Of Principal Executive Offices\n, \nTelephone Number\n, \nCommission File No.\n, \nIRS Employer Identification No.\nTXNM Energy, Inc.\n(A \nNew Mexico\n Corporation)\n414 Silver Ave. SW\n\nAlbuquerque\n, \nNew Mexico\n\n87102-3289\n\nTelephone Number - (\n505\n) \n241-2700\n\nCommission File No. - \n001-32462\n\nIRS Employer Identification No. - \n85-0468296\n\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: \n☐\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n☐\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n☐\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 40.14d-2(b))\n☐\nPre-commencement communications pursuant to Rule 13e-4 (c) under the Exchange Act (17 CFR 40.13e-4(c))\nSecurities registered pursuant to Section 12(b) of the Act:\nRegistrant\nTitle of each class\nTrading Symbol(s)\nName of exchange on which registered\nTXNM Energy, Inc.\nCommon Stock, no par value\nTXNM\nNew York Stock Exchange\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter). Emerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \n☐\nItem 7.01.     Regulation FD Disclosure.\nAs previously disclosed, on May 18, 2025, TXNM Energy, Inc., a New Mexico corporation (“TXNM”), Troy ParentCo, LLC (the “Parent”), and Troy Merger Sub Inc. (the “Merger Sub”), entered into an Agreement and Plan of Merger (the “Merger Agreement”), pursuant to which Merger Sub will merge with and into TXNM, with TXNM surviving the Merger as a direct wholly owned subsidiary of Parent (the “Merger”).  \nOn August 25, 2025, TXNM, Public Service Company of New Mexico (“PNM”), Parent, and certain of their affiliates (the “Merger Parties”) filed a joint merger application with the New Mexico Public Regulation Commission (the “NMPRC”) seeking approval of the Merger as contemplated by the Merger Agreement (the “Merger Application”).  \nOn October 27, 2026, NMPRC hearing examiners for the Merger Application published a revised procedural schedule with evidentiary hearings scheduled for January 19 – February 1, 2027. \nConsummation of the Merger remains subject to the satisfaction or waiver of certain customary conditions, including, without limitation, no Legal Restraint (as defined in the Merger Agreement), and the receipt of certain required regulatory approvals (including the NMPRC).  TXNM continues to anticipate the Merger closing in the first half of 2027 however, TXNM cannot predict the outcome of this matter.\nTXNM does not intend to update these forward-looking statements whether because of new information, future events, or otherwise, after the date hereof, except as required by law.\nThe information furnished is not deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, is not subject to the liabilities of that section and is not deemed incorporated by reference in any filing under the Securities Act of 1933, as amended.\nSIGNATURE\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.\nTXNM ENERGY, INC.\n(Registrant)\nDate:  October 27, 2026\n/s/ Gerald R. Bischoff\nGerald R. Bischoff\nVice President and Corporate Controller\n(Officer duly authorized to sign this report)"
+  }
+ ]
+}

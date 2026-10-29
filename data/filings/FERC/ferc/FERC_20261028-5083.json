@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261028-5083",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Judith Roberts in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/28/2026\n",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-5083",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "15CD00CB-CDF3-CF0B-91B2-A1835D500000",
+   "name": "151885.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-29T05:50:19Z",
+ "run_id": "2026-10-29-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151885.txt",
+   "bytes": 1754,
+   "sha256": "41374305a9ca22fcf2f5a72519ca2761cd94cb4d128b6cf71ef5a72ade0a8692",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJudith Roberts, Belchertown, MA.\nPlease reconsider this plan.  It will negatively impact many sea creatures who are already struggling, but especially the Beluga Whales.  The The data center should not contribute to the potential extinction of an entire specie.  Humans are to steward the earth, not damage and destroy indiscriminately, which is what your project is liable to do.  Consider:\r\n\r\n\r\n    The proposed project would span 1,400-1,650 offshore acres near Nikiski, including up to 350 tidal turbines, 66 subsea data-center pods, and a 3.5-mile underwater sea cable.\r\n    Beluga whales are already competing with commercial shipping, port and coastal development, oil and gas exploration and production, and other anthropogenic activities, like fishing.\r\n    There are only an estimated 331 beluga whales left in the Cook Inlet; a 75% decline from their historic population of about 1,300 in 1979.\r\n    That's where National Oceanic and Atmospheric Administration (NOAA) designates 7,800 sq kilometers as beluga’s ‘critical habitat.’\r\n    Belugas are among NOAA’s marine species at greatest near-term extinction risk.\r\n    A study published in Frontiers found that thermal discharge from power plants can alter oxygen and pH levels and sediment composition, which ultimately reduces the number and variety of creatures that live nearby and on the seabed.\r\n    These cumulative impacts coalescing is what spells trouble. NOAA identifies “cumulative and synergistic stressors\" as a \"high-concern threat\" to beluga recovery.\r\n\r\nI hope this information brings about some introspection, and conscience searching.  Please take the data center somewhere else where it will not have such a detrimental impact on God's perfect creations.\r\n\r\n"
+  }
+ ]
+}
