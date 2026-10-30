@@ -1,0 +1,24 @@
+{
+ "id": "SEC:0000072903-26-000178",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "XCEL ENERGY INC  (XEL, XELLL)  (CIK 0000072903), NORTHERN STATES POWER CO  (CIK 0001123852) 8-K — full-text hit \"data center\" \"electric service agreement\"",
+ "filed": "2026-10-29",
+ "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000178/",
+ "entity": "XCEL ENERGY INC  (XEL, XELLL)  (CIK 0000072903), NORTHERN STATES POWER CO  (CIK 0001123852)",
+ "fetch": [],
+ "meta": {
+  "query": "\"data center\" \"electric service agreement\"",
+  "form": "8-K"
+ },
+ "collected_at": "2026-10-30T05:52:33Z",
+ "run_id": "2026-10-30-0521",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

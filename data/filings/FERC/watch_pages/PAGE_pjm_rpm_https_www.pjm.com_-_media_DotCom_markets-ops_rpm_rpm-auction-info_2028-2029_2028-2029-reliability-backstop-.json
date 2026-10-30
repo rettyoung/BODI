@@ -1,0 +1,43 @@
+{
+ "id": "PAGE:pjm_rpm:https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-reliability-backstop-baseload-generation-check.pdf",
+ "jur": "FERC",
+ "source": "page:pjm_rpm",
+ "kind": "news",
+ "docket": null,
+ "title": "BRA Reserve Target Shortfall Report and Baseload Generation Check&nbsp PDF",
+ "filed": null,
+ "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-reliability-backstop-baseload-generation-check.pdf",
+ "fetch": [
+  {
+   "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-reliability-backstop-baseload-generation-check.pdf"
+  }
+ ],
+ "meta": {
+  "bkey": "page:pjm_rpm",
+  "rto": "PJM",
+  "page": "https://www.pjm.com/markets-and-operations/rpm",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-30T05:25:14Z",
+ "run_id": "2026-10-30-0521",
+ "keywords": [
+  "combined cycle",
+  "interconnection",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-reliability-backstop-baseload-generation-check.pdf",
+   "name": null,
+   "bytes": 205273,
+   "sha256": "098a3a29f81e9f9db1aba1eaf127c79e64d81c9a5c4e68b35a129ea975889862",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                                                        2028/2029 BRA Shortfall Report and\n                                                         Base Load Generation Check for Reliability Backstop\n                                                                             PJM Capacity Market Operations\n\n                                                                                                              Oct. 28, 2026\n2028/2029 Base Residual Auction Reserve Target Shortfall\nPJM cleared the 2028/2029 Base Residual Auction (BRA) with a reserve margin more than one percentage point\nbelow the Installed Reserve Margin target and with total Unforced Capacity from all Base Load Generation\nResources below the forecasted minimum hourly load. This confirmed shortfall constitutes a triggering event under\nthe PJM Tariff, requiring an investigation into the root causes of the region's inability to procure sufficient resource\nadequacy1.\n\n\nThe 2027/2028 BRA previously triggered these same PJM Tariff provisions, resulting in the publication of the\n2027/2028 BRA Shortfall Report, which documented the findings of PJM's investigation. Since the publication of that\nreport, no significant new information or evidence has emerged that would warrant revisiting or modifying those\nfindings. Accordingly, the conclusions and recommendations remain unchanged. Readers should refer to the\n2027/2028 BRA Shortfall Report for a detailed discussion of the analysis, assumptions, and supporting rationale.\nThe evaluation of Base Load Generation Resources has been updated below to reflect the results of the 2028/2029\nBRA results.\n\n\nBase Load Generation Resources check\nAs required in Section 16.3 (a)(ii), Attachment DD of the PJM OATT, PJM will total the committed Unforced Capacity\nof all Base Load Generation Resources in a BRA for a Delivery Year and compare that total with the most recent\nforecasted minimum hourly load for such Delivery Year. Should a shortfall occur, the Office of the Interconnection will\ninvestigate the cause. If such a shortfall occurs for three consecutive Delivery Years, the Office of the Interconnection\nshall declare a capacity shortage and make a filing with FERC for approval to conduct a Reliability Backstop Auction.\nUpon receipt of such approval, the Office of the Interconnection will conduct a Reliability Backstop Auction in\naccordance with Section 16.4 of the Tariff.\n\n\nDefinition of Base Load Generation Resources\nFor the purposes of this Reliability Backstop check, PJM determines whether a resource meets the definition of Base\nLoad status through the following process:\n\n       1 | PJM gathers the most recent 2 full calendar years of hourly performance data submitted to\n           GADS by resource owners.\n\n       2 | This data is filtered so that only Nuclear, Combined Cycle and Steam-Coal units are\n           considered for Base Load status, as determined by PJM.\n\n\n\n\n1 PJM OATT, Attachment DD § 16.2 and 16.3(a)(ii)\n\n\nwww.pjm.com | For Public Use                                                                                    1|Pa g e\n\f                                                                    2028/2029 BRA Shortfall Report and\n                                                     Base Load Generation Check for Reliability Backstop\n                                                                         PJM Capacity Market Operations\n\n                                                                                                          Oct. 28, 2026\n      3 | Applicable units are assigned Base Load status when their operating percentage of available\n          Hours exceeds 90%. This is calculated by dividing total service hours by available hours over\n          the two-year period. Available hours are any hours when the resource is not on an outage,\n          either planned or unplanned. Service hours are defined as hours when the resource is\n          synchronized to the grid and providing energy.\n\n      4 | RPM Resources that are classified as Base Load are then compared with the cleared\n          Resource List in the BRA to determine total UCAP cleared for each category.\n\n\n\n      Base Load Generation Resources Committed in 28/29 BRA vs. Minimum Load Projected in 2028/2029 DY\n\n\n\n\nwww.pjm.com | For Public Use                                                                               2|Pa g e\n\f"
+  }
+ ]
+}

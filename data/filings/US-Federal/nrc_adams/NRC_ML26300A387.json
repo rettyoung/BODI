@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26300A387",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000617",
+ "title": "Holtec Pioneer 2 (SMR-300 at Palisades): Approval Email Request for Withholding Determination from Public Disclosure - Revision 1 of Enclosures to the CP2 Application. [['E-Mail', 'Proprietary Information Review']]",
+ "filed": "2026-10-29",
+ "entity": [
+  "Holtec International"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2630/ML26300A387.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26300A387.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Holtec Pioneer 2 (SMR-300 at Palisades)",
+  "accession": "ML26300A387",
+  "document_date": "2026-10-23"
+ },
+ "collected_at": "2026-10-30T05:47:43Z",
+ "run_id": "2026-10-30-0521",
+ "keywords": [
+  "SMR",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26300A387.pdf",
+   "name": null,
+   "bytes": 263592,
+   "sha256": "6fe707e86704ab15fd697b2c1b3f9cdf398e7b07846712d5aa10ba810f1dc282",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:            Jake Dolecki\nTo:              Jason Lising; Michael Orenak\nCc:              Michelle Hayes; ext_Miriam_Matthew; ext_Anthony_Konecni\nSubject:         [External_Sender] RE: Request for Withholding Determination from Public Disclosure - Revision 1 of Enclosures\n                 to the CP2 Application\nDate:            Friday, October 23, 2026 3:39:39 PM\n\n\n\nJason,\n\nConfirming receipt. Thank you.\n\nFrom: Jason Lising <Jason.Lising@nrc.gov>\nSent: Friday, October 23, 2026 1:26 PM\nTo: Jake Dolecki <J.Dolecki@holtec.com>; Michael Orenak <Michael.Orenak@nrc.gov>\nCc: Michelle Hayes <Michelle.Hayes@nrc.gov>; Miriam Matthew <M.Matthew@holtec.com>;\nAnthony Konecni <A.Konecni@holtec.com>\nSubject: Request for Withholding Determination from Public Disclosure - Revision 1 of Enclosures to\nthe CP2 Application\n\n\nCAUTION: This email came from a source OUTSIDE of Holtec!!\nDo not click any links or open any attachments unless you trust the sender\nand know the contents to be safe.\nClicking links or opening attachments could lead to infecting your computer\nor Holtec’s servers with malicious viruses.\nTo: Jake Dolecki\nSr. Manager, SMR Licensing and Engineering Programs\nHoltec International\n\nBy letter subject “Holtec International – Submittal of the Construction Permit Application for\nPioneer Units 1 and 2” dated September 30, 2026 (Agencywide Documents Access and\nManagement System (ADAMS) Accession No. ML26273A417, part of package\nML26273A416), Holtec submitted an affidavit (ADAMS Accession No. ML26273A414)\nrequesting that the information contained in the following document be withheld from public\ndisclosure pursuant to Section 2.390, “Public inspections, exemptions, requests for\nwithholding,” of Title 10 of the Code of Federal Regulations (10 CFR):\n\n        Enclosure I: Pioneer Units 1 and 2 Preliminary Safety Analysis Report (Proprietary)\n        (ADAMS Accession No.ML26273A418)\n\nThe NRC staff reviewed the affidavit and information provided in the letter in accordance\nwith the requirements of 10 CFR 2.390. Based on the statements in the affidavit, the staff\ndetermined that the information sought to be withheld contains proprietary commercial\ninformation and should be withheld from public disclosure. Therefore, the submitted\ninformation marked as proprietary will be withheld from public disclosure pursuant to\n10CFR 2.390(b)(5) and Section 103(b) of the Atomic Energy Act of 1954, as amended.\n\nIf the basis for withholding this information from public inspection should change in the\n\ffuture such that the information could then be made available for public inspection, you\nshould promptly notify the NRC. You also should understand that the NRC may have cause\nto review this determination in the future, for example, if the scope of a Freedom of\nInformation Act request includes your information. In all review situations, if the NRC makes\na determination adverse to the above, you will be notified in advance of any public\ndisclosure.\n\nIf you have any questions regarding this matter, please do not hesitate to contact Michael\nOrenak or me.\n\nThank you,\nJason Lising, Supporting Project Manager\n\nDockets: 05000616 and 05000617\n\nA. Jason Lising\nProject Manager\nOffice of Advance Reactors\nUS Nuclear Regulatory Commission\njason.lising@nrc.gov I OWFN/ 6A34\n\n\n\n\n                                      NOTICE OF LEGAL LIABILITY AND DISCLOSURE EXEMPTION\n\nThe information contained herein is intended only for the person or entity to which it is addressed (the“recipient”) and may contain confidential\nand/or privileged material belonging to Holtec International. If you are not the intended recipient, you must not keep, use, disclose, copy or distribute\nthis email without the sender’s prior permission in writing. Further, review, retransmission, dissemination, or other use of this information in whole or\npart for any other purpose by persons outside the recipient's organization is strictly prohibited unless explicit authorization to such effect has been\nissued by the sender of this message. Holtec International corporate governance policy expressly prohibits employees from making defamatory or\noffensive statements and infringing any copyright or any other legal right in any communication. Holtec International will not accept any liability for\nsuch un-licentious communications. Holtec International has taken utmost precautions to minimize the risk of transmitting software viruses and asks\nthe recipient’s organization to maintain similar measures against intrusion of viruses and implement their barriers before accepting this email or its\nattachments as actionable items. Holtec International cannot accept liability for any loss or damage caused by software viruses that may be\ntransmitted with this communication. If you are the intended recipient and you do not wish to receive similar electronic messages from us in the future,\nthen please advise the sender to this effect.\n\nAny email communication that is addressed to or originates from any attorney-at-law in Holtec’s or any of its subsidiary’s law departments or\nmentions their name in the body of the communication, shall be presumed to be attorney-client privileged and confidential information protected from\ndisclosure, in whole or in part, under law.\n\f"
+  }
+ ]
+}

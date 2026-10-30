@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150111",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "AEP Looking to Capitalize on Large Load Growth",
+ "filed": "2026-10-29",
+ "url": "//www.rtoinsider.com/150111-aep-earnings-looking-capitalize-large-load-growth/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " American Electric Power CEO Bill Fehrman says the company is at the center of the utility sector’s “unprecedented surge” in electric demand, presenting it with an opportunity to capitalize on the situation. \n The post  AEP Looking to Capitalize on Large Load Growth  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-30T05:26:15Z",
+ "run_id": "2026-10-30-0521",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

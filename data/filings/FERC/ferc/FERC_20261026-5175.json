@@ -37,5 +37,6 @@
    "url": "{'ferc_file': 'B769638C-34B3-CA98-9988-A17F1BE00000', 'name': 'Genesee and Grayling FPA 203 Application (CUI-PRIV).pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-30T05:56:56Z"
 }

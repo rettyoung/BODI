@@ -1,0 +1,26 @@
+{
+ "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210346",
+ "jur": null,
+ "source": "rss:pjm_insidelines",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM Files Amended Reliability Backstop Proposal",
+ "filed": "2026-10-29",
+ "url": "https://insidelines.pjm.com/pjm-files-amended-reliability-backstop-proposal/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:pjm_insidelines",
+  "rto": "PJM",
+  "summary": " PJM filed an amended proposal to FERC with the goal of commencing a Reliability Backstop Procurement on March 1, 2027. Central to Thursday’s filing are modifications to three elements of the original filing: the method for determining the cost allocation for Reliability Backstop charges, LSE credit requirements and LSE exit responsibilities. An LSE is a [&#8230;]",
+  "feed": "pjm_insidelines",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-30T05:26:11Z",
+ "run_id": "2026-10-30-0521",
+ "keywords": [
+  "cost allocation"
+ ],
+ "party_hits": [],
+ "documents": []
+}

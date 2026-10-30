@@ -1,0 +1,23 @@
+{
+ "id": "BILL:NV:ocd-bill/d04dad0c-0e11-4161-84f8-cacb98f1c31a:2026-08-28",
+ "jur": "NV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "BDR 32-507",
+ "title": "Revises provisions relating to data centers.",
+ "filed": "2026-08-28",
+ "url": "https://openstates.org/nv/bills/84/BDR32-507/",
+ "fetch": [],
+ "meta": {
+  "session": "84",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-10-30T05:36:18Z",
+ "run_id": "2026-10-30-0521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

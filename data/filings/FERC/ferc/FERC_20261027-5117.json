@@ -46,5 +46,6 @@
    "url": "{'ferc_file': '05146671-09ED-C1D1-983A-A17F14100000', 'name': 'PGE20261027_2310_MeadowLake_STID_Enc2.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-30T05:56:41Z"
 }

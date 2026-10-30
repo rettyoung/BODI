@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26302A030",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): Proprietary Determination - Construction Permit Application Revision 1 [['E-Mail']]",
+ "filed": "2026-10-29",
+ "entity": [
+  "NRC/OAR/DDLP/DARL/ARLB5"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2630/ML26302A030.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26302A030.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26302A030",
+  "document_date": "2026-10-27"
+ },
+ "collected_at": "2026-10-30T05:47:37Z",
+ "run_id": "2026-10-30-0521",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26302A030.pdf",
+   "name": null,
+   "bytes": 134296,
+   "sha256": "49163daeeb19db25144da564adfde4d2471b55bbd9c1a66131d3390947d92dc4",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "From:           Adrian Muniz\nTo:             ext_Mark_Feltner; Stephen Vaughn\nCc:             O\"Connor, Charles (CR); Jessica Maddocks; Alissa Neuhausen\nSubject:        Long Mott Energy, LLC - Request for Withholding Information from Public Disclosure - Construction Permit\n                Application Revision 1\nDate:           Tuesday, October 27, 2026 6:34:00 PM\n\n\nDear Mr. Feltner and Mr. Vaughn,\n\nBy letter dated September 18, 2026 (ML26261A419), you submitted affidavits requesting\nthat specific information included with the letter be withheld from public disclosure pursuant\nto Title 10 of the Code of Federal Regulations (10 CFR) Section 2.390. The NRC staff\nreviewed the material contained in Revision 1 of the construction permit application\nidentified in the affidavits in accordance with 10 CFR 2.390 requirements. Based on the\nstatements in the affidavits, the staff determined that the information sought to be withheld\ncontains proprietary commercial information and should be withheld from public disclosure.\nTherefore, the information marked as proprietary will be withheld from public disclosure\npursuant to 10 CFR 2.390(b)(5).\n\nIf the basis for withholding this information from public inspection should change in the\nfuture such that the information could then be made available for public inspection, you\nshould promptly notify the U.S. Nuclear Regulatory Commission (NRC). You also should\nunderstand that the NRC may have cause to review this determination in the future, for\nexample, if the scope of a Freedom of Information Act request includes your information. In\nall review situations, if the NRC makes a determination adverse to the above, you will be\nnotified in advance of any public disclosure.\n\nSincerely,\n\n\nAdrian Muñiz, Senior Project Manager\nOffice of Advanced Reactors\nAdvanced Reactor Licensing Branch 5\nU.S. Nuclear Regulatory Commission\n\f"
+  }
+ ]
+}

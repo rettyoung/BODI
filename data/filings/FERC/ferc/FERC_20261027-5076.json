@@ -64,5 +64,6 @@
    "url": "{'ferc_file': '65594FB3-682E-C542-900B-A17E6EB00000', 'name': 'Red Bridge Dam Final PMP Report_Part4.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-30T05:56:53Z"
 }

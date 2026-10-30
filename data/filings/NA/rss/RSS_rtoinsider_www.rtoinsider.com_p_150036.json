@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150036",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM’s Answer to Large Load Growth Puts Interconnection Progress at Risk",
+ "filed": "2026-10-29",
+ "url": "//www.rtoinsider.com/150036-pjm-answer-large-load-growth-puts-interconnection-progress-at-risk/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " PJM must demonstrate that the \"mega queue\" will provide the benefits PJM describes and not simply shift cost, timing and development risk onto generation, says American Clean Power's Brett White. \n The post  PJM’s Answer to Large Load Growth Puts Interconnection Progress at Risk  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-30T05:26:15Z",
+ "run_id": "2026-10-30-0521",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}

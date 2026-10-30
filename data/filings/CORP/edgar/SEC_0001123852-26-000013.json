@@ -1,0 +1,24 @@
+{
+ "id": "SEC:0001123852-26-000013",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "NORTHERN STATES POWER CO  (CIK 0001123852) 10-Q — full-text hit \"data center\" \"electric service agreement\"",
+ "filed": "2026-10-29",
+ "url": "https://www.sec.gov/Archives/edgar/data/1123852/000112385226000013/",
+ "entity": "NORTHERN STATES POWER CO  (CIK 0001123852)",
+ "fetch": [],
+ "meta": {
+  "query": "\"data center\" \"electric service agreement\"",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-10-30T05:52:33Z",
+ "run_id": "2026-10-30-0521",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

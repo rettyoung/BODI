@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0000081018-26-000012",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "PUBLIC SERVICE CO OF COLORADO  (CIK 0000081018) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-10-29",
+ "url": "https://www.sec.gov/Archives/edgar/data/81018/000008101826000012/",
+ "entity": "PUBLIC SERVICE CO OF COLORADO  (CIK 0000081018)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-10-30T05:52:33Z",
+ "run_id": "2026-10-30-0521",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,27 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/firstenergy-data-center-pipeline-maidsville/873149/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "FirstEnergy data center pipeline increases 5% to 26 GW in Q3",
+ "filed": "2026-10-29",
+ "url": "https://www.utilitydive.com/news/firstenergy-data-center-pipeline-maidsville/873149/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      Two FirstEnergy utilities reserved combined cycle turbines for a 1.2-GW data center-focused project in West Virginia and issued a solicitation for an additional 3 GW, company officials said. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-30T05:26:15Z",
+ "run_id": "2026-10-30-0521",
+ "keywords": [
+  "combined cycle",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}
