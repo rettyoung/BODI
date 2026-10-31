@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261030-5048",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2195",
+ "title": "Portland General Electric submits Supporting Technical Information Document and file sharing link to the Digital Project Archive re the Harriet Development of the Clackamas River Hydroelectric Project under P-2195.",
+ "filed": "2026-10-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261030-5048",
+ "entity": "PGE",
+ "fetch": [
+  {
+   "ferc_file": "18C478E2-0372-C185-925F-A18D31900000",
+   "name": "20261029 CR-43 Harriet STID DPA File Share - Enclosure 1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "1EDDE323-70AB-C8DE-98B5-A18D31900000",
+   "name": "20261029 CR-43 Harriet Development STID - October 2026 Rev 9 - Enclosure 2.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-29"
+ },
+ "collected_at": "2026-10-31T05:47:06Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '18C478E2-0372-C185-925F-A18D31900000', 'name': '20261029 CR-43 Harriet STID DPA File Share - Enclosure 1.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '1EDDE323-70AB-C8DE-98B5-A18D31900000', 'name': '20261029 CR-43 Harriet Development STID - October 2026 Rev 9 - Enclosure 2.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

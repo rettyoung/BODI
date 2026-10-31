@@ -1,0 +1,59 @@
+{
+ "id": "FERC:20261028-5185",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EL27-7",
+ "title": "Complaint of Electricity Transmission Competition Coalition, and Industrial Energy Consumers of America v. Southwest Power Pool, Inc. under EL27-7.",
+ "filed": "2026-10-28",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261028-5185",
+ "entity": "Electricity Transmission Competition Coalition and Industria",
+ "fetch": [
+  {
+   "ferc_file": "F94833E3-8897-C9F7-878F-A187AC600000",
+   "name": "ETCC SPP 2026 STR Complaint CUI CEII.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "D03B1446-A8AD-C7C7-8F26-A187AC600000",
+   "name": "Exhibit A CUI CEII.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "33E74828-F975-CAC0-97B3-A187AC600000",
+   "name": "Exhibit B CUI CEII.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Complaints"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-31T05:46:33Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'F94833E3-8897-C9F7-878F-A187AC600000', 'name': 'ETCC SPP 2026 STR Complaint CUI CEII.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'D03B1446-A8AD-C7C7-8F26-A187AC600000', 'name': 'Exhibit A CUI CEII.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '33E74828-F975-CAC0-97B3-A187AC600000', 'name': 'Exhibit B CUI CEII.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A093026-03",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-A093026-03 Implementation Details of NOGRR226, Addition of Supplemental UFLS Stages, and NOGRR247, Change UFLS Stages and Load Relief Amounts",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-A093026-03",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A093026-03"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-31T05:22:33Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "NPRR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A093026-03",
+   "name": null,
+   "bytes": 6009,
+   "sha256": "e45fb941d3b3725a75fa48c1895cdccd4bfe23555614fa0e68e58518915226a0",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_PRR_SCR@lists.ercot.com,Notice_Operations@lists.ercot.com\n\nSent:\n\n10/30/26, 2:58 PM\n\nSubject:\n\nM-A093026-03 Implementation Details of NOGRR226, Addition of Supplemental UFLS Stages, and NOGRR247, Change UFLS Stages and Load Relief Amounts\n\nNOTICE DATE:\n October 30, 2026\n\nNOTICE TYPE:\n M-A093026-03 NPRR\n\nSHORT DESCRIPTION:\n Implementation Details of NOGRR226, Addition of Supplemental UFLS Stages, and NOGRR247, Change UFLS Stages and Load Relief Amounts\n\nINTENDED AUDIENCE:\n Transmission Operators\n\nDAYS AFFECTED:\n November 1, 2026\n\nLONG DESCRIPTION:\n On November 1, 2026, Nodal Operating Guide language associated with Nodal Operating Guide Revision Request (NOGRR) 226, Addition of Supplemental UFLS Stages; and NOGRR247, Change UFLS Stages and Load Relief Amounts, will be implemented.\n\nNOGRR226 and NOGRR247 include new anti-stall Under-Frequency Load Shed (UFLS) stages and expand UFLS from three standard stages to five.\n\nADDITIONAL INFORMATION: \nNOGRR226\n and \nNOGRR247\n and associated documents can be found on the ERCOT website.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

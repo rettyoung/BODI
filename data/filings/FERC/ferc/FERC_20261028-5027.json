@@ -69,5 +69,6 @@
    "url": "{'ferc_file': '5D492C3C-F435-C730-8B21-A182C5200000', 'name': 'Vol. I Exh. E_Technical Specifications_R3.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-10-31T05:57:27Z"
 }

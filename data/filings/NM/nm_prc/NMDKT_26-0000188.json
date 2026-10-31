@@ -1,0 +1,24 @@
+{
+ "id": "NMDKT:26-0000188",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "keyword_hit",
+ "docket": "26-0000188",
+ "title": "IN THE MATTER OF PUBLIC SERVICE COMPANY OF NEW MEXICO’S APPLICATION FOR A CERTIFICATE OF PUBLIC CONVENIENCE AND NECESSITY TO CONSTRUCT, OWN, AND OPERATE, LOCATION APPROVAL, AND RIGHT-OF-WAY DETERMINATION FOR THE MID-STATE 345 KVTRANSMISSION PROJECT",
+ "filed": "2026-10-30",
+ "entity": "PUBLIC SERVICE COMPANY OF NEW MEXICO",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/home",
+ "fetch": [],
+ "meta": {
+  "new_docket": true,
+  "category": "Resource: Certificate of Convenience and Necessity (CCN) /Power Purchase Agreement (PPA)",
+  "type": "Utility"
+ },
+ "collected_at": "2026-10-31T05:55:57Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "certificate of public convenience"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,28 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/clean-industry/meta-fortera-deal-cement-plant-missouri",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Meta strikes deal to help bring a low-carbon cement plant to Missouri",
+ "filed": "2026-10-30",
+ "url": "https://www.canarymedia.com/articles/clean-industry/meta-fortera-deal-cement-plant-missouri",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "Tech companies say they&#039;re seeking low-carbon construction materials to limit the climate impact of their data centers. But very little clean cement or green steel is actually being produced in the U.S. today, and only in a handful of locations. To tackle that dilemma, Meta recently  struck a deal with  Fortera to…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-31T05:24:31Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "Meta"
+ ],
+ "documents": []
+}

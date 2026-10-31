@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20261030-5006",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Elizabeth Ohlsen in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/29/2026\n",
+ "filed": "2026-10-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261030-5006",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "4B27604B-46F6-C852-900C-A18AF6B00000",
+   "name": "151790.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-29"
+ },
+ "collected_at": "2026-10-31T05:48:04Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "Microsoft"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151790.txt",
+   "bytes": 1738,
+   "sha256": "69c851b1f73a9b8c4f8adf57705d0e8c581022bdbf5939788159e0d0984b4202",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nElizabeth Ohlsen, Anchorage, AK.\nI am an Alaska resident since 1992 and I live in Anchorage. I am writing to register deep concerns about this sketchily planned project, its environmental impact, and its lack of concern for the Alaska economy and Alaskan concerns. Cook Inlet is not the right place for a data center of this size and Alaskans will bear the costs if this misguided project moves forward. \r\n\r\nLike anyone who has maintained marine equipment, I know that keeping moving parts installed in saltwater moving is a thankless exercise. Cook Inlet has some of the highest tidal ranges of anywhere in the world and abrasion to equipment will be particularly high considering currents, volcanic ash, and silt. Deep green has not released a plausible plan for the constant maintenance that will be required for the life of the project. Microsoft had the most successful sea floor data center to date. It was much smaller than this proposal and still had to be shut down after two years because of fouling, in much more forgiving waters than Cook Inlet.\r\n\r\nDeepGreen also does not seem to have any cohesive plan to address backup power, maintenance, fisheries impacts, or the potential release of toxic pollutants. Immediate economic concerns for Alaskans include disruptions to the shipping lanes that supply our food and connect us to the rest of the world and the massive electrical demand the data center will draw during slack tide. DeepGreen does not have an adequate plan to prevent these concerns from impacting Alaskans. \r\n\r\nThe heat and noise generated also pose unacceptable risks to the local fisheries many of us depend on as well as to endangered species (belugas).\r\n￼\r\nI urge authorities to deny this permit. \r\n\r\n"
+  }
+ ]
+}

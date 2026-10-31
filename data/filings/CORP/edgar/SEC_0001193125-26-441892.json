@@ -1,0 +1,47 @@
+{
+ "id": "SEC:0001193125-26-441892",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Digital Realty 8-K 8-K items 8.01,9.01",
+ "filed": "2026-10-30",
+ "url": "https://www.sec.gov/Archives/edgar/data/1297996/000119312526441892/",
+ "entity": "Digital Realty",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1297996/000119312526441892/d170330d8k.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "cik": "0001297996",
+  "market_participant": true
+ },
+ "collected_at": "2026-10-31T05:52:25Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [
+  "Digital Realty"
+ ],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1297996/000119312526441892/d170330d8k.htm",
+   "name": null,
+   "bytes": 41373,
+   "sha256": "5c0e6495080473eabc38de88881df3dea31e4f094fcf13f227916e8913d2b372",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "8-K\n\nfalse\nfalse\n0001494877\n0001297996\n\n0001297996\n\n2026-10-30\n\n2026-10-30\n\n0001297996\n\ndlr:DigitalRealtyTrustLPMember\n\n2026-10-30\n\n2026-10-30\n\n0001297996\n\nus-gaap:CommonStockMember\n\n2026-10-30\n\n2026-10-30\n\n0001297996\n\ndlr:SeriesJPreferredStockMember\n\n2026-10-30\n\n2026-10-30\n\n0001297996\n\ndlr:SeriesKPreferredStockMember\n\n2026-10-30\n\n2026-10-30\n\n0001297996\n\ndlr:SeriesLPreferredStockMember\n\n2026-10-30\n\n2026-10-30\n\nUNITED STATES \nSECURITIES AND EXCHANGE COMMISSION \nWashington, D.C. 20549 \n\nFORM \n8-K\n\nCURRENT REPORT \nPursuant to Section 13 OR 15(d) \nof The Securities Exchange Act of 1934 \nDate of Report (Date of earliest event reported): \nOctober 30, 2026\n\nDIGITAL REALTY TRUST, INC.\nDIGITAL REALTY TRUST, L.P.\n(Exact name of registrant as specified in its charter) \n\nMaryland\n\n001-32336\n\n26-0081711\n\nMaryland\n\n000-54023\n\n20-2402955\n\n(State or other jurisdiction\nof incorporation)\n\n(Commission\nFile Number)\n\n(IRS Employer\nIdentification No.)\n\n601 West 2nd Street\n, \nFloor 32\nAustin\n, \nTexas\n\n78701\n\n(Address of principal executive offices)\n\n(Zip Code)\n(\n737\n) \n281-0101\n\n(Registrant’s telephone number, including area code) \n\nCheck the appropriate box below if the Form \n8-K\n filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: \n\n☐\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) \n\n☐\n\nSoliciting material pursuant to Rule \n14a-12\n under the Exchange Act (17 CFR \n240.14a-12)\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n14d-2(b)\n under the Exchange Act (17 CFR \n240.14d-2(b))\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n13e-4(c)\n under the Exchange Act (17 CFR \n240.13e-4(c))\n Securities registered pursuant to Section 12(b) of the Act: \n\nTitle of each class\n\nTrading\nsymbol(s)\n\nName of each exchange\non which registered\n\nCommon Stock\n\nDLR\n\nNew York Stock Exchange\n\nSeries J Cumulative Redeemable Preferred Stock\n\nDLR Pr J\n\nNew York Stock Exchange\n\nSeries K Cumulative Redeemable Preferred Stock\n\nDLR Pr K\n\nNew York Stock Exchange\n\nSeries L Cumulative Redeemable Preferred Stock\n\nDLR Pr L\n\nNew York Stock Exchange\n\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§ 230.405 of this chapter) or Rule \n12b-2\n of the Securities Exchange Act of 1934 (§ \n240.12b-2\n of this chapter). \n\nDigital Realty Trust, Inc.:\n\nEmerging growth company \n☐\n\nDigital Realty Trust, L.P.:\n\nEmerging growth company \n☐\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \nDigital Realty Trust, Inc.: ☐ \nDigital Realty Trust, L.P.: ☐ \n\nItem 8.01.\n\nOther Events. \n\nIn connection with Digital Realty Trust, Inc.’s (the “Company”) previously-disclosed acquisition on October 19, 2026 of approximately 16% of the interests in the company’s Teraco joint venture, pursuant to a put right exercised by certain of the joint venture’s third party partners, the Company is registering the resale of certain shares of common stock, $0.01 par value per share, that were issued as consideration in the transaction pursuant to a prospectus supplement being filed with the Securities and Exchange Commission on the date hereof. A copy of the legal opinion of Venable LLP regarding certain Maryland law issues concerning the shares of common stock that may be offered and sold pursuant to the prospectus supplement and the accompanying prospectus is filed herewith as Exhibit 5.1 and is incorporated herein by reference. \n\nThis Current Report shall not constitute an offer to sell or the solicitation of an offer to buy nor shall there be any sale of these securities in any state in which such offer, solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such state. \n\nItem 9.01.\n\nFinancial Statements and Exhibits. \n\n(d) Exhibits \n\nExhibit\n\nNo.\n\nDescription\n\n5.1\n\nOpinion of Venable LLP. \n\n23.1\n\nConsent of Venable LLP (included in Exhibit 5.1). \n\n104\n\nCover Page Interactive Data File (embedded within the Inline XBRL document).\n\nSIGNATURES \n\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrants have duly caused this report to be signed on their behalf by the undersigned hereunto duly authorized. \n\nDate: October 30, 2026 \n\nDigital Realty Trust, Inc.\n\nBy:\n\n/s/ JEANNIE LEE\n\nJeannie Lee\n\nExecutive Vice President, General Counsel and Secretary\n\nDigital Realty Trust, L.P.\n\nBy:\n\nDigital Realty Trust, Inc.\n\nIts general partner\n\nBy:\n\n/s/ JEANNIE LEE\n\nJeannie Lee\n\nExecutive Vice President, General Counsel and Secretary"
+  }
+ ]
+}

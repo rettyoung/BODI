@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261029-5042",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "IN79-6",
+ "title": "Duke Energy Carolinas, LLC submits response to 2026 FERC Form 580 \nInterrogatories on Fuel and Energy Purchase Practices under IN79-6.",
+ "filed": "2026-10-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261029-5042",
+ "entity": "Duke Energy Carolinas, LLC",
+ "fetch": [
+  {
+   "ferc_file": "2E01CB88-4255-C827-9274-A187BF200000",
+   "name": "DEC FERC Form 580 (2026).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "811747A7-2907-C3C8-9ABC-A187BF200000",
+   "name": "DEC FERC Form 580 Cover Letter.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 580 - Fuel and Energy Purchase Practices"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-28"
+ },
+ "collected_at": "2026-10-31T05:47:53Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "Microsoft"
+ ],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "DEC FERC Form 580 (2026).pdf",
+   "bytes": 2322941,
+   "sha256": "aeaa74243a7b15272363904c9366e94eb19b39409661e94835b7e53d9cfe35d1",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "Please wait...\nIf this message is not eventually replaced by the proper contents of the document, your PDF\nviewer may not be able to display this type of document.\n\nYou can upgrade to the latest version of Adobe Reader for Windows®, Mac, or Linux® by\nvisiting http://www.adobe.com/go/reader_download.\n\nFor more assistance with Adobe Reader visit http://www.adobe.com/go/acrreader.\nWindows is either a registered trademark or a trademark of Microsoft Corporation in the United States and/or other countries. Mac is a trademark\nof Apple Inc., registered in the United States and other countries. Linux is the registered trademark of Linus Torvalds in the U.S. and other\ncountries.\n\f"
+  },
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "DEC FERC Form 580 Cover Letter.docx",
+   "bytes": 933904,
+   "sha256": "f061f2ee72671c3c899b334c75efede15a305ffb7471dd14abbc5b947a7d8311",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\nOctober 28, 2026\n\nThe Honorable Debbie-Anne Reese, Secretary\nFederal Energy Regulatory Commission\n888 First Street, N.E.\nWashington, D.C. 20426\n\nRe: \tDuke Energy Carolinas, LLC, IN79-6-000\nFERC Form 580\nRequest for Privileged and Confidential Treatment of Question 5\nDear Secretary Bose:\nPursuant to Part 35 of the regulations of the Federal Energy Regulatory Commission (“FERC” or “Commission”), Duke Energy Carolinas, LLC (“DEC”) hereby submits for filing a request for privileged and confidential treatment of the enclosed response to Question 5 of DEC’s FERC Form 580 for the calendar years 2024 and 2025.  DEC is submitting responses to Questions 1 through 4 and Questions 6 through 8 on a public version of FERC Form 580 submitted contemporaneously with this filing.  \nIf you have any questions regarding this filing, or if we may be of further assistance, please do not hesitate to contact the undersigned.\n\nRespectfully submitted,\n\n/s/ Sheri Hylton May\t\nSheri Hylton May\nAssociate General Counsel\nDuke Energy Corporation\n1212M / 139 East Fourth Street\nCincinnati, Ohio 45202\noffice phone: (513) 287-4340\nfax: (513) 287-4386\nsheri.may@duke-energy.com "
+  }
+ ]
+}

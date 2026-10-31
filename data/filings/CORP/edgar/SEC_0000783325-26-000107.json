@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0000783325-26-000107",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "WEC ENERGY GROUP, INC.  (WEC)  (CIK 0000783325) 10-Q — full-text hit \"co-location\" FERC",
+ "filed": "2026-10-30",
+ "url": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000107/",
+ "entity": "WEC ENERGY GROUP, INC.  (WEC)  (CIK 0000783325)",
+ "fetch": [],
+ "meta": {
+  "query": "\"co-location\" FERC",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-10-31T05:52:25Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

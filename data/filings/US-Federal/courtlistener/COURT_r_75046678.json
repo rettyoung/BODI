@@ -1,0 +1,23 @@
+{
+ "id": "COURT:r:75046678",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "4:26-cv-01196",
+ "title": "ADP Little Rock Data Hub LLC v. Pulaski County, Arkansas",
+ "filed": "2026-10-29",
+ "url": "",
+ "fetch": [],
+ "meta": {
+  "court": "District Court, E.D. Arkansas",
+  "query": "Constellation AND PJM AND (colocation OR \"co-location\")"
+ },
+ "collected_at": "2026-10-31T05:36:50Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "co-location",
+  "colocation"
+ ],
+ "party_hits": [],
+ "documents": []
+}

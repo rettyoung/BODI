@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150110",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Data Centers’ Futures Hinge on What Governors Will Do",
+ "filed": "2026-10-30",
+ "url": "//www.rtoinsider.com/data-centers-futures-hinge-on-what-governors-will-do/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The midterm elections could leave Democrats leading a majority of states and potentially heating up tensions between the party’s left and center over data center and AI development. \n The post  Data Centers’ Futures Hinge on What Governors Will Do  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-10-31T05:24:31Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

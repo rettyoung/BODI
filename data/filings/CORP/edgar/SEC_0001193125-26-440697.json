@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001193125-26-440697",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "DOMINION ENERGY, INC  (D)  (CIK 0000715957), VIRGINIA ELECTRIC & POWER CO  (CIK 0000103682) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-10-30",
+ "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526440697/",
+ "entity": "DOMINION ENERGY, INC  (D)  (CIK 0000715957), VIRGINIA ELECTRIC & POWER CO  (CIK 0000103682)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-10-31T05:52:25Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

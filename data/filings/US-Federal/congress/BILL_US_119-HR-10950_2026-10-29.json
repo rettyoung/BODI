@@ -1,0 +1,25 @@
+{
+ "id": "BILL:US:119-HR-10950:2026-10-29",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 10950",
+ "title": "To require sponsors of large data centers to file public disclosure statements with the Secretary of Energy, and for other purposes.",
+ "filed": "2026-10-29",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/10950",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Referred to the House Committee on Energy and Commerce.",
+  "keywords": [
+   "data center",
+   "data centers"
+  ]
+ },
+ "collected_at": "2026-10-31T05:28:20Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

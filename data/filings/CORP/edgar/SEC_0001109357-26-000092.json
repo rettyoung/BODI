@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001109357-26-000092",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "EXELON CORP  (EXC)  (CIK 0001109357), BALTIMORE GAS & ELECTRIC CO  (CIK 0000009466) 8-K — full-text hit \"large load\" tariff",
+ "filed": "2026-10-30",
+ "url": "https://www.sec.gov/Archives/edgar/data/1109357/000110935726000092/",
+ "entity": "EXELON CORP  (EXC)  (CIK 0001109357), BALTIMORE GAS & ELECTRIC CO  (CIK 0000009466)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "8-K"
+ },
+ "collected_at": "2026-10-31T05:52:25Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20261030-5096",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EC26-153",
+ "title": "Response of AEP Generation Resources Inc. et al. to the 10/16/2026 Comments of the Independent Market Monitor for PJM under EC26-153.",
+ "filed": "2026-10-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261030-5096",
+ "entity": "AEP Generation Resources Inc.; Longview Power, LLC",
+ "fetch": [
+  {
+   "ferc_file": "B821C43E-C56D-C570-9886-A18D6F900000",
+   "name": "PRIV 2026-10-30 Response to IMM Comments - EC26-153.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Answer/Response to a Pleading/Motion"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-10-30"
+ },
+ "collected_at": "2026-10-31T05:46:51Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'B821C43E-C56D-C570-9886-A18D6F900000', 'name': 'PRIV 2026-10-30 Response to IMM Comments - EC26-153.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

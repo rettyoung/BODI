@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20261029-0002",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-1633",
+ "title": "Comments of C. Susan Holcomb re the proposed construction package of the Valley Link Transmission Line under ER26-1633. ",
+ "filed": "2026-10-29",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261029-0002",
+ "entity": "INDIVIDUAL",
+ "fetch": [
+  {
+   "ferc_file": "F0EB266D-7139-C752-8D9C-A188B0700000",
+   "name": "DocBatch261029-0012.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-05-01"
+ },
+ "collected_at": "2026-10-31T05:48:26Z",
+ "run_id": "2026-10-31-0518",
+ "keywords": [
+  "co-located",
+  "data center",
+  "interconnection",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "DocBatch261029-0012.pdf",
+   "bytes": 1020463,
+   "sha256": "4745b7f31c0db4e288d76b78050f61fef23df94b902e29d0a7f6072204fdea5c",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                         ,\n\n\n\n\n    ORIGINAL\nFederal Energy Regulatory Commission\n888 First Street, N.E.\nWashington, D.C. 20426\n\n\nRe: Docket # ER26-1633-000\n\n\nMay 1, 2026\n\n\nTo Whom It May Concern:\n\n\nRegarding Docket # ER26-1633-000 (the Valley Link Transmission Line) and understanding\nthe evaluation of the project is based upon Pennsylvania-New Jersey-Maryland\nInterconnection) \"PJM\" determination of projected. need, please consider these comments\nin connection with alternative project options.\n\n\nWith the objective of being less costly and having significantly less impact on the\nenvironment, land use and landowner impact, one option to be explored should be\ndevelopment of one or more natural gas power plants in proximity to the PJM service area.\nThere are several natural gas providers in that area for which a lateral line connection could\nbe completed with dramatically less impact on the environment, land use, landowners, and\nscenic views, and likely less costly.\n\n\nA second option would be natural gas plants co-located with the large number of data center\nsites within or in near proximity to the PJM service area. One statistic indicates there are\nnearly 600 data centers in northern Virginia alone. Excess power generated at many data\ncenters could go into the grid for additional supply.\n\n\nBy siting a nuclear power plant and constructing 115 miles of a 765kV electric transmission\nline to provide additional power to the PJM service area creates a near maximum amount of\nimpact to rural Virginia, farmers, landowners, natural resources, migratory bird flyways,\nnative American cultural resources, areas of current economic poverty levels, scenic\nresources, potential threatened and endangered species, a significant number of wetlands\nand water bodies and more. Reduction in property values and usage impacts of private\nlands are created with this siting option. As you are well aware residents of all of the affected\nVirginia counties are in sincere opposition to the proposed plan. Please also consider their\nquality of life and potential health impacts from the generation of non-ionizing radiation\ncreated by the transmission line.\n\fAll of the affected areas mentioned above could be avoided by more selective siting of power\ngeneration facilities creating a vast reduction in miles of electric transmission, possibly a\nreduction in construction and maintenance costs, and certainly visual impacts.\nPlease urge PJM to consider alternatives to the proposed construction package of a nuclear\npower plant, 115 miles of 765kV power line corridor and a large substation. And to select a\nvastly less impactful option.\n\n\nThank you for your consideration.\n\n\n\n\nC. Susan Holcomb\n4005 West Chapel Drive\nGoochiand, Virginia, 23063\n\n\nEmail: csusan4736@gmail.com\n\f"
+  }
+ ]
+}
