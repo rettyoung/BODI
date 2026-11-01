@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/60f6a3df-d226-4eb8-9978-955442b61384:2026-02-04T05:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 939",
+ "title": "Establishing the Office of Transformation and Opportunity and the Artificial Intelligence, Data Center and Emerging Technology Regulatory Sandbox Program; and providing for powers and duties of office and for permits for high impact data centers that have their own power.",
+ "filed": "2026-02-04",
+ "url": "https://openstates.org/pa/bills/2025-2026/SB939/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Amended in Senate Committee on Communications & Technology",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-01T05:35:54Z",
+ "run_id": "2026-11-01-0525",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

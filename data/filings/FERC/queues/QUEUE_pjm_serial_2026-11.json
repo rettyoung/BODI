@@ -1,0 +1,23 @@
+{
+ "id": "QUEUE:pjm_serial:2026-11",
+ "jur": "FERC",
+ "source": "queues",
+ "kind": "queue_delta",
+ "docket": null,
+ "title": "PJM (serial and expedited) interconnection queue — 2026-11: 2 new projects ≥100 MW in tracked states",
+ "filed": "2026-11-01",
+ "url": "https://www.pjm.com/planning/service-requests/serial-service-request-status",
+ "fetch": [],
+ "meta": {
+  "rto": "PJM",
+  "summary": "New projects:\nVA Sussex — Clubhouse-Sapony 230 kV — Solar — 149 MW (queue id AE2-033; Engineering and Procurement / Generation Interconnection / Dominion / 2/1/2030)\nPA Erie — Erie East 230 kV — Storage — 160 MW (queue id AE2-299; Pending Termination / Generation Interconnection / PENELEC / 6/1/2026)\n\nTotals by state:\nIL: 6,457 -> 6,378 MW (-79); 23 projects\nNC: 2,197 -> 2,197 MW (+0); 13 projects\nOH: 10,365 -> 10,216 MW (-149); 60 projects\nPA: 5,322 -> 5,434 MW (+112); 53 projects\nVA: 7,963 -> 7,422 MW (-541); 56 projects\nWV: 5,235 -> 5,145 MW (-90); 13 projects"
+ },
+ "collected_at": "2026-11-01T05:39:25Z",
+ "run_id": "2026-11-01-0525",
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}

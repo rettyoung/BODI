@@ -1,0 +1,23 @@
+{
+ "id": "BILL:PA:ocd-bill/9213993f-a55e-4fe0-a112-b573c46cea3a:2026-04-23T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2333",
+ "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, providing for responsible utility customer protection.",
+ "filed": "2026-04-23",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2333/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Consumer Protection & Professional Licensure",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-01T05:35:54Z",
+ "run_id": "2026-11-01-0525",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

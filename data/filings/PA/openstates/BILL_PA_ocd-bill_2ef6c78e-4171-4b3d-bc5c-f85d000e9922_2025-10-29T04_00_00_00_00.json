@@ -1,0 +1,24 @@
+{
+ "id": "BILL:PA:ocd-bill/2ef6c78e-4171-4b3d-bc5c-f85d000e9922:2025-10-29T04:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1924",
+ "title": "An Act providing for Pennsylvania Public Utility Commission oversight of load forecasting, for access to confidential contracts and information and for annual report.",
+ "filed": "2025-10-29",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB1924/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Laid on the table",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-01T05:35:54Z",
+ "run_id": "2026-11-01-0525",
+ "keywords": [
+  "electric service agreement",
+  "load forecast"
+ ],
+ "party_hits": [],
+ "documents": []
+}

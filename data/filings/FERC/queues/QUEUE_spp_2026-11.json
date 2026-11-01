@@ -1,0 +1,23 @@
+{
+ "id": "QUEUE:spp:2026-11",
+ "jur": "FERC",
+ "source": "queues",
+ "kind": "queue_delta",
+ "docket": null,
+ "title": "SPP interconnection queue — 2026-11: 1 new projects ≥100 MW in tracked states",
+ "filed": "2026-11-01",
+ "url": "https://opsportal.spp.org/Studies/GIActive",
+ "fetch": [],
+ "meta": {
+  "rto": "SPP",
+  "summary": "New projects:\nKS Grant County — 0 — GEN-2026-SR37 — 113 MW (queue id GEN-2026-SR37)\n\nTotals by state:\nKS: 27,030 -> 27,054 MW (+24); 118 projects\nLA: 2,192 -> 2,299 MW (+107); 9 projects\nMO: 8,534 -> 8,534 MW (+0); 49 projects\nNM: 7,034 -> 7,034 MW (-0); 37 projects\nOK: 40,370 -> 39,525 MW (-846); 193 projects\nTX: 17,662 -> 17,512 MW (-150); 71 projects"
+ },
+ "collected_at": "2026-11-01T05:39:25Z",
+ "run_id": "2026-11-01-0525",
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}
