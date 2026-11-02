@@ -39,6 +39,13 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Collector data (candidates, filings, backfill). In a scheduled run the scripts run from the plugin's copies in
+# bodi_run/ while the data stays in the clone, so every command takes --data (e.g. ../BODI/data).
+DATA = os.path.join(ROOT, "data")
+
+
+def data_path(*parts):
+    return os.path.join(DATA, *parts)
 
 INSTRUMENT_RE = re.compile(r"\b(order|tariff|settlement|stipulation|brief|testimony|compliance|application|"
                            r"petition|contract|agreement|hearing|decision|ruling|rule|directive|executive order|"
@@ -141,7 +148,11 @@ def seen_strings(path):
 
 
 def load_filing(rel):
-    p = os.path.join(ROOT, rel) if rel and not os.path.isabs(rel) else rel
+    # filing paths are stored as "data/filings/..." relative to the repo root
+    if rel and not os.path.isabs(rel):
+        p = os.path.join(os.path.dirname(DATA), rel)
+    else:
+        p = rel
     if not p or not os.path.exists(p):
         return None
     try:
@@ -158,7 +169,7 @@ def norm_hash(text):
 def older_text_hashes(before_date, exclude_ids):
     """{text hash: filing id} for every filing collected before `before_date` (data/filings, all states)."""
     idx = {}
-    for p in glob.glob(os.path.join(ROOT, "data", "filings", "*", "*", "*.json")):
+    for p in glob.glob(data_path("filings", "*", "*", "*.json")):
         try:
             d = json.load(open(p, encoding="utf-8"))
         except Exception:  # noqa
@@ -325,7 +336,7 @@ def cmd_candidates(a):
     kws, parties, dockets = load_watch()
     kw_re, party_re = word_re(kws), word_re(parties)
     seen = seen_strings(a.seen)
-    files = sorted(p for p in glob.glob(os.path.join(ROOT, "data", "candidates", "*.jsonl"))
+    files = sorted(p for p in glob.glob(data_path("candidates", "*.jsonl"))
                    if os.path.basename(p)[:10] > a.since)
     items, ids = [], set()
     for p in files:
@@ -348,7 +359,7 @@ def cmd_candidates(a):
         except Exception as e:  # noqa
             print(f"warning: state unreadable ({e}); read_backlog not merged", file=sys.stderr)
     if backlog_ids:
-        for p in sorted(glob.glob(os.path.join(ROOT, "data", "candidates", "*.jsonl"))):
+        for p in sorted(glob.glob(data_path("candidates", "*.jsonl"))):
             if os.path.basename(p)[:10] > a.since:
                 continue
             for line in open(p, encoding="utf-8"):
@@ -425,7 +436,7 @@ def cmd_backfill(a):
     kw_re, party_re = word_re(kws), word_re(parties)
     done, ref_done = done_sets(a.state)
     lines = {}
-    for line in open(os.path.join(ROOT, "data", "backfill", "enriched.jsonl"), encoding="utf-8"):
+    for line in open(data_path("backfill", "enriched.jsonl"), encoding="utf-8"):
         try:
             c = json.loads(line)
         except Exception:  # noqa
@@ -488,7 +499,7 @@ def cmd_c08(a):
     kw_re, party_re = word_re(kws), word_re(parties)
     done, _ = done_sets(a.state)
     items, seen_ids = [], set()
-    for p in sorted(glob.glob(os.path.join(ROOT, "data", "backfill", "20*.jsonl"))):
+    for p in sorted(glob.glob(data_path("backfill", "20*.jsonl"))):
         for line in open(p, encoding="utf-8"):
             try:
                 c = json.loads(line)
@@ -578,7 +589,15 @@ def main():
     p.add_argument("filing")
     p.add_argument("--cap", type=int, default=8000)
     p.set_defaults(fn=cmd_excerpt)
+    for sp_ in (sp.choices.values()):
+        sp_.add_argument("--data", help="collector data folder (default: data/ beside tracker/; scheduled runs: ../BODI/data)")
     a = ap.parse_args()
+    global DATA
+    if a.data:
+        DATA = os.path.abspath(a.data)
+    if not os.path.isdir(DATA):
+        print(f"no collector data folder at {DATA}; pass --data <clone>/data", file=sys.stderr)
+        sys.exit(2)
     a.fn(a)
 
 
