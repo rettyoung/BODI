@@ -29,8 +29,13 @@ Reader-facing name "Utility Tracker"; "Grid Docket" only internally.
 | Store mirror (transport only) | https://claude.ai/artifact/GiAXCPsEF9zoeT5A8dQjVG |
 | Console | https://claude.ai/artifact/JJ8FYdvfZ2WPg6r4UpFXbW (`#dl.xlsx`, `#dl.pdf`) |
 | Repo | `rettyoung/BODI` (public): `collector/`, `config/watchlist.yaml`, `data/`, `tracker/`, `prompts/`, `console/` |
-| Scheduled tasks | Sweep `trig_01DA4N9G8Qv1zeggHuN9eQ3g` Mon 03:54 PT (Opus) · Brief `trig_01X19jgn9aMSPL5ov1TQ7bvj` Mon 08:54 PT (Sonnet) · manual-pass reminder `trig_015r1jt1qtx7CEYiyehWzSV2` Fri 09:04 PT on Rett's computer |
+| Scheduled tasks | Sweep `trig_01DA4N9G8Qv1zeggHuN9eQ3g` Mon 03:54 PT (Opus) · Brief `trig_01X19jgn9aMSPL5ov1TQ7bvj` Mon 08:54 PT (Sonnet) · manual pass `trig_015r1jt1qtx7CEYiyehWzSV2` Fri 09:04 PT on Rett's computer (Sonnet from 2 Nov; its model is changed only in the desktop app). Live prompts = `prompts/trigger_*.txt` |
+| Tracker tools for scheduled runs | Rett's personal plugin `utility-tracker-tools` (v0.2.0, built from repo commit `d354ba9`): packaged copies of `tracker/`, `console/`, `config/watchlist.yaml`. Scheduled sessions may not run code cloned from GitHub, so they run these copies from `bodi_run/`. **Rebuild and re-upload it whenever `tracker/`, `console/` or the watch list change** (bump the version, refresh `BODI_COMMIT` and `CODE_SHA256.txt`) |
+| Store audit | The Friday manual pass runs the real scripts on Rett's computer and writes `/GridDocket/manual/audit_<run_id>.json`; the Sweep turns its failures into `AUDIT-…` obligations, the Brief reports it |
 | Collector | GitHub Actions nightly, triggers 04:43/06:17/08:41 UTC, first one runs |
+
+## Keeping things in step
+Four copies must agree; change them together: the repo (`prompts/`, `tracker/`), the live task prompts (= `prompts/trigger_*.txt`), the `utility-tracker-tools` plugin (= `tracker/`, `console/`, watch list at `BODI_COMMIT`), and the saved `grid-docket-manual-pass` skill (= `manual/SKILL.md`). The project docs mirror `docs/`.
 
 ## How a week runs (§4)
 Nightly collector → `data/` (candidates, full-text filings, health, backfill). Monday Sweep: lock → clone →
