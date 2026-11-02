@@ -27,6 +27,25 @@ one by itself, retries whatever an earlier run could not read, and is safe to re
   `/GridDocket/manual/`. The Sweep is the single writer of the tracker.
 - Confidential or sealed filings: record only that one exists, never its content.
 
+## Reading cheaply (added 2026-11-02)
+
+Screenshots are the most expensive input per fact this pass can take in, and every page read stays in the
+conversation for the rest of the pass. So, in this order, and move down only when the one above fails:
+1. **The portal's own data calls** (VA Breeze API, IL BROWSE POST, SC DMS detail pages, WV ViewText, NC ViewFile)
+   fetched from inside the page with `javascript_tool`, returning **only the fields needed** (title, date, filer,
+   document URL) — never a whole response body.
+2. **Page text** (`get_page_text`, or `read_page` scoped to the results table) rather than a screenshot.
+3. **The PDF text layer** via pdf.js, extracted in the page and written **straight into the state file being
+   built** (keep at most the 2,000 characters around each MW, $, term or date passage plus the first page; the
+   Sweep re-reads from the text, not from your summary). Do not echo the full text back into the conversation.
+4. Visual reading (screenshots), only for a document with no text layer, one page at a time, and only the pages
+   that hold the figures — `text_source: "visual_read"`, `"ocr": true`.
+Take a screenshot to see where to click only when the page text does not show it. Never take a screenshot just
+to confirm a page loaded; read its title or one element instead.
+
+This pass runs well on Sonnet; the Friday task's model can be switched in the desktop app (Scheduled → the task →
+model). Nothing in this skill depends on Opus.
+
 ## Where things are
 
 OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmmeISO`

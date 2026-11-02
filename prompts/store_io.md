@@ -15,27 +15,22 @@ LOAD  (into store_live/ inside the clone)
 ============================================================
 L1. LISTINGS. read_resource the three folders (driveId b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmmeISO):
       /GridDocket/ 01MLUCMYJFKKTYR6ENBFDZOOAQQOLD5QNX · runs/ 01MLUCMYNQE5VMUQYLERCIPHUAB5IL4B4E · manual/ 01MLUCMYLTL2DGJ4AHFBB2OJSZMLMPBRJU
-    Each returns lines "name (file, N bytes) file:///…". Write each result's text to store_live/_l_top.txt, _l_runs.txt, _l_manual.txt (or pass the saved tool-result file if the result was saved) and run:
-      python tracker/store_sync.py listing store_live/_l_top.txt               --out store_live/_listing.json
-      python tracker/store_sync.py listing store_live/_l_runs.txt   --prefix runs/   --out store_live/_listing.json
-      python tracker/store_sync.py listing store_live/_l_manual.txt --prefix manual/ --out store_live/_listing.json
-    The listing sizes are exact and are what every check below compares against.
-L2. ONEDRIVE MANIFEST. If the listing has store_manifest.json, read_resource it, write the text exactly as returned to store_live/_onedrive_manifest.json and run
-      python tracker/store_sync.py check store_live/_onedrive_manifest.json --bytes <its listing size>
-    (re-read once on a mismatch). No manifest in the listing → skip; verification then checks sizes only.
-L3. MIRROR. Artifact action "read", url MIRROR, paths = ["store/store_manifest.json"] plus "store/<name>" for every file in _onedrive_manifest.json (or in the mirror's own store_manifest.json if there is no OneDrive manifest — read that first). Leave out_dir unset. The result says which folder it saved the files under; then
-      python tracker/store_sync.py collect <that folder> store_live
-    Do not Read or retype the saved files; ignore any file text the result echoes inline. If the Artifact tool is missing or the read fails, record the error (store_load.mirror) and treat every file as a FETCH in L5.
-L4. VERIFY.
-      python tracker/store_sync.py verify store_live --listing store_live/_listing.json --manifest store_live/_onedrive_manifest.json
-    It checks every store file OneDrive lists (rows.json, every rows_p*.json, state, metrics, tariff_terms and its deltas, obligations, seen_index, manual_queue, the newest four run records, the manual-pass manifests): present, bytes equal to the listing, and sha16 equal to the manifest. Exit 0 → loaded. Otherwise it prints one FETCH line per file to read from OneDrive, marked CRITICAL for rows.json, the parts, state.json and obligations.json.
+    Each returns lines "name (file, N bytes) file:///…". Write each result's text to store_live/_l_top.txt, _l_runs.txt, _l_manual.txt (or keep the saved tool-result file if the result was saved). The listing sizes are exact and are what every check compares against.
+L2. ONEDRIVE MANIFEST. If the top listing has store_manifest.json, read_resource it and write the text exactly as returned to store_live/_onedrive_manifest.json. No manifest → skip; verification then checks sizes only.
+L3. MIRROR. Artifact action "read", url MIRROR, paths = ["store/store_manifest.json"] plus "store/<name>" for every file in the OneDrive manifest (or in the mirror's own store_manifest.json if there is no OneDrive manifest — read that first). Leave out_dir unset. Note the folder the result says it saved the files under and the version it read. Do not Read or retype the saved files; ignore any file text the result echoes inline. If the Artifact tool is missing or the read fails, note the error.
+L4. ONE CALL does the rest (parse listings, check the manifest's size and restore its dropped newline, collect the mirror, verify):
+      python tracker/store_sync.py load store_live --top store_live/_l_top.txt --runs store_live/_l_runs.txt --manual store_live/_l_manual.txt \
+             --manifest-text store_live/_onedrive_manifest.json --mirror <saved folder> --mirror-version <version>
+      (no mirror: replace the last two flags with --mirror-error "<the error>")
+    It prints ONE line ("LOAD 41/41 store files verified … — all good") and, if anything must come from OneDrive, one line per file: "FETCH <name> bytes=<listing size> uri=<uri>", marked CRITICAL for rows.json, the parts, state.json and obligations.json. It writes store_live/_load.json, the store_load record. Exit 0 → loaded. "MANIFEST …" on its first line means store_manifest.json drifted on the way in: read it again and rerun.
+    (The separate subcommands listing / check / collect / verify still exist for debugging; a scheduled run does not need them.)
 L5. FETCH from OneDrive, one file at a time (uri from store_live/_listing.json):
     - Result SAVED to a file (files over ~50 KB):  python tracker/store_sync.py extract <saved file> store_live/<name> --bytes <listing size>
     - Result INLINE: Write the text to store_live/<name> exactly as returned — every character, nothing reformatted, abbreviated or dropped — then
                      python tracker/store_sync.py check store_live/<name> --bytes <listing size>
       (it restores the final newline the connector drops and rejects anything else). On a mismatch read it again and rewrite it once.
-    Then run L4 again. Expected FETCHes: files written since the last mirror publish, e.g. a new manual-pass manifest from Friday.
-L6. OUTCOME. Record store_load {mirror_version, verified, fetched: {name: "extract" | "retyped+checked"}, failed: [name: reason]} in the run or brief record.
+    Then `python tracker/store_sync.py load store_live --recheck` (re-verifies, rewrites _load.json). Expected FETCHes: files written since the last mirror publish, e.g. a new manual-pass manifest from Friday.
+L6. OUTCOME. Record store_load = store_live/_load.json plus fetched: {name: "extract" | "retyped+checked"} and failed: [name: reason] in the run or brief record.
     A CRITICAL file that still fails after L5 is a store that cannot be loaded exactly:
     - Sweep: Step 1 is BLOCKED with that evidence and the run STOPS before writing anything to OneDrive (release the lock; report).
     - Brief: status RED, cause "store could not be loaded exactly: <files>"; do not republish the console (the last good one stays live); still send the email with the milestones from what did load, and say so.

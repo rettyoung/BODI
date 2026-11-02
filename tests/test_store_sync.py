@@ -127,6 +127,41 @@ def test_check_restores_the_dropped_newline_only():
         assert run("check", p, "--bytes", "8").returncode == 1
 
 
+def test_load_does_l1_to_l4_in_one_call():
+    with tempfile.TemporaryDirectory() as tmp:
+        src = make_store(tmp)
+        assert run("manifest", src, "--by", "2026-11-09-1100").returncode == 0
+        # OneDrive also lists store_manifest.json itself; its inline read drops the final newline
+        man_text = open(os.path.join(src, "store_manifest.json")).read()
+        ls = {}
+        for sub in ("", "runs", "manual"):
+            ls[sub] = os.path.join(tmp, f"l_{sub or 'top'}.txt")
+            open(ls[sub], "w").write(listing_text(src, sub))
+        inline = os.path.join(tmp, "man_inline.txt")
+        open(inline, "w").write(man_text.rstrip("\n"))
+        saved = os.path.join(tmp, "saved", "store")
+        shutil.copytree(src, saved)
+        dest = os.path.join(tmp, "store_live")
+        r = run("load", dest, "--top", ls[""], "--runs", ls["runs"], "--manual", ls["manual"],
+                "--manifest-text", inline, "--mirror", os.path.join(tmp, "saved"), "--mirror-version", "v7")
+        assert r.returncode == 0, r.stdout + r.stderr
+        assert r.stdout.count("\n") == 1 and "all good" in r.stdout and "manifest by 2026-11-09-1100" in r.stdout, r.stdout
+        rec = json.load(open(os.path.join(dest, "_load.json")))
+        assert rec["fetch"] == [] and rec["mirror_version"] == "v7" and rec["manifest_by"] == "2026-11-09-1100"
+        # a stale part in the mirror -> one FETCH line carrying the uri and size; CRITICAL -> exit 3
+        open(os.path.join(dest, "rows_p2.json"), "a").write(" ")
+        r = run("load", dest, "--recheck")
+        assert r.returncode == 3 and "FETCH rows_p2.json bytes=" in r.stdout and " uri=" in r.stdout, r.stdout
+        assert json.load(open(os.path.join(dest, "_load.json")))["mirror_version"] == "v7", "recheck keeps mirror info"
+        shutil.copy(os.path.join(src, "rows_p2.json"), os.path.join(dest, "rows_p2.json"))
+        assert run("load", dest, "--recheck").returncode == 0
+        # no mirror at all: everything is a FETCH, nothing crashes
+        dest2 = os.path.join(tmp, "store_live2")
+        r = run("load", dest2, "--top", ls[""], "--runs", ls["runs"], "--manual", ls["manual"],
+                "--mirror-error", "Artifact tool missing")
+        assert r.returncode == 3 and "mirror: Artifact tool missing" in r.stdout, r.stdout
+
+
 if __name__ == "__main__":
     n = 0
     for name, fn in list(globals().items()):

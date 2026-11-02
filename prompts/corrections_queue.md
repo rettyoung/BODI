@@ -122,6 +122,9 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   document text, added a few hundred documents per night by the collector (collector/backfill_text.py). Each line
   carries a tier: 1 = issued by the commission/agency, 2 = filed by a watched party (matched on the cover page — a
   party's brief is often filed under its attorney's name), 3 = briefs/testimony/applications/tariffs, 4 = other.
+  The batch is chosen by `python tracker/shortlist.py backfill` (sweep.md 8.7; added 2026-11-02): it applies the order
+  below, screens out tier 3–4 items with no beat signal (they go into backfill_cursor.done and never count toward
+  the quota) and writes an excerpt per item for the extraction subagents.
   Each run, after this week's candidates, take at least 25 enriched items (all that remain, if fewer) not yet in state.backfill_cursor.done: all
   tier 1–2 items first (newest first), then tier 3–4 items only when keywords or party_hits are non-empty. Treat
   each exactly like a candidate (discovery-date Event IDs). Most will already be in the store — dedupe first; a
@@ -145,6 +148,8 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   overviews) and LBNL studies (OSTI). The lines are in data/backfill/<date>.jsonl with those `source` values and a
   run_id beginning 2026-10-0; most are metadata-only, and C-07's enrichment does not pick them up.
 - **Triage OVERDUE since 2026-10-12** (obligation C-08-triage); the per-run reads are obligation C-08-reads.
+  `python tracker/shortlist.py c08` (sweep.md 8.8; added 2026-11-02) triages every unprocessed line by title in one
+  call — the first run that uses it closes C-08-triage — and returns the next 20 in the order below.
 - Volume (pull of 2026-10-04): ~336 state bills, ~75 court decisions, ~27 Regulations.gov items, ~18 ERCOT documents,
   ~10 county/city items, ~4 studies. Triage EVERY line by title and metadata in the first two runs (cheap — most bills
   and opinions are dismissed on their title); then read or WebFetch at most 20 per run, in this order: county/city actions on data centers (legistar), state bills that became law or passed a chamber

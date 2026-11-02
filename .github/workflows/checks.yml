@@ -4,7 +4,7 @@ name: checks
 on:
   workflow_dispatch:
   push:
-    paths: ["tracker/**", "tests/**", "prompts/**", ".github/workflows/checks.yml"]
+    paths: ["tracker/**", "tests/**", "prompts/**", "config/watchlist.yaml", ".github/workflows/checks.yml"]
 concurrency: { group: checks, cancel-in-progress: true }
 permissions: { contents: read }
 jobs:
@@ -15,8 +15,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
+      - run: pip install pyyaml
       - run: python tests/test_check_run.py
       - run: python tests/test_store_sync.py
+      - run: python tests/test_shortlist.py
       - name: Brief corrections file is valid
         run: python -c "import json; d=json.load(open('prompts/brief_corrections.json')); ids=[i['id'] for i in d['items']]; assert len(ids)==len(set(ids)); assert all(i.get('line') for i in d['items']); print(len(ids), 'corrections')"
       - name: Every required step is named in sweep.md

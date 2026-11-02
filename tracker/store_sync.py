@@ -35,6 +35,15 @@ usage
         Print the `files` map for an Artifact publish to the mirror: {"store/<rel>": "<DIR>/<rel>", …}.
   python tracker/store_sync.py sizes DIR
         Print "<name> <bytes>" per store file: the expectedBytes for each OneDrive upload.
+  python tracker/store_sync.py load DIR --top L_TOP [--runs L_RUNS] [--manual L_MANUAL]
+                                   [--manifest-text ONEDRIVE_MANIFEST] [--mirror SAVED_DIR]
+        L1-L4 of prompts/store_io.md in ONE call (2026-11-02, to keep the steps' output out of the model's
+        context): parse the three listings (raw text or saved tool results), check the OneDrive manifest
+        text against its listing size (restoring the dropped newline), collect the mirror files, verify.
+        Prints ONE summary line and one FETCH line per file to read from OneDrive (with the uri and the
+        listing size, so the fetch needs nothing else), and writes DIR/_load.json — the store_load record
+        for the run/brief record. After the fetches, `load DIR --recheck` re-verifies and rewrites it.
+        exit 0 = loaded; 1 = files to fetch (3 = one of them is CRITICAL); 2 = bad input.
 """
 import argparse
 import fnmatch
@@ -298,6 +307,121 @@ def cmd_sizes(a):
         print(rel, os.path.getsize(os.path.join(a.dir, rel)))
 
 
+def _restore_newline(path, want):
+    got = os.path.getsize(path)
+    if want is not None and got == want - 1:
+        with open(path, "rb") as f:
+            f.seek(-1, os.SEEK_END)
+            last = f.read(1)
+        if last != b"\n":
+            with open(path, "ab") as f:
+                f.write(b"\n")
+    return os.path.getsize(path)
+
+
+def _load_report(dest, listing, manifest, extra):
+    res, fetch = verify(dest, listing, manifest)
+    ok = sorted(k for k, v in res.items() if v[0].startswith("OK"))
+    crit = [f for f in fetch if is_critical(f)]
+    rec = dict(extra)
+    rec.update({"verified": len(ok), "of": len(res), "fetch": fetch, "critical": crit,
+                "detail": {k: f"{res[k][0]}: {res[k][1]}" for k in fetch},
+                "manifest_by": (manifest or {}).get("by")})
+    prev = {}
+    lp = os.path.join(dest, "_load.json")
+    if os.path.exists(lp):
+        try:
+            prev = json.load(open(lp, encoding="utf-8"))
+        except Exception:  # noqa
+            prev = {}
+    for k in ("mirror_version", "mirror_error", "fetched"):
+        if k in prev and k not in rec:
+            rec[k] = prev[k]
+    json.dump(rec, open(lp, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+    line = f"LOAD {len(ok)}/{len(res)} store files verified"
+    if rec.get("mirror_files") is not None:
+        line += f"; {rec['mirror_files']} from the mirror"
+    if rec.get("mirror_error"):
+        line += f"; mirror: {rec['mirror_error']}"
+    if rec.get("manifest_by"):
+        line += f"; manifest by {rec['manifest_by']}"
+    print(line + (" — all good" if not fetch else f"; {len(fetch)} to fetch ({len(crit)} critical)"))
+    for rel in fetch:
+        meta = (listing or {}).get(rel, {})
+        print(f"FETCH {rel} bytes={meta.get('bytes')} uri={meta.get('uri')}  [{res.get(rel, ('MISSING', ''))[0]}]"
+              + ("  CRITICAL" if is_critical(rel) else ""))
+    return 0 if not fetch else (3 if crit else 1)
+
+
+def cmd_load(a):
+    dest = a.dir
+    os.makedirs(dest, exist_ok=True)
+    lpath = os.path.join(dest, "_listing.json")
+    mpath = os.path.join(dest, "_onedrive_manifest.json")
+    if a.recheck:
+        if not os.path.exists(lpath):
+            print("no _listing.json; run load without --recheck first", file=sys.stderr)
+            sys.exit(2)
+        listing = json.load(open(lpath, encoding="utf-8"))
+        manifest = json.load(open(mpath, encoding="utf-8")) if os.path.exists(mpath) else None
+        sys.exit(_load_report(dest, listing, manifest, {"recheck": True}))
+    if not a.top:
+        print("--top LISTING is required", file=sys.stderr)
+        sys.exit(2)
+    listing = {}
+    for path, pre in ((a.top, ""), (a.runs, "runs/"), (a.manual, "manual/")):
+        if not path:
+            continue
+        text = read_text_blocks(path).decode("utf-8", "replace")
+        n = 0
+        for m in LIST_RE.finditer(text):
+            if m.group("kind") == "file":
+                listing[pre + m.group("name").strip()] = {"bytes": int(m.group("bytes")), "uri": m.group("uri")}
+                n += 1
+        if not n:
+            print(f"no 'name (file, N bytes)' lines in {path}", file=sys.stderr)
+            sys.exit(2)
+    json.dump(listing, open(lpath, "w", encoding="utf-8"), indent=1, sort_keys=True)
+    extra = {}
+    manifest = None
+    if a.manifest_text:
+        want = listing.get(MANIFEST, {}).get("bytes")
+        b = read_text_blocks(a.manifest_text)
+        if os.path.abspath(a.manifest_text) != os.path.abspath(mpath):
+            open(mpath, "wb").write(b)
+        got = _restore_newline(mpath, want)
+        if want is not None and got != want:
+            extra["manifest_error"] = f"{got} bytes, OneDrive lists {want}: re-read store_manifest.json"
+            print("MANIFEST " + extra["manifest_error"])
+            os.remove(mpath)
+        else:
+            try:
+                manifest = json.load(open(mpath, encoding="utf-8"))
+            except Exception as e:  # noqa
+                extra["manifest_error"] = f"does not parse: {e}"
+    if a.mirror:
+        src = a.mirror
+        if os.path.isdir(os.path.join(src, "store")):
+            src = os.path.join(src, "store")
+        if os.path.isdir(src):
+            n = 0
+            for rel in store_files(src):
+                d = os.path.join(dest, rel)
+                os.makedirs(os.path.dirname(d), exist_ok=True)
+                shutil.copyfile(os.path.join(src, rel), d)
+                n += 1
+            if os.path.exists(os.path.join(src, MANIFEST)):
+                shutil.copyfile(os.path.join(src, MANIFEST), os.path.join(dest, "_mirror_manifest.json"))
+            extra["mirror_files"] = n
+        else:
+            extra["mirror_error"] = f"no folder {a.mirror}"
+    elif a.mirror_error:
+        extra["mirror_error"] = a.mirror_error
+    if a.mirror_version:
+        extra["mirror_version"] = a.mirror_version
+    sys.exit(_load_report(dest, listing, manifest, extra))
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sp = ap.add_subparsers(dest="cmd", required=True)
@@ -314,6 +438,10 @@ def main():
     p.set_defaults(fn=cmd_manifest)
     p = sp.add_parser("files"); p.add_argument("dir"); p.set_defaults(fn=cmd_files)
     p = sp.add_parser("sizes"); p.add_argument("dir"); p.set_defaults(fn=cmd_sizes)
+    p = sp.add_parser("load"); p.add_argument("dir"); p.add_argument("--top"); p.add_argument("--runs")
+    p.add_argument("--manual"); p.add_argument("--manifest-text"); p.add_argument("--mirror")
+    p.add_argument("--mirror-version"); p.add_argument("--mirror-error"); p.add_argument("--recheck", action="store_true")
+    p.set_defaults(fn=cmd_load)
     a = ap.parse_args()
     a.fn(a)
 

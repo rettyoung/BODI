@@ -27,6 +27,7 @@ What it fails:
               with a reason; or an invalid delta.
   5. HONESTY  the record says "completed" while anything above fails; a report that does not open with
               "Sweep incomplete:" when it should.
+Notes (never a failure): a missing or malformed "usage" block (tracker/usage.py, added 2026-11-02).
 """
 import argparse
 import glob
@@ -39,6 +40,7 @@ from datetime import datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import subtables  # noqa
+import usage  # noqa
 
 # Every step in sweep.md that a run must account for. Keep in step with sweep.md.
 REQUIRED_STEPS = {
@@ -219,8 +221,10 @@ def check(run, obl, part=None, store=None):
     rep = run.get("report")
     if not ok and isinstance(rep, str) and not rep.lstrip().startswith("Sweep incomplete:"):
         probs.append("HONESTY: the report does not open with \"Sweep incomplete:\"")
+    # NOTES never fail a run: they flag what the next interactive session should look at.
+    notes = ["USAGE: " + x for x in usage.problems(run)]
     return {"ok": ok and not probs, "run_id": run_id, "duration_minutes": duration,
-            "status_should_be": "completed" if not probs else "incomplete", "problems": probs}
+            "status_should_be": "completed" if not probs else "incomplete", "problems": probs, "notes": notes}
 
 
 def main():
@@ -248,6 +252,8 @@ def main():
             print(f"Sweep incomplete: {res['run_id']} — {len(res['problems'])} problem(s)")
             for p in res["problems"]:
                 print(" - " + p)
+        for n in res.get("notes") or []:
+            print(" note: " + n)
     sys.exit(0 if res["ok"] else 1)
 
 
