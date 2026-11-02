@@ -46,5 +46,6 @@
    "url": "{'ferc_file': '1EDDE323-70AB-C8DE-98B5-A18D31900000', 'name': '20261029 CR-43 Harriet Development STID - October 2026 Rev 9 - Enclosure 2.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-02T06:04:23Z"
 }

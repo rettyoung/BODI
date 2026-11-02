@@ -46,5 +46,6 @@
    "url": "{'ferc_file': '50C8A0FE-0B57-C8A1-9AF0-A18CDB800000', 'name': '20261029 CR-40 Timothy Development STID - October 2026_Rev9 - Enclosure 2.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-02T06:04:29Z"
 }

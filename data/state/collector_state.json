@@ -9636,19 +9636,42 @@
   "BILL:PA:ocd-bill/9213993f-a55e-4fe0-a112-b573c46cea3a:2026-04-23T04:00:00+00:00": "2026-11-01",
   "QUEUE:miso:2026-11": "2026-11-01",
   "QUEUE:spp:2026-11": "2026-11-01",
-  "QUEUE:pjm_serial:2026-11": "2026-11-01"
+  "QUEUE:pjm_serial:2026-11": "2026-11-01",
+  "AGENDA:storey:https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11122026-1414": "2026-11-02",
+  "FERC:20261102-5030": "2026-11-02",
+  "FERC:20261102-5007": "2026-11-02",
+  "FERC:20261102-5013": "2026-11-02",
+  "FERC:20261102-5026": "2026-11-02",
+  "FERC:20261102-5012": "2026-11-02",
+  "FERC:20261102-5027": "2026-11-02",
+  "FERC:20261102-5023": "2026-11-02",
+  "FERC:20261102-5031": "2026-11-02",
+  "FERC:20261102-5000": "2026-11-02",
+  "FERC:20261102-5019": "2026-11-02",
+  "FERC:20261102-5014": "2026-11-02",
+  "FERC:20261102-5010": "2026-11-02",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150237": "2026-11-02",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150245": "2026-11-02",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150265": "2026-11-02",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150272": "2026-11-02",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150289": "2026-11-02",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150303": "2026-11-02",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150235": "2026-11-02",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150118": "2026-11-02",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150108": "2026-11-02",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150267": "2026-11-02"
  },
  "sources": {
   "ferc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "edgar": {
@@ -20081,13 +20104,13 @@
     },
     "ciks_date": "2026-11"
    },
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "az_acc": {
@@ -20096,22 +20119,22 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "ga_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "ok_occ": {
-   "consecutive_failures": 1,
+   "consecutive_failures": 0,
    "data": {
     "case_format": "2026-000031",
     "rejected": [
@@ -20249,19 +20272,19 @@
      "21740730": "CASE PUD 2026-000046 ENTRY NO. 110 FILED IN OCC COURT CLERK'S OFFICE ON 10/30/2026 - PAGE 1 OF 17 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF OKLAHOMA GAS AND ELECTRIC COMPANY FOR AN ORDER OF THE COMMISSION APPROVING ITS NEW PUD2026-000046 EXTRA LAR"
     }
    },
-   "last_ok": "2026-10-31",
-   "last_error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='public.occ.ok.gov', port=443): Read timed out. (read timeout=60)\"))"
+   "last_ok": "2026-11-02",
+   "last_error": null
   },
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "mo_efis": {
@@ -20992,37 +21015,37 @@
      "EC-2027-0121": "110097"
     }
    },
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "al_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-01",
+   "last_ok": "2026-11-02",
    "last_error": null
   },
   "eia": {
@@ -21032,25 +21055,25 @@
     "last_period": "2026-08"
    },
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -22950,13 +22973,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -22976,7 +22999,7 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -23073,7 +23096,8 @@
       "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_10142026-1410",
       "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_10152026-1412",
       "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_10202026-1413",
-      "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11032026-1416"
+      "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11032026-1416",
+      "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11122026-1414"
      ]
     },
     "tulsa_council": {
@@ -23181,7 +23205,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -23202,25 +23226,25 @@
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
@@ -23230,13 +23254,13 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -23250,11 +23274,11 @@
      "EPA-HQ-OAR-2025-0194": "2026-10-04",
      "EPA-HQ-OLEM-2021-0285": "2026-10-04",
      "EPA-HQ-OLEM-2025-2864": "2026-10-04",
-     "EPA-HQ-OAR-2025-0163": "2026-11-01"
+     "EPA-HQ-OAR-2025-0163": "2026-11-02"
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-01"
+   "last_ok": "2026-11-02"
   }
  },
  "baselined": [
@@ -23262,8 +23286,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 44,
- "last_run": "2026-11-01T05:58:35Z",
+ "runs": 45,
+ "last_run": "2026-11-02T06:04:40Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -23516,6 +23540,7 @@
    "AZ:471097",
    "AZ:471450",
    "AZ:471655",
+   "AZ:471756",
    "AZDKT:E-00000A-25-0235",
    "AZDKT:E-01345A-25-0257",
    "AZDKT:E-01345A-26-0006",
@@ -24106,6 +24131,10 @@
    "FERC:20261028-5093",
    "FERC:20261028-5135",
    "FERC:20261028-5167",
+   "FERC:20261028-5185",
+   "FERC:20261029-5256",
+   "FERC:20261030-5048",
+   "FERC:20261030-5096",
    "FR:2026-18843",
    "FR:2026-18868",
    "FR:2026-18988",
@@ -25743,13 +25772,7 @@
    "TX:59611-6",
    "TX:59611-8"
   ],
-  "attempts": {
-   "FERC:20261030-5096": 2,
-   "FERC:20261030-5048": 2,
-   "AZ:471756": 2,
-   "FERC:20261029-5256": 2,
-   "FERC:20261028-5185": 2
-  },
+  "attempts": {},
   "doc_retries": {
    "TX:58482-36": 1,
    "TX:58482-37": 1,
@@ -25980,21 +26003,21 @@
    "FERC:20261022-5156": 4,
    "NRC:ML26287A239": 1,
    "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B102326-01": 4,
-   "FERC:20261026-5156": 3,
+   "FERC:20261026-5156": 4,
    "MO:656752": 3,
-   "FERC:20261026-5175": 2,
-   "FERC:20261027-5076": 2,
-   "FERC:20261027-5117": 2,
-   "FERC:20261028-5135": 1,
-   "FERC:20261028-5167": 1,
-   "FERC:20261028-5093": 1,
-   "FERC:20261028-5027": 1
+   "FERC:20261026-5175": 3,
+   "FERC:20261027-5076": 3,
+   "FERC:20261027-5117": 3,
+   "FERC:20261028-5135": 2,
+   "FERC:20261028-5167": 2,
+   "FERC:20261028-5093": 2,
+   "FERC:20261028-5027": 2
   }
  },
  "last_full_run": {
-  "run_id": "2026-11-01-0525",
-  "started": "2026-11-01T05:25:39Z",
-  "finished": "2026-11-01T05:58:35Z",
+  "run_id": "2026-11-02-0536",
+  "started": "2026-11-02T05:36:12Z",
+  "finished": "2026-11-02T06:04:40Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5000",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Christopher Lish in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/30/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5000",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "3070BCED-B3C2-C450-9160-A18E9D100000",
+   "name": "151981.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-30"
+ },
+ "collected_at": "2026-11-02T05:53:33Z",
+ "run_id": "2026-11-02-0536",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151981.txt",
+   "bytes": 2398,
+   "sha256": "255e158011f3afe17894d66cd947841747b959f8c59555b446bb8c96c514411d",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nChristopher Lish, San Rafael, CA.\nFriday, October 30, 2026\r\n\r\nDebbie-Anne A. Reese\r\nSecretary\r\nFederal Energy Regulatory Commission\r\n888 First Street NE, Room 1A\r\nWashington, DC 20426\r\n\r\nSubject: Deny the Cook Inlet underwater data center permit -- DeepGreen Cook Inlet SPV LLC Application for Preliminary Permit for the DeepGreen Cook Inlet Subsea-Compute & Infrastructure Hub Project under Docket # P-15423\r\n\r\nTo FERC Chair Laura Swett and FERC Secretary Debbie-Anne Reese:\r\n\r\nI strongly urge the Federal Energy Regulatory Commission (FERC) to deny the preliminary permit for the DeepGreen Cook Inlet Subsea-Compute & Infrastructure Hub (docket no. P-15423-000). The permit would authorize activities that pose a risk to endangered Cook Inlet beluga whales. In addition, the application raises important questions regarding the scope of the proposed activities and their potential effects on wildlife and habitat.\r\n\r\n\"Our duty to the whole, including to the unborn generations, bids us to restrain an unprincipled present-day minority from wasting the heritage of these unborn generations. The movement for the conservation of wildlife and the larger movement for the conservation of all our natural resources are essentially democratic in spirit, purpose and method.\"\r\n-- Theodore Roosevelt\r\n\r\nAlthough this application seeks a preliminary permit, the surveys and studies undertaken to evaluate the project could themselves affect belugas through vessel traffic, underwater noise, and other disturbances. Cook Inlet belugas are highly sensitive to such impacts and continue to face significant cumulative threats throughout their habitat.\r\n\r\n\"A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community. It is wrong when it tends otherwise.\"\r\n-- Aldo Leopold\r\n\r\nFor these reasons, the commission should not approve the permit. If FERC nevertheless proceeds, it must ensure robust measures to avoid impacts to beluga whales and their habitat and ensure full compliance with applicable environmental laws.\r\n\r\n\"The ultimate test of a moral society is the kind of world that it leaves to its children.\"\r\n-- Dietrich Bonhoeffer\r\n\r\nThank you for your consideration of my comments. Please do NOT add my name to your mailing list. I will learn about future developments on this issue from other sources.\r\n\r\nSincerely,\r\nChristopher Lish\r\nSan Rafael, CA\r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5023",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Gail Knobf in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/1/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5023",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "1E156C5F-B34D-C796-9355-A1993D900000",
+   "name": "152043.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-01"
+ },
+ "collected_at": "2026-11-02T05:53:26Z",
+ "run_id": "2026-11-02-0536",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152043.txt",
+   "bytes": 1204,
+   "sha256": "4aff1fa55763e35705ea7298ed980f60b672b1911c5f851d3ac39fc2544c410e",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nGail Knobf, Kasilof, AK.\nRe: Docket No. P-15423-000 — DeepGreen Cook Inlet Subsea-Compute & Infrastructure Hub, preliminary permit application\r\n\r\nI am a resident of Kasilof, Alaska, and I oppose granting a preliminary permit for the proposed DeepGreen Cook Inlet project: a 100-megawatt subsea data center with as many as 350 tidal turbines and 66 computing pods, on about 1,650 acres west of Nikiski in Upper Cook Inlet.\r\n\r\nI understand a preliminary permit would grant only study priority, not construction authorization. Even so, priority should not be granted on this record. FERC found the application incomplete in June 2026, and the project raises unresolved questions about salmon migration, commercial fishing, Cook Inlet’s endangered beluga population, and marine habitat — concerns already raised by intervenors including the Kenai Peninsula Borough, the Center for Biological Diversity, and the Alaska Commercial Fisheries Conservation Alliance.\r\n\r\nI ask FERC to deny the preliminary permit, or at minimum to withhold it until a complete application has been filed and full environmental review and consultation have been completed.\r\n\r\nRespectfully,\r\nGail Knobf\r\nKasilof, Alaska\r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150289",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "With Rapid Advances in AI, Future Data Center Load Profile Uncertain",
+ "filed": "2026-11-01",
+ "url": "//www.rtoinsider.com/150289-with-rapid-advances-ai-future-data-center-load-profile-uncertain/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Grid operators, utilities and regulators have been grappling for years with the question of just how much data center load will come online, and when, but the question of how that load will behave is just as complex and uncertain. \n The post  With Rapid Advances in AI, Future Data Center Load Profile Uncertain  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-02T06:04:16Z",
+ "run_id": "2026-11-02-0536",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

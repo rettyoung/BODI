@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5012",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Tamra Wear in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/1/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5012",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "7154ACA9-75E1-C3C5-90C0-A195EA200000",
+   "name": "152022.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-01"
+ },
+ "collected_at": "2026-11-02T05:53:20Z",
+ "run_id": "2026-11-02-0536",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152022.txt",
+   "bytes": 593,
+   "sha256": "392b49d8b9bce4d23e7b109025f247fd1991ac49e2084359f5f8038f6cd56bd0",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nTamra Wear, Soldotna, AK.\nA data center in Cook Inlet will destroy the marine life that we depend on. The salmon and whales will stop coming because of the noise. When the salmon stop coming the whole Kenai Peninsula will lose its livelihood. One of the most beautiful places in the world will be destroyed, turned into a wasteland. We can’t allow anybody to jeopardize what the Kenai Peninsula contributes to this state and this country. This data center cannot happen here. We must protect marine life and the waters they exist in; their protection has to be our first priority. \r\n\r\n\r\n"
+  }
+ ]
+}

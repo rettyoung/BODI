@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150245",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "State Regulators Displeased with MISO Large Load Cost-shifting Plan",
+ "filed": "2026-11-01",
+ "url": "//www.rtoinsider.com/150245-state-regulators-displeased-miso-large-load-cost-shifting-plan/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " MISO state regulators said MISO’s plan to prevent cost shifts from data centers onto existing customers isn’t up to scratch, with states in the dark on key aspects. \n The post  State Regulators Displeased with MISO Large Load Cost-shifting Plan  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-02T06:04:16Z",
+ "run_id": "2026-11-02-0536",
+ "keywords": [
+  "cost shift",
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

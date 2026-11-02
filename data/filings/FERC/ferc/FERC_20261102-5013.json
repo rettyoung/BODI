@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5013",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Michael F Finley in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/1/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5013",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "7BD2E3EC-6CCA-C07D-9838-A1974FD00000",
+   "name": "152025.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-01"
+ },
+ "collected_at": "2026-11-02T05:53:14Z",
+ "run_id": "2026-11-02-0536",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152025.txt",
+   "bytes": 4504,
+   "sha256": "07f3af3d9bd16f2b5d8273ba5695c4a26586a29e8a94e3a1aeed8f16d017415a",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nMichael F Finley, Mystic, CT.\nPublic Comment Opposing the Proposed Underwater Data Center in Cook Inlet, Alaska\r\n\r\nDocket number: P-15423\r\n\r\nMystic Aquarium respectfully submits this comment in opposition to the proposed underwater data center in Cook Inlet, Alaska, without first conducting a comprehensive Environmental Impact Assessment and fully considering the potential harm to the marine habitat on which threatened and endangered species rely. As an institution dedicated to marine animal care, scientific research, education, and conservation, we recognize the importance of protecting healthy marine ecosystems and the wildlife that depend upon them. Our experience working with beluga whales reinforces the importance of minimizing human impacts on these highly acoustic-dependent marine mammals, particularly threatened or endangered populations and the critical habitat on which they rely.\r\n\r\nUnderwater Noise and Beluga Habitat\r\n\r\nBeluga whales rely heavily on sound to communicate, navigate, locate prey, maintain social relationships, and detect potential threats. The proposed installation of server infrastructure and hundreds of tidal turbine generators raises concerns about introducing additional underwater noise into Cook Inlet. The Forelands region is an important passage and habitat for belugas traveling between seasonal feeding and calving grounds. Increased noise could interfere with essential behaviors and disrupt the movement of these whales, ultimately interfering with access to these and surrounding areas that encompass this critical habitat. Given that underwater noise is already a recognized concern for Cook Inlet beluga recovery, additional sources of sustained noise warrant careful consideration.\r\n\r\nCumulative Impacts on Belugas and the Marine Ecosystem\r\n\r\nCook Inlet belugas already face significant challenges to recovery. Additional industrial activity could introduce further stressors, with cumulative effects on animal behavior, habitat use, and long-term population health. Maintaining connected waterways and unencumbered access to critical feeding and calving areas is essential to this endangered population. We encourage comprehensive evaluation of the project's potential impacts, including underwater noise, physical infrastructure, installation and service vessel activity, and other factors that damage the critical marine habitat.\r\n\r\nWater Quality, Fisheries, and Ecosystem Health\r\n\r\nBeluga conservation is closely connected to the health of the broader marine ecosystem. We are concerned about the potential discharge of waste heat and materials, including copper, associated with the proposed infrastructure. Changes in water temperature or the introduction of contaminants, including potential PFAS releases from cooling systems, could affect salmon and other important marine species. These risks deserve thorough evaluation, particularly given Cook Inlet's importance to commercial, subsistence, and recreational fisheries and the communities that depend upon them.\r\n\r\nResponsible Development \r\n\r\nMystic Aquarium supports scientific innovation, but development in sensitive marine environments must be approached responsibly. Large-scale infrastructure projects should not proceed without a thorough understanding of their potential environmental consequences. We encourage a comprehensive assessment of underwater noise, beluga movement and habitat use, waste heat, potential contaminants, and cumulative ecosystem effects.\r\n\r\nConclusion\r\n\r\nMystic Aquarium respectfully opposes the proposed underwater data center due to the potential risks it presents to endangered beluga whales, essential marine habitat, fisheries, and the broader aquatic ecosystem.\r\n\r\nOur commitment to beluga research, animal care, and conservation extends beyond the animals in our care to protecting wild populations and the environments upon which they depend. We encourage comprehensive study of the potential impacts of underwater data centers located in critical habitat for threatened or endangered species.  We urge the Federal Energy Regulatory Commission to give due consideration and prioritize the long-term recovery of Cook Inlet belugas and the ecological health of this important marine environment. The potential environmental consequences of this project should be fully understood before moving forward.\r\n\r\nRespectfully submitted,\r\n\r\nMichael Finley\r\nSenior Director of Government Affairs\r\nMystic Aquarium\r\nE: MFinley@mysticaquarium.org \r\n\r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5007",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Susan Lobonc in Docket(s)/Project(s) P-15423-000\nSubmission Date: 10/31/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5007",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "7D1BEAC6-0CE0-CD6C-8BC9-A1938E400000",
+   "name": "152004.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-31"
+ },
+ "collected_at": "2026-11-02T05:53:12Z",
+ "run_id": "2026-11-02-0536",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152004.txt",
+   "bytes": 1750,
+   "sha256": "d1a66263f9f165b4dcec4934d7083294ddb991624dcccfc4f93bf667cf908cf7",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nSusan Lobonc, Naperville, IL.\nI am in opposition of Deep Green’s underwater AI data center in Alaska’s Cook Inlet.  This area is the habitat of the beluga whales whose numbers have plummeted drastically (75%) in the last 50 years to where there are only 300 left.  That’s all!  NOAA has said that almost 8,000 square kilometers are needed as critical habitat for the belugas.  This is not the place to put a data center! Belugas use echolocation to move around in the Arctic waters.  They need this to find food, look out for dangers, etc.  There certainly will be noise with an underwater data center!  This will directly impact these animals. \r\nThe belugas and other marine animals will be hearing impaired from this project, the animals in family groups could be separated, their feeding grounds terribly disturbed and their behavior altered in negative ways.  If people are upset about the noise and air pollution from data centers on land, can you imagine what the construction and operation of a data center would do to the environment underwater?  Then there would have to be cables laid which would cause more environmental damage.  I do not believe that a data center underwater where endangered marine mammals live should be constructed.  Surely there are other areas on land or under the water where there are not endangered animals.  Why do so many animals, on land or underwater, have to suffer because of our “need” for so many data centers.  \r\nPlease evaluate this project in detail in light of the belugas and other marine animals and what could be devastating to them.  I do not support this project as a citizen of the United States and hope that this project does not happen, does not get approved.  Thank you! \r\n\r\n\r\n"
+  }
+ ]
+}

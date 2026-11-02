@@ -55,5 +55,6 @@
    "url": "{'ferc_file': '33E74828-F975-CAC0-97B3-A187AC600000', 'name': 'Exhibit B CUI CEII.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-02T06:04:40Z"
 }

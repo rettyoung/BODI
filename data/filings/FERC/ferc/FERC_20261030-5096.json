@@ -37,5 +37,6 @@
    "url": "{'ferc_file': 'B821C43E-C56D-C570-9886-A18D6F900000', 'name': 'PRIV 2026-10-30 Response to IMM Comments - EC26-153.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-02T06:04:17Z"
 }

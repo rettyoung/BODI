@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150118",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM’s Tx Owners Would Lock In What a Data Center Pays",
+ "filed": "2026-11-01",
+ "url": "//www.rtoinsider.com/150118-pjm-transmission-owners-would-lock-in-what-data-center-pays/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The plan secures a minimum payment on behalf of each large load. It leaves the local upgrades built for that load in the zone's shared rate, with no test of whether the payment covers them. \n The post  PJM&#8217;s Tx Owners Would Lock In What a Data Center Pays  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-02T06:04:16Z",
+ "run_id": "2026-11-02-0536",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

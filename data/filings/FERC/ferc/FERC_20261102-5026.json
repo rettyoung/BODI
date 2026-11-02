@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5026",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Etta Maillard in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/1/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5026",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "7DCB3191-CB0B-C180-9322-A1999E600000",
+   "name": "152053.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-01"
+ },
+ "collected_at": "2026-11-02T05:53:18Z",
+ "run_id": "2026-11-02-0536",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152053.txt",
+   "bytes": 1057,
+   "sha256": "59008071d5727e4e6d3746ccc640e2d631feae2101de91ec92b7928a2aeca350",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nEtta Maillard, Fairbanks, AK.\nI am against Any Data Centers in Alaskan critical habitats, but most especially in our vulnerable Ocean where the nursery for our salmon is.\r\nThe waste heat from this data center would be absorbed by the Cook Inlet, which would have a negative impact on the marine life sensitive to warm waters.\r\nThis could have serious economic impacts on our communities. The Alaska Department of Fish and Game estimates the total value of Upper Cook Inlet commercial salmon fisheries to average $25 million annually over the last three years. These fisheries will almost certainly be impacted, and those effects will increase over time as generations of salmon are impacted.\r\nEndangered beluga whales also pass through the forelands bottleneck seasonally to access feeding and calving grounds. The DeepGreen data center would become a significant source of noise, disorienting marine mammals who depend on quiet waterways to communicate, navigate, hunt, and escape predators.\r\nPlease do not approve this.\r\n\r\nThank you for your time.\r\n\r\n"
+  }
+ ]
+}
