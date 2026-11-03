@@ -175,6 +175,28 @@ def test_incomplete_report_must_say_so():
     assert not has(p, "HONESTY") and has(p, "step 6")
 
 
+def test_other_record_shapes_get_a_verdict():
+    # Sweep 2026-11-02-1157 wrote corrections_processed as a list and check as a sentence; the checker
+    # crashed on the list (manual-pass audit 2026-11-02 fell back to a hand check).
+    for shape in (["C-07 x25", "C-08 x5 (closed)", "C-03 blocked"], "C-07 x25", None,
+                  {"C-08": "not started (time)"}):
+        rec = good_record()
+        rec["corrections_processed"] = shape
+        rec["check"] = "checker not run: hand check"
+        with tempfile.TemporaryDirectory() as tmp:
+            res = check_run.check(rec, good_obligations(), PART, store_with_delta(tmp))
+        assert isinstance(res["problems"], list)
+        if isinstance(shape, dict):
+            assert has(res["problems"], "corrections_processed", "time")
+        else:
+            assert res["ok"], res["problems"]
+    rec = good_record()
+    rec["corrections_processed"] = ["C-08 not started (time)"]
+    with tempfile.TemporaryDirectory() as tmp:
+        p = check_run.check(rec, good_obligations(), PART, store_with_delta(tmp))["problems"]
+    assert has(p, "corrections_processed", "time")
+
+
 def test_subtables_merge_upserts_and_appends():
     with tempfile.TemporaryDirectory() as tmp:
         st = store_with_delta(tmp)

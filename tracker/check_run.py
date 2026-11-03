@@ -209,8 +209,15 @@ def check(run, obl, part=None, store=None):
     check_obligations(obl, run_id, run_date, duration, probs)
     check_tariffs(part, store, run_id, steps, probs)
     # anything elsewhere in the record that calls a choice a constraint
+    # corrections_processed should be {"<id>": count or note} (sweep.md Step 11), but a run that wrote a list
+    # (["C-07 x25", ...], 2026-11-02-1157) or a string must still get a verdict, not a crash.
     for k in ("corrections_processed",):
-        for cid, txt in (run.get(k) or {}).items():
+        val = run.get(k) or {}
+        if isinstance(val, list):
+            val = {str(i): x for i, x in enumerate(val)}
+        elif not isinstance(val, dict):
+            val = {k: val}
+        for cid, txt in val.items():
             if isinstance(txt, str) and TIME_RE.search(txt) and not HARD_RE.search(txt) \
                     and duration is not None and duration <= TARGET_MINUTES and re.search(r"not (started|done)", txt, re.I):
                 probs.append(f"REASONS: {k}.{cid} blames time, but the run took {duration:.0f} of {TARGET_MINUTES} minutes")

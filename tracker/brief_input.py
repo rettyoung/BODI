@@ -132,7 +132,14 @@ def main():
             run = {k: r.get(k) for k in ("run_id", "status", "mode", "events_found", "rows_written", "rows_superseded",
                                           "documents_read", "DEFERRED_NEEDS_MANUAL", "CANARY_MISS", "SUSPECT_ZERO",
                                           "ACCESS_REGRESSION", "CIRCUIT_OPEN", "read_backlog_size", "usage")}
-            run["check_ok"] = (r.get("check") or {}).get("ok")
+            chk = r.get("check")
+            # check should be check_run's JSON verdict or {"method": "hand", ...}; a run that wrote a sentence
+            # (2026-11-02-1157) must not cost the writer the whole Sweep summary.
+            run["check_ok"] = chk.get("ok") if isinstance(chk, dict) else None
+            if isinstance(chk, dict) and chk.get("method"):
+                run["check_method"] = chk.get("method")
+            elif isinstance(chk, str):
+                run["check_note"] = chk[:500]
         except Exception as e:  # noqa
             run = {"error": str(e)}
 
