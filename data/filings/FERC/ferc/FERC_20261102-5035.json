@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5035",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Lynda Reed in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5035",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "A953B4F8-858B-C848-91F7-A19AECC00000",
+   "name": "152081.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:40:29Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152081.txt",
+   "bytes": 693,
+   "sha256": "72f2893f3c53ff10149c418a2bdc3d407ec3930aeff34663d1513baf52e53c1f",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nLynda Reed, Homer, AK.\nDeep Green’s proposed tidally powered data center is far too risky to even be considered.  Consider instead the importance of ocean waters as they regulate global climate, hold roughly 30% of all the carbon dioxide humans have ever emitted, produce over half of the oxygen we breathe, and support more than three billion people who depend on its food, jobs and transport routes. Damaging the ocean—through warming, acidification, overfishing or pollution—therefore destabilizes the entire planet.  We cannot allow waste heat to be released into Cook Inlet changing the temperature of the Inlet’s water as the consequences could very well be disastrous.  \r\n\r\n"
+  }
+ ]
+}

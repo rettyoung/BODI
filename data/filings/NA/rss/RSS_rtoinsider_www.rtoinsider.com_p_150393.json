@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150393",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "ISO-NE Argues Transitional Cluster Costs Fair, Cites Shrinking Headroom",
+ "filed": "2026-11-03",
+ "url": "//www.rtoinsider.com/150393-iso-ne-argues-transitional-cluster-costs-fair/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " ISO-NE defended its cluster study methodology and argued that the high network upgrade cost estimates stemmed from shrinking headroom on its transmission system. \n The post  ISO-NE Argues Transitional Cluster Costs Fair, Cites Shrinking Headroom  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-03T12:53:16Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "network upgrade"
+ ],
+ "party_hits": [],
+ "documents": []
+}

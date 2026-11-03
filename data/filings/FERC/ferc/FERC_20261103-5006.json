@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261103-5006",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Kendra McLean in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5006",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "60E64E72-87D0-C941-9391-A19E63300000",
+   "name": "152194.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:37:56Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152194.txt",
+   "bytes": 6196,
+   "sha256": "6234c92b379bdb2d49a104ad0ac222abec922a70e5f282a2a1e1031f33e6f05c",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nKendra McLean, Willow, AK.\nI am writing as a concerned resident about the proposed underwater AI data center in Cook Inlet. DeepGreen Cook Inlet SPV LLC has applied to federal regulators for a preliminary permit to study a project of roughly 330 to 350 tidal turbines generating about 100 megawatts to power 66 underwater AI server pods on the seabed west of Nikiski. The site is in the Kenai Peninsula Borough, but Cook Inlet is one shared body of water. Its salmon runs, fishing communities, and endangered beluga whales do not stop at borough lines, and what happens there affects Mat-Su.\r\n\r\n1. No precedent exists.\r\nAs far as I can find, this would be the first underwater AI data center proposed in Alaska, and the only offshore AI data centers known elsewhere are in China. Nothing in the public record shows this technology has been tested in a high-energy, silt-laden, eight-knot-current environment like Cook Inlet. This is an experiment, and it should be reviewed as one, with a higher burden of proof on the applicant and no assumptions borrowed from land-based projects.\r\n\r\n2. Full environmental impact disclosure.\r\nI ask the Borough to demand, and to support others’ demands for, complete public disclosure before any further approval, including:\r\n\r\nTurbine impacts. Blade-strike risk to fish, marine mammals, and bottom-dwelling species, with data specific to Cook Inlet.\r\nHydrodynamics and sediment. How a large turbine array would change currents, sediment transport, and seabed habitat.\r\nAcoustic impacts. Noise and vibration effects on belugas, which depend on sound to communicate and feed.\r\nHeat. Thermal discharge modeling, especially during slack tide, and its effect on salmon migration and holding.\r\nServer pod contents and failure scenarios. What materials are in the sealed housings, including metals, flame retardants, and fluorinated compounds, what is released if a pod leaks or fails, and how a breach would be detected.\r\nElectromagnetic fields. The effects of subsea cables and equipment on electro-sensitive marine species, which remain largely unstudied.\r\nDecommissioning. How the project will be removed if it fails, and who pays.\r\n\r\nThe company has no public website or project page describing its technology. Residents cannot meaningfully comment on what they cannot see.\r\n\r\n3. Independent monitoring, including radiological monitoring if any nuclear component is proposed.\r\nCurrent filings describe tidal power, not nuclear power. However, offshore data centers are often discussed alongside small reactors as an energy source. I ask that the Borough put on record that any nuclear component would require its own full review, and that continuous radiological monitoring be performed by a qualified third party accountable to the public, not the operator. More broadly, pods on the seabed are difficult to inspect, so independent monitoring of water quality, temperature, noise, and wildlife should be a condition of any approval. Self-reporting is not monitoring.\r\n\r\n4. Energy claims should be verified.\r\nTidal currents are predictable, but they are cyclical, and power output falls toward zero at slack tide. The public should know whether the servers would need backup generation or a grid connection, what that source would be, and what it would emit. A project marketed as clean should document that claim, not assume it.\r\n\r\n5. Centralization, privacy, and transparency.\r\nConcentrating large-scale computing in one hard-to-inspect seabed location, potentially under corporate or government control, raises questions about who has access, who audits it, and what data is processed there. Concentrated control of computing power and information deserves public scrutiny, and underwater pods are harder for independent parties to examine than a facility on land.\r\n\r\n6. Local sovereignty and food security.\r\nThe waters west of Nikiski support commercial and subsistence fishing. Industrializing the seabed could displace harvest areas and put at risk the food, income, and way of life of many Alaskans. Communities have a right to clean water and a voice in decisions about the waters they depend on. Neighboring governments and fishing organizations have said they were not consulted. That needs to be fixed before this proceeds.\r\n\r\n7. Independent verification, not trust.\r\nHistory gives good reason to insist on this. The Teapot Dome scandal, in which Interior Secretary Albert B. Fall was convicted in 1929 of accepting bribes tied to oil-reserve leases, showed how public resources can be steered to private interests. I am not accusing anyone in this case. The point is that safety and environmental claims should be checked by people with no financial stake in the outcome, including independent scientists, subsistence users, and commercial fishermen.\r\n\r\n8. A performance bond to secure job promises.\r\nData center proponents routinely cite jobs. I ask the Borough to support requiring that any promised employment be backed by a bond. If the company does not deliver the promised number of local jobs, at stated wages and for a stated duration, the bond is forfeited to the community. Employment should be reported publicly and audited annually. A promise with no penalty for breaking it is only advertising.\r\n\r\n9. Support for research on natural health, liberty, and decentralized solutions.\r\nI ask the Borough to support independent research into approaches that protect the health of our land and water and the self-reliance of our communities. These include locally owned, small-scale energy and computing options, and local food systems that depend on a clean inlet. Alaskans value self-sufficiency and the freedom to provide for their families. Large, remote-owned infrastructure in our public waters should have to show that it serves the people who live here.\r\n\r\nRequest\r\nI respectfully ask the Borough to (a) enter these concerns into the record, (b) support the existing interventions raising fisheries and beluga questions, and (c) oppose further advancement of this project until the disclosures, independent monitoring, and job bond described above are in place.\r\n\r\nThank you for your time and for your service to our community.\r\n\r\n"
+  }
+ ]
+}

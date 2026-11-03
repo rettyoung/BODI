@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261102-5308",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of kathleen Eagle in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5308",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "B6BAF1E7-B164-C69A-93A3-A19E35500000",
+   "name": "152183.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:59Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152183.txt",
+   "bytes": 2148,
+   "sha256": "8df33ddd8a7f89da5f20cdc3c272b1323a9efddb3e86a6c04031fe7690c63f77",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nkathleen Eagle, Homer, AK.\nRe:Docket number: P-15423\r\n\r\nTo Whom it May Concern, \r\n\r\nI am strongly opposed to any development of Data Centers in Cook Inlet, especially underwater, large or “hyper” scale projects.  The idea of using water as a coolant ignores the largely unknown impacts on the Cook Inlet ecosystem which is home to many endangered species such as the Beluga Whale and home to many species that are a long-term source of food and livelihood for many Alaskans.  \r\n\r\nThe need for data centers in general and placement in Alaska needs to be discussed as a state and locally and requires much research as to effects on people and planet.  The need for data centers is mainly driven by one groups need to have compute and processing power and the large scale detriments to the environment are unknown in some ways but in the main way very well known.  They produce heat and CO2 which is ruining our planet.  We need to reduce energy usage not increase it.  Using the ocean for energy can be an important alternative but is still at the research stage.  Any use of tidal energy may be encouraged in small steps As Inletkeeper has stated “We want tidal power with limited impact, scaled appropriately to local needs. Starting small and scaling up is the way to do tidal power right.”\r\n\r\nI refer my other reasons for opposing this project to the Inletkeeper sources.  I support and agree with their reasons for opposing the project including sound pollution, copper pollution, heat and especially this comment “Ultimately, a hyperscale underwater data center is something our region can live without.” \r\n\r\nAs time is short and comments are nearing the due date/time, I will keep my comment short.  I concur with comments by The Inletkeeper and others who are trying to look at this from a environmental/ scientific perspective and not from a economic perspective.  People and planet and long term protection of the ecosystems on which we depend should always be considered over money and profit in the short term.  `\r\n\r\nThank you for this chance to comment, \r\n\r\nSincerely, Kathleen Eagle\r\n1276 Beluga CT \r\nHomer, AK 99603\r\n\r\n"
+  }
+ ]
+}

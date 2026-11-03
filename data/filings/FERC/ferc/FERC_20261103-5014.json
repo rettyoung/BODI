@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261103-5014",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Shannon R OBrien in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5014",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "6B51CB68-6603-C5F8-9D10-A19EBC500000",
+   "name": "152211.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:39:11Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152211.txt",
+   "bytes": 2496,
+   "sha256": "518b5e8d9d645d20e3fc2c020bf643c44e1c6fc97083df83483ec903a53df525",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nShannon R OBrien, Girdwood, AK.\nSubject: Opposition to DeepGreen Cook Inlet Project—Docket P-15423-000\r\n\r\nDear FERC Commissioners,\r\n\r\nI am writing to oppose the proposed DeepGreen Cook Inlet Subsea-Compute & Infrastructure Hub Project and urge FERC to deny its preliminary permit application.\r\n\r\nCook Inlet supports fisheries, wildlife, and communities whose livelihoods and traditions depend on healthy waters. Placing a large underwater data center and hundreds of tidal turbines in the East Foreland corridor raises serious concerns about habitat, water temperature, underwater noise, and the movement of fish and marine mammals.\r\n\r\nNOAA identifies human-caused underwater noise as a concern for Cook Inlet belugas’ communication, feeding, and recovery. The letter frames this project’s potential effects as risks requiring evaluation. NOAA Fisheries\r\n\r\nI am particularly concerned about the waste heat this facility would release into surrounding waters. Before this proposal advances, the public deserves credible, independent analysis of how that heat would disperse throughout tidal cycles and seasons, including periods of slack water. Potential effects on salmon, their food sources, and other temperature-sensitive marine life must be fully evaluated.\r\n\r\nOur fisheries support commercial fishing families, local businesses, recreation, and food security. Any harm to salmon could have consequences extending well beyond the project site and lasting across generations. These existing economic and community benefits should carry substantial weight in FERC’s decision.\r\n\r\nCook Inlet’s endangered beluga whales also deserve protection. Belugas depend on sound to communicate, navigate, and find food. Additional underwater noise from construction, turbines, and maintenance could compound the pressures this population already faces. FERC must carefully consider whether this project could interfere with their movement or access to essential habitat.\r\n\r\nI understand that a preliminary permit does not authorize construction. Nevertheless, I oppose advancing this proposal at this location. Cook Inlet should not bear the environmental risks of cooling and powering a private data center at the expense of fisheries, endangered wildlife, and the people who depend on these waters.\r\n\r\nPlease deny this application and prioritize the long-term health of Cook Inlet. Thank you for considering my comments.\r\n\r\nSincerely,\r\nShannon O'Brien\r\nGirdwood, AK (Homer AK land owner)\r\n\r\n"
+  }
+ ]
+}

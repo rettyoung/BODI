@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261103-5010",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Jack Horton in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5010",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "50D500B5-EA10-CE26-9164-A19E7A200000",
+   "name": "152160.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:37:50Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152160.txt",
+   "bytes": 2184,
+   "sha256": "05b384bee598d1515aedab6bce8fee6c184a4bfbeb4de070a20946679c2fae76",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJack Horton, Anchorage, AK.\nConcerning the proposal of placing an information processing center within the Cook Inlet southeast from Anchorage, Alaska. \r\nI have grown up here in Alaska, I have grown up shooting duck, hiking for grouse, and surfing coastal swells for king salmon. I wish to pass this along to my children and cement future generations in this great land. \r\nI take solace in the peace and quiet this land provides, the friendliness and the harshness of its environment. \r\n\r\nThis data center is a direct attack on both the people's privacy and to this state's beauty. Merely the construction of this center is disruptive to the entire inlet, soot and oil will streak up the shores as the walls are being placed. \r\n\r\nThe water heating will poison the fish which feed the land, which in turn feed the people. Through jobs and spirits, the fish and land feed us. This data center poisons these features that keep the people here, and therefore attacks the people. \r\n\r\nThis center will bring no long term jobs to this land. DeepGreen is not Alaskan, whos to say they will hire Alaskan journeymen. Once it is constructed, whos to say they will use Alaskans to monitor the center, we have extremely little computer science education. How many jobs will an underwater building even require in order to maintain its functioning? \r\n\r\nThe risk is too high, further poisoning the land that created this state will make its people leave in droves. \r\n\r\nAlaska is the last frontier, not the industrial backlot of the United States. It is known for its beauty but also for its people's freedom, independent thought, and creative solutions to harsh conditions.\r\n\r\nThis center is pulling focus from what's important for growing Alaska and keeping its families here. Education, infrastructure, and resource sustainability will keep families here, not a hot flash of construction jobs. I want to live here and grow a family but I can't burden my future children with a lack of proper education and a land that was once beautiful, now toxic and dead. \r\n\r\nApproving this center shows that Alaska and its people are free to be used by the ambitions of people who do not represent us. \r\n\r\n"
+  }
+ ]
+}

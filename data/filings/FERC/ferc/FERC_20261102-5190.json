@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5190",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Aaron Ford in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5190",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "B19CEDDA-392F-C88B-9C7E-A19DB0400000",
+   "name": "152150.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:39:56Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152150.txt",
+   "bytes": 2619,
+   "sha256": "093e87ed78d06d1c6c6b7cff9330251c6ee29c6a1062c18bb0b0c46b590e1ef6",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nAaron Ford, HOMER, AK.\nUNITED STATES OF AMERICA\r\nBEFORE THE FEDERAL ENERGY REGULATORY COMMISSION\r\n\r\nDeepGreen Cook Inlet SPV LLC Docket No. P-15423-000\r\n\r\nMy name is Aaron Ford and I live in Anchor Point, AK.  More importantly, I recreate and fish to feed my family in Cook Inlet.  Whatever happens to the inlet, and all the life that depends on the health of the inlet, impacts my family, friends and community.\r\n\r\nPlease deny this initial permit for DeepGreen Cook Inlet SPV LLC, and do not allow any further development of this project.\r\n\r\nDeepGreen has filed a 'Clarification of Applicant' today (11/2/2026) which offers only superficial changes to the scope and composition of the project.  It completely fails to address any of the potential harms of this project, even in its initial stages.\r\n\r\nEven the 60-70 turbines that DeepGreen proposes, spaced more widely, would have irreversible impacts to the ecology of the inlet and the life it sustains.\r\n\r\nThis project, in all forms, represents unacceptable marine noise in a location that would completely fragment the habitat of migratory species like salmon and Cook Inlet Beluga whales.  The 'Clarification of Applicant' filed today also only accounts for high frequency hydroacoustic noise.  Lower frequencies can be even more harmful, down to 0.5Hz.  FERC must evaluate this project across the entire scope of its impacts, simply making the project smaller is unacceptable.\r\n\r\nDeepGreen's filing still takes no account of copper pollution originating from its external structures and the scouring which will inevitably occur in the inlet.  It takes no account of the changes in water temperature which will result from the project.  It does not account for tidal flows and the ways in which they circulate, and do not immediately move water away from the project area and its thermal plume.  It does not account for electromagnetic radiation which will definitely be produced by operating 100mw of computing power, and EMF travels further underwater.  Salmon, sharks and other species use EMF to navigate, hunt, and travel long distances.\r\n\r\nDeepGreen does not seriously account for any of the impacts of this project.  This project has NO POSITIVE IMPLICATIONS FOR OUR COMMUNITIES.\r\n\r\nIt is unreasonable to assume DeepGreen's facility will be powered exclusively with tidal energy.  That oversight alone shows DeepGreen's disregard for the environment and the communities that depend on it.\r\n\r\nFERC must not issue this or any other permits for an underwater data center in such a critical habitat.  Do not allow this project to proceed.\r\n\r\nThank you.\r\n\r\n"
+  }
+ ]
+}

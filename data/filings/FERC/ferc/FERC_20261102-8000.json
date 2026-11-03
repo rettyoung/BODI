@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20261102-8000",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "Arizona Public Service Company submits FERC Form 1 report for 2025/Q4",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-8000",
+ "entity": "Arizona Public Service Company",
+ "fetch": [
+  {
+   "ferc_file": "EE4E9B32-FDDB-C29F-9170-A19EB2C00000",
+   "name": "382186-C001436-Form_1-2025-Q4_382186.html",
+   "type": "HTML"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 1 - Annual Rpt. for Major Electric Utilities, Licensees & Others"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:37:29Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'EE4E9B32-FDDB-C29F-9170-A19EB2C00000', 'name': '382186-C001436-Form_1-2025-Q4_382186.html', 'type': 'HTML'}",
+   "error": "RuntimeError('FERC DownloadP8File returned application/octet-stream (13420426 bytes)')"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150395",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Analyses Find Senate Permitting Bill Would Benefit Consumers",
+ "filed": "2026-11-03",
+ "url": "//www.rtoinsider.com/150395-grid-strategies-rhodium-finds-consumer-benefits-from-baaja/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The Bipartisan American Affordability and Jobs Act would benefit electricity consumers by having data centers pay for upgraded and expanded transmission infrastructure, which in turn would allow for more generation resources to interconnect, according to two analyses. \n The post  Analyses Find Senate Permitting Bill Would Benefit Consumers  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-03T12:53:16Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

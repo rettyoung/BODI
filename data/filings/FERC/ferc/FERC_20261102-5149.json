@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5149",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Rachael Sadley in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5149",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "461C1EDC-D8AE-C073-92BE-A19D6D200000",
+   "name": "152117.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:44Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152117.txt",
+   "bytes": 497,
+   "sha256": "7211bd4644633185b457a3bdab384bf5587b0c6aa6ab049808749bd9b9000a83",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nRachael Sadley, Anchorage, AK.\nI do not believe that Alaska should allow data centers to be installed anywhere, especially the Cook Inlet. As an instrumental natural waterspace for salmon runs, beluga whales and other wildlife the damage caused by the installation of an unnecessary and wasteful operation such as a data center would have horrific consequences to Alaskas fisheries and biodiversity. \r\nNO TO DATA CENTER IN COOK INLET. NO TO DATA CENTERS.\r\n\r\nRespectfully, \r\nRachael Sadley \r\n\r\n"
+  }
+ ]
+}

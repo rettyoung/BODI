@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5166",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Kerri Leavitt in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5166",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "5C7EFE78-9406-C869-9D94-A19D85D00000",
+   "name": "152122.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:41Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152122.txt",
+   "bytes": 1704,
+   "sha256": "f1da76dbfaca6e6e47ae4c628d6462cc1e833f86b66f2e383869c06401f97c3b",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nKerri Leavitt, Kenai, AK.\nAs a resident of the Kenai Peninsula for more than 15 years, the Inlet is very integral to the community. Placing a data center here would devastate the integrity of what makes our land and community great. \r\nNot only are data centers incredibly damaging to the environment by greedily mucking up water, they are also detrimental to the surrounding communities with their noise pollution. Residents will feel the full effect. Belugas, who rely on echolocation to hunt, will be disturbingly harmed due to the offensive noise produced by data centers and will harm their ability to hunt and their sensitive ears. \r\nResident harm is evident in communities in south Texas, proven by my friend's mother who has not had clean, fresh water coming out of her faucets for years now. She also is subject to the constant droning of the data center. This can also be considered a direct attack from private companies and the government on people in poverty since these datacenters appear to only be near poorer communities. \r\nYou are also being disagreeable to the surrounding Tribes. There seems to be no interest in hearing out Native voices and Tribal companies when this beautiful land is meant to be maintained by us. \r\nLast but not least, I have great concern over the natural habitat of the Inlet. Communities on the Inlet rely on fishing, hunting, and gathering for subsistance. When this datacenter is built and there is nothing else to eat due to its egregious nature to destroy, you will feel the full repercussions of whole communities that have nothing left to lose. \r\nSo please reconsider if your few bucks of profit is worth destroying a whole lot of people's lives. \r\n\r\n"
+  }
+ ]
+}

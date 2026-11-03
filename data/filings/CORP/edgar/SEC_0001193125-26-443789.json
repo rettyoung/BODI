@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001193125-26-443789",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "PUBLIC SERVICE ENTERPRISE GROUP INC  (PEG)  (CIK 0000788784), PUBLIC SERVICE ELECTRIC & GAS CO  (CIK 0000081033) 10-Q — full-text hit \"co-location\" FERC",
+ "filed": "2026-11-02",
+ "url": "https://www.sec.gov/Archives/edgar/data/788784/000119312526443789/",
+ "entity": "PUBLIC SERVICE ENTERPRISE GROUP INC  (PEG)  (CIK 0000788784), PUBLIC SERVICE ELECTRIC & GAS CO  (CIK 0000081033)",
+ "fetch": [],
+ "meta": {
+  "query": "\"co-location\" FERC",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-03T12:43:42Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

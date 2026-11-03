@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150139",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "NYISO Large Load Proposal Passes with ‘State Exempt’ Provision",
+ "filed": "2026-11-02",
+ "url": "//www.rtoinsider.com/150139-nyiso-large-load-proposal-passes-mc/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The NYISO Management Committee approved proposed tariff revisions intended to satisfy FERC’s Order to Show Cause on large load interconnections after the ISO added a “State Exempt Large Load” category to account for to-be-issued rules by New York state. \n The post  NYISO Large Load Proposal Passes with ‘State Exempt’ Provision  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-03T12:53:16Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

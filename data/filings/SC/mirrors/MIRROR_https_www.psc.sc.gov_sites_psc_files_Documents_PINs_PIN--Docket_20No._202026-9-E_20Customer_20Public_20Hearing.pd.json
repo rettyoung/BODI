@@ -1,0 +1,41 @@
+{
+ "id": "MIRROR:https://www.psc.sc.gov/sites/psc/files/Documents/PINs/PIN--Docket%20No.%202026-9-E%20Customer%20Public%20Hearing.pdf",
+ "jur": "SC",
+ "source": "mirror:sc_psc_publications",
+ "kind": "filing",
+ "docket": null,
+ "title": "November 2nd, 2026-- PSC Schedules Customer Public Hearing in Dominion Energy South Carolina, Inc. Integrated Resource Plan Docket",
+ "filed": null,
+ "url": "https://www.psc.sc.gov/sites/psc/files/Documents/PINs/PIN--Docket%20No.%202026-9-E%20Customer%20Public%20Hearing.pdf",
+ "entity": "Public Service Commission of South Carolina (main site)",
+ "fetch": [
+  {
+   "url": "https://www.psc.sc.gov/sites/psc/files/Documents/PINs/PIN--Docket%20No.%202026-9-E%20Customer%20Public%20Hearing.pdf"
+  }
+ ],
+ "meta": {
+  "bkey": "mirror:sc_psc_publications",
+  "mirror_of": "DMS docket documents (notices, orders, PINs)",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-03T12:20:47Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "integrated resource plan"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.psc.sc.gov/sites/psc/files/Documents/PINs/PIN--Docket%20No.%202026-9-E%20Customer%20Public%20Hearing.pdf",
+   "name": null,
+   "bytes": 200669,
+   "sha256": "a5aba44faa0b61cb06f67ff12602040985d8b7521b3c0ee1abe89f677697a736",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                                                                                                                         COMMISSIONERS\n                                                                                                                             Justin T. Williams, Sixth District\n                                                                                                                                                    Chairman\n                                  The Public Service Commission                                                                 H. David Britt, Fourth District\n                                                                                                                                               Vice Chairman\n\n                                     State of South Carolina\n                                                                                                                               Eugene Hennelly, First District\n                                                                                                                           Florence P. Belser, Second District\n                                                                                                                     Stephen M. “Mike” Caston, Third District\n                                                                                                                             Swain E. Whitfield, Fifth District\n                                                                                                                       Delton W. Powers, Jr., Seventh District\n\n        Jocelyn Boyd\nChief Clerk/Executive Director                                                                                                                 Clerk’s Office\n   Phone: (803) 896-5100                                                                                                               Phone: (803) 896-5100\n     Fax: (803) 896-5246                                                                                                                 Fax: (803) 896-5199\n\n\n\n\n  For Immediate Release—October 2nd, 2026\n\n\n\n       South Carolina Public Service Commission Schedules Customer Public\n     Hearing in Dominion Energy South Carolina, Inc. Integrated Resource Plan\n                          Docket (Docket No. 2026-9-E)\n\n\n  Columbia, South Carolina—The Public Service Commission of South Carolina has scheduled a customer\n  public hearing in Docket No. 2026-9-E, which relates to Dominion Energy South Carolina, Inc.’s 2026\n  Integrated Resource Plan. This hearing, which will allow customers of DESC to testify either virtually or in-\n  person, will be held on Monday, November 2nd, 2026, from 10 a.m.-12 p.m. and from 5:30 p.m.-9 p.m. Should\n  all preregistration slots for November 2nd be filled, preregistration will open for Tuesday, November 3rd, 2026,\n  from 5:30 p.m.-9 p.m.\n\n  Preregistration for the customer public hearing is now open. To preregister, either:\n      • Email the Commission at communications@psc.sc.gov, or\n      • Complete the survey at this link, or\n      • Call 803.896.2939.\n\n  The Commission asks that all customers interested in testifying preregister by 4:00 p.m. on Wednesday,\n  October 28th, 2026.\n\n  Following the customer public hearing, the merits hearing in this matter will begin on Monday, November 2nd.\n  This hearing will be broadcast live at this link and will be archived in the Docket at this link.\n\n  For more information about this matter, please consult the Notice of Filing and Public Hearing at this link.\n\n  For more information, email contact@psc.sc.gov, or call 803.896.5100. You can also follow the Commission on\n  Facebook, LinkedIn, Nextdoor, and Instagram.\n\n\n                                                                     ######\n\n\n\n\n                        Public Service Commission, 101 Executive Center Dr., Suite 100, Columbia, SC 29210-8411, 803-896-5100, www.psc.sc.gov\n\f"
+  }
+ ]
+}

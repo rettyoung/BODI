@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261103-5017",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Jeff Chen in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5017",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "C7C34A16-5EA9-C668-9073-A19EDF400000",
+   "name": "152214.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:37:14Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152214.txt",
+   "bytes": 6043,
+   "sha256": "4d0412cbe898d14084a8e3ed1c2b377ed8123a88d3df065509ae9bb0a8ddd9d3",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJeff Chen, Anchorage, AK.\nUnderwater data centers are a novel concept, and there are none in operation at this scale. To developers, the\r\nchief selling point is that the massive amounts of waste heat can be cooled by the surrounding seawater, reducing\r\nor eliminating the need for cooling equipment. That waste heat would be absorbed into the ecosystem, risking\r\nharm to the entire marine food web- from plankton to fish, to mammals like the endangered Cook Inlet Beluga.\r\nDeepGreen proposes to power the 100 MW data center with more than 300 tidal generators. It has not shared\r\nany plan for where it would source power during daily slack tides, when the DeepGreen project could draw 100\r\nMW of power from the grid, twice the average peak demand for the entire Kenai Peninsula. The proposed\r\ninfrastructure includes 66 server hives with exterior copper-nickel cooling fins, raising serious questions about\r\nerosion and heavy metal contamination.\r\n\r\nPotential Impacts:\r\n- Underwater noise\r\n- Warming water temperature\r\n- Copper pollution\r\n- Habitat fragmentation\r\n- Ratepayer energy burden\r\n\r\n- The world needs some data centers to support the technology that we depend on, but underwater\r\nin Cook Inlet is the last place we should build them.\r\n- The proposed DeepGreen data center is another wild idea for an Outside company to get rich off of the\r\nlands and waters that Alaskans depend on.\r\n- Alaskans know that hundreds of moving pieces installed underwater in the Inlet will break down, be\r\ncovered in sea life, and need constant maintenance.\r\n- The waters we depend on for food, jobs, and enjoyment are the wrong place for a huge experiment like\r\nthe DeepGreen data center.\r\n- DeepGreen couldn’t care less about Alaskans or our environment, clearly shown by its lack of a plan to\r\naddress backup power, maintenance, fisheries impacts, or the potential release of toxic pollutants.\r\n- Outside tech startups like DeepGreen cannot be trusted to conduct objective research that might hurt\r\ntheir bottom line.\r\n\r\n- A hyperscale data center underwater in the Cook Inlet Forelands area would disrupt fisheries,\r\naquatic life, and ship traffic between Anchorage and the Gulf of Alaska. The DeepGreen project is\r\nproposed in the deepest channel of the Forelands, a natural bottleneck between upper and lower Cook\r\nInlet, just north of the community of Nikiski.\r\n- Any infrastructure exposed to the Inlet’s strong currents would face relentless, year-round\r\nabrasion, persistent wear, and ongoing operational risks. These waters are opaque with fine volcanic\r\nash, sand, and glacial silt; and home to some of the largest tidal ranges in the world. Its powerful currents\r\nact like a giant blender, constantly churning up shifting sand and silt from the seafloor and mudflats and\r\nkeeping heavy sediments in suspension.\r\n- Cook Inlet experiences frequent earthquakes, which would shake and vibrate sensitive equipment\r\nlike data center servers, causing damage and requiring maintenance.\r\n- The project raises serious questions of long-term reliability and cost. Its infrastructure is made up of\r\nmany moving parts and would require frequent maintenance underwater in an area that is difficult to\r\naccess.\r\n\r\n- The DeepGreen data center would become a significant source of noise, disorienting marine\r\nmammals like beluga whales, who depend on sound to communicate, navigate, hunt, and escape\r\npredators. Endangered beluga whales must pass through the Cook Inlet Forelands bottleneck to access\r\ntheir feeding and calving grounds seasonally.\r\n- NOAA considers noise to be one of the top threats to Cook Inlet beluga recovery. The noise created\r\nby DeepGreen’s data center could break beluga whale habitat in two, separating seasonal feeding and\r\ncalving grounds.\r\n- Generational Alaskan fisheries are too important to gamble against huge untested infrastructure\r\nprojects that provide speculative benefits to our communities.\r\n- Every salmon that returns to streams North of Nikiski would need to pass through the bottleneck\r\nwhere DeepGreen proposes to install 66 server hives and more than three hundred tidal turbine\r\ngenerators. There are setnet sites within 3 miles of the proposed data center.\r\n- The DeepGreen data center would release copper, a well-known toxin, directly into the habitat of the\r\nCook Inlet salmon population that we depend on for food, jobs, and our identity as Alaskans.\r\n- Increased water temperatures, especially at slack tide, have the potential to significantly harm\r\nsalmon and the aquatic ecosystem as a whole.\r\n- DeepGreen has not named the mechanism they will use to discharge nearly 100 megawatts of waste\r\nheat into the water. On land, newer closed-loop systems depend on PFAS (forever chemicals). If PFAS\r\ncompounds were accidentally released into Cook Inlet, the damage would be permanent.\r\n\r\n- The number of individual tidal turbine generators proposed to power the DeepGreen data center\r\nhas never even been considered. The tidal power startup Ocean Renewable Power Company is\r\ndeveloping tidal generators that work in Alaskan waters. They are working on a pilot project to study the\r\nimpacts and efficacy of five of their generators in Cook Inlet. DeepGreen’s proposal to install more than\r\n300 is a huge outlier.\r\n- HEA ratepayers are likely to foot the bill for the 100mw data center demand during slack tide,\r\nwhich would more than double average peak demand for the entire Kenai Peninsula.\r\n- It appears that no electric utilities have been consulted. Neither Homer Electric Association (HEA),\r\nAlaska Power Association (APA), or any other potential utility partner.\r\n\r\n- The most successful seafloor data center was built by Microsoft and was less than 1% the size of\r\nDeepGreen’s proposal. After two years, Microsoft pulled their project out of the water and has not\r\npublicly pursued it further. The infrastructure experienced significant “fouling” i.e. the accumulation of\r\nmicroorganisms, plants, algae, and other small aquatic animals that significantly reduced its performance.\r\n\r\n"
+  }
+ ]
+}

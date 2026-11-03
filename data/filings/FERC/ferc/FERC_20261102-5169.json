@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5169",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of CONSTANCE FREDENBERG in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5169",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "62EA638D-591E-C6EB-93BA-A19D8DD00000",
+   "name": "152138.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:47Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152138.txt",
+   "bytes": 836,
+   "sha256": "e6fc39dee24965b464edfa618756776ea5c1151c7736533ab26904d2ae53078f",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nCONSTANCE FREDENBERG, Palmer, AK.\nI am opposed to putting a Data Center in the waters of Cook Inlet.\r\nPile-driving during construction is bad enough, but the continuous low-frequency sound emitted by the Center will be bad for the belugas in particular.\r\nGlacial runoff clouds Cook Inlet's waters, belugas there are reliant almost exclusively on echolocation to complete feeding, mating, and navigation, the outlet explained, pointing to noise as more than an annoyance for the animals.\r\nHeat released by the facilities could also affect marine life. \r\nSalmon, a major food source for belugas and humans, could be impacted. The fish depend on cold water for egg development, stable metabolism, and conserving energy during migration. \r\nAs I said in the beginning, I am very much opposed to putting a Data Center in Cook Inlet.\r\n\r\n\r\n"
+  }
+ ]
+}

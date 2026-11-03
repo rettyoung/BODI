@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5200",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Sierra Larson in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5200",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "06E398C7-3B45-CE28-9E1B-A19DC3700000",
+   "name": "152144.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:32Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152144.txt",
+   "bytes": 7164,
+   "sha256": "bcf3134e5ac48d6d3cc6ca017a5f29b4d78a87a0fd9a83531de8b13c775ad777",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nSierra Larson, Wasilla, AK.\nI am submitting this comment to express serious concerns regarding the proposed DeepGreen Cook Inlet Subsea-Compute & Infrastructure Hub Project, particularly the applicant’s technical qualifications, transparency, project feasibility, and potential impacts on Cook Inlet’s marine ecosystem, fisheries, and surrounding communities.\r\n\r\nThe proposed installation of approximately 330–350 tidal turbines, 66 submerged data-center structures, and associated subsea infrastructure represents an exceptionally complex undertaking in one of Alaska’s most environmentally sensitive and technically challenging marine environments.\r\n\r\nMy primary concern is whether this newly established company has demonstrated the experience, resources, and technical partnerships necessary to responsibly undertake a project of this magnitude.\r\n\r\nPublic reporting indicates that DeepGreen’s parent company was formed in January 2026, shortly before its federal application was submitted. Its managing member, Louis Wolfson, has a professional background in real estate development. While that experience may be relevant to project development, it does not independently establish expertise in marine hydrokinetic engineering, subsea computing infrastructure, tidal energy generation, or marine environmental management.\r\n\r\nOf additional concern are reports that organizations referenced in connection with DeepGreen’s proposals, including Ocean Renewable Power Company and the Alaska Energy Authority, have clarified that they have no established project partnerships with the developer.\r\n\r\nI recognize that preliminary project development frequently involves prospective partnerships. However, FERC should clearly distinguish between demonstrated technical capabilities, executed agreements, and conceptual or anticipated relationships.\r\n\r\nI respectfully request that FERC scrutinize the applicant’s qualifications, identify the technical specialists and engineering firms actually committed to the project, and examine whether the proposed financial resources and study plan are sufficient to conduct credible feasibility assessments.\r\n\r\nThe environmental implications are equally concerning.\r\n\r\nNOAA has spent years studying underwater acoustic conditions in Cook Inlet and has documented that anthropogenic noise can interfere with endangered Cook Inlet beluga whales’ communication, echolocation, navigation, and feeding behavior.\r\n\r\nIntroducing hundreds of operating turbines into this environment raises significant questions about cumulative acoustic exposure, collision risk, behavioral disturbance, and potential interference with movement through the Forelands corridor. These effects cannot be adequately evaluated by studying individual turbines in isolation.\r\n\r\nUnlike temporary construction activities, this installation could introduce recurring underwater noise and physical obstructions throughout its operating life. Existing acoustic monitoring and marine mammal research should inform any feasibility assessment.\r\n\r\nI am also concerned about the proposal to use Cook Inlet waters as the cooling medium for a large-scale underwater data center. A facility operating at approximately 100 MW could release substantial thermal energy into the surrounding environment. Although Cook Inlet experiences powerful tidal currents, those currents should not be assumed to eliminate localized thermal impacts.\r\n\r\nComprehensive modeling is needed to assess heat dispersion during slack tides, seasonal temperature variations, and cumulative operation of all proposed computing structures. Potential impacts on salmon, their prey, and other temperature-sensitive marine organisms deserve particular attention.\r\nAdditional concerns include electromagnetic fields associated with subsea electrical infrastructure, seabed disturbance, potential material degradation and metal release, vessel activity, and cumulative effects alongside existing industrial operations.\r\n\r\nCook Inlet’s fisheries provide substantial economic, subsistence, recreational, and cultural value to Alaskans. Potential impacts to salmon migration, fisheries productivity, and endangered species should not be treated as secondary considerations to private computing infrastructure.\r\n\r\nThe public benefits of this project also remain unclear.\r\n\r\nAccording to the federal notice, the proposed electricity generation would primarily serve the underwater data center, with surplus power potentially available to the Railbelt grid. This raises legitimate questions about how much electricity, if any, would reliably benefit Alaskan communities, and whether anticipated public benefits justify the proposed occupation and industrial use of this marine environment.\r\n\r\nBefore granting preliminary permit priority, I request that FERC carefully consider:\r\n1) The applicant’s demonstrated technical qualifications, financial capacity, engineering resources, and verified project partnerships.\r\n\r\n2) Whether the applicant has identified commercially demonstrated turbine and subsea computing technologies suitable for Cook Inlet’s extreme tidal currents, sediment loads, and environmental conditions.\r\n\r\n3) The potential overlap with existing marine energy proposals and public infrastructure planning, including Alaska Energy Authority’s Cook Inlet PowerLink project.\r\n\r\n4) Whether the proposed feasibility studies adequately address cumulative acoustic impacts, beluga movement and collision risks, salmon migration, thermal pollution, electromagnetic fields, and long-term ecological effects.\r\n\r\n5) The adequacy of consultation with NOAA Fisheries, Alaska Department of Fish and Game, affected Alaska Native communities, local governments, commercial fishing interests, and other stakeholders.\r\n\r\n6) The need to evaluate reasonable alternatives, including smaller pilot installations, alternative locations, and land-based computing infrastructure.\r\n\r\n7) The transparency of the applicant’s financing assumptions, proposed project benefits, study methodologies, and technical feasibility claims.\r\n\r\nI understand that a preliminary permit does not authorize construction and that further environmental review would be required before any project could be licensed. However, granting preliminary permit priority is still consequential. It can provide a developer with years of priority to pursue a federal license in an area containing valuable public resources and sensitive habitat.\r\nA project of this scale should not advance solely on the strength of an ambitious concept and anticipated partnerships. Technical capability, financial credibility, environmental responsibility, and meaningful public transparency must be demonstrated and not simply assumed.\r\n\r\nI respectfully ask FERC to give substantial consideration to these unresolved issues when evaluating whether preliminary permit priority is appropriate for this applicant.\r\n\r\nAlaska’s marine ecosystems, endangered species, fisheries, and coastal communities deserve a rigorous, transparent, and scientifically defensible process.\r\n\r\nThank you for considering my comments.\r\n\r\nSierra Larson\r\n\r\n\r\n"
+  }
+ ]
+}

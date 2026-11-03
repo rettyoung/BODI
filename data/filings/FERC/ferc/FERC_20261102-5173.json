@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5173",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Renee Estelle in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5173",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "B897132B-431F-C0C5-9AE3-A19D94700000",
+   "name": "152120.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:39:32Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152120.txt",
+   "bytes": 475,
+   "sha256": "8f5b34bb34d5a688a5f4e079469ae975fe655e6927fa3b1fba27937838fab664",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nRenee Estelle, Soldotna, AK.\nI am opposed to allowing this data center to be built.  I rely on subsistence salmon from Cook Inlet, and do not support anything that might jeopardize our fishery.  There are also too many down sides to letting this project happen without a way to guarantee it won't harm wildlife, increase pollution and water temperatures, drain resources, and cost taxpayers and residents.  We don't need data centers.  Preserve our natural resources!\r\n\r\n"
+  }
+ ]
+}

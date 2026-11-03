@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5034",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Emily Cohen in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5034",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "35DBA1E2-C21A-CA7E-9FC8-A19AEB900000",
+   "name": "152010.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:40:26Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152010.txt",
+   "bytes": 525,
+   "sha256": "84de6c7d83d7a98fd013da3f17ed36a90fe7dacf47d8833c811854abb16764d3",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nEmily Cohen, Anchorage, AK.\nI am writing in strong opposition to the proposed DeepGreen Cook Inlet data center. This project will cause irreparable damage to the Inlet and its sea life in the form of chemical and metallic pollutants, noise pollution, and warming waters. There is also a strong potential for this project to increase the energy bills for ratepayers along the Kenai Peninsula. Alaska does not need more threats to our fisheries and our livelihoods, especially not from predatory out-of-state companies.\r\n\r\n"
+  }
+ ]
+}

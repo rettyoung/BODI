@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5077",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Kathryn Haber in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5077",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "49177973-8BEE-C3A4-9C75-A19CEEC00000",
+   "name": "152073.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:39:39Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152073.txt",
+   "bytes": 2121,
+   "sha256": "c8f6bad0dbacf99f8227ea267e637f0095610caf6cd6022aa79f2c9e9d9954d6",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nKathryn Haber, Homer, AK.\nI stand in clear opposition to data centers being placed in marine environments. The construction/exploration process is deadly to life beneath the sea. Underwater construction—such as pile driving for docks, bridges, and wind farms, alongside dredging and occasional explosions—produces intense low-frequency sound waves that travel vast distances through water and the seabed, severely disrupting marine ecosystems.\r\n\r\nSources of Construction Noise\r\n\r\n• Pile Driving: Used for ports, oil rigs, and wind turbines, generating low-frequency impacts exceeding 200 dB near the source and traveling over 10 km above ambient levels.\r\n• Dredging and Digging: Performed for shipping lanes and pipelines, contributing continuous low-frequency hums.\r\n• Underwater Explosions: Used in demolition or clearance, generating lethal shock waves and extreme acoustic spikes.\r\n\r\n\r\nImpacts on Marine Life\r\n\r\n1. Marine Mammals (Whales, Dolphins, Porpoises)\r\n\r\n• Hearing Damage: High decibel levels cause Temporary Threshold Shifts (TTS) or Permanent Threshold Shifts (PTS)—effectively partial or total deafness.\r\n• Communication Masking: Noise drowns out social calls, mating songs, and echolocation pulses (which whales rely on to hunt).\r\n• Behavioral Disruption: Animals experience chronic stress, forced avoidance of vital feeding or breeding grounds, and disorientation.\r\n\r\n\r\n2. Fish and Invertebrates\r\n\r\n• Physical Trauma: Intense impulses from pile driving or blasts can rupture swim bladders, cause internal hemorrhaging, and damage inner ear sensory hair cells.\r\n• Behavioral Shifts: Juvenile species (such as sea bass) exhibit reduced group cohesion and slower escape responses against predators.\r\n• Social and Chemical Disruption: Invertebrate sonic thrums and chemical signaling are obscured by the surrounding industrial din.\r\n\r\nSpeaking with each other about data center needs and there placement to build concensus, collaboration, and respecting community values and goals in the Nikiski area on land with the burrough and tribal council could yeild a better outcome. \r\n\r\n"
+  }
+ ]
+}

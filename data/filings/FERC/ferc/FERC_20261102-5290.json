@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5290",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Shy Horner in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5290",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "A33E7845-9942-CDD4-95E7-A19E23600000",
+   "name": "152154.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:53Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152154.txt",
+   "bytes": 1620,
+   "sha256": "35667fc6929a4af49bc68889aecf2ecd84d37bd5f705d903900080c93b40e52d",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nShy Horner, wasilla, AK.\nThis project, P-15423-000, would take up 2.5 square miles in the narrowest section of the Cook Inlet. The waste heat from this data center would be absorbed by the Cook Inlet, which would have a negative impact on the marine life sensitive to warm waters.\r\n\r\nThis could have serious economic impacts on our communities. The Alaska Department of Fish and Game estimates the total value of Upper Cook Inlet commercial salmon fisheries to average $25 million annually over the last three years. These fisheries will almost certainly be impacted, and those effects will increase over time as generations of salmon are impacted.\r\n\r\nEndangered beluga whales also pass through the forelands bottleneck seasonally to access feeding and calving grounds. The DeepGreen data center would become a significant source of noise, disorienting marine mammals who depend on quiet waterways to communicate, navigate, hunt, and escape predators.\r\n\r\nData Centers all over the U.S. have polluted the water tables, they give off unbearable noise, and this would produce heat that would warm our oceans even more. The fish in the sea would be effected and maybe disappear altogether. \r\n\r\nAlaskan live subsistence lifestyles, our natural resources should be preserved so we can continue to do so. We should be prioritizing Alaskans ability to hunt, fish, and gather their own food without depleting our resources to benefit people who do not live here and will never positively impact Alaska in a long term plan. Immediately profit comes at the absolute sacrifice of people and their lands long term prosperity.\r\n\r\n"
+  }
+ ]
+}

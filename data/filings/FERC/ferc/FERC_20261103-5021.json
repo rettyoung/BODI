@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261103-5021",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Jennifer lesh in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5021",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "B14BD854-2966-CC62-907C-A19F8CE00000",
+   "name": "152087.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:24Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152087.txt",
+   "bytes": 830,
+   "sha256": "45643bc92e78e52825b7529e3b637103fe887fd7bb65aa05346163eefe1ac2b1",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJennifer lesh, Juneau, AK.\nMy comments for the data center in Cook inlet is that the project is ridiculous. The company is lacking experience. the title zone is not to be trifled with. the ability for success is very small and the ability for destruction is very high. The company has zero experience running a data center in the ocean. the company is run by a real estate financier not a data center expert. the company has no ocean-based experience and is really just a money grab. it's disgusting that ferc would consider an application when it doesn't provide energy. this is a proof of concept on paper with no applicable real life experience behind it as all of us who live near cook inlet now it's a lot of work that this company has seriously underestimated and undervalued in whatever prospectus they've put out. \r\n\r\n"
+  }
+ ]
+}

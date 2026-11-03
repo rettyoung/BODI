@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5161",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Karis Barnes in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5161",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "17EE5342-3DF1-C2A7-85DF-A19D80400000",
+   "name": "152133.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:02Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152133.txt",
+   "bytes": 3055,
+   "sha256": "24f751542197edbda4adc90738da4720056d40ae7c01b2f43243ecf7e011685c",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nKaris Barnes, Kasilof, AK.\n\r\nMy name is Karis Barnes, and I live in Kasilof, Alaska. I moved to Alaska because I value privacy, wilderness, and self-sufficiency. Data centers infringe on all of these values. Data centers rely on infringement of privacy - they build off of data collected without my permission so that AI can be more intelligent. They use hundreds of gallons of water - this infringes on my self-sufficiency as we are running out of fresh clean water faster than ever before with climate change. We do not need data centers sucking rivers, lakes, and oceans dry while Americans are struggling to access clean, fresh water. \r\n\r\nI listen to highway noise from my house, a highway that was built long after my home was already standing. I go to Kasilof Beach, which meets Cook Inlet waters where the kasilof river empties, to listen to the vastness of the ocean, the lapping of the waves. I take my dogs there. One day, I hope to take my children there. Cook Inlet is home to an endangered population of beluga whales. Studies show that data centers interfere with whale communication, warm the waters which need to stay cold for their survival, and add noise pollution. These endangered belugas are not the only wildlife that will suffer. Alaskans depend on salmon for subsistence. Millions of tourists come to the Kenai River to fish for salmon every year, which massively contributes to our economy. All species of salmon that mature in Cook Inlet are doing poorly due to climate change, overfishing, and bottom trawling. Adding a data center in Cook Inlet will further decimate salmon populations, which people and wildlife in Alaska so rely on.\r\n\r\nHow am I supposed to bring children into a world that we continue to poison with technology that harms our wildlife, our climate, our water and our people? I want to bring my future children to the beach, to hear silence stretching for miles and miles all the way to Redoubt Volcano. I want them to catch red salmon at the mouth of the Kasilof River, with hundreds of other Alaskans filling their freezers in an ethical, responsible way. And I want to sit with them and point out beluga whales, the same way my parents did when I was child at the beach. There is not a single Alaskan who values wildlife, the future of their family, their privacy or their self-sufficiency that supports this data center.\r\n\r\nIf the data center moves forward, wildlife will suffer. People will suffer. And I will not feel comfortable bringing children into a world where billionaires value money over nature, pristine wildlife, and the interconnectedness of all things. Water is the key to life. The ocean, and the animals it rears, are the lifeblood of Alaskans. The decisions of large corporations are not lost on me. I have been failed time and time again by this government. And I am not the only person who is losing faith. Please show me that you care about my voice, and about my children’s future. Thank you for your time and consideration. And thank you for valuing all that I hold dear. \r\n\r\n"
+  }
+ ]
+}

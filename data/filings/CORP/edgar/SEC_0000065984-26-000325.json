@@ -1,0 +1,24 @@
+{
+ "id": "SEC:0000065984-26-000325",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "ENTERGY CORP /DE/  (ETR)  (CIK 0000065984), ENTERGY MISSISSIPPI, LLC  (CIK 0000066901) 10-Q — full-text hit \"data center\" \"electric service agreement\"",
+ "filed": "2026-11-02",
+ "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000325/",
+ "entity": "ENTERGY CORP /DE/  (ETR)  (CIK 0000065984), ENTERGY MISSISSIPPI, LLC  (CIK 0000066901)",
+ "fetch": [],
+ "meta": {
+  "query": "\"data center\" \"electric service agreement\"",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-03T12:43:42Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

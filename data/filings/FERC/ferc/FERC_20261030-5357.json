@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261030-5357",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2449",
+ "title": "Consumers Energy Company submits Digital Project Archive files for the Supporting Technical Information Document re the Loud Hydroelectric Project under P-2449. Part 1 of 2",
+ "filed": "2026-10-30",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261030-5357",
+ "entity": "Consumers Energy Company",
+ "fetch": [
+  {
+   "ferc_file": "4020DD4E-7449-C6FD-8675-A19C3DD00000",
+   "name": "1991-04-01 ID3178_MMA_CCRG_HydroelectricPlantHistoricalReview.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "DF95EF6B-6D01-CF17-8FB9-A19C3DD00000",
+   "name": "2010-06-17 ID3340_LOD_CEC_DWG_49-FERC0-F01.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "96CA5EE5-B7BD-CAA9-96D4-A19C3DD00000",
+   "name": "2013-06-11 ID_LOD_SG-19950_SHT2.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "02B23F27-3EEA-CAED-8A6E-A19C3DE00000",
+   "name": "2014-10-22 ID3345_LOD_SG-19950_SHT1_RevD.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-30"
+ },
+ "collected_at": "2026-11-03T12:37:11Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '4020DD4E-7449-C6FD-8675-A19C3DD00000', 'name': '1991-04-01 ID3178_MMA_CCRG_HydroelectricPlantHistoricalReview.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'DF95EF6B-6D01-CF17-8FB9-A19C3DD00000', 'name': '2010-06-17 ID3340_LOD_CEC_DWG_49-FERC0-F01.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '96CA5EE5-B7BD-CAA9-96D4-A19C3DD00000', 'name': '2013-06-11 ID_LOD_SG-19950_SHT2.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '02B23F27-3EEA-CAED-8A6E-A19C3DE00000', 'name': '2014-10-22 ID3345_LOD_SG-19950_SHT1_RevD.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

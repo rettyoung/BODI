@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5036",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Judith Brakel in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5036",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "8D87E9A3-93CB-C641-85FA-A19B25000000",
+   "name": "152074.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:40:23Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152074.txt",
+   "bytes": 1511,
+   "sha256": "b5fbcaa1471fcedc4d8221d9f5b3c036ddfe94583bd8162200f5af122dd9ce8f",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJudith Brakel, Gustavus, AK.\nI am commenting on the Deep Green Data Center Proposal, docket no. P-15423-00. I oppose issuance of permits for this immense project.\r\n\r\nThis proposed development in the waters of Cook Inlet would be destructive to the marine environment in several ways. It would discharge a very large amount of heat into the marine waters, heat that in our already warming ocean is seen to have negative effects on many organisms including salmon that are basic to the nutrients in this ecosystem and to the regional economy. Marine mammals including the endangered Beluga whales and aquatic birds will also decline. \r\nConcerning marine mammals, I live in Gustavus near Glacier Bay and the warm “blob” in ocean waters from 2014 to 2016 caused the loss of 58 humpback whales. You can get confirmation of this from National Park Service researchers Janet Neilson and Chris Gabriel, who run the longest continuous study of humpback whales anywhere. \r\nThere is also the likelihood of copper pollution from the copper-nickel alloy in the cooling fins. “Thermal Management System: Fully passive cooling loops utilizing external C70600 Copper-Nickel alloy cooling fins integrated directly into the pressure hull matrix to execute direct-conduction heat rejection to the ambient water column.” Quoted from Deep Green’s Response to Deficiency Letter and Amendment to Preliminary Permit Applications, June 24, 2026. This would be a lot of copper, toxic to fishes and other marine fauna.\r\n\r\n\r\n"
+  }
+ ]
+}

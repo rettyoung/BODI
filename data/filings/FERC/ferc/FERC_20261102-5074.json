@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5074",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15410",
+ "title": "Motion to Intervene of Sarah E. Templeton under P-15410.",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5074",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "D279DFD0-264A-CD48-9889-A19CEBE00000",
+   "name": "Motion to intervene .pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-01"
+ },
+ "collected_at": "2026-11-03T12:39:47Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Motion to intervene .pdf",
+   "bytes": 25884,
+   "sha256": "96d43db786ca49a7ec54913101131b9ce2a9332f7f02e40017908ed3ef5cfb9b",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "Sarah Templeton\n104 N.Gill st\nKenai, AK. 99611\n(907) 513-5455\nSarahTempleton3131@gmail.com\n\n\nOctober 29, 2026\n\n\n\n\nTo whom it may concern:\n\nI am writing to you to intervene in the permit process for Deepgreen Cook\nInlet spv llc. The implications of the data center would be grossly\nunderestimated and would be detrimental to the endangered Cook Inlet\nbeluga whales, all the species of the Salmon population just to name a couple.\n\nAs a member of the community I feel very strongly that not one individual in\nthis community would support this! Please protect our fragile ecosystem.\n\nSincerely,\n\nSarah Templeton\n\f"
+  }
+ ]
+}

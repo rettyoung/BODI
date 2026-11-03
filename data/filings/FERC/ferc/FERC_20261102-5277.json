@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261102-5277",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-158",
+ "title": "WBI Energy Transmission, Inc. submits response to FERC's 10/28/2026 environmental information request re the application for the Line Section 32 Expansion Project under CP26-158.",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5277",
+ "entity": "WBI Energy Transmission, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "18FC37A1-CCC8-C15C-909C-A19E18700000",
+   "name": "Attachment 1-A (PRIV).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "B22DA491-64DD-C400-9B0F-A19E18700000",
+   "name": "Attachment 1-B (PRIV).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Supplemental/Additional Information"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:37:20Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '18FC37A1-CCC8-C15C-909C-A19E18700000', 'name': 'Attachment 1-A (PRIV).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'B22DA491-64DD-C400-9B0F-A19E18700000', 'name': 'Attachment 1-B (PRIV).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

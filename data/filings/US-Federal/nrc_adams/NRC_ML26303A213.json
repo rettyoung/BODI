@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26303A213",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000331",
+ "title": "Duane Arnold (NextEra restart): Notice of Appearance for Kevin D. Bernstein [['Legal-Correspondence/Miscellaneous']]",
+ "filed": "2026-11-02",
+ "entity": [
+  "NRC/OGC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2630/ML26303A213.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26303A213.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Duane Arnold (NextEra restart)",
+  "accession": "ML26303A213",
+  "document_date": "2026-10-30"
+ },
+ "collected_at": "2026-11-03T12:32:31Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26303A213.pdf",
+   "name": null,
+   "bytes": 138983,
+   "sha256": "fa17026b0e6da81beccb4cfdd9b237e3687c28d91155e78181c1e9a3acbf6207",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                              UNITED STATES OF AMERICA\n                           NUCLEAR REGULATORY COMMISSION\n\n                                 BEFORE THE COMMISSION\n\n\n\n In the Matter of\n\n\n NEXTERA ENERGY DUANE ARNOLD, LLC                          Docket No. 50-331-LA\n\n\n (Duane Arnold Energy Center)\n\n                    NOTICE OF APPEARANCE FOR KEVIN D. BERNSTEIN\n\nNotice is hereby given that the undersigned attorney enters an appearance in the above-\ncaptioned matter. In accordance with 10 C.F.R. § 2.314(b), the following information is provided:\n\n        Name:                  Kevin D. Bernstein\n        Address:               U.S. Nuclear Regulatory Commission\n                               Office of the General Counsel\n                               Mail Stop: O15-B04\n                               Washington, DC 20555-0001\n        Telephone:             (301) 415-1001\n        Email:                 Kevin.Bernstein@nrc.gov\n        Facsimile Number:      (667) 309-4860\n        Admissions:            Maryland\n        Name of Party:         NRC Staff\n\n                                                 Respectfully submitted,\n\n                                                 /Signed (electronically) by/\n                                                 Kevin D. Bernstein\n                                                 Counsel for NRC Staff\n                                                 Mail Stop: O15-B04\n                                                 U.S. Nuclear Regulatory Commission\n                                                 Washington, DC 20555-0001\n                                                 Telephone: (301) 415-1001\n                                                 Email: Kevin.Bernstein@nrc.gov\nDated October 30, 2026\n\f                               UNITED STATES OF AMERICA\n                            NUCLEAR REGULATORY COMMISSION\n\n                                  BEFORE THE COMMISSION\n\n\n\n In the Matter of\n\n\n NEXTERA ENERGY DUANE ARNOLD, LLC                           Docket No. 50-331-LA\n\n\n (Duane Arnold Energy Center)\n\n                                      Certificate of Service\n\nPursuant to 10 C.F.R. § 2.305, I hereby certify that copies of the foregoing “Notice of\n\nAppearance for Kevin D. Bernstein,” dated October 30, 2026, have been served upon the\n\nElectronic Information Exchange (the NRC’s E-Filing System), in the captioned proceeding, this\n\n30th day of October 2026.\n\n\n                                                  /Signed (electronically) by/\n                                                  Kevin D. Bernstein\n                                                  Counsel for NRC Staff\n                                                  Mail Stop: O15-B04\n                                                  U.S. Nuclear Regulatory Commission\n                                                  Washington, DC 20555-0001\n                                                  Telephone: (301) 415-1001\n                                                  Email: Kevin.Bernstein@nrc.gov\n\f"
+  }
+ ]
+}

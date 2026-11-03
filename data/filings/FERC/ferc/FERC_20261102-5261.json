@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5261",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Marcia J Kuszmaul in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5261",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "AFBB03FE-A2C6-C1F3-91A2-A19E05000000",
+   "name": "152172.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:39:50Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152172.txt",
+   "bytes": 1243,
+   "sha256": "b05e63bd347538ee4b3daeebe2f90f4c9abd5997e28e6bbbc59d21bc4c46bfea",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nMarcia J Kuszmaul, Homer, AK.\nI oppose DeepGreen’s application to investigate the feasibility of a underwater data center in Cook Inlet. The project has no place in Cook Inlet – a critical migratory corridor for endangered beluga whales and salmon.\r\n\r\nI am a resident of the southern Kenai Peninsula and live on Kachemak Bay, a critical habitat area off the mouth of Cook Inlet. I do not trust any corporate entity with commercial interests to objectively evaluate and report on the feasibility and impact of its own venture.\r\n\r\nIn my lifetime, I have witnessed the degradation of the Cook Inlet system from oil and gas exploration and exploitation. The beluga whale population, king salmon and halibut have declined to dangerous levels. The King and Dungeness crab are gone. No more razor clams. When is the environment going to be valued and given a fighting chance against commercial interests?\r\n\r\nThe technology industry has created its own problem of needing insatiable amounts of energy to run its AI products that are creating unprecedented wealth for its titans.  Let them find solutions that do not compromise and destroy the natural world that sustains us.\r\n\r\nThank you in advance for denying DeepGreen’s application.\r\n\r\n\r\n"
+  }
+ ]
+}

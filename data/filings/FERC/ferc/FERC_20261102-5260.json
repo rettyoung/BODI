@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5260",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Aaron Lorentzen in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5260",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "5D9A5013-BE2F-C56E-9FAD-A19E02500000",
+   "name": "152176.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:05Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152176.txt",
+   "bytes": 1510,
+   "sha256": "5a550c57c07bdbcb566c8c090ba4b63a25cfda3b5368988c5efcc69af23aefac",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nAaron Lorentzen, Sterling, AK.\nI oppose the construction of a data center in Cook Inlet Alaska. This region is already in the early stages of an energy crisis.  The utilities are telling us they are 18 days short of natural gas supply to keep the lights on this winter and that will only get worse in the years to come as gas reserves are dwindling.  The Focus for this region should be power generation, not massive increases in power consumption.  I know, 10 MW tidal generators are proposed to make the data center self sufficient.  How about we spend our time, energy and resources to make power for the people not some tech company?\r\nThe waste heat from this data center would be absorbed by the Cook Inlet, which would have a negative impact on the marine life sensitive to warm waters.\r\nThis could have serious economic impacts on our communities. The Alaska Department of Fish and Game estimates the total value of Upper Cook Inlet commercial salmon fisheries to average $25 million annually over the last three years. These fisheries will almost certainly be impacted, and those effects will increase over time as generations of salmon are impacted.\r\nEndangered beluga whales also pass through the forelands bottleneck seasonally to access feeding and calving grounds. The DeepGreen data center would become a significant source of noise, disorienting marine mammals who depend on quiet waterways to communicate, navigate, hunt, and escape predators.\r\n\r\nNO WAY, take your tech anywhere else.\r\n\r\n\r\n"
+  }
+ ]
+}

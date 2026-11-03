@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5230",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Gary Waltenbaugh in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5230",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "3C97CDA8-EF83-C910-9064-A19DE6900000",
+   "name": "152166.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:29Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152166.txt",
+   "bytes": 900,
+   "sha256": "73a6628a441bf226530b4dc8d58976eee566f1f21ec6c8183ab05e3bdc7bc914",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nGary Waltenbaugh, Homer, AK.\nThe deep waters of Cook Inlet would undergo possibly severe consequences if a submerged DATA CENTER were constructed there.   \r\n\r\nIn addition, we the residents of the Kenai Peninsula, adjacent  to the Cook Inlet, are already facing a future with not enough reasonably-priced Electricy for our current business and residential needs!   And the demand / load from this Data Center will exacerbate the problem for us, and likely raise our electricity cost EVEN MORE!    \r\n\r\nThe Cook Inlet is a veritable “lifeline” for us here; for transportation, fishing, tourism, local businesses, etc:   PLEASE don’t jeopardize this valuable, one-of-a-kind, natural resource for a data center that is neither needed, or wanted.  \r\n\r\nThank you for considering these comments,\r\n\r\n                    Gary S. Waltenbaugh\r\n                   Resident, South Kenai Peninsula\r\n\r\n\r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5259",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of gloria wahl in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5259",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "FD58309B-0CC3-CF47-9C86-A19E00200000",
+   "name": "152162.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:37:54Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152162.txt",
+   "bytes": 730,
+   "sha256": "771d5ae11e7b6a4fe954b16fe7eab0c9dcfa67ea04e67c772b8e0047927b612d",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\ngloria wahl, homer, AK.\nBriefly, I am writing to OPPOSE the DeepGreen Cook Inlet Data Center. Their main selling point for this project that the ocean will simply absorb the heat produced as a result of the data center's operation is absolute folly.  There's NO WAY the heat will NOT HAVE a detrimental effect on the marine ecosystem and all that live in the Cook Inlet. The corporation proposing this data center has not properly informed FERC where they will obtain the energy that will be required to operate the data center during slack tide periods -- it's possible they'll need TWICE the energy that the entire Kenai Peninsula uses.  I live on the Kenai Peninsula.  Do not approve DeepGreen's Cook Inlet Data Center.\r\n\r\n"
+  }
+ ]
+}

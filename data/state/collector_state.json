@@ -9659,19 +9659,148 @@
   "RSS:rtoinsider://www.rtoinsider.com/?p=150235": "2026-11-02",
   "RSS:rtoinsider://www.rtoinsider.com/?p=150118": "2026-11-02",
   "RSS:rtoinsider://www.rtoinsider.com/?p=150108": "2026-11-02",
-  "RSS:rtoinsider://www.rtoinsider.com/?p=150267": "2026-11-02"
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150267": "2026-11-02",
+  "MIRROR:https://www.psc.sc.gov/sites/psc/files/Documents/PINs/PIN--Docket%20No.%202026-9-E%20Customer%20Public%20Hearing.pdf": "2026-11-03",
+  "TXSC:orders:2026-11-02": "2026-11-03",
+  "NRC:ML26303A213": "2026-11-03",
+  "FERCFORM:382186": "2026-11-03",
+  "EQR:2026Q3": "2026-11-03",
+  "FERC:20261102-5183": "2026-11-03",
+  "FERC:20261030-5409": "2026-11-03",
+  "FERC:20261030-5417": "2026-11-03",
+  "FERC:20261102-3057": "2026-11-03",
+  "FERC:20261102-5191": "2026-11-03",
+  "FERC:20261102-5177": "2026-11-03",
+  "FERC:20261102-5148": "2026-11-03",
+  "FERC:20261102-5076": "2026-11-03",
+  "FERC:20261102-5158": "2026-11-03",
+  "FERC:20261030-5349": "2026-11-03",
+  "FERC:20261030-5357": "2026-11-03",
+  "FERC:20261103-5017": "2026-11-03",
+  "FERC:20261102-5277": "2026-11-03",
+  "FERC:20261102-8000": "2026-11-03",
+  "FERC:20261102-5208": "2026-11-03",
+  "FERC:20261102-5214": "2026-11-03",
+  "FERC:20261102-3023": "2026-11-03",
+  "FERC:20261102-5041": "2026-11-03",
+  "FERC:20261102-5217": "2026-11-03",
+  "FERC:20261103-5010": "2026-11-03",
+  "FERC:20261102-5259": "2026-11-03",
+  "FERC:20261103-5006": "2026-11-03",
+  "FERC:20261103-5016": "2026-11-03",
+  "FERC:20261102-5161": "2026-11-03",
+  "FERC:20261102-5260": "2026-11-03",
+  "FERC:20261102-5275": "2026-11-03",
+  "FERC:20261102-5267": "2026-11-03",
+  "FERC:20261103-5018": "2026-11-03",
+  "FERC:20261102-5150": "2026-11-03",
+  "FERC:20261102-5251": "2026-11-03",
+  "FERC:20261103-5021": "2026-11-03",
+  "FERC:20261102-5263": "2026-11-03",
+  "FERC:20261102-5230": "2026-11-03",
+  "FERC:20261102-5200": "2026-11-03",
+  "FERC:20261102-5204": "2026-11-03",
+  "FERC:20261103-5011": "2026-11-03",
+  "FERC:20261102-5166": "2026-11-03",
+  "FERC:20261102-5149": "2026-11-03",
+  "FERC:20261102-5169": "2026-11-03",
+  "FERC:20261102-5235": "2026-11-03",
+  "FERC:20261102-5290": "2026-11-03",
+  "FERC:20261102-3038": "2026-11-03",
+  "FERC:20261102-5308": "2026-11-03",
+  "FERC:20261103-5020": "2026-11-03",
+  "FERC:20261103-5008": "2026-11-03",
+  "FERC:20261102-5089": "2026-11-03",
+  "FERC:20261103-5014": "2026-11-03",
+  "FERC:20261102-5241": "2026-11-03",
+  "FERC:20261102-5146": "2026-11-03",
+  "FERC:20261102-5289": "2026-11-03",
+  "FERC:20261102-5039": "2026-11-03",
+  "FERC:20261102-5232": "2026-11-03",
+  "FERC:20261102-5113": "2026-11-03",
+  "FERC:20261102-5173": "2026-11-03",
+  "FERC:20261103-5012": "2026-11-03",
+  "FERC:20261102-5077": "2026-11-03",
+  "FERC:20261103-5009": "2026-11-03",
+  "FERC:20261102-5321": "2026-11-03",
+  "FERC:20261102-5074": "2026-11-03",
+  "FERC:20261102-5261": "2026-11-03",
+  "FERC:20261102-5231": "2026-11-03",
+  "FERC:20261102-5190": "2026-11-03",
+  "FERC:20261103-5019": "2026-11-03",
+  "FERC:20261103-5004": "2026-11-03",
+  "FERC:20261103-5003": "2026-11-03",
+  "FERC:20261103-5002": "2026-11-03",
+  "FERC:20261102-5072": "2026-11-03",
+  "FERC:20261102-5220": "2026-11-03",
+  "FERC:20261102-5147": "2026-11-03",
+  "FERC:20261102-5120": "2026-11-03",
+  "FERC:20261102-5036": "2026-11-03",
+  "FERC:20261102-5034": "2026-11-03",
+  "FERC:20261102-5035": "2026-11-03",
+  "FERC:20261102-5048": "2026-11-03",
+  "FR:2026-22413": "2026-11-03",
+  "FR:2026-22360": "2026-11-03",
+  "FR:2026-22443": "2026-11-03",
+  "SEC:0000065984-26-000325": "2026-11-03",
+  "SEC:0000065984-26-000322": "2026-11-03",
+  "SEC:0001193125-26-442653": "2026-11-03",
+  "SEC:0001587732-26-000050": "2026-11-03",
+  "SEC:0001193125-26-443789": "2026-11-03",
+  "SEC:0001819989-26-000050": "2026-11-03",
+  "AZ:471871": "2026-11-03",
+  "OK:21745867": "2026-11-03",
+  "OK:21745874": "2026-11-03",
+  "NM:DOC-000543589-26": "2026-11-03",
+  "NM:DOC-000543003-26": "2026-11-03",
+  "NM:DOC-000543000-26": "2026-11-03",
+  "NM:DOC-000542802-26": "2026-11-03",
+  "NM:DOC-000542796-26": "2026-11-03",
+  "MODKT:EC-2027-0131": "2026-11-03",
+  "MO:657167": "2026-11-03",
+  "PAGE:ferc_news:https://www.ferc.gov/news-events/news/fraud-alert-scammers-are-impersonating-federal-energy-regulatory-commission-ferc": "2026-11-03",
+  "PAGE:gov_tx:https://gov.texas.gov/news/post/governor-abbott-renews-new-world-screwworm-disaster-proclamation-in-november-2026": "2026-11-03",
+  "PAGE:gov_tx:https://gov.texas.gov/news/post/governor-abbott-amends-renews-fire-weather-conditions-disaster-proclamation-in-november-2026": "2026-11-03",
+  "PAGE:gov_tx:https://gov.texas.gov/news/post/texas-named-top-business-climate-in-america-for-4th-year-in-a-row": "2026-11-03",
+  "PAGE:gov_ga:https://gov.georgia.gov/press-releases/2026-11-02/gov-kemp-dor-announce-distribution-homeowner-tax-relief-grants": "2026-11-03",
+  "PAGE:gov_nc:https://governor.nc.gov/news/press-releases/2026/11/02/state-launches-new-rural-health-transformation-program-dashboard": "2026-11-03",
+  "PAGE:gov_nc:https://governor.nc.gov/news/press-releases/2026/11/01/governor-stein-celebrates-100th-anniversary-north-carolina-state-universitys-greatest-homecoming": "2026-11-03",
+  "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A102626-02": "2026-11-03",
+  "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B102626-02": "2026-11-03",
+  "PAGE:gov_mo:https://governor.mo.gov/press-releases/archive/governor-kehoe-orders-capitol-dome-lighted-orange-kick-second-annual-state": "2026-11-03",
+  "PAGE:gov_sc:https://governor.sc.gov/news/2026-11/gov-henry-mcmaster-lt-gov-pamela-s-evette-and-first-lady-peggy-mcmasters-weekly": "2026-11-03",
+  "RSS:grid_strategies:https://gridstrategiesllc.com/?p=2311": "2026-11-03",
+  "RSS:utilitydive:https://www.utilitydive.com/news/mitsubishi-electric-seeks-to-expand-north-american-grid-foothold/873463/": "2026-11-03",
+  "RSS:utilitydive:https://www.utilitydive.com/news/exelon-energy-storage-new-jersey-earnings/873423/": "2026-11-03",
+  "RSS:utilitydive:https://www.utilitydive.com/spons/utilities-need-to-become-project-developers-are-they-ready/831847/": "2026-11-03",
+  "RSS:utilitydive:https://www.utilitydive.com/spons/rethinking-the-outage-map-for-a-multi-hazard-world/872890/": "2026-11-03",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150400": "2026-11-03",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150393": "2026-11-03",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150152": "2026-11-03",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150410": "2026-11-03",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150395": "2026-11-03",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150258": "2026-11-03",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150139": "2026-11-03",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150239": "2026-11-03",
+  "RSS:canary:https://www.canarymedia.com/articles/batteries/batteries-not-gas-plants-for-data-centers": "2026-11-03",
+  "RSS:canary:https://www.canarymedia.com/articles/climate-justice/trump-cuts-tribes-funds-clean-energy": "2026-11-03",
+  "RSS:canary:https://www.canarymedia.com/articles/geothermal/boise-geothermal-network-affordable-homes": "2026-11-03",
+  "IR:https://www.fortisinc.com/docs/default-source/investor-presentations/q3-2026-earnings---final.pdf": "2026-11-03",
+  "IR:https://www.fortisinc.com/docs/default-source/investor-presentations/q3-2026-pr-mda-fs-for-website.pdf": "2026-11-03",
+  "IR:https://www.fortisinc.com/docs/default-source/investor-presentations/q4-2026-marketing-presentation---final.pdf": "2026-11-03",
+  "IR:https://www.fortisinc.com/docs/default-source/investor-presentations/q4-2026-retail-marketing-presentation---final.pdf": "2026-11-03"
  },
  "sources": {
   "ferc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "edgar": {
@@ -20104,13 +20233,13 @@
     },
     "ciks_date": "2026-11"
    },
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "az_acc": {
@@ -20119,18 +20248,18 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "ga_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "ok_occ": {
@@ -20269,22 +20398,24 @@
      "21741048": "CASE PUD 2026-000046 ENTRY NO. 113 FILED IN OCC COURT CLERK'S OFFICE ON 10/30/2026 - PAGE 1 OF 32 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION ) OF OKLAHOMA GAS AND ELECTRIC ) COMPANY FOR AN ORDER OF THE ) COMMISSION APPROVING NEW EXTRA ) LARGE LOAD TAR",
      "21741047": "CASE PUD 2026-000046 ENTRY NO. 112 FILED IN OCC COURT CLERK'S OFFICE ON 10/30/2026 - PAGE 1 OF 45 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION ) OF OKLAHOMA GAS AND ELECTRIC ) COMPANY FOR AN ORDER OF THE ) COMMISSION APPROVING NEW EXTRA ) LARGE LOAD TAR",
      "21740819": "CASE PUD 2026-000046 ENTRY NO. 111 FILED IN OCC COURT CLERK'S OFFICE ON 10/30/2026 - PAGE 1 OF 18 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION ) OF OKLAHOMA GAS AND ELECTRIC ) COMPANY FOR AN ORDER OF THE ) COMMISSION APPROVING NEW EXTRA ) LARGE LOAD TAR",
-     "21740730": "CASE PUD 2026-000046 ENTRY NO. 110 FILED IN OCC COURT CLERK'S OFFICE ON 10/30/2026 - PAGE 1 OF 17 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF OKLAHOMA GAS AND ELECTRIC COMPANY FOR AN ORDER OF THE COMMISSION APPROVING ITS NEW PUD2026-000046 EXTRA LAR"
+     "21740730": "CASE PUD 2026-000046 ENTRY NO. 110 FILED IN OCC COURT CLERK'S OFFICE ON 10/30/2026 - PAGE 1 OF 17 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF OKLAHOMA GAS AND ELECTRIC COMPANY FOR AN ORDER OF THE COMMISSION APPROVING ITS NEW PUD2026-000046 EXTRA LAR",
+     "21745867": "CASE PUD 2026-000031 ENTRY NO. 158 FILED IN OCC COURT CLERK'S OFFICE ON 11/02/2026 - PAGE 1 OF 4 ",
+     "21745874": "CASE PUD 2026-000046 ENTRY NO. 114 FILED IN OCC COURT CLERK'S OFFICE ON 11/02/2026 - PAGE 1 OF 4 "
     }
    },
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "mo_efis": {
@@ -21012,40 +21143,41 @@
      "EA-2027-0113": "109873",
      "EF-2024-0021": "10206",
      "EC-2027-0117": "110014",
-     "EC-2027-0121": "110097"
+     "EC-2027-0121": "110097",
+     "EC-2027-0131": "110180"
     }
    },
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "al_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-02",
+   "last_ok": "2026-11-03",
    "last_error": null
   },
   "eia": {
@@ -21055,25 +21187,25 @@
     "last_period": "2026-08"
    },
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -22973,13 +23105,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -22995,11 +23127,12 @@
      "2026-10-16",
      "2026-10-23",
      "2026-10-28",
-     "2026-10-30"
+     "2026-10-30",
+     "2026-11-02"
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -23205,7 +23338,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -23226,41 +23359,42 @@
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
    "data": {
     "quarters_done": [
-     "2026Q2"
+     "2026Q2",
+     "2026Q3"
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -23278,7 +23412,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   }
  },
  "baselined": [
@@ -23286,8 +23420,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 45,
- "last_run": "2026-11-02T06:04:40Z",
+ "runs": 46,
+ "last_run": "2026-11-03T12:57:10Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -25772,7 +25906,13 @@
    "TX:59611-6",
    "TX:59611-8"
   ],
-  "attempts": {},
+  "attempts": {
+   "AZ:471871": 1,
+   "FERC:20261102-5277": 1,
+   "FERC:20261102-8000": 1,
+   "FERC:20261102-5214": 1,
+   "FERC:20261030-5357": 1
+  },
   "doc_retries": {
    "TX:58482-36": 1,
    "TX:58482-37": 1,
@@ -26005,19 +26145,23 @@
    "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B102326-01": 4,
    "FERC:20261026-5156": 4,
    "MO:656752": 3,
-   "FERC:20261026-5175": 3,
-   "FERC:20261027-5076": 3,
-   "FERC:20261027-5117": 3,
-   "FERC:20261028-5135": 2,
-   "FERC:20261028-5167": 2,
-   "FERC:20261028-5093": 2,
-   "FERC:20261028-5027": 2
+   "FERC:20261026-5175": 4,
+   "FERC:20261027-5076": 4,
+   "FERC:20261027-5117": 4,
+   "FERC:20261028-5135": 3,
+   "FERC:20261028-5167": 3,
+   "FERC:20261028-5093": 3,
+   "FERC:20261028-5027": 3,
+   "FERC:20261029-5256": 1,
+   "FERC:20261030-5048": 1,
+   "FERC:20261030-5096": 1,
+   "FERC:20261028-5185": 1
   }
  },
  "last_full_run": {
-  "run_id": "2026-11-02-0536",
-  "started": "2026-11-02T05:36:12Z",
-  "finished": "2026-11-02T06:04:40Z",
+  "run_id": "2026-11-03-1220",
+  "started": "2026-11-03T12:20:34Z",
+  "finished": "2026-11-03T12:57:10Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }

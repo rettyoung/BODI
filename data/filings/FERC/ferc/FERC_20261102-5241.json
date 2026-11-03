@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5241",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comments of the Alaska Public Interest Research Group on the Preliminary Permit Application for the DeepGreen Cook Inlet Subsea-Compute and Infrastructure Hub Project under P-15423.",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5241",
+ "entity": "Alaska Public Interest Research Group",
+ "fetch": [
+  {
+   "ferc_file": "5EA52C76-85E4-C3A8-9E6D-A19DF1000000",
+   "name": "2610_ENE_FERC-Cook-Inlet_Comment.docx.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:39:15Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "2610_ENE_FERC-Cook-Inlet_Comment.docx.pdf",
+   "bytes": 171726,
+   "sha256": "778e7ca7ec93bcfa360bb0c5e7a0bc507c70bf487de6437d1b58f9b9a8bcca58",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "October 21, 2026\n\nTo: Federal Energy Regulatory Commission\n\nFrom: Alaska Public Interest Research Group\n\nRE: Docket Number P-15423, DeepGreen Cook Inlet Application for Preliminary Permit\n\nThe Alaska Public Interest Research Group (AKPIRG) submits the following comments on the\npreliminary permit application for the DeepGreen Cook Inlet project. AKPIRG is a statewide,\nnonpartisan 501(c)(3) nonprofit with over 50 years of history advocating for the public interest in\nAlaska. We work to empower Alaskans, strengthen transparent and accountable government,\nand advance policies that best serve the public.\n\nOn February 11, 2026, DeepGreen Cook Inlet SVP LLC, a Delaware-based company created\nthis year, filed a preliminary permit application with the Federal Energy Regulatory Commission\n(FERC). In June, FERC informed DeepGreen that their application had several deficiencies: the\nfailure to include all possible Tribes and Alaska Native Corporations that may be affected by the\nproject; the lack of dimensions and physical composition information for the proposed\nstructures; and the failure to include the mailing address for the City of Kenai in the application.1\nDeepGreen filed a response to FERC just over a week later, remedying the deficiencies outlined\nby FERC. The project detailed in the application would be a 100-megawatt tidal energy high\nperformance computing facility. The project would include up to 350 turbines that would be\nsimultaneously powered and cooled by the tides and water of Cook Inlet.2 The project plans\ninclude connecting to Alaska Energy Authority’s Cook Inlet PowerLink (CIPLink), which is still in\nthe funding stage of the development process with a targeted completion date of 2032.3 The\nproposed project presents several concerns and challenges, including the lack of engagement\nwith potential stakeholders and the public as a whole, and the Applicant’s indication that they\nwould like to explore strategic partnerships with regional Alaska Native Corporations and local\nentities, without including more information and details as to what those partnerships would\nentail.\n\n1\n  FERC Letter to DeepGreen regarding application deficiencies\n2\n  DeepGreen Application Materials\n3\n  CIPLink Project Page; Alaska Energy Authority\n\n                                                        1\n\n               (907) 350-2286 • akpirg.org • PO Box 201416, Anchorage AK 99520\n\fAs a public interest advocacy organization, AKPIRG’s predominant concern with DeepGreen’s\napplication is the lack of communication and coordination with those that would be most directly\nimpacted by this proposal. As FERC noted in their notification of application deficiencies to\nDeepGreen, the Applicant failed to include any Tribes and Alaska Native Corporations that may\nbe affected by the proposed project. In their original application, DeepGreen identified only one\nTribe that could be affected. In FERC’s response, FERC outlines six Tribal organizations that\nshould have been included in the application. We appreciate that DeepGreen outlines these\nadditional organizations that they have updated to include in their application, but the lack of\ninclusion in the initial filing demonstrates that DeepGreen has insufficient knowledge and\nunderstanding of local Tribal organizations and Alaska Native Corporations. This raises\nconcerns for how the Applicant will appropriately and adequately engage with those most\naffected by this project. DeepGreen has proposed a similar project in Eastport, Maine on the\nBay of Fundy, an area known, like Cook Inlet, for its strong tides. In this application as well,\nFERC responded with a notice of deficiency highlighting several Tribes that DeepGreen failed to\nidentify and list in their application. The City of Eastport has engaged with FERC as an\nintervener, with the City Council specifically requesting that DeepGreen does more early\nengagement and consultation with the City and Tribal governments and communities. This\nfurthermore highlights the Applicant’s history of shortcomings when it comes to proactively\nengaging with community members affected by their projects.\n\nAdditionally, as highlighted by FERC in the notification of application deficiencies, DeepGreen\ndid not include the City of Kenai’s contact information in their initial filing, as required by FERC\nguidelines. In their initial statement, DeepGreen lists the location of the proposal as being within\nthe Kenai Peninsula Borough. However, based on the Motion to Intervene filed by the Kenai\nPeninsula Borough on September 11, there has been a lack of engagement between\nDeepGreen and the Borough.4 While the Kenai Peninsula Borough is clear in their motion that\nthey are not yet taking a position on the project, they are filing to be included in the notice\nrequirements for future filings related to DeepGreen’s application. It is concerning that they were\nnot included in DeepGreen’s previous communications.\n\nFurthermore, DeepGreen’s application details plans to connect the project to the CIPLink\nproject, a high-voltage 38-mile subsea cable from the Kenai Peninsula to the Anchorage and\nMatSu regions under the purview of the Alaska Energy Authority (AEA). However, Curtis Thayer,\nCEO of the Alaska Energy Authority, has stated that he found out about the project from the\nFERC filing and that DeepGreen had not previously reached out to AEA.5 This further raises\nconcerns both about DeepGreen’s commitment to working with stakeholders along with the\ntechnological viability of their proposed project - given they have not worked with AEA to best\nunderstand how their project would integrate with AEA’s CIPLink project. Additionally, as\n\n\n4\n Kenai Peninsula Borough's Motion to Intervene\n5\n Underwater data center proposed for Alaska's Cook Inlet by East Coast company, by Bella Biondini for the\nAnchorage Daily News\n\n                                                        2\n\n               (907) 350-2286 • akpirg.org • PO Box 201416, Anchorage AK 99520\n\fmentioned previously, CIPLink is still in the proposal stage and is estimated to take eight years\nto complete - raising questions of the true feasibility of DeepGreen’s plan to connect to CIPLink.\n\nBeyond the lack of engagement at this time, we also have concerns about DeepGreen’s plan to\nexplore “strategic partnerships with regional Native Corporations and local entities.”6 Our\nconcerns are not with these potential partnerships as a whole, as we encourage DeepGreen to\nproactively engage with local organizations, but rather with the nature of what the partnerships\nwould entail. In Alaska, there is a long history of extractive industries coming into rural and\nremote communities throughout the State. In this case, if DeepGreen does want to explore\nstrategic partnerships, we advocate for the use of legally binding agreements to ensure\ndevelopers hold their word in these partnerships. Community benefits agreements are growing\nin use throughout the country because they allow communities to negotiate with developers and\nexecute legally binding contracts to protect community needs and interests. We specifically ask\nthat the Applicant be more detailed and transparent in their future application materials as to\nwhat these strategic partnerships would entail.\n\nTo summarize, AKPIRG’s main concerns are with the initial lack of engagement, coordination,\nand outreach on DeepGreen’s behalf with stakeholders and the general public as a whole. We\nwant to emphasize the importance of developers, especially those that are new to the state,\nappropriately, adequately, and proactively engaging with local Tribal organizations, Alaska\nNative Corporations, and local governments. This project’s application raises more questions\nthan answers, and we encourage DeepGreen to review their processes for both stakeholder\nand public engagement in the future. We also encourage both FERC and DeepGreen to review\nthe numerous comments submitted by concerned members of the public, which highlight a wide\nrange of issues with this proposal.\n\nWe appreciate the opportunity to provide these comments and thank you for your consideration.\n\nSincerely,\n\n\n\n\nGratia Rowell, AKPIRG Energy Policy Analyst\n\n\n\n\nJune Okada, AKPIRG Energy Director\n\n\n6\n    DeepGreen Application Materials, Page 4\n\n                                                3\n\n                 (907) 350-2286 • akpirg.org • PO Box 201416, Anchorage AK 99520\n\f"
+  }
+ ]
+}

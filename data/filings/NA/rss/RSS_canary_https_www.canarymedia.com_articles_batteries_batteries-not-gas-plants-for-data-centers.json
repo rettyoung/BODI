@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/batteries/batteries-not-gas-plants-for-data-centers",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Why batteries, not gas plants, should be data centers' first choice",
+ "filed": "2026-11-03",
+ "url": "https://www.canarymedia.com/articles/batteries/batteries-not-gas-plants-for-data-centers",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "Developers and utilities are building tons of gas generation to power the data center boom. It’s an expansion that could cost them and the rest of us dearly, both in terms of climate change and money that may end up wasted if computing demand fails to materialize.  But there’s a cleaner, cheaper, and faster-to-deploy…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-03T12:53:16Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

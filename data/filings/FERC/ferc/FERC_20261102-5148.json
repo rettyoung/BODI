@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261102-5148",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comments of Alaska Community Action on Toxics in opposition to the Deep Green Cook Inlet Subsea-Compute and Infrastructure Hub Project under P-15423.",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5148",
+ "entity": "Alaska Community Action on Toxics",
+ "fetch": [
+  {
+   "ferc_file": "42ACBCB4-11C1-C212-9F41-A19D6B600000",
+   "name": "Comments on Proposed DeepGreen Data Center 11-2-26.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:35:33Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "IRP",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Comments on Proposed DeepGreen Data Center 11-2-26.pdf",
+   "bytes": 190127,
+   "sha256": "f307c25ada4f38efb375f8163f6618acc418b1d9fef7abbb8e050c8f30818e9d",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                    1225 East International Airport Road, Suite 200\n                               Anchorage, Alaska 99518\n                                   www.akaction.org\n\n                                   November 2, 2026\n\nRe: Docket Number P-15423, the Proposed DeepGreen Cook Inlet Underwater Data\nCenter\n\nI am submitting these comments on behalf of Alaska Community Action on Toxics\n(ACAT), a public interest, nonprofit, science-based environmental health research and\nadvocacy organization. ACAT has members who live, subsist, and recreate in the area\nthat would be directly and negatively affected by this proposed project.\n\nWe oppose the proposed DeepGreen Cook Inlet underwater data center to be sited in the\nForelands region near Nikiski, Alaska. Our concerns include: harm to the endangered\nbeluga whale such as noise interference, habitat fragmentation and disruption; heat\nreleases and warming water temperatures; toxic contamination such as copper and PFAS;\nnegative effects on local communities such as harm to salmon and salmon fisheries in\nCook Inlet, jobs and livelihoods of subsistence and commercial fishermen, as well as\nenergy and cost burdens on rate payers.\n\nData centers require the use of toxic chemicals such as PFAS (per- and polyfluoroalkyl\nsubstances). PFAS are highly toxic and associated with health harms at extremely low\nexposure levels, including reproductive and developmental damage, certain cancers, and\nimmune system impairment. Trifluoroacetic acid, for example, is linked with endocrine\ndisruption of the thyroid and reproductive systems, liver toxicity, neuro- and\ndevelopmental toxicity, and adverse effects to the immune system. There is no health and\nsafety plan to address these public health concerns. Moreover, data centers generate large\nquantities of hazardous waste including e-waste such as discarded microchips, electronic\nequipment, and components. E-waste releases toxic chemicals into the environment and\ndownstream from landfills when disposed. The proposed DeepGreen data center would\nalso release copper. Copper is one of the most toxic elements to aquatic species including\nsalmon, at low levels just above those that are needed for growth and reproduction. It can\naccumulate and cause irreversible harm to some species. Fish exposed to chronic and\nsublethal levels of copper can suffer from impaired neurological and brain function,\n\fimpaired reproduction; impaired predator detection and avoidance, impaired “homing”\nability and migration behaviors; and depressed immune response.\n\nThe proposed siting of the DeepGreen data center in Cook Inlet is reckless and\nirresponsible. The Forelands is a narrow passage between upper and lower Cook Inlet.\nThe underwater data center in this area would disrupt fisheries and aquatic life, safe\npassage of beluga whales, and ship traffic. Cook Inlet water is laden with glacial silt; and\nin addition, experiences some of the largest tidal ranges in the world. Any infrastructure\nexposed to its strong currents would face relentless, year-round abrasion, persistent wear,\nand ongoing operational risks. Its infrastructure, made up of significant moving parts,\nwould require constant, difficult to access, maintenance, creating serious uncertainty\nabout long-term reliability and cost. Cook Inlet experiences frequent earthquakes, which\nwould shake and vibrate sensitive equipment like data center servers, causing damage\nand requiring maintenance.\n\nWe request that FERC deny the permit for the DeepGreen Cook Inlet Underwater Data\nCenter. Thank you for your consideration.\n\nSincerely,\n\nPamela Miller\nExecutive Director and Senior Scientist\n\f"
+  }
+ ]
+}

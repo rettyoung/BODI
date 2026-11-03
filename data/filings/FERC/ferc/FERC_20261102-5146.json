@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5146",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Carl Sanche in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5146",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "16306C23-18E9-CAD0-9E65-A19D65800000",
+   "name": "152114.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:39:17Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152114.txt",
+   "bytes": 385,
+   "sha256": "8df2a43aec8475f7d039902b1e88529ad9c2099442522fafe92b35ef3d050838",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nCarl Sanche, Soldotna, AK.\nI do want to see a data center at that location or in the general area at all. Our utility companies are struggling to supply us with our energy needs as it is. This will only exasperate the situation and raise energy costs on all of us. Don’t screw us at the behest of huge corporations. I strongly urge you to shut this data center proposal down.\r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "SEC:0001193125-26-442653",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Xcel 8-K 8-K items 8.01,9.01",
+ "filed": "2026-11-02",
+ "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526442653/",
+ "entity": "Xcel",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526442653/d132424d8k.htm"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526442653/d132424dex9901.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "cik": "0000072903",
+  "market_participant": false
+ },
+ "collected_at": "2026-11-03T12:43:42Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526442653/d132424d8k.htm",
+   "name": null,
+   "bytes": 27982,
+   "sha256": "21d51773ffc20a97f2f68e714783a7c4461f39474f77a2df27c77a7e8f5532b8",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "8-K\n\nXCEL ENERGY INC\n\nfalse\n\n0000072903\n\n0000072903\n\n2026-11-02\n\n2026-11-02\n\n0000072903\n\nus-gaap:CommonStockMember\n\n2026-11-02\n\n2026-11-02\n\n0000072903\n\nus-gaap:JuniorNotesMember\n\n2026-11-02\n\n2026-11-02\n\nUNITED STATES\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nFORM \n8-K\n\nCURRENT REPORT\n\nPursuant to Section 13 OR 15(d)\n\nof The Securities Exchange Act of 1934\n\nDate of Report (Date of earliest event reported) \nNovember 2, 2026\n\nXcel Energy Inc.\n\n(Exact name of registrant as specified in its charter)\n\nMinnesota\n\n001-3034\n\n41-0448030\n\n(State or other jurisdiction\n\nof incorporation)\n\n(Commission\n\nFile Number)\n\n(IRS Employer\n\nIdentification No.)\n\n414 Nicollet Mall\n\nMinneapolis\n, \nMinnesota\n\n55401\n\n(Address of principal executive offices)\n\n(Zip Code)\n\n(612)\n\n330-5500\n\n(Registrant’s telephone number, including area code)\n\nN/A\n\n(Former name or former address, if changed since last report)\n\nCheck the appropriate box below if the Form \n8-K\n filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n\n☐\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n☐\n\nSoliciting material pursuant to Rule \n14a-12\n under the Exchange Act (17 CFR \n240.14a-12)\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n14d-2(b)\n under the Exchange Act (17 CFR \n240.14d-2(b))\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n13e-4(c)\n under the Exchange Act (17 CFR \n240.13e-4(c))\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\nTitle of each class\n\nTrading\n\nSymbol(s)\n\nName of each exchange\n\non which registered\n\nCommon Stock, $2.50 par value per share\n\nXEL\n\nNasdaq Stock Market LLC\n\n6.25% Junior Subordinated Notes due 2085\n\nXELLL\n\nNasdaq Stock Market LLC\n\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule \n12b-2\n of the Securities Exchange Act of 1934 \n(§240.12b-2\n of this chapter).\n\nEmerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\n\nItem 8.01.\n\nOther Events. \n\nOn November 2, 2026, Xcel Energy Inc., a Minnesota corporation (“Xcel Energy”), issued a press release announcing a proposed offering of $2,000,000,000 in aggregate principal amount of convertible senior notes due 2027 (the “convertible notes”) in a private offering to persons reasonably believed to be qualified institutional buyers pursuant to Rule 144A under the Securities Act of 1933, as amended. In addition, Xcel Energy expects to grant the initial purchasers an option to purchase, within a \n13-day\n period beginning on, and including, the date the convertible notes are first issued, up to an additional $300,000,000 aggregate principal amount of the convertible notes. \n\nA copy of the press release is attached hereto as Exhibit 99.01 and the information set forth therein is incorporated herein by reference. \n\nItem 9.01.\n\nFinancial Statements and Exhibits. \n\n(d) Exhibits \n\nExhibit\n\nDescription\n\n99.01\n\nPress Release dated November 2, 2026 \n\n104\n\nCover Page Interactive Data File (embedded within the Inline XBRL document).\n\nSIGNATURES \n\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. \n\nXcel Energy Inc.\n\n(a Minnesota corporation)\n\nBy:\n\n/s/ Todd A. Wehner\n\nName: Todd A. Wehner\n\nTitle: Vice President, Treasurer\n\nDate: November 2, 2026"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526442653/d132424dex9901.htm",
+   "name": null,
+   "bytes": 6993,
+   "sha256": "898dd819305325b1c2268590ba98b676c8dbf3102b9b43913a2da0fd3408aa60",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "EX-99.01\n\n2\n\nd132424dex9901.htm\n\nEX-99.01\n\nEX-99.01\n\nExhibit 99.01 \n\nXcel Energy Announces Proposed Offering of \n\nConvertible Senior Notes due 2027 \n\nMINNEAPOLIS—(BUSINESS WIRE)—Xcel Energy Inc. (NASDAQ: XEL) (“Xcel Energy”) today announced that it intends to offer, subject to market\nand other conditions, $2,000,000,000 aggregate principal amount of convertible senior notes due 2027 (the “convertible notes”) in a private placement under the Securities Act of 1933, as amended (the “Securities Act”). Xcel\nEnergy also intends to grant the initial purchasers of the convertible notes an option to purchase, for settlement within a \n13-day\n period beginning on, and including, the date on which the convertible notes\nare first issued, up to an additional $300,000,000 aggregate principal amount of the convertible notes. \n\nXcel Energy intends to use the net proceeds from\nthe offering of the convertible notes to repay short-term borrowings, including a portion of its outstanding commercial paper borrowings and a portion of borrowings under its \n364-day\n delayed draw term loan\nagreement, and for other general corporate purposes. \n\nFinal terms of the convertible notes, including the initial conversion price, interest rate and\ncertain other terms of the convertible notes, will be determined at the time of pricing. The convertible notes will be senior unsecured obligations of Xcel Energy and will be convertible at the option of the holders of such convertible notes upon\nsatisfaction of certain conditions and during certain periods. Interest will be payable semiannually in arrears. Xcel Energy will settle conversions of the convertible notes by paying cash up to the aggregate principal amount of the convertible\nnotes to be converted and paying or delivering, as the case may be, cash, shares of its common stock, $2.50 par value per share, or a combination of cash and shares of its common stock, at its election, in respect of the remainder, if any, of its\nconversion obligation in excess of the aggregate principal amount of the convertible notes being converted. \n\nThe offering is being made to persons\nreasonably believed to be qualified institutional buyers pursuant to Rule 144A under the Securities Act. Any offers of the convertible notes will be made only by means of a private offering memorandum. None of the convertible notes or any shares of\nthe common stock issuable upon conversion of the convertible notes have been or are expected to be registered under the Securities Act or any state securities laws and, unless so registered, may not be offered or sold in the United States or to U.S.\npersons except pursuant to an exemption from, or in a transaction not subject to, the registration requirements of the Securities Act and applicable state securities laws. \n\nThis press release does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor will there be any sale of these\nsecurities in any state or jurisdiction in which such offer, solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction. \n\nAbout Xcel Energy \n\nXcel Energy (NASDAQ: XEL) is a leading\nenergy provider, dedicated to serving millions of customers with excellence. We make energy work better for customers, helping them thrive every day. That means always raising the bar — delivering better service and providing more reliable,\nresilient and sustainable energy. \n\nWe are committed to leading the clean energy transition, meeting our customers’ need for more, cleaner\npower, while keeping bills as low as possible. Because the people we serve depend on us to power their lives. \n\nHeadquartered in Minneapolis, we work every\nday to generate and distribute electricity and gas to customers across eight states: Minnesota, Colorado, Wisconsin, Michigan, North Dakota, South Dakota, New Mexico and Texas. \n\nThis press release contains forward-looking statements regarding, among other things, Xcel Energy’s expectations regarding the planned offer and sale of\nthe convertible notes and the contemplated use of proceeds therefrom. Xcel Energy cannot be sure that it will complete the offering or, if it does, on what terms it will complete the offering. Forward-looking statements are based on current beliefs\nand expectations and are subject to inherent risks and uncertainties, including those discussed under the caption “Item 1A. Risk Factors” in Xcel Energy’s Annual Report on Form \n10-K\n for the\nyear ended December 31, 2025 and in Xcel Energy’s other filings with the Securities and Exchange Commission. The forward-looking statements speak only as of the date of release, and Xcel Energy is under no obligation to, and expressly\ndisclaims any such obligation, to update or alter its forward-looking statements, whether as the result of new information, future events or otherwise, except as may be required by law."
+  }
+ ]
+}

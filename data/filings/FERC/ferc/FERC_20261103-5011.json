@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261103-5011",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Bridget Clark in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5011",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "16096C8B-EC40-CB5B-91DB-A19E8DC00000",
+   "name": "152068.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:39Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152068.txt",
+   "bytes": 1215,
+   "sha256": "b997089f8cb85aa912325e1f11acf75381afaad4eb0e952bb0f1b35486eee2f0",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nBridget Clark, Anchor Point, AK.\nI am writing to oppose any permitting or licensing, preliminary or otherwise, for an underwater data center in Cook Inlet, Alaska. This proposal offers no benefit to residents of the Kenai Peninsula and Alaska, only the potential for major ecological damage to a vital economic industry. The fishing industry supports thousands of families on the Kenai Peninsula, and is a major attraction for visitors to this area. In what dystopian reality could an underwater data center replace those jobs and income should there be any kind of malfunction? The proposed location practically guarantees an ecological disaster. Cook Inlet has one of the greatest tidal surges in the world. It is home to FOUR ACTIVE Volcanoes, one of which, Redoubt, erupted in 2009 and was being closely monitored for an eruption in 2025. Cook Inlet is home to the federally protected beluga whales, as well as a world-renown salmon run. People come to the Kenai Peninsula for its natural beauty, fishing, and eco-tourism activities. A Data Center has the potential to destroy millions of dollars of revenue and the livelihoods of thousands of residents of the Kenai Peninsula. It is not worth the risk.\r\n\r\n"
+  }
+ ]
+}

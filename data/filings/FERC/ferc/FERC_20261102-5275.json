@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5275",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Cheri Ruiz in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5275",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "C19E0D72-6728-C323-9B76-A19E16F00000",
+   "name": "152182.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:08Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152182.txt",
+   "bytes": 2934,
+   "sha256": "47e7063db7158be3f9c2671d62c339d582e9aff0ecdd8d95c47c6f39f739f8ab",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nCheri Ruiz, Palmer, AK.\nRE: FERC Docket P-15423-000\r\n\r\nFormal Opposition to the DeepGreen Cook Inlet Underwater Data Center Proposal\r\n\r\nTo the Federal Energy Regulatory Commission:\r\n\r\nI am an Alaska resident writing to express my strong opposition to the proposed DeepGreen underwater data center project in Cook Inlet.\r\n\r\nMy greatest concern is the potential disruption of Cook Inlet’s fragile and interconnected marine ecosystem. This is not simply a question of whether a data center can operate underwater. It is a question of whether we should introduce an experimental industrial operation into an environmentally sensitive habitat without fully understanding the long-term consequences.\r\n\r\nCook Inlet supports endangered beluga whales, salmon, marine mammals, fish, invertebrates, and countless organisms that contribute to the health and balance of the ecosystem. These species do not exist independently. They rely upon one another through complex food webs and environmental relationships.\r\n\r\nI am particularly concerned about the potential cumulative effects of continuous underwater noise, mechanical vibrations, thermal discharge, and disturbances to the seafloor.\r\n\r\nEven relatively localized environmental changes could have consequences beyond the immediate project area. Changes affecting smaller organisms, prey species, or migration patterns could influence the broader ecosystem.\r\n\r\nWhat concerns me most is what we do not yet know.\r\n\r\nHave comprehensive, independent studies established how continuous underwater data center operations could affect marine life over years or decades? Have the potential combined effects of thermal discharge, noise, vibration, and existing industrial activities been adequately evaluated?\r\n\r\nWhat safeguards would protect this ecosystem if unforeseen environmental damage occurs?\r\n\r\nThese are not minor questions. They go directly to the long-term health of Cook Inlet and the responsibility we have to protect Alaska’s natural resources.\r\n\r\nI support responsible economic development and technological advancement. However, Cook Inlet should not become an experimental testing ground where environmental consequences are discovered only after damage has occurred.\r\n\r\nI respectfully request that FERC deny this preliminary permit application. At a minimum, I urge the Commission to require comprehensive, independent scientific evaluation of ecosystem-wide impacts, including cumulative and long-term effects, before considering any further authorization.\r\n\r\nAlaska’s marine ecosystems are irreplaceable. Once a delicate ecological balance is disrupted, restoration may be difficult, expensive, or impossible.\r\n\r\nThe burden of proving that this project can operate without unacceptable environmental harm must rest with the developer—not with the people of Alaska or the marine life that cannot speak for itself.\r\n\r\nRespectfully,\r\n\r\nCheri M. Ruiz\r\n\r\nPalmer, Alaska\r\n\r\n"
+  }
+ ]
+}

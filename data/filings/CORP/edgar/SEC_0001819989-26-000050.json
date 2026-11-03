@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001819989-26-000050",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "Cipher Digital Inc.  (CIFR)  (CIK 0001819989) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-11-02",
+ "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/",
+ "entity": "Cipher Digital Inc.  (CIFR)  (CIK 0001819989)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-03T12:43:42Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261102-5147",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Shirley Evans in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5147",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "79B458D8-851C-C88A-9E05-A19D66F00000",
+   "name": "152084.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:40:17Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "collateral",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152084.txt",
+   "bytes": 1017,
+   "sha256": "4221da72b7bcafbb1c1c69ed90eea047b8b0335e04a58dd7e27dd21aa70f98e2",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nShirley Evans, Homer, AK.\nI live in Homer, AK on the shores of Kachemak Bay off of Cook Inlet.  I'm very concerned about the ramifications of a DeepGreen Cook Inlet proposed data center.  Specifically, I'm VERY concerned about the impact on marine life from the noise (a known problem for marine mammals, generated heat (changing sea water temperatures that is known to be harmful to many species) and release of copper as a toxic mineral.  These factors have scientifically proven negative effects on fisheries, which are a major source of both food and income for my community.  Additionally, we know there would be collateral damages to other species.  To my mind, this proposal would damage south peninsula livelihoods on a number of human levels, starting with an enormous economic downturn due to proven harmful effects on fisheries and associated tourism. These are critical industries, sustaining us for generations.  Please don't allow this DeepGreen project to go forward.\r\nSincerely,\r\nShirley Evans\r\n\r\n"
+  }
+ ]
+}

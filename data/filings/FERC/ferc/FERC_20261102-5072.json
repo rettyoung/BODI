@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5072",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15410",
+ "title": "(doc-less) Motion to Intervene of Sarah E. Templeton under P-15410.",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5072",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "FE703E09-ACD5-C1BD-920E-A19CEA400000",
+   "name": "1808819_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-01"
+ },
+ "collected_at": "2026-11-03T12:40:11Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1808819_Interv.txt",
+   "bytes": 1287,
+   "sha256": "4fdf932e2fec224a585a7c6268512a473d6857a7ea385e3d7afbf6ccc10c2cbf",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Sarah E Templeton under P-15410-000.\r\n\r\nSubmission Date:        11/1/2026 1:25:49 PM\r\n\r\nFiled Date:             11/2/2026 8:30:00 AM\r\n\r\nDockets\r\n-------\r\nP-15410-000          Western Maine Energy Storage, LLC submits Application for Preliminary Permit for the Western Maine Energy Storage Project under P-15410.\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nIndividual                               Sarahtempleton3131@gmail.com                                                     \r\n\r\nBasis for Intervening:\r\nTo whom it may concern:\r\nI am writing to you to stop the permit process for Deepgreen Cook Inlet spv llc. The implications of the data center would be grossly underestimated and would be detrimental to the endangered Cook Inlet beluga whales, all the species of the Salmon population just to name a couple. \r\nAs a member of the community I feel very strongly that not one individual in this community would support this! Please protect our fragile ecosystem.\r\nSincerely,\r\nSarah Templeton \r\n"
+  }
+ ]
+}

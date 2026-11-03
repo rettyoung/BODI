@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5251",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Sara Thomas in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5251",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "43F7520C-5966-C230-88DE-A19DFA700000",
+   "name": "152161.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:20Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152161.txt",
+   "bytes": 2520,
+   "sha256": "41a185a44e75d9055ddd99a844213332b84d585fab3a2f28d98ad5ce75d98a5e",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nSara Thomas, Anchorage, AK.\nI am writing today regarding docket number P-15423-000 on the proposed project Deep Green LLC. As a resident of Anchorage, Alaska, and a mother of 6 children, I urge those making this decision to not allow this underwater hyper scale data center to move forward in the Cook Inlet. \r\n\r\nThe rush for hyper scale data centers is being promoted by billionaire financiers who are feeding into the wanton, irresponsible growth of generative AI. The CEOs and other profit-focused champions of this project have made it clear that this technology poses a grave, real threat to the long-term future of our one habitable planet. The use of generative AI in warfare is a grave mistake for humanity. \r\n\r\nIn contrast, those who depend financially, physically, spiritually, and culturally on the health of this habitat have made it clear— we do not want data centers in our beloved inlet. We have too much to lose by this unprecedented large-scale public experiment on our waterways. The heat, sound, and EMF pollution is a big concern to wildlife we love and which sustains our fishery and tourism industries, especially the vulnerable population of endangered Cook Inlet beluga. \r\n\r\nEven with the most current technology, the risk of contamination will be exceedingly high given the use of heavy metals and chemicals like PFAS for cooling. Computers suspended underwater, surrounded by saltwater, will require exorbitant costs to maintain and will result in mountains of electronic waste throughout the data center’s life cycle. \r\n\r\nThis data center rush in competition with China is reminiscent of the Cold War. We should learn by looking to the mounds and mounds of industrial waste from that timeframe across Alaska and the rest of the world, including in our oceans. The U.S. government has been far from effective at cleaning up and disposing Cold War industrial waste, and clearly, they should not be entertaining brand-new start ups engaging in this new Heat War which will deplete and contaminate the last of the water that we need to survive.\r\n\r\nGrowing up in an Inupiaq community, and throughout my career in environmental justice, I have heard Alaska Native Elders warn against impacting the health of the ocean which we all rely on for life. Similarly, we should not be disturbing the natural currents of the sea so that tech start ups and warmongers can get richer and even more out of touch with humanity. Please deny this permit to DeepGreen Cook Inlet SVC LLC at this time. \r\n\r\n\r\n"
+  }
+ ]
+}

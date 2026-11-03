@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5208",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comments of the Alaska Center in opposition to the Preliminary Permit Application for the DeepGreen Cook Inlet Subsea-Compute and Infrastructure Hub Project under P-15423.",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5208",
+ "entity": "The Alaska Center",
+ "fetch": [
+  {
+   "ferc_file": "984442A7-BFBA-C164-9E39-A19DCFC00000",
+   "name": "FERC Cook Inlet Comment.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:37:30Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "FERC Cook Inlet Comment.pdf",
+   "bytes": 104926,
+   "sha256": "ad0ecbf7ba05d3ffd89202ceb826a20ea2c819819fdfadacda56a4edb24d6cce",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "​ O:​\nT                ​ ederal Energy Regulatory Commission​\n                 F\n​FROM:​          ​T​he Alaska Center​\n ​DATE:​          ​November 2, 2026​\n  ​RE:​            ​P-15423-000​\n\n​ he​ ​Alaska​ ​Center​ ​is​ ​a​ ​nonprofit​ ​organization​ ​working​ ​to​​engage,​​empower,​​and​​elect​\nT\n​Alaskans​ ​to​ ​stand​ ​up​ ​for​ ​our​ ​clean​ ​air​ ​and​ ​water,​ ​healthy​ ​communities,​ ​and​ ​a​ ​strong​\n ​democracy.​ ​On​ ​behalf​ ​of​ ​our​ ​members​ ​and​ ​supporters,​ ​we​ ​submit​ ​the​ ​following​\n  ​comments.​\n\n​ e​ ​strongly​ ​urge​ ​the​ ​Federal​ ​Energy​ ​Regulatory​ ​Commission​ ​(FERC)​ ​not​ ​to​\nW\n​approve​ ​DeepGreen’s​ ​initial​ ​permit​ ​to​ ​explore​ ​building​ ​a​ ​sub-sea​ ​data​ ​center​ ​in​\n ​Cook​ ​Inlet.​ ​The​ ​potential​ ​to​ ​irrevocably​ ​harm​ ​some​ ​of​ ​Alaska’s​ ​most​​sensitive​​waters​\n  ​and surrounding communities is simply not worth risking for this novel buildout.​\n\n​ eepGreen is proposing to test the new concept of a large-scale, sub-sea data center in​\nD\n​some of the harshest waters it could select. Cook Inlet’s waters are as ecologically​\n ​important as they are turbulent. Alaskans are very aware that DeepGreen’s data center​\n  ​proposal is far from logistically feasible. The likelihood of breakdown, and need for​\n   ​constant maintenance resulting from strong currents, silty waters, and extreme​\n    ​temperatures makes this choice of location highly perplexing.​\n\n​ he technology proposed for this data center would have very real consequences for​\nT\n​the Cook Inlet’s marine life and local fisheries. First and foremost - a subsea data center​\n ​will dispel waste heat into a very cold ocean. A 100 MW data center could release about​\n  ​876 gigawatt-hours of thermal energy per year if it runs constantly.​\n\n​ aste heat is not directed into a vacuum, it has very real consequences for the​\nW\n​temperature of the water in the area in which it is expelled. The potential for a​\n ​warm-water plume could affect the behavior and wellbeing of sea life, including notable​\n  ​salmon runs in the area.​\n\n​ lans for the cooling system, according to DeepGreen, also include copper-nickel​\nP\n​cooling fins. Given the high currents native to the area, and high levels of silt, sediment,​\n ​and likely abrasion we need to know how much copper is at risk of entering the​\n  ​environment. Even a small amount of copper is deadly to salmon, and could collapse a​\n   ​hallmark industry within Alaska’s economy. Many communities, along with native​\n\fs​ pecies such as bears, wolverines, and wolves count on Cook Inlet salmon as a staple​\n ​food source.​\n\n​ he proposed data center location is also home to Cook Inlet Belugas - one of the most​\nT\n​endangered species of whale in the world. Cook Inlet Beluga’s must pass through the​\n ​proposed project groups to access feeding and calving grounds. Industrial noise​\n  ​pollution already threatens the belugas ability to communicate. Therefore, it is​\n   ​paramount that FERC understand to what degree a subsea data center would create​\n    ​noise, and how this can be remedied.​\n\nI​n summary, the proposal before FERC is speculative, with high risks and unclear​\n ​benefits to local residents. Analysis shows that this proposal came from an out of state​\n  ​company with little knowledge of the region. We strongly suggest FERC deny an initial​\n   ​permit to DeepGreen on lack of merit and a failure to understand environmental​\n    ​conditions.​\n\n​ hank​ ​you​ ​for​ ​your​ ​attention​ ​on​ ​these​ ​critically​ ​important​​issues,​​and​​how​​they​​impact​\nT\n​Alaska. We look forward to receiving a detailed response to the above.​\n\nJ​ ennifer Hyde​\n ​Federal Engagement Coordinator​\n  ​The Alaska Center​\n   ​jennifer@akcenter.org​\n\f"
+  }
+ ]
+}

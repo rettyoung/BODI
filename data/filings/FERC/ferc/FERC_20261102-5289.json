@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5289",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Kevin Hansen in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5289",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "313EA31A-A48C-CE71-9F13-A19E23000000",
+   "name": "152180.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:39:20Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152180.txt",
+   "bytes": 1500,
+   "sha256": "0153dac883804c599e1d5bf7411a4a4c94929b7c65052d2db868023e5c5f53e9",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nKevin Hansen, EAGLE RIVER, AK.\nAn underwater data center? In salt water? With the one of the highest tidal variations in the country?  And in an area with high seism city? That has to be the dumbest idea since Mike Gravel’s domed Alaskan city back in the late 1970‘s. Or Wally Hickel‘s underwater .pipeline from Alaska to California.\r\nHave they addressed the difficulties of building something underwater, with rapid tidal currents and an unknown bottom composition (glacial silt mixed with glacial erratic - random big boulders for those not familiar with the term)?  How about the corrosive effects of salt water. Have they thought about how to access the equipment for maintenance? All it would take is a small leak to destroy every  piece of equipment in the facility. If it’s going to be sealed against water intrusion, have they thought about buoyancy and how to keep it from floating away? Even buried fuel tanks on land have to be anchored to prevent them from floating out of the ground. How about protection from ice floes in the winter.\r\nSure, it might take care of cooling requirements, but it would be much less expensive to build it on shore and pipe sea water in for cooling, but they’d still need to address the corrosiveness of salt water.\r\nFinancial backers of this project must have money to burn, as there's no way it would pencil out as remotely feasible.\r\nWhoever dreamed up the idea of an underwater data center must have been smoking some pretty strong weed.\r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "id": "FERCFORM:382186",
+ "jur": "FERC",
+ "source": "ferc_forms",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Arizona Public Service Company — FERC Form 1 2025 Q4 (Accepted)",
+ "filed": "2026-11-02",
+ "url": "https://ecollection.ferc.gov/api/DownloadDocument/484908/3?filename=382186-C001436-Form_1-2025-Q4_382186.html",
+ "entity": "Arizona Public Service Company",
+ "fetch": [],
+ "meta": {
+  "form": "Form 1",
+  "year": "2025",
+  "period": "Q4",
+  "cid": "C001436",
+  "filing_id": "382186"
+ },
+ "collected_at": "2026-11-03T12:32:36Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

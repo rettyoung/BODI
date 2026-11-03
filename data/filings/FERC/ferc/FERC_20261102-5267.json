@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261102-5267",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of LeShine Herfindahl in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5267",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "EDD84942-FCED-C80D-9E54-A19E0EA00000",
+   "name": "152177.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:38:11Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "crypto",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152177.txt",
+   "bytes": 3869,
+   "sha256": "3c0e99eef99b8314cbb65e2a00ecf40eaa7d1ebd835b869a02a9ba027800c54e",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nLeShine Herfindahl, Girdwoo, AK.\nNovember 1, 2026\r\n\r\n\r\nTo Whom It May Concern:\r\n\r\nThis is in regard to docket number P-15423-000, the proposed data center in the Cook Inlet Region, and the call to implement a moratorium on the approval and construction of new data centers. The rapid expansion of data centers across the United States, driven by the generative artificial intelligence (AI) and crypto boom, presents one of the biggest environmental and social threats of our generation. This expansion is rapidly increasing energy demand, driving more fossil fuel pollution, straining water resources, and raising electricity prices across the country. All this compounds the significant and concerning impacts AI is having on society, including lost jobs, social instability, and economic concentration.\r\n\r\nThe harms of data center growth are increasingly well-established, and they are massive. They include:\r\n\r\n•\tEnormous electricity consumption: A tripling of data centers in the next five years would\r\nresult in data centers consuming as much electricity as about 30 million households. Electricity rates have \r\nincreased 21.3 percent from 2021 to 2024 – drastically outpacing inflation – driven largely by the rapid build-out of data centers, something that could continue to escalate over time.\r\n•\tUnsustainable water consumption: A tripling of data centers would require as much water as\r\nis used by 18.5 million households – simply for cooling the computer servers.\r\n•\tContribution to climate change: 56 percent of the electricity used to power data centers is sourced from fossil fuels. Large data centers raise surrounding land surface temperatures by an average of 3.6°F. In extreme cases or dense clusters, local temperatures around facilities can rise by up to 16°F. These thermal plumes and warm air exhausts do not stay confined to the building; measurable temperature increases can stretch up to 6 miles away, impacting nearby neighborhoods and increasing local air-conditioning demand, as well as the ocean environment. Changes in water temperature can impact forage fish, like salmon, which depend on cold water for egg development and metabolism, indirectly starving larger predators.  \r\n•\tJob losses: According to an AI executive, AI could negate half of all entry-level white-collar jobs in the next five years and spike overall unemployment by up to 20 percent. \r\n•\tContinuous low-frequency noise from turbines and facility operations can disrupt the echolocation and social communication of marine mammals. Especially our Cook Inlet Beluga whales, of which only about 300 remain. Submerged pods and turbine arrays alter seafloor habitats (occupying tens to over a thousand acres depending on the project scale). Construction, maintenance, and monitoring bring increased boat traffic, collision risks, and potential contaminant leaks.\r\nThe rapid, largely unregulated rise of data centers to fuel the AI and crypto frenzy is disrupting communities across the country and threatening Americans’ economic, environmental, climate, and water security. I urge you to join our call for a national moratorium on new data centers until adequate regulations can be enacted to fully protect our communities, our families, our environment\r\nand our health from the runaway damage this industry is already inflicting.\r\n\r\nWhat happens when we have another large-scale earthquake and the data centers are damaged and pollute our waters that we rely heavily on for subsistence?  Which legislator is going to raise their hand and own the destruction that will affect our future generations?\r\nI implore you to delay any consideration for ALL DATA CENTERS in the Cook Inlet or within Alaska until further research studies are performed and we are guaranteed we can protect our future.\r\n\r\nSincerely,\r\nLeShine Herfindahl\r\nGirdwood, Alaska\r\n\r\n\r\n"
+  }
+ ]
+}

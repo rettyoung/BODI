@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261103-5004",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Desiree Cairnduff in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5004",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "29398E62-888E-C992-9005-A19E56600000",
+   "name": "152191.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:40:03Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152191.txt",
+   "bytes": 722,
+   "sha256": "892277fa397b2d5260478ec1aee9db69ee530080e76c5ee208d5fdbe711de522",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nDesiree Cairnduff, Eagle River, AK.\nAs an Alaskan, I strongly oppose the proposed DeepGreen data center in Cook Inlet (Docket P-15423-000). We cannot stand by while a project with potentially serious environmental consequences threatens the waters, wildlife, and fisheries that are so important to our state.\r\n\r\nCook Inlet is home to endangered beluga whales and vital salmon populations. The potential impacts of waste heat, underwater noise, and habitat disruption are deeply concerning. These ecosystems are part of what makes Alaska special, and protecting them should be a priority.\r\n\r\nI urge FERC to reject this proposal. Alaska's natural resources and the communities that depend on them deserve protection.\r\n\r\n"
+  }
+ ]
+}

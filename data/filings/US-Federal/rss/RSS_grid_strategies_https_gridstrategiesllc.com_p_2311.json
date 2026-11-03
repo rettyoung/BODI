@@ -1,0 +1,46 @@
+{
+ "id": "RSS:grid_strategies:https://gridstrategiesllc.com/?p=2311",
+ "jur": "US-Federal",
+ "source": "rss:grid_strategies",
+ "kind": "news",
+ "docket": null,
+ "title": "Grid Funding from Data Centers in the Bipartisan American Affordability and Jobs Act (BAAJA)",
+ "filed": "2026-11-02",
+ "url": "https://gridstrategiesllc.com/grid-funding-from-data-centers-in-baaja/",
+ "entity": null,
+ "fetch": [
+  {
+   "url": "https://gridstrategiesllc.com/grid-funding-from-data-centers-in-baaja/"
+  }
+ ],
+ "meta": {
+  "bkey": "rss:grid_strategies",
+  "rto": null,
+  "summary": " With the rapid growth in data centers, federal policymakers have been focused on how to make sure that adding large data centers to the electric system does not increase electricity bills for other customers. Recently, a bipartisan group of senators introduced an energy permitting reform bill, the Bipartisan American Affordability and Jobs Act (BAAJA), which [&#8230;] \n The post  Grid Funding from Data Centers in the Bipartisan American Affordability and Jobs Act (BAAJA)  appeared first on  Grid Strategies . ",
+  "feed": "grid_strategies",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-03T12:53:16Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "ESA",
+  "data center",
+  "ratepayer protection",
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://gridstrategiesllc.com/grid-funding-from-data-centers-in-baaja/",
+   "name": null,
+   "bytes": 406334,
+   "sha256": "e55ecd633e17e31ec573d29025404bd2e6dd576056ba51034f8c338686e10e77",
+   "ctype": "text/html; charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Grid Funding from Data Centers in the Bipartisan American Affordability and Jobs Act\n\nOur Work\n\nReports\n\nOur Team\n\nIn The News\n\nCareers\n\nContact Us\n\nGrid Funding from Data Centers in the Bipartisan American Affordability and Jobs Act (BAAJA)\n\nMichael Goggin, Zach Zimmerman, Rob Gramlich, Gretchen Kershaw\n\nNovember 2, 2026\n\nConsumer Benefits\n, \nTransmission\n\nWith the rapid growth in data centers, federal policymakers have been focused on how to make sure that adding large data centers to the electric system does not increase electricity bills for other customers. Recently, a bipartisan group of senators introduced an energy permitting reform bill, the \nBipartisan American Affordability and Jobs Act\n (BAAJA), which would be a major shift in the current paradigm for transmission pricing policies.\n\nBAAJA would require electric utilities to charge data centers more for transmission service and use those extra costs to reduce transmission charges to other customers. BAAJA also offers additional policies through its “Ratepayer Protection Floor” that could be implemented by states to ensure further ratepayer protection.\n\nUnder BAAJA ratepayer protection provisions,\n\nthis new white paper from Grid Strategies estimates\n\n$55 billion in transmission costs could be collected from data centers over ten years due to changes to federal transmission pricing policy\n—that number represents an additional $35 billion over what data centers may otherwise pay under current policy.\n\nDownload the white paper below. To learn more about this topic, also check out Grid Strategies’ \nFederal Transmission Pricing Policy\n report series. \nThis white paper was developed with support from Arnold Ventures. \n\nDownload\n\nGrid Strategies LLC is a power sector consulting firm helping clients understand the electric power industry, energy markets, and policy. Drawing on extensive experience in state regulation, transmission planning, and wholesale markets, Grid Strategies analyzes and helps advance grid integration solutions.\n\nBased in the Washington DC area, the firm is actively engaged with the Federal Energy Regulatory Commission, Department of Energy, state Public Utility Commissions, Regional Transmission Organizations, the North American Electric Reliability Corporation, Congressional committees, the administration, and various stakeholders.\n\nContact Us\n\nSign Up for Grid Strategies Updates\n\n© \n Grid Strategies • \nPrivacy Policy\n • Website designed and created by \nRed Chalk Studios"
+  }
+ ]
+}

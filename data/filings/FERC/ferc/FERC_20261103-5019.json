@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261103-5019",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Aubrey Morrison in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5019",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "87193800-8148-CB09-9CB4-A19F23A00000",
+   "name": "152198.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:39:59Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152198.txt",
+   "bytes": 108,
+   "sha256": "704fa6aa91facb7325df30ff178c77c50753ab0bf91a224942a16e6baefe2417",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nAubrey Morrison, Eagle River, AK.\nI am opposed to the proposed DeepGreen data center in Cook Inlet. \r\n\r\n"
+  }
+ ]
+}

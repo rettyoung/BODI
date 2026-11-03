@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5220",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Sharon Whytal in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/2/2026\n",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5220",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "F28A11E3-66FE-CB2F-9CA2-A19DDDD00000",
+   "name": "151986.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-03T12:40:14Z",
+ "run_id": "2026-11-03-1220",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "151986.txt",
+   "bytes": 1693,
+   "sha256": "d6f723561c1367b2e4e0e682aa6af80888580c9ca2bf6b68af98fc110e1ab1f2",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nSharon Whytal, Homer, AK.\nDear Reviewers, Thank you for the opportunity to comment here. I am deeply concerned as I educate myself about the specifics of the DeepGreen proposal, which is not \"green\" at all.  There are no deep water centers in operation at this scale. Alaska's pristine waters and marine ecosystem that our entire state depends upon (economically, culturally, biologically not to mention quality of life) is at stake.  Their chief selling point really is that the massive amounts of waste heat can be cooled by the surrounding seawater, reducing\r\nor eliminating the need for cooling equipment. However, in truth hat waste heat would be absorbed into the ecosystem, risking harm to the entire marine food web- from plankton to fish, to mammals like the endangered Cook Inlet Beluga.\r\nDeepGreen proposes to power the 100 MW data center with more than 300 tidal generators. THis is not acceptable! \r\n It has not shared any plan for where it would source power during daily slack tides, when the DeepGreen project could draw 100\r\nMW of power from the grid, twice the average peak demand for the entire Kenai Peninsula. Our small resident base cannot foot the bill of all the possible risk as they experiment with this size project. \r\nThe proposed\r\ninfrastructure includes 66 server hives with exterior copper-nickel cooling fins, raising serious questions about\r\nerosion and heavy metal contamination.\r\nOTher potential impacts include underwater noise that can impact marine mammal radar, warming water temperature - our salmon are already impacted by this. Please say a definite :no\" right now to this proposal, and keep me posted on the  outcome. Sincerely, Sharon Whytal\r\n\r\n"
+  }
+ ]
+}
