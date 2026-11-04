@@ -1,0 +1,40 @@
+{
+ "id": "SEC:0001666175-26-000044",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Fortis 6-K 6-K items",
+ "filed": "2026-11-03",
+ "url": "https://www.sec.gov/Archives/edgar/data/1666175/000166617526000044/",
+ "entity": "Fortis",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1666175/000166617526000044/form6k-q32026investorprese.htm"
+  }
+ ],
+ "meta": {
+  "form": "6-K",
+  "items": [],
+  "cik": "0001666175",
+  "market_participant": false
+ },
+ "collected_at": "2026-11-04T12:49:22Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1666175/000166617526000044/form6k-q32026investorprese.htm",
+   "name": null,
+   "bytes": 18887,
+   "sha256": "02f44ca5f2e5003efc464ca384eee06ec89425d479d5760206cb26865df4a4d7",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "6-K\n\n1\n\nform6k-q32026investorprese.htm\n\n6-K\n\nDocument\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nFORM 6-K \nREPORT OF FOREIGN PRIVATE ISSUER \nPURSUANT TO RULE 13a-16 OR 15d-16\nOF THE SECURITIES EXCHANGE ACT OF 1934\nFor the month of November, 2026\nCommission File Number: 001-37915\nFortis Inc. \nFortis Place, Suite 1100\n5 Springdale Street\nSt. John's, Newfoundland and Labrador\nCanada, A1E 0E4 \n(Address of Principal Executive Office)\nIndicate by check mark whether the registrant files or will file annual reports under cover of Form 20-F or Form 40F: Form 20-F \no\n Form 40-F \nþ\n\nEXHIBITS\nExhibit\nDescription\n99.1\nFortis Inc. Investor Presentation: Q\n3\n 2026 Earnings \nand New Five-Year Capital Outlook \nConference Call, dated \nNovember\n 3\n, 2026\nSIGNATURES\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized. \nFortis Inc.\n(Registrant)\nDate: November 3, 2026\n/s/ James R. Reid\nBy: \nJames R. Reid\nTitle:\nExecutive Vice President, Sustainability and Chief Legal Officer"
+  }
+ ]
+}

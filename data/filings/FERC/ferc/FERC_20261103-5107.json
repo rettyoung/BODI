@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261103-5107",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Alecia Smith in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/3/2026\n",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5107",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "02CE71CB-94A9-C2CA-9D00-A1A2C5100000",
+   "name": "152254.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-03"
+ },
+ "collected_at": "2026-11-04T12:45:25Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152254.txt",
+   "bytes": 506,
+   "sha256": "453c0eeceedc2c5dcd59e5013fdb98b598a540a1883447506daf08aee6db18aa",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nAlecia Smith, Wasilla, AK.\nI do not agree with putting a Data Center in the Cook Inlet. As someone who lives on the inlet, fishes from it, and enjoys wildlife that lives there. I fully do not support the effect it will have on the enviornment and people around the inlet. Not to mention the Beluga whale and salmon population being extremely critical. This should be put up to a vote or let Alaskans have a say in this. I refuse this entirely. I want no data center in my inlet. Go somewhere else. \r\n\r\n"
+  }
+ ]
+}

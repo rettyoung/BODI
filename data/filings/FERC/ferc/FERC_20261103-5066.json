@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261103-5066",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Adriane Gautreaux in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/3/2026\n",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5066",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "0EAB2D39-EA50-C335-93DA-A1A22BE00000",
+   "name": "152252.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-03"
+ },
+ "collected_at": "2026-11-04T12:45:19Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152252.txt",
+   "bytes": 2971,
+   "sha256": "760928b159cae45db3f8067c053ec2f8d3f1d47bb0d2029bedb84a7385d7a4b9",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nAdriane Gautreaux, New Orleans, LA.\nRe: Opposition to DeepGreen Cook Inlet Project — Docket No. P-15423-000\r\n\r\nDear Federal Energy Regulatory Commission,\r\n\r\nI am writing to express my strong opposition to DeepGreen Cook Inlet SPV, LLC’s proposed underwater data center and tidal energy project in Alaska’s Cook Inlet.\r\n\r\nThe Cook Inlet beluga whale population is critically vulnerable, with only approximately 331 individuals remaining. These whales are already struggling to survive in an environment affected by shipping, industrial activity, underwater noise, and habitat degradation. Introducing an industrial project of this magnitude into their critical habitat poses additional risks that should not be taken lightly.\r\n\r\nBeluga whales depend heavily on echolocation and underwater sound to navigate, communicate, locate prey, and maintain social bonds. The construction and operation of hundreds of underwater turbines, along with increased vessel traffic and industrial activity, could interfere with these essential behaviors. Even disturbances that do not directly injure or kill whales can have serious consequences for a population already at risk of extinction.\r\n\r\nI am also deeply concerned about the potential environmental effects of placing 66 operating data center pods underwater. These facilities generate waste heat, and the potential consequences for water temperature, salmon migration, prey availability, and the surrounding marine ecosystem must be thoroughly evaluated. Without comprehensive thermal modeling and independent environmental assessments, it is impossible to responsibly conclude that these impacts will be negligible.\r\n\r\nFurthermore, the cumulative environmental impacts of this project must be considered alongside the existing pressures on Cook Inlet’s wildlife. Evaluating each potential disturbance in isolation fails to account for the combined burden on an already fragile ecosystem.\r\n\r\nI recognize the importance of technological advancement and renewable energy development. However, innovation should not come at the expense of endangered species or irreplaceable natural habitats. The benefits of powering an artificial intelligence data center do not justify exposing one of the world’s most vulnerable beluga whale populations to poorly understood environmental risks.\r\n\r\nI urge FERC to reject DeepGreen’s preliminary permit application as proposed and require rigorous, independent scientific evaluation of its potential impacts, including underwater noise, thermal pollution, effects on salmon and other prey species, and compliance with the Endangered Species Act and Marine Mammal Protection Act, before considering further authorization.\r\n\r\nProtecting endangered species must take precedence over speculative industrial development. Once a population becomes extinct, no technological advancement can bring it back.\r\n\r\nThank you for considering my comments.\r\n\r\nSincerely,\r\n\r\nA Concerned Citizen\r\n\r\n"
+  }
+ ]
+}

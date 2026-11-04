@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0000728391-26-000050",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "IPALCO ENTERPRISES, INC.  (CIK 0000728391) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-11-03",
+ "url": "https://www.sec.gov/Archives/edgar/data/728391/000072839126000050/",
+ "entity": "IPALCO ENTERPRISES, INC.  (CIK 0000728391)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-04T12:49:37Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

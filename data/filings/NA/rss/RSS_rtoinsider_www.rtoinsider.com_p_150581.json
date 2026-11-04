@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150581",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Florida Regulators Deal Setback to Duke Energy on Large Load Tariff",
+ "filed": "2026-11-04",
+ "url": "//www.rtoinsider.com/150581-florida-regulators-deal-setback-duke-energy-large-load-tariff/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The Florida Public Service Commission has unanimously denied Duke Energy Florida’s proposed large load tariff in a first test of a state law intended to shield state residents from the cost of meeting hypescale data centers’ electricity demands. \n The post  Florida Regulators Deal Setback to Duke Energy on Large Load Tariff  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-04T12:58:12Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

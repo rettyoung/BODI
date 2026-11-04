@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150291",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Data Center Devs Struggle with Conflicting Desires: Speed to Power and ‘Five 9s’",
+ "filed": "2026-11-04",
+ "url": "//www.rtoinsider.com/150291-with-rapid-advances-in-ai-future-data-center-load-profile-uncertain/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Data center developers and financiers express the desire for near constant availability from their facilities using terms that may not be as well known to the electricity industry: “three” or “five 9s.” \n The post  Data Center Devs Struggle with Conflicting Desires: Speed to Power and ‘Five 9s’  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-04T12:58:12Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

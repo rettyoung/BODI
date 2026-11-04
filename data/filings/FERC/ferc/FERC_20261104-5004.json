@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261104-5004",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Staci Gillilan in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/3/2026\n",
+ "filed": "2026-11-04",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261104-5004",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "A2B606ED-41D2-C203-9241-A1A42E500000",
+   "name": "152240.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-03"
+ },
+ "collected_at": "2026-11-04T12:45:54Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "data center",
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152240.txt",
+   "bytes": 6607,
+   "sha256": "0890772ccada6d697f5d0afb4576dea8e2ce0d5b4eb42d58cb82303e9e872187",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nStaci Gillilan, Anchorage, AK.\nRE: FERC Docket No. P-15423-000 — Formal Opposition to DeepGreen Cook Inlet Subsea-Compute & Infrastructure Hub Project**\r\n\r\nDear Federal Energy Regulatory Commission:\r\n\r\nI am an Alaska resident writing to express my unequivocal opposition to DeepGreen Cook Inlet SPV, LLC's proposed underwater data center and associated tidal energy infrastructure in Upper Cook Inlet.\r\n\r\nI respectfully urge the Commission to deny the preliminary permit application.\r\n\r\nI recognize that a preliminary permit does not authorize construction or operation. Nevertheless, granting an applicant priority to pursue licensing is a consequential regulatory step. The extraordinary scale of this proposal, its location within an ecologically sensitive marine environment, and the substantial unanswered scientific and engineering questions raise serious concerns about whether this is an appropriate location for such an experimental development.\r\n\r\n1. Protection of endangered Cook Inlet beluga whales**\r\n\r\nCook Inlet is home to an endangered population of beluga whales. These animals depend on underwater sound for communication, navigation, foraging, and survival.\r\n\r\nThe proposed installation of tidal turbines, underwater computing modules, cables, and supporting infrastructure raises significant questions about construction noise, operational sound, habitat displacement, and cumulative acoustic disturbance.\r\n\r\nI request rigorous, independent hydroacoustic studies and consultation with the National Marine Fisheries Service before any subsequent project authorization. The applicant should bear the burden of demonstrating that its activities will not jeopardize this endangered population or adversely modify designated critical habitat.\r\n\r\n2. Thermal pollution and potential consequences for salmon**\r\n\r\nThe proposed underwater computing infrastructure would rely on the surrounding marine environment to dissipate heat.\r\n\r\nThe ecological consequences of releasing substantial thermal energy into Cook Inlet have not been adequately established in the publicly described proposal.\r\n\r\nI am particularly concerned about localized temperature increases during slack tides, seasonal variations in water movement, and potential effects on salmon migration, feeding, physiology, and survival.\r\n\r\nAlaska's salmon fisheries are not merely an economic resource. They are essential to our communities, cultural traditions, food security, and identity.\r\n\r\nThe Commission should not allow claimed technological benefits to substitute for independent thermal modeling, comprehensive ecological assessment, and scientifically defensible evidence that marine organisms and habitats will be protected.\r\n\r\n3. Potential contamination from cooling infrastructure**\r\n\r\nThe proposed use of copper-nickel cooling components exposed to Cook Inlet's sediment-laden, high-energy waters warrants serious scrutiny.\r\n\r\nCopper can be harmful to aquatic organisms, including salmon, at sufficiently elevated concentrations.\r\n\r\nIndependent testing should evaluate corrosion, abrasion, metal release, long-term maintenance requirements, and potential accumulation in marine sediments and organisms.\r\n\r\nThe public deserves scientifically defensible evidence that this infrastructure will not introduce harmful contamination into Cook Inlet.\r\n\r\n4. Cumulative environmental impacts and long-term accountability**\r\n\r\nThe proposed development must be evaluated in the context of existing industrial activities, vessel traffic, fisheries, endangered species protections, and other pressures affecting Cook Inlet.\r\n\r\nI am concerned about potential effects over decades, including equipment failures, damaged cables, abandoned infrastructure, and eventual decommissioning.\r\n\r\nWho will be financially responsible if the infrastructure causes environmental damage? What guarantees will ensure its complete removal? How will independent monitoring be funded and enforced?\r\n\r\nThese questions require credible, enforceable answers, not assurances.\r\n\r\nAny subsequent licensing process must address financial responsibility, environmental monitoring, emergency response, equipment recovery, and fully funded decommissioning.\r\n\r\n5. The public interest must come before private technological experimentation**\r\n\r\nI recognize that technological innovation and renewable energy development can offer benefits. However, innovation does not automatically justify placing large-scale, largely untested infrastructure within a sensitive and economically important marine ecosystem.\r\n\r\nCook Inlet should not become a testing ground for technologies whose cumulative ecological consequences remain insufficiently understood.\r\n\r\nThe benefits claimed by the developer must be independently substantiated and weighed against the potential consequences for Alaska's marine resources, fisheries, coastal communities, and future generations.\r\n\r\nThe Commission must also ensure meaningful engagement with affected Alaska Native communities, whose relationships with Cook Inlet and its living resources extend far beyond commercial considerations. Traditional knowledge, subsistence practices, cultural continuity, and food sovereignty deserve serious consideration in evaluating the proposed development.\r\n\r\nI therefore respectfully request that FERC:**\r\n\r\n1. Deny the preliminary permit application.\r\n2. Require comprehensive, independent environmental and engineering assessments before considering any future project authorization.\r\n3. Ensure meaningful consultation with affected Alaska Native communities, fisheries stakeholders, coastal municipalities, and relevant scientific agencies.\r\n4. Require transparent evaluation of alternative sites, technologies, and project configurations.\r\n5. Fully evaluate the cumulative risks to endangered beluga whales, salmon populations, marine habitats, and water quality.\r\n6. Establish clear requirements for long-term monitoring, financial accountability, and eventual decommissioning should any future licensing application proceed.\r\n\r\nThe absence of definitive evidence of harm is not evidence of environmental safety.**\r\n\r\nAlaskans should not be expected to accept potentially irreversible risks to our marine ecosystems simply because a developer proposes an innovative use of technology.\r\n\r\nCook Inlet is a living ecosystem, an irreplaceable natural resource, and part of the inheritance we owe future generations.\r\n\r\nI strongly oppose granting this preliminary permit and respectfully ask the Commission to give these concerns serious consideration.\r\n\r\nRespectfully,\r\n\r\nAn Alaska Resident\r\n\r\n"
+  }
+ ]
+}

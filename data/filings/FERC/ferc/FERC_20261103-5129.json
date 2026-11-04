@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261103-5129",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-126",
+ "title": "The Ohio Public Utilities Commission submits request for approval of Study Agreement re PJM Interconnection, L.L.C.’s 10/13/2026 Study Agreement in Furtherance of the State of Ohio’s State Agreement Approach Request under ER27-126.",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5129",
+ "entity": "Ohio Federal Energy Advocate",
+ "fetch": [
+  {
+   "ferc_file": "3A1E9BE7-B441-C25F-9E5E-A1A2E4500000",
+   "name": "Ohio FEA Letter on SAA Study Agreement ER27-126 11.03.26.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-03"
+ },
+ "collected_at": "2026-11-04T12:45:45Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Ohio FEA Letter on SAA Study Agreement ER27-126 11.03.26.pdf",
+   "bytes": 350090,
+   "sha256": "e8699f157ba3791feb11d22916868b9207f8e9b6894e9f4966ec4204e9837b78",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "         November 3, 2026\n\n         VIA ELECTRONIC FILING\n\n         Debbie-Anne A. Reese, Secretary\n         Federal Energy Regulatory Commission\n         888 First Street, N.E.\n         Washington, D.C. 20426\n\n         RE: PJM Interconnection, L.L.C., Docket No. ER27-126\n         Study Agreement in Furtherance of Ohio’s State Agreement Approach Request\n\n         Dear Secretary Reese,\n\n         On October 13, 2026, PJM Interconnection, LLC (PJM) filed with the Federal Energy\n         Regulatory Commission (FERC) an executed “Study Agreement in Furtherance of the State of\n         Ohio’s State Agreement Approach Request” (Study Agreement), designated as FERC Rate\n         Schedule No. 54, by and among PJM, SE DC DevCo, LLC, PORTS 2 Interconnect, LLC,\n         Portsmouth Gas DevCo, LLC, and AEP Ohio Transmission Company, Inc. As explained in the\n         filing, the Public Utilities Commission of Ohio’s Federal Energy Advocate (Ohio FEA)\n         requested, on June 15, 2026, that PJM initiate the State Agreement Approach (SAA) with respect\n         to the Flagship Project, an integrated data center, generation, and transmission development\n         located at and around the former United States Department of Energy Portsmouth Gaseous\n         Diffusion Plant in Pike County, Ohio.\n\n         As explained in the Ohio FEA’s request, designated as Schedule A of the Study Agreement, the\n         state of Ohio seeks to utilize the SAA as an efficient method to identify and implement\n         transmission solutions needed to serve this critical project in support of Ohio’s public policy\n         requirements,1 which are aligned with the federal administration’s objectives for this large-scale\n         technology campus.2 Consistent with the SAA, project costs would be assigned to Ohio, and\n         would then be further allocated to SB Energy, which has committed to fund the infrastructure\n         through arrangements structured to protect other customers.\n\n         The Ohio FEA agrees with PJM that the Study Agreement provides a just and reasonable\n         framework that will enable PJM to conduct an integrated and holistic technical evaluation of the\n\n         1\n          Ohio Revised Code 4928.02, available at https://codes.ohio.gov/ohio-revised-code/section-4928.02.\n         2\n          FACT SHEET: The Department of Energy is Ensuring Affordable Energy Access in Ohio While Powering the\n         Future of AI, available at https://www.energy.gov/articles/fact-sheet-department-energy-ensuring-affordable-energy-\n         access-ohio-while-powering-future.\n\nCommissioners\n                                                                                180 E Broad Street                               800 | 686 7826\nDaniel R. Conway                                                                Columbus, OH 43215 U.S.A.                        puco.ohio.gov\nDennis P. Deters\nLawrence K. Friedeman\nJohn D. Williams                                                                The State of Ohio is an Equal Opportunity Employer and Provider of ADA Services\n\f         proposed load, generation, and transmission, while maintaining PJM’s existing reliability\n         requirements and interconnection processes and ensuring that study costs are assessed to the\n         project developer. As a key step toward the timely development of the infrastructure necessary to\n         support the Flagship Project, the Ohio FEA requests that the Study Agreement be accepted by\n         FERC.\n\n                                                      Respectfully submitted,\n\n\n                                                      /s/ Thomas G. Lindgren\n                                                      Thomas G. Lindgren\n                                                      Assistant Attorney General\n                                                      Public Utilities Section\n                                                      30 East Broad Street, 16th Floor\n                                                      Columbus, Ohio 43215-3414\n                                                      614.644.8768 (telephone)\n                                                      866.818.6152 (fax)\n                                                      Thomas.Lindgren@OhioAGO.gov\n\n                                                      On Behalf of the Public Utilities\n                                                      Commission of Ohio’s Office of the\n                                                      Federal Energy Advocate\n\n         CC: Parties of record\n\n\n\n\nCommissioners\n                                                                     180 E Broad Street                               800 | 686 7826\nDaniel R. Conway                                                     Columbus, OH 43215 U.S.A.                        puco.ohio.gov\nDennis P. Deters\nLawrence K. Friedeman\nJohn D. Williams                                                     The State of Ohio is an Equal Opportunity Employer and Provider of ADA Services\n\f"
+  }
+ ]
+}

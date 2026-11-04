@@ -1,0 +1,41 @@
+{
+ "id": "FERC:20261103-8000",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "",
+ "title": "VIRGINIA ELECTRIC AND POWER COMPANY submits FERC Form 3Q Electric report for 2026/Q3",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-8000",
+ "entity": "VIRGINIA ELECTRIC AND POWER COMPANY",
+ "fetch": [
+  {
+   "ferc_file": "26CE68A0-7BE3-C272-879D-A1A238B00000",
+   "name": "382197-C000196-Form_3Q_Electric-2026-Q3_382197.html",
+   "type": "HTML"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Form 3-Q -Quarterly financial report of electric utilities- licensees- and natural gas companies"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-11-03"
+ },
+ "collected_at": "2026-11-04T12:44:39Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '26CE68A0-7BE3-C272-879D-A1A238B00000', 'name': '382197-C000196-Form_3Q_Electric-2026-Q3_382197.html', 'type': 'HTML'}",
+   "error": "RuntimeError('FERC DownloadP8File returned application/octet-stream (3122428 bytes)')"
+  }
+ ]
+}

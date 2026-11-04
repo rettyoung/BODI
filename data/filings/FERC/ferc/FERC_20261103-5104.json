@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261103-5104",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Seth Boyer in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/3/2026\n",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5104",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "97FA0F7B-3592-C13C-9344-A1A2BD700000",
+   "name": "152256.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-03"
+ },
+ "collected_at": "2026-11-04T12:45:36Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152256.txt",
+   "bytes": 840,
+   "sha256": "db19ba28b18d1c17be3119aa9b35dfbe2557a16b17ef1187193091e09319dfaf",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nSeth Boyer, Wasilla, AK.\nI'm commenting to oppose the permitting and any subsequent construction of underwater data centers by DeepGreen Cook Inlet SPV LLC or any other firm.\r\n\r\nWhile a well-studied hydro plant project for reducing Alaska's reliance on fossil fuels for a power would be welcome, generating on-site energy for a data center would bring few jobs to Alaska and cause needless environmental damage to the ecosystem, not to mention pose a quality of life reduction to human residents living anywhere near the project. Furthermore, hyperscale data centers are dead-end infrastructure with little-to-no utility after the AI bubble bursts - something that's already underway. \r\n\r\nThis project has zero upside for Alaska and serves only to enrich the ownership class in tech and tech-related construction. I strongly oppose.\r\n\r\n"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0000874761-26-000156",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "AES CORP  (AES)  (CIK 0000874761) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-11-03",
+ "url": "https://www.sec.gov/Archives/edgar/data/874761/000087476126000156/",
+ "entity": "AES CORP  (AES)  (CIK 0000874761)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-04T12:49:37Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,69 @@
+{
+ "id": "FERC:20261103-5083",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2242",
+ "title": "Eugene Water & Electric Board submits Board of Consultants Meeting No. 10 Final Report and plan and schedule to address Recommendations M10-1 through M10-4 re the Carmen-Smith Hydroelectric Project under P-2242.",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5083",
+ "entity": "Eugene Water & Electric Board",
+ "fetch": [
+  {
+   "ferc_file": "7046FC4D-5B88-C766-9C0D-A1A269F00000",
+   "name": "2026-11-03 CS BOC Meeting #10 Final Report CEII TF.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "C1290AAE-CAC8-CC2A-A7FD-A1A269F00000",
+   "name": "2026-11-03 ENCL 1A Smith Dam Spillway Modifications SGI & DPP CEII TF.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "15BE5E59-0C61-CFFE-8BDE-A1A26A000000",
+   "name": "2026-11-03 ENCL 1B TB Upstream FP DPP CEII TF.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "78B95B0A-E343-C4D8-90A3-A1A26A000000",
+   "name": "2026-11-03 ENCL 1C TB Concrete Testing Plan CEII TF.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-11-03"
+ },
+ "collected_at": "2026-11-04T12:46:18Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '7046FC4D-5B88-C766-9C0D-A1A269F00000', 'name': '2026-11-03 CS BOC Meeting #10 Final Report CEII TF.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'C1290AAE-CAC8-CC2A-A7FD-A1A269F00000', 'name': '2026-11-03 ENCL 1A Smith Dam Spillway Modifications SGI & DPP CEII TF.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '15BE5E59-0C61-CFFE-8BDE-A1A26A000000', 'name': '2026-11-03 ENCL 1B TB Upstream FP DPP CEII TF.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '78B95B0A-E343-C4D8-90A3-A1A26A000000', 'name': '2026-11-03 ENCL 1C TB Concrete Testing Plan CEII TF.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

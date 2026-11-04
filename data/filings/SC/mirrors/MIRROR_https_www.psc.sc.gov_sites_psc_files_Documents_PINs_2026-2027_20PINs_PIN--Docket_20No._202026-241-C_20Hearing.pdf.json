@@ -1,0 +1,41 @@
+{
+ "id": "MIRROR:https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--Docket%20No.%202026-241-C%20Hearing.pdf",
+ "jur": "SC",
+ "source": "mirror:sc_psc_publications",
+ "kind": "filing",
+ "docket": null,
+ "title": "November 3rd, 2026--PSC Schedules Hearing in Docket No. 2026-241-C",
+ "filed": null,
+ "url": "https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--Docket%20No.%202026-241-C%20Hearing.pdf",
+ "entity": "Public Service Commission of South Carolina (main site)",
+ "fetch": [
+  {
+   "url": "https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--Docket%20No.%202026-241-C%20Hearing.pdf"
+  }
+ ],
+ "meta": {
+  "bkey": "mirror:sc_psc_publications",
+  "mirror_of": "DMS docket documents (notices, orders, PINs)",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-04T13:01:38Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "certificate of public convenience"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--Docket%20No.%202026-241-C%20Hearing.pdf",
+   "name": null,
+   "bytes": 203071,
+   "sha256": "f16fb7682b69ca7469005932c00717dd62d923fe22a1d66e9898cb6dd717ead9",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                                                                                                                         COMMISSIONERS\n                                                                                                                             Justin T. Williams, Sixth District\n                                                                                                                                                    Chairman\n                                  The Public Service Commission                                                                 H. David Britt, Fourth District\n                                                                                                                                               Vice Chairman\n\n                                     State of South Carolina\n                                                                                                                               Eugene Hennelly, First District\n                                                                                                                           Florence P. Belser, Second District\n                                                                                                                     Stephen M. “Mike” Caston, Third District\n                                                                                                                             Swain E. Whitfield, Fifth District\n                                                                                                                       Delton W. Powers, Jr., Seventh District\n\n        Jocelyn Boyd\nChief Clerk/Executive Director                                                                                                                 Clerk’s Office\n   Phone: (803) 896-5100                                                                                                               Phone: (803) 896-5100\n     Fax: (803) 896-5246                                                                                                                 Fax: (803) 896-5199\n\n\n\n\n  For Immediate Release—November 3rd, 2026\n\n\n\n        South Carolina Public Service Commission Schedules Hearing in\n                            Docket No. 2026-241-C\n\n\n  Columbia, South Carolina—The Public Service Commission of South Carolina has scheduled a hearing in\n  Docket No. 2026-241-C, which pertains to an application filed by Kinetic ABS SC LLC (“Kinetic ABS”) for a\n  Certificate of Public Convenience and Necessity and Joint Application of Kinetic ABS SC LLC, Windstream\n  South Carolina, LLC, and Windstream Communications, LLC for Transfer of Assets.\n\n  In their application, Kinetic ABS asks that the Commission approve in its Order:\n      • A Certificate of Public Convenience and Necessity to Kinetic ABS to provide resold and facilities-based\n          local exchange and interexchange (including exchange access) telecommunications services.\n      • Authorization for Kinetic ABS to use flexible regulation procedures for local exchange\n          telecommunications services as outlined in Order No. 98-165 in Docket No. 97-467-C.\n      • Authorization for Kinetic ABS to use procedures established for alternative regulation for interexchange\n          telecommunications services as outlined in Order Nos. 95-1734 and 96-55 in Docket No. 95-661-C and\n          as modified by Commission Order No. 2001-997 in Docket No. 2000-407-C.\n      • Waiver of the application of certain Commission rules pursuant to S.C. Code Ann. Regs. 103-601(3).\n      • Approval of the pro forma transfer of certain telephone utility assets from Windstream South Carolina,\n          LLC, and Windstream Communications, LLC to Kinetic ABS as described in the Application.\n\n  The hearing in this matter will take place on Wednesday, December 2nd, 2026, at 2:00 p.m. This hearing will be\n  broadcast live at this link and will be archived in the Docket at this link.\n\n  For more information about this matter, including details on the Company’s request and ways members of the\n  public can participate, please consult the Notice of Filing and Public Hearing at this link.\n\n  For more information, email contact@psc.sc.gov, or call 803.896.5100. You can also follow the Commission on\n  Facebook, LinkedIn, Nextdoor, and Instagram.\n\n\n                                                                     ######\n\n\n                        Public Service Commission, 101 Executive Center Dr., Suite 100, Columbia, SC 29210-8411, 803-896-5100, www.psc.sc.gov\n\f"
+  }
+ ]
+}

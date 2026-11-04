@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0000027430-26-000069",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "DAYTON POWER & LIGHT CO  (CIK 0000027430) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-11-03",
+ "url": "https://www.sec.gov/Archives/edgar/data/27430/000002743026000069/",
+ "entity": "DAYTON POWER & LIGHT CO  (CIK 0000027430)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-04T12:49:37Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,28 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/pseg-power-nuclear-uprate-salem-data-center-earnings/873587/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "PSEG Power plans 200-MW nuclear uprate as company eyes data center deals",
+ "filed": "2026-11-03",
+ "url": "https://www.utilitydive.com/news/pseg-power-nuclear-uprate-salem-data-center-earnings/873587/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": " But one of the units at the Salem plant in New Jersey, which is jointly owned with Constellation Energy, faces an extended outage to deal with degraded equipment, according to&nbsp;federal filings. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-04T12:58:12Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "data center",
+  "nuclear",
+  "uprate"
+ ],
+ "party_hits": [],
+ "documents": []
+}

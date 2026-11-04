@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20261103-5135",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "RR27-1",
+ "title": "(doc-less) Motion to Intervene of Evergy Kansas Central, Inc., Evergy Metro, Inc., and Evergy Missouri West, Inc. under RR27-1.",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5135",
+ "entity": "Evergy Kansas Central, Inc.; Evergy Kansas Central, Inc.; Evergy Kansas Central, Inc.; Evergy Kansas Central, Inc.; Evergy Metro, Inc.; Evergy Metro, Inc.; Evergy Metro, Inc.; Evergy Metro, Inc.; Evergy Missouri West, Inc.; Evergy Missouri West, Inc.; Evergy Missouri West, Inc.; Evergy Missouri West",
+ "fetch": [
+  {
+   "ferc_file": "2EF3915A-4EBF-C433-8539-A1A2EFD00000",
+   "name": "1809600_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-11-03"
+ },
+ "collected_at": "2026-11-04T12:46:21Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "ESA",
+  "large load",
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1809600_Interv.txt",
+   "bytes": 5327,
+   "sha256": "4a262a10f0f8728d4eb749bc189416a40fb7dd3e7b8a798a6b7b5bb87f056a5a",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Evergy Kansas Central, Inc., Evergy Metro, Inc., and Evergy Missouri West, Inc. under RR27-1-000.\r\n\r\nSubmission Date:        11/3/2026 2:14:29 PM\r\n\r\nFiled Date:             11/3/2026 2:14:29 PM\r\n\r\nDockets\r\n-------\r\nRR27-1-000           Petition of the North American Electric Reliability Corporation for Approval of Revisions to the NERC Rules of Procedure Regarding Computational Load and Request for Expedited Action under RD26-7.\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nEvergy Kansas Central, Inc.              Cathy.Dinges@evergy.com                                                          \r\nEvergy Kansas Central, Inc.              Denise.Buffington@evergy.com                                                     \r\nEvergy Kansas Central, Inc.              jim.flucke@evergy.com                                                            \r\nEvergy Kansas Central, Inc.              carly.masenthin@evergy.com                                                       \r\nEvergy Metro, Inc.                       Cathy.Dinges@evergy.com                                                          \r\nEvergy Metro, Inc.                       Denise.Buffington@evergy.com                                                     \r\nEvergy Metro, Inc.                       jim.flucke@evergy.com                                                            \r\nEvergy Metro, Inc.                       carly.masenthin@evergy.com                                                       \r\nEvergy Missouri West, Inc.               Cathy.Dinges@evergy.com                                                          \r\nEvergy Missouri West, Inc.               Denise.Buffington@evergy.com                                                     \r\nEvergy Missouri West, Inc.               jim.flucke@evergy.com                                                            \r\nEvergy Missouri West, Inc.               carly.masenthin@evergy.com                                                       \r\n\r\nBasis for Intervening:\r\nPursuant to Rules 212 and 214 of the Federal Energy Regulatory Commission’s Rules of Practice and Procedure, 18 C.F.R. §§ 385.212 and 385.214, Evergy Kansas Central, Inc.; Evergy Metro, Inc.; and Evergy Missouri West, Inc. (collectively “the Companies”), all subsidiaries of Evergy, Inc. (“Evergy”), respectfully move to jointly intervene in Docket No. RR27-1-000, relating to the North American Electric Reliability Corporation’s (“NERC”) petition for approval of revisions to the NERC Rules of Procedure regarding computational loads. In support of their Motion, the Companies state:\r\n\r\nEvergy is a multistate electric utility holding company system providing electric service at retail and wholesale through the Companies.  The Companies provide electric service at retail throughout Kansas and Missouri to approximately 1.6 million customers and provide wholesale service to municipalities and cooperatives that in turn serve additional Kansas and Missouri retail customers.  The Companies are Transmission Owners in SPP and have placed their transmission facilities under the SPP Open Access Transmission Tariff.  Through their Generation and Marketing divisions, the Companies are active participants in the wholesale electric market.  The Companies are also major Transmission Customers in SPP, purchasing transmission service for their retail load, point-to-point service for their energy marketing activities, and acting as an agent for certain wholesale customers in purchasing transmission service on their behalf.  Moreover, the Companies are also Load Responsible Entities that are responsible for interconnecting large loads.  Evergy is a NERC Registered Entity, and is registered under multiple functions.\r\n\r\nBased on Evergy’s status as a NERC Registered Entity, the Companies will be directly impacted by the outcome of this proceeding, and their interests cannot be represented by any other party. The Companies therefore respectfully request to intervene in the above-referenced proceeding.\r\n\r\nThe names, titles, and mailing addresses of the persons who should be served with communications concerning this Motion and all future matters in these proceedings are: \r\n\r\nCathy Dinges\r\nSenior Director and Regulatory Affairs Counsel\r\nThe Evergy Companies\r\n818 S. Kansas Ave. \r\nTopeka, KS 66612 \r\n(785) 575-8344\r\nCathy.Dinges@evergy.com\r\n\r\nDenise M. Buffington\r\nSenior Director of Federal Regulatory Affairs \r\nThe Evergy Companies\r\n1200 Main Street, 16th Floor\r\nKansas City, MO 64105\r\n(816) 556-2683\r\nDenise.Buffington@evergy.com\r\n\r\nJim Flucke \r\nManager of Federal Regulatory Affairs \r\nThe Evergy Companies\r\n1200 Main Street, 16th Floor\r\nKansas City, MO 64105 \r\n(816) 652-1109 \r\nJim.Flucke@evergy.com\r\n\r\nCarly Masenthin\r\nCorporate Counsel\r\nThe Evergy Companies\r\n818 S. Kansas Ave.\r\nTopeka, KS 66612\r\n(785) 508-2468\r\nCarly.Masenthin@evergy.com\r\n\r\nThe Companies respectfully request waiver of 18 C.F.R. § 385.203(b)(3) to permit more than two persons to be included on the official service list in this proceeding."
+  }
+ ]
+}

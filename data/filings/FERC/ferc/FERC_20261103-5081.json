@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261103-5081",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-330",
+ "title": "(doc-less) Motion to Intervene of Corporate Energy Buyers Association under ER27-330.",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5081",
+ "entity": "Corporate Energy Buyers Association",
+ "fetch": [
+  {
+   "ferc_file": "CADC4A91-74C4-C40E-9F7D-A1A266400000",
+   "name": "1809537_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-11-03"
+ },
+ "collected_at": "2026-11-04T12:46:24Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1809537_Interv.txt",
+   "bytes": 2058,
+   "sha256": "21b916431bce3c06a002adf4850b0e9487085cf55ace83e01dfd2b5bed56432c",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Corporate Energy Buyers Association under ER27-330.\r\n\r\nSubmission Date:        11/3/2026 12:03:18 PM\r\n\r\nFiled Date:             11/3/2026 12:03:18 PM\r\n\r\nDockets\r\n-------\r\nER27-330-000         PJM Interconnection, L.L.C. submits tariff filing per 35: Proposed Amendments to the Reliability Backstop Procurement in ER26-3380 submitted on 10/29/2026 4:42:48 PM, Filing Type code: 85\r\nER27-330-001         PJM Interconnection, L.L.C. submits tariff filing per 35: Errata to Correct Metadata and Waiver Request in RBP Compliance Filing submitted on 10/30/2026 1:24:42 PM, Filing Type code: 80\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nCorporate Energy Buyers Association      jmiller@ceba.org                         kdavis@ceba.org                         \r\n\r\nBasis for Intervening:\r\nPursuant to Rule 214 of the Rules of Practice and Procedure of the Federal Energy Regulatory Commission, 18 C.F.R. § 385.214, Corporate Energy Buyers Association (CEBA) hereby respectfully moves to intervene.\r\n\r\nCEBA is a business association that activates energy buyers and their partners to drive low-cost, reliable, carbon emissions-free global energy systems. Our members represent $40 trillion in market value, including energy customers of all sizes, suppliers, and service providers.\r\n\r\nCEBA members are bringing, or plan to bring, large loads to the PJM region. PJM’s proposal thus directly impacts the ability of our members to procure and access the affordable, reliable energy they need to power operations as they invest in the region. For these reasons, CEBA has a substantial interest in this proceeding that cannot be adequately represented by another party, and its participation is in the public interest. Good cause exists to grant CEBA’s motion to intervene.\r\n"
+  }
+ ]
+}

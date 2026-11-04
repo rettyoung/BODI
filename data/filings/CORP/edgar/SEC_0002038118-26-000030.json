@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0002038118-26-000030",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "FirstEnergy Transmission, LLC  (CIK 0002038118) 10-Q — full-text hit \"co-location\" FERC",
+ "filed": "2026-11-03",
+ "url": "https://www.sec.gov/Archives/edgar/data/2038118/000203811826000030/",
+ "entity": "FirstEnergy Transmission, LLC  (CIK 0002038118)",
+ "fetch": [],
+ "meta": {
+  "query": "\"co-location\" FERC",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-04T12:49:37Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

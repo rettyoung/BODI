@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261102-5332",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comments of Alaskans for Data Center Accountability, et al. in opposition to the Preliminary Permit Application for the Cook Inlet Subsea-Compute and Infrastructure Hub Project under P-15423.",
+ "filed": "2026-11-02",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261102-5332",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "58063A2C-A6A1-C011-9C3C-A19E5D100000",
+   "name": "2026-11-02 NGO letter.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-02"
+ },
+ "collected_at": "2026-11-04T12:44:47Z",
+ "run_id": "2026-11-04-1230",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "2026-11-02 NGO letter.pdf",
+   "bytes": 148295,
+   "sha256": "41152341df46625bd05d51b07208903e1355b09b01fb3b7a4445346a04549555",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                                BEFORE THE\n                   FEDERAL ENERGY REGULATORY COMMISSION\n\n\n\nIn the Matter of the Application of:                   )\n                                                       )        Docket No. P-15423-000\nDeepGreen Cook Inlet                                   )\n\n\n\n             COMMENTS ON COOK INLET DATA CENTER\n         BY ALASKANS FOR DATA CENTER ACCOUNTABILITY,\n ORGANIZATION UNDER NORTHERN ALASKA ENVIRONMENTAL CENTER;\nALASKA WILDLIFE ALLIANCE; CENTER FOR BIOLOGICAL DIVERSITY; COOK\n        INLETKEEPER; AND OCEAN CONSERVATION RESEARCH\n\n\n       We oppose the preliminary permit application for the Cook Inlet underwater data center.\n\nAs community organizations, we urge FERC to deny DeepGreen’s application for the Cook Inlet\n\nSubsea-Compute & Infrastructure Hub. The proposed data center and associated preliminary\n\nactivities threaten endangered Cook Inlet beluga whales, vulnerable Pacific salmon populations,\n\nand the unique habitat that sustains them and other wildlife.\n\n       Alaska’s Cook Inlet should not be the testing grounds for an underwater data center. The\n\nproposed data center in Cook Inlet, Alaska, would use up to 350 tidal turbines to power 66 server\n\nhubs. It would be located within critical habitat for the endangered Cook Inlet beluga whale.\n\nData centers are known for massive energy consumption, water pollution, and heat waste.\n       The proposal puts Cook Inlet beluga whales at risk. These belugas are among the most\n\nendangered whales in the world. Only about 400 remain, and they live their entire lives in Cook\n\nInlet. Noise pollution from geophysical surveys and vessels can interfere with essential life\n\nfunctions. Belugas depend on sound for survival, using it to communicate and hunt prey. Noise is\n\none of the primary threats to Cook Inlet beluga whales. Even at this early stage, the proposed\n\nsurveys and studies could disturb and displace them.\n\n       The preliminary activities could also degrade water quality and habitat for Pacific salmon\n\nand other native fish. Site surveys, vessel traffic, equipment deployment, and other site-\n\finvestigation activities may disturb the seafloor and increase turbidity. These activities could\n\nadversely affect salmon behavior and habitat. The application provides few details about the\n\ntiming or scope of the proposed activities, but those activities could further stress declining\n\nsalmon populations already facing significant pressures in Cook Inlet.\n\n        If built, the underwater data center would be a disaster for salmon, whales, and other\n\nwildlife. These animals are a vital part of Alaska’s identity and culture. The turbines pose risk of\n\nentrainment, while the data center could cause noise and thermal pollution. Even the preliminary\n\npermit activities pose risks to the health of Cook Inlet’s ecosystem. We urge FERC to prioritize\n\nenergy projects that prioritize local needs rather than an energy-intensive data center.\n\n        FERC should recognize that this project threatens Cook Inlet’s resources. A preliminary\n\npermit would preserve the applicant’s priority to seek a license for the proposed project. FERC\n\nmust ensure that the application is complete and determine whether the project would develop,\n\nconserve, and use water resources in the public interest. Yet the application provides insufficient\n\ninformation about the proposed activities or measures to avoid, minimize, or mitigate their\n\npotential harm. In addition, FERC should ensure that, before any activities proceed, the applicant\n\nobtains all necessary authorizations from the National Marine Fisheries Service to prevent harm\n\nto wildlife and fisheries.\n\n        For these reasons, we respectfully request that FERC deny DeepGreen’s preliminary\n\npermit application. The application does not provide the information necessary to evaluate the\n\nproject’s environmental risks and establish that it’s in the public interest. At a minimum, FERC\n\nshould require a complete description of all proposed study and development activities, a\n\nthorough assessment of their environmental effects, effective measures to avoid and mitigate\n\nharm, and confirmation that all required federal authorizations will be secured before any activity\n\nbegins. Cook Inlet’s irreplaceable wildlife, fisheries, and communities should not bear the risks\n\nof the AI data center boom.\n\fDated: November 2, 2026   Sincerely,\n\n                          Alaskans For Data Center Accountability,\n                          Organization under Northern Alaska Environmental Center\n\n                          Alaska Wildlife Alliance\n                          Center for Biological Diversity\n\n                          Cook Inletkeeper\n\n                          Ocean Conservation Research\n\f"
+  }
+ ]
+}
