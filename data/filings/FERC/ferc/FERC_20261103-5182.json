@@ -1,0 +1,47 @@
+{
+ "id": "FERC:20261103-5182",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "AC26-19,EL22-6,EL25-109,EL25-44,EL25-90,EL26-36,EL26-38,EL26-73,ER23-2821,ER24-1499,ER24-2797,ER24-2871,ER25-1825,ER25-2417,ER25-2418,ER25-2889,ER26-1538,ER26-1676,ER26-1761,ER26-1999,ER26-2000,ER26-263",
+ "title": "Entergy Services, LLC submits request to update the service list under AC26-19 et al.",
+ "filed": "2026-11-03",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261103-5182",
+ "entity": "Entergy Services, LLC",
+ "fetch": [
+  {
+   "ferc_file": "F124E6D0-28FB-C80B-B0A4-A1A6BA700000",
+   "name": "Entergy Services Update Service_Letter_20261103.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL26-36",
+  "issued": "2026-11-03"
+ },
+ "collected_at": "2026-11-05T12:59:57Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Entergy Services Update Service_Letter_20261103.pdf",
+   "bytes": 197413,
+   "sha256": "c64864773456c6eef06256577c3dbaac1685a7c65cd2753dc2ee8716699606cd",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "                                                            Karis Parnham\n                                                            Assistant General Counsel\n                                                            919 Congress Ave., Suite 701\n                                                            Austin, TX 78701\n\n\n\n\nNovember 3, 2026\n\n\n\nVIA eFILING\n\nHon. Debbie-Anne Reese\nSecretary\nFederal Energy Regulatory Commission\n888 First Street NE\nWashington, DC 20426\n\nRe:       Notice of Substitution of Counsel and Update of Official Service Lists\n\nDear Secretary Reese:\n\n        Pursuant to Rule 2010(c)(2) of the Rules of Practice and Procedure of the Federal\nEnergy Regulatory Commission (“FERC” or “Commission”), Entergy Services, LLC\n(“Entergy Services”) hereby submits this notice of substitution of counsel and\nrespectfully requests that the official service lists in the following dockets be amended to\nreflect the following:\n\n      •   AC26-19                   •   EL22-6                     •   EL26-73\n      •   ER23-2821                 •   ER24-1499                  •   ER24-2797\n      •   ER24-2871                 •   ER25-1825                  •   ER25-2417\n      •   ER25-2418                 •   ER25-2889                  •   ER26-263\n      •   ER26-1538                 •   ER26-1676                  •   ER26-1761\n\n\n ADD                                           REMOVE\n\n Karis Parnham                                 Jim Cunningham\n Assistant General Counsel                     Senior Counsel\n Entergy Services, LLC                         Entergy Services, LLC\n 919 Congress                                  101 Constitution Ave. NW\n Austin TX 78701                               Suite 200 East\n (512) 487-3986                                Washington, DC 20001\n kparnha@entergy.com                           (202) 530-7309\n                                               jcunni7@entergy.com\n\fHon. Debbie-Anne Reese\nNovember 3, 2026\nPage 2\n\n       Additionally, Entergy Services requests that the official service lists in the\nfollowing dockets be amended to reflect the following:\n\n    • EL25-44                       • EL25-90                      • EL25-109\n    • EL26-36                       • EL26-38\n\n\n ADD                                            REMOVE\n\n Glen Bernstein                                 Jim Cunningham\n Assistant General Counsel                      Senior Counsel\n Entergy Services, LLC                          Entergy Services, LLC\n 101 Constitution Ave. NW                       101 Constitution Ave. NW\n Suite 200 East                                 Suite 200 East\n Washington, DC 20001                           Washington, DC 20001\n (202) 530-7304                                 (202) 530-7309\n gbernst@entergy.com                            jcunni7@entergy.com\n\n\n     Entergy Services further requests that the official service list in Docket No.\nER26-1999 be amended to reflect the following:\n\n ADD                                            REMOVE\n\n Kristen Yates                                  Jim Cunningham\n Assistant General Counsel                      Senior Counsel\n Entergy Services, LLC                          Entergy Services, LLC\n 2107 Research Forest Drive                     101 Constitution Ave. NW\n The Woodlands, TX 77380                        Suite 200 East\n (281) 719-7127                                 Washington, DC 20001\n kyates1@entergy.com                            (202) 530-7309\n                                                jcunni7@entergy.com\n\fHon. Debbie-Anne Reese\nNovember 3, 2026\nPage 3\n\n     Lastly, Entergy Services further requests that the official service list in Docket No.\nER26-2000 be amended to reflect the following:\n\n ADD                                          REMOVE\n\n                                              Jim Cunningham\n                                              Senior Counsel\n                                              Entergy Services, LLC\n                                              101 Constitution Ave. NW\n                                              Suite 200 East\n                                              Washington, DC 20001\n                                              (202) 530-7309\n                                              jcunni7@entergy.com\n\n\n       Thank you for your attention to this matter.\n\n\n\n                                                 Respectfully submitted,\n\n                                                  /s/ Karis Parnham\n                                                 Karis Parnham\n                                                 Attorney for Entergy Services, LLC\n\f                             CERTIFICATE OF SERVICE\n\n       I hereby certify that on this day I have served the foregoing document upon each\n\nperson designated on the official service list(s) compiled by the Secretary in these\n\nproceedings.\n\nDated at Washington, D.C. this 3rd day of November 2026.\n\n\n                                                         /s/ Karis Parnham\n                                                        Karis Parnham\n                                                        Entergy Services, LLC\n                                                        909 Congress Ave.\n                                                        Suite 701\n                                                        Austin, TX 78701\n                                                        (512) 487-3986\n                                                        kparnha@entergy.com\n\f"
+  }
+ ]
+}

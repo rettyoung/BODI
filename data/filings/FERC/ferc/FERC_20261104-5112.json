@@ -1,0 +1,47 @@
+{
+ "id": "FERC:20261104-5112",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "EC26-131,EL26-63,EL26-67",
+ "title": "The Virginia Office of the Attorney General, Division of Consumer Counsel submits request to update the service list under EC26-131 et al.",
+ "filed": "2026-11-04",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261104-5112",
+ "entity": "VIRGINIA DIVISION OF CONSUMER COUNSEL",
+ "fetch": [
+  {
+   "ferc_file": "148DCE6F-4992-C7A7-A39F-A1A769900000",
+   "name": "VA OAG Updates to Service Lists EC26-131-000 EL26-63-000 EL26-67-000.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Pleading/Motion",
+    "documentType": "Procedural Motion"
+   }
+  ],
+  "why": "watched docket EL26-67",
+  "issued": "2026-11-04"
+ },
+ "collected_at": "2026-11-05T12:59:54Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "VA OAG Updates to Service Lists EC26-131-000 EL26-63-000 EL26-67-000.pdf",
+   "bytes": 173059,
+   "sha256": "85e74dd2171efbce98f7a7751dc2b680088c40953eca65424bc9b601ad861ca9",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                                     COMMONWEALTH of VIRGINIA\n                                               Office of the Attorney General\nJay Jones                                                                                                     900 202\n                                                                                                                  EastN.\n                                                                                                                       Main\n                                                                                                                         Ninth\n                                                                                                                             Street\n                                                                                                                                Street\nAttorney General                                                                                           Richmond, Virginia 23219\n                                                                                                                       804-786-2071\n                                                        November 4, 2026                                          FAX 804-786-1991\n                                                                                                              Virginia Relay Services\n                                                                                                                       800-828-1120\n\n\n\n                   BY ELECTRONIC FILING\n\n                   Hon. Debbie-Anne A. Reese, Secretary\n                   Federal Energy Regulatory Commission\n                   888 First Street, NE\n                   Washington, District of Columbia 20426\n\n\n                          RE:     Request to Update Service Lists\n                                  Docket No. EC26-131-000\n                                  Docket No. EL26-63-000\n                                  Docket No. EL26-67-000\n\n\n                   Dear Secretary Reese:\n\n                             Pursuant to 18 C.F.R. § 385.2010 of the Federal Energy Regulatory Commission’s\n                   Rules of Practice and Procedure, please add the following attorney to the official service\n                   lists of the dockets identified above (and any associated sub-dockets), as additional counsel\n                   for the Virginia Office of the Attorney General, Division of Consumer Counsel (“Virginia\n                   Division of Consumer Counsel”):\n\n                                  Marvi R. Ali\n                                  Assistant Attorney General\n                                  202 North Ninth Street\n                                  Richmond, Virginia 23219\n                                  mali@oag.state.va.us\n\n                         Other counsel already appearing on behalf of the Virginia Division of Consumer\n                   Counsel should remain as counsel on the service lists of the identified dockets.\n\n                          Thank you for your assistance in this matter.\n\f                                    Yours truly,\n                                    /s/ John E. Farmer, Jr.\n                                    John E. Farmer, Jr.\n                                    Senior Assistant Attorney General\n\ncc:   Service List (EC26-131-000)\n      Service List (EL26-63-000)\n      Service List (EL26-67-000)\n\f                            CERTIFICATE OF SERVICE\n\n       I hereby certify that I have this day served the foregoing document upon each\nperson designated on the official service lists compiled by the Secretary in the\naforementioned proceedings.\n\n       Dated at Richmond, Virginia, this 4th day of November, 2026.\n\n\n                                            /s/ John E. Farmer, Jr.\n\n                                            John E. Farmer, Jr.\n                                            Senior Assistant Attorney General\n                                            Office of the Attorney General of Virginia\n                                            202 North Ninth Street\n                                            Richmond, Virginia 23219\n                                            (804) 786-2071\n\f"
+  }
+ ]
+}

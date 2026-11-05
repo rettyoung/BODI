@@ -1,0 +1,35 @@
+{
+ "id": "NRC:ML26300A337",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): LER 2026-002-00 for Palisades Nuclear Plant, Technical Specification Completion Time Not Met [['Letter', 'Licensee Event Report (LER)']]",
+ "filed": "2026-11-04",
+ "entity": [
+  "Holtec Palisades, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2630/ML26300A337.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26300A337.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26300A337",
+  "document_date": "2026-10-27"
+ },
+ "collected_at": "2026-11-05T12:57:45Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26300A337.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2630/ML26300A337.pdf"
+  }
+ ]
+}

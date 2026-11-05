@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261104-5169",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comment of Jenna Hooley in Docket(s)/Project(s) P-15423-000\nSubmission Date: 11/4/2026\n",
+ "filed": "2026-11-04",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261104-5169",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "85F422F9-A2F4-C6FC-9EBA-A1A823900000",
+   "name": "152327.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-04"
+ },
+ "collected_at": "2026-11-05T13:00:54Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152327.txt",
+   "bytes": 3501,
+   "sha256": "6c7d8681492b287c28a754bcbc7093d55ae0b12337e882ecc29194764f2d3fdb",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nJenna Hooley, Indian, AK.\nI strongly oppose the proposed DeepGreen underwater data center in Cook Inlet. This project poses too much risk to Alaska's marine ecosystems, fisheries, wildlife, and the communities that depend on these waters. Cook Inlet is not an appropriate location for an experimental industrial project like this, and I urge FERC to reject this proposal.\r\n\r\nCook Inlet is a living ecosystem that supports a wide range of marine life, including the endangered Cook Inlet beluga whale, salmon, and many other species that make up an interconnected food web. These waters sustain our fisheries, communities, food systems, economy, and way of life. They are not an industrial cooling system.\r\n\r\nThe potential impacts of this facility are deeply concerning, particularly thermal pollution. What happens when all that waste heat is discharged into Cook Inlet? Increased water temperatures can disrupt ecosystems, affect salmon and other marine species, and alter the food web. DeepGreen has not demonstrated that these thermal impacts can be safely managed.\r\n\r\nAdditionally, underwater noise is a significant threat to the recovery of Cook Inlet's endangered beluga whales. They depend on sound for communication, navigation, hunting, and survival. A massive underwater industrial installation, with hundreds of turbines and huge infrastructure would create persistent noise and disrupt critical habitat and migration routes.\r\n\r\nHeavy metal contamination is another serious concern. The proposed server hives include copper-nickel cooling fins, and the inevitable wear and erosion of underwater infrastructure raises the risk of copper entering the marine environment. Copper is toxic to aquatic organisms, and would put salmon habitat and the broader ecosystem at risk. There is also no clear plan for how this facility will manage waste and potential chemical pollution. \r\n\r\nBeyond the risks to marine habitat, this project creates an enormous energy demand. DeepGreen is proposing more than 300 tidal generators, yet during daily slack tides, it could draw up to 100 MW from the electrical grid (more than twice the average peak demand for the entire Kenai Peninsula).\r\n\r\nIt also appears that no electric utilities have been consulted, including Homer Electric Association or the Alaska Power Association. How can a company propose an industrial facility with this level of energy demand without first consulting the utilities that would be expected to supply that power? \r\n\r\nAlaskans should not be expected to subsidize the energy needs of an outside technology company. And we should not be a testing ground for speculative technology by a recently registered Delaware company who is proposing a project at a scale that has no demonstrated operational precedent. DeepGreen should not be given the opportunity to impose potentially irreversible environmental consequences on Alaska in pursuit of an unproven business model.\r\n\r\nAlaska's natural resources should not be viewed as opportunities for outside companies to extract profit. We have a responsibility to consider the cumulative impacts of industrial development and protect the ecosystems that sustain Alaskans. \r\n\r\nI urge FERC to reject DeepGreen's preliminary permit application. This project should not advance. I also urge Alaska's incoming state leadership to take a clear position against this proposal and prioritize the protection of Cook Inlet over the interests of outside technology developers.\r\n\r\nThank you.\r\n\r\n\r\n"
+  }
+ ]
+}

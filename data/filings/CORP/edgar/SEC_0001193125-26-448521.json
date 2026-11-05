@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001193125-26-448521",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "Evergy, Inc.  (EVRG)  (CIK 0001711269), EVERGY METRO, INC.  (CIK 0000054476) 8-K — full-text hit \"large load\" tariff",
+ "filed": "2026-11-05",
+ "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526448521/",
+ "entity": "Evergy, Inc.  (EVRG)  (CIK 0001711269), EVERGY METRO, INC.  (CIK 0000054476)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "8-K"
+ },
+ "collected_at": "2026-11-05T13:04:37Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

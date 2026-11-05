@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/virtual-power-plants/virtual-power-plants-grid-ai-bust",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Virtual power plants can help avoid overbuilt grid if AI boom goes bust",
+ "filed": "2026-11-05",
+ "url": "https://www.canarymedia.com/articles/virtual-power-plants/virtual-power-plants-grid-ai-bust",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "Nobody really knows how much power the data center boom will need — and that’s putting utilities in a tough spot. If they underinvest in power plants and the grid, economic growth and energy reliability will suffer. But if they overinvest, Americans may pay for infrastructure nobody needs. One way to blunt these…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-05T13:13:52Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

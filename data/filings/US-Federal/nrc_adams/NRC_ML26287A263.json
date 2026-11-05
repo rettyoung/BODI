@@ -1,0 +1,35 @@
+{
+ "id": "NRC:ML26287A263",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000615",
+ "title": "TVA Clinch River BWRX-300: Clinch River Nuclear Unit 1 Scoping Matrix - Attachment 1 [['Graphics incl Charts and Tables', 'Report, Technical']]",
+ "filed": "2026-11-04",
+ "entity": [
+  "NRC/OAR/DDLP/DARP"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2628/ML26287A263.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26287A263.pdf"
+  }
+ ],
+ "meta": {
+  "project": "TVA Clinch River BWRX-300",
+  "accession": "ML26287A263",
+  "document_date": "2026-10-28"
+ },
+ "collected_at": "2026-11-05T12:57:54Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2628/ML26287A263.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2628/ML26287A263.pdf"
+  }
+ ]
+}

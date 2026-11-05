@@ -1,0 +1,45 @@
+{
+ "id": "SEC:0001193125-26-447507",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Oracle 8-K 8-K items 8.01,9.01",
+ "filed": "2026-11-04",
+ "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/",
+ "entity": "Oracle",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "cik": "0001341439",
+  "market_participant": true
+ },
+ "collected_at": "2026-11-05T13:04:33Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [],
+ "party_hits": [
+  "Oracle"
+ ],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm",
+   "name": null,
+   "bytes": 34785,
+   "sha256": "39e44f1f2deef85c795675c68060a161c70c53d9d2f1e89e121dc3b11049783f",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "8-K\n\nORACLE CORP\n\nNYSE\n\nDepositary Shares, each representing a 1/2,000th interest in a share of 6.50% Series D Mandatory Convertible Preferred Stock, par value $0.01 per\n\nNYSE\n\nfalse\n\n0001341439\n\n0001341439\n\n2026-11-02\n\n2026-11-02\n\n0001341439\n\nus-gaap:CommonStockMember\n\n2026-11-02\n\n2026-11-02\n\n0001341439\n\nus-gaap:SeriesDPreferredStockMember\n\n2026-11-02\n\n2026-11-02\n\nUNITED STATES\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nFORM \n8-K\n\nCURRENT REPORT\n\nPursuant to Section 13 OR 15(d)\n\nof the Securities Exchange Act of 1934\n\nDate of Report (Date of earliest event reported): \nNovember 2, 2026\n\nOracle Corporation\n\n(Exact name of registrant as specified in its charter)\n\nDelaware\n(State or other jurisdiction\nof incorporation)\n\n001-35992\n(Commission\nFile Number)\n\n54-2185193\n(IRS Employer\n\nIdentification No.)\n\n2300 Oracle Way\n, \nAustin\n, \nTexas\n\n78741\n\n(Address of principal executive offices) (Zip Code)\n\n(737)\n\n867-1000\n\n(Registrant’s telephone number, including area code)\n\nN/A\n\n(Former name or former address, if changed since last report.)\n\nCheck the appropriate box below if the Form \n8-K\n filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n\n☐\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n☐\n\nSoliciting material pursuant to Rule \n14a-12\n under the Exchange Act (17 CFR \n240.14a-12)\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n14d-2(b)\n under the Exchange Act (17 CFR \n240.14d-2(b))\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n13e-4(c)\n under the Exchange Act (17 CFR \n240.13e-4(c))\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\nTitle of each class\n\nTrading\nSymbol(s)\n\nName of each exchange\non which registered\n\nCommon Stock, par value $0.01 per share\n\nORCL\n\nNew York Stock Exchange\n\nDepositary Shares, each representing a 1/2,000th interest in a share of 6.50% Series D Mandatory Convertible Preferred Stock, par value $0.01 per share\n\nORCL-PRD\n\nNew York Stock Exchange\n\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule \n12b-2\n of the Securities Exchange Act of 1934 \n(§240.12b-2\n of this chapter).\n\nEmerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \n☐\n\nSection 8—Other Events \n\nItem 8.01\n\nOther Events \n\nIssuance of $10 Billion of Common Stock \n\nOn November 2, 2026, Oracle Corporation, a Delaware corporation (“Oracle”), entered into an underwriting agreement (the “Common Stock Underwriting Agreement”) with BofA Securities, Inc., as representative of the several underwriters named therein, pursuant to which Oracle agreed to issue and sell 86,206,897 shares of its common stock, par value $0.01 per share (the “Common Stock” and such offering, the “Common Stock Offering”). The Common Stock Offering closed on November 4, 2026. \n\nThe Common Stock Offering was made pursuant to Oracle’s automatic shelf registration statement on Form \nS-3\n (File \nNo. 333-299752),\n including the prospectus contained therein (the “Registration Statement”), filed with the Securities and Exchange Commission (the “SEC”) on November 2, 2026, and a related preliminary prospectus supplement dated November 2, 2026 and prospectus supplement dated November 2, 2026. \n\nThe foregoing description of the Common Stock Underwriting Agreement is not complete and is qualified in its entirety by reference to the full text of such agreement, a copy of which is filed herewith as Exhibit 1.1 to this Current Report on Form \n8-K\n and is incorporated herein by reference. \n\nIn connection with the Common Stock Offering, the legal opinion as to the legality of the Common Stock sold is being filed as Exhibit 5.1 to this Current Report on Form \n8-K\n and is incorporated herein and into the Registration Statement by reference. \n\nIssuance of $10 Billion Aggregate Principal Amount of Notes \n\nOn November 4, 2026, Oracle consummated the issuance and sale of $2,000,000,000 principal amount of its 7.000% Notes due 2029, $1,750,000,000 principal amount of its 7.450% Notes due 2031, $2,250,000,000 principal amount of its 7.850% Notes due 2033, $2,500,000,000 principal amount of its 8.000% Notes due 2037 and $1,500,000,000 principal amount of its 8.650% Notes due 2046 (collectively, the “Notes”), pursuant to an underwriting agreement dated November 2, 2026 by and between Oracle and BofA Securities, Inc., as representative of the several underwriters named therein (such offering, the “Notes Offering” and, together with the Common Stock Offering, the “Offerings”). The Notes were issued pursuant to an Indenture dated as of January 13, 2006 (the “Indenture”) among Oracle (formerly known as Ozark Holding Inc.), Oracle Systems Corporation (formerly known as Oracle Corporation) and Citibank, N.A., as amended by the First Supplemental Indenture dated as of May 9, 2007 (the “First Supplemental Indenture”) among Oracle, Citibank, N.A. and The Bank of New York Mellon Trust Company, N.A. (formerly known as The Bank of New York Trust Company, N.A.), as trustee, and an officers’ certificate issued pursuant thereto. \n\nThe Notes Offering was made pursuant to the Registration Statement and a related preliminary prospectus supplement dated November 2, 2026 and prospectus supplement dated November 2, 2026. \n\nThe material terms and conditions of the Notes are set forth in the Officers’ Certificate filed herewith as Exhibit 4.1 and incorporated by reference herein, in the Indenture filed as Exhibit 10.34 to the Current Report on Form \n8-K\n filed by Oracle Systems Corporation on January 20, 2006, and in the First Supplemental Indenture filed as Exhibit 4.3 to the Registration Statement on Form \nS-3\n filed by Oracle Corporation on May 10, 2007. \n\nIn connection with the Notes Offering, the legal opinion as to the legality of the Notes sold is being filed as Exhibit 5.2 to this Current Report on Form \n8-K\n and is incorporated herein and into the Registration Statement by reference. \n\nThe net proceeds of the Offerings will be used for general corporate purposes, which may include capital expenditures, repayment of indebtedness, future investments or acquisitions and payment of cash dividends on or repurchases of Common Stock. \n\nSection 9—Financial Statements and Exhibits \n\nItem 9.01\n\nFinancial Statements and Exhibits \n\n(d) Exhibits \n\nExhibit\nNo.\n\nDescription\n\n1.1\n\nCommon Stock Underwriting Agreement, dated as of November 2, 2026, by and among Oracle Corporation and BofA Securities, Inc. as representative of the several underwriters named therein. \n\n4.1\n\nForms of 7.000% Notes due 2029, 7.450% Notes due 2031, 7.850% Notes due 2033, 8.000% Notes due 2037 and 8.650% Notes due 2046, together with an Officers’ Certificate issued November 4, 2026 setting forth the terms of the Notes. \n\n5.1\n\nOpinion of Freshfields US LLP as to the validity of the Common Stock. \n\n5.2\n\nOpinion of Freshfields US LLP as to the validity of the Notes. \n\n23.1\n\nConsent of Freshfields US LLP (contained in Exhibit 5.1). \n\n23.2\n\nConsent of Freshfields US LLP (contained in Exhibit 5.2). \n\n104\n\nCover Page Interactive Data File (embedded within the Inline XBRL document).\n\nSIGNATURE \n\nPursuant to the requirements of the Securities Exchange Act of 1934, as amended, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. \n\nORACLE CORPORATION\n\nDated: November 4, 2026\n\nBy:\n\n/s/ Kimberly Woolley\n\nName:\n\nKimberly Woolley\n\nTitle:\n\nSenior Vice President, Assistant General Counsel and Assistant Secretary"
+  }
+ ]
+}

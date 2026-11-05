@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001193125-26-447656",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "BLACK HILLS CORP /SD/  (BKH)  (CIK 0001130464) 8-K — full-text hit \"large load\" tariff",
+ "filed": "2026-11-04",
+ "url": "https://www.sec.gov/Archives/edgar/data/1130464/000119312526447656/",
+ "entity": "BLACK HILLS CORP /SD/  (BKH)  (CIK 0001130464)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "8-K"
+ },
+ "collected_at": "2026-11-05T13:04:37Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

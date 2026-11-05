@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0000092122-26-000069",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "SOUTHERN CO  (SO, SOJC, SOJD, SOJE, SOJF, SOMN)  (CIK 0000092122), GEORGIA POWER CO  (CIK 0000041091) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-11-05",
+ "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000069/",
+ "entity": "SOUTHERN CO  (SO, SOJC, SOJD, SOJE, SOJF, SOMN)  (CIK 0000092122), GEORGIA POWER CO  (CIK 0000041091)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-05T13:04:37Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

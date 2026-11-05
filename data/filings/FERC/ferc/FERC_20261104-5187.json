@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261104-5187",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15249",
+ "title": "Lewis Ridge Pumped Storage, LLC submits data package for the Second Board of Consultants Meeting scheduled for 11/19/2026 through 11/20/2026 re the Lewis Ridge Pumped Storage Project under P-15249.",
+ "filed": "2026-11-04",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261104-5187",
+ "entity": "LEWIS RIDGE PUMPED STORAGE, LLC",
+ "fetch": [
+  {
+   "ferc_file": "706C8917-9037-CEBF-B351-A1A862D00000",
+   "name": "20261104 Lewis Ridge (P-15249)_BOC No 2 Agenda and Data Package Documentation_CEII.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "C92DFB7B-EAF7-C199-B9A4-A1A862D00000",
+   "name": "20261104 Lewis Ridge (P-15249)_BOC and FERC Comment Tracking Log_CEII.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "BF12FD47-38D5-CA0C-85D0-A1A862E00000",
+   "name": "Lewis Ridge_Risk Report_v1_2026-07-08.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "269BF890-B222-C941-8CDE-A1A862E00000",
+   "name": "Lewis Ridge_Upper Reservoir Spillway TM_v3_2026-04-20.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-11-04"
+ },
+ "collected_at": "2026-11-05T13:01:12Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '706C8917-9037-CEBF-B351-A1A862D00000', 'name': '20261104 Lewis Ridge (P-15249)_BOC No 2 Agenda and Data Package Documentation_CEII.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'C92DFB7B-EAF7-C199-B9A4-A1A862D00000', 'name': '20261104 Lewis Ridge (P-15249)_BOC and FERC Comment Tracking Log_CEII.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'BF12FD47-38D5-CA0C-85D0-A1A862E00000', 'name': 'Lewis Ridge_Risk Report_v1_2026-07-08.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '269BF890-B222-C941-8CDE-A1A862E00000', 'name': 'Lewis Ridge_Upper Reservoir Spillway TM_v3_2026-04-20.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

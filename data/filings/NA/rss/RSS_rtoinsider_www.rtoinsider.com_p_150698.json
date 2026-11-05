@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150698",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Data Centers Lose Big in Local Referenda",
+ "filed": "2026-11-05",
+ "url": "//www.rtoinsider.com/150698-2026-midterms-data-centers-lose-big-in-local-elections/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Of the 47 data center ballot measures in cities, towns and counties, 38 were approved by voters, according to a tracker. Votes are still being counted on six, while one was rejected by voters in the city of Harwood, N.D. \n The post  Data Centers Lose Big in Local Referenda  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-05T13:13:52Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

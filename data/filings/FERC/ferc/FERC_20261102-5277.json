@@ -46,5 +46,6 @@
    "url": "{'ferc_file': 'B22DA491-64DD-C400-9B0F-A19E18700000', 'name': 'Attachment 1-B (PRIV).pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-05T13:18:11Z"
 }

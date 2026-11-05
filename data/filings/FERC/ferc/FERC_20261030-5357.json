@@ -64,5 +64,6 @@
    "url": "{'ferc_file': '02B23F27-3EEA-CAED-8A6E-A19C3DE00000', 'name': '2014-10-22 ID3345_LOD_SG-19950_SHT1_RevD.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-05T13:18:35Z"
 }

@@ -1,0 +1,43 @@
+{
+ "id": "SEC:0001326160-26-000048",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Duke 8-K 8-K items 2.02,9.01",
+ "filed": "2026-11-05",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000048/",
+ "entity": "Duke",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000048/duk-20261105.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "9.01"
+  ],
+  "cik": "0001326160",
+  "market_participant": false
+ },
+ "collected_at": "2026-11-05T13:04:12Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000048/duk-20261105.htm",
+   "name": null,
+   "bytes": 36820,
+   "sha256": "5210af596f7e4fee10a983d22f73a95888275f5a275b80030dc27282bfc288ab",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "duk-20261105\n0001326160\nfalse\n0001326160\n2026-11-05\n2026-11-05\n0001326160\nus-gaap:CommonStockMember\n2026-11-05\n2026-11-05\n0001326160\nduk:JuniorSubordinatedDebentures5.625CouponDueSeptember2078Member\n2026-11-05\n2026-11-05\n0001326160\nduk:DepositaryShareMember\n2026-11-05\n2026-11-05\n0001326160\nduk:A310SeniorNotesDue2028Member\n2026-11-05\n2026-11-05\n0001326160\nduk:A385SeniorNotesDue2034Member\n2026-11-05\n2026-11-05\n0001326160\nduk:A3.75SeniorNotesDue2031Member\n2026-11-05\n2026-11-05\n0001326160\nduk:CorporateUnitsMember\n2026-11-05\n2026-11-05\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM \n8-K\n\nCURRENT REPORT\nPursuant to Section 13 or 15(d) of the\nSecurities Exchange Act of 1934\nDate of Report (Date of earliest event reported): \nNovember 5, 2026\n\nCommission File Number\nExact Name of Registrant as Specified in its Charter, State or other Jurisdiction of Incorporation,\nAddress of Principal Executive Offices, Zip Code, and Registrant's Telephone Number, Including Area Code\nIRS Employer Identification No.\n1-32853\nDUKE ENERGY CORPORATION\n20-2777218\n\n(a \nDelaware\n corporation)\n525 South Tryon Street\n\nCharlotte\n, \nNorth Carolina\n\n28202\n\n800-\n488-3853\n\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n☐\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n☐\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n☐\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n☐\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\nSECURITIES REGISTERED PURSUANT TO SECTION 12(b) OF THE ACT:\nRegistrant\nTitle of each class\nTrading Symbol(s)\nName of each exchange on which registered\nDuke Energy\nCommon Stock, $0.001 par value\nDUK\nNew York Stock Exchange LLC\nDuke Energy\n5.625% Junior Subordinated Debentures\nDUKB\nNew York Stock Exchange LLC\ndue September 15, 2078\nDuke Energy\nDepositary Shares\nDUK PR A\nNew York Stock Exchange LLC\neach representing a 1/1,000th interest in a share of 5.75% Series A Cumulative Redeemable Perpetual Preferred Stock, par value $0.001 per share\nDuke Energy\n3.10% Senior Notes due 2028\nDUK 28A\nNew York Stock Exchange LLC\nDuke Energy\n3.85% Senior Notes due 2034\nDUK 34\nNew York Stock Exchange LLC\nDuke Energy\n3.75% Senior Notes due 2031\nDUK 31A\nNew York Stock Exchange LLC\nDuke Energy\nCorporate Units\nDUKU\nNew York Stock Exchange LLC\n\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).  Emerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \no\nItem 2.02  Results of Operations and Financial Conditions.\n    On November 5, 2026, Duke Energy Corporation (the \"Corporation\") will issue and post a news release to its website (\nduke-energy.com/investors)\n\nannouncing its financial results for the third quarter ended September 30, 2026. A copy of this news release is attached hereto as Exhibit 99.1. The information in Exhibit 99.1 is being furnished pursuant to this Item 2.02. In accordance with General Instruction B.2 of Form 8-K, the information in Item 2.02 of this Current Report on Form 8-K, including Exhibit 99.1, shall not be deemed \"filed\" for the purposes of Section 18 of the Securities and Exchange Act of 1934, as amended, or otherwise subject to the liabilities of that section.\nItem 9.01  Financial Statements and Exhibits.\n(d) \nExhibits\n\n99.1  News Release to be issued by Duke Energy Corporation on \nNovember\n\n5\n, 2026 (furnished pursuant to Item 2.02).\n    104   Cover Page Interactive Data File (embedded within the Inline XBRL document).\nSIGNATURE\nPursuant to the requirements of the Securities and Exchange Act of 1934, the registrant has duly caused this Report to be signed on its behalf by the undersigned hereunto duly authorized.\nDUKE ENERGY CORPORATION\n/s/ ABIGAIL L. MOTSINGER\nAbigail L. Motsinger\nSenior Vice President, Chief Accounting Officer and Controller\nDated:\nNovember 5, 2026"
+  }
+ ]
+}

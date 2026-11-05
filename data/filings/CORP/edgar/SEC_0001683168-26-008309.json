@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001683168-26-008309",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "Tianci International, Inc.  (CIIT)  (CIK 0001557798) 10-K — full-text hit \"large load\" tariff",
+ "filed": "2026-11-04",
+ "url": "https://www.sec.gov/Archives/edgar/data/1557798/000168316826008309/",
+ "entity": "Tianci International, Inc.  (CIIT)  (CIK 0001557798)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-K"
+ },
+ "collected_at": "2026-11-05T13:04:37Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

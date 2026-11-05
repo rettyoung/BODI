@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:119-HR-5549:2026-07-14",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 5549",
+ "title": "Efficient Nuclear Licensing Hearings Act",
+ "filed": "2026-07-14",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/5549",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
+  "keywords": [
+   "nuclear"
+  ]
+ },
+ "collected_at": "2026-11-05T12:45:52Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

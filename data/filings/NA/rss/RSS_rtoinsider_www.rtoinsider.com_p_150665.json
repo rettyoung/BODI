@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150665",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Midterms Signal Looming Data Center Bans in Western States",
+ "filed": "2026-11-05",
+ "url": "//www.rtoinsider.com/150665-big-electoral-wins-for-governors-pushing-data-center-bans/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The data center industry can expect to see the pace of development slow dramatically, as several Western states are expected to consider statewide moratoriums after the midterm elections that saw Democrats win numerous governor’s races. \n The post  Midterms Signal Looming Data Center Bans in Western States  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-05T13:13:52Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

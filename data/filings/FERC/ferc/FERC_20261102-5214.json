@@ -55,5 +55,6 @@
    "url": "{'ferc_file': 'AF1A5D6F-A6AC-C0CE-8BAE-A19DD9300000', 'name': 'Hillside Dam_Part 12D PIR_Final.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-05T13:18:23Z"
 }

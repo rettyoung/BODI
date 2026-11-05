@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26112A016",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): Environmental Assessment and Finding of No Significant Impact for the Construction Permit and Environmental Review Exemptions for the Long Mott Generating Station [['Environmental Assessment']]",
+ "filed": "2026-11-04",
+ "entity": [
+  "NRC/NMSS"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2611/ML26112A016.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2611/ML26112A016.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26112A016",
+  "document_date": "2026-05-31"
+ },
+ "collected_at": "2026-11-05T12:57:48Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2611/ML26112A016.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2611/ML26112A016.pdf"
+  }
+ ]
+}

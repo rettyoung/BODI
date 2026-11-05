@@ -1,0 +1,26 @@
+{
+ "id": "BILL:PA:ocd-bill/2fba4216-fc0b-4b71-96de-451a7c758f91:2026-11-04T05:00:00+00:00",
+ "jur": "PA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 2888",
+ "title": "An Act establishing reporting and information submission requirements for hyperscale computer data centers operating in this Commonwealth; providing for alternative compliance payments, for energy plans, for water plans, for regional benefits plans, for ratepayer protections, for community benefit p",
+ "filed": "2026-11-04",
+ "url": "https://openstates.org/pa/bills/2025-2026/HB2888/",
+ "fetch": [],
+ "meta": {
+  "session": "2025-2026",
+  "latest_action": "Referred to Energy",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-05T12:51:24Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [
+  "data center",
+  "electric service agreement",
+  "hyperscale",
+  "ratepayer protection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

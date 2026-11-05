@@ -1,0 +1,44 @@
+{
+ "id": "SEC:0001839341-26-000028",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Core Scientific 8-K 8-K items 2.02,7.01,9.01",
+ "filed": "2026-11-05",
+ "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000028/",
+ "entity": "Core Scientific",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000028/core-20261105.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "7.01",
+   "9.01"
+  ],
+  "cik": "0001839341",
+  "market_participant": true
+ },
+ "collected_at": "2026-11-05T13:04:37Z",
+ "run_id": "2026-11-05-1245",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000028/core-20261105.htm",
+   "name": null,
+   "bytes": 36129,
+   "sha256": "e9d225f9311cf025ce13d5c029cb9332660c353c3c276cca859d4e2885484b51",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "core-20261105\n0001839341\nFALSE\nCore Scientific, Inc./tx\n0001839341\n2026-11-05\n2026-11-05\n0001839341\nus-gaap:CommonStockMember\n2026-11-05\n2026-11-05\n0001839341\ncore:WarrantExercisePriceOf6.81PerShareMember\n2026-11-05\n2026-11-05\n0001839341\ncore:WarrantExercisePriceOf0.01PerShareMember\n2026-11-05\n2026-11-05\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM \n8-K\nCURRENT REPORT\nPursuant to Section 13 or 15(d)\nof the Securities Exchange Act of 1934\nDate of Report (Date of earliest event reported): \nNovember 5, 2026\nCore Scientific, Inc. \n(Exact name of registrant as specified in its charter)\nDelaware\n001-40046\n86-1243837\n(State or other jurisdiction\nof incorporation)\n(Commission\nFile Number)\n(IRS Employer\nIdentification No.)\n838 Walker Road\n, \nSuite 21-2105\nDover\n, \nDelaware\n19904\n(Address of principal executive offices)\n(Zip Code)\nRegistrant’s telephone number, including area code: (\n512\n) \n402-5233\n(Former Name or Former Address, if Changed Since Last Report)\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligations of the registrant under any of the following provisions:\n\n☐\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n☐\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n\n☐\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n\n☐\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\nSecurities registered pursuant to Section 12(b) of the Act:\nTitle of each class\nTrading Symbol(s)\nName of each exchange on which registered\nCommon stock, par value $0.00001 per share\nCORZ\nThe Nasdaq Global Select Market\nWarrants, each whole warrant exercisable for one share of common stock at an exercise price of $6.81 per share\n\nCORZW\nThe Nasdaq Global Select Market\nWarrants, each whole warrant exercisable for one share of common stock at an exercise price of $0.01 per share\nCORZZ\nThe Nasdaq Global Select Market\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).\nEmerging growth company \n☐\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \n☐\nItem 2.02    Results of Operations and Financial Condition\nOn November 5, 2026, the Company issued a press release announcing its financial results for the third fiscal quarter ended September 30, 2026. A copy of the press release is furnished hereto as Exhibit 99.1 and is incorporated herein by reference.\nItem 7.01    Regulation FD Disclosure\nThe information contained in Item 2.02 is incorporated herein by reference.\nThe information in Items 2.02 and 7.01 of this Current Report on Form 8-K, including Exhibit 99.1, is furnished and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, nor shall it be deemed incorporated by reference in any filing made by the Company under the Securities Act of 1933, as amended, whether made before or after the date hereof, regardless of any general incorporation language in such filing.\nItem 9.01    Financial Statement and Exhibits\n(d) Exhibits:\nExhibit\nNo.\nDescription\n99.1\nPress Release dated \nNovember 5\n, 2026\n99.2\nCompany Presentation dated \nNovember 5\n, 2026\n104\nCover Page Interactive Data File (embedded within the Inline XBRL document).\nSIGNATURES \nPursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. \n\nCore Scientific, Inc.\nDated: November 5, 2026\nBy:\n/s/ Todd M. DuChene\nName:\nTodd M. DuChene\nTitle:\nChief Legal Officer and Chief Administrative Officer"
+  }
+ ]
+}
