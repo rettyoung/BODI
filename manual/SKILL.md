@@ -71,8 +71,23 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    (`select:AskUserQuestion`) and use it; only if it cannot be loaded, ask in plain text: "Ready to run the Grid
    Docket manual pass now? About 45–60 minutes in the browser pane; it may need you for a CAPTCHA." Options:
    "Run now" (full pass, then the audit), "Audit only" (about 5–10 minutes: step 9 alone, no browsing) and
-   "Skip this week". On "Run now" do steps 1–9; on "Audit only" go straight to step 9 and then stop. On
+   "Skip this week". On "Run now" do steps 0a–9; on "Audit only" do step 0a, then step 9, then stop. On
    "Skip" or no answer, stop without browsing and without writing anything.
+0a. **Shell preflight — before any browsing (added 2026-11-06).** The store audit (step 9) and the PDF
+   upgrade route (step 4d) need a shell on this computer, and that shell exists only for folders connected
+   to this session. Check now, while Rett is certainly present, not at step 9:
+   - Call `mcp__remote-devices__device_bash` (load it with ToolSearch if deferred; if only an
+     `enable__mcp__remote-devices__*` tool is listed, call it first) with `pwd && git --version && python3 --version`.
+   - If it answers "No folders are connected", call `device_request_folder_access` for the working folder
+     (default `~/BODI-audit`; create it on approval if it does not exist — it must not be inside a
+     OneDrive-synced folder) so Rett gets the approval prompt. If that tool is unavailable or he declines,
+     ask him in one line to choose **"+" → "Add folder"** beside the message box and pick or create
+     `~/BODI-audit`, and wait for the folder to appear before going on.
+   - If `git` or `python3` is missing, say so now (one line) and carry on browsing; step 9 will record
+     `not_run` with that error.
+   - Only if Rett declines a folder altogether, carry on browsing and record the refusal; step 9 then writes
+     `not_run` citing "Rett declined a folder at preflight". Never discover a missing folder for the first
+     time at step 9.
 1. **Work out what to read.**
    - `manual_queue.json` (written by each Sweep) lists per state: watched dockets with a `since` date (or
      `newest_document_held`), `new_case_terms`, `requests` (specific documents the cloud could not open) and
@@ -106,7 +121,44 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    **deferred list** in the session: every item set aside in step 4 or 5 goes on it as
    `{state, docket, what, url, why_deferred, needs_rett, est_minutes, first_queued}`. Check the clock at the
    end of each state and tell Rett in one line how much budget is left.
-3. **Run ID** = `YYYY-MM-DD-HHMM` (UTC) of the start.
+2a. **Run ID and progress file (progress file added 2026-11-06).** Run ID = `YYYY-MM-DD-HHMM` (UTC) of the
+   start. Immediately write `/GridDocket/manual/progress_<run_id>.json` (conflictBehavior `replace`;
+   the Sweep reads only `manual_*.json` manifests, so this file is never ingested):
+   `{"schema": "grid-docket-manual-progress-v1", "run_id", "started": "<UTC ISO>", "minutes_budget": 60,
+   "extensions": [], "states_done": [], "documents": 0, "new_cases": 0, "deferred_open": N,
+   "deferred_resolved_in_catchup": 0, "rett_asks": [], "last_update": "<UTC ISO>"}`.
+   Re-save it after every state file (step 4g), every catch-up item (5b) and every budget answer (5c): add
+   each extension `{"at", "choice"}`, each question put to Rett `{"at", "items", "answer"}`, and the running
+   counts. **Never keep the start time, budget or counts only in the conversation** — a long run loses them.
+   Steps 5c, 7 and 8 read their numbers back from this file, so `minutes_used` = now − `started`, never
+   `null`, and `finished` is the real clock time, not an estimate. If this file is missing at a later step,
+   re-create it from the state files already saved and say in the manifest's `notes` that the start time is
+   approximate.
+2b. **Backlog check (added 2026-11-06).** Before browsing, compute the backlog: days since the newest
+   complete manifest, the number of `carry_forward` items, the number of `escalate` items, and for each
+   state the days since `new_cases_since`. Also look in `/GridDocket/manual/` for files from a run that has
+   **no** complete manifest (an abandoned run, e.g. `progress_*.json` or state files with no
+   `manual_<run_id>.json`): their work is invisible to the Sweep and must be redone — list them for Rett.
+   If the newest complete manifest is more than 10 days old, or there are more than 15 carry-forward items,
+   tell Rett in two lines (what is owed, a realistic time estimate) and ask as a clickable choice: **"One long
+   pass"** (keep going until the list is empty, asking at each budget check), **"Priorities now, rest in a
+   second session"** (do the priority round, step 3, then stop at 5c and offer to resume) or **"Usual
+   60 minutes"**. Record the answer in the progress file.
+2c. **Ask for Rett's clicks up front (added 2026-11-06).** Before step 3, collect every item already known
+   to need him — `carry_forward` entries with reason `captcha` or a "needs Rett" note (PUCO "View Document"
+   clicks), the NC Cloudflare check, the IL image CAPTCHA, any queue request on a challenge-protected
+   portal — and put them to him **in one message**, each opened in its own tab, so he can click through them
+   in a row. Record the ask and each outcome in the progress file (`rett_asks`). Items that newly turn out to
+   need him later are still batched (step 4a) and asked in 5b. An item may be carried forward as `captcha`
+   only if a `rett_asks` entry shows he was asked about it and did not clear it.
+3. **Priority round — before any per-state routine reading (added 2026-11-06).** The per-state loop always
+   reaches the end of the run last, so the items that keep getting cut are worked first, across all states:
+   (1) every `carry_forward` item with `"escalate": true` or carried for two or more runs;
+   (2) the **new-case search** (step 4b) for every state whose `new_cases_since` is older than the newest
+       complete manifest's run date — the new-case search is the one thing no cloud route can ever see;
+   (3) named queue `requests` with a near deadline (a hearing, a comment or reply date within 14 days).
+   Save each state's file as soon as it has something (step 4g) and update the progress file. Then go on to
+   step 4 for the routine work; step 4 skips anything this round already did.
 4. **For each state, in the queue's order** (time box: 10 minutes per state). The time box **defers, it does
    not drop**: on overrun, save the state file with what you have, put every remaining item on the deferred
    list (not `carry_forward` yet), and move on. Do the same for any filing you list but choose not to open in
@@ -210,6 +262,14 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    extend the budget accordingly and return to 5b; ask again when the extension is used. On "Stop here",
    no answer within a few minutes, or if he has left, go to step 6. Never stop with budget left over and
    items remaining without asking this question.
+   **"Continue until done" means exactly that (added 2026-11-06).** After that answer there is no budget,
+   and the run may stop with items remaining only when Rett says stop, he stops answering, or this session
+   can no longer continue (the conversation is close to its limit, or tools start failing). In the last
+   case, **ask before stopping**, as a clickable choice: "This session is nearly full; N items remain.
+   Finish now so a fresh session can resume from pass_state.json, or keep going?" Options **"Finish and
+   resume in a new session"** and **"Keep going"**. Record the question and answer in the progress file and
+   use `stopped_by: "session_limit"` only with that record. Stopping silently with items left is never
+   allowed, whatever the reason.
 6. **Before the manifest, update `pass_state.json`** (replace; create it if missing):
    - `new_cases_since[STATE]`: advance it only through contiguous coverage. If this run's
      `new_cases_covered.from` is on or before the old value, set it to `new_cases_covered.to`; if it starts
@@ -230,12 +290,22 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
      Keep `first_queued` from the oldest earlier entry for the same item. An item carried forward for a third
      consecutive run gets `"escalate": true`, and the closing message names it.
    - `updated_by_run`: this run's id.
+6a. **Consistency check — before the manifest (added 2026-11-06).** Re-read every state file this run
+   saved and compare it with `pass_state.json`: each carry-forward item must have the **same reason** in its
+   state file's `carry_forward`, its `gaps` blocker and `pass_state.json`. Any `captcha` reason must match a
+   `rett_asks` entry in the progress file showing he was asked; if none exists, the reason is `time` or
+   `not_attempted`, whichever is true. Fix and re-save the state file where they disagree (never leave a
+   known mismatch for the manifest's notes to explain). Counts in the manifest (`documents`, `new_cases`,
+   `carried_forward`, `carried_forward_by_reason`) are computed from the saved files, not remembered.
 7. **Finish with the manifest — last, and only when every state was attempted:**
    `manual_<run_id>.json` with `"complete": true`. For every state not `ok`, `state_gaps[STATE]` says in
    one or two sentences what was attempted and what blocked it (from the state file's `gaps`); also give
    `carried_forward_by_reason` and the `escalated` items, plus
    `"budget": {"minutes_budget", "minutes_extended", "minutes_used", "deferred_total",
-   "deferred_resolved_in_catchup", "stopped_by": "list_empty | rett_stop | no_answer"}`.
+   "deferred_resolved_in_catchup", "stopped_by": "list_empty | rett_stop | no_answer | session_limit"}`,
+   every value read from the progress file (step 2a) — `minutes_used` and `finished` are never null or
+   rounded guesses. `session_limit` is allowed only when the progress file records Rett's answer to the
+   5c question. Name the progress file in the manifest's `notes`.
    The Sweep ignores a run without its manifest, so an abandoned run is simply invisible (start a new run next time; never edit an old one). An abandoned run
    does not update `pass_state.json`, so its coverage is simply redone.
 8. Tell Rett, in two or three lines: states covered, since-dates used, documents and new cases captured,
@@ -246,8 +316,8 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    browsing budget. It needs a shell on this computer with `git` and `python3` (the four scripts use the
    standard library only). Rett is present, so if the session asks him to approve a command, tell him in one
    line what it runs and why before he answers.
-   a. **Repo.** In the session's working folder (never inside a OneDrive-synced or connected user folder's
-      tracked files), `git clone --depth 1 https://github.com/rettyoung/BODI.git` (or `git pull` an existing
+   a. **Repo.** In the folder connected at preflight (step 0a; default `~/BODI-audit`, never inside a
+      OneDrive-synced folder), `git clone --depth 1 https://github.com/rettyoung/BODI.git` (or `git pull` an existing
       clone). Never commit, branch or push. Work only in `store_live/`, `out/` and `work/` in the clone.
    b. **Load the store** into `store_live/` exactly as `prompts/store_io.md` LOAD (L1–L5) says: the three
       OneDrive folder listings, `/GridDocket/store_manifest.json`, then the STORE MIRROR artifact if the
@@ -271,7 +341,8 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
       Also compare by hand: the run record's `status` against `check_run.py`'s verdict, and
       `store_manifest.json`'s `by` against the newest Sweep or Brief run (a stale manifest means the mirror
       publish failed).
-   e. **If the shell, git or python is unavailable, or a command is refused,** do not work around it: write
+   e. **If the shell, git or python is unavailable, or a command is refused,** (which step 0a should have
+      caught while Rett was present) do not work around it: write
       the audit file with `"status": "not_run"` and the exact error, and tell Rett in the closing message.
    f. **Write `/GridDocket/manual/audit_<run_id>.json`** (conflictBehavior `fail`; this skill's run_id, or a
       new one on "Audit only") — the text of a local file, uploaded with expectedBytes:
