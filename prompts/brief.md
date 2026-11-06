@@ -58,6 +58,7 @@ STEP 2 — STATUS CHECK
       - the email body's FIRST line, above LINKS, is "Sweep incomplete: <each problem>" (Step 7);
       - if the record says "completed" while incomplete, status is RED ("[Status] " subject prefix) — a Sweep that misreports itself is a source failing silently.
     STORE MIRROR: store_live/_onedrive_manifest.json "by" must equal the Sweep's run_id (sweep.md 9.5). If it does not (or there is no manifest), add an AMBER item "Store mirror not updated by the Sweep" with the mirror version you loaded and what L5 had to fetch from OneDrive; it is not a Sweep-incomplete item unless the run record claims 9.5 was done.
+    MANUAL PASS (added 2026-11-06): the Sweep's run record holds manual_check (sweep.md 5.2b) for each manual run it ingested. Any run with ok false is an AMBER item {"b": "Manual pass incomplete", "t": "<run_id>: <each problem, plainly>"}, placed right after any Sweep-incomplete item, and the email carries the line "Manual pass incomplete: <run_id> — <problems>" above LINKS (Step 7 item 0). A manifest the pass marked complete is never called complete in the email if its check failed. Record it in the brief record as manual_audit.
     Record the verdict in the brief record (Step 8) as sweep_audit. If the Sweep did not run (P1), this step is replaced by the failure notice.
 From the last 4 run records (/GridDocket/runs/) and data/health/ for the last 7 nights in the clone:
   GREEN all reporting | AMBER deferrals (DEFERRED_NEEDS_MANUAL), OCR backlog, read backlog, CANARY_MISS or COLLECTOR_GAP (a night with no complete collector run; caught up the next night), but nothing silent | RED URL drift, SUSPECT_ZERO, ACCESS_REGRESSION on a primary source, open circuit, COLLECTOR_STALE, or a source failing every night.
@@ -105,7 +106,7 @@ STEP 7 — EMAIL
 To rett.young@blueowl.com only. No cc, no bcc.
 SUBJECT: Utility Tracker — <D Mon> · <N> high-impact · <three shortest item descriptors>. Prefix "[Status] " when RED; "[No sweep] " for the P1 failure notice.
 BODY: HTML, phone-readable, 400 words target, 600 ceiling (the LINKS block does not count toward it). Sections in this order (Rett, 5 Oct 2026):
-  0. Only when Step 2.0 found the Sweep incomplete: one bold line ABOVE the links, "Sweep incomplete: <each problem>" (Rett, 13 Oct 2026). It repeats in STATUS CHECK with the detail.
+  0. Only when Step 2.0 found the Sweep incomplete: one bold line ABOVE the links, "Sweep incomplete: <each problem>" (Rett, 13 Oct 2026). It repeats in STATUS CHECK with the detail. Likewise, when Step 2.0 found a manual pass incomplete: one bold line "Manual pass incomplete: <run_id> — <problems>", below the Sweep line if both.
   1. LINKS — first, always, exactly these three lines (C = https://claude.ai/artifact/JJ8FYdvfZ2WPg6r4UpFXbW):
        <a href="C#dl.xlsx">Excel tracker (.xlsx)</a> — direct download of the full master workbook
        <a href="C#dl.pdf">Weekly narrative (.pdf)</a> — direct download of this week's report

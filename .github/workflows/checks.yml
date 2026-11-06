@@ -19,6 +19,7 @@ jobs:
       - run: python tests/test_check_run.py
       - run: python tests/test_store_sync.py
       - run: python tests/test_shortlist.py
+      - run: python tests/test_manual_check.py
       - name: Brief corrections file is valid
         run: python -c "import json; d=json.load(open('prompts/brief_corrections.json')); ids=[i['id'] for i in d['items']]; assert len(ids)==len(set(ids)); assert all(i.get('line') for i in d['items']); print(len(ids), 'corrections')"
       - name: Every required step is named in sweep.md

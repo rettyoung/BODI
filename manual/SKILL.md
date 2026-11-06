@@ -73,6 +73,11 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    "Run now" (full pass, then the audit), "Audit only" (about 5–10 minutes: step 9 alone, no browsing) and
    "Skip this week". On "Run now" do steps 0a–9; on "Audit only" do step 0a, then step 9, then stop. On
    "Skip" or no answer, stop without browsing and without writing anything.
+   **Resume (added 2026-11-06).** If the newest complete manifest has `stopped_by: "session_limit"` and
+   finished within the last 24 hours, a session was handed over (step 5c): offer **"Resume"** as the first
+   option, whether or not a schedule started this session. Resume is a normal "Run now" with two
+   differences: skip the backlog question in 2b (Rett already chose to keep going) and the clicks already
+   cleared in that run's `rett_asks`; the carry-forward list in `pass_state.json` is the work.
 0a. **Shell preflight — before any browsing (added 2026-11-06).** The store audit (step 9) and the PDF
    upgrade route (step 4d) need a shell on this computer, and that shell exists only for folders connected
    to this session. Check now, while Rett is certainly present, not at step 9:
@@ -88,6 +93,16 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    - Only if Rett declines a folder altogether, carry on browsing and record the refusal; step 9 then writes
      `not_run` citing "Rett declined a folder at preflight". Never discover a missing folder for the first
      time at step 9.
+   - **The store, synced (added 2026-11-06, evening).** The audit and the step 6b check read the store as
+     files on this computer, copied byte for byte — never through this conversation (the 6 Nov evening
+     audit refused, rightly, to retype ~500 KB). OneDrive syncs `/GridDocket/` to this computer; that synced
+     folder must also be connected. Look for it with `device_bash` in the connected folders, or ask Rett to
+     add it (**"+" → "Add folder"**: his OneDrive → `Documents` → `GridDocket`). It is the system of
+     record: **read it and copy from it only — never create, change, move or delete anything inside it**
+     (a write there syncs straight into the store). If it is not synced to this computer, say so in one line;
+     step 9 then writes `not_run` with that reason.
+   - **Clone the repo now** into the working folder (`git clone --depth 1 https://github.com/rettyoung/BODI.git`,
+     or `git pull`), so `tracker/manual_check.py` is ready for step 6b. Never commit or push.
 1. **Work out what to read.**
    - `manual_queue.json` (written by each Sweep) lists per state: watched dockets with a `since` date (or
      `newest_document_held`), `new_case_terms`, `requests` (specific documents the cloud could not open) and
@@ -270,6 +285,17 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    resume in a new session"** and **"Keep going"**. Record the question and answer in the progress file and
    use `stopped_by: "session_limit"` only with that record. Stopping silently with items left is never
    allowed, whatever the reason.
+   **Hand over early, not at the wall (added 2026-11-06, evening).** One session cannot hold a whole
+   backlogged pass: every page, PDF and screenshot stays in the conversation (the 6 Nov evening pass hit the
+   limit after 51 minutes, already compacted once). So the first time this session's context is compacted,
+   or when it is plainly long, finish the item in hand, save its state file, and ask the question above
+   then — do not wait until the session can barely write its files. On "Finish and resume", do steps 6–8
+   normally (the manifest is complete; the Sweep ingests what is done), and end the closing message with:
+   "Start a new task, add the two folders, type /grid-docket-manual-pass and choose Resume." A resumed
+   session can be handed over again; each hand-over is a separate complete run.
+   **Stop record.** Whenever the run stops with any item left — by Rett's choice, no answer or the session
+   limit — write `"stop": {"at", "reason", "asked": true|false, "answer"}` into the progress file first.
+   Step 6b fails a run that stopped without one.
 6. **Before the manifest, update `pass_state.json`** (replace; create it if missing):
    - `new_cases_since[STATE]`: advance it only through contiguous coverage. If this run's
      `new_cases_covered.from` is on or before the old value, set it to `new_cases_covered.to`; if it starts
@@ -297,6 +323,22 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    `not_attempted`, whichever is true. Fix and re-save the state file where they disagree (never leave a
    known mismatch for the manifest's notes to explain). Counts in the manifest (`documents`, `new_cases`,
    `carried_forward`, `carried_forward_by_reason`) are computed from the saved files, not remembered.
+6b. **Mechanical check — before the manifest (added 2026-11-06, evening).** Draft the manifest (step 7) to
+   a file in the working folder, not to OneDrive. Then, in the shell, copy the run's files from the synced
+   `GridDocket\manual` folder (step 0a) into the working folder — `manual_<run_id>_*.json`,
+   `progress_<run_id>.json`, `pass_state.json` — and check each copy's size against the OneDrive listing
+   of `/GridDocket/manual/` (sync can lag a minute or two; wait and copy again until every size matches,
+   up to 5 minutes). Run:
+   `python tracker/manual_check.py --dir <copies> --run <run_id> --manifest <draft> --json`
+   - Exit 0: write the manifest to OneDrive (step 7) from the draft file, unchanged.
+   - Exit 1: fix what it names — a reason, a count, a missing stop record — in the state files, progress
+     file or `pass_state.json` (re-save them to OneDrive), copy again, re-run. A problem that is true
+     (e.g. "continue until done" chosen and items left with nobody asked) is not fixed by editing the
+     record: ask Rett now, record the answer, then re-run. Never change a record to make the check pass
+     when the record was right.
+   - If the check cannot run (no synced folder, no shell, sync never catches up), say so in the manifest's
+     `notes` with the exact reason; the Monday Sweep runs the same check (sweep.md 5.2b) either way.
+   Record the final verdict in the manifest as `"check": {"exit", "problems"}`.
 7. **Finish with the manifest — last, and only when every state was attempted:**
    `manual_<run_id>.json` with `"complete": true`. For every state not `ok`, `state_gaps[STATE]` says in
    one or two sentences what was attempted and what blocked it (from the state file's `gaps`); also give
@@ -319,11 +361,20 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    a. **Repo.** In the folder connected at preflight (step 0a; default `~/BODI-audit`, never inside a
       OneDrive-synced folder), `git clone --depth 1 https://github.com/rettyoung/BODI.git` (or `git pull` an existing
       clone). Never commit, branch or push. Work only in `store_live/`, `out/` and `work/` in the clone.
-   b. **Load the store** into `store_live/` exactly as `prompts/store_io.md` LOAD (L1–L5) says: the three
-      OneDrive folder listings, `/GridDocket/store_manifest.json`, then the STORE MIRROR artifact if the
-      Artifact tool is available here, `python tracker/store_sync.py verify`, and OneDrive reads (saved
-      results via `extract`, inline ones written exactly and confirmed with `check`) for every file it names.
-      Do not retype loosely; a file that cannot be loaded exactly is recorded as a FAIL with its reason.
+   b. **Load the store from the synced folder (rewritten 2026-11-06, evening).** Never move store files
+      through this conversation — not by reading and retyping them, not in pieces. In the shell:
+      1. Copy the synced `GridDocket` folder (step 0a; read only) into `store_live/` in the clone: the top-level
+         files, `runs/` and `manual/` (e.g. `cp -r "<synced GridDocket>/." store_live/`, or `robocopy` on
+         Windows). Copying out is the only thing ever done to the synced folder.
+      2. Read the OneDrive listings of `/GridDocket/` and `/GridDocket/runs/` with the connector (two short
+         listings — the only store-related text that passes through the conversation) and write each to a
+         text file in `work/`; then `python tracker/store_sync.py listing work/top.txt --out store_live/_listing.json`
+         and `python tracker/store_sync.py listing work/runs.txt --prefix runs/ --out store_live/_listing.json`.
+      3. `cp store_live/store_manifest.json store_live/_onedrive_manifest.json`, then
+         `python tracker/store_sync.py verify store_live --listing store_live/_listing.json --manifest store_live/_onedrive_manifest.json --json`.
+         A FETCH line means the synced copy differs from OneDrive (sync behind, or a file still cloud-only):
+         wait a minute and copy that file again, up to 5 minutes. A file that still fails is a FAIL with its
+         reason — never fetched another way.
    c. **Which Sweep runs to audit:** every Sweep run record in `/GridDocket/runs/` newer than the newest
       `run_id` listed in `audited_runs` of the latest `/GridDocket/manual/audit_*.json` (first audit: the
       newest two run records).
