@@ -105,8 +105,14 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
      record: **read it and copy from it only — never create, change, move or delete anything inside it**
      (a write there syncs straight into the store). If it is not synced to this computer, say so in one line;
      step 9 then writes `not_run` with that reason.
-   - **Clone the repo now** into the working folder (`git clone --depth 1 https://github.com/rettyoung/BODI.git`,
-     or `git pull`), so `tracker/manual_check.py` is ready for step 6b. Never commit or push.
+   - **Get the repo's code now**, so `tracker/manual_check.py` is ready for step 6b. If the shell can reach
+     GitHub, `git clone --depth 1 https://github.com/rettyoung/BODI.git` into the working folder (or `git pull`
+     an existing clone). **This laptop's shell has no internet access (found 2026-11-06)**: then use the
+     `BODI` folder already in the working folder as it is — a copy of the repo's code, stamped with its
+     commit in `BODI/COMMIT` — and record that commit in the audit file's `repo_commit`. If the copy lacks a
+     script a step needs, or Rett says the repo's scripts changed, say so in one line: a cloud session linked
+     to this computer can copy a fresh one across. Never commit or push, and never work around the missing
+     network (no proxies, no other download route).
 1. **Work out what to read.**
    - `manual_queue.json` (written by each Sweep) lists per state: watched dockets with a `since` date (or
      `newest_document_held`), `new_case_terms`, `requests` (specific documents the cloud could not open) and
@@ -362,9 +368,8 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    browsing budget. It needs a shell on this computer with `git` and `python3` (the four scripts use the
    standard library only). Rett is present, so if the session asks him to approve a command, tell him in one
    line what it runs and why before he answers.
-   a. **Repo.** In the folder connected at preflight (step 0a; default `~/BODI-audit`, never inside a
-      OneDrive-synced folder), `git clone --depth 1 https://github.com/rettyoung/BODI.git` (or `git pull` an existing
-      clone). Never commit, branch or push. Work only in `store_live/`, `out/` and `work/` in the clone.
+   a. **Repo.** The code from step 0a: the clone, or the `BODI` copy in the working folder when the shell has
+      no network. Never commit, branch or push. Work only in `store_live/`, `out/` and `work/` inside it.
    b. **Load the store from the synced folder (rewritten 2026-11-06, evening).** Never move store files
       through this conversation — not by reading and retyping them, not in pieces. In the shell:
       1. Copy the synced `GridDocket` folder (step 0a; read only) into `store_live/` in the clone: the top-level
