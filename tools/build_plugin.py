@@ -45,7 +45,9 @@ def main(argv=None):
     try:
         commit = subprocess.check_output(["git", "-C", ROOT, "rev-parse", "--short", "HEAD"], text=True).strip()
     except (OSError, subprocess.CalledProcessError):
-        commit = "unknown"
+        # a copy of the repo without .git (e.g. unpacked on a computer with no GitHub access) carries COMMIT
+        cf = os.path.join(ROOT, "COMMIT")
+        commit = open(cf).read().strip() if os.path.exists(cf) else "unknown"
     dest = os.path.join(a.out, "utility-tracker-tools")
     if os.path.exists(dest):
         shutil.rmtree(dest)
