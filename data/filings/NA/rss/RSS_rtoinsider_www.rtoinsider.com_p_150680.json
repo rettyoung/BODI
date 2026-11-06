@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150680",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Ohio Advocates Press FERC to Protect Ratepayers in Data Center Study Agreement",
+ "filed": "2026-11-06",
+ "url": "//www.rtoinsider.com/150680-ohio-advocates-press-ferc-protect-ratepayers-data-center-study/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Ohio’s ratepayer advocate is urging FERC to erect strong customer safeguards before allowing PJM to proceed with a largely untested approach to assess the expected transmission needs of a mammoth data center complex in the south of the state. \n The post  Ohio Advocates Press FERC to Protect Ratepayers in Data Center Study Agreement  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-06T12:53:37Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

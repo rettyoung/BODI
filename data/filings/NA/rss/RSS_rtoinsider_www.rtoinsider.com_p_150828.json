@@ -1,0 +1,29 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150828",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "DTE Selling Vantage to Focus on Electricity, Data Centers",
+ "filed": "2026-11-05",
+ "url": "//www.rtoinsider.com/150828-dte-selling-vantage-focus-on-electricity-data-centers/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " DTE Energy is selling its energy solutions business to sharpen its focus instead on regulated utility operations as it courts large load customers. \n The post  DTE Selling Vantage to Focus on Electricity, Data Centers  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-06T12:53:37Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "data center",
+  "large load"
+ ],
+ "party_hits": [
+  "Vantage"
+ ],
+ "documents": []
+}

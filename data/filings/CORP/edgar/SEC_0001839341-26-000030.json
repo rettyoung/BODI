@@ -1,0 +1,24 @@
+{
+ "id": "SEC:0001839341-26-000030",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "Core Scientific, Inc./tx  (CORZ, CORZR, CORZW, CORZZ)  (CIK 0001839341) 10-Q — full-text hit \"data center\" \"electric service agreement\"",
+ "filed": "2026-11-05",
+ "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000030/",
+ "entity": "Core Scientific, Inc./tx  (CORZ, CORZR, CORZW, CORZZ)  (CIK 0001839341)",
+ "fetch": [],
+ "meta": {
+  "query": "\"data center\" \"electric service agreement\"",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-06T12:44:38Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

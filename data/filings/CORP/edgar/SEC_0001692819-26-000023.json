@@ -1,0 +1,45 @@
+{
+ "id": "SEC:0001692819-26-000023",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Vistra 8-K 8-K items 2.02,9.01",
+ "filed": "2026-11-06",
+ "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/",
+ "entity": "Vistra",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20261106.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "9.01"
+  ],
+  "cik": "0001692819",
+  "market_participant": true
+ },
+ "collected_at": "2026-11-06T12:44:23Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [],
+ "party_hits": [
+  "Vistra"
+ ],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20261106.htm",
+   "name": null,
+   "bytes": 33263,
+   "sha256": "532d3359c515909c5c883eb06131ad6228210e41b44a066fd16f43bff8da3297",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "vistra-20261106\nFALSE\n0001692819\nNYSETX\n0001692819\n2026-11-06\n2026-11-06\n0001692819\nexch:XNYS\n2026-11-06\n2026-11-06\n0001692819\nexch:XCHI\n2026-11-06\n2026-11-06\n\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, DC 20549\nFORM \n8-K\nCURRENT REPORT\nPursuant to Section 13 or 15(d)\nof the Securities Exchange Act of 1934\nDate of Report (Date of earliest event reported): \nNovember 6, 2026\nVISTRA CORP.\n(Exact name of registrant as specified in its charter)\nDelaware\n001-38086\n36-4833255\n(State or other jurisdiction of incorporation or organization)\n(Commission File Number)\n(I.R.S. Employer Identification No.)\n6555 Sierra Drive,\nIrving,\nTexas\n75039\n(214)\n812-4600\n(Address of principal executive offices) (Zip Code)\n(Registrant's telephone number, including area code)\nN/A\n(Former name or former address, if changed since last report)\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n☐\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n☐\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.l4a-12)\n☐\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240. 14d-2(b))\n☐\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\nSecurities registered pursuant to Section 12(b) of the Act:\nTitle of Each Class\nTrading Symbol(s)\nName of Each Exchange on Which Registered\nCommon stock, par value $0.01 per share\nVST\nNew York Stock Exchange\nNYSE Texas\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).\nEmerging growth company \n\n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\nItem 2.02.\nResults of Operations and Financial Condition.\nOn November 6, 2026, Vistra Corp. (the “Company”) issued a news release announcing, among other matters, its financial results for the quarter ended September 30, 2026. A copy of such news release is furnished herewith as Exhibit 99.1 to this Current Report on Form 8-K. In accordance with General Instruction B.2 of Form 8-K, the information set forth in this Item 2.02 and in the attached Exhibit 99.1 is deemed to be furnished and shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”).\nItem 9.01.\nFinancial Statements and Exhibits.\n(d)    Exhibits.\nExhibit No.\nDescription\n99.1\nNews release dated November 6, 2026\n104\nThe cover page from this Current Report on Form 8-K, formatted in Inline XBRL\nSIGNATURES\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.\nVistra Corp.\nDated: November 6, 2026\n/s/ Margaret Montemayor\nName:\nMargaret Montemayor\nTitle:\nSenior Vice President and Chief Accounting Officer"
+  }
+ ]
+}

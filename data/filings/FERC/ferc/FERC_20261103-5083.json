@@ -65,5 +65,6 @@
    "url": "{'ferc_file': '78B95B0A-E343-C4D8-90A3-A1A26A000000', 'name': '2026-11-03 ENCL 1C TB Concrete Testing Plan CEII TF.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-06T12:58:32Z"
 }

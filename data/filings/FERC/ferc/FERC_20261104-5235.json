@@ -1,0 +1,52 @@
+{
+ "id": "FERC:20261104-5235",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "EG27-30",
+ "title": "Cheyenne Power Hub, LLC submits Notice of Self–Certification of Exempt Wholesale Generator Status under EG27-30.",
+ "filed": "2026-11-04",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261104-5235",
+ "entity": "Cheyenne Power Hub, LLC",
+ "fetch": [
+  {
+   "ferc_file": "78CFD7C8-872D-C8E1-9F16-A1AC43700000",
+   "name": "Cheyenne Power Hub Notice of EWG Self-Certification.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Exempt Wholesale Generator Request"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-04"
+ },
+ "collected_at": "2026-11-06T12:40:52Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "ESA",
+  "co-located",
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "Cheyenne Power Hub Notice of EWG Self-Certification.pdf",
+   "bytes": 363615,
+   "sha256": "4455069b1397d0e656b6aff906a2ab47769308608c079f8e2763bd20b9d809ea",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "                                   UNITED STATES OF AMERICA\n                                          BEFORE THE\n                            FEDERAL ENERGY REGULATORY COMMISSION\n\nCheyenne Power Hub, LLC                       )                       Docket No. EG27-___-000\n\n                               NOTICE OF SELF-CERTIFICATION OF\n                             EXEMPT WHOLESALE GENERATOR STATUS\n\n        Pursuant to section 366.7(a) of the Federal Energy Regulatory Commission’s\n(“Commission”) rules,1 Cheyenne Power Hub, LLC (“CPH”) hereby submits this notice of self-\ncertification that it is an exempt wholesale generator (“EWG”) as defined in section 366.1 of the\nCommission’s rules.2 In support of this notice, CPH states as follows:\n\nI.         CORRESPONDENCE AND COMMUNICATIONS\n\n       All communications and correspondence regarding this notice should be sent to the\nfollowing persons who are authorized to receive service:\n\n    L. Drew Cutright                              Shannon P. Coleman\n    Vice President – Regulatory Affairs           Senior Vice President & Assoc. General\n    Tallgrass Energy, LP                          Counsel\n    370 Van Gordon Street                         Tallgrass Energy, LP\n    Lakewood, CO 80228                            370 Van Gordon Street\n    303-763-3438                                  Lakewood, CO 80228\n    drew.cutright@tallgrass.com                   303-763-3287\n                                                  shannon.coleman@tallgrass.com\n    Jeffrey M. Jakubiak\n    Melinda J. Warner\n    Vinson & Elkins LLP\n    1114 Avenue of the Americas, 32nd Floor\n    New York, NY 10036-7708\n    212-237-0082\n    jjakubiak@velaw.com\n    mwarner@velaw.com\n\nII.        DESCRIPTION OF THE CPH\n\n        CPH is a Delaware limited liability company that has been formed specifically to\ndevelop, own, and operate an approximately 1,400 MW natural gas-fired generating facility and\nassociated interconnection assets (the “Facility”) that will be integrated with a co-located data\ncenter in Laramie County, Wyoming. The Facility is estimated to begin generating electricity in\nthe fourth quarter of 2028. CPH is an indirect, wholly-owned subsidiary of Tallgrass Energy\n\n1\n    18 C.F.R. § 366.7(a).\n2\n    Id. § 366.1.\n\fPartners, LP, a Delaware limited partnership (“Tallgrass”) that owns, operates, acquires, and\ndevelops midstream energy infrastructure in North America. Tallgrass operates over 10,000\nmiles of oil, natural gas, water, and carbon dioxide pipelines across fourteen states, including\ncertain jurisdictional natural gas pipeline and oil pipeline assets. However, Tallgrass is not an\nelectric utility company as defined in section 366.1 of the Commission’s regulations.\n\n        The Facility will be comprised of natural gas-fired generators and associated facilities\nand equipment necessary for the generation of power at wholesale. The Facility will also include\nelectric interconnection facilities necessary to effectuate CPH’s wholesale power sales from the\nFacility. The Facility will be interconnected with the transmission system owned by Cheyenne\nLight, Fuel and Power Company d/b/a Black Hills Energy.\n\nIII.      REPRESENTATIONS REGARDING EXEMPT WHOLESALE GENERATOR\n          STATUS\n\n       a. CPH will, directly, or indirectly through one or more affiliates as defined in section 366.1\n          of the Commission’s regulations, be engaged exclusively in the business of owning and\n          operating all or part of one or more eligible facilities and selling electric energy at\n          wholesale, and activities incidental thereto.\n\n       b. The Facility is an “eligible facility” because (i) it is used for the generation of electric\n          energy exclusively for sale at wholesale; and (ii) it includes only those interconnecting\n          transmission facilities that are necessary to effect a sale of electric energy at wholesale. 3\n\n       c. All of the electric energy generated by the Facility will be sold directly within the United\n          States of America exclusively at wholesale. CPH will not make any foreign sales of\n          electric energy. CPH will not sell electricity at retail to any customer.\n\n       d. There are no leasing arrangements involving the Facility and any public utility company\n          or any affiliate or associate company of any public utility company.\n\n       e. No portion of the Facility will be owned or operated by an “electric utility company” that\n          is an “affiliate” or “associate company” of CPH, as defined in section 366.1 of the\n          Commission’s regulations.\n\n       f. No rate or charge for, or in connection with, the construction of the Facility, or for\n          electric energy produced by the Facility was in effect under the laws of any state on\n          October 24, 1992. Therefore, no determinations by a state commission are necessary for\n          this Notice of Self-Certification to become effective.\n\n\n\n\n3\n  See Cheyenne Power Hub, LLC, 197 FERC ¶ 61,083 at P 13 (2026) (“We find that the CPH Interconnection\nFacilities qualify as limited and discrete because they connect to a single point of interconnection on BHE’s\nintegrated transmission grid and there is no evidence in the record that the CPH Interconnection Facilities serve\nbroader network functions.”).\n\n                                                          2\n\fIV.    STATE COMMISSION NOTIFICATION\n\n        As required by section 366.7(a)(1) of the Commission’s regulations, a copy of this Notice\nof Self-Certification has been filed with the State of Wyoming Public Service Commission, the\nstate regulatory authority of the state in which the Facility is located.\n\nV.     CONCLUSION\n\n      For the reasons set forth in this notice of self-certification, CPH satisfies the requirements\nfor EWG status.\n\nRespectfully submitted,\n\n\n\n\nL. Drew Cutright\nVice President – Regulatory Affairs\nTallgrass Energy, LP\n\nAuthorized Representative of Cheyenne Power Hub, LLC\n\nDated: November 4, 2026\n\n\n\n\n                                                 3\n\f"
+  }
+ ]
+}

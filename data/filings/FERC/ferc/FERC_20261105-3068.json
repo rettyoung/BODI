@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261105-3068",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER26-1929",
+ "title": "Letter order accepting Tri-State Generation and Transmission Association, Inc.'s 09/09/2026 filing of revisions to its High Impact Load Tariff memorializing the commitment to file a non-conforming High Impact Load Agreement, etc. under ER26-1929.",
+ "filed": "2026-11-05",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261105-3068",
+ "entity": "SECRETARY OF THE COMMISSION, FERC; COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION)",
+ "fetch": [
+  {
+   "ferc_file": "3FEF5DDB-E7F2-C19F-94EA-A1AD5C300000",
+   "name": "ER26-1929-002.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Order/Opinion",
+    "documentType": "Commission Order/Opinion"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-11-05"
+ },
+ "collected_at": "2026-11-06T12:40:58Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "ESA",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "ER26-1929-002.docx",
+   "bytes": 52645,
+   "sha256": "ec53efb12bc06f78160176b30f1c3f4406bde8d6d84922329b903a47cae85179",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "197 FERC ¶ 61,095\nFEDERAL ENERGY REGULATORY COMMISSION\nWASHINGTON, DC 20426\n\nNovember 5, 2026\n\n\nIn Reply Refer To:\nTri-State Generation and Transmission Association, Inc. \nDocket No. ER26-1929-002\n\nWillkie Farr & Gallagher LLP\n1875 K Street, NW\nWashington, DC  20006\n\nAttention:  Fredrick Wilson\n\nDear Mr. Wilson:\n\nOn September 9, 2026, Tri-State Generation and Transmission Association, Inc. (Tri-State) submitted revisions to its High Impact Load (HIL) Tariff (HIL Tariff) memorializing the commitment to file a non-conforming HIL Agreement, when required, in compliance with the directives in the Commission’s order issued on August 14, 2026.  As discussed below, we accept Tri-State’s compliance filing, effective July 16, 2026, as requested.\nOn August 28, 2025, in Docket No. ER25-3316-000, Tri-State proposed to establish a HIL Tariff to address its concerns regarding the rapid growth of large loads.  The Commission rejected Tri-State’s proposal because it represented an “impermissible intrusion on retail rate regulation” and thus was not subject to the Commission’s authority under section 205 of the Federal Power Act.  The Commission also identified concerns that Tri-State should consider addressing if it chose to refile a modified version of the HIL Tariff.\nOn March 26, 2026, as supplemented on June 16, 2026, Tri-State filed a modified version of the HIL Tariff, asserting that its modified version addressed the jurisdictional issues and Commission’s concerns identified in the Order Rejecting Initial Filing.  The Commission accepted Tri-State’s modified version of the HIL Tariff and pro forma HIL Agreement, subject to condition, and directed Tri-State to submit a compliance filing.  Specifically, Tri-State committed in a deficiency response to file a non-conforming HIL Agreement for Commission review if Basin Electric Power Cooperative (Basin) imposes terms that differ from those terms in the HIL Tariff.  The Commission found that         Tri-State’s proposed HIL Tariff language did not reflect Tri-State’s commitment to \nfile a non-conforming HIL Agreement under any such circumstances; therefore, the Commission directed Tri-State to file a compliance filing within 30 days of the order adding language into the HIL Tariff memorializing its commitment.\nIn the instant compliance filing, Tri-State proposes to revise section 3.6 (Basin) \nof the HIL Tariff to add language stating:  “If Basin imposes terms that differ from \nthe     pro forma HIL [Agreement], then such terms will be incorporated into the HIL [Agreement] and Tri-State will file such non-conforming HIL [Agreement] with FERC pursuant to Section 5.3.1.”  Tri-State also proposes to revise section 5.3.1 of the HIL Tariff to add a cross-reference to section 3.6.  Tri-State requests any waiver of the Commission’s regulations necessary for the Commission to accept the compliance filing, effective July 16, 2026, the effective date granted by the Commission in the HIL Tariff Order.\nNotice of Tri-State’s filing was published in the Federal Register, 91 Fed. Reg. 58110 (Sep. 14, 2026), with interventions and protests due on or before September 30, 2026.  Gwendolyn Hickman submitted comments requesting that the Commission confirm that the discretionary language in section 2.A (Effective Date, Term, and Extension) of Tri-State’s pro forma HIL Agreement does not override Tri-State’s obligation to file a non-conforming HIL Agreement under section 3.6 of the HIL Tariff if Basin’s terms differ from the terms in the HIL Tariff.\nWe accept Tri-State’s compliance filing, effective July 16, 2026, as requested.  We find that Tri-State has complied with the directive in the HIL Tariff Order to memorialize the commitment in its deficiency response by including language in the HIL Tariff requiring Tri-State to file a non-conforming HIL Agreement for Commission review if Basin imposes terms that differ from the HIL Tariff.  Further, we find that    Tri-State’s proposed language in section 3.6 and cross reference to section 3.6 in section 5.3.1 of the HIL Tariff reflect Tri-State’s commitment to a file a non-conforming HIL Agreement under circumstances where Basin-imposed terms differ from the HIL Tariff.\n\n\nWe note that the discretionary language that the commenter references in section 2.A of Tri-State’s pro forma HIL Agreement is only applicable if Basin’s terms are the same as the terms in the HIL Tariff.  Pursuant to section 3.6 of the HIL Tariff, if Basin’s terms differ from Tri-State’s terms, Tri-State would be required to file a non-conforming HIL Agreement for Commission review.\nBy direction of the Commission. \n \n\n\n\n\nDebbie-Anne A. Reese,\nSecretary.\nAppendix – Tariff Record\n\nTri-State Generation and Transmission Association, Inc.\nTri-State Wholesale Electric Service Contracts\n\nRate Schedule No. 435, Rate Schedule No. 435, HILT and HILA (1.0.0)"
+  }
+ ]
+}

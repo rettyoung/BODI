@@ -1,0 +1,26 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/storage-solar-colocation-eia-seia/873882/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Co-located solar, storage jumps to 16% of all installations, up from 2% in 2017: EIA",
+ "filed": "2026-11-05",
+ "url": "https://www.utilitydive.com/news/storage-solar-colocation-eia-seia/873882/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      The share of solar projects co-located with storage is projected to pass 30% over the next two years, based on planned additions, according to a report from the&nbsp;U.S. Energy Information Administration. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-06T12:53:37Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "co-located"
+ ],
+ "party_hits": [],
+ "documents": []
+}

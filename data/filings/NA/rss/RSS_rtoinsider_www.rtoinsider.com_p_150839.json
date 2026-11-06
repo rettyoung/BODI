@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150839",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Even if Additional Capacity Resources Aren’t Needed, New Data Loads Are Likely to Increase Market Prices",
+ "filed": "2026-11-05",
+ "url": "//www.rtoinsider.com/150839-even-if-additional-capacity-resources-arent-needed-data-loads-likely-increase-market-prices/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " New research suggests that even when data centers avoid increasing peak demand, they can still drive up wholesale electricity prices by pushing demand toward more expensive generation resources. \n The post  Even if Additional Capacity Resources Aren’t Needed, New Data Loads Are Likely to Increase Market Prices  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-06T12:53:37Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "ESA",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

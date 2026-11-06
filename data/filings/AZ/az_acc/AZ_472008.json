@@ -1,0 +1,29 @@
+{
+ "id": "AZ:472008",
+ "jur": "AZ",
+ "source": "az_acc",
+ "kind": "filing",
+ "docket": "E-01345A-25-0105",
+ "title": "Procedural Order - Miscellaneous",
+ "filed": "2026-11-05",
+ "url": "https://edocket.azcc.gov/search/docket-search/item-detail/29551",
+ "entity": "Charles H. Hains, Administrative Law Judge",
+ "fetch": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000055506.pdf"
+  }
+ ],
+ "meta": {
+  "docketID": 29551
+ },
+ "collected_at": "2026-11-06T12:45:39Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://images.edocket.azcc.gov/docketpdf/E000055506.pdf",
+   "error": "blocked: robots.txt disallows https://images.edocket.azcc.gov/docketpdf/E000055506.pdf (SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V)"
+  }
+ ]
+}

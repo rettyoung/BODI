@@ -1,0 +1,26 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/entergy-makes-progress-on-arkansas-data-center-reports-strong-q3-sales/873873/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Entergy sees progress on Arkansas data center deal, strong Q3 sales",
+ "filed": "2026-11-05",
+ "url": "https://www.utilitydive.com/news/entergy-makes-progress-on-arkansas-data-center-reports-strong-q3-sales/873873/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": " The New Orleans-based company separately inked firm pipeline contracts for enough natural gas to support 10 new combined-cycle power plants in Louisiana, CEO Drew Marsh said Monday. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-06T12:53:37Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

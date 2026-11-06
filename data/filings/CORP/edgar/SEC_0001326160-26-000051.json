@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001326160-26-000051",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "Duke Energy CORP  (DUK, DUKB, DUKU, DUK-PA)  (CIK 0001326160), Duke Energy Ohio, Inc.  (CIK 0000020290) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-11-05",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/",
+ "entity": "Duke Energy CORP  (DUK, DUKB, DUKU, DUK-PA)  (CIK 0001326160), Duke Energy Ohio, Inc.  (CIK 0000020290)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-06T12:44:38Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

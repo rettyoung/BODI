@@ -1,0 +1,35 @@
+{
+ "id": "NRC:ML26308A087",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000289",
+ "title": "Crane Clean Energy Center / TMI-1 (Constellation restart): Christopher M. Crane Clean Energy Center - Restart Inspection Report 05000289/2026003 [['Inspection Report', 'Letter']]",
+ "filed": "2026-11-05",
+ "entity": [
+  "NRC/CNRI/ORAR1/R1DRS/EB"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2630/ML26308A087.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26308A087.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Crane Clean Energy Center / TMI-1 (Constellation restart)",
+  "accession": "ML26308A087",
+  "document_date": "2026-11-04"
+ },
+ "collected_at": "2026-11-06T12:38:19Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26308A087.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2630/ML26308A087.pdf"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/exelon-invenergy-ferc-complaint-pjm-miso-capacity-market-/873845/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Exelon, Invenergy complaints at FERC seek capacity market changes",
+ "filed": "2026-11-05",
+ "url": "https://www.utilitydive.com/news/exelon-invenergy-ferc-complaint-pjm-miso-capacity-market-/873845/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      Exelon asked the Federal Energy Regulatory Commission to order PJM to adopt a &ldquo;prompt&rdquo; capacity auction, while Invenergy wants the Midcontinent grid operator to let HVDC&nbsp;merchant lines receive capacity payments. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-06T12:53:37Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "capacity auction"
+ ],
+ "party_hits": [],
+ "documents": []
+}

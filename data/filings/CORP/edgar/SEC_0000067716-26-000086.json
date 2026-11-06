@@ -1,0 +1,24 @@
+{
+ "id": "SEC:0000067716-26-000086",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "MDU RESOURCES GROUP INC  (MDU)  (CIK 0000067716) 10-Q — full-text hit \"data center\" \"electric service agreement\"",
+ "filed": "2026-11-06",
+ "url": "https://www.sec.gov/Archives/edgar/data/67716/000006771626000086/",
+ "entity": "MDU RESOURCES GROUP INC  (MDU)  (CIK 0000067716)",
+ "fetch": [],
+ "meta": {
+  "query": "\"data center\" \"electric service agreement\"",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-06T12:44:38Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

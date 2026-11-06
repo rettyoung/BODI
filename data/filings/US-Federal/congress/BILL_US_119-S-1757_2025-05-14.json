@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:119-S-1757:2025-05-14",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "S 1757",
+ "title": "Efficient Nuclear Licensing Hearings Act",
+ "filed": "2025-05-14",
+ "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1757",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Read twice and referred to the Committee on Environment and Public Works.",
+  "keywords": [
+   "nuclear"
+  ]
+ },
+ "collected_at": "2026-11-06T12:57:40Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

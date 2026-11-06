@@ -1,0 +1,26 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/eaton-ceo-ac-to-dc-migration-is-real-because-of-large-power-savings/873887/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Eaton CEO: AC to DC migration for data centers ‘is real’",
+ "filed": "2026-11-05",
+ "url": "https://www.utilitydive.com/news/eaton-ceo-ac-to-dc-migration-is-real-because-of-large-power-savings/873887/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      The electrical equipment multinational says it&rsquo;s poised to capitalize on the trend by investing in solid-state transformers. But the &ldquo;timing of that transition is not under our control,&rdquo; said CEO Paulo Ruiz. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-06T12:53:37Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

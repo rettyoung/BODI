@@ -1,0 +1,52 @@
+{
+ "id": "TX:58317-116",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58317",
+ "title": "11/5/2026 | PUC RULES & PROJECTS | PRJ | Additional Rulemaking in Project No. 59999",
+ "filed": "2026-11-05",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58317&itemNumber=116",
+ "fetch": [
+  {
+   "tx_item": [
+    "58317",
+    "116"
+   ]
+  }
+ ],
+ "collected_at": "2026-11-06T12:45:23Z",
+ "run_id": "2026-11-06-1226",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_116_1700133.ZIP",
+   "name": null,
+   "bytes": 200040,
+   "sha256": "55157bf940e094e5b83649329ced3b70c96952ac7709c45f7bb98edf62ce2cd5",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 58317_Staff Memo_New Rulemaking Project.pdf ===\n                   Public Utility Commission of Texas\n\n                                    Memorandum\n\n\n TO:           Interested Persons\n\n FROM:         Jessie Horn, Sr. Counsel, Rules and Projects Division\n\n DATE:         November 5, 2026\n\n RE:           Project No. 58317, SB 6 Implementation\n\n\n\nCommission Staff has opened an additional rulemaking project associated with\nimplementation of Senate Bill 6, as enacted by the Texas 89th Legislature, Regular Session:\n\n   •   Project No. 59999, Rulemaking to Adopt a Standard Large Load Interconnection\n       Agreement\n\n\nThe deadline for public comments on the proposal for publication in Project No. 59999 is\nDecember 14, 2026. All public comments on the proposal for publication must be filed in\nProject No. 59999.\n\n\n\n\n                                          Page 1 of 1\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58317_116_1700134.PDF",
+   "name": null,
+   "bytes": 91377,
+   "sha256": "b3ad556fe5f0c96fedba915509554cdd7e57196029362d09e91ce9c44ccf6a1c",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "               PUBL~ 4\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-11-05 04:45:15 PM\n\nControl Number - 58317\n\nItem Number - 116\n\f                   Public Utility Commission of Texas\n\n                                    Memorandum\n\n\n TO:           Interested Persons\n\n FROM:         Jessie Horn, Sr. Counsel, Rules and Projects Division\n\n DATE:         November 5,2026\n\n RE :          Project No . 58317 , SB 6 Implementation\n\n\n\nCommission Staff has opened an additional rulemaking proj ect associated with\nimplementation of Senate Bill 6, as enacted by the Texas 89th Legislature, Regular Session:\n\n   •    Project No. 59999, Rulemaking to Adopt a Standard Large Load Interconnection\n        Agreement\n\n\nThe deadline for public comments on the proposal for publication in Project No. 59999 is\nDecember 14, 2026. All public comments on the proposal for publication must be filed in\nProject No. 59999.\n\n\n\n\n                                          Page 1 of 1\n\f"
+  }
+ ]
+}

@@ -37,5 +37,6 @@
    "url": "{'ferc_file': '26CE68A0-7BE3-C272-879D-A1A238B00000', 'name': '382197-C000196-Form_3Q_Electric-2026-Q3_382197.html', 'type': 'HTML'}",
    "error": "RuntimeError('FERC DownloadP8File returned application/octet-stream (3122428 bytes)')"
   }
- ]
+ ],
+ "enriched_at": "2026-11-06T12:58:21Z"
 }
