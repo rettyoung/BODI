@@ -1,0 +1,22 @@
+{
+ "id": "BILL:US:117-HR-9326:2022-11-18",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 9326",
+ "title": "Enhancing Electric Grid Resilience Act",
+ "filed": "2022-11-18",
+ "url": "https://www.congress.gov/bill/117th-congress/house-bill/9326",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Referred to the Subcommittee on Energy.",
+  "keywords": [
+   "electric grid"
+  ]
+ },
+ "collected_at": "2026-11-07T11:48:50Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

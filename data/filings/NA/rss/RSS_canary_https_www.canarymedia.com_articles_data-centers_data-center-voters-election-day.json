@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/data-centers/data-center-voters-election-day",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Voters gave a big middle finger to data centers",
+ "filed": "2026-11-06",
+ "url": "https://www.canarymedia.com/articles/data-centers/data-center-voters-election-day",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "This analysis and news roundup come from the Canary Media Weekly newsletter.   Sign up to get it every Friday.  Americans aren’t happy about the data center boom, and they made their displeasure pretty clear this Election Day. Voters not only selected a slate of Democratic candidates who campaigned against data…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-07T11:44:42Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

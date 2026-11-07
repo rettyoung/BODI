@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0000922224-26-000052",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "PPL Corp  (PPL, PPLC)  (CIK 0000922224), PPL ELECTRIC UTILITIES CORP  (CIK 0000317187) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-11-06",
+ "url": "https://www.sec.gov/Archives/edgar/data/922224/000092222426000052/",
+ "entity": "PPL Corp  (PPL, PPLC)  (CIK 0000922224), PPL ELECTRIC UTILITIES CORP  (CIK 0000317187)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-07T11:33:45Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,33 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-C110626-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-C110626-01 Implementation Details of NPRR1335, Implementation of PUCT Changes to Firm Fuel Supply Service for Phase 3",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-C110626-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-C110626-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-07T11:41:56Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [
+  "NPRR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-C110626-01",
+   "error": "blocked: block page (incapsula) at https://www.ercot.com/services/comm/mkt_notices/M-C110626-01"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "RSS:grid_strategies:https://gridstrategiesllc.com/?p=2327",
+ "jur": "US-Federal",
+ "source": "rss:grid_strategies",
+ "kind": "news",
+ "docket": null,
+ "title": "State of Play: Including Advanced Transmission Technologies in Power System Modeling Tools",
+ "filed": "2026-11-06",
+ "url": "https://gridstrategiesllc.com/including-atts-in-power-system-modeling-tools/",
+ "entity": null,
+ "fetch": [
+  {
+   "url": "https://gridstrategiesllc.com/including-atts-in-power-system-modeling-tools/"
+  }
+ ],
+ "meta": {
+  "bkey": "rss:grid_strategies",
+  "rto": null,
+  "summary": " Advanced Transmission Technologies (ATTs) are tools that make the most of transmission corridors and infrastructure, allowing utilities to unlock additional capacity from the existing grid and enable grid flexibility, all at a lower cost than traditional grid upgrades. However, despite these technologies being commercially available, adoption has been slow. FERC has previously required ATTs in [&#8230;] \n The post  State of Play: Including Advanced Transmission Technologies in Power System Modeling Tools  appeared first on  Grid Strategies . ",
+  "feed": "grid_strategies",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-07T11:44:42Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [
+  "ESA",
+  "interconnection",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://gridstrategiesllc.com/including-atts-in-power-system-modeling-tools/",
+   "name": null,
+   "bytes": 412960,
+   "sha256": "d9cefe06e181a02958274b6ccba9e614bae336ffa7c27eb01cf6261923293a24",
+   "ctype": "text/html; charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Including Advanced Transmission Technologies in Power System Modeling Tools\n\nOur Work\n\nReports\n\nOur Team\n\nIn The News\n\nCareers\n\nContact Us\n\nState of Play: Including Advanced Transmission Technologies in Power System Modeling Tools\n\nAdria Brooks, PhD, Sophie Meyer, Julia Selker, Zachary Zimmerman\n\nNovember 6, 2026\n\nTechnology\n\nAdvanced Transmission Technologies (ATTs) are tools that make the most of transmission corridors and infrastructure, allowing utilities to unlock additional capacity from the existing grid and enable grid flexibility, all at a lower cost than traditional grid upgrades. However, despite these technologies being commercially available, adoption has been slow.\n\nFERC has previously required ATTs in grid planning through Order Nos. 1920 and 2023, but load growth is putting new pressure on these methods. In June, \nFERC orders to show cause\n asked regional transmission organizations whether they are using tools that can represent ATTs for load interconnection studies.\n\nThis new report from Grid Strategies attempts to help answer this question, reviewing the representation of Grid Enhancing Technologies (GETs) and High Performance Conductors (HPCs)—collectively ATTs—in sixteen different commercial grid modeling software. As of fall 2026, most commercial grid modeling software can represent ATTs, but representation is uneven, and few software fully represent or optimize for the technologies by default. Ultimately, if the tools used to model and design the grid cannot test the applicability and cost-effectiveness of ATTs, engineers will not select them and potential benefits are undercounted or lost.\n\nDownload the report by clicking the button below. More information on each modeling tool and its capabilities can be found \non this spreadsheet.\n\nDownload\n\nGrid Strategies LLC is a power sector consulting firm helping clients understand the electric power industry, energy markets, and policy. Drawing on extensive experience in state regulation, transmission planning, and wholesale markets, Grid Strategies analyzes and helps advance grid integration solutions.\n\nBased in the Washington DC area, the firm is actively engaged with the Federal Energy Regulatory Commission, Department of Energy, state Public Utility Commissions, Regional Transmission Organizations, the North American Electric Reliability Corporation, Congressional committees, the administration, and various stakeholders.\n\nContact Us\n\nSign Up for Grid Strategies Updates\n\n© \n Grid Strategies • \nPrivacy Policy\n • Website designed and created by \nRed Chalk Studios"
+  }
+ ]
+}

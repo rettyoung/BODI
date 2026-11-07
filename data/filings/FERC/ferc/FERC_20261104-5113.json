@@ -64,5 +64,6 @@
    "url": "{'ferc_file': '7E54983A-B22B-C01E-A836-A1A769D00000', 'name': 'Holyoke_FERC2004_QCIP.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-07T11:55:03Z"
 }

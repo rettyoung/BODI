@@ -1,0 +1,22 @@
+{
+ "id": "BILL:US:118-HR-2750:2023-04-20",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 2750",
+ "title": "Enhancing Electric Grid Resilience Act",
+ "filed": "2023-04-20",
+ "url": "https://www.congress.gov/bill/118th-congress/house-bill/2750",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Referred to the House Committee on Energy and Commerce.",
+  "keywords": [
+   "electric grid"
+  ]
+ },
+ "collected_at": "2026-11-07T11:48:50Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

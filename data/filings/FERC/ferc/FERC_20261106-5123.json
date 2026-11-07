@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20261106-5123",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "filing",
+ "docket": "RM26-4",
+ "title": "Comment of Donald Fenno in Docket(s)/Project(s) RM26-4-000\nSubmission Date: 11/6/2026\n",
+ "filed": "2026-11-06",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261106-5123",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "9F12DE86-BE47-C609-9BB9-A1B26C600000",
+   "name": "152393.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "watched docket RM26-4",
+  "issued": "2026-11-06"
+ },
+ "collected_at": "2026-11-07T11:30:11Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [
+  "data center",
+  "large load",
+  "large-load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152393.txt",
+   "bytes": 2804,
+   "sha256": "deb716611562cf36c62a972ae37da700100c867b8ff09c7851bb253889fb5722",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nDonald Fenno, Boise, ID.\nPublic Comment — Fair Allocation of Large-Load Grid Costs Federal Energy Regulatory Commission | Docket No. RM26-4-000 | November 6, 2026 I respectfully ask the Commission to consider a clear, consistent cost-allocation principle for data centers and other large electricity loads: customers should pay for the costs their requirements cause, and shared infrastructure costs should be allocated according to demonstrable benefits. This approach can protect existing customers while permitting timely investment in needed electrical infrastructure. \r\n1. Electricity service. Charges should reflect energy consumed, capacity reserved or demanded, and the time and reliability characteristics of service. Large customers should contribute fairly to existing grid costs without shifting incremental costs to households and small businesses. \r\n2. Construction attributable to new loads. A large-load customer should fund facilities and upgrades that would not otherwise be needed to serve that customer, subject to independent review of costs and causation. If a utility proposes a larger project to benefit other users, the incremental cost of that added scope should be allocated only to those demonstrably benefiting from it. \r\n3. Shared facilities. For genuinely shared upgrades, use transparent, evidence-based allocation rather than fixed nationwide percentages. The same principles can apply across regions while resulting percentages reflect local facts. Avoid double-counting capacity, energy use, and benefits. \r\n4. changes Future and risks. Contracts should address cancellations, underutilization, unexpected costs, and changes in load. A customer whose request caused an upgrade should not automatically receive retroactive reimbursement merely because others later use the facility. New users should, however, pay appropriate ongoing charges and the costs of further upgrades they cause. \r\n5. Accountability and speed. Require published cost studies, meaningful opportunity for state regulators and affected customers to review allocations, financial security for large-load commitments, and timely decisions. Where state retail rates or generation costs are involved, coordinate with the relevant state authorities rather than presuming federal jurisdiction over those charges. \r\nRequested action: In this rulemaking and related regional proceedings, adopt or require consideration of a transparent framework separating (a) costs caused by a new large load, (b) costs of optional broader system improvements, and (c) ongoing shared service costs. Require a written explanation of who pays, why, and what benefits are expected before costs are shifted to existing customers. \r\nRespectfully submitted, Donald Fenno | Boise, Idaho | Individual public commenter\r\n\r\n\r\n"
+  }
+ ]
+}

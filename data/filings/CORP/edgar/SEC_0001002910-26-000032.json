@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001002910-26-000032",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "AMEREN CORP  (AEE)  (CIK 0001002910), Ameren Illinois Co  (CIK 0000018654) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-11-06",
+ "url": "https://www.sec.gov/Archives/edgar/data/1002910/000100291026000032/",
+ "entity": "AMEREN CORP  (AEE)  (CIK 0001002910), Ameren Illinois Co  (CIK 0000018654)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-07T11:33:45Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

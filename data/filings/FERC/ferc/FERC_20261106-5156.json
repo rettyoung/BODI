@@ -1,0 +1,51 @@
+{
+ "id": "FERC:20261106-5156",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER27-330",
+ "title": "(doc-less) Motion to Intervene of Voltus, Inc. under ER27-330.",
+ "filed": "2026-11-06",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261106-5156",
+ "entity": "Voltus, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "476F4FEB-0651-CCD0-A3E2-A1B2A4F00000",
+   "name": "1810321_Interv.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Intervention",
+    "documentType": "Motion/Notice of Intervention"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-11-06"
+ },
+ "collected_at": "2026-11-07T11:30:38Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [
+  "ESA",
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1810321_Interv.txt",
+   "bytes": 2254,
+   "sha256": "04fe7f2bf5023e6bf98bb7ea7609b3ad4887c0b3448884ed2d40ad537e8c45c6",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Submission Description: (doc-less) Motion to Intervene of Voltus, Inc. under ER27-330-000, et. al..\r\n\r\nSubmission Date:        11/6/2026 3:45:27 PM\r\n\r\nFiled Date:             11/6/2026 3:45:27 PM\r\n\r\nDockets\r\n-------\r\nER27-330-000         PJM Interconnection, L.L.C. submits tariff filing per 35: Proposed Amendments to the Reliability Backstop Procurement in ER26-3380 submitted on 10/29/2026 4:42:48 PM, Filing Type code: 85\r\nER27-330-001         PJM Interconnection, L.L.C. submits tariff filing per 35: Errata to Correct Metadata and Waiver Request in RBP Compliance Filing submitted on 10/30/2026 1:24:42 PM, Filing Type code: 80\r\n\r\nFiling Party/Contacts:\r\n\r\nFiling Party                             Signer (Representative)                  Other Contact (Principal)               \r\n------------                             -----------------------                  -------------------------               \r\nVoltus, Inc.                             kabreu@voltus.co                                                                 \r\n\r\nBasis for Intervening:\r\nVoltus, Inc., (Voltus) is a Delaware corporation connecting distributed energy resources (DER) to energy markets. Voltus identifies and deploys DER, develops aggregations, bids into wholesale markets, dispatches DER, and manages settlement to provide energy, capacity, and ancillary services across all nine North American RTO/ISOs, including all six under FERC jurisdiction. Voltus manages gigawatts of capacity and works with large load buyers seeking to bring new distributed capacity to the grid. \r\n\r\nVoltus was an active participant in PJM's stakeholder processes on the Reliability Backstop Procurement as well as the preceding FERC docket No. ER26-3380. Voltus expects to participate actively in the instant docket.\r\n\r\nAccordingly, Voltus has a direct and substantial interest in the outcome of this proceeding that cannot be represented adequately by any other party due to differences in resource types, business model, and past advocacy. For the foregoing reasons, Voltus’s participation in this proceeding is in the public interest; pursuant to 18 C.F.R. § 385.214, Voltus respectfully requests the Commission accept this filing and grant Voltus intervenor status. \r\n\r\nThank you."
+  }
+ ]
+}

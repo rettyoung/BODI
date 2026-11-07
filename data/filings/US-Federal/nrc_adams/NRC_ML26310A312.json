@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26310A312",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): Commission Memorandum and Order (CLI-26-15) [['Legal-Order']]",
+ "filed": "2026-11-06",
+ "entity": [
+  "NRC/SECY"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2631/ML26310A312.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26310A312.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26310A312",
+  "document_date": "2026-11-06"
+ },
+ "collected_at": "2026-11-07T11:28:12Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26310A312.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2631/ML26310A312.pdf"
+  }
+ ]
+}

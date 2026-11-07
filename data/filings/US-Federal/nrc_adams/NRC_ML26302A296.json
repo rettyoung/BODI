@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26302A296",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): Submittal of Supplemental Information to Support the Long Mott Generating Station Construction Permit Application Review [['Letter']]",
+ "filed": "2026-11-06",
+ "entity": [
+  "Long Mott Energy, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2630/ML26302A296.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26302A296.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26302A296",
+  "document_date": "2026-10-29"
+ },
+ "collected_at": "2026-11-07T11:28:09Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26302A296.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2630/ML26302A296.pdf"
+  }
+ ]
+}

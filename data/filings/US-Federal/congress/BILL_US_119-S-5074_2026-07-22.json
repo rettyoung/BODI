@@ -1,0 +1,22 @@
+{
+ "id": "BILL:US:119-S-5074:2026-07-22",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "S 5074",
+ "title": "Enhancing Electric Grid Resilience Act",
+ "filed": "2026-07-22",
+ "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5074",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Read twice and referred to the Committee on Energy and Natural Resources.",
+  "keywords": [
+   "electric grid"
+  ]
+ },
+ "collected_at": "2026-11-07T11:48:50Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

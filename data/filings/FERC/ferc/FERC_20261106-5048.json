@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261106-5048",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-10855",
+ "title": "Upper Peninsula Power Company submits Comprehensive Assessment Report re the Hoist Development of the Dead River Hydroelectric Project under P-10855.",
+ "filed": "2026-11-06",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261106-5048",
+ "entity": "Upper Peninsula Power Company",
+ "fetch": [
+  {
+   "ferc_file": "64166FF1-3783-CB72-921A-A1B19FE00000",
+   "name": "20261106 HST Part 12 CA CAR Presentation CEII LTR.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "E1B1242D-B3EE-CB30-9BF7-A1B19FE00000",
+   "name": "20261106 HST Part 12 CA CAR Presentation CEII ATT.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-11-06"
+ },
+ "collected_at": "2026-11-07T11:30:28Z",
+ "run_id": "2026-11-07-1119",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '64166FF1-3783-CB72-921A-A1B19FE00000', 'name': '20261106 HST Part 12 CA CAR Presentation CEII LTR.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'E1B1242D-B3EE-CB30-9BF7-A1B19FE00000', 'name': '20261106 HST Part 12 CA CAR Presentation CEII ATT.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

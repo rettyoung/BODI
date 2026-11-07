@@ -64,5 +64,6 @@
    "url": "{'ferc_file': '269BF890-B222-C941-8CDE-A1A862E00000', 'name': 'Lewis Ridge_Upper Reservoir Spillway TM_v3_2026-04-20.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-07T11:55:15Z"
 }
