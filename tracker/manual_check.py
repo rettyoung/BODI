@@ -28,7 +28,10 @@ What it fails:
   5. AGREEMENT  a carry-forward item whose reason differs between a state file and pass_state.json, or that
                 a state file carries and pass_state.json does not.
   6. COUNTS     manifest documents, carried_forward or carried_forward_by_reason not equal to what the
-                saved files hold.
+                saved files hold; manifest watching not equal to pass_state.json's watching list.
+  7. WATCH      (runs from 2026-11-07-2100 on) a carry-forward item with reason not_yet_filed - something
+                not yet filed belongs on the watch list (`watching`), which is never counted as work left;
+                a state file's watching item missing from pass_state.json; a manifest without `watching`.
 Notes (never a failure): runs before 2026-11-07 without a progress file; pass_state.json last updated by
 another run (its carry-forward cannot be compared).
 """
@@ -44,6 +47,7 @@ REASONS = {"captcha", "render_failure", "partial_read", "not_located", "not_atte
 STOPS = {"list_empty", "rett_stop", "no_answer", "session_limit"}
 SKIPPED = {"time", "not_attempted", "partial_read"}
 PROGRESS_REQUIRED_FROM = "2026-11-07"
+WATCH_REQUIRED_FROM = "2026-11-07-2100"  # run ids are UTC YYYY-MM-DD-HHMM
 
 
 def _load(path):
@@ -181,6 +185,25 @@ def check(d, run, manifest_path=None, now=None):
         if (man.get("carried_forward_by_reason") or {}) != by:
             problems.append(f"COUNTS: carried_forward_by_reason {man.get('carried_forward_by_reason')} "
                             f"but pass_state.json gives {by}")
+    # 7. WATCH
+    if run >= WATCH_REQUIRED_FROM:
+        for name, it in sf_items + [("pass_state.json", it) for it in ps_items]:
+            if it.get("reason") == "not_yet_filed":
+                problems.append(f"WATCH: {name}: {it.get('state')} {it.get('docket')} is not_yet_filed in "
+                                "carry_forward; it belongs in watching")
+        if "watching" not in man:
+            problems.append("WATCH: manifest has no watching count")
+    ps_watch = (ps or {}).get("watching") or [] if (ps or {}).get("updated_by_run") == run else None
+    if ps_watch is not None:
+        wkeys = {_key(it) for it in ps_watch}
+        for name, doc in states.items():
+            for it in doc.get("watching") or []:
+                if _key(it) not in wkeys:
+                    problems.append(f"WATCH: {name} watches {it.get('state')} {it.get('docket')}, "
+                                    "pass_state.json does not")
+        if "watching" in man and man.get("watching") != len(ps_watch):
+            problems.append(f"COUNTS: manifest watching {man.get('watching')} but pass_state.json holds "
+                            f"{len(ps_watch)}")
     return problems, notes
 
 

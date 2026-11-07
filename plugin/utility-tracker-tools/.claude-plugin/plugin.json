@@ -1,6 +1,6 @@
 {
   "name": "utility-tracker-tools",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "The Utility Tracker's (Grid Docket) tracker scripts, console template and watch list, packaged so scheduled Sweep and Brief runs can run them without executing code cloned from GitHub.",
   "author": {
     "name": "Rett Young"

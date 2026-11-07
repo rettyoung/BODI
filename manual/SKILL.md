@@ -77,11 +77,19 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    "Run now" (full pass, then the audit), "Audit only" (about 5–10 minutes: step 9 alone, no browsing) and
    "Skip this week". On "Run now" do steps 0a–9; on "Audit only" do step 0a, then step 9, then stop. On
    "Skip" or no answer, stop without browsing and without writing anything.
-   **Resume (added 2026-11-06).** If the newest complete manifest has `stopped_by: "session_limit"` and
-   finished within the last 24 hours, a session was handed over (step 5c): offer **"Resume"** as the first
-   option, whether or not a schedule started this session. Resume is a normal "Run now" with two
-   differences: skip the backlog question in 2b (Rett already chose to keep going) and the clicks already
-   cleared in that run's `rett_asks`; the carry-forward list in `pass_state.json` is the work.
+   **Resume (added 2026-11-06; narrowed 2026-11-07).** If the newest complete manifest has `stopped_by`
+   `"session_limit"` or `"no_answer"`, finished within the last 24 hours, and `pass_state.json` still has
+   `carry_forward` items, offer **"Resume"** as the first option, whether or not a schedule started this
+   session. **Resume works the `carry_forward` list and nothing else.** It is not a new pass: no docket
+   catch-up, no new-case search, no extra pages, no watch-list check, no backlog question (steps 1's
+   docket and new-case catch-up, 2b, 3(2), 4a, 4b and 5 are skipped). Do step 0a, 2, 2a, 2c (only for
+   carry-forward items that need Rett), then work the list in the step 5b order, then steps 5c–9.
+   Touch only the states that have carry-forward items; leave every other state's `new_cases_since`
+   and since-dates exactly as they are, and say in the manifest's `notes` "Resume: carry-forward only".
+   A filing noticed by chance while working an item may be read, but no docket is re-walked. (Found
+   7 Nov: four "resume" sessions re-walked all nine states, re-cleared NC's Cloudflare check each time,
+   and added new items about as fast as they cleared old ones.) A full re-check waits for the next
+   "Run now".
 0a. **Shell preflight — before any browsing (added 2026-11-06).** The store audit (step 9) and the PDF
    upgrade route (step 4d) need a shell on this computer, and that shell exists only for folders connected
    to this session. Check now, while Rett is certainly present, not at step 9:
@@ -130,6 +138,13 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
      state's work list, whatever the queue says, and is worked before new requests (they are the oldest).
      Drop an entry only when this run reads it, or confirms it no longer exists or is not needed (say why in
      the state file's notes).
+   - **Watch list (added 2026-11-07).** Read `pass_state.json` → `watching`: things expected but not yet
+     filed (a commission order, a tariff due by year-end, an appeal deadline). They are **not** work and are
+     never counted as items remaining. On a "Run now" pass, check each one on its docket while that docket
+     is open anyway (step 4a); if it has been filed, read it like any document and drop it from the list;
+     if not, leave it. Resume never checks the watch list. **One-time move:** any `carry_forward` entry
+     with reason `not_yet_filed` (the old way of recording these) goes to `watching` the first time a run
+     reads `pass_state.json`.
    - Skip queue requests the cloud can already read (PUCT documents, Pennsylvania, Oklahoma). Arizona documents
      are queued because the cloud cannot open the ACC's PDF host: open the request's item-detail page on
      `edocket.azcc.gov` and use the document link that page itself presents.
@@ -164,7 +179,7 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    state the days since `new_cases_since`. Also look in `/GridDocket/manual/` for files from a run that has
    **no** complete manifest (an abandoned run, e.g. `progress_*.json` or state files with no
    `manual_<run_id>.json`): their work is invisible to the Sweep and must be redone — list them for Rett.
-   If the newest complete manifest is more than 10 days old, or there are more than 15 carry-forward items,
+   If the newest complete manifest is more than 10 days old, or there are more than 15 carry-forward items (the watch list never counts),
    tell Rett in two lines (what is owed, a realistic time estimate) and ask as a clickable choice: **"One long
    pass"** (keep going until the list is empty, asking at each budget check), **"Priorities now, rest in a
    second session"** (do the priority round, step 3, then stop at 5c and offer to resume) or **"Usual
@@ -289,20 +304,32 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    items remaining without asking this question.
    **"Continue until done" means exactly that (added 2026-11-06).** After that answer there is no budget,
    and the run may stop with items remaining only when Rett says stop, he stops answering, or this session
-   can no longer continue (the conversation is close to its limit, or tools start failing). In the last
-   case, **ask before stopping**, as a clickable choice: "This session is nearly full; N items remain.
+   can no longer continue (its context has actually been compacted — see below — or tools start
+   failing). In the last case, **ask before stopping**, as a clickable choice: "This session is nearly full; N items remain.
    Finish now so a fresh session can resume from pass_state.json, or keep going?" Options **"Finish and
    resume in a new session"** and **"Keep going"**. Record the question and answer in the progress file and
    use `stopped_by: "session_limit"` only with that record. Stopping silently with items left is never
    allowed, whatever the reason.
-   **Hand over early, not at the wall (added 2026-11-06, evening).** One session cannot hold a whole
-   backlogged pass: every page, PDF and screenshot stays in the conversation (the 6 Nov evening pass hit the
-   limit after 51 minutes, already compacted once). So the first time this session's context is compacted,
-   or when it is plainly long, finish the item in hand, save its state file, and ask the question above
-   then — do not wait until the session can barely write its files. On "Finish and resume", do steps 6–8
-   normally (the manifest is complete; the Sweep ingests what is done), and end the closing message with:
-   "Start a new task, add the two folders, type /grid-docket-manual-pass and choose Resume." A resumed
-   session can be handed over again; each hand-over is a separate complete run.
+   **Hand over only after a real compaction (rewritten 2026-11-07).** Every page, PDF and screenshot stays
+   in the conversation, so a backlogged pass can outgrow one session. The trigger for handing over is
+   **one thing only: this session's context has been compacted** (a system notice says so, or earlier turns
+   now appear only as a summary). When that happens, finish the item in hand, save its state file, and ask
+   the question above. **Never hand over, and never ask that question, because the session "feels long",
+   because of how many pages were read, or after a number of minutes** — on 6–7 Nov sessions handed over
+   after 13–37 minutes of reading on that judgment, and each new session paid the start-up again (setup,
+   reading every manifest, Rett re-clearing CAPTCHAs). Saving work is what step 4g's state files are for;
+   it is never a reason to end a run.
+   **One session, one run.** Never write a manifest and start a new run inside the same session to "save
+   findings between batches" (on 7 Nov one session cut itself into four 2–5 minute runs). The run continues
+   until the list is empty, Rett says stop, he truly stops answering, or a real compaction leads to a
+   hand-over.
+   **What counts as an answer.** Rett's "next", "continue", "ok", "done", "go on" — or simply carrying on
+   with the clicks asked of him — means keep going. "No answer" means no reply of any kind for several
+   minutes; a continue-or-stop question he skipped while replying to other prompts is not "no answer".
+   On "Finish and resume", do steps 6–8 normally (the manifest is complete; the Sweep ingests what is
+   done), and end the closing message with: "Start a new task, add the two folders, type
+   /grid-docket-manual-pass and choose Resume." A resumed session can be handed over again, under the
+   same rule; each hand-over is a separate complete run.
    **Stop record.** Whenever the run stops with any item left — by Rett's choice, no answer or the session
    limit — write `"stop": {"at", "reason", "asked": true|false, "answer"}` into the progress file first.
    Step 6b fails a run that stopped without one.
@@ -318,8 +345,12 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
      attachment, same-day row and exhibit entry and it is not there — say what was checked);
      `not_attempted` (Rett chose "Stop here", or left, before it was reached); `time` (the **overall**
      budget, including any extension, ran out — never just a state's time box); `deprioritized` (listed but
-     judged low value — say why in `what`); `not_yet_filed` (waiting on a future filing or event, e.g. a
-     hearing outcome); `site_down`. A `captcha` item must say when Rett was asked and what happened.
+     judged low value — say why in `what`); `site_down`. A `captcha` item must say when Rett was asked and
+     what happened. Something that does not exist yet (an order, a reply brief, a filing due later) is not a
+     carry-forward item: it goes on the watch list.
+   - `watching`: the old list, minus anything filed and read this run, plus new expectations (each
+     `{state, docket, what, url, expected, first_queued}`, `expected` a date or "after <event>" when known).
+     Watch items never escalate. Resume leaves this list exactly as it found it.
    - Everything still on the deferred list goes into `carry_forward`. So does any filing that appears in a
      docket's listing up to its recorded `newest_filing_seen` but was neither read nor carried: advancing
      the since-date would otherwise hide it from every later run.
@@ -332,7 +363,8 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    `rett_asks` entry in the progress file showing he was asked; if none exists, the reason is `time` or
    `not_attempted`, whichever is true. Fix and re-save the state file where they disagree (never leave a
    known mismatch for the manifest's notes to explain). Counts in the manifest (`documents`, `new_cases`,
-   `carried_forward`, `carried_forward_by_reason`) are computed from the saved files, not remembered.
+   `carried_forward`, `carried_forward_by_reason`, `watching`) are computed from the saved files, not
+   remembered. A watch item appears in a state file's `watching`, never in its `carry_forward`.
 6b. **Mechanical check — before the manifest (added 2026-11-06, evening).** Draft the manifest (step 7) to
    a file in the working folder, not to OneDrive. Then, in the shell, copy the run's files from the synced
    `GridDocket\manual` folder (step 0a) into the working folder — `manual_<run_id>_*.json`,
@@ -349,10 +381,12 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    - If the check cannot run (no synced folder, no shell, sync never catches up), say so in the manifest's
      `notes` with the exact reason; the Monday Sweep runs the same check (sweep.md 5.2b) either way.
    Record the final verdict in the manifest as `"check": {"exit", "problems"}`.
-7. **Finish with the manifest — last, and only when every state was attempted:**
+7. **Finish with the manifest — last, and only when every state was attempted** (on a Resume: every state
+   with carry-forward items):
    `manual_<run_id>.json` with `"complete": true`. For every state not `ok`, `state_gaps[STATE]` says in
    one or two sentences what was attempted and what blocked it (from the state file's `gaps`); also give
-   `carried_forward_by_reason` and the `escalated` items, plus
+   `carried_forward_by_reason`, the `escalated` items and `watching` (the count of `pass_state.json` →
+   `watching`, kept apart from `carried_forward`), plus
    `"budget": {"minutes_budget", "minutes_extended", "minutes_used", "deferred_total",
    "deferred_resolved_in_catchup", "stopped_by": "list_empty | rett_stop | no_answer | session_limit"}`,
    every value read from the progress file (step 2a) — `minutes_used` and `finished` are never null or
@@ -361,7 +395,8 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    The Sweep ignores a run without its manifest, so an abandoned run is simply invisible (start a new run next time; never edit an old one). An abandoned run
    does not update `pass_state.json`, so its coverage is simply redone.
 8. Tell Rett, in two or three lines: states covered, since-dates used, documents and new cases captured,
-   what is carried forward by reason (and which items need him — a CAPTCHA or a click), any escalated item,
+   what is carried forward by reason (and which items need him — a CAPTCHA or a click), stated as "N items
+   left to read" with the watch list given separately ("M items waiting to be filed"), any escalated item,
    how many deferred items the catch-up round cleared and how the run ended (list empty, Rett stopped, or
    no answer), and that the Monday Sweep will ingest it.
 9. **Store audit** (every run, after step 8 — or alone on "Audit only"). Budget: 15 minutes, outside the
@@ -445,6 +480,7 @@ State file `manual_<run_id>_<STATE>.json`:
   "dockets_checked": [{"docket": "PUR-2026-00056", "newest_filing_seen": "2026-10-01", "filings_listed": 7}],
   "new_cases": [{"docket": "PUR-2026-00160", "opened": "2026-10-05", "caption": "…", "applicant": "…", "why": "…"}],
   "carry_forward": [{"state": "VA", "docket": "…", "what": "…", "url": "…", "reason": "captcha", "first_queued": "2026-10-09-2200"}],
+  "watching": [{"state": "VA", "docket": "PUR-2026-00044", "what": "Commission final order", "url": "…", "expected": "after post-hearing briefs", "first_queued": "2026-11-06-1945"}],
   "documents": [
     {
       "docket": "PUR-2026-00056",
@@ -474,8 +510,8 @@ Manifest `manual_<run_id>.json`:
  "state_gaps": {"SC": "Docket pages behind image reCAPTCHA; Rett away - nothing read (captcha, needs Rett)",
                 "NC": "Settlement body read pp.1-12; Exhibit 1 is a separate attachment, not opened (render_failure after 3 tries)"},
  "documents": 23, "new_cases": 1, "carried_forward": 4,
- "carried_forward_by_reason": {"captcha": 1, "render_failure": 1, "not_yet_filed": 2},
- "escalated": []}
+ "carried_forward_by_reason": {"captcha": 1, "render_failure": 1, "partial_read": 2},
+ "escalated": [], "watching": 9}
 ```
 
 `pass_state.json` (in `/GridDocket/manual/`, owned by this pass):
@@ -484,7 +520,8 @@ Manifest `manual_<run_id>.json`:
 {"schema": "grid-docket-pass-state-v1", "updated_by_run": "2026-10-09-2200",
  "new_cases_since": {"VA": "2026-10-09", "OH": "2026-09-15"},
  "_new_cases_since_notes": {"OH": "why coverage stopped"},
- "carry_forward": [{"state": "OH", "docket": "…", "what": "…", "url": "…", "reason": "captcha", "first_queued": "2026-10-04-2342"}]}
+ "carry_forward": [{"state": "OH", "docket": "…", "what": "…", "url": "…", "reason": "captcha", "first_queued": "2026-10-04-2342"}],
+ "watching": [{"state": "NC", "docket": "E-7 Sub 1329", "what": "Commission order on the LLT settlement", "url": "…", "expected": "unknown", "first_queued": "2026-10-09-1619"}]}
 ```
 
 ## Portal notes (learned 4 and 9 Oct 2026; prefer state.json ACCESS_METHOD_FINDINGS if newer)

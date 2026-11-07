@@ -52,11 +52,14 @@ def morning():
 
 def clean():
     run = "2026-11-13-1704"
-    ps_items = [item("VA", "PUR-2026-00044", "not_yet_filed"), item("OH", OH, "captcha", run)]
-    ps = {"schema": "grid-docket-pass-state-v1", "updated_by_run": run, "carry_forward": ps_items}
+    ps_items = [item("OH", OH, "captcha", run)]
+    watch = [{"state": "VA", "docket": "PUR-2026-00044", "what": "final order", "url": "https://example.invalid/",
+              "expected": "after briefs", "first_queued": "2026-11-06-1945"}]
+    ps = {"schema": "grid-docket-pass-state-v1", "updated_by_run": run, "carry_forward": ps_items,
+          "watching": watch}
     states = {
         f"manual_{run}_VA.json": {"run_id": run, "state": "VA", "documents": [{"docket": "a"}, {"docket": "b"}],
-                                  "carry_forward": [item("VA", "PUR-2026-00044", "not_yet_filed")]},
+                                  "carry_forward": [], "watching": copy.deepcopy(watch)},
         f"manual_{run}_OH.json": {"run_id": run, "state": "OH", "documents": [{"docket": "c"}],
                                   "carry_forward": [item("OH", OH, "captcha", run)]},
     }
@@ -66,8 +69,8 @@ def clean():
                            "answer": "Rett away; not cleared"}],
             "stop": {"at": "2026-11-13T18:40:00Z", "reason": "list empty except waiting items", "asked": False}}
     man = {"schema": "grid-docket-manual-v1", "run_id": run, "complete": True, "finished": "2026-11-13T18:41:00Z",
-           "files": sorted(states), "documents": 3, "carried_forward": 2,
-           "carried_forward_by_reason": {"not_yet_filed": 1, "captcha": 1},
+           "files": sorted(states), "documents": 3, "carried_forward": 1,
+           "carried_forward_by_reason": {"captcha": 1}, "watching": 1,
            "budget": {"minutes_budget": 60, "minutes_extended": "until done", "minutes_used": 97,
                       "deferred_total": 2, "deferred_resolved_in_catchup": 5, "stopped_by": "list_empty"}}
     return run, man, prog, ps, states
@@ -134,7 +137,7 @@ def test_session_limit_needs_a_stop_record_and_ask():
     del case[2]["stop"]
     case[3]["carry_forward"].append(item("WV", "26-0075-E-CN", "time"))
     case[4][f"manual_{case[0]}_VA.json"]["carry_forward"].append(item("WV", "26-0075-E-CN", "time"))
-    case[1]["carried_forward"] = 3
+    case[1]["carried_forward"] = 2
     case[1]["carried_forward_by_reason"]["time"] = 1
     problems, _ = run_check(case, "2026-11-13T19:00:00Z")
     assert has(problems, "STOP:", "no stop record"), problems
@@ -159,9 +162,9 @@ def test_minutes_must_match_the_clock():
 
 def test_unknown_reason_fails():
     case = clean()
-    for it in case[3]["carry_forward"] + case[4][f"manual_{case[0]}_VA.json"]["carry_forward"]:
-        if it["docket"] == "PUR-2026-00044":
-            it["reason"] = "later"
+    case[3]["carry_forward"].append(item("VA", "PUR-2026-00044", "later"))
+    case[4][f"manual_{case[0]}_VA.json"]["carry_forward"].append(item("VA", "PUR-2026-00044", "later"))
+    case[1]["carried_forward"] = 2
     case[1]["carried_forward_by_reason"] = {"later": 1, "captcha": 1}
     problems, _ = run_check(case, "2026-11-13T19:00:00Z")
     assert has(problems, "REASONS:", "'later'"), problems
@@ -179,6 +182,27 @@ def test_cli_exit_codes():
         assert manual_check.main(["--dir", d, "--run", run, "--now", "2026-11-06T21:13:00Z", "--json"]) == 1
     finally:
         shutil.rmtree(d)
+
+
+def test_watch_list_rules():
+    """From 2026-11-07-2100: not_yet_filed lives in watching, never in carry_forward (7 Nov fix)."""
+    run, man, prog, ps, states = copy.deepcopy(clean())
+    ps["carry_forward"].append(item("NC", "E-7 Sub 1329", "not_yet_filed"))
+    probs, _ = manual_check.check(*write((run, man, prog, ps, states)), now=_ts("2026-11-13T19:00:00Z"))
+    assert has(probs, "WATCH", "E-7 Sub 1329"), probs
+    run, man, prog, ps, states = copy.deepcopy(clean())
+    man["watching"] = 4
+    probs, _ = manual_check.check(*write((run, man, prog, ps, states)), now=_ts("2026-11-13T19:00:00Z"))
+    assert has(probs, "COUNTS", "watching"), probs
+    run, man, prog, ps, states = copy.deepcopy(clean())
+    ps["watching"] = []
+    man["watching"] = 0
+    probs, _ = manual_check.check(*write((run, man, prog, ps, states)), now=_ts("2026-11-13T19:00:00Z"))
+    assert has(probs, "WATCH", "PUR-2026-00044"), probs
+    run, man, prog, ps, states = copy.deepcopy(clean())
+    del man["watching"]
+    probs, _ = manual_check.check(*write((run, man, prog, ps, states)), now=_ts("2026-11-13T19:00:00Z"))
+    assert has(probs, "WATCH", "no watching"), probs
 
 
 if __name__ == "__main__":
