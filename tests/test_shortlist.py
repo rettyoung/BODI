@@ -79,12 +79,50 @@ def test_backfill_screened_items_never_in_batch():
         d = json.load(open(out))
         ids = {b["id"] for b in d["batch"]}
         assert not ids & {x["id"] for x in d["screened_out"]}
-        assert all((b["tier"] or 4) <= 2 or b["refetched"] for b in d["batch"][:1]), "refetched / tier 1-2 come first"
+        assert d["mode"] == "strict" and d["since"] == "2026-01-01"
+        assert all((b["filed"] or "") >= "2026-01-01" for b in d["batch"]), "strict mode keeps the 2026 window"
+        assert d["remaining_passing"] + len(d["screened_out"]) == d["unprocessed"]
         # done ids are excluded on the next call
         json.dump({"backfill_cursor": {"done": sorted(ids)}}, open(st, "w"))
         r = run("tracker/shortlist.py", "backfill", "--state", st, "--n", "10", "--out", out, "--excerpts", os.path.join(tmp, "x"))
         d2 = json.load(open(out))
         assert not ids & {b["id"] for b in d2["batch"] if not b["refetched"]}
+
+
+def test_backfill_strict_cuts():
+    kws, parties, dockets = shortlist.load_watch()
+    kw_re, party_re = shortlist.word_re(kws), shortlist.word_re(parties)
+    doc = [{"chars": 1000}]
+
+    def cls(title, filed="2026-05-01", tier=1, party_hits=(), docket="58481", docs=doc):
+        c = {"id": "TX:58481-1", "title": title, "filed": filed, "tier": tier, "party_hits": list(party_hits),
+             "docket": docket, "docs": docs, "keywords": ["large load"]}
+        return shortlist.classify_backfill(c, kw_re, party_re, dockets, "2026-01-01", None), c
+
+    (ok, why, _, _), _ = cls("5/1/2026 | PUC | PL | ORDER APPROVING LARGE LOAD TARIFF", filed="2025-12-01")
+    assert not ok and why.startswith("window")
+    (ok, why, _, _), _ = cls("SOAH ORDER NO. 5- ADOPTING PROCEDURAL SCHEDULE, SETTING HEARING ON THE MERITS")
+    assert not ok and why == "procedural"
+    (ok, why, _, _), _ = cls("OPUC'S PROTECTIVE ORDER CERTIFICATIONS", party_hits=["Office of Public Utility Counsel"])
+    assert not ok and why == "procedural", "a watched party's procedural paper is still procedural"
+    (ok, why, _, _), _ = cls("6/5/2026 | TRAVIS & JENNIFER REPPOND | PL | Direct Testimony", party_hits=["Google"])
+    assert not ok and why.startswith("landowner"), "an individual's filing is screened even with a party hit"
+    (ok, why, _, _), _ = cls("6/19/2026 | A2 Segment Affected Landowners Coalition | BR | Initial Brief")
+    assert not ok and why.startswith("landowner")
+    (ok, why, _, disp), c = cls("4/17/2026 | Data Center Coalition (DCC) | COM | Comments on Proposal for Publication",
+                                tier=2, party_hits=["Data Center Coalition"])
+    assert ok and disp and c["_instr"], "hyperscaler / DCC filings are never collapsed"
+    (ok, why, _, disp), c = cls("9/2/2026 | Whitis Land Investments, LP | MISC | Exceptions to the Proposal for Decision", tier=3)
+    assert not c.get("_instr"), "exceptions to a PFD are not the PFD"
+    (ok, why, _, disp), c = cls("Brief", tier=3, docket="E-01345A-25-0105", party_hits=[],
+                                docs=[{"chars": 0, "error": "blocked: robots.txt disallows https://images.edocket.azcc.gov"}])
+    assert not ok and why.startswith("no document text")
+    (ok, why, _, disp), c = cls("Recommended Opinion and Order", tier=1, docket="E-01345A-25-0105",
+                                docs=[{"chars": 0, "error": "blocked: robots.txt"}])
+    assert ok and c["_needs_manual"], "an unreadable instrument goes to the manual pass"
+    assert shortlist.individual_filer("6/9/2026 | LAUREN PATTERSON | COM | PROTESTOR")
+    assert not shortlist.individual_filer("6/8/2026 | ONCOR ELECTRIC DELIVERY COMPANY LLC | PL | Response")
+    assert shortlist.individual_filer("Comments of Brian Handshy, JR. addressing proposals to use virtual power plants")
 
 
 def test_brief_input_on_the_baseline_store():

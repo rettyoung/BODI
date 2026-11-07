@@ -67,6 +67,6 @@ section only when the task needs it. Send broad repo searches to an Explore suba
 reference into a session.
 
 ## Open items (§18)
-Arizona XHLF (C-03, manual pass); Virginia CIAC docket number; C-07 and C-08 backfills draining (25 and 20 a run);
+Arizona XHLF (C-03, manual pass); Virginia CIAC docket number; C-07 backfill draining 25 a run in strict mode (since 2026-01-01; 355 passing of 1,886 on 7 Nov, ~14 Sweeps; C-08 done);
 seven blocked commissions via the Friday manual pass; NYISO ICAP monthly via manual pass. Optional decisions:
 recipients after burn-in, S&P RRA licence, Blue Owl branding, the Brief's main model.

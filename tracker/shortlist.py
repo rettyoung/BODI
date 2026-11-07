@@ -17,12 +17,16 @@ usage
       Every data/candidates/<date>.jsonl dated after --since. Prints one line per kept item (at most --top,
       highest priority first) plus one summary line; the JSON holds kept, backlog (kept beyond --top, for
       state.read_backlog) and dropped (with reasons).
-  python tracker/shortlist.py backfill [--state store_live/state.json] [--n 25] [--out work/backfill.json]
-        [--excerpts work/excerpts]
-      Next C-07 batch from data/backfill/enriched.jsonl: refetched lines first, tier 1-2 newest first, then
-      tier 3-4 that pass the screen. Tier 3-4 items with no beat signal in title, keywords, parties or
-      text are SCREENED OUT (listed in the JSON; the Sweep records them in backfill_cursor.done with
-      reason "screened"). Screened items never count toward the 25-item quota.
+  python tracker/shortlist.py backfill [--state store_live/state.json] [--store store_live] [--n 25]
+        [--since 2026-01-01] [--per-docket-month 2] [--party-per-docket-month 4] [--dry-run] [--loose]
+        [--out work/backfill.json] [--excerpts work/excerpts]
+      Next C-07 batch from data/backfill/enriched.jsonl. STRICT by default (2026-11-07): items filed before --since,
+      procedural paper, landowner/individual filers, items the store already cites, items with no beat signal and
+      items with no document text are SCREENED OUT whatever their tier; per docket and month, instruments (orders,
+      PFDs, settlements, tariff filings, rehearing requests) and hyperscaler/DCC filings are always kept, other
+      watched-party filings up to --party-per-docket-month, the rest up to --per-docket-month. Screened items are
+      listed with a reason in the JSON; the Sweep records them in backfill_cursor.done. They never count toward the
+      quota. --dry-run counts and lists only; --loose restores the 2026-11-02 rules (every tier 1-2 item read).
   python tracker/shortlist.py c08 [--state store_live/state.json] [--n 20] [--out work/c08.json]
       Next C-08 batch (new-source history lines in data/backfill/<date>.jsonl), in the corrections-queue order:
       legistar, state bills that passed a chamber or became law, appellate decisions, Regulations.gov
@@ -431,6 +435,158 @@ def done_sets(state_path):
     return done, set(ref if isinstance(ref, list) else list(ref))
 
 
+# Procedural paper: scheduling, notices, deadlines, appearances, protective orders, hearing logistics. Screened in
+# the strict C-07 mode (2026-11-07) unless a watched party filed it. Checked BEFORE ORDER_RE, because "order granting
+# variance" or "SOAH Order No. 5 - adopting procedural schedule" are orders in form only.
+PROCEDURAL_RE = re.compile(
+    r"\b(procedural (order|schedule)|scheduling order|order (adopting|setting|establishing|modifying|amending) "
+    r"(a |the )?(procedural|hearing|schedule)|(notice|order) (of|setting|for) (hearing|prehearing|pre-hearing|workshop|"
+    r"public comment hearing|technical conference|conference|oral argument)|notice of (filing|intent|appearance|"
+    r"workshop|deficiency|completeness|cancell?ation|rescheduled)|appointing (co-)?hearing examiners?|hearing examiner|"
+    r"zoom|exhibit exchange|extend(ing|s)? (the )?deadlines?|extension of (time|deadline)|continuance|abat(e|ing|ement)|"
+    r"protective order|confidential(ity)? (agreement|treatment|order)|non-?disclosure|motion to intervene|"
+    r"(granting|denying|on) (motion(s)? to )?interven|intervention|pro hac vice|errata|variance|"
+    r"affidavit of (publication|notice)|proof of (notice|publication)|certificate of (service|notice)|"
+    r"request for (hearing|interpreter)|staff'?s? (recommendation on|response to) (sufficiency|notice)|"
+    r"sufficiency|administrative completeness|substitut(e|ion) of (counsel|witness)|withdraw(al)? of counsel|"
+    r"order of referral|referral to soah|notice of (approval|adoption) of procedural|transcript|"
+    r"soah order no\.? ?\d+(?![^|]*proposal for decision)|agenda|open meeting|ballot memorandum|"
+    r"order (on|regarding) (discovery|motion to compel|scheduling)|motion to compel|discovery|request for information|"
+    r"rfi (set|no)|responses? to .{0,40}(rfi|request for information)|item(s)? to be (stricken|considered)|"
+    r"memorandum (re|regarding) (schedule|scheduling)|procedural (issues|matters)|post-hearing briefing|"
+    r"briefing schedule|certifications?|notice of (ex parte|change of address)|request for oral argument)\b", re.I)
+# Filings by landowners, ranches and individuals (CCN line-routing cases such as PUCT 59475 draw hundreds). Screened
+# in strict mode unless a watched party is on the cover page.
+INDIVIDUAL_FILER_RE = re.compile(r"\b(landowners?|ranch(es)?|pro[- ]se|protest(or|er|ant)s?|homeowners?|property owners?|"
+                                 r"family|estate of|living trust|save (the|our))\b|\| ?PC ?\|", re.I)
+ORG_WORD_RE = re.compile(r"\b(llc|l\.l\.c|inc|corp|corporation|company|co\.|lp|l\.p|llp|ltd|association|assn|council|"
+                         r"coalition|alliance|club|fund|foundation|institute|group|partners|energy|power|electric|utilit\w*|"
+                         r"cooperative|co-op|authority|commission|puc|opuc|ercot|staff|soah|city|county|state|department|"
+                         r"office|agency|university|center|centre|network|services|technologies|systems|resources|"
+                         r"holdings?|enterprises?|consumers|customers|users|intervenors|parties|et al|trust|nation|tribe|club)\b", re.I)
+
+
+def individual_filer(title):
+    """PUCT titles read 'date | filer | type | description': True when the filer field is a person (no organisation
+    word), e.g. 'TRAVIS & JENNIFER REPPOND', 'Brandon Fortie'. FERC titles ('Comments of Public Citizen, Inc.', 'Comments
+    of Maven Solutions') cannot be told apart by shape, so there only an unmistakable personal name counts: a 'Dr.'
+    prefix or a 'Jr.' suffix. Anything else stays for the beat screen and the Sweep's judgment."""
+    parts = [p.strip() for p in title.split("|")]
+    if len(parts) >= 4 and re.fullmatch(r"\d{1,2}/\d{1,2}/\d{4}", parts[0]):
+        filer = parts[1]
+    else:
+        m = re.match(r"^(?:\w+ )?[Cc]omments? of (Dr\. [A-Z][A-Za-z.' -]{2,40}?|[A-Z][a-z]+ (?:[A-Z]\. )?[A-Z][a-z]+,? J[Rr]\.?)"
+                     r"(?: re | on | requesting | addressing | regarding |,| providing )", title)
+        if not m:
+            return False
+        filer = m.group(1)
+    if ORG_WORD_RE.search(filer):
+        return False
+    words = re.findall(r"[A-Za-z][A-Za-z.'-]*", filer.replace("&", " "))
+    return 2 <= len(words) <= 6
+
+
+PRIORITY_RE = re.compile(r"\b(microsoft|google|alphabet|amazon|aws|meta|oracle|openai|coreweave|data center coalition)\b", re.I)
+ROO_RE = re.compile(r"\b(recommended opinion and order|opinion and order|decision no\.?)\b", re.I)
+# The instrument itself (not a filing about it): what makes a non-commission item "dispositive" in strict mode.
+SELF_RE = re.compile(r"\b(proposal for (decision|publication|adoption)|final order|(stipulation|settlement) agreement|"
+                     r"(unopposed|comprehensive|joint|uncontested) (stipulation|settlement)|submits tariff filing|"
+                     r"compliance filing|request for rehearing|petition for review)\b", re.I)
+NOT_SELF_RE = re.compile(r"\b(exceptions?|reply|replies|response|answer|testimony|comments?|protest|brief) (to|of|in|on|re|"
+                         r"regarding|concerning)\b", re.I)
+DEFAULT_SINCE = "2026-01-01"
+
+
+def store_index(store_dir):
+    """Text and URLs of every row and overlay in the store (rows.json manifest -> parts), for the in-store cut."""
+    if not store_dir or not os.path.isdir(store_dir):
+        return None
+    man = json.load(open(os.path.join(store_dir, "rows.json"), encoding="utf-8"))
+    parts = man.get("parts") or man.get("files") or []
+    names = [x if isinstance(x, str) else (x.get("file") or x.get("name")) for x in parts]
+    if not names:
+        names = sorted(os.path.basename(p) for p in glob.glob(os.path.join(store_dir, "rows_p*.json")))
+    chunks, urls = [], set()
+    for n in names:
+        fp = os.path.join(store_dir, n)
+        if not os.path.exists(fp):
+            continue
+        part = json.load(open(fp, encoding="utf-8"))
+        for row in part.get("data") or []:
+            chunks.append(" ".join(str(c) for c in row if c is not None))
+            u = row[-1] if row else None
+            if isinstance(u, str) and u.startswith("http"):
+                urls.add(u.strip().lower())
+        for ov in part.get("overlays") or []:
+            chunks.append(json.dumps(ov, ensure_ascii=False))
+    return "\n".join(chunks).lower(), urls
+
+
+def item_tokens(c):
+    """Strings that identify this filing if the store already cites it (accession, item, document id)."""
+    toks = []
+    i = str(c.get("id") or "")
+    jur, _, rest = i.partition(":")
+    rest = rest.replace("order:", "")
+    if jur == "FERC" and re.fullmatch(r"\d{8}-\d{4}", rest):
+        toks.append(rest)
+    elif jur == "TX" and "-" in rest:
+        ctl, item = rest.split("-", 1)
+        toks += [f"controlnumber={ctl}&itemnumber={item}", f"/{ctl}_{item}_", f"{ctl} item {item}"]
+    elif jur == "NM" and rest.startswith("DOC-"):
+        toks.append(rest.lower())
+    elif jur == "LA":
+        toks.append(f"documentid={rest}")
+    elif jur in ("AZ", "GA") and rest.isdigit() and len(rest) >= 5:
+        toks.append(rest)
+    return [t.lower() for t in toks]
+
+
+def classify_backfill(c, kw_re, party_re, dockets, since, sidx):
+    """(passes, reason, score, dispositive) for one enriched line in strict mode. Order of cuts = order of reasons."""
+    title = re.sub(r"\s+", " ", c.get("title") or "")
+    parties = as_list(c.get("party_hits"))
+    if since and (c.get("filed") or "0000")[:10] < since:
+        return False, f"window: filed before {since}", 0, False
+    if not parties and (NOISE_RE.search(title) or INDIVIDUAL_RE.search(title)):
+        return False, "routine filing", 0, False
+    if PROCEDURAL_RE.search(title):
+        return False, "procedural", 0, False
+    if INDIVIDUAL_FILER_RE.search(title) or individual_filer(title):
+        # a party hit on an individual's filing is the party named in passing, not the party filing
+        return False, "landowner / individual filer", 0, False
+    if sidx is not None:
+        text, urls = sidx
+        u = str(c.get("url") or "").strip().lower()
+        if (u and u in urls) or any(t in text for t in item_tokens(c)):
+            return False, "already in store", 0, False
+    tier = c.get("tier") or 4
+    instrument_title = bool((tier == 1 and (ORDER_RE.search(title) or TERMS_RE.search(title) or ROO_RE.search(title)))
+                            or (SELF_RE.search(title) and not NOT_SELF_RE.search(title)))
+    if not any((d.get("chars") or 0) > 0 for d in (c.get("docs") or [])):
+        # nothing to read in the cloud (AZ: images.edocket.azcc.gov refuses by robots.txt; some FERC files 401).
+        # Instruments go forward flagged needs_manual (the Sweep queues them to the manual pass); the rest are screened.
+        if instrument_title or parties:
+            c["_instr"], c["_needs_manual"] = True, True
+            return True, "", 0, True
+        return False, "no document text: " + ((c.get("docs") or [{}])[0].get("error") or "none")[:60], 0, False
+    sc, group, why = score(c, kw_re, party_re, dockets)
+    kws = {str(k).lower() for k in as_list(c.get("keywords"))}
+    strong_title = {m.group(1).lower() for m in kw_re.finditer(title)} - WEAK
+    body = body_terms(c, kw_re) if c.get("filing") else set()
+    dk = str(c.get("docket") or "").upper()
+    watched = bool(dk) and any(w and (w in dk) for w in dockets)
+    beat = bool(parties or strong_title or len(body - WEAK) >= 2 or (kws - WEAK and watched))
+    if not beat and not watched:
+        return False, "no beat signal", sc, False
+    if not beat and watched and not (instrument_title or ORDER_RE.search(title) or TERMS_RE.search(title)):
+        return False, "watched docket, no beat signal and not an order or terms", sc, False
+    # instruments and filings by the priority parties (hyperscalers, the Data Center Coalition) are never collapsed
+    c["_instr"] = bool(instrument_title or (PRIORITY_RE.search(" ".join(parties)) if parties else False))
+    dispositive = bool(parties or c["_instr"])
+    return True, "", sc, dispositive
+
+
 def cmd_backfill(a):
     kws, parties, dockets = load_watch()
     kw_re, party_re = word_re(kws), word_re(parties)
@@ -451,42 +607,107 @@ def cmd_backfill(a):
         if prev is None or c.get("_refetch"):
             lines[c["id"]] = c
     take, screened = [], []
-    for c in lines.values():
-        tier = c.get("tier") or 4
-        kwl, pl = as_list(c.get("keywords")), as_list(c.get("party_hits"))
-        if c.get("_refetch") or tier <= 2:
-            take.append(c)
-            continue
-        signal = bool(pl)
-        if kwl and not signal:
-            f = load_filing(c.get("filing"))
-            text = " ".join((d.get("text") or "")[:20000] for d in (f or {}).get("documents") or [])
-            strong = {m.group(1).lower() for m in kw_re.finditer(c.get("title") or "")}
-            body = {m.group(1).lower() for m in kw_re.finditer(text)}
-            signal = bool(strong) or len(body) >= 2 or bool(party_re.search(text))
-        if signal:
-            take.append(c)
-        else:
-            screened.append({"id": c["id"], "tier": tier, "title": (c.get("title") or "")[:100],
-                             "why": "no keyword or party" if not kwl else "keywords only in metadata, <2 beat terms in text"})
-    # corrections_queue C-07 order: refetched first, then tier 1-2, then passing tier 3-4; newest first within each
-    take.sort(key=lambda c: c.get("filed") or "", reverse=True)
-    take.sort(key=lambda c: (0 if c.get("_refetch") else 1, 0 if (c.get("tier") or 4) <= 2 else 1))
-    batch = take[:a.n]
+    strict = not a.loose
+    sidx = store_index(a.store) if strict else None
+    if strict:
+        # 2026-11-07 (Rett): window from --since, tier 1-2 scored like weekly candidates, store dedupe, docket collapse.
+        groups = {}
+        for c in lines.values():
+            ok, why, sc, disp = classify_backfill(c, kw_re, party_re, dockets, a.since, sidx)
+            if not ok:
+                screened.append({"id": c["id"], "tier": c.get("tier"), "jur": c.get("jur"), "docket": c.get("docket"),
+                                 "filed": c.get("filed"), "title": re.sub(r"\s+", " ", c.get("title") or "")[:100], "why": why})
+                continue
+            c["_score"], c["_disp"] = sc, disp
+            key = (str(c.get("docket") or c["id"]), (c.get("filed") or "")[:7])
+            groups.setdefault(key, []).append(c)
+        for (dk, month), cs in groups.items():
+            cs.sort(key=lambda c: (-c["_score"], c.get("filed") or ""))
+            # instruments (orders, PFDs, settlements, tariff filings, rehearing requests) are always kept; watched-party
+            # filings up to --party-per-docket-month; everything else up to --per-docket-month
+            kept_party = kept_other = 0
+            for c in cs:
+                if c.get("_instr"):
+                    take.append(c)
+                elif c["_disp"] and kept_party < a.party_per_docket_month:
+                    kept_party += 1
+                    take.append(c)
+                elif not c["_disp"] and kept_other < a.per_docket_month:
+                    kept_other += 1
+                    take.append(c)
+                else:
+                    cap = a.party_per_docket_month if c["_disp"] else a.per_docket_month
+                    kind = "watched-party" if c["_disp"] else "other"
+                    screened.append({"id": c["id"], "tier": c.get("tier"), "jur": c.get("jur"), "docket": c.get("docket"),
+                                     "filed": c.get("filed"), "title": re.sub(r"\s+", " ", c.get("title") or "")[:100],
+                                     "why": f"docket collapse: {cap} higher-scoring {kind} items kept for {dk} in {month}"})
+        # dispositive first, then score; newest first within each
+        take.sort(key=lambda c: c.get("filed") or "", reverse=True)
+        # strict mode: refetched lines (documents read after an earlier failure) go through the same cuts and order
+        take.sort(key=lambda c: (0 if c.get("_instr") else 1 if c.get("_disp") else 2, -(c.get("_score") or 0)))
+    else:
+        for c in lines.values():
+            tier = c.get("tier") or 4
+            kwl, pl = as_list(c.get("keywords")), as_list(c.get("party_hits"))
+            if c.get("_refetch") or tier <= 2:
+                take.append(c)
+                continue
+            signal = bool(pl)
+            if kwl and not signal:
+                f = load_filing(c.get("filing"))
+                text = " ".join((d.get("text") or "")[:20000] for d in (f or {}).get("documents") or [])
+                strong = {m.group(1).lower() for m in kw_re.finditer(c.get("title") or "")}
+                body = {m.group(1).lower() for m in kw_re.finditer(text)}
+                signal = bool(strong) or len(body) >= 2 or bool(party_re.search(text))
+            if signal:
+                take.append(c)
+            else:
+                screened.append({"id": c["id"], "tier": tier, "title": (c.get("title") or "")[:100],
+                                 "why": "no keyword or party" if not kwl else "keywords only in metadata, <2 beat terms in text"})
+        # corrections_queue C-07 order: refetched first, then tier 1-2, then passing tier 3-4; newest first within each
+        take.sort(key=lambda c: c.get("filed") or "", reverse=True)
+        take.sort(key=lambda c: (0 if c.get("_refetch") else 1, 0 if (c.get("tier") or 4) <= 2 else 1))
+    batch = [] if a.dry_run else take[:a.n]
     out_batch = []
     for c in batch:
         p, n = write_excerpt(c, kw_re, party_re, a.excerpts, a.cap)
         out_batch.append({"id": c["id"], "tier": c.get("tier"), "refetched": bool(c.get("_refetch")),
-                          "jur": c.get("jur"), "docket": c.get("docket"), "title": re.sub(r"\s+", " ", c.get("title") or "")[:160],
+                          "dispositive": bool(c.get("_disp")), "needs_manual": bool(c.get("_needs_manual")),
+                          "jur": c.get("jur"), "docket": c.get("docket"),
+                          "title": re.sub(r"\s+", " ", c.get("title") or "")[:160],
                           "filed": c.get("filed"), "url": c.get("url"), "filing": c.get("filing"), "excerpt": p})
-    out = {"batch": out_batch, "screened_out": screened, "remaining_after_batch": len(take) - len(batch),
-           "remaining_passing": len(take), "done_before": len(done)}
+    by_reason = {}
+    for x in screened:
+        k = x["why"].split(":")[0]
+        by_reason[k] = by_reason.get(k, 0) + 1
+    def tally(items, key):
+        t = {}
+        for c in items:
+            k = key(c)
+            t[k] = t.get(k, 0) + 1
+        return dict(sorted(t.items()))
+    out = {"mode": "strict" if strict else "loose", "since": a.since if strict else None,
+           "store_checked": bool(sidx), "unprocessed": len(lines),
+           "batch": out_batch, "screened_out": screened, "screened_by_reason": by_reason,
+           "remaining_after_batch": len(take) - len(batch), "remaining_passing": len(take), "done_before": len(done),
+           "passing_by_jur": tally(take, lambda c: c.get("jur") or "?"),
+           "passing_by_month": tally(take, lambda c: (c.get("filed") or "?")[:7]),
+           "passing_dispositive": sum(1 for c in take if c.get("_disp")),
+           "passing_needs_manual": sum(1 for c in take if c.get("_needs_manual")),
+           "passing": [{"id": c["id"], "jur": c.get("jur"), "docket": c.get("docket"), "filed": c.get("filed"),
+                        "dispositive": bool(c.get("_disp")), "instrument": bool(c.get("_instr")),
+                        "needs_manual": bool(c.get("_needs_manual")), "score": c.get("_score"),
+                        "title": re.sub(r"\s+", " ", c.get("title") or "")[:120]} for c in take] if a.dry_run else None}
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     json.dump(out, open(a.out, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     for i, r in enumerate(out_batch, 1):
-        print(f"{i:>2} t{r['tier']}{'R' if r['refetched'] else ' '} {r['id'][:34]:<34} {(r['docket'] or '-')[:16]:<16} {r['title'][:70]}")
-    print(f"C-07 BATCH {len(out_batch)} (quota {a.n}); {len(take) - len(batch)} passing items remain after it; "
-          f"{len(screened)} screened out (record in backfill_cursor.done as screened) -> {a.out}")
+        print(f"{i:>2} t{r['tier']}{'R' if r['refetched'] else ' '}{'D' if r['dispositive'] else ' '} {r['id'][:34]:<34} "
+              f"{(r['docket'] or '-')[:16]:<16} {r['title'][:70]}")
+    cuts = ", ".join(f"{k} {v}" for k, v in sorted(by_reason.items(), key=lambda kv: -kv[1]))
+    print(f"C-07 {'DRY RUN' if a.dry_run else 'BATCH ' + str(len(out_batch))} ({'strict since ' + a.since if strict else 'loose'}"
+          f"{', store checked' if sidx else ''}; quota {a.n}): {len(lines)} unprocessed -> {len(take)} passing "
+          f"({out['passing_dispositive']} dispositive), {len(take) - len(batch)} remain after this batch; "
+          f"{len(screened)} screened out ({cuts}) (record in backfill_cursor.done as screened) -> {a.out}")
 
 
 C08_SOURCES = ("openstates", "courtlistener", "congress", "regulations_gov", "legistar", "ercot_large_load", "studies", "osti")
@@ -575,6 +796,14 @@ def main():
     p.set_defaults(fn=cmd_candidates)
     p = sp.add_parser("backfill")
     p.add_argument("--state")
+    p.add_argument("--store", help="store folder (store_live): items the store already cites are screened 'already in store'")
+    p.add_argument("--since", default=DEFAULT_SINCE, help="strict mode: screen items filed before this date")
+    p.add_argument("--per-docket-month", type=int, default=2,
+                   help="strict mode: non-dispositive items kept per docket per month (the rest are 'docket collapse')")
+    p.add_argument("--party-per-docket-month", type=int, default=4,
+                   help="strict mode: watched-party filings kept per docket per month (orders and instruments always kept)")
+    p.add_argument("--loose", action="store_true", help="the pre-2026-11-07 rules (every tier 1-2 item read)")
+    p.add_argument("--dry-run", action="store_true", help="count and list only; no batch, no excerpts")
     p.add_argument("--n", type=int, default=25)
     p.add_argument("--cap", type=int, default=8000)
     p.add_argument("--out", default="work/backfill.json")

@@ -122,11 +122,16 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   document text, added a few hundred documents per night by the collector (collector/backfill_text.py). Each line
   carries a tier: 1 = issued by the commission/agency, 2 = filed by a watched party (matched on the cover page — a
   party's brief is often filed under its attorney's name), 3 = briefs/testimony/applications/tariffs, 4 = other.
-  The batch is chosen by `python tracker/shortlist.py backfill` (sweep.md 8.7; added 2026-11-02): it applies the order
-  below, screens out tier 3–4 items with no beat signal (they go into backfill_cursor.done and never count toward
-  the quota) and writes an excerpt per item for the extraction subagents.
-  Each run, after this week's candidates, take at least 25 enriched items (all that remain, if fewer) not yet in state.backfill_cursor.done: all
-  tier 1–2 items first (newest first), then tier 3–4 items only when keywords or party_hits are non-empty. Treat
+  The batch is chosen by `python tracker/shortlist.py backfill` (sweep.md 8.7; added 2026-11-02, STRICT since
+  2026-11-07): it screens out items filed before 2026-01-01, procedural paper, landowner/individual filers, items the
+  store already cites and items with no beat signal (any tier), collapses each docket-month to its instruments plus a
+  few party and other filings, and writes an excerpt per item for the extraction subagents. Screened items go into
+  backfill_cursor.done and never count toward the quota. Dry run of 2026-11-07: 1,886 unprocessed → 355 passing
+  (93 instruments or hyperscaler/DCC filings); 1,531 screened (420 landowner/individual,
+  310 docket collapse, 256 procedural, 178 no document text, 175 watched docket without beat
+  signal, 159 before 2026, 31 no beat signal, 2 already in store). At 25 a run that is about 15 Sweeps.
+  Each run, after this week's candidates, take at least 25 enriched items (all that remain, if fewer) not yet in state.backfill_cursor.done,
+  in the order the script gives (refetched, instruments, watched-party filings, the rest by score). Treat
   each exactly like a candidate (discovery-date Event IDs). Most will already be in the store — dedupe first; a
   confirmed duplicate is simply marked done. Record processed ids in state.backfill_cursor.done (ids only).
 - A line with `"refetched": true` (from 2026-10-05) is a filing whose documents failed earlier (an HTML page served

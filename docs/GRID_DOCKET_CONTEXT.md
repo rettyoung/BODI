@@ -279,7 +279,7 @@ SUSPECT_ZERO after checking explicit negatives) → collector candidates (metada
 NCUC, DCC Bi-Weekly; **newsletter canary**: every newsletter event either gets a row or is recorded
 `CANARY_MISS`) → manual drops → WebFetch routes (6.1 PA; 6.2 AZ PDFs; 6.3 manual-route fallbacks; 6.4 ERCOT
 notices, large-load and planning pages; 6.5 PJM; 6.6 runner-refused pages that open to WebFetch) →
-grain/identity/supersession/dedupe → classify → **required follow-ups before the commit**: tariff-terms delta (8.5), corrections queue (8.6, up to 6 one-off items), C-07 backfill (8.7, 25/run), C-08 new-source history (8.8, 20/run)
+grain/identity/supersession/dedupe → classify → **required follow-ups before the commit**: tariff-terms delta (8.5), corrections queue (8.6, up to 6 one-off items), C-07 backfill (8.7, 25/run, strict screen since 7 Nov), C-08 new-source history (8.8, 20/run)
 → commit (part, manifest, seen index, metrics, tariff delta, obligations) → **completeness gate** (`tracker/check_run.py`, 9.3) → run record → state → repair proposals → report. Target 30 minutes; past 30, only new-candidate reading may be cut. Degraded mode (mail +
 manual + web only) if the clone fails.
 
@@ -841,7 +841,7 @@ tables; (8) direct state bill trackers.
 |---|---|
 | Seven blocked commissions (VA, SC, IL, OH, NC, WV, NV) | Manual pass weekly (dockets + new cases), cloud fallbacks between passes; S&P RRA if licensed |
 | Nevada document content (no text layer) | Manual pass: text copies from the filer, FERC, SEC or intervenors (can be Verified when it is the same document from the filer, FERC or SEC); otherwise visual reading (Reported). Options: a public-records request to the PUCN for the documents as filed (filers usually submit searchable PDFs); S&P RRA |
-| Docket history before 3 Oct for collector states | Nightly enrichment (~2 weeks) + Sweep C-07 |
+| Docket history before 3 Oct for collector states | Sweep C-07, strict screen (filed since 2026-01-01; 355 of 1,886 items pass, 7 Nov) |
 | Arizona documents (ACC PDF host certificate mismatch) | Manual pass requests queued by the Sweep; automatic again if the certificate is fixed |
 | Arizona governor, IR pages for Southern/Evergy/Exelon/OGE/Oncor/BHE | EDGAR exhibits and deck search; manual pass extra pages |
 | ERCOT large-load data products, PJM market data | ERCOT Public API live 4 Oct (no large-load product published yet; checked nightly); PJM Data Miner (low priority). PJM queue: collected since 4 Oct |
