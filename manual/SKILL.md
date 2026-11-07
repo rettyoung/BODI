@@ -70,8 +70,11 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
 
 ## Steps
 
-0. **Confirm Rett is here.** If this session was started by a schedule (the Friday reminder) rather than by
-   Rett typing, ask first as a clickable choice: load AskUserQuestion with ToolSearch
+0. **Confirm Rett is here.** First, before anything else, check the Resume conditions below (newest
+   complete manifest and `pass_state.json` in `/GridDocket/manual/`). If they hold, ask the question with
+   "Resume" as the first option **even when Rett started this session by typing** (found 7 Nov: a typed
+   start skipped the question and began a full pass from scratch). Otherwise, if this session was started
+   by a schedule (the Friday reminder) rather than by Rett typing, ask first as a clickable choice: load AskUserQuestion with ToolSearch
    (`select:AskUserQuestion`) and use it; only if it cannot be loaded, ask in plain text: "Ready to run the Grid
    Docket manual pass now? About 45–60 minutes in the browser pane; it may need you for a CAPTCHA." Options:
    "Run now" (full pass, then the audit), "Audit only" (about 5–10 minutes: step 9 alone, no browsing) and
@@ -79,8 +82,9 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
    "Skip" or no answer, stop without browsing and without writing anything.
    **Resume (added 2026-11-06; narrowed 2026-11-07).** If the newest complete manifest has `stopped_by`
    `"session_limit"` or `"no_answer"`, finished within the last 24 hours, and `pass_state.json` still has
-   `carry_forward` items, offer **"Resume"** as the first option, whether or not a schedule started this
-   session. **Resume works the `carry_forward` list and nothing else.** It is not a new pass: no docket
+   `carry_forward` items, offer **"Resume"** as the first option, whether a schedule or Rett started this
+   session; never go straight into a full pass while these conditions hold. If Rett's own words already
+   say which he wants ("resume", "full pass"), follow them without asking. **Resume works the `carry_forward` list and nothing else.** It is not a new pass: no docket
    catch-up, no new-case search, no extra pages, no watch-list check, no backlog question (steps 1's
    docket and new-case catch-up, 2b, 3(2), 4a, 4b and 5 are skipped). Do step 0a, 2, 2a, 2c (only for
    carry-forward items that need Rett), then work the list in the step 5b order, then steps 5c–9.
