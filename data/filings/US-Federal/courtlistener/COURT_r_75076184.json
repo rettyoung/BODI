@@ -1,0 +1,22 @@
+{
+ "id": "COURT:r:75076184",
+ "jur": "US-Federal",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "1:26-cv-03168",
+ "title": "CMS Energy Corporation v. Brater",
+ "filed": "2026-11-05",
+ "url": "",
+ "fetch": [],
+ "meta": {
+  "court": "District Court, W.D. Michigan",
+  "query": "\"data center\" AND (\"public service commission\" OR \"corporation commission\" OR \"public utility commission\")"
+ },
+ "collected_at": "2026-11-08T11:58:58Z",
+ "run_id": "2026-11-08-1130",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}
