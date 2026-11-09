@@ -267,7 +267,7 @@ def main(only=None):
 
             def is_baseline(it):
                 return name in BASELINE_SOURCES and (it.get("meta") or {}).get("bkey", name) not in bkeys
-            new = [it for it in items if it["id"] not in state["seen"]]
+            new = [it for it in items if it["id"] not in state["seen"] or (it.get("meta") or {}).get("refetch")]
             nb = sum(1 for it in new if is_baseline(it))
             rec.update(found=len(items), new=len(new), baselined_now=nb)
             baseline = False
@@ -315,9 +315,19 @@ def main(only=None):
                     if not m_tf:
                         continue
                     it.setdefault("meta", {})["text_filter_match"] = hay[max(0, m_tf.start() - 300): m_tf.end() + 300]
-                kept += 1
                 fpath = os.path.join("data", "filings", slug(it.get("jur") or "NA", 12), slug(name, 30),
                                      slug(it["id"], 120) + ".json")
+                if not docs and os.path.exists(os.path.join(ROOT, fpath)):
+                    # never replace a filing that holds text with a text-less copy of the same id (2026-11-09:
+                    # EDGAR full-text hits share the SEC:<accession> id and had wiped the Evergy Q3 8-K and 10-Q
+                    # and the Southern Q3 10-Q)
+                    try:
+                        with open(os.path.join(ROOT, fpath), encoding="utf-8") as fh:
+                            if json.load(fh).get("documents"):
+                                continue
+                    except Exception:
+                        pass
+                kept += 1
                 save_json(os.path.join(ROOT, fpath), {**it, "collected_at": now_utc(), "run_id": run_id,
                                                       "keywords": hits, "party_hits": phits, "documents": docs})
                 line = {k: it.get(k) for k in ("id", "jur", "source", "kind", "docket", "title", "filed", "url", "entity")}

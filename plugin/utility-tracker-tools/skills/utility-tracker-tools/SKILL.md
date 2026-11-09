@@ -1,6 +1,6 @@
 ---
 name: utility-tracker-tools
-description: The Utility Tracker (Grid Docket) tracker scripts — store_sync, rowstore, subtables, check_run, manual_check, build_console, build_tracker, narrative — with the console template and watch list. Load this whenever a Sweep, Brief or manual-pass run, or BODI/prompts/*.md, says to run a tracker/*.py script; it runs these packaged copies instead of code cloned from GitHub.
+description: The Utility Tracker (Grid Docket) tracker scripts — store_sync, rowstore, subtables, check_run, manual_check, shortlist, ir_ledger, build_console, build_tracker, narrative — with the console template and watch list. Load this whenever a Sweep, Brief or manual-pass run, or BODI/prompts/*.md, says to run a tracker/*.py script; it runs these packaged copies instead of code cloned from GitHub.
 ---
 
 # Utility Tracker tools
@@ -54,7 +54,8 @@ or work around it: apply that script's rules by hand as the task prompt's hand-c
 ## Notes
 
 - `shortlist.py` (Sweep Steps 3.2, 8.7, 8.8) reads the collector data in the clone, which is data, not code: pass
-  `--data ../BODI/data` from `bodi_run/`. `brief_input.py` and `usage.py` read only `store_live/` and records.
+  `--data ../BODI/data` from `bodi_run/`. `ir_ledger.py` (Sweep Step 3.6, from 0.4.0) reads the same data: pass
+  `--data ../BODI/data` too. `brief_input.py` and `usage.py` read only `store_live/` and records.
 
 - `narrative.py` needs pandoc and wkhtmltopdf or LibreOffice for the PDF; if they are missing, its error is
   reported in the status check and the console still publishes.

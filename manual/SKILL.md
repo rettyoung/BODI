@@ -285,10 +285,16 @@ OneDrive driveId `b!2OnbGRjzpEKUL9fVRRC4Lv4LSN1Bpb1PmI1aJZgbWGvvNTw6Z-6ISI31RRmm
       `{"item", "attempted": "what was actually tried (pages read, attachments listed, exhibits opened)",
       "blocker": one of the step 6 reasons, "needs_rett": true|false}`. Be literal: if you did not try, the
       blocker is `not_attempted`.
-5. **Extra pages** from the queue's `extra_pages` (for example the Arizona governor's newsroom, or an investor
-   events page during earnings season when the cloud found no deck): read only the page and any on-beat item
-   or deck PDF it links that is newer than the since-date. Save as `manual_<run_id>_EXTRA.json`, same format,
-   `"state": "EXTRA"`.
+5. **Extra pages** from the queue's `extra_pages` (for example the Arizona governor's newsroom): read only the
+   page and any on-beat item it links that is newer than the since-date. Save as `manual_<run_id>_EXTRA.json`,
+   same format, `"state": "EXTRA"`.
+   **IR deck requests** (queue `ir_requests`, since 9 Nov 2026): open exactly the `url` given (for OGE that is
+   `https://investor.oge.com/events-and-presentations/default.aspx` — never `investors.ogeenergy.com`, which
+   does not exist and was logged as "site down" three times), find that quarter's earnings presentation, open
+   the PDF and save its text as a document in the EXTRA file (`docket`: "IR <issuer> <quarter>"). "Harvested,
+   not opened" is not done: a request is done only when the deck's text is saved, or when the page shows no deck
+   for that quarter (say so in `notes`). Earnings releases and 10-Qs come from EDGAR in the cloud, and Oncor and
+   BHE publish no deck, so never browse IR pages that are not in `ir_requests`.
 5b. **Catch-up round.** If any budget remains and the deferred list is not empty, work it in this order:
    (1) items flagged `escalate` or carried for two or more runs;
    (2) items that need Rett — ask for **all of them in one message**, listing each item, and open each page

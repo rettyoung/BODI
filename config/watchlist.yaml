@@ -107,7 +107,10 @@ edgar:
   eight_k_items: ["2.02", "7.01", "8.01", "1.01", "2.01"]
   utilities: {AEP: AEP, Southern: SO, Duke: DUK, Dominion: D, Entergy: ETR, Evergy: EVRG, Exelon: EXC,
               Ameren: AEE, PPL: PPL, Pinnacle West: PNW, Xcel: XEL, OGE Energy: OGE, TXNM Energy: "0001108426",
-              Oncor: "0001193311", Fortis: "0001666175", Nevada Power: "0000071180", NiSource: NI, FirstEnergy: FE}
+              Oncor: "0001193311", Fortis: "0001666175", Nevada Power: "0000071180", NiSource: NI, FirstEnergy: FE,
+              Sempra: SRE}
+  # Sempra (2026-11-09): Oncor holds no earnings call and posts no deck; its queue figures are in its own release
+  # and in Sempra's. Nevada Power's CIK carries the combined Berkshire Hathaway Energy 10-Q/10-K (BHE posts no deck).
   market_participants: {Constellation: CEG, Vistra: VST, NRG: NRG, Talen: TLN, NextEra: NEE, Microsoft: MSFT,
                         Alphabet: GOOGL, Amazon: AMZN, Meta: META, Oracle: ORCL, Digital Realty: DLR, Equinix: EQIX,
                         CoreWeave: CRWV, Applied Digital: APLD, IREN: IREN, Core Scientific: CORZ, GE Vernova: GEV}
@@ -212,21 +215,46 @@ rss:
 # Investor events-and-presentations pages (rendered; PDF links harvested, never guessed).
 ir_pages:
   - {issuer: AEP,           url: "https://www.aep.com/investors/events", verify: true}
-  - {issuer: Southern,      url: "https://investor.southerncompany.com/events-and-presentations/default.aspx", verify: true}
+  - {issuer: Southern,      url: "https://investor.southerncompany.com/events-and-presentations/default.aspx", verify: true, refused_known: "Incapsula; EDGAR earnings lane + q4cdn deck via WebFetch (ir_ledger)"}
   - {issuer: Duke,          url: "https://investors.duke-energy.com/news-events/events-and-presentations/default.aspx", verify: true}
   - {issuer: Dominion,      url: "https://investors.dominionenergy.com/news-and-events/events-and-presentations/default.aspx", verify: true}
   - {issuer: Entergy,       url: "https://www.entergy.com/investors/events/", verify: true}
-  - {issuer: Evergy,        url: "https://investors.evergy.com/events-and-presentations", verify: true}
-  - {issuer: Exelon,        url: "https://investors.exeloncorp.com/events-and-presentations", verify: true}
+  - {issuer: Evergy,        url: "https://investors.evergy.com/events-and-presentations", verify: true, refused_known: "firewall to the runners (403); EDGAR earnings lane + page via WebFetch (ir_ledger)"}
+  - {issuer: Exelon,        url: "https://investors.exeloncorp.com/events-and-presentations", verify: true, refused_known: "firewall to the runners (403); deck is 8-K Ex 99.2 (EDGAR earnings lane)"}
   - {issuer: Ameren,        url: "https://amereninvestors.com/news-and-events/events-and-presentations/default.aspx", verify: true}
   - {issuer: PPL,           url: "https://investors.pplweb.com/events-and-presentations", verify: true}
   - {issuer: Pinnacle West, url: "https://www.pinnaclewest.com/investors/events-and-presentations/default.aspx", verify: true}
   - {issuer: Xcel,          url: "https://investors.xcelenergy.com/news-events/events-and-presentations/default.aspx", verify: true}
-  - {issuer: OGE Energy,    url: "https://investor.oge.com/events-and-presentations/default.aspx", verify: true}
-  - {issuer: Oncor,         url: "https://investor.oncor.com/news-events/events-and-presentations/default.aspx", verify: true}
+  - {issuer: OGE Energy,    url: "https://investor.oge.com/events-and-presentations/default.aspx", verify: true, refused_known: "host does not resolve from the runners; EDGAR earnings lane, deck via manual pass (ir_ledger)"}
+  - {issuer: Oncor,         url: "https://investor.oncor.com/news-events/events-and-presentations/default.aspx", verify: true, refused_known: "host does not resolve from the runners; no deck exists, release via EDGAR (Oncor + Sempra)"}
   - {issuer: Fortis,        url: "https://www.fortisinc.com/investors/events-and-presentations", verify: true}
-  - {issuer: BHE,           url: "https://www.brkenergy.com/investors", verify: true}
+  - {issuer: BHE,           url: "https://www.brkenergy.com/investors", verify: true, refused_known: "CAPTCHA; no quarterly deck exists, 10-Q via EDGAR (Nevada Power CIK)"}
   - {issuer: TXNM Energy,   url: "https://www.txnmenergy.com/investors/events-and-presentations", verify: true}
+
+# IR disclosure ledger (2026-11-09; tracker/ir_ledger.py, sweep.md 3.6). One line per IR issuer per quarter: its
+# earnings 8-K (Item 2.02/7.01) and 10-Q/10-K must be read (they come through the shortlist's earnings lane), and
+# where the issuer posts a deck that EDGAR does not carry, the deck route says how to get it. edgar = the
+# edgar.utilities names whose filings count for this issuer (default: the issuer name).
+#   expect: deck (posts an earnings deck) | release (earnings release, no deck) | 10q (periodic report only)
+#   deck:   edgar (8-K exhibit) | ir_page (collector reads the page) | webfetch (Sweep WebFetch of deck_url or a
+#           WebSearch hit on the issuer's CDN) | manual (Friday pass opens deck_url and saves the PDF)
+ir_ledger:
+  - {issuer: AEP, deck: ir_page}
+  - {issuer: Southern, deck: webfetch, deck_url: "WebSearch site:s27.q4cdn.com/273397814 earnings call <quarter>"}
+  - {issuer: Duke, deck: ir_page}
+  - {issuer: Dominion, deck: ir_page}
+  - {issuer: Entergy, deck: ir_page}
+  - {issuer: Evergy, deck: webfetch, deck_url: "https://investors.evergy.com/events-and-presentations"}
+  - {issuer: Exelon, deck: edgar}
+  - {issuer: Ameren, deck: ir_page}
+  - {issuer: PPL, deck: ir_page}
+  - {issuer: Pinnacle West, deck: ir_page}
+  - {issuer: Xcel, deck: ir_page}
+  - {issuer: OGE Energy, deck: manual, deck_url: "https://investor.oge.com/events-and-presentations/default.aspx"}
+  - {issuer: Oncor, expect: release, edgar: [Oncor, Sempra]}
+  - {issuer: Fortis, deck: ir_page}
+  - {issuer: BHE, expect: 10q, edgar: [Nevada Power]}
+  - {issuer: TXNM Energy, expect: release}
 
 # Cloud fallback for manual-route states: public copies on permitted hosts. (IL Citizens Utility Board removed
 # 2026-10-04: it returns HTTP 403 to automated clients.) Filled from research;

@@ -235,6 +235,26 @@ def test_subtables_rejects_bad_delta():
     assert subtables.check_delta({"schema": "x", "upserts": [{"utility": "A"}]})
 
 
+def test_ir_ledger_step_required_from_16_nov_and_must_leave_nothing_unread():
+    """2026-11-09: IR issuers' quarterly disclosures were never counted; step 3.6 (tracker/ir_ledger.py) counts them."""
+    steps = good_steps()
+    del steps["3.6"]
+    probs = []
+    check_run.check_steps({"steps": steps}, 20, probs, "2026-11-09")
+    assert not has(probs, "3.6"), "runs before 2026-11-16 replay unchanged"
+    probs = []
+    check_run.check_steps({"steps": steps}, 20, probs, "2026-11-16")
+    assert has(probs, "step 3.6", "no entry")
+    steps["3.6"] = {"status": "DONE", "evidence": "ledger 2026Q3", "counts": {"unread": 2}}
+    probs = []
+    check_run.check_steps({"steps": steps}, 20, probs, "2026-11-16")
+    assert has(probs, "3.6", "2 IR issuer")
+    steps["3.6"]["counts"]["unread"] = 0
+    probs = []
+    check_run.check_steps({"steps": steps}, 20, probs, "2026-11-16")
+    assert not probs, probs
+
+
 if __name__ == "__main__":
     n = 0
     for name, fn in sorted(globals().items()):
