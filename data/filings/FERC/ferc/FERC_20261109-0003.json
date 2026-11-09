@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261109-0003",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comments of Jull Hardee in opposition to the Cook Inlet Subsea-Compute and Infrastructure Hub Project under P-15423. ",
+ "filed": "2026-11-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261109-0003",
+ "entity": "INDIVIDUAL",
+ "fetch": [
+  {
+   "ferc_file": "B77BFED0-2A1D-C565-8F40-A1C14EC00000",
+   "name": "DocBatch261109-0012.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-21"
+ },
+ "collected_at": "2026-11-09T21:27:20Z",
+ "run_id": "2026-11-09-2121",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "DocBatch261109-0012.pdf",
+   "bytes": 257447,
+   "sha256": "182a1d8cf5c9ffa0adf264a918b685e34a1d4834580ca94200ea4e56eddc3d57",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "nGINAL\n October 21, 2026\n\n\n\n United States of America\n\n Federal Energy Regulatory Commission\n\n Deep Green Cook Inlet SN, LLC                        Docket #P.15423-000\n\n                                                      Project No. 15423-000\n\n\n\n To: Debbie Anne A. Reese, Secretary, Federal Energy Regulatory Commission\n\n 888 First St. N.E., Room 1A, Washington, DC 20426\n\n\n\n I protest this Cook Inlet Subsea-Compute and Infrastructure HUB Project (Deep Green\n Project) to be located in the Upper Cook Inlet, East Foreland Corridor, Kenai Peninsula\n Borough, Alaska.\n\n I think a data center in an important water way for marine life including Beluga Whales that\n are endangered is a terrible idea. This waterway is a significant part of our community in\n multiple ways. We depend on marine life in this water way for subsistence, and others use\n it for their livelihood for commercial fishing. It is a true sense of identity to our local\n community. Our arctic waters are already heating up and starting to change our\n ecosystems and way of life. This will further threaten and speed up the destruction of our\n waterways. Our local community is very interconnected with this waterway in multiple\n ways and we are greatly worried about the beluga whales who are already endangered.\n\n\n\n Thank yoL fpb-your attenti n in this matter\n         c;: e_  •\n Jill Hardee\n\n P.O. Box 7501\n\n Nikiski, AK 99635\n\f"
+  }
+ ]
+}

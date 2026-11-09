@@ -1,0 +1,43 @@
+{
+ "id": "SEC:0001193125-26-453603",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "NiSource 8-K 8-K items 8.01,9.01",
+ "filed": "2026-11-09",
+ "url": "https://www.sec.gov/Archives/edgar/data/1111711/000119312526453603/",
+ "entity": "NiSource",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1111711/000119312526453603/d166935d8k.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "cik": "0001111711",
+  "market_participant": false
+ },
+ "collected_at": "2026-11-09T21:30:33Z",
+ "run_id": "2026-11-09-2121",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1111711/000119312526453603/d166935d8k.htm",
+   "name": null,
+   "bytes": 29391,
+   "sha256": "fbcce7a8da5f5d9e34f7151b86174961d3e95f90b1ab9259529434d9246a39d7",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "8-K\n\nfalse\n\n0001111711\n\n0001111711\n\n2026-11-09\n\n2026-11-09\n\nUNITED STATES\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nFORM \n8-K\n\nCURRENT REPORT\n\nPursuant to Section 13 OR 15(d)\n\nof the Securities Exchange Act of 1934\n\nDate of Report (Date of earliest event reported): \nNovember 9, 2026\n\nNiSource Inc.\n\n(Exact Name of Registrant as Specified in Charter)\n\nDE\n\n001-16189\n\n35-2108964\n\n(State or other jurisdiction\n\nof incorporation)\n\n(Commission\n\nfile number)\n\n(I.R.S. Employer\n\nIdentification No.)\n\n801 East 86th Avenue\n\nMerrillville\n, \nIndiana\n\n46410\n\n(Address of Principal Executive Offices)\n\n(Zip Code)\n\nRegistrant’s telephone number, including area code: \n(614)\n\n460-6000\n\nCheck the appropriate box below if the Form \n8-K\n filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n\n☐\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n☐\n\nSoliciting material pursuant to Rule \n14a-12\n under the Exchange Act (17 CFR \n240.14a-12)\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n14d-2(b)\n under the Exchange Act (17 CFR \n240.14d-2\n (b))\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n13e-4(c)\n under the Exchange Act (17 CFR \n240.13e-4\n (c))\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\nTitle of Each Class\n\nTrading\n\nSymbol(s)\n\nName of Each Exchange\n\non Which Registered\n\nCommon Stock, par value $0.01 per share\n\nNI\n\nNYSE\n\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§ 230.405 of this chapter) or Rule \n12b-2\n of the Securities Exchange Act of 1934 (§ \n240.12b-2\n of this chapter).\n\nEmerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\n\nItem 8.01\n\nOther Events. \n\nSenior Notes Due 2032 \n\nOn November 2, 2026, NiSource Inc. (the “Company”) and BMO Capital Markets Corp., KeyBanc Capital Markets Inc., Mizuho Securities USA LLC and PNC Capital Markets LLC, as Lead Underwriters, entered into a Terms Agreement (the “Terms Agreement”) with respect to the offering and sale of $600,000,000 aggregate principal amount of the Company’s 5.400% Notes due 2032 (the “Notes”) under the Company’s Registration Statement on Form \nS-3\n (File No. 333-291167) (the “Registration Statement”). The Terms Agreement incorporates by reference the provisions of the Company’s Underwriting Agreement, dated November 30, 2017 (a form of which was filed with the Securities and Exchange Commission (the “SEC”) on November 30, 2017). \n\nThe sale closed on November 9, 2026. The Notes were issued pursuant to an Indenture, dated as of November 14, 2000, between the Company, as issuer and \nsuccessor-in-interest\n to NiSource Finance Corp., and The Bank of New York Mellon, as successor trustee, as amended and supplemented. The Company intends to use the net proceeds from the sale of the Notes for general corporate purposes, including to finance capital expenditures, for working capital and to repay existing indebtedness. \n\nThe preceding is a summary of the terms of the Notes and is qualified in its entirety by reference to the form of the Notes, filed as Exhibit 4.1 to this Current Report on Form \n8-K\n which is incorporated herein by reference. The Company is filing Exhibit 5.1 with this Current Report on Form \n8-K\n in connection with the Registration Statement. \n\nItem 9.01\n\nFinancial Statements and Exhibits. \n\n(d) Exhibits \n\nExhibit\nNumber\n\nDescription\n\n 4.1\n\nForm of 5.400% Notes due 2032 \n\n 5.1\n\nOpinion of McGuireWoods LLP \n\n23.1\n\nConsent of McGuireWoods LLP (included in Exhibit 5.1) \n\n104\n\nCover page Interactive Data File (embedded within the Inline XBRL document)\n\nCautionary Statement Concerning Forward-Looking Statements \n\nThis current report on Form \n8-K\n contains forward-looking statements that are not historical facts, including statements about the anticipated use of proceeds from the sale of the Notes. These statements are based on current expectations and assumptions, which management believes are reasonable, and on information currently available to management, but are necessarily subject to various risks and uncertainties. In addition to the risk that these assumptions prove to be inaccurate, factors that could cause actual results to differ materially from those contemplated by the forward-looking statements include factors disclosed in the Company’s Annual Report on Form \n10-K\n for the year ended December 31, 2025, and its subsequent filings with the SEC, which are available on the Company’s website at www.nisource.com and on the SEC’s website at www.sec.gov. The Company undertakes no obligation to publicly update or revise any forward-looking statements, whether due to new information, future events or otherwise, except to the extent required by law. \n\nSIGNATURES \n\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. \n\nNiSource Inc.  \n\n(Registrant)  \n\nDate: November 9, 2026\n\nBy:\n\n/s/ Shawn Anderson\n\nShawn Anderson\n\nExecutive Vice President and Chief Financial Officer"
+  }
+ ]
+}

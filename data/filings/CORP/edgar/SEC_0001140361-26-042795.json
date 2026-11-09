@@ -1,0 +1,45 @@
+{
+ "id": "SEC:0001140361-26-042795",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Vistra 8-K 8-K items 8.01,9.01",
+ "filed": "2026-11-09",
+ "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126042795/",
+ "entity": "Vistra",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126042795/ef20085053_8k.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "cik": "0001692819",
+  "market_participant": true
+ },
+ "collected_at": "2026-11-09T21:30:36Z",
+ "run_id": "2026-11-09-2121",
+ "keywords": [],
+ "party_hits": [
+  "Vistra"
+ ],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126042795/ef20085053_8k.htm",
+   "name": null,
+   "bytes": 33727,
+   "sha256": "f06bb82f16592119ecec87fd4d7d37aeed9166ef98b2852264c68087022833a7",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "UNITED STATES\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nFORM \n8-K\n\nCURRENT REPORT\n\nPursuant to Section 13 or 15(d)\n\nof the Securities Exchange Act of 1934\n\nDate of Report (Date of earliest event reported): \nNovember 9, 2026\n\nVISTRA CORP.\n\n(Exact name of registrant as specified in its charter)\n\nDelaware\n\n001-38086\n\n36-4833255\n\n(State or other jurisdiction of incorporation or organization)\n\n(Commission File Number)\n\n(I.R.S. Employer Identification No.)\n\n6555 Sierra Drive\n\nIrving\n, \nTX\n\n75039\n\n(Address of principal executive offices)\n\n(Zip Code)\n\n(\n214\n) \n812-4600\n\n(Registrant’s telephone number, including area code)\n\nN/A\n\n(Former name or former address, if changed since last report)\n\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n\n☐\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) \n\n☐\n\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.l4a-12) \n\n☐\n\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240. 14d-2(b)) \n\n☐\n\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) \n\nSecurities registered pursuant to Section 12(b) of the Act:\n\nTitle of Each Class\n\nTrading \nSymbol(s)\n\nName of Each Exchange\n on Which Registered\nCommon stock, par value $0.01 per share\n\nVST\n\nNew York Stock Exchange\nNYSE Texas\n\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (\n§\n230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (\n§\n240.12b-2 of this chapter).\n\nEmerging growth company \n☐\n\n     If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\n\n1\n\nItem 8.01\n\nOther Events.\n\nOn November 9, 2026, Vistra Corp. filed a prospectus supplement to its automatic shelf registration statement on Form S-3 (Registration No. 333-298811) with the Securities and Exchange Commission. This Current Report on Form 8-K is being filed solely for the purpose of filing the opinion of Latham & Watkins LLP relating to the legality of the issuance and sale of the securities set forth in the prospectus supplement, which opinion is attached as Exhibit 5.1 hereto.\n\nItem 9.01.\n\nFinancial Statements and Exhibits.\n\nExhibit\nNo.\n\nDescription\n\n5.1\n\n      Opinion of Latham & Watkins LLP.\n\n23.1\n\n      Consent of Latham & Watkins LLP (contained in the opinion filed as Exhibit 5.1 hereto).\n\n      104\n\nThe cover page from this Current Report on Form 8-K, formatted in Inline XBRL.\n\n2\n\nSIGNATURES\n\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.\n\nDated: November 9, 2026\n\nVISTRA CORP.\n\nBy:\n\n/s/ Kristopher E. Moldovan\n\nName:\n\nKristopher E. Moldovan\n\nTitle:\n\nExecutive Vice President and Chief Financial Officer\n\n0001692819\n\nfalse\n\n0001692819\n\n2026-11-09\n\n2026-11-09"
+  }
+ ]
+}

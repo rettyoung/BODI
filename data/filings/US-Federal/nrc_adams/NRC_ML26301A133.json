@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26301A133",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): Long Mott Energy, LLC, Long Mott Generating Station - Construction Permit [['License-Construction Permit (CP)(New/Extension/Amendment) DKT 50']]",
+ "filed": "2026-11-09",
+ "entity": [
+  "NRC/OAR/DDLP/DARL/ARLB5"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2630/ML26301A133.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26301A133.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26301A133",
+  "document_date": "2026-11-09"
+ },
+ "collected_at": "2026-11-09T21:24:21Z",
+ "run_id": "2026-11-09-2121",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26301A133.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2630/ML26301A133.pdf"
+  }
+ ]
+}

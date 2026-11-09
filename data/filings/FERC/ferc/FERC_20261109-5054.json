@@ -1,0 +1,53 @@
+{
+ "id": "FERC:20261109-5054",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "RR27-1",
+ "title": "Comments of Jacquelyn Omotalade re North American Electric Reliability Corporation's Petition for Approval of Revisions to its Rules of Procedure Regarding Computational Load under RR27-1.",
+ "filed": "2026-11-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261109-5054",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "AE74299E-DE03-C0E4-93C6-A1C0EC400000",
+   "name": "1-RR27-1_Omotalade_Comment.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-11-09"
+ },
+ "collected_at": "2026-11-09T21:26:39Z",
+ "run_id": "2026-11-09-2121",
+ "keywords": [
+  "behind-the-meter",
+  "data center",
+  "interconnection",
+  "large load",
+  "large-load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "1-RR27-1_Omotalade_Comment.pdf",
+   "bytes": 4619,
+   "sha256": "51409437cdae2a01a5655495605d463419c2244ef4fde12f0d15421833615a3b",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "Re: Docket No. RR27-1-000 - Comments on NERC's Petition for Approval of Revisions\nto the NERC Rules of Procedure Regarding Computational Load\n\nDear Commissioners,\n\nI write in my individual capacity as a Pennsylvania resident who works on sustainable\ninfrastructure and community development. My state is at the center of the data center build-out\nthis petition addresses: multiple gigawatt-scale campuses are now moving through Pennsylvania\npermitting, and our Public Utility Commission is actively weighing how large-load costs and\nreliability obligations should be allocated. I appreciate the opportunity to comment on the proposed\nComputational Load Owner and Computational Load Operator registry criteria.\n\nI support the petition's core objective. Grid planners cannot manage what they cannot see, and the\nrapid, software-driven load behavior NERC describes is a real planning problem. The proposed\nthresholds - sites with total connected load of at least 50 MW supplied through equipment\nconnected to the Bulk Power System at 100 kV or above - reasonably target the facilities whose\nbehavior can affect bulk-system reliability, and NERC's decision to raise the threshold from 20\nMW in response to stakeholder comment reflects a disciplined process. I offer three requests as the\nCommission considers approval.\n\nFirst, clarify treatment of behind-the-meter and grid-independent configurations. The proposed\ncriteria key registration to a site's electrical connection to the Bulk Power System, not to how much\npower a site draws from it. A growing share of proposed campuses - including projects now\npermitting in Pennsylvania - pair primary onsite generation with a grid interconnection used for\nstandby service, grid support, or export of excess power. The petition does not expressly address\nthese configurations. I ask the Commission to direct clarification that coverage turns on the\nphysical interconnection itself: a campus with onsite primary generation that nonetheless\ninterconnects at 100 kV or above should be registered, while a facility with no Bulk Power System\nconnection should not be swept in by ambiguity. Regulatory certainty on this point matters,\nbecause developers are making design decisions now, and a registration regime that inadvertently\nrewards disconnecting from the grid would undercut both reliability coordination and the grid\nbenefits these projects can provide.\n\nSecond, make registration data usable for state processes. State commissions are deciding siting,\ncost-allocation, and tariff questions about these same facilities this year, not in the abstract. I ask\nthe Commission to consider how the registry can support - without duplicating or preempting -\nstate-level visibility into large computational loads, including appropriate public access to\nnon-sensitive registration information.\n\nThird, sequence obligations sensibly. Registration should carry a reasonable compliance lead time,\nshould not apply retroactive burdens to operating facilities, and should stay coordinated with the\nreliability standards under development in Docket No. RD26-7-000 so that registered entities face\na stable, coherent set of expectations.\n\fThank you for the Commission's attention to the reliability dimensions of this load growth. Done\nwell, this registry can be the foundation for integrating large computational loads in a way that\nprotects both the grid and the communities hosting these facilities.\n\nRespectfully submitted,\n\nIn community,\nJacquelyn Omosunbo Omotalade\nPittsburgh, Pennsylvania\n\f"
+  }
+ ]
+}

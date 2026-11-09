@@ -1,0 +1,50 @@
+{
+ "id": "FERC:20261109-5093",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP26-532",
+ "title": "Comment of Erin Dahl in Docket(s)/Project(s) CP26-532-000\nSubmission Date: 11/9/2026\n",
+ "filed": "2026-11-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261109-5093",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "FAEC28B2-BF6F-C069-91D6-A1C138D00000",
+   "name": "152414.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-09"
+ },
+ "collected_at": "2026-11-09T21:26:56Z",
+ "run_id": "2026-11-09-2121",
+ "keywords": [
+  "data center",
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152414.txt",
+   "bytes": 5311,
+   "sha256": "e64e7d124d248bbf08bd3fa81235d650c060ee2ae89412bcf3bea232f83a1ca3",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nErin Dahl, Harlingen, TX.\nUNITED STATES OF AMERICA\r\nFEDERAL ENERGY REGULATORY COMMISSION\r\nRio Grande LNG Expansion Project\r\nDocket No. CP26-532-000\r\nSUPPLEMENTAL COMMENTS OF ERIN DAHL\r\nNew information concerning shared Port infrastructure and power development\r\nNovember 9, 2026\r\n\r\nI submit this supplement to my September 2, 2026 comments, accession 20260902-5118. It adds information obtained afterward concerning shared infrastructure and industrial development around the Brownsville Ship Channel. My earlier comments remain incorporated by reference.\r\n\r\n1. Reported power-supply connection and company disclosures\r\nThe Information reports SpaceX made down payments for up to 1 GW of Karpowership floating generation at Brownsville. [1] I have not independently verified the underlying agreement. This is a reported lead requiring verification, not an established operating facility or electrical connection.\r\n\r\nSeparately, Karpower's own materials describe a 2-GW onshore combined-cycle power plant at its Brownsville campus. Its data-center materials identify Brownsville as its flagship development and describe integration of generation, gas pipelines, fiber and industrial cooling. [2-3] These company descriptions do not establish permit status, construction completion or actual operating capacity. The reported supply arrangement and onshore plan must be reconciled before capacities are added together.\r\n\r\n2. Port records received November 3\r\nOn November 3, the Port provided five PDFs responsive to my request for ship-channel forecasts, berth planning and full-buildout capacity records, and stated that its response was complete. [4] The engineering compilation contains cargo forecasting, dock assessments and vessel-passing analyses. It is substantive evidence and should be considered on its actual scope.\r\n\r\nThe March 2025 engineering summary states that dock inspection reports were unavailable and describes its boat visit as a visual observation rather than an inspection. The included passing-vessel report states that existing bollard structural capacities were unknown and identifies a Dock 15 loading case requiring a capacity check. [5] These are qualifications in the supplied studies, not findings that a dock has failed or that current operations are unsafe.\r\n\r\nMy review of the supplied compilation did not locate a combined full-buildout analysis expressly accounting for the current SpaceX, Karpower, Saronic, refinery and Texas LNG developments together. That bounded finding does not establish that no such analysis exists elsewhere. Please identify the analysis relied upon and its project inventory, assumptions, date and limitations.\r\n\r\n3. Specific review requested\r\nPlease address the following in the draft environmental impact statement, within FERC's authority and in coordination with the relevant agencies:\r\n\r\nIdentify which existing, proposed and reasonably foreseeable power, data-center, port and marine developments are included in the regional baseline and cumulative review. Verify the reported SpaceX-Karpower relationship and distinguish overlapping project descriptions.\r\n\r\nShow how the proposed Train 6 vessel-traffic level is evaluated alongside other users of the same channel, berths and emergency-response system. Identify whether moored power vessels, utility crossings and safety or exclusion areas affect navigation or emergency access.\r\n\r\nIdentify the later inspections, engineering checks, upgrades or operating restrictions, if any, that resolve the qualifications in the supplied Port studies. Explain whether those studies support the proposed future vessel mix and traffic, rather than assuming that they do.\r\n\r\nIdentify relevant water withdrawals, cooling-water intakes and discharges, thermal effects, air emissions, habitat effects and hurricane or flood vulnerabilities of the additional developments, where supported by project-specific evidence. State the gaps where designs or connections remain unknown.\r\n\r\nI request a documented response to this new information in the environmental review. Please identify supporting records and explain any exclusion of these developments from the analysis. I am not asking FERC to assume a commercial report is proven or to add potentially overlapping capacities.\r\n\r\nRespectfully submitted,\r\nErin Dahl\r\nHarlingen, Texas\r\n\r\nSources and record locations\r\n[1] The Information, November 7, 2026. Reported claim; underlying agreement not reviewed.\r\nhttps://www.theinformation.com/newsletters/ai-infrastructure/blue-wave-may-stop-musks-texas-data-center-ambitions\r\n[2] Karpower Valley company page, reviewed November 9, 2026.\r\nhttps://www.karpowerusa.com/karpowervalley/\r\n[3] Karpower Data company page, reviewed November 9, 2026.\r\nhttps://www.karpowerusa.com/karpowerdata/\r\n[4] Port production emails dated November 3, 2026. Files: 2024 04 12 MD to MM.pdf; 2024 09 20 KL to AC.pdf; 2024 11 08 KL to AC.pdf; 2025 03 28 AC to MD.pdf; 2025 12 29 MD to AG.pdf. Originals retained by commenter.\r\n[5] 2025 03 28 AC to MD.pdf, 238-page compilation: Engineering Services Summary Report, section 2.4.2; included Brownsville Channel - Passing Ship Mooring Analysis Report, section 3.3 and conclusions addressing Dock 15. Source qualifications were rechecked against the original compilation on November 9.\r\n\r\n"
+  }
+ ]
+}

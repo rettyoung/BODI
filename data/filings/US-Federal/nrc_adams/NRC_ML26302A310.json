@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26302A310",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000614",
+ "title": "Long Mott (Dow / X-energy): Environmental Protection Plan for the Long Mott Generating Station Construction Permit [['Environmental Protection Plan']]",
+ "filed": "2026-11-09",
+ "entity": [
+  "NRC/OAR/DDLP/DARP/ARERB"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2630/ML26302A310.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26302A310.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Long Mott (Dow / X-energy)",
+  "accession": "ML26302A310",
+  "document_date": "2026-11-09"
+ },
+ "collected_at": "2026-11-09T21:24:16Z",
+ "run_id": "2026-11-09-2121",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26302A310.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2630/ML26302A310.pdf"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261109-0014",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-15423",
+ "title": "Comments of Carol Wyatt in opposition to the Cook Inlet Subsea-Compute and Infrastructure Hub Project under P-15423.",
+ "filed": "2026-11-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261109-0014",
+ "entity": "INDIVIDUAL",
+ "fetch": [
+  {
+   "ferc_file": "8557CDDF-4AA8-C36B-8954-A1C205800000",
+   "name": "DocBatch261109-0019.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Comment on Filing"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-10-29"
+ },
+ "collected_at": "2026-11-09T21:27:22Z",
+ "run_id": "2026-11-09-2121",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "DocBatch261109-0019.pdf",
+   "bytes": 202282,
+   "sha256": "04e19e49494e81144ffce77ff39a3c8fba6d0a4603529c7c111d5ac8adbc0156",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "0 R 1 Gi NI A i\n Date   ?/(5   g_q     626(9-4)\n\n\n United States of America\n\n Federal Energy Regulatory Commission\n\n Deep Green Cook Inlet SN, LLC                    Docket #P.15423-000\n\n                                                  Project No. 15423-000\n\n\n\n To: Debbie Anne A. Reese, Secretary, Federal Energy Regulatory Commission\n\n 888 First St. N.E., Room 1A, Washington, DC 20426\n\n\n\n I protest this Cook Inlet Subsea-Compute and Infrastructure HUB Project (Deep Green\n Project) to be located in the Upper Cook Inlet, East Foreland Corridor, Kenai Peninsula\n Borough, Alaska.\n\n I think a data center in an important water way for marine life including Beluga Whales that\n are endangered is a terrible idea.\n\n\n\n Thank you for your attention in this matter\n\n Sign with your name and address\n\n                 tidycljt\n   00(4                     daia\n   0,/75--/T r}44-4uo-\n      f6foctocu /41.K_ 9949\n        7\n\f"
+  }
+ ]
+}

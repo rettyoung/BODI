@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261109-5048",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-460",
+ "title": "The City of Tacoma, Washington submits plan and schedule in response to the Board of Consultant’s 10/30/2026 comments re the Interim Risk Reduction Anchoring Project re the Cushman No. 1 Development of the Cushman Project under P-460.",
+ "filed": "2026-11-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261109-5048",
+ "entity": "Tacoma Power",
+ "fetch": [
+  {
+   "ferc_file": "1C112B97-AC2F-C7A1-844A-A1C0E0000000",
+   "name": "100% Design Basis Memo (DBM)-CEII.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "87DD7CC6-3FF7-C639-8F89-A1C0E0000000",
+   "name": "Submittal 15.3 BOC Comments Plan and Schedule LETTER - CEII.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "C8E42752-E61F-C837-949D-A1C0E0000000",
+   "name": "Arch Loads, Rev A10-CEII.xlsx",
+   "type": "XLSX"
+  },
+  {
+   "ferc_file": "9292ECB6-9874-C5BA-857F-A1C0E0100000",
+   "name": "BOC Comment Registry-CEII.xlsx",
+   "type": "XLSX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   }
+  ],
+  "why": "keyword \"large loads\"",
+  "issued": "2026-11-06"
+ },
+ "collected_at": "2026-11-09T21:27:37Z",
+ "run_id": "2026-11-09-2121",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '1C112B97-AC2F-C7A1-844A-A1C0E0000000', 'name': '100% Design Basis Memo (DBM)-CEII.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '87DD7CC6-3FF7-C639-8F89-A1C0E0000000', 'name': 'Submittal 15.3 BOC Comments Plan and Schedule LETTER - CEII.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'C8E42752-E61F-C837-949D-A1C0E0000000', 'name': 'Arch Loads, Rev A10-CEII.xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '9292ECB6-9874-C5BA-857F-A1C0E0100000', 'name': 'BOC Comment Registry-CEII.xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}
