@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001507605-26-000028",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "MARA Holdings, Inc.  (MARA)  (CIK 0001507605) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-11-09",
+ "url": "https://www.sec.gov/Archives/edgar/data/1507605/000150760526000028/",
+ "entity": "MARA Holdings, Inc.  (MARA)  (CIK 0001507605)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-09T22:03:16Z",
+ "run_id": "2026-11-09-2153",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

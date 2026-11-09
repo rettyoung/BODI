@@ -1,24 +1,12 @@
 {
  "backfill_since": null,
- "run_id": "2026-11-09-2121",
- "started": "2026-11-09T21:21:44Z",
+ "run_id": "2026-11-09-2153",
+ "started": "2026-11-09T21:53:56Z",
  "sources": {
-  "courts_state": {
-   "since": "2026-11-06",
-   "found": 0,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 3.1,
-   "consecutive_failures": 0
-  },
   "agendas": {
    "since": "2026-11-06",
-   "found": 0,
-   "new": 0,
+   "found": 1,
+   "new": 1,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
@@ -37,7 +25,7 @@
     },
     "tulsa_tmapc": {
      "status": "ok",
-     "note": "5 links, 0 new"
+     "note": "5 links, 1 new"
     },
     "tulsa_boa": {
      "status": "ok",
@@ -53,7 +41,7 @@
     }
    },
    "notes": [],
-   "seconds": 87.7,
+   "seconds": 89.5,
    "consecutive_failures": 0
   },
   "ercot_large_load": {
@@ -86,7 +74,7 @@
     }
    },
    "notes": [],
-   "seconds": 23.9,
+   "seconds": 22.7,
    "consecutive_failures": 0
   },
   "nyiso_icap": {
@@ -109,9 +97,9 @@
   "nrc_adams": {
    "since": "2026-11-06",
    "found": 5,
-   "new": 3,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 3,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "nrc:05000255": {
@@ -156,7 +144,7 @@
     }
    },
    "notes": [],
-   "seconds": 39.1,
+   "seconds": 30.1,
    "consecutive_failures": 0
   },
   "ferc_forms": {
@@ -173,7 +161,7 @@
     }
    },
    "notes": [],
-   "seconds": 3.1,
+   "seconds": 4.4,
    "consecutive_failures": 0
   },
   "ferc_eqr": {
@@ -190,7 +178,7 @@
     }
    },
    "notes": [],
-   "seconds": 3.1,
+   "seconds": 3.0,
    "consecutive_failures": 0
   },
   "studies": {
@@ -215,15 +203,15 @@
     }
    },
    "notes": [],
-   "seconds": 9.0,
+   "seconds": 9.1,
    "consecutive_failures": 0
   },
   "regulations_gov": {
    "since": "2026-11-06",
    "found": 1,
-   "new": 1,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 1,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "regulations_gov": {
@@ -232,19 +220,19 @@
     }
    },
    "notes": [],
-   "seconds": 50.7,
+   "seconds": 46.5,
    "consecutive_failures": 0
   },
   "ferc": {
    "since": "2026-11-06",
-   "found": 23,
-   "new": 13,
+   "found": 27,
+   "new": 4,
    "baselined_now": 0,
-   "kept": 13,
+   "kept": 4,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 129.5,
+   "seconds": 88.7,
    "consecutive_failures": 0
   },
   "federal_register": {
@@ -256,19 +244,19 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 39.0,
+   "seconds": 39.1,
    "consecutive_failures": 0
   },
   "edgar": {
    "since": "2026-11-06",
-   "found": 17,
-   "new": 4,
+   "found": 42,
+   "new": 21,
    "baselined_now": 0,
-   "kept": 4,
+   "kept": 21,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 142.6,
+   "seconds": 223.4,
    "consecutive_failures": 0
   },
   "tx_puct": {
@@ -280,7 +268,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 27.2,
+   "seconds": 27.1,
    "consecutive_failures": 0
   },
   "az_acc": {
@@ -304,7 +292,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 6.1,
+   "seconds": 6.2,
    "consecutive_failures": 0
   },
   "la_lpsc": {
@@ -318,7 +306,7 @@
    "notes": [
     "la: U-37921 not found"
    ],
-   "seconds": 21.5,
+   "seconds": 21.3,
    "consecutive_failures": 0
   },
   "ok_occ": {
@@ -333,7 +321,7 @@
     "ok PUD2026-000031: hitCount 172 after 5 variants",
     "ok PUD2026-000046: hitCount 138 after 5 variants"
    ],
-   "seconds": 83.4,
+   "seconds": 78.3,
    "consecutive_failures": 0
   },
   "ks_kcc": {
@@ -345,7 +333,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 3.1,
+   "seconds": 3.2,
    "consecutive_failures": 0
   },
   "nm_prc": {
@@ -361,19 +349,19 @@
     "nm 25-00082-UT: 1 documents in window",
     "nm 26-0000062: 0 documents in window"
    ],
-   "seconds": 21.5,
+   "seconds": 21.4,
    "consecutive_failures": 0
   },
   "mo_efis": {
    "since": "2026-11-06",
-   "found": 88,
-   "new": 3,
+   "found": 89,
+   "new": 1,
    "baselined_now": 0,
-   "kept": 3,
+   "kept": 1,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 33.3,
+   "seconds": 21.2,
    "consecutive_failures": 0
   },
   "al_psc": {
@@ -385,15 +373,15 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 36.3,
+   "seconds": 36.5,
    "consecutive_failures": 0
   },
   "watch_pages": {
    "since": "2026-11-06",
-   "found": 1425,
-   "new": 13,
+   "found": 1426,
+   "new": 1,
    "baselined_now": 0,
-   "kept": 7,
+   "kept": 1,
    "status": "ok",
    "subsources": {
     "grda_board": {
@@ -406,7 +394,7 @@
     },
     "la_news": {
      "status": "ok",
-     "note": "11 links"
+     "note": "12 links"
     },
     "ferc_news": {
      "status": "ok",
@@ -578,20 +566,20 @@
     }
    },
    "notes": [],
-   "seconds": 197.9,
+   "seconds": 183.5,
    "consecutive_failures": 0
   },
   "rss": {
    "since": "2026-11-06",
    "found": 28,
-   "new": 4,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 2,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "pjm_insidelines": {
-     "status": "ok",
-     "note": "10 entries"
+     "status": "error",
+     "note": "Blocked('block page (captcha) at https://insidelines.pjm.com/feed/')"
     },
     "pa_cmwlth": {
      "status": "ok",
@@ -643,7 +631,7 @@
     }
    },
    "notes": [],
-   "seconds": 53.6,
+   "seconds": 56.5,
    "consecutive_failures": 0
   },
   "ir_decks": {
@@ -659,8 +647,8 @@
      "note": "20 pdf links"
     },
     "ir:Southern": {
-     "status": "blocked",
-     "note": "block page (incapsula) at https://investor.southerncompany.com/events-and-presentations/default.aspx"
+     "status": "refused_known",
+     "note": "block page (incapsula) at https://investor.southerncompany.com/events-and-presentations/default.aspx; covered by: Incapsula; EDGAR earnings lane + q4cdn deck via WebFetch (ir_ledger)"
     },
     "ir:Duke": {
      "status": "ok",
@@ -675,12 +663,12 @@
      "note": "0 pdf links"
     },
     "ir:Evergy": {
-     "status": "blocked",
-     "note": "block page (access denied) at https://investors.evergy.com/events-and-presentations"
+     "status": "refused_known",
+     "note": "block page (access denied) at https://investors.evergy.com/events-and-presentations; covered by: firewall to the runners (403); EDGAR earnings lane + page via WebFetch (ir_ledger)"
     },
     "ir:Exelon": {
-     "status": "blocked",
-     "note": "block page (access denied) at https://investors.exeloncorp.com/events-and-presentations"
+     "status": "refused_known",
+     "note": "block page (access denied) at https://investors.exeloncorp.com/events-and-presentations; covered by: firewall to the runners (403); deck is 8-K Ex 99.2 (EDGAR earnings lane)"
     },
     "ir:Ameren": {
      "status": "ok",
@@ -699,20 +687,20 @@
      "note": "18 pdf links"
     },
     "ir:OGE Energy": {
-     "status": "blocked",
-     "note": "robots.txt disallows https://investor.oge.com/events-and-presentations/default.aspx"
+     "status": "refused_known",
+     "note": "robots.txt disallows https://investor.oge.com/events-and-presentations/default.aspx; covered by: host does not resolve from the runners; EDGAR earnings lane, deck via manual pass (ir_ledger)"
     },
     "ir:Oncor": {
-     "status": "blocked",
-     "note": "robots.txt disallows https://investor.oncor.com/news-events/events-and-presentations/default.aspx"
+     "status": "refused_known",
+     "note": "robots.txt disallows https://investor.oncor.com/news-events/events-and-presentations/default.aspx; covered by: host does not resolve from the runners; no deck exists, release via EDGAR (Oncor + Sempra)"
     },
     "ir:Fortis": {
      "status": "ok",
      "note": "9 pdf links"
     },
     "ir:BHE": {
-     "status": "blocked",
-     "note": "block page (captcha) at https://www.brkenergy.com/investors"
+     "status": "refused_known",
+     "note": "block page (captcha) at https://www.brkenergy.com/investors; covered by: CAPTCHA; no quarterly deck exists, 10-Q via EDGAR (Nevada Power CIK)"
     },
     "ir:TXNM Energy": {
      "status": "ok",
@@ -720,7 +708,7 @@
     }
    },
    "notes": [],
-   "seconds": 181.0,
+   "seconds": 185.5,
    "consecutive_failures": 0
   },
   "mirrors": {
@@ -749,7 +737,7 @@
     }
    },
    "notes": [],
-   "seconds": 12.2,
+   "seconds": 13.0,
    "consecutive_failures": 0
   },
   "eia": {
@@ -766,7 +754,7 @@
     }
    },
    "notes": [],
-   "seconds": 11.2,
+   "seconds": 10.5,
    "consecutive_failures": 0
   },
   "congress": {
@@ -778,7 +766,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 9.4,
+   "seconds": 6.0,
    "consecutive_failures": 0
   },
   "openstates": {
@@ -790,7 +778,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 331.5,
+   "seconds": 335.5,
    "consecutive_failures": 0
   },
   "courtlistener": {
@@ -802,7 +790,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 216.5,
+   "seconds": 169.5,
    "consecutive_failures": 0
   },
   "queues": {
@@ -863,39 +851,49 @@
     }
    },
    "notes": [],
-   "seconds": 27.1,
+   "seconds": 27.2,
+   "consecutive_failures": 0
+  },
+  "courts_state": {
+   "since": "2026-11-06",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 3.3,
    "consecutive_failures": 0
   }
  },
- "docs_fetched": 44,
- "new_items": 33,
+ "docs_fetched": 40,
+ "new_items": 27,
  "user_agent": "BlueOwl-RegTracker/4.0 (***)",
  "trigger": {
   "event": "push",
   "cron": null
  },
- "hours_since_previous_full_run": 7.5,
+ "hours_since_previous_full_run": 0.0,
  "collector_gap": false,
- "finished": "2026-11-09T21:53:04Z",
+ "finished": "2026-11-09T22:24:30Z",
  "backfill_text": {
-  "queue": 24,
+  "queue": 20,
   "enriched": 0,
-  "docs": 24,
+  "docs": 21,
   "errors": 12,
   "status": "ok",
-  "doc_retry_filings": 17,
+  "doc_retry_filings": 13,
   "doc_retry_fixed": 0,
-  "doc_retry_still_failing": 12,
+  "doc_retry_still_failing": 9,
   "not_document": 0,
-  "retry_later": 7,
-  "remaining": 24,
-  "seconds": 55.9
+  "retry_later": 6,
+  "gave_up": 1,
+  "candidates_filled": 1,
+  "remaining": 20,
+  "seconds": 52.6
  },
  "http_hosts": {
-  "https://www.txcourts.gov": {
-   "robots": "200",
-   "note": ""
-  },
   "https://atlantacityga.iqm2.com": {
    "robots": "200",
    "note": "crawl delay 60s honoured"
@@ -936,10 +934,6 @@
    "robots": "404",
    "note": ""
   },
-  "https://www.nrc.gov": {
-   "robots": "403",
-   "note": ""
-  },
   "https://ecollection.ferc.gov": {
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
@@ -953,10 +947,6 @@
    "note": ""
   },
   "https://api.regulations.gov": {
-   "robots": "403",
-   "note": ""
-  },
-  "https://downloads.regulations.gov": {
    "robots": "403",
    "note": ""
   },
@@ -1156,16 +1146,16 @@
    "robots": "200",
    "note": ""
   },
-  "https://cdn-dominionenergy-prd-001.azureedge.net": {
-   "robots": "200",
-   "note": ""
-  },
   "https://insidelines.pjm.com": {
-   "robots": "200",
-   "note": ""
+   "robots": "202",
+   "note": "no robots.txt (HTML app shell)"
   },
   "https://www.pacourts.us": {
    "robots": "404",
+   "note": ""
+  },
+  "https://www.nrc.gov": {
+   "robots": "200",
    "note": ""
   },
   "https://gridstrategiesllc.com": {
@@ -1303,7 +1293,15 @@
   "https://webapi.legistar.com": {
    "robots": "404",
    "note": ""
+  },
+  "https://www.txcourts.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://downloads.regulations.gov": {
+   "robots": "403",
+   "note": ""
   }
  },
- "seconds": 1879
+ "seconds": 1834
 }

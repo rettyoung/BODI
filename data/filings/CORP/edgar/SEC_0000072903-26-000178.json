@@ -1,24 +1,44 @@
 {
  "id": "SEC:0000072903-26-000178",
  "jur": "CORP",
- "source": "edgar_fts",
- "kind": "keyword_hit",
+ "source": "edgar",
+ "kind": "disclosure",
  "docket": null,
- "title": "XCEL ENERGY INC  (XEL, XELLL)  (CIK 0000072903), NORTHERN STATES POWER CO  (CIK 0001123852) 8-K — full-text hit \"data center\" \"electric service agreement\"",
+ "title": "Xcel 8-K 8-K items 2.02,9.01",
  "filed": "2026-10-29",
  "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000178/",
- "entity": "XCEL ENERGY INC  (XEL, XELLL)  (CIK 0000072903), NORTHERN STATES POWER CO  (CIK 0001123852)",
- "fetch": [],
- "meta": {
-  "query": "\"data center\" \"electric service agreement\"",
-  "form": "8-K"
- },
- "collected_at": "2026-10-30T05:52:33Z",
- "run_id": "2026-10-30-0521",
- "keywords": [
-  "data center",
-  "electric service agreement"
+ "entity": "Xcel",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000178/xel-20261029.htm"
+  }
  ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "9.01"
+  ],
+  "cik": "0000072903",
+  "market_participant": false,
+  "refetch": true
+ },
+ "collected_at": "2026-11-09T22:02:40Z",
+ "run_id": "2026-11-09-2153",
+ "keywords": [],
  "party_hits": [],
- "documents": []
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000178/xel-20261029.htm",
+   "name": null,
+   "bytes": 50887,
+   "sha256": "75f1fd3f626a18d5333e40acaf215785819d621beae8c22a83f3bf25614fb8cd",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "xel-20261029\nFALSE\nXCEL ENERGY INC\n0000072903\nMN\nNORTHERN STATES POWER CO\n0001123852\nMN\nNORTHERN STATES POWER CO /WI/\n0000072909\nWI\nPUBLIC SERVICE CO OF COLORADO\n0000081018\nCO\nSOUTHWESTERN PUBLIC SERVICE CO\n0000092521\nNM\n0000072903\n2026-10-29\n2026-10-29\n0000072903\nxel:NORTHERNSTATESPOWERCOMember\n2026-10-29\n2026-10-29\n0000072903\nxel:NORTHERNSTATESPOWERCOWIMember\n2026-10-29\n2026-10-29\n0000072903\nxel:PUBLICSERVICECOOFCOLORADOMember\n2026-10-29\n2026-10-29\n0000072903\nxel:SOUTHWESTERNPUBLICSERVICECOMember\n2026-10-29\n2026-10-29\n0000072903\nus-gaap:CommonStockMember\n2026-10-29\n2026-10-29\n0000072903\nxel:A6.25JuniorSubordinatedNotesDue2085Member\n2026-10-29\n2026-10-29\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM \n8-K\n\nCURRENT REPORT\nPursuant to Section 13 or 15(d) of\nthe Securities Exchange Act of 1934\nDate of Report (Date of earliest event reported) \nOctober 29, 2026\nCommission File \nNumber\nExact Name of Registrant as Specified in its Charter; State of\nIncorporation; Address of Principal Executive Offices; and \nTelephone Number\nIRS Employer \nIdentification \nNumber\n001-3034\nXCEL ENERGY INC.\n41-0448030\n(a Minnesota corporation)\n414 Nicollet Mall\nMinneapolis,\nMinnesota\n55401\n(612)\n330-5500\n000-31387\nNORTHERN STATES POWER COMPANY\n41-1967505\n(a Minnesota corporation)\n414 Nicollet Mall\nMinneapolis,\nMinnesota\n55401\n(612)\n330-5500\n001-03140\nNORTHERN STATES POWER COMPANY\n39-0508315\n(a Wisconsin corporation)\n1414 W. Hamilton Avenue\nEau Claire,\nWisconsin\n54701\n(715)\n737-2625\n001-3280\nPUBLIC SERVICE COMPANY OF COLORADO\n84-0296600\n(a Colorado corporation)\n3500 Blake Street\nDenver,\nColorado\n80205\n(303)\n571-7511\n001-03789\nSOUTHWESTERN PUBLIC SERVICE COMPANY\n75-0575400\n(a New Mexico corporation)\n790 South Buchanan\nAmarillo,\nTexas\n79101\n(303)\n571-7511\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):\n☐\n Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n☐\n Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n☐\n Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n☐\n Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (17 CFR §230.405) or Rule 12b-2 of the Securities Exchange Act of 1934 (17 CFR §240.12b-2).\nEmerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \n☐\nSecurities registered pursuant to Section 12(b) of the Act:\nTitle of each class\nTrading Symbol\nName of each exchange on which registered\nCommon Stock\nXEL\nNasdaq Stock Market LLC\n6.25% Junior Subordinated Notes due 2085\nXELLL\nNasdaq Stock Market LLC\nItem 2.02. Results of Operations and Financial Condition\nOn October 29, 2026, Xcel Energy released earnings results for the third quarter of 2026.\nSee additional information in the Earnings Release furnished as exhibit 99.01.\nItem 9.01. Financial Statements and Exhibits\n(d) Exhibits\nExhibit No.\nDescription\n99.01\nEarnings Release of Xcel Energy dated October 29, 2026\nSIGNATURES\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.\nOctober 29, 2026\nXcel Energy Inc. \n(a Minnesota corporation)\nNorthern States Power Company \n(a Minnesota corporation)\nNorthern States Power Company \n(a Wisconsin corporation)\nPublic Service Company of Colorado \n(a Colorado corporation)\nSouthwestern Public Service Company \n(a New Mexico corporation)\n/s/ BRIAN J. VAN ABEL\nBrian J. Van Abel\nExecutive Vice President, Chief Financial Officer"
+  }
+ ]
 }
