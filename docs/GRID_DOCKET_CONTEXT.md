@@ -489,7 +489,7 @@ ERCOT large-load 900, EQR 900, state courts 900, NM 900, Open States 600, Legist
 | FERC EQR | C | Catalyst Cooperative PUDL parquet (`s3.us-west-2.amazonaws.com/pudl.catalyst.coop/ferceqr/core_ferceqr__contracts/<yyyy>q<n>.parquet`, ~3 MB a quarter, keyless): new contracts with hyperscalers and data-center developers versus the previous quarter. |
 | Studies | C (+W) | LBNL via DOE OSTI records API (emp.lbl.gov / eta.lbl.gov return 403 to the runners); LBNL "Queued Up" page monthly via WebFetch; Grid Strategies RSS. |
 | Hyperscaler newsrooms | C | RSS: Microsoft On the Issues and Source, Google (all posts and Sustainability), Amazon, Meta Newsroom; fetched articles kept only if they name data centers, power, grid, nuclear, MW/GW, utilities or PPAs. Oracle's newsroom returns 403. |
-| Investor decks | C | Events pages rendered, PDF links harvested (never guessed). 10 of 16 working; 6 refuse (§10). |
+| Investor decks | C | Events pages rendered, PDF links harvested (never guessed). 10 of 16 working; 6 refuse (§10) and are marked `refused_known` (9 Nov 2026). Quarterly disclosure for all 16 is tracked by `tracker/ir_ledger.py` (Sweep 3.6) from the EDGAR earnings 8-Ks and 10-Qs, which the shortlist reads in their own lane. |
 | Mail | M | Folders "FERC", "ERCOT"; senders `today@rtoinsider.com`, `alerts@newprojectmedia.com`, `alerts@capitaliq.spglobal.com`, NCUC; DCC Bi-Weekly PDF (forwarded to BODIpower@blueowl.com). Internal deal threads are confidential and never sources. |
 | Keyed data | C | All keys live since 4 Oct (verified from the runners): EIA, congress.gov, Open States (paced 10/min), CourtListener (paced 5/min), Regulations.gov, NRC ADAMS, ERCOT Public API. Keys never reach the public repo: `common.scrub()` masks them in everything the collector writes. |
 
@@ -563,9 +563,9 @@ route**.
 | **NV PUCN** | robots disallows all; no text layer | Manual pass (metadata ceiling); NV Energy/BHE disclosures on EDGAR (Nevada Power 10-Q/10-K) | S&P RRA |
 | PA PUC | Runners blocked (TLS + 5xx robots) | **WebFetch works** — Sweep route 6.1 | — |
 | AZ document hosts | `docket.images.azcc.gov` robots; `images.edocket.azcc.gov` certificate hostname mismatch | Listings by the collector; documents via the manual pass (queued by the Sweep) | Recheck weekly — if the ACC fixes its certificate, the collector reads them again automatically |
-| IR pages: Southern | Incapsula | EDGAR 8-K exhibits; WebSearch for the deck PDF on its CDN | — |
-| IR pages: Evergy, Exelon, OGE, Oncor | robots | EDGAR 8-K/10-Q; WebSearch for the q4cdn/GUID PDF (the refusing page itself is never fetched) | — |
-| IR pages: BHE | CAPTCHA | Nevada Power / PacifiCorp filings on EDGAR (twice-yearly BHE decks) | — |
+| IR pages: Southern | Incapsula | EDGAR earnings lane + IR ledger; deck PDF on s27.q4cdn.com opens to WebFetch | — |
+| IR pages: Evergy, Exelon (firewall 403 to the runners; open to WebFetch), OGE, Oncor (hosts do not resolve from the runners) — corrected 9 Nov 2026 | was recorded as robots | EDGAR 8-K/10-Q; WebSearch for the q4cdn/GUID PDF (the refusing page itself is never fetched) | — |
+| IR pages: BHE | CAPTCHA | BHE 10-Q/10-K under Nevada Power's CIK (no quarterly deck exists). Oncor has no deck either: release via its 8-K and Sempra's (Sempra added to EDGAR 9 Nov). Exelon's deck is 8-K Ex 99.2. OGE's deck: manual pass `ir_requests` at investor.oge.com | — |
 | PJM Inside Lines | CAPTCHA on the RSS | FERC dockets (C); RTO Insider mail; **PJM newsroom via WebFetch** (6.6) | PJM API key (§9) |
 | ERCOT rendered pages from runners | Incapsula (until 3 Oct) | Since 3 Oct the large-load page and the committee/board meeting pages open to the runners too (adapter `ercot_large_load`); planning page via WebFetch; `/files/docs/` from both; ERCOT mail folder | ERCOT Public API (§9) |
 | Arizona governor | 403 (collector and WebFetch) | Mail; ACC dockets; news | — |

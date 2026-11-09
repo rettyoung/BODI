@@ -61,8 +61,9 @@ def test_candidates_command_writes_shortlist_and_summary():
         assert r.returncode == 0, r.stderr
         assert r.stdout.strip().splitlines()[-1].startswith("SHORTLIST "), r.stdout
         d = json.load(open(out))
-        assert len(d["kept"]) <= 5 and d["candidates"] == len(d["kept"]) + len(d["backlog"]) + len(d["dropped"])
-        for k in d["kept"]:
+        assert len(d["kept"]) <= 5
+        assert d["candidates"] == len(d["kept"]) + len(d.get("earnings", [])) + len(d["backlog"]) + len(d["dropped"])
+        for k in d["kept"] + d.get("earnings", []):
             assert k.get("excerpt") is None or os.path.exists(k["excerpt"])
 
 
@@ -159,3 +160,27 @@ if __name__ == "__main__":
             n += 1
             print("ok", name)
     print(f"{n} tests passed")
+
+
+def test_earnings_lane_takes_tracked_utility_releases_outside_top():
+    """2026-11-09: the six 'unreachable' IR issuers' Q3 filings sat behind the --top cut; they get their own lane."""
+    iss = shortlist.load_issuers()
+    assert {"Exelon", "Evergy", "Southern", "OGE Energy", "Oncor", "Nevada Power", "Sempra"} <= iss
+    rel = {"source": "edgar", "entity": "Oncor", "meta": {"form": "8-K", "items": ["2.02", "7.01", "9.01"]}}
+    q = {"source": "edgar", "entity": "Southern", "meta": {"form": "10-Q", "items": []}}
+    other = {"source": "edgar", "entity": "Oncor", "meta": {"form": "8-K", "items": ["5.02"]}}
+    mp = {"source": "edgar", "entity": "Microsoft", "meta": {"form": "8-K", "items": ["2.02"]}}
+    assert shortlist.is_earnings(rel, iss) and shortlist.is_earnings(q, iss)
+    assert not shortlist.is_earnings(other, iss) and not shortlist.is_earnings(mp, iss)
+
+
+def test_earnings_excerpt_reaches_the_queue_sentence_past_dollar_figures():
+    filler = "Net income was $1.2 billion, up 4% from $1.1 billion. " * 400
+    f = {"documents": [{"url": "cover.htm", "text": "FORM 8-K cover page. " * 50},
+                       {"url": "ex991.htm", "text": filler + "The queue included approximately 293 gigawatts from data "
+                                                             "centers and 19 gigawatts of other load. " + filler}]}
+    kw_re, party_re = shortlist.word_re(["large load"]), shortlist.word_re(["Microsoft"])
+    plain = shortlist.excerpt(dict(f), kw_re, party_re, cap=8000)
+    focused = shortlist.excerpt(dict(f), kw_re, party_re, cap=12000, win=500, focus=shortlist.LOAD_RE)
+    assert "293 gigawatts" not in plain
+    assert "293 gigawatts" in focused

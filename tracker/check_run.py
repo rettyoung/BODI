@@ -15,7 +15,8 @@ exit 0 = complete; 1 = incomplete (problems printed); 2 = could not read an inpu
 
 What it fails:
   1. STEPS    the run record has no "steps" block, a required step is missing, or a status is not
-              DONE / BLOCKED / NOT_APPLICABLE.
+              DONE / BLOCKED / NOT_APPLICABLE. Step 3.6 (IR ledger; required from 2026-11-16) DONE must carry
+              counts.unread = 0.
   2. REASONS  BLOCKED or NOT_APPLICABLE without evidence. Evidence is an error, an HTTP status, a refused
               or missing URL or file, a robots/certificate/CAPTCHA refusal — or elapsed time, but only when
               the run actually took over 30 minutes. "deferred", "queued", "skipped", "later", "not started"
@@ -49,6 +50,7 @@ REQUIRED_STEPS = {
     "1.6": "obligations due or overdue (before new candidates)",
     "2": "health",
     "3": "collector candidates",
+    "3.6": "IR disclosure ledger (tracker/ir_ledger.py)",
     "4": "mail",
     "5": "manual drops and manual_queue.json",
     "6": "web reader routes",
@@ -62,6 +64,8 @@ REQUIRED_STEPS = {
     "10": "collector repair proposals",
     "11": "run record and report",
 }
+# Steps added after runs already on record: required only from this run date, so older runs replay unchanged.
+STEP_SINCE = {"3.6": "2026-11-16"}
 STATUSES = ("DONE", "BLOCKED", "NOT_APPLICABLE")
 TARGET_MINUTES = 30
 
@@ -106,12 +110,14 @@ def evidence_problem(text, duration, what):
     return None
 
 
-def check_steps(run, duration, probs):
+def check_steps(run, duration, probs, run_date=""):
     steps = run.get("steps")
     if not isinstance(steps, dict) or not steps:
         probs.append("STEPS: the run record has no \"steps\" block")
         return {}
     for sid, name in REQUIRED_STEPS.items():
+        if sid in STEP_SINCE and (run_date or "") < STEP_SINCE[sid]:
+            continue
         s = steps.get(sid)
         if not isinstance(s, dict):
             probs.append(f"STEPS: step {sid} ({name}) has no entry")
@@ -132,6 +138,12 @@ def check_steps(run, duration, probs):
                 probs.append(f"REASONS: step {sid} NOT_APPLICABLE for a reason that is a choice ({ev[:80]!r})")
         if st != "DONE" and sid in ("0", "1", "9", "11"):
             probs.append(f"STEPS: step {sid} ({name}) must be DONE for any run that writes")
+        if sid == "3.6" and st == "DONE":
+            unread = ((s.get("counts") or {}).get("unread"))
+            if not isinstance(unread, int):
+                probs.append("STEPS: step 3.6 DONE without counts.unread (copy the counts from work/ir_ledger.json)")
+            elif unread > 0:
+                probs.append(f"STEPS: step 3.6 DONE but {unread} IR issuer(s) still TO_READ in the ledger")
     return steps
 
 
@@ -205,7 +217,7 @@ def check(run, obl, part=None, store=None):
     duration = _dur(run)
     if duration is None:
         probs.append("STEPS: duration unknown (no duration_minutes, started/finished)")
-    steps = check_steps(run, duration, probs)
+    steps = check_steps(run, duration, probs, run_date)
     check_obligations(obl, run_id, run_date, duration, probs)
     check_tariffs(part, store, run_id, steps, probs)
     # anything elsewhere in the record that calls a choice a constraint

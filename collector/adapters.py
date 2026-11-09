@@ -25,7 +25,8 @@ import time
 import re
 from urllib.parse import urljoin, quote
 
-from common import Blocked, html_text, pdf_page1_text
+import os
+from common import Blocked, ROOT, html_text, pdf_page1_text, slug
 
 FMT = "%Y-%m-%d"
 
@@ -156,6 +157,19 @@ def edgar(ctx):
     names = {**ecfg.get("utilities", {}), **ecfg.get("market_participants", {})}
     forms = set(ecfg["forms"])
     want_items = set(ecfg.get("eight_k_items", []))
+    # Self-heal (2026-11-09): a tracked filing from the last REFETCH_DAYS whose stored copy has no text (wiped by a
+    # text-less full-text hit with the same id before run.py refused such overwrites) is collected again.
+    refetch_from = (dt.date.fromisoformat(ctx.today[:10]) - dt.timedelta(days=75)).isoformat()
+
+    def textless(acc):
+        p = os.path.join(ROOT, "data", "filings", "CORP", "edgar", slug(f"SEC:{acc}", 120) + ".json")
+        if not os.path.exists(p):
+            return False
+        try:
+            with open(p, encoding="utf-8") as fh:
+                return not json.load(fh).get("documents")
+        except Exception:
+            return False
     for name, tk in names.items():
         cik = tk if str(tk).isdigit() else st["ciks"].get(str(tk).upper())
         if not cik:
@@ -167,7 +181,10 @@ def edgar(ctx):
         is_mp = name in ecfg.get("market_participants", {})
         for i, form in enumerate(rec.get("form", [])):
             fdate = rec["filingDate"][i]
-            if fdate < ctx.since or form not in forms:
+            if form not in forms:
+                continue
+            refetch = fdate < ctx.since
+            if refetch and (fdate < refetch_from or not textless(rec["accessionNumber"][i])):
                 continue
             itm = set((rec.get("items", [""] * 999)[i] or "").split(","))
             if form in ("8-K", "6-K") and want_items and not (itm & want_items) and form == "8-K":
@@ -189,8 +206,11 @@ def edgar(ctx):
             items.append({"id": f"SEC:{acc}", "jur": "CORP", "source": "edgar", "kind": "disclosure",
                           "docket": None, "title": f"{name} {form} {rec.get('primaryDocDescription', [''] * 999)[i] or ''} items {','.join(sorted(itm - {''}))}".strip(),
                           "filed": fdate, "url": idx_url, "entity": name, "fetch": fetch[:5],
-                          "meta": {"form": form, "items": sorted(itm - {""}), "cik": cik, "market_participant": is_mp}})
-    # full-text search across all filers for the beat
+                          "meta": {"form": form, "items": sorted(itm - {""}), "cik": cik, "market_participant": is_mp,
+                                   **({"refetch": True} if refetch else {})}})
+    # full-text search across all filers for the beat (hits on filings already collected above are skipped: they
+    # carry the same SEC:<accession> id and no documents)
+    have = {x["id"] for x in items}
     for q in ecfg.get("full_text_queries", []):
         try:
             r = http.get("https://efts.sec.gov/LATEST/search-index", params={"q": q, "dateRange": "custom",
@@ -198,8 +218,9 @@ def edgar(ctx):
             for h in r.json().get("hits", {}).get("hits", [])[:40]:
                 s = h.get("_source", {})
                 acc = (h.get("_id") or "").split(":")[0]
-                if not acc:
+                if not acc or f"SEC:{acc}" in have:
                     continue
+                have.add(f"SEC:{acc}")
                 items.append({"id": f"SEC:{acc}", "jur": "CORP", "source": "edgar_fts", "kind": "keyword_hit",
                               "docket": None, "title": f"{', '.join(s.get('display_names', [])[:2])} {s.get('form')} — full-text hit {q}",
                               "filed": s.get("file_date"), "url": f"https://www.sec.gov/Archives/edgar/data/{int((s.get('ciks') or ['0'])[0])}/{acc.replace('-', '')}/",
@@ -790,11 +811,15 @@ def ir_decks(ctx):
     for p in ctx.cfg.get("ir_pages", []):
         try:
             html = ctx.render(p["url"])
-        except Blocked as e:
-            ctx.record("ir:" + p["issuer"], "blocked", str(e))
-            continue
         except Exception as e:
-            ctx.record("ir:" + p["issuer"], "error", repr(e)[:200])
+            # refused_known (2026-11-09): the page is still tried every night, so a site that opens again shows
+            # up as "ok"; a refusal it is known to give is not a failure (its disclosure comes another way, see
+            # watchlist ir_ledger and tracker/ir_ledger.py)
+            if p.get("refused_known"):
+                ctx.record("ir:" + p["issuer"], "refused_known", f"{str(e)[:120]}; covered by: {p['refused_known']}")
+            else:
+                ctx.record("ir:" + p["issuer"], "blocked" if isinstance(e, Blocked) else "error",
+                           str(e) if isinstance(e, Blocked) else repr(e)[:200])
             continue
         pdfs = set()
         for href in re.findall(r'href="([^"]+\.pdf[^"]*)"', html, re.I):

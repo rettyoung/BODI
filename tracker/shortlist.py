@@ -15,7 +15,8 @@ usage
   python tracker/shortlist.py candidates --since 2026-10-26 [--state store_live/state.json]
         [--seen store_live/seen_index.json] [--top 40] [--out work/shortlist.json] [--excerpts work/excerpts]
       Every data/candidates/<date>.jsonl dated after --since. Prints one line per kept item (at most --top,
-      highest priority first) plus one summary line; the JSON holds kept, backlog (kept beyond --top, for
+      highest priority first), then one "E" line per tracked-utility earnings filing (8-K Item 2.02/7.01,
+      10-Q, 10-K; the earnings lane, read outside --top, up to --earnings-max 30), plus one summary line; the JSON holds kept, backlog (kept beyond --top, for
       state.read_backlog) and dropped (with reasons).
   python tracker/shortlist.py backfill [--state store_live/state.json] [--store store_live] [--n 25]
         [--since 2026-01-01] [--per-docket-month 2] [--party-per-docket-month 4] [--dry-run] [--loose]
@@ -63,8 +64,13 @@ NOISE_RE = re.compile(r"\b(notice of appearance|certificate of service|service l
                       r"gas pipeline safety|pro hac vice|substitution of counsel|errata sheet|"
                       r"request for extension of time to file comments)\b", re.I)
 INDIVIDUAL_RE = re.compile(r"^(comment|letter|e-?mail) (of|from) [A-Z][a-z]+ [A-Z][a-z]+\b", re.I)
-FIGURE_RE = re.compile(r"(\$\s?\d[\d,.]*\s*(million|billion|bn|m|k)?|\b\d[\d,.]*\s?(MW|GW|kW|MWh|GWh|MVA)\b|"
+FIGURE_RE = re.compile(r"(\$\s?\d[\d,.]*\s*(million|billion|bn|m|k)?|\b\d[\d,.]*\s?(MW|GW|kW|MWh|GWh|MVA|gigawatts?|megawatts?)\b|"
                        r"\b\d{1,3}(\.\d+)?\s?%|\b\d{1,2}[- ]year\b)", re.I)
+# Earnings filings (2026-11-09): a release is mostly $ and % figures, which used to fill the cap before the one
+# paragraph that matters (Oncor's Q3 queue sentence sat past it). Their excerpts follow large-load language only.
+LOAD_RE = re.compile(r"\b(data ?cent(er|re)s?|large[- ]load|hyperscal\w*|interconnection (queue|requests?)|"
+                     r"electric service agreements?|ESAs?|contracted|pipeline|late[- ]stage|load growth|"
+                     r"\d[\d,.]*\s?(GW|MW|gigawatts?|megawatts?))\b", re.I)
 ORDERING_RE = re.compile(r"\b(it is (therefore )?ordered|ordered that|shall (be|take) effect|effective (date|on)|"
                          r"minimum (bill|demand|take)|exit fee|termination|notice period|load factor|ramp)\b", re.I)
 EXEC_SOURCES = ("page:gov_", "page:ferc", "page:nerc", "page:doe", "page:ercot", "page:miso", "page:spp",
@@ -107,6 +113,32 @@ def load_watch():
         for d in v or []:
             dockets.add(str(d if not isinstance(d, dict) else d.get("id", "")).upper())
     return kws, [p for p in parties if p], dockets
+
+
+EARNINGS_ITEMS = {"2.02", "7.01"}
+
+
+def load_issuers():
+    """Tracked utilities' EDGAR names (watchlist edgar.utilities). Their earnings 8-Ks (Item 2.02/7.01) and
+    10-Q/10-K get their own lane (2026-11-09): on 9 Nov all six 'unreachable' IR issuers' Q3 releases, Exelon's
+    deck exhibit and the BHE 10-Q were in the collector's data but scored like any filing and sat at backlog
+    positions 49-184, behind the 40-item cut, so none was read."""
+    try:
+        import yaml
+        w = yaml.safe_load(open(os.path.join(ROOT, "config", "watchlist.yaml"), encoding="utf-8"))
+    except Exception:  # noqa
+        return set()
+    return set(((w.get("edgar") or {}).get("utilities") or {}).keys())
+
+
+def is_earnings(c, issuers):
+    if (c.get("source") or "") != "edgar" or c.get("entity") not in issuers:
+        return False
+    m = c.get("meta") or {}
+    form = m.get("form") or ""
+    if form in ("10-Q", "10-K"):
+        return True
+    return form == "8-K" and bool(set(m.get("items") or []) & EARNINGS_ITEMS)
 
 
 def word_re(terms):
@@ -187,18 +219,22 @@ def older_text_hashes(before_date, exclude_ids):
     return idx
 
 
-def excerpt(filing, kw_re, party_re, cap=8000, cover=1500, win=700):
-    """Cover page + merged windows around beat signals, per document, until `cap` characters."""
+def excerpt(filing, kw_re, party_re, cap=8000, cover=1500, win=700, focus=None):
+    """Cover page + merged windows around beat signals, per document, until `cap` characters.
+    focus=LOAD_RE (earnings lane): windows only around large-load language, exhibits before the 8-K cover."""
     out, used = [], 0
-    for i, doc in enumerate(filing.get("documents") or []):
+    docs = list(enumerate(filing.get("documents") or []))
+    if focus is not None and len(docs) > 1:
+        docs = docs[1:] + docs[:1]  # 8-K cover page last: the release and deck carry the figures
+    for i, doc in docs:
         text = doc.get("text") or ""
         head = (f"=== doc {i}: {doc.get('name') or doc.get('url')} | quality={doc.get('quality')} "
                 f"ocr={doc.get('ocr')} chars={len(text)} | full text: {filing.get('_path', '')} documents[{i}].text")
         if not text.strip():
             out.append(head + "\n[no text]")
             continue
-        spans = [(0, min(cover, len(text)))]
-        for rx in (kw_re, party_re, FIGURE_RE, ORDERING_RE):
+        spans = [(0, min(cover if focus is None else 600, len(text)))]
+        for rx in ((kw_re, party_re, FIGURE_RE, ORDERING_RE) if focus is None else (focus, party_re)):
             for m in rx.finditer(text):
                 spans.append((max(0, m.start() - win), min(len(text), m.end() + win)))
         spans.sort()
@@ -324,7 +360,10 @@ def write_excerpt(c, kw_re, party_re, xdir, cap):
     if not f:
         return None, 0
     f["_path"] = c.get("filing")
-    text = excerpt(f, kw_re, party_re, cap=cap)
+    if c.get("group") == "earnings":
+        text = excerpt(f, kw_re, party_re, cap=max(cap, 12000), win=500, focus=LOAD_RE)
+    else:
+        text = excerpt(f, kw_re, party_re, cap=cap)
     os.makedirs(xdir, exist_ok=True)
     p = os.path.join(xdir, safe(c["id"]) + ".txt")
     open(p, "w", encoding="utf-8").write(text)
@@ -339,6 +378,7 @@ def text_hashes(c):
 def cmd_candidates(a):
     kws, parties, dockets = load_watch()
     kw_re, party_re = word_re(kws), word_re(parties)
+    issuers = load_issuers()
     seen = seen_strings(a.seen)
     files = sorted(p for p in glob.glob(data_path("candidates", "*.jsonl"))
                    if os.path.basename(p)[:10] > a.since)
@@ -375,7 +415,7 @@ def cmd_candidates(a):
                     c["_file"], c["_backlog"] = os.path.basename(p), True
                     items.append(c)
     hidx = older_text_hashes(a.since, ids) if items else {}
-    kept, dropped = [], []
+    kept, dropped, earnings = [], [], []
     window_hashes = {}
     for c in items:
         if (c.get("id") in seen and not c.get("_backlog")) or (c.get("url") and c["url"] in seen and "filelist" not in c["url"]):
@@ -396,19 +436,29 @@ def cmd_candidates(a):
                "filed": c.get("filed"), "url": c.get("url"), "filing": c.get("filing"), "score": s,
                "group": group, "why": why, "docs": doc_summary(c),
                "not_document": any((d or {}).get("quality") == "not_document" for d in (c.get("docs") or []) if isinstance(d, dict))}
+        if is_earnings(c, issuers):
+            rec["group"], rec["entity"] = "earnings", c.get("entity")
+            rec["form"] = (c.get("meta") or {}).get("form")
+            rec["why"] = why + ["earnings lane"]
+            earnings.append(rec)
+            continue
         (kept if s >= a.min_score else dropped).append(rec if s >= a.min_score else
                                                        {"id": c["id"], "title": rec["title"][:100], "why": f"score {s}: " + "; ".join(why or ["no beat signal"])})
     kept.sort(key=lambda r: (TIER_ORDER[r["group"]], -r["score"], r.get("filed") or ""), reverse=False)
     top, backlog = kept[:a.top], kept[a.top:]
+    # earnings lane: read in full every run, outside --top; 8-Ks before 10-Qs, oldest first
+    earnings.sort(key=lambda r: (r.get("form") != "8-K", r.get("filed") or ""))
+    lane, over = earnings[:a.earnings_max], earnings[a.earnings_max:]
+    backlog = over + backlog
     full_chars = ex_chars = 0
-    for r in top:
+    for r in top + lane:
         p, n = write_excerpt(r, kw_re, party_re, a.excerpts, a.cap)
         r["excerpt"] = p
         if p:
             full_chars += n
             ex_chars += os.path.getsize(p)
     out = {"since": a.since, "files": [os.path.basename(p) for p in files], "candidates": len(items),
-           "kept": top, "backlog": backlog, "dropped": dropped,
+           "kept": top, "earnings": lane, "backlog": backlog, "dropped": dropped,
            "chars": {"full_text": full_chars, "excerpts": ex_chars},
            "newest_file": os.path.basename(files[-1])[:10] if files else None}
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
@@ -416,7 +466,11 @@ def cmd_candidates(a):
     for i, r in enumerate(top, 1):
         print(f"{i:>2} {r['score']:>3} {r['group']:<5} {r['id'][:34]:<34} {(r['docket'] or '-')[:16]:<16} "
               f"{r['docs']:<16} {r['title'][:70]}")
-    print(f"SHORTLIST {len(items)} candidates in {len(files)} files -> {len(top)} to read, {len(backlog)} backlog, "
+    for i, r in enumerate(lane, 1):
+        print(f"E{i:<2} {r['score']:>3} {'earn':<5} {r['id'][:34]:<34} {(r.get('entity') or '-')[:16]:<16} "
+              f"{r['docs']:<16} {r['title'][:70]}")
+    print(f"SHORTLIST {len(items)} candidates in {len(files)} files -> {len(top)} to read + {len(lane)} earnings, "
+          f"{len(backlog)} backlog, "
           f"{len(dropped)} dropped; excerpts {ex_chars:,} chars vs {full_chars:,} full text -> {a.out}")
 
 
@@ -790,6 +844,8 @@ def main():
     p.add_argument("--seen")
     p.add_argument("--top", type=int, default=40)
     p.add_argument("--min-score", type=int, default=45)
+    p.add_argument("--earnings-max", type=int, default=30,
+                   help="tracked-utility earnings 8-Ks and 10-Q/10-Ks read outside --top (2026-11-09)")
     p.add_argument("--cap", type=int, default=8000)
     p.add_argument("--out", default="work/shortlist.json")
     p.add_argument("--excerpts", default="work/excerpts")
