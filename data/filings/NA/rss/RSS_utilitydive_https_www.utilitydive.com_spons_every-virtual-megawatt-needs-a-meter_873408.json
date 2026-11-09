@@ -1,0 +1,26 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/spons/every-virtual-megawatt-needs-a-meter/873408/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Every virtual megawatt needs a meter",
+ "filed": "2026-11-09",
+ "url": "https://www.utilitydive.com/spons/every-virtual-megawatt-needs-a-meter/873408/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": " GETs, demand response and VPPs all rely on one device utilities are about to replace by the millions. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-09T13:38:11Z",
+ "run_id": "2026-11-09-1320",
+ "keywords": [
+  "demand response"
+ ],
+ "party_hits": [],
+ "documents": []
+}

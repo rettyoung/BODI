@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261109-5010",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PL26-3",
+ "title": "Comment of Heather Mundis in Docket(s)/Project(s) PL26-3-000\nSubmission Date: 11/7/2026\n",
+ "filed": "2026-11-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261109-5010",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "EE603884-8EBC-C392-90D4-A1B46F800000",
+   "name": "152368.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-07"
+ },
+ "collected_at": "2026-11-09T13:27:04Z",
+ "run_id": "2026-11-09-1320",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152368.txt",
+   "bytes": 1218,
+   "sha256": "52278b0d49647bb5dd5b285e0e6e37105059a691bf76804721f3226289433dc1",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nHeather Mundis, Three Springs, PA.\nWe need more oversight with the increase in data center proposals, not less. FERC is proposing that the current air dispersion modeling be replaced with manufacturer estimates for each type of equipment combined with the schedule \"in which each piece of equipment may be operated.\" \"Specifically, air dispersion modeling can reveal substantial differences in air quality impacts from two facilities that have identical amounts of total emissions of a specific pollutant per year,\" says Commissioner Chang., Commissioner Chang notes that \"the Commission’s evaluation of the public convenience and necessity under the NGA requires that 'the Commission balances the need for and benefits derived from the project against the potential adverse consequences.  Those consequences include impacts on landowners and environmental impacts identified in the NEPA document developed for the project.' Without conducting an assessment of a project’s emissions impact on local air quality, the Commission will be left without key information needed to conduct public interest balancing under the NGA.\"Don't strip away regulations that would catch damgers to our air quality early on. \r\n\r\n"
+  }
+ ]
+}

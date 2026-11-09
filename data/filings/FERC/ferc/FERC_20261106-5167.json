@@ -1,0 +1,61 @@
+{
+ "id": "FERC:20261106-5167",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "CP27-13",
+ "title": "Eastern Gas Transmission and Storage, Inc. submits Abbreviated Application for a Certificate of Public Convenience and Necessity to construct etc. certain facilities located in Beaver, Pennsylvania et al. for the Stratum Project under CP27-13.",
+ "filed": "2026-11-06",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261106-5167",
+ "entity": "Eastern Gas Transmission and Storage, Inc.",
+ "fetch": [
+  {
+   "ferc_file": "A4276351-A330-C09A-8657-A1B2C6D00000",
+   "name": "PRIV_Vol.III_Project Stratum_Exhibit F-I.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "7B87C641-8485-CE33-8E27-A1B2C6D00000",
+   "name": "PRIV_Vol.III_Project Stratum_Exhibit I-I.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "0E1587F2-59D3-CFBD-8A7D-A1B2C6E00000",
+   "name": "PRIV_Vol.III_Project Stratum_Landowner List.xlsx",
+   "type": "XLSX"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Application/Petition/Request",
+    "documentType": "Certificate of Public Convenience and Necessity"
+   }
+  ],
+  "why": "keyword \"co-location\" OR \"co-located load\"",
+  "issued": "2026-11-06"
+ },
+ "collected_at": "2026-11-09T13:27:16Z",
+ "run_id": "2026-11-09-1320",
+ "keywords": [
+  "certificate of public convenience",
+  "co-located",
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'A4276351-A330-C09A-8657-A1B2C6D00000', 'name': 'PRIV_Vol.III_Project Stratum_Exhibit F-I.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '7B87C641-8485-CE33-8E27-A1B2C6D00000', 'name': 'PRIV_Vol.III_Project Stratum_Exhibit I-I.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '0E1587F2-59D3-CFBD-8A7D-A1B2C6E00000', 'name': 'PRIV_Vol.III_Project Stratum_Landowner List.xlsx', 'type': 'XLSX'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

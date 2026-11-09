@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150247",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "With Batch Zero Paused, ERCOT Refines Planning Process",
+ "filed": "2026-11-08",
+ "url": "//www.rtoinsider.com/150247-with-batch-zero-paused-ercot-refines-planning-process/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " With Batch Zero essentially in a holding pattern, ERCOT and its stakeholders are plugging away at developing a comprehensive transmission planning process that eventually will take over for Batch studies. \n The post  With Batch Zero Paused, ERCOT Refines Planning Process  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-09T13:38:11Z",
+ "run_id": "2026-11-09-1320",
+ "keywords": [
+  "batch zero"
+ ],
+ "party_hits": [],
+ "documents": []
+}

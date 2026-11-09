@@ -1,0 +1,46 @@
+{
+ "id": "SEC:0001868275-26-000116",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Constellation 8-K 8-K items 2.02,7.01,9.01",
+ "filed": "2026-11-09",
+ "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/",
+ "entity": "Constellation",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "7.01",
+   "9.01"
+  ],
+  "cik": "0001868275",
+  "market_participant": true
+ },
+ "collected_at": "2026-11-09T13:30:17Z",
+ "run_id": "2026-11-09-1320",
+ "keywords": [],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109.htm",
+   "name": null,
+   "bytes": 43301,
+   "sha256": "673f4040d1fa6d7f03c50cab75e705a1ba1c61ea54e7d15305f710851b6736a8",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "ceg-20261109\nPennsylvania\n1310 Point Street\nBaltimore\nMaryland\n21231-3380\n(833)\n883-0162\nPennsylvania\n200 Energy Way\nKennett Square\nPennsylvania\n19348-2473\n(833)\n883-0162\nCommon Stock, without par value\nCEG\nThe Nasdaq Stock Market LLC\n0001868275\n0001168165\nFalse\n☐\n0001868275\n2026-11-09\n2026-11-09\n0001868275\nceg:ConstellationEnergyGenerationLLCMember\n2026-11-09\n2026-11-09\nUNITED STATES SECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM\n8-K\nCURRENT REPORT\nPursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934\nNovember 9, 2026\nDate of Report (Date of earliest event reported)\nCommission\nFile Number\nName of Registrant; State or Other Jurisdiction of Incorporation; Address of Principal Executive Offices; and Telephone Number\nIRS Employer Identification Number\n001-41137\nCONSTELLATION ENERGY CORPORATION\n87-1210716\n(a \nPennsylvania\n corporation)\n1310 Point Street\nBaltimore\n, \nMaryland\n\n21231-3380\n(833)\n\n883-0162\n333-85496\nCONSTELLATION ENERGY GENERATION, LLC\n23-3064219\n(a \nPennsylvania\n limited liability company)\n200 Energy Way\nKennett Square\n, \nPennsylvania\n\n19348-2473\n(833)\n\n883-0162\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n☐\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n☐\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n☐\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n☐\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\nSecurities registered pursuant to Section 12(b) of the Act:\nTitle of each class\nTrading Symbol(s)\nName of each exchange on which registered\nCONSTELLATION ENERGY CORPORATION:\nCommon Stock, without par value\nCEG\nThe Nasdaq Stock Market LLC\nIndicate by check mark whether any of the registrants are emerging growth companies as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).\nEmerging growth company \n☐\nIf an emerging growth company, indicate by check mark if any of the registrants have elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\nSection 2 - Financial Information \nItem 2.02.  Results of Operations and Financial Condition\nSection 7 - Regulation FD \nItem 7.01.  Regulation FD Disclosure\nOn November 9, 2026, Constellation Energy Corporation (Nasdaq: CEG) announced via press release its results for the third quarter ended September 30, 2026. A copy of the press release and related attachments are attached hereto as Exhibit 99.1. Also attached as Exhibit 99.2 to this Current Report on Form 8-K are the presentation slides to be used during the third quarter 2026 earnings conference call. This Form 8-K and the attached exhibits are provided under Items 2.02, 7.01 and 9.01 of Form 8-K and are furnished to, but not filed with, the Securities and Exchange Commission.\nWe have scheduled the conference call for 9:00 AM ET on November 9, 2026. To access the call by phone, please follow the registration link available on the Investor Relations page of our website:  https://investors.constellationenergy.com. The call will also be webcast and archived on the Investor Relations page of our website. Media representatives are invited to participate on a listen-only basis.\nSection 9 - Financial Statements and Exhibits\nItem 9.01.  Financial Statements and Exhibits\n(d)    Exhibits.\nExhibit No.\nDescription\n99.1\nPress release and earnings release attachments\n99.2\nEarnings conference call presentation slides\n101\nCover Page Interactive Data File - the cover page XBRL tags are embedded within the Inline XBRL document.\n104\nThe cover page from the Current Report on Form 8-K, formatted as Inline XBRL.\n* * * * *\nThis combined Current Report on Form 8-K is being furnished separately by Constellation Energy Corporation and Constellation Energy Generation, LLC, (collectively, the Registrants). Information contained herein relating to one of the Registrants has been furnished by the Registrant on its own behalf. Neither Registrant makes any representation as to information relating to the other Registrant.\nThis report contains certain forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 that are subject to risks and uncertainties. Words such as “could,” “may,” “expects,” “anticipates,” “will,” “targets,” “goals,” “projects,” “intends,” “plans,” “believes,” “seeks,” “estimates,” “predicts,” and variations on such words, and similar expressions that reflect our current views with respect to future events and operational, economic, and financial performance, are intended to identify such forward-looking statements. These forward-looking statements include, but are not limited to, statements regarding the acquisition of Calpine Corporation, the pro forma combined company and its operations, strategies and plans, enhancements to investment-grade credit profile, synergies, opportunities and anticipated future performance and capital structure, and expected accretion to earnings per share and free cash flow. Information adjusted for the acquisition should not be considered a forecast of future results.\nForward-looking statements are based on current expectations, estimates and assumptions that involve a number of risks and uncertainties that could cause actual results to differ materially from those projected. The factors that could cause actual results to differ materially from the forward-looking statements made by the Registrants include those factors discussed herein, as well as the items discussed in (1) the Registrants' combined 2025 Annual Report on Form 10-K in (a) Part I, ITEM 1A. Risk Factors, (b) Part II, ITEM 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations, and (c) Part II, ITEM 8. Financial Statements and Supplementary Data: Note 18 — Commitments and Contingencies; (2) the Registrants' Third Quarter 2026 Quarterly Report on Form 10-Q (to be filed on November 9, 2026) in (a) Part II, ITEM 1A. Risk Factors, (b) Part I, ITEM 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations, and (c) Part I, ITEM 1. Financial Statements: Note 15 — Commitments and Contingencies; and (3) other factors discussed in filings with the SEC by the Registrants.\nInvestors are cautioned not to place undue reliance on these forward-looking statements, whether written or oral, which apply only as of the date of this report. Neither Registrant undertakes any obligation to publicly release any revision to its forward-looking statements to reflect events or circumstances after the date of this report.\nSIGNATURES\nPursuant to the requirements of the Securities Exchange Act of 1934, each Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.\nCONSTELLATION ENERGY CORPORATION\n/s/ Shane P. Smith\nShane P. Smith\nExecutive Vice President and Chief Financial Officer\nConstellation Energy Corporation\nCONSTELLATION ENERGY GENERATION, LLC\n/s/ Shane P. Smith\nShane P. Smith\nExecutive Vice President and Chief Financial Officer\nConstellation Energy Generation, LLC\nNovember 9, 2026\nEXHIBIT INDEX\nExhibit No.\nDescription\n99.1\nPress release and earnings release attachments\n99.2\nEarnings conference call presentation slides\n101\nCover Page Interactive Data File - the cover page XBRL tags are embedded within the Inline XBRL document.\n104\nThe cover page from the Current Report on Form 8-K, formatted as Inline XBRL."
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150953",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "2-year Clock Starts Ticking on Democrats’ Energy Affordability Mandate",
+ "filed": "2026-11-08",
+ "url": "//www.rtoinsider.com/150953-2-year-clock-starts-ticking-democrats-energy-affordability-mandate/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Election day’s triumphant party faces key decisions on its power and data center agendas as it prepares to confront a veto-ready President Donald Trump. \n The post  2-year Clock Starts Ticking on Democrats’ Energy Affordability Mandate  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-09T13:38:11Z",
+ "run_id": "2026-11-09-1320",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

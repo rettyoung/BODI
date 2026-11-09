@@ -10099,19 +10099,43 @@
   "AGENDA:atlanta:https://AtlantaCityGA.IQM2.com/Citizens/Detail_Meeting.aspx?ID=4339": "2026-11-08",
   "AGENDA:storey:https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11182026-1415": "2026-11-08",
   "PAGE:gov_tx:https://gov.texas.gov/news/post/governor-abbott-activates-additional-state-emergency-response-resources-ahead-of-flood-theat": "2026-11-08",
-  "COURT:r:75076184": "2026-11-08"
+  "COURT:r:75076184": "2026-11-08",
+  "FERC:20261106-5166": "2026-11-09",
+  "FERC:20261109-5010": "2026-11-09",
+  "FERC:20261109-5007": "2026-11-09",
+  "FERC:20261106-5167": "2026-11-09",
+  "FR:2026-22790": "2026-11-09",
+  "SEC:0001081316-26-000029": "2026-11-09",
+  "SEC:0001081316-26-000026": "2026-11-09",
+  "SEC:0001868275-26-000116": "2026-11-09",
+  "SEC:0001104659-26-124147": "2026-11-09",
+  "SEC:0001013871-26-000022": "2026-11-09",
+  "RSS:grid_strategies:https://gridstrategiesllc.com/?p=2355": "2026-11-09",
+  "RSS:utilitydive:https://www.utilitydive.com/spons/every-virtual-megawatt-needs-a-meter/873408/": "2026-11-09",
+  "RSS:utilitydive:https://www.utilitydive.com/spons/the-next-wave-of-energy-storage-capacity-is-already-on-the-grid/873140/": "2026-11-09",
+  "RSS:utilitydive:https://www.utilitydive.com/spons/beyond-megawatts-nuclears-other-capacity-expansion-challenge/873634/": "2026-11-09",
+  "RSS:utilitydive:https://www.utilitydive.com/spons/behind-the-meter-power-an-effective-tool-for-bringing-large-utility-custom/833709/": "2026-11-09",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150946": "2026-11-09",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150953": "2026-11-09",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150943": "2026-11-09",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150247": "2026-11-09",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150925": "2026-11-09",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150929": "2026-11-09",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150935": "2026-11-09",
+  "RSS:canary:https://www.canarymedia.com/articles/food-and-farms/wheres-the-beef-solar-panels": "2026-11-09",
+  "RSS:canary:https://www.canarymedia.com/articles/electrification/gas-furnace-leak-to-all-electric": "2026-11-09"
  },
  "sources": {
   "ferc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "edgar": {
@@ -20544,13 +20568,13 @@
     },
     "ciks_date": "2026-11"
    },
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "az_acc": {
@@ -20559,18 +20583,18 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "ga_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "ok_occ": {
@@ -20716,19 +20740,19 @@
      "21745874": "CASE PUD 2026-000046 ENTRY NO. 114 FILED IN OCC COURT CLERK'S OFFICE ON 11/02/2026 - PAGE 1 OF 4 "
     }
    },
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "mo_efis": {
@@ -21461,37 +21485,37 @@
      "EO-2027-0132": "110246"
     }
    },
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "al_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-08",
+   "last_ok": "2026-11-09",
    "last_error": null
   },
   "eia": {
@@ -21501,25 +21525,25 @@
     "last_period": "2026-08"
    },
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -23419,13 +23443,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -23447,7 +23471,7 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -23661,7 +23685,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -23683,25 +23707,25 @@
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
@@ -23712,13 +23736,13 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -23736,7 +23760,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   }
  },
  "baselined": [
@@ -23744,8 +23768,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 51,
- "last_run": "2026-11-08T11:59:33Z",
+ "runs": 52,
+ "last_run": "2026-11-09T13:50:50Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -24604,6 +24628,8 @@
    "FERC:20261103-8000",
    "FERC:20261104-5113",
    "FERC:20261104-5187",
+   "FERC:20261106-5048",
+   "FERC:20261106-8002",
    "FR:2026-18843",
    "FR:2026-18868",
    "FR:2026-18988",
@@ -25077,11 +25103,14 @@
    "NRC:ML26294A026",
    "NRC:ML26299A276",
    "NRC:ML26300A337",
+   "NRC:ML26302A296",
    "NRC:ML26306A294",
    "NRC:ML26308A087",
+   "NRC:ML26310A312",
    "OK:21732952",
    "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A101626-02",
    "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B102326-01",
+   "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-C110626-01",
    "PAGE:puct_news:https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2023/PUCT_Texas_Advanced_Nuclear_Reactor_Working_Group_Named.pdf",
    "PAGE:puct_news:https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2023/PUCT_to_Host_First_Public_Workshop_on_Advanced_Nuclear_Reactors.pdf",
    "PAGE:puct_news:https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2024/New_Goals_for_Residential_Demand_Response_to_Mean_More_Savings_for_Electricity_Customers.pdf",
@@ -26249,11 +26278,7 @@
    "TX:59611-8"
   ],
   "attempts": {
-   "NRC:ML26302A296": 2,
-   "NRC:ML26310A312": 2,
-   "FERC:20261106-5048": 2,
-   "FERC:20261106-8002": 2,
-   "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-C110626-01": 2
+   "FERC:20261106-5167": 1
   },
   "doc_retries": {
    "TX:58482-36": 1,
@@ -26498,26 +26523,28 @@
    "FERC:20261030-5048": 4,
    "FERC:20261030-5096": 4,
    "FERC:20261028-5185": 4,
-   "FERC:20261102-5214": 3,
-   "FERC:20261102-8000": 3,
-   "FERC:20261102-5277": 3,
-   "FERC:20261030-5357": 3,
-   "MO:657793": 2,
-   "MO:657802": 2,
-   "FERC:20261103-5083": 2,
-   "FERC:20261103-8000": 2,
-   "FERC:20261104-5187": 1,
-   "FERC:20261104-5113": 1,
-   "NRC:ML26287A263": 1,
-   "NRC:ML26287A262": 1,
-   "NRC:ML26112A016": 1,
-   "NRC:ML26300A337": 1
+   "FERC:20261102-5214": 4,
+   "FERC:20261102-8000": 4,
+   "FERC:20261102-5277": 4,
+   "FERC:20261030-5357": 4,
+   "MO:657793": 3,
+   "MO:657802": 3,
+   "FERC:20261103-5083": 3,
+   "FERC:20261103-8000": 3,
+   "FERC:20261104-5187": 2,
+   "FERC:20261104-5113": 2,
+   "NRC:ML26287A263": 2,
+   "NRC:ML26287A262": 2,
+   "NRC:ML26112A016": 2,
+   "NRC:ML26300A337": 2,
+   "NRC:ML26306A294": 1,
+   "NRC:ML26308A087": 1
   }
  },
  "last_full_run": {
-  "run_id": "2026-11-08-1130",
-  "started": "2026-11-08T11:30:33Z",
-  "finished": "2026-11-08T11:59:33Z",
+  "run_id": "2026-11-09-1320",
+  "started": "2026-11-09T13:20:49Z",
+  "finished": "2026-11-09T13:50:50Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }

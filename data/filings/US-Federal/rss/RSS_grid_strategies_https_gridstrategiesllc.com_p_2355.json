@@ -1,0 +1,43 @@
+{
+ "id": "RSS:grid_strategies:https://gridstrategiesllc.com/?p=2355",
+ "jur": "US-Federal",
+ "source": "rss:grid_strategies",
+ "kind": "news",
+ "docket": null,
+ "title": "United States Trails the World in High-capacity Transmission Construction",
+ "filed": "2026-11-09",
+ "url": "https://gridstrategiesllc.com/united-states-trails-the-world-in-high-capacity-transmission-construction/",
+ "entity": null,
+ "fetch": [
+  {
+   "url": "https://gridstrategiesllc.com/united-states-trails-the-world-in-high-capacity-transmission-construction/"
+  }
+ ],
+ "meta": {
+  "bkey": "rss:grid_strategies",
+  "rto": null,
+  "summary": " The post  United States Trails the World in High-capacity Transmission Construction  appeared first on  Grid Strategies . ",
+  "feed": "grid_strategies",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-09T13:38:11Z",
+ "run_id": "2026-11-09-1320",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://gridstrategiesllc.com/united-states-trails-the-world-in-high-capacity-transmission-construction/",
+   "name": null,
+   "bytes": 410416,
+   "sha256": "5796e4248737dfa98863a42946400abd7b7db01acd6ec5c004709f8710c71d5a",
+   "ctype": "text/html; charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "United States Trails the World in High-capacity Transmission Construction • Grid Strategies\n\nOur Work\n\nReports\n\nOur Team\n\nIn The News\n\nCareers\n\nContact Us\n\nUnited States Trails the World in High-capacity Transmission Construction\n\nDanish Jamal, Zach Zimmerman, Rob Gramlich, Gretchen Kershaw\n\nNovember 9, 2026\n\nTransmission\n\nDownload\n\nGrid Strategies LLC is a power sector consulting firm helping clients understand the electric power industry, energy markets, and policy. Drawing on extensive experience in state regulation, transmission planning, and wholesale markets, Grid Strategies analyzes and helps advance grid integration solutions.\n\nBased in the Washington DC area, the firm is actively engaged with the Federal Energy Regulatory Commission, Department of Energy, state Public Utility Commissions, Regional Transmission Organizations, the North American Electric Reliability Corporation, Congressional committees, the administration, and various stakeholders.\n\nContact Us\n\nSign Up for Grid Strategies Updates\n\n© \n Grid Strategies • \nPrivacy Policy\n • Website designed and created by \nRed Chalk Studios"
+  }
+ ]
+}

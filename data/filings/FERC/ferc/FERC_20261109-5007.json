@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261109-5007",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PL26-3",
+ "title": "Comment of Timothy Veasey in Docket(s)/Project(s) PL26-3-000\nSubmission Date: 11/7/2026\n",
+ "filed": "2026-11-09",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261109-5007",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "FAA5880C-EB84-C8C8-92B2-A1B46CC00000",
+   "name": "152365.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-07"
+ },
+ "collected_at": "2026-11-09T13:27:07Z",
+ "run_id": "2026-11-09-1320",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152365.txt",
+   "bytes": 843,
+   "sha256": "8034f14002b837d389b438b4b04a4eb4385d457f9b7113d60686dbeeb729984d",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nTimothy Veasey, Waterfall, PA.\nI don't agree with dismantling regulations, we need these regulations now more than ever, these are our rights Thomas Jefferson famously wrote that all men are endowed with unalienable rights, including \"Life, Liberty and the pursuit of Happiness\", please continue to enforce these rights, today that means the right to clean air.Commissioner Chang's dissent makes a strong case against making the proposed policy change. I encourage FERC to continue use of air dispersion modeling in its review of natural gas projects.In Union Township Huntingdon County PA we are facing a worldclass data center coming into a rural valley and turning the biggest lake in PA into a sacrifice zone, please protect our rights from this and other forms of exploitation that seem to be happening more often today than ever.\r\n\r\n"
+  }
+ ]
+}

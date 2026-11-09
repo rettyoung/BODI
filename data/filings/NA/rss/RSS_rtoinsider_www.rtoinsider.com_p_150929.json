@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150929",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "BPA Urges CAISO to Prioritize its EDAM Requirements",
+ "filed": "2026-11-08",
+ "url": "//www.rtoinsider.com/150929-bpa-urges-caiso-prioritize-edam-requirements/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The Bonneville Power Administration is asking CAISO to prioritize initiatives that address the agency’s conditions for joining the ISO’s Extended Day-Ahead Market — and to consider how to align California’s resource adequacy program with one serving the broader West. \n The post  BPA Urges CAISO to Prioritize its EDAM Requirements  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-09T13:38:11Z",
+ "run_id": "2026-11-09-1320",
+ "keywords": [
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": []
+}

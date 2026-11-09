@@ -46,5 +46,6 @@
    "url": "{'ferc_file': 'E1B1242D-B3EE-CB30-9BF7-A1B19FE00000', 'name': '20261106 HST Part 12 CA CAR Presentation CEII ATT.pdf', 'type': 'PDF'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-09T13:50:37Z"
 }

@@ -1,0 +1,43 @@
+{
+ "id": "SEC:0001081316-26-000029",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Nevada Power 8-K BERKSHIRE HATHAWAY ENERGY COMPANY 11.09.26 FORM 8-K items 7.01,9.01",
+ "filed": "2026-11-09",
+ "url": "https://www.sec.gov/Archives/edgar/data/71180/000108131626000029/",
+ "entity": "Nevada Power",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/71180/000108131626000029/bhe-20261108.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "7.01",
+   "9.01"
+  ],
+  "cik": "0000071180",
+  "market_participant": false
+ },
+ "collected_at": "2026-11-09T13:30:11Z",
+ "run_id": "2026-11-09-1320",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/71180/000108131626000029/bhe-20261108.htm",
+   "name": null,
+   "bytes": 68996,
+   "sha256": "b9eec2824eb5c862967873bd42dbbcd7ce0293d9c70ac426ed6349673e439737",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "bhe-20261108\n0001081316\n0000075594\n0001098296\n0000928576\n0000071180\n0000090144\n0001603291\n0001936737\nFALSE\n0001081316\n2026-11-08\n2026-11-08\n0001081316\nbhe:PacificorpMember\n2026-11-08\n2026-11-08\n0001081316\nbhe:MidAmericanFundingLLCAndSubsidiariesMember\n2026-11-08\n2026-11-08\n0001081316\nbhe:MidamericanEnergyCompanyAndSubsidiariesMember\n2026-11-08\n2026-11-08\n0001081316\nbhe:NevadaPowerCompanyMember\n2026-11-08\n2026-11-08\n0001081316\nbhe:SierraPacificPowerCompanyMember\n2026-11-08\n2026-11-08\n0001081316\nbhe:EasternEnergyGasHoldingsLLCMember\n2026-11-08\n2026-11-08\n0001081316\nbhe:EasternGasTransmissionAndStorageIncMember\n2026-11-08\n2026-11-08\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM \n8-K\nCURRENT REPORT\nPursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934\nNovember 8, 2026\nDate of Report (Date of earliest event reported)\nExact name of registrant as specified in its charter\nState or other jurisdiction of incorporation\nCommission\nAddress of principal executive offices\nIRS Employer\nFile Number\nRegistrant's telephone number, including area code\nIdentification No.\n001-14881\nBERKSHIRE HATHAWAY ENERGY COMPANY\n94-2213782\n(An \nIowa\n Corporation)\n1615 Locust Street\nDes Moines\n, \nIowa\n\n50309-3037\n515\n-\n242-4300\n001-05152\nPACIFICORP\n93-0246090\n(An \nOregon\n Corporation)\n825 N.E. Multnomah Street\nPortland\n, \nOregon\n\n97232\n888\n-\n221-7070\n333-90553\nMIDAMERICAN FUNDING, LLC\n47-0819200\n(An \nIowa\n Limited Liability Company)\n1615 Locust Street\nDes Moines\n, \nIowa\n\n50309-3037\n515\n-\n242-4300\n333-15387\nMIDAMERICAN ENERGY COMPANY\n42-1425214\n(An \nIowa\n Corporation)\n1615 Locust Street\nDes Moines\n, \nIowa\n\n50309-3037\n515\n-\n242-4300\n000-52378\nNEVADA POWER COMPANY\n88-0420104\n(A \nNevada\n Corporation)\n6226 West Sahara Avenue\nLas Vegas\n, \nNevada\n\n89146\n702\n-\n402-5000\n000-00508\nSIERRA PACIFIC POWER COMPANY\n88-0044418\n(A \nNevada\n Corporation)\n6100 Neil Road\nReno\n, \nNevada\n\n89511\n775\n-\n834-4011\n001-37591\nEASTERN ENERGY GAS HOLDINGS, LLC\n46-3639580\n(A \nVirginia\n Limited Liability Company)\n10700 Energy Way\nGlen Allen\n, \nVirginia\n\n23060\n804\n-\n613-5100\n333-266049\nEASTERN GAS TRANSMISSION AND STORAGE, INC.\n55-0629203\n(A \nDelaware\n Corporation)\n10700 Energy Way\nGlen Allen\n, \nVirginia\n\n23060\n804\n-\n613-5100\nN/A\n(Former name or former address, if changed since last report)\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of each registrant under any of the following provisions:\no\n Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\no\n Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\no\n Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\no\n Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) \nRegistrant\nSecurities registered pursuant to Section 12(b) of the Act:\nBERKSHIRE HATHAWAY ENERGY COMPANY\nNone\nPACIFICORP\nNone\nMIDAMERICAN FUNDING, LLC\nNone\nMIDAMERICAN ENERGY COMPANY\nNone\nNEVADA POWER COMPANY\nNone\nSIERRA PACIFIC POWER COMPANY\nNone\nEASTERN ENERGY GAS HOLDINGS, LLC\nNone\nEASTERN GAS TRANSMISSION AND STORAGE, INC.\nNone\nIndicate by check mark whether any registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).\nEmerging growth company    \no\nIf an emerging growth company, indicate by check mark if such registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.  \no\nItem 7.01      Regulation FD Disclosure.\nBerkshire Hathaway Energy Company (\"BHE\") and its direct and indirect subsidiaries PacifiCorp, MidAmerican Funding, LLC, MidAmerican Energy Company, Nevada Power Company, Sierra Pacific Power Company, Eastern Energy Gas Holdings, LLC and Eastern Gas Transmission and Storage, Inc. (collectively, the \"Subsidiary Registrants\" and together with BHE, the \"Registrants\") posted certain information on November 8, 2026, free of charge and titled \"EEI Financial Conference November 2026,\" in the Investors, Financial Filings section of BHE's internet website at https://www.brkenergy.com, as it, in part, includes information about BHE and each Subsidiary Registrant. Any information available on or through BHE's website is not part of this Form 8-K and BHE's web address is included as an inactive textual reference only.\nIn accordance with general instruction B.2 of Form 8-K, the information in this report is being furnished by each Registrant pursuant to Item 7.01 of Form 8-K and shall not be deemed to be \"filed\" for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended (\"Exchange Act\"), or otherwise subject to the liabilities of that section. Furthermore, the information in this report shall not be deemed incorporated by reference in any filing made by a Registrant under the Securities Act of 1933, as amended, or the Exchange Act. This report will not be deemed an admission by any Registrant as to the materiality of any information in the report that is required to be disclosed by such Registrant solely by Regulation FD.\nItem 9.01    Financial Statements and Exhibits.\n(d) Exhibits\nExhibit No.\nDescription\n104\nCover Page Interactive Data File (embedded within the Inline XBRL document).\n3\nSIGNATURES\nPursuant to the requirements of the Securities Exchange Act of 1934, each registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.\nBERKSHIRE HATHAWAY ENERGY COMPANY\nDate:  November 9, 2026\n/s/ Terrell K. Crews II\nTerrell K. Crews II\nSenior Vice President and Chief Financial Officer\nPACIFICORP\nDate:  November 9, 2026\n/s/ M. Ryan Weems\nM. Ryan Weems\nSenior Vice President, Chief Financial Officer and Treasurer\nMIDAMERICAN FUNDING, LLC\nMIDAMERICAN ENERGY COMPANY\nDate:  November 9, 2026\n/s/ Blake M. Groen\nBlake M. Groen\nVice President and Controller of MidAmerican Funding, LLC and\nVice President and Chief Financial Officer of\nMidAmerican Energy Company\nNEVADA POWER COMPANY\nDate:  November 9, 2026\n/s/ Hanna Halkias\nHanna Halkias\nSenior Vice President and Chief Financial Officer\nSIERRA PACIFIC POWER COMPANY\nDate:  November 9, 2026\n/s/ Hanna Halkias\nHanna Halkias\nSenior Vice President and Chief Financial Officer\nEASTERN ENERGY GAS HOLDINGS, LLC\nDate:  November 9, 2026\n/s/ Scott C. Miller\nScott C. Miller\nVice President, Chief Financial Officer and Treasurer\nEASTERN GAS TRANSMISSION AND STORAGE, INC.\nDate:  November 9, 2026\n/s/ Scott C. Miller\nScott C. Miller\nVice President, Chief Financial Officer and Treasurer\n4"
+  }
+ ]
+}
