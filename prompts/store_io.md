@@ -34,13 +34,14 @@ L6. OUTCOME. Record store_load = store_live/_load.json plus fetched: {name: "ext
     A CRITICAL file that still fails after L5 is a store that cannot be loaded exactly:
     - Sweep: Step 1 is BLOCKED with that evidence and the run STOPS before writing anything to OneDrive (release the lock; report).
     - Brief: status RED, cause "store could not be loaded exactly: <files>"; do not republish the console (the last good one stays live); still send the email with the milestones from what did load, and say so.
-    A non-critical file that fails (seen_index, manual_queue, an older run record, a manual manifest) is named in the status check / run record and the run continues.
+    A non-critical file that fails (manual_queue, an older run record, a manual manifest) is named in the status check / run record and the run continues.
 
 ============================================================
 SAVE  (Sweep Step 9; Brief Step 8 for state.json)
 ============================================================
+S0. KEEP WRITES SMALL (2026-11-09; sweep.md I14). Upload only files whose bytes changed (compare `store_sync.py sizes` and sha16 with the loaded manifest, or `statefile.py split`'s CHANGED marks). Growing data is written once as a new part (rows_pN, tariff_terms_pN, backfill_done_pN, runs/) with conflictBehavior "fail"; state is split (tracker/statefile.py) so the core state.json stays < 20 KB; the dedupe index is derived (rowstore.py --write-seen), never uploaded. A rewritten file over 32 KB is a design fault to fix in an interactive session, not something to retype.
 S1. Every store file you write to OneDrive is first a local file in store_live/, built and validated there. Upload its text with expectedBytes = its byte size (`python tracker/store_sync.py sizes store_live` prints them). If the upload is refused for size, your copy of the text drifted: re-send it from the file. Never edit the local file to match what was sent.
-S2. After the LAST OneDrive write of the run (state.json for both runs; the Sweep's run record before it), write the manifest from store_live and upload it:
+S2. After the LAST OneDrive write of the run (the changed state files for both runs, state.json last; the Sweep's run record before them), write the manifest from store_live and upload it:
       python tracker/store_sync.py manifest store_live --by <run_id, or "brief-<date>">
     upload store_live/store_manifest.json to /GridDocket/ (conflictBehavior "replace", expectedBytes its size). The run record goes in store_live/runs/<run_id>.json first so the manifest and the mirror carry it.
 S3. Publish the mirror: Artifact action "publish", url MIRROR, file_path console/store_mirror.html (in the clone), files = the JSON printed by

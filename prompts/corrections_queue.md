@@ -125,15 +125,15 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   The batch is chosen by `python tracker/shortlist.py backfill` (sweep.md 8.7; added 2026-11-02, STRICT since
   2026-11-07): it screens out items filed before 2026-01-01, procedural paper, landowner/individual filers, items the
   store already cites and items with no beat signal (any tier), collapses each docket-month to its instruments plus a
-  few party and other filings, and writes an excerpt per item for the extraction subagents. Screened items go into
-  backfill_cursor.done and never count toward the quota. Dry run of 2026-11-07: 1,886 unprocessed → 355 passing
+  few party and other filings, and writes an excerpt per item for the extraction subagents. Screened items are not
+  recorded (deterministic screen, sweep.md I14) and never count toward the quota. Dry run of 2026-11-07: 1,886 unprocessed → 355 passing
   (93 instruments or hyperscaler/DCC filings); 1,531 screened (420 landowner/individual,
   310 docket collapse, 256 procedural, 178 no document text, 175 watched docket without beat
   signal, 159 before 2026, 31 no beat signal, 2 already in store). At 25 a run that is about 15 Sweeps.
-  Each run, after this week's candidates, take at least 25 enriched items (all that remain, if fewer) not yet in state.backfill_cursor.done,
+  Each run, after this week's candidates, take at least 25 enriched items (all that remain, if fewer) not yet done (state.backfill_cursor.done in the merged state = legacy ids + backfill_done_p*.json),
   in the order the script gives (refetched, instruments, watched-party filings, the rest by score). Treat
   each exactly like a candidate (discovery-date Event IDs). Most will already be in the store — dedupe first; a
-  confirmed duplicate is simply marked done. Record processed ids in state.backfill_cursor.done (ids only).
+  confirmed duplicate is simply marked done. Record processed ids in this run's backfill_done_pN.json (tracker/statefile.py done-part).
 - A line with `"refetched": true` (from 2026-10-05) is a filing whose documents failed earlier (an HTML page served
   instead of the file) and have now been read. Take it even if its id is already in backfill_cursor.done, read only
   the documents that now have text, and record it in backfill_cursor.refetched_done so it is taken once.
@@ -161,7 +161,7 @@ Next Date updated to the verified current state. Add 2026-10-12 to near_term_mil
   (openstates; latest_action shows it), appellate decisions on commission orders (courtlistener), Regulations.gov
   watched-party comments, then the rest. Triage exactly like Step 3.2; read the filing file or WebFetch the url only
   for items that pass. Dedupe against the store first — the baseline already covers much of
-  this. Record processed ids in state.backfill_cursor.done.
+  this. Record processed ids in this run's backfill_done_pN.json.
 - ERCOT large-load items carry meta.table_metrics (MW approved to energize; observed peak consumption) with the
   sentence each came from: use them to build the ERCOT large-load series in metrics.json back to late 2025 — one
   point per Monthly Operational Overview — rather than as event rows.

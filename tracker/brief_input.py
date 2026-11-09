@@ -27,6 +27,7 @@ from datetime import date, datetime, timedelta
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import rowstore  # noqa
+import statefile  # noqa
 import subtables  # noqa
 from vocab import COLUMNS  # noqa
 
@@ -65,7 +66,7 @@ def main():
     a = ap.parse_args()
     try:
         _, rows = rowstore.load(a.store)
-        state = json.load(open(os.path.join(a.store, "state.json"), encoding="utf-8"))
+        state = statefile.load(a.store)
     except Exception as e:  # noqa
         print(f"cannot load the store in {a.store}: {e}", file=sys.stderr)
         sys.exit(2)

@@ -135,6 +135,37 @@ def test_missing_tariff_delta_fails_unless_reason_per_event():
     assert has(p, "E-20261012-004") and not has(p, "E-20261012-009")
 
 
+def honest_incomplete(rec):
+    # A run with a BLOCKED step is never "completed" (2026-11-09): honest records say so.
+    rec["status"] = "incomplete"
+    rec["report"] = "Sweep incomplete: " + rec["report"]
+
+
+def test_blocked_step_is_honest_but_incomplete():
+    rec = good_record()
+    rec["steps"]["9"] = {"status": "BLOCKED", "evidence": "OneDrive upload of state.json refused: HTTP 413"}
+    with tempfile.TemporaryDirectory() as tmp:
+        st = store_with_delta(tmp)
+        v = check_run.check(rec, good_obligations(), PART, st)
+        assert not v["ok"] and has(v["problems"], "HONESTY")
+        honest_incomplete(rec)
+        v = check_run.check(rec, good_obligations(), PART, st)
+        assert v["ok"] and not v["complete"] and v["status_should_be"] == "incomplete" and v["blocked"] == ["9"]
+        rec["steps"]["9"] = {"status": "NOT_APPLICABLE", "evidence": "nothing to commit this week at all"}
+        assert has(check_run.check(rec, good_obligations(), PART, st)["problems"], "step 9")
+
+
+def test_access_regressions_need_evidence():
+    rec = good_record()
+    rec["steps"]["3"]["access_regressions"] = [{"source": "azcc", "url": "https://example.org/x", "evidence": "HTTP 403 robots.txt disallows"}]
+    with tempfile.TemporaryDirectory() as tmp:
+        st = store_with_delta(tmp)
+        v = check_run.check(rec, good_obligations(), PART, st)
+        assert v["complete"], v["problems"]
+        rec["steps"]["3"]["access_regressions"] = [{"source": "azcc", "evidence": "skipped"}]
+        assert has(check_run.check(rec, good_obligations(), PART, st)["problems"], "access_regressions")
+
+
 def test_time_is_only_evidence_over_30_minutes():
     rec = good_record()
     rec["steps"]["8.8"] = {"status": "BLOCKED", "evidence": "ran out of time"}
@@ -142,7 +173,9 @@ def test_time_is_only_evidence_over_30_minutes():
         st = store_with_delta(tmp)
         assert has(check_run.check(rec, good_obligations(), PART, st)["problems"], "8.8", "19 of its 30")
         rec["duration_minutes"] = 41
-        assert check_run.check(rec, good_obligations(), PART, st)["ok"]
+        honest_incomplete(rec)
+        v = check_run.check(rec, good_obligations(), PART, st)
+        assert v["ok"] and not v["complete"] and v["blocked"] == ["8.8"]
 
 
 def test_choice_words_are_not_evidence():
@@ -152,6 +185,7 @@ def test_choice_words_are_not_evidence():
         with tempfile.TemporaryDirectory() as tmp:
             assert has(check_run.check(rec, good_obligations(), PART, store_with_delta(tmp))["problems"], "8.5"), word
     rec["steps"]["8.5"] = {"status": "BLOCKED", "evidence": "OneDrive upload failed: HTTP 503 from Graph"}
+    honest_incomplete(rec)
     with tempfile.TemporaryDirectory() as tmp:
         assert check_run.check(rec, good_obligations(), PART, store_with_delta(tmp))["ok"]
 

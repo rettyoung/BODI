@@ -43,6 +43,9 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import statefile  # noqa: E402  (merged split state, 2026-11-09)
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Collector data (candidates, filings, backfill). In a scheduled run the scripts run from the plugin's copies in
 # bodi_run/ while the data stays in the clone, so every command takes --data (e.g. ../BODI/data).
@@ -398,7 +401,7 @@ def cmd_candidates(a):
     backlog_ids = set()
     if a.state and os.path.exists(a.state):
         try:
-            rb = json.load(open(a.state, encoding="utf-8")).get("read_backlog") or []
+            rb = statefile.load_path(a.state).get("read_backlog") or []
             backlog_ids = {x if isinstance(x, str) else (x or {}).get("id") for x in rb} - {None} - ids
         except Exception as e:  # noqa
             print(f"warning: state unreadable ({e}); read_backlog not merged", file=sys.stderr)
@@ -478,7 +481,7 @@ def done_sets(state_path):
     if not state_path or not os.path.exists(state_path):
         return set(), set()
     try:
-        st = json.load(open(state_path, encoding="utf-8"))
+        st = statefile.load_path(state_path)
     except Exception as e:  # noqa
         print(f"cannot read state: {e}", file=sys.stderr)
         sys.exit(2)
@@ -761,7 +764,7 @@ def cmd_backfill(a):
     print(f"C-07 {'DRY RUN' if a.dry_run else 'BATCH ' + str(len(out_batch))} ({'strict since ' + a.since if strict else 'loose'}"
           f"{', store checked' if sidx else ''}; quota {a.n}): {len(lines)} unprocessed -> {len(take)} passing "
           f"({out['passing_dispositive']} dispositive), {len(take) - len(batch)} remain after this batch; "
-          f"{len(screened)} screened out ({cuts}) (record in backfill_cursor.done as screened) -> {a.out}")
+          f"{len(screened)} screened out ({cuts}) (screened items are NOT recorded: the screen is deterministic; record only the count) -> {a.out}")
 
 
 C08_SOURCES = ("openstates", "courtlistener", "congress", "regulations_gov", "legistar", "ercot_large_load", "studies", "osti")

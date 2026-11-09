@@ -11,7 +11,12 @@ usage:
 
     --part   this run's rows part (omit only if the run wrote none; then steps 8.5 needs no rows check)
     --store  folder holding tariff_terms_p*.json deltas (store_live in the Sweep and the Brief)
-exit 0 = complete; 1 = incomplete (problems printed); 2 = could not read an input.
+exit 0 = complete; 1 = record problems (fix the work, or the record); 3 = honest but incomplete (steps
+BLOCKED with evidence remain — write status "incomplete"); 2 = could not read an input.
+Verdict JSON: ok (record is honest and rule-abiding), complete (ok and no BLOCKED step), status_should_be,
+blocked, access_regressions, problems, notes. (2026-11-09: a BLOCKED step now always means "incomplete";
+a refused individual source goes in that step's "access_regressions" with evidence and does not block it;
+steps 0/1/9/11 may be BLOCKED with evidence but never NOT_APPLICABLE.)
 
 What it fails:
   1. STEPS    the run record has no "steps" block, a required step is missing, or a status is not
@@ -26,7 +31,7 @@ What it fails:
   4. TARIFFS  a row in this run's part that carries tariff or settlement terms whose event is neither in
               an upsert of this run's tariff_terms_pN.json delta nor listed in steps["8.5"]["no_terms"]
               with a reason; or an invalid delta.
-  5. HONESTY  the record says "completed" while anything above fails; a report that does not open with
+  5. HONESTY  the record says "completed" while anything above fails or any step is BLOCKED; a report that does not open with
               "Sweep incomplete:" when it should.
 Notes (never a failure): a missing or malformed "usage" block (tracker/usage.py, added 2026-11-02).
 """
@@ -136,15 +141,34 @@ def check_steps(run, duration, probs, run_date=""):
                 probs.append(f"REASONS: step {sid} NOT_APPLICABLE without a reason")
             elif CHOICE_RE.search(ev) and not HARD_RE.search(ev):
                 probs.append(f"REASONS: step {sid} NOT_APPLICABLE for a reason that is a choice ({ev[:80]!r})")
-        if st != "DONE" and sid in ("0", "1", "9", "11"):
-            probs.append(f"STEPS: step {sid} ({name}) must be DONE for any run that writes")
+        if st == "NOT_APPLICABLE" and sid in ("0", "1", "9", "11"):
+            probs.append(f"STEPS: step {sid} ({name}) cannot be NOT_APPLICABLE for a run that writes")
         if sid == "3.6" and st == "DONE":
             unread = ((s.get("counts") or {}).get("unread"))
             if not isinstance(unread, int):
                 probs.append("STEPS: step 3.6 DONE without counts.unread (copy the counts from work/ir_ledger.json)")
             elif unread > 0:
                 probs.append(f"STEPS: step 3.6 DONE but {unread} IR issuer(s) still TO_READ in the ledger")
+        # Individual sources refused or failing (sweep.md I3: record ACCESS_REGRESSION and move on) do not block
+        # a step whose other work is done; each must carry evidence (2026-11-09).
+        for i, ar in enumerate(s.get("access_regressions") or []):
+            txt = ar if isinstance(ar, str) else " ".join(str(ar.get(k, "")) for k in ("source", "url", "evidence"))
+            p = evidence_problem(txt, duration, f"REASONS: step {sid} access_regressions[{i}]")
+            if p:
+                probs.append(p)
     return steps
+
+
+def blocked_steps(steps):
+    return [sid for sid in REQUIRED_STEPS if isinstance(steps.get(sid), dict) and steps[sid].get("status") == "BLOCKED"]
+
+
+def access_regressions(steps):
+    out = []
+    for sid, s in (steps or {}).items():
+        for ar in (s.get("access_regressions") or []) if isinstance(s, dict) else []:
+            out.append({"step": sid, **(ar if isinstance(ar, dict) else {"evidence": ar})})
+    return out
 
 
 def check_obligations(obl, run_id, run_date, duration, probs):
@@ -233,17 +257,25 @@ def check(run, obl, part=None, store=None):
             if isinstance(txt, str) and TIME_RE.search(txt) and not HARD_RE.search(txt) \
                     and duration is not None and duration <= TARGET_MINUTES and re.search(r"not (started|done)", txt, re.I):
                 probs.append(f"REASONS: {k}.{cid} blames time, but the run took {duration:.0f} of {TARGET_MINUTES} minutes")
-    ok = not probs
+    # 2026-11-09: one rule for completeness, matching sweep.md I9/I10. A run is COMPLETE only when every step is
+    # DONE or NOT_APPLICABLE and nothing above is wrong. A step BLOCKED with evidence is honest but makes the run
+    # incomplete (before, the checker said "completed" for a run with a BLOCKED step 6). "problems" are faults
+    # in the record or missing work without evidence; "blocked" are steps that genuinely could not finish.
+    blocked = blocked_steps(steps or {})
+    incomplete = bool(probs) or bool(blocked)
     st = (run.get("status") or "").lower()
-    if not ok and st == "completed":
-        probs.append("HONESTY: the run record says \"completed\" but the run is incomplete")
+    if incomplete and st == "completed":
+        probs.append("HONESTY: the run record says \"completed\" but the run is incomplete"
+                     + (f" (BLOCKED: {', '.join(blocked)})" if blocked else ""))
     rep = run.get("report")
-    if not ok and isinstance(rep, str) and not rep.lstrip().startswith("Sweep incomplete:"):
+    if incomplete and isinstance(rep, str) and not rep.lstrip().startswith("Sweep incomplete:"):
         probs.append("HONESTY: the report does not open with \"Sweep incomplete:\"")
     # NOTES never fail a run: they flag what the next interactive session should look at.
     notes = ["USAGE: " + x for x in usage.problems(run)]
-    return {"ok": ok and not probs, "run_id": run_id, "duration_minutes": duration,
-            "status_should_be": "completed" if not probs else "incomplete", "problems": probs, "notes": notes}
+    return {"ok": not probs, "complete": not probs and not blocked, "run_id": run_id, "duration_minutes": duration,
+            "status_should_be": "completed" if (not probs and not blocked) else "incomplete",
+            "blocked": blocked, "access_regressions": access_regressions(steps or {}),
+            "problems": probs, "notes": notes}
 
 
 def main():
@@ -265,15 +297,20 @@ def main():
     if a.json:
         print(json.dumps(res, ensure_ascii=False, indent=1))
     else:
-        if res["ok"]:
+        if res["complete"]:
             print(f"COMPLETE: {res['run_id']}")
         else:
-            print(f"Sweep incomplete: {res['run_id']} — {len(res['problems'])} problem(s)")
+            print(f"Sweep incomplete: {res['run_id']} — BLOCKED steps {res['blocked'] or 'none'}; "
+                  f"{len(res['problems'])} record problem(s)")
             for p in res["problems"]:
                 print(" - " + p)
+        for ar in res.get("access_regressions") or []:
+            print(" access regression: " + json.dumps(ar, ensure_ascii=False)[:160])
         for n in res.get("notes") or []:
             print(" note: " + n)
-    sys.exit(0 if res["ok"] else 1)
+    # exit 0 = complete; 1 = the record has problems (fix the work or the record); 3 = honest but incomplete
+    # (only BLOCKED steps with evidence remain: write the record as "incomplete").
+    sys.exit(0 if res["complete"] else (1 if res["problems"] else 3))
 
 
 if __name__ == "__main__":

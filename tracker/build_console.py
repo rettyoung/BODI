@@ -30,6 +30,9 @@ Every addition is optional for the page: a build without them (the Brief's repo-
 import argparse
 import glob
 import json
+import sys as _sys
+_sys.path.insert(0, __import__('os').path.dirname(__import__('os').path.abspath(__file__)))
+import statefile  # noqa: E402
 import os
 import re
 import shutil
@@ -207,7 +210,7 @@ def main():
     parts, changes, first = history(a.store)
     for e in ev:
         e["part"] = first.get(e["id"])
-    state = json.load(open(a.state)) if a.state else None
+    state = statefile.load_path(a.state) if a.state else None
     ann = json.load(open(os.path.join(ROOT, "console", "annotations.json")))
     wl = yaml.safe_load(open(os.path.join(ROOT, "config", "watchlist.yaml")))
     data = {"generated": a.asof, "asof": a.asof, "events": len(ev), "rows": len(rows),

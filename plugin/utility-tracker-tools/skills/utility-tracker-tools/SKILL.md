@@ -56,6 +56,10 @@ or work around it: apply that script's rules by hand as the task prompt's hand-c
 - `shortlist.py` (Sweep Steps 3.2, 8.7, 8.8) reads the collector data in the clone, which is data, not code: pass
   `--data ../BODI/data` from `bodi_run/`. `ir_ledger.py` (Sweep Step 3.6, from 0.4.0) reads the same data: pass
   `--data ../BODI/data` too. `brief_input.py` and `usage.py` read only `store_live/` and records.
+- `statefile.py` (from 0.4.1) splits and merges the tracker state (`state.json`, `state_tracking.json`,
+  `state_reference.json`, `backfill_done_pN.json`, `state_frozen_*.json`); `shortlist.py`, `brief_input.py` and
+  `build_console.py` merge it themselves. If `bodi_run/tracker/statefile.py` is missing, the plugin is older than
+  0.4.1 and cannot read the split state.
 
 - `narrative.py` needs pandoc and wkhtmltopdf or LibreOffice for the PDF; if they are missing, its error is
   reported in the status check and the console still publishes.

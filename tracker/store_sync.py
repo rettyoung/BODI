@@ -62,14 +62,19 @@ MANIFEST = "store_manifest.json"
 
 # Store files that are mirrored and verified. Anything else in /GridDocket/ (README, backfill_state,
 # sweep_lock, manual_queue read as data) is not part of a build.
-TOP = ["rows.json", "rows_p*.json", "state.json", "metrics.json", "tariff_terms.json",
-       "tariff_terms_p*.json", "obligations.json", "seen_index.json", "manual_queue.json"]
+# seen_index.json is no longer a store file (2026-11-09): rowstore.py --write-seen derives it from the rows.
+# state is split (tracker/statefile.py): state.json + state_tracking.json + state_reference.json, append-only
+# backfill_done_p*.json, and frozen pre-split state_frozen_*.json (legacy done ids).
+TOP = ["rows.json", "rows_p*.json", "state.json", "state_tracking.json", "state_reference.json",
+       "backfill_done_p*.json", "state_frozen_*.json", "metrics.json", "tariff_terms.json",
+       "tariff_terms_p*.json", "obligations.json", "manual_queue.json"]
 SUB = {"runs/": ["*.json"],
        # only the manual-pass MANIFESTS (no state suffix); the per-state files are read as data by the Sweep
        "manual/": ["manual_*.json"]}
 MANUAL_MANIFEST_RE = re.compile(r"^manual_[^_]+\.json$")
 # Files a build cannot do without. A failure on one of these stops the run (sweep I1 / brief I1).
-CRITICAL = ["rows.json", "rows_p*.json", "state.json", "obligations.json"]
+CRITICAL = ["rows.json", "rows_p*.json", "state.json", "state_tracking.json", "state_reference.json",
+            "backfill_done_p*.json", "state_frozen_*.json", "obligations.json"]
 
 # One entry per "name (file|folder, N bytes) file:///<driveId>/<itemId>". The connector sometimes prints the
 # entries one per line and sometimes runs them together with no separator (seen 13 Oct), so entries are not

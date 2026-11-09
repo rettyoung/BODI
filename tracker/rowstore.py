@@ -131,12 +131,43 @@ def events(rows):
     return out
 
 
+def write_seen(store, out, extra_part=None):
+    """Dedupe index derived from the row store: event id -> {date, doc, n, urls}, plus every Source URL and
+    stamp source_url as top-level strings. It is never uploaded; the rows on OneDrive are the record."""
+    _, rows = load(store, extra_part=extra_part)
+    idx, urls = {}, set()
+    for r in rows:
+        e = idx.setdefault(r[1], {"date": r[0], "doc": (r[7] or "")[:110], "n": 0})
+        e["n"] += 1
+        if r[25]:
+            urls.add(r[25])
+    man = json.load(open(os.path.join(store, "rows.json")))
+    parts = [json.load(open(os.path.join(store, p["file"]))) for p in man["parts"]] + ([extra_part] if extra_part else [])
+    for d in parts:
+        for s in d.get("stamps") or []:
+            if s.get("source_url"):
+                urls.add(s["source_url"])
+    obj = {"schema": "grid-docket-seen-index-v2", "derived_from": "row store (tracker/rowstore.py --write-seen)",
+           "events": len(idx), "index": idx, "source_urls": sorted(urls)}
+    with open(out, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False)
+    return len(idx)
+
+
 if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser(description="Validate the row store, optionally with a new part not yet committed.")
     ap.add_argument("--store", default=STORE)
     ap.add_argument("--part", help="path to a new rows_pN.json to validate together with the store")
+    ap.add_argument("--write-seen", metavar="PATH",
+                    help="write the dedupe index derived from the rows (+ --part) to PATH and exit 0 "
+                         "(replaces the uploaded seen_index.json, 2026-11-09)")
     a = ap.parse_args()
+    if a.write_seen:
+        extra = json.load(open(a.part)) if a.part else None
+        n = write_seen(a.store, a.write_seen, extra)
+        print(f"SEEN index derived from the row store: {n} events -> {a.write_seen}")
+        raise SystemExit(0)
     extra = json.load(open(a.part)) if a.part else None
     probs = []
     _, rows = load(a.store, extra_part=extra, problems=probs)
