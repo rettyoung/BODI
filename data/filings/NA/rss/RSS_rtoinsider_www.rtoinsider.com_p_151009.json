@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151009",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC Approves WRAP Rule Changes to Integrate Rockies Subregion",
+ "filed": "2026-11-10",
+ "url": "//www.rtoinsider.com/151009-ferc-approves-wrap-rule-changes-integrate-rockies-subregion/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " FERC approved Western Power Pool’s request to revise the Western Resource Adequacy Program’s forward showing schedules to facilitate the creation of a third subregion called the Rockies. \n The post  FERC Approves WRAP Rule Changes to Integrate Rockies Subregion  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-10T13:11:29Z",
+ "run_id": "2026-11-10-1257",
+ "keywords": [
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": []
+}

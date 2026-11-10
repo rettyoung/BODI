@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150927",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "ERCOT Expands Batch Verification, Audit to Medium Loads",
+ "filed": "2026-11-09",
+ "url": "//www.rtoinsider.com/150927-ercot-expands-batch-verification-audit-medium-loads/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " ERCOT has divided the work to verify and audit large loads seeking to interconnect with the Texas grid into three workstreams, ensuring even the smaller loads are accounted for. \n The post  ERCOT Expands Batch Verification, Audit to Medium Loads  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-10T13:11:29Z",
+ "run_id": "2026-11-10-1257",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

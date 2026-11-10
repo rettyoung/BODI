@@ -1,49 +1,8 @@
 {
  "backfill_since": null,
- "run_id": "2026-11-09-2153",
- "started": "2026-11-09T21:53:56Z",
+ "run_id": "2026-11-10-1257",
+ "started": "2026-11-10T12:57:40Z",
  "sources": {
-  "agendas": {
-   "since": "2026-11-06",
-   "found": 1,
-   "new": 1,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "atlanta": {
-     "status": "ok",
-     "note": "35 links, 0 new"
-    },
-    "storey": {
-     "status": "ok",
-     "note": "53 links, 0 new"
-    },
-    "tulsa_council": {
-     "status": "ok",
-     "note": "5 links, 0 new"
-    },
-    "tulsa_tmapc": {
-     "status": "ok",
-     "note": "5 links, 1 new"
-    },
-    "tulsa_boa": {
-     "status": "ok",
-     "note": "1 links, 0 new"
-    },
-    "henrico": {
-     "status": "ok",
-     "note": "22 links, 0 new"
-    },
-    "fairfax_bos": {
-     "status": "ok",
-     "note": "26 links, 0 new"
-    }
-   },
-   "notes": [],
-   "seconds": 89.5,
-   "consecutive_failures": 0
-  },
   "ercot_large_load": {
    "since": "2026-11-06",
    "found": 2,
@@ -74,7 +33,7 @@
     }
    },
    "notes": [],
-   "seconds": 22.7,
+   "seconds": 21.9,
    "consecutive_failures": 0
   },
   "nyiso_icap": {
@@ -178,7 +137,7 @@
     }
    },
    "notes": [],
-   "seconds": 3.0,
+   "seconds": 3.1,
    "consecutive_failures": 0
   },
   "studies": {
@@ -220,43 +179,40 @@
     }
    },
    "notes": [],
-   "seconds": 46.5,
+   "seconds": 45.8,
    "consecutive_failures": 0
   },
   "ferc": {
    "since": "2026-11-06",
-   "found": 27,
-   "new": 4,
-   "baselined_now": 0,
-   "kept": 4,
-   "status": "ok",
+   "status": "ERROR",
+   "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+   "trace": "opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 338, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py\", line 356, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/BODI/BODI/collector/run.py\", line 257, in main\n    items = fn(ctx) or []\n            ^^^^^^^\n  File \"/home/runner/work/BODI/BODI/collector/adapters.py\", line 96, in ferc\n    for h in search(docket=d):\n             ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/BODI/BODI/collector/adapters.py\", line 80, in search\n    return r.json().get(\"searchHits\", [])\n           ^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
    "subsources": {},
-   "notes": [],
-   "seconds": 88.7,
-   "consecutive_failures": 0
+   "seconds": 18.2,
+   "consecutive_failures": 1
   },
   "federal_register": {
    "since": "2026-11-06",
-   "found": 3,
-   "new": 0,
+   "found": 4,
+   "new": 1,
    "baselined_now": 0,
-   "kept": 0,
+   "kept": 1,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 39.1,
+   "seconds": 42.1,
    "consecutive_failures": 0
   },
   "edgar": {
    "since": "2026-11-06",
-   "found": 42,
-   "new": 21,
+   "found": 25,
+   "new": 2,
    "baselined_now": 0,
-   "kept": 21,
+   "kept": 2,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 223.4,
+   "seconds": 121.1,
    "consecutive_failures": 0
   },
   "tx_puct": {
@@ -268,19 +224,19 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 27.1,
+   "seconds": 27.2,
    "consecutive_failures": 0
   },
   "az_acc": {
    "since": "2026-11-06",
-   "found": 1,
-   "new": 0,
+   "found": 2,
+   "new": 1,
    "baselined_now": 0,
-   "kept": 0,
+   "kept": 1,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 15.1,
+   "seconds": 15.2,
    "consecutive_failures": 0
   },
   "ga_psc": {
@@ -321,7 +277,7 @@
     "ok PUD2026-000031: hitCount 172 after 5 variants",
     "ok PUD2026-000046: hitCount 138 after 5 variants"
    ],
-   "seconds": 78.3,
+   "seconds": 84.7,
    "consecutive_failures": 0
   },
   "ks_kcc": {
@@ -333,7 +289,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 3.2,
+   "seconds": 3.1,
    "consecutive_failures": 0
   },
   "nm_prc": {
@@ -354,14 +310,14 @@
   },
   "mo_efis": {
    "since": "2026-11-06",
-   "found": 89,
-   "new": 1,
+   "found": 109,
+   "new": 10,
    "baselined_now": 0,
-   "kept": 1,
+   "kept": 10,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 21.2,
+   "seconds": 78.3,
    "consecutive_failures": 0
   },
   "al_psc": {
@@ -373,15 +329,15 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 36.5,
+   "seconds": 36.3,
    "consecutive_failures": 0
   },
   "watch_pages": {
    "since": "2026-11-06",
-   "found": 1426,
-   "new": 1,
+   "found": 1414,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 1,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "grda_board": {
@@ -550,7 +506,7 @@
     },
     "rfp_xcel_sps": {
      "status": "ok",
-     "note": "29 links"
+     "note": "17 links"
     },
     "doe_news": {
      "status": "ok",
@@ -566,28 +522,28 @@
     }
    },
    "notes": [],
-   "seconds": 183.5,
+   "seconds": 179.4,
    "consecutive_failures": 0
   },
   "rss": {
    "since": "2026-11-06",
-   "found": 28,
-   "new": 0,
+   "found": 31,
+   "new": 12,
    "baselined_now": 0,
-   "kept": 0,
+   "kept": 2,
    "status": "ok",
    "subsources": {
     "pjm_insidelines": {
-     "status": "error",
-     "note": "Blocked('block page (captcha) at https://insidelines.pjm.com/feed/')"
+     "status": "ok",
+     "note": "10 entries"
     },
     "pa_cmwlth": {
      "status": "ok",
      "note": "50 entries"
     },
     "nrc_news": {
-     "status": "error",
-     "note": "Blocked('HTTP 403 for https://www.nrc.gov/public-involve/rss?feed=news')"
+     "status": "ok",
+     "note": "164 entries"
     },
     "grid_strategies": {
      "status": "ok",
@@ -631,7 +587,7 @@
     }
    },
    "notes": [],
-   "seconds": 56.5,
+   "seconds": 56.4,
    "consecutive_failures": 0
   },
   "ir_decks": {
@@ -708,7 +664,7 @@
     }
    },
    "notes": [],
-   "seconds": 185.5,
+   "seconds": 185.8,
    "consecutive_failures": 0
   },
   "mirrors": {
@@ -737,7 +693,7 @@
     }
    },
    "notes": [],
-   "seconds": 13.0,
+   "seconds": 12.6,
    "consecutive_failures": 0
   },
   "eia": {
@@ -754,7 +710,7 @@
     }
    },
    "notes": [],
-   "seconds": 10.5,
+   "seconds": 15.0,
    "consecutive_failures": 0
   },
   "congress": {
@@ -766,19 +722,19 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 6.0,
+   "seconds": 10.6,
    "consecutive_failures": 0
   },
   "openstates": {
    "since": "2026-11-06",
-   "found": 18,
+   "found": 20,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 335.5,
+   "seconds": 353.8,
    "consecutive_failures": 0
   },
   "courtlistener": {
@@ -790,7 +746,7 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 169.5,
+   "seconds": 173.5,
    "consecutive_failures": 0
   },
   "queues": {
@@ -847,11 +803,11 @@
     },
     "washoe-nv": {
      "status": "ok",
-     "note": "1 matters, 0 on-topic"
+     "note": "4 matters, 0 on-topic"
     }
    },
    "notes": [],
-   "seconds": 27.2,
+   "seconds": 27.1,
    "consecutive_failures": 0
   },
   "courts_state": {
@@ -863,61 +819,78 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 3.3,
+   "seconds": 3.1,
+   "consecutive_failures": 0
+  },
+  "agendas": {
+   "since": "2026-11-06",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "atlanta": {
+     "status": "ok",
+     "note": "35 links, 0 new"
+    },
+    "storey": {
+     "status": "ok",
+     "note": "53 links, 0 new"
+    },
+    "tulsa_council": {
+     "status": "ok",
+     "note": "5 links, 0 new"
+    },
+    "tulsa_tmapc": {
+     "status": "ok",
+     "note": "5 links, 0 new"
+    },
+    "tulsa_boa": {
+     "status": "ok",
+     "note": "1 links, 0 new"
+    },
+    "henrico": {
+     "status": "ok",
+     "note": "22 links, 0 new"
+    },
+    "fairfax_bos": {
+     "status": "ok",
+     "note": "26 links, 0 new"
+    }
+   },
+   "notes": [],
+   "seconds": 87.6,
    "consecutive_failures": 0
   }
  },
- "docs_fetched": 40,
- "new_items": 27,
+ "docs_fetched": 14,
+ "new_items": 16,
  "user_agent": "BlueOwl-RegTracker/4.0 (***)",
  "trigger": {
-  "event": "push",
-  "cron": null
+  "event": "schedule",
+  "cron": "43 4 * * *"
  },
- "hours_since_previous_full_run": 0.0,
+ "hours_since_previous_full_run": 14.6,
  "collector_gap": false,
- "finished": "2026-11-09T22:24:30Z",
+ "finished": "2026-11-10T13:26:44Z",
  "backfill_text": {
-  "queue": 20,
+  "queue": 17,
   "enriched": 0,
-  "docs": 21,
+  "docs": 17,
   "errors": 12,
   "status": "ok",
-  "doc_retry_filings": 13,
+  "doc_retry_filings": 8,
   "doc_retry_fixed": 0,
-  "doc_retry_still_failing": 9,
+  "doc_retry_still_failing": 5,
   "not_document": 0,
-  "retry_later": 6,
-  "gave_up": 1,
-  "candidates_filled": 1,
-  "remaining": 20,
-  "seconds": 52.6
+  "retry_later": 3,
+  "gave_up": 6,
+  "candidates_filled": 6,
+  "remaining": 17,
+  "seconds": 46.4
  },
  "http_hosts": {
-  "https://atlantacityga.iqm2.com": {
-   "robots": "200",
-   "note": "crawl delay 60s honoured"
-  },
-  "https://www.storeycounty.org": {
-   "robots": "200",
-   "note": "crawl delay 10s honoured"
-  },
-  "https://www.tulsacouncil.org": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://tulsaplanning.org": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://henrico.gov": {
-   "robots": "200",
-   "note": ""
-  },
-  "https://www.fairfaxcounty.gov": {
-   "robots": "200",
-   "note": ""
-  },
   "https://www.ercot.com": {
    "robots": "200",
    "note": ""
@@ -977,6 +950,10 @@
   "https://efiling.azcc.gov": {
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
+  },
+  "https://images.edocket.azcc.gov": {
+   "robots": "error",
+   "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
   },
   "https://psc.ga.gov": {
    "robots": "404",
@@ -1147,8 +1124,8 @@
    "note": ""
   },
   "https://insidelines.pjm.com": {
-   "robots": "202",
-   "note": "no robots.txt (HTML app shell)"
+   "robots": "200",
+   "note": ""
   },
   "https://www.pacourts.us": {
    "robots": "404",
@@ -1298,10 +1275,34 @@
    "robots": "200",
    "note": ""
   },
+  "https://atlantacityga.iqm2.com": {
+   "robots": "200",
+   "note": "crawl delay 60s honoured"
+  },
+  "https://www.storeycounty.org": {
+   "robots": "200",
+   "note": "crawl delay 10s honoured"
+  },
+  "https://www.tulsacouncil.org": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://tulsaplanning.org": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://henrico.gov": {
+   "robots": "200",
+   "note": ""
+  },
+  "https://www.fairfaxcounty.gov": {
+   "robots": "200",
+   "note": ""
+  },
   "https://downloads.regulations.gov": {
    "robots": "403",
    "note": ""
   }
  },
- "seconds": 1834
+ "seconds": 1745
 }

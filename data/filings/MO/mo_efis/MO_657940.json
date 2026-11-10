@@ -1,0 +1,25 @@
+{
+ "id": "MO:657940",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "362",
+ "filed": "2026-11-09",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/657940",
+ "fetch": [
+  {
+   "mo_filing": "657940"
+  }
+ ],
+ "collected_at": "2026-11-10T13:06:44Z",
+ "run_id": "2026-11-10-1257",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/897152",
+   "error": "blocked: block page (incapsula) at https://www.efis.psc.mo.gov/Document/Display/897152"
+  }
+ ]
+}

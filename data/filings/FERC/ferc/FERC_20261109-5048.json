@@ -64,5 +64,6 @@
    "url": "{'ferc_file': '9292ECB6-9874-C5BA-857F-A1C0E0100000', 'name': 'BOC Comment Registry-CEII.xlsx', 'type': 'XLSX'}",
    "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-10T13:26:29Z"
 }

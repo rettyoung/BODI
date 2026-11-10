@@ -1,0 +1,43 @@
+{
+ "id": "SEC:0001104659-26-124699",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Duke 8-K FORM 8-K items 1.01,9.01",
+ "filed": "2026-11-10",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326160/000110465926124699/",
+ "entity": "Duke",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1326160/000110465926124699/tm2629239d1_8k.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "1.01",
+   "9.01"
+  ],
+  "cik": "0001326160",
+  "market_participant": false
+ },
+ "collected_at": "2026-11-10T13:02:39Z",
+ "run_id": "2026-11-10-1257",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1326160/000110465926124699/tm2629239d1_8k.htm",
+   "name": null,
+   "bytes": 73544,
+   "sha256": "ba04e307cda49730eb82f2ef6981802fa23723680a278e37487e6b1ce937bdaf",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "false\n\n0001326160\n\n0001326160\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nduk:DukeEnergyCarolinasMember\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nduk:DukeEnergyProgressMember\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nduk:DukeEnergyFloridaMember\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nduk:DukeEnergyOhioMember\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nduk:DukeEnergyIndianaMember\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nduk:PiedmontNaturalGasCompanyMember\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nus-gaap:CommonStockMember\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nduk:JuniorSubordinatedDebentures5.625CouponDueSeptember2078Member\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nduk:DepositoryShareMember\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nduk:Percentage310seniornotesdue2028Member\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nduk:Percentage385seniornotesdue2034Member\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nduk:Percentage375seniornotesdue2031Member\n\n2026-11-09\n\n2026-11-09\n\n0001326160\n\nduk:CorporateUnitsMember\n\n2026-11-09\n\n2026-11-09\n\niso4217:USD\n\nxbrli:shares\n\niso4217:USD\n\nxbrli:shares\n\nUNITED STATES\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nFORM \n8-K\n\nCURRENT REPORT\n\nPursuant to Section 13 or 15(d) of\nthe\n\nSecurities Exchange Act of 1934\n\nDate of Report (Date of earliest event reported):\n\nNovember 9, 2026\n\nCommission\n    file number\n\nRegistrant,\n                                            State of Incorporation or Organization, \n\nAddress of Principal Executive Offices and Telephone\n                                            Number\n\nIRS Employer\n\n Identification No.\n\n1-32853\n\nDUKE ENERGY CORPORATION\n\n(a \nDelaware\n corporation)\n\n525 South Tryon Street\n\nCharlotte\n, \nNorth Carolina\n\n28202\n\n800\n-\n488-3853\n\n20-2777218\n\n1-4928\n\nDUKE ENERGY CAROLINAS, LLC\n\n(a \nNorth Carolina\n limited liability company)\n\n525 South Tryon Street\n\nCharlotte\n,\n\nNorth\nCarolina\n\n28202\n\n800\n-\n488-3853\n\n56-0205520\n\n1-3382\n\nDUKE\nENERGY PROGRESS, LLC\n\n(a \nNorth Carolina\n limited liability company)\n\n411 Fayetteville Street\n\nRaleigh\n, \nNorth Carolina\n\n27601\n\n800\n-\n488-3853\n\n56-0165465\n\n1-3274\n\nDUKE\nENERGY FLORIDA, LLC\n(a \nFlorida\n\nlimited liability company)\n\n299 First Avenue North\n\nSt. Petersburg\n, \nFlorida\n\n33701\n\n800\n-\n488-3853\n\n59-0247770\n\n1-1232\n\nDUKE\nENERGY OHIO, INC.\n(an \nOhio\n\ncorporation)\n\n139 East Fourth Street\n\nCincinnati\n, \nOhio\n\n45202\n\n800\n-\n488-3853\n\n31-0240030\n\n1-3543\n\nDUKE\nENERGY INDIANA, LLC\n(an \nIndiana\n\nlimited liability company)\n\n1000 East Main Street\n\nPlainfield\n, \nIndiana\n\n46168\n\n800\n-\n488-3853\n\n35-0594457\n\n1-6196\n\nPIEDMONT\nNATURAL GAS COMPANY, INC.\n(a \nNorth\nCarolina\n corporation)\n\n525 South Tryon Street\n\nCharlotte\n, \nNorth Carolina\n\n28202\n\n800\n-\n488-3853\n\n56-0556998\n\nCheck the appropriate box below if the Form 8-K filing\nis intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n\n¨\nWritten\ncommunications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n¨\nSoliciting\nmaterial pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n\n¨\nPre-commencement\ncommunications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n\n¨\nPre-commencement\ncommunications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\n\nSECURITIES REGISTERED\nPURSUANT TO SECTION 12(b) OF THE ACT:\n\nRegistrant\n\nTitle of each class\n\nTrading\n\nSymbol(s)\n\nName\n    of each exchange on\n\nwhich registered\n\nDuke Energy\n\nCommon Stock, $0.001 par value\n\nDUK\n\nNew York Stock Exchange LLC\n\nDuke Energy\n\n5.625% Junior Subordinated Debentures due September 15, 2078\n\nDUKB\n\nNew York Stock Exchange LLC\n\nDuke Energy\n\nDepositary\n    Shares\n\neach representing a 1/1,000\nth\n\n    interest in a share of 5.75% Series A Cumulative Redeemable Perpetual Preferred Stock, par value $0.001 per share\n\nDUK PR A\n\nNew York Stock Exchange LLC\n\nDuke Energy\n\n3.10% Senior Notes due 2028\n\nDUK 28A\n\nNew York Stock Exchange LLC\n\nDuke Energy\n\n3.85% Senior Notes due 2034\n\nDUK\n    34\n\nNew York Stock Exchange LLC\n\nDuke Energy\n\n3.75% Senior Notes due 2031\n\nDUK31A\n\nNew York Stock Exchange LLC\n\nDuke Energy\n\nCorporate Units\n\nDUKU\n\nNew York Stock Exchange LLC\n\nIndicate by check mark whether the registrant is an emerging growth\ncompany as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange\nAct of 1934 (§240.12b-2 of this chapter).\n\nEmerging growth company \n¨\n\nIf an emerging growth company, indicate by check mark if the\nregistrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards\nprovided pursuant to Section 13(a) of the Exchange Act. \n¨\n\nItem 1.01.\n\nEntry into a Material Definitive Agreement.\n\nOn November 9, 2026, Duke Energy Corporation (the “Corporation”),\nDuke Energy Carolinas, LLC (“Duke Energy Carolinas”), Duke Energy Florida, LLC, Duke Energy Indiana, LLC, Duke Energy Kentucky, Inc.,\nDuke Energy Ohio, Inc., Duke Energy Progress, LLC (“Duke Energy Progress”), and Piedmont Natural Gas Company, Inc.,\nentered into an Amendment No. 4 and Consent (the “Amendment”) to amend the existing Amended and Restated Credit Agreement\ndated as of March 18, 2022, among the Corporation and each of such subsidiaries, as Borrowers, the lenders listed therein, and Wells\nFargo Bank, National Association, as Administrative Agent and Swingline Lender. On January 1, 2027, the Corporation expects to effect\nan internal reorganization of its wholly-owned subsidiaries, Duke Energy Carolinas and Duke Energy Progress, pursuant to which Duke Energy\nProgress will merge with and into Duke Energy Carolinas, with Duke Energy Carolinas as the surviving entity (the “Combination”).\nThe Amendment, among other changes, obtains consent from each of the lenders to permit the Combination.\n\nA copy of the Amendment is filed as Exhibit 10.1 hereto and is\nincorporated by reference herein. The foregoing description of the Amendment in this Item 1.01 is qualified in its entirety by reference\nto the full text of the Amendment.\n\nItem 9.01.\n\n Financial Statements and Exhibits.\n\n(d) Exhibits.\n\n10.1\n\nAmendment No. 4 and Consent, dated as of November 9, 2026, by and among Duke Energy Corporation, Duke Energy Carolinas, LLC, Duke Energy Ohio, Inc., Duke Energy Indiana, LLC, Duke Energy Kentucky, Inc., Duke Energy Progress, LLC, Duke Energy Florida, LLC and Piedmont Natural Gas Company, Inc., the Lenders party thereto, the Issuing Lenders party thereto, and Wells Fargo Bank, National Association, as Administrative Agent and Swingline Lender.\n\n104\n\nCover Page Interactive Data File (the cover page XBRL tags are embedded in the Inline XBRL document).\n\nSIGNATURE\n\nPursuant to the requirements\nof the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto\nduly authorized.\n\nDate: November 9, 2026\n\nDUKE ENERGY CORPORATION\n\nDUKE ENERGY OHIO, INC.\n\nPIEDMONT NATURAL GAS COMPANY, INC.\n\nBy:\n\n/s/ \nElizabeth H. Jones\n\nElizabeth H. Jones\n\nAssistant Corporate Secretary\n\nDUKE ENERGY CAROLINAS, LLC\n\nDUKE ENERGY PROGRESS, LLC\n\nDUKE ENERGY FLORIDA, LLC\n\nDUKE ENERGY INDIANA, LLC\n\nBy:\n\n/s/ \nElizabeth H. Jones\n\nElizabeth H. Jones\n\nAssistant Secretary"
+  }
+ ]
+}
