@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26265A240",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): MD 8.3 Evaluation for Palisades Fuel [['MD 8.3 Reactive Inspection Evaluation']]",
+ "filed": "2026-11-10",
+ "entity": [
+  "NRC/CNRI/ORAR3/R3DRP/RPBD"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2626/ML26265A240.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2626/ML26265A240.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26265A240",
+  "document_date": "2026-09-11"
+ },
+ "collected_at": "2026-11-11T12:09:07Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2626/ML26265A240.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2626/ML26265A240.pdf"
+  }
+ ]
+}

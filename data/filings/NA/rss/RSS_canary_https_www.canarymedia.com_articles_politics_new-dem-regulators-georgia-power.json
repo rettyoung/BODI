@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/politics/new-dem-regulators-georgia-power",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "New Dem regulators plan to take on Georgia Power’s data center gas boom",
+ "filed": "2026-11-11",
+ "url": "https://www.canarymedia.com/articles/politics/new-dem-regulators-georgia-power",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "Georgia residents are angry at the state’s unchecked data center boom and rising electric bills — and they voted accordingly in last week’s election. Democrats won  every statewide race in Georgia, including  two seats on the Public Service Commission. Republicans had held a majority at the powerful utility regulator…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-11T12:34:01Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

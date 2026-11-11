@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151013",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Constellation Energy Debuts Hybrid Demand Response Offering",
+ "filed": "2026-11-10",
+ "url": "//www.rtoinsider.com/151013-constellation-3q-earnings-report/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Constellation Energy reported solid third-quarter financials and announced the first deal for its new Peak+ product, which combines new capacity with demand response. \n The post  Constellation Energy Debuts Hybrid Demand Response Offering  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-11T12:34:01Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "demand response"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

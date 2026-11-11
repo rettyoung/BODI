@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:119-HR-5549:2026-11-09",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 5549",
+ "title": "Efficient Nuclear Licensing Hearings Act",
+ "filed": "2026-11-09",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/5549",
+ "fetch": [],
+ "meta": {
+  "latest_action": "At the conclusion of debate, the chair put the question on the motion to suspend the rules. Mr. Latta objected to the vote on the grounds that a quorum was not present. Further proceedings on the motion were postponed. The point of no quorum was considered as withdrawn.",
+  "keywords": [
+   "nuclear"
+  ]
+ },
+ "collected_at": "2026-11-11T12:38:09Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

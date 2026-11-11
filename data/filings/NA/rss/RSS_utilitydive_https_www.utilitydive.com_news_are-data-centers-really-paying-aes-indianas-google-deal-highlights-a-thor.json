@@ -1,0 +1,29 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/are-data-centers-really-paying-aes-indianas-google-deal-highlights-a-thor/873040/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Are data centers really paying their share? AES Indiana’s Google deal highlights a thorny question",
+ "filed": "2026-11-10",
+ "url": "https://www.utilitydive.com/news/are-data-centers-really-paying-aes-indianas-google-deal-highlights-a-thor/873040/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      While local grid infrastructure projects are fairly easy to trace back to a specific data center, regional system upgrades raise more complex questions about who benefits and cost allocation across jurisdictions, one expert told Utility Dive. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-11T12:34:01Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "cost allocation",
+  "data center"
+ ],
+ "party_hits": [
+  "Google"
+ ],
+ "documents": []
+}

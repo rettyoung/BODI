@@ -1,0 +1,35 @@
+{
+ "id": "NRC:ML26313A389",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): Palisades Nuclear Plant - Integrated Inspection Report 05000255/2026003 and Assessment Follow-Up Letter [['Inspection Report', 'Letter']]",
+ "filed": "2026-11-10",
+ "entity": [
+  "NRC/CNRI/ORAR3/R3DRP/RPBD"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2631/ML26313A389.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26313A389.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26313A389",
+  "document_date": "2026-11-09"
+ },
+ "collected_at": "2026-11-11T12:09:04Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26313A389.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2631/ML26313A389.pdf"
+  }
+ ]
+}

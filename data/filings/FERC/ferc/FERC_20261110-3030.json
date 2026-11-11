@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261110-3030",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "ER10-1427,ER10-2460,ER10-2461,ER10-2920,ER12-1502,ER12-1504,ER12-682,ER13-1139,ER13-17,ER14-1964,ER14-25,ER14-2630,ER17-1394,ER17-2,ER17-482,ER19-1074,ER19-2584,ER19-89,ER20-1487,ER20-2819,ER20-391,ER21-2474,ER21-2557,ER21-350,ER21-521,ER22-1010,ER22-1627,ER22-192,ER22-2410,ER22-2411,ER22-2412,ER22-2413,ER22-2662,ER22-2663,ER22-2664,ER22-2867,ER22-398,ER22-497,ER23-1275,ER23-1276,ER23-1736,ER23-18",
+ "title": "Combined Notice of Filings #1, November 10, 2026: This notice contains information concerning multiple filings received by FERC. ",
+ "filed": "2026-11-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261110-3030",
+ "entity": "SECRETARY OF THE COMMISSION - FERC",
+ "fetch": [
+  {
+   "ferc_file": "95079B6F-EF8E-C1EE-9080-A1C665E00000",
+   "name": "CNF111026A.docx",
+   "type": "DOCX"
+  }
+ ],
+ "meta": {
+  "category": "Issuance",
+  "class": [
+   {
+    "documentClass": "Notice",
+    "documentType": "Formal Notice"
+   }
+  ],
+  "why": "keyword \"large load\"",
+  "issued": "2026-11-10"
+ },
+ "collected_at": "2026-11-11T12:11:38Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "CNF111026A.docx",
+   "bytes": 32134,
+   "sha256": "7fbb2499d4993f732c0b05beab7f1702b9786e2a7d93c2de972ea88d92c00bab",
+   "ctype": "application/octet-stream",
+   "quality": "docx",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "UNITED STATES OF AMERICA\nFEDERAL ENERGY REGULATORY COMMISSION\n\nCOMBINED NOTICE OF FILINGS #1\n\n(November 10, 2026)\n\n\tTake notice that the Commission received the following Electric Rate filings:\n\n\n\n\tThe filings are accessible in the Commission’s eLibrary system by clicking on the links or querying the docket number.\n\n\tAny person desiring to intervene, to protest, or to answer a complaint in any of the above proceedings must file in accordance with Rules 211, 214, or 206 of the Commission’s Regulations (18 CFR 385.211, 385.214, or 385.206) on or before 5:00 pm Eastern time on the specified comment date.    Protests may be considered, but intervention is necessary to become a party to the proceeding.\n\n\teFiling is encouraged.  More detailed information relating to filing requirements, interventions, protests, service, and qualifying facilities filings can be found at:http://www.ferc.gov/docs-filing/efiling/filing-req.pdf.  For other information, call (866) 208-3676 (toll free).  For TTY, call (202) 502-8659.\n\n\tFor public inquiries and assistance with making filings such as interventions, comments, or requests for rehearing, contact the Office of Public Participation at (202) 502-6595 or  OPP@ferc.gov.\n\n\n\n\nCarlos D. Clay,\nDeputy Secretary."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/minnesota-puc-rate-case-affordability-naruc/874222/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Utilities should consider ‘taking a breather’ from rate cases: Minnesota PUC vice chair",
+ "filed": "2026-11-10",
+ "url": "https://www.utilitydive.com/news/minnesota-puc-rate-case-affordability-naruc/874222/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": " &ldquo;Filing rate cases right now is really painful,&rdquo; Joseph Sullivan told Utility Dive in an interview. He also discussed his concerns with overly complex data center cost allocation and an erosion of public trust in institutions. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-11T12:34:01Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "cost allocation",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

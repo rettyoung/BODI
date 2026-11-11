@@ -1,0 +1,43 @@
+{
+ "id": "MIRROR:https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--SC%20Public%20Service%20Authority%202026%20IRP%20Updated.pdf",
+ "jur": "SC",
+ "source": "mirror:sc_psc_publications",
+ "kind": "filing",
+ "docket": null,
+ "title": "November 10th, 2026-- PSC Schedules Hearing in South Carolina Public Service Authority’s (Santee Cooper) 2026 IRP",
+ "filed": null,
+ "url": "https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--SC%20Public%20Service%20Authority%202026%20IRP%20Updated.pdf",
+ "entity": "Public Service Commission of South Carolina (main site)",
+ "fetch": [
+  {
+   "url": "https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--SC%20Public%20Service%20Authority%202026%20IRP%20Updated.pdf"
+  }
+ ],
+ "meta": {
+  "bkey": "mirror:sc_psc_publications",
+  "mirror_of": "DMS docket documents (notices, orders, PINs)",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-11T12:37:36Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "IRP",
+  "integrated resource plan"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--SC%20Public%20Service%20Authority%202026%20IRP%20Updated.pdf",
+   "name": null,
+   "bytes": 175172,
+   "sha256": "4293e3fae5902a6de07b19fae541ff7450276e61cad4b7da751debedc10cef3a",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                                                                                                                       COMMISSIONERS\n                                                                                                                     Delton W. Powers, Jr., Seventh District\n                                                                                                                                                  Chairman\n                                 The Public Service Commission                                                             Justin T. Williams, Sixth District\n                                                                                                                                             Vice Chairman\n\n                                    State of South Carolina\n                                                                                                                             Eugene Hennelly, First District\n                                                                                                                         Florence P. Belser, Second District\n                                                                                                                   Stephen M. “Mike” Caston, Third District\n                                                                                                                              H. David Britt, Fourth District\n                                                                                                                           Swain E. Whitfield, Fifth District\n\n                                                                                                                                     Phone: (803) 896-5100\n        Jocelyn Boyd                                                                                                                   Fax: (803) 896-5246\nChief Clerk/Executive Director                                                                                                    Jocelyn.Boyd@psc.sc.gov\n\n\n\nFor Immediate Release—November 10th, 2026\n\n\n\n\n  South Carolina Public Service Commission Schedules Hearing in South Carolina Public\n           Service Authority’s (Santee Cooper) 2026 Integrated Resource Plan\n\n\nColumbia, South Carolina—The Public Service Commission of South Carolina has scheduled a hearing in\nDocket No. 2026-18-E, which involves South Carolina Public Service Authority’s (Santee Cooper) 2026\nIntegrated Resource Plan. Santee Cooper’s 2026 Integrated Resource Plan can be reviewed at this link.\n\nThis hearing has been scheduled to begin on Monday, May 24th, 2027, at 10 a.m. and will continue through the\nremainder of the week (May 25th-28th) if necessary. Start times on subsequent days will be determined by the\nChairman.\n\nMore information about this matter can be found on the Commission’s Docket Management System at\nthis link. A recording of the IRP hearing may be viewed online once it concludes and can be found at\nthis link.\n\nFor more information, follow the Commission on Facebook, LinkedIn, Nextdoor, and Instagram, email\ncontact@psc.sc.gov, or call 803.896.5100.\n\n                                                                   ######\n\n\n\n\n                      Public Service Commission, 101 Executive Center Dr., Suite 100, Columbia, SC 29210-8411, 803-896-5100, www.psc.sc.gov\n\f"
+  }
+ ],
+ "enriched_at": "2026-11-11T12:51:10Z"
+}

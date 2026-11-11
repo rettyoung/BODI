@@ -1,0 +1,35 @@
+{
+ "id": "MO:658194",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "445",
+ "filed": "2026-11-09",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/658194",
+ "fetch": [
+  {
+   "mo_filing": "658194"
+  }
+ ],
+ "collected_at": "2026-11-11T12:21:18Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/897336",
+   "name": null,
+   "bytes": 776937,
+   "sha256": "c6468cf48fbbf1a31d03fe3c3f5d772db85e869944de275c05b7ef0867a6c3c3",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "                                            FILED\n                                      November 9, 2026\n                                       Missouri Public\n                                     Service Commission\nExhibit No. 86\n\n\n\n\n                      Evergy Missouri Metro – Exhibit 86\n  Notice of Errata to True-Up Direct of Witness Hsin Foo\n                                Case No. ER-2026-0143\n\f                    BEFORE THE PUBLIC SERVICE COMMISSION OF\n                             THE STATE OF MISSOURI\n\nIn the Matter of Evergy Metro, Inc. d/b/a             )\nEvergy Missouri Metro’s Request for                   )     Case No. ER-2026-0143\nAuthority to Implement a General Rate                 )\nIncrease for Electric Service                         )\n\n\n                   EVERGY MISSOURI METRO’S NOTICE OF ERRATA\n                     TO TRUE-UP DIRECT OF WITNESS HSIN FOO\n\n         COME NOW, Evergy Metro, Inc. d/b/a Evergy Missouri Metro (“EMM” or the\n\n “Company”), by and through their counsel and, for their Notice of Errata (“Errata”), states to the\n\n Missouri Public Service Commission (“Commission”) as follows:\n\n       1.     On September 10, 2026, the Company filed true-up direct testimony of Company\n\nwitness Hsin Foo (the “Testimony”) in this docket.\n\n       2.     A correction to the Testimony needs to be made at p. 3 lns. 18-21, as follows:\n\n              Q:      What Wwere there any changes in load requirements reflected in the true-\n\n                      up filing?\n\n              A:       Yes. As discussed contained in the surrebuttal workpapers provided by\n\n                       Company witness Mr. Bass, net system input increased by approximately\n\n                       three percent relative to the net system input in the Company’s production cost\n\n                       model in direct filing. The change for large load customers is explained in my\n\n                       workpapers.\n\n\n\n\n                                                  1\n\fWHEREFORE, the Company submits this Notice of Errata to the Commission.\n\n                                  Respectfully submitted,\n                                  /s/ Roger W. Steiner\n                                  Roger W. Steiner, MBN 39586\n                                  Cole Bailey MBN 77628\n                                  Evergy, Inc.\n                                  1200 Main Street, 17th Floor\n                                  Kansas City, MO 64105\n                                  Phone: (816) 556-2314\n                                  roger.steiner@evergy.com\n                                  cole.bailey@evergy.com\n\n                                  Karl Zobrist, MBN 28325\n                                  Jacqueline M. Whipple, MBN 65270\n                                  Michael Robinson, MBN 73482\n                                  Chandler Hiatt, MBN 75604\n                                  Dentons US LLP\n                                  4520 Main Street, Suite 1100\n                                  Kansas City, MO 64111\n                                  Phone: (816) 460-2400\n                                  Fax: (816) 531-7545\n                                  karl.zobrist@dentons.com\n                                  jacqueline.whipple@dentons.com\n                                  michael.robinson@dentons.com\n                                  chandler.hiatt@dentons.com\n\n                                  James M. Fischer, MBN 27543\n                                  Fischer & Dority, P.C.\n                                  2081 Honeysuckle Lane\n                                  Jefferson City, MO 65109\n                                  Phone: (573) 353-8647\n                                  jfischerpc@aol.com\n\n                                  Counsel for Evergy Missouri Metro\n\n\n\n\n                                     2\n\f                               CERTIFICATE OF SERVICE\n\n       I hereby certify that a true and correct copy of the above and foregoing document was\nserved upon counsel for all parties on this 24th day of September 2026 by either e-mail or U.S.\nMail, postage prepaid.\n\n                                           /s/ Roger W. Steiner\n                                           Roger W. Steiner\n\n\n\n\n                                              3\n\f"
+  }
+ ]
+}

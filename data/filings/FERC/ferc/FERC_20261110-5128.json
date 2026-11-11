@@ -1,0 +1,68 @@
+{
+ "id": "FERC:20261110-5128",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2004",
+ "title": "The City of Holyoke Gas & Electric Department submits construction drawings, Earthwork Specification, and Quality Control Inspection Plan re seepage at the Boatlock Embankment of the Holyoke Project under P-2004.",
+ "filed": "2026-11-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261110-5128",
+ "entity": "Holyoke Gas & Electric",
+ "fetch": [
+  {
+   "ferc_file": "A5C30A96-B23F-CA8F-98F6-A1C6D9200000",
+   "name": "P-2004 Boatlock Embankment Update 11-10-26- CEII.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "7727A4A1-E308-CA68-A1F8-A1C6D9200000",
+   "name": "Holyoke_FERC2004_EarthworkSpec(IFC).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "9AEFF3F1-CDF5-C9D0-A8D8-A1C6D9200000",
+   "name": "Holyoke_FERC2004_Plans(IFC).pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "A682919A-2D36-C2F7-B375-A1C6D9200000",
+   "name": "Holyoke_FERC2004_QCIP(IFC).pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Dam Safety Compliance Report"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-10"
+ },
+ "collected_at": "2026-11-11T12:12:20Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': 'A5C30A96-B23F-CA8F-98F6-A1C6D9200000', 'name': 'P-2004 Boatlock Embankment Update 11-10-26- CEII.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '7727A4A1-E308-CA68-A1F8-A1C6D9200000', 'name': 'Holyoke_FERC2004_EarthworkSpec(IFC).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': '9AEFF3F1-CDF5-C9D0-A8D8-A1C6D9200000', 'name': 'Holyoke_FERC2004_Plans(IFC).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'A682919A-2D36-C2F7-B375-A1C6D9200000', 'name': 'Holyoke_FERC2004_QCIP(IFC).pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

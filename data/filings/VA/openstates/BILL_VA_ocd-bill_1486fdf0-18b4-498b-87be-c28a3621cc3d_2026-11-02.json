@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/1486fdf0-18b4-498b-87be-c28a3621cc3d:2026-11-02",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 850",
+ "title": "Data centers, large; moratorium, approval requirements, utility independent classifications, report.",
+ "filed": "2026-11-02",
+ "url": "https://openstates.org/va/bills/2027/SB850/",
+ "fetch": [],
+ "meta": {
+  "session": "2027",
+  "latest_action": "Referred to Committee on Commerce and Labor",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-11T12:43:53Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

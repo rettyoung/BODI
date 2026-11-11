@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26307A320",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): OEDO-25-00290 2.206 Petition - Palisades Restart - Mr. Alan Blind - Petitioner Declined Public Meeting on the Initial Assessment (EPID L-2025-CRS-0000) [['2.206 Petition', 'E-Mail']]",
+ "filed": "2026-11-10",
+ "entity": [
+  "- No Known Affiliation"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2630/ML26307A320.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26307A320.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26307A320",
+  "document_date": "2026-11-03"
+ },
+ "collected_at": "2026-11-11T12:09:01Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26307A320.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2630/ML26307A320.pdf"
+  }
+ ]
+}

@@ -10027,8 +10027,8 @@
   "FERC:20261106-8002": "2026-11-07",
   "FERC:20261106-5156": "2026-11-07",
   "FERC:20261106-5054": "2026-11-07",
-  "SEC:0001002910-26-000032": "2026-11-07",
-  "SEC:0000922224-26-000052": "2026-11-07",
+  "SEC:0001002910-26-000032": "2026-11-11",
+  "SEC:0000922224-26-000052": "2026-11-11",
   "SEC:0000922224-26-000050": "2026-11-07",
   "SEC:0000764622-26-000055": "2026-11-07",
   "SEC:0001993004-26-000062": "2026-11-07",
@@ -10196,19 +10196,189 @@
   "RSS:rtoinsider://www.rtoinsider.com/?p=151017": "2026-11-10",
   "RSS:rtoinsider://www.rtoinsider.com/?p=150940": "2026-11-10",
   "RSS:canary:https://www.canarymedia.com/articles/offshore-wind/us-offshore-wind-manufacturing": "2026-11-10",
-  "RSS:canary:https://www.canarymedia.com/articles/clean-energy-jobs/chicago-program-transition-prison-solar-jobs": "2026-11-10"
+  "RSS:canary:https://www.canarymedia.com/articles/clean-energy-jobs/chicago-program-transition-prison-solar-jobs": "2026-11-10",
+  "NRC:ML26307A320": "2026-11-11",
+  "NRC:ML26313A389": "2026-11-11",
+  "NRC:ML26265A240": "2026-11-11",
+  "FERC:20261110-4002": "2026-11-11",
+  "FERC:20261110-5103": "2026-11-11",
+  "FERC:20261110-4001": "2026-11-11",
+  "FERC:20261110-5067": "2026-11-11",
+  "FERC:20261110-5175": "2026-11-11",
+  "FERC:20261110-3030": "2026-11-11",
+  "FERC:20261110-5121": "2026-11-11",
+  "FERC:20261110-5200": "2026-11-11",
+  "FERC:20261110-5004": "2026-11-11",
+  "FERC:20261110-5176": "2026-11-11",
+  "FERC:20261110-5128": "2026-11-11",
+  "FERC:20261110-5119": "2026-11-11",
+  "FERC:20261110-5098": "2026-11-11",
+  "FR:2026-23058": "2026-11-11",
+  "SEC:0001769628-26-000461": "2026-11-11",
+  "TX:59475-6670": "2026-11-11",
+  "TX:59611-46": "2026-11-11",
+  "KS:minutes:20261110": "2026-11-11",
+  "NM:DOC-000549421-26": "2026-11-11",
+  "NM:DOC-000549220-26": "2026-11-11",
+  "NM:DOC-000549221-26": "2026-11-11",
+  "NMDKT:26-0000195": "2026-11-11",
+  "NMDKT:26-0000194": "2026-11-11",
+  "MO:658220": "2026-11-11",
+  "MO:658218": "2026-11-11",
+  "MO:658216": "2026-11-11",
+  "MO:658214": "2026-11-11",
+  "MO:658213": "2026-11-11",
+  "MO:658212": "2026-11-11",
+  "MO:658211": "2026-11-11",
+  "MO:658210": "2026-11-11",
+  "MO:658209": "2026-11-11",
+  "MO:658208": "2026-11-11",
+  "MO:658200": "2026-11-11",
+  "MO:658199": "2026-11-11",
+  "MO:658198": "2026-11-11",
+  "MO:658197": "2026-11-11",
+  "MO:658196": "2026-11-11",
+  "MO:658194": "2026-11-11",
+  "MO:658193": "2026-11-11",
+  "MO:658192": "2026-11-11",
+  "MO:658191": "2026-11-11",
+  "MO:658190": "2026-11-11",
+  "MO:658189": "2026-11-11",
+  "MO:658188": "2026-11-11",
+  "MO:658187": "2026-11-11",
+  "MO:658186": "2026-11-11",
+  "MO:658185": "2026-11-11",
+  "MO:658184": "2026-11-11",
+  "MO:658183": "2026-11-11",
+  "MO:658182": "2026-11-11",
+  "MO:658181": "2026-11-11",
+  "MO:658180": "2026-11-11",
+  "MO:658179": "2026-11-11",
+  "MO:658178": "2026-11-11",
+  "MO:658177": "2026-11-11",
+  "MO:658175": "2026-11-11",
+  "MO:658174": "2026-11-11",
+  "MO:658172": "2026-11-11",
+  "MO:658170": "2026-11-11",
+  "MO:658168": "2026-11-11",
+  "MO:658166": "2026-11-11",
+  "MO:658160": "2026-11-11",
+  "MO:658157": "2026-11-11",
+  "MO:658155": "2026-11-11",
+  "MO:658153": "2026-11-11",
+  "MO:658151": "2026-11-11",
+  "MO:658148": "2026-11-11",
+  "MO:658139": "2026-11-11",
+  "MO:658136": "2026-11-11",
+  "MO:658134": "2026-11-11",
+  "MO:658131": "2026-11-11",
+  "MO:658116": "2026-11-11",
+  "MO:658105": "2026-11-11",
+  "MO:658091": "2026-11-11",
+  "MO:658082": "2026-11-11",
+  "MO:658078": "2026-11-11",
+  "MO:658074": "2026-11-11",
+  "MO:658072": "2026-11-11",
+  "MO:658071": "2026-11-11",
+  "MO:658070": "2026-11-11",
+  "MO:658069": "2026-11-11",
+  "MO:658068": "2026-11-11",
+  "MO:658066": "2026-11-11",
+  "MO:658065": "2026-11-11",
+  "MO:658064": "2026-11-11",
+  "MO:658063": "2026-11-11",
+  "MO:658062": "2026-11-11",
+  "MO:658061": "2026-11-11",
+  "MO:658060": "2026-11-11",
+  "MO:658059": "2026-11-11",
+  "MO:658058": "2026-11-11",
+  "MO:658056": "2026-11-11",
+  "MO:658055": "2026-11-11",
+  "MO:658054": "2026-11-11",
+  "MO:658053": "2026-11-11",
+  "MO:658051": "2026-11-11",
+  "MO:658050": "2026-11-11",
+  "MO:658049": "2026-11-11",
+  "MO:658048": "2026-11-11",
+  "MO:658047": "2026-11-11",
+  "MO:658042": "2026-11-11",
+  "MO:657993": "2026-11-11",
+  "MO:657992": "2026-11-11",
+  "MO:657991": "2026-11-11",
+  "MO:657988": "2026-11-11",
+  "MO:657986": "2026-11-11",
+  "MO:657985": "2026-11-11",
+  "MO:657983": "2026-11-11",
+  "MO:657980": "2026-11-11",
+  "MO:657976": "2026-11-11",
+  "MO:657975": "2026-11-11",
+  "MO:657974": "2026-11-11",
+  "MO:657973": "2026-11-11",
+  "MO:658029": "2026-11-11",
+  "PAGE:la_news:https://lpsc.louisiana.gov/docs/agenda/Nov_18_2026_AgendaRevised.pdf": "2026-11-11",
+  "PAGE:ercot_news:https://www.ercot.com/news/release/11102026-ercot-launches-enhanced": "2026-11-11",
+  "PAGE:ercot_news:https://www.ercot.com/news/release/11102026-ercot-presenta-un": "2026-11-11",
+  "PAGE:gov_tx:https://gov.texas.gov/news/post/governor-abbott-announces-281-million-in-rural-healthcare-grants": "2026-11-11",
+  "PAGE:gov_nc:https://governor.nc.gov/news/press-releases/2026/11/10/governor-stein-highlights-north-carolinas-manufacturing-excellence-celebrates-legacy-grady-white": "2026-11-11",
+  "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B111026-01": "2026-11-11",
+  "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-C111026-01": "2026-11-11",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/2026/11/governor-kay-ivey-honors-alabamas-400000-heroes-in-veterans-day-message/": "2026-11-11",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/2026/11/governor-ivey-honors-veterans-in-veterans-day-message-salutes-alabamas-400000-heroes/": "2026-11-11",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/page/365/": "2026-11-11",
+  "PAGE:gov_mo:https://governor.mo.gov/press-releases/archive/missouri-secures-218-million-year-2-funding-expand-rural-healthcare-access": "2026-11-11",
+  "PAGE:gov_sc:https://governor.sc.gov/news/2026-11/errecinque-selects-beaufort-county-boost-company-operated-us-distribution-and-customer": "2026-11-11",
+  "PAGE:gov_sc:https://governor.sc.gov/news/2026-11/gov-henry-mcmaster-lt-gov-pamela-s-evette-and-first-lady-peggy-mcmasters-weekly-0": "2026-11-11",
+  "PAGE:doe_news:https://www.energy.gov/articles/energy-department-closes-480-million-loan-expand-american-energy-production-and-strengthen": "2026-11-11",
+  "RSS:utilitydive:https://www.utilitydive.com/news/ai-boom-could-shift-diesel-generators-backup-everyday-use/873954/": "2026-11-11",
+  "RSS:utilitydive:https://www.utilitydive.com/news/ge-vernova-to-spend-345m-expanding-transformer-manufacturing-capacity-in/874272/": "2026-11-11",
+  "RSS:utilitydive:https://www.utilitydive.com/news/community-engagement-is-key-to-on-site-battery-energy-storage-experts-say/874194/": "2026-11-11",
+  "RSS:utilitydive:https://www.utilitydive.com/news/are-data-centers-really-paying-aes-indianas-google-deal-highlights-a-thor/873040/": "2026-11-11",
+  "RSS:utilitydive:https://www.utilitydive.com/news/permitting-bill-advances-in-senate-but-its-future-is-uncertain-after-democ/874250/": "2026-11-11",
+  "RSS:utilitydive:https://www.utilitydive.com/news/generators-prepared-extreme-cold-nerc/874248/": "2026-11-11",
+  "RSS:utilitydive:https://www.utilitydive.com/news/minnesota-puc-rate-case-affordability-naruc/874222/": "2026-11-11",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=151147": "2026-11-11",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=151143": "2026-11-11",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=151137": "2026-11-11",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=151151": "2026-11-11",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=150948": "2026-11-11",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=151145": "2026-11-11",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=151141": "2026-11-11",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=151121": "2026-11-11",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=151013": "2026-11-11",
+  "RSS:canary:https://www.canarymedia.com/articles/politics/new-dem-regulators-georgia-power": "2026-11-11",
+  "RSS:canary:https://www.canarymedia.com/articles/electric-vehicles/cybertruck-flopped-electric-trucks": "2026-11-11",
+  "RSS:canary:https://www.canarymedia.com/articles/nuclear/novel-nuclear-project-green-light-construction": "2026-11-11",
+  "MIRROR:https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--Customer%20Public%20Hearings%20in%20Docket%20No%202026%20241%20WS.pdf": "2026-11-11",
+  "MIRROR:https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--March%2010%202027%20AEP%20in%20ND%202026%2030%20E.pdf": "2026-11-11",
+  "MIRROR:https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--SC%20Public%20Service%20Authority%202026%20IRP%20Updated.pdf": "2026-11-11",
+  "BILL:US:119-HR-3978:2026-11-10": "2026-11-11",
+  "BILL:US:119-HR-9613:2026-11-10": "2026-11-11",
+  "BILL:US:119-SRES-955:2026-11-10": "2026-11-11",
+  "BILL:US:119-HR-10988:2026-11-10": "2026-11-11",
+  "BILL:US:119-HR-10989:2026-11-10": "2026-11-11",
+  "BILL:US:119-HR-10976:2026-11-10": "2026-11-11",
+  "BILL:US:119-HR-9843:2026-07-22": "2026-11-11",
+  "BILL:US:118-S-2915:2023-09-26": "2026-11-11",
+  "BILL:US:119-HR-9084:2026-11-09": "2026-11-11",
+  "BILL:US:119-HR-5549:2026-11-09": "2026-11-11",
+  "BILL:OH:ocd-bill/0b4aab03-1d49-45d6-9dc0-1e94f2026b54:2026-11-10T05:00:00+00:00": "2026-11-11",
+  "BILL:OH:ocd-bill/03d894a2-3216-4fe1-b3a9-c00e6e80fd45:2026-11-10T05:00:00+00:00": "2026-11-11",
+  "BILL:VA:ocd-bill/1486fdf0-18b4-498b-87be-c28a3621cc3d:2026-11-02": "2026-11-11",
+  "AGENDA:storey:https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11192026-1418": "2026-11-11",
+  "AGENDA:storey:https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11172026-1419": "2026-11-11",
+  "AGENDA:tulsa_boa:https://tulsaplanning.org/agendas/17401/": "2026-11-11"
  },
  "sources": {
   "ferc": {
-   "consecutive_failures": 1,
+   "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-09",
-   "last_error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+   "last_ok": "2026-11-11",
+   "last_error": null
   },
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "edgar": {
@@ -20641,13 +20811,13 @@
     },
     "ciks_date": "2026-11"
    },
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "az_acc": {
@@ -20656,18 +20826,18 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "ga_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "ok_occ": {
@@ -20813,19 +20983,19 @@
      "21745874": "CASE PUD 2026-000046 ENTRY NO. 114 FILED IN OCC COURT CLERK'S OFFICE ON 11/02/2026 - PAGE 1 OF 4 "
     }
    },
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "mo_efis": {
@@ -21558,37 +21728,37 @@
      "EO-2027-0132": "110246"
     }
    },
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "al_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "last_error": null
   },
   "eia": {
@@ -21598,25 +21768,25 @@
     "last_period": "2026-08"
    },
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -23516,13 +23686,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -23544,7 +23714,7 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -23648,7 +23818,9 @@
       "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11032026-1416",
       "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11122026-1414",
       "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11122026-1417",
-      "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11182026-1415"
+      "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11172026-1419",
+      "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11182026-1415",
+      "https://www.storeycounty.org/AgendaCenter/ViewFile/Agenda/_11192026-1418"
      ]
     },
     "tulsa_council": {
@@ -23696,6 +23868,7 @@
     },
     "tulsa_boa": {
      "known": [
+      "https://tulsaplanning.org/agendas/17401/",
       "https://tulsaplanning.org/agendas/october-13-2026-board-of-adjustment-meeting/",
       "https://tulsaplanning.org/agendas/october-27-2026-board-of-adjustment-meeting/",
       "https://tulsaplanning.org/agendas/september-22-2026-board-of-adjustment-meeting/"
@@ -23759,7 +23932,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -23781,25 +23954,25 @@
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
@@ -23810,13 +23983,13 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -23834,7 +24007,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   }
  },
  "baselined": [
@@ -23842,8 +24015,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 55,
- "last_run": "2026-11-10T13:26:44Z",
+ "runs": 56,
+ "last_run": "2026-11-11T12:51:10Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -24827,6 +25000,7 @@
    "LEG:kansascity:50816",
    "MIRROR:https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--Docket%20No.%202026-138-E.pdf",
    "MIRROR:https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--Docket%20No.%202026-231-E%20Hearing.pdf",
+   "MIRROR:https://www.psc.sc.gov/sites/psc/files/Documents/PINs/2026-2027%20PINs/PIN--SC%20Public%20Service%20Authority%202026%20IRP%20Updated.pdf",
    "MO:655234",
    "MO:656752",
    "MO:656933",
@@ -26359,9 +26533,16 @@
    "TX:59611-8"
   ],
   "attempts": {
-   "AZ:472213": 1,
-   "MO:657945": 1,
-   "MO:657940": 1
+   "AZ:472213": 2,
+   "MO:657945": 2,
+   "MO:657940": 2,
+   "NRC:ML26307A320": 1,
+   "NRC:ML26313A389": 1,
+   "NRC:ML26265A240": 1,
+   "FERC:20261110-5121": 1,
+   "FERC:20261110-5128": 1,
+   "MO:658198": 1,
+   "MO:658196": 1
   },
   "doc_retries": {
    "TX:58482-36": 1,
@@ -26622,18 +26803,27 @@
    "NRC:ML26300A337": 4,
    "NRC:ML26306A294": 4,
    "NRC:ML26308A087": 4,
-   "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-C110626-01": 3,
-   "FERC:20261106-8002": 3,
-   "FERC:20261106-5048": 3,
-   "NRC:ML26310A312": 3,
-   "NRC:ML26302A296": 3,
-   "FERC:20261106-5167": 1
+   "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-C110626-01": 4,
+   "FERC:20261106-8002": 4,
+   "FERC:20261106-5048": 4,
+   "NRC:ML26310A312": 4,
+   "NRC:ML26302A296": 4,
+   "FERC:20261106-5167": 2,
+   "MO:658208": 1,
+   "MO:658211": 1,
+   "MO:658220": 1,
+   "MO:657885": 1,
+   "FERC:20261109-5048": 1,
+   "REGS:comment:EPA-HQ-OAR-2025-0124-3981": 1,
+   "NRC:ML26301A133": 1,
+   "NRC:ML26301A134": 1,
+   "NRC:ML26302A310": 1
   }
  },
  "last_full_run": {
-  "run_id": "2026-11-10-1257",
-  "started": "2026-11-10T12:57:40Z",
-  "finished": "2026-11-10T13:26:44Z",
+  "run_id": "2026-11-11-1208",
+  "started": "2026-11-11T12:08:25Z",
+  "finished": "2026-11-11T12:51:10Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }

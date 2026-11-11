@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:119-HR-3978:2026-11-10",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 3978",
+ "title": "Nuclear REFUEL (Recycling Efficient Fuels Utilizing Expedited Licensing) Act",
+ "filed": "2026-11-10",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/3978",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 695.",
+  "keywords": [
+   "nuclear"
+  ]
+ },
+ "collected_at": "2026-11-11T12:38:09Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

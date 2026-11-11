@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B111026-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-B111026-01 ERCOT Request for Information (RFI) for backup generation and transfer capability",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-B111026-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B111026-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-11T12:32:43Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B111026-01",
+   "name": null,
+   "bytes": 8748,
+   "sha256": "227f8bbfdd8c6a0557c0d66d5ed9643ea9b124f6aa2031b1bb60fc259c5f1019",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com\n\nSent:\n\n11/10/26, 3:18 PM\n\nSubject:\n\nM-B111026-01 ERCOT Request for Information (RFI) for backup generation and transfer capability\n\nNOTICE DATE:\n November 10, 2026\n\nNOTICE TYPE:  \nM-B111026-01 Operations\n\nSHORT DESCRIPTION:\n ERCOT Request for Information (RFI) for backup generation and transfer capability\n\nINTENDED AUDIENCE:\n Transmission and Distribution Service Providers (TDSPs)\n\nDAYS AFFECTED:\n November 10, 2026 through December 15, 2026\n\nLONG DESCRIPTION:  \nERCOT Operations is issuing this RFI to TDSPs to collect operational contact details and backup generation capability information for all energized Customer facilities in the ERCOT Region with a peak load of 25 MW or greater that have on-site backup generation.\n\nThis effort supports ERCOT's emergency preparedness, including preparation for scenarios in which the US Department of Energy (DOE) could issue an emergency order under Section 202(c) of the Federal Power Act.  Information collected through this RFI may be used by ERCOT for the purpose of issuing directives to operate backup generation under any future DOE emergency orders authorizing such directives.\n\nThe request seeks information regarding operational contact information, connected demand, backup generation capability, and transfer type.\n\nACTION REQUIRED:  \nERCOT requests that each TDSP submit the attached workbook identifying, based on information reasonably obtained by the TDSP, each energized Customer facility in its certificated retail service area with a peak load of 25 MW or greater that is supported by on-site backup generation.  For the purposes of this RFI, \"backup generation\" refers to any generator or generation facility of at least 1 MW in total size that is capable of serving some or all of the Customer's load when that load is disconnected from the ERCOT System. \n\nPlease return the completed workbook to Camden White at \ncamden.white@ercot.com\n by December 15, 2026. In the event additional time is needed to finish gathering information, please submit all information available by that date and coordinate with ERCOT on an extension to submit the remaining information.\n\nCONTACT:  \nQuestions may be directed to Camden White (camden.white@ercot.com).\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\nkg/dg\n\nAttachments:\n\nERCOT_25MW_Load_BUG_RFI.xlsx\n\nNov 9, 2026 - xlsx - 18.7 KB"
+  }
+ ]
+}

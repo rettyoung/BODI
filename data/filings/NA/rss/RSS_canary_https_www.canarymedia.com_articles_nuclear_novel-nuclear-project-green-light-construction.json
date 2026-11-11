@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/nuclear/novel-nuclear-project-green-light-construction",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Another novel nuclear project gets green light to start construction",
+ "filed": "2026-11-10",
+ "url": "https://www.canarymedia.com/articles/nuclear/novel-nuclear-project-green-light-construction",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "The United States just cleared another novel nuclear energy project to begin construction. On Monday, the U.S. Nuclear Regulatory Commission  approved a joint application by X-energy and Dow Chemical to build four Xe-100 advanced nuclear reactors at a Texas industrial site owned by the Michigan-based chemicals giant.…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-11T12:34:01Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

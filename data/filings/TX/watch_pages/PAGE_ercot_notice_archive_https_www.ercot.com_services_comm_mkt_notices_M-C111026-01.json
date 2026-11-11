@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-C111026-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-C111026-01 Requirement to submit heat rates by the Firm Fuel Supply Service (FFSS) offer submission deadline",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-C111026-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-C111026-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-11T12:32:46Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "NPRR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-C111026-01",
+   "name": null,
+   "bytes": 6205,
+   "sha256": "961464633627b0ea6183affada4e1390232307c3c661c5aef60d1043a66319d4",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_PRR_SCR@lists.ercot.com,Notice_Settlements@lists.ercot.com,Notice_CRR@lists.ercot.com,Notice_Operations@lists.ercot.com\n\nSent:\n\n11/10/26, 3:03 PM\n\nSubject:\n\nM-C111026-01 Requirement to submit heat rates by the Firm Fuel Supply Service (FFSS) offer submission deadline\n\nNOTICE DATE:\n November 10, 2026\n\nNOTICE TYPE:\n M-C111026-01 Operations\n\nSHORT DESCRIPTION:\n Requirement to submit heat rates by the Firm Fuel Supply Service (FFSS) offer submission deadline\n\nINTENDED AUDIENCE:\n Qualified Scheduling Entities, Resource Entities with Generation Resources\n\nDAYS AFFECTED:\n November 6, 2027\n\nLONG DESCRIPTION:\n With the implementation of Nodal Protocols Revision Request (NPRR) 1335, \nImplementation of PUCT Changes to Firm Fuel Supply Service for Phase 3\n, Qualified Scheduling Entities (QSEs) or Resource Entities representing Generation Resources that submit offers to provide FFSS must submit heat rate curves for the alternate fuel for the FFSS Obligation Period, beginning with the 2027-2028 FFSS Obligation Period, as described in paragraph (10) of Section 3.14.5.\n\nACTION REQUIRED: \nThe QSE or Resource Entity must email the heat rate curve and data used to derive it to \nNodalVerifiableCost@ercot.com\n by the FFSS offer deadline for the 2027-2028 FFSS Obligation Period.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

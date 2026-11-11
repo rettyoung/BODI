@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150948",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC OKs Proposal for 2 Subregions in SPP West",
+ "filed": "2026-11-11",
+ "url": "//www.rtoinsider.com/150948-ferc-oks-proposal-2-subregions-spp-west/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " FERC has approved tariff revisions that establish two new subregions in SPP’s Western Interconnection footprint and apply the RTO’s Consolidated Planning Process to its newest members. \n The post  FERC OKs Proposal for 2 Subregions in SPP West  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-11T12:34:01Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

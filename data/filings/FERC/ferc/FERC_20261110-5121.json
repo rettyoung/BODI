@@ -1,0 +1,58 @@
+{
+ "id": "FERC:20261110-5121",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "P-2310",
+ "title": "Pacific Gas and Electric Company submits summary and conclusion of efforts to address recommendations from the 11th Part 12D Inspection et al. and request for extension of time re the Rock Creek Dam of the Drum-Spaulding Project under P-2310.",
+ "filed": "2026-11-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261110-5121",
+ "entity": "Pacific Gas & Electric Company",
+ "fetch": [
+  {
+   "ferc_file": "860B2D95-D086-C4F9-A509-A1C6CDA00000",
+   "name": "PGE20261110_2310_Drum_RockCreek_STID_Enc1.pdf",
+   "type": "PDF"
+  },
+  {
+   "ferc_file": "BA635626-2624-C2AD-AC44-A1C6CDA00000",
+   "name": "PGE20261110_2310_Drum_RockCreek_STID_Enc2.pdf",
+   "type": "PDF"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Part 12 Consultant Safety Inspection Reports"
+   },
+   {
+    "documentClass": "Report/Form",
+    "documentType": "Dam Safety Compliance Report"
+   },
+   {
+    "documentClass": "Applicant Correspondence",
+    "documentType": "Request for Delay of Action/Extension of Time"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-10"
+ },
+ "collected_at": "2026-11-11T12:11:44Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ferc_file': '860B2D95-D086-C4F9-A509-A1C6CDA00000', 'name': 'PGE20261110_2310_Drum_RockCreek_STID_Enc1.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  },
+  {
+   "url": "{'ferc_file': 'BA635626-2624-C2AD-AC44-A1C6CDA00000', 'name': 'PGE20261110_2310_Drum_RockCreek_STID_Enc2.pdf', 'type': 'PDF'}",
+   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+  }
+ ]
+}

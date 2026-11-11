@@ -1,0 +1,49 @@
+{
+ "id": "FERC:20261110-5119",
+ "jur": "FERC",
+ "source": "ferc",
+ "kind": "keyword_hit",
+ "docket": "PL26-3",
+ "title": "Comment of Nate Fisher in Docket(s)/Project(s) PL26-3-000\nSubmission Date: 11/10/2026\n",
+ "filed": "2026-11-10",
+ "url": "https://elibrary.ferc.gov/eLibrary/filelist?accession_num=20261110-5119",
+ "entity": "Individual No Affiliation",
+ "fetch": [
+  {
+   "ferc_file": "0D76279D-BCEE-C8E6-9E1D-A1C6CD100000",
+   "name": "152431.txt",
+   "type": "TXT"
+  }
+ ],
+ "meta": {
+  "category": "Submittal",
+  "class": [
+   {
+    "documentClass": "Comments/Protest",
+    "documentType": "Rulemaking Comment"
+   }
+  ],
+  "why": "keyword \"data center\"",
+  "issued": "2026-11-10"
+ },
+ "collected_at": "2026-11-11T12:12:23Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File",
+   "name": "152431.txt",
+   "bytes": 2189,
+   "sha256": "1f2e1f140c66b7a2e2a9e9615bf327314b29c670e7de52a6ff5e38b1c0491514",
+   "ctype": "application/octet-stream",
+   "quality": "text",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "\r\n\r\nNate Fisher, Granville, PA.\nPlease do not deregulate air quality inspections and pre-construction requirements at the federal level . State level testing after the construction as the only regulations that these tech billionaires is not nearly enough regulation to protect our environment and community FERC is required, under NEPA, to take a \"hard look\" at reasonably foreseeable environmental effects of a proposed action, but Commissioner Chang's dissent says that what is being proposed amounts to nothing more than a \"quick glance.\", Commissioner Chang notes that \"the Commission’s evaluation of the public convenience and necessity under the NGA requires that 'the Commission balances the need for and benefits derived from the project against the potential adverse consequences.  Those consequences include impacts on landowners and environmental impacts identified in the NEPA document developed for the project.' Without conducting an assessment of a project’s emissions impact on local air quality, the Commission will be left without key information needed to conduct public interest balancing under the NGA.\", FERC's policy statement says that the Commission will no longer require modeling of ozone and PM2.5. Commissioner Chang says in her dissent that \"it is not possible to estimate a proposed project’s full impact on the concentration of these regulated pollutants without applying modeling techniques that incorporate assumptions about chemical conversions.\", Commissioner Chang's dissent makes a strong case against making the proposed policy change. I encourage FERC to continue use of air dispersion modeling in its review of natural gas projects., FERC is proposing that the current air dispersion modeling be replaced with manufacturer estimates for each type of equipment combined with the schedule \"in which each piece of equipment may be operated.\" \"Specifically, air dispersion modeling can reveal substantial differences in air quality impacts from two facilities that have identical amounts of total emissions of a specific pollutant per year,\" says Commissioner Chang.Please regulate data center development to the the most stringent standards \r\n\r\n"
+  }
+ ]
+}

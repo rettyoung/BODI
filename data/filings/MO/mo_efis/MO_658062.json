@@ -1,0 +1,35 @@
+{
+ "id": "MO:658062",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "396",
+ "filed": "2026-11-09",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/658062",
+ "fetch": [
+  {
+   "mo_filing": "658062"
+  }
+ ],
+ "collected_at": "2026-11-11T12:26:12Z",
+ "run_id": "2026-11-11-1208",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/897274",
+   "name": null,
+   "bytes": 17634,
+   "sha256": "133967239e97106a412e385f4d30a24d4850dcc814741ea873d292f7781247f6",
+   "ctype": "text/html; charset=utf-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Login - EFIS\n\nSkip to main content\n\nRegister\n\nLog in\n\nHelp Directory\n\nHome\n\n                    /\r\n\nDocket Sheet - ER-2026-0143 - Item 397\n\n                            /\r\n\nDocket Sheet - ER-2026-0143 - Item 396\n\n                            /\r\n\nLogin\n\n                            Company & User\n Management\r\n\n                                    Company Search\r\n\n                            Agenda & Public\n Meetings\r\n\n                                    Agenda Search\r\n\n                                    Public Meeting Search\r\n\n                            Case\n e-Filings & Search\r\n\n                                    Existing Case e-Filing & Search\r\n\n                                        Service List Search\r\n\n                                        Service List Print\r\n\n                                    Calendar Search\r\n\n                                    Small Company Rate Increase Search\r\n\n                            Utility Compliance\n e-Filings & Search\r\n\n                                    Tariff Search\r\n\n                                        Existing Non-Case e-Filing & Search\r\n\n                                        Informal Interconnection Agreement Search\r\n\n                            Consumer Resources\r\n\n                                    Complaint/Inquiry Form\r\n\n                                        Comments Search\r\n\n                                        Comment Form\r\n\n                            Reports & Misc. Resources\r\n\n                                    Video Franchise Search\r\n\n                                        Report Listing \r\n\n            Current Date/Time: 11/11/2026 6:26:12 AM\r\n\nLogin\n\n                                Help\r\n\nEmail Address\n\nPassword\n\nLog in\n\nForgot your password?\n\nRegister as a new user?\n\n                        Missouri Public Service Commission\n\n                        200 Madison Street, PO Box 360\n\n                        Jefferson City, MO 65102-0360\r\n\nPSC Links\n\nContact Us\n\nPublic Service Commission Homepage\n\nUseful Links\n\nMissouri Statutes\n\nMO Department of Commerce and Insurance\n\nOffice of the Public Counsel\n\nNational Association of Regulatory Utility Commissioners (NARUC)\n\nU.S. Department of Energy\n\nAccessibility\n\nStay Connected\n\nEmail\n\nTwitter\n\nYouTube\n\nFacebook"
+  }
+ ]
+}
