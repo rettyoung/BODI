@@ -1,0 +1,25 @@
+{
+ "id": "BILL:TX:ocd-bill/ee79cbb3-f0d3-4950-8c2f-dfa7bf43b1f2:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 730",
+ "title": "Relating to the interconnection of large load customers and the recovery of costs of generation facilities serving large load customers by electric utilities operating outside of the ERCOT power region.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/HB730/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "electric service agreement",
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

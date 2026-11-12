@@ -1,0 +1,24 @@
+{
+ "id": "BILL:TX:ocd-bill/0fdc9a01-18d1-46e7-9989-994da876bc7f:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 706",
+ "title": "Relating to election and public hearing requirements before a municipality may enter into a data center development agreement under certain economic development programs.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/HB706/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151234",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Stakeholders Predict ‘Cumbersome’ Efforts on Large Loads",
+ "filed": "2026-11-12",
+ "url": "//www.rtoinsider.com/151234-stakeholders-predict-cumbersome-efforts-large-loads/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " NERC reported on 'concerning' responses to its Level 3 alert on computational large loads issued in May. \n The post  Stakeholders Predict ‘Cumbersome’ Efforts on Large Loads  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-12T13:27:22Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

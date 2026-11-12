@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151241",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Earthjustice: Elections Signal Support for Stricter Data Center Regulations",
+ "filed": "2026-11-12",
+ "url": "//www.rtoinsider.com/151241-earthjustice-elections-support-stricter-data-center-regs/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " U.S. midterm election results should give new momentum to the movement against fueling AI with inefficient natural gas-fired generation, Earthjustice said. \n The post  Earthjustice: Elections Signal Support for Stricter Data Center Regulations  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-12T13:27:22Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

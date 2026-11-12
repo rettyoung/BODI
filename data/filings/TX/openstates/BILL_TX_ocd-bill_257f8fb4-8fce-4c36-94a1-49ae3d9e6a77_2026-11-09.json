@@ -1,0 +1,24 @@
+{
+ "id": "BILL:TX:ocd-bill/257f8fb4-8fce-4c36-94a1-49ae3d9e6a77:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 732",
+ "title": "Relating to the ineligibility of certain data centers for state and local economic development incentives.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/HB732/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

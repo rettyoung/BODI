@@ -1,0 +1,24 @@
+{
+ "id": "SEC:0001213900-26-118350",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "Bit Digital, Inc  (BTBT)  (CIK 0001710350) 10-Q — full-text hit \"data center\" \"electric service agreement\"",
+ "filed": "2026-11-12",
+ "url": "https://www.sec.gov/Archives/edgar/data/1710350/000121390026118350/",
+ "entity": "Bit Digital, Inc  (BTBT)  (CIK 0001710350)",
+ "fetch": [],
+ "meta": {
+  "query": "\"data center\" \"electric service agreement\"",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-12T13:18:28Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

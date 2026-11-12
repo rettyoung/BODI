@@ -1,0 +1,24 @@
+{
+ "id": "BILL:TX:ocd-bill/e61c1088-6232-40dd-89aa-126ef8a74d8e:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 296",
+ "title": "Relating to the siting, construction, permitting, and operation of certain data centers; requiring local option elections; imposing a temporary moratorium; establishing an annual payments to county residents; repealing certain tax exemptions; providing civil penalties.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/SB296/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

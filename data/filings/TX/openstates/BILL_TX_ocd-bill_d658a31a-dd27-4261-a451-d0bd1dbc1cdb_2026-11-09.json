@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/d658a31a-dd27-4261-a451-d0bd1dbc1cdb:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 696",
+ "title": "Relating to prohibiting certain governmental entities from entering into an agreement prohibiting the entity from releasing certain information regarding a data center project.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/HB696/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/37bf68de-e1a1-421d-b2a3-d755a3a3f4a8:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 34",
+ "title": "Relating to county authority to regulate the development of certain large electricity users.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/SB34/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

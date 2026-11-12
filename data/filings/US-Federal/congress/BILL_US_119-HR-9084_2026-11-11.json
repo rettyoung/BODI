@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:119-HR-9084:2026-11-11",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 9084",
+ "title": "Department of Energy Nuclear Transparency Act",
+ "filed": "2026-11-11",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/9084",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+  "keywords": [
+   "nuclear"
+  ]
+ },
+ "collected_at": "2026-11-12T13:31:15Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

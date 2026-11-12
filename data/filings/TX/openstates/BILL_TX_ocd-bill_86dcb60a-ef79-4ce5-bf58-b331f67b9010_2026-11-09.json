@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/86dcb60a-ef79-4ce5-bf58-b331f67b9010:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 33",
+ "title": "Relating to the recovery of costs related to providing electricity service to customers at a computational load site.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/SB33/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "large load"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

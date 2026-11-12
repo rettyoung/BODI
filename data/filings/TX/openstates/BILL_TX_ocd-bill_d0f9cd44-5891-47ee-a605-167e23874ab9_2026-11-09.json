@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/d0f9cd44-5891-47ee-a605-167e23874ab9:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 292",
+ "title": "Relating to cybersecurity for retail public utilities that provide water or sewer service.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/SB292/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,24 @@
+{
+ "id": "BILL:TX:ocd-bill/6e3e69a6-df84-4630-bc54-4ac75e604488:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 191",
+ "title": "Relating to the interconnection of a facility in the ERCOT power region to certain other facilities.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/SB191/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "electric service agreement",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

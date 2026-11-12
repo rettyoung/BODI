@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B111126-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-B111126-01 Upcoming training courses",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-B111126-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B111126-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-12T13:26:00Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "combined cycle"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B111126-01",
+   "name": null,
+   "bytes": 44914,
+   "sha256": "586ffe2c3ef0d5ceceb9d40ab5004d541f2a00713d8253f03d3755ea7447467c",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Training@lists.ercot.com,Notice_Operations@lists.ercot.com\n\nSent:\n\n11/11/26, 2:56 PM\n\nSubject:\n\nM-B111126-01 Upcoming training courses\n\nNOTICE DATE: \nNovember 11, 2026\n\nNOTICE TYPE: \nM-B111126-01 Education/Training\n\nSHORT DESCRIPTION: \nUpcoming training courses\n\nINTENDED AUDIENCE: \nERCOT Market Participants\n\nDAY AFFECTED: \nSee course schedule below.\n\nLONG DESCRIPTION: \nERCOT invites you to take advantage of its market training program that includes a wide variety of courses ranging from general introductions to deeper explorations of specific market topics and processes. \n\nNote that the following courses have been renamed:\n\n\"Forward Markets 101\" is now \"Hedging 101\"\n\n\"Settlement: Congestion Revenue Rights\" is now \"Congestion Revenue Rights Settlements\"\n\n\"Settlement: Ancillary Services\" is now \"Ancillary Service Settlement\"\n\n\"Load Serving Entity 201\" is now \"Hedging for Load Serving Entities\"\n\nThe location and schedule of the courses that are currently scheduled are shown below:\n\nReal-Time Market Energy Settlement\n\n11/18/2026\n\n8:30 - 12:30\n\nWebEx\n\nRetail 101\n\n12/9/2026\n\n8:30 - 12:30\n\nWebEx\n\nReal-Time 101\n\n1/5/2027\n\n8:30 - 12:30\n\nWebEx\n\nHedging 101\n\n1/7/2027\n\n8:30 - 12:30\n\nWebEx\n\nDay-Ahead Market Operations\n\n1/12/2027\n\n8:30 - 12:30\n\nWebEx\n\nDay-Ahead Market Energy Settlement\n\n1/14/2027\n\n8:30 - 12:30\n\nWebEx\n\nReliability Unit Commitment\n\n1/21/2027\n\n8:30 - 12:30\n\nWebEx\n\nReal-Time Market Operations\n\n1/26/2027\n\n8:30 - 12:30\n\nWebEx\n\nCongestion Revenue Rights\n\n2/9/2027\n\n8:30 - 12:30\n\nWebEx\n\nMarkeTrak Part 1\n\n2/9/2027\n\n8:30 - 12:30\n\nWebEx\n\nMarkeTrak/IAG Part 2\n\n2/10/2027\n\n8:30 - 12:30\n\nWebEx\n\nCongestion Revenue Rights Settlement\n\n2/11/2027\n\n8:30 - 12:30\n\nWebEx\n\nResources in ERCOT Market Operations\n\n2/18/2027\n\n8:30 - 12:30\n\nWebEx\n\nAncillary Services Settlement\n\n2/23/2027\n\n8:30 - 12:30\n\nWebEx\n\nEnergy Storage Resources\n\n2/25/2027\n\n8:30 - 12:30\n\nWebEx\n\nIntermittent Renewable Resources\n\n3/2/2027\n\n8:30 - 12:30\n\nWebEx\n\nCombined Cycle Generation Resources\n\n3/4/2027\n\n8:30 - 10:30\n\nWebEx\n\nRetail 101\n\n3/23/2027\n\n8:30 - 12:30\n\nWebEx\n\nHedging for Load Serving Entities\n\n3/25/2027\n\n8:30 - 12:30\n\nWebEx\n\nADDITIONAL INFORMATION: \nTo enroll in a course, go to the ERCOT Training website at \nhttp://www.ercot.com/services/training/\n. Select the course you are interested in attending. On the \"Schedule/Registration\" tab, select the \"Sign up\" link to register for the course. These courses are part of a series of instructor-led and web-based training courses available to Market Participants. To view the complete catalog of ERCOT market and operational courses, select \nCourse Catalog\n from the ERCOT Training website.\n\nCONTACT: \nIf you have any questions, please contact ERCOT Training via email at \nTraining@ercot.com\n. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

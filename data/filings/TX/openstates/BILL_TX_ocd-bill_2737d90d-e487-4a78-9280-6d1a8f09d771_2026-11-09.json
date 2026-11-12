@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/2737d90d-e487-4a78-9280-6d1a8f09d771:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 529",
+ "title": "Relating to water conservation plans, data center and related facility water use and wastewater reporting, water resource impact assessments, notice to local entities, public participation, and public disclosure; providing for enforcement and fees.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/HB529/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

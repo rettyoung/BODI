@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/3bb3fb72-c6ec-4685-9b9c-a2034817d438:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 681",
+ "title": "Relating to the repeal of the exemptions from sales and use taxes for property used in certain data centers and large data center projects.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/HB681/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

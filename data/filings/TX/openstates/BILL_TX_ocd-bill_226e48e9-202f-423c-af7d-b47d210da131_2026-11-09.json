@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/226e48e9-202f-423c-af7d-b47d210da131:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 35",
+ "title": "Relating to the sharing of information related to large load customers by the independent organization certified for the ERCOT power region with the Texas Water Development Board.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/SB35/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "large load"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

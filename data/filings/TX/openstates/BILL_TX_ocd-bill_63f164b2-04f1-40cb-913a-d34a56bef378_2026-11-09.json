@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/63f164b2-04f1-40cb-913a-d34a56bef378:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 547",
+ "title": "Relating to county noise study requirements and site construction approval for facilities operated by certain large load electric customers, authorizing a fee.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/HB547/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "large load"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

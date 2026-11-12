@@ -1,0 +1,30 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/constellation-pursues-hybrid-nuclearcapacity-contracts-alongside-uprates/874408/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Constellation pursues hybrid capacity contracts alongside nuclear uprates",
+ "filed": "2026-11-11",
+ "url": "https://www.utilitydive.com/news/constellation-pursues-hybrid-nuclearcapacity-contracts-alongside-uprates/874408/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      The offering gives Constellation &ldquo;a new way to pair the existing fleet with incremental capacity&rdquo; by adding batteries, generation and demand response, CEO Joe Dominguez said. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-12T13:27:22Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "demand response",
+  "nuclear",
+  "uprate"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": []
+}

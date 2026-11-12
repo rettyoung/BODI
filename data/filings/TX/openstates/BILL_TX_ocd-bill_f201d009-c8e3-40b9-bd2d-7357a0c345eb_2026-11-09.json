@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/f201d009-c8e3-40b9-bd2d-7357a0c345eb:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 32",
+ "title": "Relating to the issuance by the Public Utilities Commission of Texas of a permit for the construction of a large computational load site; providing an administrative penalty.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/SB32/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "large load"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

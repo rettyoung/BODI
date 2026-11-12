@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151245",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "BNEF Urges Policy Changes to Better Power New Data Centers",
+ "filed": "2026-11-12",
+ "url": "//www.rtoinsider.com/151245-bnef-urges-policy-changes-better-power-data-centers/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " A new BloombergNEF report calculates the 165 GW of gas-fired generation capacity proposed to be built beside U.S. data centers would give the data centers a carbon footprint 79% greater than if they took power from the grid. \n The post  BNEF Urges Policy Changes to Better Power New Data Centers  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-12T13:27:22Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/nuclear/small-modular-nuclear-reactor-late-canada",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Leading small modular nuclear reactor will be late and over budget",
+ "filed": "2026-11-11",
+ "url": "https://www.canarymedia.com/articles/nuclear/small-modular-nuclear-reactor-late-canada",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "North America’s first small modular reactor project is running into two familiar challenges for the nuclear industry: timing and cost. Ontario Power Generation said in a Tuesday earnings release that the first BWRX-300 unit at its Darlington site will not come online by its October 2030 target and will blow past its…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-12T13:27:22Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

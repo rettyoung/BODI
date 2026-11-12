@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001193125-26-456659",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "X-Energy, Inc.  (XE)  (CIK 0002088896) 10-Q — full-text hit \"co-location\" FERC",
+ "filed": "2026-11-12",
+ "url": "https://www.sec.gov/Archives/edgar/data/2088896/000119312526456659/",
+ "entity": "X-Energy, Inc.  (XE)  (CIK 0002088896)",
+ "fetch": [],
+ "meta": {
+  "query": "\"co-location\" FERC",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-12T13:18:28Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "co-location"
+ ],
+ "party_hits": [],
+ "documents": []
+}

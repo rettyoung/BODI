@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/1259f0c4-9cb8-4bc7-985e-10045003e7bb:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 374",
+ "title": "Relating to certain requirements applicable to governmental entities with respect to an agreement prohibiting the release of information regarding a data center project; providing a civil penalty.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/HB374/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-12T13:36:47Z",
+ "run_id": "2026-11-12-1314",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}
