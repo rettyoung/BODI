@@ -1,0 +1,33 @@
+{
+ "id": "MO:658499",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "527",
+ "filed": "2026-11-09",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/658499",
+ "fetch": [
+  {
+   "mo_filing": "658499"
+  }
+ ],
+ "collected_at": "2026-11-13T12:45:15Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/897846",
+   "name": null,
+   "bytes": 745929,
+   "sha256": "29d2923dec0be5ee3623ad0ebe1bf87f454021899b6e0c3a54041c2cbf34cadc",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 2,
+   "truncated": false,
+   "text": "FILED\nNovember 9, 2026\nMissouri Public\nService Commission\n\nExhibit No. 178\n\nStaff — Exhibit 178\nStaff\n\nOther Revenue Analysis\nCase No. ER-2026-0143\n\n\fATTACHMENT A\n\nMissouri kWh =\n\nBase factor of\n\nAssume increase in ANEC of\nActual ANEC of\n\nIf LLPSis\n\nLLPSis\n\nTotal NSI is\n\nDifference to be considered is\nSharing at 95/5\n\nAdditional sharing of 5% additional for LLPS\nForgone recovery per LLPS sharing\n\n$\n$\n$\n\n$\n$\n$\n\n10,000,000,000\n0.01742\n0.00010\n0.01752\n\n10% oftotal load\n11,000,000,000\n1,100,000\n1,045,000\n5,000\n\n0.455%\n\nAttachmentA\n"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "id": "MO:658471",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "512",
+ "filed": "2026-11-09",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/658471",
+ "fetch": [
+  {
+   "mo_filing": "658471"
+  }
+ ],
+ "collected_at": "2026-11-13T12:47:17Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/897763",
+   "name": null,
+   "bytes": 733432,
+   "sha256": "8a76474bc43251d2224934d936e57894fe0a9b2ab49f995f98fd93374e85e403",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 5,
+   "truncated": false,
+   "text": "                                          FILED\n                                    November 9, 2026\n                                     Missouri Public\n                                   Service Commission\nExhibit No. 163\n\n\n\n\n                                   Staff – Exhibit 163\n      True-Up Direct Testimony of Michael L Stahlman\n                             Case No. ER-2026-0143\n\f                                       Exhibit No.:\n                                          Issue(s):    Net System Input\n                                          Witness:     Michael L. Stahlman\n                                  Sponsoring Party:    MoPSC Staff\n                                    Type of Exhibit:   Surrebuttal /\n                                                       True-Up Direct Testimony\n                                         Case No.:     ER-2026-0143\n                          Date Testimony Prepared:     September 10, 2026\n\n\n\n\nMISSOURI PUBLIC SERVICE COMMISSION\n        INDUSTRIAL ANALYSIS DIVISION\n\n        ENERGY PLANNING DEPARTMENT\n\n\n\n\n               TRUE-UP DIRECT\n                 TESTIMONY\n\n                        OF\n\n            MICHAEL L. STAHLMAN\n\n\n\n\nEVERGY METRO, INC. d/b/a Evergy MISSOURI METRO\n\n\n            CASE NO. ER-2026-0143\n\n\n              Jefferson City, Missouri\n                  September 2026\n\f1                                 TRUE-UP DIRECT TESTIMONY\n\n2                                               OF\n\n3                                    MICHAEL L. STAHLMAN\n\n4                   EVERGY METRO, INC. d/b/a EVERGY MISSOURI METRO\n\n5                                   CASE NO. ER-2026-0143\n\n6           Q.     Please state your name and business address.\n\n7           A.     My name is Michael L. Stahlman, 200 Madison Street, Jefferson City,\n\n8    Missouri 65101.\n\n9           Q.     By whom are you employed and in what capacity?\n\n10          A.     I am employed by the Missouri Public Service Commission (“Commission”)\n\n11   as a Senior Economist in the Energy Planning Department of the Industry Analysis\n\n12   Division of the Commission Staff.\n\n13          Q.     Have you previously filed testimony in this case?\n\n14          A.     Yes.   I provided direct testimony as part of the Cost of Service on\n\n15   June 30, 2026, and rebuttal testimony in this case.\n\n16          Q.     What is the purpose of your true-up direct testimony?\n\n17          A.     The purpose of my testimony is to discuss the update of the Net System\n\n18   Input workpapers.\n\n19          Q.     Why did Staff update the Net System Input Workpapers?\n\n20          A.     These workpapers were updated to support the fuel runs performed by\n\n21   Staff Witness Brodrick Niemeier.\n\n\n\n\n                                              Page 1\n\f    True-Up Direct Testimony of\n    Michael L. Stahlman\n1         Q.     Was the Net System Input analysis performed in the same way as\n\n2   discussed in your direct testimony?\n\n3         A.     Yes. For true-up, I removed the Large Load class (LLPS) from the 20 CSR\n\n4   4240-3.190(1)(C) data set. The LLPS class was also not included in the Net System Input\n\n5   analysis performed for my direct testimony. Annualization and treatment of LLPS energy\n\n6   requirements is addressed in the testimony of Staff witness Sarah Lange.\n\n7         Q.     Does this conclude your true-up testimony?\n\n8         A.     Yes it does.\n\n\n\n\n                                            Page 2\n\f\f"
+  }
+ ]
+}

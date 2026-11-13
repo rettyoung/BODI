@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/7b56d159-4930-4bf8-8265-677af78df5e6:2026-11-12",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 338",
+ "title": "Relating to data centers.",
+ "filed": "2026-11-12",
+ "url": "https://openstates.org/tx/bills/90R/SB338/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-13T13:08:43Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

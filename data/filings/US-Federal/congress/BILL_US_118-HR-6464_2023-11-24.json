@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:118-HR-6464:2023-11-24",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 6464",
+ "title": "Efficient Nuclear Licensing Hearings Act",
+ "filed": "2023-11-24",
+ "url": "https://www.congress.gov/bill/118th-congress/house-bill/6464",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Referred to the Subcommittee on Energy, Climate and Grid Security.",
+  "keywords": [
+   "nuclear"
+  ]
+ },
+ "collected_at": "2026-11-13T13:02:58Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

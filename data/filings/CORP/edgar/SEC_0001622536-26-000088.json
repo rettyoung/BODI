@@ -1,0 +1,47 @@
+{
+ "id": "SEC:0001622536-26-000088",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Talen 8-K 8-K items 8.01",
+ "filed": "2026-11-12",
+ "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000088/",
+ "entity": "Talen",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000088/tln-20261109.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01"
+  ],
+  "cik": "0001622536",
+  "market_participant": true
+ },
+ "collected_at": "2026-11-13T12:39:57Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [
+  "combined cycle",
+  "gas turbine"
+ ],
+ "party_hits": [
+  "Talen"
+ ],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000088/tln-20261109.htm",
+   "name": null,
+   "bytes": 27512,
+   "sha256": "fec53057f61afc88f23b937d991406fcc5808640bf27034bc9797f11b7dc0df8",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "tln-20261109\nFALSE\n0001622536\n0001622536\n2026-11-09\n2026-11-09\nUNITED STATES \nSECURITIES AND EXCHANGE COMMISSION \nWashington, D.C. 20549\n\nFORM \n8-K\nCURRENT REPORT\nPursuant to Section 13 or 15(d) of The Securities Exchange Act of 1934\nDate of Report (Date of earliest event repo\nrted): \nNovember 9, 2026\nTalen Energy Corporation\n(Exact name of registrant as specified in its charter) \nDelaware\n001-37388\n47-1197305\n(State or other jurisdiction of\nincorporation)\n(Commission File Number)\n(IRS Employer\nIdentification No.)\n2929 Allen Pkwy, Suite 2200\nHouston\n, \nTX\n\n77019\n(Address of principal executive offices) (Zip Code)\n(\n888\n) \n211-6011\n\n(Registrant’s telephone number, including area code)\n\nNot applicable \n(Former name or, former address, if changed since last report)\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n☐\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n☐\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n☐\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n☐\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\nSecurities registered pursuant to Section 12(b) of the Act: \nTitle of each class \nTrading Symbol(s)\nName of each exchange on which registered\nCommon stock, par value $0.001 per share\nTLN\nThe Nasdaq Global Select Market\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).  \nEmerging growth company  \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.\n\n☐\n\nItem 8.01.             Other Events.\nOn November 9, 2026, certain indirect wholly owned subsidiaries of Talen Energy Corporation, a Delaware corporation (the “Company”), entered into ordinary course capacity sale transactions with an investment grade counterparty in PJM. Specifically, the Company’s wholly owned indirect subsidiary, Guernsey Power Station LLC, a Delaware limited liability company (“Guernsey”), entered into two capacity sale transactions with the investment grade counterparty, for the sale of available installed capacity (“ICAP”) that converts to Unit-Specific Accredited Unforced Capacity (“UCAP”) from Guernsey Power Station, an 1,836 megawatts (“MW”) (summer rating) natural gas-fired combined cycle generation plant located in Guernsey County, Ohio, for (a) 750 MW UCAP for PJM Delivery Years 2029/2030 through 2035/2036 (the “Guernsey 7-Year Capacity Sale”); and (b) the remainder of 588 MW UCAP from Guernsey Power Station for PJM Delivery Year 2029/2030. In addition, the Company’s wholly owned indirect subsidiary, Waterford Power, LLC, a Delaware limited liability company (“Waterford”), entered into a capacity sale transaction with the investment grade counterparty for the sale of all UCAP from the Waterford Energy Center, an 869 MW combined cycle gas turbine facility located in Waterford, Ohio, for the PJM Delivery Years 2029/2030 through 2031/2032. \nThe Guernsey 7-Year Capacity Sale is expected to generate approximately $100 million per year in revenue. The capacity sale transactions are not subject to any closing conditions. \n1\nSIGNATURES\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.\nTALEN ENERGY CORPORATION\nDate:\nNovember 12, 2026\nBy:\n/s/ Cole Muller\nName:\nCole Muller\nTitle:\nChief Financial Officer\n2"
+  }
+ ]
+}

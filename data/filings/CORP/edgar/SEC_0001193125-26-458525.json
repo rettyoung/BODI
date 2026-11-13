@@ -1,0 +1,47 @@
+{
+ "id": "SEC:0001193125-26-458525",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Meta 8-K 8-K items 8.01,9.01",
+ "filed": "2026-11-12",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/",
+ "entity": "Meta",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "cik": "0001326801",
+  "market_participant": true
+ },
+ "collected_at": "2026-11-13T12:40:00Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [
+  "Meta"
+ ],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+   "name": null,
+   "bytes": 34873,
+   "sha256": "b2df0b05664c777df805a94973628fdec2d5cd904d822b61dec1b56ecd2a6d4e",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "8-K\n\nfalse\n\n0001326801\n\n0001326801\n\n2026-11-12\n\n2026-11-12\n\n0001326801\n\nus-gaap:CommonStockMember\n\n2026-11-12\n\n2026-11-12\n\n0001326801\n\nus-gaap:SeriesAPreferredStockMember\n\n2026-11-12\n\n2026-11-12\n\nUNITED STATES\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, D.C. 20549\n\nFORM \n8-K\n\nCURRENT REPORT\n\nPURSUANT TO SECTION 13 or 15(d)\n\nOF THE SECURITIES EXCHANGE ACT OF 1934\n\nDate of Report (Date of earliest event reported): \nNovember 12, 2026\n\nMeta Platforms, Inc.\n\n(Exact name of registrant as specified in its charter)\n\nDelaware\n\n001-35551\n\n20-1665019\n\n(State or Other Jurisdiction\n\nof Incorporation)\n\n(Commission\n\nFile Number)\n\n(IRS Employer\n\nIdentification No.)\n\n1 Meta Way\n, \nMenlo Park\n, \nCalifornia\n\n94025\n\n(Address of principal executive offices and Zip Code)\n\n(650)\n\n543-4800\n\n(Registrant’s telephone number, including area code)\n\nN/A\n\n(Former name or former address, if changed since last report)\n\nCheck the appropriate box below if the Form \n8-K\n filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n\n☐\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n☐\n\nSoliciting material pursuant to Rule \n14a-12\n under the Exchange Act (17 CFR \n240.14a-12)\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n14d-2(b)\n under the Exchange Act (17 CFR \n240.14d-2(b))\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n13e-4(c)\n under the Exchange Act (17 CFR \n240.13e-4(c))\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\nTitle of each class\n\nTrading\nSymbol(s)\n\nName of each exchange\non which registered\n\nClass A Common Stock, $0.000006 par value\n\nMETA\n\nThe Nasdaq Stock Market LLC\n\nDepositary Shares, each representing a 1/20th interest in a share of 6.50% Series A Mandatory Convertible Preferred Stock, $0.000006 par value\n\nMETAM\n\nThe Nasdaq Stock Market LLC\n\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule \n12b-2\n of the Securities Exchange Act of 1934 \n(§240.12b-2\n of this chapter).\n\nEmerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\n\nItem 8.01\n\nOther Events. \n\nOn November 12, 2026, Meta Platforms, Inc. (the “Company”) completed an offering of €1,750,000,000 aggregate principal amount of its 4.300% Senior Notes due 2031 (the “2031 Notes”), €1,250,000,000 aggregate principal amount of its 4.650% Senior Notes due 2033 (the “2033 Notes”), €1,000,000,000 aggregate principal amount of its 4.900% Senior Notes due 2035 (the “2035 Notes”), €1,750,000,000 aggregate principal amount of its 5.400% Senior Notes due 2038 (the “2038 Notes”), €1,750,000,000 aggregate principal amount of its 6.050% Senior Notes due 2044 (the “2044 Notes”), and €1,500,000,000 aggregate principal amount of its 6.400% Senior Notes due 2065 (the “2065 Notes” and, together with the 2031 Notes, the 2033 Notes, the 2035 Notes, the 2038 Notes, and the 2044 Notes, the “EUR Notes”). The offering of the EUR Notes was made pursuant to the Company’s Registration Statement on \nForm S-3 (File No. 333-295425), which\n Registration Statement relates to the offer and sale on a delayed basis from time to time of an indeterminate amount of the Company’s debt securities. Further information concerning the EUR Notes and related matters is set forth in the Company’s Prospectus Supplement dated November 4, 2026, which was filed with the Securities and Exchange Commission on November 6, 2026. \n\nIn connection with the issuance of the EUR Notes, the Company entered into an Underwriting Agreement dated as of November 4, 2026 (the “Underwriting Agreement”) with Citigroup Global Markets Limited and Morgan Stanley & Co. International plc, as representatives of the several underwriters listed in Schedule II to the Underwriting Agreement. The foregoing description of the Underwriting Agreement is qualified in its entirety by the terms of such agreement, a copy of which is attached hereto as Exhibit 1.1 and is incorporated by reference herein. \n\nThe EUR Notes were issued pursuant to an Indenture with U.S. Bank Trust Company, National Association, as trustee, dated as of August 9, 2022 (the “Base Indenture”), as supplemented by the seventh supplemental indenture thereto, dated as of November 12, 2026 (the “Seventh Supplemental Indenture” and, together with the Base Indenture, the “Indenture”). The Seventh Supplemental Indenture is attached hereto as Exhibit 4.1 and is incorporated by reference herein. The Base Indenture was previously incorporated by reference into the Registration Statement pursuant to Exhibit 4.1 to the Company’s Current Report on \nForm 8-K filed\n on August 9, 2022. The forms of the 2031 Notes, the 2033 Notes, the 2035 Notes, the 2038 Notes, the 2044 Notes, and the 2065 Notes are attached hereto as Exhibits 4.2, 4.3, 4.4, 4.5, 4.6, and 4.7, respectively, and are incorporated by reference herein. \n\nThe above description of the Underwriting Agreement, the Indenture, and the EUR Notes does not purport to be complete and is qualified in its entirety by reference to the Underwriting Agreement, the Indenture, and the forms of EUR Notes. \n\nItem 9.01\n\nFinancial Statements and Exhibits. \n\n(d) Exhibits \n\nExhibit\n\nNo.\n\nDescription\n\n 1.1\n\nUnderwriting Agreement, dated as of November 4, 2026, by and among Meta Platforms, Inc. and Citigroup Global Markets Limited and Morgan Stanley & Co. International plc, as representatives of the several underwriters named in Schedule II therein. \n\n 4.1\n\nSeventh Supplemental Indenture, dated as of November 12, 2026, by and between Meta Platforms, Inc. and U.S. Bank Trust Company, National Association, as trustee. \n\n 4.2\n\nForm of Global Note representing the Company’s 4.300% Senior Notes due 2031 (included in Exhibit 4.1). \n\n 4.3\n\nForm of Global Note representing the Company’s 4.650% Senior Notes due 2033 (included in Exhibit 4.1). \n\n 4.4\n\nForm of Global Note representing the Company’s 4.900% Senior Notes due 2035 (included in Exhibit 4.1). \n\n 4.5\n\nForm of Global Note representing the Company’s 5.400% Senior Notes due 2038 (included in Exhibit 4.1). \n\n 4.6\n\nForm of Global Note representing the Company’s 6.050% Senior Notes due 2044 (included in Exhibit 4.1). \n\n 4.7\n\nForm of Global Note representing the Company’s 6.400% Senior Notes due 2065 (included in Exhibit 4.1). \n\n 5.1\n\nOpinion of Davis Polk & Wardwell LLP. \n\n23.1\n\nConsent of Davis Polk & Wardwell LLP (included in Exhibit 5.1). \n\n104\n\nCover Page Interactive Data File (Embedded within the Inline XBRL document).\n\nSIGNATURES \n\nPursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. \n\nMETA PLATFORMS, INC.\n\nDate: November 12, 2026\n\nBy:\n\n/s/ Katherine R. Kelly\n\nName:\n\nKatherine R. Kelly\n\nTitle:\n\nVice President and Corporate Secretary"
+  }
+ ]
+}

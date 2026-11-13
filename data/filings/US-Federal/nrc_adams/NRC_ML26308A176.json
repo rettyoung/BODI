@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26308A176",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): OEDO-26-02609 2.206 Petition - Palisades Refueling Operations - Alan Blind - NRC Screening Email (EPID L-2026-CRS-0005) [['E-Mail']]",
+ "filed": "2026-11-12",
+ "entity": [
+  "NRC/NRR/DDLP/DLP1/ORLB2"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2630/ML26308A176.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26308A176.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26308A176",
+  "document_date": "2026-10-29"
+ },
+ "collected_at": "2026-11-13T13:14:28Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2630/ML26308A176.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2630/ML26308A176.pdf"
+  }
+ ]
+}

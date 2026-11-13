@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151327",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Trump Admin. Prepping More Federal Land for Data Centers",
+ "filed": "2026-11-13",
+ "url": "//www.rtoinsider.com/151327-trump-admin-prepping-more-federal-land-for-data-centers/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The Trump administration appears to be gearing up to advance data centers on federal lands despite the recent midterm elections results that saw Big Tech industry supporters voted out of office. \n The post  Trump Admin. Prepping More Federal Land for Data Centers  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-13T12:58:45Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151333",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "CISA, Peers Issue Quantum Security Guidance",
+ "filed": "2026-11-13",
+ "url": "//www.rtoinsider.com/151333-cisa-peers-issue-quantum-security-guidance/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " U.S. and Australian cybersecurity agencies have published guidelines for evaluating vendors' preparedness for the transition to post-quantum cryptography. \n The post  CISA, Peers Issue Quantum Security Guidance  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-13T12:58:45Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [
+  "crypto"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0000720515-26-000029",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "BASIN ELECTRIC POWER COOPERATIVE  (CIK 0000720515) 10-Q — full-text hit \"large load\" tariff",
+ "filed": "2026-11-12",
+ "url": "https://www.sec.gov/Archives/edgar/data/720515/000072051526000029/",
+ "entity": "BASIN ELECTRIC POWER COOPERATIVE  (CIK 0000720515)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-13T12:40:00Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

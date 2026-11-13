@@ -1,0 +1,33 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B111226-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-B111226-01 ERCOT Emergency Alerts Email List to Be Retired; Subscribers Encouraged to Sign Up for TXANS Emails and Text Messages, Which Will Include Energy Emergency Alerts",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-B111226-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B111226-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-13T12:57:39Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [
+  "emergency"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B111226-01",
+   "error": "blocked: block page (incapsula) at https://www.ercot.com/services/comm/mkt_notices/M-B111226-01"
+  }
+ ]
+}

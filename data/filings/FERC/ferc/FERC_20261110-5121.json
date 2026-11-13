@@ -48,11 +48,12 @@
  "documents": [
   {
    "url": "{'ferc_file': '860B2D95-D086-C4F9-A509-A1C6CDA00000', 'name': 'PGE20261110_2310_Drum_RockCreek_STID_Enc1.pdf', 'type': 'PDF'}",
-   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+   "error": "blocked: HTTP 403 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   },
   {
    "url": "{'ferc_file': 'BA635626-2624-C2AD-AC44-A1C6CDA00000', 'name': 'PGE20261110_2310_Drum_RockCreek_STID_Enc2.pdf', 'type': 'PDF'}",
-   "error": "blocked: HTTP 401 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
+   "error": "blocked: HTTP 403 for https://elibrary.ferc.gov/eLibraryWebAPI/api/File/DownloadP8File"
   }
- ]
+ ],
+ "enriched_at": "2026-11-13T13:15:44Z"
 }

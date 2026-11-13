@@ -1,0 +1,33 @@
+{
+ "id": "MO:658495",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "523",
+ "filed": "2026-11-09",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/658495",
+ "fetch": [
+  {
+   "mo_filing": "658495"
+  }
+ ],
+ "collected_at": "2026-11-13T12:45:47Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/897839",
+   "name": null,
+   "bytes": 656049,
+   "sha256": "cb73f92abf027685d7becf68c20483fa90bdeed4cf24ad5890ded0b5e23585f4",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                                            FILED\n                                      November 9, 2026\n                                       Missouri Public\n                                     Service Commission\nExhibit No. 174\n\n\n\n\n                                    Staff – Exhibit 174\n  True-Up Rebuttal Testimony of Seoung Joun Won, PhD\n                               Case No. ER-2026-0143\n\f"
+  }
+ ]
+}

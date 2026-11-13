@@ -1,0 +1,20 @@
+{
+ "id": "COURT:o:11060366",
+ "jur": "WV",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "23-728",
+ "title": "Timberline Four Seasons Utilities, Inc. and Canaan Valley Public Service District v. Kapitus Servicing, Inc.",
+ "filed": "2026-11-12",
+ "url": "https://www.courtlistener.com/opinion/11060366/timberline-four-seasons-utilities-inc-and-canaan-valley-public-service/",
+ "fetch": [],
+ "meta": {
+  "court": "West Virginia Supreme Court",
+  "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+ },
+ "collected_at": "2026-11-13T13:11:32Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

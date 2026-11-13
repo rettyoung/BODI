@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/e501d7d5-d4b6-4ceb-827a-b079932df795:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 928",
+ "title": "Relating to required municipal and county approval to construct a data center.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/HB928/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-13T13:08:43Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

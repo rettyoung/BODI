@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:118-S-4288:2024-05-08",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "S 4288",
+ "title": "Efficient Nuclear Licensing Hearings Act",
+ "filed": "2024-05-08",
+ "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4288",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Read twice and referred to the Committee on Environment and Public Works.",
+  "keywords": [
+   "nuclear"
+  ]
+ },
+ "collected_at": "2026-11-13T13:02:58Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

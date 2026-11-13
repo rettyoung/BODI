@@ -1,0 +1,35 @@
+{
+ "id": "MO:658493",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0143",
+ "title": "521",
+ "filed": "2026-11-09",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/658493",
+ "fetch": [
+  {
+   "mo_filing": "658493"
+  }
+ ],
+ "collected_at": "2026-11-13T12:46:02Z",
+ "run_id": "2026-11-13-1236",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/897836",
+   "name": null,
+   "bytes": 794873,
+   "sha256": "260dffeb77795dae645c6e9be68c0b0d0be60c88d27fa9111aef3b1fcedfb86e",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 5,
+   "truncated": false,
+   "text": "                                         FILED\n                                   November 9, 2026\n                                    Missouri Public\n                                  Service Commission\nExhibit No. 172\n\n\n\n\n                                 Staff – Exhibit 172\n         True-Up Rebuttal Testimony of Keith Majors\n                            Case No. ER-2026-0143\n\f                                       Exhibit No.:\n                                          Issue(s):    Revenue Requirement\n                                          Witness:     Keith Majors\n                                 Sponsoring Party:     MoPSC Staff\n                                    Type of Exhibit:   True-Up Rebuttal Testimony\n                                         Case No.:     ER-2026-0143\n                         Date Testimony Prepared:      September 23, 2026\n\n\n\n\nMISSOURI PUBLIC SERVICE COMMISSION\n  FINANCIAL AND BUSINESS ANALYSIS DIVISION\n\n            AUDITING DEPARTMENT\n\n\n\n\n         TRUE-UP REBUTTAL TESTIMONY\n\n                         OF\n\n                 KEITH MAJORS\n\n\n\n\nEVERGY METRO, INC., d/b/a Evergy MISSOURI METRO\n\n\n             CASE NO. ER-2026-0143\n\n\n               Jefferson City, Missouri\n                   September 2026\n\f1                              TRUE-UP REBUTTAL TESTIMONY\n\n2                                                 OF\n\n3                                       KEITH MAJORS\n\n4                                   EVERGY METRO, INC.,\n5                              d/b/a EVERGY MISSOURI METRO\n\n6                                   CASE NO. ER-2026-0143\n\n7          Q.     Please state your name and business address.\n\n8          A.     Keith Majors, Fletcher Daniels Office Building, 615 East 13th Street,\n\n9    Room 201, Kansas City, Missouri, 64106.\n\n10         Q.     By whom are you employed and in what capacity?\n\n11         A.     I am a Utility Regulatory Audit Unit Supervisor employed by the\n\n12   Staff (“Staff”) of the Missouri Public Service Commission (“Commission”).\n\n13         Q.     Are you the same Keith Majors who previously provided testimony in\n\n14   this case?\n\n15         A.     Yes. I provided direct testimony in this case on June 30, 2026, rebuttal\n\n16   testimony on August 11, and surrebuttal and true-up direct testimony on September 10.\n\n17         Q.     What is the purpose of your true-up rebuttal testimony?\n\n18         A.     The purpose of my true-up rebuttal testimony is to provide an update to\n\n19   Staff’s revenue requirement.\n\n20   REVENUE REQUIREMENT\n\n21         Q.     Has Staff’s revenue requirement changed since its true-up direct filing?\n\n22         A.     Yes.   Subsequent    to   its    true-up   direct   filing,   Staff’s   revenue\n\n23   requirement model increased to $65,205,026, $71,723,677, and $78,192,567 million\n\n\n                                               Page 1\n\f    True-Up Rebuttal Testimony\n    of Keith Majors\n\n1   at Staff’s respective low, mid, and high range for rate of return. The increase in\n\n2   revenue requirement is due to corrections in Staff’s adjustments for property taxes\n\n3   and income taxes. This recommended true-up revenue requirement is before the\n\n4   inclusion of the Large Load Power Service (“LLPS”) revenues as calculated by Staff\n\n5   witness Sarah L.K. Lange.\n\n6          Q.     Does this conclude your true-up rebuttal testimony?\n\n7          A.     Yes it does.\n\n\n\n\n                                            Page 2\n\f\f"
+  }
+ ]
+}
