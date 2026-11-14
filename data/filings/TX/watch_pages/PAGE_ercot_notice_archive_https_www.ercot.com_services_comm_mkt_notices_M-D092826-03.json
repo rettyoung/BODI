@@ -1,0 +1,42 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-D092826-03",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-D092826-03 Implementation Details of NPRR1281 and NPRR1327 (Settlement-related)",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-D092826-03",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-D092826-03"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-14T11:56:37Z",
+ "run_id": "2026-11-14-1144",
+ "keywords": [
+  "NPRR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-D092826-03",
+   "name": null,
+   "bytes": 8863,
+   "sha256": "09a5e1421a28caa71b6590aea34cefeb1ef98cd20c25e53324d998204fc7e0e6",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_PRR_SCR@lists.ercot.com,Notice_Settlements@lists.ercot.com,Notice_CRR@lists.ercot.com,Notice_Operations@lists.ercot.com\n\nSent:\n\n11/13/26, 8:41 AM\n\nSubject:\n\nM-D092826-03 Implementation Details of NPRR1281 and NPRR1327 (Settlement-related)\n\nNOTICE DATE:\n November 13, 2026\n\nNOTICE TYPE:\n M-D092826-03 NPRR/SCR\n\nSHORT DESCRIPTION:\n Implementation Details of NPRR1281 and NPRR1327 (Settlement-related)\n\nINTENDED AUDIENCE:\n All Market Participants\n\nDAYS AFFECTED:\n November 15, 2026\n\nLONG DESCRIPTION: \nAs previously noted in Market Notices \nM-D092826-01\n and \nM-D0928206-02\n, \nSettlement-related changes to the Protocols associated with Nodal Protocol Revision Request (NPRR) 1281, Improvements to Alternate FFSS Resource Designation, and NPRR 1327, As-Built for NPRR1281, Improvements to Alternate FFSS Resource Designation, became effective on October 29, 2026.  With the beginning of the Firm Fuel Supply Service (FFSS) Obligation Period, the first Operating Day to utilize these Settlement-related changes will be November 15, 2026.  Qualified Scheduling Entities (QSEs) representing FFSS Resources (FFSSRs) must follow these updated requirements for the upcoming FFSS Obligation Period.\n\nNPRR1281\n and \nNPRR1327\n introduce the following Settlement-related changes to the Protocols:\n\nSection 3.14.5, Firm Fuel Supply Service: Automates how ERCOT determines availability data for the FFSS Hourly Rolling Equivalent Availability Factor (FFSSHREAF) calculation. ERCOT will use the Availability Plan for the primary or any approved alternate Generation Resource providing FFSS. With this automation, QSEs no longer need to email ERCOT when the FFSSR acting as the primary Generation Resource changes, although a call to the control room operator is still required.\n\nSection 6.6.14.2, Firm Fuel Supply Service Hourly Standby Fee Payment and Fuel Replacement Cost Recovery: New paragraph (3) clarifies how ERCOT determines the High Sustained Limit (HSL) when a QSE submits multiple Availability Plans for alternate Generation Resources.\n\nSection 8.1.1.2.1.6, Firm Fuel Supply Service Resource Qualification, Testing, Decertification, and Recertification: Revised paragraph (7) clarifies that a QSE must submit an Availability Plan only for an alternate Generation Resource that was designated in the FFSS Offer Submission Form and only when the QSE intends that Resource to replace the primary as the FFSSR.\n\nACTION REQUIRED:\n Market Participants with shadow Settlement systems should update them for the Protocol revisions in NPRR1281 and NPRR1327.\n\nADDITIONAL INFORMATION:\n\nNPRR1281\n and \nNPRR1327\n and the associated documents can be found on the ERCOT website.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ],
+ "enriched_at": "2026-11-14T12:16:53Z"
+}

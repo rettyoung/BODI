@@ -1,0 +1,33 @@
+{
+ "id": "NRC:ML26316A426",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000331",
+ "title": "Duane Arnold (NextEra restart): NRC Staff Brief in Opposition to the Physicians for Social Responsibility Iowa Appeal of LBP-26-9 [['Legal-Pleading']]",
+ "filed": "2026-11-13",
+ "entity": [
+  "NRC/OGC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2631/ML26316A426.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26316A426.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Duane Arnold (NextEra restart)",
+  "accession": "ML26316A426",
+  "document_date": "2026-11-12"
+ },
+ "collected_at": "2026-11-14T12:15:31Z",
+ "run_id": "2026-11-14-1144",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26316A426.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2631/ML26316A426.pdf"
+  }
+ ]
+}

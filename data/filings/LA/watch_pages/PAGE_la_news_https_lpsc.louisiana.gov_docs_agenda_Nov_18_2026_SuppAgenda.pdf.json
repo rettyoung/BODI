@@ -1,0 +1,42 @@
+{
+ "id": "PAGE:la_news:https://lpsc.louisiana.gov/docs/agenda/Nov_18_2026_SuppAgenda.pdf",
+ "jur": "LA",
+ "source": "page:la_news",
+ "kind": "news",
+ "docket": null,
+ "title": "November 18, 2026 Supplemental Agenda",
+ "filed": null,
+ "url": "https://lpsc.louisiana.gov/docs/agenda/Nov_18_2026_SuppAgenda.pdf",
+ "fetch": [
+  {
+   "url": "https://lpsc.louisiana.gov/docs/agenda/Nov_18_2026_SuppAgenda.pdf"
+  }
+ ],
+ "meta": {
+  "bkey": "page:la_news",
+  "rto": null,
+  "page": "https://lpsc.louisiana.gov/",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-14T11:56:23Z",
+ "run_id": "2026-11-14-1144",
+ "keywords": [
+  "nuclear",
+  "uprate"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://lpsc.louisiana.gov/docs/agenda/Nov_18_2026_SuppAgenda.pdf",
+   "name": null,
+   "bytes": 54546,
+   "sha256": "6b774d3bd156a81a072679be037e1798c5307482d1598364607272d784627667",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "                         LOUISIANA PUBLIC SERVICE COMMISSION\n                                SUPPLEMENTAL AGENDA\n                           BUSINESS AND EXECUTIVE SESSION\n                               NOVEMBER 18, 2026, 9:00 AM\n                       GALVEZ BUILDING, 1ST FLOOR NATCHEZ ROOM\n\nEx. 18   U-36959 - Entergy Louisiana, LLC, ex parte. In re: Application for an increase   Skrmetta ________\n         in rates, whether through a Formula Rate Plan extension or rate review, and      Coussan ________\n         proposed revisions to certain fees assessed to customers.                        Campbell ________\n                                                                                          Francis  ________\n         In re: Discussion and possible vote on ELL’s Motion for Approval of a            Lewis    ________\n         Stipulated Settlement, pursuant to Rule 51.\n\n         At the request of Chairman Skrmetta.\nEx. 19   U-37677 - Entergy Louisiana, LLC, ex parte. In re: Application for approval      Skrmetta ________\n         to complete uprate project at the Waterford 3 Nuclear Station, including cost    Coussan ________\n         recovery.                                                                        Campbell ________\n                                                                                          Francis  ________\n         In re: Discussion and possible vote on ELL’s Motion for Approval of an           Lewis    ________\n         Uncontested Stipulated Settlement, pursuant to Rule 57.\n\n         At the request of Chairman Skrmetta.\nEx. 20   U-37963 - Cleco Power LLC and Pine JV Holdings LLC. In re: Joint                 Skrmetta ________\n         application of Cleco Power LLC and Pine JV Holdings LLC for authorization        Coussan ________\n         for the change of ownership and control of Cleco Power LLC.                      Campbell ________\n                                                                                          Francis ________\n         In re: Discussion and possible vote on Cleco Power and JV Holdings’              Lewis    ________\n         Motion for Approval of an Uncontested Stipulated Settlement, pursuant\n         to Rule 57.\n\n         At the request of Commissioner Francis.\n\n\n\n\n                                                                    November 18, 2026 Supplemental Agenda\n                                                                                               Page 1 of 1\n\f"
+  }
+ ]
+}

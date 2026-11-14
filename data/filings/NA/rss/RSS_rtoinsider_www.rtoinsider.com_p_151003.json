@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151003",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "The Federal Playbook Against Data Center Bans",
+ "filed": "2026-11-13",
+ "url": "//www.rtoinsider.com/151003-the-federal-playbook-against-data-center-bans/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " President Donald Trump has substantial authority to challenge state and local data center moratoriums without waiting for Congress to pass another law, writes energy consultant Colton Overcash. \n The post  The Federal Playbook Against Data Center Bans  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-14T11:58:37Z",
+ "run_id": "2026-11-14-1144",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

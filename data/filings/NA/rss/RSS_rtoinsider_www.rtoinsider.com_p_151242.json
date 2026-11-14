@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151242",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Stakeholders Partially Support CPUC’s AB 825 Implementation Plan",
+ "filed": "2026-11-13",
+ "url": "//www.rtoinsider.com/151242-tbd-cpuc-ab-825-kick-off-meeting/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Stakeholders generally agree about how the CPUC should implement certain requirements of AB 825, but some are expressing reservations around how the shift in CAISO market oversight could affect resource adequacy arrangements and access to data. \n The post  Stakeholders Partially Support CPUC’s AB 825 Implementation Plan  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-14T11:58:37Z",
+ "run_id": "2026-11-14-1144",
+ "keywords": [
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": []
+}

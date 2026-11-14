@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:116-S-649:2019-05-01",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "S 649",
+ "title": "Nuclear Waste Informed Consent Act",
+ "filed": "2019-05-01",
+ "url": "https://www.congress.gov/bill/116th-congress/senate-bill/649",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Committee on Environment and Public Works. Hearings held. Hearings printed: S.Hrg. 116-29.",
+  "keywords": [
+   "nuclear"
+  ]
+ },
+ "collected_at": "2026-11-14T12:02:53Z",
+ "run_id": "2026-11-14-1144",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}

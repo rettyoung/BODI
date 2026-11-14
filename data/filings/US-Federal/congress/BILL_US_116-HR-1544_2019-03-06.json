@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:116-HR-1544:2019-03-06",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 1544",
+ "title": "Nuclear Waste Informed Consent Act",
+ "filed": "2019-03-06",
+ "url": "https://www.congress.gov/bill/116th-congress/house-bill/1544",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Referred to the Subcommittee on Environment and Climate Change.",
+  "keywords": [
+   "nuclear"
+  ]
+ },
+ "collected_at": "2026-11-14T12:02:53Z",
+ "run_id": "2026-11-14-1144",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}
