@@ -1,31 +1,14 @@
 {
  "backfill_since": null,
- "run_id": "2026-11-14-1144",
- "started": "2026-11-14T11:44:22Z",
+ "run_id": "2026-11-15-1214",
+ "started": "2026-11-15T12:14:41Z",
  "sources": {
-  "ferc_eqr": {
-   "since": "2026-11-10",
-   "found": 0,
+  "studies": {
+   "since": "2026-11-11",
+   "found": 2,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "pudl_eqr": {
-     "status": "ok",
-     "note": "no new quarter (latest 2026Q3)"
-    }
-   },
-   "notes": [],
-   "seconds": 3.0,
-   "consecutive_failures": 0
-  },
-  "studies": {
-   "since": "2026-11-10",
-   "found": 2,
-   "new": 1,
-   "baselined_now": 0,
-   "kept": 1,
    "status": "ok",
    "subsources": {
     "osti:\"interconnection queue\" OR \"qu": {
@@ -42,11 +25,11 @@
     }
    },
    "notes": [],
-   "seconds": 19.2,
+   "seconds": 9.1,
    "consecutive_failures": 0
   },
   "regulations_gov": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -59,7 +42,7 @@
     }
    },
    "notes": [],
-   "seconds": 42.1,
+   "seconds": 42.2,
    "consecutive_failures": 0
   },
   "ferc": {
@@ -68,47 +51,47 @@
    "error": "HTTP 403 for https://elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch",
    "subsources": {},
    "seconds": 3.0,
-   "consecutive_failures": 3
+   "consecutive_failures": 4
   },
   "federal_register": {
-   "since": "2026-11-10",
-   "found": 6,
-   "new": 3,
+   "since": "2026-11-11",
+   "found": 5,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 3,
+   "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 48.1,
+   "seconds": 39.0,
    "consecutive_failures": 0
   },
   "edgar": {
-   "since": "2026-11-10",
-   "found": 11,
+   "since": "2026-11-11",
+   "found": 8,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 117.3,
+   "seconds": 118.0,
    "consecutive_failures": 0
   },
   "tx_puct": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 6,
-   "new": 0,
+   "new": 2,
    "baselined_now": 0,
-   "kept": 0,
+   "kept": 2,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 27.2,
+   "seconds": 45.1,
    "consecutive_failures": 0
   },
   "az_acc": {
-   "since": "2026-11-10",
-   "found": 4,
+   "since": "2026-11-11",
+   "found": 3,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -119,19 +102,19 @@
    "consecutive_failures": 0
   },
   "ga_psc": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 1,
-   "new": 1,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 1,
+   "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 9.6,
+   "seconds": 6.6,
    "consecutive_failures": 0
   },
   "la_lpsc": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -145,25 +128,23 @@
    "consecutive_failures": 0
   },
   "ok_occ": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 100,
-   "new": 2,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 2,
+   "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [
     "ok PUD2026-000031: hitCount 176 after 5 variants",
-    "ok page-text non-JSON: HTTP 500 text/plain; charset=utf-8 83 bytes \"Exception of type 'Laserfiche.RepositoryAccess.ObjectNotFoundException' was thrown.\"",
-    "ok PUD2026-000046: hitCount 138 after 5 variants",
-    "ok page-1 confirmations by route: {'pdf_page1': 2}"
+    "ok PUD2026-000046: hitCount 138 after 5 variants"
    ],
-   "seconds": 126.8,
+   "seconds": 156.0,
    "consecutive_failures": 0
   },
   "ks_kcc": {
-   "since": "2026-11-10",
-   "found": 1,
+   "since": "2026-11-11",
+   "found": 0,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -174,15 +155,15 @@
    "consecutive_failures": 0
   },
   "nm_prc": {
-   "since": "2026-11-10",
-   "found": 6,
+   "since": "2026-11-11",
+   "found": 3,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [
-    "nm 25-00079-UT: 3 documents in window",
+    "nm 25-00079-UT: 0 documents in window",
     "nm 25-00082-UT: 0 documents in window",
     "nm 26-0000062: 0 documents in window"
    ],
@@ -190,19 +171,19 @@
    "consecutive_failures": 0
   },
   "mo_efis": {
-   "since": "2026-11-10",
-   "found": 56,
-   "new": 3,
+   "since": "2026-11-11",
+   "found": 51,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 3,
+   "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 30.3,
+   "seconds": 15.3,
    "consecutive_failures": 0
   },
   "al_psc": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -210,15 +191,15 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 36.5,
+   "seconds": 36.3,
    "consecutive_failures": 0
   },
   "watch_pages": {
-   "since": "2026-11-10",
-   "found": 1409,
-   "new": 29,
+   "since": "2026-11-11",
+   "found": 1408,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 26,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "grda_board": {
@@ -391,7 +372,7 @@
     },
     "doe_news": {
      "status": "ok",
-     "note": "7 links"
+     "note": "6 links"
     },
     "doe_202c": {
      "status": "ok",
@@ -403,15 +384,15 @@
     }
    },
    "notes": [],
-   "seconds": 273.6,
+   "seconds": 198.0,
    "consecutive_failures": 0
   },
   "rss": {
-   "since": "2026-11-10",
-   "found": 45,
-   "new": 8,
+   "since": "2026-11-11",
+   "found": 41,
+   "new": 1,
    "baselined_now": 0,
-   "kept": 2,
+   "kept": 1,
    "status": "ok",
    "subsources": {
     "pjm_insidelines": {
@@ -468,15 +449,15 @@
     }
    },
    "notes": [],
-   "seconds": 56.7,
+   "seconds": 56.3,
    "consecutive_failures": 0
   },
   "ir_decks": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 241,
-   "new": 3,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 3,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "ir:AEP": {
@@ -545,11 +526,11 @@
     }
    },
    "notes": [],
-   "seconds": 194.8,
+   "seconds": 180.7,
    "consecutive_failures": 0
   },
   "mirrors": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 29,
    "new": 0,
    "baselined_now": 0,
@@ -574,11 +555,11 @@
     }
    },
    "notes": [],
-   "seconds": 12.9,
+   "seconds": 12.2,
    "consecutive_failures": 0
   },
   "eia": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -591,27 +572,27 @@
     }
    },
    "notes": [],
-   "seconds": 27.7,
+   "seconds": 23.5,
    "consecutive_failures": 0
   },
   "congress": {
-   "since": "2026-11-10",
-   "found": 19,
-   "new": 3,
+   "since": "2026-11-11",
+   "found": 18,
+   "new": 1,
    "baselined_now": 0,
-   "kept": 3,
+   "kept": 1,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 20.5,
+   "seconds": 22.3,
    "consecutive_failures": 0
   },
   "openstates": {
-   "since": "2026-11-10",
-   "found": 46,
-   "new": 2,
+   "since": "2026-11-11",
+   "found": 42,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 2,
+   "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
@@ -619,7 +600,7 @@
    "consecutive_failures": 0
   },
   "courtlistener": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 1,
    "new": 0,
    "baselined_now": 0,
@@ -627,11 +608,11 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 171.0,
+   "seconds": 169.8,
    "consecutive_failures": 0
   },
   "queues": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -643,7 +624,7 @@
    "consecutive_failures": 0
   },
   "legistar": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -656,19 +637,19 @@
     },
     "maricopa": {
      "status": "ok",
-     "note": "2 matters, 0 on-topic"
+     "note": "0 matters, 0 on-topic"
     },
     "phoenix": {
      "status": "ok",
-     "note": "2 matters, 0 on-topic"
+     "note": "0 matters, 0 on-topic"
     },
     "mesa": {
      "status": "ok",
-     "note": "1 matters, 0 on-topic"
+     "note": "0 matters, 0 on-topic"
     },
     "columbus": {
      "status": "ok",
-     "note": "21 matters, 0 on-topic"
+     "note": "11 matters, 0 on-topic"
     },
     "sanantonio": {
      "status": "ok",
@@ -680,11 +661,11 @@
     },
     "kansascity": {
      "status": "ok",
-     "note": "9 matters, 0 on-topic"
+     "note": "3 matters, 0 on-topic"
     },
     "washoe-nv": {
      "status": "ok",
-     "note": "18 matters, 0 on-topic"
+     "note": "16 matters, 0 on-topic"
     }
    },
    "notes": [],
@@ -692,33 +673,28 @@
    "consecutive_failures": 0
   },
   "courts_state": {
-   "since": "2026-11-10",
-   "found": 1,
-   "new": 1,
+   "since": "2026-11-11",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 3.4,
+   "consecutive_failures": 0
+  },
+  "agendas": {
+   "since": "2026-11-11",
+   "found": 0,
+   "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {
-    "txsc 2026-11-13": {
-     "status": "ok",
-     "note": "7690 chars"
-    }
-   },
-   "notes": [],
-   "seconds": 9.2,
-   "consecutive_failures": 0
-  },
-  "agendas": {
-   "since": "2026-11-10",
-   "found": 7,
-   "new": 7,
-   "baselined_now": 0,
-   "kept": 1,
-   "status": "ok",
-   "subsources": {
     "atlanta": {
      "status": "ok",
-     "note": "31 links, 1 new"
+     "note": "31 links, 0 new"
     },
     "storey": {
      "status": "ok",
@@ -726,7 +702,7 @@
     },
     "tulsa_council": {
      "status": "ok",
-     "note": "5 links, 5 new"
+     "note": "5 links, 0 new"
     },
     "tulsa_tmapc": {
      "status": "ok",
@@ -742,15 +718,15 @@
     },
     "fairfax_bos": {
      "status": "ok",
-     "note": "27 links, 1 new"
+     "note": "27 links, 0 new"
     }
    },
    "notes": [],
-   "seconds": 166.1,
+   "seconds": 87.5,
    "consecutive_failures": 0
   },
   "ercot_large_load": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 2,
    "new": 0,
    "baselined_now": 0,
@@ -779,11 +755,11 @@
     }
    },
    "notes": [],
-   "seconds": 21.8,
+   "seconds": 19.3,
    "consecutive_failures": 0
   },
   "nyiso_icap": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -796,20 +772,20 @@
     }
    },
    "notes": [],
-   "seconds": 0.4,
+   "seconds": 0.3,
    "consecutive_failures": 0
   },
   "nrc_adams": {
-   "since": "2026-11-10",
-   "found": 8,
-   "new": 1,
+   "since": "2026-11-11",
+   "found": 5,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 1,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "nrc:05000255": {
      "status": "ok",
-     "note": "7 documents"
+     "note": "4 documents"
     },
     "nrc:05000289": {
      "status": "ok",
@@ -849,11 +825,11 @@
     }
    },
    "notes": [],
-   "seconds": 30.4,
+   "seconds": 30.0,
    "consecutive_failures": 0
   },
   "ferc_forms": {
-   "since": "2026-11-10",
+   "since": "2026-11-11",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -866,41 +842,54 @@
     }
    },
    "notes": [],
-   "seconds": 5.2,
+   "seconds": 3.2,
+   "consecutive_failures": 0
+  },
+  "ferc_eqr": {
+   "since": "2026-11-11",
+   "found": 0,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "pudl_eqr": {
+     "status": "ok",
+     "note": "no new quarter (latest 2026Q3)"
+    }
+   },
+   "notes": [],
+   "seconds": 3.1,
    "consecutive_failures": 0
   }
  },
- "docs_fetched": 52,
- "new_items": 48,
+ "docs_fetched": 4,
+ "new_items": 4,
  "user_agent": "BlueOwl-RegTracker/4.0 (***)",
  "trigger": {
   "event": "schedule",
   "cron": "43 4 * * *"
  },
- "hours_since_previous_full_run": 22.5,
+ "hours_since_previous_full_run": 24.0,
  "collector_gap": false,
- "finished": "2026-11-14T12:16:53Z",
+ "finished": "2026-11-15T12:43:49Z",
  "backfill_text": {
-  "queue": 36,
+  "queue": 25,
   "enriched": 0,
-  "docs": 34,
-  "errors": 10,
+  "docs": 23,
+  "errors": 9,
   "status": "ok",
-  "doc_retry_filings": 25,
+  "doc_retry_filings": 16,
   "doc_retry_fixed": 0,
-  "doc_retry_still_failing": 23,
+  "doc_retry_still_failing": 14,
   "not_document": 0,
-  "retry_later": 9,
-  "gave_up": 1,
-  "candidates_filled": 2,
-  "remaining": 36,
-  "seconds": 76.8
+  "retry_later": 2,
+  "gave_up": 7,
+  "candidates_filled": 7,
+  "remaining": 25,
+  "seconds": 47.2
  },
  "http_hosts": {
-  "https://s3.us-west-2.amazonaws.com": {
-   "robots": "403",
-   "note": ""
-  },
   "https://www.osti.gov": {
    "robots": "200",
    "note": ""
@@ -1122,7 +1111,7 @@
    "note": ""
   },
   "https://www.nrc.gov": {
-   "robots": "200",
+   "robots": "403",
    "note": ""
   },
   "https://gridstrategiesllc.com": {
@@ -1225,14 +1214,6 @@
    "robots": "200",
    "note": ""
   },
-  "https://d18rn0p25nwr6d.cloudfront.net": {
-   "robots": "403",
-   "note": ""
-  },
-  "https://s21.q4cdn.com": {
-   "robots": "403",
-   "note": ""
-  },
   "https://www.psc.sc.gov": {
    "robots": "200",
    "note": ""
@@ -1297,14 +1278,6 @@
    "robots": "200",
    "note": ""
   },
-  "https://AtlantaCityGA.IQM2.com": {
-   "robots": "200",
-   "note": "crawl delay 60s honoured"
-  },
-  "https://www.cityoftulsa.org": {
-   "robots": "200",
-   "note": "no robots.txt (HTML app shell)"
-  },
   "https://api.ercot.com": {
    "robots": "404",
    "note": ""
@@ -1317,7 +1290,7 @@
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
   },
-  "https://downloads.regulations.gov": {
+  "https://s3.us-west-2.amazonaws.com": {
    "robots": "403",
    "note": ""
   },
@@ -1326,5 +1299,5 @@
    "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
   }
  },
- "seconds": 1952
+ "seconds": 1748
 }

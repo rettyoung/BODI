@@ -10599,11 +10599,15 @@
   "AGENDA:tulsa_council:https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32966": "2026-11-14",
   "AGENDA:tulsa_council:https://www.cityoftulsa.org/apps/COTDisplayDocument/?DocumentType=Agenda&DocumentIdentifiers=32967": "2026-11-14",
   "AGENDA:fairfax_bos:https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-land-use-policy-committee-meeting-nov-24-2026": "2026-11-14",
-  "NRC:ML26316A426": "2026-11-14"
+  "NRC:ML26316A426": "2026-11-14",
+  "TX:59475-6671": "2026-11-15",
+  "TX:58317-117": "2026-11-15",
+  "RSS:utilitydive:https://www.utilitydive.com/news/southern/874111/": "2026-11-15",
+  "BILL:US:118-HR-10321:2024-12-06": "2026-11-15"
  },
  "sources": {
   "ferc": {
-   "consecutive_failures": 3,
+   "consecutive_failures": 4,
    "data": {},
    "last_ok": "2026-11-11",
    "last_error": "HTTP 403 for https://elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch"
@@ -10611,7 +10615,7 @@
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "edgar": {
@@ -21044,13 +21048,13 @@
     },
     "ciks_date": "2026-11"
    },
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "az_acc": {
@@ -21059,18 +21063,18 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "ga_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "ok_occ": {
@@ -21218,19 +21222,19 @@
      "21776765": "CASE PUD 2026-000031 ENTRY NO. 160 FILED IN OCC COURT CLERK'S OFFICE ON 11/12/2026 - PAGE 1 OF 3 "
     }
    },
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "mo_efis": {
@@ -21965,37 +21969,37 @@
      "EF-2027-0142": "110525"
     }
    },
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "al_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-14",
+   "last_ok": "2026-11-15",
    "last_error": null
   },
   "eia": {
@@ -22005,25 +22009,25 @@
     "last_period": "2026-08"
    },
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -23923,13 +23927,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -23953,7 +23957,7 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -24178,7 +24182,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -24200,25 +24204,25 @@
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
@@ -24229,13 +24233,13 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -24253,7 +24257,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-14"
+   "last_ok": "2026-11-15"
   }
  },
  "baselined": [
@@ -24261,8 +24265,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 59,
- "last_run": "2026-11-14T12:16:53Z",
+ "runs": 60,
+ "last_run": "2026-11-15T12:43:49Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -24521,6 +24525,8 @@
    "AZ:472008",
    "AZ:472213",
    "AZ:472284",
+   "AZ:472341",
+   "AZ:472347",
    "AZDKT:E-00000A-25-0235",
    "AZDKT:E-01345A-25-0257",
    "AZDKT:E-01345A-26-0006",
@@ -25582,9 +25588,11 @@
    "NRC:ML26275A162",
    "NRC:ML26275A167",
    "NRC:ML26275A214",
+   "NRC:ML26278A197",
    "NRC:ML26278A307",
    "NRC:ML26278A322",
    "NRC:ML26278A328",
+   "NRC:ML26278A347",
    "NRC:ML26279A094",
    "NRC:ML26281A371",
    "NRC:ML26282A024",
@@ -25616,11 +25624,14 @@
    "NRC:ML26306A294",
    "NRC:ML26307A320",
    "NRC:ML26308A087",
+   "NRC:ML26308A176",
+   "NRC:ML26308A197",
    "NRC:ML26310A312",
    "NRC:ML26313A389",
    "OK:21732952",
    "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A101626-02",
    "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B102326-01",
+   "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B111226-01",
    "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-C110626-01",
    "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-D092826-03",
    "PAGE:puct_news:https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2023/PUCT_Texas_Advanced_Nuclear_Reactor_Working_Group_Named.pdf",
@@ -26791,15 +26802,8 @@
    "TX:59611-8"
   ],
   "attempts": {
-   "AZ:472347": 2,
-   "AZ:472341": 2,
-   "NRC:ML26308A197": 2,
-   "NRC:ML26278A347": 2,
-   "NRC:ML26308A176": 2,
-   "NRC:ML26278A197": 2,
-   "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B111226-01": 2,
-   "GA:229441": 1,
-   "NRC:ML26316A426": 1
+   "GA:229441": 2,
+   "NRC:ML26316A426": 2
   },
   "doc_retries": {
    "TX:58482-36": 1,
@@ -27075,28 +27079,28 @@
    "NRC:ML26301A133": 4,
    "NRC:ML26301A134": 4,
    "NRC:ML26302A310": 4,
-   "MO:658494": 2,
-   "MO:658496": 2,
-   "MO:658497": 2,
-   "MO:658498": 2,
-   "MO:658500": 2,
-   "MO:658501": 2,
-   "MO:658502": 2,
-   "MO:657940": 2,
-   "MO:657945": 2,
-   "MO:658196": 1,
-   "MO:658198": 1,
-   "FERC:20261110-5128": 1,
-   "FERC:20261110-5121": 1,
-   "NRC:ML26265A240": 1,
-   "NRC:ML26313A389": 1,
-   "NRC:ML26307A320": 1
+   "MO:658494": 3,
+   "MO:658496": 3,
+   "MO:658497": 3,
+   "MO:658498": 3,
+   "MO:658500": 3,
+   "MO:658501": 3,
+   "MO:658502": 3,
+   "MO:657940": 3,
+   "MO:657945": 3,
+   "MO:658196": 2,
+   "MO:658198": 2,
+   "FERC:20261110-5128": 2,
+   "FERC:20261110-5121": 2,
+   "NRC:ML26265A240": 2,
+   "NRC:ML26313A389": 2,
+   "NRC:ML26307A320": 2
   }
  },
  "last_full_run": {
-  "run_id": "2026-11-14-1144",
-  "started": "2026-11-14T11:44:22Z",
-  "finished": "2026-11-14T12:16:53Z",
+  "run_id": "2026-11-15-1214",
+  "started": "2026-11-15T12:14:41Z",
+  "finished": "2026-11-15T12:43:49Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }

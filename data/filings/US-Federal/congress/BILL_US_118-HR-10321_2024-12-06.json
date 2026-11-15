@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:118-HR-10321:2024-12-06",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 10321",
+ "title": "Nuclear REFUEL (Recycling Efficient Fuels Utilizing Expedited Licensing) Act",
+ "filed": "2024-12-06",
+ "url": "https://www.congress.gov/bill/118th-congress/house-bill/10321",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Referred to the House Committee on Energy and Commerce.",
+  "keywords": [
+   "nuclear"
+  ]
+ },
+ "collected_at": "2026-11-15T12:31:46Z",
+ "run_id": "2026-11-15-1214",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}
