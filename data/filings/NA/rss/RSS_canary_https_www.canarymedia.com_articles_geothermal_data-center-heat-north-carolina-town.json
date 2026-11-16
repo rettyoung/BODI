@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/geothermal/data-center-heat-north-carolina-town",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Could a data center’s waste heat warm a North Carolina town?",
+ "filed": "2026-11-16",
+ "url": "https://www.canarymedia.com/articles/geothermal/data-center-heat-north-carolina-town",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "In the Carolinas, Ohio, Texas, and many other states, Democrats routed incumbent Republicans in this month’s elections at least in part because voters fear an onslaught of AI data centers — the massive computer warehouses that threaten to suck up water supplies, increase climate and air pollution, and drive up energy…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-16T13:22:49Z",
+ "run_id": "2026-11-16-1307",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

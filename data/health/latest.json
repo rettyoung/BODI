@@ -1,35 +1,10 @@
 {
  "backfill_since": null,
- "run_id": "2026-11-15-1214",
- "started": "2026-11-15T12:14:41Z",
+ "run_id": "2026-11-16-1307",
+ "started": "2026-11-16T13:07:47Z",
  "sources": {
-  "studies": {
-   "since": "2026-11-11",
-   "found": 2,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {
-    "osti:\"interconnection queue\" OR \"qu": {
-     "status": "ok",
-     "note": "2 records"
-    },
-    "osti:\"data center\" AND (electricity": {
-     "status": "ok",
-     "note": "5 records"
-    },
-    "osti:\"load growth\" OR \"large loads\"": {
-     "status": "ok",
-     "note": "6 records"
-    }
-   },
-   "notes": [],
-   "seconds": 9.1,
-   "consecutive_failures": 0
-  },
   "regulations_gov": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -42,7 +17,7 @@
     }
    },
    "notes": [],
-   "seconds": 42.2,
+   "seconds": 42.1,
    "consecutive_failures": 0
   },
   "ferc": {
@@ -50,11 +25,11 @@
    "status": "ACCESS_REGRESSION",
    "error": "HTTP 403 for https://elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch",
    "subsources": {},
-   "seconds": 3.0,
-   "consecutive_failures": 4
+   "seconds": 3.1,
+   "consecutive_failures": 5
   },
   "federal_register": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 5,
    "new": 0,
    "baselined_now": 0,
@@ -62,35 +37,35 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 39.0,
+   "seconds": 39.1,
    "consecutive_failures": 0
   },
   "edgar": {
-   "since": "2026-11-11",
-   "found": 8,
+   "since": "2026-11-12",
+   "found": 9,
+   "new": 1,
+   "baselined_now": 0,
+   "kept": 1,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 117.7,
+   "consecutive_failures": 0
+  },
+  "tx_puct": {
+   "since": "2026-11-12",
+   "found": 5,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 118.0,
-   "consecutive_failures": 0
-  },
-  "tx_puct": {
-   "since": "2026-11-11",
-   "found": 6,
-   "new": 2,
-   "baselined_now": 0,
-   "kept": 2,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 45.1,
+   "seconds": 27.2,
    "consecutive_failures": 0
   },
   "az_acc": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 3,
    "new": 0,
    "baselined_now": 0,
@@ -102,7 +77,7 @@
    "consecutive_failures": 0
   },
   "ga_psc": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 1,
    "new": 0,
    "baselined_now": 0,
@@ -110,11 +85,11 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 6.6,
+   "seconds": 6.7,
    "consecutive_failures": 0
   },
   "la_lpsc": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -124,11 +99,11 @@
    "notes": [
     "la: U-37921 not found"
    ],
-   "seconds": 21.2,
+   "seconds": 21.3,
    "consecutive_failures": 0
   },
   "ok_occ": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 100,
    "new": 0,
    "baselined_now": 0,
@@ -139,11 +114,11 @@
     "ok PUD2026-000031: hitCount 176 after 5 variants",
     "ok PUD2026-000046: hitCount 138 after 5 variants"
    ],
-   "seconds": 156.0,
+   "seconds": 292.9,
    "consecutive_failures": 0
   },
   "ks_kcc": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -155,8 +130,8 @@
    "consecutive_failures": 0
   },
   "nm_prc": {
-   "since": "2026-11-11",
-   "found": 3,
+   "since": "2026-11-12",
+   "found": 1,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -171,19 +146,19 @@
    "consecutive_failures": 0
   },
   "mo_efis": {
-   "since": "2026-11-11",
-   "found": 51,
+   "since": "2026-11-12",
+   "found": 50,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 15.3,
+   "seconds": 15.4,
    "consecutive_failures": 0
   },
   "al_psc": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -191,11 +166,11 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 36.3,
+   "seconds": 36.5,
    "consecutive_failures": 0
   },
   "watch_pages": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 1408,
    "new": 0,
    "baselined_now": 0,
@@ -384,15 +359,15 @@
     }
    },
    "notes": [],
-   "seconds": 198.0,
+   "seconds": 202.6,
    "consecutive_failures": 0
   },
   "rss": {
-   "since": "2026-11-11",
-   "found": 41,
-   "new": 1,
+   "since": "2026-11-12",
+   "found": 36,
+   "new": 14,
    "baselined_now": 0,
-   "kept": 1,
+   "kept": 4,
    "status": "ok",
    "subsources": {
     "pjm_insidelines": {
@@ -449,11 +424,11 @@
     }
    },
    "notes": [],
-   "seconds": 56.3,
+   "seconds": 57.0,
    "consecutive_failures": 0
   },
   "ir_decks": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 241,
    "new": 0,
    "baselined_now": 0,
@@ -526,11 +501,11 @@
     }
    },
    "notes": [],
-   "seconds": 180.7,
+   "seconds": 186.9,
    "consecutive_failures": 0
   },
   "mirrors": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 29,
    "new": 0,
    "baselined_now": 0,
@@ -555,11 +530,11 @@
     }
    },
    "notes": [],
-   "seconds": 12.2,
+   "seconds": 12.5,
    "consecutive_failures": 0
   },
   "eia": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -572,35 +547,35 @@
     }
    },
    "notes": [],
-   "seconds": 23.5,
+   "seconds": 11.5,
    "consecutive_failures": 0
   },
   "congress": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 18,
-   "new": 1,
-   "baselined_now": 0,
-   "kept": 1,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 22.3,
-   "consecutive_failures": 0
-  },
-  "openstates": {
-   "since": "2026-11-11",
-   "found": 42,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 331.6,
+   "seconds": 14.6,
+   "consecutive_failures": 0
+  },
+  "openstates": {
+   "since": "2026-11-12",
+   "found": 36,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 360.7,
    "consecutive_failures": 0
   },
   "courtlistener": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 1,
    "new": 0,
    "baselined_now": 0,
@@ -608,11 +583,11 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 169.8,
+   "seconds": 169.5,
    "consecutive_failures": 0
   },
   "queues": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -624,7 +599,7 @@
    "consecutive_failures": 0
   },
   "legistar": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -673,7 +648,7 @@
    "consecutive_failures": 0
   },
   "courts_state": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -681,11 +656,11 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 3.4,
+   "seconds": 3.2,
    "consecutive_failures": 0
   },
   "agendas": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -722,11 +697,11 @@
     }
    },
    "notes": [],
-   "seconds": 87.5,
+   "seconds": 87.7,
    "consecutive_failures": 0
   },
   "ercot_large_load": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 2,
    "new": 0,
    "baselined_now": 0,
@@ -755,11 +730,11 @@
     }
    },
    "notes": [],
-   "seconds": 19.3,
+   "seconds": 18.7,
    "consecutive_failures": 0
   },
   "nyiso_icap": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -772,11 +747,11 @@
     }
    },
    "notes": [],
-   "seconds": 0.3,
+   "seconds": 0.2,
    "consecutive_failures": 0
   },
   "nrc_adams": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 5,
    "new": 0,
    "baselined_now": 0,
@@ -825,11 +800,11 @@
     }
    },
    "notes": [],
-   "seconds": 30.0,
+   "seconds": 30.1,
    "consecutive_failures": 0
   },
   "ferc_forms": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -842,11 +817,11 @@
     }
    },
    "notes": [],
-   "seconds": 3.2,
+   "seconds": 3.8,
    "consecutive_failures": 0
   },
   "ferc_eqr": {
-   "since": "2026-11-11",
+   "since": "2026-11-12",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -861,39 +836,59 @@
    "notes": [],
    "seconds": 3.1,
    "consecutive_failures": 0
+  },
+  "studies": {
+   "since": "2026-11-12",
+   "found": 2,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {
+    "osti:\"interconnection queue\" OR \"qu": {
+     "status": "ok",
+     "note": "2 records"
+    },
+    "osti:\"data center\" AND (electricity": {
+     "status": "ok",
+     "note": "5 records"
+    },
+    "osti:\"load growth\" OR \"large loads\"": {
+     "status": "ok",
+     "note": "6 records"
+    }
+   },
+   "notes": [],
+   "seconds": 9.1,
+   "consecutive_failures": 0
   }
  },
- "docs_fetched": 4,
- "new_items": 4,
+ "docs_fetched": 0,
+ "new_items": 5,
  "user_agent": "BlueOwl-RegTracker/4.0 (***)",
  "trigger": {
   "event": "schedule",
   "cron": "43 4 * * *"
  },
- "hours_since_previous_full_run": 24.0,
+ "hours_since_previous_full_run": 24.4,
  "collector_gap": false,
- "finished": "2026-11-15T12:43:49Z",
+ "finished": "2026-11-16T13:39:14Z",
  "backfill_text": {
-  "queue": 25,
+  "queue": 23,
   "enriched": 0,
-  "docs": 23,
-  "errors": 9,
+  "docs": 21,
+  "errors": 2,
   "status": "ok",
-  "doc_retry_filings": 16,
+  "doc_retry_filings": 21,
   "doc_retry_fixed": 0,
-  "doc_retry_still_failing": 14,
+  "doc_retry_still_failing": 19,
   "not_document": 0,
-  "retry_later": 2,
-  "gave_up": 7,
-  "candidates_filled": 7,
-  "remaining": 25,
-  "seconds": 47.2
+  "gave_up": 2,
+  "candidates_filled": 2,
+  "remaining": 23,
+  "seconds": 45.2
  },
  "http_hosts": {
-  "https://www.osti.gov": {
-   "robots": "200",
-   "note": ""
-  },
   "https://api.regulations.gov": {
    "robots": "403",
    "note": ""
@@ -1294,10 +1289,10 @@
    "robots": "403",
    "note": ""
   },
-  "https://images.edocket.azcc.gov": {
-   "robots": "error",
-   "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
+  "https://www.osti.gov": {
+   "robots": "200",
+   "note": ""
   }
  },
- "seconds": 1748
+ "seconds": 1887
 }

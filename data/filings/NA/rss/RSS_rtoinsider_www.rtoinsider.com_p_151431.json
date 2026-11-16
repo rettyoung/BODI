@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151431",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "$14.7B MTEP 26 Clears MISO Board Committee Vote",
+ "filed": "2026-11-15",
+ "url": "//www.rtoinsider.com/151431-mtep-26-clears-board-committee-vote/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " More than half of the $14.7 billion costs spread across 532 projects in MISO’s 2026 Transmission Expansion Plan are derived from large load entries on the system, prompting stakeholders to appeal for consumer protections. \n The post  $14.7B MTEP 26 Clears MISO Board Committee Vote  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-16T13:22:49Z",
+ "run_id": "2026-11-16-1307",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}
