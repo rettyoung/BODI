@@ -1,0 +1,26 @@
+{
+ "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210360",
+ "jur": null,
+ "source": "rss:pjm_insidelines",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM Proposes New Rules to Protect Grid Reliability as Data Center Demand Grows",
+ "filed": "2026-11-16",
+ "url": "https://insidelines.pjm.com/pjm-proposes-new-rules-to-protect-grid-reliability-as-data-center-demand-grows/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:pjm_insidelines",
+  "rto": "PJM",
+  "summary": " A PJM proposal to FERC aims to ensure that data centers and other large computational loads remain connected to the grid and do not contribute to significant, unexpected load transfer events during transmission disturbances. The proposal, filed Monday, Nov. 16., arrives on the heels of several such events in the PJM region in recent years. [&#8230;]",
+  "feed": "pjm_insidelines",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-17T14:02:47Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

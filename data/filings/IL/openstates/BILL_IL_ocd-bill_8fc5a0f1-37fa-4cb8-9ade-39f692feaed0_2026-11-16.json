@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/8fc5a0f1-37fa-4cb8-9ade-39f692feaed0:2026-11-16",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 5837",
+ "title": "LOC GOVT-ENERGY FACILTITIES",
+ "filed": "2026-11-16",
+ "url": "https://openstates.org/il/bills/104th/HB5837/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Added Chief Co-Sponsor Rep. Christopher \"C.D.\" Davidsmeyer",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-17T14:12:41Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

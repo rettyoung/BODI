@@ -1,0 +1,24 @@
+{
+ "id": "SEC:0001213900-26-120876",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "Host Digital Inc.  (HOST)  (CIK 0001948864) 10-Q — full-text hit \"data center\" \"electric service agreement\"",
+ "filed": "2026-11-16",
+ "url": "https://www.sec.gov/Archives/edgar/data/1948864/000121390026120876/",
+ "entity": "Host Digital Inc.  (HOST)  (CIK 0001948864)",
+ "fetch": [],
+ "meta": {
+  "query": "\"data center\" \"electric service agreement\"",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-17T13:53:22Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

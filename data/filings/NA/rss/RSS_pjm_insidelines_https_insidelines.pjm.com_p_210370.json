@@ -1,0 +1,28 @@
+{
+ "id": "RSS:pjm_insidelines:https://insidelines.pjm.com/?p=210370",
+ "jur": null,
+ "source": "rss:pjm_insidelines",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM Plan Would Cut Interconnection Process Time in Half",
+ "filed": "2026-11-16",
+ "url": "https://insidelines.pjm.com/pjm-proposal-would-cut-interconnection-process-time-in-half/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:pjm_insidelines",
+  "rto": "PJM",
+  "summary": " PJM has developed a new process designed to cut in half the time it takes to study new power generation and transmission service for large electricity users, including data centers. The Fast Energization process reduces projected timelines from two years to one and addresses the ongoing shortfall in new generation resources that is driving up [&#8230;]",
+  "feed": "pjm_insidelines",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-17T14:02:47Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "data center",
+  "interconnection",
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -22,13 +22,23 @@
  },
  "collected_at": "2026-11-13T13:14:25Z",
  "run_id": "2026-11-13-1236",
- "keywords": [],
+ "keywords": [
+  "nuclear"
+ ],
  "party_hits": [],
  "documents": [
   {
    "url": "https://www.nrc.gov/docs/ML2627/ML26278A347.pdf",
-   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2627/ML26278A347.pdf"
+   "name": null,
+   "bytes": 119459,
+   "sha256": "55b08f6fe549a435000c2ed7991f2c70d6a00e3d456f898fbb01928cf47d0d75",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "From:              Dennis Galvin\nTo:                \"Alan Blind\"\nCc:                Petition Resource\nSubject:           NRC Receipt of 10/4/2026 2.206 Submittal Regarding Palisades Refueling Operations\nDate:              Monday, October 5, 2026 1:45:00 PM\n\n\n\n\nHello Mr. Blind,\n\nThe U.S. Nuclear Regulatory Commission (NRC) staff has received your 10 CFR 2.206\nsubmittal regarding Palisades refueling operations, “Petition Pursuant to 10 CFR 2.206,”\ndated October 4, 2026. The NRC is considering the request for immediate actions and is\nperforming an initial screening of the submittal to determine if the petition, or portions of the\npetition, should be entered into the 2.206 process, consistent with Management Directive\n8.11, “Review Process for 10 CFR 2.206 Petitions,” (NRC’s Agencywide Documents\nAccess and Management System Accession No. ML18296A043). You will be contacted, in\nthe near future, regarding your request for immediate actions and the NRC staff’s initial\nscreening determination. Please contact me if you have any questions regarding the 2.206\npetition review process.\n\nNote that because the 2.206 petition process is a public process, the petition and all the\ninformation in it, including identity of the petitioner, will be made public at the end of the\nscreening process.\n\nThanks,\n\nDennis Galvin\nProject Manager / Agency 2.206 Petition Coordinator\nU.S. Nuclear Regulatory Commission\nOffice of Nuclear Reactor Regulation\nDivision of Operating Reactor Licensing\nPlant Licensing Branch II-2\n301-415-6256\n\f"
   }
  ],
- "enriched_at": "2026-11-15T12:43:42Z"
+ "enriched_at": "2026-11-17T14:20:14Z"
 }

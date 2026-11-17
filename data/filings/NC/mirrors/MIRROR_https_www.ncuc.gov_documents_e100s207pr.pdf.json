@@ -1,0 +1,46 @@
+{
+ "id": "MIRROR:https://www.ncuc.gov/documents/e100s207pr.pdf",
+ "jur": "NC",
+ "source": "mirror:nc_ncuc_main",
+ "kind": "filing",
+ "docket": null,
+ "title": "North Carolina Utilities Commission Issues Order on Carbon Plan and Integrated Resource Plan",
+ "filed": null,
+ "url": "https://www.ncuc.gov/documents/e100s207pr.pdf",
+ "entity": "NC Utilities Commission (main site)",
+ "fetch": [
+  {
+   "url": "https://www.ncuc.gov/documents/e100s207pr.pdf"
+  }
+ ],
+ "meta": {
+  "bkey": "mirror:nc_ncuc_main",
+  "mirror_of": null,
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-17T14:06:45Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "IRP",
+  "battery storage",
+  "integrated resource plan",
+  "load forecast",
+  "nuclear",
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ncuc.gov/documents/e100s207pr.pdf",
+   "name": null,
+   "bytes": 125508,
+   "sha256": "aafd12f17e34264881c12dd25adf1fd4660acb2583178ef739a4cb3bfc906e72",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                       State of North Carolina\n                                        Utilities Commission\n                                              COMMISSIONERS\n                                        William M. Brawley, Chairman\n                               Floyd B. McKissick, Jr.    John W. Gajda\n                               Tommy Tucker            Donald R. van der Vaart\n\n                           NORTH CAROLINA UTILITIES COMMISSION\n\n                                          PRESS RELEASE\n    Release: Immediate                                  Contact: James West, General Counsel\n\n    Date: November 16, 2026                             Phone: 919-733-3969\n\n                     NORTH CAROLINA UTILITIES COMMISSION\n          ISSUES ORDER ON CARBON PLAN AND INTEGRATED RESOURCE PLAN\n\nToday’s unanimous1 and bipartisan Carbon Plan and Integrated Resource Plan (CPIRP)\norder positions North Carolina for continued economic growth while balancing reliability,\nresource adequacy, energy security, and cost. The Commission’s decision follows a\ntwelve-day expert witness hearing and five public witness hearings held across the State\nand virtually. More than 600 people submitted consumer statements of position. Four\nparties submitted system modeling evidence and 11 parties filed expert witness testimony.\n\nThe order approves a diverse set of near-term actions to meet growing electricity demand,\nmaintain reliability, and protect customers. Those actions include:\n\n      •    Strategically extending certain coal-unit retirement dates beyond those approved\n           in the Commission’s 2024 CPIRP Order and requiring Duke to file an updated coal\n           retirement analysis with its next CPIRP;\n\n      •    Extending through 2028 the authorization for up to $440 million in advanced\n           nuclear development costs, preserving the option to develop either 600 MW of\n           small modular reactors or approximately 1,117 MW of large light water reactor\n           generation;\n\n      •    Opening a dedicated new nuclear resources docket and convening a technical\n           conference in 2027 to inform the Commission’s evaluation of reactor technology,\n\n\n\n1\n    Commissioner van der Vaart did not participate in the decision.\n\f       costs, financing, execution risks, and customer protections before any decision to\n       build a new nuclear plant;\n\n   •   Authorizing Duke to develop and submit amendments to the Nuclear Regulatory\n       Commission for two AP1000 units at the W.S. Lee site and revisions to the\n       combined license application for two AP1000 units at the Shearon Harris site;\n\n   •   Pursuing approximately 2,730 MW of new natural gas-fired combined-cycle\n       generation and approximately 1,111 MW of additional combustion-turbine\n       generation between 2030 and 2033;\n\n   •   Procuring up to 2,300 MW of new solar resources to be placed in service between\n       2032 and 2034;\n\n   •   Requiring solar procurements to include customer-protection measures, including\n       the volume adjustment mechanism, market depth adjustment mechanism, and an\n       independent evaluator;\n\n   •   Developing and procuring up to 2,700 MW of additional battery energy storage,\n       bringing planned system battery storage to as much as 5,400 MW by 2034;\n\n   •   Authorizing up to $55.6 million for near-term development of Bad Creek II,\n       including activities to preserve federal energy tax credits and the option to place\n       1,760 MW of pumped-storage hydropower in service by 2040; and\n\n   •   Authorizing Duke to continue planning to achieve the 22% reserve margin by 2031.\n\nThe Commission recognizes the check-and-adjust nature of the biennial CPIRP process,\nwhich allows it to respond to changing load forecasts, market conditions, technology\ncosts, and resource availability. Duke will submit its next proposed CPIRP in Fall 2027.\n\nThe complete order and record are available on the Commission’s website under Docket\nNo. E-100, Sub 207.\n\n\n\nRaleigh, North Carolina –\n\n\n\n\n                                            2\n\f"
+  }
+ ]
+}

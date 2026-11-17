@@ -1,0 +1,52 @@
+{
+ "id": "RSS:amazon_news:https://www.aboutamazon.com/news/sustainability/amazon-carbon-intensity-goal-electricity-emissions",
+ "jur": null,
+ "source": "rss:amazon_news",
+ "kind": "news",
+ "docket": null,
+ "title": "Amazon sets goal to cut electricity carbon intensity 65% by 2030",
+ "filed": "2026-11-17",
+ "url": "https://www.aboutamazon.com/news/sustainability/amazon-carbon-intensity-goal-electricity-emissions?utm_source=rss",
+ "entity": "Amazon",
+ "fetch": [
+  {
+   "url": "https://www.aboutamazon.com/news/sustainability/amazon-carbon-intensity-goal-electricity-emissions?utm_source=rss"
+  }
+ ],
+ "meta": {
+  "bkey": "rss:amazon_news",
+  "rto": null,
+  "summary": "As energy demand grows, Amazon is setting a new, science-aligned interim target for electricity emissions as a leading corporate buyer of carbon-free energy.",
+  "feed": "amazon_news",
+  "keyword_filter": false,
+  "text_filter": "\\b\\d[\\d,.]*\\s*(GW|MW|gigawatts?|megawatts?)\\b|power purchase agreement|\\bPPAs?\\b|nuclear|small modular|geothermal|electric(ity)? (utility|grid|rates?|supply|demand)|utility (company|commission|partner|bills?|rates?)|grid (connection|capacity|interconnection|upgrades?)|transmission (lines?|upgrades?)|substation|ratepayers?|pay (our|its|their) (own|full) (way|share)|(new|build|building|announc\\w*|invest\\w*)[^.]{0,80}(data ?cent(er|re)s?|datacenters?) (campus|site|project|region)",
+  "entity": "Amazon",
+  "text_filter_match": "te Pledge\n in 2019, we committed to reaching \nnet-zero carbon emissions by 2040\n, knowing that the electricity powering our business would be central to getting there. That's why we’ve built the largest corporate portfolio of carbon-free energy in the world: more than 700 projects globally and over 40 gigawatts of capacity, enough to power more than 12.1 million U.S. homes once completed. Now we’re ready to take the next step.\nToday, we’re setting a new goal: By 2030, we aim to cut the carbon intensity of the electricity our global operations use by 65%, compared with 2019. We’re doing this as energy dema"
+ },
+ "collected_at": "2026-11-17T14:03:07Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "battery storage",
+  "data center",
+  "interconnection",
+  "nuclear"
+ ],
+ "party_hits": [
+  "AWS",
+  "Amazon"
+ ],
+ "documents": [
+  {
+   "url": "https://www.aboutamazon.com/news/sustainability/amazon-carbon-intensity-goal-electricity-emissions?utm_source=rss",
+   "name": null,
+   "bytes": 222067,
+   "sha256": "57be3f8102186554601c715da01663a91d552d3671237e8b45687147a3df6cbe",
+   "ctype": "text/html; charset=utf-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Amazon sets goal to cut electricity carbon emissions 65% by 2030\nNews\nStores and Shopping\nAWS\nDevices\nEntertainment\nArtificial Intelligence\nWorkplace\nSustainability\nCommunity\nInternational\nFeatured Topics\nAmazon Leo\nOur Data Center Approach\nAbout Us\nWhat We Do\nWorking at Amazon\nLeadership Principles\nShareholder Letters\nReports\nFeatured Topics\nArtificial Intelligence\nAmazon's Custom Chips\nOur Impact\nJobs and Economic Impact\nCommunity\nSustainability\nSmall Businesses\nFeatured Topics\nAffordability\nBuilding Skills for the Future\nBuilding Strong Communities\nData Center Commitments\nSubscribe\nNews\nSustainability\nAmazon sets goal to cut electricity carbon intensity 65% by 2030  \nAs energy demand grows, Amazon is setting a new, science-aligned interim target for electricity emissions as a leading corporate buyer of carbon-free energy.\nShare\nWritten by \nKara Hurst\n, Chief Sustainability Officer at Amazon\nPublished:\n\nNovember 17, 2026\n3 min read\nKey takeaways\nAmazon aims to reduce the carbon emissions for every unit of electricity it uses by 65% by 2030.\nThe target covers electricity consumed by Amazon’s global operations and follows the International Energy Agency's net-zero pathway.\nAmazon has invested in more than \n700 carbon-free energy projects globally\n, with capacity to power more than 12.1 million U.S. homes once completed.\nWhen we co-founded \nThe Climate Pledge\n in 2019, we committed to reaching \nnet-zero carbon emissions by 2040\n, knowing that the electricity powering our business would be central to getting there. That's why we’ve built the largest corporate portfolio of carbon-free energy in the world: more than 700 projects globally and over 40 gigawatts of capacity, enough to power more than 12.1 million U.S. homes once completed. Now we’re ready to take the next step.\nToday, we’re setting a new goal: By 2030, we aim to cut the carbon intensity of the electricity our global operations use by 65%, compared with 2019. We’re doing this as energy demand rises, because we believe growing our business and cutting emissions can, and must, go hand in hand. Carbon intensity is one of the clearest ways to show that.\nAmazon to invest $7 billion in renewable energy in India by 2030\nAmazon also announced four new wind and solar projects in India, including its largest wind farm contracted in Asia to date.\nWe developed this goal and methodology based on the \nInternational Energy Agency’s Net Zero by 2050\n pathway and reviewed it with leading academics. We commit to updating it so it stays aligned with the latest climate science.\nWhat is carbon intensity and why does it matter?\nCarbon intensity tracks emissions per unit of electricity consumed, measured in carbon dioxide equivalent (CO₂e) per megawatt-hour (MWh). Put simply, by 2030 we aim for each unit of electricity we use to be associated with 65% fewer carbon emissions than in 2019. Because it measures progress per unit, it shows whether we’re decarbonizing our electricity supply and decoupling emissions from business growth, however much we grow. \nElectricity demand is rising fast across the technology sector, driven by cloud computing and AI. That’s a challenge for the whole industry. A near-term, measurable goal keeps us focused and gives customers a clear trajectory to track our progress against.\nHow Amazon approaches carbon credits, a key tool in the fight against climate change\nCarbon credits help unlock private sector climate finance at scale, and drive impact beyond our own operations.\nHow is Amazon investing in carbon-free energy?\nEvery new carbon-free energy project we bring online can help displace fossil-fuel generation on the grid, lowering the carbon intensity of the electricity we consume. Since 2019, BloombergNEF has consistently recognized us as one of the \nworld’s largest corporate purchasers of carbon-free energy\n.\nOur strategy spans power purchase agreements, utility-scale solar and wind farms, on-site generation, and advanced nuclear and geothermal energy. Together with \nX-energy\n, we aim to bring more than 5 gigawatts of new advanced nuclear power online across the U.S. by 2039, the largest commercial deployment target for \nsmall modular reactors\n to date. We focus in particular on countries where new carbon-free energy can make the biggest impact in \ndecarbonizing the grid\n. Our announcement this week that we plan to invest $7 billion in renewable energy in India by 2030 further supports this goal.\nAmazon’s carbon-free energy projects contribute $11 billion to US GDP, support nearly 22,000 jobs in local communities\nAmazon's solar, wind, nuclear, and battery storage investments drove economic growth across the U.S. from 2023 through 2025, per an Oxford Economics study. \nWhat comes next?\nMeeting this goal will mean scaling the carbon-free energy we already invest in and working alongside utilities, grid operators and policymakers to bring more carbon-free power online where we operate. All the while, we’ll seek to ensure these projects benefit local communities.\nThrough our Built Together initiative in the U.S., we invest in education, job training, energy affordability and \nwater preservation\n, and fund priorities that communities choose for themselves. This work is guided by the Amazon Data Center Commitment.\nWe’ll report our progress every year in our Sustainability Report.\nLearn more about how Amazon is \nmeeting the energy needs of the future\n.\nWe thank Dr. Joe DeCarolis, Department Head and Professor of Engineering and Public Policy at Carnegie Mellon University; Dr. Costa Samaras, Director of the Wilton E. Scott Institute for Energy Innovation at Carnegie Mellon University; Dr. Jeremy Gregory, Executive Director of the MIT Climate and Sustainability Consortium; and Dr. Wenjuan Liu, Climate Intelligence Manager at RMI, for reviewing a draft of this methodology and sharing their feedback, which we considered in preparing this document.\nTrending news and stories\nBlack Friday and Cyber Monday 2026: a first look at Amazon’s best deals\nRing announces Ring Robotics, ushering in a new era of security\nWhen is Amazon's Black Friday 2026 event? Here’s everything you need to know\nAmazon announces partnership with Uber Eats offering Prime members $0 delivery\n\nRelated Tags\n\nSustainability\nEnergy\nRenewable energy\nShare\nMore Amazon News\nPrevious slide\n1 / 1\nNext slide\nAmazon's first delivery station to pursue net-zero carbon in Europe opens in the UK\nSustainability\nNov. 1, 2026\nAmazon's water conservation and replenishment efforts around the world\nSustainability\nOct. 27, 2026\nAmazon invests in nuclear energy project targeting nearly 1 gigawatt of carbon-free energy for Indiana\nSustainability\nOct. 19, 2026\nHow Amazon’s $100 million Right Now Climate Fund is protecting and restoring nature around the world\nSustainability\nOct. 13, 2026\nHow Amazon is preparing for the energy needs of the future\nSustainability\nSept. 30, 2026\nAmazon co-founds The Climate Pledge Fashion Coalition to scale more sustainable materials and help prevent waste\nSustainability\nSept. 23, 2026\nAmazon invests $20 million in the Colorado River as part of a coalition to mobilize $100 million for water conservation \nSustainability\nSept. 21, 2026\nMeet the new paper replacing Amazon's plastic packaging\nSustainability\nSept. 9, 2026\nScroll to top button\nAmazon News\nPress Center\nAmazon.com\nInvestor Resources \nCountry & Language:\nEN\nCareers \nSite Map\nMore from Amazon\nAmazon.com\nConditions of Use\nAmazon Privacy Policy\n© 1996-\n2026\n\nAmazon.com, Inc. or its affiliates"
+  }
+ ]
+}

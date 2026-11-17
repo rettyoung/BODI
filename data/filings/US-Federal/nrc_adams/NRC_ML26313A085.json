@@ -1,0 +1,46 @@
+{
+ "id": "NRC:ML26313A085",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000289",
+ "title": "Crane Clean Energy Center / TMI-1 (Constellation restart): Crane Clean Energy Center - USACE Blast Analysis Review for Security Plan LAR [['E-Mail']]",
+ "filed": "2026-11-17",
+ "entity": [
+  "NRC/NRR/DDNSIR/DSP/PCLB"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2631/ML26313A085.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26313A085.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Crane Clean Energy Center / TMI-1 (Constellation restart)",
+  "accession": "ML26313A085",
+  "document_date": "2026-10-13"
+ },
+ "collected_at": "2026-11-17T14:18:57Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "emergency",
+  "nuclear"
+ ],
+ "party_hits": [
+  "Constellation"
+ ],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26313A085.pdf",
+   "name": null,
+   "bytes": 731830,
+   "sha256": "bdabfce2c9cae79b32986f476552d46f1676c66f37e321b3d1ae0582acd9480d",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "Brent Ballard\n\nFrom:                           Steve Sarver\nSent:                           Tuesday, October 13, 2026 2:06 PM\nTo:                             Brent Ballard\nSubject:                        FW: RE: RE: Blast analysis review.\n\n\n\nBrent,\n\nPlease add the attached email chain to the Crane docket.\n\nThanks,\n\nSteven Sarver, Ed.D. | Security Specialist\nMobile: 619-806-5650\n\n\nFrom: Nelson, Andrew C CIV USARMY CENWO (USA) <Andrew.C.Nelson@usace.army.mil>\nSent: Thursday, October 1, 2026 1:37 PM\nTo: Steve Sarver <Steven.Sarver@nrc.gov>\nSubject: [External_Sender] RE: RE: Blast analysis review.\n\nSteven,\n\nThe blast analysis that was reviewed from Crane Clean Energy Center was adequate to show the acceptability of\nthe equipment for the smaller DBT.\n\nPlease let me know if you need any more detail.\n\nAndrew Nelson, PE\nStructural Engineer\nACP CoS Program Manager\nProtective Design MCX\nUS Army Corps of Engineers\nO ice 402-995-2398\nMobile 402-971-9924\nhttps://pdc.erdc.dren.mil/\n\n\n\n\nFrom: Steve Sarver <Steven.Sarver@nrc.gov>\nSent: Thursday, October 1, 2026 7:43 AM\nTo: Nelson, Andrew C CIV USARMY CENWO (USA) <Andrew.C.Nelson@usace.army.mil>\nSubject: [Non-DoD Source] RE: RE: Blast analysis review.\n\nGood morning, Andrew,\n\n                                                         1\n\fCould you please send me an email, or provide a similar written statement, conﬁrming that you reviewed\nthe Crane Clean Energy Center blast analysis and documenting the results of that review based on our\nphone conversation? You do not need to include speciﬁc details about the equipment I asked about. I\nneed this documentation to support auditability and the associated project records.\n\nI would prefer that the document not contain sensitive information. If that is not possible, you may send\nit to me via SIPRNet at steven.sarver@nrc.sgov.gov.\n\nThank you for your assistance.\n\nSteven Sarver, Ed.D. | Security Specialist\nMobile: 619-806-5650\n\n\nFrom: Nelson, Andrew C CIV USARMY CENWO (USA) <Andrew.C.Nelson@usace.army.mil>\nSent: Tuesday, August 25, 2026 4:56 PM\nTo: Steve Sarver <Steven.Sarver@nrc.gov>; Tomanek, Matthew T CIV USARMY CENWO (USA)\n<Matthew.T.Tomanek@usace.army.mil>\nSubject: [External_Sender] RE: Blast analysis review.\n\nSteven,\n\nI have sent my comments on SIPR to Jeremiah Rey. I apologize for the delay as there has been a combo of\nleave/TDY/emergency deadlines recently.\n\nPlease let me know if you have any questions or would like a call to discuss.\n\nAndrew Nelson, PE\nStructural Engineer\nACP CoS Program Manager\nProtective Design MCX\nUS Army Corps of Engineers\nO ice 402-995-2398\nMobile 402-971-9924\nhttps://pdc.erdc.dren.mil/\n\n\n\n\nFrom: Steve Sarver <Steven.Sarver@nrc.gov>\nSent: Monday, August 3, 2026 2:20 PM\nTo: Tomanek, Matthew T CIV USARMY CENWO (USA) <Matthew.T.Tomanek@usace.army.mil>; Nelson, Andrew C CIV\nUSARMY CENWO (USA) <Andrew.C.Nelson@usace.army.mil>\nSubject: [Non-DoD Source] Blast analysis review.\n\nGood afternoon, Mat and Andy,\n\n\n\n\n                                                         2\n\fHope you're both doing well! I wanted to check in with a quick question about the blast analysis for\nCrane Clean Energy Center that Jeremiah Rey sent over in SIPRNet. Do you have a rough estimate on\nwhen you might be able to verify its accuracy?\n\nI'm working to keep my milestone dates on track as I ﬁnish up the Safety Evaluation for the security plan\nLicense Amendment Request. A heads-up on your timing would really help me make sure everything\nstays on schedule.\n\nThanks a bunch for your help—I appreciate it and look forward to hearing from you!\n\nSteven Sarver, Ed.D. | Security Specialist\nPhysical & Cyber Security Licensing Branch\nDivision of Security Programs\nOffice of Nuclear Reactor Regulation\nNuclear Regulatory Commission\nOffice: 301-415-1059\nMobile: 619-806-5650\nEmail: Steven.Sarver@nrc.gov\n\n\n\n\n                                                     3\n\f"
+  }
+ ]
+}

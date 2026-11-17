@@ -1,0 +1,43 @@
+{
+ "id": "SEC:0001193125-26-462496",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Dominion 8-K 8-K items 8.01,9.01",
+ "filed": "2026-11-16",
+ "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526462496/",
+ "entity": "Dominion",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526462496/d157968d8k.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "cik": "0000715957",
+  "market_participant": false
+ },
+ "collected_at": "2026-11-17T13:53:19Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526462496/d157968d8k.htm",
+   "name": null,
+   "bytes": 29529,
+   "sha256": "3b8399e5f3d9f9b6c47afb16a6680867a20f623dd1997c073ade0dda92d40326",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "8-K\n\nDOMINION ENERGY, INC\n\nfalse\n\n0000715957\n\n0000715957\n\n2026-11-02\n\n2026-11-02\n\n0000715957\n\nstpr:VA\n\n2026-11-02\n\n2026-11-02\n\nUNITED STATES\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, DC 20549\n\nFORM \n8-K\n\nCURRENT REPORT\n\nPursuant to Section 13 or 15(d)\n\nof the Securities Exchange Act of 1934\n\nDate of report (Date of earliest event reported) \nNovember 2, 2026\n\nDominion Energy, Inc.\n\n(Exact Name of Registrant as Specified in Its Charter)\n\nVirginia\n\n001-08489\n\n54-1229715\n\n(State or other jurisdiction\nof incorporation)\n\n(Commission\nFile Number)\n\n(IRS Employer\nIdentification No.)\n\n600 East Canal Street\n\nRichmond\n, \nVirginia\n\n23219\n\n(Address of Principal Executive Offices)\n\n(Zip Code)\n\nAttn: Corporate Secretary\n\n(Zip Co\nde)\n\n(Address of Principal Executive Offices)\n\nRegistrant’s Telephone Number, Including Area Code \n(804)\n\n819-2284\n\n(Former Name or Former Address, if Changed Since Last Report)\n\nCheck the appropriate box below if the Form \n8-K\n filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (\nsee \nGeneral Instruction A.2. below):\n\n☐\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n☐\n\nSoliciting material pursuant to Rule \n14a-12\n under the Exchange Act (17 CFR \n240.14a-12)\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n14d-2(b)\n under the Exchange Act (17 CFR \n240.14d-2(b))\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n13e-4(c)\n under the Exchange Act (17 CFR \n240.13e-4(c))\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\nTitle of each class\n\nTrading\nSymbol(s)\n\nName of each exchange\non which registered\n\nCommon Stock, no par value\n\nD\n\nNew York Stock Exchange\n\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule \n12b-2\n of the Securities Exchange Act of 1934 \n(§240.12b-2\n of this chapter).\n\nEmerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\n\nItem 8.01\n\nOther Events. \n\nOn November 2, 2026, Dominion Energy, Inc. (the Company) entered into an underwriting agreement (the Underwriting Agreement) with Goldman Sachs & Co. LLC and Mizuho Securities USA LLC, as Representatives for the underwriters named in the Underwriting Agreement, for the sale of (i) $600,000,000 aggregate principal amount of the Company’s 2026 Series B 5.25% Senior Notes due 2029 (Series B Senior Notes) and (ii) $600,000,000 aggregate principal amount of the Company’s 2026 Series C 5.95% Senior Notes due 2037 (Series C Senior Notes). The Series B Senior Notes and Series C Senior Notes are Senior Debt Securities that were registered by the Company under Rule 415 under the Securities Act of 1933, as amended, pursuant to a registration statement on Form \nS-3,\n which became effective on October 31, 2025 (File \nNo. 333-291189).\n A copy of the Underwriting Agreement, including exhibits thereto, is filed as Exhibit 1.1 to this Form \n8-K.\n\nThe Thirty-Second and Thirty-Third Supplemental Indentures to the Company’s June 1, 2015 Senior Indenture, pursuant to which the Series B Senior Notes and Series C Senior Notes will be issued, respectively, are filed as Exhibits 4.2 and 4.3, respectively, to this Form \n8-K.\n\nItem 9.01\n\nFinancial Statements and Exhibits. \n\nExhibits\n\n1.1\n\nUnderwriting Agreement, dated November 2, 2026, among the Company and Goldman Sachs & Co. LLC and Mizuho Securities USA LLC, as Representatives for the underwriters named in the Underwriting Agreement.* \n\n4.1\n\nSenior Indenture, dated as of June 1, 2015, among the Company and Deutsche Bank Trust Company Americas, as Trustee (Exhibit 4.1, Form \n8-K\n filed June 15, 2015, File \nNo. 1-8489,\n incorporated by reference). \n\n4.2\n\nThirty-Second Supplemental Indenture to the Senior Indenture, dated November 1, 2026, pursuant to which the 2026 Series B 5.25% Senior Notes due 2029 will be issued. The form of the 2026 Series B 5.25% Senior Notes due 2029 is included as Exhibit A to the Thirty-Second Supplemental Indenture.* \n\n4.3\n\nThirty-Third Supplemental Indenture to the Senior Indenture, dated November 1, 2026, pursuant to which the 2026 Series C 5.95% Senior Notes due 2037 will be issued. The form of the 2026 Series C 5.95% Senior Notes due 2037 is included as Exhibit A to the Thirty-Third Supplemental Indenture.* \n\n5.1\n\nOpinion of McGuireWoods LLP.* \n\n104\n\nCover Page Interactive Data File (embedded within the Inline XBRL document).\n\n*\n\nFiled herewith. \n\nSIGNATURE \n\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. \n\nDOMINION ENERGY, INC.\n\nRegistrant\n\n/s/ David M. McFarland\n\nName:  David M. McFarland\n\nTitle:   Senior Vice President – Investor Relations and Treasurer\n\nDate: November 16, 2026"
+  }
+ ]
+}

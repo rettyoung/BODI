@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151447",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM MIC Briefs: Nov. 4, 2026",
+ "filed": "2026-11-17",
+ "url": "//www.rtoinsider.com/151447-pjm-mic-briefs-110426/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The PJM Market Implementation Committee endorsed a Voltus issue charge to account for demand response resources being dispatched to curtail during the same hours of their winter peak load for accreditation purposes. \n The post  PJM MIC Briefs: Nov. 4, 2026  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-17T14:03:27Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "demand response"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,44 @@
+{
+ "id": "SEC:0001140361-26-044139",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Vistra 8-K 8-K items 7.01",
+ "filed": "2026-11-16",
+ "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126044139/",
+ "entity": "Vistra",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126044139/ef20085745_8k.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "7.01"
+  ],
+  "cik": "0001692819",
+  "market_participant": true
+ },
+ "collected_at": "2026-11-17T13:53:22Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [],
+ "party_hits": [
+  "Vistra"
+ ],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126044139/ef20085745_8k.htm",
+   "name": null,
+   "bytes": 27474,
+   "sha256": "0e93e105acb9e3e0dd2308e52265f94133519a3bab15dd6104d85b64b6ef321c",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "false\n0001692819\n0001692819\n2026-11-16\n2026-11-16\n\nUNITED STATES\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, DC 20549\n\nFORM \n8-K\n\nCURRENT REPORT\n\nPursuant to Section 13 or 15(d)\n\nof the Securities Exchange Act of 1934\n\nDate of Report (Date of earliest event reported): \nNovember 16, 2026\n\nVISTRA CORP.\n\n(Exact name of registrant as specified in its charter)\n\nDelaware\n\n001-38086\n\n36-4833255\n\n(State or other jurisdiction of\n\nincorporation or organization)\n\n(Commission\n\nFile Number)\n\n(I.R.S. Employer\n\nIdentification No.)\n\n6555 Sierra Drive\n\nIrving\n, \nTX\n\n75039\n\n(Address of principal executive offices)\n\n(Zip Code)\n\n(\n214\n) \n812-4600\n\n(Registrant’s telephone number, including area code)\n\nN/A\n\n(Former name or former address, if changed since last report)\n\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under\n      any of the following provisions:\n\n☐\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n☐\n\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.l4a-12)\n\n☐\n\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240. 14d-2(b))\n\n☐\n\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\nTitle of Each Class\n\nTrading\n\nSymbol(s)\n\nName of Each Exchange\n\non Which Registered\n\nCommon stock, par value $0.01 per share\n\nVST\n\nNew York Stock Exchange\n\nNYSE Texas\n\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405\n      of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).\n\nEmerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for\n      complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \n☐\n\nItem 7.01. Regulation FD Disclosure\n\nOn November 13, 2026, pursuant to the Amended and Restated Tax Receivable Agreement, dated as of December 29, 2023\n      (“Agreement”), entered into by and between Vistra Corp. (“Company”) and Equiniti Trust Company, LLC, as transfer agent (“Transfer Agent”), pursuant to which the respective holders (“Holders”) of certain rights thereunder have beneficial interests in\n      certain payments in respect of cumulative tax benefits realized by the Company (together with other benefits appertaining to such holders, the “TRA Rights”), the Company provided notice to such holders of an annual tax payment to be made in\n      accordance with the terms of the Agreement.\n\nFor the subject taxable year of 2025, an annual tax payment with an aggregate value of $91,056 (which represents $72,149\n      as a return of basis and $18,907 as interest income) will be paid on November 30, 2026 to holders of record as of November 23, 2026, with such annual tax payment being paid in proportion to the holder’s respective ownership of TRA Rights. The Company\n      estimates the value of each TRA Right on October 3, 2016 (the “TCEH Effective Date”) to equal $2.99924 and the Company has made approximately $57,909,599 of prior payments in respect of the TRA Rights.\n\nUnder Federal income tax law, paying agents may be required to withhold up to 30% of the interest income amount to be\n      paid to particular Holders for their proportion of ownership of the TRA Rights if such Holder has failed to furnish a taxpayer identification number certified to be correct under penalties of perjury. Holders with questions regarding such\n      withholdings may contact the Transfer Agent by phone at 1-800-937-5449 to inquire on the status of the account.\n\nThe information furnished pursuant to this Item 7.01 shall not be deemed to be “filed” for the purposes of Section 18 of the Securities\n      Exchange Act of 1934, as amended, and will not be incorporated by reference into any filing under the Securities Act unless specifically identified therein as being incorporated therein by reference.\n\nSIGNATURES\n\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be\n      signed on its behalf by the undersigned thereunto duly authorized.\n\nDated: November 16, 2026\n\nVISTRA CORP.\n\nBy:\n\n/s/ Kristopher E. Moldovan\n\nName:  \n\nKristopher E. Moldovan\n\nTitle:\n\nExecutive Vice President and Chief Financial Officer"
+  }
+ ]
+}

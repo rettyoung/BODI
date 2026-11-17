@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151590",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Oregon PUC OKs Pacific Power’s Plan to Shield Customers from Data Center Costs",
+ "filed": "2026-11-17",
+ "url": "//www.rtoinsider.com/151590-oregon-puc-oks-pacific-powers-plan-shield-customers-data-center-costs/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The Oregon Public Utility Commission approved tariff revisions that would require new data centers in Pacific Power’s service area to pay the full costs of serving their facilities under a direct contracting and direct assignment approach. \n The post  Oregon PUC OKs Pacific Power’s Plan to Shield Customers from Data Center Costs  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-17T14:03:27Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

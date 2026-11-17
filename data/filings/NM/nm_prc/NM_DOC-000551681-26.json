@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000551681-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "BENCH REQUEST [Orders]",
+ "filed": "2026-11-16",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "b6bd742a-6b25-4010-a684-b504017f407e",
+   "name": "DOC-000551681-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000551681-26",
+  "filed_by": "ALYSSA HERRERA-WALDROUP",
+  "document_type": "Orders",
+  "source": "Internal"
+ },
+ "collected_at": "2026-11-17T13:57:17Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000551681-26",
+   "name": "DOC-000551681-26",
+   "bytes": 202297,
+   "sha256": "7c4a65ca2e95fb9a12fc004eaffb727911a38e40589fa5cc011bb22204ce6267",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "          BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n    IN THE MATTER OF THE APPLICATION OF EL PASO                           )\n    ELECTRIC COMPANY FOR REVISION OF ITS RETAIL                           ) Docket No. 25-00082-UT\n    ELECTRIC RATES PURSUANT TO ADVICE NOTICE                              )\n    NO. 317                                                               )\n\n                                         BENCH REQUEST\n\n        THIS MATTER comes before the New Mexico Public Regulation Commission\n\n(“Commission”) upon El Paso Electric Company’s (“EPE”) application for revision of its retail\n\nelectric rates. Pursuant to 1.2.2.29(C) and 1.2.2.35(K) NMAC, the Commission issues this Bench\n\nRequest to obtain information concerning EPE’s cost of capital and the investor return information.\n\n        1.      In their joint testimony on behalf of Stephen Fischmann, Mark Ellis and Joel\n\nHornstein address EPE’s proposed 10.70% return on equity (“ROE”) and recommend a 7.0%\n\nROE. Their testimony discusses information concerning returns to EPE’s indirect owners and\n\ninvestors in IIF. 1\n\n        2.      The testimony states that EPE identified certain investor-return information\n\navailable to it that it was willing to produce, including reporting for 2025. It also describes an\n\nOctober 14, 2026, order denying a motion to compel information concerning owner valuations. 2\n\nThe present request focuses on investor communications and financing information, rather than\n\nthe internal valuation discount rates sought in that discovery.\n\n        3.      Information concerning the returns presented to prospective investors may assist\n\nthe Commission in evaluating EPE’s proposed cost of capital. A fund-level target or realized\n\ninvestment return, however, is not necessarily equivalent to EPE’s forward-looking cost of equity.\n\n\n\n\n1\n  See Testimony of Mark E. Ellis and Joel D. Hornstein on behalf of Stephen Fischman (“Joint Testimony”) at\n33–40.\n2\n  See Joint Testimony at 36–37.\n\fThe Commission therefore seeks the underlying materials and sufficient explanation to distinguish\n\nthe investment, financing, and return measures involved.\n\n       4.      EPE shall respond to the following inquiries. For recurring materials, provide the\n\nmost recent version available along with any earlier version circulated since the filing of this rate\n\napplication that materially changes the return targets, assumptions, or discussion of EPE. Identify\n\nthe date and issuing entity for each document.\n\n               a. Prospective Investor Materials: Please provide the private placement\n\n                   memoranda (or equivalent), investor presentations, marketing materials, fund\n\n                   fact sheets, due-diligence responses, and other written materials furnished or\n\n                   made available to prospective investors in the IIF fund or investment vehicle\n\n                   that directly or indirectly holds EPE, to the extent those materials describe\n\n                   expected or targeted returns, distribution yields, return objectives, or EPE’s\n\n                   investment characteristics. Include materials prepared or distributed by IIF,\n\n                   JPMIM, or their representatives. Identify the relevant fund or vehicle and its\n\n                   relationship to EPE. Complete responsive documents may be provided;\n\n                   unrelated portions may be omitted if the omission is identified and sufficient\n\n                   context is retained to interpret the responsive information.\n\n               b. EPE-Specific Investor Information: Please provide portions of investor\n\n                   materials and reports that separately identify EPE’s expected or historical\n\n                   returns, distributions, capital contributions, financing needs, or regulatory ROE\n\n                   assumptions. Separately provide the 2025 investor rate-of-return reporting and\n\n                   other investor-return information described as available to EPE in the discovery\n\n\nDocket No. 25-00082-UT\nBench Request\nPage 2 of 3\n\f                   discussions identified at page 36 of the Joint Testimony. State whether that\n\n                   information has already been produced and, if so, identify the production\n\n                   precisely.\n\n               c. Please provide EPE’s actual capital structure and embedded cost of debt as of\n\n                   the test-period end and the most recent quarter-end available, identifying dates,\n\n                   balances, weights, and component costs.\n\n       IT IS THEREFORE ORDERED:\n\n       A.      On or before December 1, 2026, EPE shall file a Response to the Commission’s\n\nBench Request on the record which addresses the inquiries set forth in Paragraph 4 of this Order.\n\nThe response should be accompanied by a verifying affidavit or unsworn affirmation.\n\n       B.      This Order is effective when signed.\n\n       C.      In computing time in accordance with statute, regulation, or Commission order, the\n\ncomputation shall begin on the date that this Order is filed.\n\n       SIGNED under the Seal of the Commission at Santa Fe, New Mexico, this 16th day of\n\nNovember, 2026.\n\n                         NEW MEXICO PUBLIC REGULATION COMMISSION\n\n                         /s/ Patrick J. O’Connell, electronically signed\n                         PATRICK J. O’CONNELL, COMMISSIONER\n\n\n\n\nDocket No. 25-00082-UT\nBench Request\nPage 3 of 3\n\f"
+  }
+ ]
+}

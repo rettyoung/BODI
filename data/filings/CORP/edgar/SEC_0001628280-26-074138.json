@@ -1,0 +1,24 @@
+{
+ "id": "SEC:0001628280-26-074138",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "Soluna Holdings, Inc  (SLNH, SLNHP)  (CIK 0000064463) 10-Q — full-text hit \"data center\" \"electric service agreement\"",
+ "filed": "2026-11-16",
+ "url": "https://www.sec.gov/Archives/edgar/data/64463/000162828026074138/",
+ "entity": "Soluna Holdings, Inc  (SLNH, SLNHP)  (CIK 0000064463)",
+ "fetch": [],
+ "meta": {
+  "query": "\"data center\" \"electric service agreement\"",
+  "form": "10-Q"
+ },
+ "collected_at": "2026-11-17T13:53:22Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

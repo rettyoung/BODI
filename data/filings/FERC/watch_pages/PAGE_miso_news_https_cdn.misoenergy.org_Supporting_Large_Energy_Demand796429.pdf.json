@@ -1,0 +1,46 @@
+{
+ "id": "PAGE:miso_news:https://cdn.misoenergy.org/Supporting Large Energy Demand796429.pdf",
+ "jur": "FERC",
+ "source": "page:miso_news",
+ "kind": "news",
+ "docket": null,
+ "title": "Supporting Large Energy Demand",
+ "filed": null,
+ "url": "https://cdn.misoenergy.org/Supporting Large Energy Demand796429.pdf",
+ "fetch": [
+  {
+   "url": "https://cdn.misoenergy.org/Supporting Large Energy Demand796429.pdf"
+  }
+ ],
+ "meta": {
+  "bkey": "page:miso_news",
+  "rto": "MISO",
+  "page": "https://www.misoenergy.org/meet-miso/media-center/",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-17T14:01:18Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "ESA",
+  "cost shift",
+  "data center",
+  "large load",
+  "large-load",
+  "ratepayer protection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://cdn.misoenergy.org/Supporting Large Energy Demand796429.pdf",
+   "name": null,
+   "bytes": 533376,
+   "sha256": "dc3a175d8843f7a2d62232150137bbab71b66cbacf06e398a83c6ec91e798a22",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "        How MISO Supports Large Energy Demand\n              While Protecting Reliability\n\n\n\n\nLarge energy users — like a data centers — often seek to\nconnect to the grid faster than new infrastructure can be\nbuilt. And because they consume so much energy, the grid\nneeds more generation and transmission infrastructure.\n\nMISO’s challenge is to support the reliable connection of\nlarge loads to the grid through efficient studies, flexible\nservice options, clear reliability requirements and greater\ntransparency about who pays for grid upgrades.\n\n\nMISO’S RESPONSE\nMISO has already collaborated with utilities, states, data center owners, environmental groups and other stakeholders\nto establish a framework that enables large loads. Recently, in response to the Federal Energy Regulatory Commission’s\n(FERC) Large Load Show Cause Order, MISO developed proposals that build on established planning processes and\nstakeholder input.\n\nMISO’s proposals address regional transmission planning, service and reliability. They also address affordability by providing\nstates and utilities with tools and flexibility to help protect existing customers as demand grows. At the same time, MISO’s\nframework preserves the traditional roles of federal and state regulators, with FERC overseeing wholesale rates and states\nretaining authority over retail rates, siting and economic development decisions.\n\n\n\n\n             The comprehensive large load framework reflects the collective efforts\n                            of the MISO stakeholder community\n\n\n\n\n            13+                            386                           1,210                              12\n      Stakeholder Meetings          Average Attendance               Pages of Feedback             Months of Planning\n         113 Substantive                   12 Issues                  427 Responses                 Broad Stakeholder\n          Presentations                   Submitted                  Over 47 Requests                 Engagement\n\n\n\n\n1/2                 Read the MISO Reliability Imperative report on misoenergy.org                                November 2026\n\f                         Delivering Solutions\n                        Connecting Large Loads\n\n\n\nWHAT MISO IS PROPOSING\nMISO’s filings are intentionally focused on FERC’s direction in the Show Cause Order. Components addressing cost-shifting\nwere filed jointly with transmission owners.\n\n\n\n\n         CONNECT TO THE GRID                  Expedited study options, including projects bringing new generation and\n            MORE QUICKLY                      demand forward together, while retaining necessary reliability reviews.\n\n\n\n                                              Service options that allow a large customer to begin or expand operations\n        TRANSITION AND GROW\n                                              before all transmission upgrades are complete, provided the customer\n           WITH FLEXIBILITY\n                                              can reduce its electricity use when needed to protect grid reliability.\n\n\n\n                                              Clear requirements for data, forecasting, real-time visibility, operating\n         PROTECT NEAR- AND\n                                              coordination and how certain large loads must perform during grid\n        LONG-TERM RELIABILITY\n                                              disturbances.\n\n\n\n          CREATE A CLEAR AND                  A standardized application, defined study requirements and more\n           EFFICIENT PROCESS                  consistent steps for evaluating large-load requests.\n\n\n\n                                              Contracts and reporting that clarify cost responsibility, show upgrades\n        PROTECT CUSTOMERS AND                 driven by large loads and guard against cost shifting among wholesale\n      IMPROVE COST TRANSPARENCY               transmission customers. Retail allocation and ratepayer protections\n                                              remain within state jurisdiction.\n\n\n\nWHAT HAPPENS NEXT\n\nFERC is reviewing MISO’s filings and determining whether the proposed Tariff changes are just and reasonable. Timely\napproval of proposals is critical to help keep pace with unprecedented large-load growth and ensure the infrastructure\nneeded to serve that demand can be planned and deployed efficiently. MISO will address any required proposal\nmodifications and work on implementation plans for Q1 2027.\n\n\n\n\n2/2                Read the MISO Reliability Imperative report on misoenergy.org                                 November 2026\n\f"
+  }
+ ]
+}

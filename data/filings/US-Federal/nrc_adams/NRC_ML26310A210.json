@@ -1,0 +1,43 @@
+{
+ "id": "NRC:ML26310A210",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000331",
+ "title": "Duane Arnold (NextEra restart): Duane Arnold Energy Center - Fixed Fee Caps for Ongoing Licensing Actions [['E-Mail']]",
+ "filed": "2026-11-17",
+ "entity": [
+  "NRC/NRR/DDLP/DLP1/ORLB3"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2631/ML26310A210.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26310A210.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Duane Arnold (NextEra restart)",
+  "accession": "ML26310A210",
+  "document_date": "2026-11-06"
+ },
+ "collected_at": "2026-11-17T14:19:03Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26310A210.pdf",
+   "name": null,
+   "bytes": 181497,
+   "sha256": "84527c79f88d41b50ab2bec52e61940e732ea4786b223543c2ee127b817440bd",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:           Justin Poole\nTo:             \"Murrell, Robert\"; \"Davis, James\"\nCc:             Ilka Berrios; Brent Ballard\nSubject:        RE: Duane Arnold Energy Center - Fixed Fee Caps for Ongoing Licensing Actions\nDate:           Friday, November 6, 2026 10:50:00 AM\n\n\n\nBob/Mike,\n\nWe noticed an error due to a typo in the email when we were going back validating the\ninformation across the fleet. The fee cap value for the exemption request (L-2026-LLE-0023)\nshould have been $38,000 not $23,000. I’ve updated the table below. Apologize for any\nconfusion and let me know if you have any questions. Thanks.\n\nJustin C. Poole\nSr. Project Manager\nPalisades, Crane, Duane Arnold Restart\nNRR/DLP-1/ORLB 3\nU.S. Nuclear Regulatory Commission\n(301)415-2048\n\nFrom: Justin Poole\nSent: Tuesday, September 29, 2026 11:36 AM\nTo: 'Murrell, Robert' <Bob.Murrell@nexteraenergy.com>; 'Davis, James' <james.davis@fpl.com>\nCc: Ilka Berrios <Ilka.Berrios@nrc.gov>; Brent Ballard <Brent.Ballard@nrc.gov>\nSubject: RE: Duane Arnold Energy Center - Fixed Fee Caps for Ongoing Licensing Actions\n\n\nBob/Mike,\n\nIn accordance with 10 CFR 170.33, which becomes effective on October 1, 2026, this\ncommunication establishes the fixed cap on service fees (fixed fee cap) for NextEra Energy\nDuane Arnold, LLC for the Duane Arnold Energy Center licensing actions listed in the table\nbelow. The table lists the fixed fee caps for the NRC’s review of ongoing licensing actions that\nhave been accepted for review that will be within the scope of 10 CFR 170.33. Fixed fee caps for\nother licensing actions, such as those currently under acceptance review, will be\ncommunicated by separate correspondence. The NRC considered various factors when\nestablishing these fixed fee caps, such as the quality and complexity of the application,\ntechnology type, and any pre-application engagement. The Professional Hourly Rate\nestablished at 10 CFR 170.20(a) applies to these licensing actions.\n\nApplication Date Acceptance               EPID                                                  Fixed Fee\n(ADAMS           Date                                                                           Cap\nAccession No.)\n 5/12/2026       6/11/2026                L-2026-LLL-0011, Request for Approval of              $48,000.00\n(ML26132A285)                             Glass Panel Simulation Facility\n\f 5/12/2026          6/11/2026       L-2026-LLE-0023, Request Exemption to 10        $38,000.00\n(ML26132A285)                       CFR 55.46(c) to Support Use of Glass Panel\n                                    Simulator\n\nThe fixed fee cap represents the maximum amount that the NRC may charge for service fees for\neach of the requested licensing actions following acceptance of the complete application. The\nfixed fee cap will not be increased except in instances of applicant failure, as defined in 10 CFR\n170.3. If applicant failure occurs, the NRC will notify NextEra Energy Duane Arnold, LLC, in\nwriting of the new fixed fee cap, which will be set at the lowest practicable amount determined\nby the NRC to account for the applicant failure and complete the review.\n\nFor each licensing action, the NRC will track service fees against the fixed fee cap beginning on\nthe acceptance date listed above.  \n\nDisputes associated with a fixed fee cap must be submitted in accordance with 10 CFR 15.31\nand 170.33(f) and NRC Form 529 procedures. If you have any questions, please contact me.\n\nJustin C. Poole\nSr. Project Manager\nPalisades, Crane, Duane Arnold Restart\nNRR/DLP-1/ORLB 3\nU.S. Nuclear Regulatory Commission\n(301)415-2048\n\f"
+  }
+ ]
+}

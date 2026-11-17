@@ -1,0 +1,23 @@
+{
+ "id": "BILL:NV:ocd-bill/ededad2e-697b-4b33-b024-bf094eb9b526:2026-11-16T08:00:00+00:00",
+ "jur": "NV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 61",
+ "title": "Revises provisions relating to fees applicable to public utilities. (BDR 31-577)",
+ "filed": "2026-11-16",
+ "url": "https://openstates.org/nv/bills/84/SB61/",
+ "fetch": [],
+ "meta": {
+  "session": "84",
+  "latest_action": "Prefiled. Referred to Committee on Government Affairs. To printer.",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-17T14:12:41Z",
+ "run_id": "2026-11-17-1350",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}
