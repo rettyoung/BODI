@@ -1,0 +1,28 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/geothermal/google-superhot-geothermal-oregon-data-centers",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Google bets on superhot geothermal to power Oregon data centers",
+ "filed": "2026-11-17",
+ "url": "https://www.canarymedia.com/articles/geothermal/google-superhot-geothermal-oregon-data-centers",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "The geothermal startup  Quaise Energy has landed a major first customer for its novel, superhot project in central Oregon. On Tuesday, the Houston-based firm announced that  Google has agreed to buy 50 megawatts of carbon-free power from Quaise’s first commercial project, called Project Obsidian, near the Newberry…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-18T13:39:24Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "Google"
+ ],
+ "documents": []
+}

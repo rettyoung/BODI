@@ -1,0 +1,28 @@
+{
+ "id": "GA:229481",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "55378",
+ "title": "DKT 55378 Large Load Economic Development Report for Q3 2026",
+ "filed": "2026-11-16",
+ "entity": "Georgia Power Company",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=229481",
+ "fetch": [
+  {
+   "ga_document": 229481
+  }
+ ],
+ "collected_at": "2026-11-18T13:29:11Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ga_document': 229481}",
+   "error": "blocked: block page (captcha) at https://psc.ga.gov/search/facts-document/?documentId=229481"
+  }
+ ]
+}

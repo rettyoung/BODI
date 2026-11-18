@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151592",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "California Data Center Forecast Jumps 50%",
+ "filed": "2026-11-17",
+ "url": "//www.rtoinsider.com/151592-california-cec-data-center-forecast-jumps/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " California energy officials are forecasting a 50% increase in the state’s data center capacity compared with last year’s forecast. \n The post  California Data Center Forecast Jumps 50%  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-18T13:39:24Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

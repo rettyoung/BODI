@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151705",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "MISO Submits Wide-ranging Response to FERC’s Large Load Show-cause Order",
+ "filed": "2026-11-18",
+ "url": "//www.rtoinsider.com/151705-miso-submits-wide-ranging-filing-ferc-large-load-show-cause-order/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " MISO has put the finishing touches on an all-encompassing response to FERC’s show-cause order on large load interconnections. \n The post  MISO Submits Wide-ranging Response to FERC’s Large Load Show-cause Order  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-18T13:39:24Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

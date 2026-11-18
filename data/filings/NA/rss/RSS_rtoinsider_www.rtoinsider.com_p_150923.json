@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=150923",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Virginia is Checking its Utilities’ Load Forecasts; PJM Will Have Already Used Them",
+ "filed": "2026-11-17",
+ "url": "//www.rtoinsider.com/150923-virginia-checking-utilities-load-forecasts-pjm-will-have-used-them-first/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Virginia's regulators have hired a contractor to rebuild the load forecasts Dominion, Appalachian Power and the cooperatives send PJM. The report is due Jan. 29. It misses PJM's forecast, but it lands about three weeks before the numbers that would split a 15-year backstop bill. \n The post  Virginia is Checking its Utilities’ Load Forecasts; PJM Will Have Already Used Them  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-18T13:39:24Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "load forecast"
+ ],
+ "party_hits": [],
+ "documents": []
+}

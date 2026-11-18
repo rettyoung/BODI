@@ -1,0 +1,27 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/elevated-demand-for-gas-turbines-could-persist-through-2035-siemens-energy/874839/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Elevated demand for gas turbines could persist through 2035: Siemens Energy",
+ "filed": "2026-11-17",
+ "url": "https://www.utilitydive.com/news/elevated-demand-for-gas-turbines-could-persist-through-2035-siemens-energy/874839/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      The U.S. midterms are not likely to slow turbine orders by data centers, company executives said, noting that turbine demand is also coming from diverse industries with long-term growth trajectories. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-18T13:39:24Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "data center",
+  "gas turbine"
+ ],
+ "party_hits": [],
+ "documents": []
+}

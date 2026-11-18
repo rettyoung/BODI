@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/6dfba32f-9dc1-4a85-89b7-3b238bd16304:2026-11-17",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 641",
+ "title": "Virginia's Great Outdoors Act; established, creates data center land conservation tax.",
+ "filed": "2026-11-17",
+ "url": "https://openstates.org/va/bills/2027/HB641/",
+ "fetch": [],
+ "meta": {
+  "session": "2027",
+  "latest_action": "Left in Committee Finance",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-18T13:48:45Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

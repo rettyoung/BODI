@@ -1,0 +1,28 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/pjm-rto-large-load-interconnection-ferc-show-cause/874872/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Grid operators file closely watched large load interconnection reforms at FERC",
+ "filed": "2026-11-17",
+ "url": "https://www.utilitydive.com/news/pjm-rto-large-load-interconnection-ferc-show-cause/874872/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      The PJM Interconnection proposed revamping its interconnection process by studying large load and generation interconnection requests in a single, one-year review. Others focused on load flexibility, bring-your-own-capacity rules and cost transparency. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-18T13:39:24Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "interconnection",
+  "large load",
+  "load interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

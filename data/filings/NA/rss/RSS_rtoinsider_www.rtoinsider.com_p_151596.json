@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151596",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Hyperscale Data Center Power Use Estimated at 1.8% of 2024 U.S. Total",
+ "filed": "2026-11-17",
+ "url": "//www.rtoinsider.com/151596-study-finds-us-hyperscale-data-centers-big-carbon-footprint/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " A new study calculates roughly 400 U.S. hyperscale data centers drew a combined 82 TWh of electricity from May 2024 to April 2025, or about 1.8% of total U.S. power consumption. \n The post  Hyperscale Data Center Power Use Estimated at 1.8% of 2024 U.S. Total  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-18T13:39:24Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": []
+}

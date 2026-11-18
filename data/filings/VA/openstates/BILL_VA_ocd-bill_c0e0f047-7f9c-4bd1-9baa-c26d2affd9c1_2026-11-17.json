@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/c0e0f047-7f9c-4bd1-9baa-c26d2affd9c1:2026-11-17",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1132",
+ "title": "Data center tax revenue; creates local residential renewable energy incentive program.",
+ "filed": "2026-11-17",
+ "url": "https://openstates.org/va/bills/2027/HB1132/",
+ "fetch": [],
+ "meta": {
+  "session": "2027",
+  "latest_action": "Left in Committee Finance",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-18T13:48:45Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

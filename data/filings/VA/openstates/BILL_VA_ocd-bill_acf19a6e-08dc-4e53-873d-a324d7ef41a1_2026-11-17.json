@@ -1,0 +1,23 @@
+{
+ "id": "BILL:VA:ocd-bill/acf19a6e-08dc-4e53-873d-a324d7ef41a1:2026-11-17",
+ "jur": "VA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 503",
+ "title": "Electric utilities; cost recovery, costs substantially related to serving data center customers.",
+ "filed": "2026-11-17",
+ "url": "https://openstates.org/va/bills/2027/HB503/",
+ "fetch": [],
+ "meta": {
+  "session": "2027",
+  "latest_action": "Left in Committee Labor and Commerce",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-18T13:48:45Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

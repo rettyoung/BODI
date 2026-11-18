@@ -1,0 +1,26 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/data-center-slowdown-raises-risks-for-utility-investments/874924/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Data center slowdown would raise risks for utility investments",
+ "filed": "2026-11-17",
+ "url": "https://www.utilitydive.com/news/data-center-slowdown-raises-risks-for-utility-investments/874924/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      An estimated 191 GW of planned data center capacity faces new risk after the midterm elections, with exposure concentrated in Texas, Ohio and Georgia, according to a report from energy analytics firm Orennia. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-18T13:39:24Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

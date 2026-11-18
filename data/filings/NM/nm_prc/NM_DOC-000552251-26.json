@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000552251-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "WRA Confidentiality Agreement of Connor Magnuson [Confidentiality Agreement]",
+ "filed": "2026-11-17",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "eabe0f10-0944-4e8f-acb8-b505013d6c5a",
+   "name": "DOC-000552251-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000552251-26",
+  "filed_by": "Caitlin Evans",
+  "document_type": "Confidentiality Agreement",
+  "source": "Online"
+ },
+ "collected_at": "2026-11-18T13:32:12Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000552251-26",
+   "name": "DOC-000552251-26",
+   "bytes": 118541,
+   "sha256": "a390b38596870ba86ffdb214e71711b4b38d80e0832b6395634eaaf1902bb8a9",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "         BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\nIN THE MATTER OF THE APPLICATION      )\nOF EL PASO ELECTRIC COMPANY FOR       )                        Docket No. 25-00082-UT\nREVISION OF ITS RETAIL ELECTRIC RATES )\nPURSUANT TO ADVICE NOTICE NO. 317     )\n\n\n                             CONFIDENTIALITY AGREEMENT\n\n\n       I hereby certify that I am familiar with the terms and conditions of the protective order\n\nentered by the New Mexico Public Regulation Commission in the above-captioned case and\n\nagree to be bound by the terms and conditions of it. I also consent to the jurisdiction of the\n\nCommission and the courts of the State of New Mexico for the resolution of disputes regarding\n\nalleged violations of the protective order and this confidentiality agreement.\n\n\nConnor Magnuson                                       Policy Advisor\n     Name (print or type)                                    Title\n\nWestern Resource Advocates                            141 E. Palace Ave, Suite 220, Santa Fe, NM 87501\n\n     Representing                                            Business Address\n\n\nNovember 17, 2026                                     /s/ Connor Magnuson\n\n                                                      Date     Signature\nConnor.magnuson@westernresources.org\n\nEmail Address\n\f"
+  }
+ ]
+}

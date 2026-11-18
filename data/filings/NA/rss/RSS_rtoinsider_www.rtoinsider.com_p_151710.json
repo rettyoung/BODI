@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151710",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "DOE Providing $2.8B Loan for Wyoming Intertie",
+ "filed": "2026-11-18",
+ "url": "//www.rtoinsider.com/151710-doe-grants-conditional-loan-wyoming-intertie-project/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The U.S. Department of Energy will provide a $2.8 billion conditional loan to Grid United for a 106-mile Wyoming transmission line that will connect SPP’s Eastern Interconnection footprint with the Western Interconnection. \n The post  DOE Providing $2.8B Loan for Wyoming Intertie  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-18T13:39:24Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": []
+}

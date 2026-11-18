@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/75571b52-eff1-478b-9e28-297c2d296921:2026-11-17",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 5818",
+ "title": "LOC GOVT-DATA CENTER",
+ "filed": "2026-11-17",
+ "url": "https://openstates.org/il/bills/104th/HB5818/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Referred to Rules Committee",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-18T13:48:45Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

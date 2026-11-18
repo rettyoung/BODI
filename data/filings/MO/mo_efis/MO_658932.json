@@ -1,0 +1,33 @@
+{
+ "id": "MO:658932",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0291",
+ "title": "70",
+ "filed": "2026-11-17",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/658932",
+ "fetch": [
+  {
+   "mo_filing": "658932"
+  }
+ ],
+ "collected_at": "2026-11-18T13:34:13Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/898455",
+   "name": null,
+   "bytes": 83634,
+   "sha256": "4af80199ea56197db4237c77be4a1d6e6e26ea103614a1153a4edc144fcdd1be",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "              BEFORE THE MISSOURI PUBLIC SERVICE COMMISSION\n                       OF THE STATE OF MISSOURI\nIn the Matter of Union Electric Company              )\nd/b/a Ameren Missouri’s Tariff to Adjust             )     ER-2026-0291\nIts Revenues for Electric Service                    )\n\n\n                      MIEC’S RESPONSE TO ORDER TO SHOW CAUSE\n\n       COMES NOW the Missouri Industrial Energy Consumers (“MIEC”) and pursuant to the\n\nCommission’s November 10th Order in this case, responds as follows:\n\n       1. On July 16, 2026, the MIEC filed its application to intervene in this case. No party\n\n          objected to this application, and the Commission granted the MIEC’s application on\n\n          July 30, 2026. In the months since MIEC’s application was granted, the MIEC has\n\n          been an active participant in this case.\n\n       2. On July 20, 2026, the MIEC initiated the process to update its corporate filings with\n\n          the Missouri Secretary of State.\n\n       3. Good cause exists for MIEC’s intervenor status because the MIEC is a now a\n\n          Missouri Nonprofit Corporation in Good Standing.\n\n\n       WHEREFORE, the MIEC respectfully requests that the Commission find that the MIEC\nhas shown cause as required by the Commission’s Order.\n\f                                             Respectfully submitted,\n                                             /s/ Diana M. Plescia\n                                             Missouri Bar #42419\n                                             7733 Forsyth, Suite 1100\n                                             Clayton, Missouri 63105\n                                             Telephone (314) 704-8444\n                                             dianaplescia@dmpfirm.com\n\n\n\n\n                              CERTIFICATE OF SERVICE\n     I hereby certify that a copy of the foregoing has been served to all parties on the\nCommission’s service list.\n                                             /s/ Diana M. Plescia\n\f"
+  }
+ ]
+}

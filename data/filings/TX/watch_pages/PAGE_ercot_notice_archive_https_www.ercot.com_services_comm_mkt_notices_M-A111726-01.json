@@ -1,0 +1,43 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A111726-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-A111726-01 ERCOT initial release of Large Load portal",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-A111726-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A111726-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-18T13:38:03Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "ESA",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A111726-01",
+   "name": null,
+   "bytes": 7405,
+   "sha256": "87b95e8399152e083b5f3a53e1ce83271053db99bf96cfa963246d90bad4c408",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com,Notice_Release_Retail@lists.ercot.com,Notice_Release_Wholesale@lists.ercot.com,Notice_Extracts_Retail@lists.ercot.com,Notice_Extracts_Wholesale@lists.ercot.com\n\nSent:\n\n11/17/26, 3:18 PM\n\nSubject:\n\nM-A111726-01 ERCOT initial release of Large Load portal\n\nNOTICE DATE:\n November 17, 2026\n\nNOTICE TYPE:\n M-A111726-01 Operations\n\nSHORT DESCRIPTION:\n ERCOT initial release of Large Load portal\n\nINTENDED AUDIENCE:\n All Market Participants and Interconnecting Large Load Entities\n\nDAYS AFFECTED:\n December 18, 2026\n\nLONG DESCRIPTION: \nERCOT has been working to develop and deploy an initial version of a new Large Load portal to create transparency for Interconnecting Large Load Entities (ILLEs) and Transmission/Distribution Service Providers (TSPs/DSPs) to access a centralized ERCOT location for key information on Large Load projects.\n\nTo develop this portal, ERCOT leveraged lessons learned from the Resource Integration and Ongoing Operations (RIOO) system and created a similar framework to stand up the Load Integration and Ongoing Operations (LIOO) tool for Large Loads.  Final development and data migration activities are in flight.\n\nERCOT considers the LIOO portal implementation to be a soft launch (or \"pilot project\") due to the initial limited initial functionality and manual data consolidation. ERCOT will deploy the portal as a \"read-only\" version for ILLEs to view their specific Large Load project data and for TSPs/DSPs to view their service area Large Load projects.  ERCOT encourages ILLEs and/or TSPs/DSPs to access the portal and contact ERCOT with any issues or inconsistencies that might be identified (feedback process will be provided after the portal is deployed).\n\nPreviously, ERCOT has provided updates on the LIOO portal project to the Technical Advisory Committee (TAC) and Large Load Working Group (LLWG). The key dates for roll-out of this project are currently:\n\nThis initial Market Notice (November 17, 2026)\n\nERCOT will provide implementation updates at the November TAC and LLWG meetings (November 18 and 19, 2026)\n\nERCOT will host an online training meeting (via WebEx) to explain security access for the portal and walk-though the functionality available (tentatively planned for Wednesday December 16, 2026)\n\nLIOO Pilot go-live date is currently planned for Friday, December 18, 2026\n\nERCOT will send another Market Notice after the LIOO pilot project has been deployed \n\nIn 2027, ERCOT will further develop revision requests and process workflows for the LIOO portal related to Large Load Batch and other processes taking into consideration the policy framework discussions with the Comprehensive Transmission Planning / Batch1+ initiatives.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ],
+ "enriched_at": "2026-11-18T13:56:02Z"
+}

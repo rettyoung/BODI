@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/9887fef1-cc5c-4404-896a-f54fa68ecfa4:2026-11-09",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 36",
+ "title": "Relating to the eligibility of data centers and large data center projects to participate in certain incentive programs offered by the state and local governments.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/tx/bills/90R/SB36/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-18T13:48:45Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/8fc5a0f1-37fa-4cb8-9ade-39f692feaed0:2026-11-17",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 5837",
+ "title": "LOC GOVT-ENERGY FACILTITIES",
+ "filed": "2026-11-17",
+ "url": "https://openstates.org/il/bills/104th/HB5837/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Referred to Rules Committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-18T13:48:45Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B111726-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-B111726-01 Updated 2026 Summer and Fall Seasonal Voltage Profiles",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-B111726-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B111726-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-18T13:38:08Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B111726-01",
+   "name": null,
+   "bytes": 8878,
+   "sha256": "1829bce1c0442054cfe8d69fa45d22638780b243531c0a7ec0e14ad839694370",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com\n\nSent:\n\n11/17/26, 1:10 PM\n\nSubject:\n\nM-B111726-01 Updated 2026 Summer and Fall Seasonal Voltage Profiles\n\nNOTICE DATE:\n November 17, 2026\n\nNOTICE TYPE:\n M-B111726-01 Operations\n\nSHORT DESCRIPTION: \nUpdated 2026 Summer and Fall Seasonal Voltage Profiles\n\nINTENDED AUDIENCE:\n ERCOT-registered Resource Entities (REs), Qualified Scheduling Entities (QSEs), Transmission Operators (TOs), and Transmission Service Providers (TSPs), and NERC-registered Generator Operators (GOPs) and Transmission Operators\n\nDAYS AFFECTED:\n November 17, 2026\n\nLONG DESCRIPTION: \nERCOT has posted the updated 2026 Summer (June 1, 2026 - September 30, 2026) and 2026 Fall (October 1, 2026 - November 30, 2026) \nVoltage Profiles\n (EMIL ID: ZP6-303-M | Report Type ID: 11452) on the Market Information System (MIS). In accordance with NERC Reliability Standard VAR-001-5, Requirement R5, the posted spreadsheet lists seasonal Voltage Set Points for every Generation Resource and Energy Storage Resource (ESR) at its POIB in columns G and K, and W and AA. Voltage Set Points at the high side of the step-up transformer are listed in columns M and O, and AC and AE. Details of the updates are located at the Revision History tab in the Voltage Profile spreadsheet.\n\nAs required by ERCOT Nodal Protocols Section 6.5.7.7 (5), each Generation Resource and Energy Storage Resource (ESR) required to provide Voltage Support Service (VSS) shall follow the Real-Time Voltage Set Point instruction given by ERCOT or the TSP. Any operator of one or more Generation Resources or ESRs, including any NERC-registered GOP, whose Voltage Set Point in the posted seasonal Voltage Profile for each upcoming season differs from its Real-Time Voltage Set Point should coordinate with its TSP to determine if changes to the Real-Time Voltage Set Point are needed. \n\nERCOT reminds all Generation Resource and ESR operators that the response to a TO Voltage Set Point instruction must be completed in no more than five minutes from receipt of the instruction under ERCOT Nodal Operating Guides Section 2.2.10(3)(b), and that the following requirements also apply:\n\nIn accordance with ERCOT Nodal Protocols Section 3.15.3, each Generation Resource and ESR Automatic Voltage Regulator (AVR) must be operated in automatic voltage control mode and set to control the POIB voltage to the Voltage Set Point.\n\nIn accordance with ERCOT Nodal Operating Guides Section 2.7.3.5(3), a Resource Entity shall inform its QSE and either the Resource Entity or its QSE shall notify the Resource Entity's TO, as soon as practicable, but not longer than 15 minutes from receipt of the instruction by the Resource Entity, if it cannot comply with TO Voltage Set Point instructions, or not longer than 30 minutes from being outside of the tolerance band if it cannot maintain the POIB voltage within the tolerance band. If a Resource Entity cannot comply with a VSS Dispatch Instruction, the Resource Entity shall inform its QSE and its QSE shall notify ERCOT as soon as practicable but not longer than 15 minutes from the receipt of the instruction by the Resource Entity.\n\nIn accordance with ERCOT Nodal Operating Guides Section 2.7.3.5(4), a Resource Entity required to provide VSS, which includes any NERC-registered GOP, must maintain the Resource's voltage or Reactive Power schedule to maintain voltage at the POIB to be within a tolerance band of the Voltage Set Point while operating at less than or equal to the maximum reactive capability of the Generation Resource or ESR.\n\nADDITIONAL INFORMATION: \nThe updated 2026 Summer and Fall Seasonal Voltage Profiles can be found on the ERCOT Market Information System (MIS) under \nVoltage Profiles\n (EMIL ID: ZP6-303-M | Report Type ID: 11452) on the Group Reports section, under Transmission Service Providers as Voltage Profiles. A Digital Certificate is required to access the MIS. \n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

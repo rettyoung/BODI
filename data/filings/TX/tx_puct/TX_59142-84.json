@@ -1,0 +1,52 @@
+{
+ "id": "TX:59142-84",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59142",
+ "title": "11/18/2026 | Roger Broussard | LTRS | PUBLIC COMMENT IN OPPOSITION TO SYNERGEN GREEN ENERGY, INC.'S REQUEST FOR GOOD CAUSE EXCEPTION",
+ "filed": "2026-11-18",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59142&itemNumber=84",
+ "fetch": [
+  {
+   "tx_item": [
+    "59142",
+    "84"
+   ]
+  }
+ ],
+ "collected_at": "2026-11-18T13:28:36Z",
+ "run_id": "2026-11-18-1325",
+ "keywords": [
+  "batch zero",
+  "interconnection",
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59142_84_1703383.ZIP",
+   "name": null,
+   "bytes": 25563,
+   "sha256": "5e7b57cd80f59073dce5e13754e281e3cabafbe2ff9390b696301195560ec5c3",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== PUC-59142-Opposition-Letter-Broussard.pdf ===\n               BEFORE THE PUBLIC UTILITY COMMISSION OF TEXAS\n\n                                  PROJECT NO. 59142\n\n      REVIEW OF ERCOT'S INTERCONNECTION PROCESSES FOR LARGE LOADS\n\n      PUBLIC COMMENT IN OPPOSITION TO SYNERGEN GREEN ENERGY, INC.'S\n                       REQUEST FOR GOOD CAUSE EXCEPTION\n\nTo the Commissioners of the Public Utility Commission of Texas:\n\nI am submitting this public comment in opposition to Synergen Green Energy,\nInc.'s September 11, 2026 request for a good cause exception to ERCOT's Batch\nZero eligibility deadlines. I respectfully urge the Commission to deny the request.\n\nMy name is Roger D Broussard. I live in Calhoun County, Texas, where Synergen\nwants to build its ammonia plant. I am a concerned resident, not a party to this\nproceeding, and I am not asking to intervene. I am writing because this decision\naffects my county, my neighbors, and the rules every developer is supposed to live\nby.\n\n1. The deadlines were known.\n\nERCOT published a schedule for Batch Zero: a readiness kickoff on May 15, 2026,\nimplementation documents in early June, and deadlines of July 10 and July 24, 2026.\nThat was not a secret process. And by Synergen's own account, the company had\nbeen working with South Texas Electric Cooperative on this project since July 2024,\ncontracted for a load study and system impact study in August 2025 at a cost of\n$200,000, and received its steady state report in April 2026. Yet by its own account,\nSynergen did not sit down with STEC to discuss the new Batch Zero rules in any\ndetail until July 7, 2026, three days before the first deadline. A company that had\ntwo years to prepare does not get to call a published deadline a surprise.\n\n2. The money argument cuts the other way.\n\nSynergen says it has spent $30.5 million and cannot afford to lose it. But the\nfinancial security it failed to post was $15 million, less than half of what it says it has\nalready spent. A company that can spend $30.5 million on a project can post $15\nmillion in security for it. That money was spent as a business decision, and it does\nnot buy an exception. If investment alone were good cause, then the rules would\n\fapply only to companies too small to matter, and every large developer could buy\nits way past any deadline.\n\n3. An exception here means exceptions for everyone.\n\nERCOT has said it received forty-one good cause exception requests. If the\nCommission grants this one, it tells every other developer that deadlines are\noptional when the stakes are high enough. That is not how a fair process works.\nThe Batch Zero rules were written to be applied the same way to everyone, and the\nCommission should apply them that way here.\n\n4. A 300-megawatt load in a rural county deserves real answers first.\n\nSynergen's plant would draw about 300 megawatts in a rural area. Before the\nCommission advances this project through interconnection, it should have\ndocumented answers: what new transmission lines and substations will be needed,\nwhat they will cost, and who will pay for them. Synergen points to about 890\nmegawatts of wind and solar under contract, but a power purchase agreement is\nnot the same as firm power. The wind does not always blow and the sun does not\nalways shine, and the plant will need power when neither is producing. Those are\nquestions for the record, not assurances to take on faith.\n\n5. Our community's concerns deserve weight.\n\nCalhoun County residents have real concerns about this project: the scale of its\nelectricity demand, its use of groundwater, air quality, wastewater, industrial\nsafety, and the future of our communities. I am not opposed to responsible\nindustrial development. I am opposed to special treatment for one developer\nbecause it promises jobs and tax revenue. And I ask the Commission to make clear\nthat granting an interconnection exception would not be approval of this facility,\nwhich still needs its permits from the agencies that govern water, air, and safety.\n\nFor these reasons, I respectfully request that the Commission deny Synergen\nGreen Energy's request for a good cause exception, require Synergen to show\nspecific, documented grounds if it seeks any relief, and preserve the Batch Zero\nprocess as it was written, the same rules for everyone.\n\nThank you for considering these comments.\n\nRespectfully submitted,\n\fRoger D Broussard\n\nCalhoun County, Texas\n\nNovember 18, 2026\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59142_84_1703384.PDF",
+   "name": null,
+   "bytes": 140549,
+   "sha256": "2d9357f7d4d650d5a2c5ba067c28824e2100df337d7f4923d7c437a24d626a31",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 4,
+   "truncated": false,
+   "text": "               PUBL~ 4\n\n\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-11-18 05:48:53 AM\n\nControl Number - 59142\n\nItem Number - 84\n\f               BEFORE THE PUBLIC UTILITY COMMISSION OF TEXAS\n\n                                  PROJECT NO. 59142\n\n      REVIEW OF ERCOT'S INTERCONNECTION PROCESSES FOR LARGE LOADS\n\n      PUBLIC COMMENT IN OPPOSITION TO SYNERGEN GREEN ENERGY, INC.'S\n                       REQUEST FOR GOOD CAUSE EXCEPTION\n\nTo the Commissioners of the Public Utility Commission of Texas:\n\nI am submitting this public comment in opposition to Synergen Green Energy,\nInc.'s September 11,2026 request for a good cause exception to ERCOT's Batch\nZero eligibility deadlines. I respectfully urge the Commission to denythe request.\n\nMy name is Roger D Broussard. I live in Calhoun County, Texas, where Synergen\nwants to build its ammonia plant. I am a concerned resident, not a party to this\nproceeding, and I am not asking to intervene. I am writing because this decision\naffects my county, my neighbors, and the rules every developer is supposed to live\nby.\n1. The deadlines were known.\n\nERCOT published a schedule for Batch Zero: a readiness kickoff on May 15, 2026,\nimplementation documents in earlyJune, and deadlines ofJuly 10 and July 24, 2026.\nThat was not a secret process. And by Synergen's own account, the company had\nbeen working with South Texas Electric Cooperative on this project since July 2024,\ncontracted for a load study and system impact study in August 2025 at a cost of\n$200,000, and received its steady state report in April 2026. Yet by its own account,\nSynergen did not sit down with STEC to discuss the new Batch Zero rules in any\ndetail until July 7,2026, three days before the first deadline. A company that had\ntwo yea rs to prepare does not get to call a published deadline a surprise.\n\n2. The money argument cuts the other way.\n\nSynergen says it has spent $30.5 million and cannot afford to lose it. But the\nfinancial security it failed to post was $15 million, less than half of what it says it has\nalready spent. A companythat can spend $30.5 million on a project can post $15\nmillion in security for it. That money was spent as a business decision, and it does\nnot buy an exception. If investment alone were good cause, then the rules would\n\fapply onlyto companies too small to matter, and every large developer could buy\nits way past any deadline.\n\n3. An exception here means exceptions for everyone.\n\nERCOT has said it received forty-one good cause exception requests. If the\nCommission grants this one, it tells every other developer that deadlines are\noptional when the stakes are high enough. That is not how a fair process works.\nThe Batch Zero rules were written to be applied the same way to everyone, and the\nCommission should applythem that way here.\n\n4. A 300-megawatt load in a rural county deserves real answers first.\n\nSynergen's plant would draw about 300 megawatts in a rural area. Before the\nCommission advances this project through interconnection, itshould have\ndocumented answers: what new transmission lines and substations will be needed,\nwhat they will cost, and who will pay for them. Synergen points to about 890\nmegawatts of wind and solar under contract, but a power purchase agreement is\nnot the same as firm power. The wind does not always blow and the sun does not\nalways shine, and the plant will need power when neither is producing. Those are\nquestions for the record, not assurances to take on faith.\n\n5. Our community's concerns deserve weight.\n\nCalhoun County residents have real concerns about this project: the scale of its\nelectricity demand, its use of groundwater, air quality, wastewater, industrial\nsafety, and the future of our communities. I am not opposed to responsible\nindustrial development. I am opposed to special treatment for one developer\nbecause it promises jobs and tax revenue. And I ask the Commission to make clear\nthat granting an interconnection exception would not be approval of this facility,\nwhich still needs its permits from the agencies that govern water, air, and safety.\n\nFor these reasons, I respectfully request that the Commission deny Synergen\nGreen Energy's request for a good cause exception, require Synergen to show\nspecific, documented grounds if it seeks any relief, and preserve the Batch Zero\nprocess as it was written, the same rules for everyone.\n\nThankyou for considering these comments.\n\nRespectfully submitted,\n\fRoger D Broussard\n\nCalhoun County, Texas\n\nNovember 18,2026\n\f"
+  }
+ ]
+}
