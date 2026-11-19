@@ -1,0 +1,45 @@
+{
+ "id": "NRC:ML26313A173",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000617",
+ "title": "Holtec Pioneer 2 (SMR-300 at Palisades): Enclosure 2: SMR-300 Instrumentation & Control Architecture Licensing Topical Report Audit Question Response Q-59 (Non-Proprietary) [['Response to Request for Additional Information (RAI)']]",
+ "filed": "2026-11-18",
+ "entity": [
+  "Holtec International",
+  "SMR, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2631/ML26313A173.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26313A173.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Holtec Pioneer 2 (SMR-300 at Palisades)",
+  "accession": "ML26313A173",
+  "document_date": "2026-11-09"
+ },
+ "collected_at": "2026-11-19T14:20:54Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "SMR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26313A173.pdf",
+   "name": null,
+   "bytes": 282809,
+   "sha256": "409b1d9279403d6424597c93282f36c52ae6c0633b53e7c8700bc2f9186c573b",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "\fNRC Audit for SMR-300 I&C Architecture LTR – Question No. 59                 [Date: 5/27/2026]\n\n       The SMR-300 Plant Safety System (PSS) is a digital, safety-related Instrumentation and\n       Control (I&C) system that provides automatic and manual control of safety functions and\n       components. The PSS provides the primary interface for the operator to control safety\n       equipment and perform post-accident monitoring system functions including reactor trip\n       (RT) and Engineered Safety Feature (ESF) actuation. The topical report Section 3.3\n       Control Stations describes control stations which include safety consoles with S-VDU\n       (Safety Visual Display Unit), a Manual Initiation switch and the master transfer switch\n       installed in both Main Control Room (MCR) and Remote Shutdown Facility (RSF) which\n       are all supported by the PSS. Does the design of the architecture described in the\n       topical report present any constraints on the information that can be presented on the\n       Human System Interface (HSI) due to sensor data availability?\n\n       [Guidance Reference: NUREG 0711 – Section 8 HSI Design Inputs I&C System\n       Requirements (8.4.1 HSI Design Inputs)]\n\n\nSMR Response                                                                  [Date: 6/8/2026]\n\nThe information presented on the PSS HSI is based on the safety-related process, status, and\nactuation information that is acquired, processed, and transmitted through predefined PSS\nsignal paths.\n\nThe PSS includes four redundant and independent instrumentation channels. Each channel\nreceives dedicated sensor inputs that are processed by its associated channel bistable\nprocessor (CBP). The CBPs transmit bistable outputs and instrument monitoring information to\nthe reactor protection processors (RPPs) through [[                           ]]. The RPPs\nthen provide monitoring information to the S-VDU over [[                          ]]. Within\neach division, [[\n                                                                         ]].\n\nAccordingly, the S-VDU can present the safety-related information made available through the\nPSS architecture, including process value monitoring, safety related post-accident monitoring\n(PAM), alarm status monitoring, bypass and inoperable status indication, component status, and\ninformation associated with manual operation or initiation functions. The architecture does not\nimpose a sensor-data-availability constraint on the presentation of predefined safety-related\nPSS information on the S-VDU.\n\n\n\n\nHoltec International Copyrighted Material\n[Not Export Controlled]\n\f"
+  }
+ ],
+ "enriched_at": "2026-11-19T14:23:07Z"
+}

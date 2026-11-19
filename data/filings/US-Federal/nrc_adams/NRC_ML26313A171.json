@@ -1,0 +1,46 @@
+{
+ "id": "NRC:ML26313A171",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000617",
+ "title": "Holtec Pioneer 2 (SMR-300 at Palisades): SMR, LLC A Holtec International Company, Letter Regarding Submittal of Instrumentation & Control Architecture Licensing Topical Report Audit Question and Response Q-59 (Project No. 99902049) [['Letter']]",
+ "filed": "2026-11-18",
+ "entity": [
+  "Holtec International",
+  "SMR, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2631/ML26313A171.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26313A171.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Holtec Pioneer 2 (SMR-300 at Palisades)",
+  "accession": "ML26313A171",
+  "document_date": "2026-11-09"
+ },
+ "collected_at": "2026-11-19T14:20:51Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "SMR",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26313A171.pdf",
+   "name": null,
+   "bytes": 340621,
+   "sha256": "714baef896160e1258c583e4a1f962aa5ca0eb1ff56363bd606cf4f36f70d2be",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                                  SMR, LLC. A Holtec International Company\n                   Krishna P. Singh Technology Campus,1 Holtec Blvd., Camden, NJ 08104\n                                                              Telephone (856) 797-0900\n                                                                         Fax (856) 797-0909\n\nNovember 6, 2026\n\nU.S. Nuclear Regulatory Commission\nATTN: Document Control Desk\nWashington, DC 20555-0001\n\nDocket Nos: 05000616 and 05000617\n\nSubject: Holtec International - Submittal of Instrumentation & Control Architecture\nLicensing Topical Report Audit Question and Response Q-59 (Project No. 99902049)\n\nReferences:\n   1. 300-USNRC-122 Submittal of SMR-300 Instrumentation and Control Architecture\n      Licensing Topical Report (ADAMS Accession No. ML25345A240)\n   2. U.S Nuclear Regulatory Commission (2026, March 25). Audit Plan for the Staff\n      review of the SMR (Holtec) Instrumentation & Control Architecture Licensing\n      Topical Report for the SMR-300 Design (ADAMS Accession ML26072A027)\n\nThe purpose of this letter is to provide the response to NRC audit question 59 for NRC staff\nreview.\n\nBy letter dated December 11, 2025 (ML25345A240), SMR, LLC, a Holtec International\nCompany (Holtec), submitted the licensing topical report (LTR) “SMR-300 Instrumentation\nand Control Architecture” HI-2251395 Revision 0 (Reference 1) to the U.S Nuclear\nRegulatory Commission (NRC). The NRC accepted the LTR for review and issued the\naudit plan (Reference 2).\n\nEnclosure 1 contains the proprietary version of the audit question and response. Enclosure\n2 contains the non-proprietary version of the audit question and response.\n\nHoltec requests that Enclosure 1 be withheld from public disclosure in accordance with the\nAffidavit provided in Enclosure 3.\n\nIf you have any questions or require any additional information, please contact Jacob\nDolecki, Senior Manager – Licensing & Engineering Programs, SMR, at\njdolecki@holtec.com, 856-559-3783.\n\n\n\n\nTransmittal No. 300-USNRC-26023                                                  Page 1 of 2\n\f                                                        SMR, LLC. A Holtec International Company\n                          Krishna P. Singh Technology Campus,1 Holtec Blvd., Camden, NJ 08104\n                                                                     Telephone (856) 797-0900\n                                                                             Fax (856) 797-0909\n\n\n\nRespectfully,\n                Digitally signed by Jacob (Jake)\nJacob (Jake)    Dolecki\n                DN: C=US, OU=SMR, CN=Jacob\n                (Jake) Dolecki, O=Holtec\n  Dolecki       International, E=j.dolecki@holtec.com\n                Date: 2026.11.06 16:06:03 -05'00'\n\n\nJacob Dolecki\nSenior Manager – Licensing & Engineering Programs\nHoltec International\n\nEnclosures:\n1. I&C Architecture LTR Audit Question Response Q-59 (Proprietary)\n2. I&C Architecture LTR Audit Question Response Q-59 (Non-Proprietary)\n3. Affidavit Pursuant to 10 CFR 2.390 to Withhold Information from Public Disclosure\n\nCC:\nK. Manzione (Holtec, Executive Director of Licensing & Regulatory Affairs)\nV. Huckabay (USNRC, DNRL, NLIB, Project Manager)\nJ. Lising (USNRC, OAR, Project Manager)\n\n\n\n\nTransmittal No. 300-USNRC-26023                                                     Page 2 of 2\n\f"
+  }
+ ],
+ "enriched_at": "2026-11-19T14:23:04Z"
+}

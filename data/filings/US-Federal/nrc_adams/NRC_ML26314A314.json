@@ -1,0 +1,35 @@
+{
+ "id": "NRC:ML26314A314",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000255",
+ "title": "Palisades (Holtec restart): Palisades Nuclear Plant - Security Baseline Inspection Report 05000255-2026402 [['Inspection Report', 'Letter']]",
+ "filed": "2026-11-18",
+ "entity": [
+  "NRC/CNRI/ORAR3/R3DRP/RPBD"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2631/ML26314A314.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26314A314.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Palisades (Holtec restart)",
+  "accession": "ML26314A314",
+  "document_date": "2026-11-09"
+ },
+ "collected_at": "2026-11-19T14:20:21Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2631/ML26314A314.pdf",
+   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2631/ML26314A314.pdf"
+  }
+ ]
+}

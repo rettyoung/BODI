@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151811",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "NYISO Finds Statewide Resource Deficiency by 2033",
+ "filed": "2026-11-19",
+ "url": "//www.rtoinsider.com/151811-nyiso-finds-statewide-resource-deficiency-by-2033/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " A combination of generation retirements, generator unavailability during peak conditions because of old age and the addition of large loads has led NYISO to declare a statewide resource deficiency, according to its latest Reliability Needs Assessment. \n The post  NYISO Finds Statewide Resource Deficiency by 2033  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-19T14:03:39Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

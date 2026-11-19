@@ -23,13 +23,23 @@
  "collected_at": "2026-11-18T13:54:44Z",
  "run_id": "2026-11-18-1325",
  "keywords": [
-  "SMR"
+  "SMR",
+  "nuclear"
  ],
  "party_hits": [],
  "documents": [
   {
    "url": "https://www.nrc.gov/docs/ML2632/ML26321A449.pdf",
-   "error": "blocked: HTTP 403 for https://www.nrc.gov/docs/ML2632/ML26321A449.pdf"
+   "name": null,
+   "bytes": 159486,
+   "sha256": "f9e38464297999d12dba3da443af612e1b6d863a173ce25c52ee5eb159c994fb",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 1,
+   "truncated": false,
+   "text": "From:           Michael Orenak\nTo:             8569570955 Jake Dolecki\nCc:             Michelle Hayes; Mihaela Biro; Tony Nakanishi\nSubject:        Pre-Acceptance Regulatory Audit Plan for the Palisades SMR, LLC Pioneer Units 1 and 2 Construction Permit\nDate:           Friday, November 6, 2026 8:29:00 AM\nAttachments:    Pre-Acceptance Regulatory Audit Plan for the Palisades SMR, LLC Pioneer Units 1 and 2 Construction Permit.pdf\n\n\nDear Mr. Dolecki,\n\nBy letter dated September 30, 2026, (ADAMS Accession No. ML26273A416), SMR, LLC,\non behalf of Palisades SMR, LLC, a wholly-owned subsidiary of Holtec International\n(collectively, Holtec) submitted to the U.S. Nuclear Regulatory Commission (NRC), an\napplication for a construction permit for Pioneer Units 1 and 2, pursuant to Title 10 of the\nCode of Federal Regulations (10 CFR) Part 50, “Domestic Licensing of Production and\nUtilization Facilities.” The application is still under acceptance review per 10 CFR 2.101(a)\n(2).\n\nThe NRC staff has determined that a regulatory audit would assist in the acceptance review\nof the application, primarily focusing on the preliminary safety analysis report and proposed\nexemptions. The NRC staff will conduct the audit to seek clarification, gain understanding,\nand verify information to determine the completeness and technical sufficiency of the\napplication. The NRC staff will coordinate with Holtec to start the audit in November 2026,\nin accordance with the audit plan attached to this email.\n\nIf you have any questions, please contact Michael Orenak at 301-415-3229 or via email at\nmichael.orenak@nrc.gov.\n\nSincerely,\n\n\nMichael D. Orenak, Senior Project Manager\nAdvanced Reactor Licensing Branch 2 (ARLB2)\nOAR – Division of Advanced Reactor Licensing (DARL)\n301-415-3229\nMichael.Orenak@nrc.gov\n\f"
   }
- ]
+ ],
+ "enriched_at": "2026-11-19T14:23:17Z"
 }

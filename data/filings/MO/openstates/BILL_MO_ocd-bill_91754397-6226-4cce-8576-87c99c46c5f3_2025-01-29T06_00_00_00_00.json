@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/91754397-6226-4cce-8576-87c99c46c5f3:2025-01-29T06:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 963",
+ "title": "Modifies provisions for electrical corporations",
+ "filed": "2025-01-29",
+ "url": "https://openstates.org/mo/bills/2025/HB963/",
+ "fetch": [],
+ "meta": {
+  "session": "2025",
+  "latest_action": "Public Hearing Completed (H)",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-19T14:13:28Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

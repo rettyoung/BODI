@@ -1,0 +1,26 @@
+{
+ "id": "GA:229498",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "55378",
+ "title": "DKT 55378 Q2 2026 STF-PIA-20-9 Data Request Response",
+ "filed": "2026-11-18",
+ "entity": "Georgia Power Company",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=229498",
+ "fetch": [
+  {
+   "ga_document": 229498
+  }
+ ],
+ "collected_at": "2026-11-19T13:55:44Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ga_document': 229498}",
+   "error": "blocked: block page (captcha) at https://psc.ga.gov/search/facts-document/?documentId=229498"
+  }
+ ]
+}

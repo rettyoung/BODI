@@ -1,0 +1,42 @@
+{
+ "id": "NM:DOC-000553806-26",
+ "jur": "NM",
+ "source": "nm_prc",
+ "kind": "filing",
+ "docket": "25-00082-UT",
+ "title": "Order Granting Motion to Withdraw Confidential Testimony adn Refile Testimony [Orders]",
+ "filed": "2026-11-18",
+ "entity": "EL PASO ELECTRIC COMPANY",
+ "url": "https://e360.prc.nm.gov/portal/public/#/public/nm-prc/en/CaseXscreen?screen=external-Case360&caseId=2416437c-f57b-4ad5-a058-17abb202963a",
+ "fetch": [
+  {
+   "nm_document": "5b657aaf-41ce-4be5-a764-b5060187b44d",
+   "name": "DOC-000553806-26"
+  }
+ ],
+ "meta": {
+  "caseId": "2416437c-f57b-4ad5-a058-17abb202963a",
+  "document_number": "DOC-000553806-26",
+  "filed_by": "ana kippenbrock",
+  "document_type": "Orders",
+  "source": "Internal"
+ },
+ "collected_at": "2026-11-19T13:57:46Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://e360.prc.nm.gov/core/api/document/v1/previewDocument#DOC-000553806-26",
+   "name": "DOC-000553806-26",
+   "bytes": 278489,
+   "sha256": "c48070ba56e42261f0830682b4c938575824217edf2287f72ee6f221935375f3",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "          BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\n\n IN THE MATTER OF THE APPLICATION OF EL PASO                        )\n ELECTRIC COMPANY FOR REVISION OF ITS RETAIL                        ) Docket No. 25-00082-UT\n ELECTRIC RATES PURSUANT TO ADVICE NOTICE                           )\n NO. 317                                                            )\n\n    ORDER GRANTING MOTION TO WITHDRAW CONFIDENTIAL TESTIMONY\n                      AND REFILE TESTIMONY\n\n        THIS MATTER comes before Keven Gedko and Nicholas Rossi, hearing examiners for\n\nthe New Mexico Public Regulation Commission (“Commission”), upon the Regents of New\n\nMexico State University’s (“NMSU”) Motion to Withdraw Confidential Testimony and File\n\nAmended Public Testimony of Michael P. Gorman on Behalf of NMSU (“Motion”), filed on\n\nOctober 28, 2026. Being duly informed, the Hearing Examiners FIND and CONCLUDE:\n\n        1.       On October 28, 2026, NMSU filed its Motion, requesting it be allowed to withdraw\n\nthe Confidential Testimony of Michael P. Gorman and its Confidential Exhibit MPG-21\n\n(“Confidential Testimony”), and file an amended version of the Public Direct Testimony and\n\nExhibits of Michael P. Gorman that was filed on October 23, 2026.1\n\n        2.       The Motion explains that the amended testimony “would remove the redactions on\n\npages 22, 25, and 27 of Mr. Gorman’s [Confidential Testimony] in light of the Stipulation that\n\nEPE waives confidentiality of the redacted material and EPE will not challenge its admission into\n\nthe evidentiary record in this case,” 2 and asserts that the filing of the amended, non-redacted\n\nversion of Mr. Gorman’s public testimony would simplify and clarify the record, and avoid\n\nprocedural and evidentiary complexities during the public hearing in this matter.3\n\n\n\n\n1 Motion (Oct. 28, 2026) at 1.\n\n2 Id.\n\n3 Id.\n\f               BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\nOrder Granting Motion to Withdraw and Refile Testimony    Docket No. 25-00082-UT\n\n\n\n        3.      The Motion is unopposed.\n\n        4.      The Hearing Examiners find there is good cause to grant the Motion.\n\n        5.      The Hearing Examiners also find that the Motion does not directly address\n\nConfidential Exhibit MPG-21. However, Confidential Exhibit MPG-21 is referenced as a footnote\n\nto the text on pages 22 and 27 that NMSU requests to refile in unredacted form, and provides the\n\nbasis for the unredacted text that will be filed.\n\n        6.      The Hearing Examiners therefore understand that NMSU’s filing of Mr. Gorman’s\n\namended testimony should include Exhibit MPG-21 and the citations to that exhibit that exist in\n\nthe Confidential Testimony.\n\n        7.      Further, the Confidential Testimony has not been admitted to an official record in\n\nthis docket. Filings are not removed from e360 once they are filed, but that does not mean they are\n\npart of an official record. For the purpose of granting the Motion, the Confidential Testimony being\n\n“withdrawn” means that it will remain in the Commission’s e360 filing system but will not be\n\nproposed for admission into the official record in this docket.\n\n        8.      Finally, the amended testimony should be filed by November 19, 2026, so that\n\nrebuttal testimony that is filed on November 20, 2026 may reference the amended testimony.\n\n        IT IS THEREFORE ORDERED:\n\n        A.      The Motion is GRANTED.\n\n        B.      The Confidential Direct Testimony and Exhibits of Michael P. Gorman are\n\nWITHDRAWN.\n\n        C.      By November 19, 2026, NMSU shall file an amended version of the Public Direct\n\nTestimony and Exhibits of Michael P. Gorman that includes the unredacted text that was redacted\n\n\n\n                                                    2\n\f              BEFORE THE NEW MEXICO PUBLIC REGULATION COMMISSION\nOrder Granting Motion to Withdraw and Refile Testimony   Docket No. 25-00082-UT\n\n\n\nin the Confidential Testimony, as well Exhibit MPG-21 and citations to that exhibit. In the\n\nalternative, if the Stipulation does not encompass Exhibit MPG-21, by November 19, 2026, NMSU\n\nand EPE shall file an explanation of how to enact the agreement they have reached that takes into\n\naccount Exhibit MPG-21.\n\n    ISSUED under the Seal of the Commission at Santa Fe, New Mexico, on November 18, 2026.\n\n\n\n                           NEW MEXICO PUBLIC REGULATION COMMISSION\n\n\n\n\n                                               3\n\f"
+  }
+ ]
+}

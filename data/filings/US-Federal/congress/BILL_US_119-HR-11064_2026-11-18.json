@@ -1,0 +1,24 @@
+{
+ "id": "BILL:US:119-HR-11064:2026-11-18",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 11064",
+ "title": "To require the Secretary of Energy to establish a Data Center Community Assistance Program, and for other purposes.",
+ "filed": "2026-11-18",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/11064",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Referred to the House Committee on Energy and Commerce.",
+  "keywords": [
+   "data center"
+  ]
+ },
+ "collected_at": "2026-11-19T14:07:28Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

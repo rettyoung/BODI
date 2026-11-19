@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/7584a38f-1bdf-4a17-bc9c-0cf668214965:2026-01-29",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 436",
+ "title": "Counties, Municipal Corporations; local governments and political subdivisions from entering into nondisclosure agreements regarding electricity usage or water usage of any entity; prohibit",
+ "filed": "2026-01-29",
+ "url": "https://openstates.org/ga/bills/2025_26/SB436/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "Senate Read and Referred",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-19T14:13:28Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

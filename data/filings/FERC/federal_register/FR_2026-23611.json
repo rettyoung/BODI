@@ -1,0 +1,44 @@
+{
+ "id": "FR:2026-23611",
+ "jur": "FERC",
+ "source": "federal_register",
+ "kind": "notice",
+ "docket": "Docket No. EL27-11-000",
+ "title": "Exelon Corporation v. PJM Interconnection, L.L.C.; Notice Establishing Comment Period",
+ "filed": "2026-11-19",
+ "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23611/exelon-corporation-v-pjm-interconnection-llc-notice-establishing-comment-period",
+ "entity": "energy-department, federal-energy-regulatory-commission",
+ "fetch": [
+  {
+   "url": "https://www.federalregister.gov/documents/full_text/text/2026/11/19/2026-23611.txt"
+  }
+ ],
+ "meta": {
+  "type": "Notice",
+  "action": null,
+  "abstract": null,
+  "comments_close_on": null,
+  "effective_on": null,
+  "term": "interconnection"
+ },
+ "collected_at": "2026-11-19T14:22:44Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.federalregister.gov/documents/full_text/text/2026/11/19/2026-23611.txt",
+   "name": null,
+   "bytes": 2225,
+   "sha256": "050fa669a102e94b1c5c9002718f7af80443e02c22c3fa72c14324a2e14b2dee",
+   "ctype": "text/plain",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Federal Register, Volume 91 Issue 222 (Thursday, November 19, 2026)\n\n[Federal Register Volume 91, Number 222 (Thursday, November 19, 2026)]\n[Notices]\n[Page 74547]\nFrom the Federal Register Online via the Government Publishing Office [\nwww.gpo.gov\n]\n[FR Doc No: 2026-23611]\n\n=======================================================================\n-----------------------------------------------------------------------\n\nDEPARTMENT OF ENERGY\n\nFederal Energy Regulatory Commission\n\n[Docket No. EL27-11-000]\n\nExelon Corporation v. PJM Interconnection, L.L.C.; Notice \nEstablishing Comment Period\n\n    On November 4, 2026, PJM Interconnection, L.L.C. (PJM) filed a \npreliminary answer opposing fast-track processing and a motion \nrequesting a four-week extension of time, until December 21, 2026, to \nanswer the complaint filed by Exelon Corporation (Exelon) in the above-\ncaptioned proceeding. PJM argues that there is good cause to grant the \nextension because the additional time will permit PJM to incorporate \ninto its response the outcome of the deliberations by the PJM Board, \nwhich will meet on November 17, 2026. PJM also argues that Exelon has \nfailed to demonstrate any compelling reason for Commission action by \nthe requested January 31, 2027, date and therefore a four-week \nextension of the answer deadline will not impair the Commission's \nability to act.\n    On November 9, 2026, Exelon filed a motion for leave to answer and \nanswer. Exelon supports an extension of the comment period to December \n7, 2026, but argues that the scale of PJM's proposed extension is \nexcessive for the narrow scope of the allegations it must answer. \nExelon also urges the Commission to act sufficiently in advance of the \nMay 2027 Base Residual Auction.\n    Upon consideration, notice is hereby given that PJM's motion for \nextension of time is granted and the deadline to file the answer to \nExelon's complaint, comments, and interventions is December 21, 2026.\n\n(Authority: 16 U.S.C. 824e)\n\n    Dated: November 13, 2026.\nCarlos D. Clay,\nDeputy Secretary.\n[FR Doc. 2026-23611 Filed 11-18-26; 8:45 am]\nBILLING CODE 6717-01-P"
+  }
+ ]
+}

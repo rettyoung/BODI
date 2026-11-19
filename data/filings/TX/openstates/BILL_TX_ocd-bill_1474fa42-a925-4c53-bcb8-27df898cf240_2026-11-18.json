@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/1474fa42-a925-4c53-bcb8-27df898cf240:2026-11-18",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1225",
+ "title": "Relating to the portion of the value of property that is a data center that may be exempted from ad valorem taxation under agreements entered into under the Property Redevelopment and Tax Abatement Act.",
+ "filed": "2026-11-18",
+ "url": "https://openstates.org/tx/bills/90R/HB1225/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-19T14:13:28Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26322A023",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000617",
+ "title": "Holtec Pioneer 2 (SMR-300 at Palisades): Letter From M. Smar, MI EGLE to R. Hoffman, NRC regarding Holtec SMRs 401 WQC Request Receipt [['Letter']]",
+ "filed": "2026-11-18",
+ "entity": [
+  "State of MI, Water Resources Commission"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2632/ML26322A023.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2632/ML26322A023.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Holtec Pioneer 2 (SMR-300 at Palisades)",
+  "accession": "ML26322A023",
+  "document_date": "2026-07-13"
+ },
+ "collected_at": "2026-11-19T14:20:57Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "SMR",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2632/ML26322A023.pdf",
+   "name": null,
+   "bytes": 166304,
+   "sha256": "3933646ea28ae56e689f5bc69cbbf8a8a179387e5ec0069f467892a9280d6098",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                          S TATE OF M IC HIGAN\n                                          DEPARTMENT OF\n                                ENVIRONMENT, GREAT LAKES, AND ENERGY\n                                              WATER R ESOURC ES D IVISION\nGRETCHE N WHITMER                                                                                          PHILLIP D. ROOS\n     GOVERNOR                                                                                                   DIRECTOR\n\n\n\n                                                         July 13, 2026\n\n\n\n        VIA E-MAIL\n\n        Robert Hoffman, Sr. Environmental Project Manager\n        U.S. Nuclear Regulatory Commission\n        Two White Flint North\n        Mail Stop: T4-B72\n        11545 Rockville Pike\n        Rockville, Maryland 20852-2738\n\n\n        Dear Robert Hoffman:\n\n        Subject:        Receipt of Clean Water Act Section 401 Water Quality Certification\n                        Request and Coastal Zone Management Act Consistency Certification:\n                        Construction and Operation of Two SMR-300 Units at the Palisades\n                        Energy Center, Covert Township, Van Buren County, Michigan (NRC\n                        Project No. 99902049; Docket Nos. 050-616 and 050-617)\n\n        The Department of Environment, Great Lakes, and Energy (EGLE), Water Resources\n        Division (WRD), has received a request for Water Quality Certification (WQC) pursuant\n        to Section 401 of the Clean Water Act from Holtec International for the construction and\n        operation of two Small Modular Reactor (SMR)-300 units at the Palisades Energy\n        Center on the Lake Michigan coast in Covert Township, Van Buren County. The WQC\n        request was received on April 7, 2026. This project requires a permit and license from\n        the U.S. Nuclear Regulatory Commission (NRC) and will result in a discharge to waters\n        of the U.S.\n\n        Additionally, this project has reasonably foreseeable effects on resources and uses of\n        Michigan’s approved coastal management program area and is subject to Federal\n        Consistency requirements under Section 307 of the Coastal Zone Management Act, PL\n        92-583, as amended, and 15 CFR Part 930, Subpart D. EGLE WRD received the\n        Consistency Certification with necessary data and information for this project from\n        Holtec International pursuant to 15 CFR 930.57 on June 5, 2026. This date marks the\n        beginning of the six-month Consistency Certification review period pursuant to 15 CFR\n        930.60(a).\n\n        Please note that Michigan’s water quality requirements that are applied to reviews of\n        WQC requests are a subset of the approved enforceable policies of Michigan’s Coastal\n        Management Program that are applied to reviews of Consistency Certifications.\n        Consequently, many projects that require both WQC and Consistency Certification\n        concurrence, such as the proposed construction and operation of the SMR-300 units,\n           DEBORAH A. STABENOW BUILDING • 525 WEST ALLEGAN STREET • P.O. BOX 30458 • LANSING, MICHIGAN 48909-7958\n                                              Michigan.gov/EGLE • 800-662-9278\n\fRobert Hoffman, U.S. Nuclear Regulatory Commission\nPage 2\nJuly 13, 2026\n\nare approved, denied, or approved with conditions developed by EGLE WRD based on\nprovisions of statutes and administrative rules that are both water quality requirements\nand approved enforceable policies.\n\nPursuant to 40 CFR 121.6(b), EGLE WRD requests that the U.S. Nuclear Regulatory\nCommission agree to a “reasonable period of time” for acting on the WQC request\nthrough December 5, 2026. Such timeframe would allow EGLE WRD to fully coordinate\nthe WQC and Consistency Certification reviews of the lengthy and complex material\nand complete public notice requirements.\n\nIf you have any questions regarding this letter, please contact me at 517-230-7849 or\nSmarM@Michigan.gov.\n\n                           Sincerely,\n\n\n\n\n                           Matt Smar, Great Lakes and Shorelands Unit Manager\n                           Field Operations Support Section\n                           Water Resources Division\n\n\ncc:   Laura Willingham, U.S. Nuclear Regulatory Commission\n      Steven Mitchell, Holtec International\n      Andrea Munoz-Hernandez, EGLE\n      Tarek Buckmaster, EGLE\n\f"
+  }
+ ]
+}

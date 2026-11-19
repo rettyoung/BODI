@@ -1,0 +1,24 @@
+{
+ "id": "BILL:IL:ocd-bill/16a8f60c-9661-44c7-8d01-97702b383336:2026-11-18",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 4016",
+ "title": "HYPERSCALE DATA CENTERS",
+ "filed": "2026-11-18",
+ "url": "https://openstates.org/il/bills/104th/SB4016/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Added as Co-Sponsor Sen. Celina Villanueva",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-19T14:13:28Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": []
+}

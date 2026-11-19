@@ -1,0 +1,47 @@
+{
+ "id": "NRC:ML26110A100",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000289",
+ "title": "Crane Clean Energy Center / TMI-1 (Constellation restart): Correspondence in support of the Christopher M. Crane Clean Energy Center (CCEC) License Amendment Request for Proposed Changes to CCEC Security Plan [['Letter']]",
+ "filed": "2026-11-19",
+ "entity": [
+  "Constellation Energy Generation, LLC"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2611/ML26110A100.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2611/ML26110A100.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Crane Clean Energy Center / TMI-1 (Constellation restart)",
+  "accession": "ML26110A100",
+  "document_date": "2026-04-17"
+ },
+ "collected_at": "2026-11-19T14:20:27Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [
+  "Constellation",
+  "NRG"
+ ],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2611/ML26110A100.pdf",
+   "name": null,
+   "bytes": 572578,
+   "sha256": "714b28404e6b79188faefa35222b87e4067529f71e195a71a9f048b502164ba1",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "                                                                             200 Energy Way\n\n                    0                l                                       Kennett Square, PA 19348\n                                                                             www constellation.com\n\n\n                                                                             10 CFR 50.54(p)(1)\n                                                                             10 CFR 50.4(b)(4)\n CCEC-26-015\n\n April 17, 2026\n\nU.S. Nuclear Regulatory Commission\nATTN : Document Control Desk\nWashington, D.C. 20555-0001\n\n                  Christopher M. Crane Clean Energy Center\n                  Renewed Facility License No. DPR-50\n                  NRC Docket No. 50-289\n\n                  Three Mile Island Nuclear Station, Unit 2\n                  Possession Only License No. DPR-73\n                  NRC Docket No. 50-320\n\nSubject:          Correspondence in support of the Christopher M. Crane Clean Energy Center\n                  (CCEC) License Amendment Request for Proposed Changes to CCEC Security\n                  Plan\n\nReferences:       1. \"License Amendment Request - Proposed Changes to Christopher M.\n                     Crane Clean Energy Center (CCEC) Security Plan, Training and\n                     Qualification Plan, and Safeguards Contingency Plan, Revision O\" dated\n                     October 24, 2025 (ML25300A118)\n\nIn Reference 1, Constellation Energy Generation, LLC (CEG) requested an amendment to\nRenewed Facility License (RFL) Number DPR-50 for the Christopher M. Crane Clean Energy\nCenter (CCEC) and approval of the proposed Christopher M. Crane Clean Energy Center\nSecurity Plan, Training and Qualification Plan and Safeguards Contingency Plan. The proposed\namendment would revise the CCEC RFL to reflect the requirements associated with the security\nchanges for the operating facility.\n\nEnclosure 1 to this letter is being provided to aid the NRC staff in the review and approval of the\nrequested action.\n\nThere are no regulatory commitments contained in this letter.\n\n\n\n\n Enclosure 1 contains Safeguards Information. This page is decontrolled when separated from\n                                       Enclosure 1.\n\f U.S. Nuclear Regulatory Commission\n Crane Restart Security Plan Supplement                                                     Page2\n April 17, 2026\n\n\n\n For questions related to this submittal, please contact Daniel Kenny, CCEC Site Security\n Manager, via email at Daniel.Kenny@constellation.com.\n\n Respectfully,\n\n\n\n\n Danie enny\n Crane Site Security Manager\n Constellation Energy Generation, LLC\n\n\nEnclosure 1 - Letter from PA State Police regarding Response Commitments (Contains\nSafeguards Information)\n\ncc: w/o Enclosure\n\nNRG Regional Administrator - Region I\nNRG Director, NRR - DORL\nNRG Deputy Director, NRR - DORL\nNRG Project Manager, NRR-DORL - Christopher M. Crane Clean Energy Center\nNRG Project Manager, NMSS - Christopher M. Crane Clean Energy Center\nDirector, Bureau of Radiation Protection - Pennsylvania Department of Environmental\nProtection\nChairman, Board of County Commissioners of Dauphin County\nChairman, Board of Supervisors of Londonderry Township\n\n\n\n\nEnclosure 1 contains Safeguards Information. This page is decontrolled when separated from\n                                      Enclosure 1.\n\f"
+  }
+ ],
+ "enriched_at": "2026-11-19T14:22:57Z"
+}

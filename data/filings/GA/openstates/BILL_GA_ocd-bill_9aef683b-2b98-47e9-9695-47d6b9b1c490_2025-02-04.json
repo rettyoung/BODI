@@ -1,0 +1,23 @@
+{
+ "id": "BILL:GA:ocd-bill/9aef683b-2b98-47e9-9695-47d6b9b1c490:2025-02-04",
+ "jur": "GA",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 73",
+ "title": "\"Safeguarding American Veteran Empowerment Act' or \"SAVE Act\"; enact",
+ "filed": "2025-02-04",
+ "url": "https://openstates.org/ga/bills/2025_26/SB73/",
+ "fetch": [],
+ "meta": {
+  "session": "2025_26",
+  "latest_action": "Senate Read and Referred",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-19T14:13:28Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:MO:ocd-bill/44885b9b-3dc0-4ba1-86fd-4fa2af357927:2025-05-15T05:00:00+00:00",
+ "jur": "MO",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1084",
+ "title": "Creates new provisions relating to electric utilities",
+ "filed": "2025-05-15",
+ "url": "https://openstates.org/mo/bills/2025/HB1084/",
+ "fetch": [],
+ "meta": {
+  "session": "2025",
+  "latest_action": "Referred: Emerging Issues(H)",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-19T14:13:28Z",
+ "run_id": "2026-11-19-1352",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}
