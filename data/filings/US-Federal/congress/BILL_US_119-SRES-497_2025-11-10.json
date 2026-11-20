@@ -1,0 +1,22 @@
+{
+ "id": "BILL:US:119-SRES-497:2025-11-10",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "SRES 497",
+ "title": "A resolution permitting the collection of clothing, toys, food, and housewares during the holiday season for charitable purposes in Senate buildings.",
+ "filed": "2025-11-10",
+ "url": "https://www.congress.gov/bill/119th-congress/senate-bill/497",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Submitted in the Senate, considered, and agreed to without amendment by Unanimous Consent. (consideration: CR S8183; text: CR S8135)",
+  "keywords": [
+   "permitting"
+  ]
+ },
+ "collected_at": "2026-11-20T13:59:00Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

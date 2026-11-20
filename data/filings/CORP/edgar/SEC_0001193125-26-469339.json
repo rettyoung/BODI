@@ -1,0 +1,42 @@
+{
+ "id": "SEC:0001193125-26-469339",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Dominion 8-K 8-K items 8.01",
+ "filed": "2026-11-20",
+ "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526469339/",
+ "entity": "Dominion",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526469339/d173220d8k.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01"
+  ],
+  "cik": "0000715957",
+  "market_participant": false
+ },
+ "collected_at": "2026-11-20T14:14:30Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526469339/d173220d8k.htm",
+   "name": null,
+   "bytes": 23460,
+   "sha256": "a336e8c451a7589b0e73c6258353cb924146c3fd00b9c6bc072607c5e20e763b",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "8-K\n\nDOMINION ENERGY, INC\n\nfalse\n\n0000715957\n\n0000715957\n\n2026-11-18\n\n2026-11-18\n\n0000715957\n\nstpr:VA\n\n2026-11-18\n\n2026-11-18\n\nUNITED STATES\n\nSECURITIES AND EXCHANGE COMMISSION\n\nWashington, DC 20549\n\nFORM \n8-K\n\nCURRENT REPORT\n\nPursuant to Section 13 or 15(d)\n\nof the Securities Exchange Act of 1934\n\nDate of Report (Date of earliest event reported) \nNovember 18, 2026\n\nDominion Energy, Inc.\n\n(Exact Name of Registrant as Specified in Its Charter)\n\nVirginia\n\n001-08489\n\n54-1229715\n\n(State or other jurisdiction\n\nof incorporation)\n\n(Commission\n\nFile Number)\n\n(IRS Employer\n\nIdentification No.)\n\n600 East Canal Street\n\nRichmond\n, \nVirginia\n\n23219\n\n(Address of Principal Executive Offices)\n\n(Zip Code)\n\nRegistrant’s Telephone Number, Including Area Code \n(804)\n\n819-2284\n\n(Former Name or Former Address, if Changed Since Last Report)\n\nCheck the appropriate box below if the Form \n8-K\n filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (\nsee \nGeneral Instruction A.2. below):\n\n☐\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n☐\n\nSoliciting material pursuant to Rule \n14a-12\n under the Exchange Act (17 CFR \n240.14a-12)\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n14d-2(b)\n under the Exchange Act (17 CFR \n240.14d-2(b))\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n13e-4(c)\n under the Exchange Act (17 CFR \n240.13e-4(c))\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\nTitle of each class\n\nTrading\n\nSymbol(s)\n\nName of each exchange\n\non which registered\n\nCommon Stock, no par value\n\nD\n\nNew York Stock Exchange\n\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule \n12b-2\n of the Securities Exchange Act of 1934 \n(§240.12b-2\n of this chapter).\n\nEmerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\n\nItem 8.01\n\nOther Events. \n\nOn November 18, 2026, the waiting period under the U.S. Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended, with respect to Dominion Energy, Inc.’s previously disclosed combination with NextEra Energy, Inc., expired. The closing of the proposed combination remains subject to the satisfaction of other closing conditions, including certain other regulatory approvals. \n\nSIGNATURE \n\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. \n\nDOMINION ENERGY, INC.  \n\nRegistrant  \n\n/s/ David M. McFarland\n\nName:\n\nDavid M. McFarland\n\nTitle:\n\nSenior Vice President – Investor Relations\n\nand Treasurer\n\nDate: November 20, 2026"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/batteries/another-banner-year-us-energy-storage-installations",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "It’s another banner year for batteries in the US",
+ "filed": "2026-11-20",
+ "url": "https://www.canarymedia.com/articles/batteries/another-banner-year-us-energy-storage-installations",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "See more from  Canary Media’s ​“Chart of the Week” column  .  Batteries are booming in America. Over the first nine months of this year, the U.S. installed 20% more battery storage capacity than it did in the same period last year, according to a  new report by the Solar Energy Industries Association and Benchmark…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-20T13:55:12Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [
+  "battery storage"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/fe92b097-26fa-479c-98b5-4f3e15ec4b05:2026-11-19",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1255",
+ "title": "Relating to registration and community outreach requirements for large data centers.",
+ "filed": "2026-11-19",
+ "url": "https://openstates.org/tx/bills/90R/HB1255/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-20T14:04:51Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,27 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/ratepayer-advocates-pjm-market-monitor-capacity-auction/875165/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "PJM urged to delay base capacity auction until data centers cut from forecast",
+ "filed": "2026-11-19",
+ "url": "https://www.utilitydive.com/news/ratepayer-advocates-pjm-market-monitor-capacity-auction/875165/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      State ratepayer advocates and the grid operator&rsquo;s market monitor say holding the auction in December as planned threatens grid reliability and could hit consumers with billions in unnecessary costs. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-20T13:55:12Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [
+  "capacity auction",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

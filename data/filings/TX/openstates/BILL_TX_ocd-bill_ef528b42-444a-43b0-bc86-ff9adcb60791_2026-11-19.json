@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/ef528b42-444a-43b0-bc86-ff9adcb60791:2026-11-19",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1252",
+ "title": "Relating to requiring an applicant for a permit issued by the Texas Commission on Environmental Quality relating to the operation of a data center to notify the commissioners court of the county in which the data center is or will be located.",
+ "filed": "2026-11-19",
+ "url": "https://openstates.org/tx/bills/90R/HB1252/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-20T14:04:51Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151891",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC Enforcement Report Offers Tips on AI, Large Load Compliance",
+ "filed": "2026-11-19",
+ "url": "//www.rtoinsider.com/151891-ferc-enforcement-report-offers-tips-ai-large-load-compliance/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " FERC released its annual enforcement report summarizing its activities in FY 2026, while adding a new section on emerging issues like AIs trading in power and natural gas. \n The post  FERC Enforcement Report Offers Tips on AI, Large Load Compliance  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-20T13:55:12Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

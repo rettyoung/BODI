@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151946",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Utah Lawmakers’ Data Center Plan Would Prioritize Local Input",
+ "filed": "2026-11-20",
+ "url": "//www.rtoinsider.com/151946-utah-lawmakers-data-center-plan-would-prioritize-local-input/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Utah lawmakers have outlined planned revisions to state data center policies they expect to consider during the legislative session beginning January 2027. \n The post  Utah Lawmakers&#8217; Data Center Plan Would Prioritize Local Input  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-20T13:55:12Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,25 @@
+{
+ "id": "BILL:US:119-HR-11100:2026-11-19",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 11100",
+ "title": "To establish prohibitions on certain entities with respect to data centers, data center services, and cloud services, and for other purposes.",
+ "filed": "2026-11-19",
+ "url": "https://www.congress.gov/bill/119th-congress/house-bill/11100",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Referred to the House Committee on Energy and Commerce.",
+  "keywords": [
+   "data center",
+   "data centers"
+  ]
+ },
+ "collected_at": "2026-11-20T13:59:00Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

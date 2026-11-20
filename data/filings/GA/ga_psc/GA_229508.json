@@ -1,0 +1,26 @@
+{
+ "id": "GA:229508",
+ "jur": "GA",
+ "source": "ga_psc",
+ "kind": "filing",
+ "docket": "56002",
+ "title": "Data Request from Commission Staff (STF-DEA-9)",
+ "filed": "2026-11-19",
+ "entity": "Staff",
+ "url": "https://psc.ga.gov/search/facts-document/?documentId=229508",
+ "fetch": [
+  {
+   "ga_document": 229508
+  }
+ ],
+ "collected_at": "2026-11-20T13:46:53Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "{'ga_document': 229508}",
+   "error": "blocked: block page (captcha) at https://psc.ga.gov/search/facts-document/?documentId=229508"
+  }
+ ]
+}

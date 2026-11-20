@@ -1,0 +1,50 @@
+{
+ "id": "TX:58777-43",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "58777",
+ "title": "11/19/2026 | PUC OPDM | PRJ | ORDER GRANTING GOOD CAUSE EXCEPTION",
+ "filed": "2026-11-19",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=58777&itemNumber=43",
+ "fetch": [
+  {
+   "tx_item": [
+    "58777",
+    "43"
+   ]
+  }
+ ],
+ "collected_at": "2026-11-20T13:46:09Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [
+  "load forecast"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58777_43_1703900.ZIP",
+   "name": null,
+   "bytes": 69194,
+   "sha256": "1add9bf784e38213642cd080af59075edd593dd276ff5b96c25329f969afc054",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": true,
+   "pages": null,
+   "truncated": false,
+   "text": "=== 58777 ORDER GRANTING GOOD CAUSE EXCEPTION.pdf ===\nPROJECT NO. 58777\n\nTRIENNIAL RELIABILITY § PUBLIC UTILITY COMMISSION\nASSESSMENT FOR THE ERCOT §\nREGION UNDER §25.508 § OF TEXAS\n\nORDER GRANTING GOOD CAUSE EXCEPTION\n\nOn November 6, 2026, Electric Reliability Council of Texas, Inc. (ERCOT) filed with the\nPublic Utility Commission of Texas (Commission) a motion for a good cause exception pursuant\nto 16 Texas Administrative Code (TAC) § 25.3(b) requesting an extension of the deadline\nestablished by 16 TAC § 25.508(b)(3), which requires ERCOT to file by December 1, 2026 the\nmaximum number of megawatts of load shed that can be safely rotated during a loss of load event\nand a summary of the methodology used to calculate this value.\n\nUnder the authority established in 16 TAC § 25.3(b), the Commission grants ERCOT a\ngood cause exception to the filing deadline established by 16 TAC § 25.508(b)(3) in order for\nERCOT to instead file the updated magnitude value no later than the second quarter of 2027. Good\ncause exists because the load or load forecast to be used by Transmission Operators (TOs) to\nprovide information about their load shed rotation capabilities for magnitude determination\npurposes is not yet available. After that load or load forecast becomes available, ERCOT must use\nthat information to consult with the TOs and Commission Staff and file with the Commission as\nsoon as practicable thereafter the maximum number of megawatts of load shed that can be safely\n\nrotated during a loss of load event and a summary of the methodology used to calculate this value.\n\n\fProject No. 58777 Order Page 2 of 2\n\nSigned at Austin, Texas the \\er day of November _2026.\n\nPUBLIC UTILITY COMMISSION OF TEXAS\n\n—, J\nes\n\nTHOMAS J. GLEESON, CHAIRMAN\n\nKila) rim\n\nKATHLEEN SAEKSON, COMMISSIONER\n\nCeientete, I Hespinty\n\nCOURTNEY K. HJALTMA4A, COMMISSIONER\n\ncep ewe\n\nPATRICK RHODE, COMMISSIONER\n\n"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/58777_43_1703901.PDF",
+   "name": null,
+   "bytes": 116540,
+   "sha256": "bf0e43c3c7f0fe4beeff3ee10e796f066e4bfebebae01288b01d970456e2dacc",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 3,
+   "truncated": false,
+   "text": "               PUBL~ 4\n\n\n                         ~* TEX>~\n                         Filing Receipt\n\nFiled Date - 2026-11-19 01:29:25 PM\n\nControl Number - 58777\n\nItem Number - 43\n\f                                    PROJECT NO. 58777\n\n TRIENNIAL RELIABILITY                         §       PUBLIC UTILITY COMMISSION\n ASSESSMENT FOR THE ERCOT                      §\n REGION UNDER §25.508                          §                    OF TEXAS\n\n\n                    ORDER GRANTING GOOD CAUSE EXCEPTION\n\n\n       On November 6,2026, Electric Reliability Council of Texas, Inc. (ERCOT) filed with the\nPublic Utility Commission of Texas (Commission) a motion for a good cause exception pursuant\nto 16 Texas Administrative Code (TAC) § 25.3(b) requesting an extension of the deadline\nestablished by 16 TAC § 25.508(b)(3), which requires ERCOT to file by December 1, 2026 the\nmaximum number ofmegawatts of load shed that can be safely rotated during a loss of load event\nand a summary of the methodology used to calculate this value.\n       Under the authority established in 16 TAC § 25.3(b), the Commission grants ERCOT a\ngood cause exception to the filing deadline established by 16 TAC § 25.508(b)(3) in order for\nERCOT to instead file the updated magnitude value no later than the second quarter of2027. Good\ncause exists because the load or load forecast to be used by Transmission Operators (TOs) to\nprovide information about their load shed rotation capabilities for magnitude determination\npurposes is not yet available. After that load or load forecast becomes available, ERCOT must use\nthat information to consult with the TOs and Commission Staff and file with the Commission as\nsoon as practicable thereafter the maximum number of megawatts of load shed that can be safely\nrotated during a loss of load event and a summary ofthe methodology used to calculate this value.\n\fProject No. 58777                   Order                           Page 2 of 2\n\n\n      Signed at Austin, Texas the 8#h day of MD\\1 ernber   2026.\n\n\n                              PUBLIC UTILITY COMMISSION OF TEXAS\n\n\n\n                                               <<-22__~3>\n                              THOMAS J. GLEESON, CHAIRMAN\n\n\n\n\n                                 754             Atot )\n                              KATHLEEN JXtksc)N, COMMISSIONER\n\n                                    /1\n\n                                    1»A« f /                 14/~\n                              COURTNEY K. ELJALTM&N, COMMISSIONER\n\n\n\n                                                    A-~\n                                    :AN J{>*iNSON, ¢»MMISSIONER\n\n\n\n\n                              PATRiCK *HODE, COMMISSIONER\n\f"
+  }
+ ]
+}

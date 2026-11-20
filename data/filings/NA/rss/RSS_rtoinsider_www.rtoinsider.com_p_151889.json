@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151889",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Report Offers Plan to Fuel Data Centers Without Grid and Gas",
+ "filed": "2026-11-20",
+ "url": "//www.rtoinsider.com/151889-report-offers-plan-fuel-data-centers-off-grid-without-gas/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " A report from Energy Innovation finds that data centers can be powered with a mix of renewables, battery storage, thermal storage and a little trucked-in diesel that is burned in boilers. \n The post  Report Offers Plan to Fuel Data Centers Without Grid and Gas  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-20T13:55:12Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [
+  "battery storage",
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

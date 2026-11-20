@@ -1,0 +1,42 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A111926-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-A111926-01 Implementation Details of PGRR127, Addition of Proposed Generation to the Planning Models",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-A111926-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A111926-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-20T13:53:56Z",
+ "run_id": "2026-11-20-1345",
+ "keywords": [
+  "NPRR",
+  "PGRR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A111926-01",
+   "name": null,
+   "bytes": 6350,
+   "sha256": "25f06371bb1716cd51ebd133389e02a2a85af6eed07b9e1991ead52176a17364",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_PRR_SCR@lists.ercot.com,Notice_Operations@lists.ercot.com,Notice_Settlements@lists.ercot.com,Notice_CRR@lists.ercot.com\n\nSent:\n\n11/19/26, 9:45 AM\n\nSubject:\n\nM-A111926-01 Implementation Details of PGRR127, Addition of Proposed Generation to the Planning Models\n\nNOTICE DATE:\n November 19, 2026\n\nNOTICE TYPE:\n M-A111926-01 NPRR/SCR\n\nSHORT DESCRIPTION:\n Implementation Details of PGRR127, Addition of Proposed Generation to the Planning Models\n\nINTENDED AUDIENCE:\n  All Market Participants\n\nDAYS AFFECTED:\n December 1, 2026\n\nLONG DESCRIPTION:\n On December 1, 2026, Planning Guide language associated with Planning Guide Revision Request (PGRR) 127, Addition of Proposed Generation to the Planning Models, will be implemented.  \n\nPGRR127 outlines the additional generators that may be included in the planning models to address the generation shortfall introduced by the implementation of the requirement from House Bill (HB) 5066 (88th Legislature), which amended subsection 37.056(c-1) to the Public Utility Regulatory Act (PURA), and Load growth in Texas; and adds a supplemental generation sensitivity analysis for Tier 1 Regional Planning Group (RPG) project evaluation to minimize the impacts of the additional generation on transmission project evaluation.\n\nADDITIONAL INFORMATION:\n In accordance with Planning Guide Section 1.2.5, Planning Guide Revision Implementation, ERCOT provides notice as soon as practicable but no later than ten days prior to implementation.\n\nPGRR127\n and associated documents can be found on the ERCOT website.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}
