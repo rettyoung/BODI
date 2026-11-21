@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/3c91ec9c-8f30-4afe-bf5b-d15f43386cc2:2026-11-20",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1271",
+ "title": "Relating to the repeal of the exemptions from sales and use taxes for property used in certain data centers and large data center projects.",
+ "filed": "2026-11-20",
+ "url": "https://openstates.org/tx/bills/90R/HB1271/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-21T13:19:34Z",
+ "run_id": "2026-11-21-1259",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

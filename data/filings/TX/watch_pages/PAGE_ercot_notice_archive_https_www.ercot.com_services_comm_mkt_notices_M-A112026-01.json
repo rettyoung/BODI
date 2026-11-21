@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A112026-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-A112026-01 Future Implementation of 16 Tex. Admin. Code Section 25.58",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-A112026-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A112026-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-21T13:09:07Z",
+ "run_id": "2026-11-21-1259",
+ "keywords": [
+  "NPRR"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-A112026-01",
+   "name": null,
+   "bytes": 7094,
+   "sha256": "37b4808ffbb0af8c8c6cf66b1aebd30b1a0956d65a7998d1223b06d58e79cef9",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com\n\nSent:\n\n11/20/26, 3:38 PM\n\nSubject:\n\nM-A112026-01 Future Implementation of 16 Tex. Admin. Code Section 25.58\n\nNOTICE DATE:\n November 20, 2026\n\nNOTICE TYPE:\n M-A112026-01 Operations\n\nSHORT DESCRIPTION:\n Future Implementation of 16 Tex. Admin. Code Section 25.58\n\nINTENDED AUDIENCE:\n Transmission and Distribution Utilities (TDUs), Transmission and/or Distribution Service Providers (TDSPs), Power Generation Companies (PGCs), Resource Entities, Qualified Scheduling Entities (QSEs)\n\nDAYS AFFECTED:\n Beginning November 4, 2026\n\nLONG DESCRIPTION:\n On November 4, 2026, the Public Utility Commission of Texas' (PUCT) new rule \n16 Texas Administrative Code (TAC) Section 25.58\n went into effect.  The PUCT adopted this rule in accordance with Public Utility Regulatory Act (PURA) Section 35.153, which permits TDUs in the ERCOT Region to, with prior PUCT approval, contract with PGCs to provide energy from an Electric Energy Storage Facility (EESF) to ensure reliable service to distribution customers.\n\nAs ERCOT noted in \ncomments filed\n with the PUCT in Project No. 59523, this is a new framework which will require new Protocols and system changes to implement.  From discussions with TDUs while Project No. 59523 was pending, ERCOT understands that TDUs do not have immediate plans to initiate in such contracts with EESFs.\n\nACTION REQUIRED:\n TDUs and PGCs, as applicable, are requested to coordinate with ERCOT prior to initiating in any contracts under 16 TAC Section 25.58 in order to ensure that there is sufficient time to develop and implement Nodal Protocols Revision Request(s) (NPRRs) prior to any such arrangement becoming effective.  This will ensure that a framework is in place for TDUs to utilize EESFs while ERCOT and Market Participants remain in compliance with all applicable requirements.\n\nADDITIONAL INFORMATION:\n Please refer to \nPUCT Project No. 59523\n for additional information on 16 TAC Section 25.58.\n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

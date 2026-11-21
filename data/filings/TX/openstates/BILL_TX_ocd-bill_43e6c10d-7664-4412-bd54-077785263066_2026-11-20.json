@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/43e6c10d-7664-4412-bd54-077785263066:2026-11-20",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1272",
+ "title": "Relating to the public disclosure of local economic development agreements involving data centers.",
+ "filed": "2026-11-20",
+ "url": "https://openstates.org/tx/bills/90R/HB1272/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-21T13:19:34Z",
+ "run_id": "2026-11-21-1259",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

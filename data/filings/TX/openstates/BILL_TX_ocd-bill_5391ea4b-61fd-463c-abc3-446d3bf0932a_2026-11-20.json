@@ -1,0 +1,24 @@
+{
+ "id": "BILL:TX:ocd-bill/5391ea4b-61fd-463c-abc3-446d3bf0932a:2026-11-20",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1273",
+ "title": "Relating to the siting, construction, permitting, and operation of certain data centers; requiring local option elections; imposing a temporary moratorium; establishing an annual payments to county residents; repealing certain tax exemptions; providing civil penalties.",
+ "filed": "2026-11-20",
+ "url": "https://openstates.org/tx/bills/90R/HB1273/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-21T13:19:34Z",
+ "run_id": "2026-11-21-1259",
+ "keywords": [
+  "data center",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

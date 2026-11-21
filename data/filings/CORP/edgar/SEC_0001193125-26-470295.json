@@ -1,0 +1,43 @@
+{
+ "id": "SEC:0001193125-26-470295",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Evergy 8-K 8-K items 8.01,9.01",
+ "filed": "2026-11-20",
+ "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526470295/",
+ "entity": "Evergy",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526470295/d114993d8k.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "cik": "0001711269",
+  "market_participant": false
+ },
+ "collected_at": "2026-11-21T13:33:42Z",
+ "run_id": "2026-11-21-1259",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526470295/d114993d8k.htm",
+   "name": null,
+   "bytes": 36617,
+   "sha256": "7a6cda6b0bfc1b58c49d8ed45323a507bf825e12e780090ef748802bac45acdc",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "8-K\n\n0001711269\n0000054476\nfalse\n\n0001711269\n\n2026-11-20\n\n2026-11-20\n\n0001711269\n\nevrg:EvergyMetroIncMember\n\n2026-11-20\n\n2026-11-20\n\nUNITED STATES \nSECURITIES AND EXCHANGE COMMISSION \nWashington, D.C. 20549 \n\nFORM \n8-K\n\nCurrent Report \nPursuant to Section 13 or 15(d) of the \nSecurities Exchange Act of 1934 \nDate of Report (Date of earliest event reported): \nNovember 20, 2026\n\nCommission\nFile Number\n\nExact Name of Registrant as Specified in its Charter, State of Incorporation,\nAddress of Principal Executive Offices and Telephone Number\n\nI.R.S. Employer\nIdentification No.\n\n001-38515\n\nEvergy, Inc.\n\n82-2733395\n\n(a \nMissouri\n corporation)\n\n1200 Main Street\n\nKansas City\n, \nMissouri\n\n64105\n\n(\n816\n) \n556-2200\n\nNOT APPLICABLE\n\n(Former name or former address, if changed since last report)\n\n000-51873\n\nEvergy Metro, Inc.\n\n44-0308720\n\n(a \nMissouri\n corporation)\n\n1200 Main Street\n\nKansas City\n, \nMissouri\n\n64105\n\n(\n816\n) \n556-2200\n\nNOT APPLICABLE\n\n(Former name or former address, if changed since last report)\n\nCheck the appropriate box below if the Form \n8-K\n filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: \n\n☐\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) \n\n☐\n\nSoliciting material pursuant to Rule \n14a-12\n under the Exchange Act (17 CFR \n240.14a-12)\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n14d-2(b)\n under the Exchange Act (17 CFR \n240.14d-2(b))\n\n☐\n\nPre-commencement\n communications pursuant to Rule \n13e-4(c)\n under the Exchange Act (17 CFR \n240.13e-4(c))\n\nSecurities registered pursuant to Section 12(b) of the Act: \n\nTitle of each class\n\nTrading\nSymbol(s)\n\nName of each exchange\non which registered\n\nEvergy, Inc. common stock\n\nEVRG\n\nThe Nasdaq Stock Market LLC\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act (§230.405 of this chapter) or Rule \n12b-2\n of the Exchange Act \n(§240.12b-2\n of this chapter). \nEmerging growth company \n☐\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐ \n\nThis combined Current Report on Form \n8-K\n is being filed by the following registrants: Evergy, Inc. and Evergy Metro, Inc. (“Evergy Metro”). Information relating to any individual registrant is filed by such registrant solely on its own behalf. Each registrant makes no representation as to information relating exclusively to the other registrant. \n\nItem 8.01 Other Events \n\nOn November 20, 2026, Evergy Metro issued $300,000,000 aggregate principal amount of its 6.000% Mortgage Bonds, Series 2026 due 2036 (the “Mortgage Bonds”), pursuant to an Underwriting Agreement, dated November 16, 2026, among Evergy Metro, Citigroup Global Markets Inc., TD Securities (USA) LLC, Truist Securities, Inc., and Wells Fargo Securities, LLC, as representatives of the several underwriters named therein. The Mortgage Bonds were registered under the Securities Act of 1933, as amended, pursuant to the shelf registration statement on Form \nS-3\n\n(333-281614-01)\n of Evergy Metro (the “Registration Statement”). \n\nIn connection with the issuance and sale of the Mortgage Bonds, Evergy Metro entered into the several agreements and other instruments listed in Item 9.01 of this Current Report on Form \n8-K\n and filed as exhibits hereto. These exhibits are incorporated by reference into the Registration Statement.\n\nItem 9.01 Financial Statements and Exhibits \n\n(d) Exhibits \n\nExhibit No.\n\nDescription\n\nExhibit 1.1\n\nUnderwriting Agreement, dated November 16, 2026, among Evergy Metro, Citigroup Global Markets Inc., TD Securities (USA) LLC, Truist Securities, Inc., and Wells Fargo Securities, LLC, as representatives of the several underwriters named therein. \n\nExhibit 4.1\n\nTwenty-third Supplemental Indenture, dated as of November 20, 2026, between Evergy Metro and UMB Bank, N.A. (formerly United Missouri Bank of Kansas City, N.A.), as trustee, and the form of the global bond included therein. \n\nExhibit 5.1\n\nOpinion, dated November 20, 2026, of Heather A. Humphrey, Senior Vice President, General Counsel and Corporate Secretary. \n\nExhibit 23.1\n\nConsent of Heather A. Humphrey (included in Exhibit 5.1). \n\nExhibit 104\n\nCover Page Interactive Data File – the cover page XBRL tags are embedded within the Inline XBRL document.\n\nSIGNATURES \n\nPursuant to the requirements of the Securities Exchange Act of 1934, the registrants have duly caused this report to be signed on their behalf by the undersigned hereunto duly authorized. \n\nEvergy, Inc.\n\n/s/ Geoffrey T. Ley\n\nGeoffrey T. Ley\n\nSenior Vice President, Corporate Planning and Treasurer\n\nEvergy Metro, Inc.\n\n/s/ Geoffrey T. Ley\n\nGeoffrey T. Ley\n\nSenior Vice President, Corporate Planning and Treasurer\n\nDate: November 20, 2026"
+  }
+ ]
+}

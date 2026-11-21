@@ -1,0 +1,43 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B112026-01",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-B112026-01 Opportunity for Data Center Developers to Authorize ERCOT to Release Certain Information Provided in Response to ERCOT Data Center State and Community Impact Request for Information",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-B112026-01",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B112026-01"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-21T13:09:10Z",
+ "run_id": "2026-11-21-1259",
+ "keywords": [
+  "community impact",
+  "data center",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-B112026-01",
+   "name": null,
+   "bytes": 14271,
+   "sha256": "50e02692543123dd8b3bf99944fb80e95cea6c274a9f21c5c5f5af376aaf56e3",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNOTICE_GENERAL@LISTS.ERCOT.COM,Notice_Legal_Notifications@lists.ercot.com,Notice_Operations@lists.ercot.com\n\nSent:\n\n11/20/26, 12:48 PM\n\nSubject:\n\nM-B112026-01 Opportunity for Data Center Developers to Authorize ERCOT to Release Certain Information Provided in Response to ERCOT Data Center State and Community Impact Request for Information\n\nNOTICE DATE:\n November 20, 2026\n\nNOTICE TYPE:\n M-B112026-01 Legal\n\nSHORT DESCRIPTION:\n Opportunity for Data Center Developers to Authorize ERCOT to Release Certain Information Provided in Response to ERCOT Data Center State and Community Impact Request for Information\n\nINTENDED AUDIENCE:\n All Market Participants and Respondents to ERCOT's Data Center State and Community Impact Request for Information\n\nLONG DESCRIPTION: \nERCOT has determined that it may be useful for public policy reasons to publicly disclose certain information it received from data center developers in response to ERCOT's September 14, 2026 Data Center State and Community Impact Request for Information (RFI).  As ERCOT has previously made clear, this information is regarded as confidential and is not subject to disclosure except as may be permitted by law.  ERCOT therefore does not intend to publicly disclose this information for any given data center project unless it receives written authorization from the developer of that project. \n\nTo that end, ERCOT has today notified each data center developer contact in its Resource Integration and Ongoing Operations (RIOO) RFI System via email of the option to provide that written authorization using an ERCOT-provided form.  The form is attached to the email sent to the developers.  As indicated on the form, any disclosure authorization would be limited to information submitted in response to the following RFI questions:\n\nFI-3\n - Data Center Facility Project Name\n\nFI-4\n - Data Center Developer Name\n\nFI-5lat\n - GPS Latitude\n\nFI-5long\n - GPS Longitude\n\nF-1\n - Data Center Project Owner(s)\n\nB-1a\n - Total Peak Interconnection Capacity Requested (MW)\n\nB-1b\n - Requested Initial Energization Date\n\nB-1c\n - Requested Peak Gross Electricity Demand by Year\n\nB-2\n - Whether Developer is Building On-Site or Backup Generation\n\nB-2b\n - Fuel Source for On-Site Generation\n\nB-2c\n - Nameplate Capacity for On-Site Generation\n\nB-2g\n - Expected Commissioning Date for On-Site Generation\n\nC-1a\n - Projected Annual Water Withdrawal at Full Buildout\n\nC-1c\n - Projected Annual Water Consumption at Full Buildout\n\nC-2\n - Percentage of Water Withdrawal by Source\n\nC-3\n - Wastewater Discharge Volume and Destination\n\nE-1\n - FTE Count During Peak Construction\n\nE-1a\n - Estimated Construction Duration\n\nE-1d\n - FTE Count During Operation\n\nE-4\n - Total Estimated Land Area for Project\n\nE-5\n - Actual or Estimated Construction Start Date\n\nE-5a\n - Actual or Estimated Construction Completion Date\n\nE-7b\n - Expected Average and Maximum Noise Levels\n\nDevelopers that choose to provide this authorization must submit a completed authorization form to ERCOT no later than December 4, 2026 via email to \nDataCenterImpact@ercot.com\n.\n\nTo ensure that only appropriately authorized individuals submit authorization forms, the form must be submitted to ERCOT using an email address that has been identified in the RIOO RFI System as a Load Entity contact for the applicable data center project. Developers may use the RIOO RFI System to confirm the Load Entity contact email addresses associated with each project.\n\nERCOT intends to identify the number of developers that have authorized disclosure of the above information in its December 10, 2026 Data Center State and Community Impact report to the Public Utility Commission of Texas (PUCT).  After that date, once the information has been compiled, ERCOT will file the information with the PUCT and post it on the ERCOT website.  ERCOT will issue a Market Notice once it has posted the information.\n\nERCOT will continue to observe the confidentiality of all other information submitted in response to the RFI, consistent with its obligations under the ERCOT Protocols.\n\nACTION REQUIRED:\n Data center developers that choose to authorize ERCOT to disclose certain information in their responses to ERCOT's Data Center State and Community Impact RFI must complete the authorization form sent to the developer's Load Entity contacts and submit it to ERCOT by December 4, 2026. \n\nCONTACT:\n If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg"
+  }
+ ]
+}

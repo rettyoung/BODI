@@ -1,0 +1,40 @@
+{
+ "id": "OK:21793785",
+ "jur": "OK",
+ "source": "ok_occ",
+ "kind": "filing",
+ "docket": "PUD2026-000046",
+ "title": "OCC PUD2026-000046 document PUD2026-000046_116_Pemberton_Bond_EOA_on_Behalf_of_Oklahoma_Gas_Electric_filed_on_behalf_of_OK (0 pages - 169 KB): CASE PUD 2026-000046 ENTRY NO. 116 FILED IN OCC COURT CLERK'S OFFICE ON 11/20/2026 - PAGE 1 OF 2 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN T",
+ "filed": null,
+ "url": "https://public.occ.ok.gov/WebLink/DocView.aspx?id=21793785&dbid=0&repo=OCC",
+ "fetch": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21793785&dbid=0&repo=OCC"
+  }
+ ],
+ "meta": {
+  "entryId": 21793785,
+  "pages": "0 pages - 169 KB ",
+  "case_match": "page1"
+ },
+ "collected_at": "2026-11-21T13:02:31Z",
+ "run_id": "2026-11-21-1259",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://public.occ.ok.gov/WebLink/ElectronicFile.aspx?docid=21793785&dbid=0&repo=OCC",
+   "name": null,
+   "bytes": 173271,
+   "sha256": "57025b5bd45630d2ec092eebbe456090d0691a7895e294eebf5f64bf209de133",
+   "ctype": "application/octet-stream",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "CASE PUD 2026-000046 ENTRY NO. 116 FILED IN OCC COURT CLERK'S OFFICE ON 11/20/2026 - PAGE 1 OF 2\n\n\n\n\n               BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA\n\n         IN THE MATTER OF THE APPLICATION OF                 )\n         OKLAHOMA GAS AND ELECTRIC COMPANY                   )\n         FOR AN ORDER OF THE COMMISSION                      )\n         APPROVING ITS NEW EXTRA LARGE LOAD                  )\n         TARIFF AND TERMS AND CONDITIONS OF                  )       CASE NO. PUD2026-000046\n         SERVICE FOR EXTRA LARGE LOAD                        )\n         CUSTOMERS AND A REGULATORY ASSET                    )\n         TO RECOVER COSTS ASSOCIATED WITH                    )\n         PORTFOLIO OPTIMIZATION SOFTWARE                     )\n\n                                        ENTRY OF APPEARANCE\n\n                Trevor Pemberton and Cedric Bond hereby enter their appearance as counsel of record on\n\n         behalf of Oklahoma Gas and Electric Company in the above captioned matter.\n\n\n                                                           Respectfully submitted,\n\n\n\n\n                                                           Trevor S. Pemberton, OBA No. 22271\n                                                           Cedric C. M. Bond, OBA No. 33119\n                                                           Pemberton Law Group, PLLC\n                                                           600 N. Robinson Ave., Suite 308\n                                                           Oklahoma City, OK 73102\n                                                           (405) 501-5054\n                                                           trevor@pembertonlawgroup.com\n                                                           cedric@pembertonlawgroup.com\n\fCASE PUD 2026-000046 ENTRY NO. 116 FILED IN OCC COURT CLERK'S OFFICE ON 11/20/2026 - PAGE 2 OF 2\n\n\n\n\n                                         CERTIFICATE OF SERVICE\n\n                I hereby certify that on the 20th day of November 2026, a true and correct copy of the\n         foregoing was electronically served via the Electronic Case Filing System to those on the Official\n         Electronic Case Filing Service List, and via electronic mail to the following persons:\n\n          Oklahoma Corporation Commission                  Oklahoma Attorney General\n          Fairo Mitchell                                   Ashley Youngblood\n          Natasha Scott                                    ashley.youngblood@oag.ok.gov\n          Kyle Vazquez                                     Utility.regulation@oag.ok.gov\n          Mike Ryan\n          E.J. Thomas                                      Petroleum Alliance of Oklahoma\n          Fairo.Mitchell@occ.ok.gov                        J. David Jacobson\n          natasha.scott@occ.ok.gov                         jdj8788@aol.com\n          kyle.vazquez@occ.ok.gov\n          michael.ryan@occ.ok.gov                          Oklahoma Sustainability Network\n          ej.thomas@occ.ok.gov                             Adam Singer\n          pudenergy@occ.ok.gov                             asinger@derryberrylaw.com\n\n          Google, LLC                                      AARP\n          James Roth                                       Adam Singer\n          Lindsey Pever                                    asinger@derryberrylaw.com\n          Niles Stuck\n          Cole Peters                                      Walmart, Inc.\n          jim@anewenergylaw.com                            Rick Chamberlain\n          lindsey@anewenergylaw.com                        RDC.Law@gmail.com\n          niles@anewenergylaw.com\n          cole@anewenergylaw.com\n\n          Oklahoma Industrial Energy Consumers\n          Thomas P. Schroedter\n          Eric Money\n          tschroedter@hallestill.com\n          emoney@hallestill.com\n\n\n                                                             __________________________\n                                                             A. Chase Snodgrass\n\f"
+  }
+ ]
+}

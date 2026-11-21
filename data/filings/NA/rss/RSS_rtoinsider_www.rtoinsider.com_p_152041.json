@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=152041",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "EDAM Participants Release Draft Plan for RA Program",
+ "filed": "2026-11-20",
+ "url": "//www.rtoinsider.com/152041-edam-participants-release-draft-plan-for-ra-program/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " A stakeholder group representing present and future participants in CAISO’s Extended Day-Ahead Market has released its “initial” draft proposal for a resource adequacy program designed to accommodate the needs of EDAM’s non-CAISO members. \n The post  EDAM Participants Release Draft Plan for RA Program  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-21T13:10:18Z",
+ "run_id": "2026-11-21-1259",
+ "keywords": [
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": []
+}
