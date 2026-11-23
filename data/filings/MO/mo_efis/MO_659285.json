@@ -1,0 +1,47 @@
+{
+ "id": "MO:659285",
+ "jur": "MO",
+ "source": "mo_efis",
+ "kind": "filing",
+ "docket": "ER-2026-0291",
+ "title": "72",
+ "filed": "2026-11-23",
+ "url": "https://www.efis.psc.mo.gov/Case/FilingDisplay/659285",
+ "fetch": [
+  {
+   "mo_filing": "659285"
+  }
+ ],
+ "collected_at": "2026-11-23T15:23:49Z",
+ "run_id": "2026-11-23-1521",
+ "keywords": [],
+ "party_hits": [
+  "Walmart"
+ ],
+ "documents": [
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/899173",
+   "name": null,
+   "bytes": 205265,
+   "sha256": "1c2fd94ba764f5c650ecd9d631fb87ba5fe3a84eb1da89b27736efea9dafc4d9",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 2,
+   "truncated": false,
+   "text": "NONDISCLOSURE AGREEMENT\nFor Case No.: ER-2026-0291\n\n(To Access Confidential Information)\n\n[Michael Marchand have reviewed the Commission's Rule at 20 CSR 4240-2.135 on the\n\ns\\asee\nNot,\n\nVet\nAD day of, 2026,\n\nI have requested review of the confidential information produced in Case No. ER-2026-\n\n0291 on behalf of __ MECG .\n\nI hereby certify that:\n\n(a) Only employees of a party that are acting as an expert for that party or that\nave been retained for thi\n\nconfidential information;\n\n(b) Anemployee is a person in the service of his or her employer whose services\n\nare controllable by the employer.\n\n(c) Iam employee of [state name of intervenor] acting as its expert and/or its\n\nemployee who intends to file testimony in this docket, or I am an outside expert for\n\n[state name of intervenor] retained to provide expert consultation or testimony in\n\nthis docket; and\n\n(d) Ihave read and agree to abide by the Commission's Rule at 20 CSR 4240-\n\n2:135;\n\nEXHIBIT A\n\n\fDated this.\n\nast\n\nday of. —\n\nGAO:\n\nSignature & Title |\n\nWalmart Inc.\n\nEmployer\n\nParty\nMECG\n\n814 Respect Dr. Bentonville, AR 72716\n\nAddress\n\n501-258-3310\nTelephone\n\nMichael.Marchand@walmart.com\nE-Mail Address\n\nEXHIBIT A\n"
+  },
+  {
+   "url": "https://www.efis.psc.mo.gov/Document/Display/899174",
+   "name": null,
+   "bytes": 235294,
+   "sha256": "902678340d8d6e2dcedcfb723a5aefc767bdaa75e739944ab724950ba43c3482",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 2,
+   "truncated": false,
+   "text": "NONDISCLOSURE AGREEMENT\nFor Case No.: ER-2026-0291\n(To Access Highly Confidential Information)\n\n],Michael Marchand | have reviewed the Commission's Rule at 20 CSR 4240-2.135 on the\n\n2D day of Noieabe 2026.\n\nI have requested review of the highly confidential information produced in Case No.\n\nER-2026-0291 on behalf of MECG\n\nI hereby certify that:\n(a) Only certain persons may receive Highly Confidential information. These\n\npersons include outside attorneys of record for a party in the case and in-\n\nhouse attorneys of record for the Company. Such persons also include\noutside consultants retained by a party in this case and Company experts\nand/or employees who intend to file testimony in this docket. Persons\nauthorized to receive highly confidential information, other than the\nabove-referenced attorneys or Commission Staff and Office of Public\nCounsel employees must submit this form in order receive highly\n\nconfidential information;\n\n(b) I am an employee of. Walmart Inc. and_ fall\n\nwithin the category of persons authorized to receive highly confidential\n\ninformation specified in paragraph (a) above; and\n\n(c) Ihave read and agree to abide by the Commission's Rule at 20 CSR 4240-2.135\n\nand all terms of the Protective Order issued by the Commission in this docket.\n\nEXHIBIT B\n\n\fm) |\nDated this 43> day of Neve al cf , 2026.\n\na\n\nSignature & Title /\n\nwet Miesgy\n\nEmployer\nWalmart Inc.\n\nParty\n\nMECG\n\n814 Respect Dr. Bentonville, AR 72716\n\nAddress\n\n501-258-3310\nTelephone\n\nMichael.Marchand@walmart.com\nE-Mail Address\n\nEXHIBITB\n"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001683168-26-009032",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "NOCERA, INC.  (NCRA)  (CIK 0001756180) 8-K — full-text hit \"large load\" tariff",
+ "filed": "2026-11-23",
+ "url": "https://www.sec.gov/Archives/edgar/data/1756180/000168316826009032/",
+ "entity": "NOCERA, INC.  (NCRA)  (CIK 0001756180)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "8-K"
+ },
+ "collected_at": "2026-11-23T15:47:07Z",
+ "run_id": "2026-11-23-1521",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

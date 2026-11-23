@@ -10946,11 +10946,24 @@
   "FR:2026-23765": "2026-11-21",
   "FR:2026-23754": "2026-11-21",
   "SEC:0001193125-26-470295": "2026-11-21",
-  "TX:59475-6678": "2026-11-21"
+  "TX:59475-6678": "2026-11-21",
+  "KS:minutes:20261119": "2026-11-23",
+  "MO:659285": "2026-11-23",
+  "RSS:grid_strategies:https://gridstrategiesllc.com/?p=2385": "2026-11-23",
+  "RSS:utilitydive:https://www.utilitydive.com/spons/the-grids-hidden-bottleneck-engineering-capacity/874856/": "2026-11-23",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=151868": "2026-11-23",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=151992": "2026-11-23",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=152016": "2026-11-23",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=152019": "2026-11-23",
+  "RSS:rtoinsider://www.rtoinsider.com/?p=152024": "2026-11-23",
+  "RSS:canary:https://www.canarymedia.com/articles/batteries/24-7-clean-power-giant-heat-batteries": "2026-11-23",
+  "COURT:r:75155876": "2026-11-23",
+  "NRC:ML26175A338": "2026-11-23",
+  "SEC:0001683168-26-009032": "2026-11-23"
  },
  "sources": {
   "ferc": {
-   "consecutive_failures": 7,
+   "consecutive_failures": 8,
    "data": {},
    "last_ok": "2026-11-11",
    "last_error": "HTTP 403 for https://elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch"
@@ -10958,7 +10971,7 @@
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "edgar": {
@@ -21391,13 +21404,13 @@
     },
     "ciks_date": "2026-11"
    },
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "az_acc": {
@@ -21406,18 +21419,18 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "ga_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "ok_occ": {
@@ -21448,7 +21461,8 @@
      "21711273",
      "21730674",
      "21748051",
-     "21760042"
+     "21760042",
+     "21796831"
     ],
     "accepted": {
      "21395315": "CASE PUD 2026-000031 ENTRY NO. 156 FILED IN OCC COURT CLERK'S OFFICE ON 10/05/2026 - PAGE 1 OF 2 ",
@@ -21570,19 +21584,19 @@
      "21793648": "CASE PUD 2026-000046 ENTRY NO. 115 FILED IN OCC COURT CLERK'S OFFICE ON 11/20/2026 - PAGE 1 OF 6 BEFORE THE CORPORATION COMMISSION OF THE STATE OF OKLAHOMA IN THE MATTER OF THE APPLICATION OF ) OKLAHOMA GAS AND ELECTRIC COMPANY ) FOR AN ORDER OF THE COMMISSION ) APPROVING ITS NEW EXTRA LARGE LOAD ) "
     }
    },
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "mo_efis": {
@@ -22317,37 +22331,37 @@
      "EF-2027-0142": "110525"
     }
    },
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "al_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "last_error": null
   },
   "eia": {
@@ -22357,25 +22371,25 @@
     "last_period": "2026-08"
    },
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -24275,13 +24289,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -24306,7 +24320,7 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -24536,7 +24550,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -24560,25 +24574,25 @@
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
@@ -24589,13 +24603,13 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -24613,7 +24627,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-22"
+   "last_ok": "2026-11-23"
   }
  },
  "baselined": [
@@ -24621,8 +24635,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 67,
- "last_run": "2026-11-22T13:18:12Z",
+ "runs": 68,
+ "last_run": "2026-11-23T15:47:57Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -24889,6 +24903,8 @@
    "AZ:472564",
    "AZ:472626",
    "AZ:472632",
+   "AZ:472692",
+   "AZ:472733",
    "AZDKT:E-00000A-25-0235",
    "AZDKT:E-01345A-25-0257",
    "AZDKT:E-01345A-26-0006",
@@ -27178,10 +27194,7 @@
    "TX:59611-6",
    "TX:59611-8"
   ],
-  "attempts": {
-   "AZ:472733": 2,
-   "AZ:472692": 2
-  },
+  "attempts": {},
   "doc_retries": {
    "TX:58482-36": 1,
    "TX:58482-37": 1,
@@ -27483,16 +27496,17 @@
    "MO:658925": 4,
    "MO:659022": 4,
    "MO:659060": 4,
-   "MO:658928": 2,
-   "GA:229481": 2,
+   "MO:658928": 3,
+   "GA:229481": 3,
    "NRC:ML26314A314": 1,
-   "GA:229498": 1
+   "GA:229498": 2,
+   "GA:229508": 1
   }
  },
  "last_full_run": {
-  "run_id": "2026-11-22-1251",
-  "started": "2026-11-22T12:51:14Z",
-  "finished": "2026-11-22T13:18:12Z",
+  "run_id": "2026-11-23-1521",
+  "started": "2026-11-23T15:21:18Z",
+  "finished": "2026-11-23T15:47:57Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }

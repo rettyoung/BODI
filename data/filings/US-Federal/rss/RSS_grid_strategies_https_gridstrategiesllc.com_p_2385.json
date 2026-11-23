@@ -1,0 +1,44 @@
+{
+ "id": "RSS:grid_strategies:https://gridstrategiesllc.com/?p=2385",
+ "jur": "US-Federal",
+ "source": "rss:grid_strategies",
+ "kind": "news",
+ "docket": null,
+ "title": "Expanding Transmission in PJM Provides Large Net Benefits",
+ "filed": "2026-11-23",
+ "url": "https://gridstrategiesllc.com/expanding-transmission-in-pjm-provides-large-net-benefits/",
+ "entity": null,
+ "fetch": [
+  {
+   "url": "https://gridstrategiesllc.com/expanding-transmission-in-pjm-provides-large-net-benefits/"
+  }
+ ],
+ "meta": {
+  "bkey": "rss:grid_strategies",
+  "rto": null,
+  "summary": " In Spring 2026, the PJM Interconnection (PJM) published the results of its 2025 Regional Transmission Expansion Plan (RTEP25), highlighting the approval of three main portfolios of projects that represent a $9.3 billion investment in high-voltage (500kV+) transmission upgrades across its footprint. This analysis primarily evaluates the costs and benefits of the three main portfolios in [&#8230;] \n The post  Expanding Transmission in PJM Provides Large Net Benefits  appeared first on  Grid Strategies . ",
+  "feed": "grid_strategies",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-23T15:28:26Z",
+ "run_id": "2026-11-23-1521",
+ "keywords": [
+  "ESA",
+  "interconnection"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://gridstrategiesllc.com/expanding-transmission-in-pjm-provides-large-net-benefits/",
+   "name": null,
+   "bytes": 413636,
+   "sha256": "1e3614eaa645c9152aeb8a13b6106330f996d53c69c8f0f64f1561ac360a2a5f",
+   "ctype": "text/html; charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Expanding Transmission in PJM Provides Large Net Benefits • Grid Strategies\n\nOur Work\n\nReports\n\nOur Team\n\nIn The News\n\nCareers\n\nContact Us\n\nExpanding Transmission in PJM Provides Large Net Benefits\n\nMichael Goggin\n\nNovember 23, 2026\n\nConsumer Benefits\n, \nTransmission\n\nAnnual costs and benefits of each RTEP25 portfolio\n\nIn Spring 2026, the PJM Interconnection (PJM) published the results of its 2025 Regional Transmission Expansion Plan (RTEP25), highlighting the approval of three main portfolios of projects that represent a $9.3 billion investment in high-voltage (500kV+) transmission upgrades across its footprint.\n\nThis analysis primarily evaluates the costs and benefits of the three main portfolios in the RTEP25, finding that\n\nwith $8.70 in quantified annual system-wide benefits for every $1 invested in annual transmission costs, these transmission upgrades provide great value for ratepayers.\n The annual benefits of nearly $5.9 billion quickly repay the $9.3 billion investment in transmission. Additionally, the portfolios provide other benefits that are difficult to quantify, like hedging against uncertainty in fuel prices and load growth, reducing harmful pollutants, strengthening the transmission system’s resilience against routine outages and unexpected events, and increasing optionality for meeting future needs.\n\nDownload the analysis below to learn more.\n\nDownload\n\nGrid Strategies LLC is a power sector consulting firm helping clients understand the electric power industry, energy markets, and policy. Drawing on extensive experience in state regulation, transmission planning, and wholesale markets, Grid Strategies analyzes and helps advance grid integration solutions.\n\nBased in the Washington DC area, the firm is actively engaged with the Federal Energy Regulatory Commission, Department of Energy, state Public Utility Commissions, Regional Transmission Organizations, the North American Electric Reliability Corporation, Congressional committees, the administration, and various stakeholders.\n\nContact Us\n\nSign Up for Grid Strategies Updates\n\n© \n Grid Strategies • \nPrivacy Policy\n • Website designed and created by \nRed Chalk Studios"
+  }
+ ]
+}

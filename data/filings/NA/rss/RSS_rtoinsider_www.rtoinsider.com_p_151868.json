@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=151868",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Draft Rules Require Grid Tests for Large Ontario Data Centers",
+ "filed": "2026-11-22",
+ "url": "//www.rtoinsider.com/151868-draft-rules-require-grid-tests-for-large-ontario-data-centers/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Ontario data centers and other computational loads over 10 MW would have to demonstrate they meet grid reliability standards before entering regular service, pursuant to draft amendments that IESO presented at an engagement. \n The post  Draft Rules Require Grid Tests for Large Ontario Data Centers  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-23T15:28:26Z",
+ "run_id": "2026-11-23-1521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/batteries/24-7-clean-power-giant-heat-batteries",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Want 24/7 clean power for data centers? Try giant heat batteries.",
+ "filed": "2026-11-23",
+ "url": "https://www.canarymedia.com/articles/batteries/24-7-clean-power-giant-heat-batteries",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "Data center developers are scrambling to find enough electricity to power their energy-intensive facilities. Some are building their own fossil gas power plants. But that comes with tradeoffs — sky-high equipment costs, yearslong waits for backlogged turbines, and growing public backlash against their polluting…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-23T15:28:26Z",
+ "run_id": "2026-11-23-1521",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

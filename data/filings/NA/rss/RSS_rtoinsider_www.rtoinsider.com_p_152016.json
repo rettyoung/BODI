@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=152016",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "N.Y. Lays out Master Plan, Rallies Partners Toward 5-GW Nuclear Goal",
+ "filed": "2026-11-22",
+ "url": "//www.rtoinsider.com/152016-new-york-nuclear-summit/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " New York’s third nuclear summit laid out the progress Gov. Kathy Hochul’s administration has made since she launched a drive to get 5 GW of nuclear capacity built in the state. \n The post  N.Y. Lays out Master Plan, Rallies Partners Toward 5-GW Nuclear Goal  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-23T15:28:26Z",
+ "run_id": "2026-11-23-1521",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": []
+}
