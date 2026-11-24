@@ -1,0 +1,27 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/ferc-miso-interconnection-queue-study/875449/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC approves MISO plan to speed legacy interconnection study process",
+ "filed": "2026-11-23",
+ "url": "https://www.utilitydive.com/news/ferc-miso-interconnection-queue-study/875449/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      Without the rule changes, the Midcontinent Independent System Operator&rsquo;s queue cycles&nbsp;&mdash; totaling about 125 GW of generation and storage&nbsp;&mdash;&nbsp;would have been delayed, according to the grid operator. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-24T15:22:22Z",
+ "run_id": "2026-11-24-1514",
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}

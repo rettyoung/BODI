@@ -1,0 +1,23 @@
+{
+ "id": "BILL:NV:ocd-bill/196bb4f9-ffdd-4d95-9420-27910472a2c2:2026-11-09",
+ "jur": "NV",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "BDR 18-637",
+ "title": "Establishes certain provisions relating to the responsible development of data centers.",
+ "filed": "2026-11-09",
+ "url": "https://openstates.org/nv/bills/84/BDR18-637/",
+ "fetch": [],
+ "meta": {
+  "session": "84",
+  "latest_action": "Filed",
+  "query": "data center"
+ },
+ "collected_at": "2026-11-24T15:32:41Z",
+ "run_id": "2026-11-24-1514",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

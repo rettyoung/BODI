@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=152026",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "SPP Files FERC Show-cause Compliance Package on Large Loads",
+ "filed": "2026-11-24",
+ "url": "//www.rtoinsider.com/152026-spp-files-show-cause-docs-board-briefs/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " SPP has filed its responses to FERC’s show-cause order directing regional grid operators to justify or revise their rules for large loads taking transmission service after board and regulatory approval of several tariff changes. \n The post  SPP Files FERC Show-cause Compliance Package on Large Loads  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-24T15:22:22Z",
+ "run_id": "2026-11-24-1514",
+ "keywords": [
+  "large load",
+  "transmission service"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,27 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=152119",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "FERC OKs Penalty-free Exits for 2022 MISO Queue Cycle, Restudy Cap",
+ "filed": "2026-11-23",
+ "url": "//www.rtoinsider.com/152119-ferc-oks-penalty-free-exits-for-2022-miso-queue-cycle-restudy-cap/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " MISO is free to offer a one-time, penalty-free exit for 2022 interconnection queue projects while capping late-stage restudies, FERC ruled. \n The post  FERC OKs Penalty-free Exits for 2022 MISO Queue Cycle, Restudy Cap  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-24T15:22:22Z",
+ "run_id": "2026-11-24-1514",
+ "keywords": [
+  "interconnection",
+  "queue"
+ ],
+ "party_hits": [],
+ "documents": []
+}

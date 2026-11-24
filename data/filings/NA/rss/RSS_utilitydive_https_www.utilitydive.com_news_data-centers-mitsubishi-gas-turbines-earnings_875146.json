@@ -1,0 +1,26 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/data-centers-mitsubishi-gas-turbines-earnings/875146/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Off-grid costs will push data centers back to utilities: Mitsubishi Heavy Industries CEO",
+ "filed": "2026-11-23",
+ "url": "https://www.utilitydive.com/news/data-centers-mitsubishi-gas-turbines-earnings/875146/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      CEO Eisaku Ito expressed confidence in utilities' long-term expansion plans, arguing that growing demand for electricity does not rely solely on data centers. Even if&nbsp;some projected demand doesn&rsquo;t materialize, the effect would be &ldquo;limited,&rdquo; he said. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-24T15:22:22Z",
+ "run_id": "2026-11-24-1514",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}

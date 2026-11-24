@@ -1,0 +1,41 @@
+{
+ "id": "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-C082126-02",
+ "jur": "TX",
+ "source": "page:ercot_notice_archive",
+ "kind": "news",
+ "docket": null,
+ "title": "M-C082126-02 PowerGADS and Stakeholder Login Portal access for Resource Entities representing Generation Resources",
+ "filed": null,
+ "url": "https://www.ercot.com/services/comm/mkt_notices/M-C082126-02",
+ "fetch": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-C082126-02"
+  }
+ ],
+ "meta": {
+  "bkey": "page:ercot_notice_archive",
+  "rto": "ERCOT",
+  "page": "https://www.ercot.com/services/comm/mkt_notices/archives",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-24T15:21:11Z",
+ "run_id": "2026-11-24-1514",
+ "keywords": [
+  "resource adequacy"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.ercot.com/services/comm/mkt_notices/M-C082126-02",
+   "name": null,
+   "bytes": 14085,
+   "sha256": "7c9c0e92cb915ef86105c9b593cde24b12ad6e516e02a9b2e0f4aa4376b2c181",
+   "ctype": "text/html;charset=UTF-8",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Market Notice Details\n\nTo:\n\nNotice_Operations@lists.ercot.com\n\nSent:\n\n11/23/26, 5:06 PM\n\nSubject:\n\nM-C082126-02 PowerGADS and Stakeholder Login Portal access for Resource Entities representing Generation Resources\n\nNOTICE DATE:\n November 23, 2026\n\nNOTICE TYPE: \nM-C082126-02 Operations\n\nSHORT DESCRIPTION:\n PowerGADS and Stakeholder Login Portal access for Resource Entities representing Generation Resources\n\nINTENDED AUDIENCE:\n PowerGADS users and User Security Administrators (USAs) from Resource Entities Registered with NERC\n\nDAYS AFFECTED:\n December 4, 2026 - Onward\n\nLONG DESCRIPTION: \nAs mentioned in the attached previous Notice distributed on August 21, 2026 (M-C082126-01), ERCOT is implementing a new process for acquiring Generating Availability Data System (GADS) data for studies mandated by the Public Utility Commission of Texas and North American Electric Reliability Corporation (NERC). ERCOT acquired PowerGADS, a web-based GADS data collection and management tool. PowerGADS will be available for Resource Entities on \nDecember 4, 2026.\n Secure access to PowerGADS will be managed through a new \nStakeholder Login Portal\n* that will allow users to securely log in to PowerGADS and access authorized application features, create passwords, set up and manage Multi Factor Authentication (MFA) methods,\n login to \nMarket Participant Identity Management (MPIM) for the USA \nto assign PowerGADS entitlements to users.\n\nResource Entity USAs will be able to login to the Market Participant Identity Management (MPIM) application to assign PowerGADS entitlements to users.\n\n*PowerGADS is the first application to use the new Stakeholder Login Portal. This limited launch for Resource Entity users lets ERCOT exercise account creation, Multi Factor Authentication sign-in, and supporting back-end components with a small group of users before larger applications follow, beginning with the Market Participant Service Portal (MPSP) in 2027, which will reach all Market Participants.\n\nNOTE FOR RESOURCE ENTITIES REGISTERED WITH NERC: Change from the August 21, 2026 Notice\n\nThere is a change from the August 21, 2026 Notice (M-C082126-01) attached to this Market Notice. \nResource Entities are no longer required to fill out the PowerGADS user account information form\n or email it to \nGADSSubmissions@ercot.com\n to set up user accounts in PowerGADS. \nUser Security Administrators (USAs) will now provision\n user access to PowerGADS by assigning the PG_M_OPERATOR entitlement/role on each user's behalf through the Market Participant Identity Manager (\nMPIM\n) application prior to launch.\n\nACTION REQUIRED: \nAction Required for users from Resource Entities Registered with NERC:\n\nSubmit Q1-26, Q2-26, Q3-26, and Q4-26 GADS files via PowerGADS by February 15, 2027 using the attached instructions. The schedule for reporting GADS data to ERCOT will follow the same schedule NERC implements for their GADS submissions as seen below.\n\nThe GADS data submitted to ERCOT are considered Protected Information under Nodal Protocols Section 1.3.1.1(1)(q).\n\nNotify your USA to add the PG_M_OPERATOR entitlement to your account along with your preferred email address to gain access. Note that your email address will serve as both your identifier and login credential.\n\nReview the linked Job Aids: \nSetup Stakeholder Login\n; \nStakeholder Login Access for PowerGADS Market Participants\n; and \nManage Multi Factor Authentication for PowerGADS Users\n\nReview the Job Aids and complete the above steps prior to December 4, 2026.\n\nReview Reporting Schedule\n\nReporting Deadline\n\nPeriod of Operation to Report \n\nFebruary 15 \n\nAny updates for prior year \n\nMay 15\n\nQuarter 1: January 1 - March 31 \n\nAugust 15 \n\nQuarter 2: April 1 - June 30 \n\nNovember 15 \n\nQuarter 3: July 1 - September 30 \n\nFebruary 15 \n\nQuarter 4: October 1 - December 31 \n\nNOTE FOR USAs for RESOURCE ENTITIES registered with NERC\n\nUSAs will provision user access to PowerGADS by assigning the PG_M_OPERATOR entitlement/role through the Market Participant Identity Manager (MPIM)* application.\n\n*Please note, both the Market Participant Identity Manager (MPIM) and Stakeholder Login Portal will be operated in parallel while additional functionality is planned at future dates. Communications will be shared at each stage.\n\nACTION REQUIRED: USAs - Please Follow The Instructions Below:\n\nDefining MPIM:\n The MIS application used by USAs to manage user access to the MIS. To access MPIM, authenticate with your digital certificate by logging in to the Market Information System (MIS). Assign PowerGADS user access through MPIM using the below steps before December 4th, 2026:\n\nReview the linked \nManage PowerGADS User Access in MPIM\n Job Aid\n\nTo provision access to PowerGADS, the PG_M_OPERATOR entitlement/role will be added to MPIM.\n\nIf a user does not already exist, the USA must create the user account. The email address is especially important as part of the account.\n\nA certificate will not be required for PowerGADS access.\n\nThe email address must be the user's intended identifier and login credential. For example, Jim Jones could use \nJim.Jones@comp.com\n.\n\nCONTACT:\n If you have any questions regarding PowerGADS data, please contact \nGADSSubmissions@ercot.com\n. For general questions contact ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at \nClientServices@ercot.com\n. For MPIM or Access questions you may contact the Future Ready Identity program at \nIAM2FutureReady@ercot.com\n.\n\nIf you are receiving email from a public ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: \nhttp://lists.ercot.com\n.\n\ndg\n\nAttachments:\n\nERCOT PowerGADS Data Import Process.pdf\n\nNov 19, 2026 - pdf - 225.8 KB\n\nM-C082126-01 New process for providing NERC GADS files to support ERCOT resource adequacy studies.pdf\n\nNov 20, 2026 - pdf - 43.7 KB"
+  }
+ ]
+}

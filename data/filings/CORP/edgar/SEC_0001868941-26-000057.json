@@ -1,0 +1,23 @@
+{
+ "id": "SEC:0001868941-26-000057",
+ "jur": "CORP",
+ "source": "edgar_fts",
+ "kind": "keyword_hit",
+ "docket": null,
+ "title": "Fluence Energy, Inc.  (FLNC)  (CIK 0001868941) 10-K — full-text hit \"large load\" tariff",
+ "filed": "2026-11-23",
+ "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894126000057/",
+ "entity": "Fluence Energy, Inc.  (FLNC)  (CIK 0001868941)",
+ "fetch": [],
+ "meta": {
+  "query": "\"large load\" tariff",
+  "form": "10-K"
+ },
+ "collected_at": "2026-11-24T15:42:37Z",
+ "run_id": "2026-11-24-1514",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

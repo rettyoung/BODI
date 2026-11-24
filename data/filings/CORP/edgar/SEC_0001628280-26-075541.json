@@ -1,0 +1,46 @@
+{
+ "id": "SEC:0001628280-26-075541",
+ "jur": "CORP",
+ "source": "edgar",
+ "kind": "disclosure",
+ "docket": null,
+ "title": "Meta 8-K 8-K items 8.01",
+ "filed": "2026-11-23",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/",
+ "entity": "Meta",
+ "fetch": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm"
+  }
+ ],
+ "meta": {
+  "form": "8-K",
+  "items": [
+   "8.01"
+  ],
+  "cik": "0001326801",
+  "market_participant": true
+ },
+ "collected_at": "2026-11-24T15:42:37Z",
+ "run_id": "2026-11-24-1514",
+ "keywords": [
+  "ESA"
+ ],
+ "party_hits": [
+  "Meta"
+ ],
+ "documents": [
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm",
+   "name": null,
+   "bytes": 39139,
+   "sha256": "1fa0a738cc3679be2689719840342c83bee31e1820adef5924bcd497bd2162aa",
+   "ctype": "text/html",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "meta-20261118\n0001326801\nfalse\n0001326801\n2026-11-18\n2026-11-18\n0001326801\nus-gaap:CommonClassAMember\n2026-11-18\n2026-11-18\n0001326801\nus-gaap:SeriesAPreferredStockMember\n2026-11-18\n2026-11-18\n0001326801\nmeta:A4.300SeniorNotesDue2031Member\n2026-11-18\n2026-11-18\n0001326801\nmeta:A4.650SeniorNotesDue2033Member\n2026-11-18\n2026-11-18\n0001326801\nmeta:A4.900SeniorNotesDue2035Member\n2026-11-18\n2026-11-18\n0001326801\nmeta:A5.400SeniorNotesDue2038Member\n2026-11-18\n2026-11-18\n0001326801\nmeta:A6.050SeniorNotesDue2044Member\n2026-11-18\n2026-11-18\n0001326801\nmeta:A6.400SeniorNotesDue2065Member\n2026-11-18\n2026-11-18\nUNITED STATES\n SECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549 \nFORM \n8-K\n\nCURRENT REPORT\n PURSUANT TO SECTION 13 or 15(d) OF \n THE SECURITIES EXCHANGE ACT OF 1934\nDate of Report (Date of earliest event reported): \nNovember 18, 2026\n\nMeta Platforms, Inc.\n(Exact name of registrant as specified in its charter)\nDelaware\n001-35551\n20-1665019\n(State or Other Jurisdiction \nof Incorporation)\n(Commission \nFile Number)\n(IRS Employer \nIdentification No.)\n1 Meta Way\n, \nMenlo Park\n, \nCalifornia\n\n94025\n\n(Address of principal executive offices and Zip Code)\n(\n650\n) \n543-4800\n\n(Registrant’s telephone number, including area code)\nN/A\n(Former name or former address, if changed since last report)\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:\n☐\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n☐\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n☐\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n☐\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\n\nSecurities registered pursuant to Section 12(b) of the Act:\nTitle of each class\nTrading Symbol(s)\nName of each exchange on which registered\nClass A Common Stock, $0.000006 par value\nMETA\nThe Nasdaq Stock Market LLC\nDepositary Shares, each representing a 1/20th interest in a share of 6.50% Series A Mandatory Convertible Preferred Stock, $0.000006 par value\nMETAM\nThe Nasdaq Stock Market LLC\n4.300% Senior Notes due 2031\nThe Nasdaq Stock Market LLC\n4.650% Senior Notes due 2033\nThe Nasdaq Stock Market LLC\n4.900% Senior Notes due 2035\nThe Nasdaq Stock Market LLC\n5.400% Senior Notes due 2038\nThe Nasdaq Stock Market LLC\n6.050% Senior Notes due 2044\nThe Nasdaq Stock Market LLC\n6.400% Senior Notes due 2065\nThe Nasdaq Stock Market LLC\nIndicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter). \nEmerging growth company\n☐\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.  \n☐\nItem 8.01 Other Events.\nIn connection with recent lawsuits filed by various shareholders in the Court of Chancery in Delaware, which have been consolidated under the action captioned \nIn Re Meta Platforms, Inc. Class C Reclassification Litigation, Consol.\n C.A. No. 2026-1413-KSJM (the “Shareholder Litigation”), asserting claims challenging the recapitalization of Meta Platforms, Inc. (the “Company”) with a trial scheduled to begin April 19, 2027, the Company has agreed that it will not issue any shares of Class C common stock, whether through a dividend or otherwise, during the pendency of the pre-trial and trial proceedings in the Court of Chancery. \nIn furtherance of this, Mark Zuckerberg, the Company’s founder, Chairman, and Chief Executive Officer, granted a waiver to the Company of the requirement in the Founder Alignment Agreement, dated October 20, 2026, between the Company and Mr. Zuckerberg, that the dividend of Class C common stock previously declared by the Company’s Board of Directors (the “Stock Dividend”) be paid by no later than the fifth business day following the effectiveness of the Company’s amended and restated certificate of incorporation. Such waiver will expire on the earlier of (i) the Company’s failure to pay the Stock Dividend within a reasonable period following resolution of the Shareholder Litigation that does not prohibit or enjoin the payment of the Stock Dividend; (ii) a final, non-appealable resolution of the Shareholder Litigation that prohibits or enjoins the payment of the Stock Dividend; and (iii) June 30, 2027, if the Stock Dividend has not been paid on or prior to such date. Because the Company will not launch its previously announced at-the-market program until the Class C common stock begins trading, it does not expect to launch the at-the-market program until after the Stock Dividend is paid.\nForward Looking Statements\nThis Current Report on Form 8-K contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 (the “PSLRA”). All statements contained in this Current Report on Form 8-K that do not relate to matters of historical fact should be considered forward-looking statements. Forward-looking statements are based on the Company’s expectations at the time such statements are made, speak only as of the dates they are made, and are susceptible to a number of risks, uncertainties, and other factors. For all such forward-looking statements, the Company claims the protection of the safe harbor for forward-looking statements contained in the PSLRA. The Company’s actual results, performance, or achievements may differ materially from any future results, performance, or achievements expressed or implied by the Company’s forward-looking statements. Many important factors could affect the Company’s future results and cause those results to differ materially from those expressed in or implied by the Company’s forward-looking statements as a result of various factors, including those discussed under the caption “Risk Factors” in the Company’s Quarterly Report on Form 10-Q for the quarter ended September 30, 2026 and the Company’s other filings with the Securities and Exchange Commission. All such forward-looking statements attributable to the Company or any person acting on the Company’s behalf are expressly qualified in their entirety by the cautionary statements contained or referred to above. Except as required by law, the Company undertakes no obligation to make any revisions to the forward-looking statements contained in this Current Report on Form 8-K or to update them to reflect events or circumstances occurring after the date of this Current Report on Form 8-K, whether as a result of new information, future developments, or otherwise.\nSIGNATURES\nPursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.\nMETA PLATFORMS, INC.\nDate: \nNovember 23, 2026\nBy:\n/s/ Katherine R. Kelly\nName:\nKatherine R. Kelly\nTitle:\nVice President and Corporate Secretary"
+  }
+ ]
+}

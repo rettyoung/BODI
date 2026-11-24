@@ -1,0 +1,26 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=152129",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "BPA Proposes 28 Substations for Fast-track Large Load Connections",
+ "filed": "2026-11-24",
+ "url": "//www.rtoinsider.com/152129-bpa-proposes-28-substations-for-fast-track-large-load-connections/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " The Bonneville Power Administration presented a list of substations that could become available to quickly connect large loads to the grid, while extending the product-launch timeline to further flesh out technical details. \n The post  BPA Proposes 28 Substations for Fast-track Large Load Connections  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-24T15:22:22Z",
+ "run_id": "2026-11-24-1514",
+ "keywords": [
+  "large load"
+ ],
+ "party_hits": [],
+ "documents": []
+}

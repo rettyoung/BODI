@@ -1,0 +1,26 @@
+{
+ "id": "RSS:canary:https://www.canarymedia.com/articles/data-centers/ohio-oks-gas-plant-for-data-centers",
+ "jur": null,
+ "source": "rss:canary",
+ "kind": "news",
+ "docket": null,
+ "title": "Ohio OKs gas plant for data centers despite local voter backlash",
+ "filed": "2026-11-23",
+ "url": "https://www.canarymedia.com/articles/data-centers/ohio-oks-gas-plant-for-data-centers",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:canary",
+  "rto": null,
+  "summary": "Ohio regulators just  greenlit construction of a big gas plant to power a data center complex, despite local residents’  overwhelming rejection of the projects in this month’s elections.  The permit approval itself is not unique: Around the U.S., energy-hungry data center developers are racing ahead with…",
+  "feed": "canary",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-24T15:22:22Z",
+ "run_id": "2026-11-24-1514",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [],
+ "documents": []
+}
