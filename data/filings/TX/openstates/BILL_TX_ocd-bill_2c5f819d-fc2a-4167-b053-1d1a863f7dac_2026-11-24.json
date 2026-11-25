@@ -1,0 +1,23 @@
+{
+ "id": "BILL:TX:ocd-bill/2c5f819d-fc2a-4167-b053-1d1a863f7dac:2026-11-24",
+ "jur": "TX",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 1283",
+ "title": "Relating to the exercise of the power of eminent domain by a political subdivision to acquire property outside the political subdivision's boundaries.",
+ "filed": "2026-11-24",
+ "url": "https://openstates.org/tx/bills/90R/HB1283/",
+ "fetch": [],
+ "meta": {
+  "session": "90R",
+  "latest_action": "Filed",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-25T15:11:07Z",
+ "run_id": "2026-11-25-1455",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

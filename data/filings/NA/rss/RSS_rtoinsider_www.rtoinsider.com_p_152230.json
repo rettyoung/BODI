@@ -1,0 +1,28 @@
+{
+ "id": "RSS:rtoinsider://www.rtoinsider.com/?p=152230",
+ "jur": null,
+ "source": "rss:rtoinsider",
+ "kind": "news",
+ "docket": null,
+ "title": "Google Proposes to Pay $10M for ATTs in AEP Ohio Project",
+ "filed": "2026-11-24",
+ "url": "//www.rtoinsider.com/152230-google-proposes-to-pay-100m-for-atts-in-aep-ohio-project/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:rtoinsider",
+  "rto": null,
+  "summary": " Google and Ohio Power have filed a   proposal   with regulators that would have the tech giant pay for transmission upgrades allowing for 24 MW of data center capacity to go online early while benefiting other ratepayers. \n The post  Google Proposes to Pay $10M for ATTs in AEP Ohio Project  appeared first on  RTO Insider . ",
+  "feed": "rtoinsider",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-25T15:01:30Z",
+ "run_id": "2026-11-25-1455",
+ "keywords": [
+  "data center"
+ ],
+ "party_hits": [
+  "Google"
+ ],
+ "documents": []
+}

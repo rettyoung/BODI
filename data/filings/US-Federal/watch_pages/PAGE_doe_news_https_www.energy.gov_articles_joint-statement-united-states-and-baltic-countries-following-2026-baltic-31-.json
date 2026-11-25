@@ -1,0 +1,42 @@
+{
+ "id": "PAGE:doe_news:https://www.energy.gov/articles/joint-statement-united-states-and-baltic-countries-following-2026-baltic-31-energy",
+ "jur": "US-Federal",
+ "source": "page:doe_news",
+ "kind": "news",
+ "docket": null,
+ "title": "Joint Statement by the United States and the Baltic Countries following the 2026 Baltic 3+1 Energy Dialogue",
+ "filed": null,
+ "url": "https://www.energy.gov/articles/joint-statement-united-states-and-baltic-countries-following-2026-baltic-31-energy",
+ "fetch": [
+  {
+   "url": "https://www.energy.gov/articles/joint-statement-united-states-and-baltic-countries-following-2026-baltic-31-energy"
+  }
+ ],
+ "meta": {
+  "bkey": "page:doe_news",
+  "rto": null,
+  "page": "https://www.energy.gov/newsroom",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-25T15:00:33Z",
+ "run_id": "2026-11-25-1455",
+ "keywords": [
+  "interconnection",
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.energy.gov/articles/joint-statement-united-states-and-baltic-countries-following-2026-baltic-31-energy",
+   "name": null,
+   "bytes": 112866,
+   "sha256": "7d3b616ab79a63e9290a4644b5c0185bd9ae12e73659881d061b08fea7d08134",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "  Joint Statement by the United States and the Baltic Countries following the 2026 Baltic 3+1\n                                       Energy Dialogue\n                                      November 19, 2026\n\nOn November 19, 2026, representatives of the Ministries of Energy for the three Baltic countries\nof Estonia, Latvia, and Lithuania and the United States Secretary of Energy convened for the\nsixth 3+1 Energy Dialogue on the margins of the Partnership for Transatlantic Energy\nCooperation (P-TEC) Ministerial in Warsaw, Poland. Estonia’s Vice Minister of Energy and\nMineral Resources Jaanus Uiga, Latvia’s State Secretary of Climate and Energy Līga Kurevska,\nLithuania’s Minister of Energy Lukas Savickas, and U.S. Secretary of Energy Chris Wright\naffirmed their shared commitment to strengthening their strategic energy partnership—ensuring\naccess to affordable and reliable energy; enhancing the security and resilience of critical energy\ninfrastructure; expanding the import of U.S. liquified natural gas (LNG) to continue diversifying\nEuropean energy supplies; and advancing the deployment of innovative civil nuclear\ntechnologies.\n\nThe representatives and Secretary recognized the longstanding and successful energy\ncooperation between the United States, Estonia, Latvia, and Lithuania, including U.S. technical\nassistance that contributed to the historic separation of the Baltic electricity grid from Russia and\nits subsequent synchronization with the Central European grid in February 2025. Building on\nthis milestone, they determined to continue technical cooperation to bolster energy security, grid\nresilience, and system reliability.\n\nThe representatives and Secretary discussed persistent physical and cyber threats to the Baltic\nenergy system, including risks to undersea and aboveground electric grid infrastructure, natural\ngas and liquid fuel supplies, and energy distribution. Recognizing the security of critical energy\ninfrastructure as a shared strategic priority, they emphasized the importance of continued\ncooperation to enhance infrastructure protection, preparedness, and resilience against potential\ndisruptions.\n\nThe representatives and Secretary emphasized that access to affordable, reliable, and secure\nelectricity is essential to economic competitiveness, industrial growth, and national security.\nThey highlighted the importance of transparent and fair electricity markets in reducing costs,\nencouraging investment, and supporting efficient electricity generation, as well as the role of\nstronger regional electricity interconnections in enhancing grid reliability, energy security, and\nmarket integration. They further emphasized the importance of avoiding premature retirement of\nreliable generating assets where doing so could undermine grid reliability, increase electricity\ncosts, or compromise energy security.\n\nThe representatives and Secretary discussed Europe’s steps and strategies to reduce energy\ndependence on adversaries in 2027, and the United States expressed its readiness to expand LNG\nsupplies to the Baltic region, while the Baltic countries continue efforts to increase LNG import\ncapacity and diversify regional energy supplies.\n\fThe assessment of innovative civil nuclear technologies, including small modular reactors, and\nthe exploration of their potential deployment remain areas of cooperation among the four\ncountries. Such technologies could contribute to reliable electricity generation, enhance the\nresilience of the Baltic power grid, and strengthen long-term energy security. The representatives\nand the Secretary recognized the potential role of U.S. civil nuclear technologies in the Baltic\nregion and determined to continue cooperation on technology, nuclear safety, regulatory\nframeworks, knowledge sharing, and the assessment of potential economic viability, taking into\naccount national decision-making processes and the needs of each country’s energy system.\n\nThe representatives and Secretary underscored their countries’ continued support for Ukraine\nand its people. The United States’ passage of the Lindsey O. Graham Sanctioning Russia and\nIran Act of 2026 and the €90 billion Ukrainian support loan package by the European Union are\nimportant contributions to bringing a just and lasting peace closer in Ukraine.\n\nThe Baltic countries and the United States value the Baltic 3+1 Energy Dialogue for advancing\nshared energy security priorities and future-oriented transatlantic cooperation. Looking ahead,\nthey reaffirmed their commitment to a strong transatlantic partnership grounded in trust, mutual\ninterests, and shared vision for a secure, resilient, and prosperous future. Through continued\nengagement under the 3+1 Energy Dialogue, Estonia, Latvia, Lithuania, and the United States\naim to enhance energy security, foster innovation, and deepen their strategic energy partnership\nto help build a more secure, resilient, and prosperous future.\n\n\n                                               ###\n\f"
+  }
+ ]
+}

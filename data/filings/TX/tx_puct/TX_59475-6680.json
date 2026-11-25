@@ -1,0 +1,23 @@
+{
+ "id": "TX:59475-6680",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "11/24/2026 | Robert Freehill | PL | VOID SEE ITEM 6681",
+ "filed": "2026-11-24",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6680",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6680"
+   ]
+  }
+ ],
+ "collected_at": "2026-11-25T15:26:21Z",
+ "run_id": "2026-11-25-1455",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

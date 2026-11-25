@@ -1,0 +1,29 @@
+{
+ "id": "RSS:utilitydive:https://www.utilitydive.com/news/vistra-midterms-data-center-ercot-pjm/875626/",
+ "jur": null,
+ "source": "rss:utilitydive",
+ "kind": "news",
+ "docket": null,
+ "title": "Midterms provide clarity on data center development: Vistra CEO",
+ "filed": "2026-11-24",
+ "url": "https://www.utilitydive.com/news/vistra-midterms-data-center-ercot-pjm/875626/",
+ "entity": null,
+ "fetch": [],
+ "meta": {
+  "bkey": "rss:utilitydive",
+  "rto": null,
+  "summary": "      &ldquo;As we've said for some time, load interconnect queues were overstated across the country and especially in ERCOT, driven by speculation from developers,&rdquo; Vistra CEO James Burke said. ",
+  "feed": "utilitydive",
+  "keyword_filter": true
+ },
+ "collected_at": "2026-11-25T15:01:30Z",
+ "run_id": "2026-11-25-1455",
+ "keywords": [
+  "data center",
+  "queue"
+ ],
+ "party_hits": [
+  "Vistra"
+ ],
+ "documents": []
+}

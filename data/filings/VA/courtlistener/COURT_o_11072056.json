@@ -1,0 +1,20 @@
+{
+ "id": "COURT:o:11072056",
+ "jur": "VA",
+ "source": "courtlistener",
+ "kind": "court",
+ "docket": "260162",
+ "title": "Calpine Energy Solutions v. State Corporation Commission",
+ "filed": "2026-11-25",
+ "url": "https://www.courtlistener.com/opinion/11072056/calpine-energy-solutions-v-state-corporation-commission/",
+ "fetch": [],
+ "meta": {
+  "court": "Supreme Court of Virginia",
+  "query": "\"Public Utility Commission\" OR \"Public Utilities Commission\" OR \"Public Service Commission\" OR \"Corporation Commission\" OR \"Electric Reliability Council\" OR \"Utilities Commission\""
+ },
+ "collected_at": "2026-11-25T15:15:01Z",
+ "run_id": "2026-11-25-1455",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

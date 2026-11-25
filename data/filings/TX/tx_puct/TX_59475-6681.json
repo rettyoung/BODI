@@ -1,0 +1,48 @@
+{
+ "id": "TX:59475-6681",
+ "jur": "TX",
+ "source": "tx_puct",
+ "kind": "filing",
+ "docket": "59475",
+ "title": "11/24/2026 | Robert Freehill | LTRS | Public Void Letter - Pro Se Intervenor Robert Freehill request central records to void Docket 59475 Item 6680.",
+ "filed": "2026-11-24",
+ "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6681",
+ "fetch": [
+  {
+   "tx_item": [
+    "59475",
+    "6681"
+   ]
+  }
+ ],
+ "collected_at": "2026-11-25T15:26:19Z",
+ "run_id": "2026-11-25-1455",
+ "keywords": [],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6681_1705167.ZIP",
+   "name": null,
+   "bytes": 42426,
+   "sha256": "63bda72ac5ce25e5aac495b1b5c65d8f91834e8e42e0b8dff460ae8e505cbcd1",
+   "ctype": "application/x-zip-compressed",
+   "quality": "zip",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "=== Public Void Letter of Docket 59475 Item 6680.pdf ===\nI, Pro Se Intervenor, Robert Freehill request Central Records to void Docket 59475 Item Number\n6680. I uploaded this and it is a duplicate entry of Item Number 6679.\n\n\n\nRespectfully,\n\nRobert Freehill.\n\f"
+  },
+  {
+   "url": "https://interchange.puc.texas.gov/Documents/59475_6681_1705168.PDF",
+   "name": null,
+   "bytes": 82345,
+   "sha256": "65247c2a90adb610211dbc6cf73c9b26f0c95e456340e68565cf2d5161f7e95d",
+   "ctype": "application/pdf",
+   "quality": "ocr",
+   "ocr": true,
+   "pages": 2,
+   "truncated": false,
+   "text": "Filing Receipt\n\nFiled Date - 2026-11-24 04:08:11 PM\nControl Number - 59475\n\nItem Number - 6681\n\n\fI, Pro Se Intervenor, Robert Freehill request Central Records to void Docket 59475 Item Number\n6680. | uploaded this and it is a duplicate entry of Item Number 6679.\n\nRespectfully,\n\nRobert Freehill.\n"
+  }
+ ]
+}

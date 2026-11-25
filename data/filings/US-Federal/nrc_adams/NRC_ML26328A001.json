@@ -1,0 +1,44 @@
+{
+ "id": "NRC:ML26328A001",
+ "jur": "US-Federal",
+ "source": "nrc_adams",
+ "kind": "filing",
+ "docket": "05000612",
+ "title": "Kairos Hermes 2 unit 2: Kairos Power LLC, Emails Regarding Request for Regulatory Guide 5.81, Revision 2 [['E-Mail']]",
+ "filed": "2026-11-25",
+ "entity": [
+  "NRC/OAR/DDLP/DARL/ARLB4"
+ ],
+ "url": "https://www.nrc.gov/docs/ML2632/ML26328A001.pdf",
+ "fetch": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2632/ML26328A001.pdf"
+  }
+ ],
+ "meta": {
+  "project": "Kairos Hermes 2 unit 2",
+  "accession": "ML26328A001",
+  "document_date": "2026-11-05"
+ },
+ "collected_at": "2026-11-25T15:18:40Z",
+ "run_id": "2026-11-25-1455",
+ "keywords": [
+  "nuclear"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.nrc.gov/docs/ML2632/ML26328A001.pdf",
+   "name": null,
+   "bytes": 297422,
+   "sha256": "261a457f6560a846c22c595e08e5843a40bf80f8805d1844087ba7cb5bc8c345",
+   "ctype": "application/pdf",
+   "quality": "text_layer",
+   "ocr": false,
+   "pages": 2,
+   "truncated": false,
+   "text": "From:             Edward Helvenston\nTo:               \"Margaret Ellenson\"\nCc:               ext_Drew_Peebles; ext_Leah_Parks; Michael Orenak; Cayetano Santos; Kara Smith\nSubject:          RE: Request a copy of RG 5.81\nDate:             Thursday, November 5, 2026 8:29:00 AM\nAttachments:      image001.png\n                  image002.png\n\n\n\nHello Margaret,\n\nThis e-mail is in response to Kairos’ request, by e-mail below dated November 3, 2026,\nregarding access to a certain non-public document relating to nuclear reactor security. Upon\nreview of the request, the NRC staff has established that Kairos does have the need-to-know\nfor this document. Therefore, the following document is being made available to Kairos:\n\n         Regulatory Guide 5.81, Revision 2, “Target Set Identification and Development for\n         Nuclear Power Reactors,” dated March 2026\n\nThe document has been uploaded to the shared SharePoint folder titled “Security.” Please\ncontact Kairos’ NRC Project Managers with any questions regarding access to this document.\nNote that this document is marked as Official Use Only – Security Related Information and as\nsuch it is Kairos’ responsibility to control access to this document. Kairos should ensure that\nonly those with the need-to-know will gain access to the document.\n\nThank you,\nEd\n\n\nEd Helvenston, U.S. NRC\nAdvanced Reactor Licensing Branch 4 (ARLB4)\nDivision of Advanced Reactor Licensing (DARL)\nOffice of Advanced Reactors (OAR)\n(301) 415-4067\n\n\n\nFrom: Margaret Ellenson <ellenson@kairospower.com>\nSent: Tuesday, November 3, 2026 3:24 PM\nTo: Edward Helvenston <Edward.Helvenston@nrc.gov>\nCc: ext_Drew_Peebles <peebles@kairospower.com>; ext_Leah_Parks <parks@kairospower.com>\nSubject: [External_Sender] Request a copy of RG 5.81\n\nHi Ed,\n\nMay I please have a copy of Regulatory Guide 5.81, “Target Set Identification and Development\nfor Nuclear Power Plants,” Revision 2?\n\fI understand the guide is OUO-SRI and must be requested. Kairos Power would like a copy to\ninform the security analysis for the Hermes 2 facility.\n\nThank you,\nMargaret\n\n\n\n\n                     Margaret Ellenson   Safeguards and Security Manager\n\n                     p (510) 775-1861 email: ellenson@kairospower.com\n                     she, her, hers           \n                     707 W Tower Ave, Alameda, CA 94501\n                     www.kairospower.com   \n\f"
+  }
+ ],
+ "enriched_at": "2026-11-25T15:29:48Z"
+}
