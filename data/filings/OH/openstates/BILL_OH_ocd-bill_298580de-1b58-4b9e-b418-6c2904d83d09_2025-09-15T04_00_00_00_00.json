@@ -1,0 +1,24 @@
+{
+ "id": "BILL:OH:ocd-bill/298580de-1b58-4b9e-b418-6c2904d83d09:2025-09-15T04:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 427",
+ "title": "Authorize voluntary demand response program for certain customers",
+ "filed": "2025-09-15",
+ "url": "https://openstates.org/oh/bills/136/HB427/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Referred to committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-26T14:40:40Z",
+ "run_id": "2026-11-26-1424",
+ "keywords": [
+  "demand response",
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

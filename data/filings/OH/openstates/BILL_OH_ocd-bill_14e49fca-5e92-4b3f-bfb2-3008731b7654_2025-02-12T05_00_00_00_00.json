@@ -1,0 +1,23 @@
+{
+ "id": "BILL:OH:ocd-bill/14e49fca-5e92-4b3f-bfb2-3008731b7654:2025-02-12T05:00:00+00:00",
+ "jur": "OH",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "HB 66",
+ "title": "Repeal H.B. 6 - 133rd GA legacy generation resource provisions",
+ "filed": "2025-02-12",
+ "url": "https://openstates.org/oh/bills/136/HB66/",
+ "fetch": [],
+ "meta": {
+  "session": "136",
+  "latest_action": "Referred to committee",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-26T14:40:40Z",
+ "run_id": "2026-11-26-1424",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/e0e38464-d19f-4097-aa5a-51e6422b724a:2026-03-27",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 2808",
+ "title": "ELECTRIC TRANSMISSION SITING",
+ "filed": "2026-03-27",
+ "url": "https://openstates.org/il/bills/104th/SB2808/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Senate Committee Amendment No. 1 Rule 3-9(a) / Re-referred to Assignments",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-26T14:40:40Z",
+ "run_id": "2026-11-26-1424",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

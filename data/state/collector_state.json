@@ -11066,7 +11066,38 @@
   "TX:58000-72": "2026-11-25",
   "AZ:472814": "2026-11-25",
   "AZ:472812": "2026-11-25",
-  "LA:order:182887": "2026-11-25"
+  "LA:order:182887": "2026-11-25",
+  "NMDKT:26-0000206": "2026-11-26",
+  "MODKT:ET-2027-0153": "2026-11-26",
+  "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-B112526-01": "2026-11-26",
+  "PAGE:ercot_notice_archive:https://www.ercot.com/services/comm/mkt_notices/M-A112526-01": "2026-11-26",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/2026/11/governor-kay-iveys-thanksgiving-message/": "2026-11-26",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/2026/11/governor-ivey-shares-a-thanksgiving-message-of-gratitude-to-alabamians/": "2026-11-26",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/2026/11/thanksgiving-day-5/": "2026-11-26",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/2026/11/2026-general-election-results-proclamation/": "2026-11-26",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/2026/11/statewide-post-election-proclamation-2/": "2026-11-26",
+  "PAGE:gov_al:https://governor.alabama.gov/newsroom/page/367/": "2026-11-26",
+  "PAGE:gov_mo:https://governor.mo.gov/press-releases/archive/governor-kehoes-statement-following-detonation-iowa-army-ammunition-plant": "2026-11-26",
+  "RSS:amazon_news:https://www.aboutamazon.com/news/aws/aws-nitro-system-customer-data-privacy": "2026-11-26",
+  "RSS:utilitydive:https://www.utilitydive.com/news/what-is-holding-back-bidirectional-ev-charging-as-a-grid-resource/875766/": "2026-11-26",
+  "RSS:utilitydive:https://www.utilitydive.com/news/cheyenne-light-microsoft-google-data-center-bright-horizon/875739/": "2026-11-26",
+  "RSS:utilitydive:https://www.utilitydive.com/news/2026-q3-roundup-utilities-seek-to-reassure-investors-amid-election-fallout/875726/": "2026-11-26",
+  "BILL:US:119-HR-161:2026-04-28": "2026-11-26",
+  "BILL:US:118-HR-165:2023-01-20": "2026-11-26",
+  "BILL:US:117-HR-245:2021-02-02": "2026-11-26",
+  "BILL:IL:ocd-bill/70ebae04-1576-40fc-a4d4-dd5716de5140:2026-04-17": "2026-11-26",
+  "BILL:IL:ocd-bill/e0e38464-d19f-4097-aa5a-51e6422b724a:2026-03-27": "2026-11-26",
+  "BILL:IL:ocd-bill/cc673bf2-dafb-46a4-a3cf-29874aa462e4:2026-03-13": "2026-11-26",
+  "BILL:OH:ocd-bill/298580de-1b58-4b9e-b418-6c2904d83d09:2025-09-15T04:00:00+00:00": "2026-11-26",
+  "BILL:OH:ocd-bill/14e49fca-5e92-4b3f-bfb2-3008731b7654:2025-02-12T05:00:00+00:00": "2026-11-26",
+  "AGENDA:tulsa_tmapc:https://tulsaplanning.org/agendas/december-2-2026-planning-commission/": "2026-11-26",
+  "AGENDA:henrico:https://henrico.gov/pdfs/manager/meetings2026/12126ag.pdf": "2026-11-26",
+  "FR:2026-24077": "2026-11-26",
+  "FR:2026-24103": "2026-11-26",
+  "FR:2026-24083": "2026-11-26",
+  "SEC:0001193125-26-478506": "2026-11-26",
+  "AZ:472877": "2026-11-26",
+  "AZ:472868": "2026-11-26"
  },
  "sources": {
   "ferc": {
@@ -11078,7 +11109,7 @@
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "last_error": null
   },
   "edgar": {
@@ -21511,13 +21542,13 @@
     },
     "ciks_date": "2026-11"
    },
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "last_error": null
   },
   "az_acc": {
@@ -21526,22 +21557,22 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "ga_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "last_error": null
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "last_error": null
   },
   "ok_occ": {
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "data": {
     "case_format": "2026-000031",
     "rejected": [
@@ -21692,18 +21723,18 @@
     }
    },
    "last_ok": "2026-11-25",
-   "last_error": null
+   "last_error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='public.occ.ok.gov', port=443): Read timed out. (read timeout=60)\"))"
   },
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "last_error": null
   },
   "mo_efis": {
@@ -22436,40 +22467,41 @@
      "EO-2027-0132": "110246",
      "EA-2023-0017": "9791",
      "EF-2027-0142": "110525",
-     "EF-2022-0155": "10201"
+     "EF-2022-0155": "10201",
+     "ET-2027-0153": "110830"
     }
    },
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "last_error": null
   },
   "al_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "last_error": null
   },
   "eia": {
@@ -22479,25 +22511,25 @@
     "last_period": "2026-09"
    },
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -24397,13 +24429,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -24429,7 +24461,7 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -24583,6 +24615,7 @@
      "known": [
       "https://tulsaplanning.org/agendas/august-19-2026-tmapc-agenda/",
       "https://tulsaplanning.org/agendas/august-5-2026-tmapc-agenda/",
+      "https://tulsaplanning.org/agendas/december-2-2026-planning-commission/",
       "https://tulsaplanning.org/agendas/july-15-2026-tmapc-meeting/",
       "https://tulsaplanning.org/agendas/october-21-2026-planning-commission/",
       "https://tulsaplanning.org/agendas/october-7-2026-planning-commission/",
@@ -24615,6 +24648,7 @@
       "https://henrico.gov/pdfs/manager/meetings2026/102726ag.pdf",
       "https://henrico.gov/pdfs/manager/meetings2026/111026ag.pdf",
       "https://henrico.gov/pdfs/manager/meetings2026/11326ag.pdf",
+      "https://henrico.gov/pdfs/manager/meetings2026/12126ag.pdf",
       "https://henrico.gov/pdfs/manager/meetings2026/12726ag.pdf",
       "https://henrico.gov/pdfs/manager/meetings2026/21026ag.pdf",
       "https://henrico.gov/pdfs/manager/meetings2026/22426ag.pdf",
@@ -24661,7 +24695,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -24685,25 +24719,25 @@
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
@@ -24714,13 +24748,13 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -24738,7 +24772,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-25"
+   "last_ok": "2026-11-26"
   }
  },
  "baselined": [
@@ -24746,8 +24780,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 70,
- "last_run": "2026-11-25T15:29:51Z",
+ "runs": 71,
+ "last_run": "2026-11-26T14:55:08Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -25016,6 +25050,10 @@
    "AZ:472632",
    "AZ:472692",
    "AZ:472733",
+   "AZ:472785",
+   "AZ:472790",
+   "AZ:472792",
+   "AZ:472798",
    "AZDKT:E-00000A-25-0235",
    "AZDKT:E-01345A-25-0257",
    "AZDKT:E-01345A-26-0006",
@@ -27309,13 +27347,11 @@
    "TX:59611-8"
   ],
   "attempts": {
-   "AZ:472798": 2,
-   "AZ:472792": 2,
-   "AZ:472790": 2,
-   "AZ:472785": 2,
-   "TX:59475-6680": 1,
-   "AZ:472814": 1,
-   "AZ:472812": 1
+   "TX:59475-6680": 2,
+   "AZ:472814": 2,
+   "AZ:472812": 2,
+   "AZ:472877": 1,
+   "AZ:472868": 1
   },
   "doc_retries": {
    "TX:58482-36": 1,
@@ -27622,13 +27658,13 @@
    "GA:229481": 4,
    "NRC:ML26314A314": 1,
    "GA:229498": 4,
-   "GA:229508": 3
+   "GA:229508": 4
   }
  },
  "last_full_run": {
-  "run_id": "2026-11-25-1455",
-  "started": "2026-11-25T14:55:36Z",
-  "finished": "2026-11-25T15:29:51Z",
+  "run_id": "2026-11-26-1424",
+  "started": "2026-11-26T14:24:59Z",
+  "finished": "2026-11-26T14:55:08Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }

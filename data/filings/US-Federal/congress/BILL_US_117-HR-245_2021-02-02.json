@@ -1,0 +1,22 @@
+{
+ "id": "BILL:US:117-HR-245:2021-02-02",
+ "jur": "US-Federal",
+ "source": "congress",
+ "kind": "legislation",
+ "docket": "HR 245",
+ "title": "New Source Review Permitting Improvement Act",
+ "filed": "2021-02-02",
+ "url": "https://www.congress.gov/bill/117th-congress/house-bill/245",
+ "fetch": [],
+ "meta": {
+  "latest_action": "Referred to the Subcommittee on Environment and Climate Change.",
+  "keywords": [
+   "permitting"
+  ]
+ },
+ "collected_at": "2026-11-26T14:35:01Z",
+ "run_id": "2026-11-26-1424",
+ "keywords": [],
+ "party_hits": [],
+ "documents": []
+}

@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/70ebae04-1576-40fc-a4d4-dd5716de5140:2026-04-17",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 2907",
+ "title": "MUNI CD-UTILITY INFO",
+ "filed": "2026-04-17",
+ "url": "https://openstates.org/il/bills/104th/SB2907/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Rule 3-9(a) / Re-referred to Assignments",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-26T14:40:40Z",
+ "run_id": "2026-11-26-1424",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

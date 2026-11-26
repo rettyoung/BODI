@@ -1,0 +1,23 @@
+{
+ "id": "BILL:IL:ocd-bill/cc673bf2-dafb-46a4-a3cf-29874aa462e4:2026-03-13",
+ "jur": "IL",
+ "source": "openstates",
+ "kind": "legislation",
+ "docket": "SB 3889",
+ "title": "VALUATION OF WATER UTILITIES",
+ "filed": "2026-03-13",
+ "url": "https://openstates.org/il/bills/104th/SB3889/",
+ "fetch": [],
+ "meta": {
+  "session": "104th",
+  "latest_action": "Rule 3-9(a) / Re-referred to Assignments",
+  "query": "electric service agreement"
+ },
+ "collected_at": "2026-11-26T14:40:40Z",
+ "run_id": "2026-11-26-1424",
+ "keywords": [
+  "electric service agreement"
+ ],
+ "party_hits": [],
+ "documents": []
+}

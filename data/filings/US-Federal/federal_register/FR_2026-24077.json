@@ -1,0 +1,47 @@
+{
+ "id": "FR:2026-24077",
+ "jur": "US-Federal",
+ "source": "federal_register",
+ "kind": "notice",
+ "docket": "",
+ "title": "Agency Information Collection Proposed New Survey",
+ "filed": "2026-11-27",
+ "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24077/agency-information-collection-proposed-new-survey",
+ "entity": "energy-department, energy-information-administration",
+ "fetch": [
+  {
+   "url": "https://www.federalregister.gov/documents/full_text/text/2026/11/27/2026-24077.txt"
+  }
+ ],
+ "meta": {
+  "type": "Notice",
+  "action": "Notice and request for comments.",
+  "abstract": "EIA invites public comment on the proposed collection of information, Data Center Energy Consumption Survey (DCECS), as required under the Paperwork Reduction Act of 1995. Form EIA-872 will collect facility-level data on energy consumption and energy-related physical and operational characteristics from all U.S. data centers with a design capacity of at least 1 megawatt (MW). DCECS will be used to produce national statistics on data center energy consumption and electricity demand.",
+  "comments_close_on": "2027-01-26",
+  "effective_on": null,
+  "term": "colocation"
+ },
+ "collected_at": "2026-11-26T14:48:25Z",
+ "run_id": "2026-11-26-1424",
+ "keywords": [
+  "colocation",
+  "crypto",
+  "data center",
+  "hyperscale"
+ ],
+ "party_hits": [],
+ "documents": [
+  {
+   "url": "https://www.federalregister.gov/documents/full_text/text/2026/11/27/2026-24077.txt",
+   "name": null,
+   "bytes": 7158,
+   "sha256": "c95b05731a0f5a5bbf3a05ae67e8fe7b84dccbd9dd72715f40a216527bda8ad4",
+   "ctype": "text/plain",
+   "quality": "html",
+   "ocr": false,
+   "pages": null,
+   "truncated": false,
+   "text": "Federal Register, Volume 91 Issue 227 (Friday, November 27, 2026)\n\n[Federal Register Volume 91, Number 227 (Friday, November 27, 2026)]\n[Notices]\n[Pages 76760-76761]\nFrom the Federal Register Online via the Government Publishing Office [\nwww.gpo.gov\n]\n[FR Doc No: 2026-24077]\n\n=======================================================================\n-----------------------------------------------------------------------\n\nDEPARTMENT OF ENERGY\n\nU.S. Energy Information Administration\n\nAgency Information Collection Proposed New Survey\n\nAGENCY: U.S. Energy Information Administration (EIA), Department of \nEnergy (DOE).\n\nACTION: Notice and request for comments.\n\n-----------------------------------------------------------------------\n\nSUMMARY: EIA invites public comment on the proposed collection of \ninformation, Data Center Energy Consumption Survey (DCECS), as required \nunder the Paperwork Reduction Act of 1995. Form EIA-872 will collect \nfacility-level data on energy consumption and energy-related physical \nand operational characteristics from all U.S. data centers with a \ndesign capacity of at least 1 megawatt (MW). DCECS will be used to \nproduce national statistics on data center energy consumption and \nelectricity demand.\n\nDATES: EIA must receive all comments on this proposed information \ncollection no later than January 26, 2027. If you anticipate any \ndifficulties in submitting your comments by the deadline, contact the \nperson listed in the ADDRESSES section of this notice as soon as \npossible.\n\nADDRESSES: You may submit comments, identified by EIA-872: Data Center \nEnergy Consumption Survey, by email to \n[email protected]\n. Include \nthe OMB control number listed in the subject line of the message.\n\nFOR FURTHER INFORMATION CONTACT: Maura Bardos Chihil, EIA Clearance \nOfficer, at (202) 586-7865, \n[email protected]\n. The forms and \ninstructions are available on EIA's website at \nwww.eia.gov/survey/\n.\n\nSUPPLEMENTARY INFORMATION: This information collection request \ncontains:\n    (1) OMB No.: New;\n    (2) Information Collection Request Title: Data Center Energy \nConsumption Survey (DCECS);\n    (3) Type of Request: New;\n    (4) Purpose: Form EIA-872, Data Center Energy Consumption Survey \n(DCECS), will collect facility-level statistical information on energy \nconsumption and energy-related physical and operational characteristics \nof data centers in the United States.\n    Data centers exhibit high power densities when compared with other \ncommercial spaces that would traditionally fall under EIA's Commercial \nBuilding Energy Consumption Survey (CBECS), which most recently \ncollected data from 2018. A new survey is required because there are \ncurrently no sources that comprehensively measure end-use energy \nconsumption of data centers and certain aspects of their operating \nprofiles, which are driven by continuous information-technology (IT) \nloads, uninterruptible power supplies, complex liquid- and air-cooling \nsystems, and other characteristics.\n    For the purposes of this collection, a data center facility is \ndefined as follows: ``A data center facility is comprised of a \ndedicated building, buildings, or a clearly delineated or partitioned \nportion of a building with the primary purpose of housing computer \nservers and associated IT equipment (e.g., storage, networking) and \nessential supporting infrastructure, including, but not limited to, \nuninterruptible power delivery, cooling systems, and network \nconnectivity.\n    A data center facility may be a campus, which is a multi-building \ncomplex where energy, cooling, or power delivery infrastructure is \nfunctionally integrated or shared across the buildings.''\n    EIA will collect data annually for the previous reference year. EIA \nwill send each company with at least one data center a questionnaire to \nidentify a roster of data center facilities and will ask the company to \nprovide data for each in-scope facility that has an IT design capacity \nof at least 1 MW. Facilities that meet the definition and capacity \nthreshold may include enterprise data centers, colocation facilities, \nhyperscale facilities, edge data centers, super intelligence (SI) data \ncenters, carrier hotels, network gateways, and cryptocurrency mines, \nbut such facilities that do not meet the definition and capacity \nthreshold will be excluded from DCECS reporting. EIA is not proposing \nto collect any confidential business information pertaining to the \ncustomers these facilities may serve.\n    As part of the agency's effort to accelerate all consumption survey \nprograms from a multi-year to an annual publication frequency, EIA will \nbe conducting DCECS in 2027 as the annual data collection component of \ncommercial energy consumption statistics.\n    (5) Annual Estimated Number of Respondents: 1,400;\n    (6) Annual Estimated Number of Total Responses: 1,400;\n    (7) Annual Estimated Number of Burden Hours: 12,200;\n    (8) Annual Estimated Reporting and Recordkeeping Cost Burden: The \ncost of the burden hours is estimated to be $1,158,268 (12,200 burden \nhours times $94.94 per hour).\n    Comments are invited on whether or not: (a) The proposed collection \nof information is necessary for the proper performance of agency \nfunctions, including whether the information will have a practical \nutility; (b) EIA's estimate of the burden of the proposed collection of \ninformation, including the validity of the methodology and assumptions \nused, is accurate; (c) EIA can improve the quality, utility, and \nclarity of the information it will collect; (d) EIA can minimize the \nburden of the collection of information on respondents, such as \nautomated collection techniques or other forms of information \ntechnology; and (e) EIA's definition of a data center facility to \nensure that it is comprehensive and accurate.\n    The information provided on Form EIA-872 will be used for \nstatistical purposes only and is confidential by law. In accordance \nwith the Confidential Information Protection and Statistical Efficiency \nAct of 2018 (44 U.S.C. 3572), responses will not be disclosed in \nidentifiable form without consent. Collected data will be published \nonly in aggregate form.\n    Statutory Authority: 15 U.S.C. 772(b) and 42 U.S.C. 7101 et seq.\n\n[[Page 76761]]\n\n    Signed in Washington, DC, on November 23, 2026.\nPushpal Mukhopadhyay,\nDirector, Office of Statistical Methods & Research, U.S. Energy \nInformation Administration.\n[FR Doc. 2026-24077 Filed 11-25-26; 8:45 am]\nBILLING CODE 6450-01-P"
+  }
+ ]
+}
