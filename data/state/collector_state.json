@@ -11097,11 +11097,17 @@
   "FR:2026-24083": "2026-11-26",
   "SEC:0001193125-26-478506": "2026-11-26",
   "AZ:472877": "2026-11-26",
-  "AZ:472868": "2026-11-26"
+  "AZ:472868": "2026-11-26",
+  "RSS:google_blog:https://blog.google/company-news/outreach-and-initiatives/google-org/15-years-investing-colombia-talent-future/": "2026-11-27",
+  "RSS:canary:https://www.canarymedia.com/articles/solar/solar-no-2-china-grid": "2026-11-27",
+  "BILL:US:118-S-2534:2023-07-26": "2026-11-27",
+  "BILL:US:118-HR-4770:2024-04-02": "2026-11-27",
+  "NRC:ML26322A187": "2026-11-27",
+  "SEC:0001144879-26-000069": "2026-11-27"
  },
  "sources": {
   "ferc": {
-   "consecutive_failures": 8,
+   "consecutive_failures": 9,
    "data": {},
    "last_ok": "2026-11-11",
    "last_error": "HTTP 403 for https://elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch"
@@ -11109,7 +11115,7 @@
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "last_error": null
   },
   "edgar": {
@@ -21542,13 +21548,13 @@
     },
     "ciks_date": "2026-11"
    },
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "last_error": null
   },
   "az_acc": {
@@ -21557,22 +21563,22 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "ga_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "last_error": null
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "last_error": null
   },
   "ok_occ": {
-   "consecutive_failures": 1,
+   "consecutive_failures": 2,
    "data": {
     "case_format": "2026-000031",
     "rejected": [
@@ -21728,13 +21734,13 @@
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "last_error": null
   },
   "mo_efis": {
@@ -22471,65 +22477,65 @@
      "ET-2027-0153": "110830"
     }
    },
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "last_error": null
   },
   "al_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "last_error": null
   },
   "eia": {
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "data": {
     "planned": {},
     "last_period": "2026-09"
    },
-   "last_error": null,
+   "last_error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=60)\"))",
    "last_ok": "2026-11-26"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -24429,13 +24435,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -24461,7 +24467,7 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -24695,7 +24701,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -24719,25 +24725,25 @@
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
@@ -24748,13 +24754,13 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -24772,7 +24778,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-26"
+   "last_ok": "2026-11-27"
   }
  },
  "baselined": [
@@ -24780,8 +24786,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 71,
- "last_run": "2026-11-26T14:55:08Z",
+ "runs": 72,
+ "last_run": "2026-11-27T14:49:53Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -25054,6 +25060,8 @@
    "AZ:472790",
    "AZ:472792",
    "AZ:472798",
+   "AZ:472812",
+   "AZ:472814",
    "AZDKT:E-00000A-25-0235",
    "AZDKT:E-01345A-25-0257",
    "AZDKT:E-01345A-26-0006",
@@ -27323,6 +27331,7 @@
    "TX:59475-6614",
    "TX:59475-6615",
    "TX:59475-6666",
+   "TX:59475-6680",
    "TX:59611-1",
    "TX:59611-19",
    "TX:59611-2",
@@ -27347,11 +27356,8 @@
    "TX:59611-8"
   ],
   "attempts": {
-   "TX:59475-6680": 2,
-   "AZ:472814": 2,
-   "AZ:472812": 2,
-   "AZ:472877": 1,
-   "AZ:472868": 1
+   "AZ:472877": 2,
+   "AZ:472868": 2
   },
   "doc_retries": {
    "TX:58482-36": 1,
@@ -27662,9 +27668,9 @@
   }
  },
  "last_full_run": {
-  "run_id": "2026-11-26-1424",
-  "started": "2026-11-26T14:24:59Z",
-  "finished": "2026-11-26T14:55:08Z",
+  "run_id": "2026-11-27-1418",
+  "started": "2026-11-27T14:18:05Z",
+  "finished": "2026-11-27T14:49:53Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }

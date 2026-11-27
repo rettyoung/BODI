@@ -1,38 +1,22 @@
 {
  "backfill_since": null,
- "run_id": "2026-11-26-1424",
- "started": "2026-11-26T14:24:59Z",
+ "run_id": "2026-11-27-1418",
+ "started": "2026-11-27T14:18:05Z",
  "sources": {
-  "nm_prc": {
-   "since": "2026-11-22",
-   "found": 6,
-   "new": 1,
-   "baselined_now": 0,
-   "kept": 1,
-   "status": "ok",
-   "subsources": {},
-   "notes": [
-    "nm 25-00079-UT: 0 documents in window",
-    "nm 25-00082-UT: 1 documents in window",
-    "nm 26-0000062: 0 documents in window"
-   ],
-   "seconds": 21.4,
-   "consecutive_failures": 0
-  },
   "mo_efis": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 65,
-   "new": 1,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 1,
+   "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 18.5,
+   "seconds": 15.3,
    "consecutive_failures": 0
   },
   "al_psc": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -40,15 +24,15 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 36.5,
+   "seconds": 36.3,
    "consecutive_failures": 0
   },
   "watch_pages": {
-   "since": "2026-11-22",
-   "found": 1402,
-   "new": 15,
+   "since": "2026-11-23",
+   "found": 1390,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 15,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "grda_board": {
@@ -217,7 +201,7 @@
     },
     "rfp_xcel_sps": {
      "status": "ok",
-     "note": "29 links"
+     "note": "17 links"
     },
     "doe_news": {
      "status": "ok",
@@ -233,15 +217,15 @@
     }
    },
    "notes": [],
-   "seconds": 226.5,
+   "seconds": 191.0,
    "consecutive_failures": 0
   },
   "rss": {
-   "since": "2026-11-22",
-   "found": 33,
-   "new": 4,
+   "since": "2026-11-23",
+   "found": 35,
+   "new": 2,
    "baselined_now": 0,
-   "kept": 2,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "pjm_insidelines": {
@@ -253,8 +237,8 @@
      "note": "50 entries"
     },
     "nrc_news": {
-     "status": "error",
-     "note": "Blocked('HTTP 403 for https://www.nrc.gov/public-involve/rss?feed=news')"
+     "status": "ok",
+     "note": "174 entries"
     },
     "grid_strategies": {
      "status": "ok",
@@ -298,11 +282,11 @@
     }
    },
    "notes": [],
-   "seconds": 56.8,
+   "seconds": 57.3,
    "consecutive_failures": 0
   },
   "ir_decks": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 241,
    "new": 0,
    "baselined_now": 0,
@@ -375,11 +359,11 @@
     }
    },
    "notes": [],
-   "seconds": 188.4,
+   "seconds": 185.6,
    "consecutive_failures": 0
   },
   "mirrors": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 30,
    "new": 0,
    "baselined_now": 0,
@@ -404,52 +388,44 @@
     }
    },
    "notes": [],
-   "seconds": 12.9,
+   "seconds": 12.6,
    "consecutive_failures": 0
   },
   "eia": {
-   "since": "2026-11-22",
-   "found": 0,
+   "since": "2026-11-23",
+   "status": "ERROR",
+   "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=60)\"))",
+   "trace": "le \"/home/runner/work/BODI/BODI/collector/common.py\", line 255, in get\n    return self.request(\"GET\", url, **kw)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/BODI/BODI/collector/common.py\", line 252, in request\n    raise last_exc or RuntimeError(f\"failed {url}\")\n  File \"/home/runner/work/BODI/BODI/collector/common.py\", line 214, in request\n    r = self.session.request(method, url, verify=hs.ca_bundle or True, **kw)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/adapters.py\", line 742, in send\n    raise ReadTimeout(e, request=request)\nrequests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=60)\n",
+   "subsources": {},
+   "seconds": 207.6,
+   "consecutive_failures": 1
+  },
+  "congress": {
+   "since": "2026-11-23",
+   "found": 8,
+   "new": 2,
+   "baselined_now": 0,
+   "kept": 2,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 9.1,
+   "consecutive_failures": 0
+  },
+  "openstates": {
+   "since": "2026-11-23",
+   "found": 40,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
-   "subsources": {
-    "eia": {
-     "status": "ok",
-     "note": "no new period (latest 2026-09)"
-    }
-   },
-   "notes": [],
-   "seconds": 23.1,
-   "consecutive_failures": 0
-  },
-  "congress": {
-   "since": "2026-11-22",
-   "found": 6,
-   "new": 3,
-   "baselined_now": 0,
-   "kept": 3,
-   "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 17.9,
-   "consecutive_failures": 0
-  },
-  "openstates": {
-   "since": "2026-11-22",
-   "found": 42,
-   "new": 5,
-   "baselined_now": 0,
-   "kept": 5,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 338.3,
+   "seconds": 331.6,
    "consecutive_failures": 0
   },
   "courtlistener": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 1,
    "new": 0,
    "baselined_now": 0,
@@ -457,11 +433,11 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 169.3,
+   "seconds": 170.6,
    "consecutive_failures": 0
   },
   "queues": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -473,7 +449,7 @@
    "consecutive_failures": 0
   },
   "legistar": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -498,7 +474,7 @@
     },
     "columbus": {
      "status": "ok",
-     "note": "4 matters, 0 on-topic"
+     "note": "5 matters, 0 on-topic"
     },
     "sanantonio": {
      "status": "ok",
@@ -522,7 +498,7 @@
    "consecutive_failures": 0
   },
   "courts_state": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -534,20 +510,20 @@
    "consecutive_failures": 0
   },
   "agendas": {
-   "since": "2026-11-22",
-   "found": 2,
-   "new": 2,
+   "since": "2026-11-23",
+   "found": 0,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 1,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "atlanta": {
      "status": "ok",
-     "note": "31 links, 0 new"
+     "note": "30 links, 0 new"
     },
     "storey": {
-     "status": "blocked",
-     "note": "robots.txt disallows https://www.storeycounty.org/AgendaCenter (ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='www.storeycounty.org', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.storeycou)"
+     "status": "ok",
+     "note": "57 links, 0 new"
     },
     "tulsa_council": {
      "status": "ok",
@@ -555,7 +531,7 @@
     },
     "tulsa_tmapc": {
      "status": "ok",
-     "note": "5 links, 1 new"
+     "note": "5 links, 0 new"
     },
     "tulsa_boa": {
      "status": "ok",
@@ -563,7 +539,7 @@
     },
     "henrico": {
      "status": "ok",
-     "note": "23 links, 1 new"
+     "note": "23 links, 0 new"
     },
     "fairfax_bos": {
      "status": "ok",
@@ -571,11 +547,11 @@
     }
    },
    "notes": [],
-   "seconds": 112.4,
+   "seconds": 89.0,
    "consecutive_failures": 0
   },
   "ercot_large_load": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 3,
    "new": 0,
    "baselined_now": 0,
@@ -604,11 +580,11 @@
     }
    },
    "notes": [],
-   "seconds": 18.9,
+   "seconds": 19.0,
    "consecutive_failures": 0
   },
   "nyiso_icap": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -625,16 +601,16 @@
    "consecutive_failures": 0
   },
   "nrc_adams": {
-   "since": "2026-11-22",
-   "found": 6,
-   "new": 0,
+   "since": "2026-11-23",
+   "found": 7,
+   "new": 1,
    "baselined_now": 0,
-   "kept": 0,
+   "kept": 1,
    "status": "ok",
    "subsources": {
     "nrc:05000255": {
      "status": "ok",
-     "note": "0 documents"
+     "note": "1 documents"
     },
     "nrc:05000289": {
      "status": "ok",
@@ -674,11 +650,11 @@
     }
    },
    "notes": [],
-   "seconds": 30.1,
+   "seconds": 30.4,
    "consecutive_failures": 0
   },
   "ferc_forms": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -691,11 +667,11 @@
     }
    },
    "notes": [],
-   "seconds": 4.3,
+   "seconds": 3.9,
    "consecutive_failures": 0
   },
   "ferc_eqr": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -712,7 +688,7 @@
    "consecutive_failures": 0
   },
   "studies": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 2,
    "new": 0,
    "baselined_now": 0,
@@ -737,7 +713,7 @@
    "consecutive_failures": 0
   },
   "regulations_gov": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -754,36 +730,39 @@
    "consecutive_failures": 0
   },
   "ferc": {
-   "status": "CIRCUIT_OPEN",
-   "consecutive_failures": 8,
-   "last_error": "HTTP 403 for https://elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch"
+   "since": "2026-11-08",
+   "status": "ACCESS_REGRESSION",
+   "error": "HTTP 403 for https://elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch",
+   "subsources": {},
+   "seconds": 3.0,
+   "consecutive_failures": 9
   },
   "federal_register": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 10,
-   "new": 4,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 4,
+   "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 51.1,
+   "seconds": 39.1,
    "consecutive_failures": 0
   },
   "edgar": {
-   "since": "2026-11-22",
-   "found": 11,
+   "since": "2026-11-23",
+   "found": 12,
    "new": 1,
    "baselined_now": 0,
    "kept": 1,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 117.6,
+   "seconds": 121.2,
    "consecutive_failures": 0
   },
   "tx_puct": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 8,
    "new": 0,
    "baselined_now": 0,
@@ -795,11 +774,11 @@
    "consecutive_failures": 0
   },
   "az_acc": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 8,
-   "new": 2,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 2,
+   "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
@@ -807,7 +786,7 @@
    "consecutive_failures": 0
   },
   "ga_psc": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -815,11 +794,11 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 6.3,
+   "seconds": 6.4,
    "consecutive_failures": 0
   },
   "la_lpsc": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 3,
    "new": 0,
    "baselined_now": 0,
@@ -838,11 +817,11 @@
    "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='public.occ.ok.gov', port=443): Read timed out. (read timeout=60)\"))",
    "trace": "/runner/work/BODI/BODI/collector/common.py\", line 258, in post\n    return self.request(\"POST\", url, **kw)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/BODI/BODI/collector/common.py\", line 252, in request\n    raise last_exc or RuntimeError(f\"failed {url}\")\n  File \"/home/runner/work/BODI/BODI/collector/common.py\", line 214, in request\n    r = self.session.request(method, url, verify=hs.ca_bundle or True, **kw)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/adapters.py\", line 742, in send\n    raise ReadTimeout(e, request=request)\nrequests.exceptions.ReadTimeout: HTTPSConnectionPool(host='public.occ.ok.gov', port=443): Read timed out. (read timeout=60)\n",
    "subsources": {},
-   "seconds": 207.5,
-   "consecutive_failures": 1
+   "seconds": 207.4,
+   "consecutive_failures": 2
   },
   "ks_kcc": {
-   "since": "2026-11-22",
+   "since": "2026-11-23",
    "found": 1,
    "new": 0,
    "baselined_now": 0,
@@ -850,41 +829,50 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 0.4,
+   "seconds": 0.3,
+   "consecutive_failures": 0
+  },
+  "nm_prc": {
+   "since": "2026-11-23",
+   "found": 6,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [
+    "nm 25-00079-UT: 0 documents in window",
+    "nm 25-00082-UT: 1 documents in window",
+    "nm 26-0000062: 0 documents in window"
+   ],
+   "seconds": 21.3,
    "consecutive_failures": 0
   }
  },
- "docs_fetched": 26,
- "new_items": 35,
+ "docs_fetched": 4,
+ "new_items": 4,
  "user_agent": "BlueOwl-RegTracker/4.0 (***)",
  "trigger": {
   "event": "schedule",
   "cron": "43 4 * * *"
  },
- "hours_since_previous_full_run": 22.9,
+ "hours_since_previous_full_run": 23.4,
  "collector_gap": false,
- "finished": "2026-11-26T14:55:08Z",
+ "finished": "2026-11-27T14:49:53Z",
  "backfill_text": {
-  "queue": 10,
+  "queue": 5,
   "enriched": 0,
-  "docs": 8,
-  "errors": 8,
+  "docs": 4,
+  "errors": 4,
   "status": "ok",
-  "doc_retry_filings": 1,
-  "doc_retry_fixed": 0,
-  "doc_retry_still_failing": 0,
   "not_document": 0,
-  "retry_later": 5,
-  "gave_up": 4,
-  "candidates_filled": 4,
-  "remaining": 10,
-  "seconds": 0.8
+  "retry_later": 2,
+  "gave_up": 3,
+  "candidates_filled": 3,
+  "remaining": 5,
+  "seconds": 0.7
  },
  "http_hosts": {
-  "https://e360.prc.nm.gov": {
-   "robots": "200",
-   "note": "no robots.txt (HTML app shell)"
-  },
   "https://www.efis.psc.mo.gov": {
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
@@ -1054,7 +1042,7 @@
    "note": ""
   },
   "https://www.nrc.gov": {
-   "robots": "403",
+   "robots": "200",
    "note": ""
   },
   "https://gridstrategiesllc.com": {
@@ -1202,8 +1190,8 @@
    "note": "crawl delay 60s honoured"
   },
   "https://www.storeycounty.org": {
-   "robots": "error",
-   "note": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='www.storeycounty.org', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.storeycou"
+   "robots": "200",
+   "note": "crawl delay 10s honoured"
   },
   "https://www.tulsacouncil.org": {
    "robots": "200",
@@ -1245,6 +1233,10 @@
    "robots": "403",
    "note": ""
   },
+  "https://elibrary.ferc.gov": {
+   "robots": "403",
+   "note": ""
+  },
   "https://www.federalregister.gov": {
    "robots": "200",
    "note": ""
@@ -1269,10 +1261,6 @@
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
   },
-  "https://images.edocket.azcc.gov": {
-   "robots": "error",
-   "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
-  },
   "https://psc.ga.gov": {
    "robots": "404",
    "note": ""
@@ -1284,7 +1272,15 @@
   "https://public.occ.ok.gov": {
    "robots": "404",
    "note": ""
+  },
+  "https://e360.prc.nm.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
+  },
+  "https://images.edocket.azcc.gov": {
+   "robots": "error",
+   "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
   }
  },
- "seconds": 1809
+ "seconds": 1908
 }
