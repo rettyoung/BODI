@@ -11103,7 +11103,14 @@
   "BILL:US:118-S-2534:2023-07-26": "2026-11-27",
   "BILL:US:118-HR-4770:2024-04-02": "2026-11-27",
   "NRC:ML26322A187": "2026-11-27",
-  "SEC:0001144879-26-000069": "2026-11-27"
+  "SEC:0001144879-26-000069": "2026-11-27",
+  "PAGE:gov_mo:https://governor.mo.gov/press-releases/archive/missouri-governors-mansion-host-tree-lighting-ceremony-and-candlelight-0": "2026-11-28",
+  "PAGE:gov_mo:https://governor.mo.gov/press-releases/archive/governor-kehoe-announces-six-gubernatorial-appointments-3": "2026-11-28",
+  "AGENDA:fairfax_bos:https://www.fairfaxcounty.gov/boardofsupervisors/dec-08-2026-meeting": "2026-11-28",
+  "FR:2026-24273": "2026-11-28",
+  "FR:2026-24229": "2026-11-28",
+  "AZ:472920": "2026-11-28",
+  "AZ:472918": "2026-11-28"
  },
  "sources": {
   "ferc": {
@@ -11115,7 +11122,7 @@
   "federal_register": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "last_error": null
   },
   "edgar": {
@@ -21548,13 +21555,13 @@
     },
     "ciks_date": "2026-11"
    },
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "last_error": null
   },
   "tx_puct": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "last_error": null
   },
   "az_acc": {
@@ -21563,22 +21570,22 @@
     "az_docs_route": "docket/{did}"
    },
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "ga_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "last_error": null
   },
   "la_lpsc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "last_error": null
   },
   "ok_occ": {
-   "consecutive_failures": 2,
+   "consecutive_failures": 3,
    "data": {
     "case_format": "2026-000031",
     "rejected": [
@@ -21734,13 +21741,13 @@
   "ks_kcc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "last_error": null
   },
   "nm_prc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "last_error": null
   },
   "mo_efis": {
@@ -22477,65 +22484,65 @@
      "ET-2027-0153": "110830"
     }
    },
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "last_error": null
   },
   "al_psc": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "last_error": null
   },
   "watch_pages": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "last_error": null
   },
   "rss": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "ir_decks": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "last_error": null
   },
   "mirrors": {
    "consecutive_failures": 0,
    "data": {},
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "last_error": null
   },
   "eia": {
-   "consecutive_failures": 1,
+   "consecutive_failures": 0,
    "data": {
     "planned": {},
     "last_period": "2026-09"
    },
-   "last_error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=60)\"))",
-   "last_ok": "2026-11-26"
+   "last_error": null,
+   "last_ok": "2026-11-28"
   },
   "congress": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "openstates": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "courtlistener": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "queues": {
    "consecutive_failures": 0,
@@ -24435,13 +24442,13 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "legistar": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "courts_state": {
    "consecutive_failures": 0,
@@ -24467,7 +24474,7 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "agendas": {
    "consecutive_failures": 0,
@@ -24682,6 +24689,7 @@
       "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-land-use-policy-committee-meeting-may-12-2026",
       "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-land-use-policy-committee-meeting-nov-24-2026",
       "https://www.fairfaxcounty.gov/boardofsupervisors/board-supervisors-land-use-policy-committee-meeting-sept-1-2026",
+      "https://www.fairfaxcounty.gov/boardofsupervisors/dec-08-2026-meeting",
       "https://www.fairfaxcounty.gov/boardofsupervisors/feb-03-2026-meeting",
       "https://www.fairfaxcounty.gov/boardofsupervisors/feb-17-2026-meeting",
       "https://www.fairfaxcounty.gov/boardofsupervisors/jan-13-2026-meeting",
@@ -24701,7 +24709,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "ercot_large_load": {
    "consecutive_failures": 0,
@@ -24725,25 +24733,25 @@
     "ercot_api_large_load_products": []
    },
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "nyiso_icap": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "nrc_adams": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "ferc_forms": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "ferc_eqr": {
    "consecutive_failures": 0,
@@ -24754,13 +24762,13 @@
     ]
    },
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "studies": {
    "consecutive_failures": 0,
    "data": {},
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   },
   "regulations_gov": {
    "consecutive_failures": 0,
@@ -24778,7 +24786,7 @@
     }
    },
    "last_error": null,
-   "last_ok": "2026-11-27"
+   "last_ok": "2026-11-28"
   }
  },
  "baselined": [
@@ -24786,8 +24794,8 @@
   "ir_decks",
   "mirrors"
  ],
- "runs": 72,
- "last_run": "2026-11-27T14:49:53Z",
+ "runs": 73,
+ "last_run": "2026-11-28T14:04:30Z",
  "baselined_keys": [
   "ir:AEP",
   "ir:Ameren",
@@ -25062,6 +25070,8 @@
    "AZ:472798",
    "AZ:472812",
    "AZ:472814",
+   "AZ:472868",
+   "AZ:472877",
    "AZDKT:E-00000A-25-0235",
    "AZDKT:E-01345A-25-0257",
    "AZDKT:E-01345A-26-0006",
@@ -27356,8 +27366,8 @@
    "TX:59611-8"
   ],
   "attempts": {
-   "AZ:472877": 2,
-   "AZ:472868": 2
+   "AZ:472920": 1,
+   "AZ:472918": 1
   },
   "doc_retries": {
    "TX:58482-36": 1,
@@ -27668,9 +27678,9 @@
   }
  },
  "last_full_run": {
-  "run_id": "2026-11-27-1418",
-  "started": "2026-11-27T14:18:05Z",
-  "finished": "2026-11-27T14:49:53Z",
+  "run_id": "2026-11-28-1334",
+  "started": "2026-11-28T13:34:30Z",
+  "finished": "2026-11-28T14:04:30Z",
   "event": "schedule",
   "cron": "43 4 * * *"
  }

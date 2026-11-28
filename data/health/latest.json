@@ -1,22 +1,10 @@
 {
  "backfill_since": null,
- "run_id": "2026-11-27-1418",
- "started": "2026-11-27T14:18:05Z",
+ "run_id": "2026-11-28-1334",
+ "started": "2026-11-28T13:34:30Z",
  "sources": {
-  "mo_efis": {
-   "since": "2026-11-23",
-   "found": 65,
-   "new": 0,
-   "baselined_now": 0,
-   "kept": 0,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 15.3,
-   "consecutive_failures": 0
-  },
   "al_psc": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -24,15 +12,15 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 36.3,
+   "seconds": 36.5,
    "consecutive_failures": 0
   },
   "watch_pages": {
-   "since": "2026-11-23",
-   "found": 1390,
-   "new": 0,
+   "since": "2026-11-24",
+   "found": 1402,
+   "new": 4,
    "baselined_now": 0,
-   "kept": 0,
+   "kept": 4,
    "status": "ok",
    "subsources": {
     "grda_board": {
@@ -201,7 +189,7 @@
     },
     "rfp_xcel_sps": {
      "status": "ok",
-     "note": "17 links"
+     "note": "29 links"
     },
     "doe_news": {
      "status": "ok",
@@ -217,13 +205,13 @@
     }
    },
    "notes": [],
-   "seconds": 191.0,
+   "seconds": 198.0,
    "consecutive_failures": 0
   },
   "rss": {
-   "since": "2026-11-23",
-   "found": 35,
-   "new": 2,
+   "since": "2026-11-24",
+   "found": 25,
+   "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
@@ -237,8 +225,8 @@
      "note": "50 entries"
     },
     "nrc_news": {
-     "status": "ok",
-     "note": "174 entries"
+     "status": "error",
+     "note": "Blocked('HTTP 403 for https://www.nrc.gov/public-involve/rss?feed=news')"
     },
     "grid_strategies": {
      "status": "ok",
@@ -282,11 +270,11 @@
     }
    },
    "notes": [],
-   "seconds": 57.3,
+   "seconds": 56.5,
    "consecutive_failures": 0
   },
   "ir_decks": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 241,
    "new": 0,
    "baselined_now": 0,
@@ -326,8 +314,8 @@
      "note": "10 pdf links"
     },
     "ir:PPL": {
-     "status": "ok",
-     "note": "0 pdf links"
+     "status": "blocked",
+     "note": "block page (just a moment) at https://investors.pplweb.com/events-and-presentations"
     },
     "ir:Pinnacle West": {
      "status": "ok",
@@ -359,11 +347,11 @@
     }
    },
    "notes": [],
-   "seconds": 185.6,
+   "seconds": 206.8,
    "consecutive_failures": 0
   },
   "mirrors": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 30,
    "new": 0,
    "baselined_now": 0,
@@ -388,44 +376,52 @@
     }
    },
    "notes": [],
-   "seconds": 12.6,
+   "seconds": 12.7,
    "consecutive_failures": 0
   },
   "eia": {
    "since": "2026-11-23",
-   "status": "ERROR",
-   "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=60)\"))",
-   "trace": "le \"/home/runner/work/BODI/BODI/collector/common.py\", line 255, in get\n    return self.request(\"GET\", url, **kw)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/BODI/BODI/collector/common.py\", line 252, in request\n    raise last_exc or RuntimeError(f\"failed {url}\")\n  File \"/home/runner/work/BODI/BODI/collector/common.py\", line 214, in request\n    r = self.session.request(method, url, verify=hs.ca_bundle or True, **kw)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/adapters.py\", line 742, in send\n    raise ReadTimeout(e, request=request)\nrequests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.eia.gov', port=443): Read timed out. (read timeout=60)\n",
-   "subsources": {},
-   "seconds": 207.6,
-   "consecutive_failures": 1
-  },
-  "congress": {
-   "since": "2026-11-23",
-   "found": 8,
-   "new": 2,
+   "found": 0,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 2,
+   "kept": 0,
    "status": "ok",
-   "subsources": {},
+   "subsources": {
+    "eia": {
+     "status": "ok",
+     "note": "no new period (latest 2026-09)"
+    }
+   },
    "notes": [],
-   "seconds": 9.1,
+   "seconds": 12.3,
    "consecutive_failures": 0
   },
-  "openstates": {
-   "since": "2026-11-23",
-   "found": 40,
+  "congress": {
+   "since": "2026-11-24",
+   "found": 9,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 331.6,
+   "seconds": 12.7,
+   "consecutive_failures": 0
+  },
+  "openstates": {
+   "since": "2026-11-24",
+   "found": 39,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 344.9,
    "consecutive_failures": 0
   },
   "courtlistener": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 1,
    "new": 0,
    "baselined_now": 0,
@@ -433,11 +429,11 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 170.6,
+   "seconds": 182.3,
    "consecutive_failures": 0
   },
   "queues": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -449,7 +445,7 @@
    "consecutive_failures": 0
   },
   "legistar": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -462,15 +458,15 @@
     },
     "maricopa": {
      "status": "ok",
-     "note": "4 matters, 0 on-topic"
+     "note": "3 matters, 0 on-topic"
     },
     "phoenix": {
      "status": "ok",
-     "note": "3 matters, 0 on-topic"
+     "note": "1 matters, 0 on-topic"
     },
     "mesa": {
      "status": "ok",
-     "note": "14 matters, 0 on-topic"
+     "note": "11 matters, 0 on-topic"
     },
     "columbus": {
      "status": "ok",
@@ -490,7 +486,7 @@
     },
     "washoe-nv": {
      "status": "ok",
-     "note": "19 matters, 0 on-topic"
+     "note": "3 matters, 0 on-topic"
     }
    },
    "notes": [],
@@ -498,7 +494,7 @@
    "consecutive_failures": 0
   },
   "courts_state": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -510,9 +506,9 @@
    "consecutive_failures": 0
   },
   "agendas": {
-   "since": "2026-11-23",
-   "found": 0,
-   "new": 0,
+   "since": "2026-11-24",
+   "found": 1,
+   "new": 1,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
@@ -543,16 +539,16 @@
     },
     "fairfax_bos": {
      "status": "ok",
-     "note": "28 links, 0 new"
+     "note": "29 links, 1 new"
     }
    },
    "notes": [],
-   "seconds": 89.0,
+   "seconds": 107.7,
    "consecutive_failures": 0
   },
   "ercot_large_load": {
-   "since": "2026-11-23",
-   "found": 3,
+   "since": "2026-11-24",
+   "found": 2,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -580,11 +576,11 @@
     }
    },
    "notes": [],
-   "seconds": 19.0,
+   "seconds": 18.7,
    "consecutive_failures": 0
   },
   "nyiso_icap": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -597,15 +593,15 @@
     }
    },
    "notes": [],
-   "seconds": 0.3,
+   "seconds": 0.4,
    "consecutive_failures": 0
   },
   "nrc_adams": {
-   "since": "2026-11-23",
-   "found": 7,
-   "new": 1,
+   "since": "2026-11-24",
+   "found": 3,
+   "new": 0,
    "baselined_now": 0,
-   "kept": 1,
+   "kept": 0,
    "status": "ok",
    "subsources": {
     "nrc:05000255": {
@@ -622,11 +618,11 @@
     },
     "nrc:05000611": {
      "status": "ok",
-     "note": "2 documents"
+     "note": "1 documents"
     },
     "nrc:05000612": {
      "status": "ok",
-     "note": "2 documents"
+     "note": "1 documents"
     },
     "nrc:05000613": {
      "status": "ok",
@@ -642,19 +638,19 @@
     },
     "nrc:05000616": {
      "status": "ok",
-     "note": "1 documents"
+     "note": "0 documents"
     },
     "nrc:05000617": {
      "status": "ok",
-     "note": "1 documents"
+     "note": "0 documents"
     }
    },
    "notes": [],
-   "seconds": 30.4,
+   "seconds": 30.1,
    "consecutive_failures": 0
   },
   "ferc_forms": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -667,11 +663,11 @@
     }
    },
    "notes": [],
-   "seconds": 3.9,
+   "seconds": 4.2,
    "consecutive_failures": 0
   },
   "ferc_eqr": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -688,7 +684,7 @@
    "consecutive_failures": 0
   },
   "studies": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 2,
    "new": 0,
    "baselined_now": 0,
@@ -713,7 +709,7 @@
    "consecutive_failures": 0
   },
   "regulations_gov": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -726,44 +722,41 @@
     }
    },
    "notes": [],
-   "seconds": 42.1,
+   "seconds": 43.1,
    "consecutive_failures": 0
   },
   "ferc": {
-   "since": "2026-11-08",
-   "status": "ACCESS_REGRESSION",
-   "error": "HTTP 403 for https://elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch",
-   "subsources": {},
-   "seconds": 3.0,
-   "consecutive_failures": 9
+   "status": "CIRCUIT_OPEN",
+   "consecutive_failures": 9,
+   "last_error": "HTTP 403 for https://elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch"
   },
   "federal_register": {
-   "since": "2026-11-23",
-   "found": 10,
+   "since": "2026-11-24",
+   "found": 9,
+   "new": 2,
+   "baselined_now": 0,
+   "kept": 2,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 45.1,
+   "consecutive_failures": 0
+  },
+  "edgar": {
+   "since": "2026-11-24",
+   "found": 7,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 39.1,
-   "consecutive_failures": 0
-  },
-  "edgar": {
-   "since": "2026-11-23",
-   "found": 12,
-   "new": 1,
-   "baselined_now": 0,
-   "kept": 1,
-   "status": "ok",
-   "subsources": {},
-   "notes": [],
-   "seconds": 121.2,
+   "seconds": 118.6,
    "consecutive_failures": 0
   },
   "tx_puct": {
-   "since": "2026-11-23",
-   "found": 8,
+   "since": "2026-11-24",
+   "found": 7,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -774,11 +767,11 @@
    "consecutive_failures": 0
   },
   "az_acc": {
-   "since": "2026-11-23",
-   "found": 8,
-   "new": 0,
+   "since": "2026-11-24",
+   "found": 6,
+   "new": 2,
    "baselined_now": 0,
-   "kept": 0,
+   "kept": 2,
    "status": "ok",
    "subsources": {},
    "notes": [],
@@ -786,7 +779,7 @@
    "consecutive_failures": 0
   },
   "ga_psc": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 0,
    "new": 0,
    "baselined_now": 0,
@@ -798,8 +791,8 @@
    "consecutive_failures": 0
   },
   "la_lpsc": {
-   "since": "2026-11-23",
-   "found": 3,
+   "since": "2026-11-24",
+   "found": 1,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -808,7 +801,7 @@
    "notes": [
     "la: U-37921 not found"
    ],
-   "seconds": 21.2,
+   "seconds": 31.0,
    "consecutive_failures": 0
   },
   "ok_occ": {
@@ -817,11 +810,11 @@
    "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='public.occ.ok.gov', port=443): Read timed out. (read timeout=60)\"))",
    "trace": "/runner/work/BODI/BODI/collector/common.py\", line 258, in post\n    return self.request(\"POST\", url, **kw)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/BODI/BODI/collector/common.py\", line 252, in request\n    raise last_exc or RuntimeError(f\"failed {url}\")\n  File \"/home/runner/work/BODI/BODI/collector/common.py\", line 214, in request\n    r = self.session.request(method, url, verify=hs.ca_bundle or True, **kw)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/adapters.py\", line 742, in send\n    raise ReadTimeout(e, request=request)\nrequests.exceptions.ReadTimeout: HTTPSConnectionPool(host='public.occ.ok.gov', port=443): Read timed out. (read timeout=60)\n",
    "subsources": {},
-   "seconds": 207.4,
-   "consecutive_failures": 2
+   "seconds": 207.6,
+   "consecutive_failures": 3
   },
   "ks_kcc": {
-   "since": "2026-11-23",
+   "since": "2026-11-24",
    "found": 1,
    "new": 0,
    "baselined_now": 0,
@@ -829,12 +822,12 @@
    "status": "ok",
    "subsources": {},
    "notes": [],
-   "seconds": 0.3,
+   "seconds": 0.6,
    "consecutive_failures": 0
   },
   "nm_prc": {
-   "since": "2026-11-23",
-   "found": 6,
+   "since": "2026-11-24",
+   "found": 5,
    "new": 0,
    "baselined_now": 0,
    "kept": 0,
@@ -842,41 +835,49 @@
    "subsources": {},
    "notes": [
     "nm 25-00079-UT: 0 documents in window",
-    "nm 25-00082-UT: 1 documents in window",
+    "nm 25-00082-UT: 0 documents in window",
     "nm 26-0000062: 0 documents in window"
    ],
-   "seconds": 21.3,
+   "seconds": 21.7,
+   "consecutive_failures": 0
+  },
+  "mo_efis": {
+   "since": "2026-11-24",
+   "found": 57,
+   "new": 0,
+   "baselined_now": 0,
+   "kept": 0,
+   "status": "ok",
+   "subsources": {},
+   "notes": [],
+   "seconds": 15.4,
    "consecutive_failures": 0
   }
  },
- "docs_fetched": 4,
- "new_items": 4,
+ "docs_fetched": 9,
+ "new_items": 8,
  "user_agent": "BlueOwl-RegTracker/4.0 (***)",
  "trigger": {
   "event": "schedule",
   "cron": "43 4 * * *"
  },
- "hours_since_previous_full_run": 23.4,
+ "hours_since_previous_full_run": 22.7,
  "collector_gap": false,
- "finished": "2026-11-27T14:49:53Z",
+ "finished": "2026-11-28T14:04:30Z",
  "backfill_text": {
-  "queue": 5,
+  "queue": 4,
   "enriched": 0,
   "docs": 4,
   "errors": 4,
   "status": "ok",
   "not_document": 0,
   "retry_later": 2,
-  "gave_up": 3,
-  "candidates_filled": 3,
-  "remaining": 5,
+  "gave_up": 2,
+  "candidates_filled": 2,
+  "remaining": 4,
   "seconds": 0.7
  },
  "http_hosts": {
-  "https://www.efis.psc.mo.gov": {
-   "robots": "200",
-   "note": "no robots.txt (HTML app shell)"
-  },
   "https://www.pscpublicaccess.alabama.gov": {
    "robots": "404",
    "note": ""
@@ -1114,7 +1115,7 @@
    "note": "crawl delay 10s honoured"
   },
   "https://investors.pplweb.com": {
-   "robots": "404",
+   "robots": "403",
    "note": ""
   },
   "https://www.pinnaclewest.com": {
@@ -1233,10 +1234,6 @@
    "robots": "403",
    "note": ""
   },
-  "https://elibrary.ferc.gov": {
-   "robots": "403",
-   "note": ""
-  },
   "https://www.federalregister.gov": {
    "robots": "200",
    "note": ""
@@ -1261,6 +1258,10 @@
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
   },
+  "https://images.edocket.azcc.gov": {
+   "robots": "error",
+   "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
+  },
   "https://psc.ga.gov": {
    "robots": "404",
    "note": ""
@@ -1277,10 +1278,10 @@
    "robots": "200",
    "note": "no robots.txt (HTML app shell)"
   },
-  "https://images.edocket.azcc.gov": {
-   "robots": "error",
-   "note": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'images.edocket.azcc.gov\\', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_V"
+  "https://www.efis.psc.mo.gov": {
+   "robots": "200",
+   "note": "no robots.txt (HTML app shell)"
   }
  },
- "seconds": 1908
+ "seconds": 1801
 }
